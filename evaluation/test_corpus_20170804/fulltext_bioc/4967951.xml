@@ -1,0 +1,790 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4967951</id>
+    <passage>
+      <infon key="volume">17 17</infon>
+      <infon key="name_0">surname:Kang;given-names:Yeon Hee</infon>
+      <infon key="name_1">surname:Hardtke;given-names:Christian S</infon>
+      <infon key="alt-title">Yeon Hee Kang &amp; Christian S Hardtke</infon>
+      <infon key="article-id_publisher-id">EMBR201642450</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embr.201642450</infon>
+      <infon key="article-id_pmid">27354416</infon>
+      <infon key="lpage">1154 1154</infon>
+      <infon key="pub-id_pmid">27354416</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">1145 1145</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">8</infon>
+      <infon key="kwd">CLE peptide protophloem receptor&#8208;like kinase SKM1 SKM2 Plant Biology Signal Transduction</infon>
+      <offset>0</offset>
+      <text>Arabidopsis MAKR5 is a positive effector of BAM3&#8208;dependent CLE45 signaling</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>77</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>86</offset>
+      <text>Receptor kinases convey diverse environmental and developmental inputs by sensing extracellular ligands. In plants, one group of receptor&#8208;like kinases (RLKs) is characterized by extracellular leucine&#8208;rich repeat (LRR) domains, which interact with various ligands that include the plant hormone brassinosteroid and peptides of the CLAVATA3/EMBRYO SURROUNDING REGION (CLE) type. For instance, the CLE45 peptide requires the LRR&#8208;RLK BARELY ANY MERISTEM 3 (BAM3) to prevent protophloem formation in Arabidopsis root meristems. Here, we show that other proposed CLE45 receptors, the two redundantly acting LRR&#8208;RLKs STERILITY&#8208;REGULATING KINASE MEMBER 1 (SKM1) and SKM2 (which perceive CLE45 in the context of pollen tube elongation), cannot substitute for BAM3 in the root. Moreover, we identify MEMBRANE&#8208;ASSOCIATED KINASE REGULATOR 5 (MAKR5) as a post&#8208;transcriptionally regulated amplifier of the CLE45 signal that acts downstream of BAM3. MAKR5 belongs to a small protein family whose prototypical member, BRI1 KINASE INHIBITOR 1, is an essentially negative regulator of brassinosteroid signaling. By contrast, MAKR5 is a positive effector of CLE45 signaling, revealing an unexpected diversity in the conceptual roles of MAKR genes in different signaling pathways.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1361</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1374</offset>
+      <text>Receptor&#8208;like kinases (RLKs) are abundant in Arabidopsis, where they convey various environmental and developmental inputs. One large group of RLKs is characterized by extracellular leucine&#8208;rich repeat (LRR) domains, which interact with various ligand types 1. These comprise secreted, endogenous molecules, such as brassinosteroid plant hormones or peptide ligands of the CLAVATA3/EMBRYO SURROUNDING REGION (CLE) family. Among the various pathways, brassinosteroid perception is by far the best characterized 2. Brassinosteroids interact with the receptor kinase BRASSINOSTEROID INSENSITIVE 1 (BRI1) 3, which stabilizes BRI1 interaction with its co&#8208;receptor and triggers an intracellular signaling cascade that transmits the signal to nuclear effectors 2, 4, 5, 6, 7. A critical early signaling component is BRI1 KINASE INHIBITOR 1 (BKI1), which interacts with BRI1 and dampens its activity when brassinosteroid levels are low 8. BKI1 is thus mostly plasma membrane&#8208;associated, but rapidly dissociates into the cytoplasm upon brassinosteroid treatment, thereby releasing BRI1 inhibition 8, 9. In the cytoplasm, BKI1 can interact with 14&#8208;3&#8208;3 proteins, which reinforces its cytoplasmic localization and possibly also facilitates signal transduction because 14&#8208;3&#8208;3 proteins inhibit downstream transcription factor targets of brassinosteroid signaling 10. However, because BKI1 gain&#8208;of&#8208;function inhibits brassinosteroid signaling while its loss&#8208;of&#8208;function confers brassinosteroid hypersensitivity, BKI1 is considered an essentially negative regulator of the pathway 8, 9, 10, 11. BKI1 is the founding member of a small family that comprises six additional proteins named MEMBRANE&#8208;ASSOCIATED KINASE REGULATOR (MAKR) 1&#8211;6 9. Besides BKI1, next to nothing is known about signaling pathways and developmental processes that require MAKR gene activity. The only exception is MAKR4, which has been implicated in lateral root formation 12.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3332</offset>
+      <text>Although a number of (putative) CLE ligand/LRR&#8208;RLK pairs have been defined in various developmental processes, comparatively little is known about their downstream signaling components 13. At least in part, this might be due to redundancies in signaling intermediates and their sharing by distinct pathways, which also complicates their genetic identification. Moreover, a given ligand might be perceived by different LRR&#8208;RLKs, depending on affinities, expression patterns, and expression levels. For example, the dodecapeptide CLE45 has been described as a powerful agent to suppress the formation of root protophloem sieve elements 14. This effect requires the LRR&#8208;RLK BARELY ANY MERISTEM 3 (BAM3), which, similar to CLE45, is expressed in the developing protophloem 15. CLE45 and BAM3 are thought to constitute an endocrine signaling module that redundantly prevents premature differentiation of developing sieve elements 16. However, CLE45 was also found to prolong pollen tube growth at high temperature, and two redundantly acting LRR&#8208;RLKs, STERILITY&#8208;REGULATING KINASE MEMBER 1 (SKM1) and SKM2, presumably act as CLE45 receptors in this process 17.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4497</offset>
+      <text>In the protophloem context, the CLE45&#8208;BAM3 module was identified through a second site suppressor screen for loss&#8208;of&#8208;function of the positive regulator of protophloem sieve element differentiation, BREVIS RADIX (BRX) 15. brx null mutants display severely reduced root growth and associated systemic phenotypes that can be traced to a local defect in sieve element differentiation 14, 16. In brx mutants, protophloem precursor cells frequently fail to differentiate. These so&#8208;called gap cells can be identified in confocal microscopy because of their morphological features, such as the absence of a reinforced cell wall 16, 18. Second site BAM3 loss&#8208;of&#8208;function completely rescues these brx phenotypes 15. Here, we show that loss&#8208;of&#8208;function in MAKR5 partially suppresses brx phenotypes because MAKR5 is an amplifier of BAM3&#8208;dependent CLE45 signaling. Therefore, unlike the prototypical member of the MAKR protein family, BKI1, which is an essentially negative regulator of brassinosteroid signaling, MAKR5 is a positive effector of CLE45 signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5565</offset>
+      <text>Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5588</offset>
+      <text>SKM1 and SKM2 cannot substitute for BAM3 in the root</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5641</offset>
+      <text>In our attempts to further characterize BAM3&#8208;dependent CLE45 perception in root protophloem development, we sought to clarify whether SKM1 or SKM2 act redundantly with, or possibly as co&#8208;receptors of BAM3 in this context. Both SKM1 and SKM2 are expressed in the root as revealed by respective reporter transgenes; however, expression was apparently absent from the meristem, where the protophloem is formed (Fig 1A and B). Whereas SKM2 expression was detected largely throughout the root starting from the transition zone (Fig 1B), SKM1 expression was restricted to the more mature vasculature (Fig 1A). Thus, BAM3 expression (Fig EV1A) does not coincide with SKM1 or SKM2 expression in the root tip. Consistently, transgenic expression of the BAM3 coding sequence under control of the SKM1 promoter could not restore CLE45 sensitivity in a bam3 null mutant (Fig 1C). Further corroborating these observations, neither skm1 or skm2 single mutants, nor the skm1 skm2 double mutant displayed any resistance to the effects of external CLE45 application (Fig 1D). Finally, when ectopically expressed under control of the BAM3 promoter, neither SKM1 nor SKM2 could restore CLE45 sensitivity in a bam3 mutant (Fig 1E), or restore a brx phenotype when introduced into a bam3 brx double mutant, unlike a similar construct with the BAM3 coding sequence (Fig EV1B). In summary, our results suggest that SKM1 and SKM2 are not required for CLE45 perception in the root and also cannot replace BAM3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7131</offset>
+      <text>SKM1 and SKM2 do not play a role in CLE45 perception in the root</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7196</offset>
+      <text>Expression patterns (blue stain) of GUS reporter genes driven by the SKM1 (A) or SKM2 (B) promoter in roots of 5&#8208;day&#8208;old Col&#8208;0 seedlings.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7340</offset>
+      <text>Non&#8208;complementation of CLE45 insensitivity of the bam3 mutant by BAM3 expressed under control of the SKM1 promoter (7&#8208;day&#8208;old seedlings; 2 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7540</offset>
+      <text>Full CLE45 sensitivity of skm1 or skm2 single&#8208; and double&#8208;mutant roots (7&#8208;day&#8208;old seedlings).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7642</offset>
+      <text>Failure of SKM1 or SKM2 expressed under control of the BAM3 promoter to complement CLE45 insensitivity of the bam3 mutant (7&#8208;day&#8208;old seedlings; 3 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7847</offset>
+      <text>Data information: Differences as compared to mock are not statistically significant unless indicated (Student's t&#8208;test); *P &lt; 0.05; **P &lt; 0.01; ***P &lt; 0.001; error bars indicate standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8055</offset>
+      <text>Additional experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8078</offset>
+      <text>Expression of a GUS reporter gene under control of the BAM3 promoter in Col&#8208;0 wild&#8208;type background or the makr5 mutant (5&#8208;day&#8208;old seedlings).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8228</offset>
+      <text>Root length of 7&#8208;day&#8208;old seedlings expressing BAM3, SKM1, or SKM2 under control of the BAM3 promoter in a bam3 brx double mutant (2 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8419</offset>
+      <text>Expression of a GUS reporter gene under control of the BRXL1 promoter in Col&#8208;0 wild&#8208;type background or the brx or brx makr5 mutants (7&#8208;day&#8208;old seedlings).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8582</offset>
+      <text>Relative expression (fold change as compared to wild type) of MAKR5 expressed under control of the UBQ10 promoter, in Col&#8208;0 wild&#8208;type or bam3 brx mutant seedlings (5&#8208;day&#8208;old).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8766</offset>
+      <text>CLE45 response of seedlings expressing a MAKR5&#8208;CITRINE fusion under control of the UBQ10 promoter in different backgrounds (8&#8208;day&#8208;old; 10&#8208;22 seedlings per condition for 2&#8208;4 independent transgenic lines are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8990</offset>
+      <text>Root length of 7&#8208;day&#8208;old seedlings expressing MAKR5&#8208;BKI1 fusion proteins under control of the MAKR5 promoter in the brx makr5 mutant (4 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9187</offset>
+      <text>Relative expression level of BAM3 in Col&#8208;0 wild&#8208;type background or the makr5 mutant (5&#8208;day&#8208;old seedlings) as measured by qPCR, normalized to EF1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9341</offset>
+      <text>Expression of MAKR5&#8208;GFP fusion protein under control of the MAKR5 promoter in 5&#8208;day&#8208;old Col&#8208;0 roots upon 3&#8208;h treatment with different CLE45 concentrations. Note accumulation of MAKR5&#8208;GFP in protophloem sieve elements (asterisks).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9583</offset>
+      <text>Loss of CLE45 activity in a mutated CLE45 derivative (7&#8208;day&#8208;old seedlings).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9663</offset>
+      <text>Root meristem phenotypes of (CLE45&#8208;treated) 5&#8208;day&#8208;old Col&#8208;0 seedlings (asterisks: protophloem sieve element strands). Note absence of protophloem in CLE45&#8208;treated, but not CLE45mutated&#8208;treated roots.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9875</offset>
+      <text>Yeast two&#8208;hybrid bait vectors with indicated protein fragments, autoactivation test, colony dilution.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9979</offset>
+      <text>Liquid &#946;&#8208;galactosidase activity assays for the indicated yeast two&#8208;hybrid bait&#8211;prey combinations, with (galactose) or without (glucose) induction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10133</offset>
+      <text>Data information: Differences are not statistically significant unless indicated (Student's t&#8208;test); (B): versus brx bam3; (E, I): versus mock; (F) a: versus brx; b: versus brx makr5; *P &lt; 0.05; **P &lt; 0.01; ***P &lt; 0.001; error bars indicate standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10404</offset>
+      <text>Second site MAKR5 loss&#8208;of&#8208;function partially suppresses brx phenotypes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10479</offset>
+      <text>Further insight into CLE45 signaling was obtained from our brx second site suppressor screen. We identified a partially suppressed brx mutant (Fig 2A), in which root growth and root meristem size were rescued from ~40 and ~50% of wild type, respectively, to ~80 and ~90% (Fig 2B and C). Whole genome sequencing of DNA from bulked segregant pools of individuals with fully penetrant mutant or suppressed phenotype (obtained from a backcross to the brx parental line) suggested an early stop codon (W10*) in MAKR5 (At5g52870) as the causative second site. Both MAKR5::MAKR5 and MAKR5::MAKR5&#8208;GFP transgenes restored the brx phenotype when introduced in this brx makr5 double mutant (Fig 2A), confirming makr5 as the causative locus and demonstrating that MAKR5&#8208;GFP fusion protein is fully functional. Rescue of root meristem size was also apparent at the cellular level (Fig 2D), and physiological phenotypes, such as reduced auxin signaling throughout brx meristems, were likewise largely restored by makr5 second site mutation (Fig 2E). Finally, brx sieve element differentiation defects were also partially rescued, leading to a significant reduction in gap cell frequency (Fig 2F and G). The makr5 single mutant, segregated from the brx makr5 double mutant after repeated backcrossing to the Col&#8208;0 wild&#8208;type background, appeared morphologically normal (Fig 2A&#8211;E). To exclude the possibility that makr5 rescue of brx is indirect, we introduced a reporter gene for BRX&#8208;LIKE 1 (BRXL1) into the brx makr5 double mutant. BRXL1 is the only Arabidopsis homolog that can substitute for BRX when expressed ectopically in the protophloem 19, 20. However, BRXL1 expression was unchanged in the brx makr5 mutant (Fig EV1C). The data thus suggest a direct role of MAKR5 loss&#8208;of&#8208;function in brx&#8208;related phenotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12299</offset>
+      <text>Second site mutation in MAKR5 partially suppresses brx root phenotypes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12370</offset>
+      <text>Root phenotypes of 7&#8208;day&#8208;old seedlings of the indicated genotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12441</offset>
+      <text>Primary root length of 7&#8208;day&#8208;old seedlings.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12489</offset>
+      <text>Root meristem size in 5&#8208;day&#8208;old seedlings.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12536</offset>
+      <text>Root meristem phenotype of 5&#8208;day&#8208;old seedlings, confocal microscopy, propidium iodide&#8208;stained (red).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12643</offset>
+      <text>Auxin activity as visualized by the constitutively expressed inverse DII&#8208;NLS&#8208;VENUS marker (green) in root meristems of 5&#8208;day&#8208;old seedlings.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12791</offset>
+      <text>Gap cell frequency in brx single or brx makr5 double mutants (note: gap cells were absent from Col&#8208;0 wild type or makr5 single mutants).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12930</offset>
+      <text>Illustration of gap cells (arrowheads) in developing protophloem sieve element strands (asterisks) of brx single or brx makr5 double mutants.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13072</offset>
+      <text>Data information: Differences are not statistically significant unless indicated. (B, C): Student's t&#8208;test; (F): Fisher's exact test; (B, C): a: versus Col&#8208;0; b: versus brx; **P &lt; 0.01; ***P &lt; 0.001; error bars indicate standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13324</offset>
+      <text>MAKR5 loss&#8208;of&#8208;function confers reduced CLE45 sensitivity</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13385</offset>
+      <text>The absence of apparent morphological phenotypes in the makr5 mutant is similar to bam3 mutants, which are, however, resistant to the effects of externally applied CLE45 (Fig 1D) 15. Given the importance of the CLE45&#8208;BAM3 module in antagonizing BRX activity 14, we thus tested whether makr5 mutants are possibly CLE45 resistant. Indeed, makr5 mutants were insensitive to CLE45 levels that strongly suppressed root growth in wild type (Fig 3A). As expected, this extended to protophloem sieve element differentiation, which was fully suppressed in CLE45&#8208;treated Col&#8208;0 wild&#8208;type background, but not in makr5 mutant seedlings (Fig 3B and C). However, reflecting partial versus full rescue of brx by makr5 or bam3 mutation, respectively, makr5 seedlings were not as CLE45 resistant as bam3 seedlings, which were entirely insensitive to much higher CLE45 levels (Fig 3A). The data therefore suggest a substantial, yet partial requirement of MAKR5 for CLE45 signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14356</offset>
+      <text>MAKR5 loss&#8208;of&#8208;function confers CLE45 resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14408</offset>
+      <text>Primary root length of 7&#8208;day&#8208;old seedlings of the indicated genotypes in response to continuous CLE45 treatments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14526</offset>
+      <text>Root meristem phenotypes of (CLE45&#8208;treated) 5&#8208;day&#8208;old seedlings (asterisks: protophloem sieve element strands). Note absence of protophloem in CLE45&#8208;treated Col&#8208;0 wild&#8208;type roots.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14718</offset>
+      <text>Transverse sections of (CLE45&#8208;treated) 5&#8208;day&#8208;old roots, just before the onset of protoxylem (asterisks) differentiation. Note failure of protophloem sieve elements (arrowheads) to differentiate in CLE45&#8208;treated Col&#8208;0 (indicated by dense cytoplasm).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14977</offset>
+      <text>Expression pattern of GUS reporter gene driven by the MAKR5 promoter in roots of 5&#8208;day&#8208;old Col&#8208;0 seedlings.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15091</offset>
+      <text>Corresponding transverse sections from different positions along the root meristem (asterisks: protoxylem cells; arrowheads: protophloem poles). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15237</offset>
+      <text>Expression of a MAKR5&#8208;GFP fusion protein under control of the MAKR5 promoter in roots of 5&#8208;day&#8208;old seedlings.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15353</offset>
+      <text>Corresponding optical sections illustrating MAKR5&#8208;GFP expression in developing protophloem sieve elements (asterisk) and adjacent cell files.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15497</offset>
+      <text>Complementation of makr5 CLE45 insensitivity by MAKR5 expression under control of a promoter specific for developing sieve elements (CVP2), but not by expression under control of a companion cell&#8208;specific promoter (SUC2) (7&#8208;day&#8208;old seedlings; 3 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15803</offset>
+      <text>Subcellular localization of MAKR5&#8208;GFP (meristematic zone). Note plasma membrane association (white, green arrowheads) and dissociation from the cell wall (red arrowhead) upon osmosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15989</offset>
+      <text>Data information: Differences are not statistically significant unless indicated (Student's t&#8208;test); *P &lt; 0.05; ***P &lt; 0.001; (A): versus Col&#8208;0; (H): a: versus CLE45&#8208;treated Col&#8208;0; b: versus CLE45&#8208;treated makr5; error bars indicate standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16259</offset>
+      <text>Consistent with a role of MAKR5 in CLE45 perception, transcriptional reporters indicated MAKR5 expression in the vascular cylinder throughout the root (Fig 3D). Expression started early in the meristem and was detectable in the procambial cells and the phloem poles, but apparently absent from the xylem axis (Fig 3E). By comparison, expression of MAKR5&#8208;GFP fusion protein under control of the same native MAKR5 promoter was more constrained (Fig 3F). MAKR5&#8208;GFP was hardly detectable in procambial cells and most abundant in the cell files surrounding the protophloem sieve element strands, that is, the metaphloem, companion cell, and phloem pole pericycle files (Fig 3G). However, MAKR5&#8208;GFP was also clearly detectable, although less abundant, in developing sieve elements. The developing sieve elements were also confirmed as MAKR5 site of action because MAKR5 expressed under control of the sieve element&#8208;specific COTYLEDON VASCULAR PATTERN 2 (CVP2) promoter could complement the makr5 mutant, unlike expression under control of the companion cell&#8208;specific SUCROSE TRANSPORTER 2 (SUC2) promoter (Fig 3H). At the subcellular level, MAKR5&#8208;GFP displayed cytosolic as well as plasma membrane&#8208;associated localization (Fig 3I). In summary, the data suggest that MAKR5 is expressed in all cell files of the vascular cylinder except the xylem, and including the CLE45 site of action, the protophloem. Moreover, MAKR5 might be subject to post&#8208;transcriptional or post&#8208;translational regulation, since MAKR5&#8208;GFP fusion protein appeared to be less stable in procambial than in phloem pole cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17866</offset>
+      <text>MAKR5 specificity for relay of the CLE45 signal resides in its C&#8208;terminus</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17942</offset>
+      <text>The MAKR protein family has been defined by its homology to BKI1, which is mainly based on the presence of a few conserved motifs. They comprise a K/R&#8208;rich putative membrane hook motif that is spread throughout the otherwise loosely homologous center of MAKR proteins, and a more similar, S&#8208;rich C&#8208;terminus (Fig 4A), which includes a conserved motif that is responsible for BRI1 interaction in BKI1 9. To define functional domains of MAKR5, we first investigated CITRINE fusions of truncated MAKR5 derivatives (MAKR51&#8211;110, MAKR51&#8211;206, MAKR5101&#8211;230, and MAKR5207&#8211;326) (Fig 4A) expressed in the same regulatory context under control of the MAKR5 promoter in makr5 background. All fusion proteins were expressed at roughly similar levels as full&#8208;length MAKR5&#8208;GFP and showed stronger expression at the phloem pole, with the exception of the C&#8208;terminal MAKR5207&#8211;326 fragment (Fig 4B). These observations were consistent across multiple independent transgenic lines (8&#8211;14 per construct were analyzed in detail). At the subcellular level, only the two fragments that contained the membrane hook motif (MAKR51&#8211;206 and MAKR5101&#8211;230) displayed clear plasma membrane association, corroborating the hook's functional importance. By contrast, MAKR51&#8211;110 was mostly, and MAKR5207&#8211;326, exclusively cytosolic (Fig 4B). Investigation of corresponding CITRINE fusions ectopically expressed under control of the ubiquitous UBIQUITIN 10 (UBQ10) promoter confirmed these observations (Fig 4C). Interestingly, unlike what has been reported for BKI1 overexpression 8, 9, MAKR5 overexpression (Fig EV1D) had no apparent dominant effects and also could not restore CLE45 sensitivity in a bam3 background (Fig EV1E). Thus, MAKR5 is necessary but not sufficient to confer full CLE45 sensitivity. Moreover, the finding that MAKR5207&#8211;326&#8208;CITRINE was also more abundant than the other fragments when expressed under the same constitutive promoter suggests that the N&#8208;terminal two&#8208;thirds of MAKR5 might contain destabilizing motifs. Such motifs could be responsible for the decreased MAKR5 abundance in non&#8208;phloem pole cell files. Finally, the data also suggest that full integrity of the MAKR5 protein is required for its function, since none of the fragments could complement the makr5 mutant (Fig 4D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20258</offset>
+      <text>Specificity for CLE45 signal transduction resides in the MAKR5 C&#8208;terminus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20334</offset>
+      <text>Schematic presentation of the MAKR5 protein, indicating the K/R&#8208;rich membrane hook motif, the S&#8208;rich conserved C&#8208;terminus, the position of the makr5 mutation, and the truncated fragments tested.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20535</offset>
+      <text>Expression of truncated MAKR5 fusion proteins under control of the MAKR5 promoter in 5&#8208;day&#8208;old roots (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20688</offset>
+      <text>Close&#8208;up of protophloem sieve element strands expressing truncated MAKR5&#8208;CITRINE fusion proteins under control of the UBQ10 promoter (asterisks: protophloem sieve element strands). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20874</offset>
+      <text>Failure of truncated MAKR5 fusion proteins to complement CLE45 insensitivity of the makr5 mutant (7&#8208;day&#8208;old seedlings; 1&#8208;2 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21058</offset>
+      <text>Sensitivity of makr5 mutant roots to continuous brassinolide (BL) treatment (7&#8208;day&#8208;old seedlings).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21161</offset>
+      <text>Expression of MAKR5&#8208;BKI1 fusion proteins under control of the MAKR5 promoter in roots of 5&#8208;day&#8208;old makr5 seedlings (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21330</offset>
+      <text>Complementation of CLE45 insensitivity of makr5 roots by BKI1&#8208;MAKR5, but not MAKR5&#8208;BKI1 fusion protein (7&#8208;day&#8208;old seedlings; 3 independent transgenic lines per construct are shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21520</offset>
+      <text>Data information: Differences are not statistically significant unless indicated (Student's t&#8208;test); *P &lt; 0.05; **P &lt; 0.01; ***P &lt; 0.001; (D, G): a: versus mock; b: versus makr5; (E): versus Col&#8208;0; error bars indicate standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21770</offset>
+      <text>To determine which MAKR5 domains are responsible for its specific activity, we next tested the propensity of hybrid protein fusions to complement the makr5 mutant. Because makr5 has a wild&#8208;type response to brassinosteroids (Fig 4E), we chose BKI1 for domain swaps. In one construct, the MAKR51&#8211;206 N&#8208;terminus including the membrane hook motif was fused to the BKI1253&#8211;337 C&#8208;terminus (encompassing the S&#8208;rich C&#8208;terminus and the BRI1 interaction domain), while in another, complementary construct the BKI11&#8211;252 N&#8208;terminus (including the membrane hook) was fused to the MAKR5207&#8211;326 C&#8208;terminus. Both fusions were expressed under control of the MAKR5 promoter and displayed the enhanced expression in the phloem pole cell files (Fig 4F). However, the MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE fusion protein appeared to be more stable than its BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE counterpart. Yet, the MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE fusion could not complement the makr5 mutant (Fig 4G) or restore the brx makr5 phenotype (Fig EV1F), while the BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE fusion could. Therefore, the data suggest that MAKR5 specificity for the CLE45 pathway resides in its C&#8208;terminus.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22995</offset>
+      <text>CLE45 signaling positively regulates MAKR5 activity in a post&#8208;transcriptional manner</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23082</offset>
+      <text>Feedback and feed forward phenomena are frequent in signaling pathways, as exemplified by the positive effect of CLE45 treatment on BAM3 gene expression 15, which also leads to BAM3 protein accumulation (Fig 5A). Expression of a BAM3 transcriptional reporter was, however, not markedly reduced in makr5 (Fig EV1A and G), as was the abundance of BAM3&#8208;CITRINE fusion protein (Fig 5B), which might reflect the fact that MAKR5 is only partially required for CLE45 perception. Conversely, bam3 mutation had no detectable robust impact on MAKR5&#8208;GFP fusion protein abundance or localization (Fig 5C), which was consistent with CLE45 insensitivity of MAKR5 transcription (Fig 5D). However, CLE45 application triggered a strong accumulation of MAKR5&#8208;GFP in developing sieve elements (Fig 5E). At the same time, MAKR5&#8208;GFP plasma membrane association appeared to increase. This response was saturated at the low nanomolar CLE45 concentrations that trigger a full phenotypic response (Fig EV1H). Moreover, it did not occur in the absence of functional BAM3 (Fig 5E) or in response to a mutated, inactive CLE45 derivative (Figs 5E and EV1I and J). The data thus suggest that MAKR5 protein is recruited to the plasma membrane and possibly stabilized upon CLE45 perception in developing sieve elements (Fig 5F). However, we could not detect interaction of MAKR5 with the BAM3 kinase domain in yeast two&#8208;hybrid or alternative assays (Fig EV1K and L). This could mean that other, still unidentified players are involved in this response, for example, a BAM3 co&#8208;receptor or downstream signaling components, or that interaction could be very transient.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24728</offset>
+      <text>Post&#8208;transcriptional regulation of MAKR5 by CLE45 treatment</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24790</offset>
+      <text>Increased expression of BAM3&#8208;CITRINE fusion protein under control of the BAM3 promoter in developing protophloem sieve elements (asterisks) of 5&#8208;day&#8208;old bam3 roots upon CLE45 treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24982</offset>
+      <text>Expression of BAM3&#8208;CITRINE fusion protein under control of the BAM3 promoter in 5&#8208;day&#8208;old Col&#8208;0 roots or makr5 roots (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25155</offset>
+      <text>Expression of MAKR5&#8208;GFP fusion protein under control of the MAKR5 promoter in 5&#8208;day&#8208;old Col&#8208;0 or bam3 roots (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25319</offset>
+      <text>GUS reporter gene expression driven by the MAKR5 promoter in roots of 5&#8208;day&#8208;old Col&#8208;0 seedlings upon CLE45 treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25443</offset>
+      <text>Expression of MAKR5&#8208;GFP fusion protein under control of the MAKR5 promoter in 5&#8208;day&#8208;old roots upon CLE45 treatment (3 h). Note accumulation of MAKR5&#8208;GFP in protophloem sieve elements (magnified) and its dependence on functional BAM3 and CLE45. The frequency of representative observations per total observations is indicated (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25824</offset>
+      <text>Close&#8208;up view of MAKR5&#8208;GFP accumulation in the protophloem cell file upon CLE45 treatment (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25966</offset>
+      <text>Accumulation of MAKR5&#8208;BKI1 fusion proteins in protophloem cells upon CLE45 treatment. The frequency of representative observations per total observations is indicated (asterisks: protophloem sieve element strands).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26183</offset>
+      <text>Quantification of fusion protein abundance in developing protophloem cells upon expression under control of the MAKR5 promoter, showing mean total fluorescence (I) and plasma membrane to cytosol signal ratio (J). MM: MAKR5&#8208;GFP; BM: BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE; MB: MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE; Differences versus mock are not statistically significant unless indicated (Student's t&#8208;test); a: versus mock; b: versus MAKR5&#8208;GFP; *P &lt; 0.05; **P &lt; 0.01; ***P &lt; 0.001; error bars indicate standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26722</offset>
+      <text>The protophloem accumulation feature was retained in the MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE and BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE fusion proteins (Fig 5G and H), and again the MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE fusion appeared to be more stable in this assay than its BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE counterpart. In general, quantification of these otherwise visually robust observations proved difficult because of the very low expression level of MAKR5. However, the protophloem accumulation offered an opportunity to gauge relative levels despite this limitation. In developing protophloem cells of parallel&#8208;grown MAKR5::MAKR5&#8208;GFP, MAKR5::MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE and MAKR5::BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE lines, fusion protein intensity was comparable in mock conditions but increased upon CLE45 treatment (Fig 5I). This increase was substantially higher for MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE (~6&#8208;fold) than for the other two fusions (~3&#8208;fold). Concomitantly, the ratio of plasma membrane&#8208;associated to cytosolic signal increased (Fig 5J), and this ratio was higher in both mock and CLE45 condition for BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE as compared to the other two proteins. These observations corroborate that the N&#8208;termini of MAKR5 and BKI1 are interchangeable, but also suggest that the BKI1 N&#8208;terminus confers comparatively stronger plasma membrane association. Moreover, given the increased stability of the isolated MAKR5 C&#8208;terminus (Fig 4B), and of the non&#8208;functional MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE fusion as compared to the functional BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE fusion, the results also suggest that MAKR5 protein is turned over upon signal transduction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28480</offset>
+      <text>Conclusion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28491</offset>
+      <text>In summary, our data suggest that MAKR5 is required for full perception of the BAM3&#8208;dependent CLE45 signal. The dynamic behavior of MAKR5 protein in response to CLE45 treatment suggests that this involves post&#8208;transcriptional events, which promote its plasma membrane association. In this respect, MAKR5 behaves distinct from the prototypical MAKR family protein BKI1. Moreover, while BKI1 is an essentially negative regulator of brassinosteroid signaling, MAKR5 is a positive effector and amplifier of CLE45 signaling, revealing an unexpected diversity in the conceptual roles of MAKR genes in different signaling pathways.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>29120</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29142</offset>
+      <text>Plant materials, growth conditions, and physiological assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29203</offset>
+      <text>All mutant and wild&#8208;type materials were in the Arabidopsis Columbia&#8208;0 (Col&#8208;0) standard background. The bam3&#8208;2, skm1, and skm2 null mutant alleles, and the BRXL1::GUS, 35S::DII&#8208;NLS&#8208;VENUS, and BAM3::BAM3&#8208;CITRINE transgenic lines have been described previously 14, 17, 20, 21, 22. For plant tissue culture, seeds were surface&#8208;sterilized, germinated, and grown vertically on half strength MS agar media under continuous light at 22&#176;C. CLE45 peptide and brassinolide treatments were performed according to standard procedures as previously described 15, 23. To create an inactive CLE45 derivative, the last three amino acids were replaced by alanines. For visualization of GUS reporter activity, 5&#8208;day&#8208;old seedlings were incubated in X&#8208;gluc staining buffer solution at 37&#176;C for 1 h in darkness. For plasmolysis, 5&#8208;day&#8208;old MAKR5::MAKR5&#8208;GFP seedlings were incubated in 0.8 M mannitol solution for 15 min as previously described 24.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30158</offset>
+      <text>Microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30169</offset>
+      <text>To visualize fluorescent proteins, seedlings were stained with propidium iodide (PI) and examined under a Zeiss LSM700 inverted confocal microscope, with excitation at 488 nm and detection with a 490&#8208; to 500&#8208;nm band path filter for GFP and CITRINE, and excitation at 555 nm and detection with a 560&#8208;nm long&#8208;path filter for PI. For GUS reporter line transverse sections, roots were embedded in plastic resin, sectioned, and stained with 0.1% toluidine blue, then visualized using a Leica DM5500 compound microscope, essentially as described 14. For presentation, composite images had to be assembled in various instances.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30798</offset>
+      <text>Constructs and generation of transgenic lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30844</offset>
+      <text>Binary constructs were created with Gateway Cloning Technology (Invitrogen). For MAKR5::GUS, SKM1::GUS, and SKM2::GUS, corresponding 2&#8208;kb 5&#8242; flanking DNA promoter fragments were amplified by PCR and introduced into binary vector pMDC163 (MAKR5) or pH7m24GW (SKM1 &amp; 2). For MAKR5::MAKR5 and MAKR5::MAKR5&#8208;GFP (mGFP6 version), the genomic DNA fragment spanning the MAKR5 gene and its 2&#8208;kb 5&#8242; flanking region was amplified and introduced into binary vector pMDC99 and pMDC107, respectively. SKM1 gene fragments were amplified from genomic DNA templates, and SKM2 coding sequence was amplified from cDNA templates. For the MAKR5 deletion constructs, truncated MAKR5 coding sequence fragments were amplified. For the MAKR5&#8208;BKI1 fusion constructs, corresponding fragments were obtained by gene synthesis (GeneArt). To obtain CITRINE fusion proteins, fragments were cloned into vector pH7mGW34. All binary constructs were introduced into Agrobacterium tumefaciens strain GV3101 pMP90 and transformed into Arabidopsis using the floral dip method. Oligonucleotide sequences for amplification of the various DNA fragments are listed in Table EV1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31992</offset>
+      <text>Genotyping</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32003</offset>
+      <text>To genotype the W10* makr5 mutation, 215&#8208;bp genomic DNA fragments were amplified with primers 5&#8242;&#8208;GAA GCT CTT ACC TTT ATG AAA TAC TA&#8208;3&#8242; and 5&#8242;&#8208;GTT GTT GTT TCG AGT CTC TG&#8208;3&#8242; and then cut using SpeI restriction enzyme. When the makr5W10* mutation is absent, amplicons are cut into 25&#8208; and 190&#8208;bp fragments. To genotype skm1 (SALK_087435) alleles, DNA fragments were amplified with primers 5&#8242;&#8208;ATG CAA ATG AAC TCG AGC TTC&#8208;3&#8242; and 5&#8242;&#8208;TTC CGG TGA GAT TGT TGG TAG&#8208;3&#8242; to detect wild type (1.05 kb), and 5&#8242;&#8208;ATT TTG CCG ATT TCG GAA C&#8208;3&#8242; and 5&#8242;&#8208;TTC CGG TGA GAT TGT TGG TAG&#8208;3&#8242; to detect the T&#8208;DNA insertion (600 bp). To genotype skm2 (SALK_052069) alleles, DNA fragments were amplified with primers 5&#8242;&#8208;GTC AAG AGC TTC AAG CGA TTG&#8208;3&#8242; and 5&#8242;&#8208;TTC CAG TTC CGA TCA CGT TAG&#8208;3&#8242; to detect wild type (1.1 kb), and 5&#8242;&#8208;GTC AAG AGC TTC AAG CGA TTG&#8208;3&#8242; and 5&#8242;&#8208;ATT TTG CCG ATT TCG GAA C&#8208;3&#8242; to detect the T&#8208;DNA insertion (600 bp).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32994</offset>
+      <text>Fusion protein quantification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33024</offset>
+      <text>For quantification of MAKR5::MAKR5&#8208;GFP, MAKR5::MAKR51&#8211;206&#8208;BKI1253&#8211;337&#8208;CITRINE, and MAKR5::BKI11&#8211;252&#8208;MAKR5207&#8211;326&#8208;CITRINE fusion proteins, transgenic lines were grown in parallel until 5 dag and then transferred onto 20 nM CLE45 or mock for 3 h. Confocal microscopy images of corresponding protophloem cell files were taken and analyzed in ImageJ software (version 2.0.0.&#8208;rc&#8208;43/1.50e). Fluorescence intensity was measured as the mean gray value of a box&#8208;shaped region of interest, located either in the cytoplasm or centered on the rootward plasma membrane region of developing protophloem cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33644</offset>
+      <text>Quantitative real&#8208;time PCR (qPCR)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33680</offset>
+      <text>Total RNA was extracted from roots of 5&#8208;day&#8208;old seedlings using the RNeasy Plant Mini kit (Qiagen). One microgram of total RNA was used for reverse transcription (Invitrogen), and 1 &#956;l of first&#8208;strand cDNA was used as a PCR template. qPCR analysis was performed using MESA BLUE qPCR MasterMix for SYBR (Eurogentec) with an Mx3000P qPCR machine (Agilent).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34042</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34063</offset>
+      <text>YHK and CSH designed the study and wrote the paper together. YHK performed all experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34155</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34176</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34236</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>34259</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">J Integr Plant Biol</infon>
+      <infon key="lpage">1187</infon>
+      <infon key="pub-id_pmid">24308569</infon>
+      <infon key="fpage">1184</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>34270</offset>
+      <text>Receptor&#8208;like kinases: key regulators of plant development and defense</text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1620</infon>
+      <infon key="pub-id_pmid">23533170</infon>
+      <infon key="fpage">1615</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>34343</offset>
+      <text>Brassinosteroid signalling</text>
+    </passage>
+    <passage>
+      <infon key="volume">433</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">171</infon>
+      <infon key="pub-id_pmid">15650741</infon>
+      <infon key="fpage">167</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>34370</offset>
+      <text>Binding of brassinosteroids to the extracellular domain of plant receptor kinase BRI1</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">938</infon>
+      <infon key="pub-id_pmid">9298904</infon>
+      <infon key="fpage">929</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>34456</offset>
+      <text>A putative leucine&#8208;rich repeat receptor kinase involved in brassinosteroid signal transduction</text>
+    </passage>
+    <passage>
+      <infon key="volume">295</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1301</infon>
+      <infon key="pub-id_pmid">11847343</infon>
+      <infon key="fpage">1299</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>34553</offset>
+      <text>Regulation of brassinosteroid signaling by a GSK3/SHAGGY&#8208;like kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">191</infon>
+      <infon key="pub-id_pmid">12007405</infon>
+      <infon key="fpage">181</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>34624</offset>
+      <text>BES1 accumulates in the nucleus in response to brassinosteroids to regulate gene expression and promote stem elongation</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">704</infon>
+      <infon key="pub-id_pmid">20192752</infon>
+      <infon key="fpage">681</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>34744</offset>
+      <text>Brassinosteroid signal transduction from receptor kinases to transcription factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">313</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1122</infon>
+      <infon key="pub-id_pmid">16857903</infon>
+      <infon key="fpage">1118</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>34827</offset>
+      <text>Brassinosteroids regulate dissociation of BKI1, a negative regulator of BRI1 signaling, from the plasma membrane</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">237</infon>
+      <infon key="pub-id_pmid">21289069</infon>
+      <infon key="fpage">232</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>34940</offset>
+      <text>Tyrosine phosphorylation controls brassinosteroid receptor activation by triggering membrane release of its kinase inhibitor</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">834</infon>
+      <infon key="pub-id_pmid">22075146</infon>
+      <infon key="fpage">825</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>35065</offset>
+      <text>Dual role of BKI1 and 14&#8208;3&#8208;3 s in brassinosteroid signaling to link receptor with transcription factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Mol Plant</infon>
+      <infon key="lpage">1678</infon>
+      <infon key="pub-id_pmid">26296798</infon>
+      <infon key="fpage">1675</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>35173</offset>
+      <text>The Intrinsically Disordered Protein BKI1 Is Essential for Inhibiting BRI1 Signaling in Plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1388</infon>
+      <infon key="pub-id_pmid">25959963</infon>
+      <infon key="fpage">1381</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>35268</offset>
+      <text>Root Cap&#8208;Derived Auxin Pre&#8208;patterns the Longitudinal Axis of the Arabidopsis Root</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">J Exp Bot</infon>
+      <infon key="lpage">5203</infon>
+      <infon key="pub-id_pmid">26105996</infon>
+      <infon key="fpage">5195</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>35354</offset>
+      <text>Beyond the meristems: similarities in the CLAVATA3 and INFLORESCENCE DEFICIENT IN ABSCISSION peptide mediated signalling pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">11556</infon>
+      <infon key="pub-id_pmid">25049386</infon>
+      <infon key="fpage">11551</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>35484</offset>
+      <text>Molecular genetic framework for protophloem formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7079</infon>
+      <infon key="pub-id_pmid">23569225</infon>
+      <infon key="fpage">7074</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>35538</offset>
+      <text>Suppression of Arabidopsis protophloem differentiation and root meristem growth by CLE45 requires the receptor&#8208;like kinase BAM3</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1446</infon>
+      <infon key="pub-id_pmid">25813544</infon>
+      <infon key="fpage">1437</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>35668</offset>
+      <text>Primary root protophloem differentiation requires balanced phosphatidylinositol&#8208;4,5&#8208;biphosphate levels and systemically affects root branching</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1676</infon>
+      <infon key="pub-id_pmid">23910659</infon>
+      <infon key="fpage">1670</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>35815</offset>
+      <text>A novel pollen&#8208;pistil interaction conferring high&#8208;temperature tolerance during reproduction via CLE45 signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">22739</infon>
+      <infon key="pub-id_pmid">21149702</infon>
+      <infon key="fpage">22734</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>35931</offset>
+      <text>Spatio&#8208;temporal sequence of cross&#8208;regulatory events in root meristem growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8480</infon>
+      <infon key="pub-id_pmid">20404146</infon>
+      <infon key="fpage">8475</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>36011</offset>
+      <text>A hyperactive quantitative trait locus allele of Arabidopsis BRX contributes to natural variation in root growth vigor</text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">1316</infon>
+      <infon key="pub-id_pmid">16514016</infon>
+      <infon key="fpage">1306</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>36130</offset>
+      <text>Characterization of the plant&#8208;specific BREVIS RADIX gene family reveals limited genetic redundancy despite high sequence conservation</text>
+    </passage>
+    <passage>
+      <infon key="volume">180</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">904</infon>
+      <infon key="pub-id_pmid">18780746</infon>
+      <infon key="fpage">895</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>36266</offset>
+      <text>BAM receptors regulate stem cell specification and organ development through complex interactions with CLAVATA signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1923</infon>
+      <infon key="pub-id_pmid">22079112</infon>
+      <infon key="fpage">1918</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>36387</offset>
+      <text>Positional information by differential endocytosis splits auxin response to drive Arabidopsis root meristem growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1968</infon>
+      <infon key="pub-id_pmid">23041192</infon>
+      <infon key="fpage">1962</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>36502</offset>
+      <text>Natural Arabidopsis brx loss&#8208;of&#8208;function alleles confer root adaptation to acidic soil</text>
+    </passage>
+    <passage>
+      <infon key="volume">139</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1315</infon>
+      <infon key="pub-id_pmid">22395740</infon>
+      <infon key="fpage">1306</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>36593</offset>
+      <text>OCTOPUS, a polarly localized membrane&#8208;associated protein, regulates phloem differentiation entry in Arabidopsis thaliana</text>
+    </passage>
+  </document>
+</collection>

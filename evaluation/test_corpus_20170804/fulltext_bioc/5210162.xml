@@ -1,0 +1,1339 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5210162</id>
+    <passage>
+      <infon key="volume">18 18</infon>
+      <infon key="name_0">surname:Santin;given-names:Yoann G</infon>
+      <infon key="name_1">surname:Cascales;given-names:Eric</infon>
+      <infon key="alt-title">Yoann G Santin &amp; Eric Cascales</infon>
+      <infon key="article-id_publisher-id">EMBR201643206</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embr.201643206</infon>
+      <infon key="lpage">149 149</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">138 138</infon>
+      <infon key="year">2017</infon>
+      <infon key="issue">1</infon>
+      <infon key="kwd">multiprotein assembly peptidoglycan protein complex protein transport secretion system Microbiology, Virology &amp; Host Pathogen Interaction Structural Biology</infon>
+      <offset>0</offset>
+      <text>Domestication of a housekeeping transglycosylase for assembly of a Type VI secretion system</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>92</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>101</offset>
+      <text>The type VI secretion system (T6SS) is an anti&#8208;bacterial weapon comprising a contractile tail anchored to the cell envelope by a membrane complex. The TssJ, TssL, and TssM proteins assemble a 1.7&#8208;MDa channel complex that spans the cell envelope, including the peptidoglycan layer. The electron microscopy structure of the TssJLM complex revealed that it has a diameter of ~18 nm in the periplasm, which is larger than the size of peptidoglycan pores (~2 nm), hence questioning how the T6SS membrane complex crosses the peptidoglycan layer. Here, we report that the MltE housekeeping lytic transglycosylase (LTG) is required for T6SS assembly in enteroaggregative Escherichia coli. Protein&#8211;protein interaction studies further demonstrated that MltE is recruited to the periplasmic domain of TssM. In addition, we show that TssM significantly stimulates MltE activity in vitro and that MltE is required for the late stages of T6SS membrane complex assembly. Collectively, our data provide the first example of domestication and activation of a LTG encoded within the core genome for the assembly of a secretion system.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1224</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1237</offset>
+      <text>The cell envelope of Gram&#8208;negative bacteria is crossed by multiprotein complexes that participate to the assembly of surface appendages (e.g., the flagellum) or serve as channels for the passage of large molecules such as pili, DNA, or protein effectors (e.g., piliation, conjugation, or secretion systems) 1. These complexes are usually large and are anchored to both the inner and outer membranes 1. However, the peptidoglycan layer represents a physical barrier for the assembly of these structures, as they are usually larger than peptidoglycan pores, estimated to have a diameter of ~2 nm 2. Most of these systems have therefore evolved enzymes, called lytic transglycosylases (LTGs), that locally rearrange the cell wall 3, 4, 5. LTGs cleave the glycan strands but have no action on peptide cross&#8208;links, therefore creating lateral separation of the peptidoglycan 6, 7. Endogeneous LTGs are involved in peptidoglycan synthesis, turnover, recycling, and daughter cell separation 7, 8, 9. By contrast, the LTGs dedicated to specific cell&#8208;envelope spanning complexes are called specialized LTGs 3, 4, 5, 8. The activity of these enzymes needs to be tightly controlled to avoid peptidoglycan breaches and cell lysis 8, 10. In addition, the LTG activity should be spatially controlled to create sufficient space at the site of assembly. The spatial activation of specialized LTGs is secured by their recruitment to the site of assembly through interactions with one or several components of the apparatus. The recruitment of specialized LTGs to their cognate apparatus has been exemplified in the case of several cell&#8208;spanning machineries: The Rhodobacter sphaeroides SltF LTG is recruited to the flagellar FlgJ subunit 11, 12, the PleA protein localizes at the cell pole in Caulobacter crescentus and is required for the assembly of the polar pilus and polar flagellum 13, the VirB1&#8208;like LTG is recruited to the VirB8&#8208;like protein in type IV secretion systems 4, 14, 15, 16, 17, 18, 19, and the EtgA LTG associates with the type III secretion system EscI rod component 4, 20, 21, 22. Interestingly, in a few cases, machine subunits comprise an additional domain with LTG activity, such as the flagellar rod FlgJ protein 23, 24, 25, 26, 27 or the Bordetella pertussis T4SS PtlE subunit 28. For several of these enzymes, it has been recently demonstrated that the transglycosylase activity is weak in vitro but stimulated in the presence of its partner, suggesting that binding to the cell&#8208;envelope spanning structure specifically activates the enzymatic activity and hence controls localized peptidoglycan hydrolysis. The activity of the T3SS EtgA LTG is enhanced by co&#8208;incubation with the EscI rod subunit 22. In the case of the R. sphaeroides flagellum, the activity of SltF is modulated by both FlgB and FlgF 29.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4069</offset>
+      <text>Recently, we determined the structure of the 1.7&#8208;MDa type VI secretion system (T6SS) membrane complex from enteroaggregative Escherichia coli (EAEC) using negative stain electron microscopy 30. This complex spans the cell envelope, and its diameter was estimated to ~18 nm in the periplasm, suggesting that its proper insertion requires localized peptidoglycan rearrangement or degradation. However, no gene encoding LTG is encoded within T6SS gene clusters 31, 32. The T6SS is a sophisticated multiprotein machine that is widely distributed in Gram&#8208;negative bacteria and responsible for the delivery of toxin effectors in both prokaryotic and eukaryotic cells, hence participating in bacterial competition and pathogenesis 33, 34, 35, 36, 37, 38, 39, 40, 41, 42. It is constituted of a cytoplasmic tail complex that is evolutionarily, structurally, and functionally related to contractile machines such as phages or pyocins 43, 44, 45. The tail comprises an inner tube composed of Hcp hexamers stack on each other and wrapped into the contractile sheath formed by the polymerization of TssBC complexes 46, 47, 48, 49, 50. The inner tube is tipped by the VgrG/PAAR complex that is used as a puncturing device to penetrate the target cell 47, 51. Once assembled, the sheath contracts and propels the Hcp/VgrG/PAAR needle complex, allowing effector delivery and target cell lysis 49, 52, 53, 54. The tail is built onto an assembly platform, the baseplate, constituted of the TssEFGK&#8208;VgrG subunits 55, 56, 57. The baseplate docks to the membrane complex that both orientates the tail toward the cell exterior and serves as channel for the passage of the Hcp/VgrG/PAAR needle 30, 56, 58, 59. The membrane complex is composed of the TssJ, TssL, and TssM proteins, each present in ten copies 30, 60. TssL and TssM are both inner membrane proteins, with soluble domains in the cytoplasm and periplasm, respectively 58, 61, 62. TssJ is an outer membrane lipoprotein 63 that interacts with the C&#8208;terminal domain of the TssM periplasmic region 64. The assembly of the membrane complex starts with the initial positioning of the TssJ lipoprotein and progresses inward with the ordered addition of TssM and TssL 30. Once assembled, the membrane complex recruits the TssA protein and the baseplate complex prior to tail/sheath polymerization 56, 65. In addition to span the cell envelope, the membrane complex is anchored to the cell wall by an additional component TagL, or an additional domain fused to the C&#8208;terminus of TssL, that shares homology to peptidoglycan&#8208;binding proteins 60, 66. It is proposed that anchorage to the cell wall allows stabilization of the membrane complex, notably during sheath contraction. The negative stain electron microscopy structure of the EAEC TssJLM complex demonstrated that it is composed of a base comprising the cytoplasmic domains of TssL and TssM and forms a trans&#8208;envelope channel with ten arches and ten pillars constituted by the periplasmic domain of TssM and the TssJ lipoprotein 30. The diameter of this complex in the periplasm is, however, incompatible with the size of peptidoglycan pores and we hypothesized that proper insertion or assembly of the T6SS membrane complex requires the action of a LTG. Recently, a study identified TagX, a T6SS&#8208;encoded peptidoglycan endopeptidase required for T6SS function in Acinetobacter species 67. However, the tagX gene is not conserved and the vast majority of T6SS gene clusters does not encode peptidoglycan hydrolases. This observation raised the question on how these type VI secretion systems deal with the peptidoglycan layer. Here, we provide evidence that the EAEC T6SS has domesticated the housekeeping MltE LTG for its assembly.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7804</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7812</offset>
+      <text>Proper function of the EAEC T6SS requires the MltE housekeeping lytic transglycosylase</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7899</offset>
+      <text>To test whether peptidoglycan remodeling is required for assembly of the T6SS, cells were treated with bulgecin A, a specific inhibitor of transglycosylases 68, 69, and the release of Hcp in the culture supernatant, a marker of EAEC T6SS assembly and function 63, was probed by Western blot analyses. To avoid Hcp release by pre&#8208;assembled and active T6SS, we monitored the experiments in a strain deleted of the tssM gene but bearing a plasmid&#8208;borne wild&#8208;type tssM allele under the control of an inducible Tet promoter. In this strain, the basal expression of tssM is undetectable by Western blot and is not sufficient to support assembly of the T6SS. In the presence of inducer, the T6SS is assembled and hence Hcp was detected in the culture supernatant (Fig 1A). The addition of bulgecin A in the medium prior to tssM induction did not impact TssM production but prevented Hcp release (Fig 1A). This result demonstrates that the T6SS does not function when the activity of LTGs is inhibited, and suggests that the action of at least one endogeneous LTG is required for the assembly of this apparatus. Using time&#8208;lapse fluorescence microscopy, we previously showed that the TssJLM membrane complex is used for several rounds of tail assembly and contraction 30. To confirm this result, wild&#8208;type EAEC cells were washed to discard secreted Hcp proteins and resuspended in medium supplemented with bulgecin A, to prevent assembly of new T6SS membrane complexes. After 45 min of growth, the presence of Hcp in the supernatant was probed by Western blot analyses. We observed that Hcp was released, demonstrating that pre&#8208;assembled T6SS membrane complexes are not sensitive to treatment with bulgecin A (Fig 1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9622</offset>
+      <text>The LTG inhibitor bulgecin A prevents T6SS function</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9674</offset>
+      <text>Hcp release assay. HA&#8208;tagged Hcp (HcpHA) release was assessed by separating cells (C) and cell&#8208;free culture supernatant (S) fractions from 109 wild&#8208;type (WT), &#8710;tssM cells or &#8710;tssM cells carrying the AHT&#8208;inducible FLAG&#8208;tagged tssM&#8208;borne plasmid (tssM+) treated (bulgecin) or not (NT) with bulgecin A prior to tssM gene induction. Proteins were separated by 12.5% acrylamide SDS&#8211;PAGE and the periplasmic TolB protein (control for cell lysis), HcpHA, and FLTssM were immunodetected using anti&#8208;TolB (middle panel), anti&#8208;HA (lower panel), and anti&#8208;FLAG (upper panel) antibodies, respectively. Molecular weight markers (in kDa) are indicated on the left. The experiment was performed in duplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10427</offset>
+      <text>Hcp release assay. HA&#8208;tagged Hcp (HcpHA) release was assessed by separating cells (C) and cell&#8208;free culture supernatant (S) fractions from 109 wild&#8208;type (WT) cells before washing cells (before wash) and after washing and growth (after wash) in the absence (NT) or presence (bulgecin) of bulgecin A. Proteins were separated by 12.5% acrylamide SDS&#8211;PAGE and the periplasmic TolB protein (control for cell lysis) and HcpHA were immunodetected using anti&#8208;TolB (upper panel) and anti&#8208;HA (lower panel) antibodies. Molecular weight markers (in kDa) are indicated on the left. The experiment was performed in duplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11088</offset>
+      <text>The EAEC 17&#8208;2 chromosome encodes 8 proteins with signature of LTGs. These include the soluble Slt70 and the membrane&#8208;bound MltA&#8208;E housekeeping lytic transglycosylases, as well as two putative LTGs: EtgA encoded within the T3SS gene island and the product of the EC042_2762 gene. To test the contribution of these proteins for the assembly of the EAEC T6SS, we generated individual knockout strains in each of these genes and tested the ability of these strains to support Hcp secretion. Western blot analyses of cell&#8208;free culture supernatants showed that Hcp release was abolished in the mltE strain, suggesting that the outer membrane&#8208;anchored MltE lipoprotein (EC042_1244; gene accession number, GI: 284920999) is necessary for T6SS function in EAEC and that no redundancy occurs between the EAEC LTGs for the assembly of the T6SS (Figs 2 and 3A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11948</offset>
+      <text>The MltE LTG is required for T6SS function</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11991</offset>
+      <text>Hcp release assay. FLAG&#8208;tagged Hcp (HcpFL) release was assessed by separating cells (C) and cell&#8208;free culture supernatant (S) fractions from 109 cells of the indicated strains. Proteins were separated by 12.5% acrylamide SDS&#8211;PAGE and TolB and HcpFL were immunodetected using anti&#8208;TolB (upper panel) and anti&#8208;FLAG (lower panel) antibodies. Molecular weight markers (in kDa) are indicated on the left. The experiment was performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12482</offset>
+      <text>The MltE peptidoglycan hydrolase activity is required for T6SS function</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12554</offset>
+      <text>Hcp release assay. FLAG&#8208;tagged Hcp (HcpFL) release was assessed by separating cells (C) and cell&#8208;free culture supernatant (S) fractions from 109 WT, &#8710;mltE cells or &#8710;mltE cells producing wild&#8208;type (mltE+) or E64Q mutant (mltEE64Q) VSV&#8208;G&#8208;tagged MltE (MltEV) from arabinose&#8208;inducible plasmids. Proteins were separated by 12.5% acrylamide SDS&#8211;PAGE and TolB, HcpFL, and MltEV were immunodetected using anti&#8208;TolB (upper panel), anti&#8208;FLAG (middle panel), and anti&#8208;VSV&#8208;G (lower panel) antibodies, respectively. Molecular weight markers (in kDa) are indicated on the left. The experiment was performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13225</offset>
+      <text>Anti&#8208;bacterial activity. Escherichia coli K&#8208;12 prey cells (W3110 gfp+, kanR) were mixed with the indicated attacker cells, spotted onto Sci&#8208;1 inducing medium (SIM) agar plates, and incubated for 4 h at 37&#176;C. The image of a representative bacterial spot and the average and standard deviation (n = 3) of the relative fluorescence of the bacterial mixture (in arbitrary units, AU) are shown in the upper graph. The number of recovered E. coli prey cells (counted on selective kanamycin medium) is indicated in the lower graph [in log10 of colony&#8208;forming units (cfu)]. The black, dark gray, and light gray circles indicate values from three independent assays, and the average is indicated by the bar. The experiment was performed in triplicate and a representative result is shown. Asterisks indicate significant differences compared to the wild&#8208;type attacker strain (NS, non&#8208;significant; ***P &lt; 0.001; Student's t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14160</offset>
+      <text>The EAEC Sci&#8208;1 T6SS has recently been shown to provide a competitive advantage against other E. coli species 70. Figure 3B shows that the number of GFP+ kanamycin&#8208;resistant E. coli K&#8208;12 prey cells recovered after co&#8208;culture with EAEC mltE cells was 4&#8208;log higher compared to co&#8208;culture with EAEC wild&#8208;type cells. This effect is comparable to that observed for a &#8710;tssM mutant. The T6SS&#8722; phenotypes conferred by the mltE mutation were complemented by the production of a wild&#8208;type copy of MltE (Fig 3A and B). We then tested whether the activity of MltE is required for T6SS function. The crystal structure and the in vitro characterization of MltE revealed the importance of a glutamate residue, Glu&#8208;64, in the catalytic reaction 71, 72. Although the MltEE64Q catalytic inactive mutant was produced at levels comparable to wild&#8208;type MltE, cells producing MltEE64Q were unable to release Hcp and to provide a T6SS&#8208;dependent competitive advantage against E. coli K&#8208;12 (Fig 3A and B). Taken together, these results demonstrate that the assembly of the EAEC Sci&#8208;1 T6SS requires the activity of the MltE lytic transglycosylase.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15311</offset>
+      <text>MltE is recruited and activated by TssM</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15351</offset>
+      <text>A number of LTGs, including that associated with T3SS, T4SS, and flagella, have been shown to interact with machine components to facilitate local peptidoglycan degradation at the site of assembly 11, 16, 22. Based on the results presented above, we hypothesized that MltE should be recruited to the T6SS apparatus. MltE being an outer membrane lipoprotein facing the periplasm 73, we tested the interaction of a soluble form of MltE, SMltE, with the T6SS subunits or domains exposed in the periplasm. These include the soluble fragment of TssJ, the periplasmic domains of the TssM (TssMP) and TagL (TagLP) proteins 30, 58, 60, 63, 64, as well as VgrG, which is proposed to fit inside the TssJLM complex channel at rest 30. Bacterial two&#8208;hybrid analyses demonstrated that SMltE interacts with the TssM periplasmic domain (Fig 4A and B). This interaction is specific as SMltE does not interact with the other T6SS subunits tested, and TssMP does not interact with the seven other LTGs. The interaction of TssMP with the full&#8208;length MltE lipoprotein was further confirmed by co&#8208;immunoprecipitation into the heterologous host E. coli K&#8208;12 (Fig 4C). These results define that MltE is recruited to the T6SS apparatus by binding directly to the TssM periplasmic region. The bacterial two&#8208;hybrid assay also showed that the SMltEE64Q variant interacts with TssMP, demonstrating that this mutation does not interfere with MltE recruitment to TssMP (Fig 4B). The TssM periplasmic region could be segmented into three sub&#8208;domains: Sub&#8208;domains 1 and 2 (amino acids 386&#8211;973) correspond to a region predicted to be essentially &#945;&#8208;helical and are followed by the C&#8208;terminal sub&#8208;domain 3 (amino acids 974&#8211;1129) that folds as a &#946;&#8208;sandwich&#8208;like structure 30. Co&#8208;immunoprecipitations using two variants encompassing these regions (TssM386&#8211;973 and TssM972&#8211;1129) revealed that MltE binds to the &#945;&#8208;helical sub&#8208;domains 1 + 2 (Fig 4C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17303</offset>
+      <text>MltE interacts with the TssM periplasmic domain</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17351</offset>
+      <text>Bacterial two&#8208;hybrid assay. BTH101 reporter cells producing the indicated proteins or domains fused to the T18 or T25 domain of the Bordetella adenylate cyclase were spotted on X&#8208;gal indicator plates. The blue color of the colony reflects the interaction between the two proteins. TolB and Pal are two proteins known to interact but unrelated to the T6SS or the MltE proteins. The experiment was performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17813</offset>
+      <text>Co&#8208;immunoprecipitation assay. The solubilized lysates from 2 &#215; 1010Escherichia coli K&#8208;12 W3110 cells co&#8208;expressing the indicated FLAG&#8208;tagged TssMP variants (exported in the periplasm) and VSV&#8208;G&#8208;tagged MltE protein (Total, T) were subjected to immunoprecipitation on anti&#8208;FLAG&#8208;coupled agarose beads. The immunoprecipitated material (IP) was subjected to 12.5% acrylamide SDS&#8211;PAGE and immunodetected with anti&#8208;FLAG (upper panel, TssM domains) and anti&#8208;VSV&#8208;G (lower panel, MltE) antibodies. Molecular weight markers (in kDa) are indicated on the left. The experiment was performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18468</offset>
+      <text>MltE is a non&#8208;processive endo&#8208;transglycosylase, which is considered to have a relatively low peptidoglycan hydrolase activity in vivo compared to other LTGs 73. Indeed, peptidoglycan hydrolysis assays showed that the purified soluble form of MltE, SMltE, is significantly less active compared to lysozyme (Fig 5A and B; initial rate of SMltE = 0.45 &#215; 10&#8722;3 AU/min/nmol). However, the activity of the T3SS&#8208;associated EtgA protein has been shown to be modulated via its interaction with the T3SS rod component EscI to avoid unspecific peptidoglycan lysis 22. We therefore tested whether SMltE is activated once bound to TssMP. Figure 5A and B shows that incubation of SMltE with TssMP stimulated the activity of SMltE sevenfold (initial rate of SMltE in the presence of TssMP = 3.15 &#215; 10&#8722;3 AU/min/nmol). Control experiments showed that TssMP, the SMltEE64Q:TssMP complex or the SMltE:TssMP complex in the presence of bulgecin A, has no significant activity (Fig 5A and B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19450</offset>
+      <text>TssMP increases MltE peptidoglycan hydrolase activity</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19504</offset>
+      <text>Remazol Brilliant Blue assay. The absorbance of supernatants from the reaction containing purified and RBB&#8208;labeled Escherichia coli peptidoglycan and the indicated protein (50 &#956;g) was measured at &#955; = 595 nm after incubation for 0.5 or 4 h at 37&#176;C. The results shown are the average and standard deviation from triplicate reactions (n = 3). Asterisks indicate significant differences compared to the buffer (NS, non&#8208;significant; **P &lt; 0.01; ***P &lt; 0.001; Student's t&#8208;test). The supernatant of the reaction after 4 h of incubation is shown on bottom.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20062</offset>
+      <text>Peptidoglycan hydrolysis. The decrease of the absorbance of the Micrococcus luteus peptidoglycan suspension in the presence of the indicated protein (50 &#956;g) was measured at &#955; = 600 nm at 37&#176;C over time. The results shown are the average and standard deviation from triplicate reactions (n = 3)</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20362</offset>
+      <text>MltE is required for oligomerization of the TssM protein</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20419</offset>
+      <text>The assembly of the T6SS is an ordered process in which the different subunits of the apparatus are sequentially recruited to the site of assembly. The assembly starts with the initial positioning of the TssJ lipoprotein and progresses by the addition of TssM and TssL, and the polymerization of TssJLM complexes to yield the membrane complex 30. The cytoplasmic TssA protein then binds to the TssJM or TssJLM complex and recruits the baseplate, prior to tail polymerization 56, 65, 74. To define at which stage of this biogenesis pathway the activity of MltE is necessary, we first assayed the TssJ&#8208;TssM and TssL&#8208;TssM interactions in the WT strain and its isogenic &#8710;mltE mutant. As previously published 64, TssJ and TssL co&#8208;precipitate with TssM. Figure 6A and B, respectively, shows that the TssJ&#8208;TssM and TssL&#8208;TssM interactions are not affected by the absence of MltE. The latter stages of T6SS membrane complex biogenesis is the polymerization of the TssJLM complex 30. The multimerization of TssM and its complexes with TssJ and TssL could be visualized in wild&#8208;type cells after in vivo chemical cross&#8208;linking using bis&#8208;(sulfosuccinimidyl)&#8208;suberate (BS3) (Fig 6C). Although TssJM and TssML complexes are still assembled in &#8710;mltE cells or &#8710;mltE cells producing the MltEE64Q catalytic MltE mutant, no cross&#8208;linked TssM&#8208;TssM species were observed in these cells (Fig 6C). Assembled TssJLM complexes can be observed directly in cells using a chromosomal fusion between TssM and a fluorescent reporter such as GFP 30. Fluorescence microscopy recordings show that GFPTssM forms fluorescent clusters at the cell periphery in wild&#8208;type cells (Fig 6D). However, no focus was observable in &#8710;mltE cells or &#8710;mltE cells producing MltEE64Q (Fig 6D). Taken together, these results suggest that local peptidoglycan hydrolysis by MltE is not required for formation of TssJLM heterotrimers but rather is necessary for assembly of the TssJLM core complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22395</offset>
+      <text>MltE is required for TssM multimerization</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22437</offset>
+      <text>Co&#8208;immunoprecipitation assay. The solubilized lysates from 2 &#215; 1010 EAEC wild&#8208;type or &#8710;mltE cells producing FLAG&#8208;tagged TssM (FLTssM) and/or HA&#8208;tagged TssJ (TssJHA, panel A) or TssL (TssLHA, panel B) (Total, T) were subjected to immunoprecipitation on anti&#8208;FLAG&#8208;coupled agarose beads. The immunoprecipitated material (IP) was subjected to 12.5% acrylamide SDS&#8211;PAGE and immunodetected with anti&#8208;FLAG (upper panel, TssM) and anti&#8208;HA (lower panel, TssJ or TssL) antibodies. Molecular weight markers (in kDa) are indicated on the left. The experiments were performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23073</offset>
+      <text>BS3 cross&#8208;linking assay. 2 &#215; 109 cells of the indicated strain producing FLAG&#8208;tagged TssM (with the exception of &#8710;tssM cells) were treated (+) or not (&#8722;) with the BS3 cross&#8208;linker agent. After the cross&#8208;linking reaction, cells were boiled in Laemmli buffer and total proteins were subjected to 7% acrylamide SDS&#8211;PAGE and immunodetected with anti&#8208;FLAG antibodies. The TssM protein (FLTssM) and its complexes (*TssM&#8208;TssJ; **TssM&#8208;TssL) are indicated on the right as well as the TssM dimer (arrow). Molecular weight markers (in kDa) are indicated on the left. The experiment was performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23731</offset>
+      <text>Fluorescence microscopy. Recordings showing TssM localization using the chromosomally encoded sfGFP&#8208;tssM fusion in wild&#8208;type (WT) or &#8710;mltE cells or &#8710;mltE cells producing the wild&#8208;type (mltE+) or catalytic variant (mltEE64Q) MltE protein. Scale bars are 1 &#956;m. The experiment was performed in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>24082</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24093</offset>
+      <text>In this work, we observed that treatment of EAEC cells with the LTG inhibitor bulgecin A prevents assembly of the Sci&#8208;1 T6SS. Systematic deletion of genes encoding LTG or putative LTG coupled to phenotypic assays demonstrated that the housekeeping MltE LTG is required for Sci&#8208;1 T6SS function, as Hcp release in the culture supernatant was abolished in &#8710;mltE cells. In addition, &#8710;mltE cells presented a decreased T6SS&#8208;dependent antagonist activity against E. coli K&#8208;12. The EAEC strain used in this study, 17&#8208;2, encodes a second T6SS, Sci&#8208;2 that belongs to the T6SS&#8208;3 family 75. No dedicated LTG is encoded within this cluster, and it will be thus interesting to define whether MltE&#8212;or an another host LTG&#8212;is required for the assembly of the Sci&#8208;2 T6SS.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24871</offset>
+      <text>We further showed that MltE is recruited to the site of assembly of the T6SS membrane complex by interacting with the &#945;&#8208;domains 1 and 2 of the TssM periplasmic region. In addition, we showed that the presence of the periplasmic domain of TssM stimulates the LTG activity of MltE sevenfold in vitro. These results are comparable to the enteropathogenic E. coli EscI T3SS rod component that binds and stimulates the EtgA LTG. EtgA is a specialized LTG, encoded and co&#8208;regulated with the T3SS gene cluster 21, 22, 76, a situation that is common in cell&#8208;envelope spanning machines such as flagella, type IV pili, T3SS, or T4SS 3, 5. By contrast, with few exceptions 67, no peptidoglycan hydrolase is encoded within T6SS gene clusters. Therefore, assembly of the T6SS membrane complex requires hijacking of an host LTG to locally rearrange the cell wall. The mltE gene is also present in E. coli K&#8208;12 strains lacking T6SS, in which it participates to peptidoglycan homeostasis 10, 73. The EAEC Sci&#8208;1 T6SS has therefore re&#8208;routed MltE for its own assembly. However, the observation that T6SS gene clusters have been horizontally transferred between species suggests that each strain may have domesticated different host LTGs. Another example of domestication of non&#8208;specialized LTG is the recruitment of MltD to anchor the Helicobacter pylori flagellum 77.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26237</offset>
+      <text>The recruitment and stimulation of MltE by TssM therefore spatially controls the activity of MltE at close proximity to the site of assembly of the T6SS. Interestingly, MltE has a relatively weak activity on E. coli peptidoglycan compared to other LTGs 73. However, Fibriansah et al72 noted that MltE is more active on the peptidoglycan of Micrococcus luteus, which differs from that of E. coli by the nature of the peptide stems. They proposed that MltE activity either requires the activity of an amidase to cleave the peptidoglycan peptide moieties or that its conformation is modulated by protein partners. The coordinated action of amidases and LTGs has been documented, notably during sporulation in Bacillus subtilis78. Although it would be interesting to test whether amidases are required for the assembly of the T6SS, the observation that TssM enhances the activity of MltE in vitro suggests that TssM helps MltE to bypass the presence of peptide stems. TssM might displace the peptide stem to avoid steric hindrance and to increase accessibility of MltE to the glycan strand, or might induce a conformational change in MltE, hence increasing its affinity for its substrate.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27422</offset>
+      <text>Our results also defined that MltE is required for the late stages of the assembly of the T6SS membrane complex (Fig 7). The biogenesis of the T6SS membrane complex begins with the positioning of the TssJ outer membrane lipoprotein (Fig 7, step a) and the recruitment of (i) TssM and (ii) TssL (Fig 7, steps b and c) prior to multimerization (Fig 7, step d) 30. The assembled TssJLM membrane complex is constituted of five dimers of TssJLM heterotrimeric complexes (Fig 7, step d) 30. We showed that the absence of MltE does not interfere with the interaction between TssJ and TssM, as well as between TssM and TssL. However, we did not detect TssM dimers in &#8710;mltE cells or in cells producing a catalytically inactive MltE LTG. We therefore propose that MltE is recruited to TssM prior to multimerization (Fig 7). This hypothesis suggests that the monomeric periplasmic domain of TssM can cross the cell wall to interact with TssJ, and that local rearrangement of the peptidoglycan is necessary for the polymerization of TssJLM heterotrimers.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28467</offset>
+      <text>Schematic model of the assembly of the TssJLM complex</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28521</offset>
+      <text>Biogenesis of the TssJLM complex begins with the initial positioning of the TssJ outer membrane (OM) lipoprotein (a) and the sequential recruitment of the TssM (b) and TssL (c) inner membrane (IM) proteins. TssM binds to the TssJ lipoprotein via its C&#8208;terminal &#946;&#8208;domain 3 (dark blue) and recruits the MltE LTG (green ball) via its &#945;&#8208;domain 1+2 (light blue). The TssM&#8208;mediated activation of MltE creates localized degradation in the cell wall (PG) allowing polymerization of the TssJLM complex (d). The crystal and electron microscopy structures are shown (TssJ, PDB:3RX9 64; TssMP&#8208;TssJ complex, PDB:4Y7O 30; TssL cytoplasmic domain, PDB: 3U66 87; TssJLM complex, EMDB:2927 30).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29211</offset>
+      <text>Taken together, our results provide evidence that the EAEC Sci&#8208;1 T6SS has domesticated an endogeneous LTG to allow the proper assembly and insertion of the cell envelope&#8208;spanning complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>29403</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29425</offset>
+      <text>Bacterial strains, growth conditions and chemicals</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29476</offset>
+      <text>The strains used in this study are listed in Appendix Table S1. Escherichia coli K&#8208;12 strains DH5&#945;, W3110, BTH101, and BL21(DE3)/MC1061 were used for cloning procedures, co&#8208;immunoprecipitation, bacterial two&#8208;hybrid assay, and protein purification, respectively. Enteroaggregative E. coli (EAEC) strains used in this work are isogenic derivatives of the wild&#8208;type O3:H2 17&#8208;2 strain. E. coli K&#8208;12 and EAEC cells were routinely grown in LB broth at 37&#176;C, with aeration. For induction of the sci&#8208;1 T6SS gene cluster, cells were grown in Sci&#8208;1&#8208;inducing medium [SIM: M9 minimal medium supplemented with glycerol (0.2%), vitamin B1 (1 &#956;g/ml), casaminoacids (40 &#956;g/ml), LB (10% v/v)] 79. Plasmids and mutations were maintained by the addition of ampicillin (100 &#956;g/ml for K&#8208;12, 200 &#956;g/ml for EAEC), kanamycin (50 &#956;g/ml for K&#8208;12, 50 &#956;g/ml for chromosomal insertion on EAEC, 100 &#956;g/ml for plasmid&#8208;bearing EAEC), or chloramphenicol (40 &#956;g/ml). Gene expression was induced by the addition of iso&#8208;propyl&#8208;&#946;&#8208;D&#8208;thio&#8208;galactopyranoside (IPTG, Sigma&#8208;Aldrich, 0.2 mM for 1 h), L&#8208;arabinose (Sigma&#8208;Aldrich; 0.005% for 0.5 h for complementation assays, 0.2% for 1 h for co&#8208;immunoprecipitation), or anhydrotetracycline (AHT; IBA Technologies; 0.2 &#956;g/ml for 45 min). Bulgecin A [a kind gift of Mathilde Bonis and Ivo G. Boneca (Institut Pasteur Paris)] was used at 50 &#956;g/ml or 100 &#956;g/ml for in vitro or in vivo inhibition experiments, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30956</offset>
+      <text>Strain construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30976</offset>
+      <text>Deletions of genes mltA (EC042_3012, gene accession identifier (GI): 284922752), mltB (EC042_2894, GI: 284922637), mltC (EC042_3170, GI: 284922906), mltD (EC042_0224, GI: 284920001), mltE (EC042_1244, GI: 284920999), slt70 (EC042_4889, GI: 284924571), EC042_2762 (GI: 284922508), and etgA (EC042_3052, GI: 284922791) were engineered on the EAEC 17&#8208;2 chromosome using the modified one&#8208;step inactivation procedure 80 using &#955; red recombinase expressed from pKOBEG 81 as previously described 63. The mltE gene was deleted from the 17&#8208;2 strain producing the GFPTssM fusion protein expressed from the chromosomal native locus 30 using the same procedure. The kanamycin cassette from plasmid pKD4 80 was amplified with oligonucleotides carrying ~50 nucleotide extensions homologous to regions adjacent to the target gene (custom primers, synthesized by Eurogentec, are listed in Appendix Table S1). The polymerase chain reaction (PCR) product was column purified (PCR and Gel Clean up, Promega) and electroporated into competent cells. Kanamycin&#8208;resistant clones were selected and the insertion of the kanamycin cassette at the targeted site was verified by PCR. The kanamycin cassette was then excised using plasmid pCP20 80 and the final strain was verified by PCR.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32246</offset>
+      <text>Plasmid construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32267</offset>
+      <text>PCR was performed with a Biometra thermocycler, using the Pfu Turbo DNA polymerase (Stratagene; La Jolla, CA, USA). Plasmids and oligonucleotides are listed in Appendix Table S1. Constructions of pOK&#8208;HcpHA, pUC&#8208;HcpFLAG, pIBA&#8208;TssMFL, pIBA&#8208;TssMP, pMS&#8208;TssJHA, and pETG20A&#8208;TssMP have been previously described 60, 63, 64. Plasmids pBADnLIC&#8208;sMltE and pBADnLIC&#8208;sMltE&#8208;E64Q have been previously described 72 and have been kindly provided by Andy&#8208;Mark Thunnissen (University of Groningen, the Netherlands). All pASK&#8208;IBA4 and bacterial two&#8208;hybrid vectors and the pBAD&#8208;MltEV plasmid, encoding the C&#8208;terminally VSV&#8208;G&#8208;tagged full&#8208;length MltE protein under the control of the arabinose promoter (in the pBAD33 vector), have been constructed by restriction&#8208;free cloning 82. Briefly, the gene of interest fused to 5&#8242; and 3&#8242; extensions annealing to the target vector was amplified and used as oligonucleotides for a second PCR using the target vector as template. The E64Q point mutation was inserted into pBAD&#8208;MltEV and pT18&#8208;MltE by site&#8208;directed mutagenesis using complementary oligonucleotides bearing the desired mutation. All constructs have been verified by PCR and DNA sequencing (MWG).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33490</offset>
+      <text>T6SS phenotypic assays and GFPTssM fluorescence microscopy recordings</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33560</offset>
+      <text>Hcp release and anti&#8208;bacterial competition assays were performed as previously described 63, 70. For the Hcp release assay with bulgecin A treatment, the experiment was performed in a &#8710;tssM strain carrying plasmid pASK&#8208;IBA37&#8208;TssM, allowing AHT&#8208;dependent inducible expression of the tssM gene and producing HA&#8208;tagged Hcp. Cells were grown in SIM until A600 ~0.4 and treated&#8212;or not&#8212;with bulgecin A (100 &#956;M). After 40 min, tssM expression was induced by the addition of AHT and the culture was further grown for 45 min. Cell pellets and supernatants were fractionated by centrifugation. The final supernatant fraction samples were obtained by filtration on 0.25&#8208;&#956;M PES membranes and TCA precipitation as previously published 63. Controls were performed to verify that bulgecin A treatment did not interfere with TssM production. Controls for cell lysis were performed by immunodetecting the periplasmic TolB protein. For treatment of cells with pre&#8208;assembled TssJLM complexes, wild&#8208;type 17&#8208;2 cells producing HA&#8208;tagged Hcp were grown in SIM to A600 ~0.5, and the cells and supernatant fractions were separated as described above. Cells were washed in SIM and resuspended in SIM supplemented or not with bulgecin A (100 &#956;M). After further growth for 45 min, cells and supernatant fractions were separated as described above. Fluorescence microscopy recordings were performed as previously published 30. All experiments have been done at least in duplicate and a representative result is shown. Statistical analysis of anti&#8208;bacterial competition assays was performed by Student's t&#8208;test. Significant differences were defined as *P &lt; 0.05, **P &lt; 0.01, and ***P &lt; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35256</offset>
+      <text>Protein production and purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35292</offset>
+      <text>The periplasmic domain of TssM was purified from E. coli BL21(DE3) cells carrying the pETG20A&#8208;TssMP plasmid and the native protein was obtained after cleavage of the thioredoxin&#8208;6&#215;His N&#8208;terminal extension by the tobacco etch virus (TEV) protease, as previously published 64. The soluble MltE protein and its E64Q variant were purified from E. coli MC1061 cells carrying the pBADnLIC&#8208;sMltE or pBADnLIC&#8208;sMltE&#8208;E64Q vector as previously published 72.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35752</offset>
+      <text>Peptidoglycan hydrolysis assays</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>35784</offset>
+      <text>Preparation of the peptidoglycan fraction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35826</offset>
+      <text>The peptidoglycan fraction from the JE5505 lpp strain was prepared as previously published 83, resuspended in phosphate&#8208;buffered saline, and treated with 200 &#956;g/ml amylase (Sigma&#8208;Aldrich) for 2 h at 37&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>36037</offset>
+      <text>Remazol Brilliant Blue assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36066</offset>
+      <text>This protocol for the peptidoglycan hydrolysis assay has been modified from a published protocol 84. The purified peptidoglycan was washed with distilled water, resuspended in 200 mM NaOH and labeled with 25 mM Remazol Brilliant Blue (RBB, Sigma&#8208;Aldrich) for 14 h at 37&#176;C, and washed four times with distilled water. RBB&#8208;labeled peptidoglycan was incubated with the 50 &#956;g of protein of interest for 30 min or 4 h in PBS buffer, and the reaction was quenched by the addition of 50 &#956;g/ml bulgecin A. After ultra&#8208;centrifugation for 40 min at 68,000 g, the absorbance of the supernatant was measured at 595 nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>36682</offset>
+      <text>Peptidoglycan turbidity assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36712</offset>
+      <text>This peptidoglycan hydrolysis assay has been performed as previously published 72 using a suspension of 0.25 mg/ml of purified M. luteus peptidoglycan (Sigma&#8208;Aldrich) in MES 50 mM pH 6.0, NaCl 200 mM (A600 = 0.57 &#177; 0.04). The turbidity at 600 nm was measured every 20 min after addition of 50 &#956;g (~2.48 nmol) of SMltE. For experiments in the presence of TssMP, a 1:2 (SMltE:TssMP) molar ratio has been used. The initial rate was measured as the slope of the initial linear curve (expressed in absorbance units/min/nmol). For all peptidoglycan hydrolysis assays, controls were performed with buffer, lysozyme, or in the presence of 50 &#956;g/ml bulgecin A. The assays have been performed in triplicate and a representative experiment is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37456</offset>
+      <text>Bacterial two&#8208;hybrid assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37485</offset>
+      <text>The adenylate cyclase&#8208;based bacterial two&#8208;hybrid technique 85 was used as previously published 86. Briefly, the proteins to be tested were fused to the isolated T18 and T25 catalytic domains of the Bordetella adenylate cyclase. After introduction of the two plasmids producing the fusion proteins into the reporter BTH101 strain, plates were incubated at 30&#176;C for 24 h. Three independent colonies for each transformation were inoculated into 600 &#956;l of LB medium supplemented with ampicillin, kanamycin, and IPTG (0.5 mM). After overnight growth at 30&#176;C, 10 &#956;l of each culture was dropped onto LB plates supplemented with ampicillin, kanamycin, IPTG, and 5&#8208;bromo&#8208;4&#8208;chloro&#8208;3&#8208;indolyl&#8208;&#946;&#8208;D&#8208;galactopyranoside (X&#8208;gal) and incubated for 16 h at 30&#176;C. Controls include interaction assays with TolB and Pal, two protein partners unrelated to the T6SS. The experiments were done at least in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38442</offset>
+      <text>Co&#8208;immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38467</offset>
+      <text>1011 exponentially growing cells producing the proteins of interest were harvested and resuspended in buffer TN (Tris&#8211;HCl 20 mM pH 8.0, NaCl 100 mM) supplemented with protease inhibitors (Complete, Roche), lysozyme (100 &#956;g/ml) and DNase (100 &#956;g/ml), and broken by three passages at the French press (1,000 psi). Unbroken cells were discarded by centrifugation for 15 min at 3,000 g and the total cell extract was mixed with an equal volume of 2&#215; CellLytic&#8482; B Cell Lysis reagent (Sigma&#8208;Aldrich) and incubated for 1 h with strong shaking. The insoluble material was discarded by centrifugation for 45 min at 60,000 g and the supernatant from 2 &#215; 1010 cells was incubated overnight at 4&#176;C with anti&#8208;FLAG M2 affinity beads (Sigma&#8208;Aldrich). Beads were then washed three times with 1&#215; CellLytic&#8482; in buffer TN. The total extract and immunoprecipitated material were resuspended and boiled in Laemmli loading buffer prior to analyses by SDS&#8211;PAGE and immunoblotting. The experiments were done in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39523</offset>
+      <text>In vivo BS3 cross&#8208;linking assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39557</offset>
+      <text>2 &#215; 109 exponentially growing cells were harvested, washed with sodium phosphate (SP) buffer (NaH2PO4/Na2HPO4 10 mM pH 7.4), and resuspended in 1 ml of SP supplemented with 0.5 mM bis (3&#8208;sulfo&#8208;N&#8208;hydroxysuccinimide ester) suberate (BS3; Sigma&#8208;Aldrich). After incubation at room temperature for 25 min, the cross&#8208;linking reaction was quenched by the addition of Tris&#8211;HCl pH 8.0 (100 mM final concentration). Cross&#8208;linked cells were resuspended and boiled in non&#8208;reducing Laemmli loading buffer prior to analyses by SDS&#8211;PAGE and immunoblotting. The experiments were done in triplicate and a representative result is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40196</offset>
+      <text>Miscellaneous</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40210</offset>
+      <text>For Western blot analyses, cell extracts or precipitated proteins were resuspended in Laemmli buffer and boiled for 10 min. Proteins were separated by SDS&#8211;PAGE and transferred onto nitrocellulose membranes. Immunoblots were probed with anti&#8208;VSV&#8208;G (clone P5D4, Sigma&#8208;Aldrich), anti&#8208;FLAG (clone M2, Sigma&#8208;Aldrich), anti&#8208;HA (clone HA&#8208;7, Sigma&#8208;Aldrich) monoclonal antibodies, or anti&#8208;TolB polyclonal antibodies (laboratory collection), and anti&#8208;rabbit or anti&#8208;mouse secondary antibodies coupled to the alkaline phosphatase. Immunostaining was achieved in sodium phosphate buffer (pH 9.0) supplemented with MgCl2 10 mM, 5&#8208;bromo&#8208;4&#8208;chloro&#8208;3&#8208;indolyl&#8208;phosphate 40 &#956;g/ml, and nitro&#8208;blue tetrazolium chloride 40 &#956;g/ml.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40958</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40979</offset>
+      <text>YGS and EC designed the research and conceived the study; YGS and EC performed the experiments; and EC wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41104</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41125</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41185</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>41208</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">359</infon>
+      <infon key="pub-id_pmid">25978706</infon>
+      <infon key="fpage">343</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>41219</offset>
+      <text>Secretion systems in Gram&#8208;negative bacteria: structural and mechanistic insights</text>
+    </passage>
+    <passage>
+      <infon key="volume">178</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">773</infon>
+      <infon key="pub-id_pmid">8550511</infon>
+      <infon key="fpage">768</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>41302</offset>
+      <text>The permeability of the wall fabric of Escherichia coli and Bacillus subtilis</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">Cell Mol Life Sci</infon>
+      <infon key="lpage">2388</infon>
+      <infon key="pub-id_pmid">14625683</infon>
+      <infon key="fpage">2371</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>41380</offset>
+      <text>Lytic transglycosylases in macromolecular transport systems of Gram&#8208;negative bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">3467</infon>
+      <infon key="pub-id_pmid">16272370</infon>
+      <infon key="fpage">3455</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>41468</offset>
+      <text>Peptidoglycan degradation by specialized lytic transglycosylases associated with type III and type IV secretion systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">318</infon>
+      <infon key="source">FEMS Microbiol Lett</infon>
+      <infon key="lpage">9</infon>
+      <infon key="pub-id_pmid">21276045</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>41588</offset>
+      <text>Maintaining network security: how macromolecular structures cross the peptidoglycan layer</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">EXS</infon>
+      <infon key="lpage">429</infon>
+      <infon key="pub-id_pmid">8765311</infon>
+      <infon key="fpage">425</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>41678</offset>
+      <text>Lytic transglycosylases</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Int J Biochem Cell Biol</infon>
+      <infon key="lpage">591</infon>
+      <infon key="pub-id_pmid">17468031</infon>
+      <infon key="fpage">586</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>41702</offset>
+      <text>Lytic transglycosylases: bacterial space&#8208;making autolysins</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">FEMS Microbiol Rev</infon>
+      <infon key="lpage">286</infon>
+      <infon key="pub-id_pmid">18266855</infon>
+      <infon key="fpage">259</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>41763</offset>
+      <text>Bacterial peptidoglycan (murein) hydrolases</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">703</infon>
+      <infon key="pub-id_pmid">22055466</infon>
+      <infon key="fpage">698</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>41807</offset>
+      <text>More than just lysins: peptidoglycan hydrolases tailor the cell wall</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Microbiol Mol Biol Rev</infon>
+      <infon key="lpage">663</infon>
+      <infon key="pub-id_pmid">22126997</infon>
+      <infon key="fpage">636</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>41876</offset>
+      <text>Peptidoglycan hydrolases of Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">189</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">8004</infon>
+      <infon key="pub-id_pmid">17873041</infon>
+      <infon key="fpage">7998</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>41921</offset>
+      <text>The flagellar muramidase from the photosynthetic bacterium Rhodobacter sphaeroides</text>
+    </passage>
+    <passage>
+      <infon key="volume">194</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">4520</infon>
+      <infon key="pub-id_pmid">22707709</infon>
+      <infon key="fpage">4513</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42004</offset>
+      <text>The C terminus of the flagellar muramidase SltF modulates the interaction with FlgJ in Rhodobacter sphaeroides</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">345</infon>
+      <infon key="pub-id_pmid">12828633</infon>
+      <infon key="fpage">331</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>42115</offset>
+      <text>A lytic transglycosylase homologue, PleA, is required for the assembly of pili and the flagellum at the Caulobacter crescentus cell pole</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7326</infon>
+      <infon key="pub-id_pmid">8692991</infon>
+      <infon key="fpage">7321</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>42252</offset>
+      <text>A family of lysozyme&#8208;like virulence factors in bacterial pathogens of plants and animals</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">11500</infon>
+      <infon key="pub-id_pmid">12177441</infon>
+      <infon key="fpage">11493</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>42343</offset>
+      <text>Peptide linkage mapping of the Agrobacterium tumefaciens vir&#8208;encoded type IV secretion system reveals protein subassemblies</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">3482</infon>
+      <infon key="pub-id_pmid">16272371</infon>
+      <infon key="fpage">3469</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>42469</offset>
+      <text>The putative lytic transglycosylase VirB1 from Brucella suis interacts with the type IV secretion system core components VirB8, VirB9 and VirB11</text>
+    </passage>
+    <passage>
+      <infon key="volume">189</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">5428</infon>
+      <infon key="pub-id_pmid">17526702</infon>
+      <infon key="fpage">5421</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>42614</offset>
+      <text>AtlA functions as a peptidoglycan lytic transglycosylase in the Neisseria gonorrhoeae type IV secretion system</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Mol Biol Rep</infon>
+      <infon key="lpage">509</infon>
+      <infon key="pub-id_pmid">20358296</infon>
+      <infon key="fpage">503</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>42725</offset>
+      <text>Characterization of peptidoglycan hydrolase in Cag pathogenicity island of Helicobacter pylori</text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">Appl Environ Microbiol</infon>
+      <infon key="lpage">5169</infon>
+      <infon key="pub-id_pmid">24951779</infon>
+      <infon key="fpage">5161</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>42820</offset>
+      <text>TgaA, a VirB1&#8208;like component belonging to a putative type IV secretion system of Bifidobacterium bifidum MIMBb75</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">2106</infon>
+      <infon key="pub-id_pmid">12904549</infon>
+      <infon key="fpage">2093</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>42935</offset>
+      <text>Yeast two&#8208;hybrid system survey of interactions between LEE&#8208;encoded proteins of enteropathogenic Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">1160</infon>
+      <infon key="pub-id_pmid">21233160</infon>
+      <infon key="fpage">1145</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>43052</offset>
+      <text>The muramidase EtgA from enteropathogenic Escherichia coli is required for efficient type III secretion</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">10417</infon>
+      <infon key="pub-id_pmid">25678709</infon>
+      <infon key="fpage">10406</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>43156</offset>
+      <text>Structural analysis of a specialized type III secretion system peptidoglycan&#8208;cleaving enzyme</text>
+    </passage>
+    <passage>
+      <infon key="volume">181</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">1561</infon>
+      <infon key="pub-id_pmid">10049388</infon>
+      <infon key="fpage">1555</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>43251</offset>
+      <text>Peptidoglycan&#8208;hydrolyzing activity of the FlgJ protein, essential for flagellar rod formation in Salmonella typhimurium</text>
+    </passage>
+    <passage>
+      <infon key="volume">312</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">369</infon>
+      <infon key="pub-id_pmid">11554792</infon>
+      <infon key="fpage">359</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>43373</offset>
+      <text>The role in flagellar rod assembly of the N&#8208;terminal domain of Salmonella FlgJ, a flagellum&#8208;specific muramidase</text>
+    </passage>
+    <passage>
+      <infon key="volume">81</infon>
+      <infon key="source">Genes Genet Syst</infon>
+      <infon key="lpage">389</infon>
+      <infon key="pub-id_pmid">17283383</infon>
+      <infon key="fpage">381</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43489</offset>
+      <text>Plasticity of the domain structure in FlgJ, a bacterial protein involved in flagellar rod formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">381</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">21</infon>
+      <infon key="pub-id_pmid">19351587</infon>
+      <infon key="fpage">16</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>43589</offset>
+      <text>Crystal structure of the glycosidase family 73 peptidoglycan hydrolase FlgJ</text>
+    </passage>
+    <passage>
+      <infon key="volume">289</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">31042</infon>
+      <infon key="pub-id_pmid">25248745</infon>
+      <infon key="fpage">31029</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>43665</offset>
+      <text>The essential protein for bacterial flagella formation FlgJ functions as a &#946;&#8208;N&#8208;acetylglucosaminidase</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">2869</infon>
+      <infon key="pub-id_pmid">12003925</infon>
+      <infon key="fpage">2863</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>43771</offset>
+      <text>The PtlE protein of Bordetella pertussis has peptidoglycanase activity required for Ptl&#8208;mediated pertussis toxin secretion</text>
+    </passage>
+    <passage>
+      <infon key="volume">198</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">1856</infon>
+      <infon key="pub-id_pmid">27114466</infon>
+      <infon key="fpage">1847</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>43896</offset>
+      <text>Modulation of the lytic activity of the dedicated autolysin for flagellum formation SltF by flagellar rod proteins FlgB and FlgF</text>
+    </passage>
+    <passage>
+      <infon key="volume">523</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">560</infon>
+      <infon key="pub-id_pmid">26200339</infon>
+      <infon key="fpage">555</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44025</offset>
+      <text>Biogenesis and structure of a type VI secretion membrane core complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">8</infon>
+      <infon key="pub-id_pmid">18289922</infon>
+      <infon key="fpage">3</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44095</offset>
+      <text>Type VI secretion: a beginner's guide</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">741</infon>
+      <infon key="pub-id_pmid">18617888</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44133</offset>
+      <text>The type VI secretion toolkit</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Annu Rev Microbiol</infon>
+      <infon key="lpage">472</infon>
+      <infon key="pub-id_pmid">22746332</infon>
+      <infon key="fpage">453</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44163</offset>
+      <text>Structure and regulation of the type VI secretion system</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">58</infon>
+      <infon key="pub-id_pmid">23290191</infon>
+      <infon key="fpage">52</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44220</offset>
+      <text>Deadly syringes: type VI secretion system activities in pathogenicity and interbacterial competition</text>
+    </passage>
+    <passage>
+      <infon key="volume">164</infon>
+      <infon key="source">Res Microbiol</infon>
+      <infon key="lpage">654</infon>
+      <infon key="pub-id_pmid">23542428</infon>
+      <infon key="fpage">640</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44321</offset>
+      <text>The type VI secretion system &#8211; a widespread and versatile cell targeting system</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">148</infon>
+      <infon key="pub-id_pmid">24384601</infon>
+      <infon key="fpage">137</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44403</offset>
+      <text>Type VI secretion system effectors: poisons with a purpose</text>
+    </passage>
+    <passage>
+      <infon key="volume">1843</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1673</infon>
+      <infon key="pub-id_pmid">24681160</infon>
+      <infon key="fpage">1664</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44462</offset>
+      <text>Architecture and assembly of the Type VI secretion system</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Trends Microbiol</infon>
+      <infon key="lpage">507</infon>
+      <infon key="pub-id_pmid">25042941</infon>
+      <infon key="fpage">498</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44520</offset>
+      <text>VgrG, Tae, Tle, and beyond: the versatile arsenal of Type VI secretion effectors</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">21</infon>
+      <infon key="pub-id_pmid">24332978</infon>
+      <infon key="fpage">9</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44601</offset>
+      <text>A view to a kill: the bacterial type VI secretion system</text>
+    </passage>
+    <passage>
+      <infon key="volume">370</infon>
+      <infon key="source">Philos Trans R Soc Lond B Biol Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">1679</infon>
+      <infon key="year">2015</infon>
+      <offset>44658</offset>
+      <text>Type VI secretion system: secretion by a contractile nanomachine</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Trends Microbiol</infon>
+      <infon key="lpage">62</infon>
+      <infon key="pub-id_pmid">26549582</infon>
+      <infon key="fpage">51</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44723</offset>
+      <text>Aim, Load, Fire: the Type VI secretion system, a bacterial nanoweapon</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">93</infon>
+      <infon key="pub-id_pmid">26722980</infon>
+      <infon key="fpage">81</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44793</offset>
+      <text>Type VI secretion and anti&#8208;host effectors</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">821</infon>
+      <infon key="pub-id_pmid">20444095</infon>
+      <infon key="fpage">815</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44837</offset>
+      <text>Tubules and donuts: a type VI secretion story</text>
+    </passage>
+    <passage>
+      <infon key="volume">367</infon>
+      <infon key="source">Philos Trans R Soc Lond B Biol Sci</infon>
+      <infon key="lpage">1111</infon>
+      <infon key="pub-id_pmid">22411981</infon>
+      <infon key="fpage">1102</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44883</offset>
+      <text>Structural biology of type VI secretion systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">726</infon>
+      <infon key="source">Adv Exp Med Biol</infon>
+      <infon key="lpage">114</infon>
+      <infon key="pub-id_pmid">22297511</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44931</offset>
+      <text>Contractile tail machines of bacteriophages</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3738</infon>
+      <infon key="pub-id_pmid">18310321</infon>
+      <infon key="fpage">3733</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44975</offset>
+      <text>In vitro self&#8208;assembly of tailorable nanotubes from a simple protein building block</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">4159</infon>
+      <infon key="pub-id_pmid">19251641</infon>
+      <infon key="fpage">4154</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>45061</offset>
+      <text>Type VI secretion apparatus and phage tail&#8208;associated protein complexes share a common evolutionary origin</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">321</infon>
+      <infon key="pub-id_pmid">24488256</infon>
+      <infon key="fpage">315</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>45170</offset>
+      <text>Type VI secretion and bacteriophage tail tubes share a common assembly pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">483</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">22367545</infon>
+      <infon key="fpage">182</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45249</offset>
+      <text>Type VI secretion requires a dynamic contractile phage tail&#8208;like structure</text>
+    </passage>
+    <passage>
+      <infon key="volume">160</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">962</infon>
+      <infon key="pub-id_pmid">25723169</infon>
+      <infon key="fpage">952</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45326</offset>
+      <text>Structure of the type VI secretion system contractile sheath</text>
+    </passage>
+    <passage>
+      <infon key="volume">500</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">353</infon>
+      <infon key="pub-id_pmid">23925114</infon>
+      <infon key="fpage">350</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45387</offset>
+      <text>PAAR&#8208;repeat proteins sharpen and diversify the type VI secretion system spike</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">19809</infon>
+      <infon key="pub-id_pmid">23150540</infon>
+      <infon key="fpage">19804</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45467</offset>
+      <text>Quantitative single&#8208;cell characterization of bacterial interactions reveals type VI secretion is a double&#8208;edged sword</text>
+    </passage>
+    <passage>
+      <infon key="volume">152</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">894</infon>
+      <infon key="pub-id_pmid">23415234</infon>
+      <infon key="fpage">884</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45589</offset>
+      <text>Tit&#8208;for&#8208;tat: type VI secretion system counterattack during bacterial cell&#8208;cell interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">41</infon>
+      <infon key="pub-id_pmid">23291094</infon>
+      <infon key="fpage">36</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45687</offset>
+      <text>Imaging type VI secretion&#8208;mediated bacterial killing</text>
+    </passage>
+    <passage>
+      <infon key="volume">461</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">304</infon>
+      <infon key="pub-id_pmid">24779861</infon>
+      <infon key="fpage">291</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>45742</offset>
+      <text>Biochemical analysis of TssK, a core component of the bacterial Type VI secretion system, reveals distinct oligomeric states of TssK and identifies a TssK&#8208;TssFG subcomplex</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">26460929</infon>
+      <infon key="fpage">e1005545</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45916</offset>
+      <text>The Type VI secretion TssEFGK&#8208;VgrG phage&#8208;like baseplate is recruited to the TssJLM membrane complex via multiple contacts and serves as assembly platform for tail tube/sheath polymerization</text>
+    </passage>
+    <passage>
+      <infon key="volume">533</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">352</infon>
+      <infon key="pub-id_pmid">27193680</infon>
+      <infon key="fpage">346</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46110</offset>
+      <text>Structure of the T4 baseplate and its function in triggering sheath contraction</text>
+    </passage>
+    <passage>
+      <infon key="volume">428</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">4437</infon>
+      <infon key="pub-id_pmid">27600411</infon>
+      <infon key="fpage">4424</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46190</offset>
+      <text>Molecular dissection of the interface between the Type VI secretion TssM cytoplasmic domain and the TssG baseplate component</text>
+    </passage>
+    <passage>
+      <infon key="volume">428</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">4423</infon>
+      <infon key="pub-id_pmid">27600409</infon>
+      <infon key="fpage">4413</infon>
+      <infon key="year">2016a</infon>
+      <infon key="type">ref</infon>
+      <offset>46315</offset>
+      <text>Structure&#8208;function analysis of the TssL cytoplasmic domain reveals a new interaction between the Type VI secretion baseplate and membrane complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">899</infon>
+      <infon key="pub-id_pmid">20487285</infon>
+      <infon key="fpage">886</infon>
+      <infon key="year">2010a</infon>
+      <infon key="type">ref</infon>
+      <offset>46465</offset>
+      <text>The SciZ protein anchors the enteroaggregative Escherichia coli Type VI secretion system to the cell wall</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Microbiologyopen</infon>
+      <infon key="lpage">82</infon>
+      <infon key="pub-id_pmid">22950014</infon>
+      <infon key="fpage">71</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46571</offset>
+      <text>The C&#8208;tail anchored TssL subunit, an essential protein of the enteroaggregative Escherichia coli Sci&#8208;1 Type VI secretion system, is inserted by YidC</text>
+    </passage>
+    <passage>
+      <infon key="volume">191</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">4329</infon>
+      <infon key="pub-id_pmid">19395482</infon>
+      <infon key="fpage">4316</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>46724</offset>
+      <text>An IcmF family protein, ImpLM, is an integral inner membrane protein interacting with ImpKL, and its walker a motif is required for type VI secretion system&#8208;mediated Hcp secretion in Agrobacterium tumefaciens</text>
+    </passage>
+    <passage>
+      <infon key="volume">190</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">7531</infon>
+      <infon key="pub-id_pmid">18805985</infon>
+      <infon key="fpage">7523</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>46935</offset>
+      <text>SciN is an outer membrane lipoprotein required for type VI secretion in enteroaggregative Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22102820</infon>
+      <infon key="fpage">e1002386</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47042</offset>
+      <text>Towards a structural comprehension of bacterial type VI secretion systems: characterization of the TssJ&#8208;TssM complex of an Escherichia coli pathovar</text>
+    </passage>
+    <passage>
+      <infon key="volume">531</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">63</infon>
+      <infon key="pub-id_pmid">26909579</infon>
+      <infon key="fpage">59</infon>
+      <infon key="year">2016b</infon>
+      <infon key="type">ref</infon>
+      <offset>47193</offset>
+      <text>Priming and polymerization of a bacterial contractile tail structure</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Virulence</infon>
+      <infon key="lpage">540</infon>
+      <infon key="pub-id_pmid">21178498</infon>
+      <infon key="fpage">535</infon>
+      <infon key="year">2010b</infon>
+      <infon key="type">ref</infon>
+      <offset>47262</offset>
+      <text>Anchoring the type VI secretion system to the peptidoglycan: TssL, TagL, TagP &#8230; what else?</text>
+    </passage>
+    <passage>
+      <infon key="source">MBio</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">27729508</infon>
+      <infon key="fpage">e01253&#8208;16</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>47355</offset>
+      <text>Genetic dissection of the Type VI secretion system in Acinetobacter and identification of a novel peptidoglycan hydrolase, TagX, required for its biogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">J Antibiot (Tokyo)</infon>
+      <infon key="lpage">1403</infon>
+      <infon key="pub-id_pmid">6757229</infon>
+      <infon key="fpage">1400</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>47512</offset>
+      <text>Bulgecin, a bacterial metabolite which in concert with beta&#8208;lactam antibiotics causes bulge formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">12737</infon>
+      <infon key="pub-id_pmid">7548026</infon>
+      <infon key="fpage">12729</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>47616</offset>
+      <text>Structure of the 70&#8208;kDa soluble lytic transglycosylase complexed with bulgecin A. Implications for the enzymatic mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1118</infon>
+      <infon key="pub-id_pmid">26714038</infon>
+      <infon key="fpage">1099</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>47741</offset>
+      <text>A phospholipase A1 antibacterial Type VI secretion effector interacts directly with the C&#8208;terminal domain of the VgrG spike protein for delivery</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">2386</infon>
+      <infon key="pub-id_pmid">21341761</infon>
+      <infon key="fpage">2384</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47888</offset>
+      <text>High&#8208;resolution crystal structure of MltE, an outer membrane&#8208;anchored endolytic peptidoglycan lytic transglycosylase from Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">9177</infon>
+      <infon key="pub-id_pmid">23075328</infon>
+      <infon key="fpage">9164</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48031</offset>
+      <text>On the mechanism of peptidoglycan binding and cleavage by the endo&#8208;specific lytic transglycosylase MltE from Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">180</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">3447</infon>
+      <infon key="pub-id_pmid">9642199</infon>
+      <infon key="fpage">3441</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>48159</offset>
+      <text>Membrane&#8208;bound lytic endotransglycosylase in Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">2142</infon>
+      <infon key="pub-id_pmid">26387948</infon>
+      <infon key="fpage">2131</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>48223</offset>
+      <text>Visualization of the Serratia Type VI secretion system reveals unprovoked attacks and dynamic assembly</text>
+    </passage>
+    <passage>
+      <infon key="source">EcoSal Plus</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>48326</offset>
+      <text>The Type VI secretion system in Escherichia coli and related species</text>
+    </passage>
+    <passage>
+      <infon key="source">J Biomed Sci</infon>
+      <infon key="volume">17</infon>
+      <infon key="pub-id_pmid">20587027</infon>
+      <infon key="fpage">52</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48395</offset>
+      <text>A putative lytic transglycosylase tightly regulated and critical for the EHEC type three secretion</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">856</infon>
+      <infon key="pub-id_pmid">22994973</infon>
+      <infon key="fpage">845</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48494</offset>
+      <text>Peptidoglycan maturation enzymes affect flagellar functionality in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">422</infon>
+      <infon key="pub-id_pmid">20159959</infon>
+      <infon key="fpage">411</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48570</offset>
+      <text>A highly coordinated cell wall degradation machine governs spore morphogenesis in Bacillus subtilis</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21829382</infon>
+      <infon key="fpage">e1002205</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>48670</offset>
+      <text>An epigenetic switch involving overlapping Fur and DNA methylation optimizes expression of a type VI secretion gene cluster</text>
+    </passage>
+    <passage>
+      <infon key="volume">97</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">6645</infon>
+      <infon key="pub-id_pmid">10829079</infon>
+      <infon key="fpage">6640</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>48794</offset>
+      <text>One&#8208;step inactivation of chromosomal genes in Escherichia coli K&#8208;12 using PCR products</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">28</infon>
+      <infon key="pub-id_pmid">11071951</infon>
+      <infon key="fpage">E97</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>48885</offset>
+      <text>A rapid method for efficient gene replacement in the filamentous fungus Aspergillus nidulans</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">J Biochem Biophys Methods</infon>
+      <infon key="lpage">74</infon>
+      <infon key="pub-id_pmid">16480772</infon>
+      <infon key="fpage">67</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48978</offset>
+      <text>RF cloning: a restriction&#8208;free method for inserting target genes into plasmids</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">885</infon>
+      <infon key="pub-id_pmid">14731286</infon>
+      <infon key="fpage">873</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>49059</offset>
+      <text>Deletion analyses of the peptidoglycan&#8208;associated lipoprotein Pal reveals three independent binding sequences including a TolA box</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1422</infon>
+      <infon key="pub-id_pmid">20300061</infon>
+      <infon key="fpage">1412</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>49192</offset>
+      <text>Daughter cell separation is controlled by cytokinetic ring&#8208;activated cell wall hydrolysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5756</infon>
+      <infon key="pub-id_pmid">9576956</infon>
+      <infon key="fpage">5752</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>49284</offset>
+      <text>A bacterial two&#8208;hybrid system based on a reconstituted signal transduction pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="source">Methods</infon>
+      <infon key="lpage">334</infon>
+      <infon key="pub-id_pmid">22841567</infon>
+      <infon key="fpage">325</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>49369</offset>
+      <text>The bacterial two&#8208;hybrid system based on adenylate cyclase reconstitution in Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">287</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">14168</infon>
+      <infon key="pub-id_pmid">22371492</infon>
+      <infon key="fpage">14157</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>49465</offset>
+      <text>Structural characterization and oligomerization of the TssL protein, a component shared by bacterial type VI and type IVb secretion systems</text>
+    </passage>
+  </document>
+</collection>

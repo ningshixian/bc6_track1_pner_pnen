@@ -1,0 +1,1542 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5009812</id>
+    <passage>
+      <infon key="name_2">surname:Mockenhaupt;given-names:Stefan</infon>
+      <infon key="name_3">surname:R&#246;der;given-names:Natalie</infon>
+      <infon key="name_0">surname:Michler;given-names:Thomas</infon>
+      <infon key="name_1">surname:Gro&#223;e;given-names:Stefanie</infon>
+      <infon key="name_6">surname:Ko;given-names:Chunkyu</infon>
+      <infon key="alt-title">Thomas Michler et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMMM201506172</infon>
+      <infon key="name_5">surname:Knapp;given-names:Bettina</infon>
+      <infon key="name_8">surname:Protzer;given-names:Ulrike</infon>
+      <infon key="name_9">surname:Grimm;given-names:Dirk</infon>
+      <infon key="lpage">1098 1098</infon>
+      <infon key="fpage">1082 1082</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Heikenwalder;given-names:Mathias</infon>
+      <infon key="name_4">surname:St&#252;ckler;given-names:Ferdinand</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/emmm.201506172</infon>
+      <infon key="article-id_pmid">27473329</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="issue">9</infon>
+      <infon key="kwd">Adeno&#8208;associated virus hepatitis B virus RNA interference short hairpin RNA tough decoy Genetics, Gene Therapy &amp; Genetic Disease Microbiology, Virology &amp; Host Pathogen Interaction</infon>
+      <infon key="volume">8 8</infon>
+      <infon key="article-id_pmc">5009812</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <offset>0</offset>
+      <text>Blocking sense&#8208;strand activity improves potency, safety and specificity of anti&#8208;hepatitis B virus short hairpin RNA </text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>121</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>130</offset>
+      <text>Hepatitis B virus (HBV) is a promising target for therapies based on RNA interference (RNAi) since it replicates via RNA transcripts that are vulnerable to RNAi silencing. Clinical translation of RNAi technology, however, requires improvements in potency, specificity and safety. To this end, we systematically compared different strategies to express anti&#8208;HBV short hairpin RNA (shRNA) in a pre&#8208;clinical immunocompetent hepatitis B mouse model. Using recombinant Adeno&#8208;associated virus (AAV) 8 vectors for delivery, we either (i) embedded the shRNA in an artificial mi(cro)RNA under a liver&#8208;specific promoter; (ii) co&#8208;expressed Argonaute&#8208;2, a rate&#8208;limiting cellular factor whose saturation with excess RNAi triggers can be toxic; or (iii) co&#8208;delivered a decoy (&#8220;TuD&#8221;) directed against the shRNA sense strand to curb off&#8208;target gene regulation. Remarkably, all three strategies minimised adverse side effects as compared to a conventional shRNA vector that caused weight loss, liver damage and dysregulation of &gt;&#160;100 hepatic genes. Importantly, the novel AAV8 vector co&#8208;expressing anti&#8208;HBV shRNA and TuD outperformed all other strategies regarding efficiency and persistence of HBV knock&#8208;down, thus showing substantial promise for clinical translation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1412</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1425</offset>
+      <text>Chronic hepatitis B caused by hepatitis B virus (HBV) infection remains a major health burden that affects nearly 250&#160;million humans and causes an estimated 686,000 annual deaths from the long&#8208;term consequences liver cirrhosis and hepatocellular carcinoma (HCC) (MacLachlan et&#160;al, 2015; Schweitzer et&#160;al, 2015). This is due to the limitations of standard&#8208;of&#8208;care antiviral therapy, including that nucleos(t)ide analogs require daily and lifelong application, which is costly, may elicit side effects such as kidney insufficiency (Tenofovir and Entecavir) and can prompt the emergence of resistant HBV mutants (Song et&#160;al, 2012). Moreover, current interventions fail to eliminate the virus or to inhibit viral transcription and translation, despite the ability of these drugs to control the generation of infectious HBV virions. However, the viral proteins crucially determine viral persistence and pathogenesis. In particular, secreted HBV surface (HBsAg) and e antigen (HBeAg) are proposed to be key players in modulating the host immune response that impair its ability to clear the virus (Protzer et&#160;al, 2012), and that very likely contribute to development of HBV&#8208;associated HCC (Ringelhan et&#160;al, 2013). HBV X protein (HBx) can affect immune signalling and contributes to HCC development (Levrero &amp; Zucman&#8208;Rossi, 2016). Furthermore, HBV core (HBc) and polymerase initiate the first step of replication, encapsidation and reverse transcription of pre&#8208;genomic HBV RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2914</offset>
+      <text>A possible solution towards the development of new and more effective HBV therapies is RNA interference (RNAi). Particularly encouraging is that RNAi allows suppression of all viral transcripts and proteins and may serve as a basis to restore immune responses. This was first suggested a decade ago when it was reported that expression of shRNAs (short hairpin RNAs, artificial triggers of RNAi) can be harnessed for in&#160;vivo inhibition of HBV or hepatitis C virus (HCV) gene expression (McCaffrey et&#160;al, 2002, 2003). This pioneering work was quickly followed by a series of in&#160;vitro and in&#160;vivo studies in pre&#8208;clinical HBV models that verified the enormous promise of RNAi therapeutics for HBV treatment (McCaffrey et&#160;al, 2003; Carmona et&#160;al, 2006; Grimm et&#160;al, 2006, 2010; Giering et&#160;al, 2008; Keck et&#160;al, 2009), and that culminated in a phase II clinical evaluation of a polyconjugated siRNA in chronically HBV&#8208;infected patients (www.arrowheadresearch.com/programs/ARC-520). This inspiring translation from bench to bedside was fuelled by several facts that make RNAi highly attractive and promising as an antiviral modality. Firstly, the four major HBV transcripts share a common 3&#8242; end which allows concurrent targeting of all viral messenger (m)RNAs with a single RNAi molecule (Ebert et&#160;al, 2011). Secondly, HBV mRNAs are constantly transcribed from the viral covalently closed circular DNA (cccDNA), the persistent HBV form in the nucleus of infected hepatocytes. This renders HBV highly vulnerable to a gene therapy approach using a vector that permanently expresses an effective anti&#8208;HBV shRNA directed against the 3&#8242; end of all HBV RNAs. One exciting option to deliver shRNAs into the infected hepatocyte are recombinant Adeno&#8208;associated&#160;viruses of serotype 8 (AAV8), non&#8208;pathogenic vectors that mediate efficient and stable hepatic gene transfer in small and large animals as well as in humans (Grimm et&#160;al, 2006; Chen et&#160;al, 2007, 2008; Giering et&#160;al, 2008; Nathwani et&#160;al, 2011). Increasing their appeal for treatment of persistent HBV infection is our recent observation that the HBV X protein enhances nuclear AAV transport and thus &#8220;helps&#8221; AAV transduction, indicating that the vector will preferentially establish in HBV&#8208;infected hepatocytes (Hosel et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5230</offset>
+      <text>To fully realise the potential of AAV/RNAi vectors for HBV therapy and to foster their clinical translation, it is now imperative to overcome lingering safety concerns (Grimm et&#160;al, 2006; Grimm, 2011). These were initially triggered by observations with first&#8208;generation vectors that mediated overly abundant shRNA expression, causing liver toxicity with elevated serum liver transaminases, jaundice, weight loss, as well as histological and structural liver alterations. In extreme cases, unrestricted shRNA over&#8208;expression even resulted in organ failure and morbidity of treated mice (Grimm et&#160;al, 2006). Additional findings in c&#8208;Myc&#8208;transgenic mice indicate that shRNA over&#8208;expression can also accelerate tumorigenesis under certain conditions (Beer et&#160;al, 2010). Notably, adverse effects from shRNA over&#8208;expression were likewise observed in other species and tissues beyond the mouse liver (Grimm, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6154</offset>
+      <text>Fortunately, we and others could identify possible mechanisms underlying this RNAi toxicity, which now offers various avenues for improvement (Fig&#160;1A and B). One model suggests that ectopic RNAi triggers overwhelm the endogenous mi(cro)RNA pathway, particularly Exportin&#8208;5 and Argonaute&#8208;2 (Ago&#8208;2, key RISC component) and thus perturb miRNA biogenesis and/or activity in a dose&#8208;dependent manner (Grimm et&#160;al, 2006, 2010; Giering et&#160;al, 2008). Evidence is that RNAi efficiency can be enhanced by Ago&#8208;2 co&#8208;expression in&#160;vitro and in&#160;vivo (Diederichs et&#160;al, 2008; Grimm et&#160;al, 2010; Borner et&#160;al, 2013). Moreover, the use of weaker shRNA promoters (Giering et&#160;al, 2008; Grimm et&#160;al, 2010; Suhy et&#160;al, 2012) or shRNA embedding in a natural miRNA context can reduce accumulation of mature RNAi triggers and thus increase safety (Zeng et&#160;al, 2005; McBride et&#160;al, 2008; Boudreau et&#160;al, 2009; Ely et&#160;al, 2009), albeit even marginal shRNA expression can provoke phenotype and transcriptome changes in mouse livers (Maczuga et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7209</offset>
+      <text>Mechanisms that can cause RNAi toxicity and strategies to overcome them</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7281</offset>
+      <text>Three possible mechanisms explaining toxicity after over&#8208;expression of conventional shRNAs (see text for details). Orange, shRNA sense strand; blue, shRNA antisense strand.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7456</offset>
+      <text>Improved shRNA expression strategies to circumvent the mechanisms in panel (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7536</offset>
+      <text>Four principal vector designs compared in this study. Symbols on the left indicate the AAV vector backbone; numbers denote serotype origin of the ITRs (inverted terminal repeats, serving as AAV DNA packaging signals; asterisk indicates a deletion in the AAV4 ITR creating the self&#8208;complementary [sc]AAV genotype). Six thymines (6xT) serve as termination signal for H1/U6 promoters; bGH, bovine growth hormone polyadenylation signal; TTR, transthyretin promoter.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8000</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8003</offset>
+      <text>A second model implies that RNAi triggers perturb cell homoeostasis through unwanted inhibition of &#8220;off&#8208;target&#8221; genes with partial complementarity to one of the two arms of the double&#8208;stranded RNAi molecule (Jackson et&#160;al, 2003; Scacheri et&#160;al, 2004; Fedorov et&#160;al, 2006). As vector&#8208;encoded shRNAs are incompatible with molecular or chemical modifications that may improve specificity (Grimm, 2009), the best remaining option is judicious selection of shRNAs with an inherent bias towards the antisense arm that directs RISC to the target mRNA (Khvorova et&#160;al, 2003; Reynolds et&#160;al, 2004; Gu et&#160;al, 2014; Liu et&#160;al, 2015). However, latest data show that shRNA off&#8208;targeting can also originate from binding of cellular RNA sequences by the sense strand, which is identical to the target region (Clark et&#160;al, 2008; Wei et&#160;al, 2009; Kwak &amp; Tomari, 2012; Schurmann et&#160;al, 2013; Gu et&#160;al, 2014; Mockenhaupt et&#160;al, 2015). To block this side effect, we recently (Mockenhaupt et&#160;al, 2015) developed a novel bi&#8208;cistronic AAV vector co&#8208;expressing a shRNA with a second RNA hairpin called &#8220;tough decoy&#8221; or &#8220;TuD&#8221;. Originally devised by Haraguchi and colleagues to silence cellular miRNAs (Haraguchi et&#160;al, 2009), we found that TuDs can be repurposed to selectively bind and inactivate shRNA sense strands, thereby improving RNAi specificity and promising a crucial benefit for clinical RNAi therapies. In this study, we systematically compared our new shRNA/TuD design side by side to two other advanced shRNA expression strategies&#8212;Ago&#8208;2 co&#8208;delivery and embedding in a miRNA scaffold&#8212;for HBV inhibition in a transgenic mouse model of chronic HBV infection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9694</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9702</offset>
+      <text>Design of different RNAi triggers for direct in&#160;vitro and in&#160;vivo comparison</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9781</offset>
+      <text>Figure&#160;1C provides a schematic overview of the four distinct RNAi expression strategies that were tested in this study. As miRNA scaffold for embedding of the anti&#8208;HBV shRNA (strategy [ii]), we selected miR&#8208;122 based on its high and specific expression in the liver (Landgraf et&#160;al, 2007). The final construct was designed to fulfil two requirements (Fig&#160;EV1A top): (i) the antisense strand is in the 5&#8242; position, to mimic the miR&#8208;122 structure; and (ii) the first position of the predicted pre&#8208;miRNA (processed pri&#8208;miRNA) is a uridine, to recapitulate the thermodynamic stability of the first bulge of pre&#8208;miR&#8208;122. In contrast, rules for a construct expressing a conventional anti&#8208;HBV shRNA (Figs&#160;1Ci and EV1A bottom) were (i) the sense strand is in the 5&#8242; arm to facilitate neutralisation by a co&#8208;expressed TuD (Mockenhaupt et&#160;al, 2015); and (ii) this strand starts with guanine, to allow precise transcription from RNA polymerase III promoters. For shRNA expression, we used the H1 promoter based on our experience that it yields safer and more stable RNAi in mouse livers than the stronger U6 promoter (Grimm et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10936</offset>
+      <text>Design of anti&#8208;HBV shRNAs and pri&#8208;miRNA mimic</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10986</offset>
+      <text>HBV target sequence (black) and corresponding pre&#8208;miR&#8208;122&#8208;embedded (top) or conventional (bottom) shRNAs. The selected HBV target sequences had to allow expression as classical shRNA or from a miRNA scaffold, and TuD&#8208;mediated sense&#8208;strand neutralisation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11251</offset>
+      <text>Four selected shRNAs targeting HBV sequences that fulfil all requirements from panel (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11341</offset>
+      <text>Stepwise derivation of a pri&#8208;miR&#8208;122&#8208;embedded anti&#8208;HBV hairpin from shHBV7 (lead candidate from panel B). Note that shHBV7 and pri&#8208;miR&#8208;122/HBV7 are designed to encode the identical antisense strand (blue) against HBV, and that the seed region of the sense strand of pri&#8208;miR&#8208;122/HBV7 is identical to the seed region of the shHBV7 sense strand (bold letters).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11715</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11718</offset>
+      <text>To select anti&#8208;HBV shRNAs that could be modified according to these rules, we focused on the X region of the HBV genome which enables simultaneous targeting of all viral transcripts (Ebert et&#160;al, 2011) (Appendix&#160;Fig S1A and B). We identified four shRNA candidates (Fig&#160;EV1B) and measured their efficacy in an HBV cell culture model (Fig&#160;2). From this pre&#8208;screen, we chose shHBV7 for all further studies as it consistently gave best results, including 99% knock&#8208;down of secreted HBsAg (measured by a quantitative HBsAg chemiluminescent microparticle immunoassay [CMIA], Fig&#160;2A), as well as robust knock&#8208;down of secreted HBeAg and HBV DNA, and of intracellular pre&#8208;genomic HBV RNA (3.5&#8208;kb transcript), total HBV RNA and HBV DNA (Fig&#160;2A&#8211;D). Notably, the used HBeAg test (Fig&#160;2A) does not measure true concentrations, but a signal&#8208;to&#8208;control ratio (S/CO) which follows a sigmoid curve. This leads to underestimates at high concentrations and, vice versa, to overestimates at low concentrations. Accordingly, the HBeAg reductions are likely even more pronounced and in the high range measured with the quantitative HBsAg test. Moreover, an additional benefit of shHBV7 is that its target sequence is largely conserved across all HBV genotypes (Appendix&#160;Fig S1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13002</offset>
+      <text>Pre&#8208;selection of anti&#8208;HBV short hairpin RNAs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13051</offset>
+      <text>Huh7 cells were co&#8208;transfected with shRNAs fulfilling all requirements for incorporation into the expression strategies from Fig&#160;1C and the HBV expression plasmid pCH&#8208;HBV1.3, and HBeAg and HBsAg were quantified in the supernatant 48&#160;h later. An empty AAV vector plasmid was used as control. Another negative control was mock&#8208;transfected cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13403</offset>
+      <text>The same experiment was repeated with plasmid pCH&#8208;9&#8208;3091, which contains a 1.1&#8208;fold over&#8208;length HBV genome. HBV DNA in supernatant was measured at day four via PCR, using primers that preferentially amplify HBV rcDNA rather than the 1.1&#8208;fold over&#8208;length HBV sequence contained in the plasmid.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13708</offset>
+      <text>RT&#8208;qPCR results from cell lysates (same experiment as in panel A) with primers specific for the 3.5&#8208;kb HBV transcripts (consisting of pre&#8208;genomic [pg] RNA and the pre&#8208;core transcript; left), or with primers that detect all HBV transcripts (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13964</offset>
+      <text>Southern blot analysis of lysates obtained 72&#160;h post&#8208;transfection of HepG2 cells treated with the same plasmids as in panel (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14096</offset>
+      <text> Data information: Diagrams in panels (A&#8211;C) show mean values and SEM (all experiments were performed in triplicates). Significance was calculated using one&#8208;way ANOVA with Tukey's multiple comparison correction. S/CO, signal&#8208;to&#8208;control ratio; rcDNA, relaxed circular DNA; dlDNA, duplex&#8208;linear DNA, double&#8208;stranded linear DNA; n.s., non&#8208;significant; *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001; ****P&#160;&lt;&#160;0.0001. See Appendix&#160;Table&#160;S1 for exact n&#8208; and P&#8208;values.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14574</offset>
+      <text>We next embedded this lead shRNA into the pre&#8208;miR&#8208;122 scaffold, following the scheme in Fig&#160;EV1C. Therefore, we added two uridines to the 3&#8242; end of the miR&#8208;122/HBV7 (from hereon called miHBV7) antisense strand to match the conventional shRNA [expected to carry a 3&#8242; overhang of up to three uridines, typical for shRNAs expressed from RNA polymerase III promoters (Cullen, 2006)] (Fig&#160;EV1C top). Moreover, we designed a partially complementary sense strand mimicking the mismatches and bulges in genuine miR&#8208;122 and finally added 5&#8242; and 3&#8242; flanking sequences from miR&#8208;122 to complete the miHBV7 scaffold (Fig&#160;EV1C bottom). The entire sequence was then cloned into an AAV vector and expressed from the liver&#8208;specific RNA polymerase II transthyretin promoter (TTR) (Wu et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15378</offset>
+      <text>This promoter was also used to co&#8208;express Ago&#8208;2 together with H1 promoter&#8208;driven shHBV7 (Fig&#160;1Ciii). The large size of the bi&#8208;cistronic shRNA/Ago&#8208;2 construct required cloning into a traditional AAV vector which packages as single&#8208;stranded DNA. Conversely, the other two cassettes&#8212;H1&#8208;shHBV7 or TTR&#8208;miHBV7&#8212;were assembled in a self&#8208;complementary (sc)AAV&#8208;2/4 vector genome (Grimm et&#160;al, 2006). These differences are irrelevant for transfection experiments in cell culture but essential in&#160;vivo where scAAV vectors express more rapidly and robustly (Grimm et&#160;al, 2006; McCarty, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15986</offset>
+      <text>TuD inclusion to reduce shRNA off&#8208;targeting and improve RNAi efficiency</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16060</offset>
+      <text>Next, we engineered a TuD RNA hairpin to specifically bind and neutralise the shHBV7 sense strand (Fig&#160;1Civ). Based on our recently elucidated rules (Mockenhaupt et&#160;al, 2015), we cloned two perfect binding sites for the shHBV7 sense strand and expressed the resulting TuDHBV7 from a U6 promoter. The U6&#8208;TuD was then inserted downstream of the H1&#8208;shHBV7 cassette in the scAAV vector backbone (Appendix&#160;Fig S2). To assess shHBV7 sense versus antisense&#8208;strand activity and TuD functionality, we co&#8208;transfected cells with the shHBV7/TuDHBV7 plasmid and dual&#8208;luciferase reporters carrying a perfect binding site for either shHBV7 sense or antisense strand in the 3&#8242; untranslated region (UTR) of Renilla luciferase (Fig&#160;3A). Negative controls included (i) an irrelevant shRNA against human alpha&#8208;1&#8208;antitrypsin (sh&#945;1AT), (ii) a TuD against the sense strand of sh&#945;1AT and (iii) a luciferase reporter without shRNA binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17003</offset>
+      <text>Improvement of shHBV7 specificity and efficiency by co&#8208;expression of a TuD against the sense strand</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17105</offset>
+      <text>Scheme&#160;of the assay to determine shRNA strand activities in the absence or presence of specific TuDs. Huh7 cells were co&#8208;transfected with the shRNA and the TuD encoded on the same plasmid, and a luciferase reporter with appropriate shRNA strand binding sites. bs, binding site.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17386</offset>
+      <text>Measurement of resulting luciferase activities in cell lysates 48&#160;h post&#8208;transfection. Note the potent inhibition of shHBV7 sense&#8208;strand activity with the specific TuDHBV7, without interference with the antisense strand (compare left two orange or blue bars, respectively). bs, binding site.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17683</offset>
+      <text> In vivo evaluation of different shRNA and TuD combinations after packaging into double&#8208;stranded AAV8 vectors and intravenous (i.v.) injection of 1&#160;&#215;&#160;1011 particles into HBV&#8208;transgenic mice (HBV1.3.32). Anti&#8208;HBV activity was determined by measuring HBsAg and HBeAg levels in the serum of treated animals at the indicated time points post&#8208;AAV injection.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18047</offset>
+      <text> Data information: Diagrams in panels (B and C) show mean values and SEM. Significance was calculated using Student t&#8208;test. The experiment in panel (B) was performed in triplicates. The diagram in panel (C) shows pooled data of three experiments with at least five mice per treatment group. n.s., non&#8208;significant; *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001; ****P&#160;&lt;&#160;0.0001. See Appendix&#160;Table&#160;S1 for exact n&#8208; and P&#8208;values. Panel&#160;(A) contains clipart from Servier Medical Art.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18535</offset>
+      <text>Expression of shHBV7 substantially inhibited the antisense&#8208;strand reporter, irrespective of which TuD was co&#8208;expressed (Fig&#160;3B, shHBV7 group). The sense&#8208;strand reporter was also suppressed by &gt;&#160;65% in the presence of the control TuD, solidifying our recent data that both shRNA strands are frequently active (Mockenhaupt et&#160;al, 2015). Importantly, this unwanted sense&#8208;strand activity was completely abolished upon co&#8208;expression of TuDHBV7 (Fig&#160;3B, shHBV7 group). All controls behaved as expected, since expression of the shHBV7&#8208;sensitive luciferase reporter was neither inhibited by the irrelevant shRNA nor by the two TuDs (which exert no inherent RNAi activity).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19216</offset>
+      <text>We next aimed to verify these results in an in&#160;vivo model of chronic hepatitis B. For this, we used an HBV&#8208;transgenic mouse strain HBV1.3.32, which carries a chromosomally integrated 1.3&#8208;fold over&#8208;length HBV genome (Guidotti et&#160;al, 1995). This viral DNA expresses all HBV transcripts and antigens, and it is replication&#8208;competent and produces infectious wild&#8208;type HBV genotype D. We packaged the various constructs encoding only shRNA or shRNA plus TuD (Fig&#160;3C, indicated at the bottom) into AAV8 capsids and intravenously injected 1&#160;&#215;&#160;1011 particles per mouse. Remarkably, the dual vector co&#8208;expressing shHBV7 and TuDHBV7 not only efficiently suppressed HBV but outperformed the two vectors expressing shHBV7 alone, or co&#8208;encoding shHBV7 and the control TuD, as evidenced by significantly greater reductions of serum HBsAg and HBeAg (Fig&#160;3C, green bars). The difference was particularly pronounced at the earliest time point (5&#160;days) post&#8208;injection, showing that the shRNA7/TuD construct is also faster at inhibiting HBV in&#160;vivo. The control shRNA only had a minor effect on HBsAg expression (black/grey bars) and neither HBsAg nor HBeAg were significantly altered upon co&#8208;expression of either TuD, arguing against a general influence of TuDs on HBV expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20506</offset>
+      <text>We subsequently compared all four vector variants from Fig&#160;1C side by side in the HBV cell culture model for their effects on HBV proteins, DNA and RNA (Fig&#160;4). Despite the high inherent activity of the shHBV7 shRNA, we observed a trend towards further improvement through Ago&#8208;2 co&#8208;expression at least for the secreted parameters (best notable for HBV DNA in the supernatant, whose knock&#8208;down was increased from 57.3 to 73.5%). This is in line with the rate&#8208;limiting nature of Ago&#8208;2 described by us and others (Diederichs et&#160;al, 2008; Grimm et&#160;al, 2010; Borner et&#160;al, 2013). The TTR&#8208;miHBV7 construct was typically less efficient than the other strategies but still achieved substantial anti&#8208;HBV RNAi. Southern blot analysis revealed a robust reduction of intracellular HBV DNA by all four vectors, with the miHBV7 vector again showing the least pronounced effect (Fig&#160;4D). Congruent with the in&#160;vivo experiment in Fig&#160;3C, there was a trend towards better HBV inhibition with the TuD co&#8208;expressing vector as compared to the shHBV7&#8208;only construct, most noticeable in the HBV RNA analyses (Fig&#160;4C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21629</offset>
+      <text> In vitro comparison of different RNAi triggers</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21677</offset>
+      <text>Huh7 cells were co&#8208;transfected with the HBV expression plasmid pCH&#8208;HBV1.3 and the four principal constructs examined in this study, or with an empty AAV expression plasmid that served as negative control. Another negative control was mock&#8208;transfected cells. HBeAg and HBsAg were quantified in the supernatant 48&#160;h later.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22005</offset>
+      <text>Measurement of HBV DNA in cell culture supernatants 4&#160;days after co&#8208;transfection of Huh7 cells with the plasmid encoding the 1.1&#8208;fold over&#8208;length HBV sequence (pCH&#8208;9&#8208;3091) and the same RNAi expression plasmids as in panel (A). PCR was performed using primers that discriminate between HBV rcDNA and the 1.1&#8208;fold over&#8208;length HBV sequence contained in the plasmid.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22383</offset>
+      <text>RT&#8208;qPCR results using primers specific for the 3.5&#8208;kb HBV transcript (including pre&#8208;genomic RNA and the pre&#8208;core transcript; left), or primers that detect all HBV transcripts (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22575</offset>
+      <text>Southern blot analysis of lysates obtained 72&#160;h post&#8208;transfection of HepG2 cells with the same plasmids as described in panel (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22709</offset>
+      <text> Data information: Diagrams in panels (A&#8211;C) show mean values and SEM (all experiments were performed in triplicates). Significance was calculated using one&#8208;way ANOVA with Tukey's multiple comparison correction. S/CO, signal&#8208;to&#8208;control ratio; n.s., non&#8208;significant; rcDNA, relaxed circular DNA; dlDNA, duplex&#8208;linear DNA; *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001; ****P&#160;&lt;&#160;0.0001. See Appendix&#160;Table&#160;S1 for exact n&#8208; and P&#8208;values.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23157</offset>
+      <text>Long&#8208;term in&#160;vivo side&#8208;by&#8208;side comparison of all four strategies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23229</offset>
+      <text>We next extended the in&#160;vivo analysis of the shHBV7 versus shHBV7/TuDHBV7 vectors to 3&#160;months and included the Ago&#8208;2 co&#8208;expression and miRNA embedding strategies to directly compare their efficiency and safety. All vector variants were intravenously injected into HBV&#8208;transgenic mice at 1&#160;&#215;&#160;1011 particles per animal (Fig&#160;5A). Congruent with our short&#8208;term in&#160;vivo analysis (Fig&#160;3C, also confirmed in Fig&#160;6A), the shRNA&#8208;only vector potently knocked down HBV, culminating in 97% serum HBsAg reduction at 4&#160;weeks post&#8208;injection (Fig&#160;5B, purple; corresponding HBV DNA and RNA data are shown in Fig&#160;EV2). However, this vector also induced toxicity as evidenced by a retarded gain in body weight of the treated animals (compared to all other shHBV7 expression strategies, Fig&#160;5C) and elevated ALT levels at 1&#8211;4&#160;weeks post&#8208;injection (Fig&#160;5D). This coincided with a reduction of liver mass in individual mice treated with the shHBV7&#8208;only vector on day 15 (measured in the separate experiment shown in Fig&#160;EV3, purple). The same side effects&#8212;reduced body weight and ALT elevation&#8212;were also observed with an unrelated control shRNA (Fig&#160;5C and D, black), reaffirming reports (Grimm et&#160;al, 2006; Beer et&#160;al, 2010) that even low levels of shRNA are not fully devoid of detectable side effects. Important to note is that the observed toxicity was overall mild, as shown by the absence of significant histological changes at late (day 84, Fig&#160;5E) or early time points (day 15, Fig&#160;EV4) post&#8208;AAV injection. Together, this underscores that even presumably optimised conditions&#8212;weak shRNA promoter and moderate vector dose&#8212;cannot fully overcome low&#8208;level acute toxicity from traditional shRNA vectors and that additional improvements are needed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25010</offset>
+      <text>Long&#8208;term analysis of different anti&#8208;HBV AAV vectors in HBV&#8208;transgenic mice</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25092</offset>
+      <text>Schemes of the five different vectors used for the in&#160;vivo comparison. ss, single&#8208;stranded; sc, self&#8208;complementary; i.v., intravenously.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25234</offset>
+      <text>Determination of anti&#8208;HBV efficacy and safety by measuring HBsAg in the serum of treated mice (B), their body weight (C) and serum ALT levels (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25383</offset>
+      <text>Haematoxylin/Eosin (HE) stains of livers harvested on day 84. Scale bar at bottom right represents 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25492</offset>
+      <text> Data information: Diagrams show mean values and SEM from 5 to 6 mice per group. Significance in panel (B) was calculated using Student t&#8208;test, and in panels (C and D) using one&#8208;way ANOVA, comparing each group to the vector expressing only shHBV7. n.s., non&#8208;significant; *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001. See Appendix&#160;Table&#160;S1 for exact n&#8208; and P&#8208;values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25867</offset>
+      <text>Short&#8208;term in&#160;vivo study to analyse shHBV7 off&#8208;target activity</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25935</offset>
+      <text>HBV&#8208;transgenic mice (five in mock group, six in all others) were injected intravenously with 1&#160;&#215;&#160;1011 particles of the shown AAV8 vectors, and HBsAg was measured from serum at various time points post&#8208;injection. Fifteen days post&#8208;treatment, mRNA expression in livers was analysed using microarrays. Significance was calculated using Student t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26295</offset>
+      <text>Genes significantly dysregulated compared to mock treated animals (false discovery rate &lt;&#160;0.25; compared to mock).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26411</offset>
+      <text>Transcripts of genes significantly up&#8208; or down&#8208;regulated by shHBV7 were analysed for the presence of shHBV7 sense or antisense 2&#8208; to 7&#8208;nt seed matches and compared to the background frequency within all genes on the microarray. Significance was calculated using chi&#8208;square test with Yates' correction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26723</offset>
+      <text>All genes on the microarray were grouped according to the presence of 3&#8242;UTR shHBV7 sense or antisense seed matches. Shown is their relative expression compared to the empty vector. Significance was calculated using Mann&#8211;Whitney test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26961</offset>
+      <text> Data information: Diagrams in panels (A and D) show mean values and SEM n.s., non&#8208;significant; *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01. See Appendix&#160;Table&#160;S1 for exact n&#8208; and P&#8208;values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27141</offset>
+      <text>Effect of different RNAi strategies on HBV DNA in serum and HBV transcripts in livers of HBV&#8208;transgenic mice</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27252</offset>
+      <text>HBV&#8208;transgenic mice were injected i.v. with 1&#160;&#215;&#160;1011 particles of the shown AAV vectors. HBV DNA was measured at day 84 after treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27394</offset>
+      <text>Expression of HBV transcripts in livers of HBV&#8208;transgenic mice was analysed at day 15 after treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27499</offset>
+      <text> Data information: Mean values and SEM are shown, and significance was calculated using one&#8208;way ANOVA with Tukey's multiple comparison correction. *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ****P&#160;&lt;&#160;0.0001. See Appendix&#160;Table&#160;S1 for exact n&#8208; and P&#8208;values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27748</offset>
+      <text>Liver weight from short&#8208;term in&#160;vivo study</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27794</offset>
+      <text>HBV&#8208;transgenic mice (same mice as in Fig&#160;5) were injected i.v. with 1&#160;&#215;&#160;1011 particles of the shown AAV vectors, and their livers were harvested and weighed 15&#160;days later. Mean values and SEM are shown, and significance was calculated using Student t&#8208;test. *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ****P&#160;&lt;&#160;0.0001. See Appendix Table&#160;S1 for exact n&#8208; and P&#8208;values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28159</offset>
+      <text>Pathohistological stainings of livers of HBV&#8208;transgenic mice</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28222</offset>
+      <text>Livers were harvested 15&#160;days after intravenous injection of 1&#160;&#215;&#160;1011 particles of the vectors shown on the left. HE, haematoxylin/eosin; ki67, cellular proliferation marker. &#215;400/&#215;200, 400&#8208; or 200&#8208;fold magnification, respectively. Scale bar at the bottom right always represents 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28522</offset>
+      <text>Remarkably, co&#8208;expression of Ago&#8208;2, embedding of shHBV7 in a miRNA context as well as co&#8208;expression of TuDHBV7 were all able to rescue these side effects. Treated mice gained body weight (Fig&#160;5C), showed no elevation of ALT activity (Fig&#160;5D) and no reduction of liver mass at day 15, identical to control animals treated with a non&#8208;coding AAV (Fig&#160;EV3). This also verified that toxicity from the shRNA&#8208;only vector was exclusively due to the shRNA expression and not to any other vector component. The safety improvements over the shRNA&#8208;only vector tended to be best in mice where the shRNA was expressed from the miR&#8208;122 scaffold and under the liver&#8208;specific TTR promoter, in line with reports that miRNA embedding reduces in&#160;vivo RNAi toxicity (Ely et&#160;al, 2008, 2009; McBride et&#160;al, 2008; Boudreau et&#160;al, 2009) (Figs&#160;5C and D, and EV3). However, the differences to the Ago&#8208;2 or TuD co&#8208;expression strategies were not statistically significant. Moreover, of all configurations, the TTR&#8208;miHBV7 vector was least efficient at inhibiting HBV (Fig&#160;5B), consistent with our cell culture data (Fig&#160;4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29648</offset>
+      <text>Interestingly, efficient long&#8208;term HBV inhibition was obtained with the vector co&#8208;expressing Ago&#8208;2 from the liver&#8208;specific TTR promoter, to a degree matching the conventional shRNA&#8208;only construct (Fig&#160;5B). Considering that the Ago&#8208;2 vector was a single&#8208;stranded AAV which expresses more slowly and less potently than scAAV genomes that were used for the shRNA&#8208;only vector, this is remarkable and validates our previous finding that Ago&#8208;2 co&#8208;delivery boosts shRNA potency in mouse livers (Grimm et&#160;al, 2010; Borner et&#160;al, 2013). In addition, over&#8208;expressing Ago&#8208;2 relieved toxicity as compared to mice receiving only the shRNA, as evidenced by weight gains and normal ALT levels in the shHBV7/Ago&#8208;2 cohort (Fig&#160;5C and D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30399</offset>
+      <text>Noteworthy, the strongest and most persistent HBV knock&#8208;down was achieved with the bi&#8208;cistronic vector co&#8208;expressing shHBV7 and the sense&#8208;strand TuD, which inhibited HBsAg by 98.5% and significantly outperformed all other constructs at early and late time points (Fig&#160;5B, green). As observed for Ago&#8208;2 co&#8208;expression and miRNA strategies, the shHBV/TuDHBV7 vector was able to alleviate in&#160;vivo RNAi toxicity as documented by measurements of body weights (Fig&#160;5C), serum transaminases (Fig&#160;5D) and liver masses (Fig&#160;EV3). Furthermore, histological analysis of livers neither revealed significant changes in liver microarchitecture nor liver damage when compared to a mock control (Fig&#160;5E). This superior antiviral efficacy combined with an excellent safety profile prompted us to select the shHBV/TuDHBV7 vector as our prime candidate.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31251</offset>
+      <text>Analysis of global gene expression in vector&#8208;treated mice</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31311</offset>
+      <text>Next, we assessed whether expression of the shRNA alone had influenced liver gene expression in treated animals, and whether the results differed after TuD co&#8208;delivery. To this end, we again injected HBV&#8208;transgenic mice with the same vectors used in Fig&#160;5 and this time also included an empty AAV vector as control. As in our previous experiment, the shHBV7/TuDHBV7 vector was faster and more efficient at suppressing HBV than all other vectors, achieving HBsAg reductions of 96.7% 15&#160;days after injection (compared to 93.5% in the shHBV7&#8208;only group) (Fig&#160;6A, same animals as in Fig&#160;EV3). We harvested all livers at this time point (day 15) and profiled more than 26,000 genes of four animals per treatment group. As shown in Fig&#160;6B, expression of shHBV7 alone had caused significant dysregulation of 126 genes (67 down&#8208; and 59 up&#8208;regulated) compared to control animals. Amongst the 67 down&#8208;regulated genes, we could analyse the sequences of 51 (Fig&#160;6C; Appendix&#160;Tables S2 and S3). Interestingly, 41 (80.4%) of these carried a shHBV7 sense&#8208;strand seed match (nt 2&#8211;7), representing a statistically significant enrichment (compared to the background frequency; two&#8208;sided chi&#8208;square test, P&#160;&lt;&#160;0.05). Twenty&#8208;two of the 51 genes (43.1%) had an antisense&#8208;strand seed match (21 carried both). Only 9 of the 67 down&#8208;regulated genes lacked a seed match for either of the two shHBV7 strands. Amongst the 59 up&#8208;regulated genes, a sense&#8208;strand seed match was found in 66.0% and an antisense&#8208;strand seed match in 32.0%. Both numbers reflect the background frequency of all genes on the microarray chip (sense: 65.8%; antisense 31.2%), suggesting no specific correlation between shHBV7 and the up&#8208;regulated genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33054</offset>
+      <text>Remarkably, this perturbation of gene expression was relieved in all three cohorts treated with the improved shRNA vectors, as evidenced by only one (shHBV7/TuD) or no (shHBV7/Ago&#8208;2 or miHBV7) significantly dysregulated genes (Fig&#160;6B). Overall, this transcriptome pattern correlated well with the toxicity data (Fig&#160;5C and D) and liver weight measurements (Fig&#160;EV3), where the shHBV7 group was likewise the only noticeable outlier.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33491</offset>
+      <text>We then performed the reverse analysis, that is instead of identifying genes in each vector group that were significantly dysregulated, we first categorised all genes based on the presence of shHBV7 seed matches (for each shRNA strand) and subsequently compared their degree of alteration. For this, we focused on the 3&#8242;UTR sequences which we could retrieve for nearly 19,000 genes. Interestingly, we found approximately five times more shHBV7 sense&#8208; than antisense&#8208;strand seed matches (1,933 versus 388; Appendix&#160;Table&#160;S2). As expected, we observed no changes in genes lacking shHBV7 seed&#8208;strand seed matches in their 3&#8242;UTRs, when comparing the different experimental groups to the empty vector control (Fig&#160;6D top). Also as predicted, genes harbouring antisense&#8208;strand seed matches were suppressed across all groups to a similar extent, indicating that all vector configurations can mediate antisense&#8208;strand&#8208;mediated off&#8208;targeting (Fig&#160;6D bottom). Of note, genes carrying sense&#8208;strand seed matches were suppressed in all groups with the sole exception of animals that had co&#8208;expressed the shRNA sense&#8208;strand TuD, which significantly differed from all other groups (Fig&#160;6D middle).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34703</offset>
+      <text>Finally, we directly compared gene expression between shHBV7&#8208; and shHBV7/TuDHBV7&#8208;treated animals. We used the cumulative distribution function (CDF, see Materials and Methods) to investigate whether genes with shHBV7 seed matches in their 3&#8242;UTR were differentially influenced by TuDHBV7 co&#8208;expression compared to genes without the respective seed match. Remarkably, CDF analysis showed that genes with a 3&#8242;UTR shHBV7 sense&#8208;strand seed match were significantly (P&#160;&lt;&#160;0.05, two&#8208;sided, two&#8208;sample Welch's t&#8208;test) more up&#8208;regulated by TuDHBV7 co&#8208;expression than genes without this match (Fig&#160;EV5). No such correlation was observed for genes harbouring (or not) a 3&#8242;UTR shHBV7 antisense&#8208;strand seed match (not shown), indicating that the TuD had specifically rescued genes with a sense&#8208;strand seed match, as hoped for.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35547</offset>
+      <text>Specific rescue of shHBV7 sense targets</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35587</offset>
+      <text>Cumulative distribution of fold changes (CDF analysis) between shHBV7&#8208; and shHBV7/TuDHBV7&#8208;treated animals was calculated for genes with 3&#8242;UTR 2&#8208; to 7&#8208;nt sense&#8208;strand seed match (black line) and for genes without this match (red line). Statistical analysis was performed using a two&#8208;sample, two&#8208;sided Welch's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>35921</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35932</offset>
+      <text>The aim of our study was to evaluate the potential of a novel RNAi expression strategy that we have recently established in cultured cells (Mockenhaupt et&#160;al, 2015)&#8212;co&#8208;expression of shRNA together with an inhibitor of its sense&#8208;strand activity&#8212;for therapeutic suppression of HBV in livers of adult HBV&#8208;transgenic mice. Our key findings were (i) that the dual shRNA/TuD AAV vector gave robust and long&#8208;term in&#160;vivo HBV inhibition without detectable toxicity and (ii) that it overall outperformed three alternative RNAi expression strategies including conventional shRNA, together implying its great promise as a clinically applicable new anti&#8208;HBV modality (summarised in Table&#160;1).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>36629</offset>
+      <text>Overview over evaluated AAV&#8208;based RNAi expression strategies</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>36692</offset>
+      <text>   Vector scAAV8&#8208;H1&#8208;shHBV7 scAAV8&#8208;H1&#8208;shHBV7&#8208;U6&#8208;TuDHBV7 ssAAV8&#8208;H1&#8208;shHBV7&#8208;TTR&#8208;Ago2 scAAV8&#8208;TTR&#8208;miHBV7   AAV genome Self&#8208;complementary Self&#8208;complementary Single&#8208;stranded Self&#8208;complementary  Liver&#8208;specific expression No No No/Yesa  Yes  HBsAg knock&#8208;down (%)  Maximumb  97.0 98.5 95.5 93.2  Week 12b  94.8 97.7 94.6 90.8  ALT elevatedc  Yes No No No  Body weight improvedd  N/A Yes Yes Yes  Liver mass reducede  Yes No No No  Dysregulated genesf (relative to mock; adj. P&#160;&lt;&#160;0.25) 126 1 0 0  shRNA off&#8208;target activity Sense and antisense Antisense Sense and antisense Sense and antisense</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37313</offset>
+      <text>Shown in the columns are the four RNAi expression strategies that were studied and compared here: (i) shRNA alone, (ii) shRNA plus TuD, (iii) shRNA plus Ago&#8208;2 and (iv) shRNA in a miRNA context (from left to right). Rows summarise key features and findings from their evaluation in cells and mice in this study. N/A, not applicable.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37647</offset>
+      <text>The shRNA was under the control of the ubiquitous H1 promoter, whereas Ago&#8208;2 was expressed from the liver&#8208;specific TTR promoter.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37780</offset>
+      <text>Data in Fig&#160;5B.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37797</offset>
+      <text>Data in Fig&#160;5D.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37814</offset>
+      <text>A &#8220;Yes&#8221; indicates a relative improvement of body weight as compared to the shHBV7&#8208;only group (data in Fig&#160;5C).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37932</offset>
+      <text>Data in Fig&#160;EV3.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37950</offset>
+      <text>Data in Fig&#160;6B.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37967</offset>
+      <text>To develop this novel vector, we built on the prior identification of challenges for the translation of antiviral RNAi strategies. One major issue is concern about the specificity of gene inhibition and competition with the endogenous miRNA machinery (Grimm et&#160;al, 2006; Diederichs et&#160;al, 2008; Khan et&#160;al, 2009; Grimm, 2011). Although these effects are shRNA dose&#8208;dependent, it is imprudent to reduce vector amounts as it implies a risk of missing HBV&#8208;infected cells and/or of achieving inadequate knock&#8208;downs. Indeed, when we used a dose of 5&#160;&#215;&#160;1010 AAV particles, liver transduction and inhibition of HBV replication in HBV&#8208;transgenic mice were below 50% (not shown). A twofold increase to 1&#160;&#215;&#160;1011 boosted anti&#8208;HBV potency to over 90%, but this subtle change also induced toxicity, congruent with data with other shRNAs delivered at the same AAV8 dose in mice (Grimm et&#160;al, 2006; Maczuga et&#160;al, 2014) and illustrating the difficulties in striking the balance between potency and safety when targeting HBV in&#160;vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39007</offset>
+      <text>A second challenge with HBV and other viruses is their existence as different genotypes and their propensity for mutational escape under therapy. This creates a pressure to target regions that not only permit potent and specific RNAi but are also highly conserved, to ensure broad and persistent efficacy. There are two possible solutions which are both inherently problematic. One is rational selection of new shRNAs that are potent and conserved; yet, this may collide with the desire to also reduce off&#8208;target or saturation liabilities. An example is shHBV7 whose target is preserved and which is effective, but not safe when expressed alone. Alternatively, users may already have a pre&#8208;validated and robust shRNA, but this may again be suboptimal with respect to safety. Both scenarios thus necessitate de novo design and screening of additional shRNAs, as current state&#8208;of&#8208;the&#8208;art technologies offer no means to directly optimise the safety of an existing RNAi hairpin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39992</offset>
+      <text>This problem is also not solved by one of the three approaches that we evaluated here, shRNA embedding in an artificial miRNA context, as it likewise requires redesigning available shRNAs. Still, congruent with prior work (McBride et&#160;al, 2008; Boudreau et&#160;al, 2009), miHBV7 was one of our safest vectors. Furthermore, it is the only strategy of the three allowing RNAi expression from RNA polymerase II promoters which provides opportunities for spatio&#8208;temporal control, as exemplified here with the liver&#8208;specific TTR promoter. However, the miHBV7 vector was less efficient than the conventional shRNA or the other two expression strategies (Ago&#8208;2 or TuD), confirming in&#160;vivo data with similar constructs (Boudreau et&#160;al, 2008; Ely et&#160;al, 2008) and further illustrating the competition between potency and safety.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40818</offset>
+      <text>In this regard, a major advantage of the other two approaches&#8212;Ago&#8208;2 or TuD co&#8208;expression&#8212;is that both are fully compatible with existing or new shRNAs. For the TuD strategy, the only requirement is that the shRNA follows our simple design rules (Mockenhaupt et&#160;al, 2015). Both approaches thus typically permit to boost shRNA potency and safety without a need to redesign the RNAi trigger. Intriguingly, despite their different modes of action, both strategies similarly improved shRNA toxicity. In the case of Ago&#8208;2 over&#8208;expression, a likely explanation is that more RISC complexes became available for shHBV7 and endogenous miRNAs, thus alleviating a central bottleneck in the RNAi pathway (Diederichs et&#160;al, 2008; Grimm et&#160;al, 2010; Cuccato et&#160;al, 2011; Borner et&#160;al, 2013). Importantly, deliberate Ago&#8208;2 co&#8208;expression from a shRNA&#8208;encoding AAV vector as a means to improve anti&#8208;HBV RNAi in&#160;vivo was never reported before.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41769</offset>
+      <text>The same is true for our original strategy that we tested here, for the first time, in cellular and murine HBV models, that is counteraction of shRNA sense&#8208;strand activity with TuDs. One key asset is that its only prerequisite is location of the shRNA sense strand in the 5&#8242; arm (Mockenhaupt et&#160;al, 2015), which is typical for published shRNAs and a default in most shRNA design algorithms. Further remarkable is that this strategy combines high efficiency with low toxicity, yielding the fastest, strongest and most persistent in&#160;vivo HBV knock&#8208;down in all our comparisons. Our present and recent data (Mockenhaupt et&#160;al, 2015) collectively suggest that these benefits reflect a synergism of direct and indirect effects. One indirect consequence of shRNA sense&#8208;strand inhibition could be that it frees RISC for loading of the desired antisense strand and subsequent target mRNA degradation, which can explain the better anti&#8208;HBV efficiency. Support comes from Jin et&#160;al who separately expressed the two strands of a siRNA and noted that a relative reduction of sense strands increased RISC loading with the intended antisense strand (Jin et&#160;al, 2012). The additional RISC could also be utilised by cellular miRNAs which would in turn mitigate competition with the exogenous shRNAs and hence alleviate toxicity caused by saturation of the RNAi pathway. This would further contribute to long&#8208;term in&#160;vivo RNAi safety and potency, akin to the effect of Ago&#8208;2 over&#8208;expression (see above) and also consistent with our mouse data.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43317</offset>
+      <text>Furthermore, a direct consequence of TuD co&#8208;expression that should additionally boost shRNA safety may be partial reversal of adverse off&#8208;targeting by the shRNA sense strand. This is implied by our cell culture data where the TuD strongly inhibited shHBV7 sense&#8208;strand activity towards a cognate reporter, consistent with our recent independent in&#160;vitro observations with other AAV/TuD vectors (Mockenhaupt et&#160;al, 2015). The new in&#160;vivo data further support this conclusion, as the group of genes harbouring shHBV7 sense&#8208;strand seed matches in their 3&#8242;UTR were suppressed by all RNAi constructs except for the shHBV7/TuDHBV7 vector. Our notion that genes with antisense&#8208;strand seed matches were suppressed to a fivefold higher extent can be explained by a dilution effect from high target abundance (Arvey et&#160;al, 2010), considering that shHBV7 sense&#8208;strand seed matches were five times more frequent in the entire gene pool in the mouse liver. Further evidence for TuD&#8208;mediated in&#160;vivo prevention of sense&#8208;strand off&#8208;targeting comes from our direct comparison of gene expression between shHBV7&#8208; and shHBV7/TuDHBV7&#8208;treated animals using CDF, showing that genes with 3&#8242;UTR sense&#8208;strand seed matches were significantly more up&#8208;regulated by TuDHBV7 than genes without. Finally, reduced toxicity and off&#8208;target activity are further reflected by the 126 dysregulated genes in our shHBV7&#8208;only mouse cohort, versus one or none in all other groups including TuD&#8208;treated animals. The number of 126 presumed off&#8208;targets is highly reminiscent of results by Maczuga et&#160;al (2014) who described 106 dysregulated genes in mice treated with an AAV/shRNA vector, indicating this may be a typical range in&#160;vivo. Still, for reasons explained in detail in the Appendix&#160;Supplementary Discussion, one should exert caution when interpreting such complex in&#160;vivo data and assigning genes as direct off&#8208;targets.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45252</offset>
+      <text>In conclusion, we have identified a new AAV&#8208;based RNAi expression strategy that provides better in&#160;vivo potency, specificity and safety of HBV inhibition than traditional shRNA vectors, making it an interesting candidate for continued development towards clinical application. Particularly encouraging is the exceptional overall safety profile of AAV vectors in humans that was observed in over 100 clinical trials thus far, including numerous applications of different viral serotypes in the liver (Manno et&#160;al, 2006; Nathwani et&#160;al, 2011, 2014; D'Avola et&#160;al, 2016). In line with this, the first gene therapy product approved in the Western hemisphere, Glybera, is based on recombinant AAV vectors of serotype 1 (Salmon et&#160;al, 2014). Also important to note is that a recent report of a possible association of AAV with liver cancer (Nault et&#160;al, 2015) is irrelevant for the use of AAV vectors, since the specific viral sequences that were found to be integrated in the cancerous tissue are absent in AAV vectors. Moreover, the data and conclusions in this report have come under intense scrutiny within the gene therapy community (Berns et&#160;al, 2015; Buning &amp; Schmidt, 2015). Further encouraging with respect to clinical translation of our strategy is that the vector doses we applied here in mice&#8212;1&#160;&#215;&#160;1011 particles per animal, corresponding to 5&#160;&#215;&#160;1012 particles per kg&#8212;are well within the range of doses that have already been used for liver gene transfer in humans, such as 2&#160;&#215;&#160;1012, 3&#160;&#215;&#160;1012 or 1.8&#160;&#215;&#160;1013 AAV particles per kg (Nathwani et&#160;al, 2011, 2014; D'Avola et&#160;al, 2016; High &amp; Anguela, 2016). Notably, these trials have also provided clear evidence that a single AAV vector dose can suffice to mediate stable transgene expression in the human liver for at least 4&#160;years, in the absence of severe adverse events (High &amp; Anguela, 2016). In addition, we can readily foresee that required vector doses in humans will further drop as an increasing number of superior&#8212;more efficient and more specific&#8212;AAV capsids are molecularly evolved in liver cells and may enter the clinic, such as AAV&#8208;DJ (Grimm et&#160;al, 2008) or AAV&#8208;LK03 (Lisowski et&#160;al, 2014). Of note, such synthetic AAV capsids can also be selected for low cross&#8208;reactivity with neutralising antibodies against natural AAV serotypes, thus permitting vector re&#8208;administration in case the effect of a single dose may wane (Grimm &amp; Zolotukhin, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47709</offset>
+      <text>Concurrently, we are optimistic that stable over&#8208;expression of Ago&#8208;2 or of TuDs should be well tolerated in humans. Their safety is implied by the sum of data in the present work and in previous literature, including reports by us and others that Ago&#8208;2 can be persistently expressed in mammalian cells and mouse livers, without inducing abnormalities or gross pathologies (Diederichs et&#160;al, 2008; Grimm et&#160;al, 2010; Borner et&#160;al, 2013). Likewise, we found no evidence in the current study for adverse in&#160;vivo effects despite a 3&#8208;month over&#8208;expression of Ago&#8208;2, based on normal ALT levels, gains in body weight as expected as well as normal liver histology. While we are similarly hopeful that TuD expression will be tolerated and safe in humans, we wish to point out that TuDs, in principle, may interfere with nuclear export of cellular miRNAs. This is because of their hairpin structure with a 3&#8242; overhang, which makes them substrates for the nucleocytoplasmic transporter Exportin&#8208;5 (Bak et&#160;al, 2013) that is also used by miRNAs. It is further possible that long&#8208;term and high&#8208;level expression of Ago&#8208;2 may eventually dysregulate the processing and/or activity of endogenous Ago&#8208;2&#8208;dependent small RNAs. We thus consider it mandatory for follow&#8208;up work to thoroughly investigate the potential sequelae of persistent Ago&#8208;2/TuD expression, including global small RNA profiling in treated mouse livers, as further important pre&#8208;clinical steps towards the clinical evaluation of our novel concepts in HBV patients. This future work should also comprise a transfer of our vectors and strategies to alternative animal models, such as the hepadnavirus&#8208;infected woodchuck or mice with &#8220;humanised&#8221; livers, that will allow to study the impact of our vectors on HBV cccDNA persistence and ideally also on HBV&#8208;specific immunity and carcinogenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49592</offset>
+      <text>Finally of note, the high versatility and easy customisation for any shRNA of interest renders our concept highly intriguing not only for improvement of HBV therapeutics. Instead, our recent cell culture data already imply its great potential to also enhance vector&#8208;based RNAi strategies against HCV (Mockenhaupt et&#160;al, 2015), and we can readily envision similar uses to advance treatment options for numerous other infectious or genetic diseases of the liver and further organs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50075</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50097</offset>
+      <text>Plasmids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50106</offset>
+      <text>The plasmids expressing shRNAs shHBV4 to 7 that were used in the cell culture studies were cloned by direct insertion of the respective shRNA&#8208;encoding oligonucleotides (Appendix&#160;Table&#160;S5) into a self&#8208;complementary AAV vector plasmid previously reported by us (Grimm et&#160;al, 2006), containing an H1 promoter followed by two BbsI sites for oligonucleotide insertion as well as an RSV promoter&#8208;driven gfp reporter. For in&#160;vivo studies, we eliminated this reporter cassette to avoid artefacts from promoter interference and possible toxicities from the expressed GFP protein. We therefore replaced the RSV promoter in one of our existing plasmids (encoding a 19&#8208;mer shRNA against human alpha&#8208;1&#8208;antitrypsin, &#945;1AT) (Grimm et&#160;al, 2006) with a SV40 polyadenylation signal that we PCR&#8208;amplified from the psiCheck2 vector (Promega, Mannheim, Germany) and cloned using SalI/BamHI sites, resulting in plasmid pBS&#8208;H1&#8208;sh&#945;1AT. Next, we exchanged the H1&#8208;sh&#945;1AT cassette with a PCR&#8208;amplified H1&#8208;shHBV7 fragment using AscI/XhoI sites, to obtain an anti&#8208;HBV shRNA vector lacking the RSV&#8208;gfp reporter. An empty control vector not encoding any transcript was generated by replacing the H1&#8208;sh&#945;1AT cassette with the bovine growth hormone polyadenylation (bGH/polyA) signal, likewise via AscI/XhoI digestion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51429</offset>
+      <text>The single&#8208;stranded AAV vector plasmid pSSV9&#8208;H1&#8208;shHBV7&#8208;TTR&#8208;Ago2 was produced in two steps, by (i) exchanging the CMV promoter in our previously published vector (Grimm et&#160;al, 2010) with a PCR&#8208;amplified TTR promoter fragment (via SpeI/SacI) and by (ii) inserting the PCR&#8208;amplified H1&#8208;shHBV7 cassette (via AscI/XhoI). The pri&#8208;miHBV7&#8208;encoding fragment was produced by overlap&#8208;extension PCR, using primers a/b and c/d (Appendix&#160;Table&#160;S5) in two separate PCRs and by performing a third PCR using primers a/d and a mixture of the products from the first two PCRs. The final product was then inserted behind the TTR promoter in a double&#8208;stranded AAV vector plasmid using NheI/XhoI sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52137</offset>
+      <text>TuDs were produced by running a PCR with the respective oligonucleotides (without further template) and insertion of the PCR product into an empty U6&#8208;TuD expression vector (Mockenhaupt et&#160;al, 2015) using unique BsmBI sites. The H1&#8208;shRNA expression cassette was exchanged with H1&#8208;sh&#945;1AT/shHBV7 using AscI and XhoI. For in&#160;vitro validation of TuDHBV7, oligonucleotides containing binding sites (Appendix&#160;Table&#160;S5) for the shHBV7 sense or antisense strand were inserted into the psiCheck2 plasmid using XhoI/NotI sites in the 3&#8242;UTR of the Renilla reporter. Plasmids pCH&#8208;HBV1.3 and pCH&#8208;9&#8208;3091 used in the HBV cell culture studies both express HBV wild&#8208;type genotype D. Plasmid pCH&#8208;HBV1.3 contains a 1.3&#8208;fold over&#8208;length HBV genome, whereas the one in pCH&#8208;9&#8208;3091 is 1.1&#8208;fold over&#8208;length.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52955</offset>
+      <text>Cell culture experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52980</offset>
+      <text>All cell culture experiments except those conducted for subsequent Southern blot analyses (see below) were performed with Huh7 cells. Mycoplasma contamination was excluded for all cell lines. Huh7 cells were grown in DMEM medium supplemented with 10% foetal bovine serum, 50&#160;U/ml penicillin/streptomycin, 2&#160;mM l&#8208;glutamine, 1% sodium pyruvate and 1% MEM non&#8208;essential amino acids (all Life Technologies, Carlsbad, CA, USA) and kept at 37&#176;C in humidified incubators at 5% CO2. For the shRNA selection and comparison of different shRNA expression strategies, Huh7 cells were grown in 24&#8208;well plates and co&#8208;transfected (three wells per group) with pCH&#8208;HBV1.3 and the shRNA expression plasmid using Fugene HD (Promega, Mannheim, Germany). Instead of pCH&#8208;HBV1.3, plasmid pCH&#8208;9&#8208;3091 was used in experiments aimed at measuring HBV DNA in the cell culture supernatant (Figs&#160;2B and 4B). For the Southern blot experiments in Figs&#160;2D and 4D, HepG2 cells grown in 6&#8208;well cell culture dishes were transfected with the same protocol. One day after transfection, the cells were washed with PBS, supplied with fresh media containing 2.5% DMSO and harvested after additional 72&#160;h. For the shRNA screen, 183&#160;ng of both HBV&#8208; and shRNA&#8208;expressing plasmids was co&#8208;transfected per well. For a fair comparison of the different shHBV7 expression strategies, the transfected DNA amount was adjusted to the molecular weight of the respective plasmid in order to deliver equal numbers. After 48&#160;h, supernatants were collected and centrifuged at 5,000&#160;g for 5&#160;min, before HBV antigen levels were determined using the HBsAg quantitative test and the HBeAg test on Architect (Abbott Laboratories, Abbott Park, Illinois, USA). To analyse HBV DNA in supernatant, a DNA digest was performed to remove plasmid DNA by adding 20&#160;U/ml DNase I (Roche Diagnostics, Mannheim, Germany). After incubation at 37&#176;C for 2&#160;h, the reaction was stopped by adding EDTA to a final concentration of 8&#160;mM before nucleic acid was extracted as described below.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55024</offset>
+      <text>For in&#160;vitro validation of TuDHBV7, activities of the shHBV7 sense and antisense strands were measured using the dual&#8208;luciferase reporter psiCheck2 (Promega) engineered to contain binding sites for one of the two shRNA strands. Therefore, Huh7 cells grown in 96&#8208;well plates were co&#8208;transfected with 10&#160;ng of psiCheck2 and 100&#160;ng of the plasmids expressing shRNA and TuD. Cells were harvested 48&#160;h after transfection into lysis buffer supplied in the Dual&#8208;Glo luciferase kit according to the manufacturer's protocol (Promega), and Renilla and Firefly luciferase activities were quantified using a GloMax96 microplate luminometer (Promega). Relative knock&#8208;downs were determined by using the group co&#8208;transfected with the luciferase reporter without binding site and the sh&#945;1AT/TuD&#945;1AT plasmid as reference.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55847</offset>
+      <text>AAV vector production</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55869</offset>
+      <text>AAV vectors were produced using a standard protocol involving triple transfection of 293T cells with equal amounts of an AAV8 helper plasmid (encoding AAV2 rep and AAV8 cap genes), an AAV vector plasmid (encoding the transgene[s]) and an adenoviral helper construct (Grimm, 2002). The AAV vector plasmids were either based on an optimised self&#8208;complementary AAV vector genome that we reported before (Grimm et&#160;al, 2006) or, for co&#8208;expression of shHBV7 and Ago&#8208;2, the conventional pSSV9 construct whose packaging results in single&#8208;stranded DNA&#8208;containing AAV particles (Samulski et&#160;al, 1987). Vectors were produced as described previously (Borner et&#160;al, 2013) and purified using a caesium chloride ultracentrifugation gradient. Briefly, after removal of high molecular weight impurities (addition of 1/39 volume of 1&#160;M CaCl2, incubation for 1&#160;h on ice, centrifugation at 10,000&#160;g for 15&#160;min and transfer of supernatant) and PEG precipitation of AAVs (addition of 1/4 volume of 40% PEG8000/2.5&#160;M NaCl, overnight incubation on ice and centrifugation at 2,500&#160;g and 4&#176;C for 30&#160;min), the AAV&#8208;containing pellet was resuspended in 10&#160;ml Na&#8208;Hepes resuspension buffer (50&#160;mM HEPES, 0.15&#160;M NaCl, 25&#160;mM EDTA). After adding 13.2&#160;g caesium chloride and adjusting the optical density (refractive index, RI) to 1.3710 using a refractometer, ultracentrifugation was performed for 22&#160;h at 208,000 g (Type Ti 70 rotor, Optima L 90 K ultracentrifuge; both Beckman Coulter, Krefeld, Germany) and 21&#176;C. Fractions with RIs of 1.3711&#8211;1.3766 were collected and dialysed against phosphate&#8208;buffered saline (overnight at 4&#176;C, four times exchange of PBS) using a Slide&#8208;A&#8208;Lyzer G2 dialysis cassette with a 20K molecular weight cut&#8208;off (Thermo Fisher Scientific Inc., Rockford, IL, USA). AAV vectors were quantified by TaqMan PCR on a Rotor&#8208;Gene 6000 (Qiagen, Hilden, Germany) using the Sensimix II Probe kit Mastermix (Bioline, London, UK). All reactions were performed in triplicates in a 10&#160;&#956;l final volume. To ensure equal quantification of AAV vectors using eGFP and TTR primers (Appendix&#160;Table&#160;S5), the same plasmid standard as well as the same AAV positive control (each containing the eGFP and TTR sequences) was used in both assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58130</offset>
+      <text>Mouse experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58148</offset>
+      <text>HBV&#8208;transgenic mice used in this study (HBV1.3.32) express replication&#8208;competent wild&#8208;type HBV genotype D (Guidotti et&#160;al, 1995). Animals were maintained according to the guidelines of local authorities (Government of Upper Bavaria, Germany), and all experiments were approved by them. AAV vectors or 0.9% saline for the mock controls were injected intravenously into the tail vein, and blood was collected via retroorbital or facial vein bleeding. Upon termination of the experiment, mice were euthanised using carbon dioxide, and blood and organs were dissected for further analysis. Blood was centrifuged at 5,000&#160;g for 10&#160;min, and serum ALT activity was measured in a 1:4 dilution in PBS using the Reflotron GPT/ALT test (Roche Diagnostics). HBsAg was measured in a 1:30 dilution in PBS using the HBsAg quantitative test on Architect and HBeAg in a 1:20 dilution in PBS using the HBe 2.0 test on Axsym (both from Abbott Laboratories). For pathohistological analysis, sections (2&#160;&#956;m) of livers (fixed in 4% paraformaldehyde and paraffin&#8208;embedded) were stained with haematoxylin/eosin. For analysis, slides were scanned using a SCN 400 slide scanner (Leica).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59322</offset>
+      <text>Animal inclusion criteria and cohort assignments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59371</offset>
+      <text>Only male mice from 2 to 4&#160;months of age were used in this study. Statistical advice was obtained in which the study was defined as exploratory orientation study, and six animals per group were deemed sufficient in order to gain reliable estimates of quantitative effect sizes. Animals were bled 1&#160;day before treatment and allocated into groups with equal HBsAg, HBeAg, age and body weight. Treatment groups were not blinded.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59799</offset>
+      <text>Nucleic acid extraction, PCR and Southern blot analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59855</offset>
+      <text>RNA from cultured cells was extracted with the MN Nucleo Spin RNA kit (Macherey Nagel, Duren, Germany), and cDNA synthesised with the Superscript III kit (Thermo Fisher Scientific). HBV transcripts were amplified with primers specific for only the 3.5&#8208;kb transcripts, or with primers binding to the common 3&#8242; end of all HBV transcripts (Yan et&#160;al, 2012). Beta&#8208;2&#8208;microglobulin (B2M) was used as reference gene for cell culture experiments. To measure HBV DNA in cell culture supernatants, DNA was extracted from 400&#160;&#956;l supernatant using the Abbott mSample Preparation System DNA on the M24SP machine (both Abbott). The PCR was performed with primers &#8220;HBV rcDNA selective&#8221; which preferentially amplify the HBV rcDNA rather than the 1.1&#8208;fold over&#8208;length HBV genome in the pCH&#8208;9&#8208;3091 plasmid. All PCRs were performed on a LightCycler 480 (Roche Diagnostics) using the primers and PCR conditions shown in Appendix&#160;Table&#160;S5. For the Southern blot analyses, cells were lysed and treated with DNase I and RNase A for 3&#160;h at 37&#176;C. Cytoplasmic capsids were precipitated with polyethylene glycol (PEG8000) and digested using sodium dodecyl sulphate and proteinase K. After 3&#8208;h incubation at 37&#176;C, capsid&#8208;associated DNA was purified by phenol&#8211;chloroform extraction, followed by ethanol precipitation. Viral DNA was separated on a 1.3% agarose gel, transferred to a nylon membrane and UV cross&#8208;linked. The membrane was then hybridised with digoxigenin&#8208;labelled HBV&#8208;specific probe at 65&#176;C overnight, and HBV DNA was visualised using the DIG Luminescent Detection kit according to the manufacturer's instructions (Roche).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61503</offset>
+      <text>Transcriptome analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61526</offset>
+      <text>Isolated liver pieces were conserved in RNAlater (Qiagen) and then lysed using TissueLyser LT (Qiagen), before whole RNA was extracted using the miRNeasy kit including on&#8208;column DNA digest with the RNase&#8208;Free DNase set (both Qiagen). After assessing the RNA quality using a Bioanalyzer 2100 (Agilent, Santa Clara, CA, USA), cDNA was generated from four mice per treatment group using the Ambion WT Expression kit (Life Technologies, Carlsbad, CA, USA). The cDNAs were fragmented and labelled with the Affymetrix GeneChip WT Terminal Labeling Kit before running them on GeneChip Mouse Gene 2.0 St Arrays (Affymetrix, Santa Clara, CA, USA).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62169</offset>
+      <text>Statistical analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62190</offset>
+      <text>Microarray data were analysed in the &#8220;R&#8221; software environment (http://cran.r-project.org) using the Limma (Smyth, 2005) and the oligo package (Carvalho &amp; Irizarry, 2010) from Bioconductor (http://bioconductor.org). Raw expression measurements have been quantile&#8208;normalised and background&#8208;corrected using the RMA background correction. A fixed&#8208;effects linear model was fit for each individual gene to estimate pairwise expression differences. Using a principal component analysis and pairwise Pearson correlation coefficients for quality control of overall performance of the arrays, four samples were found to show different expression levels than the remaining arrays. Thus, they were excluded from further analysis as outlined in the metadata table of the Gene Expression Omnibus database file (accession number is given below). Empirical Bayes approach was used to moderate the standard errors of the normalised log2 fold changes. Two&#8208;sided moderated paired t&#8208;statistics and log&#8208;odds of differential expression (B statistics) as well as raw and adjusted P&#8208;values (false discovery rate) controlled by Benjamini&#8211;Hochberg were computed to identify differentially expressed genes. The absolute log2 fold change &gt;&#160;1 and a corrected P&#8208;value smaller than the testing level (alpha) of 0.25 were defined as significantly differentially expressed genes. The microarray data are available in the Gene Expression Omnibus database (GEO accession number GSE72335; http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72335).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63727</offset>
+      <text>Data of mouse and cell culture experiments were tested with D'Agostino&#8208;Pearson omnibus test for Gaussian distribution. If data were not normally distributed, Mann&#8211;Whitney test was used to test for significant differences. F&#8208;test was used to test whether variances of groups were similar. If variances were found to differ significantly, t&#8208;test with Welch&#8242;s correction was used.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64115</offset>
+      <text>Seed match analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64135</offset>
+      <text>3&#8242;UTR and whole transcript sequences of all genes represented on the microarray for which an Ensembl ID was available were downloaded from www.ensembl.org/biomart and screened for 2&#8208; to 7&#8208;nt seed matches of the shHBV7 sense and antisense strand. In cases where several variants per gene existed, the transcript with the highest number of seed matches was chosen. Genes with several seed matches were counted only once, and genes which were represented on the array more than once were excluded from the analysis to prevent bias. To compare relative gene expression of genes depending on 3&#8242;UTR shHBV7 seed matches (Fig&#160;6D), gene expression was normalised to all genes for which a 3&#8242;UTR seed match analysis was available. Statistical analysis was performed with unpaired t&#8208;test using Welch's correction if applicable. We computed the cumulative distribution function (CDF) to directly compare gene expression depending on the presence of shHBV7 seed matches between shHBV7 and shHBV/TuDHBV7 treated animals. For this, the relative expression of genes with a 3&#8242;UTR seed match was tested for significant difference against the relative expression of genes without a seed match. A two&#8208;sample, two&#8208;sided Welch's t&#8208;test was used and an alpha level of 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65406</offset>
+      <text>Pathway analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65423</offset>
+      <text>Pathway enrichment of the genes identified to be significant was obtained by querying the DAVID database (Jiao et&#160;al, 2012) for GO BP/5, GO BP/FAT and KEGG, Reactome, BBID, BioCarta and Panther pathway annotation using the R&#8208;package RDAVIDWebService (Fresno &amp; Fernandez, 2013). If identical annotation terms were returned for GO BP/5 and GO BP/FAT, only the one with the lowest EASE P&#8208;value was retained (Appendix&#160;Table&#160;S4).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65855</offset>
+      <text>Target conservation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65875</offset>
+      <text>To analyse conservation of targeted HBV regions, reverse complements of shRNA antisense strands were aligned with representative sequences of all HBV genotypes derived from the HBV regulatory sequence database HBV RegDB (http://lancelot.otago.ac.nz/HBVRegDB) (Panjaworayan et&#160;al, 2007) using Mega version 6.06 for Mac (Tamura et&#160;al, 2013). The phylogenetic tree of HBV sequences in Appendix&#160;Fig S1C was generated using the neighbour&#8208;joining method in Mega.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>66337</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66358</offset>
+      <text>TM, SM, UP and DG designed research. TM, SG, SM and DG designed and created AAV vectors. TM and SG performed cell culture experiments. TM and NR performed mouse experiments. CK conducted Southern blot analyses. FS and TM analysed seed match frequency. BK analysed microarray data. TM and MH analysed histological stainings. TM, UP and DG wrote the manuscript. All authors critically read and revised the final manuscript for important intellectual content prior to submission.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>66835</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66856</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1_caption</infon>
+      <offset>66916</offset>
+      <text>The paper explained</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66936</offset>
+      <text>Problem</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66944</offset>
+      <text>Hepatitis B virus (HBV) is a notorious human pathogen that is present in roughly 250 million humans and is responsible for 686,000 annual deaths. The success of this virus is due to the limitations of standard&#8208;of&#8208;care antiviral therapy, including the need for daily and lifelong application, high costs, failure to eliminate the virus or to inhibit expression of HBV antigens, as well as risks of side effects and of emergence of resistant HBV mutants. A possible solution is RNA interference (RNAi), a powerful tool for targeted mRNA silencing that can be directed against cellular or foreign sequences involved in human diseases including viral transcripts. To this end, however, clinical translation of RNAi technologies urgently requires further improvements in in&#160;vivo efficiency, specificity and safety.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67759</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67767</offset>
+      <text>In this paper, we systematically evaluated three different strategies for expression of anti&#8208;HBV short hairpin RNA (shRNA, an RNAi trigger), using recombinant Adeno&#8208;associated virus 8 (AAV8) vectors for delivery to livers of adult immunocompetent HBV&#8208;transgenic mice. Briefly, we (i) embedded the shRNA in a microRNA scaffold under a liver&#8208;specific promoter; (ii) co&#8208;expressed Argonaute&#8208;2, a rate&#8208;limiting RNAi factor; or (iii) co&#8208;delivered a decoy (&#8220;TuD&#8221;) against the shRNA sense strand, to alleviate off&#8208;target gene regulation. Notably, while a conventional shRNA vector caused in&#160;vivo toxicity including weight loss, liver damage and dysregulation of &gt;&#160;100 genes in the liver, the three other strategies minimised all these adverse side effects. Best results were obtained with the new AAV8 vector co&#8208;expressing anti&#8208;HBV shRNA and TuD which gave the most robust and most persistent HBV knock&#8208;down (&gt;&#160;98% HBsAg suppression for at least 12&#160;weeks).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68748</offset>
+      <text>Impact</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68755</offset>
+      <text>We have identified a new AAV&#8208;based RNAi expression strategy that provides better in&#160;vivo potency, specificity and safety of HBV inhibition than traditional shRNA vectors or than two alternative approaches. Importantly, because our concept is highly versatile and easy to customise, it is not restricted to HBV but instead also promising and interesting for a large variety of other human diseases that are vulnerable to RNAi. For instance, we have recently demonstrated its potential to likewise enhance vector&#8208;based RNAi strategies against hepatitis C virus, and we can readily envision its future development towards many other clinical applications for infectious or genetic diseases of the liver and further human tissues.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69487</offset>
+      <text>For more information</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69508</offset>
+      <text>Microarray data are available in the Gene Expression Omnibus database; accession # GSE72335: www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72335 </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69654</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>69677</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">20404830</infon>
+      <infon key="fpage">363</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>69688</offset>
+      <text>Target mRNA abundance dilutes microRNA and siRNA activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1485</infon>
+      <infon key="pub-id_pmid">23752312</infon>
+      <infon key="fpage">1478</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69746</offset>
+      <text>Managing microRNAs with vector&#8208;encoded decoy&#8208;type inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">170</infon>
+      <infon key="pub-id_pmid">19844192</infon>
+      <infon key="fpage">161</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>69811</offset>
+      <text>Low&#8208;level shRNA cytotoxicity can contribute to MYC&#8208;induced hepatocellular carcinoma in adult mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Hum Gene Ther</infon>
+      <infon key="lpage">781</infon>
+      <infon key="pub-id_pmid">26690810</infon>
+      <infon key="fpage">779</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>69913</offset>
+      <text>Adeno&#8208;associated virus type 2 and hepatocellular carcinoma?</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">41</infon>
+      <infon key="pub-id_pmid">24049077</infon>
+      <infon key="fpage">e199</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69975</offset>
+      <text>Robust RNAi enhancement via human Argonaute&#8208;2 overexpression from plasmids, viral vectors and cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">1844</infon>
+      <infon key="pub-id_pmid">18697922</infon>
+      <infon key="fpage">1834</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>70082</offset>
+      <text>Minimizing variables among hairpin&#8208;based RNAi vectors reveals the potency of shRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">175</infon>
+      <infon key="pub-id_pmid">19002161</infon>
+      <infon key="fpage">169</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70168</offset>
+      <text>Artificial microRNAs as siRNA shuttles: improved safety as compared to shRNAs in&#160;vitro and in&#160;vivo </text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1675</infon>
+      <infon key="pub-id_pmid">26606658</infon>
+      <infon key="fpage">1673</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70270</offset>
+      <text>Adeno&#8208;associated vector toxicity&#8208;to be or not to be?</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">421</infon>
+      <infon key="pub-id_pmid">16337206</infon>
+      <infon key="fpage">411</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>70327</offset>
+      <text>Effective inhibition of HBV replication in&#160;vivo by anti&#8208;HBx short hairpin RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">2367</infon>
+      <infon key="pub-id_pmid">20688976</infon>
+      <infon key="fpage">2363</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70409</offset>
+      <text>A framework for oligonucleotide microarray preprocessing</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Gene Ther</infon>
+      <infon key="lpage">19</infon>
+      <infon key="pub-id_pmid">16929350</infon>
+      <infon key="fpage">11</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>70466</offset>
+      <text>Long&#8208;term inhibition of hepatitis B virus in transgenic mice by double&#8208;stranded adeno&#8208;associated virus 8&#8208;delivered short hairpin RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">359</infon>
+      <infon key="pub-id_pmid">19066602</infon>
+      <infon key="fpage">352</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>70607</offset>
+      <text>Comparative study of anti&#8208;hepatitis B virus RNA interference by double&#8208;stranded Adeno&#8208;associated virus serotypes 7, 8, and 9</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1097</infon>
+      <infon key="pub-id_pmid">18096615</infon>
+      <infon key="fpage">1081</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>70738</offset>
+      <text>Knockdown of TNFR1 by the sense strand of an ICAM&#8208;1 siRNA: dissection of an off&#8208;target effect</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Syst Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">21272352</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>70836</offset>
+      <text>Modeling RNA interference in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Gene Ther</infon>
+      <infon key="lpage">508</infon>
+      <infon key="pub-id_pmid">16195700</infon>
+      <infon key="fpage">503</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>70881</offset>
+      <text>Induction of stable RNA interference in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="source">J Hepatol</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>70937</offset>
+      <text>Phase I open label liver&#8208;directed gene therapy clinical trial for acute intermittent porphyria</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">9289</infon>
+      <infon key="pub-id_pmid">18591665</infon>
+      <infon key="fpage">9284</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71034</offset>
+      <text>Coexpression of Argonaute&#8208;2 enhances RNA interference toward perfect match binding sites</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Gastroenterology</infon>
+      <infon key="lpage">706</infon>
+      <infon key="pub-id_pmid">21684282</infon>
+      <infon key="fpage">696</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>71125</offset>
+      <text>5&#8242; triphosphorylated small interfering RNAs control replication of hepatitis B virus and induce an interferon response in human liver cells and mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1112</infon>
+      <infon key="pub-id_pmid">18431360</infon>
+      <infon key="fpage">1105</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71276</offset>
+      <text>Expressed anti&#8208;HBV primary microRNA shuttles inhibit viral replication efficiently in&#160;vitro and in&#160;vivo </text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">37</infon>
+      <infon key="pub-id_pmid">19474340</infon>
+      <infon key="fpage">e91</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>71385</offset>
+      <text>Efficient silencing of gene expression with modular trimeric Pol II expression cassettes comprising microRNA shuttles</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">1196</infon>
+      <infon key="pub-id_pmid">16682561</infon>
+      <infon key="fpage">1188</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71503</offset>
+      <text>Off&#8208;target effects by siRNA can induce toxic phenotype</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">2811</infon>
+      <infon key="pub-id_pmid">23958726</infon>
+      <infon key="fpage">2810</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71560</offset>
+      <text>RDAVIDWebService: a versatile R interface to DAVID</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1636</infon>
+      <infon key="pub-id_pmid">18665161</infon>
+      <infon key="fpage">1630</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71611</offset>
+      <text>Expression of shRNA from a tissue&#8208;specific pol II promoter is an effective and safe RNAi therapeutic</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Methods</infon>
+      <infon key="lpage">157</infon>
+      <infon key="pub-id_pmid">12413413</infon>
+      <infon key="fpage">146</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>71714</offset>
+      <text>Production methods for gene transfer vectors based on adeno&#8208;associated virus serotypes</text>
+    </passage>
+    <passage>
+      <infon key="volume">441</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">541</infon>
+      <infon key="pub-id_pmid">16724069</infon>
+      <infon key="fpage">537</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71803</offset>
+      <text>Fatality in mice due to oversaturation of cellular microRNA/short hairpin RNA pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">82</infon>
+      <infon key="source">J Virol</infon>
+      <infon key="lpage">5911</infon>
+      <infon key="pub-id_pmid">18400866</infon>
+      <infon key="fpage">5887</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71890</offset>
+      <text> In vitro and in&#160;vivo gene therapy vector evolution via multispecies interbreeding and retargeting of adeno&#8208;associated viruses</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Gene Ther</infon>
+      <infon key="lpage">829</infon>
+      <infon key="pub-id_pmid">19404320</infon>
+      <infon key="fpage">827</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72020</offset>
+      <text>Asymmetry in siRNA design</text>
+    </passage>
+    <passage>
+      <infon key="volume">120</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">3119</infon>
+      <infon key="pub-id_pmid">20697157</infon>
+      <infon key="fpage">3106</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>72046</offset>
+      <text>Argonaute proteins are key determinants of RNAi efficacy, toxicity, and persistence in the adult mouse liver</text>
+    </passage>
+    <passage>
+      <infon key="source">Silence</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">22029761</infon>
+      <infon key="fpage">8</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72155</offset>
+      <text>The dose can make the poison: lessons learned from adverse in&#160;vivo toxicities caused by RNAi overexpression</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1831</infon>
+      <infon key="pub-id_pmid">26388463</infon>
+      <infon key="fpage">1819</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>72264</offset>
+      <text>E Pluribus Unum: 50&#160;years of research, millions of viruses, and one goal&#8208;tailored acceleration of AAV evolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">12176</infon>
+      <infon key="pub-id_pmid">25270879</infon>
+      <infon key="fpage">12169</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72379</offset>
+      <text>Weak base pairing in both seed and 3&#8242; regions reduces RNAi off&#8208;targets and enhances si/shRNA designs</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">J Virol</infon>
+      <infon key="lpage">6169</infon>
+      <infon key="pub-id_pmid">7666518</infon>
+      <infon key="fpage">6158</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>72484</offset>
+      <text>High&#8208;level hepatitis B virus replication in transgenic mice</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">37</infon>
+      <infon key="pub-id_pmid">19223327</infon>
+      <infon key="fpage">e43</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72546</offset>
+      <text>Vectors expressing efficient RNA decoys achieve the long&#8208;term suppression of specific microRNA activity in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">R41</infon>
+      <infon key="pub-id_pmid">26614390</infon>
+      <infon key="fpage">R36</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>72671</offset>
+      <text>Adeno&#8208;associated viral vectors for the treatment of hemophilia</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Hepatology</infon>
+      <infon key="lpage">2120</infon>
+      <infon key="pub-id_pmid">24425003</infon>
+      <infon key="fpage">2110</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72736</offset>
+      <text>Hepatitis B virus infection enhances susceptibility towards adeno&#8208;associated viral vector transduction in&#160;vitro and in&#160;vivo </text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">637</infon>
+      <infon key="pub-id_pmid">12754523</infon>
+      <infon key="fpage">635</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72865</offset>
+      <text>Expression profiling reveals off&#8208;target gene regulation by RNAi</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1806</infon>
+      <infon key="pub-id_pmid">22543366</infon>
+      <infon key="fpage">1805</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72931</offset>
+      <text>DAVID&#8208;WS: a stateful web service to facilitate gene/protein list analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1806</infon>
+      <infon key="pub-id_pmid">22039150</infon>
+      <infon key="fpage">1797</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73007</offset>
+      <text>Strand antagonism in RNAi: an explanation of differences in potency between intracellularly expressed siRNA and shRNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">547</infon>
+      <infon key="pub-id_pmid">19088704</infon>
+      <infon key="fpage">538</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>73125</offset>
+      <text>Rational design leads to more potent RNA interference against hepatitis B virus: factors effecting silencing efficiency</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">555</infon>
+      <infon key="pub-id_pmid">19465925</infon>
+      <infon key="fpage">549</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>73245</offset>
+      <text>Transfection of small RNAs globally perturbs gene regulation by endogenous microRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">216</infon>
+      <infon key="pub-id_pmid">14567918</infon>
+      <infon key="fpage">209</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>73330</offset>
+      <text>Functional siRNAs and miRNAs exhibit strand bias</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">151</infon>
+      <infon key="pub-id_pmid">22233755</infon>
+      <infon key="fpage">145</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73379</offset>
+      <text>The N domain of Argonaute drives duplex unwinding during RISC assembly</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1414</infon>
+      <infon key="pub-id_pmid">17604727</infon>
+      <infon key="fpage">1401</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73450</offset>
+      <text>A mammalian microRNA expression atlas based on small RNA library sequencing</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">J Hepatol</infon>
+      <infon key="lpage">S101</infon>
+      <infon key="pub-id_pmid">27084040</infon>
+      <infon key="fpage">S84</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>73526</offset>
+      <text>Mechanisms of HBV&#8208;induced hepatocellular carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">506</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">386</infon>
+      <infon key="pub-id_pmid">24390344</infon>
+      <infon key="fpage">382</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73579</offset>
+      <text>Selection and evaluation of clinically relevant AAV variants in a xenograft liver model</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="lpage">100</infon>
+      <infon key="pub-id_pmid">25826416</infon>
+      <infon key="fpage">92</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>73667</offset>
+      <text>Mechanistic insights on the Dicer&#8208;independent AGO2&#8208;mediated processing of AgoshRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">386</infon>
+      <infon key="source">Lancet</infon>
+      <infon key="lpage">1517</infon>
+      <infon key="pub-id_pmid">26231458</infon>
+      <infon key="fpage">1515</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>73755</offset>
+      <text>Estimating the global prevalence of hepatitis B</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Gene Ther</infon>
+      <infon key="lpage">70</infon>
+      <infon key="pub-id_pmid">24152580</infon>
+      <infon key="fpage">60</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73803</offset>
+      <text>Therapeutic expression of hairpins targeting apolipoprotein B100 induces phenotypic and transcriptome changes in murine liver</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">347</infon>
+      <infon key="pub-id_pmid">16474400</infon>
+      <infon key="fpage">342</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>73929</offset>
+      <text>Successful transduction of liver in hemophilia by AAV&#8208;Factor IX and limitations imposed by the host immune response</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5873</infon>
+      <infon key="pub-id_pmid">18398004</infon>
+      <infon key="fpage">5868</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>74047</offset>
+      <text>Artificial miRNAs mitigate shRNA&#8208;mediated toxicity in the brain: implications for the therapeutic development of RNAi</text>
+    </passage>
+    <passage>
+      <infon key="volume">418</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">39</infon>
+      <infon key="pub-id_pmid">12097900</infon>
+      <infon key="fpage">38</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>74167</offset>
+      <text>RNA interference in adult mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">644</infon>
+      <infon key="pub-id_pmid">12740585</infon>
+      <infon key="fpage">639</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>74198</offset>
+      <text>Inhibition of hepatitis B virus in mice by RNA interference</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1656</infon>
+      <infon key="pub-id_pmid">18682697</infon>
+      <infon key="fpage">1648</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>74258</offset>
+      <text>Self&#8208;complementary AAV vectors; advances and applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E4016</infon>
+      <infon key="pub-id_pmid">26170322</infon>
+      <infon key="fpage">E4007</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>74318</offset>
+      <text>Alleviation of off&#8208;target effects from vector&#8208;encoded shRNAs via codelivered RNA decoys</text>
+    </passage>
+    <passage>
+      <infon key="volume">365</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">2365</infon>
+      <infon key="pub-id_pmid">22149959</infon>
+      <infon key="fpage">2357</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>74410</offset>
+      <text>Adenovirus&#8208;associated virus vector&#8208;mediated gene transfer in hemophilia B</text>
+    </passage>
+    <passage>
+      <infon key="volume">371</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">2004</infon>
+      <infon key="pub-id_pmid">25409372</infon>
+      <infon key="fpage">1994</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74488</offset>
+      <text>Long&#8208;term safety and efficacy of factor IX gene therapy in hemophilia B</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">1193</infon>
+      <infon key="pub-id_pmid">26301494</infon>
+      <infon key="fpage">1187</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>74562</offset>
+      <text>Recurrent AAV2&#8208;related insertional mutagenesis in human hepatocellular carcinomas</text>
+    </passage>
+    <passage>
+      <infon key="source">Virol J</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">18086305</infon>
+      <infon key="fpage">136</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>74646</offset>
+      <text>HBVRegDB: annotation, comparison, detection and visualization of regulatory elements in hepatitis B virus sequences</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">213</infon>
+      <infon key="pub-id_pmid">22362353</infon>
+      <infon key="fpage">201</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74762</offset>
+      <text>Living in the liver: hepatic infections</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">330</infon>
+      <infon key="pub-id_pmid">14758366</infon>
+      <infon key="fpage">326</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>74802</offset>
+      <text>Rational siRNA design for RNA interference</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Dig Dis</infon>
+      <infon key="lpage">151</infon>
+      <infon key="pub-id_pmid">23797136</infon>
+      <infon key="fpage">138</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74845</offset>
+      <text>Direct effects of hepatitis B virus&#8208;encoded proteins and chronic infection in liver cancer development</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Expert Rev Clin Pharmacol</infon>
+      <infon key="lpage">65</infon>
+      <infon key="pub-id_pmid">24308784</infon>
+      <infon key="fpage">53</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74950</offset>
+      <text>Safety profile of recombinant adeno&#8208;associated viral vectors: focus on alipogene tiparvovec (Glybera(R))</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">J Virol</infon>
+      <infon key="lpage">3101</infon>
+      <infon key="pub-id_pmid">3041032</infon>
+      <infon key="fpage">3096</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>75057</offset>
+      <text>A recombinant plasmid from which an infectious adeno&#8208;associated virus genome can be excised in&#160;vitro and its use to study viral replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1897</infon>
+      <infon key="pub-id_pmid">14769924</infon>
+      <infon key="fpage">1892</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>75200</offset>
+      <text>Short interfering RNAs can induce unexpected and divergent changes in the levels of untargeted proteins in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">826</infon>
+      <infon key="pub-id_pmid">23748378</infon>
+      <infon key="fpage">818</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>75323</offset>
+      <text>Molecular dissection of human Argonaute proteins by DNA shuffling</text>
+    </passage>
+    <passage>
+      <infon key="volume">386</infon>
+      <infon key="source">Lancet</infon>
+      <infon key="lpage">1555</infon>
+      <infon key="pub-id_pmid">26231459</infon>
+      <infon key="fpage">1546</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>75389</offset>
+      <text>Estimations of worldwide prevalence of chronic hepatitis B virus infection: a systematic review of data published between 1965 and 2013</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dudoit;given-names:S</infon>
+      <infon key="name_3">surname:Irizarry;given-names:R</infon>
+      <infon key="name_0">surname:Gentleman;given-names:R</infon>
+      <infon key="name_1">surname:Carey;given-names:V</infon>
+      <infon key="name_4">surname:Huber;given-names:W</infon>
+      <infon key="lpage">420</infon>
+      <infon key="source">Bioinformatics and computational biology solutions using R and bioconductor</infon>
+      <infon key="fpage">397</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>75525</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">World J Gastroenterol</infon>
+      <infon key="lpage">7157</infon>
+      <infon key="pub-id_pmid">23326119</infon>
+      <infon key="fpage">7149</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75526</offset>
+      <text>Diagnostic and therapeutic progress of multi&#8208;drug resistance with anti&#8208;HBV nucleos(t)ide analogues</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">1749</infon>
+      <infon key="pub-id_pmid">22735378</infon>
+      <infon key="fpage">1737</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75629</offset>
+      <text>Safe, long&#8208;term hepatic expression of anti&#8208;HCV shRNA in a nonhuman primate model</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">2729</infon>
+      <infon key="pub-id_pmid">24132122</infon>
+      <infon key="fpage">2725</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>75714</offset>
+      <text>MEGA6: molecular evolutionary genetics analysis version 6.0</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">19401777</infon>
+      <infon key="fpage">e5382</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>75774</offset>
+      <text>Both strands of siRNA have potential to guide posttranscriptional gene silencing in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Ther</infon>
+      <infon key="lpage">289</infon>
+      <infon key="pub-id_pmid">18059373</infon>
+      <infon key="fpage">280</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>75874</offset>
+      <text>Optimization of self&#8208;complementary AAV vectors for liver&#8208;directed expression results in sustained correction of hemophilia B at low vector dose</text>
+    </passage>
+    <passage>
+      <infon key="source">Elife</infon>
+      <infon key="volume">1</infon>
+      <infon key="pub-id_pmid">23150796</infon>
+      <infon key="fpage">e00049</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>76022</offset>
+      <text>Sodium taurocholate cotransporting polypeptide is a functional receptor for human hepatitis B and D virus</text>
+    </passage>
+    <passage>
+      <infon key="volume">392</infon>
+      <infon key="source">Methods Enzymol</infon>
+      <infon key="lpage">380</infon>
+      <infon key="pub-id_pmid">15644193</infon>
+      <infon key="fpage">371</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>76128</offset>
+      <text>Use of RNA polymerase II to transcribe artificial microRNAs</text>
+    </passage>
+  </document>
+</collection>

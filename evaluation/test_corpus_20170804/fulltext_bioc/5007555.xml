@@ -1,0 +1,1992 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5007555</id>
+    <passage>
+      <infon key="name_2">surname:Schmitt;given-names:Hans Dieter</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="name_0">surname:Schr&#246;ter;given-names:Saskia</infon>
+      <infon key="name_1">surname:Beckmann;given-names:Sabrina</infon>
+      <infon key="alt-title">Saskia Schr&#246;ter et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201592873</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201592873</infon>
+      <infon key="article-id_pmid">27440402</infon>
+      <infon key="lpage">1955 1955</infon>
+      <infon key="pub-id_pmid">27440402</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">1935 1935</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">17</infon>
+      <infon key="kwd">BiFC COPI vesicles Dsl1 complex Golgi&#8208;ER retrograde transport vesicle tethering Membrane &amp; Intracellular Transport</infon>
+      <offset>0</offset>
+      <text>ER arrival sites for COPI vesicles localize to hotspots of membrane trafficking</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>80</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>89</offset>
+      <text>COPI&#8208;coated vesicles mediate retrograde membrane traffic from the cis&#8208;Golgi to the endoplasmic reticulum (ER) in all eukaryotic cells. However, it is still unknown whether COPI vesicles fuse everywhere or at specific sites with the ER membrane. Taking advantage of the circumstance that the vesicles still carry their coat when they arrive at the ER, we have visualized active ER arrival sites (ERAS) by monitoring contact between COPI coat components and the ER&#8208;resident Dsl tethering complex using bimolecular fluorescence complementation (BiFC). ERAS form punctate structures near Golgi compartments, clearly distinct from ER exit sites. Furthermore, ERAS are highly polarized in an actin and myosin V&#8208;dependent manner and are localized near hotspots of plasma membrane expansion. Genetic experiments suggest that the COPI&#8226;Dsl BiFC complexes recapitulate the physiological interaction between COPI and the Dsl complex and that COPI vesicles are mistargeted in dsl1 mutants. We conclude that the Dsl complex functions in confining COPI vesicle fusion sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1159</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1172</offset>
+      <text>The secretory pathway is a multi&#8208;step process with the endoplasmic reticulum (ER) as the starting point, the Golgi apparatus as a sorting hub and lysosome or plasma membrane as two main destinations. Vesicles and tubules are the main carriers that mediate transport between these organelles. The concomitant loss of material from the membrane compartments has to be compensated either by de novo synthesis and fresh supply of material, or by retrograde transport (Pelham, 1996). Since retrograde transport also involves the re&#8208;routing of material via additional organelles like the early and recycling endosomes, the cells are crowded with a large number of carriers with different origins and destinations. Thus, the arrival and exit of material at a particular organelle has to be carefully organized.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1980</offset>
+      <text>One way to manage the simultaneous arrival and departure of material is the spatial separation of exit and entry sites within one organelle. Remarkably, the initial and the final steps of secretory pathway are best characterized in respect to such a spatial organization. At the endoplasmic reticulum, COPII vesicles always form within defined regions called ER exit sites (ERES), also termed transitional ER (Bannykh et&#160;al, 1996). In highly polarized cells like yeast cells (Saccharomyces cerevisiae) or nerve cells, the secretory vesicles fuse at the plasma membrane within areas marked by the polarisome (Pruyne et&#160;al, 1998; Sheu et&#160;al, 1998; McCusker et&#160;al, 2012) or the scaffold of the presynaptic active zone in nerve cells, respectively (Jahn &amp; Fasshauer, 2012; Chua, 2014). At the rim of these exocytic regions, one finds areas of active internalization (McCusker et&#160;al, 2012). Clearly, the actin cytoskeleton plays an important role in the arrangement of spots of highest exocytic and endocytic activities in yeast and nerve terminals (Li &amp; Gundersen, 2008; Nelson et&#160;al, 2013). Marker proteins for exit sites can be scaffolding factors, proteins required for the vesicle formation, or coat proteins themselves. In case of the ERES, the scaffolding protein Sec16p or the COPII coat subunit Sec24p are often used in yeast and mammalian cells (Shaywitz et&#160;al, 1997; Shindiapina &amp; Barlowe, 2010; Bharucha et&#160;al, 2013). Likewise, suitable markers for the site of active clathrin&#8208;mediated endocytosis are the clathrin coat complex itself or dynamin 2, a protein involved in vesicle formation (Rappoport &amp; Simon, 2003). Similarly, the site of vesicle fusion at the plasma membrane in yeast can be identified by staining proteins present on secretory vesicles like the small GTPase Sec4p or proteins that reside at the plasma membrane like Sec3p, a subunit of the exocyst tethering complex present at the plasma membrane (Finger et&#160;al, 1998).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3936</offset>
+      <text>For Golgi membranes and endosomes, the sites of vesicle formation and fusion seem to be less clearly segregated. At the Golgi, the formation of COPI&#8208;coated vesicles seems to be restricted to the edges of cisternae (Ladinsky et&#160;al, 1999; Klumperman, 2011). On the surface of endosomes, a separation of large domains of similar size has been observed based on the presence of different GTPases of the Rab/Ypt superfamily, as well as different phosphoinositides (Miaczynska &amp; Zerial, 2002; Jean &amp; Kiger, 2012). In contrast to the well&#8208;characterized ERES, however, we know next to nothing about the sites where the incoming COPI vesicles fuse with the ER in Saccharomyces cerevisiae or mammalian cells. In fact, to date it has been impossible to visualize postulated ER arrival sites (ERAS) (Spang, 2009, 2012). The alternative term &#8220;ER import sites&#8221; (ERIS) was later introduced by plant researchers (Lerich et&#160;al, 2012). The situation is different in the yeast Pichia pastoris and in plant cells, where COPI and COPII vesicles are confined to a narrow interface between closely apposed ER and the stacked Golgi membranes (Rossanese et&#160;al, 1999; Lerich et&#160;al, 2012). In these cells, closely confined ER arrival sites may be the result of a tight apposition of Golgi and ER membranes. To identify ER arrival sites in budding yeast or mammalian cells, tethering complexes may be suitable marker proteins. They are thought to make the first contact between incoming vesicles and the target membrane. Many of them interact with SNARE proteins, the actual catalysts of membrane fusion (Yu &amp; Hughson, 2010). This is also true for the Dsl complex in yeast. This complex is responsible for the tethering of Golgi&#8208;derived COPI vesicles to the ER. One of its three subunits, Dsl1p, carries a lasso domain, which can bind two of the seven COPI subunits, &#945;&#8208;COP and &#948;&#8208;COP in&#160;vitro (Andag &amp; Schmitt, 2003; Ren et&#160;al, 2009; Zink et&#160;al, 2009). The other two Dsl subunits, Dsl3(Sec39)p and Tip20p, are in a tight complex with the SNAREs Use1p and Sec20p at the ER (Kraynack et&#160;al, 2005; Ren et&#160;al, 2009). In mammalian cells, the equivalent of the Dsl complex, the NRZ complex, also interacts with COPI vesicles. It additionally requires the UVRAG protein for this interaction (Hirose et&#160;al, 2004; He et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6256</offset>
+      <text>In contrast to the aforementioned exocyst, the Dsl complex and its associated SNAREs are distributed uniformly over the ER (Kraynack et&#160;al, 2005; Meiringer et&#160;al, 2011). This may indicate that COPI vesicles fuse uniformly across the ER. Contrasting evidence came from our previous work, showing that COPI vesicles accumulate next to COPII&#8208;positive ER domains upon Dsl1p depletion (Zink et&#160;al, 2009), suggesting an association of ER arrival sites with ER exit sites. Thus, the conventional approach of visualizing possible ER arrival sites through a single marker protein did not yield conclusive evidence for or against the existence of specifically confined ER arrival sites. We therefore set out to map ER arrival sites in living yeast, using a more elaborate approach. Two previous findings were crucial for that: (i) COPI vesicles that arrive at the ER still carry their coat (Zink et&#160;al, 2009) and (ii) the Dsl complex contains several COPI binding sites (Andag &amp; Schmitt, 2003; Zink et&#160;al, 2009; Diefenbacher et&#160;al, 2011; Suckling et&#160;al, 2015). A recent study by Dodonova et&#160;al (2015), which presents the full structure of the COPI coat, has confirmed that the Dsl1p binding sites of COPI subunits are well accessible at the surface of the COPI coat, thereby corroborating the plausibility of an interaction. We made use of these findings by employing bimolecular fluorescence complementation (BiFC) as a probe to visualize sites of interaction between COPI coat and Dsl complex at the ER. This &#8220;split&#8208;GFP technique&#8221; relies on the formation of a fluorescent reporter protein by association of its N&#8208;terminal and C&#8208;terminal fragments, provided that the proteins carrying these fragments as tags come into close proximity. One caveat of this approach is that, under several in&#160;vitro conditions, the formation of bimolecular fluorescent complexes was found to be irreversible (Ghosh et&#160;al, 2000; Hu et&#160;al, 2002; Magliery &amp; Regan, 2005). Magliery et&#160;al (2005) suggested, however, that this property would make the BiFC approach suitable for the visualization of otherwise transient interactions. This strategy was successfully applied by Morell et&#160;al (2007). Moreover, BiFC&#8208;mediated fluorescence signals have been reported to change dynamically in&#160;vivo in response to cell stimuli and associated protein&#8211;protein interaction states (Schmidt et&#160;al, 2003; Guo et&#160;al, 2005). This technique has also been used in yeast for the analysis of proteins interactions in membrane traffic (Lipatova et&#160;al, 2012; Mao et&#160;al, 2013; Weber&#8208;Boyvat et&#160;al, 2013). Since interactions between Dsl1p and COPI coat are very weak or transient (Zink et&#160;al, 2009), the BiFC technique appeared suitable for identifying the sites where they interact in the cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9030</offset>
+      <text>We introduced segments encoding parts of the YFP variant Venus (vYFP) (Sung &amp; Huh, 2007) at the chromosomal loci of genes whose products are involved in transport between ER and Golgi. This included four COPI subunits, the two Dsl subunits Dsl1p and Dsl3p, a cargo receptor, and proteins involved in COPII vesicle formation. Because of the potential irreversibility of YFP fragment complementation, we performed meticulous controls to ensure continued functionality of the involved transport processes. By analyzing the growth characteristics of a large number of BiFC combinations in mutant background, we found evidence for a quite efficient reconstitution of the normal COPI&#8226;Dsl interaction by the BiFC complexes. Taken together, our data suggest that the BiFC spots in fact represent specific domains where Golgi&#8208;derived vesicles fuse with the ER. We confirm the notion that COPI vesicles are at least partially coated upon their arrival at the ER.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9987</offset>
+      <text>The emerging picture indicates that COPI vesicles do not fuse randomly across the ER. Rather, ERAS are highly ordered and are localized in a polarized manner, thereby showing a different pattern from ER exit sites. With these new insights, we help build a more detailed picture of intracellular transport routes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>10300</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10308</offset>
+      <text>Construction and validation of BiFC strains</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10352</offset>
+      <text>We performed bimolecular fluorescence complementation (BiFC) assays to assess whether COPI&#8208;coated vesicles or membranes establish contact with the ER in yeast. The system we employed utilizes the N&#8208; and C&#8208;terminal fragments (VN and VC) of vYFP (Venus version of the yellow fluorescent protein; Nagai et&#160;al, 2002; Sung &amp; Huh, 2007). They comprise residues 1&#8211;172 (VN) or 155&#8211;238 (VC) of the fluorescent protein, respectively, and were introduced at the chromosomal loci of the corresponding genes. Figure&#160;1A lists the genes analyzed here and provides information about the kind of modification that was introduced at each site as well as a graphic representation of all examined BiFC connections. Most single&#8208; and double&#8208;tagged (expressing a VN&#8208; and a VC&#8208;tagged protein) strains were fully viable even at 37&#176;C (Figs&#160;EV1H and EV2, and Appendix Fig&#160;S1). We confirmed the expression of the BiFC&#8208;tagged proteins through immunoblots (Fig&#160;EV1B&#8211;G). Compared to wild&#8208;type protein levels, levels of tagged proteins were either reduced or equal to wild type. Importantly, the formation of BiFC complexes in cells expressing VN as well as VC&#8208;tagged genes did not affect the expression levels&#160;(Fig&#160;EV1D&#8211;G). Most of the localization experiments involving&#160;a COPI subunit were performed using either &#946;'&#8208;COP or &#949;&#8208;COP (&#946;'&#8208;COPVN or &#949;&#8208;COPVC), two COPI subunits that exhibited either normal or reduced expression levels as determined by Western blotting. To analyze whether the introduction of BiFC tags affects retrograde transport routes, we checked the protein levels of the Golgi proteins Emp47p and Rer1p in BiFC strains. Both proteins cycle between Golgi and ER and require normal Golgi ER transport for their stability (Schr&#246;der&#8208;K&#246;hne et&#160;al, 1998; Sato et&#160;al, 2001). Emp47p abundance in COPI&#8226;Dsl combinations was reduced to about 60% of the wild&#8208;type level, while the Rer1p levels were unaffected. However, the VN tag at a COPI subunit alone was sufficient to induce this reduction (Fig&#160;EV1J), suggesting that the reduction in Emp47p levels was due to the tag and not due to the formation of BiFC complexes. HDEL signal&#8208;mediated ER retrieval was intact, as the fluorescence of HDEL&#8208;tagged RFP yielded normal ER staining (Figs&#160;4A and EV4A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12642</offset>
+      <text>Specificity of BiFC signals and effects of BiFC formation on cell viability</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12718</offset>
+      <text>Schematic representation of all BiFC combinations studied in this work (lime green cartoons: the two most commonly used BiFC pairs &#946;'&#8208;COPVN&#8226;Dsl3pVC and Dsl1pVN&#8226;&#949;&#8208;COPVC; dashed lines: all other BiFC pairs presented in this work). All BiFC&#8208;tagged proteins are listed in the table.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13009</offset>
+      <text>Bimolecular fluorescence complementation between subunits of the Dsl complex and the COPI coat. The BiFC pair &#946;'&#8208;COPVN&#8226;Dsl3pVC yielded fluorescent foci that showed dramatically reduced fluorescence intensity in the COPI binding&#8208;deficient dsl1&#8208;5xWA mutant. Schematic yeast cell representations depict the typical BiFC foci localization patterns. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13383</offset>
+      <text>Quantification of the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC signals in wild&#8208;type cells and in COPI binding&#8208;deficient dsl1&#8208;5xWA and dsl1&#8208;&#916;lasso mutants (as shown exemplarily in B). Mean values&#160;+&#160;SEM of at least three independent experiments (n&#160;=&#160;3&#8211;8) are displayed. Statistical analysis was carried out by comparing the number of cells with BiFC signals over integrated thresholds to those without signals (*P&#160;&lt;&#160;0.05). dsl1 mutant strains show a significant decrease in brightness, spot number, and spot size in comparison with their corresponding DSL1 wild&#8208;type strains (two&#8208;sample t&#8208;test). The dsl1&#8208;5xWA mutation also led to comparable signal reduction in cells carrying the VNI152L variant in the &#946;'&#8208;COPVN I152L&#8226;Dsl3pVC combination. ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14153</offset>
+      <text>Subcellular localization of different BiFC&#8208;tagged protein pairs. The Dsl1pVN&#8226;Dsl3pVC combination involving subunits of the ER&#8208;resident Dsl1 complex exhibited typical ER localization. Sec16pVN&#8226;Sec16pVC signals in a diploid heterozygous strain displayed a pattern typical for ER exit sites, while diploid cells carrying the &#945;&#8208;COPVN&#8226;&#945;&#8208;COPVC BiFC pair showed a Golgi&#8208;like fluorescence pattern. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14581</offset>
+      <text>The localization of COPI&#8226;Dsl BiFC foci compared to the autophagy marker Ape1p. Double fluorescence micrographs of the BiFC pair &#946;'&#8208;COPVN&#8226;Dsl3pVC and the autophagy marker mRFPApe1p are superimposed with the DIC image. BiFC&#8208;YFP signals are pseudocolored green. Fluorescent signals appeared distinct from each other. Also no co&#8208;localization was observed when we analyzed COPI&#8226;COPII(Sec16p) BiFC spots in cells expressing mRFP tagged APE1 (S. Beckmann, unpublished results). Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15085</offset>
+      <text>Growth effects of Venus fragment tags in dsl1 mutant cells. Serial tenfold dilutions of liquid cell cultures were spotted on agar plates and incubated at 30&#176;C for 2&#160;days. The images in the second row show that &#946;'&#8208;COPVN&#8208;producing cells expressing the dsl1&#8208;5xWA mutation could not grow. The complementation of &#946;'&#8208;COPVN by its cognate interaction partners Dsl1pVC and Dsl3pVC, but not by non&#8208;cognate BiFC partners (Sec24pVC, Sec16pVC, or VCRer1p), suppressed these growth defects. Spot assays of exemplary BiFC partners are depicted. Asterisk: Dsl1pVC carrying the dsl1&#8208;5xWA defect was expressed from a plasmid. See Figs&#160;EV1 and EV2 and Appendix&#160;Fig S1 for full data display.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15776</offset>
+      <text>BiFC signal quantifications of the strains presented in (F). &#946;'&#8208;COPVN yielded BiFC fluorescence signals with all tested complementation partners. This rules out the possibility that the lack of suppression observed in (F) simply reflects the inability of the BiFC partners to form a complex and shows that the successful complementation of the split&#8208;YFP fragments does not per se suppress the synthetic lethal effect of the VN tag in dsl1&#8208;5xWA cells. Mean values + SEM of at least three independent experiments (n&#160;=&#160;3&#8211;8) are displayed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16323</offset>
+      <text>BiFC signal intensities greatly depend on which BiFC combination is analyzed. Fluorescence intensities of COPI&#8226;Dsl BiFC pairs (left) were much higher than those of COPII&#8226;Dsl BiFC pairs (right). Mean values&#160;+&#160;SEM of at least three independent experiments (n&#160;=&#160;3&#8211;5) are displayed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16612</offset>
+      <text>Localization of Dsl1pCFP in &#946;'&#8208;COPVN&#8226;Dsl3pVC cells. An overall ER localization of Dsl1pCFP was retained in &#946;'&#8208;COPVN&#8226;Dsl3pVC cells, while some of the signal was found in the foci. BiFC&#8208;YFP signals are pseudocolored red. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16863</offset>
+      <text>Expression analysis and growth characteristics of mutants used in this study</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16940</offset>
+      <text>Mutations in the Dsl1p lasso domain and the deletion of the lasso domain do not affect the stability of the protein. Since Dsl1p antibodies preferentially recognize the Dsl1 protein carrying an intact lasso domain, we analyzed myc&#8208;tagged proteins. The sequences encoding two myc&#8208;tags were introduced 3&#8242; of the DSL1 alleles as described in Materials and Methods. Extracts of two parallel samples were analyzed using the 9B11 antibody (Cell Signaling Technologies, Danvers, MA). &#948;&#8208;COP was used as a loading control. As an additional loading control, a Ponceau S&#8208;stained protein band at about 120&#160;kDa is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17560</offset>
+      <text>Immunoblot analysis of strains expressing either VN or VC tags alone. For the upper panels, COPI&#8208;specific antibodies were used and untagged COPI subunits were employed as a loading control. For the blots shown in the second row, GFP&#8208;specific antibodies were used. As an additional loading control, a Ponceau S&#8208;stained protein band at about 120&#160;kDa is shown. The results indicate that expression of &#945;&#8208;COP and &#946;'&#8208;COP is not affected by the tags, while the tagged versions of genes encoding &#948;&#8208;COP and &#949;&#8208;COP seem to be less well expressed. We do not know why the expression varies so much since all tagged genes except RER1 are under the control of their own promoter, and all 3&#8242;&#8208;tagged genes are followed by the ADH1 3&#8242;&#8208;UTR. Our results with VC&#8208;RER1 indicate that the codon usage of the tag may be important at least when the tag is at the 5&#8242; end (Lipatova et&#160;al, 2015). We obtained very similar results when we used a chromosomally inserted VC&#8208;RER1 version under the control of the strong RPL7B promoter or a single&#8208;copy vector&#8208;encoded version under the endogenous promoter where the codon usage of the VC tag was adapted to yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18728</offset>
+      <text>The formation of BiFC complexes has no effect on the expression of the modified proteins. Blots show extracts from individually tagged strains as well as strains expressing BiFC pairs. The BiFC combinations Dsl1pVN&#8226;&#949;&#8208;COPVC and &#946;'&#8208;COPVN&#8226;Dsl3pVC shown here were those which we used most often in this work for microscopy. They represent BiFC pairs with either a poorly or a well&#8208;expressed BiFC&#8208;tagged COPI subunit. As a loading control, a Ponceau S&#8208;stained protein band at about 120&#160;kDa is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19240</offset>
+      <text>RER1 carrying the VC tag at its 5&#8242; end was expressed under the control of the strong RPL7B promoter. The full&#8208;length fusion protein is present in amounts comparable to the wild&#8208;type protein. A smaller protein fragment is very likely the product of cleavage by vacuolar proteases (Sato et&#160;al, 2001). The antibody used was raised against the C&#8208;terminal 27 residues of Rer1p (Boehm et&#160;al, 1997). As a loading control, a Ponceau S&#8208;stained protein band at about 120&#160;kDa is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19728</offset>
+      <text>Dsl1p and Dsl3p levels do not change significantly when they carry BiFC tags or when expressed as BiFC pairs. Antibodies raised against the full&#8208;length proteins were used for this analysis. Apart from &#948;&#8208;COP, the area around a 70 kDa band of the Ponceau S&#8208;stained blots is shown as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20035</offset>
+      <text>Growth assays with strains expressing different BiFC combinations. The cell density of exponentially growing cells was adjusted to 1 OD600. These suspensions as well as three serial dilutions were spotted on agar plates. Images were taken after 48&#160;h incubation at the indicated temperature. Rer1p marked with one asterisk indicates that the VC&#8208;tagged RER1 gene was expressed under the control of the RPL7B promoter from the RER1 locus. The plasmid&#8208;encoded version with codon&#8208;adapted VC tag under the control of the endogenous promoter is marked by two asterisks. The growth test shown was performed on selective minimal medium to prevent the loss of plasmids.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20702</offset>
+      <text>The &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC pair does not interfere with the binding of the Dsl complex to the SNARE protein Sec20p. Tandem affinity&#8208;purified Sec20pTAP containing complexes from radiolabeled BiFC and non&#8208;BiFC cells were isolated as described previously (Kraynack et&#160;al, 2005). The BiFC pair used was the &#946;'&#8208;COPVN&#8226;Dsl3pVC combination. Note that no matter whether the TAP&#8208;tag was at the C&#8208;terminus of Sec20p (first lane) or Dsl1p (third lane), comparable amounts of COPI subunits co&#8208;purified with the tagged protein. As a control, SEC20&#8208;TAP cells were analyzed which carried no BiFC combination (second lane). Very little Sec20pTAP was visible due to the low amount of Cys and Met residues. We used immunoblot analysis to confirm that the tagged protein is produced. Tandem affinity&#8208;purified complexes were analyzed by SDS&#8211;PAGE. Gels were dried and analyzed using a phosphorimager (FLA7000, Fujifilm).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21627</offset>
+      <text>Emp47p levels are reduced to about 60% of the wild&#8208;type level in &#946;'&#8208;COPVN expressing cells. We observed a reduction in the Emp47p level in extracts from cells with different BiFC combinations (H.D. Schmitt, unpublished results). This was not observed when strains produced &#946;'&#8208;COP fused to full&#8208;length GFP. Thus, it was not simply the size of the tag that caused the effect. Using extracts from six wild&#8208;type, six &#946;'&#8208;COPVN, and six &#946;'&#8208;COPVN&#8226;Dsl3VC strains from older as well as fresh crosses, our immunoblot analysis clearly showed that the reduction in the Emp47p level was not due to the BiFC formation. It can already be observed in &#946;'&#8208;COPVN&#8208;producing cells. The blots were analyzed using a Lumi&#8208;Imager camera system and quantified using the Lumi&#8208;Imager software (Roche). Hexokinase was used as a loading control. The stability of the Rer1 protein was not affected.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22524</offset>
+      <text>The presence of untagged proteins in addition to the VC&#8208;tagged Dsl proteins reduces the BiFC signal, while it does not change the polarized appearance of BiFC spots. For the micrographs shown, diploid strains were imaged that express VN&#8208;tagged &#946;'&#8208;COP from both SEC27 loci. At the DSL3 loci, they express a wild&#8208;type and a VC&#8208;tagged version (upper panel) or two DSL3VC alleles (lower panel). The same result was obtained with strains that are heterozygous or homozygous for the equivalent DSL1 versions. Moreover, a &#946;'&#8208;COPVN/&#946;'&#8208;COPVN, DSL1VN/DSL1, DSL3VN/DSL3 strain could not be distinguished from a homozygous &#946;'&#8208;COPVN/&#946;'&#8208;COPVNDSL3VN/DSL3NV strain (H.D. Schmitt, unpublished results). Thus, the BiFC spot formation is not due to a depletion of Dsl proteins. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23325</offset>
+      <text>PLA detection of COPI/Dsl and COPI/ER&#8208;SNARE interactions. Superimposed representative images of fixed yeast cells carrying Dsl3pGFP, Sec20pGFP, or no tag (wild type). Cells were fixed with PFA and immunodecorated with primary antibodies against endogenous COPI, as well as GFP. Subsequently, the PLA reaction was carried out according to the manufacturer's instructions, using Duolink&#174;In Situ red PLA reagents. Proximity of COPI to Dsl3pGFP or Sec20pGFP produced to a fluorescent spot in&#160;situ. Gray channel: DIC; blue: DAPI; red: PLA signal. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23891</offset>
+      <text>All strains are listed in Appendix&#160;Table&#160;S1. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23939</offset>
+      <text>COPI&#8226;Dsl BiFC interactions can suppress lethal combinations of dsl1 mutations and unpaired VN tags</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24040</offset>
+      <text>Plasmid&#8208;encoded wild&#8208;type and mutant versions of DSL1 support growth of DSL1 shutoff cells that carry no other modification.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24169</offset>
+      <text>The presence of unpaired VN tags at the C&#8208;terminus of &#945;&#8208;, &#946;'&#8208;, &#948;&#8208;, and &#949;&#8208;COP was lethal when combined with the dsl1&#8208;5xWA mutation. Cells producing &#945;&#8208;COPVN were temperature&#8208;sensitive no matter what DSL1 version was present in the cells. &#948;&#8208;COPVN&#8208;producing cells were also temperature&#8208;sensitive, but a surplus of Dsl1p suppressed the temperature sensitivity.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24553</offset>
+      <text>Compared to the VN tag, the VC fragment at the C&#8208;terminus of COPI subunits had a less dramatic effect on growth when combined with the dsl1&#8208;5xWA mutation. Cells producing &#948;&#8208;COPVC were an exception. The &#948;&#8208;COPVC cells were temperature&#8208;sensitive no matter what DSL1 version was expressed. It has been observed previously that &#948;&#8208;COPGFP cells are also temperature&#8208;sensitive (Zink et&#160;al, 2009; see also F and G).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24978</offset>
+      <text>No synthetic lethality was observed when the dsl1&#8208;5xWA mutation was expressed in cells with VN or VC tags at the C&#8208;terminus of Dsl proteins or COPII subunits Sec24p and Sec16p. However, cells expressing a VN or VC&#8208;tagged dsl1&#8208;5xWA protein grew slower than the corresponding wild&#8208;type version even at room temperature.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25306</offset>
+      <text>The lethal COPI/dsl1&#8208;5xWA combinations shown in (B) were viable when DSL3VC was expressed as well, suggesting that the BiFC interaction can reconstitute the normal function of the coat/tether interaction. Note that the &#946;'&#8208;COPVN&#8226;Dsl3pVC combination, which includes the most efficiently expressed BiFC&#8208;tagged COPI subunit, grew well even at 37&#176;C (see also Fig&#160;1F), while the combination that includes the &#946;'&#8208;COPVN&#160;I152L version could not grow at 37&#176;C. As discussed below, this observation indicates that for suppression to occur, it is optimal if the BiFC formation is very efficient.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25905</offset>
+      <text>As shown in (C), cells with VC&#8208;tagged &#948;&#8208;COP stopped growing when the dsl1&#8208;5xWA mutant allele was the only DSL1 version expressed in the cells. The growth of these cells was improved by the VN tag fused to Dsl1p (compare the last rows of C and F). This effect was limited to 30&#176;C since the cells were temperature&#8208;sensitive.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26238</offset>
+      <text>Dsl1p carrying the VC tag rescued two of the four COPIVN/dsl1&#8208;5xWA combinations (&#949;&#8208;COPVN and &#946;'&#8208;COPVN). In contrast to DSL3VC, DSL1VN could not suppress the equivalent combinations with &#945;&#8208;COPVN and &#948;&#8208;COPVN. For these tests, a plasmid&#8208;encoded VC&#8208;tagged version of dsl1&#8208;5xWA was used. The failure of this plasmid to support growth of &#945;&#8208;COPVN and &#948;&#8208;COPVN producing cells may indicate that DSL1VN is less efficient as suppressor than DSL3VN. However, one must keep in mind that the BiFC tags fused to the dsl1&#8208;5xWA protein alone caused a growth defect (D). Therefore, the fact that cells with a &#949;&#8208;COPVN&#8226;dsl1&#8208;5xWApVC BiFC pair grew well at all temperatures, and &#946;'&#8208;COPVN&#8226;dsl1&#8208;5xWApVC were viable at 30&#176;C, shows that the BiFC formation is able suppress the negative effects of two harmful tags in the same cell.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27087</offset>
+      <text>The main conclusion that one can draw from the results shown in the first two rows of (H) as well as panels (I) and (J) is that VC&#8208;tagged ER proteins other than the Dsl proteins cannot suppress the COPIVN/dsl1&#8208;5xWA combination. The lack of suppressor activity is not due to weak BiFC interactions since these combinations gave BiFC signals with an intensity as high as that of the combinations used in (E) (see Fig&#160;1G). The VN tag fused to SEC16 slightly improved the growth of dsl1&#8208;5xWA cells producing &#945;&#8208;COPVC, while the equivalent &#949;&#8208;COPVC&#8208;producing cells grew less well (compare with C). However, more samples would be necessary to prove that these minor differences are significant. The strain used in row 6 carries a BiFC combination that gave a very low fluorescence signal (Fig&#160;1H). Both tags alone had no effect in the presence of the dsl1&#8208;5xWA mutation and accordingly their combination resulted in cells that grew normally at all temperatures. Row four and five of (H) summarize the growth behavior of strains that are comparable to those used in the Fig&#160;5A and B (apart from carrying the GAL&#8208;regulated DSL1 gene). This shows that these BiFC pairs have no effect on growth even in the presence of dsl1&#8208;5xWA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28328</offset>
+      <text>The cargo receptor Rer1p carries the VC tag at the N&#8208;terminus and is under the control of the strong RPL7B promoter (Sung &amp; Huh, 2007). Very strong BiFC signals were observed when this VC&#8208;tagged gene was combined with genes encoding VN&#8208;tagged COPI subunits. Similarly to SEC16&#8208;VC and SEC24&#8208;VC, this VC&#8208;RER1 did not rescue lethality of &#946;'&#8208;COPVN&#8208;producing dsl1&#8208;5xWA cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28718</offset>
+      <text>All COPI&#8226;COPI BiFC combinations were synthetically lethal with the dsl1&#8208;5xWA mutation, suggesting that linking together adjacent coat complexes on vesicles is deleterious in the presence of the dsl1&#8208;5xWA mutation. &#949;&#8208;COPVN&#8226;&#949;&#8208;COPVC and &#948;&#8208;COPVN&#8226;&#948;&#8208;COPVC alone were temperature&#8208;sensitive. Moreover, the fact that the COPIVN/dsl1&#8208;5xWA combination remained lethal shows again that engaging the VN tag at COPI subunits in any kind of BiFC interaction does not protect the cells from their negative effects when combined with the dsl1&#8208;5xWA mutation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29287</offset>
+      <text>The dsl1&#8208;22 mutation, which lacks the C&#8208;terminus of domain E of Dsl1p, exhibited the same negative genetic interactions with the VN tag at COPI subunits as the dsl1&#8208;5xWA mutation. Moreover, this was suppressed by the VC tag at DSL3. Since both dsl1 mutations behaved so similar in this assay, it is likely that the BiFC complex formation recapitulates a general function of the Dsl complex. Cells are more sensitive to higher temperatures since the dsl1&#8208;22 mutation alone makes the cells temperature&#8208;sensitive.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29808</offset>
+      <text>A collection of tags other than the BiFC tags was also analyzed for synthetic lethality with the dsl1&#8208;5xWA mutation. Note that the strongest synthetic effects were observed with GFP, which can form dimers, and RFPRedstar, a tetramer&#8208;forming fluorescent protein. Together with the results shown in (J), this suggests that the mutations of DSL1 make the cells very sensitive toward modifications of COPI subunits that link adjacent COPI heptamers and may thus delay the uncoating of vesicles.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30303</offset>
+      <text>Combinations of the dsl1&#8208;5xWA defect with some temperature&#8208;sensitive COPI mutants (sec27&#8208;1, ret2&#8208;1, ret3&#8208;1 sed28&#916;, and sec21&#8208;1) show that this dsl1 defect is also synthetically lethal.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30501</offset>
+      <text>The heat maps in this figure represent a summary of the growth assays shown in Appendix&#160;Fig S1 (representative data are shown in Fig&#160;1F). Growth in successive dilution spots was scored (green: full growth compared to control strain, red: complete inability to grow). The cells carried either the wild&#8208;type DSL1 gene or one of two different dsl1 mutations. Lettering of the datasets is in accordance with Appendix&#160;Fig S1. The results indicate that the dsl1 mutations are in fact lethal in combination with all VN&#8208;tagged COPI subunits. This is suppressed by the presence of the VC tag at Dsl subunits and, very importantly, only the Dsl proteins. See the Appendix for further discussion of these results. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31212</offset>
+      <text>Interactions between COPI coat and Dsl complex lead to specific BiFC signals</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31289</offset>
+      <text>All COPI&#8226;Dsl BiFC combinations yielded fluorescent signals with a consistent punctate subcellular distribution pattern. Figure&#160;1B shows images of a representative BiFC pair (&#946;'&#8208;COPVN&#8226;Dsl3pVC). We confirmed the specificity of the formed fluorescence signal by examining the signal intensity in either wild&#8208;type or dsl1 mutant cells. For this, we used mutations in the lasso domain of Dsl1p, which have been shown to reduce Dsl1p binding to &#948;&#8208;COP and &#945;&#8208;COP in&#160;vitro. We used two mutant versions: (i) dsl1&#8208;5xWA harboring five Trp to Ala substitutions in the lasso domain (Zink et&#160;al, 2009) and (ii) a mutant lacking the whole lasso domain (dsl1&#8208;&#916;lasso; this work). In both mutants, we observed a similar decrease in fluorescence signal intensity, as confirmed by the quantification of the spot number and the area covered by spots (Fig&#160;1C). We confirmed that this effect is&#160;not due to a lower stability of the different mutant proteins (Fig EV1A). As an additional control, we replaced the VN1&#8211;173 tag at &#946;'&#8208;COP with a shorter mutant version (VN1&#8211;155) that carries an Ile to Leu substitution at position 153. This has been shown to increase the signal to noise ratio as well as reduce the probability of incorrect subcellular localization (Kodama &amp; Hu, 2010). This modification reduced the BiFC signal equally in both wild&#8208;type and dsl1&#8208;5xWA mutant cells (Fig&#160;1C). Residual binding observed in case of the mutants may be due to additional interaction sites of the COPI coat with the Dsl complex, for example, via Tip20p (Diefenbacher et&#160;al, 2011). We also introduced a mutation into the VC tag that prevents the self&#8208;association of YFP (Zacharias et&#160;al, 2002). Again, this did not affect the formation of &#946;'&#8208;COPVN&#8226;Dsl3pVC spots or their specific localization (see below). Furthermore, diploid strains expressing one untagged and one VC&#8208;tagged copy of the Dsl3 proteins showed reduced intensity of the BiFC signals, but without affecting the specific localization (Fig EV1K). Finally, while some of the Dsl1pCFP accumulated in BiFC punctae, the ER localization of Dsl1pCFP was retained in &#946;'&#8208;COPVN&#8226;Dsl3pVC cells (Fig&#160;1I). All these lines of evidence strongly point against the notion that the BiFC spots are induced by trapping the Dsl proteins in the BiFC complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33607</offset>
+      <text>The notion that BiFC signals reflect specific interactions is further substantiated by the following observations: (i) Fluorescence signals between cis&#8208;BiFC pairs (two subunits of one protein complex, specifically Dsl1pVN&#8226;Dsl3pVC, Sec16pVN&#8226;Sec16pVC, &#945;&#8208;COPVN&#8226;&#945;&#8208;COPVC) showed the expected subcellular localizations of the respective complexes (Fig&#160;1D). (ii) While all trans&#8208;BiFC pairs (involving proteins from different complexes) probing COPI subunit interactions with either Dsl or COPII subunits gave rise to BiFC signals of similar intensity and localization, Dsl&#8226;COPII combinations showed extremely weak&#160;BiFC signals (Dsl3pVN&#8226;Sec16pVC, Sec16pVN&#8226;Dsl3pVC, or Dsl3pVN&#8226;Sec24pVC; Fig&#160;1H). Therefore, these combinations may be considered additional negative controls for the BiFC combinations involving COPI subunits. (iii) The observed fluorescent foci are not degradation related since the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC spots did not co&#8208;localize with an autophagy marker (Fig&#160;1E); neither did they change in number or size when autophagy was blocked by the deletion of the ATG1 gene (H.D. Schmitt, unpublished results; Thumm et&#160;al, 1994). Finally, we showed that the BiFC interaction does not disturb the Dsl&#8226;SNARE interaction (Fig&#160;EV1I). The results obtained by using the ER exit site markers also confirmed our previous observation that COPI subunits come close to Dsl subunits as well as COPII subunits (Zink et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35064</offset>
+      <text>Additional evidence for the specificity of the COPI&#8226;Dsl interaction came from a series of growth assays involving dsl1 mutants (Fig EV2, Appendix&#160;Fig S1). The reason for addressing this in a systematic way was the observation that some combinations of BiFC tags and the dsl1&#8208;5xWA mutation could not be obtained by crosses and tetrad analysis. We created 37 different strains that were especially designed to avoid variations caused by differences in the genetic background of mutant and wild&#8208;type cells. The growth assays were performed not only with the dsl1&#8208;5xWA mutation, but also with the dsl1&#8208;22 mutation, a mutation which affects the well&#8208;conserved C&#8208;terminal E&#8208;domain (Andag et&#160;al, 2001; Tripathi et&#160;al, 2009; Schmitt, 2010). For simplicity, a representative set of results obtained with &#946;'&#8208;COPVN is given in Fig&#160;1F. The growth assays confirmed the observation we had made by tetrad analysis, that is, that the dsl1 mutations are lethal in the presence of the VN tag fused to the C&#8208;terminus of COPI subunits, &#945;&#8208;, &#946;'&#8208;, &#949;&#8208;, or &#948;&#8208;COP. Other tags fused to COPI subunits had varying effects. Like VN, the tetramer&#8208;forming RFP (Redstar) was lethal with dsl1&#8208;5xWA (Fig&#160;EV2L). GFP, which forms a weak dimer, had minor effects, while the monomeric form of RFP did not interfere with growth in the presence of dsl1&#8208;5xWA (Fig&#160;EV2L). Thus, it appears that the severity of the growth defect correlates with the tendency of the tag to aggregate.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36548</offset>
+      <text>Importantly, however, dsl1 mutants are viable in the presence of the &#946;'&#8208;COPVN&#8226;Dsl3pVC pair (Fig&#160;1B and F). This suggests that the VC fragment at Dsl3p can suppress the lethality of the COPIVN/dsl1 combinations. Dsl3pVC is in fact able to suppress growth defects in all other COPIVN/dsl1&#8208;5xWA combinations (&#945;&#8208;, &#949;&#8208;, and &#948;&#8208;COP) as well, and equivalent results were obtained with the dsl1&#8208;22 mutation (Figs&#160;1F and EV2E&#8211;G and K). Most importantly, no suppression was observed when complementation was attempted with other ER proteins carrying the VC fragment, such as Sec16p, Sec24p, the cargo receptor Rer1p, or other COPI subunits (Figs&#160;1F and EV2H&#8211;J). The failure of these VC&#8208;constructs to rescue cells carrying the &#946;'&#8208;COPVN/dsl1&#8208;5xWA combination was not due to an inability to&#160;form BiFC complexes (Fig&#160;1G). Quantification of BiFC signals suggests that the tested proteins come very close to &#946;'&#8208;COPVN, but&#160;only the Dsl proteins seem to fulfill the requirements for a correct tethering of the COPI vesicles to suppress the growth defects. This indicates that the BiFC interaction between the COPI and Dsl complex constitutes an important function and may, therefore, resemble the normal coat&#8211;tether interaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37797</offset>
+      <text>Dsl1&#8226;COPI interaction sites are polarized and localize to sites of high material turnover</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37889</offset>
+      <text>All examined COPI&#8226;Dsl BiFC strains listed in Fig&#160;1A exhibited signals which were localized to the cell poles (Figs&#160;2A and 3A&#8211;D; Movies EV1, EV2, EV3 and EV4). Moreover, the localization of the BiFC spots remained polarized when we introduced a mutation into the VC tag of Dsl3p that prevents the formation of dimers (equivalent to the A206K mutation; Zacharias et&#160;al, 2002; Fig&#160;3D). Thus, the polarized localization is not due to the dimerization of the complemented YFP. In order to observe the fate of individual cells more closely, we employed time&#8208;lapse imaging to evaluate the dynamic changes of the fluorescent foci patterns. We observed that COPI&#8226;Dsl signals were localized in a polarized manner to sites of intense membrane expansion (Figs&#160;2A and 3J; Field &amp; Schekman, 1980; Finger et&#160;al, 1998): Cells entering the budding process already exhibited polarized BiFC fluorescence at the future bud site prior to bud outgrowth. In the first minutes of discernable bud outgrowth, fluorescence signals remained localized to the bud neck at the side of the mother cell. After that, the fluorescence signals relocated to the bud tip and remained there until apical bud outgrowth ceased. During the phase of isotropic growth, the BiFC signals dispersed throughout the daughter or briefly disappeared altogether. When the daughter cell was pinched off from the mother during cytokinesis, fluorescence signals appeared at the bud neck. In diploid cells, the BiFC spots accordingly relocated to the opposite cellular pole, where the next bud site would form. In summary, signals were found wherever intensive material turnover and membrane outgrowth takes place (Field &amp; Schekman, 1980; Finger et&#160;al, 1998). This observation has two implications: First, the dynamic behavior of the BiFC&#8208;marked interactions appears to allow for a signal to disappear despite an assumed irreversibility of the split&#8208;YFP complementation. Second, it shows that the interaction between Dsl complex and COPI subunits is only polarized as long as there is intense material consumption at the bud due to membrane outgrowth. Time&#8208;lapse recordings revealed that the polarization is dependent on the ability of the cell to grow, as cells in G0 phase generally exhibited an isotropic punctate distribution of foci throughout the cell, as opposed to budding cells (S. Schr&#246;ter, unpublished results). Accordingly, glucose&#8208;starved cells that had halted growth showed COPI&#8226;Dsl signal distribution patterns reminiscent of ER exit site patterns (Fig&#160;2B). This signal localization was reversible: A few minutes after the addition of glucose, polarized distribution of the COPI&#8226;Dsl signals had resumed (Fig&#160;2C, Movie EV1). Polarized COPI&#8226;Dsl signals were also observed in the emerging zygote of mating cells. Fluorescent signals showed a localization preference toward areas of membrane outgrowth (Fig&#160;2D), similar to those in budding cells. This suggests that the observed interactions reflect a commonly occurring process in the cell that does not depend on for instance the physical barrier between mother and daughter cell during budding (Clay et&#160;al, 2014). Importantly, the tendency of the BiFC signal to occur in a polarized manner is very much dependent on the chosen BiFC pairs and not generally caused by the tags. While Dsl&#8226;Dsl combinations yielded a uniform ER staining (Fig&#160;1D), COPI&#8226;Dsl1 and COPI&#8226;COPI BiFC combinations resulted either in the polarized staining pattern described above, or in a more random Golgi&#8208;like fluorescence pattern (Fig&#160;2E, upper and lower row and Fig&#160;3H). The dynamic behavior of COPI&#8226;Dsl BiFC signals is also illustrated by the recovery of the BiFC signals after photobleaching (Fig&#160;2F and G). Bleaching of COPI&#8226;Dsl BiFC signals yielded similar recovery rates independently of whether entire cells, full buds, or only BiFC punctae in buds were bleached (Fig&#160;2F and G). Recovery was detectable after a few minutes and steadily increased over time. The kinetics of the fluorescence recovery under all conditions suggest that it was due to de novo formation of BiFC fluorophores, and not due to diffusion or assisted transport of existing fluorophores, which would require only a few seconds (van Drogen et&#160;al, 2001). Moreover, the data advocate that BiFC complexes originating from the mother cell contribute very little to the formation of BiFC spots in the daughter cell. The comparably fast initial recovery must be due to existing unpaired molecules that finish their maturation after bleaching. This in turn implies that the cells possess adequate amounts of uncomplemented proteins to fulfill the physiological function of the investigated interactions, even if a fraction of the proteins may constantly be removed from the pool of functional proteins through the formation of stable BiFC complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42744</offset>
+      <text>Localization patterns of COPI&#8226;Dsl BiFC foci during growth and starvation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42819</offset>
+      <text>Dsl1pVN&#8226;&#949;&#8208;COPVC BiFC signal localization pattern throughout the budding cycle. Time&#8208;lapse images of agarose&#8208;embedded cells were recorded at RT with continuous PM Glc&#160;+&#160;ura medium supply. Arrowheads mark positions of BiFC foci. Fluorescence signals exhibited a characteristic and reproducible localization pattern, which favored sites of high material turnover during budding. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43226</offset>
+      <text>Dsl1pVN&#8226;&#949;&#8208;COPVC BiFC foci showed different subcellular distribution depending on the growth status of cells. Cells were cultured in PM&#160;+&#160;ura medium with or without 2% glucose at 30&#176;C for 90&#160;min and imaged. BiFC signals dispersed under glucose starvation, resulting in an ER exit site&#8208;like fluorescence pattern. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43568</offset>
+      <text>The effect of carbon source depletion on COPI&#8226;Dsl BiFC signal polarization. Cells carrying Dsl1pVN&#8226;&#949;&#8208;COPVC were starved in glucose&#8208;free PM&#160;+&#160;ura medium for 90&#160;min. Then, the medium was replaced by PM Glc&#160;+&#160;ura with 2% glucose, while imaging the cells continuously at 1&#8208;min intervals. Two exemplary cells are shown (upper and lower panel). Starvation&#8208;induced dispersed BiFC signals reversibly returned to polarized distribution within minutes after addition of glucose&#8208;containing medium. Arrowheads mark the point of signal repolarization, and arrows indicate resumed bud outgrowth. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44189</offset>
+      <text>&#946;&#700;&#8208;COPVN&#8226;Dsl3pVC BiFC signals during mating. Fluorescence micrographs of the BiFC pair &#946;'&#8208;COPVN&#8226;Dsl3pVC (green) are superimposed with the DIC image (gray). Two haploid strains carrying &#946;&#700;&#8208;COPVN&#8226;Dsl3pVC were allowed to mate in YEPD liquid culture for 2&#160;h at 30&#176;C. Then, time&#8208;lapse recordings were made in agarose embedding at RT with continuous PM Glc&#160;+&#160;ura medium supply. Fluorescence signals exhibited a characteristic and reproducible localization at sites of high material turnover during zygote formation. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44742</offset>
+      <text>Comparison of the BiFC localization pattern in COPI&#8226;Dsl and COPI&#8226;COPI strains. Time&#8208;lapse images of agarose&#8208;embedded cells carrying the COPI&#8226;Dsl BiFC pair &#946;&#700;&#8208;COPVN&#8226;Dsl3pVC or the COPI&#8226;COPI BiFC pair &#946;&#700;&#8208;COPVN&#8226;&#945;&#8208;COPVC were recorded at RT with continuous PM Glc&#160;+&#160;ura medium supply at 5&#8208;min intervals. Single&#8208;cell pseudokymographs were generated by concatenating the central section of the cell (sliced along the pole axis, frames at double the width of the bud neck) of a time&#8208;lapse dataset. The COPI&#8226;Dsl strain showed one single dominant spot at the bud tip and later the bud neck. In contrast, the COPI&#8226;COPI strain additionally exhibited multiple spots with no apparent polarization tendency, which were localized mainly in the mother cell. Schematic yeast cell representations depict the typical BiFC foci localization pattern of the strains. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45645</offset>
+      <text>Fluorescence recovery after photobleaching of BiFC signals. Time&#8208;lapse images of agarose&#8208;embedded cells carrying the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC pair were recorded at RT with PM Glc&#160;+&#160;ura medium supply at 2&#8208;min intervals. Fluorescence of ROIs marked in dashed lines (where the full cell, full bud, or only the bud foci were bleached) was depleted by three repetitions of fluorescence excitation at 177&#160;&#956;s/pixel and 100% laser intensity. Arrowheads: reappearing fluorescence signal; scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46155</offset>
+      <text>Densitometric measurements of fluorescence intensities in photobleached cells. Representative datasets from five independent experiments are displayed, featuring cells that had been bleached entirely (black lines), at the bud only (dark blue lines), or at the fluorescent foci at the bud tip only (light blue line). Values are displayed in percentage of initial fluorescence and were corrected for photobleaching effects by normalization against fluorescence of unbleached cells. Fluorescence recovery was typically not continued to full recovery stage because of the photobleaching artifacts occurring during long&#8208;term imaging of the samples.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>46801</offset>
+      <text>Polarization patterns of BiFC between the Dsl complex, the COPI coat, and COPI cargo</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46886</offset>
+      <text>Cells expressing complementary BiFC&#8208;tagged proteins between subunits of the Dsl complex and COPI were analyzed. Panel&#160;(D) shows a BiFC combination that includes a mutated VC tag. This mutation in the VC part is equivalent to the A206K mutation in GFP, which prevents the formation of YFP dimers (Zacharias et&#160;al, 2002).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47210</offset>
+      <text>The VC&#8208;tagged COPI vesicle cargo protein Rer1p was examined in combination with the VN&#8208;tagged COPI subunit &#946;'&#8208;COP or the VN&#8208;tagged Dsl1 protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47364</offset>
+      <text>BiFC spots in COPI&#8226;COPII BiFC combination (&#946;'&#8208;COPVN&#8226;Sec16pVC) were also polarized.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47454</offset>
+      <text>COPI&#8226;COPI (&#945;&#8208;COPVN&#8226;&#945;&#8208;COPVC) BiFC signals showed one spot that localized to the bud tip and, at later budding stages, to the bud neck (compare with A&#8211;G). Additionally, multiple spots with no apparent polarization tendency were observed, which are reminiscent of a Golgi pattern.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47744</offset>
+      <text>&#946;'&#8208;COPmGFP fluorescence foci in Dsl1p&#8208;depleted GAL&#8208;DSL1 cells after incubation in glucose&#8208;containing medium (YEPD) for 4&#160;h at 30&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47887</offset>
+      <text>Schematic representation of the characteristic polarized BiFC spot localization during different phases of bud outgrowth. BiFC foci are displayed in black; ER is marked dark gray for orientation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48083</offset>
+      <text>Time&#8208;lapse micrographs of agarose&#8208;embedded cells were taken at RT with fresh PM Glc&#160;+&#160;ura medium supply throughout one budding cycle. Representative images of characteristically reoccurring fluorescence localization stages are displayed. In all combinations, fluorescence foci localized to areas of membrane outgrowth in the bud. Often, another prominent fluorescent spot was found in the mother cell on the side of the bud neck. Scale bar, 5&#160;&#956;m. Kymographs of all time&#8208;lapse datasets shown in this figure are presented in Fig EV3A. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48627</offset>
+      <text>COPI&#8226;Dsl BiFC interactions mark ER arrival sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48678</offset>
+      <text>All COPI&#8226;Dsl BiFC pairs showed polarized signal distribution (Figs&#160;3A&#8211;D and EV3A). The question remained whether the observed BiFC signals between the Dsl complex and COPI subunits reflect binding of entire vesicles, or whether the Dsl complex interacts with free COPI subunits. We reasoned that if the observed BiFC signal accounted for functional COPI vesicles interacting with the Dsl complex, cargo molecules would be close by and thus able to form BiFC interactions. To test this, we evaluated the formation of BiFC signals between the COPI cargo protein Rer1p and COPI or Dsl complex subunits, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>49297</offset>
+      <text>Kymographs of BiFC polarization patterns and organelle association</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49364</offset>
+      <text>Kymographs of strains depicted in Fig&#160;3. Cells expressing complementary BiFC&#8208;tagged proteins between subunits of the Dsl complex, the COPI complex, the COPI cargo Rer1p, the COPII complex, and the COPII adaptor Sec16p were analyzed. The combination &#946;'&#8208;COPVN&#8226;Dsl3pVC&#160;A206K contains a mutated VC tag whose alteration is equivalent to the A206K mutation in GFP, which prevents the formation of dimers (Zacharias et&#160;al, 2002). The COPImRFP dataset depicts &#946;'&#8208;COPmRFP fluorescence foci in Dsl1p&#8208;depleted GAL&#8208;DSL1 cells after incubation in glucose&#8208;containing medium (YEPD) for 4&#160;h at 30&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49969</offset>
+      <text>Kymographs of strains depicted in Fig&#160;4. In all samples, the COPI&#8226;Dsl combination &#946;&#8208;COPVN&#8226;Dsl3pVC was analyzed. The cells additionally expressed organelle markers from plasmids: the ER marker RFPHDEL, the cis&#8208;, medial, and trans&#8208;Golgi markers RFPSed5p, CFPGos1p, and Sec7pCFP, the COPI cargo CFPRer1p, or the secretory vesicle marker CFPSec4p. The ERES marker Sec13pmRFP was expressed from its normal locus. BiFC signals are pseudocolored green; organelle markers are pseudocolored red. BiFC signals showed a spatial and temporal association with shown organelle markers.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50553</offset>
+      <text>Time&#8208;lapse micrographs of agarose&#8208;embedded cells were taken at RT with fresh PM Glc&#160;+&#160;ura medium supply throughout one budding cycle. Single&#8208;cell kymographs were generated by concatenating the central section of the cell (sliced along the pole axis, frames at the width of the bud neck) of one time&#8208;lapse dataset. Images were acquired at 5&#8208;min intervals, except for the datasets Dsl1pVN&#8226;VCRer1p (10&#8208;min intervals) and &#946;'&#8208;COPVN&#8226;Dsl3pVC + RFPSed5p (1&#8208;min intervals). In all combinations, fluorescent foci localized to areas of membrane expansion in the bud. Frequently, another prominent fluorescent spot appeared in the mother cell on the side of the bud neck. Schematic representations of a yeast cell depict the observed fluorescence pattern in the respective strains. Scale bars, 10&#160;&#956;m. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51368</offset>
+      <text>The combination of VCRer1p with Dsl1pVN and &#946;'&#8208;COPVN yielded spatially well&#8208;defined BiFC interaction signals with a localization pattern identical to the COPI&#8226;Dsl BiFC signals (Figs&#160;3E and F, and EV3A). Rer1p is normally found at the Golgi, and a punctate Rer1p signal at the ER will likely arise from Rer1p performing its function of retrieving cargo to the ER via COPI vesicles. Additionally, the BiFC signals obtained with Dsl1VN&#8226;VCRer1p and &#946;'&#8208;COPVN&#8226;Dsl3pVC complex were so similar in localization and timing that this suggests a common underlying process&#8212;the interaction of arriving COPI vesicles with the Dsl tethering complex. Figs&#160;4G and EV3B illustrate that most CFPRer1p marked cis&#8208;Golgi, and only a fraction, which may represent Rer1p transported by COPI vesicles, colocalized with the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC signal.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>52220</offset>
+      <text>Organelle association of &#946;'&#8208;COPVN&#8226;Dsl3VC BiFC spots</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52277</offset>
+      <text>Time&#8208;lapse images of agarose&#8208;embedded cells were taken at RT with supply of fresh PM Glc&#160;+&#160;ura medium throughout one budding cycle. Only panel (F) shows fixed cells immunostained for Sed5p. All cells produced the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC pair. Most strains contained plasmids encoding different organelle markers as indicated below. BiFC signals are pseudocolored green; organelle markers are pseudocolored red. Scale bar, 5&#160;&#956;m. (A) RFPHDEL, ER marker. (B) Sec13pRFP, ER exit sites marker. (C) RFPSed5p, cis&#8208;Golgi markers (genomic). (D) CFPGos1p, medial Golgi marker. (E) Sec7pCFP, trans&#8208;Golgi marker. (F) Individual fixed cells carrying the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC pair along with trans&#8208;Golgi marker CFPSec7p were used for this panel. The &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC signals are pseudocolored white. Immunostaining was used to visualize the cis&#8208;Golgi marker Sed5p (red). The trans&#8208;Golgi marker CFPSec7p is pseudocolored green. (G) CFPRer1, COPI cargo. (H) CFPSec4p, marker for secretory vesicles.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53297</offset>
+      <text>Strikingly, the reported localization pattern could also be observed independently of the use of BiFC markers. &#946;'&#8208;COPmRFP showed polarized localization under conditions of Dsl1p depletion (Fig&#160;3I). The GAL&#8208;dependent expression of DSL1 was halted by transferring the cells into glucose&#8208;containing medium, and we followed the effect of the reduction of Dsl1p copies (due to several rounds of duplication) on the behavior of the COPI subunit. While &#946;'&#8208;COP alone showed no polarized localization, a strong decrease of Dsl1p caused an accumulated appearance at the sites of high material turnover, similarly to where COPI&#8226;Dsl signals were reported. As Dsl1p depletion leads to COPI vesicle accumulation (Zink et&#160;al, 2009), its reduction presumably causes a drastic decrease of COPI vesicle consumption, resulting in a vesicle accumulation at the COPI fusion sites. This had been overlooked previously, since cells were examined that had lost polarity because of the long DSL1 shutoff.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54291</offset>
+      <text>Interaction studies using proximity ligation assays (PLA) (Fredriksson et&#160;al, 2002) point into the same direction. We probed for COPI/Dsl and COPI/ER&#8208;SNARE interactions in&#160;situ using antibodies against COPI subunits as well as the tags of Dsl1p2myc, Dsl3pGFP, GFPSec20p, or Sec20pmyc, respectively. The assay leads to the generation of a DNA&#8208;based fluorescent reporter, provided that the immunodetected proteins are in close proximity. Indeed, COPI/Sec20pmyc and COPI/GFPSec20p strains showed substantial PLA signals with varying pronunciation. Compared to the wild&#8208;type control strain that did not carry a tag epitope, COPI/Sec20pmyc cells showed fourfold and 28&#8208;fold more signals, and a COPI/GFPSec20p strain showed twice as many signals in three independent experiments (10&#8211;60% of the cells overall carried a signal). The PLA signals between COPI and Dsl proteins were less clear&#8208;cut. While one COPI/Dsl3pGFP sample showed a pronounced sixfold signal increase, in other repetitions the numbers of cells exhibiting a PLA signal were only minimally different from the wild&#8208;type control. Importantly, the localization of fluorescence signals at bud tip and neck was only observed in COPI/Sec20p and COPI/Dsl cells, and not in the control without tags.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55559</offset>
+      <text>Taken together, these observations support the hypothesis that the fluorescence signals formed through BiFC reflect COPI&#8208;coated vesicles making contact with the Dsl1 tethering complex. If our interpretation is correct, these sites evoke the concept of ER arrival sites (ERAS), as postulated by Spang (2009, 2012). Although this presents an interpretation, for simplicity we will continue to use the term ERAS to describe COPI&#8226;Dsl punctae in the remaining text.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56024</offset>
+      <text>Putative ERAS localize to ER and Golgi structures, and appear juxtaposed to ER exit sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56114</offset>
+      <text>These findings raised our interest as to why the putative ERAS appear polarized, much in contrast to their evenly distributed counterparts, the ER exit sites (ERES). As the COPI vesicles are derived from the Golgi and arrive at the ER to release their content, the BiFC interaction signals are expected to appear at the donor or acceptor organelles of these carriers. To analyze this, signals of the BiFC pairs &#946;'&#8208;COPVN&#8226;Dsl3pVC and Dsl1pVN&#8226;&#949;&#8208;COPVC were compared to the localization of the ER (RFPHDEL), the ER exit sites (Sec13pRFP), as well as cis&#8208;, medial&#8208;, and trans&#8208;Golgi (RFPSed5p,CFPGos1p, and Sec7pCFP, respectively). Time&#8208;lapse recordings allowed for an assessment if an observed association was stable, that is, not coincidental.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56871</offset>
+      <text>Endoplasmic reticulum association of the BiFC fluorescence signals was consistent, and time&#8208;lapse imaging confirmed a continuous peripheral association of the signals with the cytoplasmic side of ER (Figs&#160;4A, EV3B and EV4A; Movie EV2). ERES were generally found next to the putative ERAS (Figs&#160;4B and EV3B). Conversely, not all ER exit sites exhibited a corresponding BiFC signal, except in cells with dispersed COPI&#8226;Dsl BiFC signals (Fig&#160;EV4C&#8211;E). Sec13pRFP foci appeared more intense near COPI&#8226;Dsl BiFC signals.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>57395</offset>
+      <text>ER and ERES association with ER arrival sites</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>57441</offset>
+      <text>COPI&#8226;Dsl foci association with the ER. Time&#8208;lapse fluorescence micrographs of cells carrying ER and COPI&#8226;Dsl BiFC markers. Agarose&#8208;embedded cells were grown at RT with fresh PM Glc&#160;+&#160;ura medium supply and imaged in 10&#8208;min intervals. Tunicamycin was added to the medium to a final concentration of 125&#160;ng/ml. tubER and COPI&#8226;Dsl signals retracted simultaneously from the bud upon tunicamycin treatment. Arrows mark ER and BiFC signals in the bud, arrowheads mark loss of signals from the bud. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>57966</offset>
+      <text>ERES and ERAS coalescence. Fluorescence micrographs of cells carrying the COPI&#8226;Dsl BiFC pair &#946;'&#8208;COPVN&#8226;Dsl3pVC, as well as the ERES marker Sec13pRFP in a SEC12 wild&#8208;type or sec12&#8208;4 background. BiFC signals and ERES distribution were normal at 25&#176;C (left panels). At 37&#176;C (right panels), ERES aggregated in the sec12&#8208;4 mutant, while BiFC foci lost their polarized distribution. Importantly, COPI&#8226;Dsl BiFC foci did not colocalize with coalescing ERES in the sec12&#8208;4 mutant. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>58476</offset>
+      <text>Association of ERES and ERAS during growth and quiescence. Fluorescence micrographs of cells carrying COPI&#8226;Dsl BiFC pairs &#946;'&#8208;COPVN&#8226;Dsl3pVC or &#949;&#8208;COPVN&#8226;Dsl1pVC, as well as ERES marker Sec13pRFP. In fast&#8208;growing cells (panels 1&#8208;3), ERAS were polarized, and each ERAS was located in the immediate vicinity of an ERES. In non&#8208;growing cells (panel 4), ERAS were more numerous, appeared evenly distributed, and each ERAS appeared to have a corresponding ERES in immediate vicinity (arrowheads). Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>59002</offset>
+      <text>Characteristic positioning of ERES toward ERAS in individual cells (D) or during time&#8208;lapse imaging of a single cell (E). Fluorescence micrographs of cells carrying COPI&#8226;Dsl BiFC pair &#946;'&#8208;COPVN&#8226;Dsl3pVC, as well as ERES marker Sec13pRFP. For (E), agarose&#8208;embedded cells were grown at RT with fresh PM Glc&#160;+&#160;ura medium. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59351</offset>
+      <text>How tight is the association between the putative ERAS and ERES? A slowdown in ER&#8211;Golgi transport either by glucose starvation or by shifting the sec12&#8208;4 mutant to the restrictive temperature reduced the number of Sec13p&#8208;positive spots per cell and often left&#160;only one bright spot (Castillon et&#160;al, 2009; Zink et&#160;al, 2009; Shindiapina &amp; Barlowe, 2010; Okamoto et&#160;al, 2012). We created a&#160;sec12&#8208;4 mutant strain that produces Sec13pmRFP and the &#946;'&#8208;COPVN&#8226;Dsl3pVC combination. In this strain, bright Sec13pmRFP and the COPI&#8226;Dsl BiFC spots did not colocalize after shift to restrictive temperature (Fig&#160;EV4B), suggesting different mechanisms behind the coalescence of ERES and the polarization of COPI&#8226;Dsl BiFC spots. Meanwhile, evidence for a spatially tight arrangement of COPI and COPII at the ER (as already postulated by Zink et&#160;al (2009)) becomes apparent in &#946;'&#8208;COPVN&#8226;Sec16pVC cells that exhibit a polarized punctate fluorescence signals similar to those of COPI&#8226;Dsl and COPI&#8226;cargo (Fig&#160;3G).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60377</offset>
+      <text>Furthermore, subsets of cis&#8208;, medial&#8208;, and trans&#8208;Golgi compartments were continuously associated with ERAS, and BiFC signals were always found next to Golgi compartments (Figs&#160;4C&#8211;E and EV3B; Movies EV3 and EV4). Like ER exit sites, not all Golgi compartments in the cells occurred with a complementing BiFC signal, suggesting that different subsets of Golgi cisternae exist, performing different tasks in the cell. The Golgi subcompartments, which did associate with the ERAS, appeared positioned at opposite sides of the BiFC signals (Fig&#160;4F). We explicitly did not observe a Golgi stacking phenotype. To summarize, it appears that the BiFC spots represent distinct domains that are in close contact with both the Golgi and the ER, marking material exchange hubs between the two organelles.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61179</offset>
+      <text>ERAS follow the exocyst</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61203</offset>
+      <text>The bud tip localization of ER arrival sites instigated a possible connection to secretion and the exocyst machinery. To investigate this, we created and imaged strains with the BiFC pairs &#946;'&#8208;COPVN&#8226;Dsl3pVC or Dsl1pVN&#8226;&#949;&#8208;COPVC and CFPSec4p (a small GTPase that associates with exocyst components) as exocyst marker (Walch&#8208;Solimena et&#160;al, 1997). ER arrival sites were found to trail the site of exocytosis at the bud tip (Figs&#160;4H and EV3B). These data hint toward an association of the COPI activity with secretion. We assume that this association is of indirect nature, as the BiFC signal never came very close to the CFPSec4p signal or the plasma membrane. Instead, it appeared positioned rather at the periphery of the exocytosis zone.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61953</offset>
+      <text>We also investigated if the lasso domain of Dsl1p plays a role in establishing the polarized localization of the COPI&#8226;Dsl1 BiFC patches. Interestingly, dsl1&#8208;5xWA mutants exhibiting residual &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC fluorescence showed the same polarization patterns as DSL1 wild&#8208;type cells (Figs&#160;5C and 1B). This suggests that the targeting of the COPI vesicles is not affected by the dsl1&#160;lasso mutation; however, residence time, proximity, or amount of molecules available for interactions may be compromised.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>62475</offset>
+      <text>Effects of the dsl1&#8208;5xWA mutation on COPI&#8226;COPII BiFC and COPI&#8226;Dsl BiFC</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>62552</offset>
+      <text>Fluorescence micrographs of two different COPI&#8226;COPII BiFC pairs are shown: Sec16pVN&#8226;&#945;&#8208;COPVC or Sec16pVN&#8226;&#949;&#8208;COPVC. DSL1 cells show dispersed punctate patterns resembling ER exit site patterns. In the dsl1&#8208;5xWA mutant, cells exhibit additional bright spots. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>62841</offset>
+      <text>Quantification of fluorescence intensity differences of the strains shown in (A). COPI&#8226;COPII BiFC fluorescence is significantly increased in cells carrying the dsl1&#8208;5xWA mutant as compared to DSL1 wild type. Mean values + SEM of at least nine independent experiments (n&#160;=&#160;9&#8211;18) are displayed (two&#8208;sample unpaired two&#8208;tailed t&#8208;test; **P &lt; 0.01; ***P &lt; 0.001).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>63214</offset>
+      <text>Time&#8208;lapse micrographs of cells expressing the &#946;'&#8208;COPVN&#8226;Dsl3pVC BiFC pair in a dsl1&#8208;5xWA background. Cells were imaged embedded in agarose at RT with fresh PM Glc&#160;+&#160;ura medium supply throughout one budding cycle. Fluorescence signals retain the characteristic polarization pattern as seen in DSL1 wild&#8208;type cells (see Fig.&#160;3). Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>63575</offset>
+      <text>COPI vesicles are mistargeted in dsl1 mutants</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63621</offset>
+      <text>A clue as to what function Dsl1p performs is given by the effect of the dsl1&#8208;5xWA mutation on the fluorescence intensity of COPI&#8226;COPII BiFC pairs. When analyzing Sec16pVN&#8226;&#945;&#8208;COPVC and Sec16pVN&#8226;&#949;&#8208;COPVC signals, we observed that the brightness of mostly one fluorescent spot was significantly increased in dsl1&#8208;5xWA mutant cells compared to DSL1 wild type (Fig&#160;5A and B). This suggests that COPI vesicles can bind to the Dsl complex when the Dsl1p lasso is intact, but make non&#8208;cognate contacts with other nearby ER proteins when the lasso is mutated. As COPII components of the ERES are in the immediate vicinity of ERAS (Fig&#160;4B) and are locally enriched and far more abundant in copy number in the cell (Wang et&#160;al, 2015), one can assume that they are available for non&#8208;cognate interactions. It was reported that partially uncoated COPI vesicles tend to be &#8220;sticky&#8221;, implying that they bind well to surfaces and each other in an unspecific manner (Rutz et&#160;al, 2009). Thus, mechanisms must exist that prevent unspecific binding to the ER surface to avoid incorrect alignment with the fusion machinery. It appears that the Dsl complex ensures the specificity of COPI interactions with the ER by acting as a separator that keeps arriving COPI vesicles away from the ER membrane and thereby prevents unspecific and undesired interactions with other ER membrane components.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65017</offset>
+      <text>The polarization of BiFC foci is dependent on actin and the myosin motor protein Myo2p</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65104</offset>
+      <text>The COPI&#8226;Dsl BiFC signals localize to similar sites as actin patches during growth (Kilmartin &amp; Adams, 1984; Adams &amp; Pringle, 1991). Therefore, the question arose whether the polarization of the BiFC spots is, in fact, actin dependent. We found that the depolymerization of the actin cytoskeleton through latrunculin A indeed led to an even subcellular distribution of BiFC foci (Fig&#160;6A). Before latrunculin A treatment, cells featured one to two bright spots. Minutes after administering the actin&#8208;depolymerizing agent, the foci had seemingly dispersed, as six to ten smaller and dimmer spots were visible in each cell. In contrast, the microtubule depolymerizing reagent nocodazole did not have any influence on BiFC signal polymerization (Fig&#160;6B). Careful analysis of the paths of BiFC signal movement in the cell hinted toward a translocation along actin&#160;cables, similar to signals described by Schott et&#160;al (2002) (S. Schr&#246;ter, unpublished results).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>66068</offset>
+      <text>Dependence of ERAS distribution on cytoskeletal structures</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>66127</offset>
+      <text>Involvement of filamentous cytoskeletal structures in COPI&#8226;Dsl BiFC foci polarization. Time&#8208;lapse micrographs of agarose&#8208;embedded cells expressing the Dsl1pVN&#8226;&#949;&#8208;COPVC BiFC combination at RT with fresh PM Glc&#160;+&#160;ura medium supply. (A) Upon disruption of actin filaments with 1.25&#160;&#956;M latrunculin&#160;A, COPI&#8226;Dsl BiFC signals dispersed. (B) Microtubuli disruption through 24&#160;&#956;g/ml nocodazole did not affect polarization of the COPI&#8226;Dsl BiFC signals. Arrowheads: polarized signal, asterisks: unpolarized localization. Fluorescence images are displayed with inverted brightness values. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>66745</offset>
+      <text>Involvement of myosin motors in BiFC foci polarization. Time&#8208;lapse micrographs of agarose&#8208;embedded cells carrying the COPI&#8226;Dsl BiFC pairs Dsl1pVN&#8226;&#949;&#8208;COPVC or &#946;'&#8208;COPVN&#8226;Dsl3pVC were taken. Either wild&#8208;type cells (E) or mutants carrying the myosin&#160;V mutations myo2&#8208;66 (C) or myo4&#8710; (D) were analyzed. Cells were grown at RT with fresh PM Glc&#160;+&#160;ura medium supply. In the myo2&#8208;66 cells, the BiFC signal polarization was hardly detectable even at permissive temperature, while it was unaffected in myo4&#8710; compared to the control cells. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>67320</offset>
+      <text>Fluorescence micrographs of &#946;'&#8208;COPVN&#8226;Dsl3pVC cells carrying the myo2&#8208;66 defect. COPI&#8226;Dsl BiFC, and ER or Golgi markers were analyzed. While the BiFC spots were dispersed in these mutants, they retained their association with ER and Golgi. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67587</offset>
+      <text>We also tested the involvement of the myosin motors Myo2p and Myo4p on ERAS polarization. We chose these two myosins because Myo2p is responsible for the transport of, amongst others, trans&#8208;Golgi and secretory vesicles into the bud (Govindan et&#160;al, 1995; Schott et&#160;al, 1999, 2002; Rossanese et&#160;al, 2001). In contrast, Myo4p plays a subtle role in the early steps of cortical ER inheritance (Estrada et&#160;al, 2003; Schmid et&#160;al, 2006). Of the two tested myosin mutants, myo2&#8208;66 and myo4&#916;, only the myo2&#8208;66 mutant strain exhibited unpolarized ERAS foci. In contrast, the myo4&#916; mutation did not have an effect on ERAS polarization (Fig&#160;6C&#8211;E). Interestingly, imaging data with ER and Golgi markers showed that in the myo2&#8208;66 mutant, in spite of loss of polarization, the organelle association of the ERAS was preserved (Fig&#160;6F). This suggests that the ERAS localization is dependent on the localization of the Golgi.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68517</offset>
+      <text>ERAS may form a part of ER&#8211;Golgi interaction hubs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68569</offset>
+      <text>Cryoelectron micrographs (Fig&#160;7) with immunogold&#8208;labeled COPI coats corroborated the notion that ERAS may appear at sites of material exchange at the ER. The micrographs showed two distinct localizations of COPI coat protein clusters, which can be spatially correlated with the in&#160;vivo BiFC signals: Antibodies against COPI (Zink et&#160;al, 2009) recognized areas on aligned membrane structures at the ER of the bud tip or the side of the bud, as well as the bud neck of the mother cell. Labeled structures usually appeared sandwiched between two membranes, one of which could be identified as ER membrane due to its localization below the plasma membrane or around the nucleus. The data are in line with the hypothesis of the existence of spatially restricted interaction hubs between ER and Golgi, where material is exchanged via vesicular transport.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>69423</offset>
+      <text>Subcellular localization of COPI&#8226;Dsl interactions in immuno&#8208;electron microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>69507</offset>
+      <text>Immuno&#8208;electron micrographs showing the buds and the neck region of two &#946;'&#8208;COPVN&#8226;Dsl3pVC cells. Both parts contain an overview image (left) and two zoomed details (right). Slides were decorated with antibody against COPI and visualized with protein A&#8208;conjugated 10&#8208;nm gold particles. Gold particles mark electron&#8208;dense areas in apposition to membranes and/or vesicular structures (arrowheads), which are localized at the side of the bud and the bud neck of the mother cell. PM: plasma membrane, nuc: nucleus. Scale bar, 100&#160;nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>70049</offset>
+      <text>Fluorescence micrograph of a budding cell carrying &#946;'&#8208;COPVN&#8226;Dsl3pVC (green) and RFPHDEL (red). Arrowheads mark BiFC signals which may correspond to the localizations found in (A) and (B). Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>70261</offset>
+      <text>COPI&#8208;positive, electron&#8208;dense structures in close apposition to perinuclear ER; 10&#8208;nm gold particles mark COPI. nuc: nucleus. Scale bar, 100&#160;nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>70413</offset>
+      <text>Accumulation of COPI&#8208;positive vesicles; 10&#8208;nm gold particles mark COPI. PM: plasma membrane. Scale bar, 100&#160;nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>70530</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70541</offset>
+      <text>Utilization of the BiFC technique has allowed us to identify possible ER arrival sites in yeast cells by visualizing the interaction sites between the Dsl complex and the COPI coat. This approach has not only established a novel marker to study these sites of COPI vesicle fusion in&#160;vivo, but it explicitly addresses fusion sites that are active. The results clearly show that dynamic processes occurring at a scale of a few minutes can be visualized by BiFC. The data argue for a direct interaction of the COPI coat complex, either of fully or partially coated vesicles, with the Dsl tethering complex in&#160;vivo, and imply that COPI vesicles carry their coat when arriving at the ER (Zink et&#160;al, 2009). Using BiFC, we also found evidence for the importance of the interaction between COPI coat and Dsl complex for cell viability: dsl1 mutations were lethal when combined with COPI encoding genes, which carried a VN tag or an RFP tag that forms tetramers. These VN combinations became viable again when complementary BiFC&#8208;tagged Dsl proteins were provided. Any tested COPI&#8226;Dsl combination could suppress the synthetic growth defects, while no other tested VC&#8208;tagged genes rescued the lethal COPIVN/dsl1 mutant combinations. This suggests that the COPI&#8226;Dsl BiFC complexes represent a synthetic bypass for the COPIVN/dsl1 double mutants, and therefore, the COPI&#8226;Dsl BiFC complexes reliably recapitulate the physiologically important COPI/Dsl interaction. It also implies that only the successful interaction itself is relevant for cell viability, and that the binding mechanism is of minor importance.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72153</offset>
+      <text>We observe polarized punctate appearance of COPI&#8226;Dsl interactions. They are located near exocytic hotspots, and their buildup is most evident in fast&#8208;growing cells. Polarized localization was also observed for COPI&#8226;COPII, COPI&#8226;cargo, and Dsl1p&#8226;cargo BiFC pairs and is supported by complementary approaches (COPI/Dsl and COPI/ER&#8208;SNARE PLA; COPI localization during Dsl1 depletion).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72546</offset>
+      <text>FRAP data (Fig&#160;2F and G) suggest that COPI&#8226;Dsl BiFC complexes form at the site where we report them. Additional arguments speak against the alternative hypothesis that the signal pattern is caused by mislocalization or transport after complex formation: (i) The ER&#8208;localized Dsl complex is in a tight complex with three membrane&#8208;anchored SNAREs (Kraynack et&#160;al, 2005; Ren et&#160;al, 2009; Fig&#160;EV1I). This implies that complemented BiFC pairs would require a very efficient transport of the entire SNARE&#8208;Dsl&#8208;coat BiFC complexes laterally trough the membrane, where they would encounter diffusion barriers in the cortical ER and nuclear envelope at the bud neck (Shcheprova et&#160;al, 2008; Clay et&#160;al, 2014). Additionally, Donovan and Bretscher (2015) reported that tethered secretory vesicles are quite immobile. Furthermore, COPI&#8226;Dsl BiFC spots likely do not represent aggregates that need to be sequestered, as they (ii) do not colocalize with an autophagosomal marker and are not exaggerated in mutants carrying a defect in autophagy; and (iii) are concentrated in the bud, while the aggregated proteins stay in the mother cell and are actively translocated from the daughter to the mother (Kaganovich et&#160;al, 2008; Liu et&#160;al, 2010; Denoth Lippuner et&#160;al, 2014). The sum of evidence, together with the proper method controls, leads us to conclude that the BiFC interactions reflect active COPI vesicle fusion sites, or ER arrival sites (ERAS).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74005</offset>
+      <text>Admittedly, the finding that a presumably constitutive retrograde trafficking route would converge at virtually one spot at the ER is quite surprising. In the next paragraphs, we aim to provide an intuitive interpretation for this observation (see also Fig&#160;EV5A). The fusion sites of COPI vesicles in yeast are dependent on the localization of the Golgi as their donor organelle, as the vesicles rely on diffusion in yeast (Barlowe &amp; Miller, 2013). Interestingly, we found a dependence of the putative ERAS on the motor protein Myo2p and an intact actin cytoskeleton, both of which are also responsible for the polarization of certain Golgi substacks (Rossanese et&#160;al, 2001). We reason that the mechanism underlying the polarized delivery of COPI vesicles may in fact be that of directed Golgi localization toward the ER. Indeed, our EM images show COPI of COPI&#8226;Dsl BiFC strains sandwiched between morphologically regular ER a second membrane that may represent Golgi. Curiously, it was also shown before that yeast &#948;&#8208;COP binds Myo2p via the small GTPase Ypt11p, and that this contributes to trans&#8208;Golgi inheritance (Arai et&#160;al, 2008). However, we saw no abolishment of &#946;'&#8208;COPVN&#8226;Dsl3pVC signal polarization in ypt11&#916; strains (H.D. Schmitt, unpublished results). This speaks against an involvement of Ypt11p in the localization of ERAS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>75357</offset>
+      <text>Summary of findings and model for coupled material transport at the bud tip</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>75433</offset>
+      <text>Spatial arrangement of the ERAS through self&#8208;organization. BiFC results of protein complex interactions and their subcellular localization are displayed graphically. The presented data support the hypothesis that ERAS form depending on organelle localization, namely Golgi placement. ERAS localization is a logical consequence of placement of Golgi, ER, and ERES, with Golgi potentially being the critical factor.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>75849</offset>
+      <text>Schematic overview of observed subcellular localizations of organelles and interaction sites between COPI vesicles and Dsl complex (ER).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>75986</offset>
+      <text>Model of a hotspot at the bud tip. Trans&#8208;Golgi is transported into the bud tip via Myo2p, where it supplies the newly inherited ER with material that may be utilized for the generation of cis&#8208;Golgi.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>76189</offset>
+      <text>Proposed ER&#8211;Golgi interaction hub, which facilitates efficient spatially compact material exchange in anterograde and retrograde direction.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76331</offset>
+      <text>We report that ERAS associate with a subset of ER exit sites. COPI&#8226;COPII BiFC signals indicate that neighboring ERAS and ERES indeed share contact sites. But why are COPI&#8226;Dsl and COPI&#8226;COPII BiFC signals distributed asymmetrically over the ER while the majority of ERES are not? The explanation may lie in the discovery that different subtypes of ER exit sites exist. ERES gather different cargo molecules, become dimmer or cluster together, and respond differently to increasing cargo load (Farhan et&#160;al, 2008; Castillon et&#160;al, 2009; Shindiapina &amp; Barlowe, 2010). In line with this, we interpret our observations in the way that COPI&#8226;COPII BiFC may in fact reflect active ERES that experience incoming traffic from their adjacent ERAS. In contrast, ERES, which do not have corresponding active ERAS, may be ones that are dormant. Conversely, we assume that ERAS will form an ERES&#8208;like pattern under certain growth conditions (Fig&#160;2B), but the ERAS at the bud tip is by far the most active during polarized growth.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>77358</offset>
+      <text>We observe ER, cis&#8208;Golgi, ERAS, and ERES all in close proximity (Fig&#160;EV5C). This suggests that they may all be part of an ER&#8211;Golgi interaction hub, where forward and retrograde transport routes converge in a cycle of trans&#8208;organelle and lateral intra&#8208;organelle transport between ER and Golgi (Fig&#160;EV5D). This design would maintain efficient material exchange through short distances, while keeping subdomains organized and separated. Indeed, a number of findings from other research laboratories are consistent with the notion of the existence of an ER&#8211;Golgi interaction hub. Several organisms exhibit a tight association of cis&#8208;Golgi and ER exit sites (Whaley et&#160;al, 1975; Farquhar &amp; Palade, 1981; Rossanese et&#160;al, 2001; Bevis et&#160;al, 2002; daSilva et&#160;al, 2004; Lerich et&#160;al, 2012). In mammalian cells, where Golgi and ER are further apart, the vesicular tubular clusters (VTC) or ER&#8211;Golgi intermediate compartment (ERGIC) are close to the ER exit sites (Bannykh et&#160;al, 1996; Appenzeller&#8208;Herzog &amp; Hauri, 2006). Along the same lines, retrograde cargo in mammalian cells is directed to ER exit sites (Mardones et&#160;al, 2006), and retrograde transport was shown to be involved in the formation of ER exit sites (Ronchi et&#160;al, 2014). In Saccharomyces cerevisiae, where the Golgi compartments are not stacked, the cis&#8208;Golgi compartment is temporarily associated with the ERES (Levi et&#160;al, 2010; Kurokawa et&#160;al, 2014). It has been shown that a prolonged presence of COPII coat on vesicles promotes ERES&#8208;cis&#8208;Golgi association (Kurokawa et&#160;al, 2014). The presence of COPI coat on vesicles may favor a tight association of cis&#8208;Golgi and ERAS in an analogous way.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79047</offset>
+      <text>It is even conceivable that ER&#8211;Golgi interaction hubs are part of a higher order cellular structure, in which the endocytic and exocytic pathways are arranged in an antiparallel fashion. At the tip of the yeast bud, sites of endocytosis appear in a ring&#8208;like pattern around the area of maximal exocytosis (Kohli et&#160;al, 2008; Jose et&#160;al, 2013, 2015). Since polarity factors like Cdc42p also cycle by vesicular transport, this arrangement helps to establish cell polarity (Watson et&#160;al, 2014). Careful inspection of our BiFC signals revealed that they were often located off the center of the bud, and lateral to exocyst components. In accordance with this, we have observed ring&#8208;like COPI&#8226;Dsl BiFC structures on a number of occasions. Our results suggest that the parallel arrangement of secretory pathways may extend inward from the site of most active exocytosis to the ERES. This interpretation is consistent with the notion that tethering factors may present factors for the underlying ability of the endomembrane system for self&#8208;organization (Glick, 2014). The antiparallel design of exocytic and endocytic membrane elements may guarantee that all necessary parts of the secretory machinery are transferred to the new daughter cells in a coordinated fashion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80323</offset>
+      <text>With that in mind, the observed bud&#8208;focused COPI transport can be interpreted to play a role in the inheritance of Golgi to the bud (Fig EV5B and C). It has been reported that trans&#8208;Golgi membranes enter the bud of a growing yeast cells in a Myo2&#8208;dependent fashion (Rossanese et&#160;al, 2001), while the cis&#8208;Golgi forms de novo by fusion of COPII vesicles that are formed from ER that has been pulled into the bud from the mother cell (Reinke et&#160;al, 2004). The positioning of ERAS between ERES and Golgi elements may enable retrograde transport from the trans&#8208;Golgi via the ER to contribute to the formation of cis&#8208;Golgi elements in the bud. High&#8208;resolution 3D imaging may help shed more light on their precise association and positioning in future works.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81091</offset>
+      <text>A possible function of the Dsl complex as a factor in ER organization can be deduced from BiFC experiments with the COPII recruitment factor Sec16p in dsl1 mutant background. While the dsl1&#8208;5xWA mutation reduced the COPI&#8226;Dsl interaction, it led to a significant increase in the BiFC signal intensity between COPI subunits &#949;&#8208;COPVC or &#945;&#8208;COPVC and COPII factor Sec16pVN. Similar results were obtained using the dsl1&#8208;22 mutant (S. Beckmann, unpublished results). This indicates that, in the absence of an intact Dsl1 binding site, COPI subunits are more likely to approach non&#8208;cognate interactors at the ER membrane. These findings are in line with a previously described targeting defect in a mutation in the third subunit in the Dsl complex, Tip20p: In a cell&#8208;free assay with membranes from a tip20&#8208;8 mutant as acceptor, COPII vesicles fuse back with the ER (Kamena &amp; Spang, 2004). In contrast, the function of the Dsl complex does not seem to lie in the polarized delivery of COPI vesicles, since &#946;'&#8208;COPVN&#8226;Dsl3pVC and &#946;'&#8208;COPVN&#8226;Sec16pVC BiFC spots retained their polarized localization pattern in dsl1 mutants (Fig&#160;5). Since the Dsl complex is distributed evenly across the ER, the emerging picture points toward a possible function as a gatekeeper, where the Dsl complex assures that COPI vesicles will be reliably tethered, no matter where at the ER they arrive. By preventing COPI vesicles from approaching the ER membrane in an uncontrolled manner, it may prevent non&#8208;cognate contacts with nearby ER proteins, which would possibly present a non&#8208;fusogenic dead&#8208;end state for the respective COPI vesicles. In this, it may be involved in keeping ERAS and ERES spatially separated in a fashion very similar to the exocyst, where exocytic and endocytic domains at the plasma membrane are kept separate (Jose et&#160;al, 2015). Besides the Dsl complex, there are at least two other proteins or complexes that are evenly distributed across an organelle but active at specific sites only. These are Sec12p, the GTPase involved in COPII vesicle budding, and the Q/t&#8208;SNAREs Sso1p and Sso2p at the plasma membrane (Brennwald et&#160;al, 1994; Sato et&#160;al, 2003).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>83274</offset>
+      <text>The emerging picture is that healthy growing yeast cells may show their highest COPI transport activity at a Golgi element localized to the bud tip, which creates the appearance of a mainly bud tip focused COPI transport. COPI vesicles are received by the evenly ER&#8208;distributed Dsl complex (thereby creating an ER arrival site), which prevents them from coming into too close contact with nearby ER exit sites (Fig&#160;EV5A).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>83699</offset>
+      <text>In summary, the in&#160;vivo results presented in this work confirm that COPI vesicles arrive at the ER while still coated. Genetic data indicate that the interaction of the vesicle coat with the ER&#8208;resident Dsl1 tethering complex is substantial for cell viability. The Dsl complex carries out a discrimination function at the boundary of COPI and COPII rich domains of the ER. It appears to be important for capturing COPI vesicles by their coat, and guiding them toward controlled fusion. The interaction of COPI components and the Dsl complex appears to occur at specialized ER arrival sites. In fast&#8208;growing cells, ER arrival sites occur at rapidly expanding plasma membrane regions. Since they are close to ER exit sites as well as Golgi membranes, they may be part of a larger hub for material transfer between these organelles. The role of COPI transport in the growing bud may be to maintain the distribution of cycling factors and maintain membrane homeostasis by balancing the massive exocytosis events at the bud. The process could function even as a delivery mechanism for Golgi material to the bud. It will be an interesting challenge to investigate more closely the factors that regulate ERAS localization and to find further evidence on the function of the observed polarized COPI transport. We are also aware that the proposition that COPI vesicles arrive at the ER in a coated state opens new questions as to what factors and by what mechanisms coat removal is initiated and carried out. Future work will have to elucidate in more detail the role of the Dsl complex in these processes, as well as by what means it may carry out its discriminating function, and by what mechanisms it is involved in uncoating.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>85425</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>85447</offset>
+      <text>Yeast strains and growth conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>85483</offset>
+      <text>Yeast strains used in this work are listed in Appendix&#160;Table&#160;S1. Strains without plasmids were grown in YEPD (2% Peptone, 1% yeast extract, 2% glucose, 20&#160;mg/l uracil), while those carrying plasmids with URA3 marker were grown in PM medium, an synthetic minimal medium (0.67% yeast nitrogen base; Formedium, Hunstanton, UK) with 2% glucose and 0.5% peptone from casein (Applichem, Darmstadt, Germany). Selection for LEU2 containing plasmids was performed using a synthetic complete medium lacking leucine but containing all other amino acids plus uracil and adenine (arginine, histidine, methionine, cysteine, uracil, and adenine 20&#160;mg/l; lysine, tyrosine 30&#160;mg/l; tryptophan 40&#160;mg/l; phenylalanine 50&#160;mg/l; leucine 60&#160;mg/l; alanine, aspartic acid, glutamic acid, serine, threonine, valine, 100&#160;mg/l). A similar medium lacking methionine and cysteine instead of leucine was used for labeling of cells with 35S&#8208;labeled amino acids. Pre&#8208;cultures of strains used for live&#8208;cell imaging were grown over night in YEPD or PM medium to densities below OD600&#160;&lt;&#160;1 and kept at an OD below 1 by diluting them in fresh medium over the day if necessary. For sample preparation, cultures were always taken fresh out of the incubator. Growth assays were performed with cells growing overnight on YEPD plates (Fig&#160;EV1G) or SC plates with galactose as carbon source lacking leucine (Fig&#160;EV2, Appendix&#160;Fig&#160;S1). A loop of cells was transferred into liquid YEPD medium. After 4&#160;h growth in YEPD at 30&#176;C, cell density was determined and adjusted to 1 OD600. Serial dilutions were plated on galactose or glucose&#8208;containing media plates, and plates were incubated at different temperatures as indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>87188</offset>
+      <text>Antibodies, immunoblotting, and TAP purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>87237</offset>
+      <text>Sera against the yeast COPI complex were a gift from Anne Spang (Basel). Polyclonal antiserum against &#948;&#8208;COP (Ret2p), &#949;&#8208;COP (Sec28p), Emp47p, and hexokinase were raised by Dr. Stephan Schr&#246;der&#8208;K&#246;hne, while he was working at our institute. Monoclonal mouse myc&#8208;tag antibody 9B11 was purchased from Cell Signaling Technology, Danvers, MA. Immunoblotting was always performed with extracts made from the equivalent of 5 OD600 units of cells. After collecting cells and washing with water, cells were lysed in 2&#160;M NaOH&#160;+&#160;5% mercaptoethanol, and proteins precipitated with 10% trichloroacetic acid. The pellet was neutralized with 1.5&#160;M Tris base and dissolved in SDS sample buffer. Proteins were separated using 8% SDS&#8211;PAGE. For Rer1p blots, we used 10% SDS&#8211;PAGE. The tandem affinity purification of the Dsl complex was performed as described by Kraynack et&#160;al (2005). For the two affinity purification steps, we employed mouse IgG and calmodulin conjugated to&#160;magnetic beads (New England Biolabs, Ipswich, MA and bioWORLD, Dublin, OH, respectively). The calcium concentration in the buffer used for the second purification step was 2&#160;mM. Proteins were boiled off the beads in sample buffer.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>88447</offset>
+      <text>In situ antibody staining for immunofluorescence and PLA was carried out on cells that had been fixed on poly&#8208;L&#8208;lysine&#8208;coated glass slides with 3.5% paraformaldehyde solution in PBS buffer containing 1.2&#160;M sorbitol. Cells were decorated with 1:5,000 COPI serum (see top of the paragraph), antibodies against Sed5p (immunostainings), or monoclonal antibodies against the myc epitope (9B11 1:1,000&#8211;1:8,000, NEB) or GFP (GF28R, 1:1,000, Thermo), respectively. PLA protocol was carried out according to manufacturer's instructions with a Duolink&#174;In Situ red kit from OLINK Bioscience, Uppsala, Sweden.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>89055</offset>
+      <text>Genomic tagging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>89071</offset>
+      <text>Segments encoding BiFC tags were fused in frame to the 3&#8242; end of various yeast genes at their genomic loci by a PCR&#8208;based gene targeting approach. PCR was performed with vectors as template that are listed in Appendix&#160;Table&#160;S2 (Sung &amp; Huh, 2007). The used oligonucleotides can be found in Appendix&#160;Table&#160;S3 (oligonucleotide 1&#8211;24). To improve the yield of positive transformants, we often used strains that already carried a modification of the gene of interest along with the His3MX marker at the 3&#8242; end of our genes of interest (Ghaemmaghami et&#160;al, 2003; Huh et&#160;al, 2003). In this case, the same reverse primer derived from the TEF terminator sequence could be used for all replacements that involved the KanMX6 cassette for the selection of transformants (oligonucleotide 1). The in&#8208;frame fusion of the tags was checked by PCR and sequencing using the primers 25&#8211;42. For the introduction of the VC tag in front of the RER1 gene, a second PCR was performed to extend the region of homology at the end of the PCR products using primer 23 and 24. A segment coding for a five&#8208;residue glycine&#8208;rich linker region (GGSGT) lies between the VC and the RER1 sequences. After the successful insertion, PCR and sequencing indicated that we had obtained a vector that contained the strong RPL1B promoter instead of the weaker CET1 promoter in front of the 5&#8242; VC sequence. In spite of several attempts, we were not able to insert the weaker promoter in front of the VC&#8208;RER1 fusion. To avoid problems caused by a possible overexpression of the VC&#8208;RER1 construct, we used an rer1 deletion strain that contains a VC&#8208;tagged version of RER1 expressed from a plasmid (p316&#8208;VCRER1). This construct is under the control of the RER1 promoter, and the codon usage of the VC&#8208;encoding segment had been adapted to that of S.&#160;cerevisiae. The intensity of BiFC spots and their localization were indistinguishable. However, the cells expressing the plasmid&#8208;encoded version were not temperature&#8208;sensitive even on selective minimal medium, while the genomic RPL7B regulated version rendered the cells temperature&#8208;sensitive in combination with various VN&#8208;tagged genes (Fig EV1H). The disadvantage of working with the plasmid&#8208;encoded version was the fact that almost 20% of the cells expressing plasmid&#8208;encoded VC&#8208;RER1 lacked any fluorescence due to plasmid loss. Cells may survive the loss of the plasmid even on media selecting for the biosynthetic marker since RER1 is not essential.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>91575</offset>
+      <text>To reconstitute a monomeric form of YFP by the BiFC approach, pmVCTRP was used as a template for the PCR dependent tagging of the DSL3 gene. This plasmid harboring a mutation equivalent to the A206K mutation was obtained by PCR with pVCTRP as template and the primers 43 and 44. This PCR created a silent BlpI site, which was used for cleavage followed by ligase&#8208;catalyzed ring closure. Similarly, the I152L mutation was introduced into the VN fragment by PCR using pVNTRP as template and primers 45 and 46. A silent BssHII site was created by this PCR. Cleavage and ligase&#8208;catalyzed ring closure created pVNi152lTRP, which was used for PCR to introduce the low background mutant version of VN 3&#8242; of the SEC27 (&#946;'&#8208;COP) gene. The lasso&#8208;encoding region was deleted from the chromosomal copy of DSL1 first by a pop&#8208;in&#8211;pop&#8208;out approach. The region was deleted from p306&#8208;d1&#8208;5WA by PCR using the primers 51 and 52. By cleaving the PCR product with AscI and ligase&#8208;catalyzed ring closure, codon 378&#8211;488 of DSL1 were replaced with a short linker (GGC GCG CCC). After sequencing, the plasmid was cleaved with SnaBI to direct its insertion 3&#8242; of the DSL1 locus in a dsl1::KanMX strain. This strain contained a HIS3 plasmid carrying a wild&#8208;type version of DSL1. After transformation, we screened for clones that survived the loss of the plasmid. After crossing with BiFC strain XII&#8208;27, Ura+ spores were plated on 5&#8208;FOA containing plates. A resulting 5&#8208;FOA+ clone (XVI&#8208;7) and the 5&#8208;FOA&#8722; strain (XVI&#8208;6) were analyzed by PCR using three pairs of DSL1&#8208;specific primers to verify the correct integration.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>93209</offset>
+      <text>TAP&#8208;tagged and myc&#8208;tagged versions of different DSL1 alleles (Fig&#160;EV1B and H) were obtained by first amplifying the tagged chromosomal DSL1&#8208;TAP::His3MX and DSL1&#8208;6His&#8208;2myc::KanMX alleles from strain YSC1178&#8208;7502517 or YUA1, respectively, and using primers 48 and 49. The PCR products were used for transformation into the dsl1&#8208;5xWA and dsl1&#8208;&#916;lasso mutants.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>93583</offset>
+      <text>To obtain dsl1&#8208;5xWA mutants harboring different BiFC pairs, we made crosses producing either heterozygous diploids which were either dsl1&#8208;5xWA/GAL&#8208;DSL1 or DSL1/dsl1&#8208;5xWA::pRS306&#8208;dsl1&#8208;5xWA. Since the dsl1&#8208;5xWA mutation has little effect on growth, we utilized the URA3 marker to confirm the presence of the mutation in spores derived from various crosses. The presence of a second copy of this mutation had no effect on the results (data not shown). A SEC27VN&#8208;tagged version (&#946;'&#8208;COPVN) with NatMX marker instead of KanMX marker was created by transformation of strain XVII&#8208;1 with a PCR product obtained with pRS408 as template and the primers 60 and 61. yEmCFP was introduced downstream of the DSL1 gene in strain XVII&#8208;2 by amplifying the yEmCFP::caURA3 cassette in vector pKT212 (Appendix&#160;Table&#160;S2), using the primers 62 and 63 (Appendix&#160;Table&#160;S3).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>94459</offset>
+      <text>Construction of plasmids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>94484</offset>
+      <text>Some growth assays were performed with VN&#8208; and VC&#8208;tagged versions of DSL1 and dsl1&#8208;5xWA that were expressed from the centromeric vector pRS315 (see Figs&#160;1E and EV2). XbaI and NotI restriction sites were created by PCR in front of the VN and VC sequences and at the end of the ADH1 terminator using pVNTRP and pVCTRP and primers 47 and 48 or 47 and 49. The PCR products were first cloned into pCR2.1&#8208;TOPO for control sequencing and then transferred as XbaI&#8208;NotI fragments into vector pUA73 (pRS315&#8208;DSL1) and p315&#8208;d1 (pRS315&#8208;dsl1&#8208;5xWA), taking advantage of a naturally occurring XbaI site close to the stop codon of DSL1. Along with the BiFC tags, this cloning steps introduced the ADH1 terminator region into the plasmids 11&#8211;14 (Appendix&#160;Table&#160;S2), thereby replacing 450 residues downstream of DSL1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>95306</offset>
+      <text>The plasmid pCFPRER1 was obtained as follows: A 960&#8208;bp PCR fragment carrying an XhoI and a BglII cleavage site at its ends was&#160;created which contains the GPD1 promoter in front of CFP(cerulean)&#8208;encoding sequences. For this PCR, we used plasmid pCFPSEC4 (Gitler et&#160;al, 2009) as template and primers 53 and 54. The XhoI/BglII cleaved PCR product was inserted in front of the RER1 gene in a XhoI&#8208;BamHI cleaved pRS316&#8208;based pGSTRER1 plasmid. (This cleavage removes the CYC1 promoter and GST tag in front of RER1.) The start codon of RER1 in pRS316&#8208;CYC1P&#8208;GST&#8208;RER1 is immediately downstream of a BamHI site. The plasmid also includes 231&#160;bp 3&#8242; of the stop codon of RER1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>95990</offset>
+      <text>The E2 crimson version of RFP carrying the N&#8208; and C&#8208;terminal ER targeting sequences of the Kar2 protein was expressed from the centromeric vector YCplac33. The sequence encoding the chimeric protein along with the TPI promoter and the CYC1 terminator region were excised from plasmid YIplac204 TKC&#8208;E2&#8208;crimson&#8208;HDEL (Strack et&#160;al, 2009) with KasI and HindIII and transferred into the YCplac33 that was cleaved by the same enzymes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>96430</offset>
+      <text>As described above, the N&#8208;terminal tagging of RER1 was difficult. A plasmid&#8208;encoded version of VCRER1 was generated by gene synthesis (Eurofins) which included the intergene region between the RER1 and the reading frame upstream of RER1 and the VC fragment with codon usage adapted to S.&#160;cerevisiae. The VC sequence starts with Met&#8208;Asn&#8208;His&#8208;Asp, where the last residue corresponds to residue 155 of the YFP. A polylinker encoding the segment Gly&#8208;Ser&#8208;Gly&#8208;Gly&#8208;Ser ends with a BamHI site. The XhoI&#8208;BamHI fragment with these two segments was inserted in front of the RER1 sequences in a pRS316 vector, where a BamHI lies immediately upstream of the RER1 start codon. The insert ends 231&#160;bp downstream of the RER1 gene.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>97166</offset>
+      <text>Fluorescence microscopy, time&#8208;lapse imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>97212</offset>
+      <text>Live cells were pelleted at 90&#160;g for 2&#160;min and washed once in PM with glucose or galactose as carbon source&#160;+&#160;20&#160;mg/ml uracil (PM Glc&#160;+&#160;ura/PM Gal&#160;+&#160;ura) in order to reduce background medium fluorescence. Supernatant was removed, and cells were resuspended in remaining liquid by slurring with a pipet tip. For slide preparation, 10&#160;&#956;l of cell suspension was streaked onto an object holder and covered with a 24&#160;&#215;&#160;60&#160;mm cover slip. Then, the object holder was flipped over and firmly and evenly pressed onto a tissue to create a cell monolayer. The slide was used for no longer than 5&#160;min after preparation. For time&#8208;lapse imaging, 5&#160;&#956;l of the cell suspension was mixed with 45&#160;&#956;l of warmed 1% low melt agarose in PM medium containing 2% glucose and 20&#160;mg/ml uracil (PM Glc&#160;+&#160;ura) at 30&#176;C, then spotted onto a 18&#160;&#215;&#160;18&#160;mm cover slip. The cover slip was glued into the time&#8208;lapse chamber using dental molding. All subsequent steps were carried out swiftly to avoid drying out of agarose spots. The time&#8208;lapse chamber was glued onto a cover slip with dental molding and immediately flooded with PM Glc&#160;+&#160;ura medium. After complete curing, the setup was connected to the medium reservoir and waste container, and medium flow was regulated by gravity flow to a flow rate of 100&#160;&#956;l/min. Display details were chosen from the edges of agarose drops, where cells were homogenously in one focal plane and only partially immersed in agarose, leaving a part of the cell exposed to medium.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>98727</offset>
+      <text>Imaging was carried out at RT using an Axioimager D1 microscope (Zeiss); a Uniblitz VMM&#8208;D1 controller (Uniblitz Shutter Systems); an Axiocam MRm camera (Zeiss); an Plan&#8208;Apo 100x1.4NA or a Plan&#8208;Apo 63x/1.4NA oil immersion objective (Zeiss); the filter sets RFP 00, GFP 13, CFP 47, YFP 46 (Zeiss); and the Axiovision AxioVs40 4.8.2.0 software (Zeiss). Light source was a Lumen 200 lamp (Prior).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>99126</offset>
+      <text>FRAP experiments of Venus BiFC strains were carried out on a ZEISS Observer Z1 with LSM 780, LCI Plan&#8208;Neofluar 63x/1.3 Imm Korr DIC M27 objective. Bleaching was carried out at maximum pixel dwell time for three repetitions of 100% laser intensity in pre&#8208;defined ROIs. Images were either acquired in single plane or as z&#8208;stack, of which the slice of the bleached cell center was selected prior to image analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>99544</offset>
+      <text>Electron microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>99564</offset>
+      <text>Electron microscopic imaging was carried out in collaboration with Dirk Wenzel of the Electron Microscopy department of our institute. Cultures were grown o/n at 30&#176;C in YEPD to 1 OD600 and harvested (10&#160;min 700&#160;g RT). Cells were washed once with YEPD and once with fixing solution containing 2% (w/v) paraformaldehyde in PBS. Then, cells were incubated in fixing solution for 30&#160;min at RT. The following treatment was carried out as described by Tokuyasu (1980). Samples were cut into 75&#8208;nm&#8208;thin slices and decorated with 1:50 solution of anti&#8208;COPI antibody (rabbit polyclonal from purified COPI coat, provided by Anne Spang/Rainer Duden; see also Zink&#160;et&#160;al (2009)). The antibody was detected with 10&#8208;nm gold&#8208;conjugated protein A.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>100313</offset>
+      <text>Image data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>100333</offset>
+      <text>Qualitative image processing was carried out using MacBiophotonics ImageJ 1.48b software (http://rsbweb.nih.gov/ij/plugins/mbf/index.html, link acquired 02.10.2013). Time&#8208;lapse image stacks were corrected for xy&#8208;shifts, using the &#8220;image stabilizer&#8221; plug&#8208;in (http://www.cs.cmu.edu/~kangli/code/Image_Stabilizer.html, link acquired 02.10.2013) and aligning by the DIC channel. Image brightness of time&#8208;lapse series was adjusted to compensate for bleaching effects of repeated image acquisitions. Single&#8208;cell kymographs were generated by concatenating the central section of the cell (sliced along the pole axis, frames at the width of the bud neck) of a time&#8208;lapse dataset (Fig&#160;EV3). Quantitative analyses were carried out using Cell Profiler 2.0 (r11710) software (Kamentsky et&#160;al, 2011). To identify cells, differential interference contrast (DIC) bright field&#160;images and UV light of the respective display detail were used. Two CellProfiler pipelines were created. A first pipeline was used to&#160;determine the background brightness of each image. Each DIC&#160;image was processed by the RescaleIntensity and the Smooth&#160;software modules. The EnhanceOrSupressFeatures(DIC) and FindPrimaryObjects modules allow to determine the rough cell localizations. The determined cell areas were enlarged by eight pixels, and data were used to create a negative mask. This mask was used to determine the average brightness of the background of each YFP image, which were averaged, and correction factors were calculated to correct the images for possible illumination variations during an experiment. The correction was performed using the Multiply command of ImageJ. In addition, the background brightness was used to calculate the thresholds for BiFC spots counting in the following step. The BiFC fluorescence intensity was determined by counting spots in the cells using a series of increasing thresholds (progressive thresholding analysis). For threshold calculation, the background brightness plus standard deviation was set as 1 (this value was found to be suitable to identify cells in YFP images in our initial attempts to run CellProfiler). The spot counting pipeline employed a cell identification module, similar to the first CellProfiler pipeline as described above. The exact outlines of the cells were determined by using UV images, which show overall cell shape through unspecific blue UV induced fluorescence of the cells. The FindPrimaryObjects module, which was used to identify the cells, assigned numbers to each cell and larger bud. With a second FindPrimaryObjects command, which applied increasing thresholds, spots were counted. Data output was processed using Microsoft Excel. The mean values for spot numbers and fluorescence coverage per cell were integrated over the obtained threshold values. With this processing method, relative differences between fluorescence spot numbers and foci size were acquired. For data representation, the values of a reference condition were normalized to 100% or 1, respectively. This is for representation purposes only and does not infer that the reference strain carried 100% fluorescence&#8208;positive cells. Results from at least three experiments, some involving different isogenic samples, were displayed graphically with standard error of the mean. Statistical analyses were carried out using unpaired, heteroscedastic t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>103731</offset>
+      <text>Fluorescence intensity measurements for FRAP experiments were carried out using densitometric analyses of the bleached cell areas/cells with the ImageJ Gels tool on an image stack. For this, a bleached cell and control cells in the same focus plane were cropped, and a montage of the time course was created separately. Densitometric analysis of the entire montage was carried out, thresholded equally over the entire time course using the straight line tool, and measured using the wand tool. Obtained fluorescence data were normalized to 100% before the bleach, and multiplied with a normalization factor obtained from the fluorescence values of the control cells to compensate for photobleaching effects.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>104439</offset>
+      <text>Line scans of fluorescence micrographs were created in ImageJ using the Straight Line tool and Plot Profile command on individual channels of the processed respective RGB stack images.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>104624</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>104645</offset>
+      <text>All authors (SS, SB, HDS) planned and performed experiments and carried out data analysis and interpretation. SS and HDS wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>104788</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>104809</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>104869</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>104892</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">194</infon>
+      <infon key="source">Methods Enzymol</infon>
+      <infon key="lpage">731</infon>
+      <infon key="pub-id_pmid">2005819</infon>
+      <infon key="fpage">729</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>104903</offset>
+      <text>Staining of actin with fluorochrome&#8208;conjugated phalloidin</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">39160</infon>
+      <infon key="pub-id_pmid">11493604</infon>
+      <infon key="fpage">39150</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>104963</offset>
+      <text>The coatomer interacting protein Dsl1p is required for Golgi&#8208;to&#8208;ER retrieval in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">51734</infon>
+      <infon key="pub-id_pmid">14504276</infon>
+      <infon key="fpage">51722</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>105053</offset>
+      <text>Dsl1p, an essential component of the Golgi&#8208;endoplasmic reticulum retrieval system in yeast, uses the same sequence motif to interact with different subunits of the COPI vesicle coat</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">2183</infon>
+      <infon key="pub-id_pmid">16723730</infon>
+      <infon key="fpage">2173</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>105237</offset>
+      <text>The ER&#8208;Golgi intermediate compartment (ERGIC): in search of its identity and function</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">991</infon>
+      <infon key="pub-id_pmid">18595704</infon>
+      <infon key="fpage">987</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>105325</offset>
+      <text>Ypt11 functions in bud&#8208;directed transport of the Golgi by linking Myo2 to the coatomer subunit Ret2</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">35</infon>
+      <infon key="pub-id_pmid">8858160</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>105427</offset>
+      <text>The organization of endoplasmic reticulum export complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">193</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">410</infon>
+      <infon key="pub-id_pmid">23396477</infon>
+      <infon key="fpage">383</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>105486</offset>
+      <text>Secretory protein biogenesis and traffic in the early secretory pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">756</infon>
+      <infon key="pub-id_pmid">12360285</infon>
+      <infon key="fpage">750</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>105558</offset>
+      <text>De novo formation of transitional ER sites and Golgi structures in Pichia pastoris</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">3419</infon>
+      <infon key="pub-id_pmid">24006484</infon>
+      <infon key="fpage">3406</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>105641</offset>
+      <text>Sec16 influences transitional ER sites by regulating rather than organizing COPII</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="issue">Pt 8</infon>
+      <infon key="lpage">1003</infon>
+      <infon key="pub-id_pmid">9152025</infon>
+      <infon key="fpage">991</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>105723</offset>
+      <text>Sec12p requires Rer1p for sorting to coatomer (COPI)&#8208;coated vesicles and retrieval to the ER</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">258</infon>
+      <infon key="pub-id_pmid">7954793</infon>
+      <infon key="fpage">245</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>105818</offset>
+      <text>Sec9 is a SNAP&#8208;25&#8208;like component of a yeast SNARE complex that may be the effector of Sec4 function in exocytosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="lpage">200</infon>
+      <infon key="source">Traffic (Copenhagen, Denmark)</infon>
+      <infon key="fpage">186</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>105936</offset>
+      <text>Concentration of GPI&#8208;anchored proteins upon ER exit in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Cell Mol Life Sci</infon>
+      <infon key="lpage">3916</infon>
+      <infon key="pub-id_pmid">24912984</infon>
+      <infon key="fpage">3903</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>105999</offset>
+      <text>Macromolecular complexes at active zones: integrated nano&#8208;machineries for neurotransmitter release</text>
+    </passage>
+    <passage>
+      <infon key="source">eLife</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">24843009</infon>
+      <infon key="fpage">e01883</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>106100</offset>
+      <text>A sphingolipid&#8208;dependent diffusion barrier confines ER stress to the yeast mother cell</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">FEMS Microbiol Rev</infon>
+      <infon key="lpage">325</infon>
+      <infon key="pub-id_pmid">24484434</infon>
+      <infon key="fpage">300</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>106189</offset>
+      <text>Budding yeast as a model organism to study the effects of age</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">25038</infon>
+      <infon key="pub-id_pmid">21482823</infon>
+      <infon key="fpage">25027</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>106251</offset>
+      <text>The Dsl1 tethering complex actively participates in soluble NSF (N&#8208;ethylmaleimide&#8208;sensitive factor) attachment protein receptor (SNARE) complex assembly at the endoplasmic reticulum in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">349</infon>
+      <infon key="lpage">198</infon>
+      <infon key="source">Science (New York, NY)</infon>
+      <infon key="fpage">195</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>106465</offset>
+      <text>VESICULAR TRANSPORT. A structure of the COPI coat and the role of coat proteins in membrane vesicle assembly</text>
+    </passage>
+    <passage>
+      <infon key="volume">210</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">189</infon>
+      <infon key="pub-id_pmid">26169352</infon>
+      <infon key="fpage">181</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>106574</offset>
+      <text>Tracking individual secretory vesicles during exocytosis reveals an ordered and regulated process</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1059</infon>
+      <infon key="pub-id_pmid">11781566</infon>
+      <infon key="fpage">1051</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>106672</offset>
+      <text>MAP kinase dynamics in response to pheromones in budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">163</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1266</infon>
+      <infon key="pub-id_pmid">14691136</infon>
+      <infon key="fpage">1255</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>106735</offset>
+      <text>Myo4p and She3p are required for cortical ER inheritance in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2054</infon>
+      <infon key="pub-id_pmid">18650939</infon>
+      <infon key="fpage">2043</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>106820</offset>
+      <text>Adaptation of endoplasmic reticulum exit sites to acute and chronic increases in cargo load</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">103s</infon>
+      <infon key="pub-id_pmid">7033246</infon>
+      <infon key="fpage">77s</infon>
+      <infon key="year">1981</infon>
+      <infon key="type">ref</infon>
+      <offset>106912</offset>
+      <text>The Golgi apparatus (complex)&#8208;(1954&#8211;1981)&#8208;from artifact to center stage</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">128</infon>
+      <infon key="pub-id_pmid">6998984</infon>
+      <infon key="fpage">123</infon>
+      <infon key="year">1980</infon>
+      <infon key="type">ref</infon>
+      <offset>106990</offset>
+      <text>Localized secretion of acid phosphatase reflects the pattern of cell surface growth in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">571</infon>
+      <infon key="pub-id_pmid">9491896</infon>
+      <infon key="fpage">559</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>107102</offset>
+      <text>Sec3p is a spatial landmark for polarized secretion in budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">477</infon>
+      <infon key="pub-id_pmid">11981560</infon>
+      <infon key="fpage">473</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>107171</offset>
+      <text>Protein detection using proximity&#8208;dependent DNA ligation assays</text>
+    </passage>
+    <passage>
+      <infon key="volume">425</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">741</infon>
+      <infon key="pub-id_pmid">14562106</infon>
+      <infon key="fpage">737</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>107237</offset>
+      <text>Global analysis of protein expression in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="lpage">5659</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="fpage">5658</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>107284</offset>
+      <text>Antiparallel leucine zipper&#8208;directed protein reassembly: application to the green fluorescent protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">315</infon>
+      <infon key="pub-id_pmid">19182805</infon>
+      <infon key="fpage">308</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>107388</offset>
+      <text>Alpha&#8208;synuclein is part of a diverse and highly conserved interaction network that includes PARK9 and manganese toxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">BioEssays</infon>
+      <infon key="lpage">133</infon>
+      <infon key="pub-id_pmid">24242672</infon>
+      <infon key="fpage">129</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>107511</offset>
+      <text>Integrated self&#8208;organization of transitional ER and early Golgi compartments</text>
+    </passage>
+    <passage>
+      <infon key="volume">128</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1068</infon>
+      <infon key="pub-id_pmid">7896871</infon>
+      <infon key="fpage">1055</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>107590</offset>
+      <text>The role of Myo2, a yeast class V myosin, in vesicular transport</text>
+    </passage>
+    <passage>
+      <infon key="volume">280</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">1447</infon>
+      <infon key="pub-id_pmid">15509571</infon>
+      <infon key="fpage">1438</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>107655</offset>
+      <text>Phospholipase Cbeta2 binds to and inhibits phospholipase Cdelta1</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1219</infon>
+      <infon key="pub-id_pmid">24056303</infon>
+      <infon key="fpage">1206</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>107720</offset>
+      <text>PtdIns(3)P&#8208;bound UVRAG coordinates Golgi&#8208;ER retrograde and Atg9 transport by differential interactions with the ER tether and the beclin 1 complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1278</infon>
+      <infon key="pub-id_pmid">15029241</infon>
+      <infon key="fpage">1267</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>107871</offset>
+      <text>Implication of ZW10 in membrane trafficking between the endoplasmic reticulum and Golgi</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">798</infon>
+      <infon key="pub-id_pmid">11983170</infon>
+      <infon key="fpage">789</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>107959</offset>
+      <text>Visualization of interactions among bZIP and Rel family proteins in living cells using bimolecular fluorescence complementation</text>
+    </passage>
+    <passage>
+      <infon key="volume">425</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">691</infon>
+      <infon key="pub-id_pmid">14562095</infon>
+      <infon key="fpage">686</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>108087</offset>
+      <text>Global analysis of protein localization in budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">490</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">207</infon>
+      <infon key="pub-id_pmid">23060190</infon>
+      <infon key="fpage">201</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>108144</offset>
+      <text>Molecular machines governing exocytosis of synaptic vesicles</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">470</infon>
+      <infon key="pub-id_pmid">22722608</infon>
+      <infon key="fpage">463</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>108205</offset>
+      <text>Coordination between RAB GTPase and phosphoinositide regulation and functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">200</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">418</infon>
+      <infon key="pub-id_pmid">23401000</infon>
+      <infon key="fpage">407</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>108283</offset>
+      <text>Robust polarity establishment occurs via an endocytosis&#8208;based cortical corralling mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">2534</infon>
+      <infon key="pub-id_pmid">25947137</infon>
+      <infon key="fpage">2519</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>108377</offset>
+      <text>A quantitative imaging&#8208;based screen reveals the exocyst as a network hub connecting endo&#8208; and exocytosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">454</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1095</infon>
+      <infon key="pub-id_pmid">18756251</infon>
+      <infon key="fpage">1088</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>108486</offset>
+      <text>Misfolded proteins partition between two distinct quality control compartments</text>
+    </passage>
+    <passage>
+      <infon key="volume">304</infon>
+      <infon key="lpage">289</infon>
+      <infon key="source">Science (New York, NY)</infon>
+      <infon key="fpage">286</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>108565</offset>
+      <text>Tip20p prohibits back&#8208;fusion of COPII vesicles with the endoplasmic reticulum</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1180</infon>
+      <infon key="pub-id_pmid">21349861</infon>
+      <infon key="fpage">1179</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>108645</offset>
+      <text>Improved structure, function and compatibility for Cell Profiler: modular high&#8208;throughput image analysis software</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">933</infon>
+      <infon key="pub-id_pmid">6365930</infon>
+      <infon key="fpage">922</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>108761</offset>
+      <text>Structural rearrangements of tubulin and actin during the cell cycle of the yeast Saccharomyces</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">21502307</infon>
+      <infon key="fpage">a005181</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>108857</offset>
+      <text>Architecture of the mammalian Golgi</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Biotechniques</infon>
+      <infon key="lpage">805</infon>
+      <infon key="pub-id_pmid">21091444</infon>
+      <infon key="fpage">793</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>108893</offset>
+      <text>An improved bimolecular fluorescence complementation assay with a high signal&#8208;to&#8208;noise ratio</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">3889</infon>
+      <infon key="pub-id_pmid">18984630</infon>
+      <infon key="fpage">3878</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>108990</offset>
+      <text>Growth&#8208;speed&#8208;correlated localization of exocyst and polarisome components in growth zones of Ashbya gossypii hyphal tips</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">3977</infon>
+      <infon key="pub-id_pmid">15958492</infon>
+      <infon key="fpage">3963</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>109115</offset>
+      <text>Dsl1p, Tip20p, and the novel Dsl3(Sec39) protein are required for the stability of the Q/t&#8208;SNARE complex at the endoplasmic reticulum in yeast</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24728174</infon>
+      <infon key="fpage">3653</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>109260</offset>
+      <text>Contact of cis&#8208;Golgi with ER exit sites executes cargo capture and delivery from the ER</text>
+    </passage>
+    <passage>
+      <infon key="volume">144</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1149</infon>
+      <infon key="pub-id_pmid">10087259</infon>
+      <infon key="fpage">1135</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>109350</offset>
+      <text>Golgi structure in three dimensions: functional insights from the normal rat kidney cell</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Plant Sci</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">22876251</infon>
+      <infon key="fpage">143</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>109439</offset>
+      <text>ER import Sites and Their Relationship to ER Exit Sites: A New Model for Bidirectional ER&#8208;Golgi Transport in Higher Plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="lpage">1179</infon>
+      <infon key="source">Traffic (Copenhagen, Denmark)</infon>
+      <infon key="fpage">1168</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>109564</offset>
+      <text>The yeast GRASP Grh1 colocalizes with COPII and is dispensable for organizing the secretory pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">873</infon>
+      <infon key="pub-id_pmid">18946475</infon>
+      <infon key="fpage">860</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>109664</offset>
+      <text>Beyond polymer polarity: how the cytoskeleton builds a polarized cell</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">6986</infon>
+      <infon key="pub-id_pmid">22509044</infon>
+      <infon key="fpage">6981</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>109734</offset>
+      <text>Regulation of selective autophagy onset by a Ypt/Rab GTPase module</text>
+    </passage>
+    <passage>
+      <infon key="name_0">surname:Li;given-names:G</infon>
+      <infon key="lpage">116</infon>
+      <infon key="source">Rab GTPases</infon>
+      <infon key="fpage">107</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>109801</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">267</infon>
+      <infon key="pub-id_pmid">20141839</infon>
+      <infon key="fpage">257</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>109802</offset>
+      <text>The polarisome is required for segregation and retrograde transport of protein aggregates</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">16194281</infon>
+      <infon key="fpage">240</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>109892</offset>
+      <text>Sequence variation in ligand binding sites in proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="lpage">157</infon>
+      <infon key="pub-id_pmid">15631464</infon>
+      <infon key="fpage">146</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>109947</offset>
+      <text>Detecting protein&#8208;protein interactions with a green fluorescent protein fragment reassembly trap: scope and mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">18</infon>
+      <infon key="pub-id_pmid">23810512</infon>
+      <infon key="fpage">9</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>110067</offset>
+      <text>The scaffold protein Atg11 recruits fission machinery to drive selective mitochondria degradation by autophagy</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">538</infon>
+      <infon key="pub-id_pmid">16251359</infon>
+      <infon key="fpage">525</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>110178</offset>
+      <text>Cis&#8208;Golgi matrix proteins move directly to endoplasmic reticulum exit sites by association with tubules</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">3347</infon>
+      <infon key="pub-id_pmid">22767578</infon>
+      <infon key="fpage">3336</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>110284</offset>
+      <text>Cdk1&#8208;dependent control of membrane&#8208;trafficking dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">25046</infon>
+      <infon key="pub-id_pmid">21550981</infon>
+      <infon key="fpage">25039</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>110344</offset>
+      <text>The Dsl1 protein tethering complex is a resident endoplasmic reticulum complex, which interacts with five soluble NSF (N&#8208;ethylmaleimide&#8208;sensitive factor) attachment protein receptors (SNAREs): implications for fusion and fusion regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">272</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">14</infon>
+      <infon key="pub-id_pmid">11740860</infon>
+      <infon key="fpage">8</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>110587</offset>
+      <text>Mosaic organization of the endocytic pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">1036</infon>
+      <infon key="pub-id_pmid">17352427</infon>
+      <infon key="fpage">1023</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>110632</offset>
+      <text>Detection of transient protein&#8208;protein interactions by bimolecular fluorescence complementation: the Abl&#8208;SH3 case</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">90</infon>
+      <infon key="pub-id_pmid">11753368</infon>
+      <infon key="fpage">87</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>110750</offset>
+      <text>A variant of yellow fluorescent protein with fast and efficient maturation for cell&#8208;biological applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Adh Migr</infon>
+      <infon key="lpage">387</infon>
+      <infon key="pub-id_pmid">23628914</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>110860</offset>
+      <text>The actin cytoskeleton in presynaptic assembly</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">3420</infon>
+      <infon key="pub-id_pmid">22467862</infon>
+      <infon key="fpage">3412</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>110907</offset>
+      <text>High&#8208;curvature domains of the ER are important for the organization of ER exit sites in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Cell Struct Funct</infon>
+      <infon key="lpage">419</infon>
+      <infon key="pub-id_pmid">9118249</infon>
+      <infon key="fpage">413</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>111022</offset>
+      <text>The dynamic organisation of the secretory pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">143</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1945</infon>
+      <infon key="pub-id_pmid">9864365</infon>
+      <infon key="fpage">1931</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>111072</offset>
+      <text>Tropomyosin&#8208;containing actin cables direct the Myo2p&#8208;dependent polarized delivery of secretory vesicles in budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">855</infon>
+      <infon key="pub-id_pmid">12571282</infon>
+      <infon key="fpage">847</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>111197</offset>
+      <text>Real&#8208;time analysis of clathrin&#8208;mediated endocytosis during cell migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18023</infon>
+      <infon key="pub-id_pmid">15596717</infon>
+      <infon key="fpage">18018</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>111275</offset>
+      <text>Golgi inheritance in small buds of Saccharomyces cerevisiae is linked to endoplasmic reticulum inheritance</text>
+    </passage>
+    <passage>
+      <infon key="volume">139</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1129</infon>
+      <infon key="pub-id_pmid">20005805</infon>
+      <infon key="fpage">1119</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>111382</offset>
+      <text>A structure&#8208;based mechanism for vesicle capture by the multisubunit tethering complex Dsl1</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">4633</infon>
+      <infon key="pub-id_pmid">25189616</infon>
+      <infon key="fpage">4620</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>111475</offset>
+      <text>Positive feedback between golgi membranes, microtubules and ER&#8208;exit sites directs golgi de novo biogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">81</infon>
+      <infon key="pub-id_pmid">10189369</infon>
+      <infon key="fpage">69</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>111584</offset>
+      <text>Golgi structure correlates with transitional endoplasmic reticulum organization in Pichia pastoris and Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">153</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">62</infon>
+      <infon key="pub-id_pmid">11285273</infon>
+      <infon key="fpage">47</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>111712</offset>
+      <text>A role for actin, Cdc1p, and Myo2p in the inheritance of late Golgi elements in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="lpage">1005</infon>
+      <infon key="source">Traffic (Copenhagen, Denmark)</infon>
+      <infon key="fpage">994</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>111817</offset>
+      <text>Following the fate in&#160;vivo of COPI vesicles generated in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="volume">152</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">944</infon>
+      <infon key="pub-id_pmid">11238450</infon>
+      <infon key="fpage">935</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>111882</offset>
+      <text>Rer1p, a retrieval receptor for endoplasmic reticulum membrane proteins, is dynamically localized to the Golgi apparatus by coatomer</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">3616</infon>
+      <infon key="pub-id_pmid">12972550</infon>
+      <infon key="fpage">3605</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>112015</offset>
+      <text>Rer1p, a retrieval receptor for ER membrane proteins, recognizes transmembrane domains in multiple modes</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1543</infon>
+      <infon key="pub-id_pmid">16890529</infon>
+      <infon key="fpage">1538</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>112120</offset>
+      <text>Coordination of endoplasmic reticulum and mRNA localization to the yeast bud</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1300</infon>
+      <infon key="pub-id_pmid">14636585</infon>
+      <infon key="fpage">1287</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>112197</offset>
+      <text>Mechanisms of proinflammatory cytokine&#8208;induced biphasic NF&#8208;kappaB activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">268</infon>
+      <infon key="pub-id_pmid">20226673</infon>
+      <infon key="fpage">257</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>112278</offset>
+      <text>Dsl1p/Zw10: common mechanisms behind tethering vesicles and microtubules</text>
+    </passage>
+    <passage>
+      <infon key="volume">147</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">808</infon>
+      <infon key="pub-id_pmid">10562281</infon>
+      <infon key="fpage">791</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>112351</offset>
+      <text>The COOH&#8208;terminal domain of Myo2p, a yeast myosin V, has a direct role in secretory vesicle targeting</text>
+    </passage>
+    <passage>
+      <infon key="volume">156</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">39</infon>
+      <infon key="pub-id_pmid">11781333</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>112455</offset>
+      <text>Secretory vesicle transport velocity in living cells depends on the myosin&#8208;V lever arm length</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="issue">Pt 23</infon>
+      <infon key="lpage">3470</infon>
+      <infon key="pub-id_pmid">9811561</infon>
+      <infon key="fpage">3459</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>112551</offset>
+      <text>Alpha&#8208;COP can discriminate between distinct, functional di&#8208;lysine signals in&#160;vitro and regulates access into retrograde transport</text>
+    </passage>
+    <passage>
+      <infon key="volume">272</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">25416</infon>
+      <infon key="pub-id_pmid">9325247</infon>
+      <infon key="fpage">25413</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>112686</offset>
+      <text>COPII subunit interactions in the assembly of the vesicle coat</text>
+    </passage>
+    <passage>
+      <infon key="volume">454</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">734</infon>
+      <infon key="pub-id_pmid">18660802</infon>
+      <infon key="fpage">728</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>112749</offset>
+      <text>A mechanism for asymmetric segregation of age during yeast budding</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">4069</infon>
+      <infon key="pub-id_pmid">9632790</infon>
+      <infon key="fpage">4053</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>112816</offset>
+      <text>Spa2p interacts with cell polarity proteins and signaling components involved in yeast cell morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">1545</infon>
+      <infon key="pub-id_pmid">20200224</infon>
+      <infon key="fpage">1530</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>112922</offset>
+      <text>Requirements for transitional endoplasmic reticulum site structure and function in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">1771</infon>
+      <infon key="pub-id_pmid">15208385</infon>
+      <infon key="fpage">1753</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>113030</offset>
+      <text>Endoplasmic reticulum export sites and Golgi bodies behave as single mobile secretory units in plant cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">536</infon>
+      <infon key="pub-id_pmid">19394211</infon>
+      <infon key="fpage">531</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>113137</offset>
+      <text>On vesicle formation and tethering in the ER&#8208;Golgi shuttle</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="lpage">913</infon>
+      <infon key="source">Traffic (Copenhagen, Denmark)</infon>
+      <infon key="fpage">908</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>113198</offset>
+      <text>The DSL1 complex: the smallest but not the least CATCHR</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">8281</infon>
+      <infon key="pub-id_pmid">19658435</infon>
+      <infon key="fpage">8279</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>113254</offset>
+      <text>A rapidly maturing far&#8208;red derivative of DsRed&#8208;Express2 for whole&#8208;cell labeling</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">14247</infon>
+      <infon key="pub-id_pmid">26578768</infon>
+      <infon key="fpage">14242</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>113340</offset>
+      <text>Structural basis for the binding of tryptophan&#8208;based motifs by delta&#8208;COP</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="lpage">775</infon>
+      <infon key="source">Yeast (Chichester, England)</infon>
+      <infon key="fpage">767</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>113417</offset>
+      <text>Bimolecular fluorescence complementation analysis system for in&#160;vivo detection of protein&#8208;protein interaction in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">349</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">280</infon>
+      <infon key="pub-id_pmid">8050581</infon>
+      <infon key="fpage">275</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>113558</offset>
+      <text>Isolation of autophagocytosis mutants of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Histochem J</infon>
+      <infon key="lpage">403</infon>
+      <infon key="pub-id_pmid">7440248</infon>
+      <infon key="fpage">381</infon>
+      <infon key="year">1980</infon>
+      <infon key="type">ref</infon>
+      <offset>113624</offset>
+      <text>Immunochemistry on ultrathin frozen sections</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">123</infon>
+      <infon key="pub-id_pmid">19151722</infon>
+      <infon key="fpage">114</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>113669</offset>
+      <text>Structural characterization of Tip20p and Dsl1p, subunits of the Dsl1p vesicle tethering complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1509</infon>
+      <infon key="pub-id_pmid">9199166</infon>
+      <infon key="fpage">1495</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>113766</offset>
+      <text>Sec2p mediates nucleotide exchange on Sec4p and is involved in polarized delivery of post&#8208;Golgi vesicles</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">3168</infon>
+      <infon key="pub-id_pmid">25656970</infon>
+      <infon key="fpage">3163</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>113873</offset>
+      <text>Version 4.0 of PaxDb: protein abundance data, integrated across model organisms, tissues, and cell&#8208;lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="lpage">1343</infon>
+      <infon key="source">Traffic (Copenhagen, Denmark)</infon>
+      <infon key="fpage">1330</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>113980</offset>
+      <text>Quantitative analysis of membrane trafficking in regulation of Cdc42 polarity</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">341</infon>
+      <infon key="pub-id_pmid">23197474</infon>
+      <infon key="fpage">331</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>114058</offset>
+      <text>A conserved regulatory mode in exocytic membrane fusion revealed by Mso1p membrane interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Curr Top Dev Biol</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">172287</infon>
+      <infon key="fpage">161</infon>
+      <infon key="year">1975</infon>
+      <infon key="type">ref</infon>
+      <offset>114154</offset>
+      <text>Differentiation of the Golgi apparatus in the genetic control of development</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">156</infon>
+      <infon key="pub-id_pmid">19575650</infon>
+      <infon key="fpage">137</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>114231</offset>
+      <text>Tethering factors as organizers of intracellular vesicular traffic</text>
+    </passage>
+    <passage>
+      <infon key="volume">296</infon>
+      <infon key="lpage">916</infon>
+      <infon key="source">Science (New York, NY)</infon>
+      <infon key="fpage">913</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>114298</offset>
+      <text>Partitioning of lipid&#8208;modified monomeric GFPs into membrane microdomains of live cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">416</infon>
+      <infon key="pub-id_pmid">19758564</infon>
+      <infon key="fpage">403</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>114387</offset>
+      <text>A link between ER tethering and COP&#8208;I vesicle uncoating</text>
+    </passage>
+  </document>
+</collection>

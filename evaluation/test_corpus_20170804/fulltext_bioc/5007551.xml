@@ -1,0 +1,1381 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5007551</id>
+    <passage>
+      <infon key="name_2">surname:Beli;given-names:Petra</infon>
+      <infon key="name_3">surname:Choudhary;given-names:Chunaram</infon>
+      <infon key="name_0">surname:Wagner;given-names:Sebastian A</infon>
+      <infon key="name_1">surname:Satpathy;given-names:Shankha</infon>
+      <infon key="alt-title">Sebastian A Wagner et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694300</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211; See also: R Feltham et al (September 2016)</infon>
+      <infon key="article-id_doi">10.15252/embj.201694300</infon>
+      <infon key="article-id_pmid">27307491</infon>
+      <infon key="lpage">1884 1884</infon>
+      <infon key="pub-id_pmid">27307491</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">1868 1868</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">17</infon>
+      <infon key="kwd">CYLD LUBAC necroptosis SPATA2 TNF&#8208;RSC Immunology Post-translational Modifications, Proteolysis &amp; Proteomics Signal Transduction</infon>
+      <offset>0</offset>
+      <text>SPATA2 links CYLD to the TNF&#8208;&#945; receptor signaling complex and modulates the receptor signaling outcomes</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>108</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>117</offset>
+      <text>TNF&#8208;&#945; is a key regulator of innate immune and proinflammatory responses. However, the composition of the TNF&#8208;&#945; receptor&#8208;associated signaling complexes (TNF&#8208;RSC) and the architecture of the downstream signaling networks are incompletely understood. We employed quantitative mass spectrometry to demonstrate that TNF&#8208;&#945; stimulation induces widespread protein phosphorylation and that the scope of phosphorylation expands in a temporal manner. TNF&#8208;&#945; stimulation also induces rapid ubiquitylation of components of the TNF&#8208;RSC. Temporal analysis of the TNF&#8208;RSC composition identified SPATA2 as a novel component of the TNF&#8208;RSC. The predicted PUB domain in the N&#8208;terminus of SPATA2 interacts with the USP domain of CYLD, whereas the C&#8208;terminus of SPATA2 interacts with HOIP. SPATA2 is required for recruitment of CYLD to the TNF&#8208;RSC. Downregulation of SPATA2 augments transcriptional activation of NF&#8208;&#954;B and inhibits TNF&#8208;&#945;&#8208;induced necroptosis, pointing to an important function of SPATA2 in modulating the outcomes of TNF&#8208;&#945; signaling. Taken together, our study draws a detailed map of TNF&#8208;&#945; signaling, identifies SPATA2 as a novel component of TNF&#8208;&#945; signaling, and provides a rich resource for further functional investigations.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1384</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1397</offset>
+      <text>Tumor necrosis factor&#8208;alpha (TNF&#8208;&#945;) is a pleiotropic cytokine that plays important roles in immunity and inflammation (Locksley et&#160;al, 2001). Dysregulation of TNF&#8208;&#945; signaling has been implicated in human diseases, including cancer and autoimmune disorders such as rheumatoid arthritis, Crohn's disease, and psoriasis (Bradley, 2008). Accordingly, inhibitors of TNF&#8208;&#945; are successfully used for the treatment of rheumatoid arthritis and other autoimmune disorders (Croft et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1893</offset>
+      <text>Binding of TNF&#8208;&#945; to tumor necrosis factor receptor 1 (TNFR1) induces trimerization of the receptor, recruitment of the adaptor protein TRADD (TNF receptor type 1&#8208;associated DEATH domain protein), and subsequent assembly of the TNF receptor&#8208;associated signaling complex (TNF&#8208;RSC) (Chen &amp; Goeddel, 2002; Aggarwal, 2003). A large number of proteins, including signaling adaptors, protein kinases, and ubiquitin ligases, are known to dynamically associate with the TNF&#8208;RSC and to orchestrate the downstream signaling (Silke, 2011). Dynamic association and dissociation of these factors are critical for controlling amplitude and duration of the signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2556</offset>
+      <text>Although the precise details of TNF&#8208;&#945;&#8208;induced early signaling events are not fully understood, it is clear that assembly of the TNF&#8208;RSC activates ubiquitylation&#8208;dependent signaling (Walczak, 2011). Several ubiquitin ligases of the TRAF (TNF receptor&#8208;associated factor) and BIR (baculoviral IAP repeat containing) families, including TRAF2, TRAF5, c&#8208;IAP1, and c&#8208;IAP2, have been implicated in this process (Chen, 2005; Silke &amp; Vucic, 2014). Furthermore, the linear ubiquitin chain assembly complex (LUBAC) has emerged as an important regulator of TNF&#8208;&#945; signaling (Iwai et&#160;al, 2014). The TRAF and BIR family ligases mainly generate K63&#8208;linked and possibly K11&#8208;linked ubiquitin chains, whereas LUBAC modifies proteins with linear (M1&#8208;linked) ubiquitin chains. TNF&#8208;&#945;&#8208;induced ubiquitylation is counterbalanced by a number of deubiquitylases (DUBs), including CYLD, TNFAIP3 (A20), and OTULIN (GUMBY) that specifically cleave linear ubiquitin chains (Harhaj &amp; Dixit, 2011; Keusekotten et&#160;al, 2013; Rivkin et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3599</offset>
+      <text>In addition to the activation of ubiquitylation signaling, TNF&#8208;&#945; stimulation also activates multiple protein kinases, thereby initiating an elaborate cascade of phosphorylation events. For example, following TNF&#8208;RSC assembly the receptor&#8208;interacting serine/threonine&#8211;protein kinase 1 (RIPK1) is recruited to the receptor signaling complexes (Festjens et&#160;al, 2007). TRAF and cIAP&#8208;catalyzed ubiquitylation activates RIPK1, which in turn activates MAPK and IKK (I&#8208;kappa&#8208;B kinase) signaling pathways. LUBAC catalyzes linear ubiquitylation of NEMO, the regulatory subunit of IKK, and thereby contributes to IKK activation (Tokunaga et&#160;al, 2009). Ubiquitylation&#8208;dependent activation of the mitogen&#8208;activated kinase MAP3K7 (TAK1) mediates the activation of MEKK/JNK and p38 MAPK signaling pathways (Sabio &amp; Davis, 2014). Thus, the interplay between ubiquitylation and phosphorylation is fundamental for TNF&#8208;&#945; signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4536</offset>
+      <text>TNF&#8208;&#945; stimulation can lead to different cellular outcomes by promoting cell viability or by inducing apoptosis or necroptosis (Han et&#160;al, 2011). The choice between these outcomes depends on many factors, including the cellular context, as well as the amplitude and duration of the signaling. Activation of NF&#8208;&#954;B signaling mediates prosurvival effects of TNF&#8208;&#945;, whereas RIPK1 and RIPK3 are essential for TNF&#8208;&#945;&#8208;induced necroptosis. CYLD&#8208;mediated deubiquitylation of RIPK1 is important for TNF&#8208;&#945;&#8208;induced necroptosis (O'Donnell et&#160;al, 2011; Moquin et&#160;al, 2013). Thus, ubiquitylation and deubiquitylation events are at the crossroads of TNF&#8208;&#945;&#8208;induced cell survival and death (Declercq et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5260</offset>
+      <text>Due to its important biological functions and disease relevance, TNF&#8208;&#945; signaling has been studied intensively for over three decades, and numerous biochemical and genetic investigations have identified central components of TNF&#8208;&#945; signaling (Karin &amp; Ben&#8208;Neriah, 2000). However, the understanding of the complexity of the TNF&#8208;RSC, and the scope and targets of TNF&#8208;&#945;&#8208;induced phosphorylation and ubiquitylation remains incomplete. Advancements in high&#8208;resolution mass spectrometry (MS)&#8208;based proteomics now permit systems&#8208;wide analysis of signaling networks (Choudhary &amp; Mann, 2010; Bensimon et&#160;al, 2012; Olsen &amp; Mann, 2013). Recently, we and others developed a streamlined workflow for quantitative analysis of protein ubiquitylation (Kim et&#160;al, 2011; Wagner et&#160;al, 2011), enabling systems&#8208;wide investigation of this modification.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6114</offset>
+      <text>In this study, we employed quantitative MS to investigate TNF&#8208;&#945;&#8208;regulated signaling in human A549 cells by monitoring proteome&#8208;wide dynamics of phosphorylation and ubiquitylation and by monitoring the temporal association of proteins with the TNF&#8208;RSC. We demonstrate that TNF&#8208;&#945;&#8208;induced phosphorylation affects a large number of cellular proteins, whereas ubiquitylation affects a relatively small set of proteins that prominently include components of the TNF&#8208;RSC. Our results identified SPATA2 as a novel component of the TNF&#8208;RSC and revealed its function in regulating the outcome of TNF&#8208;&#945; signaling through recruitment of CYLD to the TNF&#8208;RSC.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6783</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6791</offset>
+      <text>Strategy for proteome&#8208;wide investigation of TNF&#8208;&#945;&#8208;induced signaling events</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6873</offset>
+      <text>We used a multidimensional proteomic strategy to identify components of the TNF&#8208;RSC and to investigate dynamics of TNF&#8208;&#945; stimulation&#8208;triggered phosphorylation and ubiquitylation. A549 cells (human lung adenocarcinoma cells) were metabolically labeled with stable isotope&#8208;labeled amino acids in cell culture (SILAC) (Ong et&#160;al, 2002) to allow the relative quantification of peptide abundance using high&#8208;resolution MS. We used triple SILAC labeling in which unstimulated &#8220;light&#8221; cells served as control, and &#8220;medium&#8221; and &#8220;heavy&#8221; labeled cells were stimulated with recombinant human TNF&#8208;&#945; for 5 and 15&#160;min, respectively (Fig&#160;1A). For investigating TNF&#8208;&#945;&#8208;regulated phosphorylation and ubiquitylation, cells were stimulated with TNF&#8208;&#945;, and proteins from the different conditions were mixed in equal amounts and digested into peptides. The peptides were split into two fractions, one of which was used to enrich phosphorylated peptides by TiO2&#8208;based chromatography, and the other fraction was used to enrich di&#8208;Gly&#8208;modified (i.e., ubiquitylated) peptides using di&#8208;Gly&#8208;lysine&#8208;specific antibodies. For analyzing composition of the TNF&#8208;RSC, cells were stimulated with FLAG&#8208;tagged TNF&#8208;&#945; for 5 and 15&#160;min, the TNF&#8208;RSC was affinity&#8208;purified using FLAG antibodies, and the enriched proteins were digested with trypsin. The resulting peptide samples were analyzed using high&#8208;resolution liquid chromatography coupled to tandem mass spectrometry (LC&#8208;MS/MS), and the raw data were processed using MaxQuant (Cox &amp; Mann, 2008). The experiments were performed in replicate, and the data from independent replicates showed significant correlation (Appendix Fig&#160;S1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8585</offset>
+      <text>Systems&#8208;wide analysis of TNF&#8208;&#945; signaling</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8631</offset>
+      <text>SILAC&#8208;based strategy for multidimensional analysis of TNF&#8208;&#945; signaling. The &#8220;medium&#8221; and &#8220;heavy&#8221; labeled cells were stimulated with TNF&#8208;&#945; for 5 and 15&#160;min, respectively, and mock&#8208;treated &#8220;light&#8221; labeled cells served as control. For site&#8208;specific quantification of phosphorylation and ubiquitylation, equal amounts of proteins from three SILAC populations were mixed and phosphorylated and di&#8208;Gly&#8208;modified peptides were enriched in parallel from the same samples. To investigate the dynamics of TNF&#8208;RSC&#8208;associated proteins, cells were treated with FLAG&#8208;TNF&#8208;&#945;, and the ligand&#8208;bound TNF&#8208;RSCs were affinity&#8208;purified using anti&#8208;FLAG antibody, proteins were mixed before proteolysis, and the relative abundance of proteins was quantified with LC&#8208;MS/MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9425</offset>
+      <text>Quantification of phosphorylation events in response to TNF&#8208;&#945; stimulation. The bar chart shows the fraction of phosphorylation sites that were differentially regulated upon TNF&#8208;&#945; stimulation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9625</offset>
+      <text>Sequence motif analysis of TNF&#8208;&#945;&#8208;upregulated phosphorylation sites. The logo plots show enrichment of amino acids at positions flanking TNF&#8208;&#945;&#8208;upregulated phosphorylation sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9812</offset>
+      <text>Dynamics of TNF&#8208;&#945;&#8208;induced phosphorylation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9859</offset>
+      <text>TNF&#8208;&#945; signaling involves activation of multiple protein kinases such as RIPK1, IKK, TAK1, and MAPK14, which subsequently phosphorylate downstream effectors. Using the above&#8208;described strategy, we quantified the relative abundance of 8,888 phosphorylation sites in response to TNF&#8208;&#945; stimulation (Dataset EV1). We wish to point out that in our analyses if a peptide was only identified in multiply phosphorylated form, we were unable to quantify ratio of individual sites in the peptide. In these instances, individual sites were listed with identical ratio that was obtained from multiply phosphorylated peptide. A substantial fraction (~8%) of the quantified phosphorylation sites showed increased (&gt;&#160;twofold) abundance in cells stimulated with TNF&#8208;&#945; (Fig&#160;1B and Appendix&#160;Fig S1B), and the regulated proteins were localized in different subcellular compartments (Appendix&#160;Fig S1C). Amino acid sequence motif analysis of all upregulated sites showed an overrepresentation of Arg on position &#8722;3 and Leu on +1 as well as on &#8722;2 position (Fig&#160;1C). This motif is often present in substrates of AGC family kinases, several of which showed increased phosphorylation in our dataset.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11053</offset>
+      <text>Among the proteins with TNF&#8208;&#945;&#8208;upregulated phosphorylation were many known components of TNF&#8208;&#945; signaling, including the adaptor proteins TANK, SQSTM1 (p62), and TAB2, as well as the protein kinases TBK1, TAK1, IKBKB, and MAPK14. In addition, increased phosphorylation was detected on the double&#8208;stranded RNA&#8208;dependent protein kinase (PKR, also known as PRKRA), which has important functions in the innate immune and inflammatory receptor signaling (Kang &amp; Tang, 2012). While phosphorylation of many of these proteins peaked within 5&#160;min of TNF&#8208;&#945; stimulation, phosphorylation of AKT1, AKT3, as well as their downstream effector kinase RPS6KB1 (p70 S6K1), increased more prominently after 15&#160;min of ligand stimulation. Increased phosphorylation on functionally relevant sites was also observed on several other known regulators of TNF&#8208;&#945; signaling such as OPTN, NFKB2, and NFKBIE (Dataset EV1). Phosphorylation of NFKBIE at S157 and S161 (which are analogous to S32 and S36 of NFKBIA) promotes its ubiquitylation and proteasome&#8208;mediated degradation and results in the activation of IKK signaling (Brown et&#160;al, 1995; Whiteside et&#160;al, 1997); phosphorylation of OPTN on S177 promotes its binding to ubiquitin&#8208;like microtubule&#8208;associated protein light chain 3 (LC3) and promotes autophagy&#8208;dependent clearance of bacteria (Wild et&#160;al, 2011); and phosphorylation of NFKB2 at S870 is required for proteolytic processing of NFKB2 p100 to generate the active p52 NF&#8208;&#954;B subunit (Xiao et&#160;al, 2001). Notably, we identified a previously uncharacterized phosphorylation site on NFKB2 (S23) that was robustly induced after TNF&#8208;&#945; stimulation, suggesting that this site may have a yet unknown signaling function. Taken together, these data suggest that TNF&#8208;&#945; signaling impacts a large number of cellular proteins by modulating their phosphorylation status.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12930</offset>
+      <text>Analysis of TNF&#8208;&#945;&#8208;regulated ubiquitylation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12978</offset>
+      <text>Ubiquitylation has diverse regulatory roles in TNF&#8208;&#945; signaling (Chen, 2005; Harhaj &amp; Dixit, 2011; Silke, 2011). Using the di&#8208;Gly remnant profiling approach (Wagner et&#160;al, 2011), we quantified 7,190 ubiquitylation sites in TNF&#8208;&#945;&#8208;stimulated cells (Dataset EV1). Compared to phosphorylation, a relatively smaller fraction of ubiquitylation sites was affected after TNF&#8208;&#945; stimulation (Fig&#160;2A), indicating that in this system, the scope of ubiquitylation (in terms of the number of sites affected) is narrower than phosphorylation. Gene Ontology cellular component (GOCC) term enrichment analysis revealed that proteins with TNF&#8208;&#945;&#8208;induced ubiquitylation sites are located in the receptor signaling complex and the LUBAC complex (Fig&#160;2B). Gene Ontology biological process (GOBP) term enrichment analysis of proteins with TNF&#8208;&#945;&#8208;induced ubiquitylation and phosphorylation showed enrichment of terms related to linear ubiquitylation and NF&#8208;&#954;B activation (Fig&#160;2C). Many proteins with TNF&#8208;&#945;&#8208;upregulated ubiquitylation showed functional interactions, and several of these proteins also harbored TNF&#8208;&#945;&#8208;upregulated phosphorylation sites (Fig&#160;2D), raising the possibility that these proteins could be dynamically regulated by both modifications. Among the proteins with increased ubiquitylation in TNF&#8208;&#945;&#8208;stimulated cells were many known components of the TNF&#8208;RSC, including TRAF2, TAB1, BIRC2, as well as all three components of LUBAC&#8212;HOIP (RNF31), HOIL1 (RBCK1), and SHARPIN (Dataset EV1). In addition, ubiquitylation at K285 of NEMO, which is known to have important regulatory function in the activation of IKK (Abbott et&#160;al, 2004), was strongly increased (&gt;&#160;30&#8208;fold). We also identified TNF&#8208;&#945;&#8208;upregulated ubiquitylation on the transcription factor STAT3. Phosphorylation is a well&#8208;known regulatory mechanism of STAT3 (Zhong et&#160;al, 1994), but the function of TNF&#8208;&#945;&#8208;regulated ubiquitylation remains to be investigated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14951</offset>
+      <text>The dynamics of TNF&#8208;&#945;&#8208;regulated ubiquitylation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15003</offset>
+      <text>TNF&#8208;&#945; stimulation affects a smaller fraction of ubiquitylation sites compared to phosphorylation sites. The plot shows the fraction of ubiquitylation and phosphorylation sites that were affected upon TNF&#8208;&#945; stimulation. Site&#8208;specific changes in ubiquitylation and phosphorylation were analyzed as described in Fig&#160;1A.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15329</offset>
+      <text>Gene Ontology cellular component (GOCC) term enrichment analysis of proteins with upregulated ubiquitylation sites. The bar plot indicates terms that showed a significant enrichment (P&#160;&lt;&#160;0.001)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15525</offset>
+      <text>Comparative Gene Ontology biological process (GOBP) term enrichment analysis of proteins with TNF&#8208;&#945;&#8208;upregulated ubiquitylation and phosphorylation sites. The heatmap shows the relative enrichment of significantly enriched (P&#160;&lt;&#160;0.01) terms.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15772</offset>
+      <text>Functional interaction network of proteins with TNF&#8208;&#945;&#8208;upregulated ubiquitylation sites. The network shows functional interactions among proteins that showed increased ubiquitylation after 5 or 15&#160;min of TNF&#8208;&#945; stimulation. Blue nodes show proteins that contained TNF&#8208;&#945;&#8208;upregulated phosphorylation and ubiquitylation in our dataset, and the TNF&#8208;RSC components are marked in red type.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16170</offset>
+      <text>We also identified a ligand&#8208;inducible ubiquitylation site (K347) on TNFR1 itself. In contrast to the rapid ubiquitylation of most other TNF&#8208;RSC components, this site on TNFR1 peaked after 15&#160;min of TNF&#8208;&#945; stimulation, suggesting its involvement in the regulation of later steps of the receptor signaling. Notably, ubiquitylation of MLKL, a pseudokinase that is indispensable for TNF&#8208;&#945;&#8208;induced necroptosis (Murphy et&#160;al, 2013; Wu et&#160;al, 2013), was also exclusively increased at the later time point. MLKL is regulated by RIPK3&#8208;dependent phosphorylation during necroptosis (Sun et&#160;al, 2012), but the function of TNF&#8208;&#945;&#8208;induced ubiquitylation remains to be elucidated. Together, these results provided a detailed view of TNF&#8208;&#945;&#8208;regulated ubiquitylation by mapping ligand&#8208;induced ubiquitylation sites on several known components of the TNF&#8208;RSC, as well as by pinpointing TNF&#8208;&#945;&#8208;regulated sites on proteins that were not previously linked to this pathway.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17154</offset>
+      <text>Dynamics of TNF&#8208;RSC&#8208;associated proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17198</offset>
+      <text>To obtain insights into the assembly of the receptor proximal signaling complexes, we applied the above&#8208;described triple SILAC strategy to quantify proteins that dynamically associate with the TNF&#8208;RSC. SILAC&#8208;labeled cells were stimulated for 5 and 15&#160;min with FLAG&#8208;TNF&#8208;&#945; and cells were lysed immediately after the stimulation. FLAG&#8208;TNF&#8208;&#945; was added to the control cell lysates, and the ligand&#8208;bound TNF&#8208;RSC was immunoenriched using FLAG antibodies. The affinity&#8208;enriched proteins were digested into peptides and analyzed by LC&#8208;MS/MS (Fig&#160;3A). By quantifying the relative abundance of proteins in the TNF&#8208;RSCs from unstimulated cells and TNF&#8208;&#945;&#8208;stimulated cells, we were able to identify proteins that specifically associated with the TNF&#8208;RSC in response to TNF&#8208;&#945; stimulation (Table&#160;1, Dataset EV2). Note that a similar amount of TNFR1 was recovered from the TNF&#8208;RSC purified from unstimulated and TNF&#8208;&#945;&#8208;stimulated cells, clearly demonstrating that the identified proteins were dynamically recruited to TNFR1 in response to TNF&#8208;&#945; stimulation. Identification of nearly all previously reported components of the TNF&#8208;RSC in our analyses clearly demonstrated the suitability of our approach for elucidating dynamics of the receptor signaling complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18495</offset>
+      <text>Quantitative analysis of TNF&#8208;RSC&#8208;associated proteins identifies SPATA2 as a novel component of the TNF&#8208;RSC</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18608</offset>
+      <text>Strategy for quantification of TNF&#8208;RSC&#8208;associated proteins. Cells were treated with FLAG&#8208;TNF&#8208;&#945; for 5 and 15&#160;min, and in control, FLAG&#8208;TNF&#8208;&#945; was added directly in the lysates. The TNF&#8208;RSCs were affinity&#8208;purified using anti&#8208;FLAG antibody, proteins were mixed, proteolysed, and the relative abundance of proteins was quantified with LC&#8208;MS/MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18971</offset>
+      <text>Validation of the TNF&#8208;RSC interacting proteins. A549 cells were stimulated with FLAG&#8208;TNF&#8208;&#945; for the indicated time and the TNF&#8208;RSCs were isolated as described in (A). TNF&#8208;&#945; stimulation&#8208;dependent interaction of the indicated proteins was confirmed by isolating the TNF&#8208;RSC and blotting with the indicated antibodies. The amount of the analyzed proteins in the input material used for the TNF&#8208;RSC isolation is also shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19408</offset>
+      <text>Quantification of ubiquitin linkage peptides in the TNF&#8208;RSC. The box plot shows the relative abundance of K48, K63, and linear ubiquitin linkage&#8208;specific peptides in the TNF&#8208;RSCs isolated from TNF&#8208;&#945;&#8208;stimulated (15&#160;min) and control cells quantified by SILAC&#8208;based MS. The bar plots indicate the ratio distribution of the linkage&#8208;specific peptides. The horizontal lines show the median. The whiskers extend to the most extreme data point which is no more than 1.5 times the interquartile range from the box.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19930</offset>
+      <text>Strategy for identification of SPATA2 interacting proteins. SILAC&#8208;labeled A549 cells were transfected with the GFP&#8208;SPATA2 or GFP alone, and one of GFP&#8208;SPATA2&#8208;transfected cell population was left unstimulated and the other one was stimulated with TNF&#8208;&#945; for 15&#160;min. Proteins were affinity&#8208;purified using GFP&#8208;Trap agarose and analyzed by LC&#8208;MS/MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20293</offset>
+      <text>The list of proteins enriched in SPATA2 pull&#8208;down. The table shows proteins that were enriched in GFP&#8208;SPATA2 pull&#8208;down. The columns under &#8220;Unstimulated&#8221; show SILAC ratios of the indicated proteins in SPATA2 pull&#8208;downs from unstimulated cells, whereas the columns under &#8220;Stimulated (TNF&#8208;&#945; 15&#160;min)&#8221; show SILAC ratios of the indicated proteins in SPATA2 pull&#8208;downs from cells stimulated with TNF&#8208;&#945; for 15&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20726</offset>
+      <text>Validation of TNF&#8208;&#945; stimulation&#8208;independent association of SPATA2 with CYLD. GFP&#8208;SPATA2 was immunoprecipitated from unstimulated and TNF&#8208;&#945;&#8208;stimulated cells and immunoprecipitates were probed with CYLD antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20949</offset>
+      <text>HOIP interacts with SPATA2. FLAG&#8208;HOIP&#8208;expressing A20.2J cells were SILAC&#8208;labeled, and FLAG&#8208;HOIP was immunoprecipitated from unstimulated cells and associated proteins were quantified using LC&#8208;MS/MS. The table contains proteins that were enriched in HOIP pull&#8208;down compared to control pull&#8208;down.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21258</offset>
+      <text>Validation of SPATA2 interaction with HOIP. GFP&#8208;tagged RNF31 was purified from unstimulated or TNF&#8208;&#945;&#8208;stimulated (15&#160;min) HCT116 cells, and the immunoprecipitates were blotted with SPATA2, CYLD, and GFP (HOIP) antibodies. The lower panels show expression of the indicated proteins in the input. The asterisk indicates unspecific band.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>21600</offset>
+      <text>List of proteins associated with the TNF&#8208;RSC</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>21647</offset>
+      <text>    Gene names Unique peptides TNF&#8208;&#945;&#8208;FLAG 5&#160;min/control TNF&#8208;&#945;&#8208;FLAG 15&#160;min/control   TNF&#8208;&#945; receptor TNFRSF1A 15 0.7 0.6  Ubiquitin ligases, deubiquitylases, and ubiquitin RNF31 57 26.5 21.3  SHARPIN 13 27.8 23.8  RBCK1 12 20.2 13.3  TRAF2 14 8.3 6.4  BIRC2 9 7.5 4.3  TRAF3 11 6.1 3.3  TRAF6 6 5.7 3.0  OTULIN 3 1.7 2.4  TNFAIP3 7 3.3 4.5  CYLD 23 9.9 7.3  UBC 2 8.2 6.9  Protein kinases CHUK 41 26.9 20.0  IKBKB 51 27.2 19.8  IKBKG 17 24.9 17.9  MAP3K7 21 16.6 8.4  RIPK1 36 15.5 12.5  IKBKE 12 2.0 12.0  TBK1 26 3.2 14.0  Signaling adaptors and regulators TRADD 16 14.6 13.7  TAB 1 24 9.5 5.1  TAB 2 20 16.2 6.8  TAB 3 18 5.5 2.9  OPTN 9 1.3 2.8  TANK 8 0.4 3.1  TNIP1 27 4.7 25.8  TNIP2 16 3.9 7.9  Others HTRA2 8 9.3 5.9  MIB2 8 3.5 4.1  SPATA2 14 12.4 8.6</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>22422</offset>
+      <text>The TNF&#8208;RSC was affinity&#8208;purified from unstimulated and TNF&#8208;&#945;&#8208;stimulated cells, and the enriched proteins were quantified using SILAC&#8208;based proteomics as described in Fig&#160;3A. The list displays proteins associated with the TNF&#8208;RSC in TNF&#8208;&#945; stimulation&#8208;dependent manner and includes previously known components of the TNF&#8208;RSC as well as newly identified high&#8208;confidence interactors. The experiment was performed in replicate, and the data shown represent the mean SILAC ratio of two independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22951</offset>
+      <text>Among the known regulators of the proximal TNFR1 signaling identified in our pull&#8208;downs were proteins involved in ubiquitylation signaling, such as TRAF2, BIRC2, RNF31, RBCK1, and SHARPIN, as well as proteins involved in phosphorylation signaling, such as RIPK1, TAK1, TAB1&#8211;3, and the IKK complex (IKK&#8208;&#945;, IKK&#8208;&#946;, and IKK&#8208;&#947;) (Table&#160;1). Consistent with their important roles in the early steps of TNF&#8208;&#945; signaling, all of these proteins associated rapidly with the TNF&#8208;RSC after the stimulation and the strength of their interaction started to decline within 15&#160;min of TNF&#8208;&#945; stimulation. Few proteins, including A20, TNIP1 (ABIN&#8208;1), and TNIP2 (ABIN&#8208;2), showed a delayed recruitment to the TNF&#8208;RSC. This is consistent with the negative regulatory function of these proteins in TNF&#8208;&#945;&#8208;induced signaling (Klinkenberg et&#160;al, 2001; Wagner et&#160;al, 2008). Also, in contrast to the rapid association of the canonical IKK, the non&#8208;canonical IKK&#8208;related kinases, IKBKE (IKK&#8208;&#949;) and TBK1, showed a delayed association with the TNF&#8208;RSC. The dynamic recruitment of several of the TNF&#8208;RSC components was validated by Western blotting (Fig&#160;3B). Together, these data draw a detailed picture of the temporal composition of the ligand&#8208;activated TNF&#8208;RSC.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24232</offset>
+      <text>Diverse ubiquitin linkages have been implicated in TNF&#8208;&#945; signaling and several components of the TNF&#8208;RSC are known to be ubiquitylated upon TNF&#8208;&#945; stimulation; however, the relative abundance of different ubiquitin linkages in the TNF&#8208;RSC is not fully explored. Based on the SILAC ratio of ubiquitin linkage&#8208;specific peptides, we quantified the relative abundance of ubiquitin linkages in the TNF&#8208;RSC purified from unstimulated and TNF&#8208;&#945;&#8208;stimulated cells. Consistent with a prominent role of linear ubiquitylation in TNF&#8208;&#945; signaling, the linear ubiquitin signature peptide showed an increased abundance in the TNF&#8208;RSC isolated from ligand&#8208;stimulated cells (Fig&#160;3C and Appendix&#160;Fig S2A).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24946</offset>
+      <text>SPATA2 is a novel component of the TNF&#8208;RSC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24991</offset>
+      <text>Most of TNF&#8208;RSC&#8208;associated proteins identified in our experiments were already known to associate with the TNF&#8208;RSC. However, to our knowledge, association of HTRA2, MIB2, and SPATA2 to the TNF&#8208;RSC has not been reported previously. HTRA2 is mitochondrial serine protease, which cleaves cIAPs and participates in TNF&#8208;&#945;&#8208;induced apoptosis (Suzuki et&#160;al, 2001; van Loo et&#160;al, 2002; Yang et&#160;al, 2003). While HTRA2 was consistently and specifically enriched in our TNF&#8208;RSC pull&#8208;downs, in unstressed cells HTRA2 is present in mitochondria. Therefore, it needs to be investigated whether association of HTRA2 with the TNF&#8208;RSC occurs in&#160;vivo inside cells or in&#160;vitro after cell lysis. MIB2 is an ubiquitin ligase that is involved in the regulation of NOTCH signaling and activation of BCL10&#8208;dependent NF&#8208;&#954;B signaling in antigen receptor signaling (Stempin et&#160;al, 2011). Very little is known about the function of SPATA2, and therefore, we decided to investigate the role of SPATA2 in TNF&#8208;&#945; signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26015</offset>
+      <text>We confirmed stimulation&#8208;dependent association of SPATA2 with the receptor signaling complexes by isolating the TNF&#8208;RSC from unstimulated control and TNF&#8208;&#945;&#8208;stimulated cells and probing the immunoprecipitates with SPATA2&#8208;specific antibodies (Fig&#160;3B). Association of SPATA2 with the TNF&#8208;RSC was further confirmed in HEK293 cells (Appendix&#160;Fig S2B). To further elucidate the role of SPATA2 in TNF&#8208;&#945; signaling, we applied a MS&#8208;based strategy to identify proteins that interact with SPATA2. SILAC&#8208;labeled cells were transfected with GFP&#8208;tagged SPATA2 and SPATA2&#8208;associated proteins were isolated from unstimulated cells, as well as from cells stimulated with TNF&#8208;&#945; (Fig&#160;3D and Dataset EV3). In unstimulated cells, SPATA2 interacted strongly with CYLD, as well as with all three components of LUBAC&#8212;HOIP, HOIL1, and SHARPIN (Fig&#160;3E). The interaction between SPATA2 and CYLD was independently verified by pull&#8208;down and immunoblotting (Fig&#160;3F). To further validate the interaction between SPATA2 and LUBAC, and to test whether this also occurred in other cell types, we purified HOIP from A20.2J cells (a murine B cell line). In this experiment, SPATA2 and CYLD were detected among the most prominent interactors of HOIP, in addition to well&#8208;known HOIP interactors&#8212;HOIL1, SHARPIN, and OTULIN (Fig&#160;3G). Interaction of HOIP with SPATA2 was also confirmed in HCT116 cells using immunoprecipitation and immunoblotting (Fig&#160;3H). These interactions occurred in unstimulated cells and we did not detect TNFR1 in our HOIP pull&#8208;downs (Fig&#160;3G), indicating that interaction between SPATA2, CYLD, and LUBAC likely occurred in steady&#8208;state condition, independent of the receptor. This is also consistent with previously described interaction between OTULIN and HOIP (Fiil et&#160;al, 2013; Schaeffer et&#160;al, 2014) and between CYLD and HOIP (Takiuchi et&#160;al, 2014; Draber et&#160;al, 2015) that also occurred independent of TNF&#8208;&#945; stimulation. While CYLD was detected both in SPATA2 and in HOIP pull&#8208;downs, OTULIN was only detected in HOIP pull&#8208;downs, suggesting that CYLD and OTULIN interact mutually exclusively with HOIP. Notably, stimulation of cells with TNF&#8208;&#945; induced association of SPATA2 with several other components of the TNF&#8208;RSC, including TNFR1, NEMO, IKK&#8208;&#945;, IKK&#8208;&#946;, TAB1, and TRADD (Fig&#160;3E). These results established that SPATA2 is a bona fide component of the TNF&#8208;RSC and prompted us to further investigate its function in TNF&#8208;&#945; signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28510</offset>
+      <text>SPATA2 links CYLD to the TNF&#8208;RSC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28545</offset>
+      <text>SPATA2 is a 520 amino acid long protein with a predicted PUB (PNGase/UBA or UBX) domain in its N&#8208;terminus and a PHD finger in its C&#8208;terminus (Fig&#160;4A) (Marchler&#8208;Bauer et&#160;al, 2015). To understand the structural requirements for the interaction between SPATA2 and CYLD, we generated SPATA2 deletion mutants (encompassing aa1&#8211;200 and aa1&#8211;458) that lacked the predicted functional domains and compared their interacting proteins with full&#8208;length (FL) SPATA2 using SILAC&#8208;based proteomics (Dataset EV3). These results showed that the N&#8208;terminus of SPATA2 (aa1&#8211;200) is sufficient for the interaction with CYLD, but not with components of LUBAC (Fig&#160;4B). Interaction of SPATA2 N&#8208;terminus with CYLD was further validated by pull&#8208;downs and immunoblotting (Fig&#160;4C). Using the same strategy, we established that the USP domain of CYLD is sufficient for mediating its binding to SPATA2 (Fig&#160;4D). Notably, the SPATA2 deletion mutant lacking the N&#8208;terminal 200 amino acids was able to interact with HOIP (Fig&#160;4E). These results show that the predicted PUB domain in the N&#8208;terminus of SPATA2 interacts with the USP domain of CYLD, whereas the C&#8208;terminus of SPATA2 interacts with HOIP.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29747</offset>
+      <text>The predicted PUB domain in the N&#8208;terminus of SPATA2 interacts with the USP domain of CYLD</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29840</offset>
+      <text>Schematic representation of predicted domain structure of SPATA2. The figure shows domain structure of full&#8208;length SPATA2 and SPATA2 deletion mutants that were used for MS&#8208;based interaction analysis (see B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30052</offset>
+      <text>The predicted PUB domain in the N&#8208;terminus of SPATA2 interacts with CYLD, but not required for interaction with LUBAC or other TNF&#8208;RSC components. GFP&#8208;SPATA2 and the indicated deletion mutants were purified from A549 cells that were stimulated with TNF&#8208;&#945; for 15&#160;min, and the enriched proteins were quantified using SILAC&#8208;based MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30395</offset>
+      <text>Validation of SPATA2 N&#8208;terminus interaction with CYLD. GFP&#8208;SPATA2 and the indicated deletion mutants were purified from A549 cells, and association of CYLD was analyzed by immunoblotting. The lower panels show controls.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30619</offset>
+      <text>The USP domain of CYLD interacts with SPATA2. STREP&#8208;FLAG&#8208;CYLD and the indicated deletion mutants were purified from A549 cells using Strep&#8208;Tactin sepharose and blotted with SPATA2 antibody. The lower panels show controls.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30847</offset>
+      <text>The C&#8208;terminus of SPATA2 interacts with HOIP. A549 cells were transiently transfected with GFP&#8208;tagged SPATA2, SPATA2 D200 and SPATA2 200*, and the transfected proteins were immunoprecipitated using GFP&#8208;Trap beads. The immunoprecipitates were immunoblotted with HOIP, CYLD, and GFP (SPATA2) antibodies. The lower panels show input control, and the asterisk shows unspecific band.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31232</offset>
+      <text>Next, we applied the TNF&#8208;RSC purification strategy and SILAC&#8208;based proteomics to investigate: (i) whether SPATA2 is necessary for the recruitment of CYLD to the TNF&#8208;RSC and (ii) whether SPATA2 downregulation affected the recruitment of other proteins to the TNF&#8208;RSC. To this end, we stimulated cells with TNF&#8208;&#945; and analyzed the association of proteins with the TNF&#8208;RSC in wild&#8208;type cells and in cells in which SPATA2 expression was downregulated using RNAi (Fig&#160;5A and Dataset EV2). Notably, knockdown of SPATA2 completely abolished recruitment of CYLD to the TNF&#8208;RSC, without substantially affecting the recruitment of the other components (Fig&#160;5B). The SPATA2&#8208;dependent recruitment of CYLD to the TNF&#8208;RSC was independently confirmed by orthogonal approaches (Fig&#160;5C), demonstrating that SPATA2 is essential for the recruitment of CYLD to the TNF&#8208;RSC. Unexpectedly, in these experiments, we observed reduced ubiquitylation of RIPK1 in the TNF&#8208;RSC after SPATA2 knockdown. A recent report showed that CYLD deubiquitylates necrosome&#8208;associated RIPK1, but not RIPK1 associated with the TNF&#8208;RSC (Moquin et&#160;al, 2013). Also, reduced RIPK1 ubiquitylation of TNF&#8208;RSC&#8208;associated RIPK1 was observed in HOIP knockout cells that failed to recruit CYLD to the TNF&#8208;RSC (Draber et&#160;al, 2015). While we do not know the reason for this, our observation appears consistent with these reports where TNF&#8208;RSC without CYLD appears to contain reduced levels of ubiquitylated RIPK1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32732</offset>
+      <text>SPATA2 is necessary for the recruitment of CYLD to the TNF&#8208;RSC</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32797</offset>
+      <text>Strategy for identification SPATA2&#8208;dependent protein association with the TNF&#8208;RSC. SPATA2 was knocked down using RNAi, cells were stimulated with FLAG&#8208;TNF&#8208;&#945;, and the TNF&#8208;RSC was enriched from control and SPATA2 knockdown cells as in Fig&#160;3A. The enriched proteins were quantified using SILAC&#8208;based MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33112</offset>
+      <text>Effect of SPATA2 knockdown on association of proteins with TNF&#8208;RSC. The list shows SILAC ratios of TNF&#8208;RSC&#8208;associated proteins in control cells and SPATA2 knockdown cells. The proteins that showed reduced association with the TNF&#8208;RSC after SPATA2 knockdown are highlighted red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33398</offset>
+      <text>Validation of SPATA2&#8208;dependent association of CYLD with the TNF&#8208;RSC. The TNF&#8208;RSC was purified under the indicated conditions, and association of SPATA2, CYLD, RIPK1, SHARPIN, TRAF2, and HOIP with the TNF&#8208;RSC was analyzed by immunoblotting. The input controls show expression of the analyzed proteins in cell lysates. The asterisk denotes unspecific bands.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33762</offset>
+      <text>SPATA2 is involved in the regulation of TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B activation and necroptosis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33857</offset>
+      <text>CYLD is an important regulator of TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B activation (Brummelkamp et&#160;al, 2003; Kovalenko et&#160;al, 2003; Trompouki et&#160;al, 2003). Therefore, based on our results, we hypothesized that SPATA2 could affect TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B signaling. While we did not observe substantial effects of SPATA2 knockdown on TNF&#8208;&#945;&#8208;induced phosphorylation of p38MAPK, p65, and JNK (Appendix&#160;Fig S3A), knockdown of SPATA2 significantly increased activation of the NF&#8208;&#954;B reporter under basal conditions as well as in cells stimulated with TNF&#8208;&#945; (Fig&#160;6A and Appendix&#160;Fig S3B). To further assess the role of SPATA2 in TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B signaling, we monitored expression of the NF&#8208;&#954;B target genes&#8212;TNFA, IL8, and CYLD, in SPATA2 knockdown cells (Fig&#160;6B). Consistent with the results of NF&#8208;&#954;B reporter assays, TNF&#8208;&#945;&#8208;induced expression of these NF&#8208;&#954;B target genes was increased in SPATA2 knockdown cells, showing that SPATA2 is involved in controlling TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34887</offset>
+      <text>SPATA2 is involved in TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B activation and necroptosis</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34964</offset>
+      <text>SPATA2 regulates TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B activation. HEK293T cells were transfected with the SPATA2 siRNA (SMARTpool or with to individual siRNA) or a non&#8208;targeting control siRNA, and NF&#8208;&#954;B activation was monitored with luciferase&#8208;based NF&#8208;&#954;B reporter assays. Error bars specify the standard error of the mean (SEM) of three independent experiments. **P&#160;&lt;&#160;0.05 (two&#8208;tailed, unpaired Student&#8242;s t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35388</offset>
+      <text>Knockdown of SPATA2 enhances expression of the NF&#8208;&#954;B target genes. HEK293T cells were transfected with SPATA2 siRNA or a non&#8208;targeting control siRNA, and the expression of the indicated mRNAs was measured in cells stimulated with TNF&#8208;&#945; for 0, 3, and 6&#160;h with qPCR.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35662</offset>
+      <text>SPATA2 is involved in TNF&#8208;&#945;&#8208;induced necroptosis. SPATA2 was knocked down in L929 cells using RNAi, and cells were pretreated with DMSO, Z&#8208;VAD, or Z&#8208;VAD+NEC1 for 1&#160;h followed by treatment with TNF&#8208;&#945; for 2.5&#160;h. Cell viability was assessed with propidium iodide staining and flow cytometry. Knockdown of SPATA2 mRNA was verified using real&#8208;time PCR. Error bars specify the standard error of the mean (SEM) of three independent experiments. **P&#160;&lt;&#160;0.05 (two&#8208;tailed, unpaired Student&#8242;s t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36175</offset>
+      <text>Knockdown of SPATA2 reduces phosphorylation of MLKL in TNF&#8208;&#945;&#8208;induced necroptosis. TNF&#8208;&#945;&#8208;dependent necroptosis was induced in L929 as described in Fig&#160;6C. Phosphorylation of MLKL was analyzed using S358 phospho&#8208;specific antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36417</offset>
+      <text>Model for SPATA2 function in TNF&#8208;&#945; signaling. SPATA2 interacts with CYLD and HOIP under steady&#8208;state conditions, and TNF&#8208;&#945; stimulation results in their recruitment to the TNF&#8208;RSC. SPATA2&#8208;dependent recruitment of CYLD impacts on the activation of TNF&#8208;&#945;&#8208;induced NK&#8208;&#954;B signaling and necroptosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36730</offset>
+      <text>In addition to its survival signaling through NF&#8208;&#954;B, TNF&#8208;&#945; signaling can induce cell death (Han et&#160;al, 2011). Because CYLD is directly involved in the regulation of TNF&#8208;&#945;&#8208;induced necroptosis (O'Donnell et&#160;al, 2011; Moquin et&#160;al, 2013), we tested the role of SPATA2 in this process. We employed L929 cells, which are widely used as model system for investigating TNF&#8208;&#945;&#8208;induced necroptosis. We downregulated the expression of SPATA2 by RNAi and assessed TNF&#8208;&#945;&#8208;induced necroptosis in the presence of caspase inhibitor Z&#8208;VAD. Depletion of SPATA2 significantly decreased TNF&#8208;&#945;&#8208;induced necroptosis (Fig&#160;6C). TNF&#8208;&#945;&#8208;induced necroptosis depends on RIPK1 and RIPK3 (He et&#160;al, 2009). Therefore, we included necrostatin&#8208;1 (NEC&#8208;1), a RIPK1 inhibitor (Degterev et&#160;al, 2005) that prevents the assembly of RIPK1&#8208;RIPK3 complex, as a positive control. As expected, TNF&#8208;&#945;/Z&#8208;VAD&#8208;induced cell death was abolished in the presence of NEC&#8208;1, confirming that the cell death in our assays occurred through necroptosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37777</offset>
+      <text>Mixed lineage kinase domain&#8208;like protein (MLKL) is a key downstream target of RIPK3 in the TNF&#8208;&#945;&#8208;induced necroptosis pathway, and phosphorylation of MLKL at T357, S358 by RIPK3 is important for necroptosis (Sun et&#160;al, 2012). Therefore, we monitored phosphorylation of MLKL using a S358 phospho&#8208;specific antibody. Phosphorylation of MKLK was robustly induced in cells treated with a combination of TNF&#8208;&#945; and Z&#8208;VAD, but not with TNF&#8208;&#945; alone, and this was dependent on RIPK activity as NEC&#8208;1 abrogated the phosphorylation (Fig&#160;6D). Knockdown of SPATA2 substantially reduced phosphorylation of MLKL. Together, these results showed that SPATA2 plays an important role in TNF&#8208;&#945;&#8208;induced necroptosis upstream of MLKL activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38524</offset>
+      <text>Based on the above findings, and the current literature, we propose that in unstimulated cells, SPATA2 interacts with CYLD and HOIP, which recruits this complex to the TNF&#8208;RSC in response to TNF&#8208;&#945; stimulation. Depletion of SPATA2 selectively abolishes association of CYLD with the TNF&#8208;RSC, but otherwise has no major effect on the association of other proteins with the TNF&#8208;RSC, including the recruitment of LUBAC. Thus, SPATA2 provides a specific link between CYLD and the TNF&#8208;RSC, and SPATA2&#8208;dependent recruitment of CYLD is involved in modulating the outcomes of TNF&#8208;&#945; signaling (Fig&#160;6E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>39133</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39144</offset>
+      <text>Protein phosphorylation and ubiquitylation are integral to TNF&#8208;&#945; signaling. In this work, we provided a detailed view of early TNF&#8208;&#945; signaling at the level of phosphorylation, ubiquitylation, and the receptor&#8208;associated signaling complexes. These results highlight the utility of multilevel quantitative mass spectrometry for detailed description of signaling pathways. Our results showed that both phosphorylation and ubiquitylation signaling are rapidly induced after TNF&#8208;&#945; stimulation, but the scope of TNF&#8208;&#945;&#8208;regulated ubiquitylation is relatively limited compared to phosphorylation. This emphasizes the fundamental difference between phosphorylation and ubiquitylation signaling networks in TNF&#8208;&#945;&#8208;signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39878</offset>
+      <text>Our work provided an exhaustive view of the TNF&#8208;RSC by identifying proteins that are recruited to the TNF&#8208;RSC immediately after TNF&#8208;&#945; stimulation and by showing that composition of the TNF&#8208;RSC is remodeled in a temporal manner. For example, proteins involved in the signal initiation, such as ubiquitin ligases and protein kinases rapidly associated with the TNF&#8208;RSC. In contrast, proteins involved in the negative regulation of TNF&#8208;&#945; signaling, such as OTULIN, ABIN&#8208;1, ABIN&#8208;2, and A20, associate more strongly at the later time point. Compared to other major known TNF&#8208;RSC components, we observe a relatively weak enrichment of OTULIN in our pull&#8208;downs indicating that binding of OTULIN to the TNF&#8208;RSC may be weak or highly dynamic. This may explain seemingly different observations of OTULIN interaction with the TNF&#8208;RSC in the literature (Schaeffer et&#160;al, 2014; Draber et&#160;al, 2015). By quantifying the relative abundance of K48, K63, and linear ubiquitin peptides in the TNF&#8208;RSC, we showed that the abundance of linear ubiquitin chains strongly increases after TNF&#8208;&#945; stimulation. Furthermore, we observed increased abundance of di&#8208;Gly&#8208;modified peptides derived from several TNF&#8208;RSC components. Because LUBAC appears to generate linear ubiquitin chains by extending substrate&#8208;conjugated ubiquitin, the increase in linear ubiquitin peptide abundance in the TNF&#8208;RSC, and di&#8208;Gly&#8208;modified peptides of TNF&#8208;RSC components in the di&#8208;Gly dataset, suggests that TNF&#8208;&#945; signaling likely involves both de novo and chain extension&#8208;dependent ubiquitylation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41480</offset>
+      <text>We identified SPATA2 as a novel component of the TNF&#8208;RSC and showed that it interacts with the deubiquitylase CYLD as well as with the LUBAC components&#8212;HOIP, HOIL1, and SHARPIN. Identification of interaction between CYLD and HOIP is consistent with previous studies that have also observed this interaction (Takiuchi et&#160;al, 2014; Draber et&#160;al, 2015). Our data support that SPATA2 constitutively binds to CYLD, HOIP, and other LUBAC components in the absence of TNF&#8208;&#945; stimulation; however, their recruitment to the TNF&#8208;RSC strictly depends on the activation of TNF&#8208;&#945; signaling. Interestingly, the PUB domain of HOIP can directly interact with OTULIN (Elliott et&#160;al, 2014; Schaeffer et&#160;al, 2014) and with the C&#8208;terminus of CYLD (Takiuchi et&#160;al, 2014). Here, we find that the predicted PUB domain in the N&#8208;terminus of SPATA2 also interacts with the C&#8208;terminal USP domain of CYLD, and the C&#8208;terminus of SPATA2 interacts with HOIP. Thus, it seems that HOIP can interact with CYLD directly as reported previously (Takiuchi et&#160;al, 2014) and indirectly via SPATA2 as shown in this study. While SPATA2 interacts with CYLD and HOIP, knockdown of SPATA2 selectively abolishes CYLD interaction with the TNF&#8208;RSC, without abolishing binding of LUBAC components. Thus, we propose that SPATA2 functions as a link between CYLD and HOIP, which likely recruits this complex to the TNF&#8208;RSC.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42881</offset>
+      <text>At a functional level, knockdown of SPATA2 increased transcriptional activation of NF&#8208;&#954;B and inhibited TNF&#8208;&#945;&#8208;induced necroptosis. These findings are consistent with the reported function of CYLD in TNF&#8208;&#945; signaling where it inhibits TNF&#8208;&#945;&#8208;induced NF&#8208;&#954;B activation (Brummelkamp et&#160;al, 2003; Kovalenko et&#160;al, 2003; Trompouki et&#160;al, 2003) and is required for TNF&#8208;&#945;&#8208;induced necroptosis (O'Donnell et&#160;al, 2011; Moquin et&#160;al, 2013). Consistent with our results, SPATA2 and CYLD were among the hits in a genome&#8208;wide screen for modulators of TNF&#8208;&#945;&#8208;induced necroptosis (Hitomi et&#160;al, 2008). Because SPATA2 is necessary for recruitment of CYLD to the TNF&#8208;RSC, and because its knockdown phenotype resembles previously reported phenotypes of CYLD deficiency, we postulate that SPATA2 functions in TNF&#8208;&#945; signaling through linking CYLD to the TNF&#8208;RSC.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43762</offset>
+      <text>In summary, the findings reported here highlight the utility of multimodal quantitative mass spectrometry for integrated analysis of signaling pathways on a proteome&#8208;wide scale. Our dataset encompassing TNF&#8208;&#945;&#8208;regulated phosphorylation, ubiquitylation, and the receptor&#8208;interacting proteins provides a rich resource for further investigating the functions of these PTMs and protein&#8211;protein interactions in TNF&#8208;&#945; signaling and in disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44213</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44235</offset>
+      <text>Cell culture and stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44264</offset>
+      <text>A549, HEK293, HCT116, and L929 cells were cultured in DMEM, and A20.2J cells were cultured in RPMI1640 medium, supplemented with 10% fetal bovine serum, L&#8208;glutamine, penicillin, and streptomycin. All cell lines, except A20.2J, were obtained from the American Type Culture Collection and regularly tested for mycoplasma. For SILAC labeling, cells were cultured in media containing either unlabeled l&#8208;arginine and l&#8208;lysine, or stable isotope&#8208;labeled l&#8208;arginine [13C6] and l&#8208;lysine [2H4], or l&#8208;arginine [13C615N4] and l&#8208;lysine [13C6&#8208;15N2] (Cambridge Isotope Laboratories) as described previously (Ong et&#160;al, 2002). Cells were cultured at 37&#176;C in a humidified incubator containing 5% CO2. Cells were stimulated with 100&#160;ng/ml of recombinant human TNF&#8208;&#945; (PeproTech) for the indicated periods and were subsequently washed with ice&#8208;cold phosphate&#8208;buffered saline. Cells were lysed in modified RIPA buffer (50&#160;mM Tris pH 7.5, 150&#160;mM NaCl, 1&#160;mM EDTA, 1% NP&#8208;40, 0.1% sodium deoxycholate) supplemented with protease inhibitors (complete protease inhibitor cocktail tablets, Roche Diagnostics), phosphatase inhibitors (Sigma), and 5&#160;mM N&#8208;ethylmaleimide (Sigma). Lysates were cleared by centrifugation at 16,000&#160;&#215;&#160;g. Protein concentrations were estimated using Bradford assay.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45567</offset>
+      <text>Purification of the TNF&#8208;RSC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45597</offset>
+      <text>A549 cells were stimulated with FLAG&#8208;tagged TNF&#8208;&#945; (Enzo Life Sciences, 100&#160;ng/ml). Cells were lysed in modified RIPA buffer supplemented with protease, phosphates inhibitors, and N&#8208;ethylmaleimide, and cell debris was pelleted by centrifugation. For the control cells, FLAG&#8208;TNF&#8208;&#945; was added directly to the lysate after cell lysis. The ligand&#8208;bound receptor complexes from 5&#160;mg of protein were enriched using 100&#160;&#956;l of agarose&#8208;conjugated &#945;&#8208;FLAG M2 antibody affinity matrix (Sigma) and washed five times with modified RIPA buffer. Subsequently, the bound proteins were eluted four times with 200&#160;&#956;g/ml of FLAG peptide (Sigma) and separated by SDS&#8211;PAGE. Proteins were digested in&#8208;gel and analyzed by LC&#8208;MS/MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46334</offset>
+      <text>MS sample preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46356</offset>
+      <text>Proteins from cell lysates were precipitated in acetone and subsequently redissolved in denaturation buffer (6&#160;M urea, 2&#160;M thiourea in 10&#160;mM HEPES pH 8.0). Cysteines were reduced with 1&#160;mM dithiothreitol and alkylated with 5.5&#160;mM chloroacetamide and digested with endoproteinase Lys&#8208;C (Wako Chemicals) and sequencing grade modified trypsin (Sigma). The proteases were inactivated by addition of trifluoroacetic acid (final concentration 1%), and precipitates were removed by centrifugation. Peptides were purified using reversed&#8208;phase Sep&#8208;Pak C18 cartridges (Waters).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46935</offset>
+      <text>For the enrichment of di&#8208;Gly&#8208;modified peptides, 20&#160;mg of peptides was redissolved in immunoprecipitation buffer (10&#160;mM sodium phosphate, 50&#160;mM sodium chloride, 50&#160;mM MOPS pH 7.2), and precipitates were removed by centrifugation. The modified peptides were enriched using 40&#160;&#956;l of di&#8208;glycine&#8208;lysine antibody resin (Cell Signaling Technology). Peptides were incubated with the antibodies for 4&#160;h at 4&#176;C on a rotation wheel. The beads were washed three times in ice&#8208;cold immunoprecipitation buffer followed by three washes in water. The enriched peptides were eluted with 0.15% trifluoroacetic acid in H2O, and peptides were fractionated into six fractions using micro&#8208;column&#8208;based strong&#8208;cation exchange chromatography (SCX) and desalted on reversed&#8208;phase C18 StageTips as described previously (Rappsilber et&#160;al, 2007; Weinert et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47802</offset>
+      <text>For the enrichment of phosphorylated peptides, 5&#160;mg of peptides in binding buffer (50% acetonitrile, 6% trifluoroacetic acid in H2O) (Zhou et&#160;al, 2013) was incubated with 10&#160;mg of TiO2 spheres (GL sciences) for 1&#160;h. The beads were washed twice in binding buffer, and subsequently peptides were eluted using elution buffer (10% NH4OH, 25% acetonitrile in H2O). The eluates were concentrated to remove NH4OH, and the peptides were fractionated into six fractions using micro&#8208;column&#8208;based SCX and desalted on reversed&#8208;phase C18 StageTips.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48348</offset>
+      <text>MS analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48360</offset>
+      <text>Peptide fractions were analyzed on a quadrupole Orbitrap (Q&#8208;Exactive, Thermo Scientific) mass spectrometer equipped with a nanoflow HPLC system (Thermo Scientific) as described (Michalski et&#160;al, 2011; Kelstrup et&#160;al, 2012). The samples were loaded onto C18 reversed&#8208;phase columns (15&#160;cm length, 75&#160;&#956;m inner diameter), and peptides were eluted with a linear gradient from 8 to 40% acetonitrile containing 0.5% acetic acid. The mass spectrometer was operated in data&#8208;dependent mode, automatically switching between MS and MS2 acquisition. Survey full scan MS spectra (m/z 300&#8211;1700) were acquired in the Orbitrap. The 10 most intense ions were sequentially isolated and fragmented by higher&#8208;energy C&#8208;trap dissociation (HCD) (Olsen et&#160;al, 2007). An ion selection threshold of 5,000 was used. Peptides with unassigned charge states, as well as with charge state &lt;&#160;+2 (and for di&#8208;Gly samples &lt;&#160;+3), were excluded from fragmentation. Fragment spectra were acquired in the Orbitrap mass analyzer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49371</offset>
+      <text>Peptide identification and computational analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49421</offset>
+      <text>Raw data files were analyzed using MaxQuant (development version 1.3.9.21) (Cox &amp; Mann, 2008). Parent ion and MS2 spectra were searched against a database containing 140,772 human protein sequences obtained from the UniProtKB released in February 2012 using the Andromeda search engine (Cox et&#160;al, 2011). Spectra were searched with a mass tolerance of 6&#160;ppm in MS mode, 20&#160;ppm in HCD&#160;MS2 mode, strict trypsin specificity and allowing up to three missed cleavage sites. Cysteine carbamidomethylation was searched as a&#160;fixed&#160;modification, whereas protein N&#8208;terminal acetylation, methionine oxidation, N&#8208;ethylmaleimide modification of cysteines, di&#8208;glycine&#8208;lysine and phosphorylation of serines, thereonines or tyrosines were searched as variable modifications. Di&#8208;glycine&#8208;modified lysines were required to be located internally in the peptide sequences. Site localization probabilities for the modifications were determined by MaxQuant using the PTM scoring algorithm as described previously (Olsen et&#160;al, 2006; Cox &amp; Mann, 2008). The dataset was filtered based on posterior error probability (PEP) to arrive at a false discovery rate of below 1% estimated using a target&#8208;decoy approach (Elias &amp; Gygi, 2007). Statistical analysis was performed using the R software environment. Phosphorylation sequence pattern analysis was performed using iceLogo (Colaert et&#160;al, 2009). The mass spectrometric raw data have been deposited to the ProteomeXchange Consortium (http://proteomecentral.proteomexchange.org) via the PRIDE partner repository with the dataset identifier PXD003627.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51015</offset>
+      <text>GO term enrichment was calculated using Fisher's exact test, and P&#8208;values were corrected for multiple hypothesis. For Fig&#160;2C, the relative enrichment of significantly enriched terms (P&#8208;values &lt;&#160;0.01) was clustered and displayed as heatmap. Functional protein interaction network analysis was performed using interaction data from the STRING database (Szklarczyk et&#160;al, 2011). Only interactions with a score &gt;&#160;0.7 are represented in the networks. Cytoscape version 3.0 beta (Cline et&#160;al, 2007) was used for visualization of protein interaction networks.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51577</offset>
+      <text>Antibodies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51588</offset>
+      <text>The following antibodies were used according to the manufacturer's instructions:</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>51669</offset>
+      <text>   Antibody Supplier   FLAG Sigma&#8208;Aldrich, F1804  GFP Santa Cruz, sc&#8208;9996  CYLD Cell Signaling, 8462  HOIP Sigma, SAB2102031  SPATA2 Bethyl Laboratories, A302&#8208;494A&#8208;1  TRAF2 Santa Cruz, sc&#8208;876  SHARPIN Cell Signaling, 4444  RIPK1 BD, 610458  TBK1 Cell Signaling, 3504  Phospho&#8208;MLKL Abcam, ab196436  Actin Sigma, A2228  Phospho&#8208;p38MAPK Cell Signaling, 9211  Phospho&#8208;JNK Cell Signaling, 9251  Phospho&#8208;p65 Cell Signaling, 3033  I&#954;B&#945; Cell Signaling, 9242</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52139</offset>
+      <text>SDS&#8211;PAGE and Western blotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52171</offset>
+      <text>Proteins were resolved on 4&#8211;12% gradient SDS&#8211;PAGE gels and transferred onto nitrocellulose membranes. Membranes were blocked using 5% BSA solution in PBS supplemented with Tween&#8208;20 (0.1%). Secondary antibodies coupled to horseradish peroxidase (Jackson ImmunoResearch Laboratories) were used for immunodetection. The detection was performed with Novex ECL Chemiluminescent Substrate Reagent Kit (Invitrogen).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52586</offset>
+      <text>Generation of SPATA2 and CYLD expression constructs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52638</offset>
+      <text>Full&#8208;length SPATA2 and CYLD were obtained from the human Ultimate ORFeome clones collection (Thermo Fisher Scientific) and cloned into Gateway&#8208;compatible expression vectors pcDNA&#8208;DEST53 (Thermo Fisher Scientific) and pMX&#8208;DEST53&#8208;TwinStrep&#8208;FLAG (custom made) for N&#8208;terminal tagging of SPATA2 with GFP and CYLD with TwinStrep&#8208;FLAG. N&#8208;terminally tagged GFP&#8208;SPATA2 458* (aa1&#8211;458), 200* (aa1&#8211;200) and D200 (aa221&#8211;520) and Strep&#8208;FLAG CYLD 600* (aa1&#8211;600), 400* (aa1&#8211;400) and USP (aa592&#8211;950) mutants were generated by site&#8208;directed mutagenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53210</offset>
+      <text>Immunoprecipitation and pull&#8208;down assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53253</offset>
+      <text>Cells were lysed in 500&#160;&#956;l of modified RIPA buffer supplemented with protease, phosphatase inhibitors, and N&#8208;ethylmaleimide. 20&#160;&#956;l or 40&#160;&#956;l of pre&#8208;equilibrated GFP&#8208;Trap agarose (Chromotek) or StrepTactin sepharose (IBA) was added to the cleared lysate and incubated for 1&#160;h at 4&#176;C on a rotation wheel. The beads were washed 5&#215; with modified RIPA buffer followed by the addition of NuPAGE LDS Sample Buffer (Life Technologies) supplemented with 1&#160;mM DTT. Proteins were eluted by heating at 70&#176;C for 10&#160;min and alkylated with 5.5&#160;mM chloroacetamide for 30&#160;min prior to loading on the SDS&#8211;PAGE and in&#8208;gel digestion. FLAG&#8208;tagged HOIP was purified from A20.2JRNF31&#8722;/&#8722;/FLAG&#8208;RNF31 cells in which the endogenous RNF31 is deleted and FLAG&#8208;RNF31 is introduced (Hostager et&#160;al, 2011). FLAG&#8208;tagged HOIP was immunoprecipitated as described previously (Satpathy et&#160;al, 2015). Briefly, cells were lysed in modified RIPA, and lysates were clarified by centrifugation at 13,000&#160;&#215;&#160;g for 20&#160;min at 4&#176;C. Cell lysate was incubated with &#945;&#8208;FLAG M2 antibody affinity matrix (Sigma) for 2&#160;h followed by four washes with modified RIPA buffer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54417</offset>
+      <text>RNA interference</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54434</offset>
+      <text>A549 cells were reverse transfected with siRNAs using Lipofectamine RNAiMAX (Invitrogen) according to the manufacturer's&#160;instructions. A mix of four siRNAs (SMARTpool from Thermo) was used to knockdown expression of SPATA2 and CYLD. For validation, the following individual siRNAs targeting SPATA2 were used.</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>54744</offset>
+      <text>   Oligo name Sequence   SPATA2 #1 UGA AGA AGU ACU AAC GCA U  SPATA2 #2 ACA UUG UGA GCG AGC GCA A</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54842</offset>
+      <text>As control, the ON&#8208;TARGETplus Non&#8208;targeting Control Pool and the ON&#8208;TARGETplus Non&#8208;targeting siRNA #1 were used.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54963</offset>
+      <text>NF&#8208;&#954;B reporter assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54989</offset>
+      <text>HEK293T cells were seeded into six&#8208;well plates and transfected in triplicate with 1&#160;&#956;g of the indicated expression plasmids using Fugene6 (Roche) according to the manufacturer's instructions. Cells were co&#8208;transfected with 0.2&#160;&#956;g pNF&#8208;&#954;B Luc (Promega) and 0.1&#160;&#956;g pRL&#8208;TK (Promega) for normalization of the transfection efficiency. After 36&#160;h, cells were either left untreated or stimulated with TNF&#8208;&#945; (20&#160;ng/ml). Six hours after the stimulation, luciferase activity was assayed using Dual&#8208;Luciferase Reporter Assay System (Promega) according to the manufacturer's instructions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55587</offset>
+      <text>Quantitative RT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55609</offset>
+      <text>Total RNA was isolated from A549 cells using RNeasy Mini Kit (Qiagen) according to the manufacturer&#700;s instructions, and RNA was reverse&#8208;transcribed with QuantiTect Reverse Transcription Kit (Qiagen). qPCR was performed using Brilliant II SYBR Green qPCR Master Mix (Agilent Technologies). Three independent replicates were performed for all experiments with two technical replicates per experiment. Relative expression of the transcripts was determined according to the &#916;&#916;Ct method using HPRT as reference for normalization. The following primer pairs were used to amplify specific gene products:</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>56214</offset>
+      <text>   Gene Forward primer Reverse primer   HPRT AGC CAG ACT TTG TTG GAT TTG TTT ACT GGC GAT GTC AAT AGG  TNFA TGC TGC AGG ACT TGA GAA GA GAG GAA GGC CTA AGG TCC AC  IL8 TCT GGC AAC CCT AGT CTG CT AAA CCA AGG CAC AGT GGA AC  CYLD TCA GGC TTA TGG AGC CAA GAA ACT TCC CTT CGG TAC TTT AAG GA  mSPATA2 GCC ATC AAC CTC TTC CTG TTC C AAT GGC TCG GAT GTC CTT CTC C</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56568</offset>
+      <text>Analysis of TNF&#8208;&#945;&#8208;induced necroptosis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56611</offset>
+      <text>L929 cells were transfected using Lipofectamine 2000 (Life Technologies) with control siRNA (Dharmacon #D&#8208;001206&#8208;14&#8208;05) or siRNA targeting mouse SPATA2 (Dharmacon #L&#8208;054069&#8208;01&#8208;0005). Twenty&#8208;four hours after transfection, cells were trypsinized and reverse transfected with siRNA and plated into a six&#8208;well plate. Forty&#8208;eight hours later, cells were pretreated with DMSO, Z&#8208;VAD (50&#160;&#956;M) or in combination of Z&#8208;VAD and NEC1 (50&#160;&#956;M) for 1&#160;h followed by treatment with 100&#160;ng/ml mouse TNF&#8208;&#945; for 2.5&#160;h. Cell viability was assessed with propidium iodide (Sigma) staining and flow cytometry, and data were analyzed with FlowJo. Knockdown of mouse SPATA2 (mSPATA2) mRNA was verified by real&#8208;time PCR.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57337</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57358</offset>
+      <text>SAW, SS, and PB designed and performed experiments, and analyzed data. SAW and CC analyzed the data and wrote the manuscript. All authors read and commented on the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57534</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57555</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57615</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>57638</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">2227</infon>
+      <infon key="pub-id_pmid">15620648</infon>
+      <infon key="fpage">2217</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>57649</offset>
+      <text>The Crohn's disease protein, NOD2, requires RIP2 in order to induce ubiquitinylation of a novel site on NEMO</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">756</infon>
+      <infon key="pub-id_pmid">12949498</infon>
+      <infon key="fpage">745</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>57758</offset>
+      <text>Signalling pathways of the TNF superfamily: a double&#8208;edged sword</text>
+    </passage>
+    <passage>
+      <infon key="volume">81</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="lpage">405</infon>
+      <infon key="pub-id_pmid">22439968</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>57825</offset>
+      <text>Mass spectrometry&#8208;based proteomics and network biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">214</infon>
+      <infon key="source">J Pathol</infon>
+      <infon key="lpage">160</infon>
+      <infon key="pub-id_pmid">18161752</infon>
+      <infon key="fpage">149</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>57882</offset>
+      <text>TNF&#8208;mediated inflammatory disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">267</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1488</infon>
+      <infon key="pub-id_pmid">7878466</infon>
+      <infon key="fpage">1485</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>57918</offset>
+      <text>Control of I&#8208;kappa&#8208;B&#8208;alpha proteolysis by site&#8208;specific, signal&#8208;induced phosphorylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">424</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">801</infon>
+      <infon key="pub-id_pmid">12917690</infon>
+      <infon key="fpage">797</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>58016</offset>
+      <text>Loss of the cylindromatosis tumour suppressor inhibits apoptosis by activating NF&#8208;kappa B</text>
+    </passage>
+    <passage>
+      <infon key="volume">296</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1635</infon>
+      <infon key="pub-id_pmid">12040173</infon>
+      <infon key="fpage">1634</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>58108</offset>
+      <text>TNF&#8208;R1 signaling: a beautiful pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">765</infon>
+      <infon key="pub-id_pmid">16056267</infon>
+      <infon key="fpage">758</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>58148</offset>
+      <text>Ubiquitin signalling in the NF&#8208;kappaB pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">439</infon>
+      <infon key="pub-id_pmid">20461098</infon>
+      <infon key="fpage">427</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58196</offset>
+      <text>Decoding signalling networks by mass spectrometry&#8208;based proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">2382</infon>
+      <infon key="pub-id_pmid">17947979</infon>
+      <infon key="fpage">2366</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>58265</offset>
+      <text>Integration of biological networks and gene expression data using Cytoscape</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">787</infon>
+      <infon key="pub-id_pmid">19876014</infon>
+      <infon key="fpage">786</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>58341</offset>
+      <text>Improved visualization of protein consensus sequences by iceLogo</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1372</infon>
+      <infon key="pub-id_pmid">19029910</infon>
+      <infon key="fpage">1367</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58406</offset>
+      <text>MaxQuant enables high peptide identification rates, individualized p.p.b.&#8208;range mass accuracies and proteome&#8208;wide protein quantification</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">1805</infon>
+      <infon key="pub-id_pmid">21254760</infon>
+      <infon key="fpage">1794</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>58547</offset>
+      <text>Andromeda: a peptide search engine integrated into the MaxQuant environment</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Drug Discov</infon>
+      <infon key="lpage">168</infon>
+      <infon key="pub-id_pmid">23334208</infon>
+      <infon key="fpage">147</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58623</offset>
+      <text>Clinical targeting of the TNF and TNFR superfamilies</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">232</infon>
+      <infon key="pub-id_pmid">19632174</infon>
+      <infon key="fpage">229</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>58676</offset>
+      <text>RIP kinases at the crossroads of cell death and survival</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">119</infon>
+      <infon key="pub-id_pmid">16408008</infon>
+      <infon key="fpage">112</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>58733</offset>
+      <text>Chemical inhibitor of nonapoptotic cell death with therapeutic potential for ischemic brain injury</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">2272</infon>
+      <infon key="pub-id_pmid">26670046</infon>
+      <infon key="fpage">2258</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>58832</offset>
+      <text>LUBAC&#8208;recruited CYLD and A20 regulate gene activation and cell death by exerting opposing effects on linear ubiquitin in signaling complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">214</infon>
+      <infon key="pub-id_pmid">17327847</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>58975</offset>
+      <text>Target&#8208;decoy search strategy for increased confidence in large&#8208;scale protein identifications by mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">348</infon>
+      <infon key="pub-id_pmid">24726323</infon>
+      <infon key="fpage">335</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59093</offset>
+      <text>Molecular basis and regulation of OTULIN&#8208;LUBAC interaction</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="lpage">410</infon>
+      <infon key="pub-id_pmid">17301840</infon>
+      <infon key="fpage">400</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>59154</offset>
+      <text>RIP1, a kinase on the crossroads of a cell's decision to live or die</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">830</infon>
+      <infon key="pub-id_pmid">23806334</infon>
+      <infon key="fpage">818</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59223</offset>
+      <text>OTULIN restricts Met1&#8208;linked ubiquitination to control innate immune signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">1149</infon>
+      <infon key="pub-id_pmid">22089220</infon>
+      <infon key="fpage">1143</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59304</offset>
+      <text>Programmed necrosis: backup to and competitor with apoptosis in the immune system</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">39</infon>
+      <infon key="pub-id_pmid">21119682</infon>
+      <infon key="fpage">22</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59386</offset>
+      <text>Deubiquitinases in the regulation of NF&#8208;kappaB signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1111</infon>
+      <infon key="pub-id_pmid">19524512</infon>
+      <infon key="fpage">1100</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>59445</offset>
+      <text>Receptor interacting protein kinase&#8208;3 determines cellular necrotic response to TNF&#8208;alpha</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1323</infon>
+      <infon key="pub-id_pmid">19109899</infon>
+      <infon key="fpage">1311</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>59538</offset>
+      <text>Identification of a molecular signaling network that regulates a cellular necrotic cell death pathway</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21829693</infon>
+      <infon key="fpage">e23061</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59640</offset>
+      <text>HOIL&#8208;1L interacting protein (HOIP) is essential for CD40 signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">508</infon>
+      <infon key="pub-id_pmid">25027653</infon>
+      <infon key="fpage">503</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59709</offset>
+      <text>Linear ubiquitin chains: NF&#8208;kappaB signalling, cell death and beyond</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Signal</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">23092889</infon>
+      <infon key="fpage">pe47</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59780</offset>
+      <text>PKR&#8208;dependent inflammatory signals</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Annu Rev Immunol</infon>
+      <infon key="lpage">663</infon>
+      <infon key="pub-id_pmid">10837071</infon>
+      <infon key="fpage">621</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>59817</offset>
+      <text>Phosphorylation meets ubiquitination: the control of NF&#8208;[kappa]B activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">3497</infon>
+      <infon key="pub-id_pmid">22537090</infon>
+      <infon key="fpage">3487</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59893</offset>
+      <text>Optimized fast and sensitive acquisition methods for shotgun proteomics on a quadrupole orbitrap mass spectrometer</text>
+    </passage>
+    <passage>
+      <infon key="volume">153</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1326</infon>
+      <infon key="pub-id_pmid">23746843</infon>
+      <infon key="fpage">1312</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60008</offset>
+      <text>OTULIN antagonizes LUBAC signaling by specifically hydrolyzing Met1&#8208;linked polyubiquitin</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">340</infon>
+      <infon key="pub-id_pmid">21906983</infon>
+      <infon key="fpage">325</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60099</offset>
+      <text>Systematic and quantitative assessment of the ubiquitin&#8208;modified proteome</text>
+    </passage>
+    <passage>
+      <infon key="volume">498</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">97</infon>
+      <infon key="pub-id_pmid">11389905</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>60175</offset>
+      <text>Functional redundancy of the zinc fingers of A20 for inhibition of NF&#8208;kappaB activation and protein&#8208;protein interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">424</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">805</infon>
+      <infon key="pub-id_pmid">12917691</infon>
+      <infon key="fpage">801</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>60300</offset>
+      <text>The tumour suppressor CYLD negatively regulates NF&#8208;kappa B signalling by deubiquitination</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">11239407</infon>
+      <infon key="fpage">487</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>60392</offset>
+      <text>The TNF and TNF receptor superfamilies: integrating mammalian biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="lpage">26</infon>
+      <infon key="pub-id_pmid">11803371</infon>
+      <infon key="fpage">20</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>60462</offset>
+      <text>The serine protease Omi/HtrA2 is released from mitochondria during apoptosis. Omi interacts with caspase&#8208;inhibitor XIAP and induces enhanced caspase activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D226</infon>
+      <infon key="pub-id_pmid">25414356</infon>
+      <infon key="fpage">D222</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60622</offset>
+      <text>CDD: NCBI's conserved domain database</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">21642640</infon>
+      <infon key="fpage">M111.011015</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60660</offset>
+      <text>Mass spectrometry&#8208;based proteomics using Q Exactive, a high&#8208;performance benchtop quadrupole Orbitrap mass spectrometer</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24098568</infon>
+      <infon key="fpage">e76841</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60783</offset>
+      <text>CYLD deubiquitinates RIP1 in the TNFalpha&#8208;induced necrosome to facilitate kinase activation and programmed necrosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">453</infon>
+      <infon key="pub-id_pmid">24012422</infon>
+      <infon key="fpage">443</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60901</offset>
+      <text>The pseudokinase MLKL mediates necroptosis via a molecular switch mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1442</infon>
+      <infon key="pub-id_pmid">22037414</infon>
+      <infon key="fpage">1437</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60977</offset>
+      <text>Caspase 8 inhibits programmed necrosis by processing CYLD</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">648</infon>
+      <infon key="pub-id_pmid">17081983</infon>
+      <infon key="fpage">635</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>61035</offset>
+      <text>Global, in&#160;vivo, and site&#8208;specific phosphorylation dynamics in signaling networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">712</infon>
+      <infon key="pub-id_pmid">17721543</infon>
+      <infon key="fpage">709</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>61120</offset>
+      <text>Higher&#8208;energy C&#8208;trap dissociation for peptide modification analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">3452</infon>
+      <infon key="pub-id_pmid">24187339</infon>
+      <infon key="fpage">3444</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61192</offset>
+      <text>Status of large&#8208;scale analysis of post&#8208;translational modifications by mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">386</infon>
+      <infon key="pub-id_pmid">12118079</infon>
+      <infon key="fpage">376</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>61284</offset>
+      <text>Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">1906</infon>
+      <infon key="pub-id_pmid">17703201</infon>
+      <infon key="fpage">1896</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>61406</offset>
+      <text>Protocol for micro&#8208;purification, enrichment, pre&#8208;fractionation and storage of peptides for proteomics using StageTips</text>
+    </passage>
+    <passage>
+      <infon key="volume">498</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">324</infon>
+      <infon key="pub-id_pmid">23708998</infon>
+      <infon key="fpage">318</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61528</offset>
+      <text>The linear ubiquitin&#8208;specific deubiquitinase gumby regulates angiogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Semin Immunol</infon>
+      <infon key="lpage">245</infon>
+      <infon key="pub-id_pmid">24647229</infon>
+      <infon key="fpage">237</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61604</offset>
+      <text>TNF and MAP kinase signalling pathways</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">26038114</infon>
+      <infon key="fpage">810</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>61643</offset>
+      <text>Systems&#8208;wide analysis of BCR signalosomes and downstream phosphorylation and ubiquitylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">361</infon>
+      <infon key="pub-id_pmid">24726327</infon>
+      <infon key="fpage">349</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61737</offset>
+      <text>Binding of OTULIN to the PUB domain of HOIP controls NF&#8208;kappaB signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Curr Opin Immunol</infon>
+      <infon key="lpage">626</infon>
+      <infon key="pub-id_pmid">21920725</infon>
+      <infon key="fpage">620</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61812</offset>
+      <text>The regulation of TNF signalling: what a tangled web we weave</text>
+    </passage>
+    <passage>
+      <infon key="volume">545</infon>
+      <infon key="source">Methods Enzymol</infon>
+      <infon key="lpage">65</infon>
+      <infon key="pub-id_pmid">25065885</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61874</offset>
+      <text>IAP family of cell death and signaling regulators</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">37157</infon>
+      <infon key="pub-id_pmid">21896478</infon>
+      <infon key="fpage">37147</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61924</offset>
+      <text>The E3 ubiquitin ligase mind bomb&#8208;2 (MIB2) protein controls B&#8208;cell CLL/lymphoma 10 (BCL10)&#8208;dependent NF&#8208;kappaB activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">227</infon>
+      <infon key="pub-id_pmid">22265413</infon>
+      <infon key="fpage">213</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62054</offset>
+      <text>Mixed lineage kinase domain&#8208;like protein mediates necrosis signaling downstream of RIP3 kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">621</infon>
+      <infon key="pub-id_pmid">11583623</infon>
+      <infon key="fpage">613</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>62151</offset>
+      <text>A serine protease, HtrA2, is released from the mitochondria and interacts with XIAP, inducing cell death</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D568</infon>
+      <infon key="pub-id_pmid">21045058</infon>
+      <infon key="fpage">D561</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62256</offset>
+      <text>The STRING database in 2011: functional interaction networks of proteins, globally integrated and scored</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Cells</infon>
+      <infon key="lpage">272</infon>
+      <infon key="pub-id_pmid">24461064</infon>
+      <infon key="fpage">254</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62361</offset>
+      <text>Suppression of LUBAC&#8208;mediated linear ubiquitination by a specific interaction between LUBAC and the deubiquitinases CYLD and OTULIN</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">132</infon>
+      <infon key="pub-id_pmid">19136968</infon>
+      <infon key="fpage">123</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>62495</offset>
+      <text>Involvement of linear polyubiquitylation of NEMO in NF&#8208;kappaB activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">424</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">796</infon>
+      <infon key="pub-id_pmid">12917689</infon>
+      <infon key="fpage">793</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>62570</offset>
+      <text>CYLD is a deubiquitinating enzyme that negatively regulates NF&#8208;kappa B activation by TNFR family members</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">3745</infon>
+      <infon key="pub-id_pmid">18212736</infon>
+      <infon key="fpage">3739</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>62677</offset>
+      <text>Ubiquitin binding mediates the NF&#8208;kappaB inhibitory potential of ABIN proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">M111.013284</infon>
+      <infon key="year">2011</infon>
+      <offset>62758</offset>
+      <text>A proteome&#8208;wide, quantitative survey of in&#160;vivo ubiquitylation sites reveals widespread regulatory roles</text>
+    </passage>
+    <passage>
+      <infon key="volume">244</infon>
+      <infon key="source">Immunol Rev</infon>
+      <infon key="lpage">28</infon>
+      <infon key="pub-id_pmid">22017428</infon>
+      <infon key="fpage">9</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62866</offset>
+      <text>TNF and ubiquitin at the crossroads of gene activation, cell death, inflammation, and cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">851</infon>
+      <infon key="pub-id_pmid">23954790</infon>
+      <infon key="fpage">842</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62959</offset>
+      <text>Lysine succinylation is a frequently occurring modification in prokaryotes and eukaryotes and extensively overlaps with acetylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1426</infon>
+      <infon key="pub-id_pmid">9135156</infon>
+      <infon key="fpage">1413</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>63091</offset>
+      <text>I kappa B epsilon, a novel member of the I kappa B family, controls RelA and cRel NF&#8208;kappa B activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">333</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">233</infon>
+      <infon key="pub-id_pmid">21617041</infon>
+      <infon key="fpage">228</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63195</offset>
+      <text>Phosphorylation of the autophagy receptor optineurin restricts salmonella growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">1006</infon>
+      <infon key="pub-id_pmid">23835476</infon>
+      <infon key="fpage">994</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63276</offset>
+      <text>Mlkl knockout mice demonstrate the indispensable role of Mlkl in necroptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">409</infon>
+      <infon key="pub-id_pmid">11239468</infon>
+      <infon key="fpage">401</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>63353</offset>
+      <text>NF&#8208;kappaB&#8208;inducing kinase regulates the processing of NF&#8208;kappaB2 p100</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Gene Dev</infon>
+      <infon key="lpage">1496</infon>
+      <infon key="pub-id_pmid">12815069</infon>
+      <infon key="fpage">1487</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>63429</offset>
+      <text>Omi/HtrA2 catalytic cleavage of inhibitor of apoptosis (IAP) irreversibly inactivates IAPs and facilitates caspase activity in apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">264</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">98</infon>
+      <infon key="pub-id_pmid">8140422</infon>
+      <infon key="fpage">95</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>63566</offset>
+      <text>Stat3 &#8211; a stat family member activated by tyrosine phosphorylation in response to epidermal growth&#8208;factor and interleukin&#8208;6</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">480</infon>
+      <infon key="pub-id_pmid">23391890</infon>
+      <infon key="fpage">461</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63696</offset>
+      <text>Robust phosphoproteome enrichment using monodisperse microsphere&#8208;based immobilized titanium (IV) ion affinity chromatography</text>
+    </passage>
+  </document>
+</collection>

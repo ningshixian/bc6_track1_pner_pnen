@@ -1,0 +1,1685 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4704488</id>
+    <passage>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_0">surname:Sladitschek;given-names:Hanna L</infon>
+      <infon key="name_1">surname:Neveu;given-names:Pierre A</infon>
+      <infon key="alt-title">Hanna L Sladitschek &amp; Pierre A Neveu</infon>
+      <infon key="article-id_publisher-id">MSB156525</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">850</infon>
+      <infon key="article-id_doi">10.15252/msb.20156525</infon>
+      <infon key="article-id_pmid">26690966</infon>
+      <infon key="volume">11 11</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="article-id_pmc">4704488</infon>
+      <infon key="year">2015</infon>
+      <infon key="issue">12</infon>
+      <infon key="notes">
+
+. () : 850
+</infon>
+      <infon key="kwd">microRNA single&#8208;cell heterogeneity stem cell differentiation stochasticity Development &amp; Differentiation Quantitative Biology &amp; Dynamical Systems</infon>
+      <offset>0</offset>
+      <text>The bimodally expressed microRNA miR&#8208;142 gates&#160;exit from pluripotency</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>73</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>82</offset>
+      <text>A stem cell's decision to self&#8208;renew or differentiate is thought to critically depend on signaling cues provided by its environment. It is unclear whether stem cells have the intrinsic capacity to control their responsiveness to environmental signals that can be fluctuating and noisy. Using a novel single&#8208;cell microRNA activity reporter, we show that miR&#8208;142 is bimodally expressed in embryonic stem cells, creating two states indistinguishable by pluripotency markers. A combination of modeling and quantitative experimental data revealed that mESCs switch stochastically between the two miR&#8208;142 states. We find that cells with high miR&#8208;142 expression are irresponsive to differentiation signals while cells with low miR&#8208;142 expression can respond to differentiation cues. We elucidate the molecular mechanism underpinning the bimodal regulation of miR&#8208;142 as a double&#8208;negative feedback loop between miR&#8208;142 and KRAS/ERK signaling and derive a quantitative description of this bistable system. miR&#8208;142 switches the activation status of key intracellular signaling pathways thereby locking cells in an undifferentiated state. This reveals a novel mechanism to maintain a stem cell reservoir buffered against fluctuating signaling environments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1348</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1361</offset>
+      <text>Stem cells respond to internal and external cues by self&#8208;renewal or commitment to a differentiated fate (North et&#160;al, 2007; Jiang et&#160;al, 2009; Medema &amp; Vermeulen, 2011; Kueh et&#160;al, 2013; Blanpain &amp; Fuchs, 2014). Current models suggest that this balance is controlled in&#160;vivo by stem cell niches (Scadden, 2006; Voog &amp; Jones, 2010; Simons &amp; Clevers, 2011) and in&#160;vitro by an appropriate growth factor environment (Murry &amp; Keller, 2008; Pera &amp; Tam, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1822</offset>
+      <text>Mouse embryonic stem cells (mESCs) constitute a powerful system to study the molecular mechanism of fate decisions in controlled in&#160;vitro environment (Ru&#233; &amp; Martinez Arias, 2015). mESCs are continuous cell lines derived from the inner cell mass of the blastocyst (Evans &amp; Kaufman, 1981; Martin, 1981). These cells can be propagated indefinitely in&#160;vitro while maintaining their pluripotency, that is the capacity to give rise to derivatives of all three germ layers and germ cells both in&#160;vitro and in&#160;vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2335</offset>
+      <text>microRNAs (miRNAs) are small non&#8208;coding RNAs that act as post&#8208;transcriptional regulators of gene expression (Bartel, 2009). A growing body of evidence suggests that miRNAs act as key players in stem cell homeostasis (Neum&#252;ller et&#160;al, 2008; Foronda et&#160;al, 2014) and cell fate decisions (Chen et&#160;al, 2004; Johnston et&#160;al, 2005; Li &amp; Carthew, 2005; Wang et&#160;al, 2007; Yi et&#160;al, 2008; Schwamborn et&#160;al, 2009). Whereas the role of transcription factor heterogeneity in defining different pluripotent substates is well established (Chambers et&#160;al, 2007; Singh et&#160;al, 2007; Toyooka et&#160;al, 2008), it is largely unknown whether such dynamic heterogeneity exists at the level of miRNA expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3036</offset>
+      <text>To address this gap in our knowledge, we used a single&#8208;cell miRNA activity reporter to identify miR&#8208;142 that is bimodally expressed in mESCs under pluripotency&#8208;maintaining conditions. miR&#8208;142 expression levels stratify mESCs with indistinguishable expression of pluripotency markers into two distinct subpopulations: mESCs with low miR&#8208;142 levels are amenable to signal&#8208;induced differentiation, while cells with high miR&#8208;142 levels are irresponsive to differentiation cues. Using quantitative experiments and simulations, we show that mESCs switch stochastically between the high and low miR&#8208;142 states. Dissecting the molecular mechanism, we find that miR&#8208;142 represses the activation of KRAS/ERK signaling in a double&#8208;negative feedback loop that creates a bistable system. We propose that the self&#8208;generated miR&#8208;142 two&#8208;state system functions to maintain a stem cell reservoir that is protected from differentiation signals from the environment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>4010</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>4018</offset>
+      <text>miR&#8208;142 is a new marker of mESC heterogeneity under na&#239;ve pluripotency conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4103</offset>
+      <text>We reasoned that miRNAs that control different self&#8208;renewing mESC states should show heterogeneous expression under uniform pluripotency&#8208;maintaining conditions. To identify such miRNAs, we devised a ratiometric fluorescence sensor that can visualize miRNA activity in single cells. The reporter consists of a bidirectional promoter driving the expression of a normalizer (H2B&#8208;mCherry) and a miRNA detector (H2B&#8208;Citrine), which contains in its 3&#8242;&#8208;UTR a target sequence of the miRNA of interest (Figs&#160;1A and EV1A). Using this reporter system, we screened 33 conserved miRNAs associated with differentiation, pluripotency or cell proliferation (Fig&#160;EV1B and C) in mESC lines stably expressing specific reporters. As expected, we found the abundant miR&#8208;294 to be highly active, whereas the differentiation&#8208;associated miRNA let&#8208;7 showed little activity (Fig&#160;EV1D and E). Most miRNA reporters displayed a normally distributed cell&#8208;to&#8208;cell variation comparable to a non&#8208;targeted control. Strikingly, however, we found a strongly variegated activity of miR&#8208;142&#8208;3p that divided clonal mESC colonies into two sectors with very different miRNA activity (Fig&#160;1B). Also at the population level, miR&#8208;142&#8208;3p activity was clearly bimodal distinguishing two mESC populations with either a high or a low miR&#8208;142&#8208;3p activity state (in the following referred to as &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states, Fig&#160;1C and D). Furthermore, this bimodal regulation was present in chemically defined media conditions that support na&#239;ve pluripotency including &#8220;2i&#8221; but was absent in primed pluripotency (Fig&#160;EV2). Thus the bimodal regulation of miR&#8208;142 represents a novel kind of mESC heterogeneity in LIF&#8208;dependent pluripotency.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5857</offset>
+      <text>The bimodal expression of miR&#8208;142 distinguishes two states in mESCs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5927</offset>
+      <text>Scheme&#160;of the experimental approach to monitor miRNA activity in single cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6007</offset>
+      <text>Confocal section of a single&#8208;cell&#8208;derived mESC colony stably expressing the miR&#8208;142&#8208;3p activity reporter and corresponding Z&#8208;score of the reporter ratio. As individual mESCs are not motile within a colony, sister lineages are spatially clustered. Scale bar: 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6284</offset>
+      <text>Detector and normalizer expression in a clonal mESC population stably expressing the miR&#8208;142&#8208;3p reporter.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6394</offset>
+      <text>Distribution of the miR&#8208;142&#8208;3p reporter ratio in a clonal mESC culture. Two log&#8208;normal distributions (&#8220;high&#8221; miR&#8208;142 activity state: red shaded area; &#8220;low&#8217;&#8217; miR&#8208;142 activity state: green shaded area) approximated well the experimental data (black line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6668</offset>
+      <text>Distribution of the miR&#8208;142&#8208;3p reporter ratio in mir142 &#8722;/&#8722; mESCs (blue line) and mir142 &#8722;/&#8722; mESCs transgenic for the mir142&#8208;hosting lincRNA driven by its own promoter (mir142 &#8722;/&#8722; rescue, orange line; see Materials and Methods for details).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6927</offset>
+      <text>Deep sequencing analysis of miRNA expression levels in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states. Levels of the two mature forms of miR&#8208;142, miR&#8208;142&#8208;3p and miR&#8208;142&#8208;5p are highlighted in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7144</offset>
+      <text>Adjustment of detector mRNA expression levels as a function of miR&#8208;142&#8208;3p levels (blue dots: experimental data measured by deep sequencing in FACS&#8208;purified populations) with Hill's equation&#160;with non&#8208;cooperative binding (red line; shaded area: fit confidence interval).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7422</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7425</offset>
+      <text>Single&#8208;cell miRNA activity reporter</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7463</offset>
+      <text>A synthetic bidirectional promoter drove the expression of H2B&#8208;Cherry as normalizer to control for transcriptional noise and H2B&#8208;Citrine as detector of miRNA activity with a target sequence for the respective miRNA 11&#160;bp downstream of its stop codon. Four enhancer elements of the mouse phosphoglycerate kinase Pgk1 gene (PGK) promoter were inserted between two back&#8208;to&#8208;back arranged minimal PGK&#8208;promoter fragments to create a bidirectional PGK promoter (upper panel). The bidirectional CAG&#8208;promoter was constructed by placing four CMV immediate&#8208;early enhancer elements between two back&#8208;to&#8208;back arranged fragments of the promoter, first exon and partial intron of chicken &#946;&#8208;actin gene fused to the splice acceptor of the rabbit &#946;&#8208;globin gene (lower panel). A positive selection cassette was included (not depicted). Intronic sequences are represented as lines. bGpA: rabbit &#946;&#8208;globin genomic fragment containing the polyadenylation signal. For use in the Rex1&#8208;dGFP knockin mESC line, we constructed an activity reporter based on a bidirectional CAG&#8208;promoter driving the expression of H2B&#8208;2xTagBFP as normalizer and H2B&#8208;Cherry as detector.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8637</offset>
+      <text>List of candidate miRNAs used in this screen.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8683</offset>
+      <text>Experimental scheme for the generation and screening of clonal mESC lines stably expressing miRNA activity reporters.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8801</offset>
+      <text>Reporter signal in single cell&#8208;derived mESC colonies and corresponding Z&#8208;score of the reporter ratio for a non&#8208;targeted control, a let&#8208;7a&#8208;5p and a miR&#8208;294&#8208;3p activity reporter. Scale bar: 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9012</offset>
+      <text>Reporter ratio distribution in mESCs stably expressing the activity reporters for miR&#8208;294&#8208;3p (red line), miR&#8208;142&#8208;3p (blue line), let&#8208;7a&#8208;5p (green line) and a non&#8208;targeted control (black line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9219</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9222</offset>
+      <text>miR&#8208;142 activity reporter in different pluripotency&#8208;sustaining media</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9295</offset>
+      <text>Bimodal miR&#8208;142 expression in na&#239;ve LIF&#8208;dependent pluripotency conditions. Distribution of the miR&#8208;142&#8208;3p reporter ratio in mESCs cultured in 10&#160;ng/ml LIF supplemented with serum (LIF+serum, black line) or 10&#160;ng/ml BMP4 (LIF+BMP4, green line) or in 1&#160;&#956;M PD0325901&#160;+&#160;3&#160;&#956;M CHIR99021 (LIF+2i, blue line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9614</offset>
+      <text>miR&#8208;142&#8208;3p reporter ratio distribution in primed pluripotency conditions (12&#160;ng/ml FGF2 and 20&#160;ng/ml Activin A, blue line) compared to na&#239;ve LIF&#8208;dependent pluripotency conditions (LIF+serum, black line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9827</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9830</offset>
+      <text>To validate that our reporter responded specifically to miR&#8208;142&#8208;3p, we generated mir142 &#8722;/&#8722; mESC lines by deleting both alleles of mir142 using the CRISPR/Cas9 technology (Appendix&#160;Fig S1). As expected, the repression of the reporter was relieved in mir142 &#8722;/&#8722; cells (Fig&#160;1E). In addition, we assessed miRNA expression levels of FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state subpopulations in wild&#8208;type mESCs by deep sequencing. This analysis showed a 10&#8208;fold increase in the expression levels of miR&#8208;142&#8208;3p and miR&#8208;142&#8208;5p, the two mature forms of the miR&#8208;142 stem loop, in &#8220;high&#8221; miR&#8208;142 mESCs compared to &#8220;low&#8221; miR&#8208;142 mESCs (Fig&#160;1F). Expression levels of all the other detected miRNAs were tightly correlated between the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states (Fig&#160;1F). Finally, we calibrated our single&#8208;cell miRNA activity reporter using expression data of miR&#8208;142&#8208;3p and mRNA reporter levels measured by deep sequencing. As expected, the signal of miR&#8208;142 activity reporter depends on miR&#8208;142&#8208;3p levels following Hill's equation&#160;with non&#8208;cooperative binding (Fig&#160;1G). Our reporter thus specifically measures the activity of miR&#8208;142&#8208;3p. Low miR&#8208;142&#8208;3p levels correspond to large reporter ratios and high miR&#8208;142&#8208;3p levels yield small reporter ratios. The system therefore allows us to quantitate miR&#8208;142 expression changes in single living cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11267</offset>
+      <text>The two miR&#8208;142 states are indistinguishable by pluripotency&#160;markers</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11339</offset>
+      <text>Previous reports of mESC heterogeneity found a metastable coexistence of a pluripotent state and a state prone to differentiate and already expressing lower levels of the pluripotency markers Nanog and Rex1 (Chambers et&#160;al, 2007; Singh et&#160;al, 2007; Toyooka et&#160;al, 2008; Singer et&#160;al, 2014). To test if miR&#8208;142 heterogeneity is upstream of expression changes in pluripotency markers, we analyzed FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESC populations. The two miR&#8208;142 states were both positive for alkaline phosphatase staining (Fig&#160;2A). mRNA profiles measured by deep sequencing of FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state mESCs clustered together, while the mRNA profiles of mESCs with low Nanog expression clustered apart (Fig&#160;2B&#8211;D). In addition, the miRNA expression profile of mESCs with low Nanog expression was markedly different from the miRNA expression signature of &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states (Appendix&#160;Fig&#160;S2). Gene set enrichment analysis (Subramanian et&#160;al, 2005) using curated gene sets (canonical pathways, BioCarta and KEGG gene sets) did not reveal any significantly dysregulated gene set between the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states. Comparing the expression of genes with a highly variable expression in mESCs (Klein et&#160;al, 2015), we found only 14 genes out of 1,891 with more than twofold expression changes between the two miR&#8208;142 sates (Appendix&#160;Fig S3). This number is similar to the one obtained when comparing biological replicates. In comparison, 302 genes display more than twofold changes in expression in low Nanog cells compared to high Nanog cells. Predicted targets of miR&#8208;142&#8208;3p had significantly lower expression in &#8220;high&#8221; miR&#8208;142 mESCs compared to &#8220;low&#8221; miR&#8208;142 mESCs (P&#160;&lt;&#160;0.001, determined by subsampling) and removing predicted miR&#8208;142&#8208;3p targets was sufficient to abrogate the clustering of &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 expression profiles (Appendix&#160;Fig&#160;S4). Closer examination of pluripotency factor expression showed no significant difference in the mRNA or protein expression levels of Oct4 (or Pou5f1), Nanog, Rex1 (or Zfp42) and Sox2 between the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states in FACS&#8208;purified subpopulations (Fig&#160;2E and F). Furthermore, the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states showed no difference in the known heterogeneity of NANOG (Figs&#160;2G and EV3A) or REX1 (Fig&#160;EV3B) protein expression at the single&#8208;cell level. Moreover, all cells stained positive for the pluripotency markers OCT4 and SSEA&#8208;1 irrespective of their &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 state identities (Fig&#160;EV3C and D). Additional pluripotency markers (Ng &amp; Surani, 2011) showed no significant difference at the mRNA expression levels (Fig&#160;EV3E). In addition, neither &#8220;high&#8221; nor &#8220;low&#8221; miR&#8208;142 state cells shared molecular markers with epiblast stem cells (Fig&#160;EV3F), that reside in a state of primed pluripotency. Thus, the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states are indistinguishable in their pluripotency marker expression and did not represent a primed pluripotent state.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14471</offset>
+      <text>&#8220;High&#8221; and &#8220;low&#8221; miR&#8208;142 cells express pluripotency markers at equal levels</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14557</offset>
+      <text>Alkaline phosphatase staining of FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state mESCs. Cells were cultured for 24&#160;h after sorting and stained. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14732</offset>
+      <text>Deep sequencing analysis of mRNA expression levels in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs (B) or mESCs with low Nanog expression (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14887</offset>
+      <text>Average linkage hierarchical clustering of mRNA profiles of &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs and of mESCs with low Nanog expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15028</offset>
+      <text>mRNA expression levels of pluripotency markers in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state mESCs (n&#160;=&#160;2; n.s.: not significant, two&#8208;sided t&#8208;test). Data represented as mean &#177; SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15230</offset>
+      <text>Western blot analysis and quantification of pluripotency marker levels in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state mESCs (n&#160;=&#160;7; n.s.: not significant, two&#8208;sided t&#8208;test). Data represented as mean &#177; SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15456</offset>
+      <text>Immunostaining of OCT4 and NANOG in a clonal miR&#8208;142&#8208;3p reporter mESC colony. Quantification of NANOG levels in individual cells showed no significant difference in NANOG expression between the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states (P&#160;=&#160;0.25, Kolmogorov&#8211;Smirnov test). In the plot, the whiskers denote 1.5 times the interquartile range. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15826</offset>
+      <text>miR&#8208;142 activity reporter ratio in a Rex1&#8208;dGFP knockin mESC line.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15896</offset>
+      <text>Distribution of miR&#8208;142 reporter ratio in cells positive for Rex1&#8208;dGFP expression (Rex1&#8208;dGFP+, purple line) and negative for Rex1&#8208;dGFP expression (Rex1&#8208;dGFP&#8722;, black line). Gates identifying the populations are displayed in (H).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16136</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16139</offset>
+      <text>&#8220;High&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs express pluripotency markers at equal levels and do not express epiblast stem cell markers</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16271</offset>
+      <text>Protein expression levels of the pluripotency markers NANOG (A), REX1 (B) and OCT4 (C) in single mESCs expressing the miR&#8208;142 activity reporter.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16418</offset>
+      <text>Expression levels of the pluripotency marker SSEA&#8208;1 in single mESCs expressing the miR&#8208;142 activity reporter.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16532</offset>
+      <text>mRNA expression levels of additional pluripotency markers in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state mESCs as well as cells with low Nanog expression (n&#160;=&#160;2; data represented as mean &#177; SEM).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16743</offset>
+      <text>mRNA expression levels of mESC and epiblast stem cell markers in &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state mESCs as well as mESCs maintained in &#8220;2i&#8221; and epiblast stem cells maintained in primed pluripotency conditions (FGF2&#160;+&#160;Activin) (n&#160;=&#160;2; n.s.: not significant, ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test). Data represented as mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17090</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17093</offset>
+      <text>Finally, we introduced the miR&#8208;142 activity reporter in a Rex1&#8208;dGFP knockin mESC line (Wray et&#160;al, 2011) in order to compare the bimodal regulation of miR&#8208;142 to the known heterogeneity in Rex1 expression. mESCs with high Rex1&#8208;dGFP levels revealed a bimodal regulation of miR&#8208;142 activity, that is mESCs with high Rex1&#8208;dGFP reside in either the &#8220;high&#8221; miR&#8208;142 state or the &#8220;low&#8221; miR&#8208;142 state (Fig&#160;2H and I). Moreover, cells with low Rex1&#8208;dGFP expression had a unimodal reporter distribution with a reporter ratio comparable to mir142 &#8722;/&#8722; mESCs, corresponding to an absence of miR&#8208;142 expression (Fig&#160;2H and I). Thus, the &#8220;high&#8221; miR&#8208;142 state and the &#8220;low&#8221; miR&#8208;142 state are only found together in the high Rex1 mESC compartment. This finding places miR&#8208;142 bimodality upstream of the so far described heterogeneity in pluripotency transcription factor expression. Therefore, miR&#8208;142 bimodality represents a novel kind of heterogeneity in na&#239;ve mESCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18097</offset>
+      <text>The two miR&#8208;142 states interconvert stochastically</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18150</offset>
+      <text>To assess whether and how the two miR&#8208;142 states can interconvert into each other, we monitored the distribution of miR&#8208;142 activity after FACS purification of &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 subpopulations (Fig&#160;3A). Indeed, either state could regenerate the other within 10&#160;days of culture under pluripotency conditions (Fig&#160;3A). State recovery was not due to any differential growth between the two miR&#8208;142 states because &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 cells divided at the same rate every 12&#160;h (Fig&#160;3B&#8208;D). To determine the interconversion rates, we quantified the fraction of the population in the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states. We then fitted the population data using first order reaction kinetics (see Materials and Methods for details, Fig&#160;3E and Appendix&#160;Fig&#160;S5A). Cells converted from &#8220;high&#8221; to &#8220;low&#8221; miR&#8208;142 states with a rate k 1&#160;=&#160;0.072&#160;&#177;&#160;0.01 per cell division (on average one switching event every 14 divisions), while the backconversion was slightly slower occurring with a rate k &#8722;1&#160;=&#160;0.048&#160;&#177;&#160;0.006 per cell division (on average one switching event every 21 divisions). Investigating the reporter ratio distribution in cultures derived from FACS&#8208;purified single cells showed that cultures recovered both states whether starting from &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 founder cells (Appendix&#160;Fig S5B; n&#160;&gt;&#160;160). This demonstrated that all clonogenic cells can switch between states. Single&#8208;cell live imaging of miR&#8208;142 activity revealed that switching occurred rapidly within less than a cell cycle and that after division sister lineages were not always correlated in their switching behavior (Fig&#160;3F and G, and Movie EV1) suggesting stochastic switching events.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19894</offset>
+      <text>Interconversion between the two miR&#8208;142 states</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19943</offset>
+      <text>&#8220;High&#8221; and &#8220;low&#8221; miR&#8208;142 subpopulations were FACS&#8208;purified and the temporal evolution of the miR&#8208;142 reporter ratio was measured. Shaded areas: quantification of cells in &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 states.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20170</offset>
+      <text>Scheme&#160;of the experimental design to compare proliferation rates of mESCs in the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state using a dye dilution by cell division strategy.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20341</offset>
+      <text>Time&#8208;lapse analysis of the fluorescence intensity of cells stained on day 0 with a commercial dye labeling free amines. The mESC culture was analyzed by flow cytometry each day. The distribution of the dye retention in all live cells in the culture (blue line) could be well approximated by the sum (shaded gray area) of gaussian distributions (white lines outlined in black) representing distinct cell division cycles. The distribution of dye retention in mESCs in the &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 state is outlined by a red or green line.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20889</offset>
+      <text>Population growth of mESCs starting from FACS&#8208;purified &#8220;high&#8221; (red line) and &#8220;low&#8221; (green line) miR&#8208;142 subpopulations (error bars represent SEM, n&#160;=&#160;6).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21057</offset>
+      <text>Reaction kinetics model of the interconversion between &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 cells. k high and k low are the proliferation rates of &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 cells, k 1 the interconversion rate from &#8220;high&#8221; to &#8220;low&#8221; miR&#8208;142 state and k &#8722;1 the interconversion rate from &#8220;low&#8221; to &#8220;high&#8221; miR&#8208;142 state.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21400</offset>
+      <text>Live imaging of switching events during the growth of a single&#8208;cell&#8208;derived mESC colony. Maximal projections of confocal stacks are shown at the indicated time points (h: hour). White arrowheads denote the cell with the first switching event at 41.5&#160;h and the two resulting daughters at 48&#160;h. Scale bar: 50&#160;&#956;m. See also Movie EV1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21739</offset>
+      <text>Single&#8208;cell tracks of reporter ratio in two sister lineages (green: sister lineage with activity switching, red and orange: sister lineage without activity switching, gray: all other lineages; spikes in reporter signal are artifacts due to signal saturation at mitotic divisions, black arrowheads correspond to the cells marked by white arrowheads in F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22096</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22099</offset>
+      <text>If switching were indeed stochastic, the variegated distribution of &#8220;high&#8221;/&#8221;low&#8221; miR&#8208;142 cells in a colony grown from a single cell will depend on the time when the first state switching occurred, since the states are on average stable for several cell cycles (Fig&#160;4A). Using a stochastic switching model, we could simulate the expected fraction of cells that switched state in colonies derived from pure &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 state single founders (Fig&#160;4B). To test this prediction, we measured the fraction of switched cells in colonies grown from single FACS&#8208;purified &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 cells. The stochastic switching model approximated well data from founder cells FACS&#8208;purified in the &#8220;low&#8221; miR&#8208;142 state but could not fit with the same parameters the state composition obtained in cultures derived from founder cells FACS&#8208;purified in the &#8220;high&#8221; miR&#8208;142 state (Fig&#160;4B). We thus introduced a refined model in which cells stochastically switch between the two miR&#8208;142 states but &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 cells can have different survival rates under clonogenic conditions while having the same proliferation rate (Fig&#160;4C). The experimental data were recapitulated by simulations using this refined model including a survival bias for &#8220;low&#8221; miR&#8208;142 cells under clonogenic conditions (see Materials and Methods for details, Fig&#160;4D). Interestingly, we experimentally confirmed this survival bias predicted by the model. Indeed, clonogenicity of FACS&#8208;purified &#8220;low&#8221; miR&#8208;142 cells (19.8&#160;&#177;&#160;6.6%) was higher than for &#8220;high&#8221; miR&#8208;142 cells (5.8&#160;&#177;&#160;3.1%) (Fig&#160;4E). This gave a survival bias for &#8220;low&#8221; miR&#8208;142 cells of 6.9 (90% confidence interval: 1.8&#8211;17.8), in excellent agreement with the 8&#8208;fold survival bias predicted by the simulations. Using a genetic loss&#8208;of&#8208;function approach, we could show that the loss of mir142 expression indeed improved clonogenicity without affecting the proliferation rate (Fig&#160;4F). In summary, we could demonstrate experimentally and theoretically that individual mESCs fluctuate stochastically between the two miR&#8208;142 states at a relatively low rate with a state switching event occurring on average every 8 cell divisions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24366</offset>
+      <text> mESCs switch stochastically between the two miR&#8208;142 states</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24428</offset>
+      <text>Stochastic switching model (left panel): Cells can switch state each cell division with probability k 1 or k &#8722;1. Experimental scheme (right panel): Clonal cultures were derived from single FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs. Occurrence of switching events was measured by assessing the miR&#8208;142 reporter ratio distribution in individual cultures.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24800</offset>
+      <text>Simulation of state distribution after colony growth following the model shown in (A) with a founder cell in &#8220;low&#8221; miR&#8208;142 (dashed green line) or &#8220;high&#8221; miR&#8208;142 (dashed red line) state (170 colonies, 14 divisions, k 1&#160;+&#160;k &#8722;1&#160;=&#160;0.08 per cell division, k 1&#160;=&#160;1.5 k &#8722;1). Solid red and green lines: experimentally measured state distribution in cultures derived from FACS&#8208;purified founder cells in &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states (n&#160;=&#160;169 and n&#160;=&#160;171).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25287</offset>
+      <text>Stochastic switching model with differential survival. &#8220;High&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs can have different survival rate under clonogenic conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25445</offset>
+      <text>Simulation of state distribution after colony growth following the stochastic switching model with differential survival shown in (C) with a founder cell in &#8220;low&#8221; miR&#8208;142 (dotted green line) or &#8220;high&#8221; miR&#8208;142 (dotted red line) state (170 colonies, 14 divisions, k 1&#160;+&#160;k &#8722;1&#160;=&#160;0.08 per cell division, k 1&#160;=&#160;1.5 k &#8722;1, plow/phigh&#160;=&#160;8). Shaded area: 95% confidence interval. Solid red and green lines: experimental data for FACS&#8208;purified founder cells in &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states, same data as shown in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25991</offset>
+      <text>Clonogenicity of single FACS&#8208;purified founder cells in &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 state (c.f.u.: colony forming units; n&#160;=&#160;50; P&#160;=&#160;3&#160;&#215;&#160;10&#8722;24, two&#8208;sided t&#8208;test; error bars represent SEM). Single cells were FACS&#8208;purified in 96&#8208;well plates (n represents the number of 96&#8208;well plates that were analyzed).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26320</offset>
+      <text>Clonogenicity of single mir142 +/+ (n&#160;=&#160;19), mir142 +/&#8722; (n&#160;=&#160;20) or mir142 &#8722;/&#8722; (n&#160;=&#160;20) mESCs (c.f.u.: colony forming units; P&#160;=&#160;10&#8722;8, P&#160;=&#160;2&#160;&#215;&#160;10&#8722;8 and P&#160;=&#160;8&#160;&#215;&#160;10&#8722;16, two&#8208;sided t&#8208;test; error bars represent SEM). Single cells were FACS&#8208;purified in 96&#8208;well plates (n represents the number of 96&#8208;well plates that were analyzed).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26686</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26689</offset>
+      <text>Constitutive miR&#8208;142 expression locks cells in an undifferentiated state</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26764</offset>
+      <text>A hallmark of embryonic stem cells is the ability to generate distinct differentiated cell types. To assess whether mir142 expression affects differentiation capacity, we compared mir142 gain&#8208; or loss&#8208;of&#8208;function mESCs regarding their capabilities to differentiate toward fates of the three germ layers, that is neuroectoderm, mesoderm, and endoderm fate. Upon differentiation, mir142 &#8722;/&#8722; cells stained positive for the neuronal marker Tuj1 (or &#946;III&#8208;tubulin), the muscle marker Desmin or the endoderm marker Foxa2 and were negative for the pluripotency marker Oct4 (Fig&#160;5A&#8211;C and Appendix&#160;Fig S6). By contrast, mir142 gain&#8208;of&#8208;function cells retained Oct4 expression and showed no differentiation marker expression (Fig&#160;5D&#8211;F and Appendix&#160;Fig S6). In order to understand genomewide this striking difference in response to differentiation cues, we profiled the transcriptomes of wild&#8208;type mESCs, mir142 &#8722;/&#8722; and mir142&#8208;expressing mESCs during a 6&#160;day endoderm differentiation time course. Strikingly, cells constitutively expressing mir142 always clustered with undifferentiated wild&#8208;type and mir142 &#8722;/&#8722; cells at day 1 or 2 (Fig&#160;5G), while differentiating wild&#8208;type mESCs and mir142 &#8722;/&#8722; cells from day 3&#8211;6 cluster separately. Using principal component analysis allowed us to visualize the trajectory of expression profiles during 6&#160;days of differentiation (Fig&#160;5H). This showed that unlike wild&#8208;type and mir142 &#8722;/&#8722; cells, cells constitutively expressing mir142 were essentially locked in an undifferentiated expression state (Fig&#160;5H and Appendix&#160;Fig S7A and B) and consistently failed to up&#8208;regulate established endoderm markers (Fig&#160;5I). Even at the end of the 6&#160;day differentiation procedure, cells with constitutive mir142 expression proliferated normally under pluripotency conditions, exhibited the characteristic 3&#8208;dimensional morphology of undifferentiated mESC colonies and were alkaline phosphatase&#8208;positive (Fig&#160;5J). In addition, genetic deletion of mir142 led to significantly larger changes in gene expression compared to wild&#8208;type cells as measured by projection on PC1 and PC2 (Appendix&#160;Fig S7A and B). Indeed, mir142 &#8722;/&#8722; cells exhibited significantly higher levels of differentiation markers and a lower expression of pluripotency markers compared to wild&#8208;type cells at day 6 of differentiation (Appendix&#160;Fig S7C). Together, our data demonstrate that mir142 expression locks mESCs in an undifferentiated state even if exposed to strong differentiation cues for several days.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29327</offset>
+      <text> mir142 expression locks mESCs in an undifferentiated state</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29387</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of TUJ1 and OCT4 (middle panel) in mir142 &#8722;/&#8722; mESCs differentiated for 6&#160;days to neuroectoderm. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29567</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of DESMIN and OCT4 (middle panel) in mir142 &#8722;/&#8722; mESCs differentiated for 6&#160;days to mesoderm. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29744</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of FOXA2 and OCT4 (middle panel) in mir142 &#8722;/&#8722; mESCs differentiated for 6&#160;days to endoderm. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29920</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of TUJ1 and OCT4 (middle panel) in mESCs with constitutive mir142&#8208;expression differentiated for 6&#160;days to neuroectoderm. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30123</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of DESMIN and OCT4 (middle panel) in mESCs with constitutive mir142&#8208;expression differentiated for 6&#160;days to mesoderm. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30323</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of FOXA2 and OCT4 (middle panel) in mESCs with constitutive mir142&#8208;expression differentiated for 6&#160;days to endoderm. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30522</offset>
+      <text>Hierarchical clustering of mRNA expression in mir142 +/+, mir142 &#8722;/&#8722; mESCs or mESCs with constitutive mir142&#8208;expression (const. mir142) during differentiation to endoderm progenitors (mir142 +/+: black; mir142 &#8722;/&#8722;: blue; const. mir142: orange; shading denotes the day of differentiation according to the boxed legend).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30851</offset>
+      <text>Principal component analysis of genomewide mRNA expression during differentiation of mir142 +/+ (black dots), mir142 &#8722;/&#8722; (blue dots) mESCs and mESCs with constitutive mir142&#8208;expression (const. mir142, orange dots). PC1 accounting for 60.6% of the variation was characterized by contributions of pluripotency and endoderm differentiation&#8208;associated genes, while PC2 (13.4% of the variation) was contributed by genes subjected to transient up&#8208; or down&#8208;regulation during the differentiation process. Shading denotes the day of differentiation according to the boxed legend in (G). Black and blue arrows depict the differentiation trajectory of mir142 +/+ and mir142 &#8722;/&#8722; cells, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31555</offset>
+      <text>Endoderm marker expression in mir142 &#8722;/&#8722; (blue) cells and cells with constitutive mir142&#8208;expression (orange) differentiated for 6&#160;days (n&#160;=&#160;2, **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test). Data represented as mean &#177; SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31793</offset>
+      <text>mESCs with constitutive mir142&#8208;expression (const. mir142) were differentiated for 6&#160;days, replated in pluripotency&#8208;maintaining conditions and stained for alkaline phosphatase. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31995</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31998</offset>
+      <text>The &#8220;high&#8221; mir142 subpopulation is delayed in differentiation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32064</offset>
+      <text>To test whether the naturally generated &#8220;high&#8221; miR&#8208;142 state also locks cells in an undifferentiated state, we differentiated wild&#8208;type mESCs expressing the miR&#8208;142 reporter toward neuroectoderm, mesoderm and endoderm fate. Upon differentiation toward neuroectoderm, mesoderm and endoderm fate, cells with &#8220;low&#8221; miR&#8208;142 activity stained positive for the neuronal marker Tuj1 (or &#946;III&#8208;tubulin), the muscle marker Desmin or the endoderm marker Foxa2, respectively (Fig&#160;6A&#8211;C). In contrast, cells exhibiting &#8220;high&#8221; miR&#8208;142 activity stained positive for the pluripotency marker Oct4 independently of the differentiation regime (Fig&#160;6A&#8211;C and Appendix&#160;Fig S8). We next aimed to characterize the effect of the endogenous bimodal miR&#8208;142 expression during the differentiation of a wild&#8208;type mESC population in more details. We first monitored the changes of miR&#8208;142 activity in FACS&#8208;purified &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 cell populations undergoing differentiation to neuroectoderm, mesoderm and endoderm. &#8220;High&#8221; miR&#8208;142 cells gradually lost miR&#8208;142 activity (and mir142 expression) over the first 4&#160;days of differentiation irrespective of the differentiation regime, becoming in majority converted into a &#8220;low&#8221; miR&#8208;142 state by day 7 (Fig&#160;6D and Appendix&#160;Fig S9). In contrast, &#8220;low&#8221; miR&#8208;142 cells did not change their miR&#8208;142 activity state under any differentiation cue (Fig&#160;6E). Inspection of the differentiating cultures revealed that &#8220;high&#8221; miR&#8208;142 cells kept their 3&#8208;dimensional morphology up to 4&#160;days, whereas &#8220;low&#8221; miR&#8208;142 cells readily adapted a differentiated monolayer morphology within 3&#160;days (Fig&#160;6F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33759</offset>
+      <text>The mir142&#8208;expressing subpopulation is delayed in differentiation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33827</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of TUJ1 and OCT4 (middle panel) in wild&#8208;type mESCs differentiated for 6&#160;days to neuroectoderm. Scale bar: 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34003</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of DESMIN and OCT4 (middle panel) in wild&#8208;type mESCs differentiated for 6&#160;days to mesoderm. Scale bar: 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34176</offset>
+      <text>miR&#8208;142 reporter signal (left panel) and immunostaining of FOXA2 and OCT4 (middle panel) in wild type mESCs differentiated for 6&#160;days to endoderm. Scale bar: 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34346</offset>
+      <text>Distribution of miR&#8208;142 activity reporter expression in FACS&#8208;purified &#8220;high&#8221; miR&#8208;142 cells (D) and FACS&#8208;purified &#8220;low&#8221; miR&#8208;142 cells (E) differentiated to neuroectoderm, mesoderm and endoderm. Shading denotes the time course of differentiation according to the boxed legend in the top panel.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34656</offset>
+      <text>Morphology of &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 cells exposed for 3&#160;days to endoderm differentiation cues. Scale bar: 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34786</offset>
+      <text>Hierarchical clustering of mRNA expression of undifferentiated wild&#8208;type mESCs (d0, black), wild&#8208;type mESCs differentiated for 6&#160;days (d6, gray) or subpopulations at day 3 of differentiation sorted according to their mir142 levels (red: high mir142; green: low mir142).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35061</offset>
+      <text>Projection on the first two principal components PC1 and PC2 of mRNA expression profiles of high mir142 (red dots) and low mir142 (green dots) at day 3 of differentiation (black dots: undifferentiated mESCs at day 0; gray dots: differentiated cells at day 6). The black arrow represents the differentiation trajectory of wild&#8208;type cells using data from Fig&#160;5H.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35425</offset>
+      <text>Pluripotency marker expression in high mir142 and low mir142 cells at day 3 of differentiation (n&#160;=&#160;5 and n&#160;=&#160;4, respectively, ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test). Data represented as mean&#160;&#177;&#160;SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35629</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35632</offset>
+      <text>We next aimed to gain a genomewide view of the differences in gene expression in differentiating mESCs depending on their mir142 levels. To do so, we subjected a bimodal mESC population grown under pluripotency conditions to differentiation cues for 3&#160;days, FACS&#8208;purified cell populations with either high or low mir142 expression and assessed gene expression by transcriptome profiling. Cells that exhibited high mir142 levels after 3&#160;days of differentiation clustered with undifferentiated mESCs, whereas cells with no mir142 expression clustered with differentiated cells (Fig&#160;6G). Projection onto the differentiation gene expression trajectory of wild&#8208;type mESCs confirmed that mir142&#8208;expressing cells remained at the beginning of the differentiation trajectory, while the profiles of mir142&#8208;negative cells had progressed to the end of the trajectory similar to differentiated cells (Fig&#160;6H). Probing specific genes showed that mir142&#8208;expressing cells failed to down&#8208;regulate pluripotency genes in response to instructive differentiation cues (Fig&#160;6I). To conclude, the naturally generated &#8220;high&#8221; miR&#8208;142 state locked cells in an undifferentiated state and the bimodal regulation of mir142 establishes a dichotomy between a subpopulation amenable to differentiation (the &#8220;low&#8221; miR&#8208;142 cells) and a pool of cells delayed in differentiation (the &#8220;high&#8221; miR&#8208;142 cells).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37038</offset>
+      <text>miR&#8208;142 states differ in AKT and ERK activation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37088</offset>
+      <text>Next, we sought a mechanistic understanding of the bimodal expression of miR&#8208;142 under LIF&#8208;dependent pluripotency conditions. Deep sequencing and a single&#8208;cell mir142 transcriptional reporter demonstrated that transcriptional regulation accounted for the bimodal regulation of miR&#8208;142 activity (Fig EV4A and B). LIF is known to activate three distinct signaling pathways through its coreceptor gp130 (Fig&#160;7A): the JAK/STAT3 (Niwa et&#160;al, 1998) and PI3K/AKT (Paling et&#160;al, 2004) pathways and the MEK/ERK signaling cascade (Burdon et&#160;al, 1999). Inhibiting ERK activity increased the expression of the mir142 transcriptional reporter in a dose&#8208;dependent manner, while inhibition of STAT3 or activation of AKT had no effect (Figs&#160;7B and EV4C). This indicated that ERK activity normally represses mir142 expression, predicting that cells with &#8220;high&#8221; miR&#8208;142 activity have reduced ERK activity. To test this, we measured phosphorylated ERK kinase in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state subpopulations. &#8220;High&#8221; miR&#8208;142 cells indeed showed reduced level of active ERK kinase compared to &#8220;low&#8221; miR&#8208;142 mESCs, while total ERK levels were unaffected (P&#160;=&#160;7&#160;&#215;&#160;10&#8722;7 for p&#8208;ERK, n&#160;=&#160;5, two&#8208;sided t&#8208;test, Fig&#160;7C). In addition phosphorylated AKT levels were reduced in &#8220;high&#8221; miR&#8208;142 cells compared to &#8220;low&#8221; miR&#8208;142 mESCs, while total AKT levels were unaffected as was phosphorylated and total STAT3 (P&#160;=&#160;8&#160;&#215;&#160;10&#8722;9 and P&#160;=&#160;0.78 for p&#8208;AKT and p&#8208;STAT3, n&#160;=&#160;5, two&#8208;sided t&#8208;test, Fig&#160;7C). Thus, the miR&#8208;142 states correspond to two subpopulations of mESCs that differed in the activation status of ERK and AKT signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>38789</offset>
+      <text> mir142 transcriptional reporter</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38822</offset>
+      <text>Comparison between miR&#8208;142&#8208;3p, miR&#8208;142&#8208;5p and mir142&#8208;hosting lincRNA expression levels measured by deep sequencing across 18 matched mRNA&#8208;miRNA libraries. Levels of miR&#8208;142&#8208;3p were well&#8208;correlated with the levels of miR&#8208;142&#8208;5p and of the mir142&#8208;hosting lincRNA (r&#160;=&#160;0.989, P&#160;=&#160;10&#8722;14; r&#160;=&#160;0.881, P&#160;=&#160;10&#8722;6, respectively).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39178</offset>
+      <text>Design of the fluorescent mir142 transcriptional reporter and mir142 transcriptional reporter signal in &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs in double transgenic mESC lines expressing both the miR&#8208;142 activity and the mir142 transcriptional reporters. The mir142 transcriptional reporter was not expressed beyond background autofluorescence levels in the majority of &#8220;low&#8221; miR&#8208;142 mESCs but was expressed in the majority of &#8220;high&#8221; miR&#8208;142 mESCs confirming transcription as the source of the bimodal regulation of mir142 expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39728</offset>
+      <text>Distribution of mir142 transcriptional reporter expression in the presence of 1&#160;&#956;M PD0325901 (PD, orange line) or 3&#160;&#956;M CHIR99021 (CHIR, purple line) or the combination of both inhibitors (&#8220;2i&#8221;, blue line). GSK&#8208;3 inhibition counteracted the effects of ERK&#8208;inhibition on the mir142 transcriptional reporter expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40057</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40060</offset>
+      <text>Ras/ERK signaling and miR&#8208;142 form a double&#8208;negative feedback loop and produce a bistable system</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40161</offset>
+      <text>Pharmacological interrogation of gp130&#8208;stimulated pathways. SC 79 activates AKT, SC&#8208;1 inhibits STAT3 activation and PD0325901 (PD) inhibits ERK activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40321</offset>
+      <text>Distribution mir142 transcriptional reporter expression under pharmacological interrogation of gp130&#8208;stimulated pathways (orange lines shaded according to the concentrations shown in the panel: PD; green line: SC 79; magenta line: SC&#8208;1; gray line: DMSO control).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40588</offset>
+      <text>Activation status of ERK, AKT, STAT3 and quantification in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs (n&#160;=&#160;5, ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test). Data represented as mean &#177; SEM).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40787</offset>
+      <text>Protein levels of gp130 and RAS and quantification in FACS&#8208;purified &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 mESCs (n&#160;=&#160;5; **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test). Data represented as mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40996</offset>
+      <text>Activation status of ERK, AKT, STAT3 and protein levels of gp130 and RAS in mir142 +/+ and mir142 &#8722;/&#8722; mESCs and quantification (n&#160;=&#160;4; ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test; error bars represent SEM).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41202</offset>
+      <text>miR&#8208;142 and Ras/ERK signaling form a double&#8208;negative feedback loop.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41274</offset>
+      <text>Theoretical phase diagram of the miR&#8208;142&#8211;ERK double&#8208;negative feedback loop. &#945; represents a rescaled miR&#8208;142 turnover and &#947; an ERK activation turnover. Wild&#8208;type mESCs sit in the bistability region (orange).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41493</offset>
+      <text>Simulated miR&#8208;142 levels depending on miR&#8208;142 production rate. At low production rates, there exists a single low miR&#8208;142 state. For intermediate production rates, two stable high and low miR&#8208;142 states coexist. Finally a single high miR&#8208;142 state is found at high miR&#8208;142 production rates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41796</offset>
+      <text>Design of systems with broken feedback loops through the deletion of Kras (Kras &#8722;/&#8722; mESCs) or the deletion of miR&#8208;142 binding sites in the 3&#8242;&#8208;UTR of Kras (Kras &#916;142/&#916;142 mESCs).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41986</offset>
+      <text>Distribution of the miR&#8208;142 reporter ratio in Kras &#8722;/&#8722; mESCs (orange line), Kras &#916;142/&#916;142 mESCs (green line) and wild&#8208;type mESCs (Kras +/+, black line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42150</offset>
+      <text>Nullclines of the miR&#8208;142 and ERK signaling double&#8208;negative feedback loop (black line: nullcline corresponding to mir142 +/+ cells; purple line: nullcline corresponding to mir142 +/&#8722; cells).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42347</offset>
+      <text>Prediction of mir142 expression levels in mir142 +/&#8722; mESCs. Using the calibration of the reporter ratio response shown in Fig&#160;1G, we could rescale the mir142 +/+ distribution (gray line) to derive predicted values of miR&#8208;142 concentration in the two stable miR&#8208;142 states. The reporter ratio distribution in mir142 +/&#8722; mESCs (purple line) could be well approximated by the model (pink dotted line, fitting parameters: state occupancies).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42794</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42797</offset>
+      <text>miR&#8208;142 balances AKT and ERK activation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42839</offset>
+      <text>The surprising finding that the LIF&#8208;stimulated signaling pathways ERK and AKT have different activity states in cells with &#8220;high&#8221; or &#8220;low&#8221; miR&#8208;142 activity despite being exposed to the same amount of LIF, prompted us to ask whether miR&#8208;142 itself tunes the sensitivity to LIF by repressing upstream signaling components of ERK and AKT. Consistent with bioinformatic prediction (Grimson et&#160;al, 2007), we found gp130 and Kras to be direct targets of miR&#8208;142&#8208;5p and miR&#8208;142&#8208;3p in mESCs (Appendix&#160;Fig S10). In addition, gp130 and Ras protein levels were significantly down&#8208;regulated in &#8220;high&#8221; compared to &#8220;low&#8221; miR&#8208;142 mESCs (Fig&#160;7D). Furthermore, mir142 &#8722;/&#8722; mESCs had elevated p&#8208;ERK and p&#8208;AKT levels as well as increased gp130 and RAS protein levels compared to mir142 +/+ mESCs (P&#160;=&#160;2&#160;&#215;&#160;10&#8722;7, P&#160;=&#160;10&#8722;4, P&#160;=&#160;0.038 and P&#160;=&#160;0.003 respectively, n&#160;=&#160;4, two&#8208;sided t&#8208;test, Fig&#160;7E). These instrumental effects of mir142 on ERK and AKT activation and gp130 and RAS protein expression were confirmed using a gain&#8208;of&#8208;function approach (Fig&#160;EV5). Altogether our results support a model where miR&#8208;142 represses gp130 and Ras expression, thereby reducing the transduction of LIF into ERK activity. This, in turn, relieves the ERK&#8208;dependent repression of mir142 expression, therefore forming a double&#8208;negative feedback loop (Fig&#160;7F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>44235</offset>
+      <text>Effect of miR&#8208;142 gain&#8208;of&#8208;function on the activation of the STAT3, AKT and ERK signaling pathways</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44339</offset>
+      <text>Distribution of miR&#8208;142 reporter ratio at the three mir142 induction levels used to assay the pathway activation status.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44462</offset>
+      <text>Activation status of ERK, AKT, STAT3 upon mir142 induction in mESCs and quantification (n&#160;=&#160;3; **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001, two&#8208;sided t&#8208;test; error bars represent SEM). Induction levels are color&#8208;coded according to the boxed legend.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44704</offset>
+      <text>gp130 and RAS protein levels upon mir142 induction in mESCs. mir142 induction levels are color&#8208;coded according to the boxed legend in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44845</offset>
+      <text>Activation status of ERK, AKT and STAT3 and their total levels upon induction of a control construct in mESCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44956</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44959</offset>
+      <text>The miR&#8208;142&#8211;ERK double&#8208;negative feedback loop creates a bistable system</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45037</offset>
+      <text>If the double&#8208;negative miR&#8208;142&#8211;ERK feedback loop can establish a bistable system, it would provide the molecular explanation for the two miR&#8208;142 activity states that define differentiation&#8208;competent and pluripotency&#8208;locked cells. We therefore used a simple kinetic model of non&#8208;linear feedback loops, which predicts a bistable region in the parameter space of miR&#8208;142 turnover rate (&#945;) and ERK activity turnover rate (&#947;) (Fig&#160;7G and H). It is possible to find two steady states for &#946;&#160;&gt;&#160;2 (&#946; corresponds to the ratio of total ERK to the affinity of its repressive interaction) with the size of the bistability region in the (&#945;, &#947;) parameter space increasing with increasing &#946; (Appendix&#160;Fig S11). The aforementioned condition corresponds to total ERK levels being in excess compared to the levels necessary to exert its repressive interaction. Bistability occurs mostly for large values for &#945;, corresponding to small degradation rates compared to miR&#8208;142 production rates. Indeed, miRNAs are stable in a wide variety of cells including mESCs (Krol et&#160;al, 2010), miRNA decay being mostly contributed by cell division (Gantier et&#160;al, 2011). Finally, bistability occurs mostly for large values for &#947; (of the order of one or greater). This corresponds to phosphorylation rates that are large compared to dephosphorylation rates, agreeing with experimental evidence (Fujioka et&#160;al, 2006). In conclusion, the parameter values necessary to observe bistability are in accordance with biological constraints.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46569</offset>
+      <text>As a first test of this bistable model, we broke the feedback loop by knocking out Kras in mESCs expressing the miR&#8208;142 activity reporter (Fig&#160;7I and Appendix&#160;Fig S12). The model predicts that removing Kras would lead to uniformly high miR&#8208;142 expression, which we observed experimentally in Kras &#8722;/&#8722; mESCs (Fig&#160;7J). As a further test of the implication of KRAS in the feedback loop, we deleted the miR&#8208;142 binding sites in the 3&#8242;&#8208;UTR of Kras (Fig&#160;7I). The model predicts that removing those binding sites will lead to a uniformly low miR&#8208;142 expression, which we observed experimentally in Kras &#916;142/&#916;142 mESCs (Fig&#160;7J). This indicates that KRAS is a key player in establishing the bimodal expression of miR&#8208;142 in mESCs. As a second test whether mESCs follow the prediction of this bistability model, we used our mir142 +/&#8722; cells, which possess a single mir142 allele and thus half the gene dosage compared to wild&#8208;type cells and measured miR&#8208;142 regulation in LIF&#8208;dependent pluripotency conditions. The stable points of the miR&#8208;142&#8211;ERK dynamical system can be visualized by drawing the nullclines which are the curves along which the time derivatives of miR&#8208;142 or active ERK are equal to zero. The nullclines for both mir142 +/+ and mir142 +/&#8722; cells indeed exhibited two stable fixed points for the same parameters (Fig&#160;7K): one at high miR&#8208;142 levels and low ERK activation status and one at low miR&#8208;142 levels and high ERK activation status. Thus the bistable miR&#8208;142&#8208;ERK feedback system allowed mir142 to be bimodally regulated in mir142 +/&#8722; cells, which we observed experimentally (Appendix&#160;Fig S13). Moreover, the prediction of the two stable mir142 expression levels in mir142 +/&#8722; cells was in excellent agreement with the experimental data (Fig&#160;7L). In conclusion, the double&#8208;negative feedback loop between miR&#8208;142 and Kras/ERK signaling creates a bistable system with a high miR&#8208;142 state with low ERK activation and a low miR&#8208;142 state with high ERK activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48608</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48619</offset>
+      <text>Our results support a model in which a double&#8208;negative feedback loop between Kras/ERK signaling and miR&#8208;142 produces a bistable system trapping mESCs in either a &#8220;low&#8221; miR&#8208;142 state that has a high level of ERK/AKT activity and is competent to differentiate or on the other hand a &#8220;high&#8221; miR&#8208;142 state that has a low level of ERK/AKT activity and is blocked from differentiation. High miR&#8208;142 levels hereby act as a red traffic light that prevents cells from transducing differentiation signals into gene expression programs driving exit from pluripotency and initiation of differentiation (Fig&#160;8A and B). Low miR&#8208;142 levels correspond to the green light that allows the initiation of differentiation (Fig&#160;8A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>49352</offset>
+      <text>The bimodal regulation of miR&#8208;142 gates the exit from pluripotency</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49421</offset>
+      <text>Illustration of the miR&#8208;142&#8211;Ras/ERK signaling bistable system as the molecular wiring of a traffic light.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49531</offset>
+      <text>Stochastic switching of individual cells between a state responsive and a state deaf to signaling changes leads to phenotypic diversification at the population level.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49698</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49701</offset>
+      <text>The mESC heterogeneity we describe here is caused by the action of a single microRNA. Such cell&#8208;to&#8208;cell variation is inaccessible to single&#8208;cell mRNA&#8208;Seq approaches and undetectable by traditional biochemical assays which yield population&#8208;average data. Our findings add a previously uncharacterized layer of cellular heterogeneity that is upstream of the so far reported mESC heterogeneity at the level of transcription factors (Chambers et&#160;al, 2007; Singh et&#160;al, 2007; Toyooka et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50206</offset>
+      <text>The differential signaling pathway activation in the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state explains the functional phenotypic differences we observed. High AKT activation in &#8220;low&#8221; miR&#8208;142 mESCs is likely to render them more clonogenic, as AKT signaling is known to facilitate cell survival at clonal density (Paling et&#160;al, 2004). The higher sensitivity of &#8220;low&#8221; miR&#8208;142 mESCs to instructive differentiation cues can be readily explained by their non&#8208;repressed activation of ERK signaling, a major transmitter of differentiation stimuli (Kunath et&#160;al, 2007). Indeed, the genetic deletion of mir142 led to increased levels of ERK and AKT activation, which explains the superior performance of mir142 &#8722;/&#8722; mESCs in differentiation and clonogenicity assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50982</offset>
+      <text>The action of miR&#8208;142 in controlling competence for differentiation might be of functional relevance in in&#160;vivo development or in the maintenance of adult stem cell compartments. Indeed, miR&#8208;142 is required to specify hemangioblast fate (Nimmo et&#160;al, 2013) and enforced miR&#8208;142 expression impairs macrophage differentiation in&#160;vivo (Sonda et&#160;al, 2013). Moreover, mir142 &#8722;/&#8722; mice have numerous hematopoietic defects: impaired lymphopoiesis (Kramer et&#160;al, 2015), megakaryopoiesis (Chapnik et&#160;al, 2014) and CD34+ dendritic cell homeostasis (Mildner et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51559</offset>
+      <text>Stochasticity in cell fate decisions (Losick &amp; Desplan, 2008) has been described to play an important role ranging from bacterial differentiation (S&#252;el et&#160;al, 2006) via cancer development (Gupta et&#160;al, 2011) to mammalian stem cells (Klein et&#160;al, 2010). However, the mir142 stochastic switch we uncovered here is not a fate switch but rather a mechanism that determines the competence of stem cells to respond to external stimuli. Cells that have entered the &#8220;high&#8221; miR&#8208;142 state are deaf to instructive differentiation signals and are therefore locked in an undifferentiated state until they interconvert into the &#8220;low&#8221; miR&#8208;142 state. We suggest that maintaining a stem cell subpopulation in a &#8220;high&#8221; miR&#8208;142 state irresponsive to differentiation cues is a mechanism to protect a reservoir of stem cells from differentiation, which can slowly interconvert into a responsive &#8220;low&#8221; miR&#8208;142 state without being completely diminished due to the high rate of self&#8208;renewal (Fig&#160;8B). Such a buffering mechanism safeguards developmental plasticity in the face of fluctuating or noisy environmental conditions and would prevent depletion of a stem cell reservoir even upon long periods of exposure to differentiation signals.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52807</offset>
+      <text>Our results explain why clonal stem cells fail to uniformly differentiate even in a uniform differentiation culture environment (Canham et&#160;al, 2010). Therefore, these findings are of fundamental interest to regenerative medicine applications where induced pluripotent stem cells failing to differentiate pose a risk of tumor development (Cohen &amp; Melton, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>53169</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53191</offset>
+      <text>Construct design</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53208</offset>
+      <text>All constructs were cloned using the MXS&#8208;chaining approach (Sladitschek &amp; Neveu, 2015). Primer sequences are available upon request from the authors.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>53360</offset>
+      <text>miRNA reporter constructs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53386</offset>
+      <text>PCR&#8208;amplified DNA fragments encoding the open reading frame of H2B&#8208;mCherry and H2B&#8208;Citrine were placed on either side of a bidirectional promoter. The PGK&#8208;promoter&#8208;based version consisted of four PGK enhancer elements between two back&#8208;to&#8208;back oriented minimal PGK promoters (McBurney et&#160;al, 1991). The version based on the CAG&#8208;promoter (Niwa et&#160;al, 1991) consisted of four CMV immediate early enhancer elements between two back&#8208;to&#8208;back arranged fragments containing the first exon and partial intron of chicken &#946;&#8208;actin gene linked to the splice acceptor of the rabbit &#946;&#8208;globin gene. The rabbit bGpA was used for both fluorescent proteins, but a binding site, perfectly complementary to the miRNA to be monitored was incorporated 11&#160;bp downstream of the Citrine stop codon. A PGK::hygroR&#8208;bGHpA cassette was included for selection. For use in the Rex1&#8208;dGFP knockin mESC line (kindly provided by Austin Smith), we constructed an activity reporter based on the same bidirectional CAG&#8208;promoter driving the expression of H2B&#8208;2xTagBFP as normalizer and H2B&#8208;Cherry as detector. Stable mESCs lines expressing the activity reporter were generated.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>54563</offset>
+      <text> mir142 transcriptional reporter</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54596</offset>
+      <text>The 1.52&#160;kb fragment upstream of the mir142&#8208;hosting lincRNA gene (ENSMUSG00000084796) was PCR&#8208;amplified from mouse genomic DNA from 129 genetic background and cloned in front of H2B&#8208;TagBFPx3&#8208;bGpA. The plasmid contained a PGK::neoR&#8208;bGHpA cassette for selection. A stable transgenic mESC line expressing the mir142 transcriptional reporter was established in a line stably expressing the miR&#8208;142 activity reporter.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>55022</offset>
+      <text>Inducible mir142 construct</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55049</offset>
+      <text>The lincRNA containing gene (ENSMUSG00000084796) was PCR&#8208;amplified from mouse genomic DNA from 129 genetic background and cloned on one side of a bidirectional Tet&#8208;promoter. On the other side of the promoter, we cloned NLS&#8208;TagBFPx3&#8208;PEST2D&#8208;bGHpA to quantify the induction level. The plasmid contained a PGK::neoR&#8208;bGHpA selection cassette and a PGK::rtTA&#8208;bGHpA cassette. A stable cell line (in a background stably expressing the miR&#8208;142 activity reporter) expressing mir142 in the presence of doxycycline at a dosage corresponding to 1.5 times the levels of endogenous mir142 expression in &#8220;high&#8221; miR&#8208;142 state cells was used as mir142 gain&#8208;of&#8208;function mESCs. Total miR&#8208;142 levels in those cells represented 0.05% of the total miRNA pool and were similar to the endogenous miR&#8208;142 expression levels found in the top 10% &#8220;high&#8221; miR&#8208;142 state cells, ruling out any overload of the miRNA biogenesis machinery. The mir142 stem loop&#8208;encoding fragment was replaced by a control miRNA stem loop in the control plasmid and a stable transgenic mESC line containing the construct was established in a line stably expressing the miR&#8208;142 activity reporter.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56232</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56245</offset>
+      <text>Mouse ESCs (R1 provided by the EMBL Transgenic Service or E14tga2, a kind gift of Michael Elowitz) were maintained without feeders in &#8220;LIF+serum&#8221; medium (DMEM high glucose, no glutamine, with sodium bicarbonate, Invitrogen) supplemented with 15% ES&#8208;qualified EmbryoMax Fetal Calf Serum (Millipore), 10&#160;ng/ml murine LIF (EMBL Protein Expression and Purification Core Facility), 1&#215; Non&#8208;Essential Amino Acids, 2&#160;mM L&#8208;glutamine, 1&#160;mM sodium pyruvate, 100 U/ml penicillin and 100&#160;&#956;g/ml streptomycin, 0.1&#160;mM 2&#8208;mercaptoethanol (all Invitrogen) on culture dishes (Nunc) coated with 0.1% gelatin (Sigma) solution and cultured at 37&#176;C with 5% CO2. N2B27 medium was prepared from a 1:1 mixture of DMEM/F12 (without HEPES, with L&#8208;glutamine) and neurobasal medium with 0.5&#215; B&#8208;27 (without vitamin A) and 0.5&#215; N&#8208;2 supplements, 100&#160;U/ml penicillin and 100&#160;&#956;g/ml streptomycin, 0.25&#160;mM L&#8208;glutamine, 0.1&#160;mM 2&#8208;mercaptoethanol (all Invitrogen), 10&#160;&#956;g/ml BSA fraction V and 10&#160;&#956;g/ml human recombinant insulin (both Sigma). &#8220;2i&#8221; medium (Ying et&#160;al, 2008) was N2B27 medium supplemented with 3&#160;&#956;M CHIR99021 and 1&#160;&#956;M PD0325901 (both Tocris Bioscience). &#8220;LIF+BMP4&#8243; (Ying et&#160;al, 2003a) medium was prepared by adding 10&#160;ng/ml murine BMP4 (R&amp;D Systems) to N2B27 medium with 10&#160;ng/ml murine LIF. Cells under primed pluripotency conditions (Greber et&#160;al, 2010) were cultured in N2B27 medium with 12&#160;ng/ml murine FGF2 and 20&#160;ng/ml murine Activin A (both PeproTech). Medium was changed daily and cells were passaged every other day with 0.05% Trypsin&#8208;EDTA or StemPro Accutase (Invitrogen) at a passaging ratio of 1/3&#8211;1/12. mESCs were differentiated to endoderm precursors, mesoderm precursors and neuroectoderm precursors as described (Ying et&#160;al, 2003b; Borowiak et&#160;al, 2009; Torres et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58076</offset>
+      <text>Generation of mir142 +/&#8722;, mir142 &#8722;/&#8722; mESCs and rescue of mir142&#160;knockout</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58156</offset>
+      <text>RNA&#8208;guided Cas9 nucleases were used to delete the mir142 gene.&#160;Two guide RNA inserts (with genome target sequences: 5&#8242;&#8208;GGTGGCCTGAAGAATCCCCG, 5&#8242;&#8208;GGAGCCATGAAGGTCTTTCG) were designed and cloned in pX330&#8208;U6&#8208;Chimeric&#8208;BB&#8208;CBh&#8208;hSpCas9 following Hsu et&#160;al (2013). Both Cas9 plasmids were cotransfected in mESCs stably expressing the miR&#8208;142 activity reporter. Successfully edited clones corresponding to mir142 +/&#8722; and subsequently to mir142 &#8722;/&#8722; were identified by the derepression of the miR&#8208;142&#8208;3p activity reporter and the deletion was confirmed by sequencing of genomic PCR products. For the mir142 &#8722;/&#8722; rescue construct, the 1.52&#160;kb upstream region and the mir142&#8208;hosting lincRNA gene (ENSMUSG00000084796) were combined and a PGK::puroR&#8208;bGHpA cassette was added for selection. Stable transgenic mESC lines expressing the construct were generated in a mir142 &#8722;/&#8722;/miR&#8208;142 activity reporter background.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59100</offset>
+      <text>Generation of Kras &#8722;/&#8722; mESCs and Kras &#916;142/&#916;142 mESCs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59162</offset>
+      <text>RNA&#8208;guided Cas9 nucleases were used to delete the Kras gene. Four guide RNA inserts targeting the first exon of Kras which is essential (Johnson et&#160;al, 1997) (with genome target sequences: 5&#8242;&#8208;TATACTCAGTCATTTTCAGC, 5&#8242;&#8208;GACTGAGTATAAACTTGTGG, 5&#8242;&#8208;CTGAATTAGCTGTATCGTCA, 5&#8242;&#8208;GCTAATTCAGAATCACTTTG) were designed and cloned in pX330&#8208;U6&#8208;Chimeric&#8208;BB&#8208;CBh&#8208;hSpCas9 following Hsu et&#160;al (2013). The four Cas9 plasmids were cotransfected in mESCs stably expressing the miR&#8208;142 activity reporter. Successfully edited clones corresponding to Kras &#8722;/&#8722; were validated by checking for the deletion of the first exon by genomic PCR and the absence of any KRAS protein expression by Western blot. miR&#8208;142 bindig sites in the 3&#8242;&#8208;UTR of the Kras gene were deleted using RNA&#8208;guided Cas nucleases. Nine guide RNAs targeting the three miR&#8208;142 sites (with genome target sequences: 5&#8242;&#8208;TGATAAAGTCTAGGACACGC, 5&#8242;&#8208;TTATCATCTTTCAGAGGCGT, 5&#8242;&#8208;TAGACTTTATCATCTTTCAG, 5&#8242;&#8208;TTGAGATTGAATTGTTGTAG, 5&#8242;&#8208;ACAATTCAATCTCAATCCTT, 5&#8242;&#8208;GCAGCAGGAATGAAGTCCAA, 5&#8242;&#8208;GTTTGATTTAAAAGTTGCAT, 5&#8242;&#8208;CATTTCAAAAAAATAGTTTA, 5&#8242;&#8208;TAATTATTTCATTTTTCTAA) were designed and cloned in pX330&#8208;U6&#8208;Chimeric&#8208;BB&#8208;CBh&#8208;hSpCas9 following Hsu et&#160;al (2013). Successfully edited clones corresponding to Kras &#916;142/&#916;142 mESCs were isolated after cotransfection of the nine Cas9 plasmids in mESCs stably expressing the miR&#8208;142 activity reporter.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60607</offset>
+      <text>Flow cytometry and fluorescence&#8208;activated cell sorting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60664</offset>
+      <text>Cells were analyzed on an LSRFortessa flow cytometer (BD BioSciences). FACS purification was carried out using two MoFlo sorters (DakoCytomation) or a BD Influx sorter (BD BioSciences).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60850</offset>
+      <text>Pharmacology</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60863</offset>
+      <text>mESCs were cultured in LIF+serum supplemented with the following compounds at the indicated concentrations: AKT activator SC 79 (Tocris) at 5&#160;&#956;M, MEK inhibitor PD0325901 (Tocris) at 0.2&#8211;1.2&#160;&#956;M, STAT3 inhibitor SC&#8208;1 (Sigma) at 5&#160;&#956;M and GSK&#8208;3 inhibitor CHIR99021 (Tocris) at 3&#160;&#956;M. DMSO served as vehicle and as negative control in all cases.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61217</offset>
+      <text>Immunoblot and immunostainings</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61248</offset>
+      <text>Primary and secondary antibodies are described in the Appendix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61312</offset>
+      <text>RNA&#8208;seq library construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61343</offset>
+      <text>RNA was extracted from cells trypsinized from plates or pelleted directly after FACS&#8208;sorting using the MirVana kit (Ambion) following the manufacturer's instructions. miRNA and mRNA libraries were prepared from the same total RNA sample. Twenty&#8208;one barcoded miRNA libraries were prepared using NEBNext Multiplex Small RNA Library Prep Set for Illumina (New England Biolabs) following the manufacturer's instructions. Seventy&#8208;eight barcoded mRNA libraries were prepared using TruSeq RNA Sample Preparation (Illumina) following the manufacturer's instructions. Libraries were run on Illumina HiSeq 2000 in the 50SE regime. Sequencing results are available on ArrayExpress with accession E&#8208;MTAB&#8208;2830, E&#8208;MTAB&#8208;3234 for mRNA&#8208;seq and E&#8208;MTAB&#8208;2831 for miRNA&#8208;seq.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62119</offset>
+      <text>RNA&#8208;seq analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62138</offset>
+      <text>We built a Bowtie index for Ensembl cDNAs of the mouse genome release GRCm38 masked with RepeatMasker (Smit, AFA, Hubley, R and Green, P. RepeatMasker Open&#8208;3.0. 1996&#8211;2010 http://www.repeatmasker.org). mRNA reads were aligned to this index using Bowtie (Langmead et&#160;al, 2009) with default parameters. mRNA read counts were determined for each Ensembl ID using custom Python scripts. Read counts were not normalized by the transcript length for individual genes as we were solely interested in relative expression changes across samples. After trimming, miRNA reads were matched to miRBase release 19 (Griffiths&#8208;Jones et&#160;al, 2008) mouse sequences allowing no mismatch using custom Python scripts. Read counts were normalized to account for different sequencing depth. The normalization factor was determined by matching median&#8208;filtered log&#8208;transformed read counts for two samples to the identity line. For hierarchical clustering analysis, we kept genes with a maximal expression &gt;&#160;1 transcript per cell across samples and at least a four&#8208;fold variation in expression and used Pearson's correlation coefficient as a distance. Principal component analysis was carried out as described in Neveu et&#160;al (2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>63359</offset>
+      <text>Live imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63372</offset>
+      <text>mESCs were seeded at single&#8208;cell density (200&#160;cells/cm2) onto gelatin&#8208;coated Lab&#8208;Tek glass&#8208;bottom chamber slides (Nunc) or &#956;&#8208;slides (Ibidi). Confocal sections were acquired on an inverted SP8 confocal microscope (Leica) equipped with 40&#215; PL Apo 1.1&#160;W objective in an incubation chamber at 37&#176;C under a humidified 5% CO2 atmosphere. Citrine and mCherry were excited with 514&#8208; and 561&#8208;nm lasers, and green and red signals were acquired sequentially using HyD detectors. Images were segmented using custom Python scripts (see Appendix for details).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63937</offset>
+      <text>Phase contrast bright&#8208;field images were acquired on an inverted DM IL LED (Leica) microscope with HI PLAN I 10&#215;/0.22 PH1 and HI PLAN I 20&#215;/0.30 PH1 objectives.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64101</offset>
+      <text>Modeling of the activity reporter response</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64144</offset>
+      <text>We modeled the reporter ratio r dependence on the miRNA concentration M by r&#160;=&#160;1/(1&#160;+&#160;M n/K n) where K is the binding constant and n is the Hill coefficient of the interaction. Using deep sequencing results for the reporter transcript and miR&#8208;142&#8208;3p from the same sample, we found that n&#160;=&#160;1.07&#160;&#177;&#160;0.04, that is there is no cooperativity in the reporter response.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64520</offset>
+      <text>Modeling of state switching</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>64548</offset>
+      <text>Population behavior</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64568</offset>
+      <text>The temporal dynamics of the interconvertible system of the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states is governed by the following equations:  where H and L are the number of cells in the &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 states, respectively, k high and k low are the division rates of the two states, k 1 the switching rate from &#8220;high&#8221; to &#8220;low&#8221; miR&#8208;142 state and k &#8722;1 the switching rate from &#8220;low&#8221; to &#8220;high&#8221; miR&#8208;142 state. Given k high&#160;=&#160;k low&#160;=&#160;k from experimental data, the evolution of the population reads: where H 0 and L 0 are the initial number of cells in &#8220;high&#8221; and &#8220;low&#8221; miR&#8208;142 state.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>65203</offset>
+      <text>Single&#8208;cell behavior</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65226</offset>
+      <text>To model culture&#8208;reconstitution experiments from single founder cells, we allowed for stochastic state switching once per cell cycle with probability k 1 and k &#8722;1 for 14 divisions (corresponding roughly to the 15,000&#8208;strong cell population analyzed in the experiment) using k 1&#160;=&#160;1.5 k &#8722;1. We introduced a survival bias for &#8220;low&#8221; miR&#8208;142 cells compared to &#8220;high&#8221; miR&#8208;142 cells under single&#8208;cell plating conditions for the first two cell divisions. Two parameters were adjusted: k 1&#160;+&#160;k &#8722;1&#160;=&#160;0.08 per cell division and the survival bias which was set to 8. State distribution was determined for 170 independently simulated colonies. Confidence intervals were determined by simulating 100 times 170 colonies for each miR&#8208;142 state.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65988</offset>
+      <text>Modeling of the miR&#8208;142&#8211;ERK signaling double&#8208;negative feedback loop</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66062</offset>
+      <text>The temporal dynamics of the double&#8208;negative feedback loop between miR&#8208;142 and LIF&#8208;induced ERK signaling was modeled by the following equations:  where M is the concentration of miR&#8208;142, E the fraction of active ERK, k d1 and k d2 the degradation rate of miR&#8208;142 and active ERK, E tot the total concentration of ERK (assumed to be constant), K E the active ERK repression constant, k 1 the production rate of miR&#8208;142, k 2 the maximum activation rate of ERK, n E the Hill coefficient of ERK&#8208;mediated miR&#8208;142 repression and n 1 the Hill coefficient of the miR&#8208;142&#8208;mediated ERK repression. ERK is known to dimerize (Khokhlatchev et&#160;al, 1998) so n E&#160;=&#160;2. miR&#8208;142 represses multiple components of the LIF&#8208;induced MEK/ERK cascade so n 1&#160;&gt;&#160;1. We took n 1&#160;=&#160;2 without any loss of generality of the findings. By introducing the parameters &#945;&#160;=&#160;k 1/K 1 k d1, &#946;&#160;=&#160;E tot/K E, &#947;&#160;=&#160;k 2/k d2, and introducing the rescaled quantities X&#160;=&#160;M/&#945;K 1 and Y&#160;=&#160;E/E tot, we can rewrite the system as a function of X and Y:  &#945; represents a rescaled miR&#8208;142 turnover and &#947; an ERK activation turnover. The nullclines are:   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67207</offset>
+      <text> mir142 +/&#8722; cells are equivalent to having a miR&#8208;142 production rate of k 1/2. We determined numerically steady state solutions in the &#945;, &#946; and &#947; parameter space. Theoretical phase diagram (Fig&#160;7G) is shown for &#946;&#160;=&#160;10. miR&#8208;142 expression levels (Fig&#160;7H) are computed for 0&#160;&#8804;&#160; &#945;&#160;&#8804;&#160;20, &#946;&#160;=&#160;10, &#947;&#160;=&#160;1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67535</offset>
+      <text>Nullclines (Fig&#160;7K) are computed for &#945;&#160;=&#160;12, &#946;&#160;=&#160;10, &#947;&#160;=&#160;1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67606</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67627</offset>
+      <text>Statistical tests were computed using the Python SciPy module. When appropriate, we corrected for multiple hypothesis testing following Benjamini and Hochberg (1995).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67794</offset>
+      <text>Data deposition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67810</offset>
+      <text>Sladitschek and Neveu (2015) A toggle&#8208;switch between miR&#8208;142 and LIF&#8208;signaling creates heterogeneity among mouse ES cells. ArrayExpress E&#8208;MTAB&#8208;2830, E&#8208;MTAB&#8208;2831 and E&#8208;MTAB&#8208;3234.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68006</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68027</offset>
+      <text>HLS and PAN conceived the study. HLS carried out the experiments. HLS and PAN analyzed the data. HLS and PAN wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68158</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68179</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68239</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>68262</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">233</infon>
+      <infon key="pub-id_pmid">19167326</infon>
+      <infon key="fpage">215</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>68273</offset>
+      <text>MicroRNAs: target recognition and regulatory functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="lpage">300</infon>
+      <infon key="source">J R Stat Soc B</infon>
+      <infon key="fpage">289</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>68328</offset>
+      <text>Controlling the false discovery rate: a practical and powerful approach to multiple testing</text>
+    </passage>
+    <passage>
+      <infon key="source">Science</infon>
+      <infon key="volume">344</infon>
+      <infon key="pub-id_pmid">24926024</infon>
+      <infon key="fpage">1242281</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>68420</offset>
+      <text>Stem cell plasticity. Plasticity of epithelial stem cells in tissue regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">358</infon>
+      <infon key="pub-id_pmid">19341624</infon>
+      <infon key="fpage">348</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>68501</offset>
+      <text>Small molecules efficiently direct endodermal differentiation of mouse and human embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">210</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">10364425</infon>
+      <infon key="fpage">30</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>68603</offset>
+      <text>Suppression of SHP&#8208;2 and ERK signalling promotes self&#8208;renewal of mouse embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">20520791</infon>
+      <infon key="fpage">e1000379</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>68699</offset>
+      <text>Functional heterogeneity of embryonic stem cells revealed through translational amplification of an early endodermal transcript</text>
+    </passage>
+    <passage>
+      <infon key="volume">450</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1234</infon>
+      <infon key="pub-id_pmid">18097409</infon>
+      <infon key="fpage">1230</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>68827</offset>
+      <text>Nanog safeguards pluripotency and mediates germline development</text>
+    </passage>
+    <passage>
+      <infon key="source">eLife</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">24859754</infon>
+      <infon key="fpage">e01964</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>68891</offset>
+      <text>miR&#8208;142 orchestrates a network of actin cytoskeleton regulators during megakaryopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">303</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">86</infon>
+      <infon key="pub-id_pmid">14657504</infon>
+      <infon key="fpage">83</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>68981</offset>
+      <text>MicroRNAs modulate hematopoietic lineage differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">252</infon>
+      <infon key="pub-id_pmid">21386864</infon>
+      <infon key="fpage">243</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>69038</offset>
+      <text>Turning straw into gold: directing cell fate for regenerative medicine</text>
+    </passage>
+    <passage>
+      <infon key="volume">292</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">156</infon>
+      <infon key="pub-id_pmid">7242681</infon>
+      <infon key="fpage">154</infon>
+      <infon key="year">1981</infon>
+      <infon key="type">ref</infon>
+      <offset>69109</offset>
+      <text>Establishment in culture of pluripotential cells from mouse embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2431</infon>
+      <infon key="pub-id_pmid">25367037</infon>
+      <infon key="fpage">2421</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>69177</offset>
+      <text>Coordination of insulin and Notch pathway activities by microRNA miR&#8208;305 mediates adaptive homeostasis in the intestinal stem cells of the Drosophila gut</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">8926</infon>
+      <infon key="pub-id_pmid">16418172</infon>
+      <infon key="fpage">8917</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>69333</offset>
+      <text>Dynamics of the Ras/ERK MAPK cascade as monitored by fluorescent probes</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5703</infon>
+      <infon key="pub-id_pmid">21447562</infon>
+      <infon key="fpage">5692</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>69405</offset>
+      <text>Analysis of microRNA turnover in mammalian cells following Dicer1 ablation</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">226</infon>
+      <infon key="pub-id_pmid">20207225</infon>
+      <infon key="fpage">215</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>69480</offset>
+      <text>Conserved and divergent roles of FGF signaling in mouse epiblast stem cells and human embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D158</infon>
+      <infon key="pub-id_pmid">17991681</infon>
+      <infon key="fpage">D154</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>69587</offset>
+      <text>miRBase: tools for microRNA genomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">105</infon>
+      <infon key="pub-id_pmid">17612493</infon>
+      <infon key="fpage">91</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>69624</offset>
+      <text>MicroRNA targeting specificity in mammals: determinants beyond seed pairing</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">644</infon>
+      <infon key="pub-id_pmid">21854987</infon>
+      <infon key="fpage">633</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>69700</offset>
+      <text>Stochastic state transitions give rise to phenotypic equilibrium in populations of cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">832</infon>
+      <infon key="pub-id_pmid">23873081</infon>
+      <infon key="fpage">827</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69796</offset>
+      <text>DNA targeting specificity of RNA&#8208;guided Cas9 nucleases</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1355</infon>
+      <infon key="pub-id_pmid">19563763</infon>
+      <infon key="fpage">1343</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>69853</offset>
+      <text>Cytokine/Jak/Stat signaling mediates regeneration and homeostasis in the Drosophila midgut</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2481</infon>
+      <infon key="pub-id_pmid">9334313</infon>
+      <infon key="fpage">2468</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>69944</offset>
+      <text>K&#8208;ras is an essential gene in the mouse with partial functional overlap with N&#8208;ras</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12454</infon>
+      <infon key="pub-id_pmid">16099833</infon>
+      <infon key="fpage">12449</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>70031</offset>
+      <text>MicroRNAs acting in a double&#8208;negative feedback loop to control a neuronal cell fate decision</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">615</infon>
+      <infon key="pub-id_pmid">9604935</infon>
+      <infon key="fpage">605</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>70126</offset>
+      <text>Phosphorylation of the MAP kinase ERK2 promotes its homodimerization and nuclear translocation</text>
+    </passage>
+    <passage>
+      <infon key="volume">161</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1201</infon>
+      <infon key="pub-id_pmid">26000487</infon>
+      <infon key="fpage">1187</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70221</offset>
+      <text>Droplet barcoding for single&#8208;cell transcriptomics applied to embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">224</infon>
+      <infon key="pub-id_pmid">20682447</infon>
+      <infon key="fpage">214</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70305</offset>
+      <text>Mouse germ line stem cells undergo rapid and stochastic turnover</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">3730</infon>
+      <infon key="pub-id_pmid">25931583</infon>
+      <infon key="fpage">3720</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70370</offset>
+      <text>Altered lymphopoiesis and immunodeficiency in miR&#8208;142 null mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">631</infon>
+      <infon key="pub-id_pmid">20478254</infon>
+      <infon key="fpage">618</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70436</offset>
+      <text>Characterizing light&#8208;regulated retinal microRNAs reveals rapid turnover as a common property of neuronal microRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">341</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">673</infon>
+      <infon key="pub-id_pmid">23868921</infon>
+      <infon key="fpage">670</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>70553</offset>
+      <text>Positive feedback between PU.1 and the cell cycle controls myeloid differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2902</infon>
+      <infon key="pub-id_pmid">17660198</infon>
+      <infon key="fpage">2895</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>70636</offset>
+      <text>FGF stimulation of the Erk1/2 signalling cascade triggers transition of pluripotent embryonic stem cells from self&#8208;renewal to lineage commitment</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">19261174</infon>
+      <infon key="fpage">R25</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70783</offset>
+      <text>Ultrafast and memory&#8208;efficient alignment of short DNA sequences to the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">123</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1277</infon>
+      <infon key="pub-id_pmid">16377567</infon>
+      <infon key="fpage">1267</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>70869</offset>
+      <text>A microRNA mediates EGF receptor signaling and promotes photoreceptor differentiation in the Drosophila eye</text>
+    </passage>
+    <passage>
+      <infon key="volume">320</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">68</infon>
+      <infon key="pub-id_pmid">18388284</infon>
+      <infon key="fpage">65</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>70977</offset>
+      <text>Stochasticity and cell fate</text>
+    </passage>
+    <passage>
+      <infon key="volume">78</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7638</infon>
+      <infon key="pub-id_pmid">6950406</infon>
+      <infon key="fpage">7634</infon>
+      <infon key="year">1981</infon>
+      <infon key="type">ref</infon>
+      <offset>71005</offset>
+      <text>Isolation of a pluripotent cell line from early mouse embryos cultured in medium conditioned by teratocarcinoma stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5761</infon>
+      <infon key="pub-id_pmid">1945853</infon>
+      <infon key="fpage">5755</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>71128</offset>
+      <text>The mouse Pgk&#8208;1 gene promoter contains an upstream activator sequence</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">326</infon>
+      <infon key="pub-id_pmid">21677748</infon>
+      <infon key="fpage">318</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>71200</offset>
+      <text>Microenvironmental regulation of stem cells in intestinal homeostasis and cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">1027</infon>
+      <infon key="pub-id_pmid">23212522</infon>
+      <infon key="fpage">1016</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71281</offset>
+      <text>Mononuclear phagocyte miRNome analysis identifies miR&#8208;142 as critical regulator of murine dendritic cell homeostasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">680</infon>
+      <infon key="pub-id_pmid">18295582</infon>
+      <infon key="fpage">661</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71400</offset>
+      <text>Differentiation of embryonic stem cells to clinically relevant populations: lessons from embryonic development</text>
+    </passage>
+    <passage>
+      <infon key="volume">454</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">245</infon>
+      <infon key="pub-id_pmid">18528333</infon>
+      <infon key="fpage">241</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71511</offset>
+      <text>Mei&#8208;P26 regulates microRNAs and cell growth in the Drosophila ovarian stem cell lineage</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">681</infon>
+      <infon key="pub-id_pmid">21112562</infon>
+      <infon key="fpage">671</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71601</offset>
+      <text>MicroRNA profiling reveals two distinct p53&#8208;related human pluripotent stem cell states</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">496</infon>
+      <infon key="pub-id_pmid">21540844</infon>
+      <infon key="fpage">490</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>71690</offset>
+      <text>The transcriptional and signalling networks of pluripotency</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">249</infon>
+      <infon key="pub-id_pmid">23911199</infon>
+      <infon key="fpage">237</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71750</offset>
+      <text>miR&#8208;142&#8208;3p controls the specification of definitive hemangioblasts during ontogeny</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2060</infon>
+      <infon key="pub-id_pmid">9649508</infon>
+      <infon key="fpage">2048</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>71837</offset>
+      <text>Self&#8208;renewal of pluripotent embryonic stem cells is mediated via activation of STAT3</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">199</infon>
+      <infon key="pub-id_pmid">1660837</infon>
+      <infon key="fpage">193</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>71924</offset>
+      <text>Efficient selection for high&#8208;expression transfectants with a novel eukaryotic vector</text>
+    </passage>
+    <passage>
+      <infon key="volume">447</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1011</infon>
+      <infon key="pub-id_pmid">17581586</infon>
+      <infon key="fpage">1007</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>72011</offset>
+      <text>Prostaglandin E2 regulates vertebrate haematopoietic stem cell homeostasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">48070</infon>
+      <infon key="pub-id_pmid">15328362</infon>
+      <infon key="fpage">48063</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>72086</offset>
+      <text>Regulation of embryonic stem cell self&#8208;renewal by phosphoinositide 3&#8208;kinase&#8208;dependent signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">465</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">720</infon>
+      <infon key="pub-id_pmid">20535200</infon>
+      <infon key="fpage">713</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>72188</offset>
+      <text>Extrinsic regulation of pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">25716053</infon>
+      <infon key="fpage">792</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>72235</offset>
+      <text>Cell dynamics and gene expression control in tissue homeostasis and development</text>
+    </passage>
+    <passage>
+      <infon key="volume">441</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1079</infon>
+      <infon key="pub-id_pmid">16810242</infon>
+      <infon key="fpage">1075</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>72315</offset>
+      <text>The stem&#8208;cell niche as an entity of action</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">925</infon>
+      <infon key="pub-id_pmid">19269368</infon>
+      <infon key="fpage">913</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72360</offset>
+      <text>The TRIM&#8208;NHL protein TRIM32 activates microRNAs and prevents self&#8208;renewal in mouse neural progenitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">862</infon>
+      <infon key="pub-id_pmid">21663791</infon>
+      <infon key="fpage">851</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72466</offset>
+      <text>Strategies for homeostatic stem cell self&#8208;renewal in adult tissues</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">331</infon>
+      <infon key="pub-id_pmid">25038413</infon>
+      <infon key="fpage">319</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72535</offset>
+      <text>Dynamic heterogeneity and DNA methylation in embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Stem Cells</infon>
+      <infon key="lpage">2542</infon>
+      <infon key="pub-id_pmid">17615266</infon>
+      <infon key="fpage">2534</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>72601</offset>
+      <text>A heterogeneous expression pattern for Nanog in embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">25909630</infon>
+      <infon key="fpage">e0124958</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>72670</offset>
+      <text>MXS&#8208;chaining: a highly efficient cloning platform for imaging and flow cytometry approaches in Mammalian systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">1249</infon>
+      <infon key="pub-id_pmid">23809164</infon>
+      <infon key="fpage">1236</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72785</offset>
+      <text>miR&#8208;142&#8208;3p prevents macrophage differentiation during cancer&#8208;induced myelopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">15550</infon>
+      <infon key="pub-id_pmid">16199517</infon>
+      <infon key="fpage">15545</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>72873</offset>
+      <text>Gene set enrichment analysis: a knowledge&#8208;based approach for interpreting genome&#8208;wide expression profiles</text>
+    </passage>
+    <passage>
+      <infon key="volume">440</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">550</infon>
+      <infon key="pub-id_pmid">16554821</infon>
+      <infon key="fpage">545</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>72983</offset>
+      <text>An excitable gene regulatory circuit induces transient cellular differentiation</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22558462</infon>
+      <infon key="fpage">e36405</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73063</offset>
+      <text>Efficient differentiation of embryonic stem cells into mesodermal precursors by BMP, retinoic acid and Notch signalling</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">918</infon>
+      <infon key="pub-id_pmid">18263842</infon>
+      <infon key="fpage">909</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73183</offset>
+      <text>Identification and characterization of subpopulations in undifferentiated ES cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">115</infon>
+      <infon key="pub-id_pmid">20144784</infon>
+      <infon key="fpage">103</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73273</offset>
+      <text>Stem cells and the niche: a dynamic duo</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">385</infon>
+      <infon key="pub-id_pmid">17259983</infon>
+      <infon key="fpage">380</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73313</offset>
+      <text>DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self&#8208;renewal</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">845</infon>
+      <infon key="pub-id_pmid">21685889</infon>
+      <infon key="fpage">838</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73408</offset>
+      <text>Inhibition of glycogen synthase kinase&#8208;3 alleviates Tcf3 repression of the pluripotency network and increases embryonic stem cell resistance to differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">452</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">229</infon>
+      <infon key="pub-id_pmid">18311128</infon>
+      <infon key="fpage">225</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73570</offset>
+      <text>A skin microRNA promotes differentiation by repressing &#8216;stemness&#8217;</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">292</infon>
+      <infon key="pub-id_pmid">14636556</infon>
+      <infon key="fpage">281</infon>
+      <infon key="year">2003a</infon>
+      <infon key="type">ref</infon>
+      <offset>73640</offset>
+      <text>BMP induction of Id proteins suppresses differentiation and sustains embryonic stem cell self&#8208;renewal in collaboration with STAT3</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">12524553</infon>
+      <infon key="fpage">183</infon>
+      <infon key="year">2003b</infon>
+      <infon key="type">ref</infon>
+      <offset>73772</offset>
+      <text>Conversion of embryonic stem cells into neuroectodermal precursors in adherent monoculture</text>
+    </passage>
+    <passage>
+      <infon key="volume">453</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">523</infon>
+      <infon key="pub-id_pmid">18497825</infon>
+      <infon key="fpage">519</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73863</offset>
+      <text>The ground state of embryonic stem cell self&#8208;renewal</text>
+    </passage>
+  </document>
+</collection>

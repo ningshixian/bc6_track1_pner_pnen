@@ -1,0 +1,940 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5048376</id>
+    <passage>
+      <infon key="name_2">surname:Matkovic;given-names:Milos</infon>
+      <infon key="name_3">surname:Schertler;given-names:Gebhard</infon>
+      <infon key="name_0">surname:Singhal;given-names:Ankita</infon>
+      <infon key="name_1">surname:Guo;given-names:Ying</infon>
+      <infon key="name_6">surname:Standfuss;given-names:Joerg</infon>
+      <infon key="alt-title">Ankita Singhal et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642671</infon>
+      <infon key="name_5">surname:Yan;given-names:Elsa CY</infon>
+      <infon key="lpage">1440 1440</infon>
+      <infon key="fpage">1431 1431</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">congenital stationary night blindness constitutive activity G protein&#8208;coupled receptors rhodopsin visual system Membrane &amp; Intracellular Transport Molecular Biology of Disease Structural Biology</infon>
+      <infon key="name_4">surname:Deupi;given-names:Xavier</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embr.201642671</infon>
+      <infon key="article-id_pmid">27458239</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">17 17</infon>
+      <infon key="pub-id_pmid">27458239</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">10</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>Structural role of the T94I rhodopsin mutation in congenital stationary night blindness</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>88</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>97</offset>
+      <text>Congenital stationary night blindness (CSNB) is an inherited and non&#8208;progressive retinal dysfunction. Here, we present the crystal structure of CSNB&#8208;causing T94I2.61 rhodopsin in the active conformation at 2.3 &#197; resolution. The introduced hydrophobic side chain prolongs the lifetime of the G protein activating metarhodopsin&#8208;II state by establishing a direct van der Waals contact with K2967.43, the site of retinal attachment. This is in stark contrast to the light&#8208;activated state of the CSNB&#8208;causing G90D2.57 mutation, where the charged mutation forms a salt bridge with K2967.43. To find the common denominator between these two functional modifications, we combined our structural data with a kinetic biochemical analysis and molecular dynamics simulations. Our results indicate that both the charged G90D2.57 and the hydrophobic T94I2.61 mutation alter the dark state by weakening the interaction between the Schiff base (SB) and its counterion E1133.28. We propose that this interference with the tight regulation of the dim light photoreceptor rhodopsin increases background noise in the visual system and causes the loss of night vision characteristic for CSNB patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1289</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1302</offset>
+      <text>G protein&#8208;coupled receptors (GPCRs) are a large class of membrane proteins responsible for signal transduction in response to a variety of external signals such as small chemicals and peptides, and sensory stimuli like taste and odor molecules or light. However, GPCRs also transduce signals in the absence of external inputs, a phenomenon known as &#8220;constitutive activity&#8221;. In addition, constitutive activity can also be caused by point mutations that disturb the inactive conformation of the receptor and/or stabilize its active state. Constitutively active point mutations have been characterized in many GPCRs and commonly translate into a pathological outcome 1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1975</offset>
+      <text>The visual photoreceptor rhodopsin is a highly sensitive and finely tuned GPCR with a minimal level of constitutive (or &#8220;dark&#8221;) activity. Specifically, the rate of spontaneous activation events in primate rod cells has been estimated to be 5.2 &#215; 10&#8722;11 per second, corresponding to a half&#8208;life of the inactive state of 420 years 2. This exceptionally low level of basal activity is attributable to the covalently bound ligand 11&#8208;cis retinal, which acts as inverse agonist that further decreases activity below that of the apoprotein opsin, which itself is 106&#8208;fold less active than the active metarhodopsin&#8208;II state with covalently bound agonist all&#8208;trans retinal 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2658</offset>
+      <text>Any increase in the level of the dark activity of rhodopsin reduces the signal&#8208;to&#8208;noise ratio affecting the light&#8208;sensing capability of the rod cells. Thus, constitutive activity in rhodopsin has been discussed as the cause of diseases (for a recent review 4), such as retinitis pigmentosa (RP) 5, 6 or congenital stationary night blindness (CSNB) 7, 8. RP is a progressive form of blindness that severely impairs the visual field, whereas CSNB is a much milder and often precursor form affecting only dim light vision. In CSNB patients 9, 10, 11, 12 and mouse models of the disease 13, 14, 15, the rhodopsin&#8208;containing rod cells are functionally desensitized as if under constant activation at low gain. This increased dark activity has been suggested to result from a faster rate of thermal isomerization 9, the presence of constitutively active opsin 7 or of a pre&#8208;activated dark state 14, or simply a reduction in the amount of photoexcitable pigment 15. Understanding the fundamental causes of these processes is key to unraveling the molecular mechanism of CSNB.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3737</offset>
+      <text>In a previous work, we presented the crystal structure of the CSNB&#8208;causing G90D2.57 (superscript denotes Ballesteros Weinstein numbering) rhodopsin mutant 16. This structure visualized how the mutated aspartate in TM2 forms a salt bridge with residue K2967.43 in TM7, impairing the formation of the Schiff base (SB) that, under normal conditions, connects retinal to the protein. Here we present a study of the T94I2.61 rhodopsin mutant, which exhibits the same disease phenotype as G90D2.5711. However, while the T94I2.61 mutation is close to G90D2.57, the different physico&#8208;chemical properties of the mutated residue side chains must translate into a different molecular cause for the disease phenotype. In order to elucidate this cause, we have solved the crystal structure of the T94I2.61 mutant in the metarhodopsin&#8208;II active conformation. Structural comparison of G90D2.57 and T94I2.61 rhodopsin in combination with molecular dynamics simulations and a kinetic analysis of their dark states advance our understanding of the molecular causes of CSNB and its differences to the progressing RP phenotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>4851</offset>
+      <text>Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>4874</offset>
+      <text>Structural comparison of CSNB mutants in the active state</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4932</offset>
+      <text>In a first step, we crystallized light&#8208;activated T94I2.61 rhodopsin in the presence and absence of the C&#8208;terminal peptidic end of the G protein alpha subunit (G&#945;CT2 peptide) 17. Two active conformation structures were determined at 2.8 and 2.3 &#197; resolution (Table EV1). As in our previous rhodopsin crystallization projects, all constructs used in this study also contain an additional thermostabilizing disulfide bridge, depicted as (c&#8208;c), to enhance the stability 18 and crystallizability 19 without changing the rhodopsin activation pathway 20.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5488</offset>
+      <text>Overall T94I2.61 rhodopsin adopts the conformation of metarhodopsin&#8208;II obtained by soaking opsin crystals with all&#8208;trans retinal (rmsd of &#945; atoms = 0.353) 17 and compares well to constitutively active M257Y metarhodopsin&#8208;II (rmsd of &#945; atoms = 0.35) 21 and the overall fold of the CSNB mutant G90D2.57 (rmsd of &#945; atoms = 0.29) 16.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5830</offset>
+      <text>However, the effect of the T94I2.61 mutation on the retinal binding pocket is strikingly different to that of G90D2.57 (Fig 1). The G90D2.57 mutation introduces an aspartic acid that interferes with the covalent binding of all&#8208;trans retinal by forming a salt bridge with K2967.43, resulting in the stabilization of an active conformation. T942.61 is positioned only one helix turn away from G902.57, also pointing toward the retinal SB (Fig EV1). Thus, we initially assumed that the introduction of the bulky hydrophobic amino acid isoleucine at this position would perturb retinal binding similarly to the G90D2.57 mutant. However, the methyl group of I942.61 and the C&#949; atom of K2967.43 are at a van der Waals contact distance, but this does not result into retinal hydrolysis (compare middle and right lower panels in Fig 1). Thus, the T94I2.61 mutation yields a &#8220;clean&#8221; metarhodopsin&#8208;II conformation with covalently bound all&#8208;trans retinal.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6786</offset>
+      <text>Comparison of constitutively active rhodopsin mutants M257Y6.40 (left 21), T94I2.61 (middle), and G90D2.57 (right 16)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6904</offset>
+      <text>All&#8208;trans (yellow) and cis retinal isomers (orange); the side of retinal attachment K2967.43 (blue slate); the retinal counterion E1133.28 (blue slate); G&#945;CT peptides (cyan); and the constitutively activating mutations M257Y6.40, T94I2.61, and G90D2.57 (green) are shown as spheres. Palmitoylation at C323H8 and glycosylation at N15NT are shown as sticks. The lower panels compare the M257Y6.40, T94I2.61, and G90D2.57 retinal binding pockets. All constructs also contain an additional thermostabilizing disulfide bridge, depicted as (c&#8208;c), to enhance the stability 18 and crystallizability 19 without changing the rhodopsin activation pathway 20.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7557</offset>
+      <text>Simulated annealing OMIT maps show the mutated position in the retinal binding pocket</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7643</offset>
+      <text>Electron density maps (2Fo&#8211;Fc contoured at 1.8 sigma, blue and Fo&#8211;Fc contoured at 3.5 sigma, green) of the retinal binding pocket calculated after simulated annealing refinement with the side chain of G90D2.57 and retinal (left) or T94I2.61 (right) omitted. A clear difference peak indicates the introduced mutations in the vicinity of the retinal attachment site K2967.43. The structure of G90D2.57 resembles an active opsin state with a bound mixture of retinal isomers, while T94I2.61 resembles the active metarhodopsin&#8208;II intermediate with intact Schiff base and retinal in all&#8208;trans conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8253</offset>
+      <text>The T94I2.61 mutation does not result into major structural changes in the retinal binding pocket, yet replacement of the native hydrophilic Thr for the hydrophobic Ile modifies the physico&#8208;chemical properties of this region. We suggest that this alteration, in turn, affects the process of rhodopsin deactivation as follows. The deactivation process requires the hydrolytic cleavage of the SB in the metarhodopsin&#8208;II state to allow the release of all&#8208;trans retinal and the subsequent regeneration of the pigment with 11&#8208;cis retinal. SB hydrolysis is initiated by a base&#8208;catalyzed water molecule and proceeds through a protonated carbinolamine intermediate 22. A water&#8208;mediated hydrogen bond network in the retinal binding pocket is critical for SB stability and determines the rate of this hydrolysis step 23, 24, 25. T94I2.61 is one of the few known mutations that increase the rate of SB hydrolysis in the rhodopsin dark state but decrease it in metarhodopsin&#8208;II 8. Our 2.3 &#197; crystal structure of this mutant reveals the water network around retinal in an unprecedented detail: We observe four new water molecules that are probably not specific for this mutant, as the structure of the retinal binding pocket has not changed compared to previous structures of metarhodopsin&#8208;II 17, 21. However, one of the previously described water molecules in this region is missing in our structure, likely because the hydrophobic mutation T94I2.61 eliminates the hydrogen&#8208;bonding potential at this position. In wild&#8208;type metarhodopsin&#8208;II 17, this water mediates an interaction between T942.61 and the retinal counterion E1133.28. We speculate that this missing water in the T94I2.61 mutant alters the first step of the SB hydrolysis by affecting the formation of the carbinolamine intermediate. In order to further envisage the influence of the bulkier hydrophobic I942.61 side chain on the retinal hydrolysis mechanism, we compared the accessibility surface area of the SB in T94I2.61 and wild&#8208;type metarhodopsin&#8208;II. We found that the mutation results in a 30% decrease in the accessibility of C&#949; and N&#950; of K2967.43 that can be attributed to the van der Waals interaction of these atoms with I942.61. Thus, it seems likely that the I942.61 side chain sterically hinders the access to the SB or directly alters the formation of the tetrahedral protonated carbinolamine intermediate during SB hydrolysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10676</offset>
+      <text>In summary, we suggest that the impairment of the hydrogen bond network in the vicinity of the retinal SB as well as steric hindrance in the hydrolysis reaction is responsible for the increased lifetime of metarhodopsin&#8208;II observed in T94I2.61 rhodopsin. This hypothesis is in agreement with the faster kinetics of retinal release in metarhodopsin&#8208;II for the T94A2.61 mutant compared to T94I2.6126, as the smaller alanine side chain would not be able to affect retinal hydrolysis as described above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11180</offset>
+      <text>Effect of CSNB mutants on stability of the rhodopsin dark state</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11244</offset>
+      <text>To investigate the impact of CSNB&#8208;inducing mutations on overall protein integrity, we first measured rhodopsin stability using a fluorescence&#8208;based thermal&#8208;shift assay. The stability of the T94I2.61 rhodopsin mutant was compared to the thermostabilized wild type, both in the presence and absence of the 11&#8208;cis and all&#8208;trans retinal isomers (Fig EV2). Interestingly, upon addition of 11&#8208;cis retinal, the transition melting temperature of T94I2.61 rhodopsin increased only from 49 to 53&#176;C, whereas the effect on WT rhodopsin was much more pronounced, with a shift of the transition temperature from 53 to 63&#176;C. We have observed a similar destabilizing effect of the G90D2.57 mutation on the rhodopsin dark state 16. However, in contrast to G90D2.57, the T94I2.61 mutation does not increase the stability of the opsin state, presumably because the introduced isoleucine is unable to form a stabilizing salt bridge interaction with K2967.43. These thermal&#8208;shift measurements indicate an overall lower stability of the dark state for the two CSNB mutations compared to the WT.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12333</offset>
+      <text>Effect of CSNB mutants G90D2.57 and T94I2.61 on the thermal stability of the protein</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12418</offset>
+      <text>The mean melting temperature Tm50 was measured for WT, G90D2.57, and T94I2.61 in the presence or absence of retinal isomers in a fluorescence&#8208;based thermal stability assay. Average melting temperature &#177; standard deviation (SD) was calculated over four independent measurements (n = 4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12707</offset>
+      <text>We investigated whether this effect is specifically due to disturbance of SB integrity by measuring the rate of thermal decay as a function of the decrease in absorption from retinal with protonated SB (Fig 2A&#8211;D). We determined decay times of 797 &#177; 25 min, 22.2 &#177; 1.3 min, and 424 &#177; 31 min for WT, T94I2.61, and G90D2.57, respectively. The faster rate of thermal decay in both mutants indicates that the retinal binding pocket in the vicinity of the retinal SB is altered. According to our data, the T94I2.61 dark state decays 35 times faster than the WT, whereas G90D2.57 decays only 2 times faster than the WT suggesting that the T94I2.61 dark state is less stable.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13380</offset>
+      <text>Kinetic characterization of the rhodopsin dark state</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13433</offset>
+      <text>Thermal decay of dark state rhodopsin: WT (A), T94I (B), and G90D (C) rhodopsin. The spectra are normalized to the OD280 and OD500/OD480 at t = 0.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13580</offset>
+      <text>Absorption maximum plotted as a function of time and fitted to a single exponential decay.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13671</offset>
+      <text>Retinal isomerization in the rhodopsin dark state: WT (E), T94I (F), and G90D (G) rhodopsin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13764</offset>
+      <text>The fraction of 11&#8208;cis retinal is plotted as a function of time and fitted to a single exponential decay.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13872</offset>
+      <text>SB stability in dark state rhodopsin: WT (I), T94I (J), and G90D (K) rhodopsin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13952</offset>
+      <text>OD440 is plotted as a function of time and fitted to a single exponential decay.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14033</offset>
+      <text>Data information: All decay rates were measured at 55&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14091</offset>
+      <text>Decay of the dark state involves two simultaneous spontaneous processes, that is, thermal isomerization of 11&#8208;cis to all&#8208;trans retinal and SB hydrolysis 27, 28. We measured the rate of thermal isomerization by HPLC analysis after extracting retinal after various times of incubation at 55&#176;C (Fig 2E&#8211;H). The decrease in the 11&#8208;cis retinal peak coincides with increase in the all&#8208;trans retinal peak, validating the thermal isomerization of retinal. In addition, some minor peaks of 13&#8208;cis&#8208;15&#8208;syn and 11&#8208;cis&#8208;15&#8208;anti also appeared. The fraction of 11&#8208;cis retinal, which was the major peak at the beginning for all mutants, was plotted as a function of time. Fitting to a single exponential decay yielded a decay time of 1,136 &#177; 27 min for WT, 58.6 &#177; 6.4 min for T94I2.61, and 503 &#177; 93 min for G90D2.57; that is, the decay by thermal isomerization of retinal in T94I2.61 and G90D2.57 is 19 and 2 time faster, respectively, than the WT. Similarly, the kinetics of SB hydrolysis were measured by acid denaturation of the dark state (Fig 2I&#8211;L). Hydrochloric acid was used to reduce the pH to 1&#8211;2, causing the denaturation of the protein. At the beginning of the experiment (t = 0), the dominant peak was at 440 nm, corresponding to the protonated species, which was gradually subdued by an increase in the 380 nm peak due to appearance of free retinal. The decrease in the 440 nm peak was plotted as a function of time as a single exponential decay curve, yielding a decay rate of 797 &#177; 25 min for WT, 22.2 &#177; 1.3 min for T94I2.61, and 406 &#177; 91 min for G90D2.57. These data, showing that SB hydrolysis in T94I2.61 is 35 times faster than in WT, also confirm the lower stability of the T94I2.61 dark state. This rate of retinal hydrolysis is significantly faster than the twofold rate increase observed for G90D2.57 rhodopsin. In summary, both CSNB mutations increase the rates of thermal decay, retinal thermal isomerization and of SB hydrolysis, although to different extents.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16095</offset>
+      <text>Structural impact of CSNB mutations on the rhodopsin dark state</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16159</offset>
+      <text>Our X&#8208;ray crystallographic data provide interesting insights at the molecular level into the effect of CSNB mutations on the rhodopsin active metarhodopsin&#8208;II state. However, despite extensive efforts, we were not able to crystallize the dark state of either G90D2.57 or T94I2.61. This is likely a consequence of conformational heterogeneity in agreement with our biochemical analysis (see above) and with prior studies showing increased hydroxylamine reactivity 29, structural rearrangements 30, and lower stability 31 in the G90D2.57 dark state.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16711</offset>
+      <text>But what is the cause of this conformational heterogeneity? The exceptional stability (and low basal activity) of the rhodopsin dark state arises from the covalent binding of the 11&#8208;cis retinal inverse agonist to the protein by means of a protonated SB. A rigid hydrogen&#8208;bonding network 23 and additional ionic interactions between the protonated SB and the counterion E1133.2832, 33 are also crucial to stabilize the rhodopsin dark state. Photoisomerization to all&#8208;trans retinal results in deprotonation of the SB and concomitant opening of the salt bridge with E1133.28. Triggering this &#8220;primary switch&#8221; is one of the hallmarks of rhodopsin activation. Interestingly, all four known CSNB mutations (G90D, T94I, A292E, A295V) are in close proximity to the E1133.28&#8208;SB pair, and it has been shown before that both the G90D2.577, 34 and T94I2.61 mutations 8, 35 do interfere with the E1133.28 counterion. Therefore, the influence of the CSNB mutations on the SB&#8208; E1133.28 pair is a likely candidate as the source of conformational instability of the dark state.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17786</offset>
+      <text>As we cannot assess the impact of the G90D2.57 and T94I2.61 mutations on the dark state of rhodopsin by X&#8208;ray crystallography, we have studied these systems using molecular dynamics simulations. In the reference system WT(c&#8208;c) rhodopsin, the ligand binding pocket (defined as all residues having atoms within 6 &#197; of the retinal) remained remarkably stable, with a final root mean square deviation (rmsd) of 1.2 &#197;2 and a distance between the protonated SB and the counterion of 1.9 &#197; (Fig 3). Simulation of G90D2.57 rhodopsin resulted in a slightly higher overall rmsd of 1.9 &#197;, yet led in contrast to the WT, to a significant rearrangement of the binding pocket. The side chain of G90D2.57 moves in between the SB and the counterion E1133.28, and, as a result, the distance between E1133.28 and the SB increased to 7.5 &#197;, resembling an opening of the primary activation switch (Movie EV1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18685</offset>
+      <text>Accelerated molecular dynamic simulation of the rhodopsin dark state: WT, G90D2.57, T94I2.61, and T94I2.61 with protonated E1133.28</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18817</offset>
+      <text>In the absence of the G90D2.57 and T94I2.61 dark state structure, both aspartate and isoleucine were placed in the WT (1GZM 48) using a favorable rotamer without introducing major clashes with the rest of the protein. However, both isoleucine and aspartate in the dark state structures introduced clashes with several amino acids and were therefore optimized using energy minimization before simulation. WT simulation was done with the protonated SB while in the G90D2.57 system, both E1133.28 and SB were protonated 36. The protonated state of E1133.28 was unknown in T94I2.61; therefore, simulation was done for both deprotonated and protonated E1133.28. The T94I2.61 dark state conformation with deprotonated E1133.28 was similar to that of the WT and was stable, whereas the dark state of G90D2.57 and T94I2.61 with protonated E1133.28 was unstable with a concomitant movement of E1133.28 residue away from the SB, thereby causing movement of TM3 and opening of the E1133.28&#8208;SB activation switch. In contrast to the crystal structures, the orientation of the retinal &#946;&#8208;ionone ring in the simulations was variable with respect to the polyene chain. This indicates a degree of positional freedom within the hydrophobic binding pocket.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20059</offset>
+      <text>The protonation state of the E1133.28 residue in the T94I2.61 dark state is unknown, and therefore, we simulated the T94I2.61 dark state with either a deprotonated E1133.28, as in WT rhodopsin, or a protonated E1133.28, as in the CSNB mutant G90D2.5736. In the first case, we only observed a partial opening (2.4 &#197;) of the E1133.28&#8208;SB activation switch and a noticeable expansion of the binding pocket. On the other hand, in the simulation with protonated E1133.28, the T94I2.61 side chain moved in between SB and E1133.28 in a similar position as observed in the simulation of the G90D2.57 mutant. In this case, the distance between E1133.28 and the SB increased to 6.8 &#197;, also resembling the opening of the activation switch.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20791</offset>
+      <text>Thus, by combining our biochemical and spectroscopy data with molecular dynamics simulations, we suggest that both T94I2.61 and G90D2.57 CSNB mutants are able to destabilize the dark state specifically by weakening the primary activation switch mediated by the counterion E1133.28.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21073</offset>
+      <text>Relevance to CSNB</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21091</offset>
+      <text>In this study, we used crystallographic, biochemical, and computational methods to find the common denominator for the CSNB&#8208;causing rhodopsin mutations G90D2.57 and T94I2.61. While it is yet unknown whether G90D2.57 and T94I2.61 cause CSNB by the same mechanism, there are several indications that they at least share some common features. First of all, although the mutated residues have very different physico&#8208;chemical properties, they are located on adjacent helix turns and form part of the retinal binding pocket. Furthermore, both mutations result in similar phenotypes: Patients have a normal amount of rhodopsin in the retina and structurally preserved rods, despite massive loss of rod function and impaired dim light vision on standard clinical tests 9, 11, 12. In mouse models of CSNB, the rhodopsin&#8208;carrying rod cells are desensitized as under continuous activation at low gain 13, 14. These aberrant signals compete with dim external stimuli and reduce night vision (Fig 4).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22085</offset>
+      <text>The molecular cause of congenital stationary night blindness (CSNB)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22153</offset>
+      <text>Disk membranes (upper panels) in the rod cells of healthy individuals (left) and CSNB patients (right) contain a normal distribution of rhodopsin. Interference of the T94I2.61 and G90D2.57 mutations with the E1133.28&#8208;SB activation switch (middle panels) leads to partial activation of a small portion of rhodopsins (orange). The resulting basal stimulation of the visual system leads to a decreased signal&#8208;to&#8208;noise ratio (lower panel) and impaired night vision in affected patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22642</offset>
+      <text>It seems clear that the source of this basal activity is the mutant rhodopsin, but it is less clear which precise molecular state (i.e. light&#8208;activated, opsin, or dark state) is the ultimate responsible. G90D2.57 displaces the retinal counterion E1133.28 in the dark state 7 and can form a salt bridge with K2967.43 to stabilize an active opsin conformation with mixed retinal isomers 16. On the other hand, T94I2.61 results in a &#8220;clean&#8221; metarhodopsin&#8208;II with covalently bound all&#8208;trans retinal. Moreover, both mutations have opposite biochemical effects on the metarhodopsin&#8208;II state; light&#8208;activated G90D2.57 decays quickly, while the lifetime of T94I2.61 metarhodopsin&#8208;II increases, in agreement with previous reports 8. Overall, these results suggest that the effects on the light&#8208;activated receptor are not the common denominator of the two CSNB mutations.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23522</offset>
+      <text>Another potential source of the increased basal activity in rods is the active state of the apoprotein opsin 7. It is generally assumed that opsin exists in equilibrium between an active and inactive conformation 37. While all four known CSNB mutations have been shown to be constitutively active and thus increase the fraction of active opsin 12, this effect is small in the case of T94I2.618. According to a study of mutations in the retinal entry channel 26, T94I2.61 may even reduce constitutive activity of opsin. The same study shows increased constitutive activity for 11 out of 15 mutations close to the retinal binding pocket, none of which is correlated with CSNB. An important mechanism to suppress any remaining opsin constitutive activity in rod cells is phosphorylation by GRK1 and successive binding of arrestin&#8208;1. Therefore, disturbing this mechanism might contribute to the increased background activity characteristic for CSNB. However, while G90D2.57 opsin does bind arrestin&#8208;1 less efficiently, T94I2.61 does it as well as wild type 38. Overall, our data suggest that the opsin form can be excluded as common denominator between the two CSNB mutations.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24699</offset>
+      <text>In vivo studies with transgenic mice carrying the G90D2.57 gene show another convincing argument for excluding the constitutively active opsin species as main cause of CSNB. The transgenic mice have a similar disease phenotype as CSNB patients, in the sense that they have light adapted rod cells and decreased light sensitivity. In contrast to previous studies done on COS cells 7 and transgenic frogs 39, the G90D2.57 mutation did not show increased basal activity of opsin in mice 14. Furthermore, the effects of the mutants could not be reversed by regeneration with 11&#8208;cis retinal as would have been expected as it completely suppresses the remaining constitutive activity of opsin. In agreement with the findings in transgenic mice, desensitization in G90D2.57 patients is not reversed even after 12 h of dark adaptation 13. The authors suggest that the disease is caused by a disturbed rhodopsin dark state that activates the visual cascade with a low gain. Indeed, we observe that the dark states of G90D2.57 and T94I2.61 share many features indicative of a disturbed inactive conformation. Our data show that both mutants have a significantly reduced thermal stability, increased rates of SB hydrolysis and of retinal isomerization, and blue&#8208;shifted absorption maxima compatible with a partially protonated counterion. These results indicate that the alterations are close to the protonated SB, and our MD simulations allow us to hypothesize that both mutations can open the E1133.28&#8208;SB activation switch. This activation switch together with an extended hydrogen&#8208;bonding network and covalent binding of the 11&#8208;cis retinal inverse agonist are key determinants suppressing the basal activity of rhodopsin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26423</offset>
+      <text>Decreasing the strength of the E1133.28&#8208;SB activation switch is not sufficient to fully activate rhodopsin. For this, at least one additional requirement is needed, the uptake of a proton by E1343.49 of the conserved E(D)RY motif at the cytoplasmic terminus of TM3 40. Without this, second protonation switch activity should be very low, and indeed, both the G90D2.57 and T94I2.61 dark states do not have increased basal activity within the detection limit of in vitro G protein activation assays 7, 8. However, human rod cells are highly optimized for single photon sensitivity, and a small increase in activity (i.e., constitutive activation of only a small fraction of the approximately 108 rhodopsin molecules in a rod cell), which would be hard to detect in in vitro assays, should be sufficient to reduce dim light vision leading to CSNB.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27270</offset>
+      <text>In summary, we provide a comprehensive analysis of the structural, dynamic, and biochemical properties of two mutations that, despite their different chemical nature, are causing the same hereditary form of night blindness. Our data provide a structural basis to understand CSNB. It further provides clues to unravel the molecular basis of rhodopsin mediated RP, which results in a similar impaired vision under dim light, but in addition is associated with progressive degeneration of rods. Structures of other constitutively active rhodopsin class GPCRs may tell us to what extent similar disease mechanisms are found outside the visual system.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>27917</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27939</offset>
+      <text>Crystallographic sample preparation and crystal refinement</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27998</offset>
+      <text>Purification and crystallization of recombinant rhodopsin were carried out as described 16, 41. Data were collected using the high&#8208;resolution diffractometer setup of beamlines PXI&#8208;X06SA and PXIII&#8208;X06DA at the Swiss Light Source (SLS) following a low&#8208;dose/high&#8208;redundancy data collection strategy. Data were integrated and scaled using XDS 42. Phases were obtained by molecular replacement using the program PHASER 43 and the polypeptide of M257Y rhodopsin (pdb code: 4a4m 21) as search model. The resulting solution was refined using iterative cycles of model building in COOT 44 and refinement (rigid body, energy minimization, simulated annealing, individual B&#8208;factor refinement) with the PHENIX program suite 45.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28726</offset>
+      <text>Thermal&#8208;shift assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28748</offset>
+      <text>Thermal&#8208;shift assays were performed in a carry Eclipse fluorimeter (Varian) equipped with multisample holder. Thermal denaturation was followed using the thiol&#8208;specific maleimide fluorochrome CPM (N&#8208;[4&#8208;(7&#8208;diethylamino&#8208;4&#8208;methyl&#8208;3&#8208;coumarinyl)phenyl]maleimide) as described 16, 46. Conditions were as follows: 5 &#956;g of rhodopsin purified by 1D4 immunoaffinity purification was diluted into 120 &#956;l ice&#8208;cold buffer (100 mM NaCl, 10 mM Hepes pH 7.5, and 0.125% DM). Immediately before the measurement CPM (3 mg/ml in DMSO) was diluted 1:30 into buffer and 10 &#956;l of this mixture added to the reaction mix. The above&#8208;mentioned steps were repeated with opsin with supplementation of either 10 &#956;M 11&#8208;cis or all&#8208;trans&#8208;retinal and incubated in the dark for 2 h. WT(c&#8208;c) was taken as the control. An excitation wavelength of 387 nm and an emission wavelength of 463 nm were used for measurements of opsin. To minimize spectral overlap, an excitation wavelength of 420 nm was used for measurements in the presence of 11&#8208;cis and all&#8208;trans retinal. During each thermal denaturation experiment, the temperature was increased from 20 to 90&#176;C at 2&#176;C/min. The resulting melting curve was fitted using a sigmoidal boltzmann equation to obtain TM50 values. Average TM50 values and standard deviations were obtained from four measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30104</offset>
+      <text>Sample purification for biochemical and kinetic analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30161</offset>
+      <text>Cell pellets were detergent solubilized in 50 mM Tris, 100 mM NaCl, 1 mM CaCl2, 1% w/v DDM, 0.1 mM PMSF, pH 6.8 for 3 h at 4&#176;C. After solubilization, membrane fragments were centrifuged and regenerated with excess 11&#8208;cis retinal (7.15 &#956;M) for 2 h at 4&#176;C. Rhodopsin was purified using the 1D4 antibody coupled to Sepharose beads. The beads were washed three times with 50 mM Tris, 100 mM NaCl, 0.1% DDM, pH 6.8, and three times with 50 mM sodium phosphate, 0.1% DDM, pH 6.5 (Buffer A). The rhodopsin samples were eluted in Buffer A containing 1D4 peptide for competitive binding to the antibody (final concentration of 1D4 peptide in elution buffer is 0.18 mg/ml).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30830</offset>
+      <text>UV&#8208;visible spectroscopy and thermal decay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30874</offset>
+      <text>Thermal decay of dark state rhodopsin was monitored by UV&#8208;visible spectroscopy. Buffer A (~2 ml) was equilibrated in a water&#8208;jacketed cuvette at 55&#176;C. The temperature was confirmed using a thermal couple. At t = 0, ice&#8208;cold, concentrated rhodopsin solution (~20 &#956;l) was added to the buffer equilibrated at 55&#176;C to give a final concentration of 1&#8211;3 &#956;M. Since the volume of the concentrated rhodopsin sample is small compared to the volume of buffer A, the temperature change upon the addition of sample could be neglected. Previously, we did a control experiment by monitoring the temperature change after adding the sample into the buffer, the temperature change was compensated within 5 s. UV&#8208;visible spectra were recorded over time with Shimadzu UV&#8208;2450 spectrophotometer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31665</offset>
+      <text>HPLC analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31679</offset>
+      <text>Retinal was extracted from the samples as described in Liu et al47. Briefly, the samples were incubated on ice for 30 min with hydroxylamine (pH 7) to break the SB linkage between retinal and the opsin protein. Methanol, dichloromethane, and hexane were added to denature opsin and extract the retinaloximes. The isomeric mixture of retinaloximes was analyzed by HPLC (Beckman Coulter SYSTEM GOLD&#174; 125 Solvent Module) on a silica column (Beckman Coulter Ultrasphere 4.6 &#215; 250 mm) and a mobile phase of hexane supplemented with 8% diethyl ether and 0.33% ethanol. Absorbance at 360 nm was used for detection (Beckman Coulter SYSTEM GOLD&#174; 168 Detector).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32334</offset>
+      <text>Molecular dynamics simulations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32365</offset>
+      <text>For the simulations of the dark state of wild&#8208;type rhodopsin, we used as a starting conformation the structure of bovine rhodopsin in a trigonal crystal form (1GZM 48). The dark state of the rhodopsin mutants G90D2.57 and T94I2.61 was modeled using the 1GZM structure with additional stabilizing disulfide bond 18 as a template, and substituting residue G90 or T94 to Asp or Ile using the backbone&#8208;dependent rotamer library implemented in PyMOL (The PyMOL Molecular Graphics System, Version 1.2r3pre, Schr&#246;dinger, LLC), and choosing the Asp and Ile rotamer that minimized steric clashes with the surrounding residues. We added crystallographic waters, resolved in the 1GZM dark state structure. Cysteines 322 and 323 were palmitoylated. Glu, Asp, Arg, and Lys residues were set as charged, except E1223.37 and D832.5040. We also set up additional models where E1133.28 was considered neutral. Topology and parameter definitions for palmitoyl&#8208;cysteine and retinal bound via protonated Schiff base link to lysine were obtained from the parameter/topology repository of NAMD.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33445</offset>
+      <text>The models of WT(c&#8208;c) and mutant rhodopsin were embedded in a solvated and pre&#8208;equilibrated lipid bilayer consisting of ~300 molecules of 1&#8208;palmitoyl&#8208;2&#8208;oleoyl&#8208;sn&#8208;glycerol&#8208;3&#8208;phosphatidylcholine (POPC) and ~22,000 water molecules. Sodium and chloride ions were added to a concentration of 0.15 M NaCl, and then additional ions were added to achieve charge neutrality. The system measured roughly 75 &#215; 75 &#215; 90 &#197;3, with a total of ~59,000 atoms. These systems were equilibrated as follows: First, a short (0.5 ns) simulation was performed in which only the lipid tails were allowed to move, in order to induce the appropriate disorder of a fluid&#8208;like bilayer. Then, the geometry of the entire system was optimized by 1,000 steps of energy minimization, followed by two equilibration steps with the protein constrained (0.5 ns) and without constraints (0.5 ns). In order to estimate the structural stability of the retinal binding site, the equilibrated structures were subjected to 15 ns of simulated annealing, where the temperature was raised from 300 K to 450 K in 7.5 ns and then lowered to 300 K in 7.5 ns. Simulations were carried out using NAMD 2.8 49, 50 at constant pressure (1 atm), and using a time step of 2 fs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34688</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34706</offset>
+      <text>Coordinates and structure factors have been deposited under pdb code 5EN0 for T94I/GaCT2 and 5DYS for T94I.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34814</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34835</offset>
+      <text>AS prepared stable cell lines, purified, and crystallized mutated rhodopsin. AS and JS collected X&#8208;ray diffraction data and solved the structures. YG and ECYY contributed the experiments characterizing the rhodopsin decay rates. MM and XD did molecular dynamic simulations to characterize the impact of mutations on the rhodopsin dark state. GS contributed to planning and initiated contact between participating research groups. XD, ECYY, and JS supervised the project and analyzed data. AS, XD, and JS wrote the paper with additions and critical comments from all authors.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>35412</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35433</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>35493</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>35516</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Annu Rev Pharmacol Toxicol</infon>
+      <infon key="lpage">87</infon>
+      <infon key="pub-id_pmid">17029567</infon>
+      <infon key="fpage">53</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>35527</offset>
+      <text>Pharmacogenomic and structural analysis of constitutive g protein&#8208;coupled receptor activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">390</infon>
+      <infon key="source">J Physiol</infon>
+      <infon key="lpage">160</infon>
+      <infon key="pub-id_pmid">3443931</infon>
+      <infon key="fpage">145</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>35621</offset>
+      <text>Spectral sensitivity of cones of the monkey Macaca fascicularis</text>
+    </passage>
+    <passage>
+      <infon key="volume">73</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">3191</infon>
+      <infon key="pub-id_pmid">9414230</infon>
+      <infon key="fpage">3182</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>35685</offset>
+      <text>A comparison of the efficiency of G protein activation by ligand&#8208;free and light&#8208;activated forms of rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">70</infon>
+      <infon key="source">Adv Pharmacol</infon>
+      <infon key="lpage">36</infon>
+      <infon key="pub-id_pmid">24931191</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>35798</offset>
+      <text>Constitutively active rhodopsin and retinal disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">725</infon>
+      <infon key="pub-id_pmid">1356370</infon>
+      <infon key="fpage">719</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>35850</offset>
+      <text>Constitutively active mutants of rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">11945</infon>
+      <infon key="pub-id_pmid">7547930</infon>
+      <infon key="fpage">11938</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>35893</offset>
+      <text>Constitutive activation of opsin: interaction of mutants with rhodopsin kinase and arrestin</text>
+    </passage>
+    <passage>
+      <infon key="volume">367</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">642</infon>
+      <infon key="pub-id_pmid">8107847</infon>
+      <infon key="fpage">639</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>35985</offset>
+      <text>Rhodopsin mutation G90D and a molecular mechanism for congenital night blindness</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">2015</infon>
+      <infon key="pub-id_pmid">12590588</infon>
+      <infon key="fpage">2009</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>36066</offset>
+      <text>Characterization of rhodopsin congenital night blindness mutant T94I</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">884</infon>
+      <infon key="pub-id_pmid">7846071</infon>
+      <infon key="fpage">880</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>36135</offset>
+      <text>Dark&#8208;light: model for nightblindness from the human rhodopsin Gly&#8208;90&#8211;&gt;Asp mutation</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Invest Ophthalmol Vis Sci</infon>
+      <infon key="lpage">4114</infon>
+      <infon key="pub-id_pmid">18487375</infon>
+      <infon key="fpage">4105</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>36224</offset>
+      <text>Identification and functional characterization of a novel rhodopsin mutation associated with autosomal dominant CSNB</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Hum Mutat</infon>
+      <infon key="lpage">81</infon>
+      <infon key="pub-id_pmid">9888392</infon>
+      <infon key="fpage">75</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>36341</offset>
+      <text>A novel mutation within the rhodopsin gene (Thr&#8208;94&#8208;Ile) causing autosomal dominant congenital stationary night blindness</text>
+    </passage>
+    <passage>
+      <infon key="volume">664</infon>
+      <infon key="source">Adv Exp Med Biol</infon>
+      <infon key="lpage">272</infon>
+      <infon key="pub-id_pmid">20238025</infon>
+      <infon key="fpage">263</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>36466</offset>
+      <text>1 rhodopsin mutations in congenital night blindness</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">5460</infon>
+      <infon key="pub-id_pmid">11466416</infon>
+      <infon key="fpage">5449</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>36518</offset>
+      <text>Constitutive &#8220;light&#8221; adaptation in rods from G90D rhodopsin: a mechanism for human congenital nightblindness without rod cell loss</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">11672</infon>
+      <infon key="pub-id_pmid">18987202</infon>
+      <infon key="fpage">11662</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>36653</offset>
+      <text>Night blindness and the mechanism of constitutive signaling of mutant G90D rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">478</infon>
+      <infon key="source">J Comp Neurol</infon>
+      <infon key="lpage">163</infon>
+      <infon key="pub-id_pmid">15349976</infon>
+      <infon key="fpage">149</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>36738</offset>
+      <text>Retinal abnormalities associated with the G90D mutation in opsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">526</infon>
+      <infon key="pub-id_pmid">23579341</infon>
+      <infon key="fpage">520</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>36803</offset>
+      <text>Insights into congenital stationary night blindness based on the structure of G90D rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">471</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">655</infon>
+      <infon key="pub-id_pmid">21389988</infon>
+      <infon key="fpage">651</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>36896</offset>
+      <text>Crystal structure of metarhodopsin II</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">2001</infon>
+      <infon key="pub-id_pmid">12590586</infon>
+      <infon key="fpage">1995</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>36934</offset>
+      <text>An opsin mutant with increased thermal stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">372</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">1188</infon>
+      <infon key="pub-id_pmid">17825322</infon>
+      <infon key="fpage">1179</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>36983</offset>
+      <text>Crystal structure of a thermally stable rhodopsin mutant</text>
+    </passage>
+    <passage>
+      <infon key="volume">380</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">157</infon>
+      <infon key="pub-id_pmid">18511075</infon>
+      <infon key="fpage">145</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>37040</offset>
+      <text>Structural impact of the E113Q counterion mutation on the activation and deactivation pathways of the G protein&#8208;coupled receptor rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">124</infon>
+      <infon key="pub-id_pmid">22198838</infon>
+      <infon key="fpage">119</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>37181</offset>
+      <text>Stabilized G protein binding site in the structure of constitutively active metarhodopsin&#8208;II</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="lpage">7263</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="fpage">7254</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>37276</offset>
+      <text>Mechanism of retinal Schiff base formation and hydrolysis in relation to visual pigment photolysis and regeneration: resonance Raman spectroscopy of a tetrahedral carbinolamine intermediate and oxygen&#8208;18 labeling of retinal at the metarhodopsin stage in photoreceptor membranes</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10443</infon>
+      <infon key="pub-id_pmid">25002518</infon>
+      <infon key="fpage">10438</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>37556</offset>
+      <text>Unusual kinetics of thermal decay of dim&#8208;light photoreceptors in vertebrate vision</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">55894</infon>
+      <infon key="pub-id_pmid">15475355</infon>
+      <infon key="fpage">55886</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>37641</offset>
+      <text>Role of the retinal hydrogen bond network in rhodopsin Schiff base stability and hydrolysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="lpage">8751</infon>
+      <infon key="pub-id_pmid">19505100</infon>
+      <infon key="fpage">8750</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>37733</offset>
+      <text>Thermal decay of rhodopsin: role of hydrogen bonds in thermal isomerization of 11&#8208;cis retinal in the binding site and hydrolysis of protonated Schiff base</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5252</infon>
+      <infon key="pub-id_pmid">22431612</infon>
+      <infon key="fpage">5247</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>37890</offset>
+      <text>Effect of channel mutations on the uptake and release of the retinal ligand in opsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">38416</infon>
+      <infon key="pub-id_pmid">21921035</infon>
+      <infon key="fpage">38408</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>37975</offset>
+      <text>Chemical kinetic analysis of thermal decay of rhodopsin reveals unusual energetics of thermal isomerization and hydrolysis of Schiff base</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">27629</infon>
+      <infon key="pub-id_pmid">21659526</infon>
+      <infon key="fpage">27622</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>38113</offset>
+      <text>Thermal properties of rhodopsin: insight into the molecular mechanism of dim&#8208;light vision</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">40001</infon>
+      <infon key="pub-id_pmid">21940625</infon>
+      <infon key="fpage">39993</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>38205</offset>
+      <text>Molecular mechanisms of disease for mutations at Gly&#8208;90 in rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12513</infon>
+      <infon key="pub-id_pmid">15306683</infon>
+      <infon key="fpage">12508</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>38276</offset>
+      <text>Structural origins of constitutive activation in rhodopsin: role of the K296/E113 salt bridge</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">21835</infon>
+      <infon key="pub-id_pmid">22549882</infon>
+      <infon key="fpage">21826</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>38370</offset>
+      <text>Structural, energetic, and mechanical perturbations in a rhodopsin mutant that causes congenital stationary night blindness</text>
+    </passage>
+    <passage>
+      <infon key="volume">246</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">930</infon>
+      <infon key="pub-id_pmid">2573154</infon>
+      <infon key="fpage">928</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>38494</offset>
+      <text>Effect of carboxylic acid side chains on the absorption maximum of visual pigments</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8313</infon>
+      <infon key="pub-id_pmid">2573063</infon>
+      <infon key="fpage">8309</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>38577</offset>
+      <text>Glutamic acid&#8208;113 serves as the retinylidene Schiff base counterion in bovine rhodopsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">15073</infon>
+      <infon key="pub-id_pmid">8942673</infon>
+      <infon key="fpage">15065</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>38667</offset>
+      <text>Spectroscopic evidence for altered chromophore&#8211;protein interactions in low&#8208;temperature photoproducts of the visual pigment responsible for congenital night blindness</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">6432</infon>
+      <infon key="pub-id_pmid">12466267</infon>
+      <infon key="fpage">6427</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>38837</offset>
+      <text>Unusual thermal and conformational properties of the rhodopsin congenital night blindness mutant Thr&#8208;94 &#8211;&gt; Ile</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">7545</infon>
+      <infon key="pub-id_pmid">8652533</infon>
+      <infon key="fpage">7536</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>38952</offset>
+      <text>Characterization of the mutant visual pigment responsible for congenital night blindness: a biochemical and Fourier&#8208;transform infrared spectroscopy study</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">38493</infon>
+      <infon key="pub-id_pmid">11502747</infon>
+      <infon key="fpage">38487</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>39108</offset>
+      <text>Conformations of the active and inactive states of opsin</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Cell Signal</infon>
+      <infon key="lpage">2162</infon>
+      <infon key="pub-id_pmid">23872075</infon>
+      <infon key="fpage">2155</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>39165</offset>
+      <text>Constitutively active rhodopsin mutants causing night blindness are effectively phosphorylated by GRKs but differ in arrestin&#8208;1 binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Neurosci</infon>
+      <infon key="lpage">735</infon>
+      <infon key="pub-id_pmid">12778053</infon>
+      <infon key="fpage">731</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>39303</offset>
+      <text>Opsin activation as a cause of congenital night blindness</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">17800</infon>
+      <infon key="pub-id_pmid">18997017</infon>
+      <infon key="fpage">17795</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>39361</offset>
+      <text>Two protonation switches control rhodopsin activation in membranes</text>
+    </passage>
+    <passage>
+      <infon key="volume">1271</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">54</infon>
+      <infon key="pub-id_pmid">25697515</infon>
+      <infon key="fpage">39</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>39428</offset>
+      <text>Mammalian expression, purification, and crystallization of rhodopsin variants</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">132</infon>
+      <infon key="pub-id_pmid">20124692</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>39506</offset>
+      <text>Xds</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="lpage">674</infon>
+      <infon key="pub-id_pmid">19461840</infon>
+      <infon key="fpage">658</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>39510</offset>
+      <text>Phaser crystallographic software</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">2132</infon>
+      <infon key="pub-id_pmid">15572765</infon>
+      <infon key="fpage">2126</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>39543</offset>
+      <text>Coot: model&#8208;building tools for molecular graphics</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">1954</infon>
+      <infon key="pub-id_pmid">12393927</infon>
+      <infon key="fpage">1948</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>39595</offset>
+      <text>PHENIX: building new software for automated crystallographic structure determination</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">359</infon>
+      <infon key="pub-id_pmid">18334210</infon>
+      <infon key="fpage">351</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>39680</offset>
+      <text>Microscale fluorescent thermal stability assay for membrane proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">176712</infon>
+      <infon key="pub-id_pmid">23625926</infon>
+      <infon key="fpage">17698</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>39749</offset>
+      <text>Thermal stability of rhodopsin and progression of retinitis pigmentosa: a comparison of S186W and D190N rhodopsin mutants</text>
+    </passage>
+    <passage>
+      <infon key="volume">343</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">1438</infon>
+      <infon key="pub-id_pmid">15491621</infon>
+      <infon key="fpage">1409</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>39871</offset>
+      <text>Structure of bovine rhodopsin in a trigonal crystal form</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">J Comput Chem</infon>
+      <infon key="lpage">1802</infon>
+      <infon key="pub-id_pmid">16222654</infon>
+      <infon key="fpage">1781</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>39928</offset>
+      <text>Scalable molecular dynamics with NAMD</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">J Phys Chem B</infon>
+      <infon key="lpage">3616</infon>
+      <infon key="pub-id_pmid">24889800</infon>
+      <infon key="fpage">3586</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>39966</offset>
+      <text>All&#8208;atom empirical potential for molecular modeling and dynamics studies of proteins</text>
+    </passage>
+  </document>
+</collection>

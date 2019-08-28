@@ -1,0 +1,1318 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5286374</id>
+    <passage>
+      <infon key="name_2">surname:Huang;given-names:Hao</infon>
+      <infon key="name_3">surname:Gao;given-names:Minghui</infon>
+      <infon key="name_0">surname:Zhang;given-names:Zhibin</infon>
+      <infon key="name_1">surname:Liu;given-names:Yanan</infon>
+      <infon key="name_6">surname:Zhang;given-names:Yuelin</infon>
+      <infon key="alt-title">Zhibin Zhang et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642704</infon>
+      <infon key="name_5">surname:Kong;given-names:Qing</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embr.201642704</infon>
+      <infon key="name_4">surname:Wu;given-names:Di</infon>
+      <infon key="lpage">302 302</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">18 18</infon>
+      <infon key="fpage">292 292</infon>
+      <infon key="year">2017</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">2</infon>
+      <infon key="kwd">plant immunity MAP kinase cascade MPK4 CRCK3 SUMM2 Immunology Plant Biology Signal Transduction</infon>
+      <offset>0</offset>
+      <text>The NLR protein SUMM2 senses the disruption of an immune signaling MAP kinase cascade via CRCK3</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>96</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>MAP kinase signaling is an integral part of plant immunity. Disruption of the MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade results in constitutive immune responses mediated by the NLR protein SUMM2, but the molecular mechanism is so far poorly characterized. Here, we report that SUMM2 monitors a substrate protein of MPK4, CALMODULIN&#8208;BINDING RECEPTOR&#8208;LIKE CYTOPLASMIC KINASE 3 (CRCK3). Similar to SUMM2, CRCK3 was isolated from a suppressor screen of mkk1 mkk2 and is required for the autoimmunity phenotypes in mekk1, mkk1 mkk2, and mpk4 mutants. In wild&#8208;type plants, CRCK3 is mostly phosphorylated. MPK4 interacts with CRCK3 and can phosphorylate CRCK3 in vitro. In mpk4 mutant plants, phosphorylation of CRCK3 is substantially reduced, suggesting that MPK4 phosphorylates CRCK3 in vivo. Further, CRCK3 associates with SUMM2 in planta, suggesting SUMM2 senses the disruption of the MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade through CRCK3. Our study suggests that a MAP kinase substrate is used as a guardee or decoy for monitoring the integrity of MAP kinase signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1171</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1184</offset>
+      <text>To combat pathogen attacks, plants have evolved a two&#8208;layered surveillance system to sense infections by pathogens. Plasma membrane&#8208;localized receptors recognize pathogen&#8208;associated molecular patterns (PAMPs) and initiate downstream signaling pathways leading to establishment of PAMP&#8208;triggered immunity (PTI) 1. This is exemplified by recognition of bacterial flagellin by the receptor&#8208;like kinases (RLK) FLS2 and BAK1 2, 3, 4, 5. To overcome PTI, successful pathogens usually deliver a repertoire of effector proteins into plant cells to subvert defense responses and promote pathogenesis. Recognition of pathogen effectors by intracellular nucleotide binding and leucine&#8208;rich repeat receptors (NLRs) leads to activation of the second layer of defense termed effector&#8208;triggered immunity (ETI) 6, 7, which is often robust and results in localized programmed cell death.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2069</offset>
+      <text>In some cases, NLRs can recognize effector proteins through direct interactions 8, 9, 10, 11, 12. More often, NLRs indirectly recognize effector proteins through other host proteins. Modifications of host proteins by pathogen effectors are sensed by their cognate NLR receptors, leading to activation of defense responses. Some of the well&#8208;studied examples of host proteins involved in indirect recognition are Arabidopsis RIN4 and PBS1 and tomato Pto 13, 14, 15, 16, 17. A host protein monitored by an NLR is named as a &#8220;Guardee&#8221; or &#8220;Decoy&#8221; depending on whether it plays any roles in PTI 18, 19, 20, 21.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2684</offset>
+      <text>One of the early events in PTI is activation of MAP kinases. In Arabidopsis, there are at least six MAP kinases that are activated following treatment with flg22 22, 23, 24, 25, 26. Among them, MPK3 and MPK6 play important roles in regulating biosynthesis of ethylene, phytoalexins and indole glucosinolates and their derivatives 27, 28, 29. MPK4 forms a MAP kinase cascade together with MEKK1 and MKK1/MKK2 30, 31, which positively regulates basal resistance against pathogens 32. Following flg22 treatment, about 50% of genes induced require MPK4 for their induction 33. On the other hand, mekk1, mkk1 mkk2, and mpk4 mutant plants exhibit extreme dwarfism and autoimmune phenotypes such as spontaneous cell death and constitutive defense gene expression 30, 31, 34, 35, 36, 37. Both the dwarf morphology and autoimmune phenotypes in these mutants can be largely suppressed by loss&#8208;of&#8208;function mutations in the NLR protein SUMM2 32. Disruption of MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade by pathogen effector protein HopAI1 also leads to activation of SUMM2&#8208;mediated defense responses, suggesting SUMM2 function as an immune receptor that monitors the integrity of the MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade. Interestingly, expression of a constitutively active MPK4 leads to enhanced susceptibility to pathogens 38. Recently, MPK4 was also shown to play a role in negative regulation of flg22&#8208;induced gene expression through phosphorylation of ASR3 39.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4141</offset>
+      <text>In addition to SUMM2, MEKK2 is also required for activation of defense responses in mekk1, mkk1 mkk2, and mpk4 mutant plants 40, 41. Over&#8208;expression of MEKK2 results in constitutive activation of SUMM2&#8208;dependent defense responses, suggesting that MEKK2 functions upstream of SUMM2 40. As no direct interactions can be detected between MPK4 and SUMM2 or MEKK2 and SUMM2, the molecular mechanism underlying how SUMM2 senses the disruption of MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade was unclear.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4635</offset>
+      <text>In this study, we report the identification of SUMM3, which encodes CALMODULIN&#8208;BINDING RECEPTOR&#8208;LIKE CYTOPLASMIC KINASE 3 (CRCK3). SUMM3/CRCK3 is required for the constitutive defense responses of mekk1, mkk1 mkk2, and mpk4 mutant plants and it associates with SUMM2 in planta, suggesting that CRCK3 may serve as the &#8220;guardee&#8221; or &#8220;decoy&#8221; recognized by SUMM2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5006</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5014</offset>
+      <text>Characterization of summ3&#8208;1 mkk1 mkk2</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5054</offset>
+      <text>summ3&#8208;1 was identified from the previously described suppressor screen of mkk1&#8208;1 mkk2&#8208;132. The summ3&#8208;1 mkk1 mkk2 triple mutant displays similar morphology as wild type (Fig 1A). Due to activation of SUMM2&#8208;mediated defense responses, mkk1 mkk2 exhibits spontaneous cell death. Trypan blue staining revealed that cell death is abolished in the summ3&#8208;1 mkk1 mkk2 triple mutant (Fig 1B). Analysis of H2O2 accumulation by DAB staining showed that increased accumulation of H2O2 in mkk1 mkk2 is also completely suppressed in the triple mutant (Fig 1C). In mkk1 mkk2 plants, defense marker genes Pathogenesis&#8208;Related (PR) 1 and PR2 are constitutively expressed. Analysis of the expression level of PR1 and PR2 by quantitative RT&#8211;PCR showed that the expression of both genes is dramatically decreased in summ3&#8208;1 mkk1 mkk2 compared to the wild type (Fig 1D and E). All these data suggest that summ3&#8208;1 suppresses mkk1 mkk2 at both the morphological and the molecular levels.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6039</offset>
+      <text>Suppression of mkk1 mkk2 mutant phenotypes by summ3&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6095</offset>
+      <text>Morphological phenotypes of wild&#8208;type (WT), mkk1 mkk2, and summ3&#8208;1 mkk1 mkk2 plants. Photographs were taken of 3&#8208;week&#8208;old soil&#8208;grown plants.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6246</offset>
+      <text>Trypan blue staining of cell death in the indicated genotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6309</offset>
+      <text>DAB staining of H2O2 accumulation in the indicated genotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6371</offset>
+      <text>Expression of PR1 (D) and PR2 (E) in the indicated genotypes as determined by quantitative RT&#8211;PCR. Two&#8208;week&#8208;old seedlings grown on &#189; MS plates were used for assays. Values were normalized to the expression levels of ACTIN1. The data are shown as mean &#177; SD (n = 3) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6809</offset>
+      <text>SUMM3 encodes CALMODULIN&#8208;BINDING RECEPTOR&#8208;LIKE CYTOPLASMIC KINASE 3</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6881</offset>
+      <text>summ3&#8208;1 was mapped to a region between markers T12J2 and F17L24 on chromosome 2. Sequencing candidate genes induced by pathogens in this region identified a G to A point mutation in At2g11520 (Fig 2A), which encodes CALMODULIN&#8208;BINDING RECEPTOR&#8208;LIKE CYTOPLASMIC KINASE 3 (CRCK3) 42. CRCK3 contains an N&#8208;terminal domain with unknown function and C&#8208;terminal serine/threonine kinase domain. Analysis of CRCK3 protein sequence using PSORT (http://psort.hgc.jp/) predicted that the N&#8208;terminal domain contains a putative signal peptide and a transmembrane motif. There are five predicted MAP kinase phosphorylation sites between the predicted transmembrane motif and the kinase domain (Fig 2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7581</offset>
+      <text>Identification of SUMM3</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7605</offset>
+      <text>summ3&#8208;1 mutation in At2g11520. Exons are indicated with black boxes, UTRs with empty boxes, and introns with lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7723</offset>
+      <text>The predicted protein structure of SUMM3/CRCK3. The black box indicates the conserved kinase domain. The gray box indicates the signal peptide. TM stands for transmembrane domain. *****, predicted MAP kinase phosphorylation sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7954</offset>
+      <text>Mutations in At2g11520 identified from 16 alleles of summ3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8014</offset>
+      <text>Sequencing analysis of At2g11520 in other summ mutants found 15 additional alleles carrying independent mutations in the gene. These alleles of summ3 either partially or completely suppress the dwarf morphology of mkk1 mkk2 (Appendix Fig S1, the same wild&#8208;type and mkk1 mkk2 plants used in Fig 1A were included as controls), and they were named summ3&#8208;2 to summ3&#8208;16, respectively (Fig 2C). Mutations in most of these summ3 alleles are located in the C&#8208;terminal kinase domain, suggesting that the kinase domain of CRCK3 is critical for its function.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8570</offset>
+      <text>We also obtained a T&#8208;DNA insertion mutant of SUMM3 from the Arabidopsis Biological Resource Center (ABRC), which was designated as summ3&#8208;17. The T&#8208;DNA insertion is located in the third intron of SUMM3. Expression of SUMM3 in summ3&#8208;17 is dramatically reduced (Fig EV1A). When summ3&#8208;17 was crossed into mkk1 mkk2, the dwarf morphology is completely suppressed in the summ3&#8208;17 mkk1 mkk2 triple mutant (Fig EV1B), confirming that loss of SUMM3 function suppresses the mkk1 mkk2 mutant phenotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9074</offset>
+      <text>Suppression of the dwarf morphology of mkk1 mkk2 by summ3&#8208;17</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9137</offset>
+      <text>Expression levels of SUMM3 in WT and summ3&#8208;17 plants. RNA was extracted from 2&#8208;week&#8208;old seedlings grown on &#189; MS plates and quantified by real&#8208;time RT&#8211;PCR. Values were normalized to the expression levels of ACTIN1. The data are shown as mean &#177; SD (n = 3) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated twice with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9563</offset>
+      <text>Morphological phenotype of wild type (WT), mkk1 mkk2, and summ3&#8208;17 mkk1 mkk2 plants. Photographs were taken on 3&#8208;week&#8208;old soil&#8208;grown plants.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9712</offset>
+      <text>SUMM3 is required for the autoimmune phenotypes of mekk1 and mpk4</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9778</offset>
+      <text>As MEKK1 and MPK4 function in the same MAP kinase cascade as MKK1 and MKK2, we tested whether SUMM3 is required for the autoimmune phenotypes of mekk1 and mpk4. We made a cross between mekk1&#8208;1 and summ3&#8208;17 and identified the mekk1&#8208;1 summ3&#8208;17 double mutant by PCR in the F2 population. As shown in Fig 3A, mekk1&#8208;1 summ3&#8208;17 displays wild&#8208;type morphology. There is no detectable accumulation of H2O2 and cell death in the double mutant (Fig EV2A and B). In addition, constitutive expression of PR1 and PR2 in mekk1&#8208;1 is completely blocked in the double mutant (Fig 3B and C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10367</offset>
+      <text>Characterization of the summ3&#8208;17 mekk1&#8208;1 and summ3 mpk4&#8208;3 double mutants</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10446</offset>
+      <text>Morphological phenotypes of WT, summ3&#8208;17, mekk1&#8208;1, and summ3&#8208;17 mekk1&#8208;1 plants grown on soil for 3 weeks.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10560</offset>
+      <text>Expression levels of PR1 (B) and PR2 (C) in the indicated genotypes as determined by quantitative RT&#8211;PCR. Two&#8208;week&#8208;old seedlings grown on &#189; MS plates were used for assays. Values were normalized to the expression levels of ACTIN1. The data are shown as mean &#177; SD (n = 3) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11005</offset>
+      <text>Morphological phenotypes of WT, mpk4&#8208;3, summ3&#8208;1 mpk4&#8208;3, and summ3&#8208;2 mpk4&#8208;3 plants. Photographs were taken on 3&#8208;week&#8208;old soil&#8208;grown plants.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11160</offset>
+      <text>Expression levels of PR1 (E) and PR2 (F) in the indicated genotypes as determined by quantitative RT&#8211;PCR. Two&#8208;week&#8208;old seedlings grown on &#189; MS plates were used for assays. Values were normalized to the expression levels of ACTIN1. The data are shown as mean &#177; SD (n = 3) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11605</offset>
+      <text>Cell death and H2O2 accumulation in the summ3&#8208;17 mekk1&#8208;1 and summ3 mpk4&#8208;3 double mutants</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11700</offset>
+      <text>Trypan blue staining of cell death (A) and DAB staining of H2O2 accumulation (B) in WT, summ3&#8208;17, mekk1&#8208;1, and summ3&#8208;17 mekk1&#8208;1 plants.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11844</offset>
+      <text>Trypan blue staining of cell death (C) and DAB staining of H2O2 accumulation (D) in WT, mpk4&#8208;3, summ3&#8208;1 mpk4&#8208;3, and summ3&#8208;2 mpk4&#8208;3 plants.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11993</offset>
+      <text>We also crossed summ3&#8208;1 and summ3&#8208;2 into mpk4&#8208;3 to obtain the summ3&#8208;1 mpk4&#8208;3 and summ3&#8208;2 mpk4&#8208;3 double mutants. As shown in Fig 3D, the double mutants are much bigger than mpk4&#8208;3, but smaller than wild type. Spontaneous cell death, accumulation of H2O2, and constitutive expression of PR1 and PR2 are also largely suppressed by summ3&#8208;1 and summ3&#8208;2 (Figs 3E and F, and EV2C and D). However, the suppression is not as complete as in summ3&#8208;17 mekk1&#8208;1 or summ3&#8208;1 mkk1 mkk2. In addition, partial suppression of the mpk4 mutant phenotype was also observed in the summ3&#8208;17 mpk4&#8208;3 double mutant (Appendix Fig S2). These data suggest that SUMM3 functions downstream of the MEKK1&#8208;MKK1/MKK2&#8208;MPK4 kinase cascade.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12728</offset>
+      <text>SUMM3 is required for autoimmune phenotypes caused by over&#8208;expression of MEKK2</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12809</offset>
+      <text>MEKK2 is required for constitutive defense responses in mekk1, mkk1 mkk2, and mpk4 mutant plants, and over&#8208;expression of MEKK2 results in SUMM2&#8208;dependent autoimmune phenotypes 40, 41. To test whether SUMM3 is required for the autoimmune phenotypes caused by over&#8208;expression of MEKK2, we over&#8208;expressed MEKK2&#8208;FLAG in wild&#8208;type and summ3&#8208;17 mutant background and selected lines with comparable MEKK2&#8208;FLAG protein levels (Fig 4A). Interestingly, all the mutant phenotypes associated with autoimmunity such as dwarfism (Fig 4A), spontaneous cell death (Fig 4B), over&#8208;accumulation of H2O2 (Fig 4C), and elevated expression levels of PR1 and PR2 are completely suppressed by the summ3&#8208;17 mutation (Fig 4D and E), suggesting that SUMM3 functions downstream of MEKK2. We further tested whether MEKK2 interacts with SUMM3/CRCK3 via co&#8208;immunoprecipitation analysis. However, no interaction was detected between these two proteins (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13769</offset>
+      <text>SUMM3/CRCK3 is required for the autoimmune phenotypes in MEKK2&#8208;over&#8208;expressing plants</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13859</offset>
+      <text>Morphological phenotypes of transgenic plants over&#8208;expressing MEKK2&#8208;FLAG protein in WT and summ3&#8208;17 backgrounds. Lines 1 and 2 express MEKK2&#8208;FLAG in WT background. Lines 3&#8211;5 express MEKK2&#8208;FLAG in the summ3&#8208;17 mutant background. The photograph shows 4&#8208;week&#8208;old soil&#8208;grown plants. Expression of MEKK2&#8208;FLAG was detected by Western blot using an anti&#8208;FLAG antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14245</offset>
+      <text>Trypan blue staining of cell death (B) and DAB staining of H2O2 accumulation (C) in the indicated genotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14354</offset>
+      <text>Expression levels of PR1 (D) and PR2 (E) in the indicated genotypes as determined by quantitative RT&#8211;PCR. Two&#8208;week&#8208;old seedlings grown on &#189; MS plates were used for assays. Values were normalized to the expression levels of ACTIN1. The data are shown as mean &#177; SD (n = 3) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14799</offset>
+      <text>MPK4 interacts with SUMM3/CRCK3 in planta</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14841</offset>
+      <text>To test whether MPK4 interacts with CRCK3, luciferase complementation assays were carried out using constructs expressing MPK4 fused to the C&#8208;terminal domain of luciferase (MPK4CLuc) and CRCK3 fused to the N&#8208;terminal domain of luciferase (CRCK3NLuc) under a 35S promoter. If MPK4 interacts with CRCK3, a functional luciferase complex would be formed. As shown in Fig 5A, strong luciferase activity was observed when MPK4CLuc was co&#8208;expressed with CRCK3NLuc in Nicotiana (N.) benthamiana, suggesting that MPK4 interacts with CRCK3 in vivo. In contrast, very little luciferase activity was detected when CRCK3NLuc was co&#8208;expressed with MPK6CLuc (Fig 5A and Appendix Fig S3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15522</offset>
+      <text>CRCK3 is a substrate of MPK4</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15551</offset>
+      <text>Quantification of luciferase activity in Nicotiana benthamiana leaves expressing CRCK3NLuc and MPK4CLuc or MPK6CLuc. Data were collected 3 days after infiltration. The data are shown as mean &#177; SD (n = 8) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated twice with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15916</offset>
+      <text>Phosphorylation of CRCK3G390R by MPK4. MPK4 was immunoprecipitated from wild type or MPK4::MPK4&#8208;FLAG. After incubation with [&#947;&#8208;32P] ATP and the immunoprecipitated MPK4&#8208;FLAG protein in protein kinase buffer, CRCK3G390R was separated by SDS&#8211;PAGE. The autoradiograph of the gel is shown in the top panel, and immunoblot analysis of MPK4&#8208;FLAG levels is shown in the bottom panel. Myelin basic protein (MBP) was used as a positive control. This experiment was repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16425</offset>
+      <text>Western blot analysis of CRCK3&#8208;FLAG proteins in wild type and mpk4&#8208;3. Total protein was extracted from 2&#8208;week&#8208;old CRCK3&#8208;FLAG transgenic plants in WT and mpk4 background grown on &#189; MS medium plates. The protein extracts were treated with or without &#955;&#8208;PMPase phosphatase. The proteins were separated by Phos&#8208;tag&#8482; acrylamide gel electrophoresis, and CRCK&#8208;FLAG proteins were detected by Western blot analysis using an anti&#8208;FLAG antibody. Similar results were obtained in two independent experiments. pCRCK3, phosphorylated CRCK3&#8208;FLAG protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16988</offset>
+      <text>Western blot analysis of CRCK3&#8208;FLAG and CRCK35S&#8722;5A&#8208;FLAG proteins in transgenic plants of wild&#8208;type background. Total protein was extracted from 2&#8208;week&#8208;old plants grown on &#189; MS medium plates. The protein extracts were treated with or without &#955;&#8208;PMPase phosphatase. The proteins were separated by Phos&#8208;tag&#8482; acrylamide gel electrophoresis, and the FLAG&#8208;tagged proteins were detected by Western blot analysis using an anti&#8208;FLAG antibody. Similar results were obtained in two independent experiments. 5S&#8208;5A stands for a change in five amino acids (S172A, S181A, S188A, S195A, S202A).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17592</offset>
+      <text>Phosphorylation of SUMM3/CRCK3 by MPK4</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17631</offset>
+      <text>The direct interaction between MPK4 and CRCK3 prompted us to test whether CRCK3 is a substrate for MPK4. To test whether MPK4 can phosphorylate CRCK3, a kinase&#8208;dead mutant of CRCK3 (CRCK3G390R) was expressed in E. coli and purified for kinase assays. In vitro kinase assays were carried out using CRCK3G390R and MPK4&#8208;FLAG purified from transgenic plants expressing the MPK4&#8208;FLAG fusion protein. As shown in Fig 5B, CRCK3G390R was phosphorylated by MPK4&#8208;FLAG from the flg22&#8208;treated plants, but not the control plants, suggesting that CRCK3 is a substrate of MPK4.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18204</offset>
+      <text>To determine whether MPK4 is required for phosphorylation of CRCK3 in planta, a transgenic line expressing a CRCK3&#8208;FLAG fusion protein under its native promoter in wild type was crossed with mpk4&#8208;3 to introduce the transgene into the mpk4&#8208;3 mutant background. The CRCK3&#8208;FLAG proteins from wild&#8208;type and mpk4&#8208;3 mutant plants were subsequently analyzed by Phos&#8208;tag&#8482; polyacrylamide gel electrophoresis and Western blot. Compared with the phosphatase&#8208;treated protein, there is a clear mobility shift for the CRCK3&#8208;FLAG protein from wild&#8208;type plants (Fig 5C), suggesting that most of the CRCK3 protein is present as phosphorylated form in wild&#8208;type plants. In contrast, a considerable amount of CRCK3&#8208;FLAG protein in mpk4&#8208;3 has similar mobility as the phosphatase&#8208;treated protein, suggesting that a large fraction of CRCK3 protein is not phosphorylated in mpk4&#8208;3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19095</offset>
+      <text>To test whether the five predicted MAP kinase phosphorylation sites in the N&#8208;terminal domain of CRCK3 are phosphorylated in vivo, we replaced these sites (S172, S181, S188, S195, and S202) with Ala residues to obtain a CRCK3 mutant protein designated as CRCK35S&#8211;5A. The FLAG&#8208;tagged CRCK35S&#8211;5A protein was expressed in wild&#8208;type plants and analyzed by Phos&#8208;tag&#8482; polyacrylamide gel electrophoresis and Western blot. As shown in Fig 5D, the mobility shift seen in the CRCK3&#8208;FLAG protein is almost completely gone for the CRCK35S&#8722;5A&#8211;FLAG protein, suggesting that the predicted MAP kinase phosphorylation sites in CRCK3 are phosphorylated in planta.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19760</offset>
+      <text>SUMM3/CRCK3 associates with SUMM2 in planta</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19804</offset>
+      <text>Analysis of transgenic plants expressing a CRCK3&#8208;GFP fusion protein under its native promoter showed that it is localized to the plasma membrane (Fig EV3). Similarly, a SUMM2&#8208;eYFP fusion protein was also localized to the plasma membrane (Fig EV3). Since both SUMM3/CRCK3 and SUMM2 function downstream of MPK4 and MEKK2, we tested whether these two proteins associate with each other in planta. FLAG&#8208;tagged CRCK3 and HA&#8208;tagged SUMM2 fusion proteins were co&#8208;expressed in N. benthamiana by agroinfiltration. The CRCK3&#8208;FLAG protein was immunoprecipitated with anti&#8208;FLAG Agarose beads (Sigma&#8208;Aldrich; 087K6001), and presence of the SUMM2&#8208;HA protein in the precipitate was analyzed by Western blot using an anti&#8208;HA antibody (Roche, 11867423001). As shown in Fig 6A, SUMM2&#8208;HA co&#8208;immunoprecipitated with CRCK3&#8208;FLAG, suggesting that these two proteins interact with each other. Further co&#8208;immunoprecipitation experiments using a truncated CRCK3 with only the kinase domain showed that the kinase domain of CRCK3 is sufficient for the SUMM2&#8211;CRCK3 association (Fig 6B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20893</offset>
+      <text>Subcellular localization of CRCK3&#8208;GFP and SUMM2&#8208;eYFP in protoplasts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20965</offset>
+      <text>Mesophyll protoplasts derived from 3&#8208;week&#8208;old Arabidopsis plants were transfected with pCambia1305&#8208;CRCK3&#8208;GFP or pCambia1300&#8208;SUMM2&#8208;eYFP&#8208;HA. A plasmid expressing GFP itself was used as a control. Images were captured at around 20 h post&#8208;transfection. Each bar represents 10 microns. Epifluorescence (I), chloroplast autofluorescence (II), and merged (III).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21336</offset>
+      <text>CRCK3 associates with SUMM2 in planta</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21374</offset>
+      <text>In vivo pull&#8208;down of HA&#8208;tagged SUMM2 by FLAG&#8208;tagged CRCK3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21439</offset>
+      <text>In vivo pull&#8208;down of HA&#8208;tagged SUMM2 by FLAG&#8208;tagged CRCK3 kinase domain. KD represents a truncation of CRCK3 with only the kinase domain (amino acids 201&#8211;510).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21607</offset>
+      <text>FLAG&#8208;tagged full&#8208;length or truncated CRCK3 and HA&#8208;tagged SUMM2 proteins were transiently expressed in N. bethamiana by agro&#8208;infiltration. FLAG&#8208;tagged CRCK3 proteins were immunoprecipitated with anti&#8208;FLAG conjugated beads (Sigma) and detected by Western blot using anti&#8208;FLAG antibody. HA&#8208;tagged SUMM2 protein co&#8208;immunoprecipitated with FLAG&#8208;tagged CRCK3 was detected by Western blot using anti&#8208;HA antibody. Similar results were obtained in two independent experiments. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22098</offset>
+      <text>CRCK3 is not required for RPS2&#8208; and RPS5&#8208;mediated immunity</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22161</offset>
+      <text>Since CRCK3 functions together with SUMM2, we asked whether CRCK3 is involved in resistance mediated by other CC&#8208;NB&#8208;LRR resistance proteins such as RPS2 and RPS5. We challenged summ3&#8208;17 with P.s.t. DC3000 strains carrying either AvrRpt2 or AvrPphB. AvrRpt2 is recognized by RPS2, and AvrPphB is recognized by RPS5. As shown in Fig EV4, summ3&#8208;17 plants support similar growth of these two bacterial strains as wild&#8208;type plants, suggesting that CRCK3 is not required for immunity mediated by RPS2 and RPS5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22676</offset>
+      <text>Growth of bacterial pathogens P.s.t. DC3000 AvrRpt2 and P.s.t. DC3000 AvrPphB in WT and summ3&#8208;17 plants</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22782</offset>
+      <text>Four&#8208;week&#8208;old soil&#8208;grown plants were inoculated with P.s.t. DC3000 AvrRpt2 (A) and P.s.t. DC3000 AvrPphB (B) bacteria (OD600 = 0.001). Bacterial titers at day 0 and day 3 were determined by taking leaf disks within the inoculated area. The data are shown as mean &#177; SD (n = 6) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23231</offset>
+      <text>PAMP&#8208;triggered immunity is not affected in summ3&#8208;17</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23287</offset>
+      <text>Next we tested whether CRCK3 is required in PAMP&#8208;triggered immunity. We first compared flg22&#8208;induced ROS burst and MAP kinase activation in wild type and summ3&#8208;17. As shown in Fig EV5A, induction of H2O2 production by flg22 is similar in summ3&#8208;17 and wild&#8208;type plants. flg22&#8208;induced phosphorylation of MAP kinases in summ3&#8208;17 is also comparable to that in WT (Fig EV5B). Analysis of the expression of PTI marker gene FRK1 and WRK29 showed that their induction by flg22 is similar in wild type and summ3&#8208;17 (Fig EV5C and D). We then challenged wild type and summ3&#8208;17 with P.s.t. DC3000 hrcC, a bacterial strain deficient in the type III secretion system often used for testing PTI. As shown in Fig EV5E, no significant difference was observed between growth of P.s.t. DC3000 hrcC in summ3&#8208;17 and wild&#8208;type plants. These data suggest that SUMM3 does not play a major role in PAMP&#8208;triggered immunity, at least for the assays tested.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24241</offset>
+      <text>PAMP&#8208;induced defense responses in the summ3&#8208;17 mutant</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24299</offset>
+      <text>ROS burst in WT and summ3&#8208;17 plants after treatment with 1 &#956;M of flg22. The data are shown as mean &#177; SD (n = 10) with one&#8208;way ANOVA and Tukey's test. Statistical differences among the samples are labeled with different letters (P &lt; 0.01, one&#8208;way ANOVA; n = 10). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24633</offset>
+      <text>flg22&#8208;induced MAP kinase activation. 12&#8208;day&#8208;old seedlings are treated with 10 &#956;M flg22, and samples are collected at indicated time points. Phosphorylation of MAP kinases was detected by Western blot using anti&#8208;phopho&#8208;ERK1/2 antibody (Cell Signaling).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24896</offset>
+      <text>Induction of FRK1 (C) and WRKY29 (D) by flg22 in WT and summ3&#8208;17. 12&#8208;day&#8208;old seedlings were sprayed with 1 &#956;M flg22, and samples were collected 4 h later for quantitative RT&#8211;PCR analysis. The data are shown as mean &#177; SD (n = 3) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25300</offset>
+      <text>Growth of P.s.t. DC3000 hrcC in WT and summ3&#8208;17 plants. Four&#8208;week&#8208;old soil&#8208;grown plants were infiltrated with P.s.t. DC3000 hrcC (OD600 = 0.001). Leaf disks were collected for bacterial titer determination at day 0 and day 3 after inoculation. The data are shown as mean &#177; SD (n = 6) with one&#8208;way ANOVA and Tukey's test. Different letters indicate significant differences (P &lt; 0.01). The experiments were repeated three times with similar results.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>25759</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25770</offset>
+      <text>Plants have evolved a large number of RLCKs 43. Some of them have been shown to play important roles in plant immunity. Early studies identified Pto and PBS1 as critical components in NB&#8208;LRR R protein&#8208;mediated immunity 44, 45. More recently, RLCKs such as BIK1, PBL1, and PBL27 were found to function in transducing signals from membrane&#8208;localized PAMP&#8208;receptors to downstream defense pathways 46, 47, 48, 49, 50, 51. Several RLCKs have also been shown to function in sensing pathogen effector proteins. Cleavage of PBS1 by AvrPphB leads to activation of RPS5&#8208;mediated immunity 17. Inhibition of Pto kinase activity by AvrPto results in activation of Prf 52. RIPK phosphorylates RIN4 and RIPK knockout lines exhibit reduced RIN4 phosphorylation and compromised RPM1&#8208;mediated defense responses 53. Activation of ZAR1&#8208;specific defense responses by HopZ1 is mediated by the RLCK ZED1, most likely triggered by acetylation of ZED1 54. Both PBL2 and the RKS1 pseudokinase are required for ZAR1&#8208;mediated immunity triggered by AvrAC 55. In this study, we showed that CRCK3 is used to monitor the integrity of the MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26930</offset>
+      <text>CRCK3 and SUMM2 interact with each other and are both required for activation of defense responses in mekk1, mkk1 mkk2, and mpk4 mutant plants, suggesting that they function together in sensing the disruption of the MEKK1&#8208;MKK1/MKK2&#8208;MPK4 kinase cascade and activation of defense responses. As CRCK3 is not required for immunity mediated by RPS2 and RPS5, it most likely functions in SUMM2&#8208;mediated defense specifically rather than as a general signaling component for CC&#8208;NB&#8208;LRR&#8208;mediated immunity. Like most NB&#8208;LRR proteins, SUMM2 is not conserved among different plant species. In contrast, CRCK3 is a conserved protein in higher plants, suggesting that it has additional biological function in addition to its role in SUMM2&#8208;mediated immunity. However, we did not observe any defects in PAMP&#8208;triggered immunity in crck3 mutant plants. It is possible that CRCK3 is involved in a very specific process in plant defense or it has redundant functions with its close homologs CRCK1 and CRCK2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27935</offset>
+      <text>In addition to CRCK3 and SUMM2, MEKK2 is also required for the autoimmune phenotypes in mekk1, mkk1 mkk2, and mpk4 mutants. Over&#8208;expression of MEKK2 leads to activation of immune responses in wild type but not in crck3 and summ2 mutant backgrounds, suggesting that CRCK3 and SUMM2 function downstream of MEKK2. As we failed to detect interactions between MEKK2 and CRCK3 or MEKK2 and SUMM2 in co&#8208;IP experiments, it remains to be determined how MEKK2 regulates the immune responses mediated by CRCK3 and SUMM2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28449</offset>
+      <text>MPK4 interacts with CRCK3 in vivo and phosphorylates it in vitro. In mpk4&#8208;3 mutant plants, there is a dramatic increase in unphosphorylated CRCK3 protein. These data strongly support that CRCK3 is a substrate of MPK4. In mpk4&#8208;3, there is still a portion of CRCK3 that is phosphorylated. One possibility is that mpk4&#8208;3 is not a null mutation. Alternatively, other MAP kinases such as MPK11 might have overlapping functions with MPK4 23, which partially compensate the loss of MPK4 activity. CRCK3 has a protein kinase domain and a long N&#8208;terminal extension. The C&#8208;terminal protein kinase domain interacts with SUMM2, but the function of the N&#8208;terminal extension is unknown. The five predicted MAP kinase phosphorylation sites are all located in the N&#8208;terminal extension of CRCK3. Most likely the N&#8208;terminal extension is involved in sensing the disruption of the MEKK1&#8208;MKK1/MKK2&#8208;MPK4 kinase cascade. Previously, it was shown that RIN4 phosphomimetic mutants activate RPM1&#8208;mediated defense 53, 56. It is possible that reduced phosphorylation of the N&#8208;terminal extension of CRCK3 causes a change in the conformation of CRCK3, which leads to activation of SUMM2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29631</offset>
+      <text>Previously, PAT1 has been identified as a substrate of MPK4 57. Unlike CRCK3 which is required for activation of SUMM2&#8208;mediated immunity, loss of function of PAT1 leads to activation of defense responses. The constitutive defense responses in pat1 mutant is dependent on SUMM2, but pat1 mutants do not exhibit severe dwarfism as seen in mekk1, mkk1 mkk2, and mpk4 mutants. How SUMM2&#8208;mediated defense responses are activated by loss of PAT1 remains to be determined.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30101</offset>
+      <text>MAP kinase signaling plays critical roles in defense against pathogens 58, 59. Bacterial pathogens have evolved effector proteins to target components of MAP kinase cascades. For example, the Shigella effector protein OspF was also shown to inactivate several MAPKs including extracellular signal&#8208;regulated kinases 1 and 2 (Erk1/2), c&#8208;Jun N&#8208;terminal kinase, and p38 in mammalian cells 60. In plants, HopAI1 secreted by Pseudomonas syringae directly targets Arabidopsis MPK3, MPK4, and MPK6 32, 61, and another Pseudomonas syringae effector protein HopF2 inhibits PAMP&#8208;induced MPK phosphorylation by interfering with the functions of MKKs in plants 62. Our study provides an example of monitoring the integrity of a MAP kinase cascade by an NLR protein through a MAP kinase substrate. In wild&#8208;type plants, CRCK3 is phosphorylated by basal levels of MPK4 activity and phosphorylated CRCK3 does not activate SUMM2&#8208;mediated immunity. When the MEKK1&#8208;MKK1/MKK2&#8208;MPK4 cascade is disrupted, it leads to accumulation of unphosphorylated CRCK3, which activate SUMM2&#8208;mediated defense responses.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31202</offset>
+      <text>In the &#8220;guard&#8221; or &#8220;decoy&#8221; model, host targets of pathogen effectors are monitored by plant immune receptors and perturbation of the target proteins by effectors leads to activation of defense responses 18, 19, 21. Recently, the NB&#8208;LRR protein ZAR1 was shown to indirectly recognize uridylylation of PBL2 by AvrAC through RKS1 55. Our current study also shows that the host protein recognized by the plant immune receptor does not have to be the direct target of the effectors. Indirectly monitoring a substrate protein of MPK4 allows the guarding of the entire MEKK1&#8208;MKK1/2&#8208;MPK4 kinase cascade. This may be more advantageous compared to guarding individual components of a pathway, as a single NLR protein can be used to sense a variety of effectors targeting certain pathway at different levels. Meanwhile, as a protein kinase often has multiple substrates, monitoring the substrates rather than the kinase itself may allow more rapid evolution of immune receptors to ensure guarding of the protein kinase from fast&#8208;evolving effectors.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32255</offset>
+      <text>Recently, it was reported that substituting the cleavage site of the bacterial effector proteases AvrPphB within PBS1 with cleavage sites for other pathogen proteases enables the plant NLR protein RPS5 to be activated by these proteases and confer resistance to new pathogens 63. The identification of CRCK3 as a decoy recognized by SUMM2 opens the door for testing whether CRCK3 can be engineered to monitor additional MAP kinases so that SUMM2 is activated when other MAP kinase cascades are inactivated by pathogens.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>32775</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32797</offset>
+      <text>Plant materials and growth conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32835</offset>
+      <text>All plants were grown under 16&#8208;h light at 23&#176;C and 8&#8208;h dark at 19&#176;C unless specifically mentioned. The mekk1&#8208;1, mkk1&#8208;1 mkk2&#8208;1, mpk4&#8208;3, and MEKK2&#8208;FLAG transgenic plants were described in previous studies 30, 34, 35. summ3&#8208;17 (SALK_039370) was obtained from ABRC. The summ3 mekk1 and summ3 mpk4 double mutants were obtained by crossing the single mutants.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33207</offset>
+      <text>Plasmid construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33228</offset>
+      <text>For luciferase complementation assays in N. benthamiana, the genomic sequence of CRCK3 (excluding the stop codon and including an approximately 700&#8208;bp sequence upstream of the start codon) was amplified by PCR using primers 35S&#8208;CRCK3&#8208;Kpn1&#8208;F and CRCK3&#8208;1300&#8208;3FLAG&#8208;ZZ&#8208;R and cloned into a modified pCambia1300 vector containing a C&#8208;terminal NLuc tag 64. The coding sequences of MPK4 and MPK6 were amplified by PCR using primers MPK4&#8208;Kpn1&#8208;F and MPK4&#8208;BamH1&#8208;R or MPK6&#8208;35S&#8208;BamH1&#8208;F and MPK6&#8208;Sal1&#8208;R and cloned into a modified pCambia1300 vector containing an N&#8208;terminal CLuc tag 64. Phusion DNA polymerase (NEB) was used for PCR amplification of DNA fragments used for cloning. The sequence information for the primers is included in Appendix Table S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34009</offset>
+      <text>For co&#8208;IP analysis, SUMM2 was amplified from the total cDNA of wild&#8208;type plants using primers SUMM2&#8208;1300&#8208;F and SUMM2&#8208;1300HA&#8208;R and inserted in the pCambia1300&#8208;3xHA vector. Full&#8208;length or truncated CRCK3 fragments were amplified from total wild&#8208;type cDNA and inserted in the pCambia1300&#8208;3xFLAG vector. The full&#8208;length CRCK3 fragment was amplified using primers SUMM3&#8208;F and SUMM3&#8208;R. The SUMM3 fragment encoding the kinase domain was amplified using the primers SUMM3&#8208;KD&#8208;F and SUMM3&#8208;R.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34523</offset>
+      <text>For expression of the SUMM2&#8208;eYFP fusion protein in protoplasts, the DNA fragment coding for the first two HA epitopes in pCambia1300&#8208;SUMM2&#8208;3xHA was replaced with eYFP coding sequence to obtain pCambia1300&#8208;SUMM2&#8208;eYFP&#8208;HA. A genomic fragment of CRCK3 containing the coding region and about 2&#8208;kb upstream sequence of the gene was amplified using primers CRCK3&#8208;F and CRCK3&#8208;R and inserted into the pCambia1305&#8208;GFP vector. The same DNA fragment was also inserted into the pCambia1305&#8208;3xFLAG vector for expressing the CRCK3&#8208;FLAG fusion protein in Arabidopsis. Primers SUMM3 SA&#8208;1F/SUMM3 SA&#8208;1R, SUMM3 SA&#8208;2F/SUMM3 SA&#8208;2R, and SUMM3 SA&#8208;3F/SUMM3 SA&#8208;3R were used to introduce the Ser to Ala mutations into CRCK3 to obtain pCambia1305&#8208; CRCK35S&#8722;5A&#8208;FLAG, which was used for expressing the CRCK35S&#8722;5A&#8208;FLAG protein in Arabidopsis wild&#8208;type plants.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35399</offset>
+      <text>For expression of the kinase&#8208;dead version of CRCK3 protein in E. coli, two overlapping cDNA fragments were amplified from 1300&#8208;CRCK3G390R&#8208;3xFLAG vector using two pairs of primers CRCK3&#8208;Nde1&#8208;F/CRCK3&#8208;G390R&#8208;R and CRCK3&#8208;G390R&#8208;F/FLAG&#8208;Sal1&#8208;R. The full&#8208;length CRCK3G390R fragment was amplified by overlapping PCR using primers CRCK3&#8208;Nde1&#8208;F and FLAG&#8208;Sal1&#8208;R and cloned into pET&#8208;21a.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35807</offset>
+      <text>Mutant characterization and genetic mapping</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35851</offset>
+      <text>Trypan blue staining and DAB staining were performed on 2&#8208;week&#8208;old seedlings grown on &#189; MS media using procedures previously described 65, 66. Gene expression analysis was carried out on 2&#8208;week&#8208;old seedlings using RNA extracted from three biological replicates. The primer sequences for PR1, PR2, FRK1, and WRKY29 were reported previously 22, 67. Primers SUMM3&#8208;RT&#8208;F and SUMM3&#8208;RT&#8208;R (Appendix Table S1) were used for quantification of SUMM3 expression. Measurement of the flg22&#8208;induced oxidative burst was carried out on leaf strips of 4&#8208;week&#8208;old plants grown under short&#8208;day conditions using a previously described luminal&#8208;dependent assay 68.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36520</offset>
+      <text>For bacterial infection, plants grown under 12&#8208;h light at 23&#176;C and 12&#8208;h dark at 19&#176;C were infiltrated with bacteria in 10 mM MgCl2 when the plants were about 4 weeks old. Leaf disks were collected 3 days after inoculation and ground in 10 mM MgCl2. The bacterial suspension was diluted and plated on LB medium and colonies were counted 2 days later.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36876</offset>
+      <text>To map the summ3&#8208;1 mutation, summ3&#8208;1 mkk1 mkk2 in the Columbia background was crossed with wild&#8208;type Ler ecotype plants to generate a segregated F2 population. Dwarf plants which are homozygous for mkk1 mkk2 in the F2 population were used for crude mapping. Candidate genes in the region between marker T12J2 and F17L24 were amplified from genomic DNA of summ3&#8208;1 mkk1 mkk2 by PCR and sequenced. The primer sequences for the markers are listed in Appendix Table S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37349</offset>
+      <text>In vitro kinase assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37372</offset>
+      <text>To isolate MPK4 protein for kinase assays, 4&#8208;week&#8208;old wild&#8208;type and MPK4::MPK4&#8208;FLAG transgenic plants were infiltrated with 1 &#956;M flg22. About 1 g of tissue from each sample was harvested in liquid nitrogen 15 min later. Two volumes of extraction buffer (50 mM HEPES 7.4, 50 mM NaCl, 10 mM EDTA, 0.1% Triton X&#8208;100, 1 mM Na3VO4, 1 mM NaF, 1 mM DTT, 1 mM PMSF, and 1 mM protease inhibitor) were then added to resuspend the sample. The samples were spun at 14,000 g for 15 min, and the supernatant was collected and incubated with 20 &#956;l of agarose&#8208;conjugated anti&#8208;FLAG antibody (Sigma&#8208;Aldrich; 087K6001) at 4&#176;C for 2 h with rotation. The beads were subsequently collected by centrifugation at 4,000 g for 5 min and washed three times with extraction buffer without PMSF and protease inhibitor followed by washing with 1 ml of kinase buffer (50 mM HEPES 7.4, 10 mM MgCl2, 10 mM MnCl2 and 1 mM DTT) once. The beads were spun down and resuspended in 35 &#956;l of kinase buffer. For kinase assays, 15 &#956;l MPK4&#8208;FLAG was incubated with about 1 &#956;g of CRCK3G390R protein purified from E. coli strain Rosetta or 0.5 &#956;g of MBP, 20 mCi [&#947;&#8208;32P] ATP, and kinase reaction buffer in a total volume of 25 &#956;l at 30&#176;C for 30 min. The reaction was ended by adding 8 &#956;l 4&#215; SDS loading buffer. After separation by 12% SDS&#8211;PAGE, phosphorylation of CRCK3G390R and MBP was detected by autoradiography.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38775</offset>
+      <text>Protein interaction assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38802</offset>
+      <text>For luciferase complementation assays, leaves of about 4&#8208; to 5&#8208;week&#8208;old N. benthamiana plants were infiltrated with Agrobacteria (OD600 = 0.2) carrying constructs expressing CRCK3NLuc and MPK4CLuc or MPK6CLuc along with the negative controls in solution containing 10 mM MgCl2, 10 mM MES pH 5.6, and 150 mM acetosyringone. Plants were kept at 23&#176;C for 3 days before measuring luciferase activities using a plate reader.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39229</offset>
+      <text>For co&#8208;immunoprecipitation analysis, leaves of about 4&#8208; to 5&#8208;week&#8208;old N. benthamiana plants were infiltrated with Agrobacteria suspension (OD600 = 0.5). Three days later, about 2 g of tissue from the infiltrated leaves was collected and ground in liquid nitrogen for subsequent co&#8208;IP analysis. All subsequent steps were carried out on ice or in a 4&#176;C cold room. Briefly, about two volumes of extraction buffer (10% glycerol, 25 mM Tris&#8211;HCl pH 7.5, 1 mM EDTA, 150 mM NaCl, 10 mM DTT, 2% PVPP, 1&#215; protease inhibitor cocktail from Roche) were added to each sample to suspend the tissue. The samples were centrifuged in a microcentrifuge for 10 min. Supernatants were collected, and NP&#8208;40 was added to a final concentration of 1.5%. Afterward, the samples were pre&#8208;cleared by incubating with 30 &#956;l protein G beads for 30 min. Supernatants were collected by centrifugation and transferred to a new tube containing anti&#8208;FLAG&#8208;conjugated beads. After incubation for 3 h, the beads were collected by centrifugation and washed four times with the extraction buffer plus 1.5% NP&#8208;40 before proteins bound to the beads were eluted with 100 &#956;l of 0.1 mg/ml 3xFLAG peptide. The proteins were subjected to SDS&#8211;PAGE electrophoresis and Western blot analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40499</offset>
+      <text>Analysis of CRCK3 phosphorylation in wild type and mpk4</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40555</offset>
+      <text>Transgenic lines expressing the CRCK&#8208;FLAG fusion protein were generated by transforming wild&#8208;type Col&#8208;0 plants with pCambia1305&#8208;CRCK3&#8208;3xFLAG. One of the transgenic lines with a single copy of transgene was crossed with mpk4&#8208;3 to introduce the CRCK3&#8208;3xFLAG transgene into the mpk4 mutant background. To analyze phosphorylation of CRCK3 in wild type and mpk4, 2&#8208;week&#8208;old CRCK3&#8208;FLAG transgenic plants in wild type and mpk4&#8208;3 background grown on &#189; MS medium plates were collected, respectively. 0.025 g of tissue was ground in liquid nitrogen and suspended in 50 &#956;l buffer (50 mM Tris&#8211;HCl, pH 7.5, 10 mM MgCl2, 150 mM NaCl, 0.1% Nonidet P&#8208;40, 1 mM PMSF, and 1&#215; protease inhibitor cocktail from Roche). The samples were spun at 12,000 g for 10 min at 4&#176;C. 25 &#956;l supernatant of the supernatant was directly added into 25 &#956;l 2&#215; SDS loading buffer and boiled at 99&#176;C for 5 min. Another 23 &#956;l of the supernatant was transferred into a new tube with 3 &#956;l 10&#215;&#955;&#8208;PMPase buffer, 3 &#956;l 10 mM MnCl2, and 1 &#956;l &#955;&#8208;PMPase (New England Biolabs). The sample was incubated at 30&#176;C for 2 h and then boiled with 30 &#956;l 2&#215; SDS loading buffer for 5 min at 99&#176;C. 10% polyacrylamide gels containing 25 &#956;M Phos&#8208;tag&#8482; ligand (Phos&#8208;tag&#8482; Acrylamide AAL&#8208;107, Wako Pure Chemical Industries) and 50 &#956;M MnCl2 were prepared according to the manufacturer's instructions and used for separating the proteins. The CRCK3&#8208;FLAG proteins were subsequently detected by immunoblot analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42059</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42080</offset>
+      <text>ZZ, YL, HH, MG, DW, and YZ conceived and designed the experiments. ZZ, YL, HH, MG, DW, and QK performed the experiments. ZZ, YL, DW, and YZ wrote the paper.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42237</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42258</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42318</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>42341</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Curr Opin Plant Biol</infon>
+      <infon key="lpage">357</infon>
+      <infon key="pub-id_pmid">22705024</infon>
+      <infon key="fpage">349</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42352</offset>
+      <text>Plant pattern recognition receptor complexes at the plasma membrane</text>
+    </passage>
+    <passage>
+      <infon key="volume">448</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">500</infon>
+      <infon key="pub-id_pmid">17625569</infon>
+      <infon key="fpage">497</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>42420</offset>
+      <text>A flagellin&#8208;induced complex of the receptor FLS2 and BAK1 initiates plant defence</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1011</infon>
+      <infon key="pub-id_pmid">10911994</infon>
+      <infon key="fpage">1003</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>42504</offset>
+      <text>FLS2: an LRR receptor&#8208;like kinase involved in the perception of the bacterial elicitor flagellin in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12222</infon>
+      <infon key="pub-id_pmid">17626179</infon>
+      <infon key="fpage">12217</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>42618</offset>
+      <text>The receptor&#8208;like kinase SERK3/BAK1 is a central regulator of innate immunity in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">342</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">628</infon>
+      <infon key="pub-id_pmid">24114786</infon>
+      <infon key="fpage">624</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>42708</offset>
+      <text>Structural basis for flg22&#8208;induced activation of the Arabidopsis FLS2&#8208;BAK1 immune complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">511</infon>
+      <infon key="pub-id_pmid">25494461</infon>
+      <infon key="fpage">487</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42802</offset>
+      <text>Effector&#8208;triggered immunity: from pathogen perception to robust defense</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Curr Opin Immunol</infon>
+      <infon key="lpage">121</infon>
+      <infon key="pub-id_pmid">25667191</infon>
+      <infon key="fpage">114</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42876</offset>
+      <text>NLRs in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">1481</infon>
+      <infon key="pub-id_pmid">23548743</infon>
+      <infon key="fpage">1463</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>42891</offset>
+      <text>The rice resistance protein pair RGA4/RGA5 recognizes the Magnaporthe oryzae effectors AVR&#8208;Pia and AVR1&#8208;CO39 by direct binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8029</infon>
+      <infon key="pub-id_pmid">12788974</infon>
+      <infon key="fpage">8024</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>43022</offset>
+      <text>Physical interaction between RRS1&#8208;R, a protein conferring resistance to bacterial wilt, and PopP2, a type III effector targeted to the plant nucleus</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8893</infon>
+      <infon key="pub-id_pmid">16731621</infon>
+      <infon key="fpage">8888</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43173</offset>
+      <text>Direct protein interaction underlies gene&#8208;for&#8208;gene specificity and coevolution of the flax resistance genes and flax rust avirulence genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4014</infon>
+      <infon key="pub-id_pmid">10921881</infon>
+      <infon key="fpage">4004</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>43316</offset>
+      <text>Direct interaction of resistance gene and avirulence gene products confers rice blast resistance</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Plant J</infon>
+      <infon key="lpage">907</infon>
+      <infon key="pub-id_pmid">22805093</infon>
+      <infon key="fpage">894</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>43413</offset>
+      <text>Arms race co&#8208;evolution of Magnaporthe oryzae AVR&#8208;Pik and rice Pik genes driven by their physical interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">377</infon>
+      <infon key="pub-id_pmid">12581526</infon>
+      <infon key="fpage">369</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>43527</offset>
+      <text>Initiation of RPS2&#8208;specified disease resistance in Arabidopsis is coupled to the AvrRpt2&#8208;directed elimination of RIN4</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">389</infon>
+      <infon key="pub-id_pmid">12581527</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>43649</offset>
+      <text>Arabidopsis RIN4 is a target of the type III virulence effector AvrRpt2 and modulates RPS2&#8208;mediated resistance</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">754</infon>
+      <infon key="pub-id_pmid">11955429</infon>
+      <infon key="fpage">743</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>43762</offset>
+      <text>RIN4 interacts with Pseudomonas syringae type III effector molecules and is required for RPM1&#8208;mediated resistance in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2806</infon>
+      <infon key="pub-id_pmid">17028203</infon>
+      <infon key="fpage">2792</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43893</offset>
+      <text>The tomato NBARC&#8208;LRR protein Prf interacts with Pto kinase in vivo to regulate specific plant immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">301</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1233</infon>
+      <infon key="pub-id_pmid">12947197</infon>
+      <infon key="fpage">1230</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>43998</offset>
+      <text>Cleavage of Arabidopsis PBS1 by a bacterial type III effector</text>
+    </passage>
+    <passage>
+      <infon key="volume">444</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">329</infon>
+      <infon key="pub-id_pmid">17108957</infon>
+      <infon key="fpage">323</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>44060</offset>
+      <text>The plant immune system</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="lpage">456</infon>
+      <infon key="pub-id_pmid">9868361</infon>
+      <infon key="fpage">454</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>44084</offset>
+      <text>Plant disease&#8208;resistance proteins and the gene&#8208;for&#8208;gene concept</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">80</infon>
+      <infon key="pub-id_pmid">18158241</infon>
+      <infon key="fpage">74</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44154</offset>
+      <text>Pseudomonas syringae effector AvrPto blocks innate immunity by targeting receptor kinases</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2017</infon>
+      <infon key="pub-id_pmid">18723576</infon>
+      <infon key="fpage">2009</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44244</offset>
+      <text>From guard to decoy: a new model for perception of plant pathogen effectors</text>
+    </passage>
+    <passage>
+      <infon key="volume">415</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">983</infon>
+      <infon key="pub-id_pmid">11875555</infon>
+      <infon key="fpage">977</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>44320</offset>
+      <text>MAP kinase signalling cascade in Arabidopsis innate immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Plant Microbe Interact</infon>
+      <infon key="lpage">480</infon>
+      <infon key="pub-id_pmid">22204645</infon>
+      <infon key="fpage">471</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44381</offset>
+      <text>Activation of the Arabidopsis thaliana mitogen&#8208;activated protein kinase MPK11 by the flagellin&#8208;derived elicitor peptide, flg22</text>
+    </passage>
+    <passage>
+      <infon key="volume">574</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">48</infon>
+      <infon key="pub-id_pmid">15358537</infon>
+      <infon key="fpage">42</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>44512</offset>
+      <text>Involvement of MPK4 in osmotic stress response pathways in cell suspensions and plantlets of Arabidopsis thaliana: activation by hypoosmolarity and negative role in hyperosmolarity tolerance</text>
+    </passage>
+    <passage>
+      <infon key="source">Plant Signal Behav</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">25482788</infon>
+      <infon key="fpage">e976155</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44703</offset>
+      <text>Identification of additional MAP kinases activated upon PAMP treatment</text>
+    </passage>
+    <passage>
+      <infon key="volume">275</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">7526</infon>
+      <infon key="pub-id_pmid">10713056</infon>
+      <infon key="fpage">7521</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>44774</offset>
+      <text>Microbial elicitors induce activation and dual phosphorylation of the Arabidopsis thaliana MAPK 6</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">3399</infon>
+      <infon key="pub-id_pmid">15539472</infon>
+      <infon key="fpage">3386</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>44872</offset>
+      <text>Phosphorylation of 1&#8208;aminocyclopropane&#8208;1&#8208;carboxylic acid synthase by MPK6, a stress&#8208;responsive mitogen&#8208;activated protein kinase, induces ethylene biosynthesis in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5643</infon>
+      <infon key="pub-id_pmid">18378893</infon>
+      <infon key="fpage">5638</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45056</offset>
+      <text>A fungal&#8208;responsive MAPK cascade regulates phytoalexin biosynthesis in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">1162</infon>
+      <infon key="pub-id_pmid">27081184</infon>
+      <infon key="fpage">1144</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>45141</offset>
+      <text>Pathogen&#8208;responsive MPK3 and MPK6 reprogram the biosynthesis of indole glucosinolates and their derivatives in Arabidopsis immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">1198</infon>
+      <infon key="pub-id_pmid">18982020</infon>
+      <infon key="fpage">1190</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45275</offset>
+      <text>MEKK1, MKK1/MKK2 and MPK4 function together in a mitogen&#8208;activated protein kinase cascade to regulate innate immunity in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">222</infon>
+      <infon key="pub-id_pmid">18599650</infon>
+      <infon key="fpage">212</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45405</offset>
+      <text>Arabidopsis mitogen&#8208;activated protein kinase kinases MKK1 and MKK2 have overlapping functions in defense signaling mediated by MEKK1, MPK4, and MKS1</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">263</infon>
+      <infon key="pub-id_pmid">22423965</infon>
+      <infon key="fpage">253</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45556</offset>
+      <text>Disruption of PAMP&#8208;induced MAP kinase cascade by a Pseudomonas syringae effector activates plant immunity mediated by the NB&#8208;LRR protein SUMM2</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">24980080</infon>
+      <infon key="fpage">R87</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>45703</offset>
+      <text>Functional analysis of Arabidopsis immune&#8208;related MAPKs uncovers a role for MPK3 as negative regulator of inducible defences</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">36976</infon>
+      <infon key="pub-id_pmid">17023433</infon>
+      <infon key="fpage">36969</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>45830</offset>
+      <text>MEKK1 is required for MPK4 activation and regulates tissue&#8208;specific and temperature&#8208;dependent cell death in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">38704</infon>
+      <infon key="pub-id_pmid">17043356</infon>
+      <infon key="fpage">38697</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>45954</offset>
+      <text>A mitogen&#8208;activated protein kinase kinase kinase mediates reactive oxygen species homeostasis in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1120</infon>
+      <infon key="pub-id_pmid">11163186</infon>
+      <infon key="fpage">1111</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>46065</offset>
+      <text>Arabidopsis map kinase 4 negatively regulates systemic acquired resistance</text>
+    </passage>
+    <passage>
+      <infon key="volume">143</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">669</infon>
+      <infon key="pub-id_pmid">17142480</infon>
+      <infon key="fpage">661</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46140</offset>
+      <text>MEKK1 is required for flg22&#8208;induced MPK4 activation in Arabidopsis plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">4293</infon>
+      <infon key="pub-id_pmid">23115249</infon>
+      <infon key="fpage">4281</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46216</offset>
+      <text>Constitutively active mitogen&#8208;activated protein kinase versions reveal functions of Arabidopsis MPK4 in pathogen defense signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">856</infon>
+      <infon key="pub-id_pmid">25770109</infon>
+      <infon key="fpage">839</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46349</offset>
+      <text>Phosphorylation of trihelix transcriptional repressor ASR3 by MAP KINASE4 negatively regulates Arabidopsis immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2236</infon>
+      <infon key="pub-id_pmid">22643122</infon>
+      <infon key="fpage">2225</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46465</offset>
+      <text>The MEKK1&#8208;MKK1/MKK2&#8208;MPK4 kinase cascade negatively regulates immunity mediated by a mitogen&#8208;activated protein kinase kinase kinase in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">1910</infon>
+      <infon key="pub-id_pmid">23695980</infon>
+      <infon key="fpage">1895</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46617</offset>
+      <text>Deletion of a tandem gene family in Arabidopsis: increased MEKK2 abundance triggers autoimmunity when the MEKK1&#8208;MKK1/2&#8208;MPK4 signaling cascade is disrupted</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">42559</infon>
+      <infon key="pub-id_pmid">15292241</infon>
+      <infon key="fpage">42552</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>46776</offset>
+      <text>Calcium/calmodulin up&#8208;regulates a cytoplasmic receptor&#8208;like kinase in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10768</infon>
+      <infon key="pub-id_pmid">11526204</infon>
+      <infon key="fpage">10763</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>46857</offset>
+      <text>Receptor&#8208;like kinases from Arabidopsis form a monophyletic gene family related to animal receptor kinases</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Annu Rev Phytopathol</infon>
+      <infon key="lpage">243</infon>
+      <infon key="pub-id_pmid">14527329</infon>
+      <infon key="fpage">215</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>46965</offset>
+      <text>Molecular basis of Pto&#8208;mediated resistance to bacterial speck disease in tomato</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Plant J</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">11359614</infon>
+      <infon key="fpage">101</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>47047</offset>
+      <text>The Arabidopsis PBS1 resistance gene encodes a member of a novel protein kinase subfamily</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">55</infon>
+      <infon key="pub-id_pmid">24630626</infon>
+      <infon key="fpage">43</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47137</offset>
+      <text>Direct regulation of the NADPH oxidase RBOHD by the PRR&#8208;associated kinase BIK1 during plant immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">338</infon>
+      <infon key="pub-id_pmid">24629339</infon>
+      <infon key="fpage">329</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47240</offset>
+      <text>The FLS2&#8208;associated kinase BIK1 directly phosphorylates the NADPH oxidase RbohD to control plant immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">20018686</infon>
+      <infon key="fpage">496</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>47348</offset>
+      <text>A receptor&#8208;like cytoplasmic kinase, BIK1, associates with a flagellin receptor complex to initiate plant innate immunity</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Plant Biol</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">25522736</infon>
+      <infon key="fpage">374</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47471</offset>
+      <text>Microbe&#8208;associated molecular pattern&#8208;induced calcium signaling requires the receptor&#8208;like cytoplasmic kinases, PBL1 and BIK1</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="source">Plant J</infon>
+      <infon key="lpage">66</infon>
+      <infon key="pub-id_pmid">24750441</infon>
+      <infon key="fpage">56</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47602</offset>
+      <text>Selective regulation of the chitin&#8208;induced defense response by the Arabidopsis receptor&#8208;like cytoplasmic kinase PBL27</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">301</infon>
+      <infon key="pub-id_pmid">20413097</infon>
+      <infon key="fpage">290</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>47724</offset>
+      <text>Receptor&#8208;like cytoplasmic kinases integrate signaling from multiple plant immune receptors and are targeted by a Pseudomonas syringae effector</text>
+    </passage>
+    <passage>
+      <infon key="volume">449</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">247</infon>
+      <infon key="pub-id_pmid">17694048</infon>
+      <infon key="fpage">243</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>47869</offset>
+      <text>The structural basis for activation of plant immunity by bacterial effector protein AvrPto</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">146</infon>
+      <infon key="pub-id_pmid">21320696</infon>
+      <infon key="fpage">137</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47960</offset>
+      <text>A receptor&#8208;like cytoplasmic kinase phosphorylates the host target RIN4, leading to the activation of a plant innate immune receptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18727</infon>
+      <infon key="pub-id_pmid">24170858</infon>
+      <infon key="fpage">18722</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>48094</offset>
+      <text>The Arabidopsis ZED1 pseudokinase is required for ZAR1&#8208;mediated immunity induced by the Pseudomonas syringae type III effector HopZ1a</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">295</infon>
+      <infon key="pub-id_pmid">26355215</infon>
+      <infon key="fpage">285</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>48230</offset>
+      <text>The decoy substrate of a pathogen effector and a pseudokinase specify pathogen&#8208;induced modified&#8208;self recognition and immunity in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">136</infon>
+      <infon key="pub-id_pmid">21320695</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>48370</offset>
+      <text>Specific threonine phosphorylation of a host target by two unrelated type III effectors activates a host innate immune receptor in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">608</infon>
+      <infon key="pub-id_pmid">25603932</infon>
+      <infon key="fpage">593</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>48508</offset>
+      <text>The mRNA decay factor PAT1 functions in a pathway including MAP kinase 4 and immune receptor SUMM2</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Annu Rev Phytopathol</infon>
+      <infon key="lpage">266</infon>
+      <infon key="pub-id_pmid">23663002</infon>
+      <infon key="fpage">245</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>48607</offset>
+      <text>MAPK cascades in plant disease resistance signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">649</infon>
+      <infon key="pub-id_pmid">20441529</infon>
+      <infon key="fpage">621</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48659</offset>
+      <text>Mitogen&#8208;activated protein kinase signaling in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">315</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1003</infon>
+      <infon key="pub-id_pmid">17303758</infon>
+      <infon key="fpage">1000</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48714</offset>
+      <text>The phosphothreonine lyase activity of a bacterial type III effector family</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">185</infon>
+      <infon key="pub-id_pmid">18005697</infon>
+      <infon key="fpage">175</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48790</offset>
+      <text>A Pseudomonas syringae effector inactivates MAPKs to suppress PAMP&#8208;induced immunity in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2044</infon>
+      <infon key="pub-id_pmid">20571112</infon>
+      <infon key="fpage">2033</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48886</offset>
+      <text>A Pseudomonas syringae ADP&#8208;ribosyltransferase inhibits Arabidopsis mitogen&#8208;activated protein kinase kinases</text>
+    </passage>
+    <passage>
+      <infon key="volume">351</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">687</infon>
+      <infon key="pub-id_pmid">26912853</infon>
+      <infon key="fpage">684</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>48998</offset>
+      <text>Using decoys to expand the recognition specificity of a plant disease resistance protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">376</infon>
+      <infon key="pub-id_pmid">18065554</infon>
+      <infon key="fpage">368</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>49087</offset>
+      <text>Firefly luciferase complementation imaging assay for protein&#8208;protein interactions in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2046</infon>
+      <infon key="pub-id_pmid">8953768</infon>
+      <infon key="fpage">2033</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>49181</offset>
+      <text>Characterization of eds1, a mutation in Arabidopsis suppressing resistance to Peronospora parasitica specified by several different RPP genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="lpage">1194</infon>
+      <infon key="source">Plant J</infon>
+      <infon key="fpage">1187</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>49323</offset>
+      <text>Subcellular localization of H2O2 in plants. H2O2 accumulation in papillae and hypersensitive response during the barley&#8208;powdery mildew interaction</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2653</infon>
+      <infon key="pub-id_pmid">14576289</infon>
+      <infon key="fpage">2647</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>49472</offset>
+      <text>Knockout analysis of Arabidopsis transcription factors TGA2, TGA5, and TGA6 reveals their redundant and essential roles in systemic acquired resistance</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1401</infon>
+      <infon key="pub-id_pmid">18771922</infon>
+      <infon key="fpage">1396</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>49624</offset>
+      <text>Negative regulation of PAMP&#8208;triggered immunity by an E3 ubiquitin ligase triplet in Arabidopsis</text>
+    </passage>
+  </document>
+</collection>

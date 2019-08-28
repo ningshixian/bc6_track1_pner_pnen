@@ -1,0 +1,1768 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4331002</id>
+    <passage>
+      <infon key="name_2">surname:Thapa;given-names:Narendra</infon>
+      <infon key="name_3">surname:Liao;given-names:Yihan</infon>
+      <infon key="name_0">surname:Tan;given-names:Xiaojun</infon>
+      <infon key="name_1">surname:Sun;given-names:Yue</infon>
+      <infon key="kwd">EGFR LAPTM4B PIPKI&#947;i5 PtdIns(4,5)P2</infon>
+      <infon key="name_4">surname:Hedman;given-names:Andrew C</infon>
+      <infon key="name_5">surname:Anderson;given-names:Richard A</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_doi">10.15252/embj.201489425</infon>
+      <infon key="article-id_pmid">25588945</infon>
+      <infon key="lpage">490</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">475</infon>
+      <infon key="year">2015</infon>
+      <infon key="issue">4</infon>
+      <infon key="volume">34</infon>
+      <offset>0</offset>
+      <text>LAPTM4B is a PtdIns(4,5)P2 effector that regulates EGFR signaling, lysosomal sorting, and degradation</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>102</offset>
+      <text>Lysosomal degradation is essential for the termination of EGF-stimulated EGF receptor (EGFR) signaling. This requires EGFR sorting to the intraluminal vesicles (ILVs) of multi-vesicular endosomes (MVEs). Cytosolic proteins including the ESCRT machineries are key regulators of EGFR intraluminal sorting, but roles for endosomal transmembrane proteins in receptor sorting are poorly defined. Here, we show that LAPTM4B, an endosomal transmembrane oncoprotein, inhibits EGF-induced EGFR intraluminal sorting and lysosomal degradation, leading to enhanced and prolonged EGFR signaling. LAPTM4B blocks EGFR sorting by promoting ubiquitination of Hrs (an ESCRT-0 subunit), which inhibits the Hrs association with ubiquitinated EGFR. This is counteracted by the endosomal PIP kinase, PIPKI&#947;i5, which directly binds LAPTM4B and neutralizes the inhibitory function of LAPTM4B in EGFR sorting by generating PtdIns(4,5)P2 and recruiting SNX5. PtdIns(4,5)P2 and SNX5 function together to protect Hrs from ubiquitination, thereby promoting EGFR intraluminal sorting. These results reveal an essential layer of EGFR trafficking regulated by LAPTM4B, PtdIns(4,5)P2 signaling, and the ESCRT complex and define a mechanism by which the oncoprotein LAPTM4B can transform cells and promote tumor progression.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1397</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1410</offset>
+      <text>Epidermal growth factor receptor (EGFR) plays fundamental roles not only in physiological cellular processes, but also in diseases such as cardiovascular hypertrophy and cancers (Kagiyama et&#160;al, 2002; Eguchi et&#160;al, 2003; Mendelsohn &amp; Baselga, 2006). Therefore, EGFR expression levels and signaling strength must be tightly controlled. One key mechanism to downregulate EGFR signaling is the lysosomal trafficking and degradation of the activated receptor. Upon ligand binding, activated EGFR is rapidly internalized to endosomes, where ligand-bound EGFR continues to signal until it is sorted to intraluminal vesicles (ILVs) in the multi-vesicular endosomes (MVEs) or late endosomes (Wiley, 2003; Sorkin &amp; Goh, 2008). Finally, the MVE fuses with the lysosome, resulting in EGFR degradation (Eden et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2223</offset>
+      <text>Intraluminal sorting of EGFR is an essential step that terminates EGFR signaling, which is mediated by the endosomal sorting complex required for transport (ESCRT) machineries (Williams &amp; Urb&#233;, 2007; Raiborg &amp; Stenmark, 2009; Henne et&#160;al, 2011). The ESCRT-mediated EGFR ILV sorting pathway requires ubiquitination of EGFR (Williams &amp; Urb&#233;, 2007). Upstream ESCRT subunits, including Hrs and TSG101, contain ubiquitin-interacting motifs (UIM) that recognize ubiquitinated EGFR, and cooperate with downstream ESCRT complexes for EGFR ILV sorting (Raiborg &amp; Stenmark, 2009). Hrs, like other ESCRT subunits, is a cytosolic protein that is recruited to the endosome by phosphoinositides and protein&#8211;protein interactions (Di Paolo &amp; De Camilli, 2006; Lindmo &amp; Stenmark, 2006; Henne et&#160;al, 2013). The function of Hrs is also regulated by the E3 ubiquitin ligases Nedd4-1 and Nedd4-2 that ubiquitinate Hrs and trigger an intramolecular interaction between the Hrs-UIM and ubiquitin (Katz et&#160;al, 2002; Hoeller et&#160;al, 2006; Persaud et&#160;al, 2009). This interaction inhibits Hrs function by preventing it from binding to ubiquitinated cargos, like EGFR.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3372</offset>
+      <text>Phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2) is a lipid messenger that regulates many cellular processes, including actin and focal adhesion dynamics, endocytosis, exocytosis, and gene expression (Anderson &amp; Marchesi, 1985; Ling et&#160;al, 2002; Mellman et&#160;al, 2008; Thapa et&#160;al, 2012; Balla, 2013; Sun et&#160;al, 2013c). PtdIns(4,5)P2 has been traditionally thought to be largely at the plasma membrane (Di Paolo &amp; De Camilli, 2006), but a broader intracellular distribution and synthesis have been recently revealed (Sun et&#160;al, 2013c). Type I phosphatidylinositol-4-phosphate (PIP) 5-kinases (PIPKI&#945;, &#946;, and &#947;) are the major enzymes for PtdIns(4,5)P2 generation in cells (Heck et&#160;al, 2007). PIPKI has critical functions in various protein trafficking processes, including endocytosis, exocytosis, and endosomal trafficking (Bairstow et&#160;al, 2006; Schramp et&#160;al, 2012; Thapa et&#160;al, 2012; Sun et&#160;al, 2013a,b). There are six splice variants of human PIPKI&#947; (i1-i6), each with distinct C-terminal extensions that mediate specific protein&#8211;protein interactions, leading to distinct intracellular targeting of each isoform (Schill &amp; Anderson, 2009; Xia et&#160;al, 2011). PIPKI&#947;i5 is targeted to endosomes and generates phosphoinositide signals that control EGFR intraluminal sorting (Sun et&#160;al, 2013b). This pathway requires an interaction between PIPKI&#947;i5 and sorting nexin 5 (SNX5). PIPKI&#947;i5 and its kinase activity regulate the interaction of SNX5 with Hrs to protect Hrs from ubiquitination and promote the Hrs association with EGFR. Thus, PIPKI&#947;i5, its kinase activity, and SNX5 control Hrs function in EGFR intraluminal sorting and degradation (Sun et&#160;al, 2013b).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5064</offset>
+      <text>All the ESCRT subunits including Hrs are cytosolic proteins recruited to endosomal surface during ILV sorting. The roles for resident endosomal transmembrane proteins in the regulation of ESCRT complexes and ILV sorting are poorly defined. A family of the resident proteins is the mammalian lysosomal-associated protein transmembrane (LAPTM) that has three members, LAPTM4A, LAPTM4B, and LAPTM5, with &#8765;36% sequence similarities. All LAPTMs are multi-transmembrane proteins primarily localized to the late endosome/lysosome (Adra et&#160;al, 1996; Hogue et&#160;al, 2002; Shao et&#160;al, 2003; Pak et&#160;al, 2006; Milkereit &amp; Rotin, 2011). LAPTM4B has four transmembrane domains, with two cytoplasmic termini (Shao et&#160;al, 2003). LAPTM4B is upregulated in a wide variety of human cancers, including breast, liver, lung, colon, uterine, and ovarian cancers (Shao et&#160;al, 2003; Kasper et&#160;al, 2005; Li et&#160;al, 2010b). LAPTM4B overexpression in cancers correlates with poor prognosis (Yang et&#160;al, 2010b; Kang et&#160;al, 2012). Further, ectopic expression of LAPTM4B induces transformation and tumorigenesis of normal human cells (Li et&#160;al, 2011) and promotes proliferation and migration of cancer cells in vitro and in vivo (Yang et&#160;al, 2010a). The underlying mechanisms for the LAPTM4B oncogenesis are not defined, but LAPTM4B overexpression enhances AKT activation (Li et&#160;al, 2010a).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6436</offset>
+      <text>Here, we report that LAPTM4B blocks EGF-stimulated EGFR intraluminal sorting and degradation. In this pathway, LAPTM4B binds to PIPKI&#947;i5 and its product PtdIns(4,5)P2, and this neutralizes LAPTM4B inhibition of EGFR trafficking. These results reveal an essential layer of EGFR trafficking regulated by LAPTM4B and phosphoinositide signaling and may represent the underlying mechanism for LAPTM4B oncogenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6849</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6857</offset>
+      <text>PIPKI&#947;i5 interacts with endosomal transmembrane protein LAPTM4B</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6925</offset>
+      <text>The endosomal PIP kinase, PIPKI&#947;i5, generates the lipid messenger PtdIns(4,5)P2 and is required for EGFR intraluminal sorting and degradation (Sun et&#160;al, 2013b). Based on a yeast two-hybrid screen using the C-terminal 223 amino acids of PIPKI&#947;i5 as bait (Sun et&#160;al, 2013b), the lysosomal-associated protein Transmembrane 4B (LAPTM4B) was identified as a PIPKI&#947;i5 interactor. The interaction between endogenous LAPTM4B and PIPKI&#947;i5 was confirmed by co-immunoprecipitation (co-IP) (Fig1A). This is a specific interaction, as among the three LAPTM family members, PIPKI&#947;i5 specifically associated with LAPTM4B (Fig1B). The LAPTM4B interaction is also specific for PIPKI&#947;i5, but not other PIPKI&#947; isoforms (Fig1C). To test whether the kinase activity of PIPKI&#947;i5 modulates its LAPTM4B interaction, a D316A kinase dead mutant (PIPKI&#947;i5KD) was used in co-IP assays. As shown in Fig1D, PIPKI&#947;i5KD had diminished LAPTM4B association, indicating that phosphoinositide generation is required. PIPKI&#947;i5 modulates EGF-stimulated EGFR lysosomal trafficking, but the PIPKI&#947;i5&#8211;LAPTM4B interaction was not regulated by EGF stimulation (Fig1D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8100</offset>
+      <text> Endogenous PIPKI&#947;i5 and LAPTM4B were immunoprecipitated from the whole-cell lysates of MDA-MB-231 cells followed by immunoblotting to examine the co-immunoprecipitated PIPKI&#947;i5 and LAPTM4B. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8300</offset>
+      <text> PIPKI&#947;i5 specifically interacts with LAPTM4B, but not LAPTM4A or LAPTM5. Top: schematic diagram of all three LAPTM members. Bottom: each Flag-tagged LAPTM protein was immunoprecipitated from HEK293 cells cotransfected with Myc-tagged PIPKI&#947;i5 and empty vector or Flag-tagged LAPTM, and the co-immunoprecipitated PIPKI&#947;i5 was examined by immunoblotting. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8667</offset>
+      <text> LAPTM4B selectively associates with PIPKI&#947;i5. Top: schematic diagram of four PIPKI isoforms. Bottom: Myc-tagged PIPKI&#947;i5 was immunoprecipitated from HEK293 cells expressing Flag-tagged LAPTM4B and each isoform of PIPKI, followed by immunoblotting to examine the co-immunoprecipitated LAPTM4B. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8970</offset>
+      <text> Kinase activity of PIPKI&#947;i5 is required for LAPTM4B association. HEK293 cells expressing LAPTM4B and wild-type (WT) or kinase-dead (KD) PIPKI&#947;i5 were starved overnight, stimulated or not with 100 ng/ml EGF for 15&#160;min, and harvested for immunoprecipitation with anti-myc. The co-immunoprecipitated LAPTM4B was detected by immunoblotting. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9317</offset>
+      <text> Endogenous LAPTM4B is targeted to both early and late endosomes. MDA-MB-231 cells were fixed and costained for endogenous LAPTM4B (red) and EEA1 or LAMP1 (green). Boxes are selected regions for magnified view. Note: non-specific nuclear staining by the LAPTM4B anti-sera. Scale bar: 10&#160;&#956;m. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9611</offset>
+      <text> Quantification of LAPTM4B colocalization with EEA1 and LAMP1 (mean&#160;+&#160;SD; n&#160;&#8805;&#160;4). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9700</offset>
+      <text> Schematic diagram for LAPTM4B endosomal localization based on quantification in (F). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9787</offset>
+      <text> LAPTM4B partially colocalizes with PIPKI&#947;i5. MDA-MB-231 cells expressing Myc-tagged PIPKI&#947;i5 were stained with LAPTM4B anti-sera (red), anti-Myc (green), and DAPI. Box is selected region for magnified view. Scale bar: 10&#160;&#956;m. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10023</offset>
+      <text> MDA-MB-231 cells stably expressing Flag-LAPTM4B were stained with LAPTM4B anti-sera followed by silver-enhanced immuno-electron microscopy. The early and late MVEs were defined by the number of intraluminal vesicles. N, nucleus; M, mitochondria; MVE, multi-vesicular endosome; and PM, plasma membrane. Scale bars: 2&#160;&#956;m (left); 200&#160;nm (middle and right). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10382</offset>
+      <text>PIPKI&#947;i5 specifically interacts with the endosomal transmembrane protein LAPTM4B </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10468</offset>
+      <text>Data information: Data are representative for at least four independent experiments. IP, immunoprecipitate; WCL, whole-cell lysates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10601</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10651</offset>
+      <text>Ectopically expressed LAPTM4B localizes to late endosomes and lysosomes (Milkereit &amp; Rotin, 2011; Vergarajauregui et&#160;al, 2011). Consistently, we observed that HA-tagged LAPTM4B was primarily colocalized with late endosome/lysosome markers CD63 and LAMP1 and a partial overlap with early endosome marker EEA1 (Supplementary Fig&#160;S1A). To ascertain the subcellular localization of the endogenous protein, rabbit polyclonal LAPTM4B anti-sera were used to stain cells. The anti-sera stained endogenous LAPTM4B with significant colocalization with both LAMP1 and EEA1 (Fig1E and F), indicating a wide distribution of LAPTM4B through the endosomal system (Fig1G). The specificity of the LAPTM4B anti-sera staining was validated by LAPTM4B knockdown that eliminated the endosomal but not the nuclear staining (Supplementary Fig&#160;S1B and C). LAPTM4B knockdown did not change LAPTM5 staining (Supplementary Fig&#160;S1B), indicating that both the LAPTM4B siRNA and anti-sera are specific. To determine whether LAPTM4B and PIPKI&#947;i5 colocalize in cells, Myc-tagged PIPKI&#947;i5 was expressed and costained with endogenous LAPTM4B. As shown in Fig1H, PIPKI&#947;i5 was localized to subdomains of LAPTM4B-positive endosomes. Loss of LAPTM4B did not prevent endosomal targeting of PIPKI&#947;i5 (Supplementary Fig&#160;S1C), consistent with additional PIPKI&#947;i5 targeting factors at endosomes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12024</offset>
+      <text>As LAPTM4B is a transmembrane protein at endosomes, we examined whether LAPTM4B is targeted to both endosomal limiting membrane and intraluminal vesicles by silver-enhanced immuno-electron microscopy (immuno-EM) that detects the subendosomal localization of LAPTM4B. As shown in Fig1I, LAPTM4B specifically accumulated at MVEs, on both the limiting membrane and intraluminal vesicles. Early MVEs have fewer ILVs, and LAPTM4B was primarily at the limiting membrane (Fig1I, right). These data support that LAPTM4B is initially sorted to the limiting membrane of MVEs and then partially sorted onto ILVs as the MVE matures. This is consistent with a partial colocalization between LAPTM4B and PIPKI&#947;i5 at endosome surfaces.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12749</offset>
+      <text>LAPTM4B inhibits EGF-stimulated EGFR degradation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12798</offset>
+      <text>PIPKI&#947;i5 plays a key role in ESCRT-mediated EGFR ILV sorting and lysosomal degradation (Sun et&#160;al, 2013b). As LAPTM4B interacts with PIPKI&#947;i5 (Fig1), we explored whether LAPTM4B also regulates EGF-stimulated EGFR degradation. Endogenous LAPTM4B expression was knocked down by siRNA in MDA-MB-231 cells. Strikingly, the degradation rate of EGFR was significantly enhanced after LAPTM4B knockdown (Fig2A and B). After 1&#160;h of EGF stimulation, the EGFR levels in control cells were not significantly reduced, but half of the EGFR was degraded in LAPTM4B knockdown cells (Fig2A and B). Accelerated EGFR degradation after LAPTM4B knockdown also reduced EGFR and AKT signaling (Fig2A, C and D). Knockdown of LAPTM4B in A431 cells (Supplementary Fig&#160;S2A) resulted in even more dramatic acceleration of EGFR degradation (Supplementary Fig&#160;S2B, CQ- and C), indicating that this was not a cell type-specific result. Pretreatment with the lysosomal inhibitor chloroquine fully blocked EGFR degradation in MDA-MB-231 and A431 cells pretreated with either control or LAPTM4B siRNA (Supplementary Fig&#160;S2B, CQ+ and D), indicating that the EGFR degradation in LAPTM4B knockdown cells remains lysosomal mediated. A distinct siRNA (siLAPTM4B#2) also efficiently knocked down LAPTM4B expression (Supplementary Fig&#160;S2E) and accelerated EGFR degradation (Supplementary Fig&#160;S2F and G).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14170</offset>
+      <text> MDA-MB-231 cells transfected with control or LAPTM4B siRNA were starved and stimulated with 100&#160;ng/ml EGF for indicated time periods, followed by whole-cell lysate harvest for immunoblotting analysis of EGFR levels. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14389</offset>
+      <text> Quantification of the levels of EGFR (B), pEGFR (Y1068)(C), and pAKT (S473)(D) from the analysis in (A) (mean &#177; SD; n&#160;=&#160;3). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14518</offset>
+      <text> Control or LAPTM4B siRNA-transfected MDA-MB-231 cells were starved, pulsed with 25&#160;ng/ml Alexa-555-EGF for 3&#160;min, washed, and chased for indicated time periods followed by fixation, DAPI staining, and fluorescence microscopy. Scale bar: 10&#160;&#956;m. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14768</offset>
+      <text> Quantification of the relative amounts of Alexa-555-EGF internalized in the indicated conditions (mean&#160;+&#160;SD, n&#160;=&#160;3). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14891</offset>
+      <text> Quantification of the Alexa-555-EGF degradation in control and LAPTM4B knockdown cells in (E) (mean&#160;&#177;&#160;SD, n&#160;=&#160;3). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15012</offset>
+      <text> Control or LAPTM4B-overexpressing MDA-MB-231 cells were starved and then stimulated with 100&#160;ng/ml EGF for 1&#8211;4&#160;h. EGFR degradation and signaling were analyzed by Western blot. Specific antibodies recognizing pEGFR (Y1068) and pAKT (S473) were used. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15267</offset>
+      <text> Quantification for the levels of EGFR (I) and pEGFR (J) normalized to actin and pAKT (K) normalized to AKT in control or LAPTM4B-overexpressing cells (mean &#177; SD, n&#160;=&#160;3). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15442</offset>
+      <text>LAPTM4B knockdown accelerates EGF-stimulated EGFR degradation </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15505</offset>
+      <text>Data information: Data are representative for at least three independent experiments. *P&#160;&lt;&#160;0.05, **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001, one-tailed t-test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15653</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15703</offset>
+      <text>To further confirm that loss of LAPTM4B accelerates EGF-stimulated EGFR degradation, a pulse-chase experiment using Alexa-555-EGF was performed to analyze EGF degradation in control or LAPTM4B knockdown cells by fluorescence microscopy (Fig2E). After a brief pulse with a lower concentration of Alexa-555-EGF, only a small pool (&#8765;10%) of total EGFR is EGF-bound and internalized (Fig2F). Though similar amounts of EGF were initially internalized in control and LAPTM4B knockdown cells, the loss of EGF was more rapid in cells lacking LAPTM4B (Fig2E and G). The combined results confirm that LAPTM4B inhibits EGF-stimulated EGFR degradation and enhances EGFR signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16374</offset>
+      <text>LAPTM4B is overexpressed in many human cancers (Kasper et&#160;al, 2005; Li et&#160;al, 2010b). Therefore, we investigated whether ectopic expression of LAPTM4B could inhibit EGFR degradation. As shown in Fig2H&#8211;K, overexpression of LAPTM4B strongly inhibited EGF-stimulated EGFR degradation, resulting in greatly enhanced and prolonged activation of EGFR and AKT.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16732</offset>
+      <text>LAPTM4B inhibits EGFR trafficking through late endosomes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16789</offset>
+      <text>LAPTM4B is an endosomal protein suggesting that it may inhibit EGFR degradation by modulating EGFR endosomal trafficking. Cells were stimulated with EGF, and EGFR was costained with EEA1 and LAMP1, respectively. Trafficking of EGFR through these compartments was analyzed by quantifying the colocalization of EGFR with EEA1 or LAMP1. After 15&#160;min, the majority of EGFR accumulated at EEA1 compartments in both control and LAPTM4B knockdown cells (Fig3A and B), signifying that internalization and trafficking to the early endosome were not affected. After 2&#160;h, EGFR colocalized well with LAMP1 in control cells but surprisingly not in LAPTM4B knockdown cells where EGFR showed more colocalization with EEA1 [Fig3A&#8211;D, chloroquine (&#8722;)]. It is important to note that EGFR degradation is more rapid in LAPTM4B knockdown cells compared to control cells (Fig2); the decreased EGFR colocalization with LAMP1 may result from accelerated lysosomal delivery and degradation of EGFR in knockdown cells, but not a block of EGFR trafficking at the early endosome. To confirm this possibility, the EGFR trafficking assay was performed in cells pretreated with lysosomal inhibitor chloroquine to block EGFR degradation. As shown in Fig3A&#8211;D, chloroquine pretreatment rescued EGFR colocalization with LAMP1 in LAPTM4B knockdown cells and decreased EGFR colocalization with EEA1. These combined results indicate that EGFR is delivered faster into lysosomes for degradation upon loss of LAPTM4B.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18274</offset>
+      <text> Control or LAPTM4B siRNA-transfected MDA-MB-231 cells were starved, pretreated or not with chloroquine for 2&#160;h, stimulated with 100&#160;ng/ml EGF for 15&#160;min, washed, and chased for indicated time periods before fixation for costaining of EGFR (red) with EEA1 (A, green) or LAMP1 (C, green). Quantification of the average percentages of EGFR signals colocalized with EEA1 (B) and LAMP1 (D) at indicated time points; mean&#160;+&#160;SD; n&#160;=&#160;3; *P&#160;&lt;&#160;0.05, **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001, one-tailed t-test. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18774</offset>
+      <text> MDA-MB-231 cells were starved, stimulated with 100&#160;ng/ml EGF for 15 or 120&#160;min, fixed, and costained for EGFR and LAPTM4B, followed by fluorescence microscopy. Cells with higher and lower LAPTM4B expression were marked with arrows and arrowheads, respectively. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19039</offset>
+      <text> The amounts of total EGFR staining in individual cells in (E) were plotted against LAPTM4B levels at 15&#160;min and 120&#160;min, respectively. Note: for LAPTM4B quantification, the non-specific nuclear staining was not included. Trend lines and Pearson's correlation coefficients are shown. AU, arbitrary unit. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19346</offset>
+      <text>LAPTM4B inhibits EGF-stimulated EGFR endosomal sorting  Data information: Data are representative for three independent experiments. Boxes are selected regions for magnified view. Scale bars: 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19547</offset>
+      <text>In cells, LAPTM4B is stochastically expressed with some cells having high and others low LAPTM4B levels (Fig3E, see arrows). To determine whether EGF-stimulated EGFR trafficking is slowed in LAPTM4B-positive late endosomes, cells were stimulated with EGF for 15&#160;min or 120&#160;min and then fixed and costained for endogenous LAPTM4B and EGFR. After 15 min of EGF stimulation, all cells had similar amounts of EGFR staining at endosomes with partial colocalization with LAPTM4B (Fig3E, top). After 120&#160;min of EGF stimulation, significantly more EGFR was detected in cells with higher LAPTM4B expression (arrows), and the remaining EGFR colocalized with LAPTM4B (Fig3E, bottom). These results indicate that EGF-stimulated EGFR trafficking is inhibited in LAPTM4B-positive endosomes. The scatter plot of the EGFR versus LAPTM4B levels in each cell at 15&#160;min and 120&#160;min, respectively, was shown in Fig3F; no significant correlation between EGFR and LAPTM4B levels at 15 min was detected, but a positive correlation was observed at 120&#160;min, consistent with the model that enhanced LAPTM4B expression inhibits EGFR degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20672</offset>
+      <text>LAPTM4B inhibits EGF-stimulated EGFR intraluminal sorting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20730</offset>
+      <text>LAPTM4B may enhance EGFR signaling by inhibiting EGF-stimulated EGFR intraluminal sorting in LAPTM4B-positive endosomes. For this, intraluminal sorting of Alexa-555-EGF into enlarged endosomes induced by expression of constitutively active Rab5Q79L was quantified (Stenmark et&#160;al, 1994; Simonsen et&#160;al, 1998; Hanafusa et&#160;al, 2011). The results demonstrate diminished intraluminal sorting of EGF occurred at endosomes with higher LAPTM4B staining (Fig4A). Quantification of EGF intraluminal sorting revealed a significant inverse relationship between the EGF intraluminal sorting and LAPTM4B levels at individual endosomes (Fig4B), suggesting that LAPTM4B inhibits intraluminal sorting of EGF at LAPTM4B-positive endosomes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21456</offset>
+      <text> MDA-MB-231 cells expressing GFP-Rab5Q79L were starved and stimulated with 100&#160;ng/ml Alexa-555-EGF for 90&#160;min followed by fixation and immunostaining for LAPTM4B (blue). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21629</offset>
+      <text> The percentages of luminal Alexa-555-EGF in individual endosomes were plotted against endosomal LAPTM4B levels. Trend lines and Pearson's correlation coefficients are shown. Data are representative for three independent experiments. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21864</offset>
+      <text> Control or LAPTM4B knockdown MDA-MB-231 cells were starved overnight, cell surface EGFR was labeled with immuno-gold on ice. Cells were then stimulated with EGF for 1&#160;h at 37&#176;C and fixed for the EM study. Scale bar, 200&#160;nm. See Materials and Methods for details. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22132</offset>
+      <text> Relative amounts of immuno-gold-labeled EGFR in the MVE lumen versus MVE limiting membrane were quantified. Over 80 endosomes for each siRNA treatment from three independent experiments were used for quantification (mean&#160;+&#160;SD; ***P&#160;&lt;&#160;0.001, one-tailed t-test). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22399</offset>
+      <text> MDA-MB-231 cells were transfected with GFP-Rab5Q79L and Flag-LAPTM4B, starved, and stimulated with Alexa-555-EGF for 90&#160;min and followed by intraluminal sorting analysis. See Materials and Methods for details. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22612</offset>
+      <text> Quantification of EGF localization in LAPTM4B-positive and LAPTM4B-negative endosomes in (E) (mean&#160;+&#160;SD; n&#160;=&#160;3; ***P&#160;&lt;&#160;0.0007, one-tailed t-test). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22767</offset>
+      <text>LAPTM4B inhibits EGF-stimulated intraluminal sorting of EGFR  Data information: Boxes are selected regions for magnified view. Scale bars (A, E): 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22922</offset>
+      <text>To confirm the role for LAPTM4B in EGFR intraluminal sorting, an EM approach was used. Serum-starved cells were stimulated with 100&#160;ng/ml EGF for 1&#160;h, and the intraluminal sorting of immuno-gold labeled EGFR was quantified. Knockdown of LAPTM4B significantly increases EGF-stimulated intraluminal sorting of EGFR from &#8765;50% in control cells to &#8765;75% in knockdown cells (Fig4C and D). When overexpressed, LAPTM4B displayed a non-uniform distribution among endosomes, and consistently, intraluminal sorting of Alexa-555-EGF was strongly inhibited in LAPTM4B-positive endosomes (Fig4E and F). Together, these results demonstrate that LAPTM4B blocks EGF-stimulated EGFR intraluminal sorting in LAPTM4B-positive endosomes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23644</offset>
+      <text>As LAPTM4B inhibits EGFR intraluminal sorting, the EGFR accumulated on the endosomal surface could be recycled (Sorkin et&#160;al, 1991). To assess this, EGFR recycling assay was performed in control and LAPTM4B knockdown cells (Sigismund et&#160;al, 2008). Surprisingly, knockdown of LAPTM4B did not change EGF-stimulated EGFR recycling (Supplementary Fig&#160;S3). These results indicate that LAPTM4B-promoted EGFR signaling comes from active EGFR at the endosome as LAPTM4B blocks EGFR intraluminal sorting at LAPTM4B-positive endosomes without enhancing EGFR recycling.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24206</offset>
+      <text>PtdIns(4,5)P2 regulates LAPTM4B interaction with PIPKI&#947;i5</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24268</offset>
+      <text>To examine how the LAPTM4B&#8211;PIPKI&#947;i5 interaction may modulate EGFR trafficking and degradation, the interaction was further characterized. LAPTM4B is a unique member of the LAPTM family as it has an additional N-terminal extension (amino acids 1&#8211;91) (Shao et&#160;al, 2003). It has been shown that the pro-survival functions of human LAPTM4B require its N-terminal extension (Shao et&#160;al, 2003). Deletion of the LAPTM4B N-terminus abolished the interaction with PIPKI&#947;i5 (Fig5A), and the LAPTM4B N-terminus (LAPTM4B-N) directly interacted with PIPKI&#947;i5 C-terminus in GST pull-down assay (Fig5B). Further, co-IP experiments using LAPTM4B truncation mutants revealed that amino acids 1&#8211;40 were not critical for PIPKI&#947;i5 interaction (Fig5C), indicating that amino acids 41&#8211;91 were required. This region contains a polybasic motif (PBM) with a cluster of basic arginine residues (Fig5D). The cytoplasmic PBMs in ion channels and transporters have been shown to bind Ptdlns(4,5)P2, which is essential for their functions (Suh &amp; Hille, 2005; Huang, 2007). To analyze whether the LAPTM4B-PBM binds phosphoinositides, the LAPTM4B-N with or without PBM mutation (6RQ and 8RQ, Fig5D) was expressed and purified from E.&#160;coli and assayed for phosphoinositide binding using PIP strips (Fig5E). Wild-type LAPTM4B-N bound multiple phosphoinositides including PtdIns(4,5)P2, while the 6RQ and 8RQ mutants lost all phosphoinositide binding ability (Fig5F), indicating that the LAPTM4B-PBM is capable of binding to phosphoinositides.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25793</offset>
+      <text> Co-immunoprecipitation (co-IP) of full-length or N-terminus-deleted LAPTM4B with PIPKI&#947;i5 in HEK293 cells. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25906</offset>
+      <text> GST-tagged LAPTM4B N-terminus (93 amino acids) and T7-tagged PIPKI&#947;i5 C-terminus (223 amino acids) were purified from E.&#160;coli for in vitro GST pull-down assay. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26072</offset>
+      <text> Co-IP of full-length or N-terminal deletion mutants of LAPTM4B with PIPKI&#947;i5 in HEK293 cells. &#916;25: amino acids 1&#8211;25 deleted. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26207</offset>
+      <text> Schematic diagram of LAPTM4B with polybasic motif (PBM) magnified and PBM mutants specified. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26302</offset>
+      <text> Coomassie Brilliant Blue staining of purified wild-type and mutated LAPTM4B N-termini. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26391</offset>
+      <text> Purified LAPTM4B N-termini from (E) were used in PIP strips assay. LPA, lysophosphatidic acid; LPC, lysophosphocholine; PE, phosphatidylethanolamine; PC, phosphatidylcholine; S1P, sphingosine 1-phosphate; PI3,4,5P3, PtdIns(3,4,5)P3, phosphatidylinositol (3,4,5)-trisphosphate; PA, phosphatidic acid; PS, phosphatidylserine. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26717</offset>
+      <text> GST pull-down assay of wild-type or 6RQ mutant of LAPTM4B N-termini with PIPKI&#947;i5 C-terminus. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26817</offset>
+      <text> Co-IP of wild-type or PMB-mutated LAPTM4B with wild-type or kinase dead PIPKI&#947;i5 in HEK293 cells. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26921</offset>
+      <text> Top: GST pull-down assay of LAPTM4B N-terminus and PIPKI&#947;i5 C-terminus with increased concentration of PtdIns(4,5)P2 addition. Bottom: Quantification of the relative amounts of PIPKI&#947;i5 C-terminus bound to LAPTM4B N-terminus in top panel (mean&#160;&#177;&#160;SD; n&#160;=&#160;4). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27190</offset>
+      <text> LAPTM4B N-terminus binds multiple phosphoinositides including PtdIns(4,5)P2 in liposome-binding assay. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27295</offset>
+      <text> Top: GST pull-down assay of LAPTM4B N-terminus and PIPKI&#947;i5 C-terminus with 0.5&#160;&#956;M addition of different phosphoinositides. Bottom: Quantification of the relative amounts of PIPKI&#947;i5 C-terminus bound to LAPTM4B N-terminus in top panel (mean&#160;+&#160;SD;n&#160;=&#160;4). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27560</offset>
+      <text> Top: GST pull-down assay of wild-type or 6RQ mutant of LAPTM4B N-terminus and PIPKI&#947;i5 C-terminus with 0.5&#160;&#956;M addition of PtdIns(4,5)P2. Bottom: Quantification of the relative amounts of PIPKI&#947;i5 C-terminus bound to LAPTM4B N-terminus in top panel (mean&#160;+&#160;SD; n&#160;=&#160;4). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27839</offset>
+      <text>Phosphoinositide regulates LAPTM4B interaction with PIPKI&#947;i5 </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27905</offset>
+      <text>Data information: Data are representative from at least three independent experiments; L4B, LAPTM4B; L4B-N, LAPTM4B N-terminus; I&#947;i5-CT, PIPKI&#947;i5 C-terminus; PI, PtdIns, phosphatidylinositol; PI3P, PtdIns(3)P, phosphatidylinositol (3)-phosphate; PI4,5P2, PtdIns(4,5)P2, phosphatidylinositol (4,5)-bisphosphate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28224</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28274</offset>
+      <text>In GST pull-down assays, wild-type LAPTM4B-N and the 6RQ mutant interacted with PIPKI&#947;i5 equally well (Fig5G), indicating that the mutated residues are not direct PIPKI&#947;i5 binding sites. However, although the 6RQ mutant retained wild-type subcellular localization (Supplementary Fig&#160;S4A), it had reduced interaction with PIPKI&#947;i5 in co-IP (Fig5H, lanes 2 and 4), suggesting PtdIns(4,5)P2 regulation of the interaction in cells. Consistently, PIPKI&#947;i5KD that does not generate PtdIns(4,5)P2 had diminished LAPTM4B association (Fig1D). Additionally, while the wild-type PIPKI&#947;i5 associates with wild-type LAPTM4B much more strongly than with PBM mutants (Fig5H, lanes 2&#8211;4), the PIPKI&#947;i5KD interacts equally with wild-type and PBM-mutated LAPTM4B (Fig5H, lanes 5&#8211;7). These data signify that in vivo the LAPTM4B&#8211;PIPKI&#947;i5 interaction is regulated by PtdIns(4,5)P2 generated by PIPKI&#947;i5.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29188</offset>
+      <text>To directly determine whether PtdIns(4,5)P2 regulates the LAPTM4B&#8211;PIPKI&#947;i5 interaction, a GST pull-down experiment with or without PtdIns(4,5)P2 was performed. This revealed that PtdIns(4,5)P2 dose-dependently enhanced LAPTM4B binding to PIPKI&#947;i5 (Fig5I). Although other phosphoinositides including PtdIns(3)P, PtdIns(4)P, and PtdIns(3,5)P2 bound LAPTM4B-N in both PIP strips assays (Fig5F) and liposome-binding assays (Fig5J), yet regulation of the LAPTM4B&#8211;PIPKI&#947;i5 interaction was PtdIns(4,5)P2 specific (Fig5K), consistent with regulation by PIPKI&#947;i5 that generates PtdIns(4,5)P2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29788</offset>
+      <text>The binding between PIPKI&#947;i5 and the 6RQ mutant of LAPTM4B is no longer stimulated by PtdIns(4,5)P2 addition (Fig5L), consistent with the loss of phosphoinositide binding for the 6RQ mutant (Fig5F). The GST pull-down experiments were performed in the presence of PtdIns(4,5)P2 in incubation buffer, but not washing buffer. To assess whether washing the pull-down complex with detergent removed PtdIns(4,5)P2 from the complex, PtdIns(4,5)P2 was added to the washing buffer to protect the protein&#8211;lipid complex. This addition did not further enhance the PtdIns(4,5)P2-stimulated interaction between LAPTM4B and PIPKI&#947;i5 (Supplementary Fig&#160;S4B), indicating that detergent wash did not disrupt the&#160;pull-down complex. Together, these results indicate that PtdIns(4,5)P2, the product of PIPKI&#947;i5, specifically regulates the interaction between LAPTM4B and PIPKI&#947;i5.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30664</offset>
+      <text>Phosphoinositide binding inhibits the role of LAPTM4B in Hrs ubiquitination and EGFR degradation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30761</offset>
+      <text>For intraluminal sorting, activated EGFR is ubiquitinated and recognized by the ESCRT-0 subunit Hrs that sequesters EGFR and recruits downstream ESCRT complexes (Raiborg et&#160;al, 2002; Raiborg &amp; Stenmark, 2009; Sorkin &amp; von Zastrow, 2009). To explore the mechanism by which LAPTM4B inhibits EGFR intraluminal sorting, we examined how LAPTM4B impacts the association between EGFR and Hrs. Loss of LAPTM4B enhanced the EGFR interaction with Hrs (Fig6A), consistent with the enhanced EGFR intraluminal sorting and degradation in knockdown cells. This suggests that LAPTM4B may inhibit EGFR ILV sorting by blocking EGFR interaction with Hrs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31398</offset>
+      <text> Control or LAPTM4B knockdown MDA-MB-231 cells were starved and stimulated with 100&#160;ng/ml EGF for 30&#160;min, and whole-cell lysates were subject to co-immunoprecipitation (co-IP) assay. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31584</offset>
+      <text> Control or LAPTM4B knockdown MDA-MB-231 cells were transfected with His-tagged ubiquitin, starved, and stimulated with 100&#160;ng/ml EGF for 30&#160;min. Total ubiquitinated proteins were purified from whole-cell lysates by Ni-NTA agarose and analyzed by Western blot. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31848</offset>
+      <text> Control or LAPTM4B-WT/6RQ-overexpressing MDA-MB-231 cells were transfected with His-tagged ubiquitin and myc-tagged Hrs, starved, and stimulated with 100&#160;ng/ml EGF for 30&#160;min before whole-cell lysate harvest. Total ubiquitinated proteins were purified by Ni-NTA agarose and analyzed by Western blot. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32152</offset>
+      <text> Quantification of Hrs ubiquitination levels from the Western blot in (C) (mean&#160;+&#160;SD;n&#160;=&#160;5). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32250</offset>
+      <text> The co-IP of Myc-Hrs with Flag-LAPTM4B-WT or 6RQ mutant in HEK293 cells. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32325</offset>
+      <text> The co-IP between Hrs and Nedd4 with Flag-LAPTM4B-WT or 6RQ mutant overexpression in HEK293 cells. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32426</offset>
+      <text> The effects of LAPTM4B-6RQ mutant overexpression on EGF-stimulated EGFR degradation and signaling. Flag-LAPTM4B-WT or 6RQ mutant overexpression was accomplished by lentivirus-mediated infection approach. Cells with low levels of expression were selected as polyclonal pools for comparison. Control or overexpressing cells were starved and stimulated with 100&#160;ng/ml EGF for indicated time periods and whole-cell lysates were analyzed by Western blot. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32879</offset>
+      <text> Quantification of EGFR and pAKT levels from the Western blot in (G) (mean&#160;&#177;&#160;SD; n&#160;=&#160;5). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32974</offset>
+      <text> The PY motif mutant LAPTM4B-2PA loses interaction with Nedd4 but keeps interaction with Hrs in HEK293 cells cotransfected with the indicated proteins. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33127</offset>
+      <text> The effects of LAPTM4B-2PA mutant overexpression on EGF-stimulated EGFR degradation and signaling. Overexpression of Flag-LAPTM4B-WT or 2PA mutant overexpression was accomplished by lentivirus-mediated infection approach. Cells with high expression of Flag-LAPTM4B were selected as polyclonal pools for comparison. Cells were starved and stimulated with 100&#160;ng/ml EGF for the indicated time periods, and whole-cell lysates were analyzed by Western blot. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33584</offset>
+      <text> Quantification of EGFR degradation from Western blot in (J) (mean&#160;&#177;&#160;SD;n&#160;=&#160;3). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33670</offset>
+      <text>Phosphoinositide binding inhibits LAPTM4B interaction with Hrs and compromise the inhibitory effects of LAPTM4B in EGF-stimulated EGFR degradation </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33818</offset>
+      <text>Data information: Data are representative from at least three independent experiments. L4B, LAPTM4B; Ub, ubiquitin; EV, empty vector.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33952</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34002</offset>
+      <text>The interaction of EGFR with Hrs is dependent on the ubiquitination of EGFR (Eden et&#160;al, 2012), but loss of LAPTM4B did&#160;not affect EGFR ubiquitination (Supplementary Fig&#160;S5A). Ubiquitination of Hrs induces an intramolecular interaction between the Hrs-UIM and ubiquitin that inhibits Hrs interaction with ubiquitinated EGFR (Hoeller et&#160;al, 2006). Therefore, whether LAPTM4B regulates the ubiquitination of Hrs was determined. Loss of LAPTM4B diminished Hrs ubiquitination (Fig6B), while overexpression of LAPTM4B enhanced Hrs ubiquitination (Fig6C and D). Consistently, LAPTM4B interacts with Hrs in co-IP (Fig6E) and colocalizes with Hrs at endosomes (Supplementary Fig&#160;S5B). Overexpression of the 6RQ mutant that lacks phosphoinositide binding further enhanced Hrs ubiquitination (Fig6C and D). These results indicate that LAPTM4B interacts with Hrs, promoting Hrs ubiquitination, and that this role is inhibited by LAPTM4B phosphoinositide binding. Consistently, loss of PIPKI&#947;i5 also promotes Hrs ubiquitination and diminished the Hrs interaction with EGFR (Sun et&#160;al, 2013b).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35090</offset>
+      <text>Nedd4, an E3 ubiquitin ligase that ubiquitinates Hrs, directly interacts with LAPTM4B (Katz et&#160;al, 2002; Persaud et&#160;al, 2009; Milkereit &amp; Rotin, 2011). LAPTM4B and Nedd4 interact in both the endogenous and overexpressed conditions (Supplementary Fig&#160;S5C). We then examined whether LAPTM4B regulates Nedd4 interaction with Hrs. As shown in Fig6F, overexpression of LAPTM4B enhanced Hrs association with Nedd4. Consistently, the 6RQ LAPTM4B mutant had increased interaction with Hrs compared to wild-type LAPTM4B (Fig6E), and it also further enhanced the Nedd4&#8211;Hrs interaction (Fig6F).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35679</offset>
+      <text>To investigate how phosphoinositide binding regulates the role of LAPTM4B in EGFR degradation, we used a lentivirus-based system to modestly overexpress LAPTM4B or the 6RQ mutant in cells. As shown in Fig6G, the wild-type and 6RQ mutant of LAPTM4B were expressed at comparable levels. Wild-type LAPTM4B overexpression modestly inhibited EGFR degradation and enhanced AKT activation. The LAPTM4B 6RQ mutant overexpression showed enhanced inhibition of EGFR degradation and this resulted in enhanced AKT activation (Fig6G and H). These data indicate that phosphoinositide binding relieves LAPTM4B inhibition of EGFR degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36306</offset>
+      <text>LAPTM4B interacts with Nedd4 through two PY motifs (L/PPXY) at the LAPTM4B C-tail (Milkereit &amp; Rotin, 2011). To confirm that Nedd4 interaction is required for LAPTM4B to inhibit EGFR degradation, the Nedd4-non-interacting LAPTM4B mutant (2PA) was generated in which the second conserved proline residues in both PY motifs were mutated into alanines. The 2PA mutant lost Nedd4 interaction but retained association with Hrs and had enhanced PIPKI&#947;i5 interaction (Fig6I). When comparing two pools of cells overexpressing high levels of LAPTM4B-WT or LAPTM4B-2PA, EGFR degradation was strongly inhibited in LAPTM4B-WT-expressing cells, but not in LAPTM4B-2PA cells (Fig6J and K). This supports a role for the LAPTM4B&#8211;Nedd4 interaction in mediating inhibition of EGFR degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37086</offset>
+      <text>PIPKI&#947;i5 recruits SNX5 to inhibit LAPTM4B association with Hrs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37153</offset>
+      <text>We have previously shown that PIPKI&#947;i5 C-tail also specifically interacts with SNX5 and controls SNX5 function in protecting Hrs from ubiquitination by Nedd4 (Sun et&#160;al, 2013b). As LAPTM4B and SNX5 both bind the PIPKI&#947;i5 C-tail, we investigated whether they bind the same or distinct regions of the C-tail. A series of PIPKI&#947;i5 C-terminal deletion mutants were generated and used for co-IP assays with LAPTM4B and SNX5. This revealed that the most N-terminus of the C-tail (amino acids 640-652) was required for SNX5 interaction, while the remaining C-terminus was not required (Fig7A). In contrast, the LAPTM4B interaction with PIPKI&#947;i5 required the full-length C-tail of PIPKI&#947;i5 and deletion of 6 amino acids at the C-terminus diminished LAPTM4B interaction (Fig7B and C). These data indicate that LAPTM4B and SNX5 may associate together with PIPKI&#947;i5 on the C-tail. To test whether the PIPKI&#947;i5 interactions integrate LAPTM4B and SNX5 into the same complex, a co-IP experiment was performed with or without PIPKI&#947;i5 overexpression. This indicted that PIPKI&#947;i5 strongly enhanced SNX5 association with LAPTM4B (Fig7D). As SNX5 blocks Nedd4 interaction with Hrs (Sun et&#160;al, 2013b), we assessed whether SNX5 also inhibits LAPTM4B interaction with Nedd4 or Hrs. Overexpression of SNX5 suppressed LAPTM4B association with Hrs (Fig7E), but not Nedd4 (Supplementary Fig&#160;S6A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38561</offset>
+      <text> Co-immunoprecipitation (co-IP) of wild-type (WT) or C-terminal deletion mutants of HA-PIPKI&#947;i5 with SNX5 (A) or LAPTM4B (B and C) in HEK293 cells cotransfected with indicated proteins. &#916;675 indicates a deletion from amino acid 675 to the C-terminus. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38821</offset>
+      <text> PIPKI&#947;i5 promotes SNX5 association with LAPTM4B. HEK293 cells cotransfected with indicated proteins were harvested for co-IP to assay the interaction between Myc-SNX5 and Flag-LAPTM4B. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39012</offset>
+      <text> SNX5 inhibits Hrs association with LAPTM4B. HEK293 cells cotransfected with indicated proteins were harvested for co-IP to assay the interaction between Myc-Hrs and Flag-LAPTM4B. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39193</offset>
+      <text> A model for the PIPKI&#947;i5&#8211;LAPTM4B pathway in EGFR trafficking. Hrs is an established key regulator of EGFR intraluminal sorting. LAPTM4B, by promoting Nedd4-mediated Hrs ubiquitination, inhibits the recognition of ubiquitinated EGFR by Hrs and therefore inhibits EGFR intraluminal sorting and lysosomal degradation. PIPKI&#947;i5 directly binds to LAPTM4B and antagonizes the function of LAPTM4B in EGFR sorting by generating PtdIns(4,5)P2 signals and recruiting SNX5. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39666</offset>
+      <text>PIPKI&#947;i5 recruits SNX5 to inhibit LAPTM4B association with Hrs </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39734</offset>
+      <text>Data information: Data are representative from at least three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39821</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39871</offset>
+      <text>The data indicate a model where LAPTM4B inhibits Hrs-mediated EGFR degradation by promoting Hrs ubiquitination by Nedd4 (Fig7F). To assess whether EGFR is selectively regulated by LAPTM4B, the consequence of LAPTM4B overexpression on the degradation of other receptors was examined. Neither hepatocyte growth factor (HGF)-induced degradation of c-Met nor SFLLRN-induced degradation of the G protein-coupled receptor PAR1 was inhibited by LAPTM4B overexpression (Supplementary Fig&#160;S6B&#8211;E). PAR1 degradation was accelerated in LAPTM4B-overexpressing cells. This indicates that LAPTM4B overexpression does not cause a general dysfunction of the lysosome or regulate the degradation of all receptors in the lysosome. These results are consistent with reports that Hrs is not essential for the degradation of c-Met or PAR1 (Gullapalli et&#160;al, 2006; Dores et&#160;al, 2012; Sun et&#160;al, 2013b), and suggest that LAPTM4B is selective for a subset of receptors sorted through Hrs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40841</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40852</offset>
+      <text>Agonist-activated cell surface receptors continue to signal through the endosomal pathways after internalization, and sorting to ILVs is required for signal termination of many receptors (Katzmann et&#160;al, 2002; Raiborg et&#160;al, 2003; McCullough et&#160;al, 2013). Intraluminal sorting followed by degradation in the lysosome downregulates EGFR. LAPTM4B is an endosomal tetra-transmembrane protein that is overexpressed in most epithelial cancers, induces transformation and tumorigenesis of normal human cells, correlates with poor prognosis in a number of cancers, and is linked to chemotherapy resistance and recurrence of breast cancer (Kasper et&#160;al, 2005; Li et&#160;al, 2010b, 2011; Yang et&#160;al, 2010b). Here, we show that LAPTM4B enhances EGFR signaling by blocking EGF-stimulated EGFR intraluminal sorting and degradation. In this pathway, LAPTM4B promotes Hrs ubiquitination, which blocks the recognition of ubiquitinated EGFR by Hrs (Fig7). These results establish a key mechanism by which the known oncoprotein LAPTM4B facilitates pro-survival signaling in cancers. Consistently, cells with higher LAPTM4B expression are more proliferative and migratory (Yang et&#160;al, 2010a; Li et&#160;al, 2011), and this may explain why overexpression of LAPTM4B in cancers correlates with poor prognosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42141</offset>
+      <text>Intraluminal sorting is a highly conserved biological process that has been extensively studied over the past decade. The crystal structures of multiple ESCRT subunits have been solved resulting in detailed models of how ESCRT subunits could be recruited to endosomes and sort receptor cargos onto the ILVs (Williams &amp; Urb&#233;, 2007; Raiborg &amp; Stenmark, 2009; Hurley, 2010). The ESCRT-related ILV sorting components so far identified are all cytosolic proteins, the functions of which require their recruitment to endosomes(Henne et&#160;al, 2011). LAPTM4B is an example of an endosomal resident transmembrane protein with a role in the intraluminal sorting of EGFR. While other studies reported a block of EGFR trafficking at early endosomes upon dysfunction of early ESCRT subunits, we observed that LAPTM4B regulates EGFR sorting at LAPTM4B-positive endosomes, primarily MVEs/late endosomes (Figs3 and 4). This is due to inhibition of Hrs function at LAPTM4B-positive MVEs (Supplementary Fig&#160;S5B) and explains why LAPTM4B-expressing cells show enhanced EGFR&#8211;LAMP1 colocalization in the absence of lysosome inhibitor as this reflects a block at MVEs. The results demonstrate that LAPTM4B binds PIPKI&#947;i5 and is a PtdIns(4,5)P2 effector. PIPKI&#947;i5 and its product PtdIns(4,5)P2 are required for EGFR intraluminal sorting (Sun et&#160;al, 2013b), but LAPTM4B inhibits this pathway, indicating that LAPTM4B adds a layer of control to EGFR signaling by controlling sorting to ILVs and EGFR degradation. Our results demonstrate an additional layer of control regulated by the unexpected role of PtdIns(4,5)P2 in endosome sorting (Sun et&#160;al, 2013b). LAPTM4B is a phosphoinositide-modulated resident endosomal transmembrane protein that may represent a protein family that functions to regulate receptor sorting by integrating with the ESCRT complexes that are recruited to endosomal surfaces.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44024</offset>
+      <text>The current understanding of ILV sorting is largely based on studies in yeast as most ESCRT subunits are conserved throughout evolution (Henne et&#160;al, 2011). Mammalian cells have evolved more complex ILV sorting systems that are less well defined. Our results expanded the understanding of the layer of regulation for EGFR ILV sorting in mammalian cells controlled by the PIPKI&#947;i5&#8211;LAPTM4B interaction that is not conserved to yeast. The pro-survival role for human LAPTM4B depends on its N-tail (Shao et&#160;al, 2003), further emphasizing the importance of the LAPTM4B&#8211;PIPKI&#947;i5 nexus in controlling EGFR signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44642</offset>
+      <text>Though the majority of PtdIns(4,5)P2 is localized at the plasma membrane (Watt et&#160;al, 2002; Sun et&#160;al, 2013c), PtdIns(4,5)P2 is also observed at the endosomal limiting membrane, ILVs, and lysosomes (Arneson et&#160;al, 1999; Watt et&#160;al, 2002; Vicinanza et&#160;al, 2011; Rong et&#160;al, 2012; Shi et&#160;al, 2012). A number of PtdIns(4,5)P2 binding proteins including SNX5, SNX9, adaptor protein 3 (AP3), and a group of Arf-GAPs were found to regulate endosomal trafficking (Vicinanza et&#160;al, 2008). Endosomal PIPKI&#947;i5 and its kinase activity modulate the function of SNX5, a PtdIns(4,5)P2 and PI3P effector, in EGFR endosomal sorting (Sun et&#160;al, 2013b). Consistently, depletion or accumulation of PtdIns(4,5)P2 at endosomes have been reported to impact EGFR sorting and degradation (Ramel et&#160;al, 2011; Vicinanza et&#160;al, 2011). Although LAPTM4B binds multiple phosphoinositides in vitro, yet its interaction with PIPKI&#947;i5 combined with its membrane topography indicates that it is an effector of PtdIns(4,5)P2 (Fig7F). In contrast to SNX5, also a PtdIns(4,5)P2 effector, LAPTM4B acts as an inhibitor of the ESCRT-mediated EGFR degradation, and PtdIns(4,5)P2 binding diminishes its inhibitory role. Interestingly, while endogenous LAPTM4B is localized to both early and late endosomes, LAPTM4B regulates EGFR trafficking primarily at the late endosome, possibly due to inhibition of LAPTM4B functions by PIPKI&#947;i5, PtdIns(4,5)P2, and SNX5 at early endosomes. The results indicate that generation of PtdIns(4,5)P2 modulates the interactions between SNX5, LAPTM4B, the ESCRT-0 subunit Hrs, and the E3 ubiquitin ligase Nedd4. This regulates the interaction of Nedd4 with its substrate Hrs. The ubiquitination of Hrs in turn controls its interaction with EGFR and subsequent ILV sorting of EGFR. LAPTM4B has two PY motifs, while Hrs has only one. LAPTM4B may interact with Nedd4 and orient it with Hrs so that Hrs is a better Nedd4 substrate, suggesting that LAPTM4B has a scaffold function that regulates Nedd4 activity toward Hrs. The LAPTM4B complex with PIPKI&#947;i5 also suggests that it may regulate Nedd4 specificity toward other substrates in addition to Hrs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46796</offset>
+      <text>Epidermal growth factor receptor and hundreds of other receptors are downregulated by ILV sorting and lysosomal degradation (Raiborg &amp; Stenmark, 2009; Sorkin &amp; von Zastrow, 2009), suggesting that there is receptor specificity for sorting and degradation. LAPTM4B is a selective regulator for EGFR trafficking, as it does not inhibit degradation of c-Met or PAR1 (Supplementary Fig&#160;S6B&#8211;E). PIPKI&#947;i5 and SNX5 also selectively regulate the degradation of EGFR (Sun et&#160;al, 2013b). The role of PIPKI&#947;i5, PtdIns(4,5)P2, SNX5, and LAPTM4B putatively defines a pathway for selective and&#160;regulated sorting and destruction of receptors. The receptor preference for different ESCRT subunits and the cross talks between ESCRT complexes and LAPTM proteins as well as other endosomal transmembrane proteins including the tetraspanin family members may modulate this specificity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47669</offset>
+      <text>Overexpression of LAPTM4B has been shown to enhance chemotherapy resistance in cancer cells, and this was associated with AKT activation (Li et&#160;al, 2010a,b). Phosphorylated AKT is a known locus for cancer multi-drug resistance (Radisavljevic, 2013). Our study indicates that LAPTM4B promotes AKT signaling by blocking EGFR degradation and this would be one mechanism for the role of LAPTM4B in drug resistance. The combined information suggests that LAPTM4B could be a potential therapeutic target for cancers that are addicted to EGFR signaling or in circumstances where chemotherapy resistance occurs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48274</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48296</offset>
+      <text>Reagents, constructs, and cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48328</offset>
+      <text>A detailed description of reagents, constructs, and cell treatment is included in Supplementary Materials and Methods. MDA-MB-231 and HEK293 cells were cultured in DMEM supplemented with 10% FBS. Transfection of plasmids and siRNA oligonucleotides was carried out using Lipofectamine 2000 and Oligofectamine (Invitrogen, Carlsbad, CA, USA), respectively, according to manufacturer's instructions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48725</offset>
+      <text>Immunofluorescence microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48755</offset>
+      <text>Cells on glass coverslips were washed with PBS, fixed in 4% paraformaldehyde (PFA), and permeabilized in 0.5% Triton X-100 in PBS for 10 min, followed by blocking in 3% BSA for 1&#160;h at room temperature. Incubation with primary antibodies was performed at 37&#176;C for 2&#160;h or 4&#176;C overnight. Then cells were washed twice in washing buffer (0.1% Triton X-100 in PBS) and incubated with secondary antibodies at room temperature for 30&#8211;60&#160;min, followed by washing three times with washing buffer. Fluorescence images were obtained using MetaMorph with Nikon Eclipse TE2000-U microscope and further processed in MetaMorph. For colocalization quantification, images were background-subtracted and split into individual channels (e.g. channel 1 for EGFR; channel 2 for EEA1), and the colocalization quantification of signals from two individual channels was performed using the Coloc 2 plugin of Fiji (ImageJ). The thresholded Manders M1 coefficient was expressed as percentages (e.g. M1&#160;=&#160;0.3 was expressed as 30%) to show the fraction of intensities in channel 1 above threshold that is colocalized with intensities in channel 2 above threshold.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49899</offset>
+      <text>Electron microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49919</offset>
+      <text>For EGFR intraluminal sorting, control or LAPTM4B knockdown cells were starved, labeled with anti-EGFR, followed by protein A-gold labeling. Cells were then stimulated with EGF for 1&#160;h at 37&#176;C, fixed with 2% glutaraldehyde in 0.1&#160;M sodium phosphate buffer (PB), and processed for EM examination in UW Medical School EM&#160;facility. See Supplementary Materials and Methods for more details.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50310</offset>
+      <text>The specific localizations of LAPTM4B at endosomes were detected by silver-enhanced immuno-EM. Briefly, cells were fixed with 0.1% glutaraldehyde and 2% paraformaldehyde, permeabilized with 0.1% Triton X-100 for 30 min, blocked in Aurion blocking solution for 1&#160;h, followed by another 1&#160;h of blocking with incubation buffer. Cells were then stained with LAPTM4B anti-sera, washed and incubated with ultra-small gold-conjugated goat anti-rabbit IgG overnight at 4&#176;C. Cell were washed and post-fixed with 2% glutaraldehyde and then silver-enhanced. Ultra-thin sections were examined as described above. See Supplementary Materials and Methods for more details.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50972</offset>
+      <text>Alexa-555-EGF degradation assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51005</offset>
+      <text>MDA-MB-231 cells transfected with control or LAPTM4B siRNA were re-plated on to cover slips 48&#160;h after transfection. Cells were starved for 3&#160;h and pulsed with 25&#160;ng/ml Alexa-555-EGF for 3&#160;min, and unbound EGF washed out by changing medium twice. Cells were fixed at indicated time points after Alexa-555-EGF stimulation. Fixed cells were incubated with DAPI for 2&#160;min and washed three times with washing buffer. The total amount of Alexa-555-EGF fluorescence was quantified in Fiji, and the cell number on each image was counted using the nucleus (DAPI) staining as a reference. The average amount of Alexa-555-EGF per cell was calculated by dividing the total amount of Alexa-555-EGF fluorescence by the total cell number.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51735</offset>
+      <text>Intraluminal sorting of EGF</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51763</offset>
+      <text>MDA-MB-231 cells on coverslips were transfected with EGFP-Rab5Q79L, starved for 4&#160;h, and stimulated with 100&#160;ng/ml Alexa-555-EGF for indicated time periods, followed by fixation in 4% PFA before fluorescence microscopy. Quantification of EGF on the limiting membrane and within the endosomal lumen was done as described (Trajkovic et&#160;al, 2008). Briefly, central images of endosomes (diameter &gt;&#160;2&#160;&#956;m) were taken with the GFP-Rab5Q79L outline as a reference. For quantification, the GFP-Rab5Q79L outline was also used as a reference to determine the EGF localization on the limiting membrane. EGF localized inside the GFP-Rab5Q79L outline was considered as intraluminal EGF. The total intensities of endosomal EGF fluorescence and the intensities inside the GFP-Rab5Q79L outline were quantified using Fiji. Calculation of significance is made by Student's t-test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>52631</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52652</offset>
+      <text>XT and RAA conceived the study. XT, YS, ACH, and RAA designed experiments. XT, YS, YL, and NT performed experiments. XT, YS, ACH, and RAA analyzed data. XT and RAA wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>52838</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52859</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>52919</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ko;given-names:J</infon>
+      <infon key="name_3">surname:Guillemot;given-names:J</infon>
+      <infon key="name_0">surname:Adra;given-names:C</infon>
+      <infon key="name_1">surname:Zhu;given-names:S</infon>
+      <infon key="name_6">surname:Horiuchi;given-names:T</infon>
+      <infon key="name_7">surname:Lelias;given-names:J</infon>
+      <infon key="name_4">surname:Cuervo;given-names:A</infon>
+      <infon key="name_5">surname:Kobayashi;given-names:H</infon>
+      <infon key="volume">35</infon>
+      <infon key="name_8">surname:Rowley;given-names:J</infon>
+      <infon key="name_9">surname:Lim;given-names:B</infon>
+      <infon key="lpage">337</infon>
+      <infon key="pub-id_pmid">8661146</infon>
+      <infon key="source">Genomics</infon>
+      <infon key="fpage">328</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>52930</offset>
+      <text>LAPTM5: a novel lysosomal-associated multispanning membrane protein preferentially expressed in hematopoietic cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">318</infon>
+      <infon key="name_0">surname:Anderson;given-names:RA</infon>
+      <infon key="name_1">surname:Marchesi;given-names:VT</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">298</infon>
+      <infon key="pub-id_pmid">2999606</infon>
+      <infon key="fpage">295</infon>
+      <infon key="year">1985</infon>
+      <infon key="type">ref</infon>
+      <offset>53046</offset>
+      <text>Regulation of the association of membrane skeletal protein 4.1 with glycophorin by a polyphosphoinositide</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Anderson;given-names:R</infon>
+      <infon key="name_3">surname:Traub;given-names:L</infon>
+      <infon key="name_0">surname:Arneson;given-names:L</infon>
+      <infon key="name_1">surname:Kunz;given-names:J</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">274</infon>
+      <infon key="lpage">17805</infon>
+      <infon key="pub-id_pmid">10364223</infon>
+      <infon key="fpage">17794</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>53152</offset>
+      <text>Coupled inositide phosphorylation and phospholipase D activation initiates clathrin-coat assembly on lysosomes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Su;given-names:X</infon>
+      <infon key="name_3">surname:Firestone;given-names:AJ</infon>
+      <infon key="name_0">surname:Bairstow;given-names:SF</infon>
+      <infon key="name_1">surname:Ling;given-names:K</infon>
+      <infon key="name_4">surname:Carbonara;given-names:C</infon>
+      <infon key="name_5">surname:Anderson;given-names:RA</infon>
+      <infon key="volume">281</infon>
+      <infon key="lpage">20642</infon>
+      <infon key="pub-id_pmid">16707488</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">20632</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>53263</offset>
+      <text>Type Igamma 661 phosphatidylinositol phosphate kinase directly interacts with AP2 and regulates endocytosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="name_0">surname:Balla;given-names:T</infon>
+      <infon key="source">Physiol Rev</infon>
+      <infon key="lpage">1137</infon>
+      <infon key="pub-id_pmid">23899561</infon>
+      <infon key="fpage">1019</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>53371</offset>
+      <text>Phosphoinositides: tiny lipids with giant impact on cell regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">443</infon>
+      <infon key="name_0">surname:Di Paolo;given-names:G</infon>
+      <infon key="name_1">surname:De Camilli;given-names:P</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">657</infon>
+      <infon key="pub-id_pmid">17035995</infon>
+      <infon key="fpage">651</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>53439</offset>
+      <text>Phosphoinositides in cell regulation and membrane dynamics</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lin;given-names:H</infon>
+      <infon key="name_3">surname:Soh;given-names:UJ</infon>
+      <infon key="name_0">surname:Dores;given-names:MR</infon>
+      <infon key="name_1">surname:Chen;given-names:B</infon>
+      <infon key="name_6">surname:Meerloo;given-names:T</infon>
+      <infon key="name_7">surname:Trejo;given-names:J</infon>
+      <infon key="name_4">surname:Paing;given-names:MM</infon>
+      <infon key="name_5">surname:Montagne;given-names:WA</infon>
+      <infon key="volume">197</infon>
+      <infon key="lpage">419</infon>
+      <infon key="pub-id_pmid">22547407</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">407</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53498</offset>
+      <text>ALIX binds a YPX(3)L motif of the GPCR PAR1 and mediates ubiquitin-independent ESCRT-III/MVB sorting</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sorkin;given-names:A</infon>
+      <infon key="name_3">surname:Futter;given-names:CE</infon>
+      <infon key="name_0">surname:Eden;given-names:ER</infon>
+      <infon key="name_1">surname:Huang;given-names:F</infon>
+      <infon key="source">Traffic</infon>
+      <infon key="volume">13</infon>
+      <infon key="lpage">337</infon>
+      <infon key="pub-id_pmid">22017370</infon>
+      <infon key="fpage">329</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53599</offset>
+      <text>The role of EGF receptor ubiquitination in regulating its intracellular traffic</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Futter;given-names:CE</infon>
+      <infon key="volume">37</infon>
+      <infon key="name_0">surname:Eden;given-names:ER</infon>
+      <infon key="name_1">surname:White;given-names:IJ</infon>
+      <infon key="source">Biochem Soc Trans</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">177</infon>
+      <infon key="pub-id_pmid">19143625</infon>
+      <infon key="fpage">173</infon>
+      <infon key="year">2009</infon>
+      <infon key="issue">Pt 1</infon>
+      <offset>53679</offset>
+      <text>Down-regulation of epidermal growth factor receptor signalling within multivesicular bodies</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Mifune;given-names:M</infon>
+      <infon key="name_3">surname:Inagami;given-names:T</infon>
+      <infon key="name_0">surname:Eguchi;given-names:S</infon>
+      <infon key="name_1">surname:Frank;given-names:G</infon>
+      <infon key="source">Biochem Soc Trans</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1202</infon>
+      <infon key="pub-id_pmid">14641025</infon>
+      <infon key="fpage">1198</infon>
+      <infon key="year">2003</infon>
+      <infon key="issue">Pt 6</infon>
+      <infon key="volume">31</infon>
+      <offset>53771</offset>
+      <text>Metalloprotease-dependent ErbB ligand shedding in mediating EGFR transactivation and vascular remodelling</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Griffin;given-names:CT</infon>
+      <infon key="name_3">surname:Magnuson;given-names:T</infon>
+      <infon key="name_0">surname:Gullapalli;given-names:A</infon>
+      <infon key="name_1">surname:Wolfe;given-names:BL</infon>
+      <infon key="name_4">surname:Trejo;given-names:J</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="volume">17</infon>
+      <infon key="lpage">1238</infon>
+      <infon key="pub-id_pmid">16407403</infon>
+      <infon key="fpage">1228</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>53877</offset>
+      <text>An essential role for SNX1 in lysosomal sorting of protease-activated receptor-1: evidence for retromer-, Hrs-, and Tsg101-independent functions of sorting nexins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kedashiro;given-names:S</infon>
+      <infon key="name_3">surname:Saigo;given-names:T</infon>
+      <infon key="name_0">surname:Hanafusa;given-names:H</infon>
+      <infon key="name_1">surname:Ishikawa;given-names:K</infon>
+      <infon key="name_6">surname:Komada;given-names:M</infon>
+      <infon key="name_7">surname:Shibuya;given-names:H</infon>
+      <infon key="name_4">surname:Iemura;given-names:S</infon>
+      <infon key="name_5">surname:Natsume;given-names:T</infon>
+      <infon key="name_8">surname:Nara;given-names:A</infon>
+      <infon key="name_9">surname:Matsumoto;given-names:K</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">21245839</infon>
+      <infon key="source">Nat Commun</infon>
+      <infon key="fpage">158</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>54040</offset>
+      <text>Leucine-rich repeat kinase LRRK1 regulates endosomal trafficking of the EGF receptor</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ling;given-names:K</infon>
+      <infon key="name_3">surname:Sun;given-names:Y</infon>
+      <infon key="name_0">surname:Heck;given-names:JN</infon>
+      <infon key="name_1">surname:Mellman;given-names:DL</infon>
+      <infon key="name_6">surname:Anderson;given-names:RA</infon>
+      <infon key="name_4">surname:Wagoner;given-names:MP</infon>
+      <infon key="name_5">surname:Schill;given-names:NJ</infon>
+      <infon key="volume">42</infon>
+      <infon key="lpage">39</infon>
+      <infon key="pub-id_pmid">17364683</infon>
+      <infon key="source">Crit Rev Biochem Mol Biol</infon>
+      <infon key="fpage">15</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>54125</offset>
+      <text>A conspicuous connection: structure defines function for the phosphatidylinositol-phosphate kinase family</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Emr;given-names:SD</infon>
+      <infon key="volume">21</infon>
+      <infon key="name_0">surname:Henne;given-names:WM</infon>
+      <infon key="name_1">surname:Buchkovich;given-names:NJ</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">91</infon>
+      <infon key="pub-id_pmid">21763610</infon>
+      <infon key="fpage">77</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>54231</offset>
+      <text>The ESCRT pathway</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Emr;given-names:SD</infon>
+      <infon key="name_0">surname:Henne;given-names:WM</infon>
+      <infon key="name_1">surname:Stenmark;given-names:H</infon>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24003212</infon>
+      <infon key="fpage">a016766</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>54249</offset>
+      <text>Molecular mechanisms of the membrane sculpting ESCRT pathway</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Blagoev;given-names:B</infon>
+      <infon key="name_3">surname:Raiborg;given-names:C</infon>
+      <infon key="name_0">surname:Hoeller;given-names:D</infon>
+      <infon key="name_1">surname:Crosetto;given-names:N</infon>
+      <infon key="name_6">surname:Kowanetz;given-names:K</infon>
+      <infon key="name_7">surname:Breitling;given-names:R</infon>
+      <infon key="name_4">surname:Tikkanen;given-names:R</infon>
+      <infon key="name_5">surname:Wagner;given-names:S</infon>
+      <infon key="volume">8</infon>
+      <infon key="name_8">surname:Mann;given-names:M</infon>
+      <infon key="name_9">surname:Stenmark;given-names:H</infon>
+      <infon key="lpage">169</infon>
+      <infon key="pub-id_pmid">16429130</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="fpage">163</infon>
+      <infon key="year">2006</infon>
+      <infon key="name_10">surname:Dikic;given-names:I</infon>
+      <infon key="type">ref</infon>
+      <offset>54310</offset>
+      <text>Regulation of ubiquitin-binding proteins by monoubiquitination</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ling;given-names:V</infon>
+      <infon key="name_3">surname:Hobman;given-names:T</infon>
+      <infon key="name_0">surname:Hogue;given-names:D</infon>
+      <infon key="name_1">surname:Nash;given-names:C</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">730</infon>
+      <infon key="pub-id_pmid">11980562</infon>
+      <infon key="fpage">721</infon>
+      <infon key="year">2002</infon>
+      <infon key="issue">Pt 3</infon>
+      <infon key="volume">365</infon>
+      <offset>54373</offset>
+      <text>Lysosome-associated protein transmembrane 4 alpha (LAPTM4 alpha) requires two tandemly arranged tyrosine-based signals for sorting to lysosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">293</infon>
+      <infon key="name_0">surname:Huang;given-names:C</infon>
+      <infon key="source">Am J Physiol Renal Physiol</infon>
+      <infon key="lpage">F1765</infon>
+      <infon key="pub-id_pmid">17928411</infon>
+      <infon key="fpage">F1761</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>54517</offset>
+      <text>Complex roles of PIP2 in the regulation of ion channels and transporters</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="name_0">surname:Hurley;given-names:JH</infon>
+      <infon key="source">Crit Rev Biochem Mol Biol</infon>
+      <infon key="lpage">487</infon>
+      <infon key="pub-id_pmid">20653365</infon>
+      <infon key="fpage">463</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>54590</offset>
+      <text>The ESCRT complexes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Frank;given-names:G</infon>
+      <infon key="name_3">surname:Inagami;given-names:T</infon>
+      <infon key="name_0">surname:Kagiyama;given-names:S</infon>
+      <infon key="name_1">surname:Eguchi;given-names:S</infon>
+      <infon key="name_4">surname:Zhang;given-names:Y</infon>
+      <infon key="name_5">surname:Phillips;given-names:M</infon>
+      <infon key="volume">106</infon>
+      <infon key="lpage">912</infon>
+      <infon key="pub-id_pmid">12186792</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="fpage">909</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>54610</offset>
+      <text>Angiotensin II-induced cardiac hypertrophy and hypertension are attenuated by epidermal growth factor receptor antisense</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Jiang;given-names:W</infon>
+      <infon key="name_3">surname:Zhang;given-names:H</infon>
+      <infon key="name_0">surname:Kang;given-names:Y</infon>
+      <infon key="name_1">surname:Yin;given-names:M</infon>
+      <infon key="name_6">surname:Huang;given-names:Y</infon>
+      <infon key="name_4">surname:Xia;given-names:B</infon>
+      <infon key="name_5">surname:Xue;given-names:Y</infon>
+      <infon key="volume">204</infon>
+      <infon key="lpage">683</infon>
+      <infon key="pub-id_pmid">22578410</infon>
+      <infon key="source">Am J Surg</infon>
+      <infon key="fpage">677</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>54731</offset>
+      <text>Overexpression of LAPTM4B-35 is associated with poor prognosis in colorectal carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Klaman;given-names:I</infon>
+      <infon key="name_3">surname:Gr&#246;ne;given-names:J</infon>
+      <infon key="name_0">surname:Kasper;given-names:G</infon>
+      <infon key="name_1">surname:Vogel;given-names:A</infon>
+      <infon key="name_6">surname:Casta&#241;os-V&#233;lez;given-names:E</infon>
+      <infon key="name_7">surname:Staub;given-names:E</infon>
+      <infon key="name_4">surname:Petersen;given-names:I</infon>
+      <infon key="name_5">surname:Weber;given-names:B</infon>
+      <infon key="volume">224</infon>
+      <infon key="name_8">surname:Mennerich;given-names:D</infon>
+      <infon key="lpage">103</infon>
+      <infon key="pub-id_pmid">15911104</infon>
+      <infon key="source">Cancer Lett</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>54818</offset>
+      <text>The human LAPTM4b transcript is upregulated in various types of solid tumours and seems to play a dual functional role during tumour progression</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tal-Or;given-names:P</infon>
+      <infon key="name_3">surname:Yakir;given-names:L</infon>
+      <infon key="name_0">surname:Katz;given-names:M</infon>
+      <infon key="name_1">surname:Shtiegman;given-names:K</infon>
+      <infon key="name_6">surname:Machluf;given-names:Y</infon>
+      <infon key="name_7">surname:Asao;given-names:H</infon>
+      <infon key="name_4">surname:Mosesson;given-names:Y</infon>
+      <infon key="name_5">surname:Harari;given-names:D</infon>
+      <infon key="volume">3</infon>
+      <infon key="name_8">surname:Jovin;given-names:T</infon>
+      <infon key="name_9">surname:Sugamura;given-names:K</infon>
+      <infon key="lpage">751</infon>
+      <infon key="pub-id_pmid">12230472</infon>
+      <infon key="source">Traffic</infon>
+      <infon key="fpage">740</infon>
+      <infon key="year">2002</infon>
+      <infon key="name_10">surname:Yarden;given-names:Y</infon>
+      <infon key="type">ref</infon>
+      <offset>54963</offset>
+      <text>Ligand-independent degradation of epidermal growth factor receptor involves receptor ubiquitylation and Hgs, an adaptor whose ubiquitin-interacting motif targets ubiquitylation by Nedd4</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Emr;given-names:SD</infon>
+      <infon key="volume">3</infon>
+      <infon key="name_0">surname:Katzmann;given-names:DJ</infon>
+      <infon key="name_1">surname:Odorizzi;given-names:G</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">905</infon>
+      <infon key="pub-id_pmid">12461556</infon>
+      <infon key="fpage">893</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>55149</offset>
+      <text>Receptor downregulation and multivesicular-body sorting</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Yang;given-names:H</infon>
+      <infon key="name_3">surname:Zhang;given-names:S</infon>
+      <infon key="name_0">surname:Li;given-names:L</infon>
+      <infon key="name_1">surname:Shan;given-names:Y</infon>
+      <infon key="name_6">surname:Chen;given-names:XY</infon>
+      <infon key="name_7">surname:Yi;given-names:J</infon>
+      <infon key="name_4">surname:Lin;given-names:M</infon>
+      <infon key="name_5">surname:Zhu;given-names:P</infon>
+      <infon key="volume">294</infon>
+      <infon key="name_8">surname:McNutt;given-names:MA</infon>
+      <infon key="name_9">surname:Shao;given-names:GZ</infon>
+      <infon key="lpage">1142</infon>
+      <infon key="pub-id_pmid">21618708</infon>
+      <infon key="source">Anat Rec (Hoboken)</infon>
+      <infon key="fpage">1135</infon>
+      <infon key="year">2011</infon>
+      <infon key="name_10">surname:Zhou;given-names:RL</infon>
+      <infon key="type">ref</infon>
+      <offset>55205</offset>
+      <text>Upregulation of LAPTM4B-35 promotes malignant transformation and tumorigenesis in L02 human liver cell line</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pan;given-names:YP</infon>
+      <infon key="name_3">surname:Li;given-names:HC</infon>
+      <infon key="name_0">surname:Li;given-names:L</infon>
+      <infon key="name_1">surname:Wei;given-names:XH</infon>
+      <infon key="name_6">surname:Pang;given-names:Y</infon>
+      <infon key="name_7">surname:Shan;given-names:Y</infon>
+      <infon key="name_4">surname:Yang;given-names:H</infon>
+      <infon key="name_5">surname:He;given-names:QH</infon>
+      <infon key="volume">29</infon>
+      <infon key="name_8">surname:Xiong;given-names:FX</infon>
+      <infon key="name_9">surname:Shao;given-names:GZ</infon>
+      <infon key="lpage">5795</infon>
+      <infon key="pub-id_pmid">20711237</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="fpage">5785</infon>
+      <infon key="year">2010a</infon>
+      <infon key="name_10">surname:Zhou;given-names:RL</infon>
+      <infon key="type">ref</infon>
+      <offset>55313</offset>
+      <text>LAPTM4B: a novel cancer-associated gene motivates multidrug resistance through efflux and activating PI3K/AKT signaling</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Li;given-names:Q</infon>
+      <infon key="name_3">surname:Haibe-Kains;given-names:B</infon>
+      <infon key="name_0">surname:Li;given-names:Y</infon>
+      <infon key="name_1">surname:Zou;given-names:L</infon>
+      <infon key="name_6">surname:Desmedt;given-names:C</infon>
+      <infon key="name_7">surname:Sotiriou;given-names:C</infon>
+      <infon key="name_4">surname:Tian;given-names:R</infon>
+      <infon key="name_5">surname:Li;given-names:Y</infon>
+      <infon key="volume">16</infon>
+      <infon key="name_8">surname:Szallasi;given-names:Z</infon>
+      <infon key="name_9">surname:Iglehart;given-names:JD</infon>
+      <infon key="lpage">218</infon>
+      <infon key="pub-id_pmid">20098429</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="fpage">214</infon>
+      <infon key="year">2010b</infon>
+      <infon key="name_10">surname:Richardson;given-names:AL</infon>
+      <infon key="name_11">surname:Wang;given-names:ZC</infon>
+      <infon key="type">ref</infon>
+      <offset>55433</offset>
+      <text>Amplification of LAPTM4B and YWHAZ contributes to chemotherapy resistance and recurrence of breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="name_0">surname:Lindmo;given-names:K</infon>
+      <infon key="name_1">surname:Stenmark;given-names:H</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">614</infon>
+      <infon key="pub-id_pmid">16467569</infon>
+      <infon key="fpage">605</infon>
+      <infon key="year">2006</infon>
+      <infon key="issue">Pt 4</infon>
+      <offset>55539</offset>
+      <text>Regulation of membrane traffic by phosphoinositide 3-kinases</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Firestone;given-names:AJ</infon>
+      <infon key="name_3">surname:Bunce;given-names:MW</infon>
+      <infon key="name_0">surname:Ling;given-names:K</infon>
+      <infon key="name_1">surname:Doughman;given-names:RL</infon>
+      <infon key="name_4">surname:Anderson;given-names:RA</infon>
+      <infon key="source">Nature</infon>
+      <infon key="volume">420</infon>
+      <infon key="lpage">93</infon>
+      <infon key="pub-id_pmid">12422220</infon>
+      <infon key="fpage">89</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>55600</offset>
+      <text>Type I gamma phosphatidylinositol phosphate kinase targets and regulates focal adhesions</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sundquist;given-names:WI</infon>
+      <infon key="volume">82</infon>
+      <infon key="name_0">surname:McCullough;given-names:J</infon>
+      <infon key="name_1">surname:Colf;given-names:LA</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="lpage">692</infon>
+      <infon key="pub-id_pmid">23527693</infon>
+      <infon key="fpage">663</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>55689</offset>
+      <text>Membrane Fission Reactions of the Mammalian ESCRT Pathway</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Song;given-names:C</infon>
+      <infon key="name_3">surname:Barlow;given-names:C</infon>
+      <infon key="name_0">surname:Mellman;given-names:D</infon>
+      <infon key="name_1">surname:Gonzales;given-names:M</infon>
+      <infon key="name_6">surname:Anderson;given-names:R</infon>
+      <infon key="name_4">surname:Wang;given-names:P</infon>
+      <infon key="name_5">surname:Kendziorski;given-names:C</infon>
+      <infon key="volume">451</infon>
+      <infon key="lpage">1017</infon>
+      <infon key="pub-id_pmid">18288197</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">1013</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>55747</offset>
+      <text>A PtdIns4,5P2-regulated nuclear poly(A) polymerase controls expression of select mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="name_0">surname:Mendelsohn;given-names:J</infon>
+      <infon key="name_1">surname:Baselga;given-names:J</infon>
+      <infon key="source">Semin Oncol</infon>
+      <infon key="lpage">385</infon>
+      <infon key="pub-id_pmid">16890793</infon>
+      <infon key="fpage">369</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>55834</offset>
+      <text>Epidermal growth factor receptor targeting in cancer</text>
+    </passage>
+    <passage>
+      <infon key="name_0">surname:Milkereit;given-names:R</infon>
+      <infon key="name_1">surname:Rotin;given-names:D</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">22096579</infon>
+      <infon key="fpage">e27478</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>55887</offset>
+      <text>A role for the ubiquitin ligase Nedd4 in membrane sorting of LAPTM4 proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bruce;given-names:M</infon>
+      <infon key="name_3">surname:Pham;given-names:N</infon>
+      <infon key="name_0">surname:Pak;given-names:Y</infon>
+      <infon key="name_1">surname:Glowacka;given-names:W</infon>
+      <infon key="name_4">surname:Rotin;given-names:D</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="volume">175</infon>
+      <infon key="lpage">645</infon>
+      <infon key="pub-id_pmid">17116753</infon>
+      <infon key="fpage">631</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>55964</offset>
+      <text>Transport of LAPTM5 to lysosomes requires association with the ubiquitin ligase Nedd4, but not LAPTM5 ubiquitination</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Amsen;given-names:E</infon>
+      <infon key="name_3">surname:Xiong;given-names:X</infon>
+      <infon key="name_0">surname:Persaud;given-names:A</infon>
+      <infon key="name_1">surname:Alberts;given-names:P</infon>
+      <infon key="name_6">surname:Fladd;given-names:C</infon>
+      <infon key="name_7">surname:Parkinson;given-names:J</infon>
+      <infon key="name_4">surname:Wasmuth;given-names:J</infon>
+      <infon key="name_5">surname:Saadon;given-names:Z</infon>
+      <infon key="name_8">surname:Rotin;given-names:D</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19953087</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="fpage">333</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>56081</offset>
+      <text>Comparison of substrate specificity of the ubiquitin ligases Nedd4 and Nedd4-2 using proteome arrays</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="name_0">surname:Radisavljevic;given-names:Z</infon>
+      <infon key="source">J Cell Physiol</infon>
+      <infon key="lpage">674</infon>
+      <infon key="pub-id_pmid">22886615</infon>
+      <infon key="fpage">671</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>56182</offset>
+      <text>AKT as locus of cancer multidrug resistance and fragility</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Gillooly;given-names:D</infon>
+      <infon key="name_3">surname:Madshus;given-names:I</infon>
+      <infon key="name_0">surname:Raiborg;given-names:C</infon>
+      <infon key="name_1">surname:Bache;given-names:K</infon>
+      <infon key="name_4">surname:Stang;given-names:E</infon>
+      <infon key="name_5">surname:Stenmark;given-names:H</infon>
+      <infon key="volume">4</infon>
+      <infon key="lpage">398</infon>
+      <infon key="pub-id_pmid">11988743</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="fpage">394</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>56240</offset>
+      <text>Hrs sorts ubiquitinated proteins into clathrin-coated microdomains of early endosomes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Stenmark;given-names:H</infon>
+      <infon key="volume">15</infon>
+      <infon key="name_0">surname:Raiborg;given-names:C</infon>
+      <infon key="name_1">surname:Rusten;given-names:TE</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">455</infon>
+      <infon key="pub-id_pmid">12892785</infon>
+      <infon key="fpage">446</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>56326</offset>
+      <text>Protein sorting into multivesicular endosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">458</infon>
+      <infon key="name_0">surname:Raiborg;given-names:C</infon>
+      <infon key="name_1">surname:Stenmark;given-names:H</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">452</infon>
+      <infon key="pub-id_pmid">19325624</infon>
+      <infon key="fpage">445</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>56372</offset>
+      <text>The ESCRT machinery in endosomal sorting of ubiquitylated membrane proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pons;given-names:V</infon>
+      <infon key="name_3">surname:Mounier;given-names:J</infon>
+      <infon key="name_0">surname:Ramel;given-names:D</infon>
+      <infon key="name_1">surname:Lagarrigue;given-names:F</infon>
+      <infon key="name_6">surname:Sansonetti;given-names:PJ</infon>
+      <infon key="name_7">surname:Gaits-Iacovoni;given-names:F</infon>
+      <infon key="name_4">surname:Dupuis-Coronas;given-names:S</infon>
+      <infon key="name_5">surname:Chicanne;given-names:G</infon>
+      <infon key="name_8">surname:Tronchere;given-names:H</infon>
+      <infon key="name_9">surname:Payrastre;given-names:B</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">21934107</infon>
+      <infon key="source">Sci Signal</infon>
+      <infon key="fpage">ra61</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>56448</offset>
+      <text>Shigella flexneri infection generates the lipid PI5P to alter endocytosis and prevent termination of EGFR signaling</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ma;given-names:L</infon>
+      <infon key="name_3">surname:Du;given-names:W</infon>
+      <infon key="name_0">surname:Rong;given-names:Y</infon>
+      <infon key="name_1">surname:Liu;given-names:M</infon>
+      <infon key="name_6">surname:Cao;given-names:Z</infon>
+      <infon key="name_7">surname:Li;given-names:Y</infon>
+      <infon key="name_4">surname:Zhang;given-names:H</infon>
+      <infon key="name_5">surname:Tian;given-names:Y</infon>
+      <infon key="volume">14</infon>
+      <infon key="name_8">surname:Ren;given-names:H</infon>
+      <infon key="name_9">surname:Zhang;given-names:C</infon>
+      <infon key="lpage">934</infon>
+      <infon key="pub-id_pmid">22885770</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="fpage">924</infon>
+      <infon key="year">2012</infon>
+      <infon key="name_10">surname:Li;given-names:L</infon>
+      <infon key="name_11">surname:Chen;given-names:S</infon>
+      <infon key="name_12">surname:Xi;given-names:J</infon>
+      <infon key="name_13">surname:Yu;given-names:L</infon>
+      <infon key="type">ref</infon>
+      <offset>56564</offset>
+      <text>Clathrin and phosphatidylinositol-4,5-bisphosphate regulate autophagic lysosome reformation</text>
+    </passage>
+    <passage>
+      <infon key="volume">422</infon>
+      <infon key="name_0">surname:Schill;given-names:N</infon>
+      <infon key="name_1">surname:Anderson;given-names:R</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">482</infon>
+      <infon key="pub-id_pmid">19548880</infon>
+      <infon key="fpage">473</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>56656</offset>
+      <text>Two novel phosphatidylinositol-4-phosphate 5-kinase type Igamma splice variants expressed in human cells display distinctive cellular targeting</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Li;given-names:W</infon>
+      <infon key="name_3">surname:Tan;given-names:X</infon>
+      <infon key="name_0">surname:Schramp;given-names:M</infon>
+      <infon key="name_1">surname:Hedman;given-names:A</infon>
+      <infon key="name_4">surname:Anderson;given-names:R</infon>
+      <infon key="source">Subcell Biochem</infon>
+      <infon key="volume">58</infon>
+      <infon key="lpage">59</infon>
+      <infon key="pub-id_pmid">22403073</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>56800</offset>
+      <text>PIP kinases from the cell membrane to the nucleus</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Zhang;given-names:Q</infon>
+      <infon key="name_3">surname:Zhang;given-names:Y</infon>
+      <infon key="name_0">surname:Shao;given-names:G</infon>
+      <infon key="name_1">surname:Zhou;given-names:R</infon>
+      <infon key="name_6">surname:Wei;given-names:X</infon>
+      <infon key="name_7">surname:Ye;given-names:D</infon>
+      <infon key="name_4">surname:Liu;given-names:J</infon>
+      <infon key="name_5">surname:Rui;given-names:J</infon>
+      <infon key="volume">22</infon>
+      <infon key="lpage">5069</infon>
+      <infon key="pub-id_pmid">12902989</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="fpage">5060</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>56850</offset>
+      <text>Molecular cloning and characterization of LAPTM4B, a novel gene upregulated in hepatocellular carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Koenig;given-names:S</infon>
+      <infon key="name_3">surname:Banerjee;given-names:R</infon>
+      <infon key="name_0">surname:Shi;given-names:A</infon>
+      <infon key="name_1">surname:Liu;given-names:O</infon>
+      <infon key="name_6">surname:Grant;given-names:BD</infon>
+      <infon key="name_4">surname:Chen;given-names:CC</infon>
+      <infon key="name_5">surname:Eimer;given-names:S</infon>
+      <infon key="volume">109</infon>
+      <infon key="lpage">E2315</infon>
+      <infon key="pub-id_pmid">22869721</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="fpage">E2306</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>56954</offset>
+      <text>RAB-10-GTPase-mediated regulation of endosomal phosphatidylinositol-4,5-bisphosphate</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tosoni;given-names:D</infon>
+      <infon key="name_3">surname:Cavallaro;given-names:E</infon>
+      <infon key="name_0">surname:Sigismund;given-names:S</infon>
+      <infon key="name_1">surname:Argenzio;given-names:E</infon>
+      <infon key="name_4">surname:Polo;given-names:S</infon>
+      <infon key="name_5">surname:Di Fiore;given-names:P</infon>
+      <infon key="volume">15</infon>
+      <infon key="lpage">219</infon>
+      <infon key="pub-id_pmid">18694561</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="fpage">209</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>57039</offset>
+      <text>Clathrin-mediated internalization is essential for sustained EGFR signaling but dispensable for degradation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Christoforidis;given-names:S</infon>
+      <infon key="name_3">surname:Gaullier;given-names:J</infon>
+      <infon key="name_0">surname:Simonsen;given-names:A</infon>
+      <infon key="name_1">surname:Lipp&#233;;given-names:R</infon>
+      <infon key="name_6">surname:Toh;given-names:B</infon>
+      <infon key="name_7">surname:Murphy;given-names:C</infon>
+      <infon key="name_4">surname:Brech;given-names:A</infon>
+      <infon key="name_5">surname:Callaghan;given-names:J</infon>
+      <infon key="volume">394</infon>
+      <infon key="name_8">surname:Zerial;given-names:M</infon>
+      <infon key="name_9">surname:Stenmark;given-names:H</infon>
+      <infon key="lpage">498</infon>
+      <infon key="pub-id_pmid">9697774</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">494</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>57147</offset>
+      <text>EEA1 links PI(3)K function to Rab5 regulation of endosome fusion</text>
+    </passage>
+    <passage>
+      <infon key="volume">314</infon>
+      <infon key="name_0">surname:Sorkin;given-names:A</infon>
+      <infon key="name_1">surname:Goh;given-names:LK</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">3106</infon>
+      <infon key="pub-id_pmid">18793634</infon>
+      <infon key="fpage">3093</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>57212</offset>
+      <text>Endocytosis and intracellular trafficking of ErbBs</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kudrjavtceva;given-names:N</infon>
+      <infon key="name_3">surname:Lazebnik;given-names:J</infon>
+      <infon key="name_0">surname:Sorkin;given-names:A</infon>
+      <infon key="name_1">surname:Krolenko;given-names:S</infon>
+      <infon key="name_6">surname:Nikolsky;given-names:N</infon>
+      <infon key="name_4">surname:Teslenko;given-names:L</infon>
+      <infon key="name_5">surname:Soderquist;given-names:AM</infon>
+      <infon key="volume">112</infon>
+      <infon key="lpage">63</infon>
+      <infon key="pub-id_pmid">1986007</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">55</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>57263</offset>
+      <text>Recycling of epidermal growth factor-receptor complexes in A431 cells: identification of dual pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="name_0">surname:Sorkin;given-names:A</infon>
+      <infon key="name_1">surname:von Zastrow;given-names:M</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">622</infon>
+      <infon key="pub-id_pmid">19696798</infon>
+      <infon key="fpage">609</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>57366</offset>
+      <text>Endocytosis and signalling: intertwining molecular networks</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Steele-Mortimer;given-names:O</infon>
+      <infon key="name_3">surname:Lutcke;given-names:A</infon>
+      <infon key="name_0">surname:Stenmark;given-names:H</infon>
+      <infon key="name_1">surname:Parton;given-names:RG</infon>
+      <infon key="name_4">surname:Gruenberg;given-names:J</infon>
+      <infon key="name_5">surname:Zerial;given-names:M</infon>
+      <infon key="volume">13</infon>
+      <infon key="lpage">1296</infon>
+      <infon key="pub-id_pmid">8137813</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">1287</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>57426</offset>
+      <text>Inhibition of rab5 GTPase activity stimulates membrane fusion in endocytosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="name_0">surname:Suh;given-names:B</infon>
+      <infon key="name_1">surname:Hille;given-names:B</infon>
+      <infon key="source">Curr Opin Neurobiol</infon>
+      <infon key="lpage">378</infon>
+      <infon key="pub-id_pmid">15922587</infon>
+      <infon key="fpage">370</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>57503</offset>
+      <text>Regulation of ion channels by phosphatidylinositol 4,5-bisphosphate</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tan;given-names:X</infon>
+      <infon key="name_3">surname:Anderson;given-names:RA</infon>
+      <infon key="name_0">surname:Sun;given-names:Y</infon>
+      <infon key="name_1">surname:Hedman;given-names:AC</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="volume">12</infon>
+      <infon key="lpage">1992</infon>
+      <infon key="pub-id_pmid">23759577</infon>
+      <infon key="fpage">1991</infon>
+      <infon key="year">2013a</infon>
+      <infon key="type">ref</infon>
+      <offset>57571</offset>
+      <text>An unexpected role for PI4,5P 2 in EGF receptor endosomal trafficking</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tan;given-names:X</infon>
+      <infon key="name_3">surname:Schill;given-names:NJ</infon>
+      <infon key="name_0">surname:Sun;given-names:Y</infon>
+      <infon key="name_1">surname:Hedman;given-names:AC</infon>
+      <infon key="name_4">surname:Anderson;given-names:RA</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="volume">25</infon>
+      <infon key="lpage">155</infon>
+      <infon key="pub-id_pmid">23602387</infon>
+      <infon key="fpage">144</infon>
+      <infon key="year">2013b</infon>
+      <infon key="type">ref</infon>
+      <offset>57641</offset>
+      <text>Endosomal type igamma PIP 5-kinase controls EGF receptor lysosomal sorting</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hedman;given-names:AC</infon>
+      <infon key="name_3">surname:Anderson;given-names:RA</infon>
+      <infon key="name_0">surname:Sun;given-names:Y</infon>
+      <infon key="name_1">surname:Thapa;given-names:N</infon>
+      <infon key="source">BioEssays</infon>
+      <infon key="volume">35</infon>
+      <infon key="lpage">522</infon>
+      <infon key="pub-id_pmid">23575577</infon>
+      <infon key="fpage">513</infon>
+      <infon key="year">2013c</infon>
+      <infon key="type">ref</infon>
+      <offset>57716</offset>
+      <text>Phosphatidylinositol 4,5-bisphosphate: targeted production and signaling</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Schramp;given-names:M</infon>
+      <infon key="name_3">surname:Choi;given-names:S</infon>
+      <infon key="name_0">surname:Thapa;given-names:N</infon>
+      <infon key="name_1">surname:Sun;given-names:Y</infon>
+      <infon key="name_4">surname:Ling;given-names:K</infon>
+      <infon key="name_5">surname:Anderson;given-names:RA</infon>
+      <infon key="volume">22</infon>
+      <infon key="lpage">130</infon>
+      <infon key="pub-id_pmid">22264730</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="fpage">116</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>57789</offset>
+      <text>Phosphoinositide signaling regulates the exocyst complex and polarized integrin trafficking in directionally migrating cells</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Chiantia;given-names:S</infon>
+      <infon key="name_3">surname:Rajendran;given-names:L</infon>
+      <infon key="name_0">surname:Trajkovic;given-names:K</infon>
+      <infon key="name_1">surname:Hsu;given-names:C</infon>
+      <infon key="name_6">surname:Schwille;given-names:P</infon>
+      <infon key="name_7">surname:Brugger;given-names:B</infon>
+      <infon key="name_4">surname:Wenzel;given-names:D</infon>
+      <infon key="name_5">surname:Wieland;given-names:F</infon>
+      <infon key="volume">319</infon>
+      <infon key="name_8">surname:Simons;given-names:M</infon>
+      <infon key="lpage">1247</infon>
+      <infon key="pub-id_pmid">18309083</infon>
+      <infon key="source">Science</infon>
+      <infon key="fpage">1244</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>57914</offset>
+      <text>Ceramide triggers budding of exosome vesicles into multivesicular endosomes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Puertollano;given-names:R</infon>
+      <infon key="volume">124</infon>
+      <infon key="name_0">surname:Vergarajauregui;given-names:S</infon>
+      <infon key="name_1">surname:Martina;given-names:J</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">468</infon>
+      <infon key="pub-id_pmid">21224396</infon>
+      <infon key="fpage">459</infon>
+      <infon key="year">2011</infon>
+      <infon key="issue">Pt 3</infon>
+      <offset>57990</offset>
+      <text>LAPTMs regulate lysosomal function and interact with mucolipin 1: new clues for understanding mucolipidosis type IV</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Di Campli;given-names:A</infon>
+      <infon key="name_3">surname:De Matteis;given-names:MA</infon>
+      <infon key="name_0">surname:Vicinanza;given-names:M</infon>
+      <infon key="name_1">surname:D'Angelo;given-names:G</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="volume">27</infon>
+      <infon key="lpage">2470</infon>
+      <infon key="pub-id_pmid">18784754</infon>
+      <infon key="fpage">2457</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58106</offset>
+      <text>Function and dysfunction of the PI system in membrane trafficking</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Polishchuk;given-names:E</infon>
+      <infon key="name_3">surname:Santoro;given-names:M</infon>
+      <infon key="name_0">surname:Vicinanza;given-names:M</infon>
+      <infon key="name_1">surname:Di Campli;given-names:A</infon>
+      <infon key="name_6">surname:Levtchenko;given-names:E</infon>
+      <infon key="name_7">surname:De Leo;given-names:MG</infon>
+      <infon key="name_4">surname:Di Tullio;given-names:G</infon>
+      <infon key="name_5">surname:Godi;given-names:A</infon>
+      <infon key="volume">30</infon>
+      <infon key="name_8">surname:Polishchuk;given-names:R</infon>
+      <infon key="name_9">surname:Sandoval;given-names:L</infon>
+      <infon key="lpage">4985</infon>
+      <infon key="pub-id_pmid">21971085</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">4970</infon>
+      <infon key="year">2011</infon>
+      <infon key="name_10">surname:Marzolo;given-names:MP</infon>
+      <infon key="name_11">surname:De Matteis;given-names:MA</infon>
+      <infon key="type">ref</infon>
+      <offset>58172</offset>
+      <text>OCRL controls trafficking through early endosomes via PtdIns4,5P(2)-dependent regulation of endosomal actin</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fleming;given-names:I</infon>
+      <infon key="name_3">surname:Downes;given-names:C</infon>
+      <infon key="name_0">surname:Watt;given-names:S</infon>
+      <infon key="name_1">surname:Kular;given-names:G</infon>
+      <infon key="name_4">surname:Lucocq;given-names:J</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">666</infon>
+      <infon key="pub-id_pmid">11964166</infon>
+      <infon key="fpage">657</infon>
+      <infon key="year">2002</infon>
+      <infon key="issue">Pt 3</infon>
+      <infon key="volume">363</infon>
+      <offset>58280</offset>
+      <text>Subcellular localization of phosphatidylinositol 4,5-bisphosphate using the pleckstrin homology domain of phospholipase C delta1</text>
+    </passage>
+    <passage>
+      <infon key="volume">284</infon>
+      <infon key="name_0">surname:Wiley;given-names:HS</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">88</infon>
+      <infon key="pub-id_pmid">12648467</infon>
+      <infon key="fpage">78</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>58409</offset>
+      <text>Trafficking of the ErbB receptors and its influence on signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="name_0">surname:Williams;given-names:R</infon>
+      <infon key="name_1">surname:Urb&#233;;given-names:S</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">368</infon>
+      <infon key="pub-id_pmid">17450176</infon>
+      <infon key="fpage">355</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>58474</offset>
+      <text>The emerging shape of the ESCRT machinery</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Giudici;given-names:ML</infon>
+      <infon key="volume">411</infon>
+      <infon key="name_0">surname:Xia;given-names:Y</infon>
+      <infon key="name_1">surname:Irvine;given-names:RF</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">420</infon>
+      <infon key="pub-id_pmid">21756881</infon>
+      <infon key="fpage">416</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>58516</offset>
+      <text>Phosphatidylinositol 4-phosphate 5-kinase Igamma_v6, a new splice variant found in rodents and humans</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Wei;given-names:X</infon>
+      <infon key="name_3">surname:Yang;given-names:Y</infon>
+      <infon key="name_0">surname:Yang;given-names:H</infon>
+      <infon key="name_1">surname:Xiong;given-names:F</infon>
+      <infon key="name_4">surname:McNutt;given-names:M</infon>
+      <infon key="name_5">surname:Zhou;given-names:R</infon>
+      <infon key="volume">294</infon>
+      <infon key="lpage">244</infon>
+      <infon key="pub-id_pmid">20202745</infon>
+      <infon key="source">Cancer Lett</infon>
+      <infon key="fpage">236</infon>
+      <infon key="year">2010a</infon>
+      <infon key="type">ref</infon>
+      <offset>58618</offset>
+      <text>Overexpression of LAPTM4B-35 promotes growth and metastasis of hepatocellular carcinoma in vitro and in vivo</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lin;given-names:M</infon>
+      <infon key="name_3">surname:Yang;given-names:Y</infon>
+      <infon key="name_0">surname:Yang;given-names:H</infon>
+      <infon key="name_1">surname:Xiong;given-names:FX</infon>
+      <infon key="name_4">surname:Nie;given-names:X</infon>
+      <infon key="name_5">surname:Zhou;given-names:RL</infon>
+      <infon key="volume">136</infon>
+      <infon key="lpage">281</infon>
+      <infon key="pub-id_pmid">19690886</infon>
+      <infon key="source">J Cancer Res Clin Oncol</infon>
+      <infon key="fpage">275</infon>
+      <infon key="year">2010b</infon>
+      <infon key="type">ref</infon>
+      <offset>58727</offset>
+      <text>LAPTM4B-35 overexpression is a risk factor for tumor recurrence and poor prognosis in hepatocellular carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>58838</offset>
+      <text>Supporting Information</text>
+    </passage>
+  </document>
+</collection>

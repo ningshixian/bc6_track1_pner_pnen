@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5048364</id>
+    <passage>
+      <infon key="name_2">surname:Conradi;given-names:Lena&#8208;Christin</infon>
+      <infon key="name_3">surname:Kalucka;given-names:Joanna</infon>
+      <infon key="name_0">surname:Goveia;given-names:Jermaine</infon>
+      <infon key="name_1">surname:Pircher;given-names:Andreas</infon>
+      <infon key="name_6">surname:Eelen;given-names:Guy</infon>
+      <infon key="alt-title">Jermaine Goveia et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMMM201606798</infon>
+      <infon key="name_5">surname:Dewerchin;given-names:Mieke</infon>
+      <infon key="name_8">surname:Wilson;given-names:Ian D</infon>
+      <infon key="name_9">surname:Carmeliet;given-names:Peter</infon>
+      <infon key="lpage">1142 1142</infon>
+      <infon key="fpage">1134 1134</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:DeBerardinis;given-names:Ralph J</infon>
+      <infon key="name_4">surname:Lagani;given-names:Vincenzo</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/emmm.201606798</infon>
+      <infon key="article-id_pmid">27601137</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="issue">10</infon>
+      <infon key="kwd">cancer meta&#8208;analysis metabolic profiling metabolomics Cancer Metabolism Systems Medicine</infon>
+      <infon key="volume">8 8</infon>
+      <infon key="pub-id_pmid">27601137</infon>
+      <infon key="article-id_pmc">5048364</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <offset>0</offset>
+      <text>Meta&#8208;analysis of clinical metabolic profiling studies in cancer: challenges and opportunities</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>96</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>Cancer cell metabolism has received increasing attention. Despite a boost in the application of clinical metabolic profiling (CMP) in cancer patients, a meta&#8208;analysis has not been performed. The primary goal of this study was to assess whether public accessibility of metabolomics data and identification and reporting of metabolites were sufficient to assess which metabolites were consistently altered in cancer patients. We therefore retrospectively curated data from CMP studies in cancer patients published during 5 recent years and used an established vote&#8208;counting method to perform a semiquantitative meta&#8208;analysis of metabolites in tumor tissue and blood. This analysis confirmed well&#8208;known increases in glycolytic metabolites, but also unveiled unprecedented changes in other metabolites such as ketone bodies and amino acids (histidine, tryptophan). However, this study also highlighted that insufficient public accessibility of metabolomics data, and inadequate metabolite identification and reporting hamper the discovery potential of meta&#8208;analyses of CMP studies, calling for improved standardization of metabolomics studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1255</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1268</offset>
+      <text>Clinical metabolomics investigates how metabolite levels are altered in various (patho)physiological conditions, often with the objective to find new roles of metabolism in disease, to discover novel metabolic drug targets, or to identify biomarkers (Fernie et&#160;al, 2004). Hopes have been raised that clinical metabolic profiling (CMP) could reshape our understanding of cell biology and pathophysiology, and even improve clinical practice (Patti et&#160;al, 2012). However, apart from a few high&#8208;profile discoveries (Dang et&#160;al, 2009; Wang et&#160;al, 2011), these expectations have not been fully met and the impact of CMP studies has remained relatively modest (Sevin et&#160;al, 2015). This has raised concerns about the robustness, consistency, and translational potential of CMP studies (Gika et&#160;al, 2014). In contrast, the clinical impact of transcriptomics, genomics, and proteomics has greatly benefited from standardized data reporting and accessibility, permitting efficient data mining and quantitative meta&#8208;analyses (Fernie et&#160;al, 2004; Rosenberg et&#160;al, 2010; Hu et&#160;al, 2013a,b; Nilsson et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2380</offset>
+      <text>Tools have been developed to deposit CMP results in databases for managing (meta)data of metabolome analyses, but not for performing meta&#8208;analyses (Haug et&#160;al, 2013; Ara et&#160;al, 2015; Salek et&#160;al, 2015; Rocca&#8208;Serra et&#160;al, 2016). Surprisingly, however, even though descriptive meta&#8208;studies that overview CMP data have been reported (Shah et&#160;al, 2012; Abbassi&#8208;Ghadi et&#160;al, 2013; Huynh et&#160;al, 2014; Nickler et&#160;al, 2015; Guasch&#8208;Ferre et&#160;al, 2016), not a single study performed a quantitative meta&#8208;analysis, in particular in cancer. Nonetheless, the aggregation of information from multiple studies in a meta&#8208;analysis leads in many cases to higher statistical (discovery) power and therefore higher impact of individual studies (Green, 2005). It remains undetermined whether a meta&#8208;analysis of cancer CMP studies would offer novel insight, since cancer is a heterogeneous disease, and CMP studies greatly vary in (i) how and how many metabolites are measured, identified, and reported; (ii) how such studies are designed; and (iii) whether and how they are validated (Dunn et&#160;al, 2012). Only very recently, the first in class meta&#8208;analysis of CMP was reported. However, this meta&#8208;analysis was performed only on a subset of prospective CMP studies in diabetic patients and even though this study associated elevated plasma levels of branched&#8208;chain amino acids with the risk of developing type 2 diabetes (T2DM), it did not attempt to aggregate and analyze the data of all the metabolites reported in all individual studies (Guasch&#8208;Ferre et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3959</offset>
+      <text>For genomics, transcriptomics and proteomics data, the availability of raw data such as abundances of transcript and protein levels offers the possibility to compare the datasets in their original form (Brazma et&#160;al, 2003; Jones et&#160;al, 2006; Barrett et&#160;al, 2013). When such quantitative data are not available, the results can still be analyzed in a semiquantitative meta&#8208;analysis by vote counting, a technique that is generally applicable and does not rely on the availability of raw data (Rikke et&#160;al, 2015). Vote counting has been successfully used in previous meta&#8208;analyses to identify metabolic targets, the expression of which was consistently deregulated across multiple cancer types (Nilsson et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4682</offset>
+      <text>In this study, focusing on cancer, we retrospectively generated a curated list of metabolites, based on MEDLINE search filter criteria, from previous CMP studies in cancer patients published during 5 recent years, and used vote counting to perform a semiquantitative meta&#8208;analysis. The primary goal of this study was to assess whether public accessibility of metabolomics data, metabolite identification and reporting were sufficient to obtain, novel insight in consistent metabolite changes in cancer patients. It was not the primary goal of this study to identify new metabolic drug targets or biomarkers, or to create a comprehensive, widely useful cancer metabolite database per se. Rather, we explored whether a meta&#8208;analysis of CMP studies is feasible, and how these CMP studies can be improved to meet the same standards as routinely used in the genomics, transcriptomics and proteomics fields.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5588</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5596</offset>
+      <text>Compilation of a curated cancer metabolomics dataset</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5649</offset>
+      <text>Since deposition of metabolomics data in publicly available repositories is generally not required by scientific journals to date, comprehensive datasets for meta&#8208;analysis have to be created by alternative approaches, for instance, by retrospective manual curation. We therefore conducted a systematic review of the literature to identify all CMP studies in cancer published between June 2010 and June 2015. For all studies, we extracted data on key methodological parameters using a pre&#8208;defined data extraction protocol such as the type of disease, number of patients included, the analytical platform, outcome measures, the level of metabolite identification, and major findings among others. We also extracted information on all reported metabolites, such as raw abundance, fold change, and whether a metabolite was up&#8208; or downregulated in cancer. Because the vast majority of studies reported metabolites using ambiguous common names but not unique identifiers, we used (bio)informatics tools to extensively curate the extracted data of each study (see Materials and Methods). The resulting collection contains curated quality&#8208;checked data of 136 cohorts reported in 126 studies, spanning 18 tumor types and over 5,300 &#8220;disease versus control&#8221; comparisons of approximately 1,900 unique metabolites in blood, urine, and tumor tissue (denoted as &#8220;tissue&#8221; from here onwards) from an estimated 21,000 individuals (Fig&#160;1 for study outline; Table&#160;EV1; see Materials and Methods for details).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7157</offset>
+      <text>Overview of the study design and dataset compilation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7210</offset>
+      <text>We included 126 studies in our curated cancer metabolomics dataset, studies that described profiling in multiple cancer types were counted once for each type, giving rise to 136 &#8220;cancer versus control&#8221; cohorts spanning 18 different cancer types, 71 assessing blood, 39 tissue, and 26 urine. We also included 18 diabetes mellitus type 2 studies to determine whether our vote&#8208;counting method could identify distinct metabolic signatures in cancer versus diabetes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7678</offset>
+      <text>Clinical metabolic profiling: methods and limitations</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>7732</offset>
+      <text>Data reporting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7747</offset>
+      <text>To assess how complete the reporting of the measured metabolites was done relative to all previously reported metabolites, we indicated for each study whether the metabolite was reported or not. Current metabolic profiling technologies are capable of measuring tens to hundreds of metabolites. However, surprisingly, most individual studies published only a very small subset of all earlier reported metabolites. This is clearly visible from the heat maps shown in Fig&#160;2A (for blood) and Fig&#160;EV1A and B (for tumor tissue and urine), where a dark blue mark denotes that the metabolite was reported to be increased or reduced in cancer. From the abundant white &#8220;empty&#8221; space, it is obvious that reporting of metabolites was highly incomplete. Even metabolites associated with a major chemical class (such as amino acids, carbohydrates) were reported on average in only 6.4% of the studies. This finding can be explained in part by the use of different profiling methodologies across studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8743</offset>
+      <text>Metabolite reporting &amp; vote&#8208;counting analysis in tissue and blood</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8811</offset>
+      <text>Heat map of all reported cancer blood metabolites (each dark blue mark denotes that the metabolite was reported to be increased or decreased) in various cancer types, illustrating that most individual studies report only a small subset of all previously measured metabolites. It is typically not described whether the metabolites that were not reported (white &#8220;empty&#8221; space) were not measured, or measured but not reported. Labeling: x&#8208;axis (top): ribbon color code, denoting the cancer type (right; indicated by red arrow); x&#8208;axis (bottom): cohorts, arranged from 1 to 71; y&#8208;axis (right): all 1,206 metabolites reported in at least one of the studies; y&#8208;axis (left): ribbon color code, denoting the metabolite class (amino acids, carbohydrates, etc.; &#8220;other&#8221; refers to all other metabolites than the listed classes). See also Table&#160;EV4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9666</offset>
+      <text>Vote counting of cancer blood metabolites (reported in at least six cohorts) showed consistently deregulated metabolites. Blue bars: decreased metabolites; red bars: increased metabolites. An asterisk (*) in front of the name of the metabolite indicates at least a statistical trend (P&#160;&lt;&#160;0.1) obtained using the sign test; red arrowheads denote metabolites mentioned in the main text.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10053</offset>
+      <text>Volcano plots of blood metabolites (C) and tissue metabolites (D), reported in at least six cancer studies, with the vote&#8208;counting score on the x&#8208;axis and the &#8722;log10 adjusted P&#8208;value on the y&#8208;axis. Cyan indicates deregulated metabolites that show a trend (P&#160;&lt;&#160;0.1; for blood, corresponding to metabolites marked with * in panel B; for tissue, corresponding to metabolites marked with * in Fig&#160;3) or statistical significance (P&#160;&lt;&#160;0.05; above black dashed horizontal line); red indicates metabolites with a P&#8208;value&#160;&gt;&#160;0.1. A subset of metabolites is annotated (see Tables EV4 (blood) and EV5 (tissue) for full annotation, vote&#8208;counting statistics were calculated using the sign test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10756</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10759</offset>
+      <text>Metabolite reporting in cancer tissue and urine</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10807</offset>
+      <text>Heat maps of all metabolites measured in tissue (A) or urine (B) in various cancer types included in this study, illustrating that most individual studies report only a small subset of all previously measured metabolites (each dark blue mark denotes a metabolite that was reported to be increased or decreased). It is typically not described whether the metabolites that were not reported (white &#8220;empty&#8221; space) were not measured, or measured but not reported. Labeling: x&#8208;axis (top): ribbon color code, denoting the cancer type (right; indicated by red arrow); x&#8208;axis (bottom): cohorts, arranged from 1 to 39 (tissue, A) or from 1 to 26 (urine, B); y&#8208;axis (right): all 780 (tissue, A) or 549 (urine, B) metabolites reported in at least one of the studies; y&#8208;axis (left): ribbon color code, denoting the metabolite class. See also Tables EV3 and EV5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11669</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11672</offset>
+      <text>Notably, however, the majority of studies reported only metabolites presumably deemed to be relevant to the authors and used heterogeneous statistical outcome measures without providing full datasets (Table&#160;1). In fact, even though CMP studies have the potential to assess many hundreds of metabolites, the median number of reported metabolites per study was only 22 (Table&#160;1). Moreover, while most, but not all, studies provided information regarding the magnitude of the change (&#8220;effect size&#8221;), only 22.8% of the studies reported measures of variance (Table&#160;1). Also, only a mere 18.7% of all studies reported data on all measured metabolites.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>12325</offset>
+      <text>Metabolomics data reporting</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>12353</offset>
+      <text>    Cancer All  Blood Urine Tissue cohorts   Median number of reported metabolites 19 19.5 29 22  Effect size reported (%) 98.5 92 100 97.9  Variance measure reported (%) 30.8 20 10.3 22.8  Full dataset available (%) 23.1 8 17.9 18.7</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12587</offset>
+      <text>Taken together, it appears that in general, metabolite reporting was highly incomplete and presumably subjective. This is in sharp contrast to the genomics, proteomics, and transcriptomics analyses, where full dataset deposition in publically available repositories is often required.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>12872</offset>
+      <text>Metadata reporting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12891</offset>
+      <text>Cancer is a heterogeneous disease. Therefore, cancer patients are often clinically stratified based on demographic factors (such as age and gender), tumor staging, histological parameters, molecular tumor characteristics, treatment response, and others. However, it is generally acknowledged that clinical and experimental metadata reporting is problematic in most CMP studies, thus not only for cancer (Ara et&#160;al, 2015). Indeed, we noticed that metadata have been only scarcely reported, even though specialized databases exist to collect such data from metabolic profiling experiments specifically (Ara et&#160;al, 2015). This precluded us from factoring patient and tumor heterogeneity into our meta&#8208;analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>13603</offset>
+      <text>Study design</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13616</offset>
+      <text>A total of 122 of the CMP studies (96.8%) included in our study employed an observational, cross&#8208;sectional research design, in which cancer patients were compared to a control group at a particular time point. While such CMP studies may discriminate between cancer and control and could provide novel insight in disease pathogenesis, such experimental design is not (necessarily) optimal to discover novel metabolic biomarkers for patient stratification. A major goal of modern medicine is to stratify patients for personalized treatment and to identify biomarkers that can predict disease course or treatment response. However, the majority of CMP studies did not consider any factors that could aid in patient stratification other than the presence of disease. Also, biomarker discovery and validation requires a prospective research design in which patients are followed up over time to associate metabolite levels with the course of disease or treatment response. Of the cancer studies we considered, only 4 (3.2%) had a longitudinal research design or compared early with late&#8208;stage cancer to assess metabolic alterations over the course of disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>14775</offset>
+      <text>Metabolite identification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14801</offset>
+      <text>Metabolite identification is a major bottleneck in CMP, but is nonetheless essential for adequate biological interpretation of the results. The Metabolomics Standards Initiative (see http://cosmos-fp7.eu/msi for more information) defined four levels of identification, of which only &#8220;level one&#8221; results in unambiguous annotation (Salek et&#160;al, 2013). Notably, only half (52%) of the CMP studies provided &#8220;level one&#8221; metabolite identification for at least a subset of the reported metabolites, and even fewer studies identified all reported metabolites unambiguously, often studies that profiled a small set or specific class of metabolites.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>15450</offset>
+      <text>Clinical or orthogonal validation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15484</offset>
+      <text>Metabolic profiling produces high&#8208;dimensional data (a typical dataset may contain values for hundreds to thousands of metabolites for each sample analyzed). Statistical analysis of such data is prone to type I errors (&#8220;false positives&#8221;). Therefore, results should be best validated in independent cohorts or verified by using orthogonal models or by using different independent technologies (e.g. transcriptomics, proteomics) and/or targeted analysis. However, only 17.9% of the CMP studies reported validation cohorts and only ~10% used orthogonal models. Even though metabolic profiling is ideally suited to combine with other (orthogonal) omics data, only 6.8% of the studies performed multi&#8208;omics analysis (Table&#160;EV2). Thus, the findings of the majority of CMP studies remain unconfirmed. In principle, a meta&#8208;analysis is useful to validate the results of individual studies in independent cohorts.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16398</offset>
+      <text>Identification of metabolic signatures in cancer</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16447</offset>
+      <text>Incomplete and heterogeneous reporting of metabolite data and summary statistics prevented us from performing a quantitative meta&#8208;analysis and precluded us from determining the average fold changes of metabolite levels across all studies for any metabolite. Also, scarce availability of metadata prevented us from stratifying cancer patients and from assessing an association between metabolite changes and patient or tumor characteristics. These omissions in data reporting likely explain why previous metabolomics meta&#8208;studies did not perform statistical aggregation of the results from individual studies (Rocca&#8208;Serra et&#160;al, 2016). However, all studies in our dataset reported the directionality (increased or decreased levels) of the deregulated metabolites. We therefore performed a meta&#8208;analysis by vote counting (Rikke et&#160;al, 2015), a semiquantitative technique that only requires such information, allowing us to include all studies in the analysis for improved statistical power. Nonetheless, our meta&#8208;analysis was still (relatively) underpowered, and we obtained only statistical significance for a subset of metabolites, even though other metabolites showed clear trends that could become statistically significant with more power, and hence may be of clinical relevance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>17742</offset>
+      <text>Meta&#8208;analysis approach</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17767</offset>
+      <text>To explore how consistently metabolites are altered across cancer types, we indicated for each metabolite per study whether it was increased (denoted by &#8220;+1&#8221;) or decreased (&#8220;&#8722;1&#8221;) in cancer patients relative to controls. These controls were &#8220;healthy&#8221; individuals without cancer for analysis of blood and urine, and, for tumor tissue, controls included subjects (i) without cancer, (ii) with premalignant lesions, or (iii) with cancer but using adjacent healthy tissue as control. The vote&#8208;counting statistic (VCS, reported as VCS/number of reporting studies; Benjamini&#8211;Hochberg adjusted P&#8208;value) assumes a high positive value if the metabolite was consistently increased and conversely a negative value for consistently decreased metabolites. In this context, a zero value implies that the studies provide conflicting evidence on whether the metabolite was decreased or increased. The Benjamini&#8208;Hochberg adjusted P&#8208;value was only calculated for metabolites reported in at least six cohorts. While the statistical power of urine meta&#8208;analysis was limited due to a small number of studies (Fig&#160;EV2; Tables EV1 and EV3), our analysis revealed profiles of consistently deregulated metabolites in blood (Fig&#160;2B and C; Table&#160;EV4) and tumor tissue (Figs&#160;2D and 3; Table&#160;EV5) across cancer types.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19086</offset>
+      <text>Metabolic signatures of urine in cancer patients</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19135</offset>
+      <text>Vote counting of urine metabolites, reported in at least six cohorts of cancer patients, reveals deregulated metabolites. Blue bars: decreased metabolites; red bars: increased metabolites. An asterisk (*) in front of the name of the metabolite indicates at least a statistical trend (P&#8208;value&#160;&lt;&#160;0.1) obtained using the sign test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19468</offset>
+      <text>Volcano plot of urine metabolites in cancer patients (reported in at least six cohorts) with the vote&#8208;counting score on the x&#8208;axis and the &#8208;log10 adjusted P&#8208;value on the y&#8208;axis. Cyan indicates deregulated metabolites that show a trend (P&#8208;value&#160;&lt;&#160;0.1) or statistical significance (P&#8208;value&#160;&lt;&#160;0.05; above black dashed horizontal line); red indicates metabolites with a P&#8208;value&#160;&gt;&#160;0.1 (see Table&#160;EV3 for full vote&#8208;counting tables, vote counting statistics were calculated using the sign test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19982</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19985</offset>
+      <text>Vote&#8208;counting analysis in cancer tissue</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20027</offset>
+      <text>Vote counting of cancer tissue metabolites (reported in at least six cohorts) showed consistently deregulated metabolites. Blue bars: decreased metabolites; red bars: increased metabolites. An asterisk (*) in front of the name of the metabolite indicates at least a statistical trend (P&#160;&lt;&#160;0.1) obtained using the sign test; red&#160;arrows denote key metabolites mentioned in the main text (see Table&#160;EV5 for full annotation).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>20453</offset>
+      <text>Cancer&#8208;associated metabolic changes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20491</offset>
+      <text>We then assessed whether the vote&#8208;counting method identified particular metabolites that were consistently up&#8208; or downregulated in cancer. In agreement with the known increase of glycolysis in cancer cells (Vander Heiden et&#160;al, 2009), this analysis showed increased tumor lactic acid levels consistently across all cancer types examined (VCS&#160;=&#160;26/26, P&#8208;value&#160;=&#160;1.5&#160;&#215;&#160;10&#8722;6) (Figs&#160;2D and 3). Interestingly, glutamic acid ranked second (only after lactic acid) among the most increased metabolites in tumor tissue (VCS&#160;=&#160;16/18, P&#8208;value&#160;=&#160;3.6&#160;&#215;&#160;10&#8722;3; Figs&#160;2D and 3) and was the most frequently increased metabolite in blood (VCS&#160;=&#160;11/15, P&#8208;value&#160;=&#160;5.5&#160;&#215;&#160;10&#8722;2; Fig&#160;2B and C). The glutamic acid precursor glutamine was the second most decreased metabolite in blood (VCS&#160;=&#160;&#8722;18/26, P&#8208;value&#160;=&#160;8.0&#160;&#215;&#160;10&#8722;3) and was frequently increased in tumor tissue (VCS&#160;=&#160;7/13, P&#8208;value&#160;=&#160;1.1&#160;&#215;&#160;10&#8722;1; Figs&#160;2B&#8211;D and 3). The findings in the blood may indicate systemic depletion of glutamine and other amino acids (see below) as observed in chronic catabolic states (Souba, 1993). Overall, this analysis confirms that the vote&#8208;counting method can identify changes in metabolites, which have been previously implicated in cancer cell metabolism (Lunt &amp; Vander Heiden, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21808</offset>
+      <text>A novel finding was that the ketone body 3&#8208;hydroxybutyric acid was upregulated in the blood of cancer patients (VCS&#160;=&#160;9/15, P&#8208;value&#160;=&#160;1.3&#160;&#215;&#160;10&#8722;1) (Fig&#160;2B). This ketone body has been reported to stimulate tumor growth and has been associated with cancer cachexia (Tisdale &amp; Beck, 1990; Shukla et&#160;al, 2014), though its role remains debated (Bonuccelli et&#160;al, 2010; Poff et&#160;al, 2014; Shukla et&#160;al, 2014). We also identified significant deregulation of less investigated metabolites. In the blood, tryptophan (VCS&#160;=&#160;&#8722;22/26, P&#8208;value&#160;=&#160;3.2&#160;&#215;&#160;10&#8722;4) and histidine (VCS&#160;=&#160;&#8722;14/18, P&#8208;value&#160;= 1.3&#160;&#215;&#160;10&#8722;2) were among the top three most decreased metabolites (Fig&#160;2B and C), while they were increased in tumor tissue (VCS&#160;=&#160;8/10, P&#8208;value&#160;=&#160;4.6&#160;&#215;&#160;10&#8722;2 for both tryptophan and histidine) (Fig&#160;3). Interestingly, histidine has been implicated in tumor&#8208;associated inflammation (Yang et&#160;al, 2011), while the tryptophan metabolite kynurenine (frequently increased in tumor tissue; VCS&#160;=&#160;7/9, P&#8208;value&#160;=&#160;5.9&#160;&#215;&#160;10&#8722;2; Fig&#160;3) suppresses anti&#8208;tumor immune responses (Opitz et&#160;al, 2011). In addition, both tryptophan and histidine are potential one&#8208;carbon donors to tetrahydrofolate, which contributes to nucleotide metabolism and redox homeostasis, perhaps reflecting the augmented proliferative potential of cancer cells. These results indicate that vote counting can identify metabolites that are often up&#8208; or downregulated in cancer patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>23306</offset>
+      <text>Sensitivity analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23327</offset>
+      <text>We performed a sensitivity analysis to assess whether the cross&#8208;cancer results were driven/largely influenced by individual cancer types. To this end, the vote&#8208;counting procedure was separately repeated by excluding in turn each cancer type for studies in urine, blood, and tissue. The top deregulated metabolites were consistently deregulated, regardless of which cancer type was taken out of the analysis, confirming that no individual cancer type dominated the analysis (not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>23817</offset>
+      <text>Type 2 diabetes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23833</offset>
+      <text>To determine whether metabolic alterations could also be detected with the vote&#8208;counting method in another disease, we constructed a second dataset of blood metabolites in T2DM patients (18 studies, ~1,200 metabolite measurements in estimated 4,000 patients; Table&#160;EV1) and repeated our meta&#8208;analysis. Due to the limited number of CMP studies, the study was relatively underpowered. Nevertheless, using our approach, we identified a number of validated T2DM biomarkers, including, as expected, glucose (VCS&#160;=&#160;7/7, P&#8208;value&#160;=&#160;7.0&#160;&#215;&#160;10&#8722;2). However, we also observed elevations of the (branched&#8208;chain) amino acids leucine (VCS&#160;=&#160;9/11, P&#8208;value&#160;= 7.0&#160;&#215;&#160;10&#8722;2), valine (VCS&#160;=&#160;7/11, P&#8208;value&#160;=&#160;1.1&#160;&#215;&#160;10&#8722;1), isoleucine (VCS&#160;=&#160;5/7, P&#8208;value&#160;=&#160;1.4&#160;&#215;&#160;10&#8722;1), and phenylalanine (VCS&#160;=&#160;7/9, P&#8208;value&#160;=&#160;8.8&#160;&#215;&#160;10&#8722;2) (Fig&#160;EV3, Table&#160;EV6). Interestingly, these data are consistent with a recent report based on previously published prospective studies that elevated levels of these amino acids are associated with an increased risk to develop T2DM (Guasch&#8208;Ferre et&#160;al, 2016), thus validating our approach. Furthermore, the same study also found that glycine blood levels were inversely associated with T2DM risk. Of note, we identified glycine as the most decreased metabolite in&#160;our analysis (VCS&#160;=&#160;&#8722;5/7, P&#8208;value&#160;= 1.4&#160;&#215;&#160;10&#8722;1) (Fig&#160;EV3, Table&#160;EV6). These concordances further validate the potential of the vote&#8208;counting method to identify changes in metabolites that can be clinically relevant. Another noteworthy observation is that blood levels of 1,5&#8208;anhydrosorbitol were consistently reduced in all three studies that reported this metabolite (Table&#160;EV6). This metabolite is a clinical biomarker of diabetes and has been developed in a FDA&#8208;approved blood glucose test (Halama et&#160;al, 2016). Overall, these results indicate that our semiquantitative meta&#8208;analysis is capable of identifying distinct metabolite signatures for cancer versus T2DM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25849</offset>
+      <text>Metabolic profiling in diabetes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25881</offset>
+      <text>Vote counting of blood metabolites in type 2 diabetes patients (reported in at least 6 cohorts) reveals deregulated metabolites. Blue bars: decreased metabolites; red&#160;bars: increased metabolites. An asterisk (*) in front of the name of the metabolite indicates a statistical trend (P&#160;&lt;&#160;0.1) obtained using the sign test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26205</offset>
+      <text>Volcano plot of blood metabolites in diabetes with the vote&#8208;counting score on the x&#8208;axis and the &#8722;log10 adjusted P&#8208;value on the y&#8208;axis. Cyan indicates deregulated metabolites that show a trend (P&#8208;value&#160;&lt;&#160;0.1) or statistical significance (P&#8208;value&#160;&lt;&#160;0.05; above black dashed horizontal line); red indicates metabolites with a P&#8208;value&#160;&gt;&#160;0.1 (see Table&#160;EV6 for full vote&#8208;counting tables, vote counting statistics were calculated using the sign test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26677</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>26680</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26691</offset>
+      <text>Despite incomplete reporting of CMP data, the semiquantitative meta&#8208;analysis approach used in this study was capable of identifying distinct metabolite signatures in cancer and T2DM. Not only did this method provide confirmatory evidence for the up&#8208; or downregulation of particular metabolites, previously involved in cancer cell metabolism (Vander Heiden et&#160;al, 2009; Lunt &amp; Vander Heiden, 2011), but the approach used also identified metabolites that were less well/only minimally appreciated in cancer cell metabolism. While our analysis reveals that meta&#8208;analyses of CMP studies provide novel opportunities, our study was also confronted by a number of challenges that need to be addressed in order to maximize the discovery potential of this approach.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27455</offset>
+      <text>Challenges</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27466</offset>
+      <text>Despite the promising results of our analysis, several hurdles limit the amenability of current CMP studies for quantitative meta&#8208;analysis: (i) The lack of availability of full datasets reduces the statistical power of data mining approaches and precludes re&#8208;analyzing the original data to replicate the results. Moreover, without the availability of full datasets, it is impossible to determine whether a metabolite was measured but not deemed relevant, or not measured, leading to a particularly pernicious bias in outcome reporting that cannot be adequately resolved with current statistical methods. (ii) Scarce reporting of metadata and lack of raw data for each analyzed sample limits the possibilities for stratified analysis, while such analysis of inter&#8208;patient heterogeneity is key to modern personalized medicine. (iii) Many studies use cross&#8208;sectional or case&#8211;control research designs to prove that the metabolic profile in cancer is distinct from controls. Such studies can validate the discriminatory power of the metabolic profiling technology, but the results are not necessarily clinically relevant or applicable to improve personalized medicine. (iv) The use of inconsistent reporting formats renders data extraction highly labor&#8208;intensive and error&#8208;prone. (v) Ambiguous metabolite annotation and identification limit confidence in the interpretation of data mining outcomes. (vi) The lack of quantitative data (absolute levels of metabolites) precludes the development of reference values to which individual patients can be compared. (vii) The use of a wide variety of profiling technologies and analytical methods complicates direct comparison between studies. And, (viii) the lack of validation in independent replication cohorts, in preclinical models or by orthogonal experiments, is a shortcoming of many profiling studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29329</offset>
+      <text>Opportunities</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29343</offset>
+      <text>Nonetheless, despite these limitations, a semiquantitative meta&#8208;analysis of a limited number of studies appeared to be sufficient to identify a number of known and new metabolites, some underscored by a significant P&#8208;value, others more by a trend (likely due to insufficient power). Clearly, standardizing the design, execution, and reporting of CMP studies will only increase the discovery potential of quantitative meta&#8208;analyses. Today, only a minority of CMP data is readily available, and retrospective collection and curation from past publications is an enormous effort. To maximize the value of CMP studies, metabolomics data could be submitted to a public metabolomics repository (Haug et&#160;al, 2013). Eventually, to improve the feasibility and power of future data mining approaches, the research community and journals can adopt reporting standards that require data annotation in an accessible electronic format (Larsson &amp; Sandberg, 2006; Rocca&#8208;Serra et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30327</offset>
+      <text>Limitations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30339</offset>
+      <text>Our study was designed to test whether a meta&#8208;analysis could be performed with currently available CMP studies in cancer. Given the aforementioned challenges, the scope of our study was not to discover new metabolic targets per se, or to create a database for broad usage. Because comprehensive metabolomics repositories do not exist, we performed a meta&#8208;analysis on reported metabolites, an approach that is susceptible to publication bias. In conclusion, the largest limitation is the insufficient number of studies and lack of full dataset availability, which reduced statistical power, prevented detection of metabolic signatures within cancer types, and precluded stratified analyses.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>31033</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31055</offset>
+      <text>Rationale and objectives</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31080</offset>
+      <text>We performed a meta&#8208;analysis of metabolite profiling in cancer with the following objectives: (i) to provide a cross&#8208;section of metabolic profiling methods and implementations; and (ii) to assess the potential of metabolomics data mining. The aim of this study was not to identify, nor to functionally verify new metabolic mechanisms, discovered through this meta&#8208;analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31460</offset>
+      <text>Dataset compilation</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>31480</offset>
+      <text>General strategy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31497</offset>
+      <text>Since no datasets of metabolic profiling in cancer exist, we first set out to construct such a dataset. We used a pre&#8208;defined search filter to search MEDLINE for studies reporting on metabolic profiling of blood (plasma and/or serum), tissue, and urine in cancer. Next, we included studies based on predetermined in&#8208; and exclusion criteria (Table&#160;EV7) and extracted metabolite data as well as methodological metadata using a standardized data extraction sheet. In addition, we noted for each metabolite whether it was reported as increased or decreased. The same strategy was used to construct a second dataset of metabolic profiling in type 2 diabetes mellitus (T2DM) in order to assess disease specificity of identified metabolic alterations.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>32247</offset>
+      <text>Search method for identification of studies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32291</offset>
+      <text>Our first search filter combined the search term &#8220;metabolic&#8221; and its synonyms with the Boolean operator &#8220;OR&#8221;. Our second search filter combined the term &#8220;profiling&#8221; and its synonyms with the Boolean operator OR. The third search filter combined the terms &#8220;diabetes&#8221; and &#8220;cancer&#8221; with the operator OR. We then combined these searches with the Boolean operator AND. We added additional filters to specifically exclude studies on metabolic syndrome, review articles, and editorials. We limited the search to studies published from June 1, 2010, to June 1, 2015, in the English literature, to ensure that the data examined reflected current state&#8208;of&#8208;the&#8208;art profiling platforms. This filter retrieved 4,260 references of articles. To identify potentially relevant studies, two reviewers (A.P. and J.G.) independently screened all studies on title and abstract. To further increase coverage and retrieval of relevant studies, we complemented our automated search with manual searches (J.K., L.C.C., and J.G.) in relevant journals and identified 30 additional papers.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>33379</offset>
+      <text>Inclusion and exclusion of studies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33414</offset>
+      <text>Next, three teams of two reviewers assessed the eligibility of the identified papers (A.P./J.G., L.C.C./J.G., J.K./J.G.) by applying the in&#8208; and exclusion criteria. Briefly, we considered global metabolic profiling studies performed in humans, in whom metabolic profiling was done on serum, plasma, urine, or tumor tissue. Studies profiling other bodily fluids (such as cerebrospinal fluid and sweat) and feces only or solely in other organisms were excluded. We considered both clinical biomarker studies and studies where metabolic profiling was used as a discovery strategy to identify novel biological mechanisms. We only included studies profiling cancer or T2DM that had a well&#8208;defined control group. We further limited inclusion to studies that used either nuclear magnetic resonance spectroscopy (NMR) or mass spectrometry (MS) in a global profiling approach. An overview of included studies is provided in Tables EV8, EV9, EV10 and EV11.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>34365</offset>
+      <text>Quality assessment, data extraction and integrity</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34415</offset>
+      <text>For all selected papers, the reviewers used a pre&#8208;defined evaluation/data extraction protocol to assess (methodological) study parameters such as the type of disease, number of patients included, the analytical platform, outcome, the level of metabolite identification (see below), and major findings among others. Because the vast majority of studies annotated reported metabolites using ambiguous common names and did not use unique identifiers, which limits bioinformatics possibilities, we used specific algorithms of the OpenRefine software to standardize spelling and the ConvertTool of the MetaboAnalyst 3.0 software to assign unique identifiers if available. Retrospective manual curation of metabolomics data from published studies is time&#8208;consuming and relatively error&#8208;prone, but currently the only available method to construct a comprehensive metabolomics dataset. We performed data quality checks&#160;at&#160;each step of the dataset construction and randomly re&#8208;reviewed 25% of the included references post&#8208;dataset construction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>35462</offset>
+      <text>Metabolite identification levels as defined by the Metabolomics Standards Initiative</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35547</offset>
+      <text>Level &#8220;one&#8221; (identified metabolites) identification necessitates that two or more orthogonal properties of an authentic chemical standard, analyzed in the researcher's laboratory, are compared to experimental data acquired in the same laboratory with the same analytical methods. By contrast, annotation of level &#8220;two&#8221; (putatively annotated compounds) and level &#8220;three&#8221; (putatively characterized compound classes) does not require matching to data for authentic chemical standards acquired within the same laboratory. Level &#8220;four&#8221; refers to unidentified compounds.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36128</offset>
+      <text>Statistical analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>36149</offset>
+      <text>Vote&#8208;counting procedure</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36175</offset>
+      <text>Because there are no standardized approaches available for metabolomics meta&#8208;analysis and full quantitative data (fold changes, abundances, etc.) are lacking, we devised a statistical approach to quantify metabolite deregulation. For each study, a score of &#8220;+1&#8221; or &#8220;&#8722;1&#8221; was assigned to each reported metabolite, depending on whether the metabolite was found increased or decreased, respectively, regardless of the fold change. Metabolites that were reported more than once per study, for example, as measured by different methods were only annotated once. For these metabolites, we determined directionality (whether it was increased or decreased) by applying vote counting within the study. This resulted in an assigned score of &#8220;0&#8221; if the study reported it equally often as increased and decreased, because directionality could not be determined (21, 42, and 1 metabolite in blood, urine, and tissue samples, respectively). We then performed a semiquantitative meta&#8208;analysis by vote counting, that is, summing the scores for each metabolite, to quantify deregulation (i.e. the consistency with which a metabolite is reported to be increased or decreased across studies). The vote&#8208;counting statistic (VCS, reported as VCS/number of reporting studies; Benjamini&#8211;Hochberg&#160;adjusted P&#8208;value) assumes a high positive value if the metabolite is consistently increased, and conversely a negative value for consistently decreased metabolites. In this context, a zero value implies that the studies provide conflicting evidence on whether the metabolite is increased or decreased.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37773</offset>
+      <text>We also used the sign test to assign a P&#8208;value to assess whether the vote&#8208;counting results were merely due to chance. The null hypothesis was that the directionality of deregulation of a given metabolite is not consistent across studies. Under this null hypothesis, we assumed that studies would report the metabolite as either increased or decreased with approximately equal probability.&#160;With this assumption, we could model the global score for a given metabolite as the result of a binomial process, where (i) the number of trials equals the number of studies reporting the metabolite, (ii) success is defined as a study with the same sign of the global score, and (iii) the probability of success is set to 0.5. The one&#8208;tailed P&#8208;value assessing the probability of obtaining an equal or greater (in absolute terms) global score under the null hypothesis was obtained from the binomial distribution and adjusted for multiple testing with the Benjamini&#8211;Hochberg procedure (Benjamini &amp; Hochberg, 1995). The significance of metabolites reported in 5 or fewer studies was not assessed for lack of statistical evidence.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38901</offset>
+      <text>An alternative, permutation&#8208;based test was also employed. For each metabolite, the null distribution was built by computing several times the global score on a simulated set of reporting studies. Each simulated set was built by randomly assigning with probability 0.5 an up/down directionality to each study reporting the metabolite. A one&#8208;tailed P&#8208;value was computed by comparing the original global score against its respective null distribution. The results of this permutation test were almost identical to the P&#8208;values provided by the binomial test (correlation &gt;&#160;0.9) and are thus not reported.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>39511</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39532</offset>
+      <text>JG conceptualized and designed the study, performed most of the data curation, interpreted the data, and wrote the manuscript. AP performed automated searches and did most of the data extraction. L&#8208;CC and JK performed data extraction and hand searches of major journals. VL performed statistical analyses, wrote the analyses scripts, and contributed to the manuscript. MD, GE, RJD, and IDW interpreted the data and revised the manuscript. PC directed the study, interpreted the data, and wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40044</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40065</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1_caption</infon>
+      <offset>40125</offset>
+      <text>The paper explained</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40145</offset>
+      <text>Problem</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40153</offset>
+      <text>It has become increasingly clear that cellular metabolic alterations are involved in the pathogenesis of multiple diseases, including cancer. Clinical metabolic profiling (CMP) offers the opportunity to characterize the metabolome and is being increasingly used to identify disease&#8208;associated metabolic signatures. Metabolic profiling of body fluids and excretions such as blood, urine, and feces was anticipated to identify novel biomarkers, while profiling of diseased tissue was expected to provide insight into molecular pathogenesis. However, despite technological advances and increasing use of CMP, progress and clinical translation of these data have been more modest than expected. Surprisingly, a meta&#8208;analysis of CMP has not been performed, even though (i) such studies could provide insight into current methods and application of metabolic profiling; and (ii) similar meta&#8208;analyses have contributed to the impact in the genomics, transcriptomics and proteomics fields. Here, we performed a meta&#8208;analysis of CMP in cancer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41196</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41204</offset>
+      <text>We manually compiled a dataset of cancer studies published during five recent years. Insufficient raw data and metadata availability and reporting prevented quantitative meta&#8208;analysis. We therefore performed a semiquantitative meta&#8208;analysis by vote counting (comparing the number of studies that report a metabolite to be increased or decreased in order to identify metabolites that are consistently deregulated across studies) to demonstrate the potential of CMP data mining, as highlighted by the identification of several known but also previously less appreciated metabolic alterations in cancer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41809</offset>
+      <text>Impact</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41816</offset>
+      <text>Our results suggest that the clinical impact of metabolic profiling could be improved by adhering to standards for designing clinical studies, more extensive validation of the results and, most importantly, by improved metabolomics data reporting (and metabolite identification) and deposition of full datasets in public repositories for reuse in meta&#8208;studies. Scientific journals may facilitate this process by demanding full dataset availability as is already required for genomics, transcriptomics, and proteomics data.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42341</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>42364</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Eur J Cancer</infon>
+      <infon key="lpage">3637</infon>
+      <infon key="pub-id_pmid">23896378</infon>
+      <infon key="fpage">3625</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>42375</offset>
+      <text>Metabolomic profiling of oesophago&#8208;gastric cancer: a systematic review</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Bioeng Biotechnol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">25905099</infon>
+      <infon key="fpage">38</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42448</offset>
+      <text>Metabolonote: a wiki&#8208;based database for managing hierarchical metadata of metabolome analyses</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D995</infon>
+      <infon key="pub-id_pmid">23193258</infon>
+      <infon key="fpage">D991</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>42544</offset>
+      <text>NCBI GEO: archive for functional genomics data sets&#8211;update</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="lpage">300</infon>
+      <infon key="source">J R Stat Soc Series B</infon>
+      <infon key="fpage">289</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>42605</offset>
+      <text>Controlling the false discovery rate: a practical and powerful approach to multiple testing</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">3514</infon>
+      <infon key="pub-id_pmid">20818174</infon>
+      <infon key="fpage">3506</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>42697</offset>
+      <text>Ketones and lactate &#8220;fuel&#8221; tumor growth and metastasis: evidence that epithelial cancer cells use oxidative mitochondrial metabolism</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">71</infon>
+      <infon key="pub-id_pmid">12519949</infon>
+      <infon key="fpage">68</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>42834</offset>
+      <text>ArrayExpress&#8211;a public repository for microarray gene expression data at the EBI</text>
+    </passage>
+    <passage>
+      <infon key="volume">462</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">744</infon>
+      <infon key="pub-id_pmid">19935646</infon>
+      <infon key="fpage">739</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>42916</offset>
+      <text>Cancer&#8208;associated IDH1 mutations produce 2&#8208;hydroxyglutarate</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Bioanalysis</infon>
+      <infon key="lpage">2264</infon>
+      <infon key="pub-id_pmid">23046267</infon>
+      <infon key="fpage">2249</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42980</offset>
+      <text>The importance of experimental design and QC samples in large&#8208;scale and MS&#8208;driven untargeted metabolomic studies of humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">769</infon>
+      <infon key="pub-id_pmid">15340383</infon>
+      <infon key="fpage">763</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>43107</offset>
+      <text>Metabolite profiling: from diagnostics to systems biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">966</infon>
+      <infon key="lpage">6</infon>
+      <infon key="source">J Chromatogr B Analyt Technol Biomed Life Sci</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>43165</offset>
+      <text>LC&#8208;MS&#8208;based holistic metabolic profiling. Problems, limitations, advantages, and future perspectives</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="source">Singapore Med J</infon>
+      <infon key="lpage">274</infon>
+      <infon key="pub-id_pmid">15902354</infon>
+      <infon key="fpage">270</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>43270</offset>
+      <text>Systematic reviews and meta&#8208;analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Diabetes Care</infon>
+      <infon key="lpage">846</infon>
+      <infon key="pub-id_pmid">27208380</infon>
+      <infon key="fpage">833</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>43309</offset>
+      <text>Metabolomics in prediabetes and diabetes: a systematic review and meta&#8208;analysis</text>
+    </passage>
+    <passage>
+      <infon key="source">J Transl Med</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">27188855</infon>
+      <infon key="fpage">140</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>43391</offset>
+      <text>Measurement of 1,5&#8208;anhydroglucitol in blood and saliva: from non&#8208;targeted metabolomics to biochemical assay</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D786</infon>
+      <infon key="pub-id_pmid">23109552</infon>
+      <infon key="fpage">D781</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43503</offset>
+      <text>MetaboLights&#8211;an open&#8208;access general&#8208;purpose repository for metabolomics studies and associated meta&#8208;data</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">529</infon>
+      <infon key="pub-id_pmid">23604282</infon>
+      <infon key="fpage">522</infon>
+      <infon key="year">2013a</infon>
+      <infon key="type">ref</infon>
+      <offset>43616</offset>
+      <text>Heterogeneity of tumor&#8208;induced gene expression changes in the human metabolic network</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Int J Lab Hematol</infon>
+      <infon key="lpage">378</infon>
+      <infon key="pub-id_pmid">23216964</infon>
+      <infon key="fpage">367</infon>
+      <infon key="year">2013b</infon>
+      <infon key="type">ref</infon>
+      <offset>43704</offset>
+      <text>Potential role of proteomics in the diagnosis of lymphoma: a meta&#8208;analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Diabetologia</infon>
+      <infon key="lpage">2464</infon>
+      <infon key="pub-id_pmid">25193282</infon>
+      <infon key="fpage">2453</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>43781</offset>
+      <text>A systematic review of metabolite profiling in gestational diabetes mellitus</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D663</infon>
+      <infon key="pub-id_pmid">16381953</infon>
+      <infon key="fpage">D659</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43858</offset>
+      <text>PRIDE: a public repository of protein and peptide identifications for the proteomics community</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1323</infon>
+      <infon key="pub-id_pmid">17093466</infon>
+      <infon key="fpage">1322</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43953</offset>
+      <text>Lack of correct data format and comparability limits future integrative microarray research</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">464</infon>
+      <infon key="pub-id_pmid">21985671</infon>
+      <infon key="fpage">441</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44045</offset>
+      <text>Aerobic glycolysis: meeting the metabolic requirements of cell proliferation</text>
+    </passage>
+    <passage>
+      <infon key="source">Respir Res</infon>
+      <infon key="volume">16</infon>
+      <infon key="pub-id_pmid">26471192</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44122</offset>
+      <text>Systematic review regarding metabolic profiling for improved pathophysiological understanding of disease and outcome prediction in respiratory infections</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24451681</infon>
+      <infon key="fpage">3128</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44276</offset>
+      <text>Metabolic enzyme expression highlights a key role for MTHFD2 and the mitochondrial folate pathway in cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">478</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">203</infon>
+      <infon key="pub-id_pmid">21976023</infon>
+      <infon key="fpage">197</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44384</offset>
+      <text>An endogenous tumour&#8208;promoting ligand of the human aryl hydrocarbon receptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">269</infon>
+      <infon key="pub-id_pmid">22436749</infon>
+      <infon key="fpage">263</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44463</offset>
+      <text>Innovation: metabolomics: the apogee of the omics trilogy</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Int J Cancer</infon>
+      <infon key="lpage">1720</infon>
+      <infon key="pub-id_pmid">24615175</infon>
+      <infon key="fpage">1711</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44521</offset>
+      <text>Ketone supplementation decreases tumor cell viability and prolongs survival of mice with metastatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Biomark Med</infon>
+      <infon key="lpage">761</infon>
+      <infon key="pub-id_pmid">26223535</infon>
+      <infon key="fpage">751</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44628</offset>
+      <text>Independent validation test of the vote&#8208;counting strategy used to rank biomarkers from published studies</text>
+    </passage>
+    <passage>
+      <infon key="source">Metabolomics</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">26612985</infon>
+      <infon key="fpage">14</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44735</offset>
+      <text>Data standards can boost metabolomics research, and if there is a will, there is a way</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">20849579</infon>
+      <infon key="fpage">468</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44822</offset>
+      <text>Multivariate meta&#8208;analysis of proteomics data from human prostate and colon tumours</text>
+    </passage>
+    <passage>
+      <infon key="source">GigaScience</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">24131531</infon>
+      <infon key="fpage">13</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44908</offset>
+      <text>The role of reporting standards for metabolite annotation and identification in metabolomic studies</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Metabolomics</infon>
+      <infon key="lpage">1597</infon>
+      <infon key="pub-id_pmid">26491418</infon>
+      <infon key="fpage">1587</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45008</offset>
+      <text>COordination of Standards in MetabOlomicS (COSMOS): facilitating integrated metabolomics data access</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="lpage">8</infon>
+      <infon key="pub-id_pmid">25461505</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45109</offset>
+      <text>Biological insights through nontargeted metabolomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="lpage">1120</infon>
+      <infon key="pub-id_pmid">22927473</infon>
+      <infon key="fpage">1110</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45162</offset>
+      <text>Metabolomic profiling for the identification of novel biomarkers and mechanisms related to common cardiovascular diseases: form and function</text>
+    </passage>
+    <passage>
+      <infon key="source">Cancer Metab</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">25228990</infon>
+      <infon key="fpage">18</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>45303</offset>
+      <text>Metabolic reprogramming induced by ketone bodies diminishes pancreatic cancer cachexia</text>
+    </passage>
+    <passage>
+      <infon key="volume">218</infon>
+      <infon key="source">Ann Surg</infon>
+      <infon key="lpage">728</infon>
+      <infon key="pub-id_pmid">8257221</infon>
+      <infon key="fpage">715</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>45390</offset>
+      <text>Glutamine and cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Int J Pancreatol</infon>
+      <infon key="lpage">150</infon>
+      <infon key="pub-id_pmid">2081920</infon>
+      <infon key="fpage">141</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>45411</offset>
+      <text>Cancer cachexia</text>
+    </passage>
+    <passage>
+      <infon key="volume">324</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1033</infon>
+      <infon key="pub-id_pmid">19460998</infon>
+      <infon key="fpage">1029</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>45427</offset>
+      <text>Understanding the Warburg effect: the metabolic requirements of cell proliferation</text>
+    </passage>
+    <passage>
+      <infon key="volume">472</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">63</infon>
+      <infon key="pub-id_pmid">21475195</infon>
+      <infon key="fpage">57</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45510</offset>
+      <text>Gut flora metabolism of phosphatidylcholine promotes cardiovascular disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">95</infon>
+      <infon key="pub-id_pmid">21170045</infon>
+      <infon key="fpage">87</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45586</offset>
+      <text>Histamine deficiency promotes inflammation&#8208;associated carcinogenesis through reduced myeloid maturation and accumulation of CD11b+Ly6G+ immature myeloid cells</text>
+    </passage>
+  </document>
+</collection>

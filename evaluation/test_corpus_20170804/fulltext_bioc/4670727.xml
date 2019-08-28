@@ -1,0 +1,1137 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4670727</id>
+    <passage>
+      <infon key="name_2">surname:Dobrzy&#324;ski;given-names:Maciej</infon>
+      <infon key="name_3">surname:Fey;given-names:Dirk</infon>
+      <infon key="name_0">surname:Ryu;given-names:Hyunryul</infon>
+      <infon key="name_1">surname:Chung;given-names:Minhwan</infon>
+      <infon key="name_6">surname:Peter;given-names:Matthias</infon>
+      <infon key="alt-title">Hyunryul Ryu et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB156458</infon>
+      <infon key="name_5">surname:Lee;given-names:Sung Sik</infon>
+      <infon key="name_8">surname:Jeon;given-names:Noo Li</infon>
+      <infon key="name_9">surname:Pertz;given-names:Olivier</infon>
+      <infon key="year">2015</infon>
+      <infon key="name_7">surname:Kholodenko;given-names:Boris N</infon>
+      <infon key="name_4">surname:Blum;given-names:Yannick</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/msb.20156458</infon>
+      <infon key="article-id_pmid">26613961</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="issue">11</infon>
+      <infon key="kwd">cell fate decisions ERK activity dynamics FRET biosensor single cell biology signaling heterogeneity Quantitative Biology &amp; Dynamical Systems Signal Transduction Development &amp; Differentiation</infon>
+      <infon key="elocation-id">838</infon>
+      <infon key="volume">11 11</infon>
+      <infon key="article-id_pmc">4670727</infon>
+      <infon key="fn">See also: N Bl&#252;thgen (November 2015)</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+. () : 838
+</infon>
+      <offset>0</offset>
+      <text>Frequency modulation of ERK activation dynamics rewires cell fate</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>66</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>75</offset>
+      <text>Transient versus sustained ERK MAP kinase (MAPK) activation dynamics induce proliferation versus differentiation in response to epidermal (EGF) or nerve (NGF) growth factors in PC&#8208;12 cells. Duration of ERK activation has therefore been proposed to specify cell fate decisions. Using a biosensor to measure ERK activation dynamics in single living cells reveals that sustained EGF/NGF application leads to a heterogeneous mix of transient and sustained ERK activation dynamics in distinct cells of the population, different than the population average. EGF biases toward transient, while NGF biases toward sustained ERK activation responses. In contrast, pulsed growth factor application can repeatedly and homogeneously trigger ERK activity transients across the cell population. These datasets enable mathematical modeling to reveal salient features inherent to the MAPK network. Ultimately, this predicts pulsed growth factor stimulation regimes that can bypass the typical feedback activation to rewire the system toward cell differentiation irrespective of growth factor identity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1162</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1175</offset>
+      <text>Complex signaling networks allow cells to translate external stimuli into specific cell fates. In many cases, signaling dynamics rather than steady states control these fate decisions (Levine et&#160;al, 2013; Purvis &amp; Lahav, 2013). Furthermore, signaling states of individual cells differ even across an isogenic population (Cohen&#8208;Saidon et&#160;al, 2009; Snijder &amp; Pelkmans, 2011; Chen et&#160;al, 2012), due to broad distributions of protein abundances, as well as intrinsic noise present within all biochemical networks (Snijder &amp; Pelkmans, 2011). Measuring single&#8208;cell signaling dynamics is therefore a key to understand how cellular responses correlate with fate decisions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1847</offset>
+      <text>The extracellular&#8208;regulated kinase (ERK) regulates cellular fates such as proliferation and differentiation. It functions within a mitogen&#8208;activated protein kinase (MAPK) signaling network in which growth factor (GF) receptors activate a Ras GTPase, subsequently triggering a MAPK cascade leading to ERK activation (Avraham &amp; Yarden, 2011). Rat adrenal pheochromocytoma PC&#8208;12 cells have been used as a model system to study MAPK&#8208;dependent fate decisions (Marshall, 1995). Stimulation with EGF or NGF leads to transient or sustained ERK activation dynamics, respectively, triggering proliferation or differentiation (Marshall, 1995; Avraham &amp; Yarden, 2011). These different ERK activation dynamics involve activation of different Ras isoforms (Sasagawa et&#160;al, 2005), as well as GF&#8208;dependent control of the MAPK network topology (Santos et&#160;al, 2007), with negative or positive feedbacks producing adaptive or bistable outputs (Xiong &amp; Ferrell, 2003; Santos et&#160;al, 2007; Avraham &amp; Yarden, 2011). Downstream, molecular interpretation of signal duration involves stabilization of ERK&#8208;induced immediate early gene (IEG) products by sustained ERK activity, ultimately instructing the differentiation fate (Murphy et&#160;al, 2002; Nakakuki et&#160;al, 2010). Single&#8208;cell analysis has, however, revealed that NGF does not lead to homogeneous PC&#8208;12 cell differentiation. Rather, a heterogeneous mix of differentiating and proliferating cells is observed, with the respective cell fate choices depending on a complex ERK and AKT signaling code (Chen et&#160;al, 2012). Here, we study ERK activation dynamics in GF&#8208;stimulated single PC&#8208;12 cells. We find that sustained GF stimulation induces heterogeneous cell responses different than the population average, with both GFs being able to produce transient and sustained ERK activation responses. We dynamically probe the ERK signaling flux through application of GF pulses, which homogenizes ERK activation responses throughout the cell population. This provides novel insight to understand the MAPK network structure and ultimately provides a rationale to rewire cell fate decisions independently of GF identity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>4011</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>4019</offset>
+      <text>Sustained GF stimulation induces heterogeneous ERK activation dynamics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4090</offset>
+      <text>To study ERK activation dynamics in single PC&#8208;12 cells, we produced a stable cell line that expresses EKAR2G, a fluorescence resonance energy transfer&#8208;based biosensor for endogenous ERK activity (Fig&#160;1A) (Harvey et&#160;al, 2008; Fritz et&#160;al, 2013). This biosensor specifically reports on ERK, but not on p38 mitogen&#8208;activated, neither on c&#8208;Jun N&#8208;terminal kinases (Harvey et&#160;al, 2008). By virtue of a nuclear export sequence, EKAR2G localizes to, and specifically measures ERK activity in the cytosol (Fig&#160;1B). Although this does not seem to be true for all cell types (Ahmed et&#160;al, 2014), we assumed that cytosolic and nuclear pools of ERK activity are in equilibrium, since,&#160;at least for EGF&#8208;stimulated PC&#8208;12 cells, there is no apparent time lag between nuclear and cytosolic ERK activation dynamics (Herbst et&#160;al, 2011). Biosensor expression levels were homogeneous and displayed only small standard deviation with respect to the population median (Appendix&#160;Fig S1A). To match the temporal resolution enabled by our biosensor, we used a flow&#8208;based, computer&#8208;programmable microfluidic device to deliver GFs with precise kinetics (Fig&#160;1C). We observed that flow induced transient ERK activation (Appendix&#160;Fig S1B and C). This most likely results from flow&#8208;induced mechanical stress, and/or exposure to low amount of serum required for cell survival in the live cell imaging experiments. Subsequent experiments were then performed after the flow effect has subsided, leading to a flat baseline (Appendix Fig&#160;S1D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5631</offset>
+      <text>Sustained GF stimulation induces heterogeneous ERK activity dynamics</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5700</offset>
+      <text> EKAR2G biosensor. Upon phosphorylation by ERK, binding of the WW phospho&#8208;recognition domain to the phosphorylated Cdc25 substrate sequence leads to spatial re&#8208;orientation of donor (mTFP1) and acceptor (Venus) fluorophores leading to a FRET change that can be ratiometrically measured.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5990</offset>
+      <text>Ratiometric and mTFP1 donor images of EKAR2G in an EGF&#8208;stimulated PC&#8208;12 cell at the indicated time points, with t&#160;=&#160;0&#8242; corresponding to EGF application. Upper panel: FRET ratio image is color&#8208;coded for ERK activity. Lower panel: raw mTFP1 donor image in black/white contrast. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6299</offset>
+      <text>Flow&#8208;based, microfluidic device for temporal GF delivery. Computer&#8208;controlled, pressure pump enables mixing of medium and GFs in the control part (left), and temporally defined GF delivery in the cell culture chamber (right and magnified inset).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6549</offset>
+      <text>Population average of ERK activation dynamics measured by Western blot using a phosphoERK antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6649</offset>
+      <text>Population average of ERK activation dynamics cell&#8208;averaged EKAR2G emission ratios (ERs) from n= at least 111 cells. StDev are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6785</offset>
+      <text>Selected EKAR2G ratio time series illustrating, from top to bottom, sustained, oscillatory, or transient ERK activity dynamics. ER is color&#8208;coded as in bar. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6967</offset>
+      <text>Single&#8208;cell ERK activity trajectories. Cell&#8208;averaged ERs for n&#160;=&#160;10 cells, standard deviation range (StDev), population average for the indicated GFs and dosages. Experimental time courses were normalized to the mean of 5 time points immediately preceding GF application.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7245</offset>
+      <text>Waterfall plots of single&#8208;cell ERK activity trajectories. Cell&#8208;averaged ER trajectories are color&#8208;coded (n&#160;=&#160;78 cells), population average (bottom). Vertical dotted line indicates GF application.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7449</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7452</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7504</offset>
+      <text>Throughout this study, we used high&#8208;dosage, 25&#160;ng/ml EGF and 50&#160;ng/ml NGF (representing equivalent GF molarities (Santos et&#160;al, 2007)), and low&#8208;dosage, 1&#160;ng/ml EGF and 2&#160;ng/ml NGF concentrations. As previously described (Santos et&#160;al, 2007), Western blot analysis showed that high&#8208;dosage EGF triggered a single ERK activation peak that almost nearly returned to baseline after 10&#8211;15&#160;min (Fig&#160;1D). In contrast, high&#8208;dosage NGF evoked one ERK activation peak followed by sustained, but reduced with respect to the peak, ERK activity. Similar ERK activation dynamics profiles were observed in population&#8208;averaged EKAR2G measurements (Fig&#160;1E). At the single&#8208;cell level, however, a mix of transient, oscillatory, and sustained ERK activity trajectories were observed (Fig&#160;1F&#8211;H, Video EV1), showing that EGF&#8208; and NGF&#8208;induced ERK activation kinetics are the result of heterogeneous cell responses distinct from the population average. This signaling heterogeneity was not a consequence of the small but existing heterogeneity in EKAR2G expression levels. Specifically, we have not observed any correlation between biosensor expression levels and NGF&#8208;triggered ERK activity at 40&#8242; after stimulation, a time point and experimental condition at which highly heterogeneous ERK activity is observed in the cell population (Appendix&#160;Fig S1E). Furthermore, immunostaining experiments confirmed this heterogeneity&#8212;after the 1st activation peak, the phosphoERK signal displayed a higher average and amplitude spread for NGF in comparison with EGF (Fig&#160;EV1A&#8211;C). Comparison of population&#8208;averaged ERK activity measurements using Western blot (Fig&#160;1D), or immunofluorescence (Fig&#160;EV1B), versus EKAR2G (Fig&#160;1E), revealed somewhat slower desensitization kinetics of the 1st ERK activity peak for the latter. Immunofluorescence analysis of native versus EKAR2G&#8208;expressing PC&#8208;12 cells revealed a slight lag of 1st peak phosphoERK desensitization kinetics in the latter cells (Fig&#160;EV1D), without however affecting the amplitudes of EGF versus NGF phosphoERK signals after the first peak. This indicates that biosensor expression affects the MAPK signaling network to some extent. Biosensor FRET ratio measurements do not necessarily scale linearly with the signaling events they report on, and it has previously proven valuable to explicitly model this (Birtwistle et&#160;al, 2011; Fujita et&#160;al, 2014). However, given the strong similarity between the Western blot, immunofluorescence, and EKAR2G datasets, we assumed that FRET ratio measurements could be used directly as a proxy for ERK activity. These results indicate that, while EKAR2G expression has a slight impact on a specific phase of ERK activation dynamics, it remains a faithful indicator of ERK signaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10298</offset>
+      <text>Time course of single&#8208;cell ERK activation steady states in response to sustained GF stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10396</offset>
+      <text> PC&#8208;12 cells in conventional dishes were stimulated with 25&#160;ng/ml EGF or 50&#160;ng/ml NGF, fixed at the indicated time points after stimulation, and stained with anti&#8208;phosphoERK and anti&#8208;ERK2 antibodies. Images are color&#8208;coded for phosphoERK or ERK2 signal intensity. Note that the immunostaining intensity images have been scaled so as to slightly saturate phosphoERK signals at the 5&#8242; time point. This provides the required dynamic range to clearly distinguish heterogeneous activation states within the cell population in response to NGF stimulation at later time points. At time points after the 1st ERK activity peak, red asterisks indicate specific cells that exhibit elevated ERK activity. Scale bar: 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11121</offset>
+      <text>Population distributions of phosphoERK signals. Boxplots of cell&#8208;averaged phosphoERK signals for 25&#160;ng/ml EGF and 50&#160;ng/ml NGF dosages, n= at least 1,200 cells/condition/time point; * &lt;&#160;0.05, bootstrapping randomization test for the observed difference in the mean. Median, interquartile range (box), and data within 1.5 IQR range of the lower and upper quartiles (whiskers) are shown. Measurements are normalized to t&#160;=&#160;0&#8242;. DAPI&#8208;stained images were segmented in CellProfiler with global Otsu thresholding. Cell bodies were identified by expanding nuclei based on total ERK staining. Whole&#8208;cell mean intensity was calculated from phosphoERK channel after correcting images for uneven illumination and after subtracting mean background intensity.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11880</offset>
+      <text>Density plot of phosphoERK signals distribution at 25&#160;ng/ml EGF and 50&#160;ng/ml NGF at 45&#8242; post&#8208;stimulation. Measurements are normalized to t&#160;=&#160;0&#8242;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12035</offset>
+      <text>Population distributions of phoshoERK signals in native PC&#8208;12 cells or PC&#8208;12 cells expressing the EKAR2G biosensor. PC&#8208;12 cells expressing or not expressing EKAR2G were mixed, stimulated with either 25&#160;ng/ml EGF or 50&#160;ng/ml NGF, fixed at the indicated time points, and immunostained using anti&#8208;phosphoERK antibodies. PC&#8208;12 cells expressing or not expressing EKAR2G were identified using the FRET channel and analyzed as in (B), n= at least 990 cells (* &lt;&#160;0.05, two sample t&#8208;test for the mean). Note that 1st ERK activity peak desensitizes slightly more slowly in PC&#8208;12 cells expressing EKAR2G versus native PC&#8208;12 cells. However, increased phosphoERK signals are still observed when NGF&#8208; and EGF&#8208;treated cells are compared at time points after 30&#8242;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12808</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12811</offset>
+      <text>To quantify cell heterogeneity, we pooled all high&#8208; and low&#8208;dosage, EGF&#8208; and NGF&#8208;triggered ERK activation trajectories described above (Fig&#160;1E&#8211;H), and used k&#8208;means clustering to extract 5 representative temporal activation patterns (Fig&#160;2A). We then determined their incidence in response to the different GF dosages (Fig&#160;2B and C) and found that EGF favored adaptive responses, while NGF led to a larger number of sustained ERK activity trajectories. We also observed ultrasensitive and switch&#8208;like ERK responses for increasing dosages of EGF and NGF. The 1st peak amplitudes saturated and remained unchanged above threshold concentrations of 1&#160;ng/ml EGF and 2&#160;ng/ml NGF (Fig&#160;EV2A and B). At lower concentrations, lower and more heterogeneous 1st ERK activity peak amplitudes were observed. A striking observation was that the different representative ERK activity trajectories displayed distinct 1st&#160;ERK activity peak amplitudes that correlated with the ability to produce a transient or a sustained response&#8212;cells with low or high 1st peak amplitude, respectively, produced transient or sustained responses (Fig&#160;2A&#8211;D). For additional quantification of this phenomenon, we correlated 1st peak amplitude with long&#8208;term, 40&#8242;, ERK activity (indicating transient or sustained ERK activity). Robust correlation was observed for high and low NGF dosages, suggesting that high 1st ERK peak amplitude leads to sustained responses (Appendix&#160;Fig S2). Non&#8208;significant correlations were observed for high and low EGF dosages. Another interesting observation was that a low EGF dosage significantly shifted the distribution of ERK activity trajectories toward more sustained profiles when compared to the high EGF dosage (Fig&#160;2A&#8211;C). Importantly, such subtle shifts in the distribution of ERK activity profiles are not apparent when a population average is computed (Fig&#160;1G), illustrating the value of our clustering approach to analyze our single&#8208;cell trajectories datasets. Together, these results show that GF stimulation produces heterogeneous ERK activity responses, with both GFs being able to induce transient and sustained responses in different cells of the population. This most likely results from different strengths of EGF&#8208;triggered negative and NGF&#8208;triggered positive feedbacks within different cells. In the case of NGF, the presence or absence of sustained ERK activation responses might depend on the strength of the positive feedback (Ferrell &amp; Machleder, 1998), which is consistent with the finding that the amplitude of the 1st peak correlates with the establishment of a sustained response. Sustained responses might,&#160;however, also result from lack of adaptation through negative feedback and continuous signaling input due to constant GF exposure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15613</offset>
+      <text>Quantification of ERK activity trajectory heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15669</offset>
+      <text>Trajectories from all sustained GF stimulation experiments (n&#160;=&#160;307 cells, same ERK activation trajectories as in Fig&#160;1) were pooled and five representative trajectories were identified using k&#8208;means clustering with squared Euclidean distance. Raw (color&#8208;coded by cluster) and cluster representative trajectories (black).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15998</offset>
+      <text>Overlaid cluster representative trajectories.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16044</offset>
+      <text>Population distribution of representative ERK activity trajectories in response to different GF dosages. Data representative of n&#160;=&#160;3 experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16193</offset>
+      <text>Peak emission ratio intensity for each cluster. Boxplots with median, interquartile (box) and 1.5 IQR (whiskers) range, and raw datasets are shown. Boxplot notches extend 1.58 IQR / &#8730;Nobs, which gives approximately 95% confidence interval for comparing medians.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16457</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16460</offset>
+      <text>Threshold GF concentrations required for robust ERK activation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16523</offset>
+      <text>Representative ERK activity trajectories in response to different GF dosages (n&#160;=&#160;20).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16612</offset>
+      <text>Distribution of cell&#8208;averaged ERs at 6&#8242; (maximum of 1st ERK activity peak), or at 60&#8242; after GF stimulation (long&#8208;term ERK activity). Notched boxplots with median, interquartile (box), and 1.5 IQR (whiskers) range are shown for at least n&#160;=&#160;30 cells. Note ERK activity adaptation for EGF versus sustained ERK activity for NGF at the 60&#8242; time point.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16972</offset>
+      <text> ERK activation dynamics were evaluated in the microfluidic device at different EGF and NGF concentrations in response to sustained GF stimulation.   </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17123</offset>
+      <text>Pulsed GF stimulation reveals novel features of the MAPK network</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17188</offset>
+      <text>Because continuous signaling input does not effectively probe the&#160;MAPK network to produce adaptive or bistable responses (Kholodenko et&#160;al, 2010; Avraham &amp; Yarden, 2011), we applied single GF pulses using our microfluidic device. A high&#8208;dosage, 3&#8242;&#160;and 10&#8242; EGF, or 3&#8242; NGF pulse elicited a robust peak of ERK activity that immediately adapted (Fig&#160;3A and B, and Video EV2). In contrast, a 10&#8242; NGF pulse induced sustained ERK activity within a cell subpopulation, potentially indicating bistability (Xiong &amp; Ferrell, 2003), while the remaining cells exhibited transient responses (Fig&#160;3B). As for sustained NGF stimulation, cell trajectory clustering again indicated a correlation between first peak amplitude, and the ability to produce a sustained response (Appendix&#160;Fig S3). Low&#8208;dosage, 3&#8242; and 10&#8242;, EGF and NGF single pulses all led to adaptive responses (Fig&#160;3C and D). All GF pulses, as well as sustained GF stimulation, evoked a robust 1st ERK activity peak, with similar amplitude distributions across the different dosages, indicating switch&#8208;like responses (Fig&#160;3E and F). In marked contrast with sustained GF stimulation, population&#8208;homogeneous, rapid desensitization kinetics were observed for pulsed GF stimulation, except for cells and conditions in which bistable behavior was triggered by NGF (Fig&#160;3E and G). These results show that EGF only induces adaptive, while NGF can produce both adaptive and bistable outputs depending on input strength/duration.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18683</offset>
+      <text> ERK activity responses to single GF pulses</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18727</offset>
+      <text>Single GF pulse experiments. Cell&#8208;averaged ERs, population average, and StDev range for n&#160;=&#160;10 cells. Pulse application indicated by black bars. 3&#8242; (A, C) and 10&#8242; (B,&#160;D) pulse. High (A, B) and low (C, D) GF concentrations.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18959</offset>
+      <text>Rationale for measuring amplitude and duration of 1st ERK activity peak in response to GF stimulation. Peak amplitude was measured as the ER change from when the GF stimulation starts until the highest ERK activity before adaptation occurs. Peak duration was estimated as the time between the first point before reaching the half&#8208;maximum of the peak in the ascending phase, and the first point after the half&#8208;maximum in the descending phase.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19405</offset>
+      <text>Amplitude of 1st ERK activity peak in response to different sustained or pulsed GF stimulation experiments. Notched boxplots of 1st ERK activity peak amplitude with median, interquartile range (box), and data within 1.5 IQR range of the lower and upper quartiles (whiskers) are shown (n&#160;=&#160;20 cells per experiment).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19722</offset>
+      <text>Duration of 1st ERK activity peak in response to sustained and pulsed GF stimulation. Boxplots of 1st ERK activity peak duration with median, interquartile range (box), and data within 1.5 IQR range of the lower and upper quartiles (whiskers) are shown (n&#160;=&#160;20 cells per experiment).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20008</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20011</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20063</offset>
+      <text>To explore the timescale at which adaptation occurs, we retriggered ERK activity by a delayed, 2nd 3&#8242; EGF or NGF pulse, which only can induce adaptive ERK activity transients. Retriggering after a 3&#8242; delay, when ERK activity still peaked, did not affect ERK activation kinetics (Fig&#160;4A). Retriggering after a 10&#8242; delay, when ERK activity already displayed significant desensitization, led to a 2nd ERK activity peak of lower amplitude (Fig&#160;4B). Retriggering after a 20&#8242; delay, when adaptation had occurred, enabled a 2nd activity peak of similar amplitude as the 1st one (Fig&#160;4C). For both EGF and NGF, the MAPK network structure therefore makes ERK refractory to re&#8208;activation until adaptation has occurred.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20785</offset>
+      <text> ERK activity responses to multiple GF pulses</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20831</offset>
+      <text>Double&#8208;pulse GF experiments. (A) 3&#8242; GF/3&#8242; pause/3&#8242; GF. (B) 3&#8242; GF/10&#8242; pause/3&#8242; GF. (C) 3&#8242; GF/20&#8242; pause/3&#8242; GF. Cell&#8208;averaged ERs, population average, and StDev range for n&#160;=&#160;10 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21037</offset>
+      <text>Multi&#8208;pulse GF experiments. Population average ERs (n= at least 30 cells) for different EGF/NGF dosages. (D) 3&#8242; GF/3&#8242;pause. (E) 3&#8242; GF/10&#8242; pause. (F) 3&#8242; GF/20&#8242; pause. (G) 3&#8242; GF/60&#8242; pause.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21242</offset>
+      <text>Decay kinetics of ERK activity maxima from (D&#8211;G). Boxplots with median, interquartile (box), and 1.5 IQR (whiskers) range are shown for at least n&#160;=&#160;30 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21405</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21408</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21460</offset>
+      <text>In addition to the feedback loops to upstream components that operate on timescales of minutes, ERK also induces expression of dual&#8208;specificity phosphatases (DUSPs) which negatively regulate ERK on a timescale of hours (Patterson et&#160;al, 2009). Consistently, evaluation of ERK activity trajectories for 5&#160;h after sustained GF stimulation displayed a global long&#8208;term trend to ERK adaptation for both EGF and NGF at high and low dosages (Appendix&#160;Fig S4). The heterogeneity inherent to these ERK responses makes it difficult to discern any patterns of regulation operating at the hour timescale. We therefore reasoned that repeatable GF pulses could trigger multiple ERK activity transients homogeneously across the cell population, as the refractory periods effectively reduced noise. Such a pulsing input might therefore provide a robust readout for long&#8208;term, hour&#8208;scale feedback loops. We therefore evaluated 3&#8242; GF multi&#8208;pulse regimes with varying pause duration and GF dosages (Fig&#160;4D&#8211;G, single&#8208;cell trajectories shown in Appendix&#160;Fig S5 and Video EV3). A high&#8208;dosage EGF, 3&#8242; GF/3&#8242; pause multi&#8208;pulse regime led to a robust single ERK activation peak that rapidly subsided, while the identical NGF pulse regime exhibited diminished ERK desensitization (Fig&#160;4D). The 3&#8242;/10&#8242; and 3&#8242;/20&#8242; regimes triggered well&#8208;resolved ERK activity transients whose amplitude diminished over time, to a higher extent for EGF than for NGF (Fig&#160;4E and F, and Video EV4). Lower desensitization appeared for the low versus the high EGF dosages, while this difference was much smaller for high and low NGF dosages (Fig&#160;3D&#8211;F). The 3&#8242;/60&#8242; regimes did not lead to pronounced long&#8208;term ERK activity desensitization (Fig&#160;3G). Figure&#160;3H quantifies the hour&#8208;scale decay of ERK activity maxima. These results clearly identify distinct hour&#8208;scale negative feedbacks that depend on GF concentration and identity and that are not distinguishable using sustained GF stimulation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23460</offset>
+      <text>Modeling MAPK network structure</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23492</offset>
+      <text>Dynamic responses of the MAPK signaling to sustained GF stimulations have been extensively modeled in the literature (Kholodenko, 2000, 2006; Santos et&#160;al, 2007; von Kriegsheim et&#160;al, 2009; Kholodenko et&#160;al, 2010; Nakakuki et&#160;al, 2010). Our dynamic probing of ERK signaling using GF pulses in single living cells provides for a unique opportunity to calibrate the models to a much higher detail and study the dynamics at temporal scales inaccessible through standard population&#8208;averaged measurements. This allowed us to refine established models by incorporating novel feedback and crosstalk structures that are required to explain the salient features identified in our experiments (Fig&#160;5A). Our core model consists of the classic Raf/MEK/ERK cascade with a short&#8208;term (on the timescale of minutes) negative feedback from ERK to Raf that acts for both EGF and NGF stimulations, and a short&#8208;term positive feedback from ERK to Raf only during NGF stimulation (Santos et&#160;al, 2007). An additional negative feedback via the expression of DUSPs that inactivate ERK through dephosphorylation operates on the timescale of hours (Nakakuki et&#160;al, 2010; Fey et&#160;al, 2012) (Fig&#160;5A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24678</offset>
+      <text>Deterministic and semi&#8208;deterministic modeling of sustained and pulsed GF stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24765</offset>
+      <text>Model topology scheme. Asterisks indicate active proteins. Blue/red colors indicate wiring in response to EGF/NGF stimulation. &amp;: feedback loop integration, &#248;:&#160;synthesis and degradation, NFB/PFB: protein mediating negative/positive feedback.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25009</offset>
+      <text>Deterministic modeling of sustained and 3&#8242; pulse GF stimulation. Normalized, averaged ER trajectory from EKAR2G ERK activity measurements with means (dots) and StDev (error bars) are shown in red. Simulated ERK activity (ERK*) curves are shown in blue. Black line represents GF stimulation input. The model was simulated with a single parameter set (Appendix&#160;Table&#160;1). Sustained and 3&#8242; pulse GF stimulation ERK activity trajectories are from Fig 2 and Fig 3A and C, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25495</offset>
+      <text>An ensemble of cells was modeled by randomly distributing the parameter values for all kinase, feedback protein, and phosphatase concentrations according to a lognormal distribution shown in (C). Each individual cell is characterized by slightly different parameter values as illustrated in (D), where each column corresponds to one cell.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25834</offset>
+      <text>Ensemble modeling of ERK activation dynamics in response to 3&#8242;/10&#8242; pulsed or sustained, high&#8208; and low&#8208;dosage GF stimulation. An ordinary differential equation&#160;(ODE) model was run 1,000 times with total signaling component concentrations drawn from the log&#8208;normal distribution shown in (C). (E) EGF, (F) NGF.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26153</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26156</offset>
+      <text>Two extensions of the core model are critical for explaining the salient features revealed by our pulsing experiments. First, in the 3&#8242;/3&#8242;, 3&#8242;/10&#8242;, and 3&#8242;/20&#8242; multi&#8208;pulse EGF regimes, we observed that the high&#8208; and low&#8208;dosage EGF responses diverge for the later time points even though the 1st ERK activity peak amplitudes are identical (e.g., the 1st 20&#8242;) (Fig&#160;4D&#8211;G). It is well established that ERK desensitization in response to EGF is caused by the activation of negative feedback loops (Santos et&#160;al, 2007; Fritsche&#8208;Guenther et&#160;al, 2011; Fey et&#160;al, 2012). However, the fact that the 1st ERK activity peaks are identical in response to the different EGF dosages implies that negative feedback alone cannot account for the observed long&#8208;term differences&#8212;a pure feedback mechanism exclusively depending on ERK would be activated to the same amount. Thus, we explicitly introduced an additional feed&#8208;forward component, NFB, whose activation depends on both active ERK and receptor activity (Fig&#160;5A). Second, we observed that a high&#8208;dosage 10&#8242; NGF pulse elicited sustained ERK activity in a cell subpopulation, suggesting the presence of bistability (Fig&#160;3B, Appendix&#160;Fig S3). In contrast, high&#8208; and low&#8208;dosage 3&#8242; NGF and low&#8208;dosage 10&#8242; NGF single pulses only elicited transient, adaptive ERK activity profiles throughout the cell population (Fig&#160;3A&#8211;D). Considering that all pulsed NGF stimulation conditions led to an identical 1st ERK activity peak implies the existence of (i) a slight delay in the activation of the NGF&#8208;evoked positive feedback and (ii) an additional regulation of the ERK&#8208;Raf positive feedback strength, which would explain the induction of adaptive or sustained ERK activation. In the model, we accounted for the delay by including a positive feedback component, PFB, with kinetics on the observed timescales, and made the activation of this component dependent on receptor activity (Fig&#160;5A). Note that the slight delay is caused implicitly by the activation of this feedback component, which takes time, not by introducing an explicit delay equation. A detailed account of all reactions and equations of the model is provided in Appendix&#160;Table&#160;S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28389</offset>
+      <text>Benchmarking model simulations against experimental data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28446</offset>
+      <text>To validate our model, we benchmarked simulated GF&#8208;evoked ERK activity outputs against experimental data. Using a purely deterministic approach with a fixed parameter set, our model captured the average behavior of the measured ERK activity trajectories in response to both sustained and 3&#8242; pulse EGF and NGF stimulation (Fig&#160;5B). However, the simulations fitted the experimental population average much better in case of a 3&#8242; pulse than sustained GF stimulation. The reason being that sustained stimulation induces highly heterogeneous cell responses that deterministic modeling cannot account for. In contrast, cell responses due to a 3&#8242; GF pulse are more homogeneous and hence better represented by the population average.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29181</offset>
+      <text>To take into account cell heterogeneity, we performed semi&#8208;deterministic modeling that was based on the same deterministic equations, but with individual cells simulated with total protein concentrations of signaling components randomly chosen from a log&#8208;normal distribution that corresponds to the distribution of protein abundances across the cell population (Fig&#160;5C and D). Specifically, we sought to explain the emergence of sustained ERK activation in response to a 10&#8242; high&#8208;dosage NGF pulse in a cell subpopulation, versus the population&#8208;homogeneous, transient responses observed in all other EGF/NGF pulsed stimulation conditions (Fig&#160;3A&#8211;D). Simulating the ensemble model mimicked the experimental data in all the single EGF and NGF pulse conditions tested (Fig&#160;5E and F). In the case of the 10&#8242; NGF pulse, k&#8208;means clustering of simulated ERK activity trajectories indicated a correlation between initial ERK peak activity amplitude, and sustained ERK&#160;activity response (Appendix&#160;Fig S6), which recapitulated our experimental data (Appendix&#160;Fig S3). In contrast, low initial ERK peak activity amplitude led to adaptation. This suggests that differences in signaling component expression levels across the population might induce some cells to display high initial ERK peak activity leading to sufficiently strong positive feedback to induce bistable ERK activation (Ferrell &amp; Machleder, 1998; Santos et&#160;al, 2007). However, the inability of the system to sustain bistability over time can be explained by the slow&#8208;acting, DUSP&#8208;catalyzed ERK dephosphorylation. Removing ERK&#8208;induced DUSP expression from the model enabled robust bistable ERK activation. Together, these results show that, depending on the heterogeneity in abundance of signaling component in different cells of the population, the network is capable of inducing adaptive and sustained ERK activity outputs in response to a transient NGF stimulus. We also modeled sustained GF stimulation using semi&#8208;deterministic modeling and found that our model captured several aspects of our experimental datasets (Fig&#160;5E and F). The model captured the emergence of more sustained ERK activity trajectories in cells stimulated with low versus high EGF concentrations, which arises through modulation of negative feedback through receptor activity (compare distributions of simulated ERK activity trajectories in Fig&#160;5E with experimental ones in Fig&#160;2B). These results again show that heterogeneity in abundance of signaling components leads to emergence of distinct cell behaviors in the population.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31773</offset>
+      <text>To confirm that our proposed model structure did not contain unnecessary regulatory elements, we benchmarked simulations from alternative model structures against experimental data. A model in which the feed&#8208;forward crosstalk was removed could not explain the differences between the low and high NGF dosage, 10&#8242; pulse stimulations (Fig&#160;EV3A and B). A model in which the delay introduced by the negative feedback component and the feed&#8208;forward crosstalk have been removed by making the Raf activation directly dependent on active ERK could not explain the differences between the 3&#8242; and 10&#8242; pulse stimulations (Fig&#160;EV3C and D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32413</offset>
+      <text>Semi&#8208;deterministic modeling of pulsed GF stimulation using alternate models</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32491</offset>
+      <text>Scheme&#160;of a model variant without receptor crosstalk.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32546</offset>
+      <text>Simulated ERK* trajectories in response to the indicated NGF stimulation schemes according to variant model shown in (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32668</offset>
+      <text>Scheme&#160;of a model variant with no delay and no receptor crosstalk.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32736</offset>
+      <text>Simulated ERK* trajectories in response to the indicated NGF stimulation schemes according to variant model shown in (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32858</offset>
+      <text>Ensemble modeling of 3&#8242; or 10&#8242; EGF and NGF pulses with variant models was performed. An ordinary differential equation&#160;(ODE) model was run 1,000 times with total signaling component concentrations drawn from the log&#8208;normal distribution shown in Fig&#160;5C. Model parameters are the same as in the full model.   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33174</offset>
+      <text>We then used deterministic modeling to benchmark our model against the GF multi&#8208;pulse experimental datasets, in which homogeneous cell responses are faithfully reflected by the population average. Consistently, the deterministic model calibrated to population&#8208;averaged time courses replicated the multi&#8208;pulse experiments (Fig&#160;6A). This captured the different hour&#8208;scale ERK activity amplitude decays observed experimentally in response to different GFs and dosages (Fig&#160;4D&#8211;G), which can be explained by ERK&#8208;induced expression of DUSP phosphatases, producing a slow&#8208;acting negative feedback dephosphorylating ERK. To further test the relevance of the DUSP module, we removed it from the network and observed a loss of long&#8208;term adaptive behavior (Fig&#160;EV4A and B). The observation that 3&#8242;/3&#8242;, 3&#8242;/10&#8242;, and 3&#8242;/20&#8242; EGF multi&#8208;pulse regimes caused the stronger decay of the ERK activity amplitudes at high versus low EGF dosages arises from the regulation of the negative feedback strength by the receptor activity. Consistently, a model in which this interaction is removed failed to explain the decrease of ERK activity peak amplitude observed in response to high versus low EGF dosage (Fig&#160;EV4C and D). In particular, the loss of explanatory power in this model could not be recovered by changing the values of the negative feedback parameter.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34548</offset>
+      <text>Modeling of multi&#8208;pulse GF stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34589</offset>
+      <text>Deterministic modeling of responses to multi&#8208;pulse EGF/NGF stimulation at different dosages.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34684</offset>
+      <text>Integral of ERK activity in response to different pulse/pause regimes calculated from the ODE model for a duration of 60&#8242;, 90&#8242; after GF stimulation. White dots indicate conditions, for which cell differentiation is evaluated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34914</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34917</offset>
+      <text>Deterministic modeling of multi&#8208;pulse&#8208;induced ERK activation dynamics using alternate models</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35014</offset>
+      <text>Scheme&#160;of a model variant in which the DUSP module has been removed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35084</offset>
+      <text>Simulated ERK* trajectories showing a comparison of the full model (control, green) with the model lacking DUSP induction (no DUSP, blue). Results for high (left panels) and low (right panels) EGF dosages are shown. Rows correspond to different stimulation patterns: sustained GF stimulation, 3&#8242;/3&#8242;, 3&#8242;/10&#8242;, 3&#8242;/20&#8242;, and 3&#8242;/60&#8242; multi&#8208;pulse regimes. Much lower long&#8208;term decay is observed in the model in which the DUSP module was removed in the multi&#8208;pulse experiments. Parameters of the model with and without DUSP induction are the same as in the full model.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35666</offset>
+      <text>Scheme&#160;of a model variant in which the feed&#8208;forward crosstalk to the ERK&#8208;Raf negative feedback loop has been removed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35789</offset>
+      <text>Simulated ERK* trajectories. Rows correspond to different stimulation patterns: sustained GF stimulation, 3&#8242;/3&#8242;, 3&#8242;/10&#8242;, 3&#8242;/20&#8242;, and 3&#8242;/60&#8242; multi&#8208;pulse regimes. No dose&#8208;dependent differences are observed. Columns correspond to different parameter values for the negative feedback strength, demonstrating that this result is robust. All parameters, except k3_F, are the same as in the full model.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36205</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36208</offset>
+      <text>We also explored the potential involvement of EGF receptor internalization&#160;and degradation (Avraham &amp; Yarden, 2011), to test&#160;whether this process could be involved in the long&#8208;term desensitization observed in high versus low EGF dosages in multi&#8208;pulse experiments. We therefore removed the receptor crosstalk to the negative feedback and replaced it by explicitly modeling receptor degradation and internalization using a range of degradation parameter rates (Fig&#160;EV5). We found that blocking internalization or changing internalization/degradation rates affected ERK activation dynamics in multi&#8208;pulse experiments, but in an EGF dosage&#8208;independent fashion. Thus, EGF receptor internalization/degradation cannot account for the ERK activity responses we observe experimentally.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36997</offset>
+      <text>Deterministic modeling of multi&#8208;pulse&#8208;induced ERK activation dynamics using alternate models&#8212;model variant that features receptor internalization and degradation instead of a feed&#8208;forward loop onto the negative feedback</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37225</offset>
+      <text>Scheme&#160;of the alternative model. The receptor is synthesized and degraded with a half&#8208;life of 8&#160;h. After activation by binding EGF, the receptor is internalized (0.22 min&#8722;1) and recycled (reverse rate is 20% of the forward rate). The internalized receptor is degraded much faster than the non&#8208;internalized receptor (indicated by T 1/2). All parameters, except T 1/2, are the same as in the full model.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37635</offset>
+      <text>Simulated changes in the total receptor levels R total&#160;=&#160;R&#160;+&#160;R*&#160;+&#160;R i* in response to constant stimulation with EGF for different parameter values for the half&#8208;life of the internalized receptor T 1/2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37844</offset>
+      <text>Simulated ERK* trajectories in response to different stimulation patterns. From top to bottom: sustained GF stimulation, 3&#8242;/3&#8242;, 3&#8242;/10&#8242;, 3&#8242;/20&#8242;, and 3&#8242;/60&#8242; multi&#8208;pulse regimes. No notable dose&#8208;dependent differences are observed. Columns correspond to different parameter values for the half&#8208;life of the internalized receptor T 1/2, demonstrating that this result is robust.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38239</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38242</offset>
+      <text>Finally, because a receptor activity&#8208;dependent, feed&#8208;forward component that modulates the strength of the positive feedback (Fig&#160;5A) was important to explain both the heterogeneous, adaptive, or bistable ERK activation responses in response to single NGF pulses (Fig&#160;5C&#8211;F), as well as the NGF multi&#8208;pulse datasets (Fig&#160;6A), we analyzed it more in detail. More specifically, we explored different modalities, linear dependency versus hill&#8208;shaped kinetics, for&#160;modeling the strength of this feed&#8208;forward component (Appendix&#160;Note 1). We observed that these different modeling modalities did not affect the output of model&#8208;simulated ERK activity trajectories in response to both single 3&#8242; and 10&#8242; single high&#8208; and low&#8208;dosage NGF pulses, as well as our multi&#8208;pulse datasets (Appendix&#160;Fig S7). Together, our combined experimental/modeling approach strongly supports the proposed structure of our model.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39169</offset>
+      <text>Rewiring cell fate using pulsed GF stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39216</offset>
+      <text>The integrated ERK activity over time, ERKINT, has been correlated with cell fate determination in different cell systems (Murphy et&#160;al, 2002; Santos et&#160;al, 2007; Albeck et&#160;al, 2013; Aoki et&#160;al, 2013). We reasoned that synthetic GF multi&#8208;pulse regimes might precisely manipulate duration of ERK signaling, and ultimately the differentiation fate. Using our model, we predicted temporal GF pulse/pause regimes that optimize ERKINT levels (Fig&#160;6B), and found that distinct GF pulse regimes lead to different ERKINT levels. Long&#8208;term EKAR2G imaging induced phototoxicity that hampered differentiation, precluding direct ERKINT/differentiation correlation at a single&#8208;cell level. We therefore subjected cells to different pulse regimes for 13&#160;h followed by additional 24&#160;h in GF&#8208;free medium, and quantified steady&#8208;state neurite outgrowth as a measure of differentiation (Fig&#160;7A and B) using an automated neurite/soma segmentation algorithm (Appendix&#160;Fig S8A). Statistical analysis of this dataset is also shown (Appendix&#160;Fig S8B). As expected, sustained EGF and NGF stimulation, respectively, led to undifferentiated and differentiated states. 3&#8242;/3&#8242;, 3&#8242;/10&#8242;, 3&#8242;/20&#8242; high NGF dosage multi&#8208;pulse regimes led to a statistically significant increase in differentiation compared to sustained NGF stimulation, while the 3&#8242;/60&#8242; regime did not lead to differentiation at all. While not as robust as NGF in terms of neurite length (and thus differentiation ratio), we found that 3&#8242;/10&#8242; and 3&#8242;/20&#8242;, but not 3&#8242;/3&#8242; nor 3&#8242;/60&#8242;, high and low EGF dosage multi&#8208;pulse regimes induced a potent differentiated state. However, neither sustained application of low NGF nor a 3&#8242;/10&#8242; low NGF multi&#8208;pulse regime led to robust differentiation, despite the fact that these stimulation protocols lead to similar ERKINT levels than with high NGF dosage. This suggests that high NGF dosage is required to trigger additional signaling pathways that are important for neuronal differentiation and/or survival. Our experiments show that, except for low NGF concentrations, model&#8208;predicted ERKINT optimization using synthetic EGF or NGF multi&#8208;pulse regimes with&#160;specific frequencies lead to robust differentiation. In the case of&#160;EGF, such frequency&#8208;modulated synthetic multi&#8208;pulse regimes therefore convert a proliferation into a differentiation signal, and allow for control of cell fate independently of GF identity. Maintenance of sustained ERK activity through synthetic multi&#8208;pulse regimes most&#160;likely enables for IEG product stabilization through their phosphorylation that can then instruct the differentiation fate (Murphy et&#160;al, 2002; Nakakuki et&#160;al, 2010). The loss of any differentiation in&#160;response to stimulation with 60&#8242;&#8208;spaced adaptive ERK activity transients can be explained by the very short&#8208;lived nature of IEG mRNAs and proteins (Murphy et&#160;al, 2002; Avraham &amp; Yarden, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42160</offset>
+      <text>Manipulation of ERK activation dynamics rewires cell fate</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42218</offset>
+      <text>Representative micrographs of tubulin&#8208;stained PC&#8208;12 NS&#8208;1 subclone cells stimulated with sustained and multi&#8208;pulse GF regimes. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42375</offset>
+      <text>Quantification of neuronal differentiation fate. (B) Total neurite outgrowth per cell normalized to the major axis length of cell soma for sustained and multi&#8208;pulse GF regimes. (C) Differentiation ratio calculated as the fraction of cells with normalized total neurite outgrowth per cell larger than 1. At least 5,000 cells quantified in at least 2 independent experiments for each condition. Boxplots with median, interquartile (Box), and 1.5 IQR (Whiskers) are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42847</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42850</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42861</offset>
+      <text>We show that the classically studied EGF&#8208;triggered transient and NGF&#8208;triggered sustained ERK activation dynamics are highly heterogeneous when single cells within a population are analyzed. Our single&#8208;cell measurement approach therefore clearly enhances previous models based on cell population averages (Marshall, 1995; Santos et&#160;al, 2007; von Kriegsheim et&#160;al, 2009; Shin et&#160;al, 2009; Nakakuki et&#160;al, 2010). Important problems encountered with sustained growth factor application are that heterogeneous ERK activity dynamics responses preclude the use of deterministic modeling, and do not allow us to properly evaluate MAPK network properties such as adaptation and bistability. Dynamically probing the MAPK signaling flux by applying pulsed growth factor inputs solves both issues. This allowed us to uncover novel features of the MAPK network topology that consists of different feedback and feed&#8208;forward loops acting at different timescales.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43821</offset>
+      <text>Our study clearly indicates the existence of feed&#8208;forward networks by which receptor activity regulates the strength of the positive and negative feedback loops to fine&#8208;tune ERK activity. This is consistent with a recent report in which EGF&#8208;triggered ERK dynamics regulating cell cycle entry required receptor&#8208;dependent signaling events in addition to the feedback loops operating within the core Ras&#8208;Raf&#8208;MEK&#8208;ERK cascade (Sparta et&#160;al, 2015). The most likely candidate feed&#8208;forward mechanisms that impinges on the positive feedback loop from ERK to Raf involves protein kinase C (Santos et&#160;al, 2007) and PLC&#947; (von Kriegsheim et&#160;al, 2009). For the negative feedback loop, candidates include the phosphorylation of&#160;Raf at inhibitory sites and the action of as of yet unidentified kinases (reviewed in (Matallanas et&#160;al, 2011)), or the AKT&#8208;mediated disruption of the PEA&#8208;15&#8211;ERK complex, which is part of the NGF differentiation program (von Kriegsheim et&#160;al, 2009). Concerning the latter, release from the PEA&#8208;15 complex would relieve competitive inhibition and allow ERK to phosphorylate several upstream negative feedback sites. Furthermore, recent proteomic analysis of the dynamic, EGF&#8208;triggered, interactome of the adaptor Shc1 (Zheng et&#160;al, 2013) has identified a temporally regulated AKT feedback phosphorylation of Shc that recruits the tyrosine phosphatase Ptpn12, ultimately leading to EGF receptor dephosphorylation, Grb2 dissociation, and signal termination. All these possibilities provide attractive means to translate strength of receptor activity into modulation of negative and positive feedback, and will have to be systematically studied in the future.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45524</offset>
+      <text>One important insight enabled by our study is that EGF solely leads to adaptive ERK activation (in the absence of continuous signaling input), while NGF can generate both adaptive and bistable outputs depending on growth factor input strength/duration and on population signaling heterogeneity. The latter feature possibly arises from stochastic expression levels of signaling components as shown by our modeling studies. As previously proposed (Chen et&#160;al, 2012), this might enable the MAPK network to maintain a homeostatic balance of cell fates in response to NGF, preventing excessive proliferation or differentiation, which would be detrimental to multicellular organisms.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46203</offset>
+      <text>We also find that re&#8208;triggering the MAPK network multiple times, while maintaining it in an adaptive regime, homogenizes the signaling state across the cell population. This proved essential to uncover feedback signaling mechanisms that occur on hourly timescales that are difficult to discern in heterogeneous cell responses in response to sustained growth factor stimulation. Based on our enhanced model of the MAPK signaling network, optimization of integrated ERK activity by delivery of GF pulse regimes at specific frequencies can then be used to efficiently rewire cell fate decisions independently of GF identity, in the absence of any drugs or gene perturbations. Thus, stimulation with EGF pulses delivered at the required frequency to optimize integrated ERK activity leads to differentiation rather than proliferation. This might have a number of biotechnological applications. However, we also found that in some instances, GF pulsing schemes that lead to identical integrated ERK activity do not necessarily lead to the same level of differentiation (Fig&#160;7, high versus low NGF dosages). Not surprisingly, this suggests that depending on the GF, additional signaling networks than ERK are important for cell fate decisions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47444</offset>
+      <text>We foresee that our pulsed growth factor stimulation strategy, which allows us to bypass cellular heterogeneity, probe for specific network properties, and identify feedback loops that operate at different timescales, will be a powerful tool to identify the precise molecular circuitry in the MAPK network, when combined with perturbation approaches.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>47795</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47817</offset>
+      <text>Cell culture and generation of stable cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47866</offset>
+      <text>PC&#8208;12 (American tissue culture collection) and its Neuroscreen&#8208;1 subclone (a kind gift from Tobias Meyer) cells were cultured in DMEM (Sigma, Germany) supplemented with 10% horse serum, 5% fetal bovine serum, and 1% penicillin/streptomycin. Cells were tested for mycoplasma contamination using polymerase chain reaction&#8208;based kits. Cells were cultured on 50&#160;&#956;g/ml collagen solution from bovine skin (Sigma, Germany). For that purpose, tissue culture dishes (BD falcon, USA) were collagen&#8208;coated at room temperature for 30&#160;min before cell seeding. At 70% confluence, cells were gently detached using a Cell scraper and passaged. Due to their decreased propensity to aggregate, Neuroscreen&#8208;1 cells were used in experiments in which cell fate was analyzed. This greatly facilitated neurite outgrowth analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48686</offset>
+      <text>For stable cell line generation, we produced lentiviral particles expressing the ERK activity biosensor EKAR2G1 (Fritz et&#160;al, 2013). Briefly, HEK293 FT cells (Invitrogen) were transfected with lentiviral and packaging constructs. Supernatant was then collected and concentrated using a Lenti&#8208;X Concentrator Kit (Clontech). PC&#8208;12 cells were infected and selected with 0.5&#160;&#956;g/ml puromycin until a stable cell population appeared. Cells were subsequently cultured in the presence of 0.5&#160;&#956;g/ml puromycin, which was removed before imaging experiments. PC&#8208;12/EKAR2G cells were used for imaging ERK activation dynamics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49310</offset>
+      <text>Construction and handling of microfluidic devices</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49360</offset>
+      <text>We used a modified version of a previously described microfluidic circuit to apply chemokine gradient to cells (Lee et&#160;al, 2012). Slight modifications of the construction of the microfluidic circuit allowed us to deliver GF pulses. The microfluidic silicon master was replicated from a silicon wafer with SU&#8208;8 microstructures. The silicon master mold was composed of two 40&#8208;&#956;m&#8208; and 100&#8208;&#956;m&#8208;thick layers of photoresist. First, the plasma&#8208;treated silicon wafer was spin&#8208;coated with SU&#8208;8 100 (Microchem, USA) negative thick photoresist until a height of 40&#160;&#956;m was achieved. After baking at 65&#176;C for 5&#8242; and 95&#176;C for 20&#8242;, the wafer was exposed to 405&#8208;nm ultraviolet light (Shinu MST, Korea) with a 250&#8208;mJ dose and masked by the negative film mask (Han&amp;All Tech, Korea). After this 1st round of exposure, the wafer was baked again at 65&#176;C for 1&#8242; and 95&#176;C for 10&#8242;. SU&#8208;8 developer (Microchem, USA) was then used to remove the unexposed part of the photoresist. For deposition of the 2nd photoresist layer, the film mask for the second master was correctly positioned using the alignment pattern on the first layer of the wafer. The photoresist for the second layer was then spin&#8208;coated until a 100&#8208;&#956;m thickness was achieved. The wafer was baked at 65&#176;C for 10&#8242; and 95&#176;C for 30&#8242; and exposed to 500&#160;mJ of 405&#8208;nm UV light. After a final baking step at 65&#176;C for 1&#8242; and 95&#176;C for 10&#8242;, the wafer was dipped into the developer, and baked to evaporate the residual solvents on the top.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50887</offset>
+      <text>Poly&#8208;dimethylsilosane (PDMS) was used to replicate the master. The precursor (Sylgard 184, Dow Corning) was mixed at a 10:1 ratio and degassed in a vacuum chamber for 5&#160;min. About 7&#160;g precursor was then poured on the top of the master, and solidified at 80&#176;C in a dry oven for 30&#8242;. The plastic reservoir from a 8&#8208;well strip (Evergreen sci, USA) was then glued on top of the microfluidic device using precursor. These reservoirs contain the medium and growth factors and allow us to connect the microfluidic device to the ONIX pressure pump (Millipore). An additional layer of 30&#160;g of precursor was added to seal the plastic reservoir. As shown in Fig&#160;1C, the PDMS replica was cut and punched. Plasma treatment was used to bond the PDMS replica to the coverslip (Tasumi, Japan) to allow proper&#160;sealing that resists the high&#8208;pressure applied during the experiments. To enhance the bonding strength, the device was heated for 5&#160;min in a 80&#176;C dry oven. After bonding, the device was immediately filled with PBS.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51911</offset>
+      <text>The microfluidic devices were coated using 50&#160;&#956;g/ml of collagen overnight at 4&#176;C. Before cell seeding, devices were rinsed with PBS. PC12/EKAR2G or NS&#8208;1 cell suspensions were prepared at a concentration of 2&#160;&#215;&#160;106 cells/ml. 50&#160;&#956;l of this cell suspension was added in the outlet and aspirated with a pipette from the cell reservoir inlet port (Fig&#160;1C). After a 30&#8242; incubation, residual cells in the outlet were removed by aspiration and the medium was replaced. Prior experiments, the cells were starved in DMEM containing 1,000&#160;mg/ml glucose, 1% horse serum, and penicillin/streptomycin. Note that the flow is constant throughout the live cell experiments. This implies that after shear stress adaptation, GF&#8208;induced signaling responses can be reliably measured. Furthermore, there is a limit to the minimal GF pulse time that can be applied. Pulses that stably last less than 60&#160;s require an amount of flow that will lead to cell detachment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52871</offset>
+      <text>Live cell imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52889</offset>
+      <text>All FRET ratio&#8208;imaging experiments were performed on an epifluorescence Eclipse Ti inverted fluorescence microscope (Nikon) with a Plan Apo air 20&#215; (NA 0.75) objective controlled by Metamorph software (Molecular Devices). Laser&#8208;based autofocus was used throughout the experiments. Image acquisition was performed with a Hamamatsu Orca R2 camera at a 16&#8208;bit depth. Donor, FRET, and red channel images (to visualize an Alexa546&#8208;dextran that indicates GF exposure) were acquired sequentially using filter wheels. The following excitation, dichroic mirrors, and emission filters (Chroma) were used: donor channel: 430/24&#215;, Q465LP, 480/40&#160;m; FRET channel: 430/24&#215;, Q465LP, 535/30&#160;m; and mCherry channel: ET572/35, 89006bs, 632/60&#160;m (for dextran imaging). Standard exposition settings were used throughout the experiments. 440&#8208;nm (donor and FRET channel excitation) and 565&#8208;nm (red dextran) LED lamps were used as light sources (Lumencor Spectra X light engine), with 1.1% (440&#160;nm) and 1.5% (565&#160;nm) of lamp power. Acquisition times were 300&#160;ms for donor channel and 300&#160;ms for FRET at binning 2&#160;&#215;&#160;2. Cells were imaged in DMEM with 1,000&#160;mg/ml glucose, 1% horse serum, and penicillin/streptomycin, at 37&#176;C. The microfluidic device was mounted on the microscope stage and was connected by the tubing to the ONIX pump.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54227</offset>
+      <text>FRET ratio image analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54253</offset>
+      <text>FRET ratio images produced with the EKAR2G biosensor were analyzed using a combination of ImageJ and Metamorph. Donor and FRET images were background&#8208;subtracted image by image. The FRET was divided by the donor channel, and multiplied by 1,000 to produce a 16&#8208;bit ratio image using the imageJ &#8220;calculator plus&#8221; plugin. The stacked ratio images were then transferred to Metamorph. Each cell was then segmented based on time averaged stack that provides a &#8220;footprint mask&#8221; for cellular movement of each cell, and stacks for each individual cells were created. Cell aggregates were manually segmented and discarded. The average ratio of each cell through time was measured using ImageJ, and saved in text files. Since every experiment involved a 2&#8208;h initial period to stabilize cells to shear stress, we set the average intensity of 5 time points around 80&#8242; after the flow has been switched on as the basal level ERK activation for normalization. The Alexa546&#8208;dextran channel was stacked and profiled through time to verify the accuracy of temporally defined growth factor exposure in the cell chamber of microfluidic device.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55394</offset>
+      <text>NS&#8208;1 differentiation experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55429</offset>
+      <text>Prior to the differentiation experiments in microfluidic devices, cells were starved for 6&#160;h. About 200&#160;&#956;l of GF&#8208;containing medium was then added to one of the input reservoirs (Fig&#160;1C). To prevent evaporation, the cell inlet port was sealed using adhesive plastic. The microfluidic devices were connected through a syringe connector to an ONIX pressure pump (Millipore, USA). Differentiation experiments were performed in a table&#8208;top small incubator with connection ports (Galaxy, Eppendorf). The output valve pressure was stabilized at 1.5 psi and different constant or pulsatile protocols were run. Each protocol included a 2&#8208;h adaptation time to flow in starvation medium, followed by 13&#160;h of sustained or pulsatile GF exposure, which was determined by changing the opening sequence of the computer&#8208;controlled pressure valve. Since there is a limitation in number of valves that could be controlled independently, we connected a 4&#8208;way conduit to each valve to maximize throughput. This strategy allowed us to use 8 valves embedded in the pump to process in 4 different microfluidic devices, ultimately allowing to perform 16 experiments simultaneously. Each chamber from a single microfluidic provided independent results for a given stimulation pattern. For each experiment, a negative (no GF) and a positive control (sustained stimulation with a GF) were included. After the 13&#8208;h GF stimulation period, devices were disconnected and incubated for an additional 24&#160;h in the incubator in starvation medium.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56958</offset>
+      <text>Cells were then fixed with PBS, 4% paraformaldehyde (fixing solution). To access cells in the microfluidic device, 50&#160;&#956;l of fixing solution was dropped on the top of the cell inlet port, inducing flow through the cell chamber. After 15&#8242;, cells were permeabilized using PBS, 0.1% Triton X&#8208;100 for 30&#8242; and blocked using PBS, 2% BSA in PBS for 15&#8242;. Cells were then incubated with an anti&#8208;alpha&#8208;tubulin (Sigma T9026, 1:1,000) antibody for 6&#160;h, washed for 30&#8242;, and incubated with an Alexa&#8208;546 anti&#8208;mouse secondary antibody (1:1,000) and DAPI for 3&#160;h. Samples were washed with PBS for 30&#8242;. DAPI and Alexa&#8208;546 images were scanned and stitched for the whole surface of each microfluidic lane using the Metamorph &#8220;scanslide acquisition&#8221; module. Identical immunofluorescence and imaging protocols were used to perform phosphoERK (1:1,000, Sigma M8159) and ERK2 (1:1,000, Sigma M7927) experiments. Secondary detection was then performed using Alexa&#8208;488&#8208; and Alexa&#8208;561&#8208;labeled antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57973</offset>
+      <text>Tubulin/DAPI&#8208;stained images from the differentiation experiments were processed using the Metamorph &#8220;Neurite Outgrowth Analysis&#8221; module (Universal Imaging). Fields of view in which a too high cell density was observed were manually erased using a mask. This allowed us to extract a number of metrics for each cell, such as total and average length of neurite outgrowth, and the number of neurites per cell. A segmented image with each cell containing an identification tag was then exported to the CellProfiler image analysis software (http://www.cellprofiler.org/) (Kamentsky et&#160;al, 2011). This was used to compute the major axis length of an ellipse fitted to the cell soma. Ultimately, this was used to compute the fraction of differentiated cells with the criterion that a cell was considered differentiated, when the total neurite outgrowth was larger than the major axis length of the soma. It is important to mention that our computer vision&#8208;based neurite outgrowth segmentation approach was much more stringent than classic &#8220;manual&#8221; evaluation using the human eye (von Kriegsheim et&#160;al, 2009). A direct comparison of the quantification of the fraction of differentiated cells between these different methods is therefore not possible.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59230</offset>
+      <text>Modeling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59239</offset>
+      <text>Based on the scheme in Fig&#160;5A, a dynamic model in terms of ordinary differential equations was derived. This model is consistent with established models in the literature (Kholodenko, 2000; von Kriegsheim et&#160;al, 2009; Nakakuki et&#160;al, 2010), which were used to compile parameter values used in this study. All phosphorylation and de&#8208;phosphorylation parameters were chosen to fit our experimental data, while adhering to biologically reasonable parameter bounds. The half&#8208;life of DUSP protein and mRNA was set to 90&#160;min, which reflects the observed long&#8208;term decay in the measured ERK activity trajectories and lies within the experimentally reported range from 7.5&#160;min to 4&#160;h (Nakakuki et&#160;al, 2010; Bermudez et&#160;al, 2011; Cagnol &amp; Rivard, 2013). EGF receptor internalization, recycling, and degradation were modeled as a two&#8208;step process using experimentally reported values for the internalization, degradation, and recycling parameters (Huang et&#160;al, 2006; Sorkin &amp; Duex, 2010). The model was implemented and simulated by numerical integration in MATLAB. A detailed account of all reactions, equations, and parameters is provided in Appendix&#160;Table&#160;S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60409</offset>
+      <text>Simulating possible alternative model structures</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60458</offset>
+      <text>Because the dynamic behavior of a model depends on its parameter values, adding or removing modules usually requires re&#8208;adjusting some parameter values in order to fit the experimental data (Conzelmann et&#160;al, 2004; Sauro &amp; Kholodenko, 2004; Del Vecchio et&#160;al, 2008; Saez&#8208;Rodriguez et&#160;al, 2008). Therefore, when adding or removing a module, we analyzed a whole range of parameters (Fig&#160;EV5). The process itself is best explained using an example: Removing the feed&#8208;forward crosstalk from the negative feedback, while keeping all parameters fixed means that the strength of the&#160;feedback has changed. There is now a strong activation of the negative feedback, resulting in only one ERK pulse in response to multi&#8208;pulse EGF stimulation (Fig&#160;EV5B, panels on the right). Quite clearly, this does not match our experimental data and we have to allow for readjustments of the negative feedback parameters. Readjusting k3 from 0.0286/min to 0.0045&#160;min recovered the observed response dynamics for low&#8208;dosage EGF stimulation (Fig&#160;EV5B, panels in the center), and readjusting to 0.001&#160;min recovered the observed trajectories for EGF high (Fig&#160;EV5B, panels on the left). However, no single parameter readjustment was able to explain low and high EGF dosage conditions simultaneously. We can conclude that the receptor crosstalk is required to explain all of our&#160;data."</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>61836</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61857</offset>
+      <text>OP, HR, and MC designed experiments. HR, MC, and YB performed and analyzed experiments. MD, DF, and BNK performed data analysis and mathematical modeling. SSL and MP provided initial design of microfluidic device. HR, MC, and NLJ designed the second&#8208;generation microfluidic device. OP, MD, and DF wrote the paper.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>62173</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62194</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>62254</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>62277</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">24489118</infon>
+      <infon key="fpage">718</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62288</offset>
+      <text>Data&#8208;driven modeling reconciles kinetics of ERK phosphorylation, localization, and activity states</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">261</infon>
+      <infon key="pub-id_pmid">23219535</infon>
+      <infon key="fpage">249</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62389</offset>
+      <text>Frequency&#8208;modulated pulses of ERK activity transmit quantitative proliferation signals</text>
+    </passage>
+    <passage>
+      <infon key="volume">52</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">540</infon>
+      <infon key="pub-id_pmid">24140422</infon>
+      <infon key="fpage">529</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62478</offset>
+      <text>Stochastic ERK activation induced by noise and cell&#8208;to&#8208;cell propagation regulates cell density&#8208;dependent proliferation</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">117</infon>
+      <infon key="pub-id_pmid">21252999</infon>
+      <infon key="fpage">104</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62603</offset>
+      <text>Feedback regulation of EGFR signalling: decision making by early and delayed loops</text>
+    </passage>
+    <passage>
+      <infon key="volume">226</infon>
+      <infon key="source">J Cell Physiol</infon>
+      <infon key="lpage">284</infon>
+      <infon key="pub-id_pmid">20665674</infon>
+      <infon key="fpage">276</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62686</offset>
+      <text>Post&#8208;transcriptional regulation of the DUSP6/MKP&#8208;3 phosphatase by MEK/ERK signaling and hypoxia</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">22114702</infon>
+      <infon key="fpage">e27823</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62786</offset>
+      <text>Linear approaches to intramolecular Forster resonance energy transfer probe measurements for quantitative modeling</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">576</infon>
+      <infon key="pub-id_pmid">22430215</infon>
+      <infon key="fpage">564</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62901</offset>
+      <text>Oncogenic KRAS and BRAF activation of the MEK/ERK signaling pathway promotes expression of dual&#8208;specificity phosphatase 4 (DUSP4/MKP2) resulting in nuclear ERK1/2 inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">209</infon>
+      <infon key="pub-id_pmid">22206868</infon>
+      <infon key="fpage">196</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>63077</offset>
+      <text>A two&#8208;dimensional ERK&#8208;AKT signaling code for an NGF&#8208;triggered cell&#8208;fate decision</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">893</infon>
+      <infon key="pub-id_pmid">20005850</infon>
+      <infon key="fpage">885</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>63166</offset>
+      <text>Dynamics and variability of ERK2 response to EGF in individual living cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="lpage">169</infon>
+      <infon key="source">Syst Biol</infon>
+      <infon key="fpage">159</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>63242</offset>
+      <text>Reduction of mathematical models of signal transduction networks: simulation&#8208;based approach applied to EGF receptor signalling</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">18277378</infon>
+      <infon key="fpage">161</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>63371</offset>
+      <text>Modular cell biology: retroactivity and insulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">280</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">898</infon>
+      <infon key="pub-id_pmid">9572732</infon>
+      <infon key="fpage">895</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>63422</offset>
+      <text>The biochemical basis of an all&#8208;or&#8208;none cell fate switch in Xenopus oocytes</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Physiol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">23060802</infon>
+      <infon key="fpage">355</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>63502</offset>
+      <text>Crosstalk and signaling switches in mitogen&#8208;activated protein kinase cascades</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21613978</infon>
+      <infon key="fpage">489</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63582</offset>
+      <text>Strong negative feedback from Erk to Raf confers robustness to MAPK signalling</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Signal</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">23882122</infon>
+      <infon key="fpage">rs12</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63661</offset>
+      <text>A versatile toolkit to produce sensitive FRET biosensors to visualize signaling in time and space</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">FEBS J</infon>
+      <infon key="lpage">3192</infon>
+      <infon key="pub-id_pmid">24848561</infon>
+      <infon key="fpage">3177</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>63759</offset>
+      <text>Fluorescence resonance energy transfer based quantitative analysis of feedforward and feedback loops in epidermal growth factor receptor signaling and the sensitivity to molecular targeting drugs</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci</infon>
+      <infon key="lpage">19269</infon>
+      <infon key="pub-id_pmid">19033456</infon>
+      <infon key="fpage">19264</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>63955</offset>
+      <text>A genetically encoded fluorescent sensor of ERK activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">4075</infon>
+      <infon key="pub-id_pmid">21807900</infon>
+      <infon key="fpage">4063</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>64012</offset>
+      <text>Spatiotemporally regulated protein kinase A activity is a critical regulator of growth factor&#8208;stimulated extracellular signal&#8208;regulated kinase signaling in PC12 cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">748</infon>
+      <infon key="pub-id_pmid">16543144</infon>
+      <infon key="fpage">737</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>64183</offset>
+      <text>Differential regulation of EGF receptor internalization and degradation by multiubiquitination within the kinase domain</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1180</infon>
+      <infon key="pub-id_pmid">21349861</infon>
+      <infon key="fpage">1179</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>64303</offset>
+      <text>Improved structure, function and compatibility for Cell Profiler: modular high&#8208;throughput image analysis software</text>
+    </passage>
+    <passage>
+      <infon key="volume">267</infon>
+      <infon key="source">Eur J Biochem</infon>
+      <infon key="lpage">1588</infon>
+      <infon key="pub-id_pmid">10712587</infon>
+      <infon key="fpage">1583</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>64419</offset>
+      <text>Negative feedback and ultrasensitivity can bring about oscillations in the mitogen&#8208;activated protein kinase cascades</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">176</infon>
+      <infon key="pub-id_pmid">16482094</infon>
+      <infon key="fpage">165</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>64538</offset>
+      <text>Cell&#8208;signalling dynamics in time and space</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">426</infon>
+      <infon key="pub-id_pmid">20495582</infon>
+      <infon key="fpage">414</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>64583</offset>
+      <text>Signalling ballet in space and time</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="lpage">1464</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">1458</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>64619</offset>
+      <text>Cell fate decisions are specified by the dynamic ERK interactome</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Integr Biol (Camb)</infon>
+      <infon key="lpage">390</infon>
+      <infon key="pub-id_pmid">22230969</infon>
+      <infon key="fpage">381</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>64684</offset>
+      <text>Quantitative and dynamic assay of single cell chemotaxis</text>
+    </passage>
+    <passage>
+      <infon key="volume">342</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1200</infon>
+      <infon key="pub-id_pmid">24311681</infon>
+      <infon key="fpage">1193</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64741</offset>
+      <text>Functional roles of pulsing in genetic circuits</text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">185</infon>
+      <infon key="pub-id_pmid">7834738</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>64789</offset>
+      <text>Specificity of receptor tyrosine kinase signaling: transient versus sustained extracellular signal&#8208;regulated kinase activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Genes Cancer</infon>
+      <infon key="lpage">260</infon>
+      <infon key="pub-id_pmid">21779496</infon>
+      <infon key="fpage">232</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>64918</offset>
+      <text>Raf family kinases: old dogs have learned new tricks</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">564</infon>
+      <infon key="pub-id_pmid">12134156</infon>
+      <infon key="fpage">556</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>64971</offset>
+      <text>Molecular interpretation of ERK signal duration by immediate early gene products</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">896</infon>
+      <infon key="pub-id_pmid">20493519</infon>
+      <infon key="fpage">884</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>65052</offset>
+      <text>Ligand&#8208;specific c&#8208;Fos expression emerges from the spatiotemporal control of ErbB network dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">418</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">489</infon>
+      <infon key="pub-id_pmid">19228121</infon>
+      <infon key="fpage">475</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>65154</offset>
+      <text>Dual&#8208;specificity phosphatases: critical regulators with diverse cellular targets</text>
+    </passage>
+    <passage>
+      <infon key="volume">152</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">956</infon>
+      <infon key="pub-id_pmid">23452846</infon>
+      <infon key="fpage">945</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>65237</offset>
+      <text>Encoding and decoding cellular information through signaling dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">i219</infon>
+      <infon key="pub-id_pmid">18689828</infon>
+      <infon key="fpage">i213</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>65307</offset>
+      <text>Automatic decomposition of kinetic models of signaling networks minimizing the retroactivity among modules</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">330</infon>
+      <infon key="pub-id_pmid">17310240</infon>
+      <infon key="fpage">324</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>65414</offset>
+      <text>Growth factor&#8208;induced MAPK network topology shapes Erk response determining PC&#8208;12 cell fate</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">373</infon>
+      <infon key="pub-id_pmid">15793571</infon>
+      <infon key="fpage">365</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>65510</offset>
+      <text>Prediction and validation of the distinct dynamics of transient and sustained ERK activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="source">Prog Biophys Mol Biol</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">15261524</infon>
+      <infon key="fpage">5</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>65603</offset>
+      <text>Quantitative analysis of signaling networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">19158341</infon>
+      <infon key="fpage">425</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>65647</offset>
+      <text>Positive&#8208; and negative&#8208;feedback regulations coordinate the dynamic behavior of the Ras&#8208;Raf&#8208;MEK&#8208;ERK signal transduction pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">125</infon>
+      <infon key="pub-id_pmid">21224886</infon>
+      <infon key="fpage">119</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>65784</offset>
+      <text>Origins of regulated cell&#8208;to&#8208;cell variability</text>
+    </passage>
+    <passage>
+      <infon key="source">Curr Protoc Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2010</infon>
+      <offset>65834</offset>
+      <text>Quantitative analysis of endocytosis and turnover of epidermal growth factor (EGF) and EGF receptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">24792</infon>
+      <infon key="pub-id_pmid">26304118</infon>
+      <infon key="fpage">24784</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65934</offset>
+      <text>Receptor&#8208;level mechanisms are required for EGF&#8208;stimulated ERK activity pulses</text>
+    </passage>
+    <passage>
+      <infon key="volume">426</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">465</infon>
+      <infon key="pub-id_pmid">14647386</infon>
+      <infon key="fpage">460</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>66016</offset>
+      <text>A positive&#8208;feedback&#8208;based bistable &#8216;memory module&#8217; that governs a cell fate decision</text>
+    </passage>
+    <passage>
+      <infon key="volume">499</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">171</infon>
+      <infon key="pub-id_pmid">23846654</infon>
+      <infon key="fpage">166</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>66109</offset>
+      <text>Temporal regulation of EGF&#160;signalling networks by the scaffold protein Shc1</text>
+    </passage>
+  </document>
+</collection>

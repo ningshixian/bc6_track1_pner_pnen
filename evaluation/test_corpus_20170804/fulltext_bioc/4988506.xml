@@ -1,0 +1,1996 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4988506</id>
+    <passage>
+      <infon key="name_2">surname:Ebner;given-names:Florian</infon>
+      <infon key="name_3">surname:Huemer;given-names:Jakob</infon>
+      <infon key="name_0">surname:Sedlyarov;given-names:Vitaly</infon>
+      <infon key="name_1">surname:Fallmann;given-names:J&#246;rg</infon>
+      <infon key="name_6">surname:Kreiner;given-names:Kristina</infon>
+      <infon key="alt-title">Vitaly Sedlyarov et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB156628</infon>
+      <infon key="name_5">surname:Ivin;given-names:Masa</infon>
+      <infon key="name_8">surname:Vogl;given-names:Claus</infon>
+      <infon key="name_9">surname:Hofacker;given-names:Ivo</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Tanzer;given-names:Andrea</infon>
+      <infon key="name_4">surname:Sneezum;given-names:Lucy</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/msb.20156628</infon>
+      <infon key="article-id_pmid">27178967</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="issue">5</infon>
+      <infon key="kwd">mRNA decay inflammation macrophage PAR&#8208;CLIP Genome-Scale &amp; Integrative Biology Methods &amp; Resources RNA Biology</infon>
+      <infon key="elocation-id">868</infon>
+      <infon key="volume">12 12</infon>
+      <infon key="article-id_pmc">4988506</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+. () : 868
+</infon>
+      <infon key="name_10">surname:Kovarik;given-names:Pavel</infon>
+      <offset>0</offset>
+      <text>Tristetraprolin binding site atlas in the macrophage transcriptome reveals a switch for inflammation&#160;resolution</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>113</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>122</offset>
+      <text>Precise regulation of mRNA decay is fundamental for robust yet not exaggerated inflammatory responses to pathogens. However, a global model integrating regulation and functional consequences of inflammation&#8208;associated mRNA decay remains to be established. Using time&#8208;resolved high&#8208;resolution RNA binding analysis of the mRNA&#8208;destabilizing protein tristetraprolin (TTP), an inflammation&#8208;limiting factor, we qualitatively and quantitatively characterize TTP binding positions in the transcriptome of immunostimulated macrophages. We identify pervasive destabilizing and non&#8208;destabilizing TTP binding, including a robust intronic binding, showing that TTP binding is not sufficient for mRNA destabilization. A low degree of flanking RNA structuredness distinguishes occupied from silent binding motifs. By functionally relating TTP binding sites to mRNA stability and levels, we identify a TTP&#8208;controlled switch for the transition from inflammatory into the resolution phase of the macrophage immune response. Mapping of binding positions of the mRNA&#8208;stabilizing protein HuR reveals little target and functional overlap with TTP, implying a limited co&#8208;regulation of inflammatory mRNA decay by these proteins. Our study establishes a functionally annotated and navigable transcriptome&#8208;wide atlas (http://ttp-atlas.univie.ac.at) of cis&#8208;acting elements controlling mRNA decay in inflammation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1531</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1544</offset>
+      <text>Regulated mRNA decay has a fundamental impact on gene expression and is indispensable for life in metazoa (Stumpo et&#160;al, 2004, 2009; Ghosh et&#160;al, 2009; Katsanou et&#160;al, 2009; Hodson et&#160;al, 2010). mRNA decay is of central importance for timing and extent of inflammatory responses and for avoiding damaging hyperinflammation (Kafasla et&#160;al, 2014). Gene&#8208;targeted animals have revealed immune system&#8208;specific functions of a number of RNA&#8208;stabilizing and RNA&#8208;destabilizing proteins (Taylor et&#160;al, 1996; Lu et&#160;al, 2006; Matsushita et&#160;al, 2009; Pratama et&#160;al, 2013; Vogel et&#160;al, 2013). The molecular mechanisms that determine how these proteins select their targets and how they regulate temporal variation in target mRNA stability remain incompletely understood.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2319</offset>
+      <text>Tristetraprolin (TTP, gene name Zfp36) is one of the most significant immune system&#8208;specific mRNA&#8208;destabilizing proteins (Blackshear, 2002). TTP contains tandem CCCH&#8208;type zinc fingers, which mediate binding to 3&#8242; untranslated regions (UTRs) of mRNA, predominantly at AU&#8208;rich elements (AREs) (Worthington et&#160;al, 2002; Blackshear et&#160;al, 2003). Binding of TTP to mRNA facilitates the recruitment of the CCR4&#8208;NOT deadenylase complex and the decapping complex (Fenger&#8208;Gron et&#160;al, 2005; Fabian et&#160;al, 2013). Recruitment of these complexes is followed by the degradation of the associated mRNAs within the microenvironment of processing bodies (Kedersha et&#160;al, 2005; Franks &amp; Lykke&#8208;Andersen, 2007). TTP targets a number of inflammation&#8208;associated mRNAs for degradation, most notably those of cytokines and chemokines (Lai et&#160;al, 2006; Emmons et&#160;al, 2008; Stoecklin et&#160;al, 2008; Kratochvill et&#160;al, 2011; Rabani et&#160;al, 2014). In agreement with this selective mRNA targeting, TTP&#8208;knockout mice are born healthy but after several weeks of life develop severe and eventually lethal inflammation of multiple organs (Taylor et&#160;al, 1996). The inflammatory phenotype can be transferred by transplantation of TTP&#8208;deficient bone marrow into wild type animals, but the specific hematopoietic lineage giving rise to the pleiotropic inflammation has not been identified (Carballo et&#160;al, 1997). Mice with LysMcre&#8208;driven TTP deletion, which ablates TTP in major myeloid cell types, are healthy despite an increased susceptibility to endotoxin shock (Kratochvill et&#160;al, 2011; Qiu et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3927</offset>
+      <text>TTP expression under steady state is ubiquitous and low, but it is strongly induced both transcriptionally and post&#8208;transcriptionally by inflammatory stimuli (e.g. bacterial products) or cytokines such as interferons, IL&#8208;4, and IL&#8208;10 (Mahtani et&#160;al, 2001; Suzuki et&#160;al, 2003; Sauer et&#160;al, 2006; Schaljo et&#160;al, 2009). TTP destabilizes its own mRNA, thereby providing a way for a rapid autoinhibitory feedback regulation after the disappearance of stimulatory cues (Tchen et&#160;al, 2004). Phosphorylation of TTP by the p38 MAPK and MK2 pathway stabilizes the otherwise proteasome&#8208;sensitive TTP, but it negatively regulates the mRNA&#8208;destabilizing activity of TTP (Stoecklin et&#160;al, 2004; Brook et&#160;al, 2006; Hitti et&#160;al, 2006; Clement et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4687</offset>
+      <text>The selective targeting of inflammation&#8208;associated mRNAs by TTP for degradation remains largely unexplained: (i) Although TTP preferentially binds AREs, most mRNAs containing AREs in their 3&#8242; UTRs are stable; (ii) many ARE&#8208;containing mRNAs are destabilized independently of TTP; (iii) TTP can destabilize mRNAs lacking AREs (Raghavan et&#160;al, 2002; Yang et&#160;al, 2003; Lai et&#160;al, 2006; Stoecklin et&#160;al, 2008; Kratochvill et&#160;al, 2011). Analysis of TTP binding sites using PAR&#8208;CLIP in HEK293 cells overexpressing TTP confirmed preferential binding to AREs, but because of the largely missing expression of genes related to immune responses and the lack of immune signaling in HEK293 cells the study did not address TTP binding and its regulation in the most relevant context (Mukherjee et&#160;al, 2014). To understand TTP&#8208;dependent mRNA decay and its function, a precise knowledge of the positions and sequences of TTP binding sites in the transcriptome of immune cells in the context of a natural immune response is needed.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5718</offset>
+      <text>In the present study, we employed a modified PAR&#8208;CLIP method to identify at nucleotide resolution of TTP binding sites in the macrophage transcriptome in both inflammatory and resolution phases of responses to LPS. By combining this approach with transcriptome&#8208;wide gene expression and mRNA decay analyses, we establish a functionally annotated landscape of TTP&#8208;bound positions and sequences controlling mRNA stability during the inflammatory response. To account for combinatorial effects of mRNA&#8208;stabilizing and mRNA&#8208;destabilizing proteins, we similarly mapped binding sites of the mRNA&#8208;stabilizing protein HuR, which is often regarded as TTP antagonist (Srikantan &amp; Gorospe, 2012; Tiedje et&#160;al, 2012). Our analysis is enhanced by RNA structure modeling of regions at and around TTP and HuR binding sites to identify the determinants of target selection. Together, our data and the accompanying navigation tools at the TTP atlas Web site (http://ttp-atlas.univie.ac.at) provide for the first time insights into the regulatory network of cis&#8208; and trans&#8208;acting factors controlling mRNA stability in the inflammatory transcriptome. The atlas revealed that TTP&#8208;directed mRNA decay is essential for entrance into the resolution phase rather than for the modulation of the onset of inflammation. Furthermore, our datasets demonstrated a largely nonoverlapping regulation of mRNA stability by TTP and HuR.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7138</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7146</offset>
+      <text>PAR&#8208;iCLIP analysis in immunostimulated primary macrophages&#160;determines TTP binding landscape in the inflammatory transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7275</offset>
+      <text>To identify TTP binding positions and sequences, we employed PAR&#8208;iCLIP (photoactivatable ribonucleoside&#8208;enhanced individual nucleotide resolution crosslinking and immunoprecipitation) (Hafner et&#160;al, 2010; Konig et&#160;al, 2010; Zhang &amp; Darnell, 2011) using specific TTP antibodies to target endogenous TTP in primary murine bone marrow&#8208;derived macrophages (BMDMs). BMDMs were stimulated for 6&#160;h with LPS to establish an inflammatory gene expression pattern containing physiological TTP target RNAs in relevant quantities (Hao &amp; Baltimore, 2009; Kratochvill et&#160;al, 2011). This approach allowed us to map TTP binding positions in the environment of stimulated immune cells, that is, a physiologically relevant system for interactions of TTP with RNA and for signal&#8208;regulated TTP activity (Stoecklin et&#160;al, 2008; Kratochvill et&#160;al, 2011). Notably, this strategy avoided both overexpressing TTP, which could result in the loss of binding specificity, and the use of cell types poorly expressing physiological TTP targets (e.g. chemokine and cytokine mRNAs).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8339</offset>
+      <text>To achieve crosslinking of TTP to juxtaposed RNA under mild conditions (365&#8208;nm UV light), RNA was metabolically labeled using thiouridine (4sU) which is readily utilized by BMDMs (Weintz et&#160;al, 2010). First, we tested the ability of the TTP antibody (Kratochvill et&#160;al, 2011) to specifically immunoprecipitate TTP&#8208;bound RNA in PAR&#8208;iCLIP experiments. Cell lysates from BMDMs derived from WT mice or mice lacking TTP in myeloid cells (&#916;M mice) (Kratochvill et&#160;al, 2011) were subjected to a limited digestion using RNase I followed by immunoprecipitation. Subsequently, a 32P&#8208;labeled RNA linker was ligated to the immunoprecipitated RNA fragments to enable the detection of precipitated protein&#8211;RNA complexes after electrophoretic separation and blotting. RNA was detected in immunoprecipitations from WT, but not &#916;M BMDMs, confirming the specificity of the TTP antibody (Fig&#160;EV1A). RNA fragments were then eluted from the membrane&#8208;bound RNA&#8211;protein complexes with proteinase K digestion and reverse&#8208;transcribed using primer complementary to the RNA linker.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9416</offset>
+      <text>Quality control for PAR&#8208;iCLIP experiment</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9459</offset>
+      <text>Autoradiograph image showing TTP&#8211;RNA complexes on denaturing bis&#8208;tris 4&#8211;12% gradient gel after membrane transfer. Membrane was exposed to phosphorimager screen for 1&#160;h. RNA was labeled by 3&#8242; end ligation of 32P&#8208;RNA linker. Increasing concentration of RNase I (as indicated lanes 1&#8211;4) results in decreasing size of the TTP&#8211;RNA complexes. Lanes 5 and 6 contain biological replicates with intermediate RNase I concentration. No signal was detected in samples from &#916;M BMDMs (lanes 7&#8211;9).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9960</offset>
+      <text>Nucleotide composition at and around positions 0 of PAR&#8208;iCLIP reads. Position 0 is defined as position 1 nt upstream of the 5&#8242; end of reads. Note the increased frequency of U at position 0 resulting from crosslink&#8208;driven termination of reverse transcription.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10225</offset>
+      <text>Frequency of single nucleotide substitutions in PAR&#8208;iCLIP reads.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10292</offset>
+      <text>Overlap between position 0 of reads (i.e. reverse transcription termination) and TC transitions in reads spanning the same region; 48% of all positions 0 overlap with at least 1 TC transition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10485</offset>
+      <text>Same as (D), but only crosslink positions inside the TTP binding sites were selected for analysis of overlap with TC transitions; 80% of all positions 0 in the TTP binding sites overlap with at least 1 TC transition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10702</offset>
+      <text>Similar to (B), but RNA&#8208;Seq reads were analyzed instead of PAR&#8208;iCLIP reads. Note that all nucleotides occur at equal frequency at and around the position 0.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10863</offset>
+      <text>Same as (C), but RNA&#8208;Seq reads were analyzed instead of PAR&#8208;iCLIP reads. Note that all substitutions occur at similar frequency.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10996</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10999</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11051</offset>
+      <text>UV&#8208;induced crosslinking of 4sU&#8208;labeled RNA causes the termination of reverse transcription or T to C (TC) transitions at the position of the protein&#8211;RNA crosslink (Hafner et&#160;al, 2010; Konig et&#160;al, 2010). The positions of reverse transcription termination or TC transitions serve as nucleotide resolution marks of protein&#8211;RNA crosslinking events in the subsequent analysis. Deep sequencing of transcriptome&#8208;wide PAR&#8208;iCLIP experiments revealed the accumulation of T at the position 0 (i.e. one nucleotide upstream of 5&#8242; ends of sequencing reads), which is in agreement with reverse transcription termination only at positions of a crosslinked 4sU (Fig&#160;EV1B). The increased frequency of A and T as compared to G and C around the position 0 (Fig&#160;EV1B) reflects the high occurrence of A&#8208; and T&#8208;rich sequences (e.g. AU&#8208;rich elements) in TTP target sites (Fig&#160;1). We detected a large number of TC transitions (44.9% of all substitutions) in the PAR&#8208;iCLIP reads (Fig&#160;EV1C), indicating that a protein&#8211;RNA crosslink caused, in addition to reverse transcription termination, frequent TC transitions during the reverse transcriptase read&#8208;through, as reported previously (Hafner et&#160;al, 2010). Furthermore, we observed a strong overlap between the positions of reverse transcriptase termination (i.e. positions 0 of reads) and TC transitions (Fig&#160;EV1D and E). Almost half (48%) of termination positions are at positions that harbor a TC transition in at least one other read (Fig&#160;EV1D). If one considers only termination positions within high&#8208;confidence TTP binding sites (see Materials and Methods), this percentage increases from 48 to 80% (Fig&#160;EV1E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12729</offset>
+      <text>Introns and 3&#8242; UTRs in the macrophage transcriptome are preferred TTP binding regions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12817</offset>
+      <text>Distribution of TTP binding sites in different transcript regions at LPS 6&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12896</offset>
+      <text>Number of genes with TTP binding mapped to 3&#8242; UTR (red), intron (blue), both (overlap), or other regions (yellow).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13013</offset>
+      <text>Sequence logo representing the most abundant TTP binding motif at LPS 6&#160;h (E&#8208;value 2.9&#183;10&#8722;1512).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13116</offset>
+      <text>Gene ontology enrichment analysis of genes with TTP binding in 3&#8242; UTR (198 genes). GO biological process groups are sorted according to FDR&#8208;corrected P&#8208;value.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13281</offset>
+      <text> TTP binding in annotated Tnf transcripts. Transcript models are represented by green rectangles (5&#8242; UTR), cyan rectangles (CDS), red rectangles (3&#8242; UTR), and connecting lines (introns). Locations of AUUUA pentamers are underlined with orange rectangles. Detected TTP binding sites are underlined with dark blue rectangles (Dataset EV1). TSS, transcription start site; nt, nucleotide.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13670</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13673</offset>
+      <text>Control RNA&#8208;Seq experiments (i.e. samples without crosslinking) using 4sU&#8208;labeled rRNA&#8208;depleted RNA from LPS&#8208;treated BMDMs showed no bias for any nucleotide at the position 0 in RNA&#8208;Seq reads (Fig&#160;EV1F). Furthermore, the frequency of TC transitions in 4sU&#8208;labeled RNA was the same as that of other substitutions. Thus, 4sU did not impair transcription fidelity in BMDMs or reverse transcription accuracy in samples from BMDMs not exposed to UV crosslinking (Fig&#160;EV1G). Together, these data confirmed that the conditions for 4sU labeling and UV crosslinking, as well as the use of the selected TTP antibody, resulted in specific crosslinking and immunoprecipitation of TTP&#8208;bound RNA in BMDMs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14381</offset>
+      <text>Three independent PAR&#8208;iCLIP replicates were performed, and they produced a highly consistent number of mapped reads (Fig&#160;EV2A). To identify TTP binding sites in the datasets of crosslink positions (i.e. 5&#8242; ends of reads), we used the Pyicos modFDR peak finding algorithm (Althammer et&#160;al, 2011), which determines TTP binding sites as regions with significantly higher number of crosslinks than would be expected by chance, thus distinguishing true signal from noise. The list of peaks derived from the Pyicos modFDR method was then filtered for peaks with a minimum of 100 crosslinks at their summit, generating only high&#8208;confidence TTP binding sites. Pyicos analysis carried out for all three replicates individually revealed a high correlation of the identified TTP binding sites among the replicates (Fig&#160;EV2A). This is exemplified by TTP binding to the Tnf transcript: TTP binding site was centered at the nucleotide (nt) 2,315 in the transcript (corresponding to nt 1,326 in mRNA) in all replicates (Figs&#160;1 and EV2B), in agreement with the reported TTP binding to Tnf reporter constructs (Lai et&#160;al, 1999). TTP binding sites present in all three replicates (i.e. consensus binding sites) were used for further analysis. We identified 1,587 nonoverlapping TTP binding sites that were mapped to 498 protein&#8208;coding genes (Dataset EV1). The highest number of TTP binding sites were located in introns (64%) and 3&#8242; UTRs (35%), whereas only 1.3% of binding sites were found in other exonic regions: 1% mapped to coding sequences (CDS) and 0.3% mapped to 5&#8242; UTRs (Fig&#160;1A). The high frequency of intronic binding was in agreement with the nearly equal distribution of normalized PAR&#8208;iCLIP signal between introns and 3&#8242; UTR: The number of PAR&#8208;iCLIP reads divided by the number of RNA&#8208;seq reads in the corresponding feature, that is, introns or 3&#8242; UTR, revealed a ratio of intronic to 3&#8242; UTR PAR&#8208;iCLIP signal 1:0.98. Most target RNAs exhibited TTP binding either in introns (59%) or in 3&#8242; UTRs (30%), while only a small fraction (10%) of the targeted RNAs displayed TTP binding in both introns and 3&#8242; UTRs (Fig&#160;1B). To determine the sequence motifs enriched within TTP binding sites, we employed MEME (Bailey &amp; Elkan, 1994). The most abundant motif (E&#8208;value 2.9&#183;10&#8722;16) was a heptamer comprising the sequence UAUUUAU (Fig&#160;1C), in agreement with previously described motifs (Mukherjee et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16817</offset>
+      <text>Comparison of PAR&#8208;iCLIP replicates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16854</offset>
+      <text>Scatter plots comparing log&#8208;transformed scores of TTP binding sites in three biological replicates (R1&#8211;R3). TTP binding sites were identified in each replicate using Pyicos. Pearson's correlation coefficients for TTP binding sites among the replicates were ranging from 0.87 to 0.90.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17142</offset>
+      <text> TTP binding profile on the Tnf transcript (GenBank accession no. NM_013693) in biological replicates R2 and R3. The profile in replicate R1 is shown in Fig&#160;1E.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17304</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17307</offset>
+      <text>A predominant binding of TTP to introns and 3&#8242; UTRs was recently found in a high&#8208;resolution mapping analysis of TTP binding sites in the human HEK293 cell line (Mukherjee et&#160;al, 2014). We thus asked whether the TTP binding sites identified by us in immunostimulated murine macrophages were related to those found in the HEK293 cells. Out of 4,625 total binding sites of the HEK293 dataset, we were able to assign 2,731 to homologous loci within annotated mouse genes. However, out of these 2,731 sites, only 32 positions in 27 genes overlap with TTP binding sites from our dataset (Table&#160;EV1). Notably, Tnf was not found among the targets in HEK293 cells, even though it is the most common TTP target in various cells. Other cytokine mRNAs were similarly absent (Table&#160;EV1). These dissimilarities might be caused by TTP overexpression, and hence a reduced binding specificity, in the HEK293 system. Furthermore, HEK293 cells are not immune cells and barely express genes related to the immune response. They also lack TTP activity regulated by immune cell signaling. Thus, the paucity of natural TTP targets in HEK293 cells and/or different TTP regulation might cause binding of TTP to RNAs different from those targeted in immune cells. Together, TTP binding in immunostimulated primary mouse macrophages considerably differs from binding in human HEK293 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18677</offset>
+      <text>Binding of TTP to targets associated with immune responses of BMDMs was corroborated by gene ontology (GO) analysis: mRNAs targeted by TTP at 3&#8242; UTR (198 genes) were significantly enriched in genes involved in various immune processes (Fig&#160;1D). Previously reported TTP targets in mouse macrophages including Tnf, Il1a, Il1b, Il6, Il10, Cxcl1, Cxcl2, Ccl3, or Ccl4 were all found in our collection of mRNAs containing TTP binding sites (Dataset EV1). Importantly, the TTP binding sites correspond well to positions characterized by in&#160;vitro binding or reporter assays in earlier studies: Cxcl1 (Datta et&#160;al, 2008), Il1a and Cxcl2 (Kratochvill et&#160;al, 2011), and Ccl3 (Kang et&#160;al, 2011) (Table&#160;1).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>19380</offset>
+      <text>Positions of TTP binding sites from previous publications and PAR&#8208;iCLIP experiment</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>19465</offset>
+      <text>   TTP target Positions of reported binding sites (nt) References Positions of binding sites determined by PAR&#8208;iCLIP (nt)    Ccl3  515&#8211;524 Kang et&#160;al (2011) 500&#8211;594   Cxcl1  449&#8211;468 Datta et&#160;al (2008) 414&#8211;440; 445&#8211;457; 462&#8211;471   Cxcl2  499&#8211;527 Kratochvill et&#160;al (2011) 481&#8211;487; 490&#8211;536; 1,035&#8211;1,037   Il1a  1,458&#8211;1,492 Kratochvill et&#160;al (2011) 1,423&#8211;1,491: 1,501&#8211;1,503</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19866</offset>
+      <text>In summary, by employing PAR&#8208;iCLIP analysis in immunostimulated macrophages, we established a comprehensive collection of high&#8208;confidence positions and sequences bound by TTP in the inflammatory transcriptome of the macrophage.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20098</offset>
+      <text>TTP binding to 3&#8242; UTR is an essential but not sufficient requirement for target mRNA destabilization in immunostimulated macrophages</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20233</offset>
+      <text>TTP destabilizes a number of inflammation&#8208;associated mRNAs often containing AREs in their 3&#8242; UTRs, but the mechanism of selective mRNA destabilization by TTP has remained elusive (Lai et&#160;al, 2006; Emmons et&#160;al, 2008; Stoecklin et&#160;al, 2008; Kratochvill et&#160;al, 2011). In particular, it has been unclear whether stable mRNAs containing potential TTP binding sites are bound by TTP, but remain stable in the context of immune cell signaling, or whether such mRNAs are not accessible to binding by TTP under such conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20761</offset>
+      <text>To explore the effects of TTP binding on target transcript stability in activated macrophages, we determined mRNA decay rates in the transcriptome of WT and &#916;M macrophages stimulated for 6&#160;h with LPS (Dataset EV2), that is, under the same conditions as used for our PAR&#8208;iCLIP analysis, and examined the stability of transcripts containing TTP binding sites. We analyzed genes containing TTP binding sites in 3&#8242; UTRs separately from those containing binding sites only in introns. Genes exhibiting TTP binding in both 3&#8242; UTR and introns were included in both categories. In the 3&#8242; UTR category, we observed that 14% of mRNAs (28 genes) were unstable in a TTP&#8208;dependent way, 15% (29 genes) were unstable independently of TTP, but a remarkably large number of mRNAs (71%, 141 genes) were stable (Fig&#160;2A and Dataset EV3). Importantly, the length and the position of binding sites as well as their normalized scores (crosslink events normalized to expression, see Materials and Methods) were comparable for both stable mRNAs (e.g. Sdc4) and mRNAs destabilized by TTP (e.g. Il6) (Fig&#160;2C and D). In the category of transcripts bound by TTP in introns, the vast majority (74%; 252 genes) of the corresponding mRNAs were stable, and only 1% (three genes) were destabilized in a TTP&#8208;dependent manner (Fig&#160;2B and Dataset EV4). Mukherjee and colleagues found no effects of intronic TTP binding on the steady&#8208;state levels of the corresponding mRNAs HEK293 cells (Mukherjee et&#160;al, 2014). Our study advances this report in that it directly shows that binding of TTP to introns does not in general cause destabilization of the corresponding mRNAs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22413</offset>
+      <text> TTP binding to 3&#8242; UTR is essential but not sufficient requirement for target destabilization</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22509</offset>
+      <text>Stability of mRNAs targeted by TTP in 3&#8242; UTR.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22557</offset>
+      <text>Stability of mRNAs containing TTP binding sites in introns of the corresponding pre&#8208;mRNAs. Transcripts targeted by TTP in both 3&#8242; UTRs and introns are included in both (A) and (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22742</offset>
+      <text> TTP binding profile in the Sdc4 transcript as an example of stable mRNA bound by TTP.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22829</offset>
+      <text> TTP binding profile in the Il6 transcript as an example of mRNA destabilized by TTP.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22915</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22918</offset>
+      <text>Collectively, the results demonstrate that the mRNA&#8208;destabilizing function of TTP in macrophages is almost completely restricted to transcripts bound by TTP in 3&#8242; UTRs. However, binding of TTP is not sufficient for destabilization of the targeted transcript since many 3&#8242; UTR&#8208;bound mRNAs in the macrophage transcriptome are stable.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23258</offset>
+      <text>TTP binding to introns does not interfere with processing of target RNA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23330</offset>
+      <text>To further characterize intronic binding of TTP, we examined in detail binding of TTP to the intron 4 of Irg1 (Fig&#160;3A), the highest scoring intronic target and overall the fourth best scoring target (Datasets EV1 and EV4). Irg1 mRNA levels were low but strongly induced by LPS to approximately 1.5&#8208;fold higher levels in WT compared to &#916;M BMDMs (Fig&#160;3B). The Irg1 mRNA was stable in both WT and &#916;M BMDMs 6&#160;h after LPS stimulation (Dataset EV4) as well as at other time points (Fig&#160;3C). To test whether the higher Irg1 mRNA levels in WT cells resulted from increased transcription, we analyzed primary transcript levels in the nuclear RNA fraction by qPCR for intron 3 (an intron not targeted by TTP) and intron 4 (the intron comprising the TTP site). Similar to total mRNA levels, Irg1 primary transcript levels at both introns were higher in WT than in &#916;M BMDMs (Fig&#160;3D). Intronic TTP binding did not influence the abundance of intronic RNA because the ratios of both TTP&#8208;targeted and TTP&#8208;nontargeted Irg1 introns were similar in WT and &#916;M BMDMs and comparable to the ratio of the mature mRNAs. Importantly, the Irg1 read coverage in WT cells was similar across the entire gene to the profile in &#916;M BMDMs (Fig&#160;3E), confirming that TTP did not regulate Irg1 transcript processing. To examine whether TTP associates with the Irg1 intron prior to or after splicing, 4sU&#8208;labeled and UV&#8208;crosslinked RNA was immunoprecipitated from LPS&#8208;treated WT and &#916;M BMDMs using TTP antibodies. In contrast to PAR&#8208;iCLIP, the RNA was not digested with RNase I so that the full&#8208;length TTP&#8208;bound RNA molecules were immunoprecipitated. Quantification of intron 3 and intron 4 confirmed that TTP binds only to the latter (Fig&#160;3F). We could not detect RNA spanning the junction between exon 4 and intron 4 (Fig&#160;3F), suggesting that TTP was bound to the spliced&#8208;out intron.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25212</offset>
+      <text> TTP binds to spliced&#8208;out intron of Irg1 without influencing Irg1 transcript processing</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25302</offset>
+      <text> TTP binding profile in the Irg1 transcript (upper panel) and detailed view of the binding region (lower panel). Each vertical bar represents the number of crosslink events in the corresponding position. The bars are color&#8208;coded according to the nucleotide at the corresponding position.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25592</offset>
+      <text> Irg1  mRNA expression profile in BMDMs stimulated with LPS, normalized to Hprt (AU, arbitrary units). Error bars represent 95% confidence interval, n&#160;=&#160;3 biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25772</offset>
+      <text> Irg1  mRNA stability assay. BMDMs were stimulated for 3&#160;h (left panel) or 9&#160;h (right panel) with LPS and transcription was stopped by actinomycin D (ActD) followed by measurements of remaining mRNA 30 and 60&#160;min after the transcription blockage. Irg1  mRNA is stable (half&#8208;life&#160;&gt;&#160;180&#160;min) after 3 and 9&#160;h of LPS stimulation in both WT and TTP&#8208;deficient BMDMs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26144</offset>
+      <text>Expression profile of intron 3 (I3) (left panel) and the TTP binding site containing intron 4 (I4, right panel) of Irg1, normalized to Hprt. Error bars represent 95% confidence interval, n&#160;=&#160;3 biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26362</offset>
+      <text> Irg1 read coverage in RNA&#8208;Seq experiments for WT and &#916;M BMDMs. Irg1 gene (ENSMUSG00000022126) has a single annotated transcript (ENSMUST00000022722).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26517</offset>
+      <text> TTP binds to spliced&#8208;out intron 4. Data depict RNA&#8208;IP experiments showing that TTP binds to intron 4 (I4) but not to the pre&#8208;mRNA containing exon 4 and intron 4 (E4&#8208;I4) (upper panel). PCR design for the detection of cDNA corresponding to intron 3, intron 4, exon 4/intron 4 is shown in lower panel. Binding to Tnf  mRNA was used as a positive control. Data are presented in arbitrary units (AU) as 225&#8722;Ct.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26934</offset>
+      <text>Western blot showing stable amounts of nuclear TTP during LPS stimulation for indicated times. Tubulin and histone H3 were used as controls for the successful separation of cytoplasmic (tubulin) from nuclear (histone H3) fractions, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27180</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27183</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27235</offset>
+      <text>To more broadly assess whether TTP binding to introns can regulate pre&#8208;mRNA processing, we compared relative expression (i.e. fragments per kilobase of exon per million fragments mapped, FPKMs) of the transcript isoforms of 10 highest scoring intronic TTP targets in WT and &#916;M BMDMs (Dataset EV5). The abundance of transcript isoforms was in general similar in WT and &#916;M BMDMs, indicating that TTP does not influence transcript processing.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27683</offset>
+      <text>The frequent binding of TTP to introns suggested that a certain amount of TTP is present in the nucleus of immunostimulated BMDMs. To confirm this, we fractionated BMDMs over the course of the inflammatory response and examined TTP amounts in the cytoplasmic and nuclear compartments. The experiment confirmed that the highest amount of TTP was in the cytoplasmic fraction, but substantial levels were also observed in the nuclear fraction (Fig&#160;3G).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28134</offset>
+      <text>In conclusion, binding of TTP to introns does not affect processing and splicing of the targeted transcript. The data also indicate that TTP can bind to spliced&#8208;out intronic RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28315</offset>
+      <text>TTP and HuR bind mostly to different mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28358</offset>
+      <text>The lack of detectable destabilization of many mRNAs bound by TTP prompted us to examine whether such mRNAs might also be targeted by HuR, a key mRNA&#8208;stabilizing protein with important functions in immune cells (Yiakouvaki et&#160;al, 2012). Positive effects of HuR on target RNA stability and/or translation can be caused by competition with TTP for binding to target RNA, as shown for Tnf mRNA in macrophages (Tiedje et&#160;al, 2012). Targeting of mRNAs by both proteins has been shown to occur also in HEK293 cells (Lebedeva et&#160;al, 2011; Mukherjee et&#160;al, 2011). However, a genome&#8208;wide HuR and TTP target overlap at physiological levels of both the target mRNAs and HuR and TTP remained unknown. To investigate such overlap and the potential for a combinatorial regulation of inflammatory mRNAs, we performed HuR PAR&#8208;iCLIP in BMDMs stimulated for 6&#160;h with LPS, as described above for TTP. We precipitated endogenous HuR crosslinked to RNA using a specific HuR antibody (Fig&#160;EV3A). Two independent biological replicates produced consistent numbers of uniquely mapped reads which after Pyicos analysis revealed 2,380 HuR binding sites present on both replicates. These consensus binding sites mapped to 303 genes, mostly in 3&#8242; UTRs (78%) followed by sites in introns (17%), 5&#8242; UTRs (3.5%), and CDS (1.5%) (Fig&#160;4A and Dataset EV6). GO analysis showed that 3&#8242; UTR HuR targets were significantly enriched in genes involved in diverse processes ranging from immune responses to development, organelle organization, or metabolism (Table&#160;EV2). This rather pleiotropic functional assignment contrasts the predominantly immune response&#8208;associated processes found in GO analysis of TTP binding sites (Fig&#160;1D), and MEME analysis of HuR binding sites revealed a U&#8208;rich nonamer UUUUUUUUU as most&#8208;overrepresented binding motif (E&#8208;value&#160;&lt;&#160;2.2&#183;10&#8722;16) (Fig&#160;4B), similar to the motif previously identified in HEK293 cells (Lebedeva et&#160;al, 2011; Mukherjee et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30338</offset>
+      <text>HuR PAR&#8208;iCLIP </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30355</offset>
+      <text>Autoradiograph image showing HuR&#8211;RNA complexes on denaturing bis&#8208;tris 4&#8211;12% gradient gel after membrane transfer. Membrane was exposed to phosphorimager screen for 1&#160;h. RNA was labeled by 3&#8242; end ligation of 32P&#8208;RNA linker. Increasing concentration of RNase I (as indicated) results in a decreasing size of the HuR&#8211;RNA complexes (lanes 1&#8211;3). No signal is detectable when crosslinking was performed without prior addition of 4&#8208;thiouridine (lanes 7&#8211;9).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30824</offset>
+      <text>HuR binding profile on Tnf transcript.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30863</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30866</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30918</offset>
+      <text> TTP and HuR target mostly different transcripts in the macrophage transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30999</offset>
+      <text>Distribution of HuR binding sites in different transcript regions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31066</offset>
+      <text>Sequence logos representing the most abundant HuR binding motif at LPS 6&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31143</offset>
+      <text>Distribution (box&#8208;and&#8208;whisker plots) of the number of TTP and HuR binding sites per 3&#8242; UTR. The number of sites is presented in logarithmic scale (log2). Median number of sites per 3&#8242; UTR is 2 and 4 for TTP and HuR, respectively. The difference between samples is statistically significant (P&#8208;value&#160;=&#160;1.2&#160;&#215;&#160;10&#8722;9, &#945;&#160;=&#160;0.05) as tested with Mann&#8211;Whitney U&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31526</offset>
+      <text>Distribution (box&#8208;and&#8208;whisker plots) of lengths of TTP and HuR binding sites. Median site length is 6&#160;nt for both TTP and HuR sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31664</offset>
+      <text>The numbers of genes targeted at 3&#8242; UTR by TTP (132) or HuR (179) or both (58). Genes with heterogeneous annotation (genes containing genomic features annotated as 3&#8242; UTR and intron in different transcripts) were excluded from the analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31909</offset>
+      <text>Mutual relationship of TTP and HuR binding positions within a group of mRNAs targeted by both proteins: 120 TTP and 552 HuR binding sites show no overlap and 118 TTP and HuR sites overlap by at least 1 nt.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32115</offset>
+      <text>Overlapping TTP and HuR binding sites in 3&#8242; UTR exhibit large extent of overlap. Box&#8208;and&#8208;whisker plot for the distribution of coverage (in % of coverage) of a given TTP site by HuR sites in the group of targets containing overlapping binding sites (118 sites) reveals a median coverage of 92% (upper quartile&#8212;100%, lower quartile&#8212;23%). Note that 100% coverage corresponds to coverage of all nucleotides of a given TTP site by HuR site.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32561</offset>
+      <text>Sequential native RNA&#8208;IP from WT and &#916;M BMDMs. Simultaneous binding of TTP and HuR to the same RNA molecule was tested with IP using anti&#8208;TTP antibodies (first IP) followed by elution with specific peptide and consecutive IP with anti&#8208;HuR antibodies (second IP). Second IP performed with anti&#8208;tubulin antibodies serves as a control for the specificity of second IP reaction. Sample with &#916;M BMDMs was used as a control for the specificity of the TTP antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33030</offset>
+      <text>Kernel density estimate plots for differential decay (upper panel) and differential expression (lower panel) in the group of genes with overlapping TTP and HuR sites (red) or TTP sites only (green). The difference in differential decay and differential expression between these two groups is not significant, as tested using Kolmogorov&#8211;Smirnov test (K&#8208;S).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33390</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33393</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33445</offset>
+      <text>We found two times more HuR than TTP binding sites per 3&#8242; UTR, while their length was similar for both proteins (Fig&#160;4C and D). The majority (84%) of target 3&#8242; UTRs contained either HuR (179 genes) or TTP (132 genes) binding sites, while only 59 target genes exhibited binding sites for both HuR and TTP (Fig&#160;4E). Within this set of 59 target genes, we identified 552 and 120 nonoverlapping HuR and TTP sites, respectively, and 118 overlapping sites (i.e. overlap by at least 1&#160;nt) (Fig&#160;4F). Most of the overlapping sites displayed an overlap over the entire TTP binding site (Fig&#160;4G). The overlapping category comprised 40 genes, including Tnf (Fig&#160;4H). The size of the mapped binding sites (Figs&#160;EV2B and EV3B) would allow both proteins to bind simultaneously. To test this possibility, we performed sequential RNA&#8208;IPs by TTP immunoprecipitation followed by peptide&#8208;mediated elution of TTP complexes and the subsequent HuR immunoprecipitation. Sequential RNA&#8208;IPs revealed that TTP and HuR can bind simultaneously to Tnf and Cxcl2 mRNAs, that is, targets that contain overlapping binding sites (Fig&#160;4H). No HuR binding was detected to Tapbp and Gnb1 mRNAs, which contain HuR but not TTP binding sites (Datasets EV1 and EV3 and Fig&#160;4H). This result corroborated the PAR&#8208;CLIP data and strengthened the hypothesis that mRNAs targeted by both TTP and HuR might be co&#8208;regulated by these two proteins. However, differential decay rates and differential expression of mRNAs containing overlapping binding sites (Table&#160;2) were not significantly different from mRNAs containing only TTP binding sites (Fig&#160;4I). This indicated that mRNAs targeted by both TTP and HuR are, in general, not co&#8208;regulated by these two proteins at the level of mRNA stability. Such mRNAs might be rather co&#8208;regulated at the level of translation, as proposed for Tnf (Tiedje et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>35332</offset>
+      <text>List of genes with overlapping TTP and HuR sites in 3&#8242; UTR (40 genes)</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>35404</offset>
+      <text>   4933426M11Rik Maf Ccl4 Prdx1  Cdkn1a Spp1 Cxcl2 Ywhaz  Lass6 B2m Pfkfb3 Cd44  Sdc4 Cmpk2 Trim30a Il1rn  Actb Marcks Ccl9 Ptgs2  Cebpb Tnf Fth1 Zeb2  Lipg Ccl3 Pim1 Cd47  Sod2 Cxcl10 Txnrd1 Irg1  Arl8a Nfkbia Cd274 Rsad2  Cflar Tor1aip1 Hmox1 Zfp36</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35655</offset>
+      <text>In summary, in contrast to expectations, our data reveal that co&#8208;regulation of mRNA stability by TTP and HuR in immunostimulated macrophages is rather an exception than a common principle.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35846</offset>
+      <text>Structural context of target sites is more important for HuR than TTP binding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35924</offset>
+      <text>The limited number of mRNAs targeted by both TTP and HuR prompted us to examine the binding sites for both proteins in a structural and sequence context. To that purpose, we analyzed the structuredness of the region surrounding either bound or unbound ARE motifs. As a measure of structuredness, we computed accessibilities, that is, the probability that a given region remains unpaired, for all TTP/HuR target mRNAs using RNAplfold (Bernhart et&#160;al, 2011). We used a sliding window of W&#160;=&#160;75 and then extracted accessibilities for 7&#8208;nt stretches, corresponding to the length of the WATTTAW TTP&#8208;ARE core motif, along bound and unbound regions, respectively. Both TTP and HuR motifs within binding sites show a higher probability of being unpaired than motifs without binding (Fig&#160;5A and B). Moreover, bound motifs were typically embedded in a large (&gt;&#160;15&#8208;nt) unstructured and AU&#8208;rich region. To quantify how structuredness and AU content contributed to binding, we trained linear discriminators based on these features and performed receiver&#8208;operating characteristic (ROC) analysis. For TTP, AU content and structuredness were equally efficient at predicting bound motifs, while for HuR structuredness was a better predictor (Fig&#160;5C and D). Thus, both TTP and HuR require the binding motifs to be embedded in accessible (unstructured) regions with high AU content for successful interactions, but the structure is more influential in the case of HuR.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37390</offset>
+      <text>Structural context of target sites is more important for HuR than TTP binding</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37468</offset>
+      <text>Regions containing the preferred TTP binding motif WAUUUAW show increasing probability of being unbound toward the central motif. Bound motifs are significantly less structured than unbound ones.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37664</offset>
+      <text>Regions containing the preferred HuR binding motif UUUKUUU have a high probability of being unpaired, with its peak at the center. This probability almost doubles for bound motifs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37845</offset>
+      <text>Receiver&#8208;operating characteristic (ROC) analysis evaluating if sequence (AU content) or structure is a better classifier in linear discriminant analysis between bound and unbound TTP target motifs. Little difference between sequence (red, area under curve (AUC): 0.62) and structure (blue, AUC: 0.63) classifiers.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38161</offset>
+      <text>Same as (C), but for HuR bound and unbound target motifs. Structure classifier shows higher AUC (0.69) than AUC of sequence classifier (0.60).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38304</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38307</offset>
+      <text>TTP target spectrum but not the binding motif shifts during the transition from the inflammatory to the resolution phase of the macrophage response</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38455</offset>
+      <text>TTP&#8208;mediated mRNA destabilization is known to be qualitatively and quantitatively regulated during the inflammatory response: Some mRNAs (e.g. Tnf mRNA) are destabilized by TTP throughout the inflammatory response, while other mRNAs (e.g. Cxcl2 mRNA) are initially stable and become unstable in the resolution phase of inflammation (Tudor et&#160;al, 2009; Kratochvill et&#160;al, 2011). It remained unclear whether such a shift in target mRNA selection was caused by changes in TTP binding. To address this question, we mapped TTP binding sites at 3&#160;h of macrophage stimulation with LPS by using the same approach as for the 6&#8208;h analysis described above. The 3&#8208; and 6&#8208;h time points represent the peak inflammatory phase and the beginning of the resolution phase, respectively: The expression of many important inflammatory mRNAs (e.g. Tnf, Cxcl2) culminates around 3&#160;h and declines after 6&#160;h of LPS treatment (Hao &amp; Baltimore, 2009; Kratochvill et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39419</offset>
+      <text>Analysis of three PAR&#8208;iCLIP replicates at 3&#160;h of LPS stimulation revealed consensus TTP binding sites that mapped to 465 genes (Dataset EV7). These sites were located mostly in introns and 3&#8242; UTRs (Fig&#160;6A), similar to the 6&#8208;h time point. We then focused on the analysis of 3&#8242; UTR sites, since mRNA&#8208;destabilizing activity of TTP is confined to this category. The number of genes targeted by TTP increased between 3 and 6&#160;h of LPS stimulation from 157 to 198 (by 27%) (Fig&#160;6B). Over 80% of the 3&#8208;h targets were also found among the 6&#8208;h targets (Fig&#160;6B). The increased TTP binding at 6&#160;h of LPS stimulation was validated using native RNA&#8208;IP: Consistent with Datasets EV1 and EV7, TTP binding to Tnf, Ccl3, and Zfp36 mRNAs did not change, whereas binding to Fos and Ccl12 mRNAs strongly increased between 3 and 6&#160;h of LPS treatment (Fig&#160;EV4). These data showed that a shift in TTP target selection occurred between the peak inflammatory phase and early resolution phase. Gene ontology (GO) analysis using GO categories significantly enriched at 3 and 6&#160;h of LPS (false discovery rate (FDR) &lt;&#160;0.05, Table&#160;EV3) corroborated this finding: Although most targets belong to biological processes enriched at both time points (18 GO terms), many targets are in biological processes unique for each time point (10 and 7 unique GO terms at 3 and 6&#160;h, respectively) (Fig&#160;6C, Table&#160;EV3). Enriched GO terms common for both time points include the immune system process and immune response as top processes (Fig&#160;6C). GO terms unique for the 3&#8208;h time point represent mostly activation of the immune response (e.g. regulation of cell activation), whereas GO terms unique for the 6&#8208;h time point include taxis, chemotaxis, and locomotion (Fig&#160;6C), which represent the processes involved in the maintenance of inflammation (Griffith et&#160;al, 2014). This shift in target selection was not caused by changing preferences in target site sequences since most over&#8208;represented motifs at both time points were very similar, that is, heptamers comprising the UAUUUAU sequence (Fig&#160;6D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41513</offset>
+      <text> TTP target spectrum shifts during progression from the inflammatory to the resolution phase of macrophage response</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41629</offset>
+      <text>Distribution of TTP binding sites in different transcript regions after 3&#160;h of LPS treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41724</offset>
+      <text>Overlap between TTP&#8208;bound mRNAs at 3 and 6&#160;h of LPS treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41790</offset>
+      <text>Enriched GO biological process categories for TTP&#8208;bound genes at 3 and 6&#160;h of LPS treatment (enrichment FDR&#160;&lt;&#160;0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41912</offset>
+      <text>Sequence logo representing the most abundant TTP binding motif at 3&#160;h of LPS treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42001</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42004</offset>
+      <text>Native TTP&#8211;RNA&#8208;IP </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42027</offset>
+      <text>Amount of mRNA co&#8208;precipitated with TTP increases for Fos and Ccl12, with time of LPS treatment (3 and 6&#160;h), but remains unchanged for Tnf, Ccl3, and Zfp36. AU, arbitrary units. Difference between group means was tested with two&#8208;sample unequal variance t&#8208;test. Error bars represent 95% confidence interval, n&#160;=&#160;3 biological replicates. *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ns, not significant.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42420</offset>
+      <text>Thus, TTP prefers similar target sequences in both inflammatory and early resolution phases, although the number of targeted mRNAs increases by 1/5 and the spectrum shifts to targets involved in the perpetuation of inflammation as the cells progress through the response.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42692</offset>
+      <text>TTP&#8208;dependent mRNA decay controls a switch for entering the resolution phase of the macrophage response</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42798</offset>
+      <text>To functionally annotate the mapped TTP binding sites in immunostimulated macrophages, we wished to obtain transcriptome&#8208;wide gene expression data and mRNA decay rates in WT and &#916;M macrophages under the same conditions as applied during our PAR&#8208;iCLIP experiments. We first determined differential gene expression using WT and &#916;M macrophages stimulated for 0, 3, and 6&#160;h with LPS to cover the onset of inflammation and the switch to the resolution phase. The expression of 488 genes was elevated (FDR&#160;&lt;&#160;0.05) in unstimulated macrophages lacking TTP (&#916;M macrophages) as compared to WT cells (Dataset EV8 and Fig&#160;7A). The number of stronger expressed genes in &#916;M cells increased to 991 and 1,103 after 3 and 6 of LPS treatment (Dataset EV8) (Fig&#160;7A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>43562</offset>
+      <text> TTP&#8208;dependent effect on mRNA decay and abundance increases when cells are entering the resolution phase of inflammation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43685</offset>
+      <text>The number of genes differentially expressed between WT and TTP&#8208;deficient (&#916;M) BMDMs in untreated (0&#160;h LPS) or LPS&#8208;treated BMDMs (3&#160;h LPS or 6&#160;h LPS).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43844</offset>
+      <text>Enriched GO biological process categories for genes differently expressed between WT and TTP&#8208;deficient BMDMs at 3 and 6&#160;h of LPS treatment (enrichment FDR&#160;&lt;&#160;0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44013</offset>
+      <text>Comparison of decay rates in WT and TTP&#8208;deficient (&#916;M) BMDMs at 3 (left panel) and 6&#160;h (right panel) of LPS treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44136</offset>
+      <text>Correlation plots for differential expression and differential decay between WT and TTP&#8208;deficient (&#916;M) BMDMs at 3 (left panel) and 6&#160;h (right panel) of LPS treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44307</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44310</offset>
+      <text>Analysis of GO categories enriched in differentially expressed genes at 3 and 6&#160;h of LPS (FDR&#160;&lt;&#160;0.05, Table&#160;EV4) confirmed a major involvement of TTP in regulating the immune response since the GO terms &#8220;immune response&#8221; and &#8220;immune system process&#8221; were the top&#8208;ranked processes (Fig&#160;7B, Table&#160;EV4). However, similar to the GO analysis of TTP binding sites (Fig&#160;6C), the GO terms &#8220;taxis&#8221; and &#8220;chemotaxis&#8221; characteristic for the perpetuation of inflammation were found only at the 6&#8208;h time point (Fig&#160;7B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44843</offset>
+      <text>We asked whether the progressive changes in differential expression are caused by similar changes in mRNA decay. To this end, we first determined mRNA decay rates in WT and &#916;M macrophages at 3&#160;h of LPS treatment (Dataset EV2), as described for the 6&#8208;h time point. Correlation analysis of mRNA decay rates at 3 and 6&#160;h of LPS stimulation revealed that the impact of TTP&#8208;dependent destabilization increases with the time of LPS treatment (Fig&#160;7C). This finding was validated for several targets using qRT&#8211;PCR: Cxcl1, Ccl4, Il10, and Zfp36l2 mRNAs were more strongly destabilized at 6&#160;h than at 3&#160;h of LPS treatment, whereas Irf1 mRNA was decaying similarly at both time points (Fig&#160;EV5), consistent with the Dataset EV2. Subsequently, Pearson's correlation coefficients for differential decay versus differential expression at 3 and 6&#160;h of LPS stimulation were calculated. The analysis showed an increased influence of TTP&#8208;dependent mRNA decay on the expression profile at the transition to the resolution phase of the inflammatory response: Different decay rates between WT and &#916;M cells influenced negligibly gene expression at 3&#160;h (Pearson's correlation &#961;&#160;=&#160;0.08), but strongly at 6&#160;h (Pearson's correlation &#961;&#160;=&#160;0.33) of LPS treatment (Fig&#160;7D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>46114</offset>
+      <text>Decay rates of Cxcl1, Ccl4, Il10, Zfp36l2, and Irf1  mRNAs assessed by qRT&#8211;PCR </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46196</offset>
+      <text> WT and &#916;M BMDMs were stimulated for 3&#160;h (left panels) or 6&#160;h (middle panels) with LPS and transcription was stopped by actinomycin D (ActD) followed by measurements of remaining mRNA 45 and 90&#160;min after the transcription blockage. Stability parameters as well as statistical testing of differences in slopes were calculated using linear model. Shaded areas around regression lines represent 95% confidence intervals for linear regression, n&#160;=&#160;3 biological replicates; P&#8208;values are indicated in the graphs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46711</offset>
+      <text>These data establish that TTP&#8208;mediated mRNA decay directly controls the switch from the inflammatory to the resolution phase of the macrophage response.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46866</offset>
+      <text>Functional annotation of TTP binding sites during the inflammatory response</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46942</offset>
+      <text>Our datasets include three pillars required for establishing a functionally annotated atlas of elements regulating post&#8208;transcriptionally the dynamics of inflammatory response of macrophages in the context of TTP function: (i) TTP binding sites, (ii) differential decay rates in WT versus &#916;M macrophages, and (iii) differential expression data in WT versus &#916;M macrophages. To navigate the atlas, we designed a web interface publically available at http://ttp-atlas.univie.ac.at. The interface visualizes all three pillars in an integrated way and displays them for annotated genes expressed in murine macrophages. The atlas links the position and extent of TTP binding with the effects of TTP on the stability and abundance of the corresponding mRNA at the decisive steps of the inflammatory response.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47752</offset>
+      <text>Although our correlation analysis showed that TTP&#8208;dependent mRNA decay has a strong impact on the gene expression profile at the transition from inflammatory to resolution phase of the macrophage response (Fig&#160;7D), it remained unclear whether this effect was a direct consequence of TTP binding to target mRNAs. Such effect might be also caused by indirect mechanisms including mRNA destabilization by factors which are themselves controlled by TTP. To answer this question, we used the functionally annotated TTP binding atlas for two types of correlation analyses: TTP binding versus differential decay at 3 and 6&#160;h of LPS stimulation and TTP binding versus differential gene expression at 3 and 6&#160;h of LPS stimulation. This analysis was restricted to the 3&#8242; UTR datasets, since only binding to these regions has shown regulatory effects. Furthermore, we normalized TTP binding site scores to the expression of target mRNAs (i.e. RNA&#8208;Seq data) to assess relative strength of TTP binding to different targets (see Materials and Methods for description) and to analyze the correlation between binding strength and differential decay (Fig&#160;8A) as well as between binding strength and differential expression (Fig&#160;8B). The analyses of Pearson's coefficients showed that normalized TTP binding score (equation&#160;(1) in Materials and Methods) is correlated with both differential decay (Fig&#160;8A) and differential expression (Fig&#160;8B), an effect that becomes markedly stronger when switching from 3 to 6&#160;h after LPS induction. The correlation with differential decay rates is even stronger than with differential expression, as judged by Pearson's coefficients.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>49419</offset>
+      <text>Pearson's correlation between normalized TTP binding versus differential RNA decay, and normalized TTP binding versus differential gene expression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49566</offset>
+      <text>Correlation between TTP binding and RNA decay increases from 3&#160;h (Pearson's r&#160;=&#160;0.30, 95% confidence intervals (CI) [0.094, 0.477], P&#8208;value&#160;&lt;&#160;2e&#8208;16, left panel) to 6&#160;h (Pearson's r&#160;=&#160;0.59, 95% CI [0.466, 0.693], P&#8208;value&#160;&lt;&#160;2e&#8208;16, right panel) after LPS induction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49847</offset>
+      <text>Correlation between TTP binding and differential expression increases from 3&#160;h (Pearson's r&#160;=&#160;0.1, 95% CI [&#8722;0.113, 0.299], P&#8208;value 0.36, left panel) to 6&#160;h (Pearson's r&#160;=&#160;0.32, 95% CI [0.152, 0.462], P&#8208;value&#160;&lt;&#160;2e&#8208;16, right panel) after LPS induction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50114</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50117</offset>
+      <text>Together, our datasets establish a functionally annotated atlas of TTP binding sites. The atlas together with the provided tools allows navigation and insights into regulation of the macrophage inflammatory response at the post&#8208;transcriptional level. Using the atlas, we provide evidence that the TTP&#8208;controlled transition of the macrophage response from the inflammatory into resolution phase of inflammation is a direct consequence of TTP binding to target mRNAs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50587</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50598</offset>
+      <text>Our study represents a multilayered transcriptome&#8208;wide analysis of post&#8208;transcriptional gene regulation during the inflammatory response of the macrophage. The work integrates high&#8208;resolution mapping of TTP binding sites with analyses of TTP&#8208;dependent control of mRNA decay and abundance. Our approach provides a dynamic, rather than a snapshot, insight into the inflammatory response since the datasets include peak inflammatory as well as early resolution phases of the macrophage transcriptome. Comprehensive analyses of the datasets allowed us to establish a functionally annotated atlas of TTP binding sites for key phases of the macrophage response to an inflammatory stimulus. By multiple correlation assessments using the atlas data, we were able to show that TTP directly drives the conversion of the inflammatory phase into the resolution response.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51465</offset>
+      <text>One aim of this study was to identify at nucleotide resolution positions of TTP binding sites in immunostimulated macrophages in order to determine the impact of TTP binding on inflammatory gene expression. The selected experimental system is characterized by a high but controlled TTP expression, habitual regulation of TTP activity by phosphorylation and other post&#8208;translational modifications, and abundant presence of inflammation&#8208;associated physiological TTP target mRNAs (Brook et&#160;al, 2006; Hitti et&#160;al, 2006; Sandler &amp; Stoecklin, 2008; Stoecklin et&#160;al, 2008; Schaljo et&#160;al, 2009; Kratochvill et&#160;al, 2011; Tiedje et&#160;al, 2012). Furthermore, macrophages and other myeloid cells represent so far the only cell types in which TTP expression has been linked with functional consequences in&#160;vivo (Carballo et&#160;al, 1998; Kratochvill et&#160;al, 2011; Qiu et&#160;al, 2012). Thus, our study examines TTP binding and function in a native and physiologically relevant environment. The very limited target overlap between our transcriptome&#8208;wide study and the reported study carried out in HEK293 cells overexpressing TTP (Mukherjee et&#160;al, 2014) is most likely caused by differences in the experimental systems such as the missing expression of inflammation&#8208;associated TTP targets or different regulation of TTP activity and/or expression in HEK293 cells. In contrast to this study, most TTP targets known so far are present in our study, suggesting that coverage in our study is comprehensive. However, cell type&#8208;specific aspects of TTP binding cannot be excluded. Future studies should address this question by determining TTP binding sites in other primary cells, particularly cells of the hematopoietic system.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53184</offset>
+      <text>A minimum, albeit not sufficient, requirement for destabilization by TTP is binding to the 3&#8242; UTR: Only TTP bound to the 3&#8242; UTR, but not to other transcript regions, can destabilize the target. Nevertheless, most mRNAs targeted by TTP in their 3&#8242; UTRs are stable, indicating that other factors contribute to destabilization by TTP. The extent of TTP occupancy at the target is not likely to be alone decisive for destabilization since TTP&#8208;destabilized mRNAs often exhibit similar TTP binding site scores as stable transcripts (e.g. Il6 versus Sdc4). The sequence of the TTP binding site does not appear to represent a critically important parameter since we detect the most preferred TTP binding sequence motif, the UAUUUAU heptamer, in stable as well as unstable TTP&#8208;bound mRNAs. These data implicate that the effects of TTP binding on target mRNA stability might be more context dependent than previously anticipated. For example, regions flanking the binding sites might contain other cis&#8208;acting elements such as seed sites for microRNAs. TTP has been reported to interact with miR16 to destabilize Tnf mRNA in HeLa cells (Qi et&#160;al, 2012), but a broader analysis, particularly in immune cells, is needed to assess the general role of microRNAs in TTP&#8208;dependent mRNA decay. Cis&#8208;acting elements might also exert their effects by recruiting other RNA&#8208;binding proteins which could act independently or in complexes with TTP to regulate mRNA decay. An interaction between TTP and the RNA&#8208;binding protein KSRP was reported, and this association enhanced the decay of the human iNOS mRNA (Linker et&#160;al, 2005). Evidence for a general contribution of KSRP to TTP&#8208;dependent mRNA decay has so far not been provided. TTP was also found to bind to several isoforms of the ARE&#8208;binding and mRNA&#8208;destabilizing factor AUF1, but the functional consequences of these interactions remain to be elucidated (Kedar et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55122</offset>
+      <text>We addressed the combinatorial effects of RNA&#8208;binding proteins on mRNA stability by genome&#8208;wide mapping of HuR binding sites in immunostimulated macrophages under the same conditions as applied to the TTP procedure. Our datasets establish that only a minor fraction of target mRNAs contain binding sites for both TTP and HuR in their 3&#8242; UTRs. This finding excludes a direct competition of TTP and HuR for the same binding sites as a general means for the regulation of mRNA decay by these two proteins. Interestingly, the stability of mRNAs containing binding sites for both TTP and HuR is also, in general, not co&#8208;regulated by the two proteins although they can simultaneously bind. It remains to be elucidated whether such mRNAs are co&#8208;regulated by means of TTP&#8208;mediated mRNA degradation and HuR&#8208;facilitated translation, as reported for Tnf mRNA (Tiedje et&#160;al, 2012). The specific properties of binding sites targeted by both HuR and TTP, or conversely properties of binding sites targeted exclusively by either of the two proteins, need to be deciphered yet. However, our structure/sequence analysis of the binding site context revealed distinct properties for sites bound by TTP or HuR. Functional binding motifs for both TTP and HuR tend to be embedded in a larger AU&#8208;rich and weakly structured region, but for HuR, the lack of secondary structure seems to be more relevant than AU content. Despite the high incidence of intronic TTP binding sites found both in our study and by Mukherjee and colleagues (Mukherjee et&#160;al, 2014), the function of TTP binding to introns remains elusive. For Irg1, we find TTP to be associated with spliced&#8208;out introns, possibly to the lariat since the rate&#8208;limiting step of intron degradation is the cleavage of the lariat intermediate by the debranching enzyme DBR1 (Chapman &amp; Boeke, 1991). TTP shuttles between the cytoplasm and the nucleus in a regulated manner (Johnson et&#160;al, 2002; Phillips et&#160;al, 2002; Stoecklin et&#160;al, 2004). Our data show that in contrast to cytoplasmic TTP, the levels of nuclear TTP remain stable throughout the inflammatory response. This suggests that the interaction of TTP with introns might be less dynamic than with 3&#8242; UTRs. Since our data do not indicate a role of intronic TTP binding in pre&#8208;mRNA processing, future studies should explore other options such as a role of TTP in the fate of intronic RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57526</offset>
+      <text>A hallmark of activated macrophages is a highly dynamic and temporally coordinated expression of inflammation&#8208;associated transcripts, including many cytokine and chemokine mRNAs. The levels of these mRNAs are significantly regulated by precisely controlled mRNA decay such that they are allowed to accumulate during the onset of immune response but are degraded during resolution of inflammation. Although the mRNA&#8208;destabilizing activity of TTP was shown to increase during the inflammatory response, it remained unclear to what extent such regulation can determine the dynamics of the inflammatory gene expression profile (Kratochvill et&#160;al, 2011). Our current integrated approach shows a strong impact of TTP&#8208;dependent mRNA degradation on the transcriptome during the early resolution phase, whereas the onset of inflammation is only marginally influenced. Moreover, we show that the ability of TTP to dynamically regulate the inflammatory expression profile is a direct consequence of TTP binding to target mRNAs. The low impact of TTP&#8208;dependent decay on the gene expression profile during the early inflammatory phase contrasts with the substantial differences between the transcriptomes of WT and TTP&#8208;deficient macrophages in this phase. This surprising finding indicates that TTP directly controls the expression of only a few key drivers of the inflammatory response in the onset phase of inflammation. One such driver might be Tnf, which is strongly controlled by TTP already in the early response and can act as an autocrine amplifier by activating the central transcriptional inducer of cytokines NF&#8208;kappa&#8208;B (Hayden &amp; Ghosh, 2012). The importance of the ability of TTP to directly control the macrophage response at the transition to the resolution phase is underpinned by the spectrum of TTP targets in this phase. These targets are significantly enriched in mRNAs coding for proteins involved in chemotaxis and cell migration, which are key processes in the establishment of non&#8208;resolving inflammation (Griffith et&#160;al, 2014). Thus, by interfering with these processes, TTP helps prevent chronic inflammation. This finding proposes a mechanistic explanation for the phenotype of animals lacking TTP expression in macrophages: These animals fail to resolve an inflammatory challenge but they do not spontaneously initiate inflammation and remain healthy under normal conditions (Kratochvill et&#160;al, 2011; Qiu et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59978</offset>
+      <text>Our study employs molecular systems biology approaches to integrate transcriptome&#8208;wide data on TTP binding sites with TTP&#8208;controlled mRNA stability and abundance. The study provides comprehensive insights into the regulation of the inflammatory transcriptome at the post&#8208;transcriptional level. It provides evidence that the function of RNA&#8208;binding proteins is more context dependent than previously anticipated. Cis&#8208; and trans&#8208;acting combinatorial effects similar to those known from transcription regulation will likely apply also to the regulation of mRNA decay. Using our integrative network, we identify a TTP&#8208;dependent switch, which drives the macrophage response from the inflammatory to the resolution phase. This finding improves our understanding of the molecular basis of chronic inflammatory diseases with important implications for the development of new therapeutical options.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60882</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60904</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60917</offset>
+      <text>Murine bone marrow&#8208;derived macrophages were produced from the bone marrow isolated from femur and tibia of 7&#8208; to 9&#8208;week&#8208;old TTP&#916;M mice or WT littermates. Macrophages were cultivated in DMEM (Sigma) supplemented with 10% FBS (Sigma), 100&#160;U/ml penicillin (Sigma), 100&#160;&#956;g/ml streptomycin (Sigma), and CSF&#8208;1 derived from L929&#8208;cells as previously described (Kovarik et&#160;al, 1998). Mice for bone marrow isolation were bred and kept under specific pathogen&#8208;free conditions according to the recommendations of the Federation of European Laboratory Animal Science Association and were all on C57BL/6 background. All experiments involving bone marrow isolation were discussed with the institutional ethics committee and performed in accordance with the Austrian law for animal experiments (BGBl. I Nr. 114/2012) and in accordance with the guidelines recommended by the German Society of Laboratory Animals (GV&#8208;SOLAS). Animal experimental protocols were approved and authorized through the permission BMWF&#8208;66.006/0006&#8208;II/3b/2013 issued by the Austrian Ministry of&#160;Science to PK.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62010</offset>
+      <text>PAR&#8208;iCLIP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62022</offset>
+      <text>UV crosslinking, immunoprecipitation, and library preparation were performed as described (Hafner et&#160;al, 2010; Konig et&#160;al, 2010). Briefly, BMDMs were cultured on 15&#8208;cm cell culture&#8208;treated dishes (15&#160;&#215;&#160;106 cells per plate) in medium supplemented with 100&#160;&#956;M 4&#8208;thiouridine (Sigma) for 16&#160;h prior to experiment. Cells were then stimulated with LPS (10&#160;ng/ml, Sigma) for 6&#160;h, followed by washing with PBS (Sigma) and exposure to 365&#8208;nm UV light at 0.15 J/cm2. Subsequently, 108 cells were harvested in three volumes of lysis buffer [50&#160;mM Tris&#8211;HCl pH 7.4 (Life Technologies), 100&#160;mM NaCl (AppliChem), 1% NP&#8208;40 (AppliChem), 0.1% SDS (AppliChem), 0.5% sodium deoxycholate (AppliChem), protease inhibitor cocktail (Roche)]. Lysate was treated with 10&#160;U/&#956;l (2&#160;U/&#956;l, 0.5 U/&#956;l) RNase I (Ambion) and 10 U DNase I (Roche) for 3&#160;min at 37&#176;C. TTP was immunoprecipitated with 50&#160;&#956;l TTP rabbit antiserum (Kratochvill et&#160;al, 2011) bound to Protein G Dynabeads (Invitrogen). After washing, 32P&#8208;labeled RNA adaptor (1&#160;&#956;M/sample) was ligated to 3&#8242; end of RNA. Protein&#8211;RNA complexes were eluted from beads by incubating in 20&#160;&#956;l 1&#215; NuPAGE LDS sample buffer (Life Technologies) for 10&#160;min at 70&#176;C, separated on pre&#8208;cast 4&#8211;12% NuPAGE Bis&#8208;Tris gel (Life Technologies), and transferred to nitrocellulose membrane using wet transfer (Bio&#8208;Rad). Radioactive signal was visualized using a phosphorimager screen, and bands corresponding to TTP&#8211;RNA complexes were cut out. RNA was recovered from the membrane using 10&#160;&#956;l proteinase K digestion (Roche) at 37&#176;C for 40&#160;min with shaking. RNA was reverse&#8208;transcribed with Super Script III (Life Technologies) and primers specific for 3&#8242; adaptor. cDNA was fractionated using non&#8208;denaturing 6% PAAG gel (Life Technologies), and fragments in the ranges of 120&#8211;200&#160;nt (high), 85&#8211;120&#160;nt (medium), and 70&#8211;85&#160;nt (low) were recovered by gel elution in TE buffer for 2&#160;h at 37&#176;C with intensive shaking followed by circularization using CircLigase II (Epicenter). Oligodeoxyribonucleotide complementary to BamHI site was annealed and digested with BamHI (Thermo Scientific) in order to linearize cDNA. cDNA was PCR&#8208;amplified with primers specific to linker regions. Library was subjected to high&#8208;throughput sequencing 100&#8208;bp single end on an Illumina HiSeq 2000 platform at the CSF NGS unit (http://csf.ac.at).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64424</offset>
+      <text>RNA&#8208;Seq as control for PAR&#8208;iCLIP&#8208;Seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64467</offset>
+      <text>Control RNA&#8208;Seq library was prepared using the same strategy as for the PAR&#8208;iCLIP library. Total RNA from 107 BMDMs was isolated with TRIzol reagent (Life Technologies) according to the manufacturer's protocol. Ribosomal RNA was depleted using Ribo&#8208;Zero rRNA removal kit (Epicenter), and the remaining RNA was fragmented using RNA fragmentation reagent (Ambion). Enzymatically 5&#8242; pre&#8208;adenylated RNA adaptor was ligated to RNA 3&#8242; end. cDNA was produced using primer specific to 3&#8242; adaptor sequence. cDNA was size&#8208;selected (200&#8211;300&#160;nt) using non&#8208;denaturing gel, recovered, and circularized using CircLigase II (Epicenter). DNA oligo complementary to BamHI site was annealed and digested with BamHI (Thermo Scientific) in order to linearize cDNA. cDNA was then PCR&#8208;amplified with primers specific for linker regions. Library was subjected to high&#8208;throughput sequencing 100&#8208;bp paired end on an Illumina HiSeq platform at the CSF NGS unit (http://csf.ac.at).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65448</offset>
+      <text>PAR&#8208;iCLIP and RNA&#8208;Seq data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65488</offset>
+      <text>PAR&#8208;iCLIP and RNA&#8208;Seq reads were pre&#8208;processed (includes demultiplexing, barcode trimming, and adaptor removal with Cutadapt) (Martin, 2011). After quality control with FASTQC (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), reads were mapped to the mouse genome assembly mm9/NCBI37 using Segemehl v0.1.3&#8208;349M (Hoffmann et&#160;al, 2009). Uniquely mapped reads were extracted for further analysis. The replicates of TTP PAR&#8208;iCLIP contained 17349756, 16587192, and 16313702 mapped reads. The replicates of HuR PAR&#8208;iCLIP contained 38670127 and 38212687 mapped reads.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66073</offset>
+      <text>PAR&#8208;iCLIP binding site finding and filtering</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66120</offset>
+      <text>A binding site is defined as a region with a significantly higher number of read pileup at a given genomic position than would be expected by chance. We used the Pyicos modFDR method (Althammer et&#160;al, 2011) for binding site finding, together with a modified filtering algorithm for the use with PAR&#8208;iCLIP crosslink sites, which can be seen as reads of length one. Due to the nucleotide resolution of PAR&#8208;iCLIP, binding site width can range from one nucleotide for very sharp signals to several hundred nucleotides for regions with, for example, multiple consecutive binding sites. Our custom filtering method splits binding site regions surrounding the highest binding site signal, henceforth named summit in accordance with Pyicos, once certain height thresholds are reached. Cutoffs were defined based on signals detected in known TTP targets. Binding sites with a summit signal below 100 pileups are considered background and discarded. With a sliding window approach, starting from the summit, a binding site is first split when its height falls below 30% of the summit signal. Emerging subsites with a summit above this cutoff and 100 pileups are then recursively split when their signal falls below 10% of their summit. Final split sites contain a high amount of crosslink signal and allow us to analyze protein binding sites with high resolution. Replicates of each experimental setup were analyzed separately. Width and position of binding sites vary slightly between experiments. For the ranked lists of TTP and HuR target genes, we collect binding sites from all replicates and filter out sites that do not have an overlap with sites in all other replicates. Resulting filtered sites were then applied to downstream analysis, for example, annotation and motif analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67905</offset>
+      <text>Binding site annotation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67929</offset>
+      <text>Crosslinks derived from uniquely mapped reads in binding site regions were annotated using the ENSEMBL Perl API for mouse annotation version 67. For gene statistics, we applied an exon first approach, where all transcript isoforms of a target gene are taken into account: A binding site region is classified as exonic if it occurs in an exon of at least one transcript isoform; it is intronic if it occurs in an intron of at least one isoform and never in an exon.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68394</offset>
+      <text>Motif finding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68408</offset>
+      <text>The command line version of MEME (Bailey &amp; Elkan, 1994) was used to detect overrepresented sequence motifs in the binding site. MEME builds its background model based on nucleotide frequencies of the input sequences. Since we aimed to identify motifs that are enriched in genomic elements (introns and 3&#8242; UTRs) rather than all regions of PAR&#8208;iCLIP signal, we generated individual background models for those genomic elements found in ENSEMBL protein&#8208;coding genes. Binding site regions shorter than MEME's minimum sequence length (8&#160;nt) were extended on both ends to a minimal length of 9&#160;nt. Using the custom background models and the &#8220;any number of repeats&#8221; mode of MEME with motif length between 5 and 7 yielded the best results regarding both motif information and gene coverage.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>69203</offset>
+      <text>Quantification and normalization of PAR&#8208;iCLIP data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69256</offset>
+      <text>PAR&#8208;iCLIP cannot distinguish between poor binding sites in highly expressed targets and good binding sites in targets with low expression. In order to introduce a measure for binding site strength, we performed control RNA&#8208;Seq experiments using the same library preparation strategy as for PAR&#8208;iCLIP. Expression rates were calculated using Cufflinks v.2.0.2 [1] with ENSEMBL exon annotation as regions of interest. Gene&#8208;wide PAR&#8208;iCLIP signal was normalized by gene expression rates (FPKM) to define normalized binding (equation&#160;(1)). Gene expression (equation&#160;(1). FPKM gene) was calculated as the sum of FPKMs of all transcript isoforms (FPKM transcript) of each gene containing the binding site within the mature mRNA. Only transcripts of FPKM&#160;&#8805;&#160;10 were considered, as we expect TTP targets under inflammatory stress to be strongly expressed.  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70119</offset>
+      <text>Sparse data correction (median FPKM transcript was added to FPKM gene before normalization) was applied, to avoid spurious high GeneScores of very low expressed genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>70287</offset>
+      <text>ROC analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70300</offset>
+      <text>To investigate the sequence and structure properties of bound and unbound RNA sequences, we derived coordinates of AREs of type WAUUUAW and UUUKUUU from AREsite (Gruber et&#160;al, 2011). Those AREs resemble the most over&#8208;represented motifs in TTP (WAUUUAW) and HuR (UUUKUUU) binding sites we identified in this study. Intersection with our dataset&#160;allowed us to create a &#8220;positive&#8221; (bound) and &#8220;negative&#8221; (unbound) set of sequence motifs, which was used to train linear discriminators based on sequence (AU content) and structuredness. The latter is defined by the accessibility of a region, which means the probability to find paired nucleotides. We calculated structuredness with RNAplfold (Bernhart et&#160;al, 2011), in terms of opening energy.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>71053</offset>
+      <text>Comparison of datasets for TTP binding in BMDMs and HEK293&#160;cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71119</offset>
+      <text>In order to identify homologous TTP binding sites in humans and mouse, we extracted syntenic regions using the liftover tool of the UCSC binary collection (Kent et&#160;al, 2002). Coordinates (human genome assembly hg19) of previously identified TTP binding sites in human HEK293 cells (Mukherjee et&#160;al, 2014) were lifted to mouse coordinates (NCBI m37 [mm9], ENSEMBL annotation 67) using &#8208;minMatch&#160;=&#160;0.05. Overlapping regions for further analysis were extracted using the BEDTools suite (Quinlan &amp; Hall, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>71632</offset>
+      <text>Library preparation for differential gene expression and mRNA decay analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71709</offset>
+      <text>BMDMs were stimulated with LPS (10&#160;ng/ml) for 3, 6&#160;h or left untreated. Medium was then replaced by a fresh medium containing actinomycin D (5&#160;&#956;g/ml). Total RNA was isolated using TRIzol reagent 0, 45, 90&#160;min after the addition of actinomycin D. RNA&#8208;Seq libraries were prepared using SENSE mRNA&#8208;Seq Library Prep Kit (Lexogen). Libraries were subjected to 100&#8208;bp single&#8208;end high&#8208;throughput sequencing on an Illumina HiSeq 2500 platform at the CSF NGS unit (http://csf.ac.at). For each time point, three biological replicates were used.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>72259</offset>
+      <text>Differential gene expression and mRNA decay analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72312</offset>
+      <text>RNA&#8208;Seq reads were pre&#8208;processed (including demultiplexing, barcode, adaptor and quality trimming, quality control using FASTQC, http://www.bioinformatics.babraham.ac.uk/projects/fastqc/). The remaining reads were mapped to the mouse genome assembly GRCm38/mm10 using gsnap (Wu &amp; Watanabe, 2005). Quality control of mapping was performed using RNA&#8208;SeQC (DeLuca et&#160;al, 2012). Transcripts were quantified using the Mix2 RNA&#8208;Seq data analysis software (Lexogen). Differential expression analysis was performed based on read counts (FPKM) in gene models using DESeq2 (Love et&#160;al, 2014). Decay of mRNA was quantified assuming a model of exponential decay (Ross, 1995). For each gene, a linear model was fitted with log2&#8208;transformed FPKM as target variables and time after actinomycin D addition as explanatory variable. Therefore, the slope of the linear model estimates the rate of mRNA decay for each gene. Half&#8208;life may be calculated as the inverse of the rate. We note that the estimates of mRNA decay at the different time points, that is, 3 and 6&#160;h of LPS treatment, are from independent replicates and thus not trivially correlated. Pearson's correlations between various variables and estimates were calculated as descriptive statistics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>73568</offset>
+      <text>Quantification of gene expression by qRT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73615</offset>
+      <text>Total RNA was isolated using TRIzol reagent (Life Technologies) according to the manufacturer's protocol. DNase digestion was performed using recombinant DNase I (Roche). RNA was then reverse&#8208;transcribed by SuperScript III reverse transcriptase (Life Technologies). cDNA was quantified using HOT FIREPol EvaGreen qPCR Supermix (Solis BioDyne) on realplex Mastercycler (Eppendorf) as described before (Morrison et&#160;al, 1998). mRNA expression of the housekeeping gene Hprt was used for normalization.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74116</offset>
+      <text>Measurement of mRNA stability by qRT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74159</offset>
+      <text>BMDMs (2&#160;&#215;&#160;106 cells) were stimulated with LPS (10&#160;ng/ml) as described in figure legends. Medium was then replaced by a fresh medium containing actinomycin D (5&#160;&#956;g/ml). Total RNA was isolated using TRIzol reagent 0, 30, 60&#160;min after the addition of actinomycin D. Remaining mRNA was quantified using qRT&#8211;PCR as described above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74496</offset>
+      <text>RNA immunoprecipitation (RNA&#8208;IP)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74531</offset>
+      <text>BMDMs were cultured in the medium supplemented with 100&#160;&#956;M 4&#8208;thiouridine (Sigma) for 16&#160;h prior to the experiment. BMDMs were stimulated with LPS (10&#160;ng/ml) for 6&#160;h. Cells were washed with PBS and crosslinked using 365&#8208;nm UV light at 0.15&#160;J/cm2. Subsequently, the cells were harvested in three volumes of lysis buffer [50&#160;mM Tris&#8211;HCl pH 7.4, 100&#160;mM NaCl, 1% NP&#8208;40, 0.1% SDS, 0.5% sodium deoxycholate, protease inhibitor cocktail (Roche)]. Lysate was treated with DNase I (Roche) for 5&#160;min at 37&#176;C. TTP&#8208;bound RNA was immunoprecipitated using 50&#160;&#956;l TTP rabbit antiserum (Kratochvill et&#160;al, 2011) bound to Protein G Dynabeads (Invitrogen) for 3&#160;h at 4&#176;C. Beads were washed in lysis buffer followed by wash buffer (20&#160;mM Tris&#8211;HCl pH 7.4, 10&#160;mM MgCl2, 0.2% Tween 20). TTP&#8211;RNA complexes were eluted from beads at 70&#176;C for 15&#160;min in 100&#160;&#956;l elution buffer (50&#160;mM Tris&#8211;HCl pH 6.5, 100&#160;mM DTT, 2% SDS). RNA was recovered using proteinase K digestion and the subsequent phenol&#8211;chloroform extraction and ethanol precipitation. cDNA was produced using random octamer primers. Precipitated RNA was quantified using qRT&#8211;PCR as described above. Relative mRNA levels were calculated as 225&#8722;Ct.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>75753</offset>
+      <text>Native RNA immunoprecipitation (native RNA&#8208;IP)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75802</offset>
+      <text>BMDMs (20&#160;&#215;&#160;106 cell) were stimulated with LPS (10&#160;ng/ml) for 3 or 6&#160;h. Cells were washed with ice&#8208;cold PBS and subsequently harvested in native lysis buffer [10&#160;mM Tris&#8211;HCl pH 7.4, 30&#160;mM tetrasodiumpyrophosphate, 50&#160;mM NaCl, 50&#160;mM NaF, 1% Triton X&#8208;100, protease inhibitor cocktail (Roche), RNase inhibitor]. Lysate was treated with DNase I (Roche) for 5&#160;min at 37&#176;C. TTP&#8208;bound RNA was immunoprecipitated using 50&#160;&#956;l TTP rabbit antiserum (Kratochvill et&#160;al, 2011) bound to Protein G Dynabeads (Invitrogen) for 3&#160;h at 4&#176;C. Beads were washed three times in lysis buffer. TTP&#8211;RNA complexes were eluted from beads at 70&#176;C for 15&#160;min in 50&#160;&#956;l elution buffer (50&#160;mM Tris&#8211;HCl pH 6.5, 100&#160;mM DTT, 2% SDS). RNA was recovered using phenol&#8211;chloroform extraction and ethanol precipitation. cDNA was produced using mixture of random octamer and oligo(dT) primers. Precipitated RNA was quantified using qRT&#8211;PCR as described above. Relative mRNA levels were calculated as 225&#8722;Ct.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76807</offset>
+      <text>Sequential RNA immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76842</offset>
+      <text>BMDMs (20&#160;&#215;&#160;106 cells) were stimulated with LPS (10&#160;ng/ml) for 6&#160;h. Cells were washed with ice&#8208;cold PBS and subsequently harvested in native lysis buffer (10&#160;mM Tris&#8211;HCl pH 7.4, 30&#160;mM tetrasodiumpyrophosphate, 50&#160;mM NaCl, 50&#160;mM NaF, 1% Triton X&#8208;100, protease inhibitor cocktail (Roche), RNase inhibitor). TTP&#8208;bound RNA was immunoprecipitated using 30&#160;&#956;l TTP rabbit antiserum (Kratochvill et&#160;al, 2011) bound to Protein G Dynabeads (Invitrogen) for 16&#160;h at 4&#176;C. Beads were washed three times in lysis buffer. TTP&#8211;RNA complexes were eluted using a TTP peptide in lysis buffer at 37&#176;C for 30&#160;min under agitation. Eluate was immunoprecipitated using HuR antibody (clone 3A2, Thermo Fisher Scientific) or tubulin antibodies (clone DM1A Sigma) as negative control bound to Protein G Dynabeads (Invitrogen) for 16&#160;h at 4&#176;C. Beads were washed three times in lysis buffer. TTP&#8211;HuR&#8211;RNA complexes were eluted from beads at 70&#176;C for 15&#160;min in 50&#160;&#956;l elution buffer (50&#160;mM Tris&#8211;HCl pH 6.5, 100&#160;mM DTT, 2% SDS). RNA was recovered using phenol&#8211;chloroform extraction and ethanol precipitation. cDNA was produced using mixture of random octamer and oligo(dT) primers and subsequently PCR&#8208;amplified using specific primers. PCR products were analyzed by agarose electrophoresis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78144</offset>
+      <text>Nuclear/cytosolic fractionation and immunoblotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78195</offset>
+      <text>Procedure for the separation of cytosolic from nuclear fractions was a modification of a reported protocol (Sadzak et&#160;al, 2008). BMDMs (2&#160;&#215;&#160;107 cells) were washed in PBS (Sigma), scraped in PBS, and harvested by centrifugation. Cytoplasmic fraction was extracted using cytoplasmic lysis buffer [10&#160;mM HEPES pH 7.5, 60&#160;mM KCl, 1&#160;mM EDTA, 1&#160;mM DTT, 0.1% NP&#8208;40, protease inhibitor cocktail (Roche)]. Nuclei were washed twice in wash buffer [10&#160;mM HEPES pH 7.5, 60&#160;mM KCl, 1&#160;mM EDTA, 1&#160;mM DTT, protease inhibitor cocktail (Roche)]. Nuclei were lysed in 100&#160;&#956;l 1&#215; SDS loading buffer and sonicated to reduce sample viscosity. Sample preparation, SDS&#8211;PAGE, and immunoblotting were performed as described (Sadzak et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78934</offset>
+      <text>Statistical analysis and visualization</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78973</offset>
+      <text>Exploratory data analysis, visualization, and statistical testing were performed with R&#8208;project (http://www.R-project.org) or perl scripts using unpaired two&#8208;sample unequal variances t&#8208;test (Welsh's t&#8208;test), Mann&#8211;Whitney test, Kolmogorov&#8211;Smirnov test, linear regression model, Pearson's correlation test as indicated in figure legends. Venn diagrams were produced using Venn Diagram&#160;Plotter (Pan&#8208;Omics Research). RNA&#8208;Seq read coverage was calculated with coverageBed from BEDTools suite (Quinlan &amp; Hall, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>79501</offset>
+      <text>GO enrichment analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79524</offset>
+      <text>GO enrichment analysis was performed using DAVID version 6.7 (Huang da et&#160;al, 2009a,b). Ensembl IDs for genes corresponding to transcripts targeted by TTP or HuR in 3&#8242; UTR were submitted to DAVID Functional Annotation Tool (http://david.abcc.ncifcrf.gov/).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>79784</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79802</offset>
+      <text>The raw as well as processed binding and expression data are accessible via GEO under reference series number GSE63468 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63468).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>79983</offset>
+      <text>Primer list</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79995</offset>
+      <text>Murine Hprt fw GCAGTCCCAGCGTCGTGAT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80030</offset>
+      <text>Murine Hprt rv CGAGCAAGTCTTTCAGTCCTGTC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80069</offset>
+      <text>Murine Tnf fw GATCGGTCCCCAAAGGGATG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80104</offset>
+      <text>Murine Tnf rv CACTTGGTGGTTTGCTACGAC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80140</offset>
+      <text>Murine Cxcl2 fw GCCCAGACAGAAGTCATAG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80176</offset>
+      <text>Murine Cxcl2 rv GTCAGTTAGCCTTGCCTT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80211</offset>
+      <text>Murine Tapbp fw ATACTTCAAGGTGGATGACCCG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80250</offset>
+      <text>Murine Tapbp rv CTGCTCCGGACTCAGACTTC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80287</offset>
+      <text>Murine Gnb1 fw GAACTAAAGCCAGGAGCAGCAG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80325</offset>
+      <text>Murine Gnb1 rv TGTGGGTGTCCACGTTAGTATG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80363</offset>
+      <text>Murine Ccl3 fw TCTCCTACAGCCGGAAGATCCC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80401</offset>
+      <text>Murine Ccl3 rv CATTCAGTTCCAGGTCAGTGATG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80440</offset>
+      <text>Murine Zfp36 fw CTCTGCCATCTACGAGAGCC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80477</offset>
+      <text>Murine Zfp36 rv GATGGAGTCCGAGTTTATGTTCC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80517</offset>
+      <text>Murine Fos fw GGAGAATCCGAAGGGAACGG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80552</offset>
+      <text>Murine Fos rv CTGTCTCCGCTTGGAGTGTAT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80588</offset>
+      <text>Murine Ccl12 fw GAAGCTGTGATCTTCAGGACC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80626</offset>
+      <text>Murine Ccl12 rv TCTTAACCCACTTCTCCTTGGG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80665</offset>
+      <text>Murine Cxcl1 fw TGCACCCAAACCGAAGTCATAG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80704</offset>
+      <text>Murine Cxcl1 rv TTGTATAGTGTTGTCAGAAGCCAGC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80746</offset>
+      <text>Murine Il10 fw GGACTTTAAGGGTTACTTGGGTTGCC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80788</offset>
+      <text>Murine Il10 rv CATGTATGCTTCTATGCAGTTGATGA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80830</offset>
+      <text>Murine Irf1 fw CCGAAGACCTTATGAAGCTCTTTG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80870</offset>
+      <text>Murine Irf1 rv GCAAGTATCCCTTGCCATCG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80906</offset>
+      <text>Murine Irg1 fw AGTTTTCTGGCCTCGACCTG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80942</offset>
+      <text>Murine Irg1 rv AGAGGGAGGGTGGAATCTCT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80978</offset>
+      <text>Murine Irg1 intron 3 fw TCAGAAATCTGAGGTGGCCTG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81024</offset>
+      <text>Murine Irg1 intron 3 rv CAGATACTGGGAGCCACAACA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81070</offset>
+      <text>Murine Irg1 intron 4 fw AACTTTCCAGCCCCACTAGC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81115</offset>
+      <text>Murine Irg1 intron 4 rv TAGGAACAGGCCACTGGGTA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81160</offset>
+      <text>Murine Irg1 exon 4&#8211;intron 4 fw CACAGCTCTATCGGAAGCCC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81214</offset>
+      <text>Murine Irg1 exon 4&#8211;intron 4 rv CCAGCCTCTAAGCCAGACAG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81268</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>81271</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81292</offset>
+      <text>VS, JF, IH, and PK perceived the idea of the study and designed the experiments. VS, JF, and FE performed the experiments and data analysis. JH, LS, MI, KK, AT, and CV contributed to parts of the study. VS and FE designed web interface. VS programmed web interface. VS, JF, IH, and PK wrote the paper.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>81594</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81615</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>81675</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>81698</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">3340</infon>
+      <infon key="pub-id_pmid">21994224</infon>
+      <infon key="fpage">3333</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>81709</offset>
+      <text>Pyicos: a versatile toolkit for the analysis of high&#8208;throughput sequencing data</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Proc Int Conf Intell Syst Mol Biol</infon>
+      <infon key="lpage">36</infon>
+      <infon key="pub-id_pmid">7584402</infon>
+      <infon key="fpage">28</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>81791</offset>
+      <text>Fitting a mixture model by expectation maximization to discover motifs in biopolymers</text>
+    </passage>
+    <passage>
+      <infon key="source">Algorithms Mol Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21388531</infon>
+      <infon key="fpage">3</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>81877</offset>
+      <text>RNA accessibility in cubic time</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Biochem Soc Trans</infon>
+      <infon key="lpage">952</infon>
+      <infon key="pub-id_pmid">12440952</infon>
+      <infon key="fpage">945</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>81909</offset>
+      <text>Tristetraprolin and other CCCH tandem zinc&#8208;finger proteins in the regulation of mRNA turnover</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">19955</infon>
+      <infon key="pub-id_pmid">12639954</infon>
+      <infon key="fpage">19947</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>82005</offset>
+      <text>Characteristics of the interaction of a synthetic human tristetraprolin tandem zinc finger peptide with AU&#8208;rich element&#8208;containing RNA substrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2418</infon>
+      <infon key="pub-id_pmid">16508015</infon>
+      <infon key="fpage">2408</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>82155</offset>
+      <text>Posttranslational regulation of tristetraprolin subcellular localization and protein stability by p38 mitogen&#8208;activated protein kinase and extracellular signal&#8208;regulated kinase pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">995</infon>
+      <infon key="pub-id_pmid">9276715</infon>
+      <infon key="fpage">986</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>82345</offset>
+      <text>Bone marrow transplantation reproduces the tristetraprolin&#8208;deficiency syndrome in recombination activating gene&#8208;2 (&#8722;/&#8722;) mice. Evidence that monocyte/macrophage progenitors may be responsible for TNFalpha overproduction</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1005</infon>
+      <infon key="pub-id_pmid">9703499</infon>
+      <infon key="fpage">1001</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>82572</offset>
+      <text>Feedback inhibition of macrophage tumor necrosis factor&#8208;alpha production by tristetraprolin</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">492</infon>
+      <infon key="pub-id_pmid">1850323</infon>
+      <infon key="fpage">483</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>82666</offset>
+      <text>Isolation and characterization of the gene encoding yeast debranching enzyme</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">266</infon>
+      <infon key="pub-id_pmid">21078877</infon>
+      <infon key="fpage">256</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>82743</offset>
+      <text>Phosphorylation of tristetraprolin by MK2 impairs AU&#8208;rich element mRNA decay by preventing deadenylase recruitment</text>
+    </passage>
+    <passage>
+      <infon key="volume">180</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">2552</infon>
+      <infon key="pub-id_pmid">18250465</infon>
+      <infon key="fpage">2545</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>82860</offset>
+      <text>Tristetraprolin regulates CXCL1 (KC) mRNA stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1532</infon>
+      <infon key="pub-id_pmid">22539670</infon>
+      <infon key="fpage">1530</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>82912</offset>
+      <text>RNA&#8208;SeQC: RNA&#8208;seq metrics for&#160;quality control and process optimization</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">902</infon>
+      <infon key="pub-id_pmid">18367721</infon>
+      <infon key="fpage">888</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>82988</offset>
+      <text>Identification of TTP mRNA targets in human dendritic cells reveals TTP as a critical regulator of dendritic cell maturation</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">739</infon>
+      <infon key="pub-id_pmid">23644599</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>83113</offset>
+      <text>Structural basis for the recruitment of the human CCR4&#8208;NOT deadenylase complex by tristetraprolin</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">915</infon>
+      <infon key="pub-id_pmid">16364915</infon>
+      <infon key="fpage">905</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>83213</offset>
+      <text>Multiple processing body factors and the ARE binding protein TTP activate mRNA decapping</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">735</infon>
+      <infon key="pub-id_pmid">17369404</infon>
+      <infon key="fpage">719</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>83302</offset>
+      <text>TTP and BRF proteins nucleate processing body formation to silence mRNAs with AU&#8208;rich elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">3543</infon>
+      <infon key="pub-id_pmid">19884656</infon>
+      <infon key="fpage">3530</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>83399</offset>
+      <text>Essential role of the RNA&#8208;binding protein HuR in progenitor cell survival in mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Annu Rev Immunol</infon>
+      <infon key="lpage">702</infon>
+      <infon key="pub-id_pmid">24655300</infon>
+      <infon key="fpage">659</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83483</offset>
+      <text>Chemokines and chemokine receptors: positioning cells for host defense and immunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D69</infon>
+      <infon key="pub-id_pmid">21071424</infon>
+      <infon key="fpage">D66</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>83567</offset>
+      <text>AREsite: a database for the comprehensive investigation of AU&#8208;rich elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">141</infon>
+      <infon key="pub-id_pmid">20371350</infon>
+      <infon key="fpage">129</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>83645</offset>
+      <text>Transcriptome&#8208;wide identification of RNA&#8208;binding protein and microRNA target sites by PAR&#8208;CLIP</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">288</infon>
+      <infon key="pub-id_pmid">19198593</infon>
+      <infon key="fpage">281</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>83746</offset>
+      <text>The stability of mRNA influences the temporal order of the induction of genes encoding inflammatory molecules</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">234</infon>
+      <infon key="pub-id_pmid">22302935</infon>
+      <infon key="fpage">203</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>83856</offset>
+      <text>NF&#8208;kappaB, the first quarter&#8208;century: remarkable progress and outstanding questions</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2407</infon>
+      <infon key="pub-id_pmid">16508014</infon>
+      <infon key="fpage">2399</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>83944</offset>
+      <text>Mitogen&#8208;activated protein kinase&#8208;activated protein kinase 2 regulates tumor necrosis factor mRNA stability and translation mainly by altering tristetraprolin expression, stability, and binding to adenine/uridine&#8208;rich element</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">724</infon>
+      <infon key="pub-id_pmid">20622884</infon>
+      <infon key="fpage">717</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>84175</offset>
+      <text>Deletion of the RNA&#8208;binding proteins ZFP36L1 and ZFP36L2 leads to perturbed thymic development and T lymphoblastic leukemia</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Comput Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19750212</infon>
+      <infon key="fpage">e1000502</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84301</offset>
+      <text>Fast mapping of short sequences with mismatches, insertions and deletions using index structures</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">13</infon>
+      <infon key="pub-id_pmid">19033363</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2009a</infon>
+      <infon key="type">ref</infon>
+      <offset>84398</offset>
+      <text>Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">19131956</infon>
+      <infon key="fpage">44</infon>
+      <infon key="year">2009b</infon>
+      <infon key="type">ref</infon>
+      <offset>84502</offset>
+      <text>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">18036</infon>
+      <infon key="pub-id_pmid">11886850</infon>
+      <infon key="fpage">18029</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>84595</offset>
+      <text>Cytoplasmic localization of tristetraprolin involves 14&#8208;3&#8208;3&#8208;dependent and &#8208;independent mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">502</infon>
+      <infon key="pub-id_pmid">24840980</infon>
+      <infon key="fpage">492</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>84701</offset>
+      <text>Post&#8208;transcriptional coordination of immunological responses by RNA&#8208;binding proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">187</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">2701</infon>
+      <infon key="pub-id_pmid">21784977</infon>
+      <infon key="fpage">2696</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>84790</offset>
+      <text>Zinc finger protein tristetraprolin interacts with CCL3 mRNA and regulates tissue inflammation</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2776</infon>
+      <infon key="pub-id_pmid">19307312</infon>
+      <infon key="fpage">2762</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84885</offset>
+      <text>The RNA&#8208;binding protein Elavl1/HuR is essential for placental branching morphogenesis and embryonic development</text>
+    </passage>
+    <passage>
+      <infon key="volume">287</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">5471</infon>
+      <infon key="pub-id_pmid">22203679</infon>
+      <infon key="fpage">5459</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>84999</offset>
+      <text>Direct binding of specific AUF1 isoforms to tandem zinc finger domains of tristetraprolin (TTP) family proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">169</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">884</infon>
+      <infon key="pub-id_pmid">15967811</infon>
+      <infon key="fpage">871</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>85111</offset>
+      <text>Stress granules and processing bodies are dynamically linked sites of mRNP remodeling</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">1006</infon>
+      <infon key="pub-id_pmid">12045153</infon>
+      <infon key="fpage">996</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>85197</offset>
+      <text>The human genome browser at UCSC</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">915</infon>
+      <infon key="pub-id_pmid">20601959</infon>
+      <infon key="fpage">909</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>85230</offset>
+      <text>iCLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3668</infon>
+      <infon key="pub-id_pmid">9649436</infon>
+      <infon key="fpage">3660</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>85324</offset>
+      <text>Stat1 combines signals derived from IFN&#8208;gamma and LPS receptors during macrophage activation</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22186734</infon>
+      <infon key="fpage">560</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>85419</offset>
+      <text>Tristetraprolin&#8208;driven regulatory circuit controls quality and timing of mRNA decay in inflammation</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">4323</infon>
+      <infon key="pub-id_pmid">10330172</infon>
+      <infon key="fpage">4311</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>85521</offset>
+      <text>Evidence that tristetraprolin binds to AU&#8208;rich elements and promotes the deadenylation and destabilization of tumor necrosis factor alpha mRNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">9208</infon>
+      <infon key="pub-id_pmid">17030620</infon>
+      <infon key="fpage">9196</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>85666</offset>
+      <text>Novel mRNA targets for tristetraprolin (TTP) identified by global analysis of stabilized transcripts in TTP&#8208;deficient fibroblasts</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">352</infon>
+      <infon key="pub-id_pmid">21723171</infon>
+      <infon key="fpage">340</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>85798</offset>
+      <text>Transcriptome&#8208;wide analysis of regulatory interactions of the RNA&#8208;binding protein HuR</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">4827</infon>
+      <infon key="pub-id_pmid">16126846</infon>
+      <infon key="fpage">4813</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>85888</offset>
+      <text>Involvement of KSRP in the post&#8208;transcriptional regulation of human iNOS expression&#8208;complex interplay of KSRP with TTP and HuR</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">25516281</infon>
+      <infon key="fpage">550</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>86019</offset>
+      <text>Moderated estimation of fold change and dispersion for RNA&#8208;seq data with DESeq2</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">3184</infon>
+      <infon key="pub-id_pmid">17085481</infon>
+      <infon key="fpage">3174</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>86101</offset>
+      <text>Endotoxic shock in AUF1 knockout mice mediated by failure to degrade proinflammatory cytokine mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">6469</infon>
+      <infon key="pub-id_pmid">11533235</infon>
+      <infon key="fpage">6461</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>86201</offset>
+      <text>Mitogen&#8208;activated protein kinase p38 controls the expression and posttranslational modification of tristetraprolin, a regulator of tumor necrosis factor alpha mRNA stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="lpage">12</infon>
+      <infon key="source">EMBnet J</infon>
+      <infon key="fpage">10</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>86377</offset>
+      <text>Cutadapt removes adapter sequences from high&#8208;throughput sequencing reads</text>
+    </passage>
+    <passage>
+      <infon key="volume">458</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1190</infon>
+      <infon key="pub-id_pmid">19322177</infon>
+      <infon key="fpage">1185</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>86452</offset>
+      <text>Zc3h12a is an RNase essential for controlling immune responses by regulating mRNA decay</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Biotechniques</infon>
+      <infon key="lpage">958</infon>
+      <infon key="pub-id_pmid">9631186</infon>
+      <infon key="fpage">954</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>86540</offset>
+      <text>Quantification of low&#8208;copy transcripts by continuous SYBR Green I monitoring during amplification</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">339</infon>
+      <infon key="pub-id_pmid">21723170</infon>
+      <infon key="fpage">327</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>86640</offset>
+      <text>Integrative regulatory mapping indicates that the RNA&#8208;binding protein HuR couples pre&#8208;mRNA processing and mRNA stability</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome&#160;Biol</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">24401661</infon>
+      <infon key="fpage">R12</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>86765</offset>
+      <text>Global target mRNA specification and&#160;regulation by the RNA&#8208;binding protein ZFP36</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11613</infon>
+      <infon key="pub-id_pmid">11796723</infon>
+      <infon key="fpage">11606</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>86849</offset>
+      <text>Members of the tristetraprolin family of tandem CCCH zinc finger proteins exhibit CRM1&#8208;dependent nucleocytoplasmic shuttling</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">680</infon>
+      <infon key="pub-id_pmid">23583642</infon>
+      <infon key="fpage">669</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86976</offset>
+      <text>Roquin&#8208;2 shares functions&#160;with its paralog Roquin&#8208;1 in the repression of mRNAs controlling T follicular helper cells and systemic inflammation</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">928</infon>
+      <infon key="pub-id_pmid">22203041</infon>
+      <infon key="fpage">913</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>87124</offset>
+      <text>AU&#8208;rich&#8208;element&#8208;dependent translation repression requires the cooperation of tristetraprolin and RCK/P54</text>
+    </passage>
+    <passage>
+      <infon key="volume">188</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">5159</infon>
+      <infon key="pub-id_pmid">22491258</infon>
+      <infon key="fpage">5150</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>87235</offset>
+      <text>Myeloid&#8208;specific tristetraprolin&#160;deficiency in mice results in extreme lipopolysaccharide sensitivity in an otherwise minimal phenotype</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">842</infon>
+      <infon key="pub-id_pmid">20110278</infon>
+      <infon key="fpage">841</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>87374</offset>
+      <text>BEDTools: a flexible suite of utilities for comparing genomic features</text>
+    </passage>
+    <passage>
+      <infon key="volume">159</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1710</infon>
+      <infon key="pub-id_pmid">25497548</infon>
+      <infon key="fpage">1698</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>87445</offset>
+      <text>High&#8208;resolution sequencing and modeling identifies distinct dynamic RNA regulatory strategies</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5538</infon>
+      <infon key="pub-id_pmid">12490721</infon>
+      <infon key="fpage">5529</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>87541</offset>
+      <text>Genome&#8208;wide analysis of mRNA decay in resting and activated primary human T lymphocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Microbiol Rev</infon>
+      <infon key="lpage">450</infon>
+      <infon key="pub-id_pmid">7565413</infon>
+      <infon key="fpage">423</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>87631</offset>
+      <text>mRNA stability in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8949</infon>
+      <infon key="pub-id_pmid">18574148</infon>
+      <infon key="fpage">8944</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>87665</offset>
+      <text>Recruitment of Stat1 to chromatin is required for interferon&#8208;induced serine phosphorylation of Stat1 transactivation domain</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Biochem Soc Trans</infon>
+      <infon key="lpage">496</infon>
+      <infon key="pub-id_pmid">18481987</infon>
+      <infon key="fpage">491</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>87791</offset>
+      <text>Control of mRNA decay by phosphorylation of tristetraprolin</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">4797</infon>
+      <infon key="pub-id_pmid">16514065</infon>
+      <infon key="fpage">4790</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>87851</offset>
+      <text>Interferons limit inflammatory responses by induction of tristetraprolin</text>
+    </passage>
+    <passage>
+      <infon key="volume">183</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">1206</infon>
+      <infon key="pub-id_pmid">19542371</infon>
+      <infon key="fpage">1197</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>87924</offset>
+      <text>Tristetraprolin is required for full anti&#8208;inflammatory response of murine macrophages to IL&#8208;10</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="lpage">205</infon>
+      <infon key="source">Front Biosci</infon>
+      <infon key="fpage">189</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>88023</offset>
+      <text>HuR function in disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1324</infon>
+      <infon key="pub-id_pmid">15014438</infon>
+      <infon key="fpage">1313</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>88047</offset>
+      <text>MK2&#8208;induced tristetraprolin:14&#8208;3&#8208;3 complexes prevent stress granule association and ARE&#8208;mRNA decay</text>
+    </passage>
+    <passage>
+      <infon key="volume">283</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11699</infon>
+      <infon key="pub-id_pmid">18256032</infon>
+      <infon key="fpage">11689</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>88154</offset>
+      <text>Genome&#8208;wide analysis identifies interleukin&#8208;10 mRNA as target of tristetraprolin</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">6455</infon>
+      <infon key="pub-id_pmid">15226444</infon>
+      <infon key="fpage">6445</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>88239</offset>
+      <text>Chorioallantoic fusion defects and embryonic lethality resulting from disruption of Zfp36L1, a gene encoding a CCCH tandem zinc finger protein of the Tristetraprolin family</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">2410</infon>
+      <infon key="pub-id_pmid">19633199</infon>
+      <infon key="fpage">2401</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>88412</offset>
+      <text>Targeted disruption of Zfp36&#160;l2, encoding a CCCH tandem zinc finger RNA&#8208;binding protein, results in defective hematopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">198</infon>
+      <infon key="source">J Exp Med</infon>
+      <infon key="lpage">1727</infon>
+      <infon key="pub-id_pmid">14638848</infon>
+      <infon key="fpage">1717</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>88539</offset>
+      <text>IL&#8208;4&#8208;Stat6 signaling induces tristetraprolin expression and inhibits TNF&#8208;alpha production in mast cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">454</infon>
+      <infon key="pub-id_pmid">8630730</infon>
+      <infon key="fpage">445</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>88649</offset>
+      <text>A pathogenetic role for TNF alpha in the syndrome of cachexia, arthritis, and autoimmunity resulting from tristetraprolin (TTP) deficiency</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">32400</infon>
+      <infon key="pub-id_pmid">15187092</infon>
+      <infon key="fpage">32393</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>88788</offset>
+      <text>The stability of tristetraprolin mRNA is regulated by mitogen&#8208;activated protein kinase p38 and by tristetraprolin itself</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23028373</infon>
+      <infon key="fpage">e1002977</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>88911</offset>
+      <text>The p38/MK2&#8208;driven exchange between tristetraprolin and HuR regulates AU&#8208;rich element&#8208;dependent translation</text>
+    </passage>
+    <passage>
+      <infon key="volume">583</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">1938</infon>
+      <infon key="pub-id_pmid">19416727</infon>
+      <infon key="fpage">1933</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>89025</offset>
+      <text>The p38 MAPK pathway inhibits tristetraprolin&#8208;directed decay of interleukin&#8208;10 and pro&#8208;inflammatory mediator mRNAs in murine macrophages</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">668</infon>
+      <infon key="pub-id_pmid">23583643</infon>
+      <infon key="fpage">655</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>89168</offset>
+      <text>Roquin paralogs 1 and 2 redundantly repress the Icos and Ox40 costimulator mRNAs and control follicular helper T cell differentiation</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">20531401</infon>
+      <infon key="fpage">371</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>89302</offset>
+      <text>The phosphoproteome of toll&#8208;like receptor&#8208;activated macrophages</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">48564</infon>
+      <infon key="pub-id_pmid">12324455</infon>
+      <infon key="fpage">48558</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>89370</offset>
+      <text>RNA binding properties of the AU&#8208;rich element&#8208;binding recombinant Nup475/TIS11/tristetraprolin protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1875</infon>
+      <infon key="pub-id_pmid">15728110</infon>
+      <infon key="fpage">1859</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>89477</offset>
+      <text>GMAP: a genomic mapping and alignment program for mRNA and EST sequences</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">1872</infon>
+      <infon key="pub-id_pmid">12902380</infon>
+      <infon key="fpage">1863</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>89550</offset>
+      <text>Decay rates of human mRNAs: correlation with functional characteristics and sequence attributes</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">61</infon>
+      <infon key="pub-id_pmid">22201685</infon>
+      <infon key="fpage">48</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>89646</offset>
+      <text>Myeloid cell expression of the RNA&#8208;binding protein HuR protects mice from pathologic inflammation and colorectal carcinogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">614</infon>
+      <infon key="pub-id_pmid">21633356</infon>
+      <infon key="fpage">607</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>89776</offset>
+      <text>Mapping in&#160;vivo protein&#8208;RNA interactions at single&#8208;nucleotide resolution from HITS&#8208;CLIP data</text>
+    </passage>
+  </document>
+</collection>

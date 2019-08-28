@@ -1,0 +1,1179 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4969578</id>
+    <passage>
+      <infon key="name_2">surname:Widom;given-names:Joanne</infon>
+      <infon key="name_3">surname:Ringelberg;given-names:Carol S</infon>
+      <infon key="name_0">surname:Conrad;given-names:Karen S</infon>
+      <infon key="name_1">surname:Hurley;given-names:Jennifer M</infon>
+      <infon key="name_6">surname:Crane;given-names:Brian R</infon>
+      <infon key="alt-title">Karen S Conrad et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694327</infon>
+      <infon key="name_5">surname:Dunlap;given-names:Jay C</infon>
+      <infon key="lpage">1719 1719</infon>
+      <infon key="fpage">1707 1707</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">circadian clock chaperone transcriptional repressor protein interactions protein structure Metabolism Structural Biology</infon>
+      <infon key="name_4">surname:Loros;given-names:Jennifer J</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201694327</infon>
+      <infon key="article-id_pmid">27340124</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="pub-id_pmid">27340124</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">15</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>Structure of the frequency&#8208;interacting RNA helicase: a protein interaction hub for the circadian&#160;clock</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>106</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>115</offset>
+      <text>In the Neurospora crassa circadian clock, a protein complex of frequency (FRQ), casein kinase 1a (CK1a), and the FRQ&#8208;interacting RNA Helicase (FRH) rhythmically represses gene expression by the white&#8208;collar complex (WCC). FRH crystal structures in several conformations and bound to ADP/RNA reveal differences between FRH and the yeast homolog Mtr4 that clarify the distinct role of FRH in the clock. The FRQ&#8208;interacting region at the FRH N&#8208;terminus has variable structure in the absence of FRQ. A known mutation that disrupts circadian rhythms (R806H) resides in a positively charged surface of the KOW domain, far removed from the helicase core. We show that changes to other similarly located residues modulate interactions with the WCC and FRQ. A V142G substitution near the N&#8208;terminus also alters FRQ and WCC binding to FRH, but produces an unusual short clock period. These data support the assertion that FRH helicase activity does not play an essential role in the clock, but rather FRH acts to mediate contacts among FRQ, CK1a and the WCC through interactions involving its N&#8208;terminus and KOW module.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1237</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1250</offset>
+      <text>FRQ&#8208;interacting RNA helicase (FRH) is an ATP&#8208;dependent RNA helicase that functions in the central transcriptional&#8211;translational feedback loop of the Neurospora crassa circadian clock (Brunner &amp; Kaldi, 2008; Baker et&#160;al, 2012; Cha et&#160;al, 2015; Hurley et&#160;al, 2015). The core oscillator components include the positive transcriptional activators White Collar 1 (WC&#8208;1) and White Collar 2 (WC&#8208;2) and the negative elements FREQUENCY (FRQ) and FRH (Brunner &amp; Kaldi, 2008; Guo &amp; Liu, 2010; Baker et&#160;al, 2012; Hurley et&#160;al, 2015). WC&#8208;1 and WC&#8208;2 form the white&#8208;collar complex (WCC) that regulates the expression of clock&#8208;controlled genes and responds to light (Fig&#160;1A; Froehlich et&#160;al, 2002; He et&#160;al, 2002). FRH (1,106 residues c. 124&#160;kDa) binds and stabilizes FRQ, the major transcriptional repressor of the oscillator (Cheng et&#160;al, 2005; Guo et&#160;al, 2009, 2010; Shi et&#160;al, 2010). FRQ is an intrinsically disordered protein (IDP) (989 residues, 108&#160;kDa) that is largely unstructured in the absence of FRH (Hurley et&#160;al, 2013; Zhou et&#160;al, 2013, 2015; Cha et&#160;al, 2015). The WCC regulates frq expression (Froehlich et&#160;al, 2002; He et&#160;al, 2002), whereas the FRQ&#8208;FRH complex (FFC) (Cheng et&#160;al, 2005; Shi et&#160;al, 2010) represses action of the WCC. Casein kinases 1a and 2 (CK1a and CKII) bind to the FFC and phosphorylate FRQ to regulate its activity and stability (He et&#160;al, 2006; Baker et&#160;al, 2009; Tang et&#160;al, 2009; Querfurth et&#160;al, 2011). The FFC influences the circadian cycle by mediating contact between FRQ and the WCC to promote phosphorylation of the WCC by CK1a/CKII and by targeting frq mRNA to the exosome for degradation (Fig&#160;1A) (Brunner &amp; Kaldi, 2008; Guo et&#160;al, 2009, 2010; Tang et&#160;al, 2009; Baker et&#160;al, 2012; Cha et&#160;al, 2015). FRH provides a stable scaffold for FRQ and thereby modulates FRQ phosphorylation, localization, and stability (Guo et&#160;al, 2010; Cha et&#160;al, 2011; Hurley et&#160;al, 2013). Furthermore, FRH interacts with the WCC in the absence of FRQ and thus serves to recruit the repressor complex to the WCC (Cheng et&#160;al, 2005; Guo et&#160;al, 2010; Shi et&#160;al, 2010). Finally, FRH binds to the light&#8208;adaptation photoreceptor Vivid (VVD) to alter FRQ expression through repression of the WCC (Hunt et&#160;al, 2010). FRH has ATPase and helicase functions that are essential for Neurospora growth; in&#160;vitro studies have suggested that these enzymatic activities also have a role in clock function (Lauinger et&#160;al, 2014). However, FRH mutants devoid of ATPase activity maintain normal circadian cycles (Hurley et&#160;al, 2013). In contrast, a mutant FRH protein (R806H) that supports cell viability causes major clock dysfunction (Shi et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>3955</offset>
+      <text>Function and structure of FRH</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>3985</offset>
+      <text>In the Neurospora crassa circadian core clock oscillator, FRH associates with FRQ and CK1a to form a repressor complex (FFC) that inhibits the positive&#8208;acting white&#8208;collar transcription factors (WC&#8208;1 and WC&#8208;2) which form the white&#8208;collar complex (WCC). Stoichiometries of the components are not represented in the schematic. FFC composition has been estimated as 1 FRH molecule: 2 FRQ molecules (Cheng et&#160;al, 2005; Hurley et&#160;al, 2013), or 2 FRH molecules: 2 FRQ molecules (Lauinger et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4494</offset>
+      <text>Structure of FRH from the large crystallographic cell with an accordingly colored domain map below.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4594</offset>
+      <text>FRH promotes degradation of frq RNA and interacts with components of the exosome (Guo et&#160;al, 2009). The Saccharomyces cerevisiae (yeast) homolog of FRH, Mtr4p/Dob1p (Mtr4) is also a coenzyme for the nuclear exosome. Mtr4 associates with two other proteins: (i) Trf4 (or Trf5), from the Pol&#946; superfamily of nucleotidyl transferases responsible for RNA polyadenylation; and (ii) Air2 (or Air1), a five Zn&#8208;knuckle protein important for RNA or protein binding (LaCava et&#160;al, 2005; Jackson et&#160;al, 2010; Wang et&#160;al, 2013; Falk et&#160;al, 2014). Together Trf4&#8208;Air2&#8208;Mtr4p forms the TRAMP RNA surveillance complex, whose roles include 3&#8242;&#8208;processing and polyadenylation of rRNA, snoRNAs, and snRNAs (LaCava et&#160;al, 2005). Yeasts do not possess a circadian clock and have no FRQ homolog; thus, the clock function of FRH may derive from properties not held by Mtr4. FRH and FRQ are found in both the nucleus and the cytoplasm (Cha et&#160;al, 2011); in contrast, Mtr4 is primarily present in the nucleus (Dez et&#160;al, 2006).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5614</offset>
+      <text>FRH is essential for cell viability; thus, genetic experiments to assess the role of FRH in the clock rely on the finding that either low levels of WT FRH or specific mutants (e.g., R806H) will support growth but not circadian rhythms (Cheng et&#160;al, 2005; Hurley et&#160;al, 2013). Under low levels of FRH expression, rhythmicity can be rescued by FRH mutants expressed from a separate allele that are defective in helicase/ATPase activities but still contain a unique N&#8208;terminal region (residues 100&#8211;150) that promotes interactions with the C&#8208;terminal regions of FRQ (residues 695&#8211;778; Guo et&#160;al, 2010; Cha et&#160;al, 2011; Hurley et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6263</offset>
+      <text>FRH belongs to the DEAD&#8208;like helicase superfamily. The protein comprises several domains (Fig&#160;1B): (i) the characteristic DExH/Dc or HELICc helicase superfamily domains (PFam:PF00270) of RecA&#8208;like modules 1 and 2 that harbor the nucleotide and ATP&#8208;binding sites; (ii) the DSHCT C&#8208;terminal domain found in Dob1/Ski2/helY&#8208;like DEAD box helicases (PF08148); (iii) the arch domain required for 5.8S rRNA processing by Mtr4 (PF13234) that itself contains the helical stalk, elbow, and KOW (Kyrpides, Ouzounis, and Woese) modules (Jackson et&#160;al, 2010; Weir et&#160;al, 2010); and (iv) a winged&#8208;helix domain (PF00633) that connects the arch to the helicase&#160;+&#160;DSHCT core. Another FRH homolog, Ski2 (superkiller2, 36% identical to FRH), is the cytosolic homolog of Mtr4. Ski2 participates in mRNA quality control mediated by the exosome. Ski2 binds Ski3, a tetratricopeptide repeat protein, and Ski8, a WD40 protein, to form the Ski complex (Halbach et&#160;al, 2012). Despite Ski2 and FRH sharing similar cellular distributions and the tendency to interact with partners through unique N&#8208;terminal regions (Ski2 with Ski3, FRH with FRQ), FRH is more similar to Mtr4 than Ski2 (55% vs. 35% identity). Sequence differences between FRH and Mtr4 concentrate at the N&#8208;terminus through the first 145 residues and also in the KOW module.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7597</offset>
+      <text>Herein, we report the 3.1&#160;&#197; crystal structure of FRH from Neurospora crassa, which serves as a first look at this clock&#8208;essential RNA helicase and reveals features that distinguish FRH from other Mtr4 family members. Furthermore, we show through mutagenesis studies that single&#8208;residue substitutions in the unique FRH N&#8208;terminus and KOW module affect interactions between FRH and both FRQ and the WCC with impact on circadian timing.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>8039</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8047</offset>
+      <text>Crystal structure determination</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8079</offset>
+      <text>FRH variants beginning at residue 100 or 114 (FRH&#8208;&#916;100 or FRH&#8208;&#916;114) were expressed in and purified from E.&#160;coli. Recombinant FRH was crystallized with and without ADP and a single&#8208;stranded 13&#8208;nucleotide RNA. FRH&#8208;&#916;114 produces two orthorhombic crystal forms, each containing a distinct conformation of the protein. The structure of FRH&#8208;&#916;114 was first determined for crystals with the larger cell dimensions to 3.1&#160;&#197; resolution (Fig&#160;1B and Appendix Table&#160;S1) using the Mtr4 structure as a molecular replacement probe (pdb 2XGJ, sequence identity 57%, Fig&#160;EV1). The small&#8208;cell structure of FRH&#8208;&#916;114 (3.2&#160;&#197; resolution) differs from that of the large cell primarily in the positioning of the long helices of the arch, which change in angle with respect to the DExH helicase core&#160;+&#160;DSHCT domain by over 20&#176; (Fig&#160;2). FRH&#8208;&#916;100 crystallized in the smaller cell, with and without ADP and RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8998</offset>
+      <text>Primary sequence comparison of FRH and Mtr4</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9042</offset>
+      <text>Sequence alignment of FRH and Mtr4 with secondary structure and corresponding domain identifiers colored in accordance with Fig&#160;1. Relevant mutation sites are boxed in gray and starred.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9229</offset>
+      <text>Comparison of FRH and Mtr4 structures</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9267</offset>
+      <text>FRH large cell (cyan), Mtr4 (pdb 2XGJ, green, RNA backbone in orange), and FRH small alternate cell (blue) differ primarily in the orientation of the arch domain. The FRH RNA&#8208;bound structure also crystallizes in the small&#8208;cell configuration. The two different FRH structures have an overall RMSD of 3.9 &#197;, and the RMSD between Mtr4 and FRH is 2.9 &#197; (over 734 residues, for large&#8208;cell FRH).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9665</offset>
+      <text>SAXS data indicate that FRH&#8208;&#916;114 is monomeric and flexible. The crystal structure of the large&#8208;cell structure predicts the solution scattering curve (left, &#967;2&#160;=&#160;0.92) and fits well to the calculated molecular envelope (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9900</offset>
+      <text>Overall structure</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9918</offset>
+      <text>Like Mtr4, FRH consists of five distinct domains: RecA&#8208;1, RecA&#8208;2, winged&#8211;helix, arch (stalk helices, elbow, and KOW) domain, and DSHCT (Fig&#160;1B). RecA&#8208;1 and RecA&#8208;2 are DExH/Dc&#8208;box helicase domains, typical of AAA&#8208;ATPases that assume a nucleotide&#8208;binding fold and contain the signature Walker A and Walker B motifs (Ye&#160;et&#160;al, 2004). The ATP&#8208;binding site and RNA&#8208;binding determinants reside at the opposite edges of the interface between the two RecA domains. The arch domain extends up into an &#8220;arm and fist&#8221; structure, with the helical stalks forming the &#8220;arm&#8221; and &#8220;elbow&#8221; (at the turn between helices) and the KOW region as the &#8220;fist&#8221;. After the arch the chain returns to the small winged&#8208;helix and larger DSHCT domains, the latter of which juxtaposes the RecA&#8208;2 domain to complete the RNA&#8208;binding cleft. The N&#8208;terminal region is highly variable between the two structures and lacks defined secondary structure until residue 148 (Fig&#160;EV2). In both FRH structures, the N&#8208;terminal conformation is influenced by intermolecular contacts with symmetry mates that differ between the two crystal forms (Fig&#160;3). In the absence of these contacts, the N&#8208;terminus is likely to be highly dynamic. Overall, the FRH polypeptide is continuous with the exception of an undefined surface loop in the RecA&#8208;2 domain between &#945;9 and &#945;10. The missing loop (~30 residues) contains ten lysine residues among a sequence dominated by flexible and polar side chains. Small&#8208;angle X&#8208;ray scattering (SAXS) confirmed the monomeric state of the protein in solution and indicated that the molecule has considerable flexibility about a core region (Fig&#160;2B and Appendix&#160;Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11625</offset>
+      <text>Conformational variability of FRH</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11659</offset>
+      <text>Structural overlays of large (cyan) and small (marine)&#160;cell FRH structures shown from different perspectives and emphasizing the differences in the conformations of the N&#8208;terminus and the KOW modules.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11863</offset>
+      <text>The N&#8208;terminal region of FRH is unstructured in the absence of FRQ</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11932</offset>
+      <text>Comparison of the FRH N&#8208;terminus (large&#8208;cell structure, magenta) to that of Mtr4 (green) aligned on their RecA domains. Only the additional elements of FRH are shown (cyan). The FRH N&#8208;terminal extension has little ordered secondary structure, although regions 143&#8211;147 and 129&#8211;135 form small turns that interact with the helicase core.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12277</offset>
+      <text>The very N&#8208;terminus of FRH extends away from the RecA&#8208;2 domain to interact with a symmetry&#8208;related molecule in the crystal (below), whereas the Mtr4 N&#8208;terminus turns back to form an outer &#946;&#8208;strand. Center panel shows the crystal contacts, with close&#8208;ups for each region highlighted as insets on the left and right.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12605</offset>
+      <text>The DExH helicase core</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12628</offset>
+      <text>The DExH helicase core of FRH (Fig&#160;4 and Appendix&#160;Fig S2) is composed of two RecA domains arranged similarly to those of other RNA helicases (Erzberger &amp; Berger, 2006; Putnam &amp; Jankowsky, 2013; Rudolph &amp; Klostermeier, 2015). The RecA domain contains an interior parallel &#946;&#8208;sheet surrounded by &#945;&#8208;helices, a highly conserved Walker A motif, or P&#8208;loop, that coordinates the &#947;&#8208;phosphate of ATP during hydrolysis and the less conserved Walker B motif that coordinates the magnesium ion and nucleophilic water molecule (Ye et&#160;al, 2004). The exposed edges of the interface between the two RecA domains bind ATP on one side and single&#8208;stranded RNA on the other (Fig&#160;5A). RecA&#8208;1 acts as the primary site for binding ATP, whereas RecA&#8208;2 participates in nucleotide hydrolysis. Motion between the RecA domains couples ATP hydrolysis to nucleic acid translocation (Putnam &amp; Jankowsky, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13528</offset>
+      <text>The RecA and arch domains of FRH compared to Mtr4</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13578</offset>
+      <text>The two RecA domains are rotated relative to one another in FRH (cyan, large cell) compared to Mtr4 (green, RNA backbone in orange). The change in positioning of RecA&#8208;2 with respect to RecA&#8208;1 results in an overall displacement from the Mtr4 domain juxtaposition that ranges from 1.1 to 4.0&#160;&#197; throughout RecA&#8208;2 with the largest differences at the external helices.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13950</offset>
+      <text>Comparison of arch domains conformations from Mtr4 (green) and FRH (large cell in cyan, small cell in marine) after superposition of the most N&#8208;terminal helical region. The isolated KOW modules of FRH, Mtr4 (with FRH superimposed), and Ski2 have considerably different loop configurations (below).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14250</offset>
+      <text>Interactions of FRH with RNA and ADP</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14287</offset>
+      <text>3.8&#160;&#197; resolution mFo&#8208;DFc omits map density (green, calculated with sharpened B&#8208;factors and contoured at 2.0&#963;), reveals the presence of ADP and a short segment of RNA bound to FRH.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14474</offset>
+      <text>3.8 &#197; resolution 2mFo&#8208;DFc calculated without ADP or RNA contributing to the model. Green electron density shown for ADP and RNA (0.6&#963;); orange density shown for surrounding protein (0.6&#963;).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14671</offset>
+      <text>Comparison of Mtr4 and FRH ADP binding (FRH in cyan with ADP, RNA, and F179 in orange bonds; Mtr4 in green with ADP, RNA, and F148 in yellow bonds).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14820</offset>
+      <text>Unwound DNA from Hel308 (pdb 2PR6; magenta, DNA in orange bonds) overlaid in FRH with RNA and ADP (FRH in cyan with yellow RNA and cyan ADP in stick) after superposition of the respective RecA domains. See also Appendix&#160;Fig S4. The superposition indicates that the KOW module is positioned to interact with double stranded RNA that is being unwound by the RecA and DHSCT domains.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15201</offset>
+      <text>Differences in the helicase cores of FRH and Mtr4 (67% identity, Fig&#160;EV1 and Appendix&#160;Fig S2) are primarily within the RecA interfaces (Fig&#160;4). The individual RecA domains of the large&#8208;cell FRH and Mtr4 structures are very similar in structure (1.3&#160;&#197; RMSD over 405 residues). In RecA&#8208;1, small differences between FRH and Mtr4 arise in &#945;3 and the connections of &#946;3 to &#945;4. In RecA&#8208;2, minor shifts are found in &#945;&#8208;helices 12, 13, 16, 19, and 20, and the loop conformations connecting &#946;17 to &#945;19 and &#946;20 to &#945;20. The RecA domains are rotated relative to one another when comparing the small&#8208; and large&#8208;cell structures, and also in relation to their positions in Mtr4 (Fig&#160;4 and Appendix&#160;Fig S2). Variability in RecA association reflects the well&#8208;known importance of domain motion in helicase function (Ye et&#160;al, 2004; Buttner et&#160;al, 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16066</offset>
+      <text>The arch domain</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16082</offset>
+      <text>The arch domain is unique to the Mtr4/Ski2 subfamily of Ski2&#8208;like helicases (Jackson et&#160;al, 2010; Halbach et&#160;al, 2012; Jarmoskaite &amp; Russell, 2014), and this region shows the greatest differences in conformation between FRH and Mtr4 owing to changes in the angle of the stalk helices relative to the helicase core, conformational differences in the elbow connection and greater sequence divergence of the KOW modules (Fig&#160;4B, 64% similar, 39% identical; Fig&#160;EV1). The stalk helices (&#945;21, &#945;22, &#945;25, &#945;26) anchor to the helicase core through winged helical domains that overlap well in both structures and hinge at a variable elbow that does not (Fig&#160;4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16750</offset>
+      <text>The KOW module of the arch domain is essential for RNA binding in Mtr4/Ski2 helicases (Johnson &amp; Jackson, 2013; Taylor et&#160;al, 2014). This &#8220;fist&#8221; region is found in the bacterial transcriptional elongation factor NusG (Steiner et&#160;al, 2002), the eukaryotic chromatin elongation factor Spt5 (Meyer et&#160;al, 2015), and the higher eukaryotic protein KIN17 (Carlier et&#160;al, 2007), where it is known to mediate nucleic acid binding and protein&#8211;protein interactions. In FRH, the KOW module begins with the short helix &#945;23 and leads into a five &#946;&#8208;stranded core (&#946;19&#8208;23) connected by flexible loops of varied lengths and ends with one 27&#160;&#197; helix, &#945;24. The KOW &#946;&#8208;sheets are very similar in the FRH and Mtr4 structures (RMSD 1.0&#160;&#197;), but there are major differences in the long flexible loops between &#946;20 and &#946;21, and between &#946;21 and &#946;22 (Fig&#160;4B), both of which have very different sequences in the two proteins (Fig&#160;EV1). The &#946;20&#8208;&#946;21 loop that projects toward the RNA&#8208;binding cleft is quite variable among the family members (Fig&#160;4B), as is the connection between &#946;21 and &#946;22, which is not present in Ski2 (Fig&#160;4B; Halbach et&#160;al, 2012). The KOW module also contacts the RecA&#8208;2 domain in the region of the structurally undefined, lysine&#8208;rich loop linking &#945;9 and &#945;10 (Fig&#160;3 and Appendix&#160;Fig S3). The residue whose mutation disrupts clock, but not helicase function (R806), resides in the KOW module at an exposed position within a positively charged patch of residues that include K811, K731, R812, K766, R806, K739, R831, R832, and K824 (Fig&#160;6).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18331</offset>
+      <text>Features of FRH critical for helicase and clock function</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18388</offset>
+      <text>Key residues for FRH function shown on the large&#8208;cell structure: K208 and S324 compose the ATP&#8208;binding site; E294 lies between the ADP and RNA pockets and participates in ATP hydrolysis; P871 resides in the elbow region of the arch domain. K811, R806, R712, and K766 contribute to a positively charged surface on the KOW domain module. R806H disrupts the clock. Q131, G132, and V142 in the N&#8208;terminus provide interactions to the helicase RecA domains (FRH domains are colored according to Fig&#160;1, and ADP and RNA are in orange bonds).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18929</offset>
+      <text>Same as (A) after rotation about a horizontal axis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18981</offset>
+      <text>Close&#8208;up of the ADP&#8208;binding pocket and N&#8208;terminal interaction for the large&#8208;cell structure (cyan ribbons) and the small&#8208;cell structure (blue ribbons).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19142</offset>
+      <text>Electrostatic potential surface of FRH (blue positive, red negative) shown with the same orientation as in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19254</offset>
+      <text>Close&#8208;up of the KOW module showing the large number of basic (aqua sticks) and acidic side chains (yellow sticks) on the surface that also includes the mutational sites R806, R712, K811, and K766 (gray sticks)</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19466</offset>
+      <text>Substrate recognition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19488</offset>
+      <text>A 3.8&#160;&#197; resolution structure was determined of FRH&#916;100 in the presence of ADP and single&#8208;stranded RNA (rGAUCCGCUCGAUC). Several different RNA sequences were screened for cocrystallization, with the sequence above giving the best diffracting crystals. Discernible difference electron density in the ADP&#8208;binding pocket and in the RecA&#8208;2/DSHCT cleft indicates that both ADP and RNA are present (Fig&#160;5A and B and Appendix&#160;Fig S4). Because of the low resolution and the possibility for overlapping binding configurations, the RNA was modeled as poly&#8208;A. The binding cleft is known to change conformation in response to nucleotide binding and hydrolysis (Singleton &amp; Wigley, 2002); however, ATP&#8208;recognition residues in FRH have conformations similar to that of the apo Mtr4 structure (Fig&#160;5 and Appendix&#160;Fig S4). For example, an ATP&#8208;binding loop (170&#8211;187) well conserved in AAA&#8208;ATPases is disengaged from the nucleotide (Fig&#160;5C) and an aromatic residue (FRH F179) does not stack with the ADP adenosine as it does in the nucleotide complexes of many other helicases (Fig&#160;5C). The reason for these differences is unclear, but may stem from incomplete occupancy of ADP or crystal contacts made by the 170&#8211;187 loop to other FRH molecules. Several bases of RNA line the cleft formed by the RecA&#8208;2 domain and the so&#8208;called ratchet helix on the DSHCT domain, responsible for translocating RNA (Buttner et&#160;al, 2007). Superposition of the RecA&#8208;1 domains of FRH with that of the Archael HEL308 SF2 DNA helicase bound to an unwrapped DNA substrate aligns the 3&#8242;&#8208;strand of the unwound DNA with the RNA found in the FRH structure (Buttner et&#160;al, 2007). This superposition suggests that an RNA substrate bound by FRH will be in close proximity to the KOW (Fig&#160;5D and Appendix&#160;Fig S4C). In particular, a long loop between &#946;20 and &#946;21 in the KOW module that varies considerably in structure and sequence among FRH, Mtr4, and Ski2 (Fig&#160;4B) projects toward the nucleic acid in the superposition (Fig&#160;5D and Appendix&#160;Fig&#160;S4C). Conserved positions of key residues for ATP hydrolysis and helicase activity (e.g., K208, S324, E294, R580; Fig&#160;6) indicate that FRH maintains the substrate binding determinants and catalytic residues that are consistent with its function as an RNA helicase.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21796</offset>
+      <text>The N&#8208;terminal FRQ interaction region</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21836</offset>
+      <text>FRH requires residues 100&#8211;150 to interact with FRQ (Hurley et&#160;al, 2013); this region is mostly discernible in both structures. Conformational differences between the N&#8208;terminal FRQ&#8208;binding regions of FRH in the small&#8208; and large&#8208;cell FRH structures underscore the intrinsic flexibility of this region when not bound to FRQ (Fig&#160;EV2). In the small&#8208;cell structure, electron density is weak between residues 100 and 123, and there is little interaction with the RecA&#8208;2 domain due to an excursion of residues 122&#8211;141 that wraps against the KOW fist of a neighboring molecule. The absence of secondary structure in the FRH N&#8208;terminus (113&#8211;130) contrasts with the analogous region of Mtr4, which forms an N&#8208;terminal &#946;&#8208;hairpin motif (M80&#8208;D96). Interestingly, sequence similarity between the two proteins in this region (Fig&#160;EV1) suggests that the FRH N&#8208;terminus may assume a similar more&#8208;ordered structure when bound to FRQ. The FRQ&#8208;binding residues of FRH (100&#8211;150) interact with FRQ residues Q695&#8208;M798 (Hurley et&#160;al, 2013). The FRQ structure here is unknown, although the sequence predicts two short ordered segments (Appendix&#160;Fig S6). It follows that the FRH N&#8208;terminal extension and the target sequence on FRQ complement each other to form a stable module upon their mutual interaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23163</offset>
+      <text>FRQ binding to the FRH N&#8208;terminus may alter the properties of the ATP&#8208; and RNA&#8208;binding sites on the RecA domains by removing interactions between the N&#8208;terminus and the helicase. Residues 114&#8211;129 of the large&#8208;cell structure do not form an outer &#946;&#8208;strand as is found in Mtr4 and rather have a random coil conformation that is displaced from the FRH core. Residues 130&#8211;154 then stretch across the RecA&#8208;2 and RecA&#8208;1 domains in an extended mode with the exception of two kink regions that each pack against one of the two RecA domains (Figs&#160;3 and 6). Residues 129&#8211;135 form a turn that interacts with the C&#8208;terminal end of RecA&#8208;2 &#945;10, whose N&#8208;terminus connects with the Lys&#8208;rich disordered loop proximate to the KOW module and RNA&#8208;binding cleft (Fig&#160;3). This contact may alter the 449&#8211;451 loop conformation and the following &#946;&#8208;strand, which both differ relative to Mtr4 (Fig&#160;3). As in Mtr4, the 449&#8211;451 loop may interact with single&#8208;stranded RNA as it is pulled through the helicase. RecA&#8208;2 &#945;10 also has a high degree of positive charge (from K430, K433, K437, K438, K367) and along with the 449&#8211;451 loop could be an interaction surface for a negatively charged moiety, such as phosphorylated FRQ or the WCC.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24418</offset>
+      <text>Another structured N&#8208;terminal kink (residues 143&#8211;147) interacts with the ATP&#8208;binding loop of RecA&#8208;1 (residues 170&#8211;187) and may contribute to the more &#8220;open&#8221; conformation of the nucleotide binding pocket (Figs&#160;5C and 6C). Following this segment, residues 147&#8211;154 form an irregular &#946;&#8208;strand (&#946;1) that becomes the exposed edge of the RecA&#8208;1 &#946;&#8208;sheet. &#946;1 has substantial similarity in sequence and structure with the analogous segment of Mtr4. The loop that follows &#946;1 again diverges between FRH and Mtr4 before realigning in the first RecA&#8208;1 &#945;&#8208;helix (FRH residue P183).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25017</offset>
+      <text>Interactions of the FRH N&#8208;terminus</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25054</offset>
+      <text>To test how specific residues within structured regions of the FRH N&#8208;terminus may influence clock function, we altered those that contact the core helicase and evaluated their effects on clock period and component interactions. Of these residues, Q131 stabilizes the secondary structure of the first turn and interacts with residues 437&#8211;439 at the C&#8208;terminus of the RecA&#8208;2 &#945;10 helix, whereas neighboring Gly132 assumes a backbone conformation disallowed by other residue types (Fig&#160;6). At the RecA&#8208;2 interface, V142 buttresses the 179&#8211;187 ATP&#8208;binding loop (Fig&#160;6C). By conducting pull&#8208;down assays with an epitope&#8208;tagged FRH (Fig&#160;7 and Appendix&#160;Fig S5), we find that FRH variants Q131A and G132V (which should disrupt the first turn conformation) have no effects on FRQ or WCC binding, or clock behavior (Fig&#160;7). In contrast, V142G (which removes the side chain contact to the ADP&#8208;binding region in the large&#8208;cell structure; Fig&#160;6C) weakens the interaction between FRH and both FRQ and the WCC (Fig&#160;7). Thus, the relatively minor V142G substitution recapitulates previous deletion analysis that identified the 100&#8211;150 segments as an important determinant for FRQ binding (Hurley et&#160;al, 2013). Rhythmicity was monitored for cells in which the select variant FRH was expressed along with helicase competent, but clock&#8208;deficient FRH that is necessary for viability (Appendix&#160;Fig S5) (Hurley et&#160;al, 2013). Surprisingly, FRH V142G FRH has a substantially shortened clock period of 18.7&#160;h, compared with ~21.5&#160;h for WT (Fig&#160;7).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26615</offset>
+      <text>FRH variant interactions with the core clock components examined by race tube and immunoprecipitation assays</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26724</offset>
+      <text>Race tube assays with FRH mutants. Every circadian cycle N.&#160;crassa lays down aerial hyphae that appear as fluffy yellow/orange conidial bands. The distance between the bands reflects the clock period. The strains were grown in constant darkness, and growth fronts were labeled every 24&#160;h (black vertical lines), rhythmicity on right (&#964;&#160;=&#160;period in hours, &#963;&#160;=&#160;standard deviation, n&#160;=&#160;number of race tubes; ARR, arrhythmic). The race tubes shown here are representative samples from three replicate tubes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27238</offset>
+      <text>Pull&#8208;down assays evaluating interactions among FRH, FRQ, WC&#8208;1, and WC&#8208;2. Ratio of FRQ, WC&#8208;1, and WC&#8208;2 binding to the V5 tagged FRH mutants as compared to the inter&#8208;strain variations in FRH levels, error bars represent standard deviation for the assay run in triplicate. *P&#160;&lt;&#160;0.05 (unpaired two&#8208;tailed t&#8208;test with Gaussian distribution assumption). Representative immunoblots are shown in Appendix&#160;Fig S5. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27663</offset>
+      <text>The assays probe the interactions between the core clock components in strains with a wild&#8208;type copy of FRH and FRH with several different residue substitutions. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27828</offset>
+      <text>Recognition sites for partners</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27859</offset>
+      <text>The structure of the ternary complex of Mtr4 with regions of the other two TRAMP complex proteins, Trf4 and Air2 (Falk et&#160;al, 2014), provides insight into how FRH may interact with its protein partners. Mtr4 binds seven residues of Trf4 on the RecA&#8208;2 domain in the &#946;11&#8208;&#945;9 region (D121&#8208;S127), whereas Mtr4 interacts with Air2 between the RecA&#8208;2 and DSHCT domains in &#945;34&#8208;35 and &#945;15&#8208;16 (Fig&#160;EV3). The N&#8208;terminus of Air2 also contacts the KOW domain of a symmetry&#8208;related molecule of Mtr4 on &#946;19, the loop connecting &#946;23 and &#945;24, and the end of &#945;24 (Fig&#160;EV3). Outside the context of the crystal, both regions of the flexible Air2 peptide may bind to the same molecule of Mtr4 (Falk et&#160;al, 2014). The Air2&#8208;interacting residues on the KOW domain of Mtr4 are conserved in FRH as R712 and R806, the latter of which abrogates clock function when mutated to His (Hurley et&#160;al, 2013). As the FRH KOW module shares properties of the Air2&#8208;interacting region of Mtr4, it may also mediate protein&#8211;protein interactions, if not with homologs of Air2, then possibly with other elements related to clock function. Neurospora contains homologs of Trf4 and Air2 (Fig&#160;EV3), but no binding of either to FRH was detected in proteome&#8208;wide interaction studies (Baker, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29146</offset>
+      <text>Putative TRAMP complex interactions sites</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29188</offset>
+      <text>Structural comparison of the Mtr4 TRAMP complex (pdb 4U4C) with FRH (FRH in gray, Mtr4 in green with N&#8208;terminus (added from pdb 2XGJ) in gold, Air2 in blue, Trf4 in magenta). Trf4 lies along RecA&#8208;2, Air2 contacts the DSHCT, RecA&#8208;2, and the KOW domain of a symmetry&#8208;related molecule. The Trf4 and Air2 interfaces with Mtr4 are in regions well conserved by FRH. Although there is currently no data on an N.c. TRAMP complex, a Neurospora homolog of Trf4 (GenBank: EAA31314.2; NCU05588, 38% sequence identity) conserves residues that could potentially interact with &#945;9 of FRH. A direct homolog of Air2 is even less obvious in the genome of N.c., although the hypothetical protein NcHyp (GenBank: CAD37057; NCU04617) has modest sequence similarity (33%) to yeast Air2. This putative Air2 homolog also maintains some residues that could interact with conserved residues in the FRH DSHCT domain (K1048, M1049, and E1054). Segments of Trf4 and Air2 that contact Mtr4 are aligned below with the related regions of the respective N.c. homologs; residues that make contacts are highlighted.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30277</offset>
+      <text>Interactions of the KOW module with clock components</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30330</offset>
+      <text>The FRH structure places constraints on how the R806H mutant disrupts clock rhythmicity. R806 resides on an exposed surface of the KOW module, far removed from both the FRQ&#8208;binding N&#8208;terminus and the ATPase domains (Fig&#160;6A, B and E). However, R806H weakens interactions between the FFC and the WCC (Shi et&#160;al, 2010). Interestingly, R806 is conserved in Mtr4, where it interacts with the Air2 N&#8208;terminus, along with R712, which is also conserved in both proteins. R806 and R712 contribute to a positively charged surface that involves several other Arg and Lys residues (e.g., Lys811, Lys766, Lys732, Arg768, Arg812; Fig&#160;6D and E). To test the possibility that this surface participates in protein&#8211;protein interactions important for the clock, we mutated select positively charged residues therein and evaluated their effects on binding partners as well as on clock behavior (Fig&#160;7 and Appendix&#160;Fig S5). Like R806H, R712A weakens the interaction between FRH and FRQ and also the WCC. Not surprisingly, R712A is arrhythmic, like R806H. In contrast, K811A is arrhythmic from what primarily appears to be a defect in binding WC&#8208;2. The differential binding of FRH to WC&#8208;1 compared with WC&#8208;2 in the K811A variant was unexpected and suggests independent interactions between the FRH and these two transcription factors (Fig&#160;7 and Appendix&#160;Fig S5). Moreover, the K766A substitution increases FRH binding to WC&#8208;1 independent of changes to WC&#8208;2 binding, but does not affect period (Fig&#160;7). The ability of four positively charged residues on the KOW to alter FRQ and WCC interactions strongly implicates the KOW module as a key component of the inhibitory complex formed by the FFC and the WCC.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>32040</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32051</offset>
+      <text>The structure of FRH reveals the close relationship of this DExD/H helicase to the well&#8208;characterized yeast homolog Mtr4. FRH is essential for growth of Neurospora, but its general housekeeping functions of RNA metabolism are largely unexplored. Nevertheless, Neurospora contains within its genome distant homologs for the TRAMP components Air2 and Trp4; moreover, these putative TRAMP components conserve residues with their yeast homologs that mediate their interaction with Mtr4 (Fig&#160;EV3). The corresponding interaction residues on FRH are also somewhat conserved with Mtr4. Although FRH may then participate in a TRAMP&#8208;like nuclear or a Ski&#8208;like cytosolic complex, it is likely transient or of low abundance (Baker, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32785</offset>
+      <text>Unlike Mtr4, FRH is an essential component of a cellular circadian clock and it has been shown to target frq mRNA for degradation. Nevertheless, the primary role of FRH in the clock does not depend on RNA processing. Several frh mutations have been studied in attempts to associate FRH helicase activity with clock function: K208E, which eliminates ATP binding; E294Q, which prevents ATP hydrolysis; S324L, which blocks RNA unwinding; and R580P, which interferes with ATP binding and helicase activity. The structure of FRH confirms that these residues are suitably positioned to execute their assumed enzymatic activities (Fig&#160;6A and B). In reconstitution experiments, substitutions of catalytically important FRH residues reduce CK1a phosphorylation of FRQ (Lauinger et&#160;al, 2014). Consequently, it has been proposed that global changes in FRH architecture driven by FRH ATPase activity lead to selective access of CK1a to FRQ substrate sites (Lauinger et&#160;al, 2014). The overall structure of FRH would be conducive to coupling between the helicase core and interaction regions such as the KOW module. However, in contrast to the in&#160;vitro experiments, genetic studies indicate that FRH can support clock rhythmicity even when devoid of helicase activity (Hurley et&#160;al, 2013). These experiments rely on expressing helicase&#8208;competent FRH at low levels to support essential cellular functions independent of the clock. It has been noted that if FRH were to be active as a dimer, helicase&#8208;deficient, FRQ&#8208;interacting FRH subunits could recruit helicase&#8208;competent subunits, thereby localizing both the chaperone and helicase functions in the vicinity of the FRQ substrate (Lauinger et&#160;al, 2014). However, FRH does not dimerize in solution or crystals. Furthermore, cellular pull&#8208;down experiments of differentially tagged FRH proteins indicate that there&#160;is only one FRH in each complex with FRQ (Hurley et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34714</offset>
+      <text>FRH stabilizes FRQ, but it also mediates interactions between the FRQ:CK1a complex and the WCC. This latter property is altered by the R806H substitution. R806 resides on an exposed surface of&#160;the KOW module, displaced from the helicase core and RNA&#8208;binding cleft of the RecA&#8208;12/DSHCT module. In both Mtr4 and Ski2, similarly located arginine residues are critical for RNA binding. In Ski2, the R903E mutant impairs binding of single&#8208;stranded RNA (Halbach et&#160;al, 2012), and this residue is conserved in Mtr4 (R678) and FRH (R712). Furthermore, in the TRAMP complex of Mtr4, the KOW binds the very N&#8208;terminus of Air2 and may interact with Rrp6 (Jackson et&#160;al, 2010), a Ski&#8208;type homolog for cytoplasmic rather than nuclear RNA processing. In FRH, several other charged residues, including R806, cluster with R712 on the KOW module (Fig&#160;6E). R806 is conserved in Mtr4 (R774) as is the neighboring R831 and R832 (Mtr4 R799 and R800). FRH also contains two other positively charged residues in the connection of &#946;25 to &#945;26: K811 and R812. Pull&#8208;down assays indicate that several other positively charged residues surrounding R806 (Fig&#160;6E) also reduce interactions to the WCC (Fig&#160;7). Interestingly, the K811A substitution affects WC&#8208;2 binding to a larger degree than either FRQ or WC&#8208;1 binding (Fig&#160;7 and Appendix&#160;Fig S5). Differential binding of WC&#8208;1 and WC&#8208;2 by FRH K811A is unexpected because K806 and K811 are in close proximity and WC&#8208;1 and WC&#8208;2 are thought to be tightly associated through their PAS domains (Denault et&#160;al, 2001). Nonetheless, WC&#8208;2 oscillates in its interaction with the cis regulatory C&#8208;box, whereas WC&#8208;1 largely remains associated with the C&#8208;box throughout the circadian cycle (Belden et&#160;al, 2007). The need for a stable interaction between WC&#8208;1 and FRH:FRQ only up to a certain threshold of affinity may be reflected in the behavior of the FRH K766A variant, which binds WC&#8208;1 more tightly than WT, but does not affect period. Overall, the KOW module appears to interact with WC&#8208;1 and WC&#8208;2 independently and may even facilitate their dissociation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36833</offset>
+      <text>Key structural differences between FRH and Mtr4 are at the N&#8208;terminus, where FRH residues 100&#8211;150 bind to and stabilize FRQ. Variable conformations of this segment in the large&#8208; and small&#8208;cell structures support the assertion that it is largely disordered in the absence of FRQ (Hurley et&#160;al, 2013). The V142G substitution, which is involved in the contact between the FRH N&#8208;terminus and the ATP&#8208;binding site of the RecA&#8208;1, reduces interactions between FRH and FRQ and produces a short&#8208;period phenotype. Thus, this FRH segment may be displaced from the FRH core domain when bound to FRQ. Single&#8208;residue changes that cause short&#8208;periods are uncommon and where characterized correlate with changes in FRQ stability, often through phosphorylation defects (Tang et&#160;al, 2009; Tataroglu et&#160;al, 2012). For V142G, the stability of FRQ or its sensitivity to phosphorylation may be directly modulated by its altered interaction with FRH. Conversely, the shortened period caused by V142G could derive from a weakened interaction with the WCC that effectively increases WCC activity. However, the KOW variants, which have qualitatively similar effects on FRQ and WCC binding as V142G, do not shorten period. Thus, affinity of the clock components for each other is not the only parameter important for proper function. Taken together, the structural features of FRH combined with mutational studies emphasize that FRH:FRQ and the WCC associate with a complex architecture, wherein the conformations and interactions of the components are highly co&#8208;dependent.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>38405</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38427</offset>
+      <text>Expression and purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38455</offset>
+      <text>FRH&#8208;&#916;114 and FRH&#8208;&#916;100 in a pET28a vector with an N&#8208;terminal 6x His tag were expressed in E.&#160;coli BL21 (DE3) cells. The gene sequence was codon optimized for expression in E.&#160;coli (Hurley et&#160;al, 2013). Full&#8208;length recombinant FRH was not well behaved. Proteins were purified by: (i) Ni&#8208;NTA affinity chromatography using 150&#160;mM NaCl, 200&#160;mM imidazole, 50&#160;mM HEPES buffer for elution; (ii) size&#8208;exclusion chromatography (Superdex 200, GE Healthcare) using 150&#160;mM NaCl, 50 mM HEPES pH 7.6, and 2&#8211;5&#160;mM DTT as the running buffer; and (iii) anion exchange chromatography with 500&#160;mM NaCl, 50&#160;mM HEPES pH 7.6, and 2&#160;mM DTT as the applied gradient buffer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39129</offset>
+      <text>Crystallization and structure determination</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39173</offset>
+      <text>FRH&#8208;&#916;114 and FRH&#8208;&#916;100 were concentrated to 15&#8211;22&#160;mg/ml following purification. Crystals were grown at 17&#176;C using hanging drop vapor diffusion by mixing purified protein with 0.1&#160;M sodium citrate pH 5.5&#8211;6 adjusted with HCl, and 36&#8211;44% v/v PEG600. Crystals ranged in size from ~20 to 200 microns. No additional cryoprotectant was added prior to data collection. Data were collected at Advanced Photon Source at Argonne National Laboratory beamlines (NE&#8208;CAT) 24&#8208;ID&#8208;C and 24&#8208;ID&#8208;E. Data were processed, scaled, and analyzed in RAPD using XDS, Pointless, Aimless, Scala, Freerflag, and Mtz2various from the CCP4 Suite (Bailey, 1994). Phases were obtained by molecular replacement using Phaser (McCoy et&#160;al, 2007) with a model derived from homolog Mtr4 (PDB 2XGJ). The model was built using Coot (Emsley &amp; Cowtan, 2004) and refined in Phenix (Adams et&#160;al, 2002) with data to 3.1&#160;&#197; resolution. Both FRH&#8208;&#916;114 and FRH&#8208;&#916;100 produced crystals of varying diffraction quality. Both the large&#8208; and small&#8208;cell structures reported in the absence of cofactors were obtained from FRH&#8208;&#916;114. FRH&#8208;&#916;100 produced crystals in the small cell, both with and without RNA and ADP. Data collection and refinement statistics are given in Appendix&#160;Table&#160;S1. The differences in large and small cell dimensions are &gt;&#160;2&#160;&#197; in a, ~6&#160;&#197; in b, and ~18&#160;&#197; in c. The space group of both cells is P 212121, with one molecule per asymmetric unit. Estimates of solvent content vary from 46 to 56%.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40679</offset>
+      <text>For RNA and ADP structures, 1&#160;&#956;l of 5&#160;mM single&#8208;stranded RNA (5&#8242;&#8208;rGrArUrCrCrGrCrUrCrGrArUrC&#8208;3&#8242;) and 5&#160;&#956;l of 10&#160;mM ADP (in 50&#160;mM HEPES pH 7.5, 50&#160;mM NaCl, 5&#160;mM DTT buffer) were added to 20&#160;&#956;l of 15&#8211;22&#160;mg/ml of FRH&#8208;&#916;100 and incubated for 30&#160;min before distributing in crystal trays. Many different oligonucleotides were screened for cocrystallization with the one&#160;above producing the best diffracting crystals. Nonetheless, the&#160;low resolution of the RNA complex prevents sequence assignment. Thus, apparent RNA in the electron density was modeled as poly&#8208;A4.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41268</offset>
+      <text>SAXS data were obtained at the BioSAXS beamline, G1 station, at the Cornell High Energy Synchrotron Source (CHESS). SAXS profiles were obtained of FRH&#8208;&#916;114 and FRH&#8208;&#916;100 at concentration ranging from 2 to 5&#160;mg/ml, with the representative profiles from 3 to 2&#160;mg/ml, respectively. Protein samples were exposed to 9.968&#160;keV X&#8208;ray, in an integrated capillary sample flow cell with a 2&#160;mm path; both X&#8208;ray path and sample cell were kept under vacuum. Samples were initially centrifuged for 30&#160;min, and then, aliquots (30&#160;&#956;l) were loaded from a 96&#8208;well tray and oscillated in the beam by an automated system. Scattering data were captured on a Pilatus 100K&#8208;S detector (Dectris, Baden, Switzerland). The SAXS data were analyzed in BioXTAS Raw (Nielsen et&#160;al, 2009) and indicate that FRH&#8208;&#916;114 as purified is monomeric in solution. The I(0) values, the extrapolated SAXS intensities at zero angle, and Porod volumes were proportional to molecular weight (glucose isomerase (MW 173,000&#160;Da was used as standard). For FRH&#8208;&#916;114, the radius of gyration was 40.40&#160;&#197;, the Dmax was 135.66&#160;&#197;, and Porod volume was 206,372&#160;&#197;3. For FRH&#8208;&#916;100, the radius of gyration was 39.50&#160;&#197;, the Dmax was 128.76&#160;&#197;, and the Porod volume was 210,802&#160;&#197;3. The protein appears mainly globular, but the Kratky plots and the molecular envelope reconstructions, computed using DAMMIF software (Franke &amp; Svergun, 2009), indicate considerable flexibility about a core region. The envelopes were an average (DAMAVER) (Volkov &amp; Svergun, 2003) of 20 bead models (mean normalized spatial discrepancy, NSD&#160;=&#160;0.725 (FRH&#8208;&#916;114), 0.762 (FRH&#8208;&#916;100)), and include several protrusions from the core which likely represent conformational heterogeneity in the arch domain and the N&#8208;terminal region (Fig&#160;2B and Appendix&#160;Fig S1). Situs (Wriggers, 2012) was used to render the volume from the averaged bead model, and SUPCOMB (Kozin &amp; Svergun, 2001) was used to place the protein&#160;within the envelope. FoxS was used for validation of the experimental SAXS data with the crystallographic structure (Schneidman&#8208;Duhovny et&#160;al, 2010, 2013). The fits of both FRH&#8208;&#916;114 and FRH&#8208;&#916;100 had &#967;2 values of 0.92 with calculated Rg values of&#160;34.39.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43507</offset>
+      <text>FRH protein interaction assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43538</offset>
+      <text>Transformations were performed as described (Colot et&#160;al, 2006; Bardiya &amp; Shiu, 2007). Race tube assays and circadian liquid culture experiments were performed as described with slight modifications (1&#215; Vogel's, 0.1% glucose, 0.2% arginine, and 50&#160;ng/ml biotin) (Loros et&#160;al, 1989; Garceau et&#160;al, 1997; Liu et&#160;al, 1997). For Neurospora culture, conidia were inoculated into Bird medium (Metzenberg, 2004) containing 1.8% glucose. Protein lysates were prepared on a small scale with a protease inhibitor mixture (P9599; Sigma). To perform the co&#8208;IP assay, 1 mg of total protein extract was incubated with 30&#160;&#956;l of anti&#8208;V5 antibody&#8208;coated agarose overnight (A7345; Sigma). The agarose/beads were then washed with protein extraction buffer four times before elution with Laemmli buffer (65&#176;C for 15&#160;min) and loading on the gel. For Western blot analysis, equal volumes of input and immunoprecipitated protein were loaded per lane. Primary anti&#8208;V5 antibody (Invitrogen) was diluted 1:5,000. Anti&#8208;FRQ and anti&#8208;WC&#8208;1 and WC&#8208;2 antibodies were diluted 1:250 (Garceau et&#160;al, 1997; Luo et&#160;al, 1998; Denault et&#160;al, 2001). SuperSignal West Femto ECL (Pierce) was used for signal development. Race tube assays were performed as described with slight modification (Garceau et&#160;al, 1997). The Neurospora strains used in this study are defined as 1153 (csr), 1163 (frhwt), 1634&#8208;1 + 1634&#8208;2 (frhQ131Av5), 1635&#8208;1&#160;+&#160;1635&#8208;2 (frhG132Vv5), 1636&#8208;1 + 1636&#8208;2 (frhV142Gv5), 1637&#8208;1&#160;+&#160;1637&#8208;2 (frhR712Av5), 1638&#8208;1&#160;+&#160;1638&#8208;2 (frhK811Av5), 1165 (frhR806Hv5), 1639&#8208;1&#160;+&#160;1639&#8208;2 (frhK766Av5). The Neurospora strains upon which the studied was based were obtained from the&#160;Fungal Genetics Stock Center (Kansas State University, Manhattan, KS).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45305</offset>
+      <text>Sequence analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45323</offset>
+      <text>Analyses of FRH and FRQ sequences for secondary structure and regions of low complexity were carried out with PONDR (Xue et&#160;al, 2010) and JPRED (Cole et&#160;al, 2008; Drozdetskiy et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45515</offset>
+      <text>Accession codes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45531</offset>
+      <text>Coordinates and diffraction data have been deposited in the Protein data Bank as entries 4XGT, 5DZR, and 5E02.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45642</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45663</offset>
+      <text>BRC, JCD, JJL, KSC, and JMH designed and interpreted the study. KSC expressed, purified, crystallized, and determined structures of FRH. JW assisted in cloning and protein expression. JMH and CSR carried out race tube and pull&#8208;down experiments. KSC and BRC wrote the paper with input from all authors.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45967</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45988</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>46048</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>46071</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="source">Acta Crystallogr D&#8208;Biol Crystallogr</infon>
+      <infon key="lpage">1954</infon>
+      <infon key="pub-id_pmid">12393927</infon>
+      <infon key="fpage">1948</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>46082</offset>
+      <text>PHENIX: building new software for automated crystallographic structure&#160;determination</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Acta Crystallogr D&#8208;Biol Crystallogr</infon>
+      <infon key="lpage">763</infon>
+      <infon key="pub-id_pmid">15299374</infon>
+      <infon key="fpage">760</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>46168</offset>
+      <text>THE CCP4 suite &#8208; programs for protein crystallography</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">363</infon>
+      <infon key="pub-id_pmid">19450533</infon>
+      <infon key="fpage">354</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>46224</offset>
+      <text>Quantitative proteomics reveals a dynamic interactome and phase&#8208;specific phosphorylation in the Neurospora circadian clock</text>
+    </passage>
+    <passage>
+      <infon key="source">Thesis. Post&#8208;Translational Regulation of the Neurospora crassa Circadian System</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2012</infon>
+      <offset>46349</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">FEMS Microbiol Rev</infon>
+      <infon key="lpage">110</infon>
+      <infon key="pub-id_pmid">21707668</infon>
+      <infon key="fpage">95</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46350</offset>
+      <text>The circadian clock of Neurospora crassa</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Fungal Genet Biol</infon>
+      <infon key="lpage">314</infon>
+      <infon key="pub-id_pmid">17320431</infon>
+      <infon key="fpage">307</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46391</offset>
+      <text>Cyclosporin A&#8208;resistance based gene placement system for Neurospora crassa</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">600</infon>
+      <infon key="pub-id_pmid">17317630</infon>
+      <infon key="fpage">587</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46468</offset>
+      <text>Execution of the circadian negative feedback loop in Neurospora requires the ATP&#8208;dependent chromatin&#8208;remodeling enzyme CLOCKSWITCH</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">262</infon>
+      <infon key="pub-id_pmid">18312266</infon>
+      <infon key="fpage">255</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>46603</offset>
+      <text>Interlocked feedback loops of the circadian clock of Neurospora crassa</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">652</infon>
+      <infon key="pub-id_pmid">17558417</infon>
+      <infon key="fpage">647</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46674</offset>
+      <text>Structural basis for DNA duplex separation by a superfamily&#8208;2 helicase</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Protein Sci</infon>
+      <infon key="lpage">2755</infon>
+      <infon key="pub-id_pmid">18029424</infon>
+      <infon key="fpage">2750</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46747</offset>
+      <text>Solution structure of the region 51&#8208;160 of human KIN17 reveals an atypical winged helix domain</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11478</infon>
+      <infon key="pub-id_pmid">21300798</infon>
+      <infon key="fpage">11469</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>46844</offset>
+      <text>Regulation of the activity and cellular localization of the circadian clock protein FRQ</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">156</infon>
+      <infon key="pub-id_pmid">25302868</infon>
+      <infon key="fpage">150</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46932</offset>
+      <text>Mechanism of the Neurospora circadian clock, a FREQUENCY&#8208;centric view</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">241</infon>
+      <infon key="pub-id_pmid">15625191</infon>
+      <infon key="fpage">234</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>47004</offset>
+      <text>Regulation of the Neurospora circadian clock by an RNA helicase</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W201</infon>
+      <infon key="pub-id_pmid">18463136</infon>
+      <infon key="fpage">W197</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>47068</offset>
+      <text>The Jpred 3 secondary structure prediction server</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10357</infon>
+      <infon key="pub-id_pmid">16801547</infon>
+      <infon key="fpage">10352</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>47118</offset>
+      <text>A high&#8208;throughput gene knockout procedure for Neurospora reveals functions for multiple transcription factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">117</infon>
+      <infon key="pub-id_pmid">11226161</infon>
+      <infon key="fpage">109</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>47230</offset>
+      <text>WC&#8208;2 mediates WC&#8208;1&#8208;FRQ interaction within the PAS protein&#8208;linked circadian feedback loop of Neurospora</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1546</infon>
+      <infon key="pub-id_pmid">16541108</infon>
+      <infon key="fpage">1534</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>47341</offset>
+      <text>Surveillance of nuclear&#8208;restricted pre&#8208;ribosomes within a subnucleolar region of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W394</infon>
+      <infon key="pub-id_pmid">25883141</infon>
+      <infon key="fpage">W389</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>47451</offset>
+      <text>JPred4: a protein secondary structure prediction server</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">Acta Crystallogr D&#8208;Biol Crystallogr</infon>
+      <infon key="lpage">2132</infon>
+      <infon key="pub-id_pmid">15572765</infon>
+      <infon key="fpage">2126</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>47507</offset>
+      <text>Coot: model&#8208;building tools for molecular graphics</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Annu Rev Biophys Biomol Struct</infon>
+      <infon key="lpage">114</infon>
+      <infon key="pub-id_pmid">16689629</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>47559</offset>
+      <text>Evolutionary relationships and structural mechanisms of AAA plus proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">867</infon>
+      <infon key="pub-id_pmid">25175027</infon>
+      <infon key="fpage">856</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47633</offset>
+      <text>The molecular architecture of the TRAMP complex reveals the organization and interplay of its two catalytic activities</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="lpage">346</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="fpage">342</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>47752</offset>
+      <text>DAMMIF, a program for rapid ab&#8208;initio shape determination in small&#8208;angle scattering</text>
+    </passage>
+    <passage>
+      <infon key="volume">297</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">819</infon>
+      <infon key="pub-id_pmid">12098706</infon>
+      <infon key="fpage">815</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>47840</offset>
+      <text>White collar&#8208;1, a circadian blue light photoreceptor, binding to the frequency promoter</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">476</infon>
+      <infon key="pub-id_pmid">9150146</infon>
+      <infon key="fpage">469</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>47930</offset>
+      <text>Alternative initiation of translation and time&#8208;specific phosphorylation yield multiple forms of the essential clock protein FREQUENCY</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1246</infon>
+      <infon key="pub-id_pmid">19747717</infon>
+      <infon key="fpage">1236</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>48066</offset>
+      <text>The exosome regulates circadian gene expression in a posttranscriptional negative feedback loop</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Protein Cell</infon>
+      <infon key="lpage">341</infon>
+      <infon key="pub-id_pmid">21203945</infon>
+      <infon key="fpage">331</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48162</offset>
+      <text>Molecular mechanism of the Neurospora circadian oscillator</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11515</infon>
+      <infon key="pub-id_pmid">20159972</infon>
+      <infon key="fpage">11508</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48221</offset>
+      <text>Functional significance of FRH in regulating the phosphorylation and stability of Neurospora circadian clock protein FRQ</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">134</infon>
+      <infon key="pub-id_pmid">22114319</infon>
+      <infon key="fpage">124</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48342</offset>
+      <text>The crystal structure of S. cerevisiae Ski2, a DExH helicase associated with the cytoplasmic functions of the exosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">297</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">843</infon>
+      <infon key="pub-id_pmid">12098705</infon>
+      <infon key="fpage">840</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>48460</offset>
+      <text>White collar&#8208;1, a DNA binding transcription factor and a light sensor</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2565</infon>
+      <infon key="pub-id_pmid">16980584</infon>
+      <infon key="fpage">2552</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48532</offset>
+      <text>CKI and CKII mediate the FREQUENCY&#8208;dependent phosphorylation of the WHITE COLLAR complex to close the Neurospora circadian negative feedback loop</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">16714</infon>
+      <infon key="pub-id_pmid">20807745</infon>
+      <infon key="fpage">16709</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48680</offset>
+      <text>VIVID interacts with the WHITE COLLAR complex and FREQUENCY&#8208;interacting RNA helicase to alter light and clock responses in Neurospora</text>
+    </passage>
+    <passage>
+      <infon key="volume">52</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">843</infon>
+      <infon key="pub-id_pmid">24316221</infon>
+      <infon key="fpage">832</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>48816</offset>
+      <text>Conserved RNA helicase FRH acts nonenzymatically to support the intrinsically disordered neurospora clock protein FRQ</text>
+    </passage>
+    <passage>
+      <infon key="name_0">surname:Amita;given-names:S</infon>
+      <infon key="lpage">52</infon>
+      <infon key="source">Methods in Enzymology</infon>
+      <infon key="fpage">29</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>48934</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2216</infon>
+      <infon key="pub-id_pmid">20512111</infon>
+      <infon key="fpage">2205</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48935</offset>
+      <text>The crystal structure of Mtr4 reveals a novel arch domain required for rRNA processing</text>
+    </passage>
+    <passage>
+      <infon key="volume">83</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="lpage">725</infon>
+      <infon key="pub-id_pmid">24635478</infon>
+      <infon key="fpage">697</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49022</offset>
+      <text>RNA helicase proteins as chaperones and remodelers</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">22995828</infon>
+      <infon key="fpage">33</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49073</offset>
+      <text>Ski2&#8208;like RNA helicase structures Common themes and complex assemblies</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="lpage">41</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="fpage">33</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>49146</offset>
+      <text>Automated matching of high&#8208; and low&#8208;resolution structural models</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">724</infon>
+      <infon key="pub-id_pmid">15935758</infon>
+      <infon key="fpage">713</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>49215</offset>
+      <text>RNA degradation by the exosome is promoted by a nuclear polyadenylation complex</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24710172</infon>
+      <infon key="fpage">3598</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49295</offset>
+      <text>The RNA helicase FRH is an ATP&#8208;dependent regulator of CK1a in the circadian clock of Neurospora crassa</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">486</infon>
+      <infon key="pub-id_pmid">9150147</infon>
+      <infon key="fpage">477</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>49400</offset>
+      <text>Thermally regulated translational control of FRQ mediates aspects of temperature responses in the neurospora circadian clock</text>
+    </passage>
+    <passage>
+      <infon key="volume">243</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">388</infon>
+      <infon key="pub-id_pmid">2563175</infon>
+      <infon key="fpage">385</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>49525</offset>
+      <text>Molecular&#8208;cloning of genes under&#160;control of the circadian clock in neurospora</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1235</infon>
+      <infon key="pub-id_pmid">9482720</infon>
+      <infon key="fpage">1228</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>49606</offset>
+      <text>Nuclear localization is required for function of the essential clock protein FRQ</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="lpage">674</infon>
+      <infon key="pub-id_pmid">19461840</infon>
+      <infon key="fpage">658</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>49687</offset>
+      <text>Phaser crystallographic software</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="lpage">20</infon>
+      <infon key="source">Fungal Genet Newsl</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>49720</offset>
+      <text>Bird Medium: an alternative to Vogel medium</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">3369</infon>
+      <infon key="pub-id_pmid">26217010</infon>
+      <infon key="fpage">3354</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>49764</offset>
+      <text>Structures and functions of the multiple KOW domains of transcription elongation factor Spt5</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="lpage">964</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="fpage">959</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>49857</offset>
+      <text>BioXTAS RAW, a software program for high&#8208;throughput automated small&#8208;angle X&#8208;ray scattering data reduction and preliminary analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">1829</infon>
+      <infon key="lpage">893</infon>
+      <infon key="source">Biochimi Biophys Acta</infon>
+      <infon key="fpage">884</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49994</offset>
+      <text>DEAD&#8208;box helicases as integrators of RNA,&#160;nucleotide and protein binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">722</infon>
+      <infon key="pub-id_pmid">21884974</infon>
+      <infon key="fpage">713</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>50070</offset>
+      <text>Circadian conformational change of the Neurospora clock protein FREQUENCY triggered by clustered hyperphosphorylation of a basic domain</text>
+    </passage>
+    <passage>
+      <infon key="volume">396</infon>
+      <infon key="source">Biol Chem</infon>
+      <infon key="lpage">865</infon>
+      <infon key="pub-id_pmid">25720120</infon>
+      <infon key="fpage">849</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>50206</offset>
+      <text>When core competence is not enough: functional interplay of the DEAD&#8208;box helicase core with ancillary domains and auxiliary factors in RNA binding and unwinding</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W544</infon>
+      <infon key="pub-id_pmid">20507903</infon>
+      <infon key="fpage">W540</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>50369</offset>
+      <text>FoXS: a web server for rapid computation and fitting of SAXS profiles</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">974</infon>
+      <infon key="pub-id_pmid">23972848</infon>
+      <infon key="fpage">962</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>50439</offset>
+      <text>Accurate SAXS profile computation and its assessment by contrast variation experiments</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">361</infon>
+      <infon key="pub-id_pmid">19948888</infon>
+      <infon key="fpage">351</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>50526</offset>
+      <text>FRQ&#8208;interacting RNA helicase mediates negative and positive feedback in the Neurospora circadian clock</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">1826</infon>
+      <infon key="pub-id_pmid">11889086</infon>
+      <infon key="fpage">1819</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>50631</offset>
+      <text>Modularity and specialization in superfamily 1 and 2 helicases</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4653</infon>
+      <infon key="pub-id_pmid">12198166</infon>
+      <infon key="fpage">4641</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>50694</offset>
+      <text>Crystal structures of transcription factor NusG in light of its nucleic acid&#8208; and protein&#8208;binding activities</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10727</infon>
+      <infon key="pub-id_pmid">19506251</infon>
+      <infon key="fpage">10722</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>50807</offset>
+      <text>Setting the pace of the Neurospora circadian clock by multiple independent FRQ phosphorylation events</text>
+    </passage>
+    <passage>
+      <infon key="volume">287</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">36943</infon>
+      <infon key="pub-id_pmid">22955278</infon>
+      <infon key="fpage">36936</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>50909</offset>
+      <text>Glycogen synthase kinase is a regulator of the circadian clock of Neurospora crassa</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">13872</infon>
+      <infon key="pub-id_pmid">25414331</infon>
+      <infon key="fpage">13861</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>50993</offset>
+      <text>The Mtr4 ratchet helix and arch domain both function to promote RNA unwinding</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="lpage">864</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="fpage">860</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>51071</offset>
+      <text>Uniqueness of ab&#160;initio shape determination in small&#8208;angle scattering</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Int J Mol Sci</infon>
+      <infon key="lpage">9036</infon>
+      <infon key="pub-id_pmid">23698761</infon>
+      <infon key="fpage">9018</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>51144</offset>
+      <text>Ribonucleoprotein complexes that control circadian clocks</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12144</infon>
+      <infon key="pub-id_pmid">20566885</infon>
+      <infon key="fpage">12139</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>51202</offset>
+      <text>Structural analysis reveals the characteristic features of Mtr4, a DExH helicase involved in nuclear RNA processing and surveillance</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="source">Acta Crystallogr D&#8208;Biol Crystallogr</infon>
+      <infon key="lpage">351</infon>
+      <infon key="pub-id_pmid">22505255</infon>
+      <infon key="fpage">344</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>51335</offset>
+      <text>Conventions and workflows for using Situs</text>
+    </passage>
+    <passage>
+      <infon key="volume">1804</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1010</infon>
+      <infon key="pub-id_pmid">20100603</infon>
+      <infon key="fpage">996</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>51377</offset>
+      <text>PONDR&#8208;FIT: a meta&#8208;predictor of intrinsically disordered amino acids</text>
+    </passage>
+    <passage>
+      <infon key="volume">1659</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">18</infon>
+      <infon key="pub-id_pmid">15511523</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>51449</offset>
+      <text>RecA&#8208;like motor ATPases&#8212;lessons from structures</text>
+    </passage>
+    <passage>
+      <infon key="volume">495</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">115</infon>
+      <infon key="pub-id_pmid">23417067</infon>
+      <infon key="fpage">111</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>51501</offset>
+      <text>Non&#8208;optimal codon usage affects expression, structure and function of clock protein FRQ</text>
+    </passage>
+    <passage>
+      <infon key="volume">97</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">987</infon>
+      <infon key="pub-id_pmid">26032251</infon>
+      <infon key="fpage">974</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>51591</offset>
+      <text>Nonoptimal codon usage influences protein structure in intrinsically disordered regions</text>
+    </passage>
+  </document>
+</collection>

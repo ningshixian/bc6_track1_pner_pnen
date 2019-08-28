@@ -1,0 +1,1266 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5286369</id>
+    <passage>
+      <infon key="name_2">surname:Kudla;given-names:Grzegorz</infon>
+      <infon key="name_3">surname:Pang;given-names:Ignatius</infon>
+      <infon key="name_0">surname:Waters;given-names:Shafagh A</infon>
+      <infon key="name_1">surname:McAteer;given-names:Sean P</infon>
+      <infon key="name_6">surname:Leong;given-names:Kai Wen</infon>
+      <infon key="alt-title">Shafagh A Waters et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694639</infon>
+      <infon key="name_5">surname:Amos;given-names:Timothy G</infon>
+      <infon key="name_8">surname:Strugnell;given-names:Richard</infon>
+      <infon key="name_9">surname:Gally;given-names:David L</infon>
+      <infon key="lpage">387 387</infon>
+      <infon key="fpage">374 374</infon>
+      <infon key="year">2017</infon>
+      <infon key="name_7">surname:Wilkins;given-names:Marc R</infon>
+      <infon key="name_4">surname:Deshpande;given-names:Nandan P</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201694639</infon>
+      <infon key="article-id_pmid">27836995</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="issue">3</infon>
+      <infon key="kwd">CLIP&#8208;Seq CRAC EHEC enterohaemorrhagic E.&#160;coli non&#8208;coding RNA Methods &amp; Resources Microbiology, Virology &amp; Host Pathogen Interaction RNA Biology</infon>
+      <infon key="volume">36 36</infon>
+      <infon key="article-id_pmc">5286369</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+ See also: J H&#246;r &amp; J Vogel (February 2017)</infon>
+      <infon key="name_10">surname:Tollervey;given-names:David</infon>
+      <infon key="name_11">surname:Tree;given-names:Jai J</infon>
+      <offset>0</offset>
+      <text>Small RNA interactome of pathogenic E.&#160;coli revealed through crosslinking of RNase E</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>86</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <text> RNA sequencing studies have identified hundreds of non&#8208;coding RNAs in bacteria, including regulatory small RNA (sRNA). However, our understanding of sRNA function has lagged behind their identification due to a lack of tools for the high&#8208;throughput analysis of RNA&#8211;RNA interactions in bacteria. Here we demonstrate that in&#160;vivo  sRNA&#8211;mRNA duplexes can be recovered using UV&#8208;crosslinking, ligation and&#160;sequencing of hybrids (CLASH). Many sRNAs recruit the endoribonuclease, RNase E, to facilitate processing of mRNAs. We were able to recover base&#8208;paired sRNA&#8211;mRNA duplexes in association with RNase E, allowing proximity&#8208;dependent ligation and sequencing of cognate sRNA&#8211;mRNA pairs as chimeric reads. We verified that this approach captures bona fide  sRNA&#8211;mRNA interactions. Clustering analyses identified novel sRNA seed regions and sets of potentially co&#8208;regulated target mRNAs. We identified multiple mRNA targets for the pathotype&#8208;specific sRNA Esr41, which was shown to regulate colicin sensitivity and iron transport in E.&#160;coli. Numerous sRNA interactions were also identified with non&#8208;coding RNAs, including sRNAs and tRNAs, demonstrating the high complexity of the sRNA interactome.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1316</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1329</offset>
+      <text>Advances in RNA sequencing technologies and associated applications have driven a revolution in our understanding of the complexity of the transcriptome. For diverse bacterial species, a single RNA&#8208;Seq experiment can reveal hundreds of novel non&#8208;coding RNAs. Bacterial small RNA (sRNA) species regulate translation of mRNAs involved in a diverse range of physiological processes including carbon, amino acid and metal ion utilization (Papenfort &amp; Vogel, 2014), horizontal transfer of DNA (Papenfort et&#160;al, 2015), biofilm formation (Holmqvist et&#160;al, 2010) and virulence gene expression (Chao &amp; Vogel, 2010). Canonically, sRNAs repress mRNA translation by base pairing that covers the ribosome&#8208;binding site and/or directing the transcript for cleavage and degradation. It is now apparent that there are many variations on this canonical theme including activation of translation (Soper et&#160;al, 2010), repression by cleavage alone (Pfeiffer et&#160;al, 2009), cleavage inhibition (Papenfort et&#160;al, 2013), transcriptional attenuation (Bossi et&#160;al, 2012) and sRNA sponging (Figueroa&#8208;Bossi et&#160;al, 2009; Tree et&#160;al, 2014; Miyakoshi et&#160;al, 2015). The majority of sRNAs in E.&#160;coli require the RNA chaperone Hfq to anneal with target mRNAs (Gottesman &amp; Storz 2011). Hfq can present sRNAs for interaction with the pool of mRNA targets, increasing the local concentration of interaction partners and providing a positively charged lateral surface to aid annealing (Panja et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2815</offset>
+      <text>In principal, targets for sRNA interactions can be predicted using sequence&#8208;based analysis; however, few sequence or structural features are conserved between the many different sRNA targets, making false positives a major problem (Backofen et&#160;al, 2014; K&#252;nne et&#160;al 2014). To overcome this, target prediction programmes have used the presence of a tract of 6 or more consecutive base pairs (the seed sequence) and the predicted accessibility of the seed region (Peer &amp; Margalit, 2011). Phylogenetic conservation of seed sequences also improves the likelihood of identifying functionally significant interactions but is not applicable to transcripts encoded within variable regions of the genome, such as pathogenicity islands. In consequence, determining the targets for sRNAs and their regulatory function has generally required the investigation of individual RNAs, often by using transcriptomics to indirectly identify mRNAs with altered stability following sRNA expression or depletion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3811</offset>
+      <text>A number of recent studies have implemented in&#160;vitro and in&#160;vivo techniques to directly identify interactions between non&#8208;coding RNAs and their RNA targets. These have included approaches using individual microRNAs or bacterial sRNAs as baits, with or without chemical modifications to improve capture of interacting RNAs. High&#8208;throughput sequencing allows identification of target RNAs interacting with the bait RNA (Imig et&#160;al, 2015). This approach unexpectedly identified a spacer region from the tRNA&#8208;Leu precursor as a target for RyhB (Lalaouna et&#160;al, 2015). An approach to experimentally profile transcriptome&#8208;wide RNA&#8211;RNA interactions in eukaryotic cells has been described that uses proximity&#8208;dependent ligation of duplexed RNAs to capture RNA interactions in&#160;vivo and has been termed CLASH (UV&#8208;crosslinking, ligation and sequencing of hybrids) (Helwak et&#160;al, 2013) (Fig&#160;1A). RNA&#8211;RNA duplexes are UV&#8208;crosslinked to a protein &#8220;bait&#8221; allowing selective capture of RNAs and stringent purification of the RNA&#8211;protein complex. A small fraction of RNAs covalently bound to the protein remain duplexed during purification and these can be ligated into a single contiguous RNA molecule with T4 RNA ligase (Helwak et&#160;al, 2013) or by endogenous RNA ligases (Grosswendt et&#160;al, 2014). An alternative methodology uses a joining linker to ligate the constrained duplex ends of the RNAs (Sugimoto et&#160;al, 2015). In each case, a proportion of sequencing reads recovered (typically ~1&#8211;2%) consist of read segments that non&#8208;contiguously map to the transcriptome. These hybrid reads can be identified in silico and indicate sites of intra&#8208; or intermolecular RNA&#8211;RNA interactions occurring on the bait protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5551</offset>
+      <text> UV&#8208;crosslinking of RNase E reveals binding sites transcriptome&#8208;wide</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5624</offset>
+      <text>Schematic of CLASH protocol for purification of RNA&#8211;RNA interactions. RNAs were UV&#8208;crosslinked to RNase E&#8208;HTF in&#160;vivo and purified using M2 anti&#8208;FLAG resin. RNAs were trimmed using RNase A/T1 and further purified under denaturing conditions. RNA linkers were ligated to the immobilized RNA&#8211;RNase E complexes. Duplexed RNAs may be ligated into a single contiguous molecule (left, CLASH) that gives information on RNA&#8211;RNA interaction occurring on RNase E. The remaining single RNAs reveal the site of RNase E binding within the transcriptome. Linker&#8208;ligated RNA&#8211;RNase E complexes were size&#8208;selected by SDS&#8211;PAGE and RNAs recovered for library preparation and sequencing. The schematic on the right represents the key steps in preparing UV&#8208;crosslinked RNA&#8211;protein complexes to map RNA&#8211;protein interactions sites (&#8764;99% of reads recovered), and RNA&#8211;RNA interaction sites (&#8764;1% of reads recovered). Colours correspond to key words in the flow diagram. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6602</offset>
+      <text>The 5&#8242; UTR of rne is bound by RNase E and non&#8208;genomically encoded oligo(A) tails are maximally recovered &#8722;9nt from the rne start codon. Known stem loop structures (HP1&#8211;3) and the ribosomal binding site (RBS) are shaded grey. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6836</offset>
+      <text>RNase E binding and oligoadenylation of the pldB&#8208;yigL dicistronic transcript. The reported RNase E cleavage site (red dashed line) and SgrS binding site (grey shading) are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7021</offset>
+      <text>Length of non&#8208;genomically encoded oligo(A) tails recovered from RNase E&#8208;bound reads.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7110</offset>
+      <text>Position of Hfq binding and oligoadenylation relative to RNase E binding peaks. The cumulative position of Hfq and oligoadenylation peaks was determined relative to RNase E binding peaks for 672 RNase E binding sites that were within 1 kb of an Hfq binding peak. A detailed description of the data processing is presented in the Appendix&#160;Supplementary Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7472</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7475</offset>
+      <text>RNase E is an endonuclease that plays key roles in both the catalytic activity and assembly of the RNA degradosome, a complex responsible for the majority of RNA processing and bulk RNA turnover (Mackie, 2013). The C&#8208;terminal domain of RNase E interacts with RhlB (helicase), PNPase (polynucleotide polymerase and 3&#8242; to 5&#8242; exoribonuclease activities) and PAPI (poly(A) polymerase). Both PAPI and PNPase can add oligonucleotide tails (oligo(A) or A&#8208;rich, respectively) to the 3&#8242; ends of RNAs following RNase E cleavage. This creates a single&#8208;stranded &#8220;landing pad&#8221; that promotes subsequent degradation by 3&#8242;&#8208;exonucleases (Khemici &amp; Carpousis, 2004). In CLASH analyses, the 3&#8242; ends of sequence reads will not generally correspond to in&#160;vivo cleavage sites because the RNA fragments are treated with RNase during library preparation. However, the presence of a non&#8208;encoded oligo(A) tract at the 3&#8242; end of sequence reads is a clear indication that this represents a site that was cleaved and then oligoadenylated in&#160;vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8521</offset>
+      <text>We previously reported that UV&#8208;crosslinking and high&#8208;throughput sequencing (CRAC) can be used to identify the binding sites for the RNA chaperone, Hfq, at base pair resolution in the model prokaryote E.&#160;coli and the related human pathogen, enterohaemorrhagic E.&#160;coli (EHEC) (Tree et&#160;al, 2014). These studies revealed that for many sRNA&#8211;mRNA interactions, the Hfq binding site is closely associated with the mRNA seed sequence. Formation of the sRNA&#8211;mRNA duplex at the Hfq binding site is predicted to induce dissociation from the single&#8208;stranded RNA binding site on the chaperone, providing directionality to the reaction (Tree et&#160;al, 2014). The endonuclease activity of RNase E is strongly stimulated by the presence of a free 5&#8242; monophosphate on the substrate and a 5&#8242; triphosphate therefore stabilizes newly synthesized mRNAs (Mackie, 1998). Recent work has demonstrated that sRNA&#8211;mRNA duplexes can guide RNase E cleavage of the mRNA by providing a free 5&#8242; monophosphate to stimulate cleavage (Bandyra et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9563</offset>
+      <text>Together, these results indicated that formation of an sRNA&#8211;mRNA duplex may cause dissociation from Hfq and then direct RNase E cleavage of the mRNA. To test this model, we have identified targets of sRNA&#8208;mediated degradation transcriptome&#8208;wide and in&#160;vivo by applying CLASH to RNase E.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9857</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9865</offset>
+      <text>UV&#8208;crosslinking identifies in&#160;vivo binding sites for RNase E</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9929</offset>
+      <text>We reasoned that duplexed sRNA&#8211;mRNA pairs might be transiently associated with RNase E prior to mRNA degradation, allowing tagged RNase E to act as a bait in the capture of in&#160;vivo interactions by UV&#8208;crosslinking (CLASH) (Fig&#160;1A). To facilitate affinity purification of RNA&#8211;RNase E complexes, the chromosomal copy of RNase E (rne) was C&#8208;terminally tagged with a tandem affinity His6&#8208;TEV cleavage site&#8208;FLAG tag (HTF). RNase E is essential for cell viability and was previously shown to retain function when C&#8208;terminally FLAG&#8208;tagged at the same site (Morita et&#160;al, 2005; Worrall et&#160;al, 2008). The strain expressing only RNase E&#8208;HTF was viable and showed normal processing of 9S rRNA precursor into mature 5S rRNA (Ghora &amp; Apirion, 1978), indicating that the fusion protein is functional (Fig&#160;EV1A). Following UV&#8208;crosslinking in actively growing cells, RNA&#8211;RNase E&#8208;HTF complexes were affinity&#8208;purified under denaturing conditions and crosslinked RNAs were trimmed using mild RNase A/T1 digestion. T4 RNA ligase was added to join RNase E&#8208;associated RNA duplexes into hybrid sequences, and to ligate Illumina sequencing compatible linkers to the ends of RNA fragments. Silver staining of eluates revealed co&#8208;precipitated proteins, with a clearly separated protein at the expected molecular weight of 118&#160;kDa (Fig&#160;EV1B). We confirmed that this band was RNase E using LC&#8208;MS/MS. RNA&#8211;RNase E complexes were transferred to nitrocellulose, excised from the appropriate fragment of the membrane and recovered by protease digestion. Sequencing libraries were prepared by RT&#8211;PCR. Duplicate UV&#8208;crosslinking experiments showed a strong correlation in the number of reads mapping to individual transcripts (Spearman correlation&#160;=&#160;0.97), and 79% of RNase E binding sites in dataset #2 (lower read depth) were also recovered in dataset #1. Sequence reads were mapped to the genome and represent sites of RNase E&#8211;RNA interaction (read statistics presented in Table&#160;EV1). Read clusters with &gt;&#160;10 reads were identified in 75% of annotated mRNAs, likely representing the repertoire of mRNAs expressed under our experimental conditions (Fig&#160;EV2), as RNase E is reported to be the primary factor responsible for initiating bulk mRNA turnover. In addition, close to 1% of reads were mapped to non&#8208;contiguous sites in the genome and represented RNA&#8211;RNA hybrid reads (see below).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12337</offset>
+      <text>C&#8208;terminally tagged RNase E is functional and facilitates purification of labelled RNA&#8211;RNase E complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12446</offset>
+      <text>RNase E is required for processing of 9S rRNA into mature 5S rRNA, and we assessed 5S rRNA processing in our His&#8208;FLAG&#8208;tagged RNase E strain. Enterohaemorrhagic E.&#160;coli (EHEC) O157:H7 str. Sakai and the isogenic rne&#8208;HTF insertion mutant were grown to an OD600 of 0.6 in LB broth at 37&#176;C and total RNA was harvested. To compare wild&#8208;type and impaired 5S rRNA processing, we additionally cultured E.&#160;coli str. K12 (N3433) and the isogenic temperature&#8208;sensitive rne&#8208;3071 mutant (N3431) to OD600 0.6. The rne&#8208;3071 mutant was temperature&#8208;shifted to 43&#176;C for 30&#160;min and total RNA harvested. 1&#160;&#956;g of total RNA was separated on an 8% TBE&#8211;urea polyacrylamide gel and blotted for 9S rRNA. Mature 5S rRNA is shown in the SYBR&#8208;stained loading control below.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13218</offset>
+      <text>RNA&#8211;protein complexes were eluted from Ni&#8208;NTA resin (see Materials and Methods) and precipitated and 50% of the eluate separated on a NuPAGE Bis&#8208;Tris 4&#8211;12% gel and silver&#8208;stained. E.&#160;coli O157:H7 str. Sakai (untagged; negative control) and the isogenic rne&#8208;HTF mutant were analysed for stringency of the dual&#8208;affinity purification.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13565</offset>
+      <text>Replicate [32P]&#8208;labelled RNA&#8211;RNase E complexes were separated on NuPAGE Bis&#8208;Tris 4&#8211;12% gradient gels and transferred to nitrocellulose membranes. The labelled complexes were imaged by autoradiography and complexes with a molecular mass equivalent to RNase E&#8211;RNA fragments (dashed boxes) were excised from the membrane (see Materials and Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13922</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13925</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13977</offset>
+      <text>Circos plot of RNase E binding sites (grey), non&#8208;genomically encoded oligoadenylation sites (red), and Hfq binding sites (blue)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14107</offset>
+      <text>Positive strand binding sites are shown in the outer rings and negative strand binding in the inner rings. Pathogenicity islands (S&#8208;loops [Sp]) are shown in grey (centre). </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14282</offset>
+      <text>As an initial step to verify our approach, we tested whether UV&#8208;crosslinking of RNA&#8211;RNase E complexes in&#160;vivo recovered known RNase E binding sites. Photocrosslinking experiments have demonstrated that RNase E autoregulates the stability of its own transcript (rne) by binding the hairpin structures HP1&#8211;HP3 within the 5&#8242; UTR (Diwa et&#160;al, 2000; Schuck et&#160;al, 2009). We found that RNase E indeed binds to all three HP structures in&#160;vivo. Oligoadenylated reads, which are strongly indicative of endogenous 3&#8242; ends (Khemici &amp; Carpousis, 2004), peaked at &#8722;9 nts relative to the rne start codon, indicating that RNase E cleaves the rne transcript near the ribosomal binding site (Fig&#160;1B). The small RNA SgrS binds pldB at +935&#8722;955 nt and stabilizes the yigL transcript by occluding an RNase E cleavage site at +948&#8722;955 nt within the dicistronic pldB&#8208;yigL mRNA (Papenfort et&#160;al, 2013). In agreement with this study, we find that RNase E binds 5&#8242; of this cleavage site and overlaps the SgrS interaction site (Fig&#160;1C). RNase E cleavage sites were recently mapped transcriptome&#8208;wide, identifying sites of 5&#8242; monophosphate&#8208;independent (&#8220;direct entry&#8221;) RNA cleavage (Clarke et&#160;al, 2014). We assessed RNase E binding at reported RNase E direct entry sites. Thirteen sites had &gt;&#160;50 reads within 200 nt of the direct entry cleavage site and ten showed a clear peak in RNase E binding or oligoadenylation at the direct entry site (Fig&#160;EV3). We conclude that our in&#160;vivo RNase E binding sites agree with published interactions and represent bona fide targets.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15867</offset>
+      <text>RNase E binding and oligoadenylation at RNase E direct entry sites</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15934</offset>
+      <text>Direct entry sites identified by Clarke et&#160;al (2014) were screened for peaks &gt;&#160;50 reads &#177;&#160;200 nt from the direct entry site in our EHEC RNase E crosslinking dataset #1. RNase E binding (blue) and oligoadenylation (grey) are shown. Gene names, enrichment scores (M) and coordinates for direct entry sites were taken from Clarke et&#160;al (2014). For panels (A and D), two closely associated direct entry sites are indicated on the same plot.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16376</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16379</offset>
+      <text>Relationship between RNase E, Hfq and oligoadenylation sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16440</offset>
+      <text>We previously reported that non&#8208;genomically encoded oligo(A) tails of 2&#8211;6 nt were present in 5% of Hfq&#8208;bound sequences (Tree et&#160;al, 2014). This indicates that Hfq binding sites are associated with endogenous 3&#8242; ends that are oligoadenylated by PAPI. Oligo(A) tails were found in 0.7% of RNase E&#8208;bound reads and were predominately (76%) between 2 and 6 nt in length (Fig&#160;1D). Hfq interacts with RNase E (Morita et&#160;al, 2005; Worrall et&#160;al, 2008), and sRNA interactions with an mRNA can facilitate RNase E recruitment and cleavage (Ikeda et&#160;al, 2011; Pr&#233;vost et&#160;al, 2011; Bandyra et&#160;al, 2012). To gain insights into the arrangement of binding and cleavage sites, we compared the distribution of oligoadenylated sequences and Hfq crosslinking relative to RNase E binding sites. Maximal Hfq binding was cumulatively found five base pairs 5&#8242; of the RNase E binding maximum (Fig&#160;1E) although we note a significant overlap in these binding sites. In contrast, reads with oligo(A) tails, reflecting in&#160;vivo cleavage sites, were maximally recovered 13 base pairs 3&#8242; of the peak in RNase E binding (Fig&#160;1E).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17562</offset>
+      <text>These results support a model in which RNase E is frequently recruited to Hfq binding sites with a five base pair 3&#8242;&#8208;offset leading to RNA cleavage 13 nt downstream of the RNase E binding site and addition of a 2&#8208; to 6&#8208;nt oligo(A) tail. Recovery of more distant RNase E cleavage and oligoadenylation sites is limited by the length of the sequencing read. However, we note that our observations are consistent with in&#160;vitro characterization of the MicC&#8211;ompD interaction that directs RNase E cleavage 6 base pairs downstream of the sRNA&#8211;mRNA duplex (Bandyra et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18146</offset>
+      <text>RNA&#8211;RNA interactions are recovered by RNase E&#8208;CLASH</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18202</offset>
+      <text>In CLASH analyses, RNA duplexes that are bound by RNase E can be ligated together and recovered as cDNA sequencing reads that map non&#8208;contiguously to distinct sites in the transcriptome. These were identified and mapped using the Hyb software package (Travis et&#160;al, 2014). From 21.9&#160;M mapped reads, we recovered 176,874 RNA&#8211;RNA interactions (0.8%, Tables EV1 and EV2) including 1,733 sRNA&#8211;mRNA interactions (Table&#160;EV3). There was substantial overlap between hybrids recovered in the two replicate datasets, and 41% of interactions identified in replicate #2 were also recovered in the larger replicate #1 dataset. We used the approach of Sharma et&#160;al (2016) to assess the theoretical false discovery rate expected from random ligation of RNAs in solution, and find that 58.8% of RNA&#8211;RNA interactions have an FDR &lt;&#160;0.05 (Table&#160;EV2 and Appendix&#160;Supplementary Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19084</offset>
+      <text>To verify that RNase E&#8208;CLASH recovered bona fide sRNA&#8211;mRNA interactions, we looked for 125 experimentally verified sRNA&#8211;mRNA pairs within our datasets (Table&#160;EV4). Small RNA interactions were taken from sRNATarBase 3.0 (Wang et&#160;al, 2015), inspected for concordance with published sites and corrected where necessary (corrections to sRNATarBase 3.0 are presented in Table&#160;EV4). RNase E&#8208;CLASH analysis identified a statistically significant number of known sRNA&#8211;mRNA pairs (14/125, P&#160;&lt;&#160;6.6&#160;&#215;&#160;10&#8722;4; Table&#160;EV5 and Appendix&#160;Supplementary Methods) including the sRNA&#8211;mRNA pair MicA&#8211;ompA (Fig&#160;2A and B) (Rasmussen et&#160;al, 2005; Udekwu et&#160;al, 2005). We performed RNA&#8208;Seq on total RNA from EHEC and found that the recovery of hybrid reads was only weakly correlated with RNA abundance (Spearman correlation&#160;=&#160;0.15; Fig&#160;EV4A), but was moderately correlated with RNase E crosslinking to single RNAs (Spearman correlation&#160;=&#160;0.44; Fig&#160;EV4B). Similar results were found for the 125 known sRNA&#8211;mRNA interactions where hybrid recovery correlates more significantly with RNase E crosslinking (Spearman correlation&#160;=&#160;0.15 for mRNA binding; Fig&#160;EV4C&#8211;F). Hybrid recovery is likely a function of both sRNA and mRNA association with RNase E, and we find a general trend towards higher numbers of hybrid reads for known sRNA&#8211;mRNA interactions where both single RNAs were strongly crosslinked to RNase E (Fig&#160;EV4H). These results are consistent with hybrid reads being derived from RNA interactions on RNase E rather than from total cellular RNA. Small RNAs interact with mRNAs through base pairing, and hybrid reads generated from duplexed RNAs are predicted to have a lower&#8208;than&#8208;random free energy of interaction (&#8710;G) (i.e. greater stability). We compared the distribution of free energies for all RNA&#8211;RNA interactions identified (Fig&#160;2C) and for sRNA&#8211;mRNA pairs (Fig&#160;2D) with randomly paired hybrid read halves. The distribution of free energies from RNase E&#8208;CLASH RNA&#8211;RNA interactions was significantly lower than for random pairs. These results are consistent with the hybrid sequences being derived from duplexed RNAs associated with RNase E.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21271</offset>
+      <text>Relative position, RNA class, and base pairing strength of small RNA hybrids recovered by RNase E&#8208;CLASH </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21378</offset>
+      <text> In silico folding of hybrid reads using the UNAfold suite of tools was used to predict base pairing and interaction strength between hybrid read halves. Reads mapping to the interaction between MicA and ompA mRNA are shown (ompA start codon in bold).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21630</offset>
+      <text>Hfq binding (blue), RNase E binding (grey) and oligoadenylation (red) of the MicA binding site in the ompA mRNA. The MicA seed sequence is shaded blue. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21783</offset>
+      <text>Interaction strength (Gibbs free energy) of all RNA&#8211;RNA interactions recovered by RNase E&#8208;CLASH (solid line) and for randomly paired hybrid read halves (dashed line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21954</offset>
+      <text>Interaction strength of sRNA&#8211;mRNA hybrid read halves (solid line) and randomly paired sRNA and mRNA read halves (dashed line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22083</offset>
+      <text>Position of sRNA&#8211;mRNA interactions relative to the mRNA start codon.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22154</offset>
+      <text>Distribution of sRNA interactions recovered with each class of RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22222</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22225</offset>
+      <text>Correlations between recovery of hybrids, total RNA abundance and RNase E crosslinking</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22312</offset>
+      <text>For all interactions recovered in both replicates, the number of hybrid reads mapping to an interaction was correlated with RNA abundance (of the least abundant hybrid half; A), and RNase E crosslinking (also for the lowest hybrid half; B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22553</offset>
+      <text>The number of hybrids recovered for 125 experimentally verified sRNA&#8211;mRNA interactions was also correlated with RNA abundance at the target (C) and sRNA (E), and RNase E crosslinking at the mRNA (D) and sRNA (F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22768</offset>
+      <text>For each known sRNA&#8211;mRNA interaction, the number of hybrids recovered was also plotted against the ratio of HfqR16/HfqK31 IP (previously determined by Schu et&#160;al 2015). The HfqR16/HfqK31 ratio is indicative of sRNA class where Class I&#160;&lt;&#160;1&#160;&lt;&#160;Class II sRNAs. For each plot, the Spearman correlation between the variables is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23104</offset>
+      <text>RNase E crosslinking and hybrid recovery for known sRNA&#8211;mRNA interactions including those described in Fig&#160;5. The number of hybrids representing an interaction (z&#8208;axis) was plotted against RNase E crosslinking for the lower (y&#8208;axis) and higher (x&#8208;axis) crosslinked halves.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23386</offset>
+      <text>For each hybrid in the dataset, the RNA abundance (assessed by total RNA&#8208;Seq) and RNase E binding (RNase E CRAC) at each hybrid half were determined.  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23540</offset>
+      <text>Interactions between sRNAs and mRNAs that impair 30S ribosome binding and translation are generally positioned within a window extending from 50 nt upstream to 15 nt (five codons) downstream of the start codon (Bouvier et&#160;al, 2008). Binding sites for sRNAs identified by RNase E&#8208;CLASH were enriched within this window on mRNAs (Fig&#160;2E), in agreement with 30S occlusion as a major pathway for sRNA function.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23951</offset>
+      <text>RNase E acts as a scaffold for the RNA degradosome and plays important roles in the degradation and processing of all RNA classes in E.&#160;coli (Mackie, 2013). We therefore determined the proportion of unique sRNA interactions that were contributed by each RNA class (Fig&#160;2F). Messenger RNA coding regions and 5&#8242; UTRs are characterized substrates for sRNA interactions and constituted 43.1 and 2% of interactions, respectively (reads that included sequences from both the 5&#8242; UTR and CDS were categorized as CDS). The free sRNA pool can be &#8220;buffered&#8221; by sRNA&#8211;tRNA interactions (Lalaouna et&#160;al, 2015), which represented 3.5% of interactions in our dataset. In addition, sRNA interactions were recovered with rRNAs (35%) and other ncRNAs (6S, tmRNA, RnpB RNA, CsrB; 0.9%). Hybrids between different sRNA species were recovered, for both sRNAs encoded in the &#8220;core&#8221; genome (1.8%, 87 interactions) and pathogenicity islands (0.6%, 29 interactions), indicating an extensive sRNA&#8211;sRNA interaction network. These included the previously identified interaction between the bacteriophage&#8208;encoded anti&#8208;sRNA, AgvB, and the conserved core sRNA GcvB (82 unique hybrids) (Tree et&#160;al, 2014). Small RNAs can also be generated from the 3&#8242; UTRs of mRNAs (Guo et&#160;al, 2014; Miyakoshi et&#160;al, 2015). 0.9% of hybrids with sRNAs mapped within 50 nt downstream of mRNA translation termination sites, potentially reflecting interactions involving 3&#8242; UTRs or 3&#8242; UTR&#8208;derived sRNAs. For all RNA classes presented in Fig&#160;2F, the distribution of free energies of interacting RNAs was significantly lower than randomly paired hybrid halves (P&#160;&lt;&#160;1&#160;&#215;&#160;10&#8722;9).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25613</offset>
+      <text>Our results indicate that sRNA&#8211;mRNA interactions recovered by RNase E&#8208;CLASH have significantly lower free energy than randomly paired RNA sequences and are predominately found close to the start codon, consistent with these hybrid sequences originating from in&#160;vivo sRNA&#8211;mRNA interactions. Numerous sRNA interactions were recovered with diverse ncRNA classes, including sRNA, rRNA, tRNA and other ncRNAs, revealing a complex network of sRNA interactions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26075</offset>
+      <text>Filtering functionally relevant RNA&#8211;RNA interactions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26130</offset>
+      <text>Proximity&#8208;dependent ligation protocols can potentially yield false&#8208;positive data through spurious ligation events, mapping artefacts or errors introduced during reverse transcription and PCR (Ramani et&#160;al, 2015). Since highly recovered interactions have a higher percentage of true positives (Ramani et&#160;al, 2015), ligation events can be weighted on the number of unique sequencing reads corresponding to individual interactions. We additionally used known and predicted attributes of sRNA&#8211;mRNA interactions to prioritize interactions for further analysis. This was based on (i) the number of unique sequence reads corresponding to the interaction; (ii) detection of the interaction in replicate datasets; (iii) recovery of the hybrid sequences in both RNA1&#8211;RNA2 and RNA2&#8211;RNA1 orientations, indicating ligation at opposite ends of the duplex; (iv) inclusion of a non&#8208;genomically encoded oligo(A) tail at the 3&#8242; end of the target RNA sequence, which is indicative of sRNA&#8208;directed cleavage and subsequent tailing; and (v) overlap of both hybrid regions with Hfq binding sites determined by UV&#8208;crosslinking and indicating Hfq dependence (see Appendix&#160;Supplementary Methods). We confirmed that experimentally verified sRNA&#8211;mRNA interactions had a higher distribution of scores compared to total sRNA&#8211;mRNA interactions recovered when applying these criteria (Fig&#160;EV5 and Appendix&#160;Supplementary Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27556</offset>
+      <text>To determine whether the scoring criteria provided a useful ranking of functional sRNA&#8211;mRNA interactions, we looked at the distribution of scores assigned to 14 experimentally verified sRNA&#8211;mRNA interactions (see Table&#160;EV5)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27785</offset>
+      <text>Cumulative distribution functions for the total (unverified sRNA&#8211;mRNA) interactions (black) and for verified sRNA&#8211;mRNA interactions. Verified sRNA&#8211;mRNA interactions were found to have a significantly lower distribution of interaction strength (free energy of interaction, &#8710;G; panel A). For our scoring criteria, we looked the effectiveness of ranking interactions by the number of unique reads recovered (B), by applying scoring criteria 1&#8211;4 (i.e. excluding an overlap with a Hfq binding site) (C), or for scoring interactions on all five criteria (D). We applied a two&#8208;sample Kolmogorov&#8211;Smirnov test to each CDF (p indicated in plot) and found that scoring interactions on all five criteria gave the most significant separation of verified sRNA&#8211;mRNA interactions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28566</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28569</offset>
+      <text>Strikingly, sRNA interactions that satisfied all five criteria, and were represented by multiple unique hybrid reads, were recovered for all RNA classes examined: mRNA, tRNA, rRNA, ncRNA, sRNA (both core and pathogen specific [EcOnc]) and mRNA antisense transcripts (Fig&#160;3). The sRNA interactions with the most hybrid reads representing an interaction were with tRNA species and these interactions were also coincident with Hfq binding sites, indicating that tRNA is a major target for a subset of sRNAs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29075</offset>
+      <text> RNase E&#8208;CLASH recovers RNA&#8211;RNA interactions between diverse RNA classes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29152</offset>
+      <text>RNA classes are labelled on the outer ring (rRNA has been omitted to clarify interactions between other RNA classes). RNA&#8211;RNA interactions with more than two unique hybrid sequences are presented. The thickness of the link represents the number of unique hybrid sequences recovered (up to a maximum of 50 sequences). RNA&#8211;RNA interactions where both hybrid halves overlap an Hfq binding site are coloured blue and non&#8208;overlapping interactions are coloured green.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29620</offset>
+      <text>Several characterized sRNAs target functionally related sets of mRNAs, allowing coordinated adaption of the transcriptome in response to specific challenges. Functionally related clusters of mRNA targets within an sRNA interactome may therefore constitute a further indication of reliability, as well as providing insights into the biological roles of the sRNAs involved. We therefore clustered functionally related sRNA interactions with a score of &#8805;&#160;1.1 using BiNGO (Maere et&#160;al, 2005) (Appendix&#160;Supplementary Methods). Consistent with previous reports (Sharma et&#160;al, 2011), targets for the core sRNA GcvB were enriched for mRNAs involved in branched&#8208;chain amino acid metabolism. The targets of seven other sRNAs showed significant enrichment of specific ontology classes (Table&#160;EV6). In particular, the EHEC&#8208;specific sRNA Esr41 (EcOnc14 in our earlier analysis) was significantly enriched for targets annotated as &#8220;signal transduction&#8221;. Esr41 bound three mRNAs with products involved in iron uptake: CirA (receptor for the iron&#8208;binding, catecholate siderophore), ChuA (haem receptor) and Bfr (bacterioferritin), which were analysed in more detail (see below). These results indicate that functionally related sRNA targets can be defined using gene ontology and are a further indicator of reliability.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30941</offset>
+      <text>sRNA&#8211;RNA interactions define seed motifs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30984</offset>
+      <text>Within characterized sRNAs, a single &#8220;seed sequence&#8221; can initiate binding to multiple, distinct RNA targets. However, between sRNAs the seeds are heterogeneous in location and sequence, making them difficult to predict using only bioinformatic approaches (Peer &amp; Margalit, 2011; Backofen et&#160;al, 2014). To identify putative, novel sRNA seed regions, we analysed sRNA&#8211;target RNA interactions. The base&#8208;paired nucleotides between each sRNA and target RNA were predicted by folding the hybrid read in silico using the UNAfold suite of tools. The base&#8208;paired nucleotides within the sRNA were plotted for each interaction (Fig&#160;4 and Appendix&#160;Fig&#160;S1). Conserved sites of target base pairing were considered to be a seed region. Multiple seed regions were apparent in the sRNAs ChiX, RyhB, ArcZ, GadY, MgrR and Spot42. The motif discovery tool MEME (Bailey &amp; Elkan, 1994) was then applied to identify conserved sequence motifs within target mRNAs that might be recognized by each sRNA seed. Highly enriched motifs were identified (e&#8208;value &lt;&#160;10&#8722;4) within target RNAs for 12 sRNAs. GcvB was reported to recognize the consensus motif CACAaCAY in mRNAs through interactions with the GU&#8208;rich R1 seed region located at bases 66&#8211;89 (Sharma et&#160;al, 2011). We found that GcvB&#8211;target interactions were positioned within this R1 seed region (Appendix&#160;Fig&#160;S1D) and MEME identified the consensus motif ACAATAWC within GcvB&#8208;targeted RNAs that has complementary to bases 69&#8211;76 of the GcvB R1 seed region (Appendix&#160;Fig&#160;S1D). The consensus motif suggests that base G72 of GcvB frequently participates in G&#8208;U wobble interactions. For the 12 sRNAs with statistically significant target motifs, a complementary sequence was identified within the sRNA and likely represents a seed sequence (Fig&#160;4A and B and Appendix&#160;Fig&#160;S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32819</offset>
+      <text> sRNA&#8211;RNA interactions identify sRNA seed sequences</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32873</offset>
+      <text>(Top) Sequences interacting with ChiX (A) or RyhB (B) were analysed for conserved motifs using MEME. Motifs that were enriched in the target RNAs are shown above the heatmap with proportion of target RNAs carrying the motif (N) and the expected value for the motif (e&#8208;val). The complementary sequence motifs within ChiX or RyhB are shown below the logo. (Middle) Heatmaps showing the position of predicted base pairing for each interaction within ChiX or RyhB. Grey bars boxed below indicate the position of base pairing with experimentally verified mRNAs (known interactions). (Bottom) Hfq (blue) and RNase E (grey) binding sites within ChiX and RyhB. Hfq&#8208; and RNase E&#8208;bound sequence, and non&#8208;genomically encoded oligo(A) tails (red) within ChiX and RyhB are shown as line plots where the x&#8208;axis position correlates with heatmaps above. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33722</offset>
+      <text>Cumulative plots of oligoadenylation (C), Hfq (D) and RNase E (E) binding at predicted seed motifs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33822</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33825</offset>
+      <text>The seed sequence of the sRNA&#8211;mRNA pair MicC&#8211;ompD guides RNase E cleavage 6 nt downstream of the duplex (Bandyra et&#160;al, 2012). To determine whether this is a general phenomenon, we cumulatively analysed RNase E binding, oligoadenylation and Hfq binding relative to statistically significant seed motifs identified in target RNAs (Fig&#160;4C&#8211;E). Oligo(A) tails were found to be maximally recovered 10 nt from the 3&#8242; end of the seed motif (8&#8208;nt motif length) consistent with seed&#8208;directed RNase E cleavage. Hfq&#8208;bound reads were maximally recovered in the 10 nt 5&#8242; to the seed motif, indicating that Hfq binding sites are often closely associated with the identified seed motifs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34516</offset>
+      <text>Our results experimentally define seed motifs for sRNAs with multiple interactions and demonstrate that many sRNAs use more than one site for target RNA interactions. The newly identified sRNA seed motifs appear to direct RNase E cleavage and oligoadenylation of target RNAs at sites 3&#8242; of the seed interaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34830</offset>
+      <text>Functional testing of sRNA&#8211;mRNA interactions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34877</offset>
+      <text>To assess whether sRNA&#8211;mRNA interactions defined by RNase E&#8208;CLASH function in regulating gene expression, we used a two&#8208;plasmid system for monitoring translation of superfolder GFP fusions (Corcoran et&#160;al, 2012). Translational fusions were constructed for sRNA&#8211;mRNAs interactions with high scores, as defined above: hdeA&#8208;RyhB (score&#160;=&#160;8.9), zapB&#8208;RyhB (7.6), rssA&#8208;RyeB (7.2), frdA&#8208;RyhB (6.7), hdeA&#8208;GadY (5.8) (Fig&#160;5A&#8211;E), and for interactions with lower scores that were supported by the ontological analysis chuA&#8208;Esr41 (4.1), cirA&#8208;Esr41 (3.1) and bfr&#8208;Esr41 (4.2) (Fig&#160;5F&#8211;H). Expression levels were reduced for all 8 of the fusions when co&#8208;expressed with the cognate sRNA. Mutations introduced into the mRNAs and sRNAs de&#8208;repressed the frdA&#8208;RyhB and hdeA&#8208;RyhB interactions, and all three Esr41 interactions. Point mutations in RyhB similarly relieved repression of zapB; however, synonymous mutations within the mRNA abolished expression and destabilized the transcript as assessed by qPCR (data not shown). A rare leucine codon was introduced into zapB by the M1 synonymous mutation, potentially explaining the poor translation of this mRNA. Introduction of compensatory mutations restored RyhB control of frdA, and Esr41 control of chuA, cirA and bfr verifying direct sRNA&#8211;mRNA interactions for these pairs and confirming that functional sRNA&#8211;mRNA interactions are recovered by the RNase E&#8208;CLASH method.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36328</offset>
+      <text>Confirmation of high&#8208;scoring sRNA&#8211;mRNA interactions and interactions with the EHEC&#8208;specific sRNA, Esr41</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36438</offset>
+      <text>(Left) Base pairing patterns for the sRNA&#8211;mRNA pairs identified by CLASH were calculated using IntaRNA software (Busch et&#160;al, 2008) and are shown for frdA&#8208;RyhB (A), zapB&#8208;RyhB (B), hdeA&#8208;RyhB (C), hdeA&#8208;GadY (D), rssA&#8208;RyeB (E), chuA&#8208;Esr41 (F), cirA&#8208;Esr41 (G) and bfr&#8208;Esr41 (H). Point mutations and predicted sRNA seed sequences (blue shading) are indicated. (Right) Median fluorescence intensity (MFI) was assessed by FACS for mRNA&#8208;sfGFP fusions with compensatory base changes. In each case, introduction of a point mutation into an sRNA or mRNA construct (M1) is expected to reduce sRNA repression, which should be restored by combining complementary point mutants (last bar, M1&#8208;M1). A two&#8208;tailed t&#8208;test was used to calculate significance from biological triplicate cultures. Error bars represent SEM. *P&#160;&lt;&#160;0.05. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37279</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37282</offset>
+      <text>The EHEC&#8208;specific sRNA Esr41 controls iron transport and storage</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37349</offset>
+      <text>Our previous analysis of Hfq binding sites using UV&#8208;crosslinking identified numerous novel sRNAs within the pathogenicity islands of enterohaemorrhagic E.&#160;coli, referred to as EcOnc RNAs, but their RNA targets remained largely unknown (Sudo et&#160;al, 2014; Tree et&#160;al, 2014). The RNase E&#8208;CLASH dataset contained 810 unique hybrids with pathogenicity island&#8208;encoded EcOnc sRNAs identifying many target transcripts (Fig&#160;3 and Table&#160;EV7). The EHEC&#8208;specific sRNA, Esr41 (EcOnc14 in our earlier analysis), was previously shown to affect the abundance of the fliC transcript and cell motility (Sudo et&#160;al, 2014). Here we have demonstrated that Esr41 regulates expression of the iron transport and storage proteins CirA, ChuA and Bfr (Fig&#160;5F&#8211;H). The mRNA interactome of Esr41 is similar to the &#8220;core&#8221; genome&#8208;encoded sRNA, RyhB (Mass&#233; et&#160;al, 2005). We therefore additionally analysed translation of the chuA, cirA and bfr fusions in the presence of constitutively expressed RyhB (Fig&#160;6A). Esr41 and RyhB repressed bfr to comparable levels, but Esr41 had a greater repressive effect on chuA translation, consistent with it base pairing closer to the chuA RBS. In contrast, Esr41 repressed cirA translation by 7.6&#8208;fold, whereas RyhB positively regulated cirA translation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>38636</offset>
+      <text>The EHEC&#8208;specific small RNA Esr41 regulates iron uptake, storage and colicin resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38726</offset>
+      <text>FACS analysis of constitutively expressed sfGFP fusions to chuA (A), cirA (B) or bfr (C) in the presence of Esr41 (orange), RyhB (blue) or a scrambled RNA control (red). The histogram shows GFP fluorescence for each sRNA&#8211;mRNA fusion.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38962</offset>
+      <text>Esr41 confers resistance to colicins 1A and 1B in the sensitive background, E.&#160;coli DH5&#945;. Top agar lawns of DH5&#945; expressing a control scrambled RNA (pJV300), Esr41 (pZE12::esr41) or RyhB (pZE12::ryhB) were spotted with colicins indicated (top). Zones of clearing indicate sensitivity to the tested colicin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39277</offset>
+      <text>Esr41 confers a competitive disadvantage on EHEC under iron&#8208;limiting conditions. Wild&#8208;type EHEC and isogenic &#8710;esr41 strain (black), or EHEC &#8710;esr41 and the chromosomally repaired strain EHEC &#8710;esr41::esr41 were inoculated at equal densities and cultured in MEM&#8208;HEPES media for 3&#160;days. The proportion of each strain was determined at each time point (days) and is expressed as a ratio relative to the starting inoculum where 1 is an equal fitness (see Appendix&#160;Supplementary Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39773</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39776</offset>
+      <text>Esr41 is encoded on the pathogenicity island SpLE1 that also encodes the tellurite, phage and colicin resistance gene cluster ter (Whelan et&#160;al, 1997), and the enterobactin receptor Iha. Colicin 1A is a pore&#8208;forming toxin that uses the siderophore receptor CirA to enter the cell and cause bacterial cell death. RyhB confers sensitivity to colicin 1A through de&#8208;repression of CirA (Salvail et&#160;al, 2013), and we investigated the effect of Esr41 on colicin sensitivity. Constitutive expression of Esr41 conferred complete resistance to colicin 1A in the sensitive E.&#160;coli background, DH5&#945;, but did not affect resistance in the EHEC background that is already colicin resistant (Fig&#160;6 and data not shown). Deletion of esr41 in EHEC strain ZAP198 conferred a fitness advantage in iron&#8208;limited medium (MEM&#8208;HEPES supplemented with 250&#160;nM Fe(NO3)3 and 0.1% glucose) consistent with repression of iron transporters by Esr41 (Fig&#160;6E). Complementation of the esr41 mutant by chromosomal knock&#8208;in of esr41 restored the growth disadvantage to the esr41 mutant.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40842</offset>
+      <text>These results demonstrate that, consistent with mRNA interactions identified by RNase E&#8208;CLASH, Esr41 regulates iron uptake and homeostasis in EHEC and can confer resistance to colicin 1A and colicin 1B in a sensitive background.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41073</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41084</offset>
+      <text>We demonstrate that interaction networks for bacterial sRNAs can be determined experimentally by UV&#8208;crosslinking sRNA&#8211;target RNA duplexes to RNase E. Our results revealed sRNA interactions with diverse RNAs including stable RNA species: rRNA and tRNA, other non&#8208;coding RNAs, and many different mRNAs. Here we have focused on the association of RNase E with sRNA&#8211;mRNA duplexes. The CLASH analyses of RNase E&#8208;associated RNA duplexes recovered around 0.8% hybrids. This frequency is similar to that seen in previous analyses of human miRNAs associated with Argonaute 1 (Ago1) (Helwak et&#160;al, 2013) and double&#8208;stranded RNAs bound to Staufen (Sugimoto et&#160;al, 2015). In contrast, analysis of our previous Hfq UV&#8208;crosslinking data identified far fewer hybrids (~0.001% of mapped reads). Consistent with this finding, we previously found that many Hfq binding motifs overlap the mRNA seed sequence, suggesting that for these sRNA&#8211;mRNA interactions, duplex formation would likely dissociate the RNAs from Hfq (Tree et&#160;al, 2014). We therefore postulated that duplexes formed on Hfq are rapidly transferred to RNase E.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42210</offset>
+      <text>For a subset of sRNAs, we were able to define seed sequences within the sRNA and identify enriched motifs within target RNAs. Our analyses indicate that sRNAs commonly utilize multiple seed regions for target RNA base pairing. Target RNA seed sequences were closely associated with Hfq binding sites. This is consistent with our earlier model that duplex formation will render many Hfq binding motifs double stranded, promoting release of the base&#8208;paired RNAs and preventing re&#8208;binding to Hfq (Fig&#160;4E). Oligoadenylation peaked 10 nt 3&#8242; of the seed motif, indicating that many seed interactions direct cleavage of the mRNA and terminal nucleotide addition by poly(A) polymerase or PNPase (Fig&#160;4C). This is consistent with in&#160;vitro results demonstrating RNase E cleavage of target RNAs is guided to 5&#8211;6 nt 3&#8242; of a duplexed 13&#8208;mer or sRNA (Bandyra et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43085</offset>
+      <text>The mechanism of sRNA&#8208;directed, RNase E cleavage has features in common with miRNA&#8208;directed cleavage by human Argonaute 2 (hAgo2). RNA targets that are fully complementary to the miRNA displace the PAZ domain of hAgo2 and induce a conformational change that results in cleavage of the miRNA&#8211;target duplex (Ameres et&#160;al, 2007; Wang et&#160;al, 2009). Thus, productive base pairing of the&#160;miRNA and target is sensed by competition between hAgo2 and&#160;the target RNA resulting in dissociation of the miRNA 3&#8242; end. For the Hfq&#8208;RNase E complex, we suggest that sRNA&#8211;mRNA duplex formation at the Hfq binding motif dissociates the sRNA&#8211;mRNA pair from Hfq allowing interaction with RNase E and sRNA&#8208;directed cleavage of the target RNA 3&#8242; of the seed motif.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43849</offset>
+      <text>A striking result from our RNase E&#8208;CLASH analysis was the range of RNA classes identified in RNA&#8211;RNA hybrids. The transcriptomes of both E.&#160;coli and Salmonella encode small RNAs embedded within mRNAs (Guo et&#160;al, 2014; Miyakoshi et&#160;al, 2015) lending weight to the idea of a genomic palimpsest even in prokaryotes (Tuck &amp; Tollervey, 2011) and potentially obscuring clear annotation of transcript classes. However, it is notable that all classes of RNA analysed were found in sRNA&#8211;RNA duplexes. We and others have identified small RNA species that act as sRNA sponges and this appears to be widespread. We recovered 152 unique sRNA&#8211;sRNA interactions in our CLASH data. These included our previously characterized interaction between the pathogenicity&#8208;associated sRNA AgvB and core sRNA GcvB (Tree et&#160;al, 2014). These results indicate that an extensive network of sponging interactions occur between sRNAs. Recent work demonstrated that sRNA interactions with tRNA spacer regions play important roles in &#8220;buffering&#8221; sRNA interactions to enhance specificity (Lalaouna et&#160;al, 2015). We identified 320 unique sRNA&#8211;tRNA interactions, including the previously reported RyhB&#8211;tRNA&#8211;Leu interaction (Lalaouna et&#160;al, 2015). We note that six sRNA&#8211;tRNA interactions contain &gt;&#160;10 nt of pre&#8208;tRNA sequence, indicating that minimally, these interactions occur before tRNA 5&#8242; and 3&#8242; maturation. Hfq has previously been shown to interact with tRNAs (Zhang et&#160;al, 2003; Lee &amp; Feig, 2008; Tree et&#160;al, 2014), suggesting a role in facilitating sRNA&#8211;tRNA interactions. Extensive interactions of miRNAs with tRNA and rRNA have also been identified (Helwak et&#160;al, 2013) and it seems that these stable RNA species may act universally to buffer non&#8208;coding RNA interactions. These may stabilize sRNAs or miRNAs that are temporarily in excess over cognate targets and help prevent their inappropriate binding elsewhere.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45778</offset>
+      <text>The EHEC&#8208;specific sRNA Esr41/EcOnc14 was independently identified by Sudo et&#160;al (2014) and in our previous analysis of Hfq binding sites. We initially investigated the role of Esr41 in promoting colicin resistance through repression of CirA, and we were able to confirm that Esr41 confers complete colicin 1A and colicin 1B resistance when provided in trans in the colicin&#8208;sensitive background, DH5&#945;. Colicin 1B is used by Salmonella Typhimurium to clear commensal Escherichia coli species (part of the normal flora) during gastrointestinal colonization (Nedialkova et&#160;al, 2014). Our results demonstrate that resistance to colicin 1B can be conferred by expression of a single, pathogen&#8208;specific small RNA. In contrast, the core genome&#8208;encoded sRNA RyhB promotes colicin 1A sensitivity through translational activation of CirA (Salvail et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46640</offset>
+      <text>Esr41 is encoded within a large pathogenicity island (SpLE1 or O&#8208;island 43/48) that confers colicin, tellurite and bacteriophage resistance, and also encodes the iron transporter/adhesin Iha. We were not able to test for decreased colicin 1A sensitivity in an EHEC &#8710;esr41 strain due to the presence of the adjacent colicin resistance ter gene cluster. However, Esr41 targets identified by CLASH and confirmed by mutations included mRNAs encoding the iron transport and storage proteins ChuA, CirA and Bfr. A role in iron homeostasis is corroborated by competitive index experiments, demonstrating that deletion of esr41 confers a fitness advantage to EHEC under relatively iron&#8208;limited conditions (250&#160;nM Fe), indicating that Esr41 limits iron transport by repression of select iron receptors. The Iha gene is located upstream of Esr41 and encodes a receptor for the ferric iron&#8208;binding siderophore, enterobactin. We speculate that Esr41 is co&#8208;selected with Iha as Esr41&#8208;mediated repression of CirA (catecholate siderophore receptor), ChuA (haem receptor) and Bfr (bacterioferritin) would redirect iron transport through a pathway involving enterobactin and Iha, favouring maintenance of the O&#8208;island.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47857</offset>
+      <text>While this work was in revision, a related technique for sequencing sRNA&#8211;RNA interactions termed RIL&#8208;Seq was described (Melamed et&#160;al, 2016). This is conceptually similar to RNase E&#8208;CLASH, excepting that Hfq is used as a scaffold to capture sRNA&#8211;RNA duplexes and the purification is performed under native conditions as opposed to CLASH that uses a stringent purification protocol. Stringency is introduced into RIL&#8208;Seq analysis in silico where hybrid reads are filtered for statistical enrichment. We find a comparable number of statically significant sRNA&#8211;mRNA interactions are recovered by both techniques in log phase cells (633 using RIL&#8208;Seq and 782 using RNase E&#8208;CLASH) and similar sRNA seed regions and motifs are recovered for abundant sRNAs (e.g. ArcZ, MgrR, GcvB and CyaR), suggesting that both techniques capture bona fide sRNA&#8211;RNA interactions. Notably, the pools of RNA&#8211;RNA interactions recovered in association with Hfq and RNase E are expected to be different. RNase E processes a broad range of RNA species and is expected to associate with a subset of all sRNA&#8211;mRNA interactions that specifically result in target degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49024</offset>
+      <text>We conclude that CLASH recovers functional RNA&#8211;RNA interactions when applied to RNase E in E.&#160;coli, allowing high&#8208;throughput identification of functional RNA targets for many sRNA species. A key advantage of this high&#8208;throughput approach is the ability to identify interactions that would not be predicted by extrapolating our current understanding of sRNA biology. We anticipate that profiling RNA interactions using CLASH will reveal diverse roles for both coding and non&#8208;coding RNAs in cell physiology.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>49539</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49561</offset>
+      <text>Bacterial strains, plasmids and culture conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49612</offset>
+      <text>For CLASH analysis, Escherichia coli O157:H7 str. Sakai (GenBank Acc# NC_002695.1) was used to construct a dual&#8208;affinity&#8208;tagged HTF strain. Bacterial strains, plasmids and primers are presented in Table&#160;EV8. Strains were routinely grown on LB agar plates and broth supplemented with antibiotics where appropriate. For crosslinking and phenotypic experiments, E.&#160;coli O157:H7 was grown under virulence&#8208;inducing conditions in MEM&#8208;HEPES media (Sigma M7278) supplemented with 250&#160;nM Fe(NO3)3 and 0.1% glucose.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50129</offset>
+      <text>Preparation of CLASH sequencing libraries</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50171</offset>
+      <text>Cells grown to OD 0.8 in MEM&#8208;HEPES (M7278) supplemented with 250&#160;nM Fe(NO3)3 and 0.1% glucose were crosslinked with 1,800&#160;mJ of UV&#8208;C. Cells were harvested by centrifugation at 4,000&#160;g for 10&#160;min, weighed and resuspended in 50&#160;ml of ice&#8208;cold PBS. The cells were divided into 1&#160;g pellets and snap&#8208;frozen in a dry ice/ethanol bath. One volume (1&#160;ml/g) of lysis buffer [50&#160;mM Tris&#8211;HCl (pH 7.8), 1.5&#160;mM MgCl2, 150&#160;mM NaCl, 0.1% Nonidet P&#8208;40, 5&#160;mM &#946;&#8208;mercaptoethanol and 1 tablet &#8220;cOmplete&#8221; EDTA&#8208;free protease inhibitor (Roche)/50&#160;ml] and 3&#160;V of 0.1&#8208;mm zirconia beads were added to a cell pellet and vortexed 5&#160;&#215;&#160;1&#160;min with 1&#8208;min intervals on ice. Cell lysates were cleared by centrifugation (4,000&#160;g for 20&#160;min) and the supernatant was transferred to 1.5&#8208;ml microcentrifuge tubes and cleared at 16,000&#160;g for a further 20&#160;min. Supernatants were added to 200&#160;&#956;l of pre&#8208;washed M2 anti&#8208;FLAG resin (Sigma&#8208;Aldrich) and incubated overnight. The resin was washed twice with 10&#160;ml of TNM1000 (50&#160;mM Tris&#8211;HCl pH 7.8, 1&#160;M NaCl, 0.1% NP&#8208;40, 5&#160;mM &#946;&#8208;mercaptoethanol) and twice in 10&#160;ml TMN150 (50&#160;mM Tris&#8211;HCl pH 7.8, 150&#160;mM NaCl, 0.1% NP&#8208;40, 5&#160;mM &#946;&#8208;mercaptoethanol), resuspended in 500&#160;&#956;l of TMN150 and incubated with 20&#8211;30&#160;U of TEV protease for 2&#160;h at 18&#176;C. The slurry was centrifuged through a Bio&#8208;Rad Bio&#8208;spin column and the eluate collected. Approximately 500&#160;&#956;l of eluate was incubated with 0.15&#160;U of RNace&#8208;IT (Agilent) at 20&#176;C for 7&#160;min. The digestion was stopped by the addition of 0.4&#160;g of guanidine&#8211;HCl, 300&#160;mM NaCl and 10&#160;mM imidazole (pH 8.0). 100&#160;&#956;l of Ni&#8208;NTA slurry was pre&#8208;washed twice in 750&#160;&#956;l of wash buffer I (6&#160;M guanidine&#8211;HCl, 50&#160;mM Tris&#8211;HCl pH 7.8, 300&#160;mM NaCl, 0.1% NP&#8208;40 and 5&#160;mM &#946;&#8208;mercaptoethanol). Eluates were added to the washed resin and incubated overnight at 4&#176;C. The resin was washed twice with 750&#160;&#956;l of ice&#8208;cold wash buffer I and twice with 750&#160;&#956;l of 1&#215;&#160;PNK buffer (50&#160;mM Tris&#8211;HCl pH 7.8, 10&#160;mM MgCl2, 0.5% NP&#8208;40 and 5&#160;mM &#946;&#8208;mercaptoethanol). The eluates were transferred into a spin column (Pierce, Thermo Fisher, 69705). The subsequent reactions were performed in 80&#160;&#956;l reaction volumes on&#8208;column. 3&#8242; ends were dephosphorylated by incubating for 45&#160;min at 20&#176;C with thermosensitive alkaline phosphatase (TSAP, Promega) and RNasin (Promega) in PNK reaction buffer (50&#160;mM Tris&#8211;HCl pH 7.8, 10&#160;mM MgCl2 and 10&#160;mM &#946;&#8208;mercaptoethanol). The resin was washed once with 400&#160;&#956;l of wash buffer I and three times with 400&#160;&#956;l of 1&#215;&#160;PNK buffer. The resin was incubated with tobacco acid pyrophosphatase (Epicentre) in 1&#215;&#160;TAP buffer (Epicentre) and incubated at 20&#176;C for 2&#160;h, washed once with 400&#160;&#956;l of wash buffer I and then three times with 400&#160;&#956;l of 1&#215;&#160;PNK buffer. The 5&#8242; ends of bound RNAs were radiolabelled by phosphorylation with T4 PNK (4&#160;&#956;l, Sigma) and 32P&#8208;&#947;ATP (4&#160;&#956;l, PerkinElmer BLU502Z) in PNK reaction buffer for 100&#160;min at 20&#176;C, after which 100&#160;nM of cold ATP was added and incubated for a further 50&#160;min to complete 5&#8242; end phosphorylation. The resin was washed once with 400&#160;&#956;l of wash buffer I and three times with 400&#160;&#956;l of 1&#215;&#160;PNK buffer. To add 3&#8242; linkers, the resin was incubated with 4&#160;&#956;l of T4 RNA ligase I (NEB) and 8&#160;&#956;l of miRCat&#8208;33 3&#8242; linker (IDT) in PNK reaction buffer with 2&#160;&#956;l of RNasin (Promega) at 16&#176;C for 16&#160;h and then washed once with 400&#160;&#956;l of wash buffer I and three times with 1&#215;&#160;PNK buffer. To add 5&#8242; linkers, the resin was incubated with 4&#160;&#956;l of T4 RNA ligase I (NEB) and 1&#160;&#956;l of 100&#160;&#956;M 5&#8242; linker (IDT; Table&#160;EV8) in PNK reaction buffer with 2&#160;&#956;l of RNasin (Promega) and 1&#160;mM ATP at 16&#176;C for 16&#160;h. The resin was washed three times with wash buffer II (50&#160;mM Tris&#8211;HCl pH 7.8, 50&#160;mM NaCl, 10&#160;mM imidazole, 0.1% NP&#8208;40, 5&#160;mM &#946;&#8208;mercaptoethanol). 200&#160;&#956;l of elution buffer (wash buffer II supplemented with 150&#160;mM imidazole) was added to the resin and incubated at RT for 5&#160;min. RNase E&#8211;RNA complexes were eluted into a clean microcentrifuge tube, and the elution was repeated. Complexes were precipitated with 100&#160;&#956;l of TCA and 40&#160;&#956;g of glycogen by incubating on ice for 30&#8211;60 min and centrifugation at 4&#176;C for 20&#160;min (16,000&#160;g). Supernatants were removed and pellets washed with 800&#160;&#956;l of ice&#8208;cold acetone. Precipitate was centrifuged again at 16,000&#160;g, supernatants were removed, and pellets were air&#8208;dried. The pellet was resuspended in 30&#160;&#956;l of 1&#215;&#160;NuPAGE loading buffer. The sample was loaded onto a NuPAGE 4&#8211;12% Bis&#8208;Tris PAGE gel (Invitrogen) and run in MOPS SDS running buffer (Invitrogen). 32P&#8208;labelled RNase E complexes were transferred to a nitrocellulose membrane (Amersham Hybond ECL) by wet transfer using a Bio&#8208;Rad mini&#8208;Trans blot module in NuPAGE transfer buffer (Invitrogen). Complexes were visualized by autoradiography using Kodak BioMax MS film and developed films realigned to the membrane. The high molecular weight complex (&gt;&#160;115&#160;kDa) was excised from the membrane (see Fig&#160;EV1C). The labelled RNA was recovered by incubating the membrane fragment in 400&#160;&#956;l of wash buffer II supplemented with 1% SDS, 5&#160;mM EDTA and 100&#160;&#956;g of proteinase K, for 2&#160;h at 55&#176;C. The supernatant containing labelled RNA fragments was transferred to a clean microcentrifuge tube. To precipitate the RNA fragments, 50&#160;&#956;l of 3&#160;M NaOAc pH 5.2 and 500&#160;&#956;l of phenol:chloroform:isoamylalcohol was added, vortexed and centrifuged for 5&#160;min at RT. The aqueous phase was transferred to a clean microcentrifuge tube and 1&#160;ml of ice&#8208;cold EtOH and 20&#160;&#956;g of glycogen added. The precipitation was incubated at &#8722;80&#176;C for 30&#160;min and centrifuged at 16,000&#160;g for 20&#160;min, followed by a wash with 500&#160;&#956;l of ice&#8208;cold 70% EtOH and air&#8208;drying. The RNA pellet was resuspended in 13&#160;&#956;l of RT buffer I (miRCat RT oligo and 5&#160;mM dNTPs) and reverse&#8208;transcribed using Superscript III as per the manufacturer's instructions. cDNA was amplified using Takara LA Taq, P5 and PE_miRCat PCR primers (Table&#160;EV8), and 2&#160;&#956;l of cDNA. cDNAs were amplified for 20&#8211;24 cycles to minimize bias in amplicons. 3&#8211;10 PCRs were pooled and ethanol&#8208;precipitated. PCR products were separated on a 3% metaphor agarose gel and smeared amplicons above primer dimers indicated in control samples were gel&#8208;extracted using a MinElute gel extraction Kit (Qiagen). Libraries were pooled and submitted for single&#8208;end 100&#8208;bp HiSeq2500 sequencing at GenePool (University of Edinburgh). Sequence data has been deposited at NCBI GEO (series GSE77463).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56813</offset>
+      <text>Analysis of CLASH hybrids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56839</offset>
+      <text>Sequencing reads generated by RNase E&#8208;CLASH were analysed using the hyb package (Travis et&#160;al, 2014). Details of the in silico analysis are presented in Appendix&#160;Supplementary Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57028</offset>
+      <text>Confirmation of sRNA&#8211;mRNA interactions and phenotypic characterization of Esr41</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57110</offset>
+      <text>We employed the two&#8208;plasmid system described by Corcoran et&#160;al (2012) to monitor translation efficiency of mRNA&#8208;sfGFP fusions. Plasmids containing small RNAs were cloned as described in Urban and Vogel (2007) excepting Esr41 was inserted into pZE12 using inverse PCR. Briefly, the mutagenic primers Esr41.ZE12.F and ZE12.5P.R were used to amplify a fragment of pZE12::luc that was DpnI&#8208;treated, gel&#8208;extracted and subsequently recircularized with T4 DNA ligase and transformed into DH5&#945;. Clones containing an Esr41 insert were confirmed by sequencing. For mRNA fusions, clones were generated essentially as described in Corcoran et&#160;al (2012). Briefly, transcript start sites were identified using RegulonDB and the corresponding site in E.&#160;coli O157:H7 str. Sakai identified using BLAST. Primers were designed to amplify from the transcription start site to within the CDS encompassing the predicted region of sRNA&#8211;mRNA interaction (Table&#160;EV8). PCR products were cloned using NsiI and NheI (Fast digest enzymes, Thermo) and positive clones confirmed by sequencing. Point mutations were introduced using mutagenic primers listed in Table&#160;EV8 and confirmed by Sanger sequencing. Detailed methods for FACS and qPCR analysis of superfolder GFP fusions are presented in Appendix&#160;Supplementary Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58423</offset>
+      <text>Competitive index experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58453</offset>
+      <text>Indicated strains were grown overnight in LB at 37&#176;C and the culture OD600 adjusted to provide equal densities. Competing strains were inoculated at 1/1,000 into MEM&#8208;HEPES supplemented with 250&#160;nM Fe(NO3)3 and 0.1% glucose. At 24&#8208;h intervals, the culture was diluted 1/1,000 in fresh media for a total of three subcultures (3&#8208;days growth). Cultures were diluted and plated onto LB plates to obtain well&#8208;separated colonies and 100 colonies were replica plated onto LB agar and LB agar supplemented with nalidixic acid (30&#160;&#956;g/ml) to select for marked strains. Competition experiments were repeated with nalidixic acid resistance and sensitivity in the opposite strain to account for any fitness cost associated with nalidixic acid resistance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59206</offset>
+      <text>Colicin sensitivity testing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59234</offset>
+      <text>Colicin 1A and B lysates were prepared from E.&#160;coli harbouring p3Z/Col1A and p3Z/ColB as described in Brickman and Armstrong (1996). Colicin 1B was prepared from Salmonella Typhimurium SL1344 by inducing with 1&#160;&#956;g/ml of mitomycin C and filtering the supernatant. Colicin V was prepared from E.&#160;coli strain NCTC50147 (Public Health England, UK) as described for colicin 1B. To test sensitivity to colicins, a top agar lawn of E.&#160;coli DH5&#945; was prepared and 5&#160;&#956;l of colicin lysate spotted onto the lawn. Plates were incubated overnight at 37&#176;C and scanned.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>59797</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59818</offset>
+      <text>JJT, DLG and DT designed the experiments. SAW, JJT, SPM and KWL performed the experimental work. JJT, GK, NPD, IP and TGA analysed the data. All authors contributed to writing and editing the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60022</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60043</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60103</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>60126</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">17632058</infon>
+      <infon key="fpage">101</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>60137</offset>
+      <text>Molecular basis for target RNA recognition and cleavage by human RISC</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="lpage">483</infon>
+      <infon key="pub-id_pmid">24755880</infon>
+      <infon key="fpage">470</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60207</offset>
+      <text>Bioinformatics of prokaryotic RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Proc Int Conf Intell Syst Mol Biol</infon>
+      <infon key="lpage">36</infon>
+      <infon key="pub-id_pmid">7584402</infon>
+      <infon key="fpage">28</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>60242</offset>
+      <text>Fitting a mixture model by expectation maximization to discover motifs in biopolymers</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">953</infon>
+      <infon key="pub-id_pmid">22902561</infon>
+      <infon key="fpage">943</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60328</offset>
+      <text>The seed region of a small RNA drives the controlled destruction of the target mRNA by the endoribonuclease RNase E</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1873</infon>
+      <infon key="pub-id_pmid">22895254</infon>
+      <infon key="fpage">1864</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60444</offset>
+      <text>A role for Rho&#8208;dependent polarity in gene regulation by a noncoding small RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">837</infon>
+      <infon key="pub-id_pmid">19111662</infon>
+      <infon key="fpage">827</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60524</offset>
+      <text>Small RNA binding to 5&#8242; mRNA coding region inhibits translational initiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">178</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">8921889</infon>
+      <infon key="fpage">39</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>60603</offset>
+      <text>Colicins B and Ia as novel counterselective agents in interspecies conjugal DNA transfers from colicin&#8208;sensitive Escherichia coli donors to other Gram&#8208;negative recipient species</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">2856</infon>
+      <infon key="pub-id_pmid">18940824</infon>
+      <infon key="fpage">2849</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60785</offset>
+      <text>IntaRNA: efficient prediction of bacterial sRNA targets incorporating target site accessibility and seed regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">33</infon>
+      <infon key="pub-id_pmid">20080057</infon>
+      <infon key="fpage">24</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60898</offset>
+      <text>The role of Hfq in bacterial pathogens</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">11751</infon>
+      <infon key="pub-id_pmid">25237058</infon>
+      <infon key="fpage">11733</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60937</offset>
+      <text>Direct entry by RNase E is a major pathway for the degradation and processing of RNA in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">84</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">445</infon>
+      <infon key="pub-id_pmid">22458297</infon>
+      <infon key="fpage">428</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61043</offset>
+      <text>Superfolder GFP reporters validate diverse new mRNA targets of&#160;the classic porin regulator, MicF RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1260</infon>
+      <infon key="pub-id_pmid">10817759</infon>
+      <infon key="fpage">1249</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>61145</offset>
+      <text>An evolutionarily conserved RNA stem&#8211;loop functions as a sensor that directs feedback regulation of RNase E gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2015</infon>
+      <infon key="pub-id_pmid">19638370</infon>
+      <infon key="fpage">2004</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61271</offset>
+      <text>Caught at its own game: regulatory small RNA inactivated by an inducible transcript mimicking its target</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1066</infon>
+      <infon key="pub-id_pmid">365352</infon>
+      <infon key="fpage">1055</infon>
+      <infon key="year">1978</infon>
+      <infon key="type">ref</infon>
+      <offset>61376</offset>
+      <text>Structural analysis and in&#160;vitro processing to p5 rRNA of a 9S RNA molecule isolated from an rne mutant of E.&#160;coli </text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">20980440</infon>
+      <infon key="fpage">a003798</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61494</offset>
+      <text>Bacterial small RNA regulators: versatile roles&#160;and rapidly evolving variations</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1054</infon>
+      <infon key="pub-id_pmid">24857550</infon>
+      <infon key="fpage">1042</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61575</offset>
+      <text>Unambiguous Identification of miRNA: target site interactions by different types of ligation reactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1634</infon>
+      <infon key="pub-id_pmid">25030700</infon>
+      <infon key="fpage">1620</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61678</offset>
+      <text>MicL, a new &#963;E&#8208;dependent sRNA, combats envelope stress by repressing synthesis of Lpp, the major outer membrane lipoprotein</text>
+    </passage>
+    <passage>
+      <infon key="volume">153</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">665</infon>
+      <infon key="pub-id_pmid">23622248</infon>
+      <infon key="fpage">654</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61806</offset>
+      <text>Mapping the human miRNA interactome by CLASH reveals frequent noncanonical binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1850</infon>
+      <infon key="pub-id_pmid">20407422</infon>
+      <infon key="fpage">1840</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>61889</offset>
+      <text>Two antisense RNAs target the transcriptional regulator CsgD to inhibit curli synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">432</infon>
+      <infon key="pub-id_pmid">21219461</infon>
+      <infon key="fpage">419</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61977</offset>
+      <text>Hfq binding at RhlB&#8208;recognition region of RNase E is crucial for the rapid degradation of target mRNAs mediated by sRNAs in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">114</infon>
+      <infon key="pub-id_pmid">25531890</infon>
+      <infon key="fpage">107</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62121</offset>
+      <text>miR&#8208;CLIP capture of a miRNA targetome uncovers a lincRNA H19&#8208;miR&#8208;106a interaction</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">790</infon>
+      <infon key="pub-id_pmid">14731278</infon>
+      <infon key="fpage">777</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>62209</offset>
+      <text>The RNA degradosome and poly(A) polymerase of Escherichia coli are required in&#160;vivo for the degradation of small mRNA decay intermediates containing REP&#8208;stabilizers</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Trends Microbiol</infon>
+      <infon key="lpage">83</infon>
+      <infon key="pub-id_pmid">24440013</infon>
+      <infon key="fpage">74</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62377</offset>
+      <text>Planting the seed: target recognition of short guide RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">405</infon>
+      <infon key="pub-id_pmid">25891076</infon>
+      <infon key="fpage">393</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62435</offset>
+      <text>A 3&#8242; external transcribed spacer in a tRNA transcript acts as a sponge for small RNAs to prevent transcriptional noise</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">523</infon>
+      <infon key="pub-id_pmid">18230766</infon>
+      <infon key="fpage">514</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>62556</offset>
+      <text>The RNA binding protein Hfq interacts specifically with tRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">395</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">723</infon>
+      <infon key="pub-id_pmid">9790196</infon>
+      <infon key="fpage">720</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>62618</offset>
+      <text>Ribonuclease E is a 5&#8242;&#8208;end&#8208;dependent endonuclease</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">23241849</infon>
+      <infon key="fpage">45</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62674</offset>
+      <text>RNase E: at the interface of bacterial RNA processing and decay</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">3449</infon>
+      <infon key="pub-id_pmid">15972284</infon>
+      <infon key="fpage">3448</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>62738</offset>
+      <text>BiNGO: a Cytoscape plugin to assess overrepresentation of gene ontology categories in biological networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">187</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">6971</infon>
+      <infon key="pub-id_pmid">16199566</infon>
+      <infon key="fpage">6962</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>62844</offset>
+      <text>Effect of RyhB small RNA on global iron use in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">63</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">897</infon>
+      <infon key="pub-id_pmid">27588604</infon>
+      <infon key="fpage">884</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>62909</offset>
+      <text>Global mapping of small RNA&#8208;target interactions in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1492</infon>
+      <infon key="pub-id_pmid">25630703</infon>
+      <infon key="fpage">1478</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62971</offset>
+      <text>Cross talk between ABC transporter mRNAs via a target mRNA&#8208;derived sponge of the GcvB small RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2186</infon>
+      <infon key="pub-id_pmid">16166379</infon>
+      <infon key="fpage">2176</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>63069</offset>
+      <text>RNase E&#8208;based ribonucleoprotein complexes: mechanical basis of mRNA destabilization mediated by bacterial noncoding RNAs</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">24391500</infon>
+      <infon key="fpage">e1003844</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>63192</offset>
+      <text>Inflammation fuels colicin Ib&#8208;dependent competition of Salmonella serovar Typhimurium and E.&#160;coli in enterobacterial blooms</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">7546</infon>
+      <infon key="pub-id_pmid">23771143</infon>
+      <infon key="fpage">7536</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63319</offset>
+      <text>Conserved arginines on the rim of Hfq catalyze base pair formation and exchange</text>
+    </passage>
+    <passage>
+      <infon key="volume">153</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">437</infon>
+      <infon key="pub-id_pmid">23582330</infon>
+      <infon key="fpage">426</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63399</offset>
+      <text>Small RNA&#8208;mediated activation of sugar phosphatase mRNA regulates glucose homeostasis</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Cell Infect Microbiol</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">25077072</infon>
+      <infon key="fpage">91</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>63487</offset>
+      <text>Small RNA functions in carbon metabolism and virulence of enteric pathogens</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="lpage">E4781</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="fpage">E4772</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>63563</offset>
+      <text>Small RNA&#8208;based feedforward loop with AND&#8208;gate logic regulates extrachromosomal DNA&#160;transfer in Salmonella </text>
+    </passage>
+    <passage>
+      <infon key="volume">193</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">1701</infon>
+      <infon key="pub-id_pmid">21278294</infon>
+      <infon key="fpage">1690</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63676</offset>
+      <text>Accessibility and evolutionary conservation mark&#160;bacterial small&#8208;RNA target&#8208;binding regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">846</infon>
+      <infon key="pub-id_pmid">19620966</infon>
+      <infon key="fpage">840</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>63773</offset>
+      <text>Coding sequence targeting by MicC RNA reveals bacterial mRNA silencing&#160;downstream of translational initiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">396</infon>
+      <infon key="pub-id_pmid">21289064</infon>
+      <infon key="fpage">385</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63884</offset>
+      <text>Small RNA&#8208;induced mRNA degradation achieved through both translation block and activated cleavage</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">984</infon>
+      <infon key="pub-id_pmid">26237516</infon>
+      <infon key="fpage">980</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>63984</offset>
+      <text>High&#8208;throughput determination of RNA structure by proximity ligation</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1429</infon>
+      <infon key="pub-id_pmid">16313626</infon>
+      <infon key="fpage">1421</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>64055</offset>
+      <text>Regulation of ompA mRNA stability: the role of a small regulatory RNA in growth phase&#8208;dependent control</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2778</infon>
+      <infon key="pub-id_pmid">24065131</infon>
+      <infon key="fpage">2764</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64161</offset>
+      <text>Antagonistic functions between the RNA chaperone Hfq and an sRNA regulate sensitivity to the antibiotic colicin</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2573</infon>
+      <infon key="pub-id_pmid">26373314</infon>
+      <infon key="fpage">2557</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>64273</offset>
+      <text>Alternative Hfq&#8208;sRNA interaction modes dictate alternative mRNA recognition</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">478</infon>
+      <infon key="pub-id_pmid">19320830</infon>
+      <infon key="fpage">470</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>64351</offset>
+      <text>RNase E autoregulates its synthesis in Escherichia coli by binding directly to a stem&#8208;loop in the rne 5&#8242; untranslated region</text>
+    </passage>
+    <passage>
+      <infon key="volume">81</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1165</infon>
+      <infon key="pub-id_pmid">21696468</infon>
+      <infon key="fpage">1144</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>64480</offset>
+      <text>Pervasive post&#8208;transcriptional control of genes involved in amino acid metabolism by the Hfq&#8208;dependent GcvB small RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">626</infon>
+      <infon key="pub-id_pmid">27184080</infon>
+      <infon key="fpage">618</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>64602</offset>
+      <text>Global mapping of human RNA&#8208;RNA interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">9607</infon>
+      <infon key="pub-id_pmid">20457943</infon>
+      <infon key="fpage">9602</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>64649</offset>
+      <text>Positive regulation by small RNAs and the role of Hfq</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">J Gen Appl Microbiol</infon>
+      <infon key="lpage">50</infon>
+      <infon key="pub-id_pmid">24646762</infon>
+      <infon key="fpage">44</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>64703</offset>
+      <text>A novel small regulatory RNA enhances cell motility in enterohemorrhagic Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">519</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">494</infon>
+      <infon key="pub-id_pmid">25799984</infon>
+      <infon key="fpage">491</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>64794</offset>
+      <text>hiCLIP reveals the in&#160;vivo atlas of mRNA&#160;secondary structures recognized by Staufen 1</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="source">Methods</infon>
+      <infon key="lpage">273</infon>
+      <infon key="pub-id_pmid">24211736</infon>
+      <infon key="fpage">263</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>64882</offset>
+      <text>Hyb: a bioinformatics pipeline for the analysis of CLASH (crosslinking, ligation and sequencing of hybrids) data</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">213</infon>
+      <infon key="pub-id_pmid">24910100</infon>
+      <infon key="fpage">199</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>64995</offset>
+      <text>Identification of bacteriophage&#8208;encoded anti&#8208;sRNAs in pathogenic Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">432</infon>
+      <infon key="pub-id_pmid">21741109</infon>
+      <infon key="fpage">422</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>65082</offset>
+      <text>RNA in pieces</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2366</infon>
+      <infon key="pub-id_pmid">16204185</infon>
+      <infon key="fpage">2355</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>65096</offset>
+      <text>Hfq&#8208;dependent regulation of OmpA synthesis is mediated by an antisense RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1037</infon>
+      <infon key="pub-id_pmid">17264113</infon>
+      <infon key="fpage">1018</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>65173</offset>
+      <text>Translational control and target recognition by Escherichia coli small RNAs in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">461</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">761</infon>
+      <infon key="pub-id_pmid">19812667</infon>
+      <infon key="fpage">754</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>65258</offset>
+      <text>Nucleation, propagation and cleavage of target RNAs in Ago silencing complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D253</infon>
+      <infon key="pub-id_pmid">26503244</infon>
+      <infon key="fpage">D248</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65337</offset>
+      <text>sRNATarBase 3.0: an updated database for sRNA&#8208;target interactions in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">179</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">71</infon>
+      <infon key="pub-id_pmid">8981981</infon>
+      <infon key="fpage">63</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>65417</offset>
+      <text>Characterization of a region of the IncHI2 plasmid R478 which protects Escherichia coli from toxic effects specified by components of the tellurite, phage, and colicin resistance cluster</text>
+    </passage>
+    <passage>
+      <infon key="volume">382</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">883</infon>
+      <infon key="pub-id_pmid">18691600</infon>
+      <infon key="fpage">870</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>65604</offset>
+      <text>Reconstitution and analysis of the multienzyme Escherichia coli RNA degradosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1124</infon>
+      <infon key="pub-id_pmid">14622403</infon>
+      <infon key="fpage">1111</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>65684</offset>
+      <text>Global analysis of small RNA and mRNA targets of Hfq</text>
+    </passage>
+  </document>
+</collection>

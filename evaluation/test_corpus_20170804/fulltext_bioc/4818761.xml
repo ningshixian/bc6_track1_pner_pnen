@@ -1,0 +1,1353 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4818761</id>
+    <passage>
+      <infon key="name_2">surname:Stoehr;given-names:Gabriele</infon>
+      <infon key="name_3">surname:Kessler;given-names:Brigitte</infon>
+      <infon key="name_0">surname:Seifert;given-names:Florian Ulrich</infon>
+      <infon key="name_1">surname:Lammens;given-names:Katja</infon>
+      <infon key="alt-title">Florian Ulrich Seifert et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201592934</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211; See also: H Sch&#252;ler &amp; C Sj&#246;gren (April 2016) andY Liu et al (April 2016)</infon>
+      <infon key="article-id_doi">10.15252/embj.201592934</infon>
+      <infon key="article-id_pmid">26896444</infon>
+      <infon key="lpage">772 772</infon>
+      <infon key="pub-id_pmid">26896444</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">759 759</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Hopfner;given-names:Karl&#8208;Peter</infon>
+      <infon key="issue">7</infon>
+      <infon key="kwd">DNA repair homologous recombination microhomology&#8208;mediated end joining protein DNA complex X&#8208;ray crystallography DNA Replication, Repair &amp; Recombination Structural Biology</infon>
+      <offset>0</offset>
+      <text>Structural mechanism of ATP&#8208;dependent DNA binding and DNA end bridging by eukaryotic Rad50</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>93</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>102</offset>
+      <text>The Mre11&#8211;Rad50&#8211;Nbs1 (MRN) complex is a central factor in the repair of DNA double&#8208;strand breaks (DSBs). The ATP&#8208;dependent mechanisms of how MRN detects and endonucleolytically processes DNA ends for the repair by microhomology&#8208;mediated end&#8208;joining or further resection in homologous recombination are still unclear. Here, we report the crystal structures of the ATP&#947;S&#8208;bound dimer of the Rad50NBD (nucleotide&#8208;binding domain) from the thermophilic eukaryote Chaetomium thermophilum (Ct) in complex with either DNA or CtMre11RBD (Rad50&#8208;binding domain) along with small&#8208;angle X&#8208;ray scattering and cross&#8208;linking studies. The structure and DNA binding motifs were validated by DNA binding experiments in&#160;vitro and mutational analyses in Saccharomyces cerevisiae in&#160;vivo. Our analyses provide a structural framework for the architecture of the eukaryotic Mre11&#8211;Rad50 complex. They show that a Rad50 dimer binds approximately 18 base pairs of DNA along the dimer interface in an ATP&#8208;dependent fashion or bridges two&#160;DNA ends with a preference for 3&#8242; overhangs. Finally, our results may provide a general framework for the interaction of ABC ATPase domains of the Rad50/SMC/RecN protein family with&#160;DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1333</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1346</offset>
+      <text>DNA double&#8208;strand breaks (DSBs) threaten genome stability in all kingdoms of life and can lead to cell death or gross chromosomal aberrations. They arise during replication fork collapse or exposure to ionizing radiation, reactive oxygen species (ROS), or genotoxic chemicals (Sutherland et&#160;al, 2000; Costanzo et&#160;al, 2001; Pommier et&#160;al, 2003; Mahaney et&#160;al, 2009). DSBs are also enzymatically generated intermediates in meiotic recombination, V(D)J, and class switch recombination as well as yeast mating&#8208;type switching (Gapud &amp; Sleckman, 2011; Haber, 2012; Xu et&#160;al, 2012; Lam &amp; Keeney, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1951</offset>
+      <text>Double&#8208;strand breaks can be repaired by different pathways. In canonical non&#8208;homologous end&#8208;joining (c&#8208;NHEJ), the DNA ends are ligated directly in a reaction that depends on Ku and ligase IV. However, a Ku&#8208; and ligase IV&#8208;independent end&#8208;joining pathway also exists and is denoted as either alternative NHEJ (alt&#8208;NHEJ) or microhomology&#8208;mediated end&#8208;joining (MMEJ), since the DNA ends are often processed and joined at microhomologies. All of these template&#8208;independent end&#8208;joining reactions can result in loss or alteration of genetic information (Chiruvella et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2548</offset>
+      <text>The homologous recombination (HR) pathway repairs DNA ends in a typically error&#8208;free manner. HR shares the initial DNA processing steps with MMEJ (Truong et&#160;al, 2013), but the DNA ends are further resected to produce 3&#8242; single&#8208;strand tails for homology search and template&#8208;dependent extension. The choice between NHEJ and HR is regulated by the cell through multiple mechanisms, in particular the initiation of end resection (Chiruvella et&#160;al, 2013; Panier &amp; Boulton, 2014; Symington, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3050</offset>
+      <text>The Mre11&#8211;Rad50&#8211;Nbs1 complex (and its archaeal Mre11&#8211;Rad50, bacterial SbcC&#8211;SbcD, and bacteriophage gp46&#8211;gp47 homologs, collectively denoted MRN or MR) is a central factor in processing DNA DSBs and hairpins (Stracker &amp; Petrini, 2011; Schiller et&#160;al, 2014). The complex possesses an ATP&#8208;dependent endo/exonuclease activity that processes DNA ends in HR and MMEJ. Specifically, it displays 3&#8242;&#8211;5&#8242; dsDNA exonuclease activity, hairpin opening activity, ssDNA endonuclease activity and an ATP&#8208;dependent dsDNA endonuclease activity (Paull &amp; Gellert, 1998; Connelly et&#160;al, 1999; Hopfner et&#160;al, 2000a; Trujillo &amp; Sung, 2001; Truong et&#160;al, 2013; Cannavo &amp; Cejka, 2014). In the latter, MRN (denoted Mre11&#8211;Rad50&#8211;Xrs2; MRX in Saccharomyces cerevisiae) cleaves the 5&#8242; strand approximately 15&#8211;25&#160;nt away from the DSB in a reaction that also requires the Sae2/CtIP protein in eukaryotes (Cannavo &amp; Cejka, 2014). The nuclease activity of MRN helps to clear blocked or modified DNA ends and generates initial 3&#8242; overhangs for MMEJ or further resection in HR (Garcia et&#160;al, 2011; Langerak et&#160;al, 2011; Truong et&#160;al, 2013; Cannavo &amp; Cejka, 2014). MRN also recruits other repair factors to DSBs and helps to elicit the DNA damage response by activating the ataxia telangiectasia mutated (ATM) kinase (Lisby et&#160;al, 2004; Berkovich et&#160;al, 2007; Limbo et&#160;al, 2007; Mimitou &amp; Symington, 2008; Deshpande et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4484</offset>
+      <text>The MRN complex consists of two subunits of the nuclease Mre11, two subunits of the ATPase Rad50, and either one or two Nbs1 subunits (Lammens et&#160;al, 2011; Lim et&#160;al, 2011; M&#246;ckel et&#160;al, 2012; Schiller et&#160;al, 2012). Nbs1 is only found in eukaryotes and is important for ATM recruitment and activation, nuclear localization of MRN, and recruitment of additional repair factors (Desai&#8208;Mehta et&#160;al, 2001; You et&#160;al, 2005; Limbo et&#160;al, 2007; Chen et&#160;al, 2008; Mimitou &amp; Symington, 2008). Mre11 together with the Rad50 nucleotide&#8208;binding domains (NBDs) and the Mre11&#8208;interacting motif of Nbs1 forms the globular catalytic domain of MRN that binds and processes DNA in an ATP&#8208;dependent manner. Rad50 further possesses a 15&#8211;50&#8208;nm&#8208;long coiled&#8208;coil domain with a terminal Zn&#8208;hook dimerization motif (Hopfner et&#160;al, 2002; Schiller et&#160;al, 2014). The precise mechanistic functions of the coiled&#8208;coil domains are still unclear, but they play an important role in NHEJ, ATM activation, and DNA end processing (Hohl et&#160;al, 2011; Lee et&#160;al, 2013; Roset et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5569</offset>
+      <text>The exact interplay of ATP&#8208;dependent DNA binding, processing, and end bridging by MRN is still unclear. Rad50 ATP binding but not hydrolysis is important for checkpoint activation, DNA end bridging, and telomere maintenance, whereas the ATP hydrolysis step is required for DSB repair and DNA processing (Lee et&#160;al, 2013; Deshpande et&#160;al, 2014; Rojowska et&#160;al, 2014). To reveal how MRN interacts with DNA in the presence of ATP&#8212;the state that appears to be critical at least transiently for all activities&#8212;we determined crystal structures of the Chaetomium thermophilum CtRad50NBD dimer in complexes with ATP&#947;S and DNA or the Rad50&#8208;binding domain of Mre11 (Mre11RBD). Our structures clarify how Rad50 binds to DNA in an ATP&#8208;dependent fashion by forming a composite DNA binding surface that recognizes approximately 18 base pairs. Fluorescence anisotropy measurements suggest that the ATP&#8208;bound Rad50 dimer can also bind two cohesive DNA ends instead of a continuous duplex and has a preference for 3&#8242; tails. These structures arise, for example, at telomeres and during HR or MMEJ. Finally, functional studies indicate that the observed DNA interaction is a critical intermediate in DNA end processing. Together, our studies establish a framework for the architecture and ATP&#8208;dependent dynamics of the eukaryotic Mre11&#8211;Rad50 catalytic head module and reveal how Rad50 binds dsDNA and bridges DNA ends in an ATP&#8208;dependent manner.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7020</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7028</offset>
+      <text>Structure of Chaetomium thermophilum Rad50NBD in complex with ATP&#947;S:Mg2+ and the Rad50&#8208;binding domain of Mre11</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7143</offset>
+      <text>To obtain the structure of a eukaryotic Rad50 protein and its complex with Mre11RBD, we co&#8208;purified CtRad50NBD with the putative Rad50&#8208;binding domain of Mre11 (Appendix&#160;Fig S1). Crystals containing a Rad50NBD dimer bound to two Mre11RBDs (residues 438&#8211;531) and two ATP&#947;S:Mg2+ molecules in the asymmetric unit diffracted to 3.0 &#197; and we obtained experimental phases by a single&#8208;wavelength anomalous diffraction experiment with selenomethionine&#8208;derivatized protein. Data collection and refinement statistics are summarized in Appendix&#160;Table&#160;S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7701</offset>
+      <text>Two CtRad50NBDs assemble into a dimer with two ATP&#947;S:Mg2+ molecules sandwiched in the dimer interface by the opposing Walker A, Walker B, and signature motifs (Fig&#160;1A and B) (Hopfner et&#160;al, 2000b). In general, our structure represents a pre&#8208;hydrolysis state with a formed catalytic &#8220;dyad&#8221; between Glu1238 (Walker B motif) and His1275 (His&#8208;switch) (Zaitseva et&#160;al, 2005). The two protruding coiled&#8208;coil domains each bind one Mre11RBD, which is a five&#8208;membered helical bundle that predominantly interacts with the C&#8208;terminal &#945;&#8208;helix of the antiparallel Rad50 coiled&#8208;coil domain (Fig&#160;1C). The first three &#945;&#8208;helices of Mre11RBD bind the coiled&#8208;coil, the short fourth helix caps the RBD, while the fifth helix forms a &#8220;spine&#8221; that protrudes backwards to the lobe I of Rad50NBD. The structure of eukaryotic Mre11RBD&#8211;Rad50NBD generally resembles that of its prokaryotic homologs, but it displays notable differences and extensions (Fig&#160;2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8670</offset>
+      <text>Structure of the Chaetomium thermophilum Mre11RBD&#8211;Rad50NBD complex</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8739</offset>
+      <text>Ribbon representation with highlighted secondary structure of the Mre11&#8211;Rad50&#8208;binding domain (CtMre11RBD; light and dark blue) bound to the nucleotide&#8208;binding domain (NBD) of Rad50 (CtRad50NBD; light and dark orange). Two ATP&#947;S:Mg2+ (magenta and green, respectively) molecules are bound in the CtMre11RBD&#8211;Rad50NBD dimer interface. The red sphere in the Mre11RBD denotes the corresponding location of the human ATLD5/6 mutation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9176</offset>
+      <text>Stereo view of the ATP binding site. The ATP&#8208;interacting residues are highlighted and selected hydrogen bonds are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9303</offset>
+      <text>Detailed view of the CtMre11RBD&#8211;Rad50NBD interface. Residues that mediate contacts between the CtMre11RBD and the coiled&#8208;coil (CC) domain of Rad50 are represented as sticks.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9481</offset>
+      <text>Comparison of eukaryotic and prokaryotic Mre11RBD&#8211;Rad50NBD</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9542</offset>
+      <text>Crystal structures of Chaetomium thermophilum (A), Pyrococcus furiosus (B), Thermotoga maritima (C), and Methanocaldococcus jannaschii (D) Mre11RBD&#8211;Rad50NBD complexes are shown (PDB codes: 5DA9, 3QKU, 3QF7, and 3AV0, respectively). Eukaryotic&#8208;specific expansions in Mre11RBD (dark blue) and Rad50NBD (orange) are highlighted. Of note is the substantial enlargement of Mre11's RBD compared to the prokaryotic orthologs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9965</offset>
+      <text>Perhaps the most unexpected of these differences is the substantially enlarged Rad50&#8208;binding domain of Mre11. RBDs of bacterial SbcD (Thermotoga maritima) and archaeal Mre11 (Methanocaldococcus jannaschii) correspond to &#945;&#8208;helices 1&#8211;2 or 1&#8211;3 of the RBD of CtMre11. The location of the CtMre11RBD helix &#945;5, pointing toward the Rad50NBD, suggests that the remaining C&#8208;terminal polypeptide chain of eukaryotic Mre11 (approximately 100&#8211;200 additional amino acids depending on the species) is situated in the vicinity of the globular &#8220;head&#8221; of MRN, consistent with findings that identify the C&#8208;terminal region as important for stable DNA and Xrs2 binding as well as for meiotic recombination (Furuse et&#160;al, 1998; Usui et&#160;al, 1998; Bhattacharyya et&#160;al, 2008). Another indication of the importance of the conformation of the Mre11RBD domain is the fact that a mutation in this domain (T481&#8594;K in human) was found in two patients with AT&#8208;like disease (ATLD5/6) (Delia et&#160;al, 2004). Human T481 corresponds to Q489 in C.&#160;thermophilum, which is located in helix &#945;3 in CtMre11RBD (Figs&#160;1 and 2). It is likely that the mutation affects the stability of the RBD and the interaction between the RBD and the Rad50 coiled&#8208;coil.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11207</offset>
+      <text>A further noteworthy difference is insertion II, which is located in close proximity to the ATP&#8208;coordinating residues 62&#8211;68 (Figs&#160;2 and EV1) and forms a short &#945;&#8208;helix at the Rad50&#8211;Rad50 interface in the ATP&#8208;bound state. Interestingly, the regions around insertions I and II harbor three Rad50S mutations (Ser14&#8594;Pro, Arg20&#8594;Met, and Val63&#8594;Glu in S.&#160;cerevisiae), suggesting that these insertions could play a role in the regulation of MRN activity by CtIP/Sae2 (Alani et&#160;al, 1990; Cannavo &amp; Cejka, 2014). In particular, Ser14 and Ala64 (corresponding to Ser14 and Val63 in S.&#160;cerevisiae) contact ATP via main chain interactions and are located at the Rad50&#8211;Rad50 dimer interface, suggesting that ATP&#8208;dependent engagement of Rad50NBD or ATP hydrolysis is compromised (Appendix&#160;Fig S2). Compared with prokaryotic Rad50, the CtRad50 dimer groove is enlarged by &#946;&#8208;hairpin insertion III on top of lobe I and by insertion IV, a &#946;&#8208;hairpin (&#946;8 and &#946;9) that binds along the coiled&#8208;coil.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12218</offset>
+      <text>Structure&#8208;based sequence alignments</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12256</offset>
+      <text>Multiple sequence alignment of the nucleotide&#8208;binding domain of C.&#160;thermophilum Rad50 (CtRad50) with Homo sapiens (HsRad50), S.&#160;cerevisiae (ScRad50), M.&#160;jannaschii (MjRad50), P.&#160;furiosus (PfRad50), and T.&#160;maritima (TmRad50).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12488</offset>
+      <text>Multiple sequence alignment of the Rad50&#8208;binding domain of C.&#160;thermophilum Mre11 (CtMre11) with H.&#160;sapiens (HsMre11), S.&#160;cerevisiae (ScMre11), M.&#160;jannaschii (MjMre11), P.&#160;furiosus (PfMre11), and T.&#160;maritima (TmMre11). The T481, which is mutated in ATLD5/6 patients, is highlighted in red. In both (A) and (B), the sequences were aligned with Clustal Omega (Goujon et&#160;al, 2010; Sievers et&#160;al, 2011) and further optimized manually by comparison of the superimposed structures using PyMOL (Schrodinger, 2010). Highly conserved residues are highlighted with black background and residues with conserved properties are depicted in gray.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13130</offset>
+      <text>Architecture and dynamics of the eukaryotic Mre11&#8211;Rad50 head&#160;complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13202</offset>
+      <text>The structure of CtMre11RBD&#8211;Rad50NBD reported here together with a structure of the catalytic domain dimer of CtMre11 (CtMre11CD) (Seifert et&#160;al, 2015) enabled us to address the architecture and dynamics of the eukaryotic Mre11&#8211;Rad50 head module by chemical cross&#8208;linking and mass spectrometry (CXMS) in combination with small&#8208;angle X&#8208;ray scattering (SAXS). We superimposed the crystal structures of CtMre11CD and CtMre11RBD&#8211;Rad50NBD as rigid bodies onto the crystal structure of archaeal Mre11&#8211;Rad50NBD (PDB code 3AVO), resulting in a very reasonable fit between the Mre11 dimer and the Rad50 dimer (Fig&#160;3A). In this modeled complex, the C&#8208;terminus of the Mre11 capping domain (Ala412) and the N&#8208;terminus of Mre11RBD (Ser438) are approximately 10 &#197; apart, a distance that could be easily spanned by the 25 amino acids that connect these modules in the primary structure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14095</offset>
+      <text>Architecture and dynamics of the Mre11&#8211;Rad50NBD head module</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14157</offset>
+      <text>Comparison of bacterial, archaeal, and eukaryotic MRNBD in the ATP&#8208;bound state. Mre11&#160;N&#8208; and C&#8208;termini as well as the Rad50 coiled&#8208;coil (CC) domains are marked. Eukaryotic MRNBD docking model consists of dimeric CtMre11CD (light and dark blue) and CtMre11RBD&#8211;Rad50NBD (Mre11 in light and deep blue; Rad50 in beige and orange) superimposed onto MRNBD (PDB code: 3AV0) from M.&#160;jannaschii. Identified cross&#8208;links between the Rad50 and Mre11 subunits are marked as green lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14645</offset>
+      <text>Map of the identified intra (red)&#8208; and inter&#8208;protein cross&#8208;links (gray) between the MRN subunits.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14749</offset>
+      <text>Distribution of the measured lengths of the cross&#8208;links in the ATP&#8208;bound CtMRNBD model. Data from protein samples with and without ATP&#947;S are depicted.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14905</offset>
+      <text>SAXS scattering curve (left) and P(r) distribution curve (right) of MRhc (Appendix Fig S1) with (blue) and without (red) ATP&#947;S:Mg2+ show a compaction of the complex upon binding of ATP&#947;S:Mg2+.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15106</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15156</offset>
+      <text>To validate this model, we cross&#8208;linked the MRN head complex (MRNhc) with the lysine&#8208;specific cross&#8208;linker disuccinimidyl suberate (DSS) in the presence and absence of ATP&#947;S:Mg2+ and identified cross&#8208;linked peptides by mass spectrometry (Appendix&#160;Fig S3) (Tosi et&#160;al, 2013; Leitner et&#160;al, 2014). Cross&#8208;links were found between all&#160;three different polypeptide chains (Fig&#160;3B): 91 specific non&#8208;redundant&#160;cross&#8208;links in the presence and 149 non&#8208;redundant cross&#8208;links in the absence of ATP&#947;S:Mg2+. The C&#8208;terminal part of the Nbs1 construct used here cross&#8208;links with many regions of the Rad50NBD and Mre11 and is probably flexible. Next, we mapped cross&#8208;links between Mre11 and Rad50 onto the model for the closed complex. In the presence of ATP&#947;S, we identified 15 cross&#8208;links between Mre11 and Rad50. All cross&#8208;links, except two identified in the presence of ATP&#947;S:Mg2+, map with a lysine C&#945;&#8208;lysine C&#945; distance of 15&#8211;41 &#197;, validating the docked model (Fig&#160;3C). In the absence of ATP&#947;S, we identified 35 cross&#8208;links between Rad50 and Mre11. The increased number of cross&#8208;links could be the result of an increased flexibility between Mre11 and Rad50 or the presence of additional conformational states. In support of these possibilities, we also find a much broader distance distribution of these cross&#8208;links when mapped onto the model for the closed conformation, with many cross&#8208;links mapping to C&#945;&#8208;lysine C&#945; distance of &gt;&#160;41 &#197;.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16644</offset>
+      <text>To further analyze ATP&#8208;dependent structural dynamics, we performed SAXS analyses. Both the maximum distances (Dmax) and the mean distances in the particle become substantially smaller in the presence of ATP&#947;S (Fig&#160;3D). We have not been able to model the complex on the basis of the SAXS data in the absence and presence of ATP&#947;S; presumably, we still have subpopulations of different states or have highly flexible coiled coils. In addition, the scattering curves indicate that CtMR does not adopt a stable &#8220;open&#8221; form as has been observed for the bacterial complex. Nevertheless, our data suggest that, similar to bacterial and archaeal MR, ATP also induces a more closed state in eukaryotic MR (Lammens et&#160;al, 2011; Williams et&#160;al, 2011; M&#246;ckel et&#160;al, 2012; Deshpande et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17442</offset>
+      <text>Taken together, these analyses show that the eukaryotic Mre11&#8211;Rad50 head module undergoes ATP&#8208;dependent structural transitions and can adopt a more compact state in the presence of ATP, consistent with the model that a Rad50 dimer binds into the active site groove of the Mre11 dimer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17731</offset>
+      <text>Structural basis for ATP&#8208;dependent DNA binding by Rad50</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17789</offset>
+      <text>To establish a framework for DNA binding to eukaryotic Rad50 and to reveal how ATP promotes DNA binding to Rad50 proteins, we crystallized CtRad50NBD in the presence of a 22mer dsDNA and ATP&#947;S:Mg2+. Crystals in space group P212121 diffracted X&#8208;rays to 2.5&#160;&#197; resolution and we determined the structure by molecular replacement using CtRad50NBD as a search model. The asymmetric unit contained one Rad50 dimer bound to two ATP&#947;S:Mg2+ molecules and 15&#8208;bp dsDNA. Although stoichiometric amounts of Mre11 were also present in the crystallization drops, Mre11 was not part of the crystals. Data collection, refinement, and model statistics are summarized in Appendix&#160;Table&#160;S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18470</offset>
+      <text>DNA is well defined in the electron density and forms a quasi&#8208;continuous, undulating B&#8208;form DNA double helix in the crystal lattice (Figs&#160;4A and EV2A and B). The asymmetric unit accommodates only 15 of the 22 base pairs, suggesting that either Mre11 in the crystallization drops partially degraded the DNA during the long crystallization time (4&#160;months) or the DNA molecules are shifted between adjacent asymmetric units. For that reason, we were unable to assign the sequence of the co&#8208;crystallized DNA to the DNA model. However, density for the DNA backbone and bases is&#160;for the most part well defined and we consequently modeled bases using a generic oligo(dG:dC) 15mer into the electron density,&#160;which improved the stereochemistry, R&#8208;values, and the DNA density.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19249</offset>
+      <text>CtRad50NBD&#8211;DNA crystal structure</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19284</offset>
+      <text>The DNA forms a quasi&#8208;continuous helix in the crystal lattice. Shown are two adjacent Rad50NBD dimer complexes along with the 2mFO&#8208;DFC density (blue) contoured at 1&#160;&#963; for the dsDNA (light and dark orange). The quasi&#8208;continuous DNA argues against a role of the Rad50 DNA binding module in direct DNA end recognition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19608</offset>
+      <text>Cartoon model of the dsDNA (teal) in complex with the ATP&#947;S:Mg2+&#8208;bound Rad50NBD dimer (light and dark orange). DNA binds to both halves of the Rad50NBD dimer in a pseudo&#8208;symmetric fashion, revealing the mechanistic link between ATP&#8208;dependent dimerization of the Rad50NBDs and dsDNA binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19906</offset>
+      <text>Electron densities, electrostatic surface potentials and DNA induced conformational changes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19998</offset>
+      <text>Positive density (green) in the mFO&#8208;DFC difference electron density map corresponding to the dsDNA is contoured at 2.8&#160;&#963;. The 2mFO&#8208;DFC map (blue) for the CtRad50NBD dimer is contoured at 1&#160;&#963;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20198</offset>
+      <text>The final 2mFO&#8208;DFC map (blue) of the dsDNA contoured at 1&#160;&#963;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20263</offset>
+      <text>Electrostatic surface potential of CtRad50NBD from the DNA&#8208;bound crystal structure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20349</offset>
+      <text>Electrostatic surface potential of the DNA&#8208;free CtRad50NBD structure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20421</offset>
+      <text>CtRad50NBD&#8211;DNA structure with electrostatic surface potential of CtRad50NBD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20500</offset>
+      <text>Superimposition of DNA&#8208;free and DNA&#8208;bound CtRad50NBD crystal structures (gray and orange, respectively) reveals a different orientation of the coiled&#8208;coil domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20669</offset>
+      <text>The DNA duplex is situated in the positively charged groove between the two coiled coils of the Rad50 dimer (Figs&#160;4B and EV2C&#8211;F). Each of the two DNA strands binds to both sides of the Rad50 dimer in a pseudo&#8208;symmetric fashion. The observed DNA binding mode explains the previously unclear dependency of Rad50 DNA binding on the presence of ATP: The ATP&#8208;driven reorientation of lobes I and II, and dimerization of two Rad50NBDs positions assemble ten DNA binding motifs (five on each side of the dimer) to recognize an approximately 18&#8208;base pair&#8208;long DNA duplex via both backbone strands.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21269</offset>
+      <text>Details of ATP&#8208;dependent DNA binding of the Rad50 dimer</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21327</offset>
+      <text>The five DNA binding motifs are short amino acid sequences or single amino acids along the groove of the Rad50 dimer and together they bind in total 12 bases within the 18&#8208;bp duplex (Fig&#160;5A&#8211;C). The DNA is recognized through the minor groove backbone in a sequence&#8208;independent manner, whereby motifs I&#8211;III and motifs IV&#8211;V clamp the DNA between the opposing Rad50 protomers. For subsequent discussion, we will denote the strand polarity as the direction from the center toward the outside of the Rad50 dimer, that is, a 3&#8242;&#8594;5&#8242; strand on one side of the Rad50 dimer becomes the 5&#8242;&#8594;3&#8242; strand on the other side and vice versa.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21971</offset>
+      <text>Detailed view on the Rad50&#8211;DNA interaction</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22016</offset>
+      <text>View along the DNA binding groove in a cut&#8208;open ribbon representation. One Rad50NBD protomer is shown in full (orange and brown) and the other one is shown in part (beige). DNA binding motifs as identified here are numbered. DNA binds with both strands in a B&#8208;form conformation along the dimer groove to five motifs (I&#8211;V), predominantly via backbone&#8211;main chain interactions. Two notable arginines stabilize the interaction with DNA by interacting with the phosphate backbone (R1204) or binding into the minor groove (R61).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22547</offset>
+      <text>Scheme&#160;of the dsDNA and the interacting residues on only one&#8208;half of the Rad50 dimer is shown. The structure was analyzed with PDBsum (http://www.ebi.ac.uk/pdbsum) (de Beer et&#160;al, 2014) and the scheme was optimized manually. Motifs in protomer A and protomer B are highlighted in beige and orange, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22863</offset>
+      <text>Detailed view of the Rad50&#8211;DNA interaction (only one&#8208;half of the pseudo&#8208;symmetric binding site is shown). Motifs are numbered and selected residues are highlighted in stick representation. Note the &#8220;sandwich&#8221; type of binding of the DNA duplex between motifs I, II, III, R61 (minor groove), and R132 (major groove) on one protomer and motifs IV and V (both backbone) on the other protomer, which can occur only in the ATP&#8208;bound engaged Rad50NBD dimer.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23326</offset>
+      <text>Plate&#160;survival assay with wild&#8208;type, rad50&#916;, and rad50 mutant strains on YPD and DNA damage&#8208;inducing camptothecin (CPT) (for details, see Materials and Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23494</offset>
+      <text>Motif I is the top strand of the peripheral &#946;&#8208;sheet (&#946;6) of the ATP binding cassette (ABC) fold and binds the 5&#8242;&#8594;3&#8242; strand via interactions between the backbone of two consecutive bases to the main chain oxygen atoms of Thr110 and Gln113 as well as the main chain nitrogen atom of Thr113 (Fig&#160;5A&#8211;C). Motif II, the previously identified strand&#8208;loop&#8208;helix motif (Rojowska et&#160;al, 2014), contributes to the DNA interaction by providing charge complementarity and through interactions of Arg132 with the major groove and/or DNA backbone, but intriguingly appears to have a minor role in overall DNA recognition compared to what was previously found for bacterial Rad50 (see Discussion).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24194</offset>
+      <text>The 3&#8242;&#8594;5&#8242; strand is bound across the Rad50NBD dimer interface by motifs III, IV, and V. Motif III is situated in the central cavity of the DNA binding groove and connects the two main ATP binding elements, the helix &#945;A (following the P&#8208;loop/Walker A motif) and the adenine recognition loop (aa 64&#8211;68) (Fig&#160;5A&#8211;C). As such, this loop could play an important role in coupling DNA binding and ATP binding or hydrolysis. Motif III binds a DNA backbone phosphate via main chain and side chain interactions with Asn58 and by inserting Arg61 into the minor groove. The two preceding phosphates are recognized by Arg1204 (motif V) and motif IV from the opposing NBD. Motif IV is located at the N&#8208;terminal turn of &#945;F, which connects the nucleotide&#8208;binding and coiled&#8208;coil domains. It is located at the N&#8208;terminal end of the &#8220;signature coupling helix&#8221; as previously defined (Williams et&#160;al, 2011). Arg1204 (motif V) is situated in the Rad50 dimer interface and, in addition to directly binding to the phosphate backbone, it also stacks with Asn58 on motif III and could consequently more broadly facilitate DNA binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25331</offset>
+      <text>In summary, both strands of the dsDNA are recognized in a fashion that predominantly involves hydrogen bonds between the DNA backbone and the protein main chain in conjunction with three arginine fingers that reach into the minor groove or directly bind the DNA backbone at the Rad50 dimer interface. The interactions with Arg1204 and motifs III and V can only form in the tightly engaged, ATP&#8208;bound Rad50NBD dimer, which provides a further link between ATP and DNA binding to Rad50.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25817</offset>
+      <text>Functional analysis of Rad50 DNA interaction in Saccharomyces&#160;cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25891</offset>
+      <text>To test the relevance of the observed ATP&#8208;dependent DNA interaction of Rad50 in a functional context in&#160;vivo, we analyzed the capability of rad50 mutants to rescue the camptothecin (CPT, topoisomerase I inhibitor) sensitivity of a &#916;rad50 strain of S.&#160;cerevisiae. The Rad50NBD&#8211;DNA structure suggests that disruption of the dimer should abolish the ability of Rad50 to bind dsDNA and consequently hinder DNA repair. In agreement with this prediction, the dimer interface mutant S1205Sc&#8594;R (corresponding to Ser1208Ct), which prevents ATP&#8208;induced engagement of two Rad50NBDs (Fig&#160;EV3), shows high CPT sensitivity and displays the same phenotype as the &#916;rad50 (Fig&#160;5D; Appendix&#160;Fig S4A). To investigate whether the Rad50 mutants show CPT sensitivity purely because of their compromised DNA binding ability, or whether Rad50 dimerization is also necessary for other functions of the complex, we tested both the charge&#8208;reversal mutant K60Sc&#8594;E (corresponding to Arg61) in motif III and the double mutant K60Sc&#8594;E R131Sc&#8594;E. Arg61 binds the minor groove of dsDNA, but the mutation does not disrupt the dimerization of Rad50 (Fig&#160;EV3). Furthermore, DNA binding mutations do not disturb the overall integrity of the MRX complex in S.&#160;cerevisae (Appendix&#160;Fig S4B). K60Sc&#8594;E also shows CPT sensitivity, indicating that the phenotypes of the tested mutants result from their compromised ability to bind DNA (see below). We therefore conclude that for the repair of CPT&#8208;induced DNA damage, residues involved in ATP binding and hydrolysis, and consequently promote dimerization and formation of the DNA binding groove, play an equally important role as those that directly interact with the DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27598</offset>
+      <text>ATP&#8208;induced CtMre11RBD&#8211;Rad50NBD dimerization</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27647</offset>
+      <text>CtMre11RBD&#8211;Rad50NBD with wild&#8208;type Rad50 as well as R61E, R132E, and R61E&#160;+&#160;R132E mutants forms stable dimers in the presence of ATP. The S1208R mutant remains in a monomeric form.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27834</offset>
+      <text>In a previous study, we tested a number of mutants based upon the crystal structure of Thermotoga maritima (Tm) Rad50 in complex with dsDNA. The mutant R1201Sc&#8594;E (corresponding to R1204Ct) displayed severe defects in both telomere maintenance and DSB repair, but the basis for this phenotype remained enigmatic because the corresponding residue in TmRad50 does not directly contact the dsDNA in the crystal structure (Rojowska et&#160;al, 2014). However, the cause of the phenotype is clear from the structure of CtRad50 because this residue both directly contacts the backbone of the DNA and forms part of the dimer interface.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28460</offset>
+      <text>In summary, these mutational data suggest that interaction of DNA along the Rad50 dimer groove is critical for the repair of DSBs by MRN.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28598</offset>
+      <text>DNA double&#8208;strand break bridging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28633</offset>
+      <text>Biochemical studies indicated that MR and to a minor extent Rad50NBD can bridge two DNA ends in the presence of ATP, a function that is important for end&#8208;joining (Deshpande et&#160;al, 2014). While our structure indicates that the ATP&#8208;bound Rad50 does not directly recognize a DNA end, it is possible that Rad50 could bridge two DNA ends by a mechanism that involves stacking of two DNA ends across the Rad50 dimer groove. To address this question, we performed fluorescence anisotropy measurements, which allow the measurements of precise dissociation constants (Kd) (Figs&#160;6 and EV4; Appendix&#160;Tables S2 and S3). We first tested the effect of the DNA length as well as the presence of ATP on the DNA binding affinity of the Rad50NBD. A 35mer that could span the entire binding site of the Rad50 dimer was not bound by CtMre11RBD&#8211;Rad50NBD in the absence of ATP, but robustly bound with a Kd = 0.50&#160;&#177;&#160;0.02&#160;&#956;M in the presence of ATP (Fig&#160;6 and Appendix&#160;Table&#160;S2). These data show that ATP is critical for DNA binding to CtMre11RBD&#8211;Rad50NBD and validate the structural data. A corresponding dsDNA 17mer that is too short to fully reach across the Rad50NDB dimer was bound with a Kd&#160;=&#160;2.33&#160;&#177;&#160;0.09&#160;&#956;M to ATP&#8208;Mre11RBD&#8208;CtRad50NBD. This substantially reduced affinity compared to the 35mer DNA is consistent with the structural results that show that Rad50 needs 18&#160;bp to fully reach across its DNA binding platform.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30067</offset>
+      <text>DNA binding analysis by fluorescence anisotropy</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30115</offset>
+      <text>Data points represent the change in fluorescence anisotropy (arbitrary units). The various DNA ligands are depicted with different colors and symbols (see inset). DNA binding for the 35mer dsDNA is shown in all panels as high&#8208;affinity standard. Data are means of three independent experiments, and error bars represent standard error (n&#160;=&#160;3). The solid lines represent the least square fit to a Hill binding model. DNA binding of wild&#8208;type CtMre11RBD&#8211;Rad50NBD to 35&#8208;bp dsDNA in the presence and absence of ATP as well as to different DNA substrates was tested (A&#8211;C). The affinity to 35&#8208;bp dsDNA was also measured with wild&#8208;type CtMre11RBD&#8211;Rad50NBD and CtMre11RBD&#8211;Rad50NBD containing Rad50 mutants (R61E, R132E, R61E+R132E, S1208R) (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30871</offset>
+      <text>Additional DNA binding experiments by fluorescence anisotropy</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30933</offset>
+      <text>Fluorescence anisotropy measurements for DNA binding analysis of the CtMre11RBD&#8211;Rad50NBD complex with different DNA substrates.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31063</offset>
+      <text>However, instead of binding a single duplex of at least 18&#160;bp, the Rad50 dimer might also bind two DNA ends with either stacked or annealed complementary overhangs. To address this possibility, we also tested DNA substrates with different types of overhangs. A 20mer with a five base 5&#8242; overhang has a similar affinity (Kd&#160;=&#160;2.13&#160;&#177;&#160;0.10&#160;&#956;M) to the blunt&#8208;ended 17mer. However, a 5&#8208;base pair 3&#8242; overhang resulted in a notable increase in binding affinity (Kd&#160;=&#160;1.25&#160;&#177;&#160;0.22&#160;&#956;M), indicating a preference for 3&#8242; overhangs. This distinction can be explained by the binding mode of DNA to the Rad50 dimer (see Discussion). Extending the 3&#8242; or 5&#8242; overhangs to 20 bases resulted in tight binding with Kd values of 0.36&#160;&#177;&#160;0.02&#160;&#956;M and 0.59&#160;&#177;&#160;0.03&#160;&#956;M, respectively. These long DNAs could easily span the Rad50NBD dimer, but at least a partial DNA duplex is required since a 35&#8208;b ssDNA bound with a reduced Kd&#160;=&#160;1.71&#160;&#177;&#160;0.23&#160;&#956;M.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32026</offset>
+      <text>To test the simultaneous binding of two DNA ends to the Rad50 dimer, we mixed two 20mers that contained five nucleotide long complementary 3&#8242; or 5&#8242; overhangs. The two 20mers in each of the two mixtures can anneal via these overhangs, resembling two bridged partially processed DNA ends with a short homology. In the case of 5&#8242; overhangs, we calculated a Kd&#160;=&#160;1.77&#160;&#177;&#160;0.09&#160;&#956;M for the labeled DNA in the presence of a second 20mer with a complementary overhang. Thus, the binding affinity is only slightly increased compared to the Kd in the absence of the second 20mer. However, the situation is substantially different in the case of complementary 3&#8242; overhangs. Here, we calculated a Kd&#160;=&#160;0.48&#160;&#177;&#160;0.04&#160;&#956;M for the labeled DNA in the presence of a second molecule with a complementary overhang. This affinity is almost the same as observed for the continuous 35&#8208;bp dsDNA (Kd&#160;=&#160;0.50&#160;&#177;&#160;0.02&#160;&#956;M).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32947</offset>
+      <text>In summary, these data provide a quantitative evaluation of ATP&#8208;dependent binding of DNA to the Mre11RBD&#8211;Rad50NBD module. Consistent with the structural analysis, the equilibrium binding assays suggest that the ATP&#8208;bound Rad50 dimer binds either a continuous duplex, a partial duplex of sufficient length, or two DNA ends that are annealed via 3&#8242; overhangs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>33313</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33324</offset>
+      <text>The MR complex is a central factor in the metabolism of DNA ends in all kingdoms of life and has multiple functions in the tethering, processing, and&#8212;in eukaryotes&#8212;checkpoint signaling of DSBs (Stracker &amp; Petrini, 2011). A critical role of MRN is the ability to process blocked or modified DNA ends in order to elicit MMEJ or HR. These DNA ends include meiotic breaks with covalently attached Spo11, hairpin structures, abortive topoisomerases, or DNA ends bound by Ku (Liu et&#160;al, 2002; Lobachev et&#160;al, 2002; Neale et&#160;al, 2005; Mimitou &amp; Symington, 2010; Langerak et&#160;al,&#160;2011; Sacho &amp; Maizels, 2011). The yeast ortholog Mre11&#8211;Rad50&#8211;Xrs2 (MRX) cleaves the 5&#8242; strand approximately 15&#8211;25&#160;nt from the DNA end in&#160;vitro in a reaction that requires ATP hydrolysis, Mre11's nuclease motif, and the Sae2/CtIP protein (Garcia et&#160;al, 2011; Cannavo &amp; Cejka, 2014; Shibata et&#160;al, 2014). Endonucleolytic cleavage of DNA near the breaks has also been observed for both archaeal and bacterial homologs, and could play a role in deprotection of DNA ends in bacteriophage T4 recombination (Connelly et&#160;al, 2003; Hopkins &amp; Paull, 2008; Almond et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34485</offset>
+      <text>The precise mechanism of how ATP aids and regulates nucleolytic and structural functions in all of these reactions is not understood. Structural studies established that in the presence of ATP, prokaryotic MR complexes adopt a &#8220;closed&#8221; conformation in which the Rad50NBD dimer binds into the Mre11 active site groove and blocks its nuclease active site (Lim et&#160;al, 2011; M&#246;ckel et&#160;al, 2012). In contrast, the TmMR complex in the absence of ATP adopted an open state with exposed Mre11 nuclease active sites (Lammens et&#160;al, 2011), consistent with its ability to act as a 3&#8242;&#8211;5&#8242; exonuclease or open hairpin structures (Paull &amp; Gellert, 1998). The present structure of the C.&#160;thermophilum ATP&#8208;Mre11RBD&#8211;Rad50NBD dimer, our recently reported structure of the C.&#160;thermophilum Mre11CD (catalytic domain) dimer (Seifert et&#160;al, 2015), and CXMS and SAXS analyses suggest that for the eukaryotic MRN head module ATP leads a closed state similar to what has been observed for the prokaryotic MR head (Fig&#160;7A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35504</offset>
+      <text>Model of the MR complex in DNA end bridging</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35548</offset>
+      <text>Composite model of the ATP&#8208;bound MRN complex (Rad50 dimer in light and dark orange; Mre11 (PDB code 4YKE) dimer in light and dark blue, Nbs1 (PDB code 4FBW) in magenta) bound to dsDNA (teal). The C&#8208;terminal tails of Mre11 and the N&#8208; and C&#8208;terminal parts of Nbs1 are not part of the structural model and are indicated as dashed lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35890</offset>
+      <text>Unified model for the ATP&#8208;dependent binding of a blocked (gray sphere) DNA end and bridging of two DNA ends by Rad50. Orange and yellow circles represent key interacting DNA backbone phosphates. DNA binding motifs I&#8211;V can bind either continuous dsDNA or two end&#8208;to&#8208;end stacked DNA ends. The particular arrangement of motifs explains the preference of complementary 3&#8242; overhangs over blunt ends or 5&#8242; overhangs. In the case of 3&#8242; overhangs, the two tails can anneal and generate a cohesive bridge without discontinuities at the Rad50 DNA binding motifs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36457</offset>
+      <text>Our results can explain how MRN can bind to both continuous DNA near blocked DNA double&#8208;strand breaks but also function in the bridging of DNA ends in end&#8208;joining reactions, preferentially those with 3&#8242; overhangs and microhomologies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36697</offset>
+      <text>Work by others and us has suggested that the ATP&#8208;bound state is critical for telomere maintenance, end&#8208;joining, DNA tethering or DNA end bridging, and ATM activation (Nakada et&#160;al, 2003; Lee et&#160;al, 2013; Deshpande et&#160;al, 2014; Rojowska et&#160;al, 2014). The structure reported here reveals now how DNA is bound to ATP&#8211;Rad50. The Rad50 dimer preferentially recognizes &gt;&#160;18&#160;bp of a continuous DNA duplex, as well as a longer duplex DNA with 3&#8242; overhangs, or two annealed DNA ends with short complementary 3&#8242; overhangs. The structure argues against a direct role of the Rad50 module in the sensing of single DNA ends, a function that we propose resides in the Mre11 module. The Mre11 dimer has previously been shown to bind a single DNA end or (Sung et&#160;al, 2014) alternatively bridge two DNA ends (Williams et&#160;al, 2008). Furthermore, the preference for 3&#8242; tails by the Rad50NBD is consistent with data on the full&#8208;length human MRN. In the absence of ATP, it was observed that human MR has a preference for 5&#8242; tails, whereas in the presence of ATP or AMP&#8208;PNP, the complex gained a strong preference for 3&#8242; tails (de Jager et&#160;al, 2002). Thus, in the absence of ATP, DNA end bridging could occur via Mre11, which might have a preference for 5&#8242; overhangs according to the crystal structures (Williams et&#160;al, 2008), whereas in the presence of ATP, Rad50 could bridge the resected 3&#8242; tails.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38109</offset>
+      <text>In the bridging conformation, DNA with short 3&#8242; overhangs is able to interact with its duplex at motifs I and III of one NBD, while the 3&#8242; overhang can continue over to the second NBD to interact with motifs IV and V. Therefore, two annealed 3&#8242; overhangs would have the nicks at the solvent&#8208;exposed side of the bound DNA. In contrast, two short annealed 5&#8242; overhangs would have the nicks at the interface of DNA and protein, weakening their interaction (Fig&#160;7B). Along the same arguments, the preference for 3&#8242; overhangs might be alleviated for longer complementary overhangs. In any case, by bridging DNA ends with 3&#8242; overhangs at microhomologies, arising after MRN&#8208; and CtIP&#8208;dependent initial processing of DNA, MRN could help to protect the DNA ends from further processing (e.g., by MRN's own ssDNA endonuclease). Since MR is important for the end&#8208;to&#8208;end coordination of recombination in bacteriophages (Almond et&#160;al, 2013), such a direct bridging of DNA ends could be a more universal function of the complex as well (Fig&#160;7C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39166</offset>
+      <text>The DNA binding mode reported here is somewhat different to the one previously observed for the bacterial Rad50&#8211;ATP&#8211;DNA complex (Rojowska et&#160;al, 2014). In the bacterial complex, the DNA&#160;did not bridge both Rad50 protomers and could not explain why Rad50 requires ATP for robust DNA binding (Fig&#160;EV5A&#8211;C). Furthermore, the binding motifs on lobe I differ between the bacterial and eukaryotic complexes: In the prokaryotic complex, the 5&#8242;&#8211;3&#8242; strand binds along &#946;7, while in the eukaryotic complex, the 3&#8242;&#8211;5&#8242; strand binds along &#946;6. Rad50 consequently appears to &#8220;hop&#8221; from&#160;one DNA strand of the duplex to the other between both structures. This binding promiscuity could help Rad50 retain DNA contacts when, for instance, one of the two ATP molecules is hydrolyzed and the NBD dimer is partially opened up during other conformational changes in the reaction cycle of MRN or MR complexes. Interestingly, we find that the signature motif mutant S1208R prevents ATP&#8208;dependent dimerization but still leads to increased DNA binding in the presence of ATP than the wild&#8208;type Rad50 in the absence of ATP. This suggests that ATP stabilizes a conformation within the &#8220;monomeric&#8221; NBD that leads to a higher affinity DNA binding. It has been previously shown that ATP&#8208;induced conformational transitions between lobes I and II of P.&#160;furiosus Rad50NBD regulate the different functions of the complex and that the apo and ATP&#8208;bound conformations are stabilized via alternating hydrogen bonding and ion pair networks (Williams et&#160;al, 2011; Deshpande et&#160;al, 2014). Although we do not have a structure of apoRad50NBD for a detailed comparative study, we do observe an intricate polar bonding network also in the ATP&#8208;bound C.&#160;thermophilum Rad50NBD, suggesting that a related conformational change could take place upon ATP binding to eukaryotic Rad50. Such a conformational state might increase DNA binding at the monomeric NBD (as deduced from the S1208R mutation) via a proper orientation of the DNA binding motifs on lobes I and II.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41226</offset>
+      <text>Comparison between CtRad50NBD&#8211;DNA and TmRad50NBD&#8211;DNA (PDB code: 4W9M) crystal structures</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41319</offset>
+      <text>Superimposition of TmRad50NBD&#8211;DNA structure onto the Rad50NBD&#8211;DNA structure of C.&#160;thermophilum (CtRad50NBD&#8211;DNA).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41439</offset>
+      <text>Close&#8208;up view of the DNA interaction in lobe I.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41489</offset>
+      <text>Comparison of the different DNA binding modes between CtRad50 and TmRad50 at lobe I.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41574</offset>
+      <text>Finally, our data establish that recognition of DNA along the groove of ATP&#8208;bound Rad50 dimers is also important for the repair functions of the complex, since Rad50 alleles with mutation in the core DNA binding residue K60Sc cannot rescue the CPT sensitivity of &#916;rad50. We previously showed that R1201ESc led to sensitivity against hydroxyurea, CPT, and bleomycin (Rojowska et&#160;al, 2014), suggesting that DNA binding to Rad50, as observed here, is important for a broad range of lesions that require MRX for repair. Most importantly, the requirement for DNA binding along the Rad50 groove in the ATP&#8208;bound conformation argues against a simple two&#8208;state &#8220;open&#8221; and &#8220;closed&#8221; model for the action of MRN at DNA lesions. How can Mre11 process the DNA in the closed state (Fig&#160;7A)? One possibility is that the Mre11 dimer is structurally remodeled or displaced upon ATP and DNA binding to Rad50 such that Mre11's nuclease can reach the DNA bound to ATP&#8211;Rad50. Although the nature of such a hypothetical remodeling or opening of the Mre11 dimer requires future studies, previous cross&#8208;linking data indicate that substantial structural changes occur in the Mre11 dimer in response to Rad50 binding ATP (Lammens et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42814</offset>
+      <text>In summary, the structure of the eukaryotic ATP&#947;S&#8211;Rad50&#8211;DNA complex reveals the enigmatic mechanism for the ATP&#8208;dependent recognition of DNA by Rad50 and provides a framework for a functionally critical DNA state of MRN in DNA processing, end bridging, and signaling. They provide the first structural framework for the ATP&#8208;regulated interaction of a chromosome&#8208;associated ABC ATPase of the Rad50/SMC/RecN protein family with DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43256</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43278</offset>
+      <text>Protein preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43298</offset>
+      <text>For co&#8208;expression of different MR(N) sub&#8208;complexes, plasmids were co&#8208;transformed into E.&#160;coli cells and expression was carried out at 18&#176;C overnight. Cells were centrifuged, resuspended in buffer A (25&#160;mM Tris pH 8.0, 300&#160;mM NaCl, 10&#160;mM imidazole), and lysed. Protein was purified using metal&#8208;affinity and size&#8208;exclusion chromatography. Details about protein synthesis and purification are provided in the Appendix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43729</offset>
+      <text>Crystallization, data processing, structure determination, and&#160;refinement</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43804</offset>
+      <text>Crystals of CtMre11RBD&#8211;Rad50NBD were grown by hanging drop vapor diffusion. Diffraction data up to a resolution of 3.0&#160;&#197; were collected, indexed, and scaled (see Appendix&#160;Supplementary Methods). The structure of CtMre11RBD&#8211;Rad50NBD was solved by single&#8208;wavelength anomalous diffraction (SAD). The crystals contained one Mre11RBD&#8211;Rad50NBD dimer per asymmetric unit and the space group was I 222.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44210</offset>
+      <text>To crystallize CtRad50NBD&#8211;DNA, the purified MRhc (Appendix Fig S1) complex (14.1&#160;mg/ml) was mixed with 12&#160;mM MgCl2, 5&#160;mM ATP&#947;S, and 95&#160;&#956;M dsDNA. After 4&#160;months, crystals appeared were cryoprotected and flash&#8208;cooled in liquid nitrogen. Diffraction data up to a resolution of 2.5&#160;&#197; were collected and the structure was solved by molecular replacement using Phaser with the structure of CtRad50NBD as a search model (McCoy et&#160;al, 2007). After rounds of manual model building and refinement, density in the mFO&#8208;DFC electron density map allowed modeling of B&#8208;form dsDNA. The space group was P212121 and Rad50NBD&#8211;DNA crystals contained one dimer and 15&#8208;bp dsDNA per asymmetric unit. See Appendix for more details and Appendix&#160;Table&#160;S1 for collection and refinement statistics. Figures were prepared using PyMOL (Schrodinger, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45060</offset>
+      <text>Small&#8208;angle X&#8208;ray scattering (SAXS) experiment</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45111</offset>
+      <text>Chaetomium thermophilum MRhc protein was purified as described and the flow through of the concentration step was used as buffer reference for the small&#8208;angle X&#8208;ray scattering (SAXS) measurements. The MRhc complex without ATP&#947;S was concentrated to 4.4&#160;mg/ml. For measurement of the MRhc complex in the presence of a non&#8208;hydrolyzable ATP analog, 2&#160;mM ATP&#947;S and 8&#160;mM MgCl2 were added before concentrating the protein up to 4.9&#160;mg/ml. The two samples were measured at the EMBL P12 beamline of the German Electron Synchrotron (DESY, Hamburg, Germany). The SAXS data&#160;were analyzed using the ATSAS 2.5.1 package (Petoukhov et&#160;al, 2012). The P(r) distribution curve shows a smaller Dmax of the protein in the presence of ATP&#947;S and the mean inter&#8208;atomic distance in the protein also decreases. Details are provided in the&#160;Appendix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45953</offset>
+      <text>Chemical cross&#8208;linking experiment and mass spectrometry (CXMS) analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46027</offset>
+      <text>The MRNhc complex (Appendix Fig S1) was applied to a S200 GL10/300 (GE Healthcare) size&#8208;exclusion chromatography column equilibrated with 200&#160;mM NaCl and 25&#160;mM HEPES pH 8.2. For analysis in the presence of ATP&#947;S, the protein was mixed with 12&#160;mM MgCl2 and 5&#160;mM ATP&#947;S prior to the cross&#8208;linking reaction. In short, the protein complex was cross&#8208;linked with an equimolar mixture of isotopically light and heavy labeled disuccinimidyl suberate (DSS&#8208;d0/d12, Creative Molecules Inc.). The reaction was performed at 30&#176;C for 35&#160;min and quenched with 100&#160;mM Tris&#8211;HCl pH 8.0 (final concentration). The cross&#8208;linked complex was tryptically digested and cross&#8208;linked peptides were purified by size&#8208;exclusion chromatography prior to LC&#8208;MS/MS analysis on an UPLC (EASY&#8208;nLC 1000, Thermo Scientific) online coupled to an LTQ Orbitrap Elite system (Thermo Scientific) as described earlier (Herzog et&#160;al, 2012). Mass spectrometric data were analyzed using the xQUEST/xPROPHET software suite and further manually validated (Walzthoeni et&#160;al, 2012). A full list of the cross&#8208;links and more details on the CXMS analysis are provided in the source data for Fig&#160;3 and Appendix&#160;Supplementary Methods, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47255</offset>
+      <text>Fluorescence anisotropy measurements</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47292</offset>
+      <text>Mre11RBD&#8211;Rad50NBD dilutions were prepared in assay buffer, incubated for 1&#160;h, and then mixed with labeled dsDNA (at a final concentration of 50&#160;nM) in a 1:1 (v/v) ratio. After equilibration, the fluorescence anisotropy was measured. The data were analyzed with Prism (Version 6 for Windows, GraphPad Software, La Jolla California USA, www.graphpad.com.) and fit to a Hill model as well as a single&#8208;site binding model accounting for receptor depletion (Figs&#160;6 and EV4; Appendix&#160;Table&#160;S2). For details, see Appendix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47816</offset>
+      <text>Plate&#160;survival assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47838</offset>
+      <text>The plate survival assay with S. cerevisiae carrying wild&#8208;type or mutated Rad50 allele was performed as described before (Rojowska et&#160;al, 2014). Briefly, freshly growing cells from a plate were resuspended in deionized water and diluted to OD600 of 1 and serial tenfold dilutions were prepared. W303&#8208;1a wild&#8208;type and W303&#8208;1a &#916;rad50 strains were kind gifts from Katja Str&#228;sser and Steve Jackson, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48258</offset>
+      <text>Accession codes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48274</offset>
+      <text>Coordinates and structure factors have been deposited in the Protein Data Bank under accession codes 5DA9 for CtMre11RBD&#8211;Rad50NBD and 5DAC for CtRad50RBD&#8211;DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48437</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48458</offset>
+      <text>FUS, KL, and KPH designed the experiments. FUS cloned, purified, and crystallized the proteins with help of BK, FUS and KL analyzed SAXS and X&#8208;ray data and FUS built the atomic models. GS performed and evaluated the&#160;CXMS experiment and FUS carried out fluorescence anisotropy measurements. BK, FUS, and KL performed the yeast assays. KPH supervised the research.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48824</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48845</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48905</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>48928</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">436</infon>
+      <infon key="pub-id_pmid">2185891</infon>
+      <infon key="fpage">419</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>48939</offset>
+      <text>Analysis of wild&#8208;type and rad50 mutants of yeast suggests an intimate relationship between meiotic chromosome synapsis and recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">195</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">755</infon>
+      <infon key="pub-id_pmid">23979587</infon>
+      <infon key="fpage">739</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49078</offset>
+      <text>Coordination and processing of DNA ends during double&#8208;strand break repair: the role of the bacteriophage T4 Mre11/Rad50 (MR) complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D296</infon>
+      <infon key="pub-id_pmid">24153109</infon>
+      <infon key="fpage">D292</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49213</offset>
+      <text>PDBsum additions</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">690</infon>
+      <infon key="pub-id_pmid">17486112</infon>
+      <infon key="fpage">683</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>49230</offset>
+      <text>Roles of ATM and NBS1 in chromatin structure modulation and DNA double&#8208;strand break repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">Chromosoma</infon>
+      <infon key="lpage">366</infon>
+      <infon key="pub-id_pmid">18335232</infon>
+      <infon key="fpage">357</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>49323</offset>
+      <text>Mre11 nuclease and C&#8208;terminal tail&#8208;mediated DDR functions are required for initiating yeast telomere healing</text>
+    </passage>
+    <passage>
+      <infon key="volume">514</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">125</infon>
+      <infon key="pub-id_pmid">25231868</infon>
+      <infon key="fpage">122</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49436</offset>
+      <text>Sae2 promotes dsDNA endonuclease activity within Mre11&#8208;Rad50&#8208;Xrs2 to resect DNA breaks</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="source">J Mol Med</infon>
+      <infon key="lpage">412</infon>
+      <infon key="pub-id_pmid">18270679</infon>
+      <infon key="fpage">401</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>49527</offset>
+      <text>Activation of phosphoinositide 3&#8208;kinase by the NBS1 DNA repair protein through a novel activation motif</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">23637284</infon>
+      <infon key="fpage">a012757</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49633</offset>
+      <text>Repair of double&#8208;strand breaks by end joining</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1046</infon>
+      <infon key="pub-id_pmid">9927737</infon>
+      <infon key="fpage">1039</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>49681</offset>
+      <text>DNA cleavage and degradation by the SbcCD protein complex from Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">DNA Repair (Amst)</infon>
+      <infon key="lpage">807</infon>
+      <infon key="pub-id_pmid">12826280</infon>
+      <infon key="fpage">795</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>49761</offset>
+      <text>Nucleolytic processing of a protein&#8208;bound DNA end by the E.&#160;coli SbcCD (MR) complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">147</infon>
+      <infon key="pub-id_pmid">11511367</infon>
+      <infon key="fpage">137</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>49848</offset>
+      <text>Mre11 protein complex prevents double&#8208;strand break accumulation during chromosomal DNA replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">2163</infon>
+      <infon key="pub-id_pmid">15269180</infon>
+      <infon key="fpage">2155</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>49949</offset>
+      <text>MRE11 mutations and impaired ATM&#8208;dependent responses in an Italian family with ataxia&#8208;telangiectasia&#8208;like disorder</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2191</infon>
+      <infon key="pub-id_pmid">11238951</infon>
+      <infon key="fpage">2184</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>50070</offset>
+      <text>Distinct functional domains of nibrin mediate Mre11 binding, focus formation, and nuclear localization</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">500</infon>
+      <infon key="pub-id_pmid">24493214</infon>
+      <infon key="fpage">482</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>50173</offset>
+      <text>ATP&#8208;driven Rad50 conformations regulate DNA tethering, end resection, and ATM checkpoint signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">6425</infon>
+      <infon key="pub-id_pmid">9799249</infon>
+      <infon key="fpage">6412</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>50274</offset>
+      <text>Distinct roles of two separable in&#160;vitro activities of yeast Mre11 in mitotic and meiotic recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">1935</infon>
+      <infon key="pub-id_pmid">21673501</infon>
+      <infon key="fpage">1928</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>50379</offset>
+      <text>Unique and redundant functions of ATM and DNA&#8208;PKcs during V(D)J recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">479</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">244</infon>
+      <infon key="pub-id_pmid">22002605</infon>
+      <infon key="fpage">241</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>50459</offset>
+      <text>Bidirectional resection of DNA double&#8208;strand breaks by Mre11 and Exo1</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W699</infon>
+      <infon key="pub-id_pmid">20439314</infon>
+      <infon key="fpage">W695</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>50531</offset>
+      <text>A new bioinformatics analysis tools framework at EMBL&#8208;EBI</text>
+    </passage>
+    <passage>
+      <infon key="volume">191</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">64</infon>
+      <infon key="pub-id_pmid">22555442</infon>
+      <infon key="fpage">33</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>50591</offset>
+      <text>Mating&#8208;type genes and MAT switching in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">337</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1352</infon>
+      <infon key="pub-id_pmid">22984071</infon>
+      <infon key="fpage">1348</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>50657</offset>
+      <text>Structural probing of a protein phosphatase 2A network by chemical cross&#8208;linking and mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">1131</infon>
+      <infon key="pub-id_pmid">21892167</infon>
+      <infon key="fpage">1124</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>50762</offset>
+      <text>The Rad50 coiled&#8208;coil domain is indispensable for Mre11 complex functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">182</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">6041</infon>
+      <infon key="pub-id_pmid">11029422</infon>
+      <infon key="fpage">6036</infon>
+      <infon key="year">2000a</infon>
+      <infon key="type">ref</infon>
+      <offset>50838</offset>
+      <text>Mre11 and Rad50 from Pyrococcus furiosus: cloning and biochemical characterization reveal an evolutionarily conserved multiprotein machine</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">800</infon>
+      <infon key="pub-id_pmid">10892749</infon>
+      <infon key="fpage">789</infon>
+      <infon key="year">2000b</infon>
+      <infon key="type">ref</infon>
+      <offset>50977</offset>
+      <text>Structural biology of Rad50 ATPase: ATP&#8208;driven conformational control in DNA double&#8208;strand break repair and the ABC&#8208;ATPase superfamily</text>
+    </passage>
+    <passage>
+      <infon key="volume">418</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">566</infon>
+      <infon key="pub-id_pmid">12152085</infon>
+      <infon key="fpage">562</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>51118</offset>
+      <text>The Rad50 zinc&#8208;hook is a structure joining Mre11 complexes in DNA recombination and repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">260</infon>
+      <infon key="pub-id_pmid">18957200</infon>
+      <infon key="fpage">250</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>51211</offset>
+      <text>The P.&#160;furiosus mre11/rad50 complex promotes&#160;5&#8242; strand resection at a DNA double&#8208;strand break</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">4431</infon>
+      <infon key="pub-id_pmid">12384589</infon>
+      <infon key="fpage">4425</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>51311</offset>
+      <text>DNA end&#8208;binding specificity of human Rad50/Mre11 is influenced by ATP</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">25324213</infon>
+      <infon key="fpage">a016634</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>51383</offset>
+      <text>Mechanism and regulation of meiotic recombination initiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">66</infon>
+      <infon key="pub-id_pmid">21458667</infon>
+      <infon key="fpage">54</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>51444</offset>
+      <text>The Mre11:Rad50 structure shows an ATP&#8208;dependent molecular clamp in DNA double&#8208;strand break repair</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21931565</infon>
+      <infon key="fpage">e1002271</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>51547</offset>
+      <text>Release of Ku and MRN from DNA ends by Mre11 nuclease activity and Ctp1 is required for homologous recombination repair of double&#8208;strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">12851</infon>
+      <infon key="pub-id_pmid">23525106</infon>
+      <infon key="fpage">12840</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>51693</offset>
+      <text>Ataxia telangiectasia&#8208;mutated (ATM) kinase activity is regulated by ATP&#8208;driven conformational changes in the Mre11/Rad50/Nbs1 (MRN) complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">137</infon>
+      <infon key="pub-id_pmid">24356771</infon>
+      <infon key="fpage">120</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>51837</offset>
+      <text>Lysine&#8208;specific chemical cross&#8208;linking of protein complexes and identification of cross&#8208;linking sites using LC&#8208;MS/MS and the xQuest/xProphet software pipeline</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1104</infon>
+      <infon key="pub-id_pmid">21511873</infon>
+      <infon key="fpage">1091</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>52004</offset>
+      <text>Crystal structure of the Mre11&#8208;Rad50&#8208;ATP&#947;S complex: understanding the interplay between Mre11 and Rad50</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">146</infon>
+      <infon key="pub-id_pmid">17936710</infon>
+      <infon key="fpage">134</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>52113</offset>
+      <text>Ctp1 is a cell&#8208;cycle&#8208;regulated protein that functions with Mre11 complex to control double&#8208;strand break repair by Homologous Recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">713</infon>
+      <infon key="pub-id_pmid">15369670</infon>
+      <infon key="fpage">699</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>52258</offset>
+      <text>Choreography of the DNA damage response: spatiotemporal relationships among checkpoint and repair proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">14975</infon>
+      <infon key="pub-id_pmid">12397185</infon>
+      <infon key="fpage">14970</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>52365</offset>
+      <text>Repair of topoisomerase I covalent complexes in the absence of the tyrosyl&#8208;DNA phosphodiesterase Tdp1</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">193</infon>
+      <infon key="pub-id_pmid">11832209</infon>
+      <infon key="fpage">183</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>52469</offset>
+      <text>The Mre11 complex is required for repair of hairpin&#8208;capped double&#8208;strand breaks and&#160;prevention of chromosome rearrangements</text>
+    </passage>
+    <passage>
+      <infon key="volume">417</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">650</infon>
+      <infon key="pub-id_pmid">19133841</infon>
+      <infon key="fpage">639</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>52598</offset>
+      <text>Repair of ionizing radiation&#8208;induced DNA double&#8208;strand breaks by non&#8208;homologous end&#8208;joining</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="lpage">674</infon>
+      <infon key="pub-id_pmid">19461840</infon>
+      <infon key="fpage">658</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>52698</offset>
+      <text>Phaser crystallographic software</text>
+    </passage>
+    <passage>
+      <infon key="volume">455</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">774</infon>
+      <infon key="pub-id_pmid">18806779</infon>
+      <infon key="fpage">770</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>52731</offset>
+      <text>Sae2, Exo1 and Sgs1 collaborate in DNA double&#8208;strand break processing</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3369</infon>
+      <infon key="pub-id_pmid">20729809</infon>
+      <infon key="fpage">3358</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>52803</offset>
+      <text>Ku prevents Exo1 and Sgs1&#8208;dependent resection of DNA ends in the absence of a functional MRX complex or Sae2</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">927</infon>
+      <infon key="pub-id_pmid">21937514</infon>
+      <infon key="fpage">914</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>52914</offset>
+      <text>ATP driven structural changes of the bacterial Mre11:Rad50 catalytic head complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1962</infon>
+      <infon key="pub-id_pmid">12923051</infon>
+      <infon key="fpage">1957</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>52996</offset>
+      <text>ATM&#8208;related Tel1 associates with double&#8208;strand breaks through an Xrs2&#8208;dependent mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">436</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1057</infon>
+      <infon key="pub-id_pmid">16107854</infon>
+      <infon key="fpage">1053</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>53092</offset>
+      <text>Endonucleolytic processing of covalent protein&#8208;linked DNA double&#8208;strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">18</infon>
+      <infon key="pub-id_pmid">24326623</infon>
+      <infon key="fpage">7</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>53175</offset>
+      <text>Double&#8208;strand break repair: 53BP1 comes into focus</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">979</infon>
+      <infon key="pub-id_pmid">9651580</infon>
+      <infon key="fpage">969</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>53228</offset>
+      <text>The 3&#8242; to 5&#8242; exonuclease activity of Mre 11 facilitates repair of DNA double&#8208;strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="lpage">350</infon>
+      <infon key="pub-id_pmid">25484842</infon>
+      <infon key="fpage">342</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53325</offset>
+      <text>New developments in the program package for small&#8208;angle scattering data analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">532</infon>
+      <infon key="source">Mutat Res</infon>
+      <infon key="lpage">203</infon>
+      <infon key="pub-id_pmid">14643436</infon>
+      <infon key="fpage">173</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>53408</offset>
+      <text>Repair of and checkpoint response to topoisomerase I&#8208;mediated DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2859</infon>
+      <infon key="pub-id_pmid">25349191</infon>
+      <infon key="fpage">2847</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>53483</offset>
+      <text>Structure of the Rad50 DNA double&#8208;strand break repair protein in complex with DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">462</infon>
+      <infon key="pub-id_pmid">24532689</infon>
+      <infon key="fpage">451</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>53567</offset>
+      <text>The Rad50 hook domain regulates DNA damage signaling and tumorigenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">44951</infon>
+      <infon key="pub-id_pmid">22039049</infon>
+      <infon key="fpage">44945</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>53638</offset>
+      <text>DNA repair factor MRE11/RAD50 cleaves 3&#8242;&#8208;phosphotyrosyl bonds and resects DNA to repair damage caused by topoisomerase 1 poisons</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">700</infon>
+      <infon key="pub-id_pmid">22705791</infon>
+      <infon key="fpage">693</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53771</offset>
+      <text>Structure of Mre11&#8208;Nbs1 complex yields insights into ataxia&#8208;telangiectasia&#8208;like disease mutations and DNA damage signaling</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">25081516</infon>
+      <infon key="fpage">a017962</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>53900</offset>
+      <text>Structural studies of DNA end detection and resection in homologous recombination</text>
+    </passage>
+    <passage>
+      <infon key="type">ref</infon>
+      <infon key="year">2010</infon>
+      <offset>53982</offset>
+      <text>The PyMOL Molecular Graphics System, Version 1.3r1</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Acta Crystallogr F Struct Biol Commun</infon>
+      <infon key="lpage">757</infon>
+      <infon key="pub-id_pmid">26057807</infon>
+      <infon key="fpage">752</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>54033</offset>
+      <text>Structure of the catalytic domain of Mre11 from Chaetomium thermophilum</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">18</infon>
+      <infon key="pub-id_pmid">24316220</infon>
+      <infon key="fpage">7</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>54105</offset>
+      <text>DNA double&#8208;strand break repair pathway choice is directed by distinct MRE11 nuclease activities</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21988835</infon>
+      <infon key="fpage">539</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>54203</offset>
+      <text>Fast, scalable generation of high&#8208;quality protein multiple sequence alignments using Clustal Omega</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">103</infon>
+      <infon key="pub-id_pmid">21252998</infon>
+      <infon key="fpage">90</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>54304</offset>
+      <text>The MRE11 complex: starting from the ends</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2435</infon>
+      <infon key="pub-id_pmid">25107472</infon>
+      <infon key="fpage">2422</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>54346</offset>
+      <text>DNA end recognition by the Mre11 nuclease dimer: insights into resection and repair of damaged DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">97</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">108</infon>
+      <infon key="pub-id_pmid">10618378</infon>
+      <infon key="fpage">103</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>54445</offset>
+      <text>Clustered DNA damages induced in isolated DNA and in human cells by low doses of ionizing radiation</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">25085909</infon>
+      <infon key="fpage">a016436</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>54545</offset>
+      <text>End resection at double&#8208;strand breaks: mechanism and regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1219</infon>
+      <infon key="pub-id_pmid">24034245</infon>
+      <infon key="fpage">1207</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>54611</offset>
+      <text>Structure and subunit topology of the INO80 chromatin remodeler and its nucleosome complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">35464</infon>
+      <infon key="pub-id_pmid">11454871</infon>
+      <infon key="fpage">35458</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>54702</offset>
+      <text>DNA structure&#8208;specific nuclease activities in the Saccharomyces cerevisiae Rad50&#8208;Mre11 complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7725</infon>
+      <infon key="pub-id_pmid">23610439</infon>
+      <infon key="fpage">7720</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>54801</offset>
+      <text>Microhomology&#8208;mediated End Joining and Homologous Recombination share the initial end resection step to repair DNA double&#8208;strand breaks in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">716</infon>
+      <infon key="pub-id_pmid">9845372</infon>
+      <infon key="fpage">705</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>54960</offset>
+      <text>Complex formation and functional versatility of Mre11 of budding yeast in recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">903</infon>
+      <infon key="pub-id_pmid">22772729</infon>
+      <infon key="fpage">901</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>55048</offset>
+      <text>False discovery rate estimation for cross&#8208;linked&#160;peptides identified by mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">109</infon>
+      <infon key="pub-id_pmid">18854158</infon>
+      <infon key="fpage">97</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>55141</offset>
+      <text>Mre11 dimers coordinate DNA end bridging&#160;and nuclease processing in double&#8208;strand&#8208;break repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">431</infon>
+      <infon key="pub-id_pmid">21441914</infon>
+      <infon key="fpage">423</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>55241</offset>
+      <text>ABC ATPase signature helices in Rad50 link nucleotide state to Mre11 interface for DNA repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">531</infon>
+      <infon key="pub-id_pmid">22728528</infon>
+      <infon key="fpage">517</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>55335</offset>
+      <text>Immunoglobulin class&#8208;switch DNA recombination: induction, targeting and beyond</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">5379</infon>
+      <infon key="pub-id_pmid">15964794</infon>
+      <infon key="fpage">5363</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>55416</offset>
+      <text>ATM activation and its recruitment to damaged DNA require binding to the C terminus of Nbs1</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1910</infon>
+      <infon key="pub-id_pmid">15889153</infon>
+      <infon key="fpage">1901</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>55508</offset>
+      <text>H662 is the linchpin of ATP hydrolysis in the nucleotide&#8208;binding domain of the ABC transporter HlyB</text>
+    </passage>
+  </document>
+</collection>

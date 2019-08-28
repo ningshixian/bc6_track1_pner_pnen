@@ -1,0 +1,1658 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5009811</id>
+    <passage>
+      <infon key="name_2">surname:Ward&#8208;van Oostwaard;given-names:Dorien</infon>
+      <infon key="name_3">surname:van Veldhoven;given-names:Jacobus PD</infon>
+      <infon key="name_0">surname:Sala;given-names:Luca</infon>
+      <infon key="name_1">surname:Yu;given-names:Zhiyi</infon>
+      <infon key="name_6">surname:Mummery;given-names:Christine L</infon>
+      <infon key="alt-title">Luca Sala et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMMM201606260</infon>
+      <infon key="name_5">surname:Laugwitz;given-names:Karl&#8208;Ludwig</infon>
+      <infon key="name_8">surname:Bellin;given-names:Milena</infon>
+      <infon key="lpage">1081 1081</infon>
+      <infon key="fpage">1065 1065</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:IJzerman;given-names:Adriaan P</infon>
+      <infon key="name_4">surname:Moretti;given-names:Alessandra</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/emmm.201606260</infon>
+      <infon key="article-id_pmid">27470144</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="issue">9</infon>
+      <infon key="kwd">cardiac arrhythmia drug screening hERG human induced pluripotent stem cells long&#8208;QT syndrome Cardiovascular System Stem Cells</infon>
+      <infon key="volume">8 8</infon>
+      <infon key="article-id_pmc">5009811</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <offset>0</offset>
+      <text>A new hERG allosteric modulator rescues genetic and drug&#8208;induced long&#8208;QT syndrome phenotypes in cardiomyocytes from isogenic pairs of patient induced pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>177</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>186</offset>
+      <text>Long&#8208;QT syndrome (LQTS) is an arrhythmogenic disorder characterised by prolongation of the QT interval in the electrocardiogram, which can lead to sudden cardiac death. Pharmacological treatments are far from optimal for congenital forms of LQTS, while the acquired form, often triggered by drugs that (sometimes inadvertently) target the cardiac hERG channel, is still a challenge in drug development because of cardiotoxicity. Current experimental models in&#160;vitro fall short in predicting proarrhythmic properties of new drugs in humans. Here, we leveraged a series of isogenically matched, diseased and genetically engineered, human induced pluripotent stem cell&#8208;derived cardiomyocytes (hiPSC&#8208;CMs) from patients to test a novel hERG allosteric modulator for treating congenital LQTS, drug&#8208;induced LQTS or a combination of the two. By slowing IK r deactivation and positively shifting IK r inactivation, the small molecule LUF7346 effectively rescued all of these conditions, demonstrating in a human system that allosteric modulation of hERG may be useful as an approach to treat inherited and drug&#8208;induced LQTS. Furthermore, our study provides experimental support of the value of isogenic pairs of patient hiPSC&#8208;CMs as platforms for testing drug sensitivities and performing safety pharmacology.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1500</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1513</offset>
+      <text>Long&#8208;QT syndrome (LQTS) is a cardiac disorder primarily characterised by the prolongation of the QT interval on an electrocardiogram. This increases the propensity for life&#8208;threatening arrhythmias in a structurally normal heart (Priori et&#160;al, 2001; Schwartz et&#160;al, 2012). Both congenital and acquired forms of LQTS have been described. Congenital forms are caused by mutations in one of 16 different genes (Schwartz et&#160;al, 2013), most patients presenting with mutations in KCNQ1 [defined as LQT1 when heterozygous and Jervell and Lange&#8208;Nielsen syndrome (JLNS) when homozygous and associated with deafness (Jervell &amp; Lange&#8208;Nielsen, 1957)], KCNH2 (LQT2) or SCN5A (LQT3) genes (Schwartz et&#160;al, 2001). The acquired form by contrast is triggered in healthy individuals and LQTS mutation carriers by ancillary causes such as bradycardia, electrolyte abnormalities or drugs that target cardiac ion channels non&#8208;specifically (Roden et&#160;al, 1996; Zareba et&#160;al, 2003; Itoh et&#160;al, 2016). The human ether&#8208;&#224;&#8208;go&#8208;go&#8208;related gene (hERG) channel (also known as Kv11.1) is the most likely to be affected (Saenen &amp; Vrints, 2008; Mahida et&#160;al, 2013). The concomitant presence of (known or unknown) polymorphisms affecting gene expression levels of either ion channels or enzymes involved in drug metabolism can make patients more susceptible to those stimuli and may facilitate the occurrence of the typical LQTS arrhythmia called &#8220;Torsades de Pointes&#8221;. In some cases, removing the damage&#8208;inducing stimulus may be sufficient to treat the acquired form of LQTS. However, pre&#8208;existing medical conditions that require (life&#8208;saving) drugs can complicate or preclude stopping treatment. Even though current therapies for congenital LQTS generally give fairly good clinical responses, they could still be improved (Schwartz, 2015). Therefore, there remains a need for new pharmacological approaches to prevent sudden cardiac death (Ruan et&#160;al, 2008). Recent studies investigated the effect of novel hERG activators (Bentzen et&#160;al, 2011; Zhang et&#160;al, 2012; Bebernitz et&#160;al, 2015; Giacomini et&#160;al, 2015; Mannikko et&#160;al, 2015; Bossu et&#160;al, 2016; Yu et&#160;al, 2016), which indicated that there is significant interest from academia and pharma in developing small molecules to increase the rapid component of the delayed rectifying potassium current (IKr) conducted by hERG channel, since this could counteract both congenital and acquired LQTS. Furthermore, pharmacologically targeting and activating hERG could be an improvement on present strategies, since this channel is the most commonly mutated in asymptomatic/borderline carriers with acquired LQTS (Itoh et&#160;al, 2016). However, the challenge here is to generate experimental models that accurately reproduce all of the clinical features of the disease. Although crucial for basic characterisation of LQTS&#8208;causing mutations, neither heterologous systems (Winbo et&#160;al, 2009; Diamant et&#160;al, 2013) nor animal models (Salama &amp; London, 2007) fully recreate the proper disease phenotype complexity. This limits the possibility of developing genotype&#8208;specific or patient&#8208;specific therapies, which already appear to be the way forward in treating congenital cardiac arrhythmias (Priori, 1998; Shimizu et&#160;al, 2005) and, more recently, in cardio&#8208;oncology (Burridge et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4862</offset>
+      <text>Human pluripotent stem cell&#8208;derived cardiomyocytes [hPSC&#8208;CMs, which include cardiomyocytes from human induced pluripotent stem cells (hiPSC&#8208;CMs) and human embryonic stem cells (hESC&#8208;CMs)] represent a powerful tool for in&#160;vitro disease modelling as they are able to recreate the phenotypical traits of both monogenic and complex diseases (Moretti et&#160;al, 2010; Bellin et&#160;al, 2013; Zhang et&#160;al, 2014; de Boer &amp; Eggan, 2015; Freedman et&#160;al, 2015). The possibility of obtaining patient&#8208;specific cells has strengthened the link between clinical data and in&#160;vitro phenotype (Moretti et&#160;al, 2010). More recently, the generation of genetically matched isogenic pairs demonstrated that the genetic background strongly influences both the pathological phenotype and drug response (Bellin et&#160;al, 2013; Zhang et&#160;al, 2014). The combination of these two approaches provides robust disease models with genetically matched controls enabling the recapitulation of clinical features of a specific disorder, in this case LQTS, and at the same time a valuable, multipurpose platform for drug screening in disease and safety pharmacology.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5998</offset>
+      <text>Current Food and Drug Administration (FDA) guidelines recommend in&#160;vitro hERG assays as a prelude to in&#160;vivo studies in animals (ICH, 2005). The rationale is that, by assessing the in&#160;vitro affinity of a molecule for the hERG channel, the risk of arrhythmogenic events in&#160;vivo can be predicted. However, incidental withdrawal of drugs from the market and the conspicuous number of drugs that do not enter clinical phases of development because of indications for cardiac adverse effects demonstrate that current risk assessment assays are still not completely predictive (Roden, 2005). Patient&#8208;specific hiPSC&#8208;CMs are now being proposed as a complementary model for safety pharmacology (Braam et al, 2010), especially for detecting the proarrhythmic potential of drugs before moving to tests in animals, and as an alternative to the combination of multiple low cost, but poorly predictive, single ion channel assays (Kramer et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6944</offset>
+      <text>Here, we tested LUF7346, one of a series of novel hERG allosteric modulators (Yu et&#160;al, 2015, 2016) on a platform of LQT1, JLNS, LQT2, and control isogenic human pluripotent stem cell pairs to (i) rescue the genetic form of LQTS, (ii) reverse drug&#8208;induced LQTS and (iii) correct the combination of genetic and drug&#8208;induced LQTS. Application of the small hERG allosteric modulator normalised both action&#8208; and field potentials (AP and FP, respectively) in all hPSC&#8208;CMs by slowing IKr deactivation and positively shifting the IKr inactivation. The compound also normalised the beat&#8208;to&#8208;beat variability of the repolarisation duration (BVR) and rescued the arrhythmogenic phenotype observed in JLNS&#8208;CMs. Our results contribute to validating the use isogenic pairs of hPSC&#8208;CMs in drug discovery and safety pharmacology.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7775</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7783</offset>
+      <text>Identification of hERG allosteric modulators</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7828</offset>
+      <text>We recently synthesised a series of small molecules that may act as allosteric modulators of the hERG channel in a heterologous cell system (Yu et&#160;al, 2015) and in primary rodent cardiomyocytes (Yu et&#160;al, 2016). The activity of five of these molecules (chemical structures in Fig&#160;1A) was assessed by measuring their effect on the dissociation characteristics of a radioactive probe, [3H]dofetilide, from the hERG channel (Fig&#160;1B). All of the selected compounds, at both 10 and 50&#160;&#956;M, significantly increased the dissociation of [3H]dofetilide from the channel by 29&#8211;84% (Appendix&#160;Table&#160;S1) implying their negative allosteric modulation of the channel inhibition by hERG blockers like dofetilide. Among these compounds, LUF7346 had the most prominent allosteric effect on the hERG channel at 50&#160;&#956;M. Consistently, pilot experiments in hiPSC&#8208;CMs using microelectrode arrays (MEA) confirmed a stronger effect of this compound on FP prolongation than all of the other shortlisted chemicals (Appendix&#160;Fig S1). We therefore decided to continue with LUF7346 in further experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8917</offset>
+      <text>The potent hERG allosteric modulator LUF7346 enhances IKr in HEK293 hERG cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8996</offset>
+      <text>Chemical structures of LUF7243, LUF7244, LUF7344, LUF7346 and LUF7389.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9067</offset>
+      <text>Percentage of specific binding of [3H]dofetilide to the hERG channel after 6&#160;min of dissociation induced by 10&#160;&#956;M dofetilide in the absence (control) or presence of 10 and 50&#160;&#956;M of LUF compounds. The specific binding of [3H]dofetilide in the absence of test compounds was set as B control, while the specific binding in their presence was set as B. *P&#160;&lt;&#160;0.05 versus control; N&#160;=&#160;3&#8211;4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9462</offset>
+      <text>Representative traces of hERG activation (left), inactivation (middle) and deactivation (right) measured in HEK293 hERG cells under baseline conditions (black) and in the presence of 3&#160;&#956;M LUF7346 (red). Insets: voltage&#8208;clamp protocols.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9702</offset>
+      <text>Steady&#8208;state activation (empty symbols) and inactivation (filled symbols) curves for IKr under baseline conditions (black) and in the presence of 3&#160;&#956;M LUF7346 (red). The corresponding Boltzmann's fittings are superimposed to data points. *P&#160;&lt;&#160;0.05 versus baseline. N&#160;=&#160;11&#8211;14.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9988</offset>
+      <text>Plot of the time constants (&#964;) of deactivation derived from biexponential fittings under baseline conditions (black) and in the presence of 3&#160;&#956;M LUF7346 (red). *P&#160;&lt;&#160;0.05 versus respective baseline. N&#160;=&#160;8.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10200</offset>
+      <text> Data information: (B) Two&#8208;tailed unpaired t&#8208;test. P&#160;&lt;&#160;0.0001 for all tested LUF compounds compared to the control group at both 10 and 50&#160;&#956;M. (D) Repeated&#8208;measures two&#8208;way ANOVA with Sidak's multiple comparisons test. Adjusted P&#8208;values for inactivation: &#8722;100&#160;mV: &gt;&#160;0.9999; &#8722;90&#160;mV: &gt;&#160;0.9999; &#8722;80&#160;mV: 0.3922; &#8722;70&#160;mV: 0.9636; &#8722;60&#160;mV: 0.0006; &#8722;50&#160;mV:&#160;&lt;&#160;0.0001; &#8722;40&#160;mV: &lt;&#160;0.0001; &#8722;30&#160;mV: &lt;&#160;0.0001; &#8722;20&#160;mV: &lt;&#160;0.0001; &#8722;10&#160;mV: &lt;&#160;0.0001; &#8722;10&#160;mV: 0.0011; 0&#160;mV: 0.0111; 10&#160;mV: 0.0343; 20&#160;mV: 0.4871; 30&#160;mV: &gt;&#160;0.9999. Adjusted P&#8208;values for activation: &#8722;60 mV: &gt;&#160;0.9999; &#8722;50&#160;mV: 0.9998; &#8722;40&#160;mV: &gt;&#160;0.9999; &#8722;30&#160;mV: 0.8854; &#8722;20&#160;mV: 0.2129; &#8722;10&#160;mV: 0.1188; 0&#160;mV: 0.9944; 10&#160;mV: &gt;&#160;0.9999; 20&#160;mV: 0.8340; 30&#160;mV: 0.9841. (E) Paired two&#8208;way ANOVA with Sidak's multiple comparisons test. Adjusted P&#8208;values for deactivation &#964;fast: &#8722;120 mV: 0.01, &#8722;100&#160;mV: &lt;&#160;0.0001, &#8722;80&#160;mV: &lt;&#160;0.0001. Adjusted P&#8208;values for deactivation &#964;slow: &#8722;120&#160;mV: 0.01, &#8722;100&#160;mV: &lt;&#160;0.0001, &#8722;80&#160;mV: &lt;&#160;0.0001. (B, D, E) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11333</offset>
+      <text>LUF7346 increases IKr in a heterologous system</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11380</offset>
+      <text>We first used HEK293 cells stably expressing the hERG channel (HEK293 hERG) as a simple biological system to assess the effect of LUF7346 on IKr biophysical properties (Masi et&#160;al, 2005). Figure&#160;1C shows representative IKr recordings in the absence or presence of 3&#160;&#956;M LUF7346. No changes were observed on the steady&#8208;state activation of IKr (Fig&#160;1D; V 1/2: CTR&#160;=&#160;&#8722;27.52&#160;&#177;&#160;1.45&#160;mV, LUF7346 3&#160;&#956;M&#160;=&#160;&#8722;26.05&#160;&#177;&#160;1.73&#160;mV, n.s.; k: CTR&#160;=&#160;5.20&#160;&#177;&#160;0.59, LUF7346 3&#160;&#956;M&#160;=&#160;6.15&#160;&#177;&#160;0.9, n.s.; Table&#160;1). By contrast, LUF7346 shifted the steady&#8208;state inactivation of IKr to the right (V 1/2: CTR&#160;=&#160;&#8722;38.01&#160;&#177; 3.2&#160;mV, LUF7346 3&#160;&#956;M&#160;=&#160;&#8722;22.91&#160;&#177;&#160;2.0&#160;mV, P&#160;=&#160;0.0015), thus extending the range of voltages in which IKr is available (Fig&#160;1D and Table&#160;2). We further investigated the effect of LUF7346 on IKr deactivation. Both the fast (&#964;fast) and the slow (&#964;slow) components of IKr deactivation obtained from the fit of the tail current decay were significantly increased so that in the presence of LUF7346, tail currents could not be fitted with a biexponential function at pulse potentials more positive than &#8722;80&#160;mV (Fig&#160;1E and Table&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>12559</offset>
+      <text>Steady&#8208;state IKr activation parameters from Boltzmann's fittings in HEK293 hERG cells and in hiPSC&#8208;CMs</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>12666</offset>
+      <text>    CTR HEK293 hERG 3&#160;&#956;M LUF7346 HEK293 hERG CTR hiPSC&#8208;CMs 5&#160;&#956;M LUF7346 hiPSC&#8208;CMs   Gmin (nS) &#8722;0.04&#160;&#177;&#160;0.06 0.14&#160;&#177;&#160;0.1 0.11&#160;&#177;&#160;0.03 0.15&#160;&#177;&#160;0.04  Gmax (nS) 4.53&#160;&#177;&#160;0.52 5.57&#160;&#177;&#160;0.77 1.56&#160;&#177;&#160;0.22 2.47&#160;&#177;&#160;0.32a   V1/2 (mV) &#8722;27.52&#160;&#177;&#160;1.45 &#8722;26.05&#160;&#177;&#160;1.73 &#8722;18.40&#160;&#177;&#160;1.23 &#8722;23.26&#160;&#177;&#160;0.92a    k (mV) 5.20&#160;&#177;&#160;0.59 6.15&#160;&#177;&#160;0.9 5.27&#160;&#177;&#160;0.56 5.18&#160;&#177;&#160;0.38  Gmax (nS/pF) 0.065&#160;&#177;&#160;0.008 0.071&#160;&#177;&#160;0.01 0.02&#160;&#177;&#160;0.001 0.037&#160;&#177;&#160;0.003a    n  11 11 19 19</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>13159</offset>
+      <text> P&#160;&lt;&#160;0.05 versus CTR hiPSC&#8208;CMs.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>13195</offset>
+      <text>Steady&#8208;state IKr inactivation parameters from Boltzmann's fittings in HEK293 hERG cells</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>13285</offset>
+      <text>    CTR HEK293 hERG 3&#160;&#956;M LUF7346 HEK293 hERG   V1/2 (mV) &#8722;38.01&#160;&#177;&#160;3.22 &#8722;22.91&#160;&#177;&#160;2.03a    dx (pA/mV) 26.19&#160;&#177;&#160;1.98 27.72&#160;&#177;&#160;3.56   k (mV) 10.88&#160;&#177;&#160;1.98 10.34&#160;&#177;&#160;2.89   n  14 14</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>13481</offset>
+      <text> P&#160;&lt;&#160;0.05 versus CTR HEK293 hERG.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>13517</offset>
+      <text>IKr fast and slow component of deactivation decay from biexponential fittings in HEK293 hERG cells</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>13616</offset>
+      <text>   Pulse potential (mV) CTR HEK293 hERG 3&#160;&#956;M LUF7346 HEK293 hERG  &#964;fast (ms) &#964;slow (ms) &#964;fast (ms) &#964;slow (ms)   &#8722;120 5.60&#160;&#177;&#160;0.7 37.34&#160;&#177;&#160;3.10 10.31&#160;&#177;&#160;1.74a  77.69&#160;&#177;&#160;12.08a   &#8722;100 4.06&#160;&#177;&#160;37 41.04&#160;&#177;&#160;1.90 6.71&#160;&#177;&#160;1.40a  83.72&#160;&#177;&#160;8.80a   &#8722;80 3.71&#160;&#177;&#160;20 56.13&#160;&#177;&#160;4.09 4.02&#160;&#177;&#160;0.67a  112.35&#160;&#177;&#160;13.61a   &#8722;60 65.72&#160;&#177;&#160;38.57 323.63&#160;&#177;&#160;185.2 Monoexponential (319.69&#160;&#177;&#160;29.8)  &#8722;40 37.26&#160;&#177;&#160;27.13 347.96&#160;&#177;&#160;187.3 Monoexponential (388.75&#160;&#177;&#160;214.9)  &#8722;20 13.40&#160;&#177;&#160;9.8 248.31&#160;&#177;&#160;150.7 Monoexponential (1,316.16&#160;&#177;&#160;394.9)   n  8 8 8 8</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>14199</offset>
+      <text> P&#160;&lt;&#160;0.05 versus the respective value in CTR HEK293 hERG group.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14265</offset>
+      <text>Taken together, these data indicated that LUF7346 increases IKr by rightward shifting the voltage dependence of inactivation and slowing deactivation kinetics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14425</offset>
+      <text>Electrophysiological characterisation of cardiomyocytes from independent sets of hiPSC isogenic pairs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14527</offset>
+      <text>A summary of the patient hiPSC and hESC lines used in this study is shown in Fig&#160;2A. Three independent, patient&#8208;derived and genetically engineered isogenic hiPSCs were included as follows: the LQT1R594Q/JLNSR594Q pair [harbouring the heterozygous and homozygous c.1781G&#160;&gt;&#160;A KCNQ1 mutation, respectively (Zhang et&#160;al, 2014)], the LQT2N996I/LQT2corr pair [in which the heterozygous KCNH2 c.2987A&#160;&gt;&#160;T mutation is maintained or corrected, respectively (Bellin et&#160;al, 2013)] and a new LQT1R190Q/LQT1corr pair (where the heterozygous KCNQ1 c.569G&#160;&gt;&#160;A mutation is maintained or corrected, respectively) (Moretti et&#160;al, 2010; Chen et&#160;al, 2016). One unrelated wild&#8208;type hiPSC line was included as an additional control (WT, Zhang et&#160;al, 2014). In addition, the hESCWT/hESC&#8208;LQT2N996I isogenic pair [in which the heterozygous KCNH2 c.2987A&#160;&gt;&#160;T mutation is absent or inserted, respectively (Bellin et&#160;al, 2013)] was analysed. All of these hPSC lines were differentiated into cardiomyocytes (CMs), which expressed the major ion channels contributing to the AP formation (Fig&#160;EV1A) and were electrophysiologically characterised under identical experimental conditions (see Materials and Methods for details). The QT interval measured with MEA was as expected from the genotype and confirmed previous characterisation (Moretti et&#160;al, 2010; Bellin et&#160;al, 2013; Zhang et&#160;al, 2014), with JLNSR594Q&#160;&gt;&#160;LQT1R594Q (275.6&#160;&#177; 14.7&#160;ms versus 196.4&#160;&#177;&#160;7.4&#160;ms, P&#160;&lt;&#160;0.0001), LQT2N996I&#160;&gt;&#160;LQT2corr (315.2&#160;&#177;&#160;25.3&#160;ms versus 227.5&#160;&#177;&#160;19.2&#160;ms, P&#160;=&#160;0.0151), hESCWT&#160;&gt; hESC&#8208;LQT2N996I (168.1&#160;&#177;&#160;11.6&#160;ms versus 251.1&#160;&#177;&#160;21.3&#160;ms, P&#160;=&#160;0.0367) and LQT1R190Q&#160;&gt;&#160;LQT1corr (615.1&#160;&#177;&#160;103.1 versus 405.8&#160;&#177;&#160;60.4, P&#160;=&#160;0.0367; Fig&#160;2B). Of note, the QT interval in control hiPSC&#8208;CMs differed from line to line (Fig&#160;EV1B, 129.8&#160;&#177; 8.9&#160;ms WT, 168.1&#160;&#177;&#160;11.6&#160;ms hESCWT, 227.5&#160;&#177;&#160;19.2&#160;ms LQT2corr, 405.8&#160;&#177;&#160;60.4 LQT1corr). These results suggested a strong influence of the genetic background on the QT interval in&#160;vitro as such. Furthermore, the RR interval of WT hiPSC&#8208;CMs (0.96&#160;&#177;&#160;0.07&#160;s) was significantly different from those of all the other lines, while the RR was homogeneous within each isogenic pair (LTQ1R594Q, 2.0&#160;&#177;&#160;0.13&#160;s, P&#160;&lt;&#160;0.0001 versus WT; JLNSR594Q, 2.32&#160;&#177; 0.21&#160;s, P&#160;=&#160;0.0001 versus WT; LQT2corr, 2.41&#160;&#177;&#160;0.25&#160;s, P&#160;=&#160;0.0006 versus WT; LQT2N996I, 2.07&#160;&#177;&#160;0.22&#160;s, P&#160;=&#160;0.0049 versus WT; LQT1corr, 2.79&#160;&#177;&#160;0.27&#160;s, P&#160;&lt;&#160;0.0001 versus WT; LQT1R190Q, 2.1&#160;&#177; 0.21&#160;s, P&#160;=&#160;0.0198 versus WT, hESCWT, 3.7&#160;&#177;&#160;0.59&#160;s, P&#160;&lt;&#160;0.0001; hESCN996I: 3.1&#160;&#177;&#160;0.57, P&#160;=&#160;0.0004; Fig&#160;2B). QT intervals were further corrected with the Bazett's formula (Figs&#160;2B and EV2): 147.4&#160;&#177;&#160;14.6&#160;ms WT, 148&#160;&#177;&#160;6.3&#160;ms LQT1R594Q, 207.8&#160;&#177;&#160;12.1&#160;ms JLNSR594Q, 157.6&#160;&#177;&#160;18.6&#160;ms LQT2corr, 232.3&#160;&#177;&#160;19.9&#160;ms LQT2N996I, 221.3&#160;&#177;&#160;25.4&#160;ms LQT1corr, 413&#160;&#177;&#160;58.4&#160;ms LQT1R190Q, 97.11&#160;&#177; 11&#160;ms hESCWT, 141.9&#160;&#177;&#160;7.8&#160;ms hESC&#8208;LQT2N996I.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17520</offset>
+      <text>LUF7346 enhances IKr in hiPSC&#8208;CMs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17556</offset>
+      <text>Summary of the hPSC lines used in this study. WT, wild&#8208;type healthy control; LQT1R594Q and JLNSR594Q, isogenic pair harbouring the heterozygous and the homozygous KCNQ1 c.1781G&#160;&gt;&#160;A mutation, respectively; LQT2N996I and LQT2corr, isogenic pair in which the heterozygous c.2987A&#160;&gt;&#160;T KCNH2 mutation is present or corrected, respectively; hESCWT and hESC&#8208;LQT2N996I, isogenic pair in which KCNH2 is wild type or the heterozygous c.2987A&#160;&gt;&#160;T mutation was inserted, respectively; LQT1R190Q and LQT1corr, isogenic pair in which the heterozygous c.569G &gt; A KCNQ1 mutation is present or corrected, respectively. Arrows indicate the parent line from which each genetically matched isogenic hiPSC were generated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18267</offset>
+      <text>Baseline QT interval (top), baseline RR interval (middle) and baseline QT interval corrected with the Bazett's formula (bottom). Bar graphs are divided by isogenic pairs (LQT1R594Q and JLNSR594Q, left; LQT2corr, LQT2N996I, hESCWT and hESC&#8208;LQT2N996I, middle; LQT1corr and LQT1R190Q, right), and in each graph, the unrelated WT is shown as a comparison. N&#160;=&#160;17&#8211;53. *P&#160;&lt;&#160;0.05. The colour of the symbol indicates comparisons and relative statistical significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18735</offset>
+      <text>Representative traces of IKr steady&#8208;state activation in WT hiPSC&#8208;CMs in Tyrode (left), in the presence of 5&#160;&#956;M LUF7346 (middle) and after the application of 5&#160;&#956;M E4031 to selectively block IKr (right). Inset: voltage&#8208;clamp protocol.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18978</offset>
+      <text>Average I/V relationships (left) and steady&#8208;state activation curves with superimposed Boltzmann's fittings (right) under baseline conditions (black) and in the presence of 5&#160;&#956;M LUF7346 (red). *P&#160;&lt;&#160;0.05. N&#160;=&#160;19.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19197</offset>
+      <text>Plot of the time constants (&#964;) of deactivation derived from biexponential fits (left) and representative examples (right) under baseline conditions (black) and in the presence of 3&#160;&#956;M LUF7346 (red). *P&#160;&lt;&#160;0.05. N&#160;=&#160;17&#8211;21.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19427</offset>
+      <text> Data information: Kruskal&#8211;Wallis tests with pairwise Dunn's multiple testing correction. (B) Adjusted P&#8208;values for QT: WT versus LQT1R594Q: 0.0029; WT versus JLNSR594Q: &lt;&#160;0.0001; LQT1R594Q versus JLNSR594Q: &lt;&#160;0.0001. WT versus LQT2corr: 0.0238; WT versus LQT2N996I: &lt;&#160;0.0001; WT versus hESC&#8208;LQT2N996I: 0.0034; LQT2corr versus LQTN996I: 0.0151; LQT2N996I versus hESCWT: &lt;&#160;0.0001; hESCWT versus hESC&#8208;LQT2N996I: 0.0367. WT versus LQT1corr: 0.0098; WT versus LQT1R190Q: &lt;&#160;0.0001. LQT1corr versus LQT1R190Q: 0.0327. Adjusted P&#8208;values for RR: WT versus LQT1R594Q: &lt;&#160;0.0001; WT versus JLNSR594Q: &lt;&#160;0.0001. WT versus LQT2corr: 0.0001; WT versus LQT2N996I: 0.0031; WT versus hESCWT: &lt;&#160;0.0001; WT versus hESC&#8208;LQT2N996I: &lt;&#160;0.0001. WT versus LQT1corr: &lt;&#160;0.0001; WT versus LQT1R190Q: 0.0012. Adjusted P&#8208;values for QTcB: WT versus JLNSR594Q: 0.0050; LQT1R594Q versus JLNSR594Q: &lt;&#160;0.0001. WT versus LQT2N996I: 0.0074; LQT2corr versus LQT2N996I: 0.0084. LQT2N996I versus hESCWT &lt;&#160;0.0001; LQT2N996I versus hESC&#8208;LQT2N996I: 0.0008. WT versus LQT1corr: 0.0303; WT versus LQT1R190Q: &lt;&#160;0.0001. LQT1corr versus LQT1R190Q: 0.0018. (D) Paired two&#8208;way ANOVA with Sidak's multiple comparisons test. Adjusted P&#8208;values for I/V plot: &#8722;60&#160;mV: 0.9780; &#8722;50&#160;mV: &gt;&#160;0.9999; &#8722;40&#160;mV: &gt;&#160;0.9999; &#8722;30: 0.0037; &#8722;20&#160;mV: &lt;&#160;0.0001; &#8722;10&#160;mV: &lt;&#160;0.0001; 0&#160;mV: &lt;&#160;0.0001; 10&#160;mV: &lt;&#160;0.0001; 20&#160;mV: &lt;&#160;0.0001; 30&#160;mV: &lt;&#160;0.0001. Adjusted P&#8208;values for activation: &#8722;50&#160;mV: 0.9987; &#8722;40&#160;mV: &gt;&#160;0.9999; &#8722;30&#160;mV: 0.4519; &#8722;20&#160;mV: 0.0013; &#8722;10&#160;mV: 0.8323; 0&#160;mV: &gt;&#160;0.9999; 10&#160;mV: 0.9999; 20&#160;mV: 0.5892. (E) Unpaired two&#8208;way ANOVA with Sidak's multiple comparisons test. Adjusted P&#8208;values for deactivation &#964;fast: &#8722;10&#160;mV: 0.0469; 0&#160;mV: 0.0358; 10&#160;mV: 0.0103; 20&#160;mV: &lt;&#160;0.0001. Adjusted P&#8208;values for deactivation &#964;slow: &#8722;10&#160;mV: 0.5008; 0&#160;mV: 0.5740; 10&#160;mV: 0.9024; 20&#160;mV: 0.2181. (B, D, E) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21453</offset>
+      <text>Gene expression analysis and QT interval under baseline conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21520</offset>
+      <text>Expression analysis as measured by RT&#8211;qPCR of cardiac ion channel genes and sarcomeric protein TNNT2 gene in undifferentiated hiPSCs and hiPSC&#8208;CMs. Data are expressed as fold change versus. RPL37A. N&#160;=&#160;3. *P&#160;&lt;&#160;0.05. The colour of the asterisks indicates comparisons and relative statistical significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21833</offset>
+      <text>QT intervals (left), RR intervals (right) and QTcB intervals measured with MEA in CMs derived from all the control hPSC lines under baseline conditions. N&#160;=&#160;17. *P&#160;&lt;&#160;0.05. The colour of the asterisks indicates comparisons and relative statistical significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22098</offset>
+      <text> Data Information: (A) Kruskal&#8211;Wallis test with Dunn's multiple comparisons test: hERG 1a/b: JLNSR594Q versus Undiff.: 0.0296; LQT2corr versus Undiff.: 0.0011. hERG 1a: JLNSR594Q versus Undiff.: 0.0088; LQT2corr versus Undiff.: 0.0012. KCNE2: LQT2corr versus Undiff.: 0.0012; LQT2N996I versus Undiff.: 0.0468. TNNT2: WT versus Undiff.: 0.0458; LQT1R594Q versus Undiff.: 0.0320; JLNSR594Q versus Undiff.: 0.0052; LQT2corr versus Undiff.: 0.0444. LQT2N996I versus Undiff.: 0.0468. LQT1corr versus Undiff.: 0.0444. LQT1R190Q versus Undiff.: 0.0493. CACNA1c: LQT1R594Q versus Undiff.: 0.0076; JLNSR594Q versus Undiff.: 0.0429; LQT2corr versus Undiff.: 0.0164. KCNJ12: LQT2corr versus Undiff.: 0.0024; LQT2corr versus LQT1corr: 0.0060. (B) One&#8208;way ANOVA with Holm&#8211;Sidak's multiple comparison test: QT intervals: WT versus LQT1corr: &lt;&#160;0.0001; LQT2corr versus LQT1corr: 0.0006; LQT1corr versus hESCWT: &lt;&#160;0.0001. RR intervals: WT versus LQT1corr: &lt;&#160;0.0001; WT versus LQT2corr: 0.0009; WT versus hESCWT: &lt;&#160;0.0001. QTcB: WT versus LQT1corr: 0.0475; LQT1corr versus LQT2corr: 0.0432; LQT1corr versus hESCWT: &lt;&#160;0.0001. LQT2corr versus hESCWT: 0.0432. (A, B) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23358</offset>
+      <text>Major&#8208;axis regression analysis on the relationship between QT and RR intervals</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23439</offset>
+      <text>Correlation between QT interval (left), QT interval corrected with Bazett's formula (QTcB, middle), QT corrected with Fridericia's formula (QTcF, right) and RR intervals. Bar graphs are divided by isogenic pairs (LQT1R594Q and JLNSR594Q, top; LQT2corr and LQT2N996I, centre; LQT1corr and LQT1R190Q, bottom), and in each graph, the unrelated WT is shown as a comparison.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23809</offset>
+      <text>LUF7346 increases IKr in patient&#8208;specific hiPSC&#8208;CMs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23865</offset>
+      <text>The effects of LUF7346 were further characterised in hiPSC&#8208;CMs by voltage clamp on the WT line (Fig&#160;2C&#8211;E). LUF7346 at 5&#160;&#956;M significantly increased the IKr tail current peak (CTR: 1.77&#160;&#177;&#160;0.18&#160;pA/pF, LUF7346: 3.12&#160;&#177;&#160;0.27&#160;pA/pF at +10&#160;mV, P&#160;&lt;&#160;0.0001, Fig&#160;2D) and significantly slowed the fast component of the deactivation &#964; from &#8722;10&#160;mV to +20&#160;mV (&#964;slow n.s., Fig&#160;2E, Tables&#160;1 and 4). A slight shift in the activation curve towards more negative potentials was also observed (Fig&#160;2D).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>24375</offset>
+      <text>IKr fast (&#964;fast) and slow (&#964;slow) components of deactivation decay from biexponential fittings in hiPSC&#8208;CMs</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>24487</offset>
+      <text>   Pulse potential (mV) CTR hiPSC&#8208;CMs 5&#160;&#956;M LUF7346 hiPSC&#8208;CMs  &#964;fast (ms) &#964;slow (ms) &#964;fast (ms) &#964;slow (ms)   &#8722;10 123.39&#160;&#177;&#160;11.66 1,035.90&#160;&#177;&#160;191.23 192.90&#160;&#177;&#160;19.85a  1,355.18&#160;&#177;&#160;182.87  0 116.79&#160;&#177;&#160;11.27 911.91&#160;&#177;&#160;228.17 174.04&#160;&#177;&#160;17.38a  1,528.50&#160;&#177;&#160;365.89  10 114.54&#160;&#177;&#160;14.03 911.56&#160;&#177;&#160;157.40 179.56&#160;&#177;&#160;179.56a  1,319.38&#160;&#177;&#160;159.73  20 116.25&#160;&#177;&#160;12.44 831.62&#160;&#177;&#160;126.04 225.68&#160;&#177;&#160;39.27a  1,832.61&#160;&#177;&#160;394.68   n  21 21 17 17</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>24954</offset>
+      <text> P&#160;&lt;&#160;0.05 versus the respective value in CTR hiPSC&#8208;CMs group.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25020</offset>
+      <text>Collectively, these data suggested that LUF7346 activates the native hERG channels in hiPSC&#8208;CMs. No effects were detected on IKs and ICaL as measured in the WT&#8208;CMs for LUF7346 (Fig&#160;EV3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25212</offset>
+      <text>Specificity of LUF7346</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25235</offset>
+      <text>Representative ICaL traces in control (black) and after the addition of 5&#160;&#956;M LUF7346 (red), normalised ICaL peaks at 0&#160;mV, steady&#8208;state ICaL activation and current/voltage relationship (I/V) demonstrate that 5&#160;&#956;M LUF7346 has no effect on ICaL in WT hiPSC&#8208;CMs. Inset: voltage&#8208;clamp protocol. N&#160;=&#160;8, 6.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25549</offset>
+      <text>Representative IKs traces and JNJ&#8208;303&#8208;sensitive tail currents at &#8208;40&#160;mV in control (black) and in presence of 5&#160;&#956;M LUF7346 (red) demonstrate that 5&#160;&#956;M LUF7346 has no effect on IKs in WT hiPSC&#8208;CMs. Inset: voltage&#8208;clamp protocol. N&#160;=&#160;9, 7.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25804</offset>
+      <text>LUF7346 5&#160;&#956;M has no effect on upstroke velocity, as measured in LQT2corr&#8208;, LQT2N996I&#8208;, LQT1corr&#8208; and LQT1R190Q&#8208;CMs; N&#160;=&#160;12, 11, 13, 16, respectively. A repeated&#8208;measures two&#8208;way ANOVA with Sidak's multiple comparisons tests was performed to assess the statistical significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26098</offset>
+      <text>AP Clamp measurements showing the current induced by LUF7346 at 3&#160;&#956;M (ILUF7346 3&#160;&#956;M, red) and 5&#160;&#956;M (ILUF7346 5&#160;&#956;M, blue).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26228</offset>
+      <text> Data information: (A&#8211;C) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26308</offset>
+      <text>LUF7346 rescues the genetic form of LQTS</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26349</offset>
+      <text>Given these strong and specific effects on hERG, we determined whether LUF7346 was able to ameliorate or even rescue the genetic form of LQTS (Fig&#160;3). The pharmacodynamics of LUF7346 were investigated with MEA by applying increasing concentrations of the drug to spontaneously beating hiPSC&#8208;CMs and by offline analysis of QT and RR intervals. Figure&#160;3A shows representative FP recordings of LQT2N996I&#8208;CMs (left) and quantification of dose&#8211;response changes in QT interval upon drug application in all hiPSC lines (right). At concentrations of 5&#160;&#956;M and higher, LUF7346 significantly shortened the QT interval in all of the LQTS hiPSC lines and controls analysed, in comparison with their respective baseline; the JLNS line, instead, required a higher drug concentration (10&#160;&#956;M) to undergo a significant QT shortening. At 30&#160;&#956;M, the small molecule LUF7346 induced 50&#8211;70% QT shortening. LUF7346 was also proved to be more potent than two known hERG activators, Rottlerin and NS1643 (Fig&#160;EV4). As expected by the presence of distinct ion channel mutations and the diverse genetic backgrounds among the hiPSC lines, LUF7346 had heterogeneous effects on RR in the groups analysed (Appendix&#160;Fig S2A). In particular, in the LQT1R190Q&#8208; and LQT1corr&#8208;CMs (at 20&#160;&#956;M) and in the LQT1R594Q&#8208; and JLNSR594Q&#8208;CMs (at 30&#160;&#956;M), we observed a small increase in the RR interval, which occasionally led to cessation of spontaneous beating in hiPSC&#8208;CMs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27809</offset>
+      <text>LUF7346 rescues genetic LQTS</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27838</offset>
+      <text>Representative MEA trace (left) showing the effect of increasing concentrations of LUF7346 on FP contour, measured in LQT2N996I&#8208;CMs. Average data (right) showing the effect of LUF7346 on QT interval duration relative to baseline in CMs derived from all the hiPSC lines used in this study. *P&#160;&lt;&#160;0.05 versus baseline. Colour in the heatmap defines the magnitude of QT shortening (blue) after treatment with increasing concentrations of LUF7346. N&#160;=&#160;7&#8211;14.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28299</offset>
+      <text>Representative AP from LQT2corr&#8208;, LQT2N996I&#8208;, LQT1corr&#8208; and LQT1R190Q&#8208;CMs paced at 1&#160;Hz, under baseline conditions (black) and after application of increasing concentrations of LUF7346 (colour&#8208;code is shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28519</offset>
+      <text>Effect of LUF7346 on APD90, APD70 and APD50, measured in LQT2corr&#8208; (blue), LQT2N996I&#8208; (green), LQT1corr&#8208; (purple) and LQT1R190Q&#8208;CMs (dark blue) paced at 1&#160;Hz; *P&#160;&lt;&#160;0.05 versus baseline. The colour of the asterisk indicates comparisons and respective statistical significance. &#176;P&#160;&lt;&#160;0.05 versus the genetically matched corrected control. # P&#160;&lt;&#160;0.05 LQT1corr versus LQT2corr. N: 12&#8211;15.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28920</offset>
+      <text>Effect of LUF7346 on APA and Ediast, measured in LQT2corr&#8208; (blue), LQT2N996I&#8208; (green), LQT1corr&#8208; (purple) and LQT1R190Q&#8208;CMs (dark blue) paced at 1&#160;Hz. N&#160;=&#160;12&#8211;15.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29095</offset>
+      <text> Data information: (A) Repeated&#8208;measures ANOVA with Sidak's multiple testing correction. Adjusted P&#8208;values: LQT1R594Q: baseline versus LUF7346 5, 10, 20, 30&#160;&#956;M: &lt;&#160;0.0001. JLNSR594Q: baseline versus LUF7346 10&#160;&#956;M: 0.0051. Baseline versus LUF7346 20, 30&#160;&#956;M: &lt;&#160;0.0001. WT: baseline versus LUF7346 5&#160;&#956;M: 0.0329. Baseline versus LUF7346 10, 20, 30&#160;&#956;M: 0.0001. LQT2corr: baseline versus LUF7346 10&#160;&#956;M: 0.0205. Baseline versus LUF7346 20, 30&#160;&#956;M: 0.0001. LQT2N996I: baseline versus LUF7346 10&#160;&#956;M: 0.0004. Baseline versus LUF7346 20, 30&#160;&#956;M: &lt;&#160;0.0001. LQT1R190Q: baseline versus LUF7346 5&#160;&#956;M: 0.0042. Baseline versus LUF7346 10, 20, 30&#160;&#956;M: 0.0001. LQT1corr: baseline versus LUF7346 10&#160;&#956;M: 0.0006. Baseline versus LUF7346 20, 30&#160;&#956;M: &lt;&#160;0.0001. (C) Paired two&#8208;way ANOVA with Holm&#8211;Sidak's multiple comparisons test. APD90: Tyr LQT2corr versus Tyr LQT2N996I: 0.0013. Tyr LQT1corr versus Tyr LQT1R190Q: &lt;&#160;0.0001. Tyr LQT2corr versus Tyr LQT1R190Q: &lt;&#160;0.0001. Tyr LQT2corr versus Tyr LQT1corr: 0.0278. Tyr LQT2N996I versus Tyr LQT1R190Q: 0.0008. Tyr LQT2N996I versus LQT1corr: 0.31071. Tyr LQT1R190Q versus Tyr LQT1corr: &lt;&#160;0.0001. LQT2corr: Tyr versus LUF7346 3&#160;&#956;M: 0.0433. Tyr versus LUF7346 5&#160;&#956;M: &lt;&#160;0.0001. LQT2N996I: Tyr versus LUF7346 3&#160;&#956;M, 5&#160;&#956;M: &lt;&#160;0.0001. APD70: Tyr LQT2corr versus Tyr LQT2N996I: 0.0478. Tyr versus LUF7346 5&#160;&#956;M: 0.0018. LQT2N996I: Tyr versus LUF7346 3&#160;&#956;M, 5&#160;&#956;M: &lt;&#160;0.0001. APD50: Tyr versus LUF7346 5&#160;&#956;M: 0.0023. LQT2N996I: Tyr versus LUF7346 3&#160;&#956;M, 5&#160;&#956;M: &lt;&#160;0.0001. LQT1corr: Tyr versus LUF7346 3&#160;&#956;M: 0.0006; Tyr versus LUF7346 5&#160;&#956;M: &lt;&#160;0.0001. LQT1R190Q: Tyr versus LUF7346 3&#160;&#956;M, 5&#160;&#956;M: &lt;&#160;0.0001. (D) Repeated&#8208;measures two&#8208;way ANOVA with Holm&#8211;Sidak's multiple testing correction. All comparisons were not significant. (C, D) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30957</offset>
+      <text>Comparison of LUF7346 with known hERG modulators</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31006</offset>
+      <text>QT interval (top), RR interval (centre) and QTcB interval (bottom) were measured at increasing concentrations of LUF7346, Rottlerin, and NS1643 on MEA. LQT1R594Q&#8208; (left) and JLNSR594Q&#8208;CMs (right) were used. Data are expressed as delta percentage compared to the baseline. The grey window highlights the most biologically relevant concentration in which LUF7346 has stronger effect than the other two tested compounds. N&#160;=&#160;5&#8211;8. Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31494</offset>
+      <text>To evaluate the effect of LUF7346 on isolated hiPSC&#8208;CMs in more detail, we measured single&#8208;cell APs by patch clamp. The LQT2N996I/LQT2corr and LQT1R190Q/LQT1corr isogenic pairs were chosen as a representative example of genetic LQTS. LUF7346 significantly shortened the AP duration (APD) at 90% of the repolarisation phase (APD90) in LQT2N996I&#8208;CMs starting from 1&#160;&#956;M (242.2&#160;&#177;&#160;38.4&#160;ms versus 218.3&#160;&#177;&#160;37.8&#160;ms); the shortening was more pronounced at 3&#160;&#956;M, where the LQT2N996I APD90 became shorter than the control condition in its isogenic control LQT2corr (242.2&#160;&#177;&#160;38.4&#160;ms versus 134.9&#160;&#177;&#160;22.9&#160;ms, Fig&#160;3B and C). Similar effects were observed on AP duration at 70 and 50% of the repolarisation phase (APD70 and APD50, respectively, Fig&#160;3C). Considering the significantly longer AP recorded in the LQT1R190Q/LQT1corr isogenic pair, we decided to apply LUF7346 only at 3 and 5&#160;&#956;M, where the lower concentration already proved efficient in shortening the APD90, APD70 and APD50. No significant influences of LUF7346 were detected on AP amplitude (APA) and diastolic membrane potential (Ediast) (Fig&#160;3D).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32623</offset>
+      <text>LUF7346 rescues drug&#8208;induced LQTS</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32659</offset>
+      <text>Next, LUF7346 was used for the pharmacological rescue of drug&#8208;induced LQTS. For this purpose, the hERG blocker astemizole (AST), an anti&#8208;histamine drug withdrawn from the market because of its cardiotoxic effect (Zhou et&#160;al, 1999; Chiu et&#160;al, 2004), was added to WT hiPSC&#8208;CMs (Fig&#160;4). In addition, 100&#160;nM AST was also added to the hiPSC&#8208;CMs carrying LQTS mutations, thus simulating in&#160;vitro what happens to LQT mutation carriers treated with hERG blocking drugs (Kannankeril et&#160;al, 2010; Schwartz, 2015). Figure&#160;4A (left) shows representative MEA recordings in the LQT2N996I line. Firstly, AST treatment induced QT interval prolongation in all of the lines analysed, compared to their respective untreated baseline, as assessed by MEA recordings (Fig&#160;4A, right). Secondly, increasing concentrations of LUF7346 in the presence of 100&#160;nM AST were applied. LUF7346 at 10&#160;&#956;M was sufficient to reverse the QT interval prolongation induced by AST; however, this concentration was not able to normalise the QT interval further to baseline values. At 20&#160;&#956;M, instead, LUF7346 significantly shortened the QT interval compared to both AST and baseline in all the lines, with the exception of the JLNS hiPSC&#8208;CMs that carry a homozygous KCNQ1 mutation. By increasing the dose to 30&#160;&#956;M, significant shortening of the QT interval was observed in all the lines tested, including the JLNS hiPSC&#8208;CMs (&#8722;20%/&#8722;50% compared to baseline, &#8722;60%/&#8722;70% compared to AST). AST did not have any effect on the RR interval in any of the tested lines (Appendix&#160;Fig S2B). LUF7346 instead displayed a small, although not statistically significant, RR prolongation in almost all of the lines, accompanied by cessation of beating in some clusters but only at the highest concentrations.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34444</offset>
+      <text>LUF7346 rescues drug&#8208;induced LQTS in both wild&#8208;type and LQTS genetic backgrounds</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34529</offset>
+      <text>Representative MEA trace (left) showing the effect of 100&#160;nM AST and increasing concentrations of LUF7346 in the presence of AST on FP contour, measured in LQT1R594Q&#8208;CMs. Average data (right) of the effect of AST and LUF7346 in the presence of AST on QT interval duration compared to baseline in CMs derived from all the hiPSC lines used in this study. *P&#160;&lt;&#160;0.05 versus respective baseline. &#176;P&#160;&lt;&#160;0.05 versus AST. Colour in the heatmap defines the magnitude of QT prolongation (red) and QT shortening (blue), respectively, after treatment with AST and with increasing concentrations of LUF7346 in the presence of AST. N&#160;=&#160;5&#8211;10.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35168</offset>
+      <text>Representative AP from WT&#8208;, LQT1R594Q&#8208; and JLNSR594Q&#8208;CMs, paced at 1&#160;Hz, under baseline conditions (black), after application of 100&#160;nM AST (red) and after addition of increasing concentrations of LUF7346 in the presence of AST (colour&#8208;code is shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35430</offset>
+      <text>Effect of AST and LUF7346 in the presence of AST on APD90, APD70 and APD50 in WT&#8208; (grey), LQT1R594Q&#8208; (red) and JLNSR594Q&#8208;CMs (black) paced at 1&#160;Hz. *P&#160;&lt;&#160;0.05 versus respective baseline; &#176;P&#160;&lt;&#160;0.05 versus AST. N&#160;=&#160;11&#8211;16.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35665</offset>
+      <text>Effect of AST and LUF7346 in the presence of AST on APA and Ediast in WT&#8208; (grey), LQT1R594Q&#8208; (red) and JLNSR594Q&#8208;CMs (black) paced at 1&#160;Hz. N: 11&#8211;16.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35824</offset>
+      <text> Data information: (A) Repeated&#8208;measures one&#8208;way ANOVA with Holm&#8211;Sidak's multiple testing correction: LQT1R594Q: baseline versus AST: 0.0038, baseline versus AST+LUF7346 20&#160;&#956;M: 0.0007. Baseline versus AST+LUF7346 30&#160;&#956;M: 0.0022. AST versus AST+LUF7346 20&#160;&#956;M: &lt;&#160;0.0001; AST versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001. JLNSR594Q: baseline versus AST: 0.0020; baseline versus AST+LUF7346 20&#160;&#956;M: 0.0195; baseline versus AST+LUF7346 30&#160;&#956;M: 0.0009; AST versus AST+LUF7346 20&#160;&#956;M: 0.0002; AST versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001. WT: baseline versus AST: 0.0388; baseline versus AST+LUF7346 20&#160;&#956;M: 0.0430; baseline versus AST+LUF7346 30&#160;&#956;M: 0.0021; AST versus AST+LUF7346 20&#160;&#956;M: 0.0282; AST versus AST+LUF7346 30&#160;&#956;M: 0.0015. LQT2corr: baseline versus AST: 0.0202; baseline versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001; AST versus AST+LUF7346 20&#160;&#956;M: 0.0203; AST versus AST+LUF7346 30&#160;&#956;M: 0.0013. LQT2N996I: baseline versus AST: 0.0178; baseline versus AST+LUF7346 20&#160;&#956;M: 0.0058; baseline versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001; AST versus AST+LUF7346 20&#160;&#956;M: 0.0001; AST versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001. LQT1R190Q: baseline versus AST: 0.0466; baseline versus AST+LUF7346 20&#160;&#956;M: 0.0268; baseline versus AST+LUF7346 30&#160;&#956;M: 0.0001; AST versus AST+LUF7346 20&#160;&#956;M: 0.0160; AST versus AST+LUF7346 30&#160;&#956;M: 0.0138. LQT1corr: baseline versus AST: 0.0374; baseline versus AST+LUF7346 20&#160;&#956;M: 0.0493; baseline versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001; AST versus AST+LUF7346 20&#160;&#956;M: 0.0012; AST versus AST+LUF7346 30&#160;&#956;M: &lt;&#160;0.0001. (C) Adjusted P&#8208;values, respectively, for JLNSR594Q; LQT1R594Q; WT: APD90: Tyr versus AST: 0.0017; 0.0026; 0.0012. Tyr versus AST+LUF7346 1&#160;&#956;M: 0.0448; 0.0027; 0.0002. Tyr versus AST+LUF7346 3&#160;&#956;M: 0.0017; 0.3097; 0.1147. Tyr versus AST+LUF7346 5&#160;&#956;M: 0.9974; 0.2752; 0.0404. Tyr versus AST+LUF7346 10&#160;&#956;M: 0.0145; 0.0003; n/a. AST versus AST+LUF7346 3&#160;&#956;M: 0.0215; &lt;&#160;0.0001; 0.0289. AST versus AST+LUF7346 5&#160;&#956;M: 0.0144; 0.0007; 0.0029. AST versus AST+LUF7346 10&#160;&#956;M: 0.0045; &lt;&#160;0.0001; n/a. APD70: Tyr versus AST: 0.0078; 0.0041; 0.0294. Tyr versus AST+LUF7346 1&#160;&#956;M: 0.0488; 0.0266; 0.0452. Tyr versus AST+LUF7346 3&#160;&#956;M: 0.9527; 0.2919;0.4299. Tyr versus AST+LUF7346 5&#160;&#956;M: 0.3003; 0.0039; &lt;&#160;0.0001. Tyr versus AST+LUF7346 10&#160;&#956;M: &lt;0.0001; 0.0009; n/a. AST versus AST+LUF7346 3&#160;&#956;M: 0.0267; &lt;&#160;0.0001; 0.0238. AST versus AST+LUF7346 5&#160;&#956;M: 0.0032; 0.0022; 0.0048. AST versus AST+LUF7346 10&#160;&#956;M: 0.0002; 0.0008; n/a. APD50: Tyr versus AST: 0.0385; 0.0472; 0.0055. Tyr versus AST+LUF7346 1&#160;&#956;M: 0.0429; 0.2383; 0.0210. Tyr versus AST+LUF7346 3&#160;&#956;M: 0.8840; 0.0650; 0.2113. Tyr versus AST+LUF7346 5&#160;&#956;M: 0.0470; 0.0023; 0.0020. Tyr versus AST+LUF7346 10&#160;&#956;M: 0.0012; 0.0002; n/a. AST versus AST+LUF7346 3&#160;&#956;M: 0.0191; &lt;&#160;0.0001; 0.0027. AST versus AST+LUF7346 5&#160;&#956;M: 0.0241; 0.0014; 0.0006. AST versus AST+LUF7346 10&#160;&#956;M: 0.0028; 0.0002; n/a. Comparisons not indicated were not statistically significant. (D) One&#8208;way ANOVA with Holm&#8211;Sidak's multiple testing correction. All comparisons were not significant. (C, D) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38969</offset>
+      <text>To analyse the effects of AST and LUF7346 on single cells further, we measured AP with patch clamp in isolated hiPSC&#8208;CMs from the LQT1R594Q/JLNSR594Q isogenic pair, as an illustrative example for the combination of genetic and drug&#8208;induced LQTS, and from the WT line, representing drug&#8208;induced LQTS (Fig&#160;4B). AST 100&#160;nM prolonged the APD90 in WT, LQT1R594Q and JLNSR594Q hiPSC&#8208;CMs by 59.25&#160;&#177;&#160;8.8%, 45.25&#160;&#177;&#160;4.5% and 46.08&#160;&#177;&#160;3.8%, respectively. Application of 1&#160;&#956;M LUF7346 in the presence of 100&#160;nM AST failed to restore baseline values. About 3&#160;&#956;M LUF7346, instead, massively shortened APD90 values in WT hiPSC&#8208;CMs, completely restored them in LQT1R594Q&#8208;CMs but failed to significantly shorten AP in JLNSR594Q&#8208;CMs. As expected, the severe QT prolongation in JLNSR594Q hiPSC&#8208;CMs required a slightly higher concentration of LUF7346 (5&#160;&#956;M) to be rescued. Finally, LUF7346 at 10&#160;&#956;M induced massive APD90 shortening in both cell lines. APD70 and APD50 were also significantly shortened starting from a concentration of 3&#160;&#956;M in both cell lines. In agreement with the results for LUF7346 alone, no effects were recorded on APA or Ediast. Interestingly, AST also induced arrhythmic events in JLNSR594Q&#8208;CMs (in 20.6% of the cells) but not in LQT1R594Q&#8208;CMs, as evidenced by the presence of early after depolarisations (EADs, Fig&#160;5A); this reflects the increased susceptibility of JLNS patients to hERG blockers (Priori et&#160;al, 1999). Notably, LUF7346 was able to completely abolish the AST&#8208;induced EADs recorded in the JLNSR594Q hiPSC&#8208;CMs in a concentration&#8208;dependent manner. Increased proarrhythmic risk has often been associated with increased beat&#8208;to&#8208;beat variability of repolarisation duration (BVR) (Thomsen et&#160;al, 2006; Altomare et&#160;al, 2015). Therefore, we analysed the BVR of QT intervals using MEA and quantified it as short&#8208;term variability (STV, see Materials and Methods) in all isogenic hiPSC&#8208;CMs pairs. Since RR intervals were not different within each isogenic pair, this allowed a good approximation of BVR measured in&#160;vivo (Thomsen et&#160;al, 2006). This analysis proved reliable for revealing the severity of the genotype within each isogenic pair, since higher STV values were recorded in the mutated lines (Fig&#160;5B). AST significantly increased STV compared to baseline values in JLNSR594Q&#8208; (+28.65&#160;&#177;&#160;9.54%), LQT2N996I&#8208; (+52.18&#160;&#177; 20.89%) and LQT1R190Q&#8208;CMs (+53.62&#160;&#177; 14.72%) (Fig&#160;5C). No significant effects were recorded in LQT1R594Q&#8208; (+14.64&#160;&#177; 14.77%), LQT2corr&#8208; (9.02&#160;&#177;&#160;13.6%), LQT1corr (&#8722;8.288&#160;&#177; 14.83%) and WT&#8208;CMs (Figs&#160;5C and EV5). The addition of 20&#160;&#956;M LUF7346 in the presence of AST resulted in a significant decrease of STV (from &#8722;19 to &#8722;50% versus baseline) in all of the lines except LQT1corr, where changes did not reach statistical significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41828</offset>
+      <text>LUF7346 suppresses arrhythmogenic events in drug&#8208;induced LQTS</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41892</offset>
+      <text>Representative AP traces measured in JLNSR594Q&#8208;CMs paced at 1&#160;Hz, under baseline conditions (black) and after application of either AST alone (red), AST+LUF7346 3&#160;&#956;M (green) and AST+LUF7346 5&#160;&#956;M (blue).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42102</offset>
+      <text>STV values calculated on spontaneously beating hiPSC&#8208;CM clusters over 30 consecutive beats as measured with MEA. N&#160;=&#160;7&#8211;24. *P&#160;&lt;&#160;0.05 versus respective isogenic pair.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42276</offset>
+      <text>STV changes (left) and representative examples of QT interval oscillations plotted over 30 consecutive beats (right) in the presence of AST and AST+LUF7346 20&#160;&#956;M. *P&#160;&lt;&#160;0.05 versus baseline. &#176;P&#160;&lt;&#160;0.05 versus AST. N&#160;=&#160;7&#8211;24.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42509</offset>
+      <text> Data information: (B) Unpaired t&#8208;tests within each isogenic pair: LQT1R594Q&#8208;JLNSR594Q: P&#160;&lt;&#160;0.0001; LQT2corr&#8208;LQT2N996I: 0.0354; LQT1corr&#8208;LQT1R190Q: 0.0364. (C): unpaired one&#8208;way ANOVA with Holm&#8211;Sidak's multiple comparisons test. LQT1R594Q: baseline versus AST: 0.254, baseline versus LUF: 0.0305, AST versus LUF: 0.0087. JLNSR594Q: baseline versus AST: 0.0288, baseline versus LUF: 0.0288, AST versus LUF: 0.0003. LQT2N996I: baseline versus AST: 0.0192, baseline versus LUF: 0.0192, AST versus LUF: &lt;&#160;0.0001. LQT2corr: baseline versus AST: 0.5314, baseline versus LUF: 0.0493, AST versus LUF: 0.0191. LQT1corr: baseline versus AST: 0.6821, baseline versus LUF: 0.4582, AST versus LUF: 0.6821. LQT1R190Q: baseline versus AST: 0.0161, baseline versus LUF: 0.0161, AST versus LUF: 0.0004. (B, C) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>43370</offset>
+      <text>Chronic effect of LUF7346 on hESC&#8208;CMs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43410</offset>
+      <text>STV values calculated on spontaneously beating hiPSC&#8208;CM clusters over 30 consecutive beats as measured with MEA. N&#160;=&#160;5&#8211;19. *P&#160;&lt;&#160;0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43552</offset>
+      <text>STV changes calculated over 30 consecutive beats in the presence of AST and AST+LUF7346 20&#160;&#956;M in WT&#8208;CMs. &#176;P&#160;&lt;&#160;0.05 versus AST. N&#160;=&#160;5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43695</offset>
+      <text> Data information: (A, B) Unpaired one&#8208;way ANOVA with Holm&#8211;Sidak's multiple comparisons test. Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43846</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43857</offset>
+      <text>Differentiated derivatives of disease&#8208;specific hiPSCs have already demonstrated their usefulness for in&#160;vitro drug repurposing (Wainger et&#160;al, 2014; McNeish et&#160;al, 2015) and LQTS hiPSC&#8208;CMs has proven to be a valuable tool in studying the effects of small molecules (Bellin et&#160;al, 2012; Zhang et&#160;al, 2012; Navarrete et&#160;al, 2013; Sinnecker et&#160;al, 2014; Sallam et&#160;al, 2015). However, only rarely have hiPSC&#8208;CMs so far been used for thoroughly evaluating new chemical entities and even less frequently have genetically matched controls been used for drug activity evaluation (Wang et&#160;al, 2014b). Here, we demonstrated the application of a panel of isogenic hPSC&#8208;CMs in a drug discovery pipeline for the rescue of both genetic and acquired LQTS. Increased arrhythmia susceptibility to hERG blockers in patients with LQTS genetic backgrounds was also recapitulated in their hiPSC&#8208;CMs and rescued by the small molecule LUF7346. This study provides novel perspectives for the treatment of LQTS and strong evidence that hPSC technology can be used in drug discovery.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44934</offset>
+      <text>Several strategies have been used in attempts to correct the LQTS phenotype in hiPSC&#8208;CMs; these include treatment with direct/indirect blockers of depolarising currents [e.g. nifedipine (Spencer et&#160;al, 2014), propranolol (Mehta et&#160;al, 2013)], application of activators of repolarising currents (Casis et&#160;al, 2006; Zhang et&#160;al, 2012; Matsa et&#160;al, 2014; Wang et&#160;al, 2014b) and allele&#8208;specific RNA interference (Matsa et&#160;al, 2014). In the present study, we tested a novel molecule (LUF7346) able to modulate hERG channel activity allosterically. LUF7346 acts as a type&#8208;1 hERG activator (Perry et&#160;al, 2009, 2010), by positively shifting the steady&#8208;state inactivation curve (thus increasing IKr window current) and by slowing IKr deactivation in a voltage&#8208;dependent manner (enhancing the amount of current available at a certain membrane potential). Most importantly, LUF7346 appeared to be very specific for IKr, since it did not affect IKs, ICaL or dV/dtmax at the working concentrations tested, and it seemed to have negligible effects on INa and IK1, since it did not alter the APA and Ediast (Figs&#160;3 and EV3). These results are encouraging for its possible translational application, although they need to be further validated in clinical studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46201</offset>
+      <text>Genetic background can play an essential role in shaping disease traits, particularly in monogenic disorders. By using identical experimental conditions for all the hPSC lines analysed, the individual genetic background was excluded as variable in the pairwise comparisons. Interestingly, significant differences in basal QT intervals and RR (and QTc) were observed among the four bona fide wild&#8208;type lines, confirming that the use of a random selection of wild&#8208;type genetic backgrounds is insufficient to justify the term &#8220;healthy control&#8221;. In addition, when LUF7346 was added to rescue the genetic form of LQTS, some differences among control lines were observed in their response to the compound (Appendix Fig&#160;S3), supporting the idea that several different controls might be more informative in the context of drug testing. One limitation that our study shares with the vast majority of the literature is that all analyses were done using one clone per group. We anticipate that this will possibly change as automatic phenotyping and genetic manipulation techniques further improve in terms of cost, time and efficiency. As a cautionary note for any study quantifying QT interval in hPSC&#8208;CMs, is our observation that common QT interval correction methods with Bazett's or Fridericia's formulae, routinely used in clinics and developed for rate responses within the clinical range, might be misleading when applied in&#160;vitro; major&#8208;axis regression analysis indicated that hiPSC&#8208;CMs derived from distinct lines behave differently in response to the beating frequency (Fig&#160;EV2 and Appendix&#160;Table&#160;S2) suggesting that the classical QT correction methods may not be broadly applicable in&#160;vitro to all hiPSC lines and should therefore be used carefully. A detailed analysis of single&#8208;cell gene and protein expression along with electrophysiological characterisation of hiPSC&#8208;CMs may shed light on the differences in QT observed among different lines in future studies. Some variability among the isogenic pairs tested was also observed in the QT prolongation after hERG block (Appendix&#160;Fig S4) confirming the important role of genetic background in drug responses. Asymptomatic or borderline LQTS mutation carriers are highly represented in the LQTS population [36 and 19%, respectively, for LQT1 and LQT2 (Schwartz et&#160;al, 2012)], and they are particularly susceptible to hERG blockers (Fitzgerald &amp; Ackerman, 2005). In fact, it is suspected that drug&#8208;induced LQTS often results from unmasking an asymptomatic congenital predisposition (Saenen &amp; Vrints, 2008; Schwartz, 2015). By combining both congenital and drug&#8208;induced LQTS as exemplified here with AST treatment, we illustrated the value of hiPSC&#8208;CMs as tools for developing precision medicine (Ashley, 2015), introducing a new aspect of the clinical complexity into the link between bench and bedside.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49087</offset>
+      <text>The generation of isogenic controls by gene repair has already proven successful in identifying causative mutations, especially in the case of mild phenotypes (Bellin et&#160;al, 2013; Wang et&#160;al, 2014a). Similarly, genetically matched lines act as internal references during drug testing (Wainger et&#160;al, 2014) and may be essential to determine the active concentration range. Here, as a proof of principle, isogenically matched lines have been used as an internal reference for QT/APD normalisation in the settings of genetic and drug&#8208;induced LQTS. As shown in Fig&#160;3B and C, the selection of a genetically matched control is essential for both disease modelling (i.e. no differences in basal APD would be detected between LQT2N996I and LQT1corr) and drug screening (if LQT2corr were chosen as control for the LQT1R190Q&#8208;CMs, 3&#160;&#956;M of LUF7346 would seem necessary to normalise the AP, while this drug concentration is shortening the AP beyond the value of the isogenically matched LQT1corr&#8208;CMs). The normalisation effect of LUF7346 within each isogenic hiPSC&#8208;CM pair revealed that concentrations between 1 and 3&#160;&#956;M were sufficient to induce significant APD shortening. Importantly, the active concentration of LUF7346 that we identified is from 5 to 15 times lower than previously reported hERG activators in human (Kang et&#160;al, 2005; Zhang et&#160;al, 2014) or rodent (Yu et&#160;al, 2016) cells, although direct comparisons should be made under identical experimental conditions. In addition, LUF7346 alone also affected AP duration, in contrast to other hERG activators (Kang et&#160;al, 2005). As for previous observations with hERG blockers (Bellin et&#160;al, 2013), the effects of the hERG allosteric modulator LUF7346 were larger in LQT2N996I and LQT1R190Q compared to LQT2corr and LQT1corr, respectively, while at higher concentrations, the APD end point converged. In conditions of unstable repolarisation phase, as measured in the mutated CMs (Fig&#160;5B and C), even small currents can induce substantial changes in APD (Vir&#225;g et&#160;al, 2009). Furthermore, IKs might be more active in LQT2N996I under basal conditions as a compensatory mechanism subsequent to deregulated repolarisation reserve (Braam et&#160;al, 2013); in these settings, IKr activation induced by LUF7346 could cause greater AP shortening.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51393</offset>
+      <text>Despite their apparent value demonstrated here, hPSC&#8208;CMs are still limited for some applications by their immature electrophysiological phenotype (Veerman et&#160;al, 2015). All the lines analysed by patch clamp tended to be hyperpolarised by LUF7346, in accordance with the strong reliance of Ediast in hiPSC&#8208;CMs on IKr (Doss et&#160;al, 2012) with slight enhancement promoting hyperpolarisation (Fig&#160;EV3D). The effect of LUF7346 on IKr deactivation was clearly visible as a sustained diastolic outward current, which explains also the apparent, although not statistically significant, increases in dV/dtmax and why LUF7346 at high concentrations seldom inhibited spontaneous beating of hiPSC&#8208;CMs. Excessive increase in IKr by LUF7346 may have polarised the membrane and made the clusters quiescent. The technical difficulties of stimulating clusters on the MEA did not allow confirmation of this hypothesis; however, this phenomenon was not observed in isolated hiPSC&#8208;CMs paced at 1&#160;Hz.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52384</offset>
+      <text>When drug&#8208;induced LQTS was simulated on MEA, the IKr blockade induced by AST was completely reverted by LUF7346 treatment, confirming the negative allosteric effects of LUF7346 on the binding of prototypical hERG blockers at the channel (Yu et&#160;al, 2016). The binding of LUF7346 to the channel at an allosteric site (i.e. a site topologically distinct from where classic hERG blockers bind) triggers a conformational change within the channel, ultimately causing an acceleration of the AST dissociation rate and thus a lower activity at the channel (Christopoulos et&#160;al, 2014). In contrast with findings described by others (Matsa et&#160;al, 2011), hERG modulation by LUF7346 completely reversed the severe effects of the potassium channel blocker AST in LQT2N996I hiPSC&#8208;CMs, confirming the efficacy of LUF7346 compared to other molecules reported so far in the literature. A different degree of sensitivity/severity between JLNSR594Q and LQT1R594Q was also reflected in a more potent effect of LUF7346 on the LQT1R594Q hiPSC&#8208;CMs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53419</offset>
+      <text>One of the risks of treating LQTS with hERG activators is excessive shortening of the QT interval. Here, we observed steep dose&#8211;response curves for LUF7346, which could make it difficult to find the right dose for in&#160;vitro testing that does not generate short QT (SQT) (Sanguinetti, 2014). This should be taken into account when translating these results to in&#160;vivo experiments or clinical use, even though hERG activator&#8208;induced SQT has proven to have milder consequences than previously hypothesised (Grunnet et&#160;al, 2008; van der Linde et&#160;al, 2008). However, prolonged RR interval and cessation of spontaneous beating as detected in our assays might result in more severe in&#160;vivo effects, thus forming an obstacle for clinical translation. Nevertheless, the chronic effects of LUF7346 at 24 and 48&#160;h confirmed its high efficacy and the stability of its effect at physiological temperature (Fig&#160;EV6).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>54332</offset>
+      <text>Chronic effect of LUF7346 on hESC&#8208;CMs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54372</offset>
+      <text>Effect of positive (5&#160;&#956;M E4031, bottom) and negative (0.5% DMSO (top) controls on QT (left) and RR (right) intervals in hESC&#8208;LQT2N996I&#8208;CMs, as measured on multi&#8208;well MEAs. *P&#160;&lt;&#160;0.05 versus baseline. &#176;P&#160;&lt;&#160;0.05 versus 24&#160;h. N&#160;=&#160;5 and 4 for positive and negative controls, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54672</offset>
+      <text>Chronic effect of 3&#160;&#956;M LUF7346 on WT&#8208; and hESC&#8208;LQT2N996I&#8208;CMs, as measured on multi&#8208;well MEAs. *P&#160;&lt;&#160;0.05 versus baseline. N&#160;=&#160;10 and 8 for WT&#8208;hESC and LQT2N996I&#8208;hESC&#8208;CMs, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54876</offset>
+      <text> Data Information: (A) Paired one&#8208;way ANOVA with Holm&#8211;Sidak's multiple comparisons test. 24&#160;h versus baseline&#160;=&#160;0.0276; 48&#160;h versus baseline 0.0003 versus baseline. 48&#160;h versus 24&#160;h: P&#160;=&#160;0.0042. (B) Two&#8208;ways ANOVA with Holm&#8211;Sidak's multiple comparisons test. P&#160;&lt;&#160;0.0001 versus the respective baseline. (A, B) Data are expressed and plotted as the mean&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55256</offset>
+      <text>In conclusion, libraries of hiPSC&#8208;CMs are beginning to become excellent resources as human models for predicting drug responses and cardiotoxicity, as recently demonstrated by the correlation between cardiac doxorubicin sensitivity in patients and their derivative hiPSC&#8208;CMs (Burridge et&#160;al, 2016). In combination with precision medicine, it is highly likely that prediction of cardiotoxicity from hERG block will be feasible and further exploration encouraged for future regulatory implementation. The use of hiPSC pairs as exemplified here, in combination with in&#160;vitro hERG assays, in silico data and large animal studies, as proposed for the comprehensive in&#160;vitro proarrhythmic sssay (CiPA, Sager et&#160;al, 2014; Fermini et&#160;al, 2015), will likely contribute to the development of precision medicine and, eventually, to the reduction of attrition in drug discovery.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>56132</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56154</offset>
+      <text>Drugs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56160</offset>
+      <text>The synthesis and chemical analysis of all LUF compounds were detailed in our previously published paper (Yu et&#160;al, 2015). Astemizole was purchased from Sigma&#8208;Aldrich (MO, USA). Tritium&#8208;labelled dofetilide (specific activity: 82.3&#160;Ci/mmol) was obtained from PerkinElmer (MA, USA). All these drugs were dissolved in DMSO to obtain 10 and 100&#160;mM stock solutions. NS1643 (Santa Cruz Biotech, USA) was dissolved in pure EtOH according to the manufacturer's datasheet to obtain a 100&#160;mM stock solution. Rottlerin (Santa Cruz Biotech, USA) was dissolved in DMSO according to the manufacturer's datasheet to obtain a 50&#160;mM stock solution.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56801</offset>
+      <text>All the other chemicals were of analytical grade and obtained from standard commercial sources.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56897</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56910</offset>
+      <text>For in&#160;vitro binding assays, HEK293 cells stably expressing hERG 1 channel (HEK293 hERG) were cultured as previously described (Yu et&#160;al, 2014). For electrophysiology, HEK293 hERG were cultured in DMEM with 20% FCS, 1:500 penicillin/streptomycin, 1:100 l&#8208;glutamine and passaged twice a week.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57206</offset>
+      <text>hPSCs were cultured and differentiated into cardiomyocytes as previously described (Takahashi et&#160;al, 2007; Dambrot et&#160;al, 2014). Briefly, hPSCs were maintained on MEF feeders in DMEM/F12 medium supplemented with 20% KSR, 2&#160;mM l&#8208;glutamine, 0.1&#160;mM non&#8208;essential amino acids, 50&#160;U/ml penicillin, 50&#160;&#956;g/ml streptomycin and 10&#160;ng/ml human b&#8208;FGF (PeproTech, UK). For cardiac induction, hiPSCs (~3&#160;&#215;&#160;104 cells/cm2) were plated on Matrigel&#8208;coated (BD Biosciences, NJ, USA) plates 1&#160;day before starting the differentiation. One day after seeding, medium was changed to low&#8208;insulin BPEL medium (Ng et&#160;al, 2008) with the addition of the following factors: day 0 to day 3, 20&#160;ng/ml BMP4 (R&amp;D Systems, MN, USA), 20&#160;ng/ml activin A (Miltenyi Biotec, D) and 1.5&#160;&#956;M GSK3 inhibitor CHIR99021 (Axon Medchem, DE); day 4 to day 6, 5&#160;&#956;M XAV939 Wnt inhibitor (Tocris Bioscience, UK). Medium was further changed every 3&#8211;4&#160;days and beating hiPSC&#8208;CMs appeared from day 10 onwards. CMs 20&#8211;30&#160;days old were dissociated for MEA analysis and single&#8208;cell electrophysiology using Tryple Select 1X (Gibco Life Technologies, MA, USA). Correction of the c.569G&#160;&gt;&#160;A KCNQ1 mutation was performed by conventional homologous recombination as previously described (Bellin et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58495</offset>
+      <text> In vitro binding assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58519</offset>
+      <text>Membranes from HEK293 cells overexpressing hERG were prepared and stored as described previously (Yu et&#160;al, 2014). Single&#8208;point dissociation assay was performed in incubation buffer (10&#160;mM HEPES, 130&#160;mM NaCl, 60&#160;mM KCl, 0.8&#160;mM MgCl2, 1&#160;mM EGTA, 10&#160;mM glucose, 0.1% BSA, pH 7.4) as detailed previously (Yu et&#160;al, 2015). Briefly, the dissociation of [3H]dofetilide was initiated by addition of 10&#160;&#956;M dofetilide in the absence (control) or presence of 10 or 50&#160;&#956;M LUF compounds after pre&#8208;incubation at 25&#176;C for 2&#160;h. After 6&#160;min of dissociation, incubations were terminated by dilution with ice&#8208;cold wash buffer (25&#160;mM Tris&#8211;HCl, 130&#160;mM NaCl, 60&#160;mM KCl, 0.8&#160;mM MgCl2, 0.05&#160;mM CaCl2, 0.05% BSA, pH 7.4). Separation of bound from free radioligand was performed by rapid filtration through a 96&#8208;well GF/B filter plate using a PerkinElmer Filtermate&#8208;harvester PerkinElmer (MA, USA). The filter&#8208;bound radioactivity was determined by scintillation spectrometry using the P&#8208;E 1450 Microbeta Wallac Trilux scintillation counter (PerkinElmer, MA, USA) after addition of 25&#160;&#956;l Microscint and 2&#8208;h extraction. Data were analysed with GraphPad Prism 6.0 or 7.0 (GraphPad Software, CA, USA) and R 3.2.4 (The R Foundation for Statistical Computing).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59789</offset>
+      <text>Multielectrode arrays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59811</offset>
+      <text>Multielectrode array (MEA) experiments were performed using a 64 electrodes USB&#8208;MEA system (Multichannel Systems, DE). All the experiments were performed at 37&#176;C in BPEL medium. MEA chambers were coated with fibronectin (40&#160;&#956;g/ml, Alfa Aesar, MA, USA) before seeding hiPSC&#8208;CMs. Acute dose&#8211;response curves were generated by adding aliquots at fixed 1:100 dilution every 10&#160;min (Navarrete et&#160;al, 2013). Traces were analysed with a custom&#8208;made protocol to quantify both QT and RR intervals.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60312</offset>
+      <text>Chronic treatment with LUF7346 was evaluated using 24&#8208;well Multi&#8208;well MEA plates (Multichannel Systems, DE). Wells were coated with 75&#160;&#956;g/ml Matrigel before seeding hiPSC&#8208;CMs. The effects of chronic exposure to negative control (DMSO), positive control (5&#160;&#956;M E4031) and 3&#160;&#956;M LUF7346 were evaluated after 24&#8208;h and 48&#8208;h treatment. Measurements were performed at 37&#176;C in BPEL medium. Traces were analysed with a custom&#8208;made protocol to quantify both QT and RR intervals.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60799</offset>
+      <text>STV measurements</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60816</offset>
+      <text>The variability of QT intervals was quantified, as previously described (Altomare et&#160;al, 2015; Pueyo et&#160;al, 2016), over 30 consecutive beats and expressed as STV, which indicates the average distance, perpendicular to the line of identity, in a Poincar&#233; plot of QT n against QT n+1. STV was calculated with the following equation:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61152</offset>
+      <text>The effect of AST and AST+LUF7346 was expressed as delta percentage compared to the baseline value.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61252</offset>
+      <text>Patch clamp</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61264</offset>
+      <text>Electrical signals were recorded with an Axopatch 200B Amplifier (Molecular Devices, CA, USA) and digitised with a Digidata 1440A (Molecular Devices, CA, USA) connected to an x86 Windows PC running pClamp 10.4. All measurements were performed at 37&#176;C. Data were analysed with ClampFit 10.4 (Molecular Devices, CA, USA), OriginPro 8.5 (OriginLab Corp, MA, USA) and Prism 7.0a (GraphPad Software, CA, USA) for Mac.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61678</offset>
+      <text>Voltage clamp</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61692</offset>
+      <text>Voltage&#8208;clamp studies were performed in the whole&#8208;cell configuration. Cells were superfused with a Tyrode's solution containing (mM): 154 NaCl, 5.4 KCl, 1.8 CaCl2, 1 MgCl2, 5 HEPES&#8208;NaOH, 5.5 D&#8208;Glucose; pH was adjusted to 7.35 with NaOH. L&#8208;type Ca2+ current (ICaL) and the slow delayed rectifier K+ current (IKs) were blocked, respectively, by adding 5&#160;&#956;M nifedipine (Sigma&#8208;Aldrich, MO, USA) and 1&#160;&#956;M JNJ&#8208;303 (Tocris Biosciences, UK) to the extracellular solution.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62174</offset>
+      <text>Glass capillaries (1.5&#8211;3&#160;M&#937;) were filled with an intracellular solution containing (mM): 125&#160;K&#8208;gluconate, 20 KCl, 10 NaCl, 10 HEPES, 5&#160;K2&#8208;ATP; pH was adjusted to 7.2 with KOH. Cell capacitance and series resistance were calculated in each cell and compensated from 65 to 80% to maintain the error on the superimposed voltage below 5&#160;mV (average value: 3.05&#160;&#177;&#160;0.34&#160;mV). hERG steady&#8208;state activation was evaluated with a standard two&#8208;pulse protocol (Rosati et&#160;al, 1998), with 4 s voltage steps from &#8722;60&#160;mV to +30&#160;mV, every 10&#160;mV, followed by 16&#160;s at &#8722;40&#160;mV. Holding potential was set to &#8722;40&#160;mV. Current/voltage (I/V) relationships were obtained by measuring the peak of the tail current at &#8722;40&#160;mV and plotting it as a function of the conditioning voltage. The steady&#8208;state activation curve was generated by normalising tail currents at &#8722;40&#160;mV to the maximal tail current (Liu &amp; Trudeau, 2015). hERG steady&#8208;state inactivation was evaluated with a standard three&#8208;pulse protocol (Gianulis &amp; Trudeau, 2011). From a holding potential of &#8722;80&#160;mV, channels were fully activated and rapidly inactivated with a 500&#8208;ms step to +20&#160;mV. The inactivation on previously activated channels was removed by 5&#8208;ms steps from &#8722;110&#160;mV to +30&#160;mV. Instantaneous currents were subsequently measured at +20&#160;mV. To generate steady&#8208;state inactivation curves, the instantaneous current at +20&#160;mV was normalised by the maximal instantaneous current. Both steady&#8208;state activation and inactivation curves were fitted with the following Boltzmann's function:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63762</offset>
+      <text>hERG voltage&#8208;dependent deactivation was evaluated with a standard two&#8208;pulse protocol (Liu &amp; Trudeau, 2015): IKr was evoked by voltage steps to +20&#160;mV followed by voltage steps from &#8722;120&#160;mV to 0&#160;mV, every 20&#160;mV. Tail currents were fitted with the following biexponential function:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64054</offset>
+      <text>LUF7346 was tested at 3&#160;&#956;M for HEK293 hERG and 5&#160;&#956;M for hiPSC&#8208;CMs. E&#8208;4031 5&#160;&#956;M (Tocris Bioscience, UK) was used to ensure a complete blockade of hERG and allow the subtraction of background currents.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64264</offset>
+      <text>IKs was measured in WT hiPSC&#8208;CMs with a Tyrode's solution containing: 5&#160;&#956;M E4031 (Tocris Biosciences, UK) to block IKr, 5&#160;&#956;M nifedipine (Sigma&#8208;Aldrich, USA) to block L&#8208;type Ca2+ current and isolated with 1&#160;&#956;M JNJ&#8208;303 (Tocris Bioscience, UK). A 3&#8208;step voltage&#8208;clamp protocol was used for the recordings. From a holding potential of &#8722;40&#160;mV, three depolarisation steps of 3,750&#160;ms to &#8722;40&#160;mV, 0&#160;mV and +40&#160;mV were applied, followed by 4,250&#160;ms at &#8722;40&#160;mV. The cycle length was 10&#160;s.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64774</offset>
+      <text>ICaL was isolated in WT hiPSC&#8208;CMs with a modified Tyrode's solution containing (mM): 154 tetraethylammonium chloride, 5 CaCl2, 1 MgCl2, 5 HEPES, 5.5 d&#8208;glucose; pH was set to 7.4 with CsOH. 2&#160;mM 4&#8208;aminopyridine (4&#8208;AP) and 0.01&#160;mM tetrodotoxin (TTX) were added to block Kv4.3 and TTX&#8208;sensitive sodium channels (mainly Nav1.5), respectively; pH was recalibrated to 7.4 with HCl after 4&#8208;AP addition. Pipette solution contained (mM): 115 CsCl, 20 tetraethylammonium chloride, 0.5 MgCl2, 10 EGTA, 5 HEPES, 0.4 GTP&#8208;Tris salt, 5 ATP&#8208;Mg salt, 5 phosphocreatine&#8208;Mg salt; pH was set to 7.2 with CsOH. ICaL was evoked with a 4&#8208;step protocol as previously described (Rocchetti et&#160;al, 2014): 15&#160;ms at holding potential (&#8722;80&#160;mV), 1,000&#160;ms of pre&#8208;step at &#8722;50&#160;mV, 14 steps of 300&#160;ms from &#8722;60&#160;mV, every 10&#160;mV and 65&#160;ms at holding potential. Cycle length was 10&#160;s. Sampling rate was 10&#160;kHz, and traces were filtered with a low&#8208;pass Bessel filter at 2&#160;kHz.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65755</offset>
+      <text>Current clamp</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65769</offset>
+      <text>Current&#8208;clamp experiments were performed in the perforated patch configuration. Cells were superfused with a Tyrode's solution containing (mM): 154 NaCl, 5.4 KCl, 1.8 CaCl2, 1 MgCl2, 5 HEPES&#8208;NaOH, 5.5 d&#8208;glucose; pH was adjusted to 7.35 with NaOH.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66022</offset>
+      <text>Glass capillaries (2&#8211;3.5&#160;M&#937;) were filled with an intracellular solution containing (mM): 125&#160;K&#8208;gluconate, 20 KCl, 10 NaCl, 10 HEPES; pH was adjusted to 7.2 with KOH. Amphotericin B (Sigma&#8208;Aldrich, MO, USA) was dissolved in DMSO just before the experiments and added to the intracellular solution to reach a final concentration of 0.22&#160;mM. LUF7346 was used at 1, 3, 5, 10&#160;&#956;M concentrations.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66424</offset>
+      <text>Quantitative reverse&#8208;transcription PCR (RT&#8211;qPCR)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66477</offset>
+      <text>Total RNA was isolated using the NucleoSpinRNA kit (Macherey&#8208;nagel), following the manufacturer's instructions. Eight hundred nanograms of RNA was reverse&#8208;transcribed using the iScriptTM&#8208;cDNA Synthesis kit (Bio&#8208;Rad). Expression profiles of genes of interest were determined using the iQTM Universal SYBR Green Supermix (Bio&#8208;Rad). Gene expression was analysed using the &#916;C t method where the gene of interest was compared to the housekeeping gene RPL37A. Primers used were previously described: TNNT2, KCNH2&#8208;1a, KCNE2, KCNQ1, KCNJ12 and CACNA1C (Bellin et&#160;al, 2013); RPL37A and KCNH2&#8208;1a/1b (Zhang et&#160;al, 2014); HCN4 (Moretti et&#160;al, 2010); SCN5A (Birket et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67162</offset>
+      <text>Movies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67169</offset>
+      <text>Movies of beating monolayers were acquired with a Nikon DS&#8208;2MBW camera connected to a Nikon Eclipse Ti&#8208;S microscope, controlled by the Nikon NIS&#8208;Element BR software. Lens magnification was 10&#215; with a PhL contrast filter.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67397</offset>
+      <text>Statistics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67408</offset>
+      <text>Student's t&#8208;test, one&#8208;way or two&#8208;way ANOVA for paired or unpaired measurements were applied as appropriate to test for differences in means between groups/conditions. Kruskal&#8211;Wallis test and two&#8208;tailed Wilcoxon signed&#8208;rank test were used when the normality assumption did not hold. Post hoc comparison between individual means or medians was performed by Tukey's method, and P&#8208;values have been corrected for multiple testing using the Holm&#8211;Sidak or Dunn's method. Detailed statistics and exact P&#8208;values are indicated in each figure legend. Data are expressed and plotted as the mean&#160;&#177;&#160;SEM. Statistical significance was defined as P&#160;&lt;&#160;0.05 (n.s.,&#160;not significant). Exact P&#8208;values for each comparison are expressed in data information within the respective figure legend. The sample size for each experiment is specified in the respective figure legend. Statistical analyses were performed with GraphPad Prism 7.0a for Mac and R 3.2.4 (The R Foundation for Statistical Computing).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68413</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68434</offset>
+      <text>LS performed single cell and MEA electrophysiology measurements and analysis, as well as RT&#8208;qPCR analysis. ZY performed LUF compounds in vitro binding assays. DW&#8208;vO performed cell culture, MEA preparations and RT&#8208;qPCR. JPDvV performed LUF compounds synthesis. AM and K&#8208;LL provided LQT1R190Q and LQT2N996I hiPSCs. MB performed MEA measurements. LS, API, CLM and MB were involved in experimental design. LS, CLM and MB wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68881</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68902</offset>
+      <text>C.L.M. is co&#8208;founder and advisor of Pluriomics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68952</offset>
+      <text>For more information</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68973</offset>
+      <text>LQT1: http://www.omim.org/entry/192500 </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69013</offset>
+      <text>JLNS: http://www.omim.org/entry/220400 </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69053</offset>
+      <text>LQT2: http://www.omim.org/entry/613688 </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69093</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1_caption</infon>
+      <offset>69096</offset>
+      <text>The paper explained</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>69116</offset>
+      <text>Problem</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69124</offset>
+      <text>The long&#8208;QT syndrome (LQTS) is an arrhythmogenic disorder of the heart, with a prevalence of 1:2,000 newborns, which may lead to sudden cardiac death on the onset of the first arrhythmogenic event. In recent years, both diagnosis and (to a certain extent) therapies for LQTS have improved; however, there remains a need for new pharmacological approaches. In the process of drug development, predicting the toxicity and the efficacy of novel compounds represents a remarkable challenge, with a combination of in&#160;vitro, ex&#160;vivo and in&#160;vivo tests, with animal studies representing a substantial portion. Nevertheless, a consistent number of drugs are (i) rejected because of lack of proper in&#160;vivo effect or, worse, (ii) withdrawn from the market because they induce severe arrhythmias, especially in the presence of more susceptible genetic backgrounds. A better tool to improve the predictivity of these aspects is then required.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>70060</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70068</offset>
+      <text>As experimental model, we used cardiomyocytes derived from induced pluripotent stem cells (hiPSC&#8208;CMs) from patients with LQTS showing reduced cardiac K+ currents. We also tested their genetically engineered isogenic pairs and an unrelated healthy control line. We identified a small molecule, LUF7346 that successfully rescued all the genetic forms of LQTS tested. LUF7346 acted by modulating the activity of the cardiac hERG potassium channel. This small molecule also corrected the drug&#8208;induced form of LQTS in the presence of both wild&#8208;type or LQTS genetic background. Patient&#8208;specific, isogenic hiPSC&#8208;CMs proved to be a powerful tool for drug screening and safety pharmacology.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>70760</offset>
+      <text>Impact</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70767</offset>
+      <text>Implementation of isogenic, patient&#8208;specific hiPSC&#8208;CMs in drug screening and testing will likely increase the predictivity in the identification of not only drug efficacy, but also proarrhythmic effects, thus helping the drug development process. Furthermore, hERG allosteric modulation proved promising for the treatment of congenital and drug&#8208;induced LQTS in&#160;vitro.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>71142</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>71165</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Circ Arrhythm Electrophysiol</infon>
+      <infon key="lpage">1275</infon>
+      <infon key="pub-id_pmid">26105569</infon>
+      <infon key="fpage">1265</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71176</offset>
+      <text>IKr impact on repolarization and its variability assessed by dynamic clamp</text>
+    </passage>
+    <passage>
+      <infon key="volume">313</infon>
+      <infon key="source">JAMA</infon>
+      <infon key="lpage">2120</infon>
+      <infon key="pub-id_pmid">25928209</infon>
+      <infon key="fpage">2119</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71251</offset>
+      <text>The precision medicine initiative: a new national effort</text>
+    </passage>
+    <passage>
+      <infon key="type">ref</infon>
+      <infon key="year">2015</infon>
+      <offset>71308</offset>
+      <text>Polycyclic herg activators. Patent number WO2015161052A1</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">726</infon>
+      <infon key="pub-id_pmid">23034453</infon>
+      <infon key="fpage">713</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71365</offset>
+      <text>Induced pluripotent stem cells: the new patient?</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3175</infon>
+      <infon key="pub-id_pmid">24213244</infon>
+      <infon key="fpage">3161</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71414</offset>
+      <text>Isogenic human pluripotent stem cell pairs reveal the role of a KCNH2 mutation in long&#8208;QT syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">J Cardiovasc Pharmacol</infon>
+      <infon key="lpage">230</infon>
+      <infon key="pub-id_pmid">21135701</infon>
+      <infon key="fpage">223</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>71515</offset>
+      <text>Pharmacological activation of Kv11.1 in transgenic long QT&#8208;1 rabbits</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">979</infon>
+      <infon key="pub-id_pmid">26192318</infon>
+      <infon key="fpage">970</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71586</offset>
+      <text>Expansion and patterning of cardiovascular progenitors derived from human pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">3688</infon>
+      <infon key="pub-id_pmid">26505672</infon>
+      <infon key="fpage">3679</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71683</offset>
+      <text>A perspective on stem cell modeling of amyotrophic lateral sclerosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Expert Rev Cardiovasc Ther</infon>
+      <infon key="lpage">253</infon>
+      <infon key="pub-id_pmid">26560188</infon>
+      <infon key="fpage">245</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>71752</offset>
+      <text>A 2015 focus on preventing drug&#8208;induced arrhythmias</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Stem Cell Res</infon>
+      <infon key="lpage">116</infon>
+      <infon key="pub-id_pmid">20034863</infon>
+      <infon key="fpage">107</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71806</offset>
+      <text>Prediction of drug&#8208;induced cardiotoxicity using human embryonic stem cell&#8208;derived cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Stem Cell Res</infon>
+      <infon key="lpage">56</infon>
+      <infon key="pub-id_pmid">23089628</infon>
+      <infon key="fpage">48</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71907</offset>
+      <text>Repolarization reserve determines drug responses in human pluripotent stem cell derived cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">556</infon>
+      <infon key="pub-id_pmid">27089514</infon>
+      <infon key="fpage">547</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>72010</offset>
+      <text>Human induced pluripotent stem cell&#8208;derived cardiomyocytes recapitulate the predilection of breast cancer patients to doxorubicin&#8208;induced cardiotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">Mol Pharmacol</infon>
+      <infon key="lpage">665</infon>
+      <infon key="pub-id_pmid">16284303</infon>
+      <infon key="fpage">658</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>72167</offset>
+      <text>Mechanism of action of a novel human ether&#8208;a&#8208;go&#8208;go&#8208;related gene channel activator</text>
+    </passage>
+    <passage>
+      <infon key="source">Eur Heart J</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>72257</offset>
+      <text>Subtype&#8208;specific promoter&#8208;driven action potential imaging for precise disease modelling and drug testing in hiPSC&#8208;derived cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">J Pharmacol Sci</infon>
+      <infon key="lpage">319</infon>
+      <infon key="pub-id_pmid">15272206</infon>
+      <infon key="fpage">311</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>72400</offset>
+      <text>Validation of a [3H]astemizole binding assay in HEK293 cells expressing HERG K+ channels</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Pharmacol Rev</infon>
+      <infon key="lpage">947</infon>
+      <infon key="pub-id_pmid">25026896</infon>
+      <infon key="fpage">918</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72489</offset>
+      <text>International Union of Basic and Clinical Pharmacology. XC. Multisite pharmacology: recommendations for the nomenclature of receptor allosterism and allosteric ligands</text>
+    </passage>
+    <passage>
+      <infon key="volume">327</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">306</infon>
+      <infon key="pub-id_pmid">24836851</infon>
+      <infon key="fpage">297</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72657</offset>
+      <text>Strategies for rapidly mapping proviral integration sites and assessing cardiogenic potential of nascent human induced pluripotent stem cell clones</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">J Appl Physiol</infon>
+      <infon key="lpage">1432</infon>
+      <infon key="pub-id_pmid">24052033</infon>
+      <infon key="fpage">1423</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72805</offset>
+      <text>Electrophysiological phenotype in the LQTS mutations Y111C and R518X in the KCNQ1 gene</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22815737</infon>
+      <infon key="fpage">e40288</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72892</offset>
+      <text>Maximum diastolic potential of human induced pluripotent stem cell&#8208;derived cardiomyocytes depends critically on I Kr</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">J Biomol Screen</infon>
+      <infon key="lpage">11</infon>
+      <infon key="pub-id_pmid">26170255</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>73011</offset>
+      <text>A new perspective in the field of cardiac safety testing through the comprehensive in&#160;vitro proarrhythmia assay paradigm</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Heart Rhythm</infon>
+      <infon key="lpage">S37</infon>
+      <infon key="pub-id_pmid">16253929</infon>
+      <infon key="fpage">S30</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>73133</offset>
+      <text>Drug&#8208;induced torsades de pointes: the evolving role of pharmacogenetics</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26493500</infon>
+      <infon key="fpage">8715</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>73207</offset>
+      <text>Modelling kidney disease with CRISPR&#8208;mutant kidney organoids derived from human pluripotent epiblast spheroids</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Comb Chem High Throughput Screen</infon>
+      <infon key="lpage">280</infon>
+      <infon key="pub-id_pmid">25747449</infon>
+      <infon key="fpage">269</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>73320</offset>
+      <text>A ligand&#8208;based virtual screening approach to identify small molecules as HERG channel activators</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">22169</infon>
+      <infon key="pub-id_pmid">21536673</infon>
+      <infon key="fpage">22160</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73419</offset>
+      <text>Rescue of aberrant gating by a genetically encoded PAS (Per&#8208;Arnt&#8208;Sim) domain in several long QT syndrome mutant human ether&#8208;&#225;&#8208;go&#8208;go&#8208;related gene potassium channels</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Prog Biophys Mol Biol</infon>
+      <infon key="lpage">362</infon>
+      <infon key="pub-id_pmid">19351523</infon>
+      <infon key="fpage">347</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73596</offset>
+      <text>hERG1 channel activators: a new anti&#8208;arrhythmic principle</text>
+    </passage>
+    <passage>
+      <infon key="type">ref</infon>
+      <infon key="year">2005</infon>
+      <offset>73656</offset>
+      <text>The non&#8208;clinical evaluation of the potential for delayed ventricular repolarization (Qt Interval Prolongation) by human pharmaceuticals</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Eur Heart J</infon>
+      <infon key="lpage">1464</infon>
+      <infon key="pub-id_pmid">26715165</infon>
+      <infon key="fpage">1456</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>73794</offset>
+      <text>The genetics underlying acquired long QT syndrome: impact for genetic screening</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Am Heart J</infon>
+      <infon key="lpage">68</infon>
+      <infon key="pub-id_pmid">13435203</infon>
+      <infon key="fpage">59</infon>
+      <infon key="year">1957</infon>
+      <infon key="type">ref</infon>
+      <offset>73874</offset>
+      <text>Congenital deaf&#8208;mutism, functional heart disease with prolongation of the Q&#8208;T interval, and sudden death</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Mol Pharmacol</infon>
+      <infon key="lpage">836</infon>
+      <infon key="pub-id_pmid">15548764</infon>
+      <infon key="fpage">827</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>73983</offset>
+      <text>Discovery of a small molecule activator of the human ether&#8208;a&#8208;go&#8208;go&#8208;related gene (HERG) cardiac K+ channel</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Pharmacol Rev</infon>
+      <infon key="lpage">781</infon>
+      <infon key="pub-id_pmid">21079043</infon>
+      <infon key="fpage">760</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>74097</offset>
+      <text>Drug&#8208;induced long QT syndrome</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Rep</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">23812503</infon>
+      <infon key="fpage">2100</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74129</offset>
+      <text>MICE models: superior to the HERG model in predicting Torsade de Pointes</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">Br J Pharmacol</infon>
+      <infon key="lpage">1481</infon>
+      <infon key="pub-id_pmid">18574451</infon>
+      <infon key="fpage">1474</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>74202</offset>
+      <text>The effect of changes in core body temperature on the QT interval in beagle dogs: a previously ignored phenomenon, with a method for correction</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">25923442</infon>
+      <infon key="fpage">e0123951</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>74346</offset>
+      <text>Eag domains regulate LQT mutant hERG channels in human induced pluripotent stem cell&#8208;derived cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">J Interv Card Electrophysiol</infon>
+      <infon key="lpage">19</infon>
+      <infon key="pub-id_pmid">23515882</infon>
+      <infon key="fpage">9</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74456</offset>
+      <text>Genetics of congenital and drug&#8208;induced long QT syndromes: current evidence and future research perspectives</text>
+    </passage>
+    <passage>
+      <infon key="volume">172</infon>
+      <infon key="source">Br J Pharmacol</infon>
+      <infon key="lpage">3125</infon>
+      <infon key="pub-id_pmid">25684549</infon>
+      <infon key="fpage">3112</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>74567</offset>
+      <text>Pharmacological and electrophysiological characterization of AZSMO&#8208;23, an activator of the hERG K(+) channel</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="source">Br J Cancer</infon>
+      <infon key="lpage">792</infon>
+      <infon key="pub-id_pmid">16175187</infon>
+      <infon key="fpage">781</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>74678</offset>
+      <text>hERG1 channels are overexpressed in glioblastoma multiforme and modulate VEGF secretion in glioblastoma cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Eur Heart J</infon>
+      <infon key="lpage">962</infon>
+      <infon key="pub-id_pmid">21367833</infon>
+      <infon key="fpage">952</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>74793</offset>
+      <text>Drug evaluation in cardiomyocytes derived from human induced pluripotent stem cells carrying a long QT syndrome type 2 mutation</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Eur Heart J</infon>
+      <infon key="lpage">1087</infon>
+      <infon key="pub-id_pmid">23470493</infon>
+      <infon key="fpage">1078</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74921</offset>
+      <text>Allele&#8208;specific RNA interference rescues the long&#8208;QT syndrome phenotype in human&#8208;induced pluripotency stem cell cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">10</infon>
+      <infon key="pub-id_pmid">26140603</infon>
+      <infon key="fpage">8</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>75054</offset>
+      <text>From dish to bedside: lessons learned while translating findings from a stem cell model of disease to a clinical trial</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="source">Toxicol Sci</infon>
+      <infon key="lpage">469</infon>
+      <infon key="pub-id_pmid">23091167</infon>
+      <infon key="fpage">458</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>75173</offset>
+      <text>Pharmacoelectrophysiology of viral&#8208;free induced pluripotent stem cell&#8208;derived human cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">363</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">1409</infon>
+      <infon key="pub-id_pmid">20660394</infon>
+      <infon key="fpage">1397</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>75276</offset>
+      <text>Patient&#8208;specific induced pluripotent stem&#8208;cell models for long&#8208;QT syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">128</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="lpage">S13</infon>
+      <infon key="pub-id_pmid">24030418</infon>
+      <infon key="fpage">S3</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>75357</offset>
+      <text>Screening drug&#8208;induced arrhythmia [corrected] using human induced pluripotent stem cell&#8208;derived cardiomyocytes and low&#8208;impedance microelectrode arrays</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">776</infon>
+      <infon key="pub-id_pmid">18451785</infon>
+      <infon key="fpage">768</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>75514</offset>
+      <text>A protocol describing the use of a recombinant protein&#8208;based, animal product&#8208;free medium (APEL) for human embryonic stem cell differentiation as spin embryoid bodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">20080</infon>
+      <infon key="pub-id_pmid">19892732</infon>
+      <infon key="fpage">20075</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>75684</offset>
+      <text>PD&#8208;118057 contacts the pore helix of hERG1 channels to attenuate inactivation and enhance K+ conductance</text>
+    </passage>
+    <passage>
+      <infon key="volume">588</infon>
+      <infon key="source">J Physiol</infon>
+      <infon key="lpage">3167</infon>
+      <infon key="pub-id_pmid">20643767</infon>
+      <infon key="fpage">3157</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>75791</offset>
+      <text>Revealing the structural basis of action of hERG potassium channel activators and blockers</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Rev Port Cardiol</infon>
+      <infon key="issue">Suppl. 3</infon>
+      <infon key="lpage">III38</infon>
+      <infon key="pub-id_pmid">9857743</infon>
+      <infon key="fpage">III27</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>75882</offset>
+      <text>Gene specific therapy for cardiac disease: the case of long QT syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="lpage">533</infon>
+      <infon key="pub-id_pmid">9927399</infon>
+      <infon key="fpage">529</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>75954</offset>
+      <text>Low penetrance in the long&#8208;QT syndrome: clinical impact</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Europace</infon>
+      <infon key="lpage">27</infon>
+      <infon key="pub-id_pmid">11271945</infon>
+      <infon key="fpage">16</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>76012</offset>
+      <text>The long QT syndrome</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">27019293</infon>
+      <infon key="fpage">e0151461</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>76033</offset>
+      <text>Experimentally&#8208;based computational investigation into beat&#8208;to&#8208;beat variability in ventricular repolarization and its response to ionic current inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Cardiovasc Res</infon>
+      <infon key="lpage">48</infon>
+      <infon key="pub-id_pmid">25139747</infon>
+      <infon key="fpage">37</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>76193</offset>
+      <text>Ranolazine prevents INaL enhancement and blunts myocardial remodelling in a model of pulmonary hypertension</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="lpage">2012</infon>
+      <infon key="pub-id_pmid">8873679</infon>
+      <infon key="fpage">1996</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>76301</offset>
+      <text>Multiple mechanisms in the long&#8208;QT syndrome. Current knowledge, gaps, and future directions. The SADS Foundation Task Force on LQTS</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="lpage">248</infon>
+      <infon key="pub-id_pmid">15668350</infon>
+      <infon key="fpage">246</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>76435</offset>
+      <text>An underrecognized challenge in evaluating postmarketing drug safety</text>
+    </passage>
+    <passage>
+      <infon key="volume">440</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">130</infon>
+      <infon key="pub-id_pmid">9862440</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>76504</offset>
+      <text>Sulfonylureas blockade of neural and cardiac HERG channels</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Circ Arrhythm Electrophysiol</infon>
+      <infon key="lpage">297</infon>
+      <infon key="pub-id_pmid">19808421</infon>
+      <infon key="fpage">290</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>76563</offset>
+      <text>Therapeutic strategies for long&#8208;QT syndrome: does the molecular substrate matter?</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">J Mol Cell Cardiol</infon>
+      <infon key="lpage">646</infon>
+      <infon key="pub-id_pmid">18336833</infon>
+      <infon key="fpage">633</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>76647</offset>
+      <text>Molecular aspects of the congenital and acquired Long QT Syndrome: clinical implications</text>
+    </passage>
+    <passage>
+      <infon key="volume">167</infon>
+      <infon key="source">Am Heart J</infon>
+      <infon key="lpage">300</infon>
+      <infon key="pub-id_pmid">24576511</infon>
+      <infon key="fpage">292</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>76736</offset>
+      <text>Rechanneling the cardiac proarrhythmia safety paradigm: a meeting report from the Cardiac Safety Research Consortium</text>
+    </passage>
+    <passage>
+      <infon key="volume">578</infon>
+      <infon key="source">J Physiol</infon>
+      <infon key="lpage">53</infon>
+      <infon key="pub-id_pmid">17038432</infon>
+      <infon key="fpage">43</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>76853</offset>
+      <text>Mouse models of long QT syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="source">Circ Res</infon>
+      <infon key="lpage">2004</infon>
+      <infon key="pub-id_pmid">26044252</infon>
+      <infon key="fpage">1989</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>76886</offset>
+      <text>Finding the rhythm of sudden cardiac death: new opportunities using induced pluripotent stem cell&#8208;derived cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Curr Opin Pharmacol</infon>
+      <infon key="lpage">27</infon>
+      <infon key="pub-id_pmid">24721650</infon>
+      <infon key="fpage">22</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>77009</offset>
+      <text>HERG1 channel agonists and cardiac arrhythmia</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Circulation</infon>
+      <infon key="lpage">95</infon>
+      <infon key="pub-id_pmid">11136691</infon>
+      <infon key="fpage">89</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>77055</offset>
+      <text>Genotype&#8208;phenotype correlation in the long&#8208;QT syndrome gene&#8208;specific triggers for life&#8208;threatening arrhythmias</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Circ Arrhythm Electrophysiol</infon>
+      <infon key="lpage">877</infon>
+      <infon key="pub-id_pmid">22895603</infon>
+      <infon key="fpage">868</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>77174</offset>
+      <text>Long&#8208;QT syndrome: from genetics to management</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">J Am Coll Cardiol</infon>
+      <infon key="lpage">180</infon>
+      <infon key="pub-id_pmid">23684683</infon>
+      <infon key="fpage">169</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>77222</offset>
+      <text>Impact of genetics on the clinical management of channelopathies</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Trends Cardiovasc Med</infon>
+      <infon key="lpage">377</infon>
+      <infon key="pub-id_pmid">25820091</infon>
+      <infon key="fpage">376</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>77287</offset>
+      <text>MY APPROACH to the long QT syndrome (LQTS)</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Pharm Des</infon>
+      <infon key="lpage">1572</infon>
+      <infon key="pub-id_pmid">15892662</infon>
+      <infon key="fpage">1561</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>77330</offset>
+      <text>Specific therapy based on the genotype and cellular mechanism in inherited cardiac arrhythmias. Long QT syndrome and Brugada syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">143</infon>
+      <infon key="source">Pharmacol Ther</infon>
+      <infon key="lpage">252</infon>
+      <infon key="pub-id_pmid">24657289</infon>
+      <infon key="fpage">246</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>77464</offset>
+      <text>Induced pluripotent stem cell&#8208;derived cardiomyocytes for drug development and toxicity testing</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="lpage">281</infon>
+      <infon key="source">Stem Cell Rep</infon>
+      <infon key="fpage">269</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>77561</offset>
+      <text>Calcium transients closely reflect prolonged action potentials in iPSC models of inherited cardiac arrhythmia</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">3089</infon>
+      <infon key="pub-id_pmid">18079707</infon>
+      <infon key="fpage">3081</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>77671</offset>
+      <text>Induction of pluripotent stem cells from fibroblast cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="source">J Am Coll Cardiol</infon>
+      <infon key="lpage">1276</infon>
+      <infon key="pub-id_pmid">16979017</infon>
+      <infon key="fpage">1268</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>77732</offset>
+      <text>Beat&#8208;to&#8208;Beat variability of repolarization determines proarrhythmic outcome in dogs susceptible to drug&#8208;induced torsades de pointes</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Stem Cells Dev</infon>
+      <infon key="lpage">1052</infon>
+      <infon key="pub-id_pmid">25583389</infon>
+      <infon key="fpage">1035</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>77870</offset>
+      <text>Immaturity of human stem&#8208;cell&#8208;derived cardiomyocytes in culture: fatal flaw or soluble problem?</text>
+    </passage>
+    <passage>
+      <infon key="volume">156</infon>
+      <infon key="source">Br J Pharmacol</infon>
+      <infon key="lpage">1084</infon>
+      <infon key="pub-id_pmid">19226285</infon>
+      <infon key="fpage">1076</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>77970</offset>
+      <text>Self&#8208;augmentation of the lengthening of repolarization is related to the shape of the cardiac action potential: implications for reverse rate dependency</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">11</infon>
+      <infon key="pub-id_pmid">24703839</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>78125</offset>
+      <text>Intrinsic membrane hyperexcitability of amyotrophic lateral sclerosis patient&#8208;derived motor neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">623</infon>
+      <infon key="pub-id_pmid">24813252</infon>
+      <infon key="fpage">616</infon>
+      <infon key="year">2014a</infon>
+      <infon key="type">ref</infon>
+      <offset>78227</offset>
+      <text>Modeling the mitochondrial cardiomyopathy of Barth syndrome with induced pluripotent stem cell and heart&#8208;on&#8208;chip technologies</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">J Am Coll Cardiol</infon>
+      <infon key="lpage">459</infon>
+      <infon key="pub-id_pmid">25082577</infon>
+      <infon key="fpage">451</infon>
+      <infon key="year">2014b</infon>
+      <infon key="type">ref</infon>
+      <offset>78357</offset>
+      <text>Genome editing of isogenic human induced pluripotent stem cells recapitulates long QT phenotype for drug testing</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Circ Cardiovasc Genet</infon>
+      <infon key="lpage">564</infon>
+      <infon key="pub-id_pmid">20031635</infon>
+      <infon key="fpage">558</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>78470</offset>
+      <text>Low incidence of sudden cardiac death in a Swedish Y111C type 1 long&#8208;QT syndrome population</text>
+    </passage>
+    <passage>
+      <infon key="volume">274</infon>
+      <infon key="source">Toxicol Appl Pharmacol</infon>
+      <infon key="lpage">86</infon>
+      <infon key="pub-id_pmid">24200993</infon>
+      <infon key="fpage">78</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>78564</offset>
+      <text>Allosteric modulators of the hERG K(+) channel: radioligand binding assays reveal allosteric characteristics of dofetilide analogs</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Eur J Med Chem</infon>
+      <infon key="lpage">59</infon>
+      <infon key="pub-id_pmid">26519929</infon>
+      <infon key="fpage">50</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>78695</offset>
+      <text>Synthesis and biological evaluation of negative allosteric modulators of the Kv11.1(hERG) channel</text>
+    </passage>
+    <passage>
+      <infon key="source">Circ Arrhythm Electrophysiol</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">27071825</infon>
+      <infon key="fpage">e003439</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>78793</offset>
+      <text>Allosteric modulation of Kv11.1 (hERG) channels protects against drug&#8208;induced ventricular arrhythmias</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">J Am Coll Cardiol</infon>
+      <infon key="lpage">109</infon>
+      <infon key="pub-id_pmid">12849668</infon>
+      <infon key="fpage">103</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>78897</offset>
+      <text>Modulating effects of age and gender on the clinical course of long QT syndrome by genotype</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">11871</infon>
+      <infon key="pub-id_pmid">22745159</infon>
+      <infon key="fpage">11866</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>78989</offset>
+      <text>Modulation of hERG potassium channel gating normalizes action potential duration prolonged by dysfunctional KCNQ1 potassium channel</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E5392</infon>
+      <infon key="pub-id_pmid">25453094</infon>
+      <infon key="fpage">E5383</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>79121</offset>
+      <text>Recessive cardiac phenotypes in induced pluripotent stem cell models of Jervell and Lange&#8208;Nielsen syndrome: disease mechanisms and pharmacological rescue</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">J Cardiovasc Electrophysiol</infon>
+      <infon key="lpage">843</infon>
+      <infon key="pub-id_pmid">10376921</infon>
+      <infon key="fpage">836</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>79277</offset>
+      <text>Block of HERG potassium channels by the antihistamine astemizole and its metabolites desmethylastemizole and norastemizole</text>
+    </passage>
+  </document>
+</collection>

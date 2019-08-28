@@ -1,0 +1,1544 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5048347</id>
+    <passage>
+      <infon key="name_2">surname:Moreno&#8208;Mateos;given-names:Miguel A</infon>
+      <infon key="name_3">surname:Johnstone;given-names:Timothy G</infon>
+      <infon key="name_0">surname:Bazzini;given-names:Ariel A</infon>
+      <infon key="name_1">surname:del Viso;given-names:Florencia</infon>
+      <infon key="name_6">surname:Yao;given-names:Jun</infon>
+      <infon key="alt-title">Ariel A Bazzini et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694699</infon>
+      <infon key="name_5">surname:Qin;given-names:Yidan</infon>
+      <infon key="name_8">surname:Giraldez;given-names:Antonio J</infon>
+      <infon key="lpage">2103 2103</infon>
+      <infon key="fpage">2087 2087</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Khokha;given-names:Mustafa K</infon>
+      <infon key="name_4">surname:Vejnar;given-names:Charles E</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201694699</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="kwd">codon optimality decay maternal&#8208;to&#8208;zygotic transition translation zebrafish Development &amp; Differentiation Protein Biosynthesis &amp; Quality Control RNA Biology</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">19</infon>
+      <infon key="notes"> () : &#8211; See also: J Martinez &amp; B Zagrovic (October 2016)</infon>
+      <offset>0</offset>
+      <text>Codon identity regulates mRNA stability and translation efficiency during the maternal&#8208;to&#8208;zygotic transition</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>113</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>122</offset>
+      <text>Cellular transitions require dramatic changes in gene expression that are supported by regulated mRNA decay and new transcription. The maternal&#8208;to&#8208;zygotic transition is a conserved developmental progression during which thousands of maternal mRNAs are cleared by post&#8208;transcriptional mechanisms. Although some maternal mRNAs are targeted for degradation by microRNAs, this pathway does not fully explain mRNA clearance. We investigated how codon identity and translation affect mRNA stability during development and homeostasis. We show that the codon triplet contains translation&#8208;dependent regulatory information that influences transcript decay. Codon composition shapes maternal mRNA clearance during the maternal&#8208;to&#8208;zygotic transition in zebrafish, Xenopus, mouse, and Drosophila, and gene expression during homeostasis across human tissues. Some synonymous codons show consistent stabilizing or destabilizing effects, suggesting that amino acid composition influences mRNA stability. Codon composition affects both polyadenylation status and translation efficiency. Thus, the ribosome interprets two codes within the mRNA: the genetic code which specifies the amino acid sequence and a conserved &#8220;codon optimality code&#8221; that&#160;shapes mRNA stability and translation efficiency across vertebrates.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1438</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1451</offset>
+      <text>During biological transitions, cells install a new transcriptional program while removing the previous program. This process depends on the post&#8208;transcriptional control of persistent transcripts as new mRNAs are transcribed. In early embryonic development, maternally deposited mRNAs and proteins govern the embryonic development of most animals until the zygotic genome is activated (Tadros &amp; Lipshitz, 2009; Yartseva &amp; Giraldez, 2015). Following egg activation and fertilization, the embryo initiates the maternal&#8208;to&#8208;zygotic transition (MZT). During this universal transition, the transcriptome undergoes a drastic remodeling resulting in the clearance of thousands of maternal mRNAs and activation of the zygotic genome. 3&#8242;UTRs regulate mRNA stability across different biological processes (Giraldez et&#160;al, 2006; Bushati et&#160;al, 2008; Bartel, 2009; Lund et&#160;al, 2009; Rice, 2015; Rusek et&#160;al, 2015). For example, conserved microRNA families (miR&#8208;430/&#8208;427 and miR&#8208;309) are responsible for the degradation of a subset of maternal mRNAs in zebrafish (Giraldez et&#160;al, 2006), Xenopus (Lund et&#160;al, 2009), and Drosophila (Bushati et&#160;al, 2008), respectively. Similarly, in Drosophila, the RNA binding protein SMAUG functions to destabilize maternal mRNAs (Tadros et&#160;al, 2007). Despite the identification of these factors, thousands of maternal mRNAs are cleared by unknown mechanisms (Tadros &amp; Lipshitz, 2009; Yartseva &amp; Giraldez, 2015). While most of the factors identified are conserved and regulate mRNA stability through the 3&#8242;UTR, the role of the coding sequence (CDS) in regulating transcript stability during the MZT transition and tissue homeostasis across animals is largely unexplored (Richter &amp; Coller, 2015; Yartseva &amp; Giraldez, 2015; Mishima &amp; Tomari, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3240</offset>
+      <text>The ribosome represents the most abundant RNA binding complex in the cell (Doudna &amp; Rath, 2002), translating mRNA sequences into amino acids. Translation is also important for quality control mechanisms (Shoemaker &amp; Green, 2012; Pechmann et&#160;al, 2013), such as nonsense&#8208;mediated decay (NMD), no&#8208;go decay (NGD), and nonstop decay (NSD), which surveil translation to regulate defective transcripts. Recently, specific codons have been associated with transcript stability (optimal codons) or instability (non&#8208;optimal codons) in bacteria and yeast (Presnyak et&#160;al, 2015; Boel et&#160;al, 2016). The degeneracy of the genetic code allows multiple codons to encode for the same amino acid (Gamow, 1954), and silent codon substitutions can influence protein expression (Ikemura, 1982; Kudla et&#160;al, 2009). While codon usage bias exists across all domains of life (Novoa &amp; Ribas de Pouplana, 2012), the evolutionary pressures exerted by the codon usage on gene expression and growth are distinct between unicellular and multicellular systems. Thus, it is unclear whether codon identity regulates mRNA stability across vertebrates, and if so, what is the identity of the codons conferring regulation, the conservation of the regulatory code, and the biological implications of this mechanism across animals. Interestingly, during the review process of this manuscript, it has been shown that differential use of synonymous codons shapes maternal mRNA clearance during MZT in zebrafish (Mishima &amp; Tomari, 2016). This analysis looks at the codon adaptation index, which compares the effect of different codons encoding the same amino acid. However, it is still unknown what is the relative effect of the 61 coding codons independent of the amino acid encoded (non&#8208;synonymous codons), whether all synonymous codons for a given amino acid have similar effects on mRNA stability and whether the translation&#8208;dependent regulatory mechanism of mRNA stability during MZT is conserved across animals. Here, we investigate how translation of specific codons shapes mRNA expression during the MZT and homeostasis, and define a regulatory layer within the genetic code across vertebrates, that we term the &#8220;codon optimality code&#8221;.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5461</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5469</offset>
+      <text>To investigate whether translation of specific codons influences mRNA stability in vertebrates, we developed two complementary approaches. First, we tested whether blocking translation alters the codon composition of an mRNA population due to differential mRNA decay (Fig&#160;1A). To this end, we constructed a library of mRNA sequences by PCR assembly of random fragments of the transcriptome (~300&#8211;500 nt in length) into a reporter DNA that shares (i) identical 5&#8242; and 3&#8242;UTR sequences, (ii) a GFP translation start sequence (26 nt) which we can target with a specific morpholino oligo (MO) to block translation (Giraldez et&#160;al, 2006) (Fig&#160;EV1A), (iii) stop codons in all three frames within the 3&#8242;UTR, and (iv) Illumina adapter sequences to facilitate generation of a sequencing library (Fig&#160;1A). We generated mRNAs from this reporter library in&#160;vitro and injected these highly diverse mRNA sequences (Fig&#160;EV1B) into zebrafish and Xenopus embryos at the one&#8208;cell stage, with the goal to define conserved regulatory sequences between these species. Using high&#8208;throughput sequencing, we quantified the occurrence of each codon in the reporter library 8&#8211;9&#160;h after injection with (&#8722;MO) or without (+MO) translation. We calculated the reporter codon stabilizing index (rCSI) as the statistical significance of the enrichment (+) or depletion (&#8722;) of each codon between these conditions (&#8722;MO versus +MO) in triplicates (F&#8208;value, ANOVA). We found differential accumulation of individual codons in the reporter libraries to be dependent on translation, suggesting that translation of specific codons might influence mRNA stability in vertebrates (Fig&#160;1B and C) (8&#160;h versus 8 +MO zebrafish, 9&#160;h versus 9 +MO Xenopus, P&#160;&lt;&#160;1e&#8208;100, one&#8208;way ANOVA). For example, the GGU codon was significantly enriched when translation was allowed (&#8722;MO), suggesting that GGU stabilizes mRNA in a translation&#8208;dependent manner (Figs&#160;1B and EV1C) (P&#160;&lt;&#160;1e&#8208;300, one&#8208;way ANOVA). In contrast, the codon CAC was significantly depleted in the reporter mRNA library when translation was allowed (&#8722;MO), suggesting that it lowers mRNA stability in a translational&#8208;dependent manner (Figs&#160;1B and EV1C) (P&#160;&lt;&#160;1e&#8208;300, one&#8208;way ANOVA). We observed a strong correlation of the rCSI in zebrafish and Xenopus, suggesting that codon&#8208;mediated transcript stability in the context of translation is conserved across vertebrates (Fig&#160;1C). Comparing the codon composition of the reporter library between late (8 hpi zebrafish, 9 hpi Xenopus) and early stages (2 hpi zebrafish, 1 hpi Xenopus) yielded similar results, suggesting that the effect of different codons on mRNA stability is not due to an off&#8208;target effect of the GFP MO (Fig&#160;EV1E and F). Together, these results suggest that translation of specific codons affects mRNA stability in vertebrates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8331</offset>
+      <text>Translation modulates stability of mRNA in zebrafish and Xenopus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8396</offset>
+      <text>Scheme&#160;of the reporter library which includes random fragments of the transcriptome in the CDS. Transcripts share the same 5&#8242; and 3&#8242;UTR and 26 nt within the translation start site, which are recognized by a specific translation blocking morpholino (MO) (green). I, Illumina adapters, purple. SP6, SP6 promoter. mRNAs are injected at the one&#8208;cell stage in zebrafish and Xenopus, with or without a translation blocking morpholino. Reporter mRNA library is analyzed 8&#8211;9&#160;h post&#8208;injection using high&#8208;throughput sequencing. The analysis of variance (ANOVA) for the occurrence of each codon in the presence (&#8722;MO) or the absence (+MO) of translation is performed between triplicates in zebrafish and Xenopus to calculate the reporter codon stabilizing index (rCSI). If codons cause differential mRNA stability in a translation&#8208;dependent manner, potential stabilizing codons should be enriched in translated mRNAs (&#8722;MO versus +MO) (+rCSI), and destabilizing codons depleted (&#8722;MO versus +MO) (&#8722;rCSI).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9411</offset>
+      <text>Box&#160;plots showing the occurrence of the GGU and the CAC codons in the presence (+MO) and absence of MO in the reporter mRNA library 8&#160;h post&#8208;injection (hpi) (triplicates). The box defines the first and third quartiles, with the median indicated with a thick black line and vertical lines indicate the variability outside the upper and lower quartiles. *P&#160;&lt;&#160;1e&#8208;100, one&#8208;way ANOVA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9801</offset>
+      <text>Biplots of the reporter codon stabilizing index (rCSI) in the presence and the absence of translation (+MO) in zebrafish and in Xenopus embryos, P&#160;&lt;&#160;2.2e&#8208;16, R&#160;=&#160;0.9, Spearman rank correlation. The rCSI is the ANOVA F&#8208;test value for the comparison of codon occurrences (e.g. panel B) between treatments in triplicates. This value is multiplied by &#8722;1 for depleted/destabilizing codons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10196</offset>
+      <text>Scheme&#160;of the codon stabilization coefficient (CSC) calculated as the Pearson correlation coefficient between the occurrence of each codon and the half&#8208;life of each mRNA. Bar plots ranking the 61 coding codons based on their codon stability coefficient (CSC). The encoded amino acids are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10498</offset>
+      <text>Line plots of the relative demand of each codon in the zebrafish transcriptome at 6 hpf (% used), and the RNA levels for each tRNA (RPM). The P&#8208;value indicates the significant correlation with the CSC.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10702</offset>
+      <text>Biplots of the rCSI comparing 8&#160;h versus 8&#160;h&#160;+&#160;MO and CSC in zebrafish embryos, P&#160;&lt;&#160;1.2e&#8208;4, R&#160;=&#160;0.4, Spearman rank correlation. Based on the consistent identification by both methods, we defined optimal codons highlighted in red and non&#8208;optimal codons in blue. The intensity of the color represents the strength (light, weak; dark, strong) based on different CSC values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11085</offset>
+      <text>Box&#160;plot of tRNA levels (RPM) for optimal and non&#8208;optimal codons (P&#160;=&#160;3e&#8208;03, Wilcoxon rank&#8208;sum test). The box defines the first and third quartiles, with the median indicated with a thick black line and vertical lines indicate the variability outside the upper and lower quartiles.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11376</offset>
+      <text>Cumulative distributions of the half&#8208;life of the maternal mRNAs in the absence of zygotic transcription in zebrafish. Shown are all mRNAs (gray), mRNAs with the highest fraction (top quartile) of optimal codons and the lowest fraction of non&#8208;optimal codons (red), mRNAs with the highest fraction of non&#8208;optimal codons and the lowest fraction of optimal codons (blue), in frame (left), or 1 nucleotide out of frame +1 (right) (P&#160;=&#160;1e&#8208;8, in frame; P&#160;=&#160;0.13, 1 nt out of frame, Wilcoxon rank&#8208;sum test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11890</offset>
+      <text>Diagram&#160;of two transcripts that only differ in a single nucleotide (G in yellow) which creates a frameshift, making one transcript enriched in optimal codons and the other in non&#8208;optimal codons. Time&#8208;course Northern blot shows that non&#8208;optimal transcripts decay faster than their optimal counterparts. The radioactive intensity is shown in italics and normalized to the 1 hpi sample for each injection.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12300</offset>
+      <text>Translation modulates stability of mRNA in zebrafish and Xenopus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12365</offset>
+      <text>GFP reporter expression (green) and control dsRed expression (red) at 8 hpf and 9.5 hpf in zebrafish and Xenopus, respectively. The GFP reporter is repressed by co&#8208;injection with the morpholino which recognizes the GFP translation initiation sequence (MO). dsRed is not recognized by the MO. This morpholino is complementary to the translation initiation site in the reporter mRNA library used in Fig&#160;1A.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12773</offset>
+      <text>Bar plot shows distribution of fragment multiplicity for fragments longer that 300 nt without stop codons at 2, 8&#160;h, and 8&#160;h&#160;+&#160;MO in zebrafish embryos, showing a high degree of complexity of the reporter library mRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12995</offset>
+      <text>Box&#160;plots show the occurrence of the optimal codon GGU and non&#8208;optimal codon CAC in injected mRNA at 1, 9&#160;h, and 9&#160;h&#160;+&#160;MO in Xenopus embryos (*P&#160;&lt;&#160;1e&#8208;300 and *P&#160;&lt;&#160;1e&#8208;300, respectively, one&#8208;way ANOVA). The box defines the first and third quartiles, with the median indicated with a thick black line and vertical lines indicate the variability outside the upper and lower quartiles. The analysis of variance (ANOVA) for the occurrence of each codon in the presence (&#8722;MO) or the absence (+MO) of translation is used to calculate the reporter codon stabilizing index (rCSI). If codons cause differential mRNA stability in a translation&#8208;dependent manner, potential stabilizing codons should be enriched in translated mRNAs (&#8722;MO versus +MO) (+rCSI), and destabilizing codons depleted (&#8722;MO versus +MO) (&#8722;rCSI).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13826</offset>
+      <text>Bar plots ranking the 61 coding codons from highest to lowest correlation with mRNA half&#8208;life (CSC). The relative abundance of each codon present in the expressed transcriptome at 9 hpf in Xenopus is shown (green).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14043</offset>
+      <text>Biplots of the rCSI derived by comparing codon enrichment or depletion in two different conditions: x&#8208;axis, in the presence and the absence of translation (&#177;MO); y&#8208;axis, in a late versus earlier time points (E) in zebrafish or (F) in Xenopus. Both comparisons yield similar results, ruling out nonspecific effects of the MO. One hour or 2&#160;h is too early to observe the full effects of translational regulation in mRNA stability.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14478</offset>
+      <text>Biplots of the rCSI (9&#160;h/9&#160;h&#160;+&#160;MO) from Xenopus embryos and the codon stabilization coefficient (CSC) in Xenopus for each codon, P&#160;=&#160;3e&#8208;3, R&#160;=&#160;0.37, Spearman rank correlation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14664</offset>
+      <text>Analysis of the reporter library allowed us to investigate the effects derived from the coding sequence and isolate them from potential regulatory effects of the 5&#8242; and 3&#8242;UTRs, since every mRNA shares the same UTR sequence. To ensure the exogenous nature of the reporter library did not influence our results, we used a second approach to analyze the effect of individual codons on the stability of endogenous maternal mRNAs in&#160;vivo in zebrafish and Xenopus. To avoid confounding effects due to newly transcribed mRNAs, we calculated the half&#8208;life for each mRNA after blocking zygotic transcription with the RNA pol II inhibitor &#945;&#8208;amanitin (Hamatani et&#160;al, 2004) (Table&#160;EV1). We calculated the Pearson correlation coefficient between mRNA half&#8208;life and codon occurrence, a metric previously defined in yeast as codon stability coefficient (CSC) (Presnyak et&#160;al, 2015) (Figs&#160;1D and EV1D). We observed that some codons were correlated with mRNA half&#8208;life while others were anticorrelated, consistent with different effects on mRNA stability. Similar to previous observations in yeast, each individual codon only elicits a small effect on the overall stability of the mRNA (Presnyak et&#160;al, 2015). We observed a significant positive correlation for the CSC between zebrafish and Xenopus (P&#160;&lt;&#160;2.2e&#8208;03, R&#160;=&#160;0.65, Spearman), but not with yeast (P&#160;=&#160;0.02, R&#160;=&#160;&#8722;0.27 with Fish, P&#160;&lt;&#160;5e&#8208;03, R&#160;=&#160;&#8722;0.35, Spearman) (Presnyak et&#160;al, 2015), suggesting that the regulatory activity of multiple codons is shared between animals but different from yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16240</offset>
+      <text>Comparison of the two methods revealed consistent effects for most codons on mRNA stability observed in the reporter library (rCSI) and the endogenous mRNAs (CSC) (Figs&#160;1F and EV1G) (zebrafish, P&#160;=&#160;1e&#8208;3, R&#160;=&#160;0.4, Spearman; Xenopus, P&#160;=&#160;3e&#8208;3, R&#160;=&#160;0.4, Spearman). Because each method has distinct biases aforementioned (i.e. exogenous expression, UTR regulation), we adopted a conservative approach and selected those codons displaying consistent effects in both methods. Based on the consistent effects of each codon on the reporter library and endogenous mRNAs, we defined: optimal codons, with potential stabilizing effects (rCSI&#160;&gt;&#160;250 and CSC&#160;&gt;&#160;0) and non&#8208;optimal codons with potential destabilizing effects (rCSI&#160;&lt;&#160;&#8722;250 and CSC&#160;&lt;&#160;0) (Fig&#160;1F). We next performed sequence analysis of tRNA levels in the zebrafish embryos using highly processive thermostable group II intron reverse transcriptase that allows unwinding of the tRNA secondary structure (TGIRT) (Zheng et&#160;al, 2015). This revealed that optimal codons are decoded by more abundant tRNAs than non&#8208;optimal ones (P&#160;=&#160;3e&#8208;03, Wilcoxon rank&#8208;sum test) (Fig&#160;1G and E). Analysis of the codon usage in the transcriptome indicated that optimal codons are more commonly used in the transcriptome (P&#160;=&#160;2.4e&#8208;06, R&#160;=&#160;0.57, Spearman) (Fig&#160;1G), suggesting that codon optimality may be in part related to tRNA availability and codon usage (dos Reis et&#160;al, 2004; Pechmann &amp; Frydman, 2013; Presnyak et&#160;al, 2015; Richter &amp; Coller, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17764</offset>
+      <text>Two lines of evidence indicate that translation of specific codons indeed regulates mRNA half&#8208;life and is dependent on translation. We observed a longer half&#8208;life for mRNAs enriched in optimal codons (defined in Fig&#160;1F) than those enriched non&#8208;optimal codons in both zebrafish and Xenopus (Figs&#160;1H and EV2C) (P&#160;=&#160;1e&#8208;8, Wilcoxon rank&#8208;sum test). Based on different CSC confidence thresholds, we defined two populations within the optimal (red) and non&#8208;optimal (blue) codons (light&#160;=&#160;weak, 0&#160;&lt;&#160;CSC&#160;&lt;&#160;0.03; dark&#160;=&#160;strong, CSC&#160;&gt;&#160;0.03, Fig&#160;1F), which indeed showed different effects on mRNA half&#8208;life (Fig&#160;EV2A). This effect depends on the codons in frame 0 and is not observed in transcripts that are enriched in optimal or non&#8208;optimal codons in reading frames +1 or +2, consistent with translation&#8208;dependent regulation rather than regulation by a sequence motif that is independent of the reading frame (Figs&#160;1H and EV2B and C) (P&#160;=&#160;0.11, Wilcoxon rank&#8208;sum test). Second, we analyzed whether different optimality determines the rate of decay of two sets of reporter mRNAs. Each pair of reporters differs in a single nucleotide insertion after the translation start codon, causing a frameshift that results in opposite codon optimality. Non&#8208;optimal reporters were less stable over time compared to their optimal counterparts (Figs&#160;1I and EV2D and E). When translation was inhibited with cycloheximide, the differential stability is lost (Fig&#160;EV2D). Together, these results define a codon optimality code by which translation of specific codons modulates mRNA stability in vertebrates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19387</offset>
+      <text>Translation of specific codons modulates mRNA stability in vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19458</offset>
+      <text>Cumulative distributions of the half&#8208;life of the maternal mRNAs in the absence of zygotic transcription in zebrafish. Represented are mRNAs with the highest fraction of strong optimal codons (red, CSC value&#160;&gt;&#160;0.03), weak optimal codons (light red, 0.03&#160;&gt;&#160;CSC&#160;&gt;&#160;0), weak non&#8208;optimal (light blue &#8722;0.03&#160;&lt;&#160;CSC&#160;&lt;&#160;0), or strong non&#8208;optimal (blue CSC&#160;&lt;&#160;&#8722;0.03). These four groups are non&#8208;overlapping. The control group contains all the maternal transcripts (gray) for which we could calculate the half&#8208;life. This result shows that the effects of the codon optimality (half&#8208;life depending in the codon composition) are gradual and depend on the strength of the codons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20146</offset>
+      <text>Cumulative distributions of the half&#8208;life of the maternal mRNAs in the absence of zygotic transcription in zebrafish. The red line represents genes enriched in optimal codons quantified 2 nucleotides out frame. The blue one is enriched non&#8208;optimal codons also counting in 2 nucleotides out frame. The gray lines represented all mRNAs. This result shows that the effect of codon optimality depends on the reading frame those codons are analyzed and as such depends on translation rather than a sequence motif independent of the reading frame. The P&#8208;values are shown, and the color code determines the conditions that were compared using a Wilcoxon rank&#8208;sum test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20816</offset>
+      <text>Cumulative plots shown as described in (B), for Xenopus embryos, counting the codons in frame (left panel), 1 nucleotide out frame (middle) and 2 nucleotides out frame (right panel). These results indicate codon optimality shapes mRNA half&#8208;life in a codon&#8208;dependent manner in Xenopus embryos. The group of transcripts enriched in either optimal or non&#8208;optimal in each of the three frames is different, meaning that the 364 optimal transcripts in frame are different from the 364 enriched in optimal codons when the codons composition was calculated in 1 or 2 nucleotides out of frame.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21407</offset>
+      <text>Diagram&#160;of two transcripts that only differ in a single nucleotide (G in yellow) which creates a frameshift. One is enriched in optimal codons and the other in non&#8208;optimal codons due to a change in the reading frame. A time&#8208;course Northern blot shows that non&#8208;optimal (N) transcripts decay faster than their optimal (O) counterparts. These differences are lost when translation is blocked by cycloheximide (CHX) (D). The radioactive intensity is shown in italics and normalized to the 1 hpi sample for each injection. Right, qRT&#8211;PCR for the two exogenous transcripts with opposite optimality from Fig&#160;1I. Non&#8208;optimal transcripts decay faster than their optimal counterparts (GFP was used as internal control). Results are shown as the averages&#160;&#177;&#160;standard error of the mean for three replicates. *P&#160;&lt;&#160;0.0001.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22232</offset>
+      <text>Codon identity regulates the maternal program of mRNA decay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22292</offset>
+      <text>Programs of maternal mRNA clearance can be distinguished based on their independence (maternal program) or dependence on zygotic transcription (zygotic program) (Tadros &amp; Lipshitz, 2009; Yartseva &amp; Giraldez, 2015). While miR&#8208;430 plays a critical role in the zygotic program (Giraldez et&#160;al, 2006; Bazzini et&#160;al, 2012), the effectors and regulatory sequences in the maternal program are poorly understood (Yartseva &amp; Giraldez, 2015). To determine whether codon optimality regulates mRNA stability/clearance during the MZT, we analyzed the fold change in mRNA levels before (2 hpf) and after zygotic genome activation (6 hpf). We compared the rate of maternal mRNA clearance for transcripts containing putative miR&#8208;430 target sites (6, 7 or 8 mer complementary to miR&#8208;430) (Bazzini et&#160;al, 2012), optimal&#8208; and non&#8208;optimal transcripts in (i) wild&#8208;type embryos, (ii) in embryos where we blocked the zygotic program by inhibiting transcription with &#945;&#8208;amanitin, and (iii) in embryos where we blocked de novo translation with cycloheximide (CHX) at 2 hpf, allowing the initial translation of the maternal mRNAs (0&#8211;2&#160;h), but preventing translation thereafter (Fig&#160;2A). Three lines of evidence indicate that codon identity shapes maternal mRNA decay. First, mRNAs enriched in non&#8208;optimal codons had a higher rate of decay than those enriched in optimal codons in wild&#8208;type embryos (Fig&#160;2B) (P&#160;=&#160;5e&#8208;76, Wilcoxon rank&#8208;sum test). Interestingly, the degree of regulation by non&#8208;optimal codons is similar to that observed in transcripts containing putative miR&#8208;430 target sites (Fig&#160;2B), suggesting that optimality has a strong regulatory effect on mRNA stability (P&#160;=&#160;0.61, Wilcoxon rank&#8208;sum test). Second, in contrast to miR&#8208;430, the effect of codon identity on mRNA stability is independent of transcription, indicating that codon&#8208;mediated regulation of mRNA stability is part of the maternal program of RNA decay (Fig&#160;2B) (P&#160;=&#160;2e&#8208;48, Wilcoxon rank&#8208;sum test) consistent with a recently published study (Mishima &amp; Tomari, 2016). Third, the effect of codon optimality&#8208;mediated stability/decay was abolished after blocking translation with cycloheximide (Fig&#160;2B) (P&#160;=&#160;0.83, Wilcoxon rank&#8208;sum test), consistent with a translation&#8208;dependent regulation of mRNA stability. These results were recapitulated in individual endogenous transcripts using cycloheximide or a targeted translation blocking morpholino to inhibit their translation, reducing the translation&#8208;dependent stabilization/decay of the endogenous mRNA (Fig&#160;2C). These results indicate that the effect of codon identity is part of the maternal program of mRNA clearance and requires translation to regulate mRNA decay during the MZT (Mishima &amp; Tomari, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25061</offset>
+      <text>Codon identity regulates the maternal program of mRNA decay</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25121</offset>
+      <text>Diagram&#160;illustrating the maternal&#8208;to&#8208;zygotic transition in zebrafish, depicting the analysis of mRNA fold changes between 2 and 6 hpf. Embryos were bathed in cycloheximide (CHX) at 2&#160;hpf or injected with the RNA Pol II inhibitor &#945;&#8208;amanitin at 0 hpf.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25380</offset>
+      <text>Cumulative distributions of mRNA fold change (6&#8211;2&#160;h) in wild&#8208;type embryos, embryos injected with &#945;&#8208;amanitin, and embryos treated with the translation elongation inhibitor cycloheximide. The different curves represent transcripts: enriched in non&#8208;optimal codons (top quartile, blue), containing at least one miR&#8208;430 complementary site (6, 7 or 8 mer) (green), enriched in optimal codons (top quartile, red) and a control set of maternal genes that do not follow any of the described criteria (gray). P&#8208;values are indicated for the comparisons shown with the colored dots (Wilcoxon rank&#8208;sum test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25992</offset>
+      <text>qRT&#8211;PCR analysis for predicted optimal (red) and non&#8208;optimal (blue) transcripts relative to the controls (cdk2ap2 and taf15). IK cytokine, constitutive heat shock protein 90 (hsp90ab), tRNA methyltransferase 12 homolog (trmt12), and Hermansky&#8211;Pudlak syndrome 4 (hps4). Results are shown as the average expression&#160;&#177;&#160;standard deviation from three biological replicates (top panel) and six biological replicates (bottom panel) (Mo, embryos were injected with a morpholino complementary to the translation start site of the endogenous mRNA). *P&#160;&lt;&#160;0.0001 compared to 2&#160;h (top panel). *P&#160;&lt;&#160;0.005 compared to uninjected embryos (bottom panel).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26643</offset>
+      <text>Schematic representing the maternal mRNA decay dynamics and the transcript groups analyzed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26735</offset>
+      <text>Bar plot representing relative codon distributions between the most unstable (quartile) and the most stable (quartile, n&#160;=&#160;1,458) maternal mRNAs in wild&#8208;type, &#945;&#8208;amanitin&#8208;, and cycloheximide (CHX)&#8208;treated embryos. Codons were sorted by their CSC value (Fig&#160;1D). P&#8208;values are indicated for the comparisons between enrichment/depletion in each condition and CSC (Spearman rank test). Optimal codons were highlighted in red and non&#8208;optimal in blue (light, weak; dark, strong, as Fig&#160;1F). Note the depletion of optimal (red) and enrichment of non&#8208;optimal (blue) codons in unstable mRNAs in wild&#8208;type and &#945;&#8208;amanitin&#8208;treated embryos but not in CHX&#8208;treated embryos, consistent with a translation&#8208;mediated mechanism of maternal mRNA decay through codon optimality.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27521</offset>
+      <text>The results presented above indicate that a high density of non&#8208;optimal codons destabilizes mRNAs during the MZT; however, the extent to which codon identity regulates maternal mRNA degradation is unclear. We reasoned that if codon identity plays a major role in maternal mRNA turnover, those mRNAs that are most strongly degraded should be enriched for non&#8208;optimal codons and depleted of optimal codons independently of potential regulatory elements in their 5&#8242; and 3&#8242;UTRs. Alternatively, if codon identity represents a minor mechanism of maternal mRNA decay, then we expect that codon optimality effects would be overshadowed by transcripts under other regulatory mechanisms with neutral codon bias. We analyzed mRNA decay in untreated embryos, in embryos where the zygotic program of mRNA decay is inhibited by &#945;&#8208;amanitin treatment, and in embryos where translation is inhibited by CHX treatment (Fig&#160;2A). We first compared the codon composition of transcripts in the top and bottom quartiles of mRNA fold change during the MZT (between 2 and 6 hpf) (Fig&#160;2D) (2,916 genes). In wild&#8208;type and &#945;&#8208;amanitin&#8208;treated embryos, the most unstable mRNAs were enriched in non&#8208;optimal codons and depleted of optimal codons (Fig&#160;2E). In &#945;&#8208;amanitin&#8208;treated embryos, where the zygotic program of mRNA decay is not active, 22 of 24 non&#8208;optimal codons were enriched in the most unstable mRNAs compared to the most stable ones (Fig&#160;2E). Conversely, 14 of 15 optimal codons were depleted within the most unstable mRNAs compared to the most stable ones (Fig&#160;2E). As a consequence, we observed a significant correlation between codon stability coefficient (CSC) and codons enriched or depleted in unstable transcripts (P&#160;=&#160;2.2e&#8208;16, R&#160;=&#160;0.77 wild type, and P&#160;=&#160;2.2e&#8208;16, R&#160;=&#160;0.84, &#945;&#8208;amanitin, Spearman) (Fig&#160;2E). In contrast, no significant correlation was observed in CHX&#8208;treated embryos (P&#160;=&#160;0.2 R&#160;=&#160;&#8722;0.16, Spearman). These results indicate that codon identity represents a major, translation&#8208;dependent mechanism regulating maternal mRNA stability during the MZT.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29624</offset>
+      <text>Codon identity is a conserved mechanism shaping mRNA stability during the MZT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29702</offset>
+      <text>Zebrafish and Xenopus share a significant degree of conservation in the codon optimality code (Fig&#160;1C). To determine whether differential mRNA stability across the MZT is regulated by codon optimality across animal species, we analyzed mRNA decay across Xenopus, mice, and Drosophila (Table&#160;EV2). First, we applied the codon optimality values defined in zebrafish to predict the transcripts enriched in optimal and non&#8208;optimal codons in these species, then we compared mRNA levels before and after the MZT (Fig&#160;3A). We observed that mouse, Xenopus, and Drosophila transcripts enriched for zebrafish optimal codons were significantly more stable than transcripts enriched for non&#8208;optimal codons (P&#160;=&#160;6e&#8208;50 Xenopus, 2e&#8208;15 mouse, 2e&#8208;19 Drosophila, Wilcoxon rank&#8208;sum test) (Fig&#160;3C&#8211;F). Conversely, genes enriched in non&#8208;optimal codons were less stable. Genes enriched in optimal codons were enriched in GO terms related with housekeeping processes such as translation, protein folding, and regulation of actin dynamics (Fig&#160;EV3B and C). Second, to determine whether codon optimality is a major mechanism of regulation for a significant fraction of the maternal transcriptome, we analyzed the codon composition of top (most stable) and bottom (least stable) quartiles of mRNAs, and compared these to the codon optimality in zebrafish (Fig&#160;3B). We observed that optimal codons were depleted and non&#8208;optimal codons were enriched in unstable mRNAs, consistent with a conserved role of codon optimality in the regulation of mRNA stability during the MZT across animals (Fig&#160;3G&#8211;J) (P&#160;=&#160;6.8e&#8208;12 zebrafish, 5e&#8208;11 Xenopus, 1e&#8208;03 mouse, 3e&#8208;04 Drosophila, Spearman). While the effect of non&#8208;optimal codons appears to be weaker in mouse that in other species, future experiments will be needed to determine whether these differences are due to the predicted code used to infer optimality in mice or the differences in timing and cell division that might make other mechanisms more prevalent during this transition (Svoboda et&#160;al, 2015). Together, these results indicate that codon optimality&#8208;mediated control of mRNA stability is a conserved mechanism to regulate differential mRNA stability during the MZT across animals.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31952</offset>
+      <text>Codon identity is a conserved mechanism shaping mRNA stability during the MZT</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32030</offset>
+      <text>Schematic representation of the analysis workflow for the panels (C&#8211;F). Optimal and non&#8208;optimal transcripts are predicted based on the zebrafish optimality code (Fig&#160;1F) and mRNA decay during the MZT in each species was analyzed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32265</offset>
+      <text>Schematic representation of the analysis workflow for the panels (G&#8211;J). The top and bottom quartiles of mRNAs, ranked by stability during the MZT were determined for each species. The codon composition of each group was compared and correlated with the codon optimality defined in zebrafish (CSC).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32565</offset>
+      <text>Cumulative distributions of mRNA fold change for optimal (red), non&#8208;optimal (blue), and control transcripts across zebrafish (C), Xenopus (D), mouse (E), and Drosophila (F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32741</offset>
+      <text>Codon enrichment/depletion between the most unstable (quartile) and the most stable (quartile, n&#160;=&#160;1,500) maternal mRNAs during the MZT in zebrafish (G), Xenopus (H), mouse (I), and Drosophila (J). Most optimal codons (red: light, weak; dark, strong) are depleted, and non&#8208;optimal (blue: light, weak; dark, strong) codons are enriched in unstable mRNAs compared to stable ones. P&#8208;values are indicated for the comparisons between enrichment/depletion in each species and codon optimality defined in zebrafish (CSC) (Spearman rank test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33283</offset>
+      <text>Characterization of genes enriched in optimal and non&#8208;optimal codons</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33354</offset>
+      <text>Box&#160;plot showing different transcript features of genes enriched in optimal codons, in non&#8208;optimal codons and genes with predicted miR&#8208;430 target sites. For example, miR&#8208;430 targets have significantly longer 3&#8242;UTRs. The box defines the first and third quartiles, with the median indicated with a thick black line and vertical lines indicate the variability outside the upper and lower quartiles.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33759</offset>
+      <text>Enrichment for Gene ontology functions among optimal, non&#8208;optimal, and miR&#8208;430 target sites genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33862</offset>
+      <text>Gene ontology functions enriched in orthologous genes in zebrafish, Xenopus, mouse, and Drosophila that share the same level of optimality.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34002</offset>
+      <text>Codon composition shapes mRNA levels during homeostasis across vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34077</offset>
+      <text>Codon bias correlates with gene expression across multiple species (Ikemura, 1982; Akashi, 1994; Akashi &amp; Gojobori, 2002; Drummond &amp; Wilke, 2008; Kudla et&#160;al, 2009; Novoa &amp; Ribas de Pouplana, 2012). Because codon optimality showed a strong effect on mRNA half&#8208;life during the MZT, we investigated whether it can also influence steady&#8208;state mRNA levels across vertebrates. To this end, we calculated the correlation between codon occurrence and mRNA levels in zebrafish, Xenopus, and 32 human tissues (Uhlen et&#160;al, 2015) (Fig&#160;4A). We observed a significant correlation between codon stability score and mRNA expression levels across zebrafish embryos (Fig&#160;4B), organs (Fig&#160;4B), Xenopus (Fig&#160;4B), and human tissues (Fig&#160;4C). Comparison with the optimality values defined during embryogenesis in zebrafish and Xenopus revealed that highly expressed genes are enriched in optimal codons and depleted in non&#8208;optimal ones in zebrafish and Xenopus (Fig&#160;4B and C). These results indicate that preferential use of specific codons in highly expressed genes is conserved across vertebrates, and remarkably, it corresponds with the CSC defined during embryogenesis (Figs&#160;1D and 4B and C). Based on the differential half&#8208;life of mRNAs with different codon optimality for exogenous (Figs&#160;1C and I, and EV2D and E) and endogenous mRNAs (Figs&#160;1D and H, 2, 3, and EV2C), these results suggest that codon optimality shapes steady&#8208;state mRNA levels across tissues in vertebrates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35559</offset>
+      <text>Codon and amino acid composition shape mRNA levels across vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35629</offset>
+      <text>Diagram&#160;explaining how codon/amino acid expression bias was computed: Correlation was calculated between the frequency of each codon/amino acid and mRNA levels per gene. Orange means correlation and purple anticorrelation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35853</offset>
+      <text>Heatmap showing the codon expression bias across the transcriptome for different developmental time points (2, 6, 12, 24 and 48&#160;hpf) and adult organs in zebrafish and Xenopus at 48&#160;h (right). The codon optimality and CSC calculated during embryogenesis are shown to the right (red, optimal to blue, non&#8208;optimal). Heatmap shows the correlation of codon occurrence and Xenopus mRNA expression at 48 h. On the left, a heat map (red&#8208;blue) shows the CSC values for zebrafish and Xenopus. The codons are sorted by their CSC values. For most tissues, optimal codons are correlated with highly expressed genes (orange), while non&#8208;optimal codons are anticorrelated with high levels of expression (purple). We also observe a correlation between mRNA expression and the CSC across different samples (2&#160;h: P&#160;=&#160;1e&#8208;07 R&#160;=&#160;0.6, 6&#160;h: P&#160;=&#160;2e&#8208;16 R&#160;=&#160;0.7, 12&#160;h: P&#160;=&#160;3e&#8208;09 R&#160;=&#160;0.6, 24&#160;h: P&#160;=&#160;2e&#8208;07 R&#160;=&#160;0.6, 48&#160;h: P&#160;=&#160;1e&#8208;07 R&#160;=&#160;0.6, brain: P&#160;=&#160;1e&#8208;04 R&#160;=&#160;0.4, testis: P&#160;=&#160;1e&#8208;07 R&#160;=&#160;0.6, liver: P&#160;=&#160;1e&#8208;03 R&#160;=&#160;0.4, Spearman rank test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36926</offset>
+      <text>Heatmap of the codon composition bias showing the correlation between the CSC in zebrafish (left) with gene expression across 32 human tissues. The codon optimality is labeled as in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37113</offset>
+      <text>Biplots of the reporter amino acid stabilizing index (rASI) comparing 8&#160;h versus 8&#160;h&#160;+&#160;MO and amino acid stabilization coefficient (ASC) in zebrafish embryos, P&#160;&lt;&#160;6e&#8208;3, R&#160;=&#160;0.6, Spearman rank correlation. Based on the consistent identification by both methods, we defined optimal amino acids highlighted in red and non&#8208;optimal amino acids in blue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37473</offset>
+      <text>Heatmap showing the amino bias across the transcriptome for different developmental time points (2, 6, 12, 24 and 48&#160;hpf) and adult organs in zebrafish, and Xenopus at 48&#160;h (right). The optimal and non&#8208;optimal amino acids are shown to the right (red, optimal to blue, non&#8208;optimal).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37761</offset>
+      <text>Synonymous codons can share the same effects on mRNA stability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37824</offset>
+      <text>The analysis presented above indicates that specific codons influence mRNA stability during embryogenesis (Figs&#160;1, 2, 3), and are correlated with mRNA expression levels and optimality during tissue homeostasis (Fig&#160;4). Previous studies have shown a strong amino acid bias in the transcriptome. This bias has been explained in terms of tRNA expression, tRNA demand, translational accuracy, and the metabolic &#8220;cost&#8221; of different amino acids (Akashi, 1994; Craig &amp; Weber, 1998; Baudouin&#8208;Cornu et&#160;al, 2001; Akashi &amp; Gojobori, 2002; Pechmann &amp; Frydman, 2013). Our experimental assays of codon identity on mRNA stability raised the possibility that synonymous codons might share similar effects on mRNA levels, resulting in amino acid optimality. This could explain the amino acids bias in the transcriptome due to the consistent effect of synonymous codons on mRNA stability. To test this hypothesis, we first analyzed whether the encoded amino acid influences mRNA stability in zebrafish and Xenopus using two approaches parallel to the codon analysis undertaken in Fig&#160;1. First, we analyzed the reporter amino acid stabilizing index (rASI) as the statistical significance of the enrichment (+) or depletion (&#8722;) of synonymous codons for each amino acid between these conditions (&#8722;MO versus +MO) (F&#8208;value, ANOVA). Second, we analyzed the amino acid stabilization coefficient (ASC, the Pearson correlation coefficient between mRNA half&#8208;life and the amino acids encoded in that transcript). Interestingly, both methods revealed that several encoded amino acids are correlated with mRNA stability. Similar to the analysis preformed at the levels of individual codons, we defined optimal amino acids that are enriched in the library and correlated with longer mRNA half&#8208;life, indicating a potential stabilizing effect (rASI&#160;&gt;&#160;1,000 and ASC&#160;&gt;&#160;0) and non&#8208;optimal codons with potential destabilizing effects (rASI&#160;&lt;&#160;&#8722;1,000 and ASC&#160;&lt;&#160;0) (Figs&#160;4D and EV4A). While this analysis depends in the relative use and optimality for each synonymous codon, there are clear examples of amino acids that are encoded by either optimal (asparagine) or non&#8208;optimal (histidine) codons. These results indicate that amino acids can also be defined as optimal and non&#8208;optimal, influencing mRNA stability when they are decoded, yet future experiments will be needed to uncouple codon and amino acid optimality. This observation adds a novel layer of complexity into the codon optimality, where the encoded amino acid might affect the stability of the translated mRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40396</offset>
+      <text>Codon optimality regulates poly(A) tail length</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40443</offset>
+      <text>Biplots of the reporter amino acid stabilizing index (rASI) comparing 9&#160;h versus 9&#160;h&#160;+&#160;MO and amino acid stabilization coefficient (ASC) in Xenopus embryos, P&#160;&lt;&#160;0.02, R&#160;=&#160;0.5, Spearman rank correlation. Based on the consistent identification by both methods, we defined optimal amino acids highlighted in red and non&#8208;optimal amino acid in blue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40798</offset>
+      <text>Scatter plot showing expression levels (log2 RPKM) of purified poly(A) mRNA and total RNA at 12&#160;hpf. Histone genes (that lack a poly(A) tail) are highlighted in green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40967</offset>
+      <text>Line plot showing the poly(A) tail length of control mRNAs (gray) based on PAL&#8208;seq data, mRNAs enriched in optimal codons (red), or in non&#8208;optimal (blue) at 2, 4, and 6&#160;hpf (P&#160;=&#160;0.03, P&#160;=&#160;5e&#8208;31, P&#160;=&#160;2e&#8208;43, Wilcoxon rank&#8208;sum test, respectively).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41229</offset>
+      <text>Cumulative distributions of the ratio of purified poly(A)+/total RNA for genes enriched in optimal codons (red) (n&#160;=&#160;1,943 at 2&#160;h, 1,791 at 6 h, 2,207 at 12 h, and 2,469 at 24&#160;h) or non&#8208;optimal codons (blue) (n&#160;=&#160;1,941 at 2&#160;h, 1,790 at 6&#160;h, 2,208 at 12&#160;h, and 2,462 at 24&#160;h) or genes that were not included in any of the other two groups (gray) at 2, 6, 12, and 24 hpf (P&#160;=&#160;3e&#8208;05, P&#160;=&#160;1e&#8208;48, P&#160;=&#160;2e&#8208;13, P&#160;=&#160;2e&#8208;23, Wilcoxon rank&#8208;sum test, respectively).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41712</offset>
+      <text>Single nucleotide resolution electrophoresis for poly(A) length for two sets of transcripts that only differ in a single nucleotide insertion G, but contains opposite codon optimality due to a change in the reading frame (Fig&#160;EV2E). This result shows that at 1&#160;h the poly(A) tail length of both constructs is similar; however, by 4 and 8&#160;h the length of the poly(A) tail is shorter in the transcript enriched for non&#8208;optimal codons.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42150</offset>
+      <text>To evaluate whether amino acid optimality can partially explain the amino acid bias in gene expression in homeostasis, we calculated the correlation between amino acid occurrence and mRNA levels in zebrafish and Xenopus (Fig&#160;4A). We found that optimal amino acids are preferentially used in highly expressed genes and non&#8208;optimal amino acids are preferentially used in lowly expressed genes in both zebrafish and Xenopus (Fig&#160;4E). These results suggest that part of the amino acid bias in the transcriptome can be explained by amino acid optimality and the concordant effect of synonymous codons on mRNA stability.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42769</offset>
+      <text>Codon composition affects poly(A) tail length and translation efficiency</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42842</offset>
+      <text>The length of the poly(A) tail influences translation and stability of mRNAs (Eckmann et&#160;al, 2011; Weill et&#160;al, 2012; Subtelny et&#160;al, 2014). Three lines of evidence indicate that codon identity modulates the polyadenylation status of the mRNA. First, we analyzed the polyadenylation status of mRNAs with different codon optimality content across different embryonic stages (2, 6, 12, 24, and 48 hpf). To this end, we calculated the fraction of deadenylated mRNAs by comparing the levels of poly(A+)&#8208;containing mRNA (oligo(dT) purified) with total RNA depleted of ribosomal RNA. This provides an indirect measurement of the polyadenylation status and represents the proportion of deadenylated and polyadenylated mRNAs rather than a direct measurement of their length (Bazzini et&#160;al, 2012; Park et&#160;al, 2016). As a control, we evaluated histone mRNAs, which are typically deadenylated, and found that they displayed a low poly(A)/total RNA ratio (Fig&#160;EV4B) supporting the use of the poly(A+)/total RNA ratio as a proxy of the polyadenylation status. We found that mRNAs enriched in non&#8208;optimal codons display a lower polyadenylation status (poly(A)/total RNA ratio) compared to those enriched in optimal codons across developmental stages (Figs&#160;5A and EV4D) (P&#160;=&#160;6e&#8208;35, Wilcoxon rank&#8208;sum test). Second, we analyzed the poly(A) tail length of mRNAs throughout early zebrafish embryogenesis using previously generated PAL&#8208;seq data (Subtelny et&#160;al, 2014). We found that mRNAs enriched in non&#8208;optimal codons had shorter poly(A) tails at 4 and 6 hpf, whereas mRNAs enriched in optimal codons had longer poly(A) tails (Fig&#160;EV4C) (P&#160;=&#160;5e&#8208;31, P&#160;=&#160;2e&#8208;43, Wilcoxon rank&#8208;sum test). Their initial poly(A) tail lengths were comparable (P&#160;=&#160;0.03, Wilcoxon rank&#8208;sum test) (Fig&#160;EV4C), consistent with similar polyadenylation status for both mRNA populations by 2 hpf (Fig&#160;EV4D) (P&#160;=&#160;3e&#8208;05, Wilcoxon rank&#8208;sum test). Third, we analyzed the poly(A) tail length using high&#8208;resolution electrophoresis (Bazzini et&#160;al, 2012) for two sets of reporter mRNAs that had opposite codon optimality depending on the frame in which they were translated (Figs&#160;1I and EV2E). Non&#8208;optimal reporters displayed shorter poly(A) tails (Figs&#160;5B and EV4E) and faster decay over time than their optimal counterparts, although their initial poly(A) status was comparable at 1 hpi (Figs&#160;1I, 5B, EV2E, and EV4E). Together, consistent with recent reports (Mishima &amp; Tomari, 2016), these results indicate that a higher ratio of non&#8208;optimal/optimal codons is associated with a shorter poly(A) tail, mRNA destabilization and decay (Fig&#160;6A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>45486</offset>
+      <text>Codon optimality regulates poly(A) tail length and translation efficiency</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45560</offset>
+      <text>Cumulative distributions of the ratio of poly(A) selected and a total RNA at 48 hpf.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45645</offset>
+      <text>Single nucleotide resolution electrophoresis for poly(A) tail length for two sets of transcripts that only differ in a single nucleotide insertion (&#8220;G&#8221;), but contain opposite codon optimality due to a change in the reading frame (Fig&#160;1I).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45889</offset>
+      <text>Total mRNA (C) and translation efficiency (D) for genes enriched in non&#8208;optimal codons (n&#160;=&#160;2,611) and in optimal codons at 48 hpf (n&#160;=&#160;2,612). Control sets of genes that have similar RNA level distributions as each group are shown (purple and yellow, f.g). P&#8208;values are indicated for the comparisons shown with the colored dots (Wilcoxon rank&#8208;sum test). Note how optimal mRNAs have a higher polyadenylation status (A) and translation efficiency than non&#8208;optimal mRNAs (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46375</offset>
+      <text>Fluorescence microscopy images of representative embryos at 24 hpf expressing a bicistronic reporter encoding an optimal or non&#8208;optimal coding sequence followed by a cis&#8208;acting hydrolase elements (P2A; CHYSEL) and GFP. P2A causes ribosome skipping, what allows us to use GFP as a readout of the translation of the upstream polypeptide. dsRed mRNA is co&#8208;injected as a control, and it is shown below. The level of GFP is higher in the optimal reporter (hsp90) than the non&#8208;optimal one (hps4). Box&#160;plot displays fluorescence quantification of 24&#8208;h embryos injected with each reporter. GFP fluorescence intensity was normalized to dsRed intensity in each embryo, n&#160;=&#160;13 pairs, P&#160;=&#160;8.8e&#8208;06, Wilcoxon rank&#8208;sum test. The box defines the first and third quartiles, with the median indicated with a thick black line and vertical lines indicate the variability outside the upper and lower quartiles.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>47284</offset>
+      <text>&#8220;Codon optimality code&#8221; in vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47327</offset>
+      <text>mRNAs enriched in optimal (red) codons have longer poly(A) tails, higher translation efficiency (TE), and higher stability compared to genes enriched in non&#8208;optimal codons (blue).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47509</offset>
+      <text>Heatmap showing the codon optimality code underlying the genetic code in zebrafish (B) and Xenopus (C). Based on the consistent identification by two methods (rCSI and CSC), we defined optimal codons in red and non&#8208;optimal codons in blue. The intensity of the color represents the strength (light, weak; dark, strong) based on different CSC values, which corresponds to different cumulative effects in mRNA half&#8208;life (Fig&#160;1F).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47941</offset>
+      <text>Translation efficiency across mRNAs in&#160;vivo can vary over 250&#8208;fold between different genes. Ribosome footprinting provides a quantitative measurement of translation and, upon normalization to total RNA, allows us to calculate the translation efficiency for each gene (Ingolia et&#160;al, 2009). While the codon adaptation index (Sharp &amp; Li, 1987) only explains a small portion of the variance in protein per mRNA in yeast (Ingolia et&#160;al, 2009) and bacteria (Plotkin &amp; Kudla, 2011), differences in codon optimality in yeast for individual reporter genes result in different protein output and inferred translation efficiency (Presnyak et&#160;al, 2015). Furthermore, it has been shown that codon composition can influence translation efficiency (Hussmann et&#160;al, 2015). To investigate the effect of codon optimality in translation in&#160;vivo in vertebrates, we measured translation efficiency using ribosome footprinting across different developmental time points in zebrafish embryos (2, 6, 12, 24 and 48 hpf) (Bazzini et&#160;al, 2014). Because codon optimality influences mRNA levels, we used a control population with a similar mRNA level distribution (48&#160;h P&#160;=&#160;1e&#8208;3 for optimal, P&#160;=&#160;0.5 for non&#8208;optimal, Wilcoxon rank&#8208;sum test) (Figs&#160;5C and EV5A). mRNAs enriched in optimal codons had significantly higher translation efficiency than the control set across time points (48&#160;h P&#160;=&#160;3e&#8208;16, Wilcoxon rank&#8208;sum test) (Figs&#160;5D and EV5A). In contrast, mRNAs enriched in non&#8208;optimal codons displayed lower translation efficiency than their control set (48&#160;h P&#160;=&#160;5e&#8208;19, Wilcoxon rank&#8208;sum test) (Figs&#160;5D and EV5A). Consistent with these observations, ribosome profiling of individual genes with different optimality displays dramatically different ribosome occupancy, with higher translation of optimal genes (Fig&#160;EV5B). To determine whether protein production is indeed affected by the codon optimality of individual genes, we compared GFP expression from two reporter mRNAs consisting of an optimal or non&#8208;optimal coding sequence followed by a ribosome skipping sequence (P2A) (Donnelly et&#160;al, 2001; de Felipe et&#160;al, 2006) and GFP. This allowed the analysis of protein production in&#160;vivo independently of the half&#8208;life of the protein analyzed. We observed higher translation of the optimal reporter compared to the non&#8208;optimal one (Fig&#160;5E), while no difference was observed in the expression levels of the co&#8208;injected dsRed control mRNA (Fig&#160;5E). Taken together, these results indicate that codon optimality shapes translation efficiency and protein output in&#160;vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>50536</offset>
+      <text>Codon optimality regulates translation efficiency</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50586</offset>
+      <text>Cumulative distributions of mRNA levels and translation efficiency at 2, 6, 12, and 24 hpf for genes enriched in optimal (red) or non&#8208;optimal codons (blue). Also plotted are two control sets of genes that have similar RNA level distribution to those enriched in optimal or non&#8208;optimal codons (yellow for optimal and purple for non&#8208;optimal), and the rest of the analyzed genes (gray). Number of analyzed genes and P&#8208;values obtained after comparing the cumulative distribution between of the experimental set and the control set as indicated by the colors, Wilcoxon rank&#8208;sum test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51175</offset>
+      <text>Subcodon profile plot showing ribosome protected fragments (RPF) and input reads (total RNA) aligned to each of the transcripts shown. Reads are colored based on the frame (1, 2, or 3) position relative to the transcript. All putative ORFs (distal AUG&#8208;Stop) were also colored for each respective frame (blue, pink, and green boxes). The annotated ORF is marked. Note that the scale for both transcripts is the same. The gene enriched in optimal codons presents a higher translation efficiency because contain a higher ration of RPF/RNA than the gene enriched in non&#8208;optimal codons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51761</offset>
+      <text>Speculative model representing how different factors could modulate mRNA expression due to codon optimality. The length of the poly(A) tail as well as factors such microRNA or RNA binding protein can modulate translation and consequently modulate the effects of codon optimality on mRNA stability. Alternatively, specific cellular factors may affect the codon optimality code and so change the gene expression across tissues by modifying mRNA stability. For example, in the oocyte the level of translation is low. After egg activation and/or fertilization translation is activated, consequently a gene enriched in non&#8208;optimal codons may become unstable after translation is activated.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>52448</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52459</offset>
+      <text>Our study identifies mRNA translation and codon optimality as a conserved mechanism shaping maternal mRNA clearance during early embryogenesis. mRNAs with a high proportion of non&#8208;optimal codons are less stable, whereas the most stable mRNAs show an enrichment of optimal codons (Figs&#160;1 and 2). Based on our current analysis, we propose that this mechanism is a key part of the maternal program of mRNA regulation and modulates the stability and decay of several thousand maternal mRNAs in zebrafish (Figs&#160;2 and 3). A recent analysis of codons on mRNA stability in zebrafish by Mishima and Tomari relay on the codon adaptation index, which only allows to measure the relative effects of synonymous codons, but does not allow comparison of codons encoding for different amino acids (Mishima &amp; Tomari, 2016). In contrast, our study directly measures the relative effects of all codons on mRNA stability in a translation&#8208;dependent manner, allowing direct comparison of synonymous and non&#8208;synonymous codons on mRNA stability. The strength of the regulation and number of genes modulated by codon optimality are comparable to that observed by microRNAs during this process (Fig&#160;2). It is likely that these mechanisms function in a fraction of genes with additional regulatory motifs in the 3&#8242;UTR and RNA binding proteins to modulate mRNA stability during the MZT (Tadros &amp; Lipshitz, 2009; Yartseva &amp; Giraldez, 2015). Indeed, it has been shown that the effect of the codon adaptation index on mRNA stability is stronger in transcripts with shorter 3&#8242;UTRs (Mishima &amp; Tomari, 2016), suggesting that longer UTRs might harbor regulatory elements that antagonize the effect of codon optimality. Interestingly, maternal mRNAs deposited in the egg are stable until egg activation, fertilization, or zygotic genome activation, depending on the specific mRNA (Mendez &amp; Richter, 2001; Clark et&#160;al, 2007; Yartseva &amp; Giraldez, 2015). Codon optimality could provide a mechanism to trigger mRNA decay upon activation of translation following fertilization and might explain the tight control between the simultaneous activation of translation and mRNA deadenylation/destabilization upon fertilization (Fig&#160;EV5C) (Richter &amp; Coller, 2015). Conversely, factors that modulate translation could influence mRNA stability via codon optimality, thus providing a valuable mechanism for feedback regulation in the cell (Fig&#160;EV5C). For example, this mechanism could modulate degradation/stability once mRNAs are localized to distinct subcellular regions and initiate translation, such as during synaptic regulation (Kiebler &amp; DesGroseillers, 2000; Martin &amp; Ephrussi, 2009), axis specification during development (Johnstone &amp; Lasko, 2001), or germ cell specification (Slaidina &amp; Lehmann, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55238</offset>
+      <text>By analyzing the effect of translation on mRNA stability using a reporter library and endogenous mRNA half&#8208;life (Fig&#160;1), we defined a codon optimality code during early embryogenesis (Fig&#160;6). Our results provide evidence for the conservation of codon optimality (Presnyak et&#160;al, 2015) across vertebrates (Figs&#160;1, 3 and 4), identify physiological contexts where this mechanism regulates gene expression during the MZT (Figs&#160;2 and 3), and suggest that specific amino acids are associated with differential mRNA stabilization (Fig&#160;4). The bias between codons or amino acids, and mRNA expression levels has been previously recognized across species and is thought to result from selection for efficient, accurate translation, and folding of highly expressed genes (Ikemura, 1982; Akashi, 1994; Akashi &amp; Gojobori, 2002; Drummond &amp; Wilke, 2008; Kudla et&#160;al, 2009; Novoa &amp; Ribas de Pouplana, 2012). The amino acid optimality code (Fig&#160;6) provides an alternative perspective on sequence changes between paralogs in evolution and human disease. Individual gene sequence might be determined not only by the function of the protein but also by its optimality with respect to mRNA stability and translation efficiency potentially driving sequence evolution. Based on the strong effect of codon optimality on mRNA stability and the relationship between codon&#160;bias and optimality, codon optimality is a strong post&#8208;transcriptional regulatory mechanism in vertebrates that shapes gene expression across tissues. This mechanism can explain the previously recognized relationship between codons used or amino acids encoded in the transcriptome and mRNA expression levels across metazoans in both prokaryotes and eukaryotic cells (Ikemura, 1982; Akashi &amp; Gojobori, 2002; Akashi, 2003; Hussmann et&#160;al, 2015). However, metazoans have different evolutionary constraints regarding adaptation, metabolic and nutrients availability than yeast or prokaryotes. We observe that there is a correlation between tRNA levels and optimality, with non&#8208;optimal codons associated with lower tRNA levels (Fig&#160;1). Indeed, previous studies of tRNAs in tumor cells have found that different gene networks driving proliferation and cell differentiation have different codon usage, and the activation of these programs is influenced by different tRNA levels (Gingold et&#160;al, 2014), suggesting that they are under the regulation of codon optimality. The codon optimality code defined during early embryogenesis (Fig&#160;1) correlates with codon bias in homeostasis (Fig&#160;4), suggesting that the code is conserved between early embryogenesis (MZT) and somatic tissues. However, further experiments, defining codon optimality code in specific cell types or under different physiological conditions, that is, stress, will define how the code changes with cell identity and cellular state. In addition to tRNA levels, tRNA modification might also play a key role in optimality (Gustilo et&#160;al, 2008; Novoa et&#160;al, 2012). Previous studies in yeast have linked the effect of codon optimality to the translocation speed of the ribosome, which also influences protein folding (Presnyak et&#160;al, 2015; Yu et&#160;al, 2015). Reduced codon optimality coincides with shorter poly(A) tail length (Fig&#160;5). In addition, we found the genes enriched in non&#8208;optimal codon present lower translation efficiency, suggesting that codon optimality also influences the level of translation (Fig&#160;5). However, we cannot distinguish whether the poly(A) length changes are the cause or consequence of the translation differences caused by codon optimality. In addition, we cannot exclude that additional features that influence translation initiation are co&#8208;selected with optimal codons (Fig&#160;EV3A). Our results are consistent with the role of codon optimality in translation efficiency and the speed of ribosome translocation in yeast (Novoa &amp; Ribas de Pouplana, 2012; Hussmann et&#160;al, 2015; Presnyak et&#160;al, 2015). Based on the slower translocation rates in yeast over non&#8208;optimal codons (Presnyak et&#160;al, 2015), we speculate that slower ribosome translocation might allow the recruitment of accessory proteins that engage the deadenylation machinery. While we observe a correlation between tRNA levels and the extremes of optimality, it is likely that this code integrates multiple inputs of translation from tRNA availability and accuracy (Akashi, 1994; Ishimura et&#160;al, 2014; Hussmann et&#160;al, 2015), tRNA modification (Gustilo et&#160;al, 2008; Novoa et&#160;al, 2012), to peptide bond formation, amino acid identity, and other factors influencing the translocation rate and ultimately elongation (Baragana et&#160;al, 2015; Faller et&#160;al, 2015). Future studies will be needed to determine how the ribosome or accessory proteins decode codon optimality (Richter &amp; Coller, 2015), and how this code is regulated across cellular transitions, tissues, and pathological states.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60151</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60173</offset>
+      <text>Reporter library preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60202</offset>
+      <text>Zebrafish embryos were collected at 2, 8, and 10&#160;h post&#8208;fertilization (hpf), and 120&#160;ng of total RNA was isolated using TRIzol following manufacturer instructions. Poly(A) mRNAs were purified using the Dynabeads mRNA Purification kit (Invitrogen, cat 610.06). Poly(A) purified mRNAs were reverse transcribed using SuperScript&#8482; III Reverse Transcriptase (Invitrogen) with RT&#8208;Oligo (GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCCTAgCTAcCTANNNNNNNNS) according to the manufacturer (Invitrogen). After adding the reverse transcriptase, the reaction was incubated at 25&#176;C for 10&#160;min, followed by 30&#160;min at 42&#176;C and 20&#160;min at 50&#176;C. The reaction was inactivated at 75&#176;C for 15&#160;min and treated with RNase H for 20&#160;min at 37&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60927</offset>
+      <text>The cDNA molecules were purified using AmPureXp beads. The total 20&#160;&#956;l of the cDNA reaction was incubated with 36&#160;&#956;l AmPureXp beads (Beckman Coulter) and 15&#160;&#956;l of water at room temperature for 30&#160;min with gentle mixing. The tube was exposed to a magnetic wall and the liquid discarded. The magnetic beads were washed two times with EtOH 70% and dried for 5&#160;min at room temperature. The cDNA was then eluted from the beads using 10&#160;&#956;l of preheated water at 37&#176;C and incubated for 10&#160;min at 40&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61435</offset>
+      <text>The 5&#8242; adaptor was ligated to the cDNA using 3&#160;&#956;l of the cDNA, 1&#160;&#956;l CircLigase buffer, 0.5&#160;&#956;l ATP 1&#160;mM, 0.5&#160;&#956;l MnCl2 50&#160;mM, 4&#160;&#956;l 50% PEG6000, 0.5&#160;&#956;l Adaptor 100&#160;&#956;M (/5Phos/gACAGCTCCTCGCCCTTGCTCACCATTTCGCCGTTAGA/3InvdT/), and 0.5&#160;&#956;l Circ Ligase&#8482; ssDNA Ligase (Epicentre). The reaction was incubated at 60&#176;C for 2&#160;h, followed by 1&#160;h at 68&#176;C and 10&#160;min at 80&#176;C, then purified using AmPureXp (Beckman Coulter) as described above. The purified molecules were eluted in 20&#160;&#956;l of water.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61945</offset>
+      <text>Final sequences were added by PCR. Amplification was done using Phusion High&#8208;Fidelity DNA Polymerase (Thermo Scientific) and oligos: ATTTAGGTGACACTATAGAAGtGCTACACGACGCTCTTCCGATCTTCTAACGGCGAAATGGTGAG and (T)60GTGACTGGAGTTCAG. PCR was carried out for initial 3&#160;min at 98&#176;C, followed by three cycles of: 80&#160;s at 98&#176;C, 15&#160;s at 52&#176;C, and 45&#160;s at 72&#176;C. This was followed by 20 cycles of 10&#160;s at 98&#176;C, and 45&#160;s at 72&#176;C, with a final incubation at 72&#176;C for 5&#160;min. The reaction was separated on agarose gel and DNA fragments between 500 and 900 nt were extracted and purified using MinElute columns (Qiagen) and eluted in 10&#160;&#956;l.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62583</offset>
+      <text>Reporter library injection and sample preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62633</offset>
+      <text>A total of 1,000&#160;pl of a 10&#160;ng/&#956;l reporter library was injected into wild&#8208;type zebrafish embryos at the one&#8208;cell stage. To block translation of the reporter library in a subset of the embryos, GFP morpholino (Giraldez et&#160;al, 2006) was co&#8208;injected with the reporter library at 250&#160;&#956;M. One&#8208;cell stage Xenopus embryos were injected with 2&#160;nl of the 10&#160;ng/&#956;l reporter library, with a subset&#160;also co&#8208;injected with 250&#160;&#956;M GFP morpholino. A total of 25 zebrafish and Xenopus embryos injected only with the reporter library were collected at the 16&#8208;cell or 4&#8208;cell stage, respectively. A total of 25 zebrafish embryos injected with the reporter library alone and co&#8208;injected with the MO were collected at 8&#160;h post&#8208;injection (hpi) (50% epiboly) by triplicated. A total of 25 Xenopus embryos were collected at 9.5 hpi (Stage 11). Total RNA was isolated using TRIzol (Invitrogen). The library mRNAs were reverse transcribed using SuperScript&#8482; III Reverse Transcriptase (Invitrogen) with RT&#8208;Oligo (GTGACTGGAGTTCAGACGTGTG) following the manufacturer's instructions (Invitrogen). The cDNA molecules were purified using AmPureXp beads as described above. Amplification was performed using Phusion High&#8208;Fidelity DNA Polymerase (Thermo Scientific) using oligo: AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT in combination with any of the following barcoded oligos.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64030</offset>
+      <text>Index_14&#160;=&#160;CAAGCAGAAGACGGCATACGAGATggaactGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTctagctac,</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64117</offset>
+      <text>Index_15&#160;=&#160;CAAGCAGAAGACGGCATACGAGATtgacatGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTctagctac,</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64204</offset>
+      <text>Index_22&#160;=&#160;CAAGCAGAAGACGGCATACGAGATcgtacgGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTctagctac,</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64291</offset>
+      <text>Index_25&#160;=&#160;CAAGCAGAAGACGGCATACGAGATatcagtGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTctagctac.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64378</offset>
+      <text>PCR was carried out for initial 3&#160;min at 98&#176;C, followed by different number of cycles of 10&#160;s denaturation at 98&#176;C, 10&#160;s at 50&#176;C, and 45&#160;s at 72&#176;C. A final incubation at 72&#176;C for 5&#160;min was done. For&#160;all zebrafish samples, 12 cycles were done, for the Xenopus 20 cycles were done, except for 4&#8208;cell stage where 14 were used.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64715</offset>
+      <text>The PCR fragments were purified with AmPureXp beads (Beckman Coulter) as described above. Libraries were sequenced (together with unrelated libraries) using Illumina HiSeq2000 (2&#160;&#215;&#160;75 nt) using less that ~5% of a lane per sample and never more that four samples per lane due to the low&#8208;complexity regions at the 5&#8242; and 3&#8242; fragment ends.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65061</offset>
+      <text>Reporter library analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65087</offset>
+      <text>Sequences that did not contain the exact first 26&#8208;nt expected translated sequence (ATGGTGAGCAAGGGCGAGGAGCTGTC) and the exact added stop codons (CTAGCTACCTA) were discarded. The remaining sequences were mapped with Bowtie2 to zebrafish Ensembl release 80 cDNA (longest transcript per gene) using the following parameters: &#8211;local, &#8211;no&#8208;mixed, &#8211;no&#8208;discordant, &#8211;no&#8208;overlap, &#8211;norc, &#8211;no&#8208;unal, &#8208;I 200, &#8208;X 600 (Langmead &amp; Salzberg, 2012; Cunningham et&#160;al, 2014). The fragment sequences spanning the full locus delineated by each pair of reads were extracted using SAMtools and BEDTools (Li et&#160;al, 2009; Quinlan &amp; Hall, 2010). After mapping, the 5&#8242; 26&#8208;nt translated sequence was added back to all fragments. All sequences with stop codons in frame were discarded. Each of the coding codons (61) was counted, and codon frequencies were computed using the length of the coding sequence. Frequencies of each codons were compared between conditions (e.g. 8&#160;h with and 8&#160;h without MO, or 8&#160;h versus 2&#160;h) using the three replicates using a analysis of the variance (ANOVA). The F&#8208;value was multiplied by &#8722;1 if the average of medians was higher in the presence of the MO. This final positive or negative F&#8208;value was termed as reporter codon stabilizing index (rCSI). Therefore, optimal codon displayed a higher average of the medians in the absence of MO than in the presence of MO and therefore present a positive rCSI. Non&#8208;optimal displayed a higher average of the medians in the presence of MO than in the absence of MO and so presented a negative rCSI. In the case of Xenopus 9&#160;h with MO, one sample was discarded for low&#8208;quality reasons. The codons used (Fig&#160;1E) were calculated by multiplying the number of each codon by the level of mRNA at 6&#160;h. The same rCSI calculations were done at the level of amino acid, calculating the reporter amino acid stabilizing index (rASI).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66999</offset>
+      <text>RNA&#8208;seq during early zebrafish and Xenopus embryogenesis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67058</offset>
+      <text>Embryos were injected with 0.2&#160;ng of &#945;&#8208;amanitin (Sigma Aldrich) at one&#8208;cell stage. The Xenopus embryos were also co&#8208;injected with a U1&#8208;U2 morpholinos as means to block splicing as a control for an unrelated experiment. Twenty&#8208;five embryos were collected and total RNA isolated with TRIzol. The zebrafish samples were spiked in with Yeast RNA for normalization purposes. Depletion of ribosomal RNA was performed with Ribo&#8208;Zero Gold kits (Epicentre) according to the published protocol. Strand&#8208;specific TruSeq Illumina RNA sequencing libraries were constructed by the Yale Center for Genome Analysis and sequenced in Illumina HiSeq 2000/2500 machines to yield single&#8208;end 76&#8208;nt reads. Raw reads were initially filtered by aligning permissively to a ribosomal DNA index using Bowtie v0.12.953 with switches &#8208;seedlen 25 &#8208;n 3 &#8208;k 1 &#8208;y &#8208;e 10,000. Unaligned reads were then aligned to the zebrafish Zv9 (UCSC danRer7) genome sequence using Tophat v2.0.754 with default parameters. Sequencing data are available at the Sequence Read Archive (SRA) under the accession number SRP072296.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68163</offset>
+      <text>mRNA half&#8208;lives of maternal mRNA were calculated based on the linear regression of mRNA decay from 2.5, 3, 4, 6, and 8 hpf using log2(RPKM) expression data (Lee et&#160;al, 2013). Maternal genes were selected with half&#8208;life longer than 10&#160;min and shorter than 250&#160;min, and Pearson correlation between log2(RPKM) and decay time &lt;&#160;&#8722;0.8. In Xenopus, 2, 5, 7, and 9 hpf samples were used with the same correlation cutoff.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68586</offset>
+      <text>To calculate the codon stability coefficient (CSC) (Presnyak et&#160;al, 2015) in zebrafish and Xenopus, the occurrence of each of the 61 coding codon per gene was calculated and the Pearson correlation coefficient with the respect the mRNA half&#8208;life calculated. Optimal codons were defined as the codons with rCSI higher than 250 and a positive CSC. Non&#8208;optimal codons presented rCSI lower than &#8722;250 and negative CSC. The optimal and non&#8208;optimal were also splitted into weak and strong: the strong ones were defined as the codon with a CSC higher than 0.03 (optimal) or lower than &#8722;0.03 (non&#8208;optimal) and the weak ones had 0&#160;&lt;&#160;CSC&#160;&lt;&#160;0.03 optimal and 0&#160;&gt;&#160;CSC&#160;&gt;&#160;&#8722;0.03 non&#8208;optimal codons. Similar to the CSC, the amino acid stability coefficient (ASC) in zebrafish and Xenopus were calculated.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>69398</offset>
+      <text>Maternal&#8208;to&#8208;zygotic transition analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69442</offset>
+      <text>For the maternal&#8208;to&#8208;zygotic transition analysis, RPKM were calculated from zebrafish, Xenopus, mouse, and Drosophila melanogaster (Daines et&#160;al, 2011; Lee et&#160;al, 2013; Abe et&#160;al, 2015). The genes enriched in optimal or non&#8208;optimal codons were defined as the top quartile transcripts based on the proportion of optimal codons. The miR&#8208;430 target group was defined as transcripts with miR430 target sites in the 3&#8242;UTR (8, 7, or 6 mer). The lengths of the 5&#8242;UTR, 3&#8242;UTR, ORF, and transcripts were calculated for each group as well as the enrichment of GO terms.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70017</offset>
+      <text>For the maternal&#8208;to&#8208;zygotic transition analysis in multiple species, the top 6,000 most highly expressed genes before genome activation in each species were analyzed. The top quartile of optimal or non&#8208;optimal based on the zebrafish codon optimality code was defined and the fold change before and after the zygotic genome activation calculated.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>70369</offset>
+      <text>Quantitative RT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70391</offset>
+      <text>cDNAs were generated from 900&#160;ng of total RNA using SuperScript&#174; III First&#8208;Strand Synthesis System (ThermoFisher Scientific) and following the manufacturer's instructions. A total of 5&#160;&#956;l from a 1/50 dilution of the cDNA reaction was used to determine the expression of ik cytokine, hsp90, trmt12, hps4, taf15 and cdk2ap2 (Fig&#160;2C), GFP and optimal and non&#8208;optimal transcripts by using the Power SYBR Green PCR Master Mix Kit (Applied Biosystems) and the ViiA 7 instrument (Applied Biosystems). The PCR cycling profile consisted of incubation at 50&#176;C for 2&#160;min, followed by a denaturing step at 95&#176;C for 10&#160;min and 40 cycles at 95&#176;C for 15&#160;s and 60&#176;C for 1&#160;min. The following primers were used: ik cytokine: forward, 5&#8242;&#8208;GATGGCCATGAGGTGGAG&#8208;3&#8242; and reverse, 5&#8242;&#8208;ATGGTGGCGTGTTTTTGAG&#8208;3&#8242;; hsp90: forward, 5&#8242;&#8208;CCTGACGACATCTCCAATGA&#8208;3&#8242; and reverse, 5&#8242;&#8208;CGACGAGGGATGAAGAGAAG&#8208;3&#8242;; trmt12: forward, 5&#8242;&#8208;TCCCAGGATGGTTATCGAAC&#8208;3&#8242; and reverse, 5&#8242;&#8208;AGAACATGCACTTGGTGACG&#8208;3&#8242;; hps4: forward, 5&#8242;&#8208;TGTGTCGCTGTGTGTCTGAA&#8208;3&#8242; and reverse: 5&#8242;&#8208;ATCAGCTGGTCGAGGACATC&#8208;3&#8242;; taf15: forward, 5&#8242;&#8208;GCTGCAGCATTGAAAACCTTCAGTC&#8208;3&#8242; and reverse, 5&#8242;&#8208;TCCATCACACACACACACTAAACGC&#8208;3&#8242;; cdk2ap2: forward, 5&#8242;&#8208;AGGATCTTGTGGCTCTTCTCCATCAC&#8208;3&#8242; and reverse, 5&#8242;&#8208;TTTCACGGCTCATCTCCTCAATGAC&#8208;3&#8242;; gfp: forward, 5&#8242;&#8208;GAAGTTCGAGGGCGACAC&#8208;3&#8242; and reverse, 5&#8242;&#8208;CCGTCCTCCTTGAAGTCG&#8208;3&#8242;; optimal and non&#8208;optimal: forward, 5&#8242;&#8208;CCACCTCCACTTCCATGTTT&#8208;3&#8242; and reverse, 5&#8242;&#8208;TGGACACTTCTGCATCCTCA&#8208;3&#8242;.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>71942</offset>
+      <text>Morpholino and reporter experiment</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71977</offset>
+      <text>0.5&#160;mM of each morpholino (hsp90ab1 5&#8242;&#8208;TTCTTGGCGCATTTCTTCAGGCATC; hps4 5&#8242;&#8208;CGGCCAAAACAGCACTTTCAGCCAT, Gene tools) were injected in one&#8208;cell stage zebrafish embryos and collected (n&#160;=&#160;10) at 8 hpf. Quantitative RT&#8211;PCR was done as described before.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72238</offset>
+      <text>Hsp90 and hps4 ORFs (927 nt and 930 nt starting by the codon after ATG) were PCR amplified using cDNA from 2 hpf zebrafish embryos:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72370</offset>
+      <text>Fw&#8208;hsp90 5&#8242;&#8208;GCAAGGGCGAGGAGCTGTTCCCTGAAGAAATGCGCCAAGA, Rv&#8208;hsp90 5&#8242;&#8208;ACGTCTCCAGCCTGCTTCAGCAGGCTGAAGTTAGTAGCTCCGCTTCCGTCGTTGGTCAGGCTCTTGTAA; Fw&#8208;hps4 5&#8242;&#8208;GCAAGGGCGAGGAGCTGTTCGCTGAAAGTGCTGTTTTGG, Rv&#8208;hps4 5&#8242;&#8208;ACGTCTCCAGCCTGCTTCAGCAGGCTGAAGTTAGTAGCTCCGCTTCCCGGCATTGTTTGATAGGACA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72663</offset>
+      <text>GFP was amplified from a transgenic C.&#160;elegans line expressing a version of GFP codon optimized for C.&#160;elegans (Fw&#8208;Ce&#8208;GFP 5&#8242;&#8208;TCAGCCTGCTGAAGCAGGCTGGAGACGTGGAGGAGAACCCTGGACCTAGTAAAGGAGAAGAACTTTTC, Rv&#8208;Ce&#8208;GFP 5&#8242;&#8208;GTGCTCTTCCGATCCTACCTACTATTTGTATAGTTCATCCAT). These PCRs were then purified and combined to be used as template for a second PCR (Fw 5&#8242;&#8208;ATCGAATTCTCTAACGGCGAAATGGTGAGCAAGGGCGAGGAGCTGTTC, Rv 5&#8242;&#8208;ATTGGATCCTCTAACGGCGAAATGGTGAGCAAGGGCGAGGAGCTGTTC). These PCR products were cloned in pCS2+ (EcoRI/BamHI). The final clones were sequenced and confirmed for hsp90/hps4&#8208;P2A&#8208;GFP fusions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>73276</offset>
+      <text>Codons and amino acid bias in homeostasis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73318</offset>
+      <text>The occurrence of each 61 coding codons and 20 amino acids was quantified from the annotated ORF and normalized by its length. The Pearson correlation between the occurrence of each codon or amino acid per gene and its RNA level was calculated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73563</offset>
+      <text>Zebrafish tissues were isolated under the dissecting scope and immediately frozen. RNA was isolated, library constructed and sequence as described before.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73718</offset>
+      <text>The human tissue data were extracted from RNA&#8208;seq of coding RNA from tissue samples of 122 human individuals representing 32 different tissues (Uhlen et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>73885</offset>
+      <text>Poly(A) analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73902</offset>
+      <text>The length of the poly(A) tail was extracted from published tables with no further analysis(Subtelny et&#160;al, 2014). To calculate the ratio&#160;of deadenylated mRNA, the RPKM calculated from enriched in poly(A) RNA was divided by the RPKM of total RNA coming from the same embryos (Bazzini et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74203</offset>
+      <text>The poly(A) tail length of injected mRNA was visualized with a&#160;modified version of the high&#8208;resolution poly(A) tail assay (Hire&#8208;PAT) (Bazzini et&#160;al, 2012). RNA was extracted, a 3&#8242; adaptor ligated (5rApp&#8208;AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC&#8208;3ddC). cDNA was produced with following oligo: CTATAGCGAGACCCCCCCCCCTTCAGACGTGTGCTCTTCCGATCT. And PCR with specific forward oligo and reverser oligo FAM&#8208;GGTAATACGACTCACTATAGCGAGACCCCCCCCCCTT were done. PCR fragments were analyzed in capillary electrophoresis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74715</offset>
+      <text>Injected mRNA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74729</offset>
+      <text>Three&#8208;hundred&#8208;nt&#8208;long mRNA fragments were search through the zebrafish transcriptome to have high proportion of optimal codons in one frame and high proportion of non&#8208;optimal codons in one nucleotide out of frame. In parallel, artificial sequences were designed to follow the same criteria (optimal codon in one frame and non&#8208;optimal in another one).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75090</offset>
+      <text>Designed sequence, the G in bold was removed to change the frame: ATGgcGAGAAGGTGTCTTCGTTTATGGCAACGGAGGCGTAGGAGCATATGCATATGGAGGAGTAGGCGGTGCTGGTTATGTTGCCGACATGGTCTATGTATATGTCTTCGGAGGCGCCTTCGCTGCCGCCAAGGCTTATGCTGCGGGAGGGGGAGGGGCCAACGACAAGGTCTATGCTGCGGAAGGGGTAGGTGGTGCTGCTGCTGTCTATGGAGGGGATGCCGGAGGTGCTGCGGTCTTCGACATGGGTGCCGTCATGGAAGGCGACATGGCCAAGGAAGGAGGCAAGGGCAACGTTGCGGCCAACGCtaaAtag</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75473</offset>
+      <text>Two nested PCRs were performed, first to amplify the specific fragment and second to add the SP6 promoter and poly(A) tail using the following oligos:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75624</offset>
+      <text>Fish_Frame:gatcttctaacggcgaaatgGCTGCAGCCACCAAGTCCG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75675</offset>
+      <text>Fish_Out&#8208;Frame: gatcttctaacggcgaaatgCTGCAGCCACCAAGTCCGA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75733</offset>
+      <text>Fish_reverse: gtgactggagttcagacgtgtgctcttccgatcctacctaAAACTCCTCAAGATCATCAAAC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75810</offset>
+      <text>Designed_Frame gatcttctaacggcgaaatggcAGAAGGTGTCTTCG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75862</offset>
+      <text>Designed_OUT&#8208;Frame: gatcttctaacggcgaaatggcGAGAAGGTGTCTTCG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75922</offset>
+      <text>Designed_ reverse: gtgactggagttcagacgtgtgctcttccgatcctacctaGCGTTGGCCGCAACGTTG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76000</offset>
+      <text>Sp6&#8208; ATTTAGGTGACACTATAGAAGtGCTACACGACGCTCTTCCGATCTTCTAACGGCG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76063</offset>
+      <text>Poly(A) (T)60GTGACTGGAGTTCAG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76092</offset>
+      <text>Northern blot: RNA were separated on 8% polyacrylamide/URE gel, transfer to membrane and hybridize with 32P label probe: CATTTCGCCGTTAGAAGATCGGAAGAGCGTCGTGTAG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76252</offset>
+      <text>Gene ontology</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76266</offset>
+      <text>Enrichment for functions among optimal and non&#8208;optimal gene sets was performed by first mapping each gene to its Gene ontology (GO) (Ashburner et&#160;al, 2000) using Biomart (Smedley et&#160;al, 2015), restricting the onlotogies to &#8220;biological processes&#8221;. Functional enrichments were tested with Fisher's exact tests using all genes as background as implemented in the GOATOOLS. False discovery rate was applied to correct for multiple testing. For zebrafish, miR&#8208;430 target genes were analyzed as a third set&#160;along with optimal and non&#8208;optimal gene sets.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76826</offset>
+      <text>Construction of tRNA sequencing libraries</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76868</offset>
+      <text>The tRNA sequencing libraries were constructed by using TGIRT&#8208;seq, which gives full&#8208;length reads of tRNAs (Qin et&#160;al, 2016). Briefly, the template&#8208;switching reverse transcription reactions were done by using an initial template&#8211;primer substrate consisting of a 34&#8208;nt RNA oligonucleotide, which contains an Illumina Read 2 primer&#8208;binding site and a 3&#8242;&#8208;blocking group (C3 Spacer, 3SpC3; IDT), annealed to a complementary 35&#8208;nt DNA primer that leaves an equimolar mixture of A, C, G, or T single nucleotide 3&#8242; overhangs. Reactions were done in 20&#160;&#956;l of reaction medium containing 30&#8211;100&#160;ng tRNA, 100&#160;nM template&#8211;primer substrate, 1&#160;&#956;M TGIRT enzyme (TGIRT&#8208;III; InGex), and 1&#160;mM dNTPs (an equimolar mix of dATP, dCTP, dGTP, and dTTP) in 450&#160;mM NaCl, 5&#160;mM MgCl2, 20&#160;mM Tris&#8211;HCl, pH 7.5, and 5&#160;mM dithiothreitol (DTT). DTT was prepared from a frozen 1&#160;M stock solution. Reactions were assembled by adding all components, except dNTPs, to a sterile PCR tube containing tRNAs with the TGIRT enzyme added last. After pre&#8208;incubating at room temperature for 30&#160;min, reactions were initiated by adding dNTPs and incubated for 30&#160;min at 60&#176;C. cDNA synthesis was terminated by adding 5&#160;M NaOH to a final concentration of 0.25&#160;M, incubating at 95&#176;C for 3&#160;min, and then neutralizing with 5&#160;M HCl. The resulting cDNAs were purified with a MinElute Reaction Cleanup Kit (QIAGEN) and ligated at their 3&#8242;&#8208;end to a 5&#8242;&#8208;adenlyated/3&#8242;&#8208;blocked (C3 spacer, 3SpC3; IDT) adapter by using Thermostable 5&#8242; AppDNA/RNA Ligase (New England Biolabs) according to the manufacturer's recommendations. The ligated cDNA products were re&#8208;purified with a MinElute column and amplified by PCR by using Phusion High&#8208;Fidelity DNA polymerase (Thermo Fisher Scientific) with 200&#160;nM of Illumina multiplex and 200&#160;nM of barcode primers. PCR was done with initial denaturation at 98&#176;C for 5&#160;s followed by eight cycles of 98&#176;C for 5&#160;s, 60&#176;C for 10&#160;s and 72&#176;C for 10&#160;s. The PCR products were purified by using the Agencourt AMPure XP (Beckman Coulter) and sequenced on a NextSeq 500 instrument (Illumina) to obtain 75&#8208;nt paired&#8208;end reads.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>79039</offset>
+      <text>Bioinformatic analysis for tRNA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79071</offset>
+      <text>Illumina TruSeq DNA adapter and primer sequences were trimmed from the reads, and reads &lt;&#160;18 nt after trimming were discarded. Reads were then mapped by using TopHat v2.0.10 (default settings) to the zebrafish genome reference sequence (Ensembl Zv9) (Langmead &amp; Salzberg, 2012). Unmapped reads from this first pass (Pass 1) were remapped to the Zv9 reference genome by Bowtie2 v2.1.0 with local alignment (default settings) to improve the mapping rate for those reads that contain post&#8208;transcriptionally added nucleotides [e.g. CCA and poly(U)], untrimmed adapter sequences, and non&#8208;templated nucleotides added to the 3&#8242;&#8208;end of the cDNAs by TGIRT enzymes (Pass 2) (Kim et&#160;al, 2013). To improve the mapping rate for tRNAs, mapped reads from Passes 1 and 2 were intersected with tRNA annotations from the Genomic tRNA Database (Lowe &amp; Eddy, 1997) to collect both uniquely and multiply mapped tRNAs reads. These were then combined with unmapped reads after Pass 2, and the combined reads were mapped to zebrafish tRNA reference sequences (UCSC genome browser website) using Bowtie2 local alignment with default settings. Because similar or identical tRNAs with the same anticodon can be multiply mapped to different tRNA loci by Bowtie2, mapped tRNA reads with MAPQ &#8805;&#160;1 were combined according to their tRNA anticodon prior to calculating the tRNA read counts. Only those features with 10 or more mapped reads were counted.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>80505</offset>
+      <text>Ribosome profiling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80524</offset>
+      <text>Zebrafish ribosome profiling used were previously published by our laboratory (Bazzini et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>80626</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80647</offset>
+      <text>AAB and AJG designed and conceived the project and interpreted the data. AAB performed the experiments and data analysis. FdV, AAB and MKK designed and performed the experiments in Xenopus. MAM&#8208;M performed the qRT&#8211;PCR and reporter experiments. YQ and JY cloned and quantified the tRNA level. CEV and TGJ provided data processing and custom scripts. AAB and AJG wrote the manuscript with input from the other authors.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>81068</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81089</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>81149</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>81172</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1537</infon>
+      <infon key="pub-id_pmid">25896510</infon>
+      <infon key="fpage">1523</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>81183</offset>
+      <text>The first murine zygotic transcription is promiscuous and uncoupled from splicing and 3&#8242; processing</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">935</infon>
+      <infon key="pub-id_pmid">8005445</infon>
+      <infon key="fpage">927</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>81285</offset>
+      <text>Synonymous codon usage in Drosophila melanogaster: natural selection and translational accuracy</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3700</infon>
+      <infon key="pub-id_pmid">11904428</infon>
+      <infon key="fpage">3695</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>81381</offset>
+      <text>Metabolic efficiency and amino acid composition in the proteomes of Escherichia coli and Bacillus subtilis</text>
+    </passage>
+    <passage>
+      <infon key="volume">164</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">1303</infon>
+      <infon key="pub-id_pmid">12930740</infon>
+      <infon key="fpage">1291</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>81488</offset>
+      <text>Translational selection and yeast proteome evolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">29</infon>
+      <infon key="pub-id_pmid">10802651</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>81541</offset>
+      <text>Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</text>
+    </passage>
+    <passage>
+      <infon key="volume">522</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">320</infon>
+      <infon key="pub-id_pmid">26085270</infon>
+      <infon key="fpage">315</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>81622</offset>
+      <text>A novel multiple&#8208;stage antimalarial agent that inhibits protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">233</infon>
+      <infon key="pub-id_pmid">19167326</infon>
+      <infon key="fpage">215</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>81698</offset>
+      <text>MicroRNAs: target recognition and regulatory functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">293</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">300</infon>
+      <infon key="pub-id_pmid">11452124</infon>
+      <infon key="fpage">297</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>81753</offset>
+      <text>Molecular evolution of protein atomic composition</text>
+    </passage>
+    <passage>
+      <infon key="volume">336</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">237</infon>
+      <infon key="pub-id_pmid">22422859</infon>
+      <infon key="fpage">233</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>81803</offset>
+      <text>Ribosome profiling shows that miR&#8208;430 reduces translation before causing mRNA decay in zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">993</infon>
+      <infon key="pub-id_pmid">24705786</infon>
+      <infon key="fpage">981</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>81902</offset>
+      <text>Identification of small ORFs in vertebrates using ribosome footprinting and evolutionary conservation</text>
+    </passage>
+    <passage>
+      <infon key="volume">529</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">363</infon>
+      <infon key="pub-id_pmid">26760206</infon>
+      <infon key="fpage">358</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>82004</offset>
+      <text>Codon influence on protein expression in E.&#160;coli correlates with mRNA levels</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">506</infon>
+      <infon key="pub-id_pmid">18394895</infon>
+      <infon key="fpage">501</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>82082</offset>
+      <text>Temporal reciprocity of miRNAs and their targets during the maternal&#8208;to&#8208;zygotic transition in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">450</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">218</infon>
+      <infon key="pub-id_pmid">17994087</infon>
+      <infon key="fpage">203</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>82191</offset>
+      <text>Evolution of genes and genomes on the Drosophila phylogeny</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">776</infon>
+      <infon key="pub-id_pmid">9615459</infon>
+      <infon key="fpage">774</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>82250</offset>
+      <text>Selection costs of amino acid substitutions in ColE1 and ColIa gene clusters harbored by Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">9</infon>
+      <infon key="pub-id_pmid">25352552</infon>
+      <infon key="fpage">D662</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>82356</offset>
+      <text>Ensembl 2015</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">324</infon>
+      <infon key="pub-id_pmid">21177959</infon>
+      <infon key="fpage">315</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>82369</offset>
+      <text>The Drosophila melanogaster transcriptome by paired&#8208;end RNA sequencing</text>
+    </passage>
+    <passage>
+      <infon key="volume">82</infon>
+      <infon key="source">J Gen Virol</infon>
+      <infon key="lpage">1041</infon>
+      <infon key="pub-id_pmid">11297677</infon>
+      <infon key="fpage">1027</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>82442</offset>
+      <text>The &#8220;cleavage&#8221; activities of foot&#8208;and&#8208;mouth disease virus 2A site&#8208;directed mutants and naturally occurring &#8220;2A&#8208;like&#8221; sequences</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">156</infon>
+      <infon key="pub-id_pmid">12007402</infon>
+      <infon key="fpage">153</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>82585</offset>
+      <text>Structure and function of the eukaryotic ribosome: the next frontier</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">352</infon>
+      <infon key="pub-id_pmid">18662548</infon>
+      <infon key="fpage">341</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>82654</offset>
+      <text>Mistranslation&#8208;induced protein misfolding as a dominant constraint on coding&#8208;sequence evolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Wires RNA</infon>
+      <infon key="lpage">361</infon>
+      <infon key="pub-id_pmid">21957022</infon>
+      <infon key="fpage">348</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>82754</offset>
+      <text>Control of poly(A) tail length</text>
+    </passage>
+    <passage>
+      <infon key="volume">517</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">500</infon>
+      <infon key="pub-id_pmid">25383520</infon>
+      <infon key="fpage">497</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>82785</offset>
+      <text>mTORC1&#8208;mediated translational elongation limits intestinal tumour initiation and growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="lpage">75</infon>
+      <infon key="pub-id_pmid">16380176</infon>
+      <infon key="fpage">68</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>82875</offset>
+      <text>E unum pluribus: multiple proteins from a self&#8208;processing polyprotein</text>
+    </passage>
+    <passage>
+      <infon key="volume">173</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">318</infon>
+      <infon key="year">1954</infon>
+      <offset>82947</offset>
+      <text>Possible relation between deoxyribonucleic acid and protein structures</text>
+    </passage>
+    <passage>
+      <infon key="volume">158</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1292</infon>
+      <infon key="pub-id_pmid">25215487</infon>
+      <infon key="fpage">1281</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83018</offset>
+      <text>A dual program for translation regulation in cellular proliferation and differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">312</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">79</infon>
+      <infon key="pub-id_pmid">16484454</infon>
+      <infon key="fpage">75</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>83106</offset>
+      <text>Zebrafish MiR&#8208;430 promotes deadenylation and clearance of maternal mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">140</infon>
+      <infon key="pub-id_pmid">18378185</infon>
+      <infon key="fpage">134</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>83181</offset>
+      <text>tRNA's modifications bring order to gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">131</infon>
+      <infon key="pub-id_pmid">14723852</infon>
+      <infon key="fpage">117</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>83233</offset>
+      <text>Dynamics of global gene expression changes during mouse preimplantation development</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">26656907</infon>
+      <infon key="fpage">e1005732</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>83317</offset>
+      <text>Understanding biases in ribosome profiling experiments reveals signatures of translation dynamics in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">158</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">597</infon>
+      <infon key="pub-id_pmid">6750137</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>83424</offset>
+      <text>Correlation between the abundance of yeast transfer RNAs and the occurrence of the respective codons in protein genes. Differences in synonymous codon choice patterns of yeast and Escherichia coli with reference to the abundance of isoaccepting transfer RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">324</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">223</infon>
+      <infon key="pub-id_pmid">19213877</infon>
+      <infon key="fpage">218</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>83683</offset>
+      <text>Genome&#8208;wide analysis in&#160;vivo of translation with nucleotide resolution using ribosome profiling</text>
+    </passage>
+    <passage>
+      <infon key="volume">345</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">459</infon>
+      <infon key="pub-id_pmid">25061210</infon>
+      <infon key="fpage">455</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83782</offset>
+      <text>RNA function. Ribosome stalling induced by mutation of a CNS&#8208;specific tRNA causes neurodegeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">406</infon>
+      <infon key="pub-id_pmid">11700288</infon>
+      <infon key="fpage">365</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>83884</offset>
+      <text>Translational regulation and RNA localization in Drosophila oocytes and embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">28</infon>
+      <infon key="pub-id_pmid">10707969</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>83964</offset>
+      <text>Molecular insights into mRNA transport and local translation in the mammalian nervous system</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">23618408</infon>
+      <infon key="fpage">R36</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>84057</offset>
+      <text>TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions</text>
+    </passage>
+    <passage>
+      <infon key="volume">324</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">258</infon>
+      <infon key="pub-id_pmid">19359587</infon>
+      <infon key="fpage">255</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84161</offset>
+      <text>Coding&#8208;sequence determinants of gene expression in Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">359</infon>
+      <infon key="pub-id_pmid">22388286</infon>
+      <infon key="fpage">357</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>84231</offset>
+      <text>Fast gapped&#8208;read alignment with Bowtie 2</text>
+    </passage>
+    <passage>
+      <infon key="volume">503</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">364</infon>
+      <infon key="pub-id_pmid">24056933</infon>
+      <infon key="fpage">360</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>84274</offset>
+      <text>Nanog, Pou5f1 and SoxB1 activate zygotic gene expression during the maternal&#8208;to&#8208;zygotic transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">2079</infon>
+      <infon key="pub-id_pmid">19505943</infon>
+      <infon key="fpage">2078</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84377</offset>
+      <text>The sequence alignment/Map format and SAMtools</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">964</infon>
+      <infon key="pub-id_pmid">9023104</infon>
+      <infon key="fpage">955</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>84424</offset>
+      <text>tRNAscan&#8208;SE: a program for improved detection of transfer RNA genes in genomic sequence</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">2363</infon>
+      <infon key="pub-id_pmid">19854872</infon>
+      <infon key="fpage">2351</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84514</offset>
+      <text>Deadenylation of maternal mRNAs mediated by miR&#8208;427 in Xenopus laevis embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">730</infon>
+      <infon key="pub-id_pmid">19239891</infon>
+      <infon key="fpage">719</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84594</offset>
+      <text>mRNA localization: gene expression in the spatial dimension</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">529</infon>
+      <infon key="pub-id_pmid">11433366</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>84654</offset>
+      <text>Translational control by CPEB: a means to the end</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">885</infon>
+      <infon key="pub-id_pmid">26990990</infon>
+      <infon key="fpage">874</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>84704</offset>
+      <text>Codon usage and 3&#8242; UTR length determine maternal mRNA stability in zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">581</infon>
+      <infon key="pub-id_pmid">22921354</infon>
+      <infon key="fpage">574</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>84783</offset>
+      <text>Speeding with control: codon usage, tRNAs, and ribosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">213</infon>
+      <infon key="pub-id_pmid">22464330</infon>
+      <infon key="fpage">202</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>84840</offset>
+      <text>A role for tRNA modifications in genome structure and codon usage</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">471</infon>
+      <infon key="pub-id_pmid">27153541</infon>
+      <infon key="fpage">462</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>84906</offset>
+      <text>Regulation of poly(A) tail and translation during the somatic cell cycle</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">243</infon>
+      <infon key="pub-id_pmid">23262490</infon>
+      <infon key="fpage">237</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>84979</offset>
+      <text>Evolutionary conservation of codon optimality reveals hidden signatures of cotranslational folding</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">421</infon>
+      <infon key="pub-id_pmid">23395271</infon>
+      <infon key="fpage">411</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>85078</offset>
+      <text>The ribosome as a hub for protein quality control</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">21102527</infon>
+      <infon key="fpage">32</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>85128</offset>
+      <text>Synonymous but not the same: the causes and consequences of codon bias</text>
+    </passage>
+    <passage>
+      <infon key="volume">160</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1124</infon>
+      <infon key="pub-id_pmid">25768907</infon>
+      <infon key="fpage">1111</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>85199</offset>
+      <text>Codon optimality is a major determinant of mRNA stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">128</infon>
+      <infon key="pub-id_pmid">26554030</infon>
+      <infon key="fpage">111</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>85257</offset>
+      <text>High&#8208;throughput sequencing of human plasma RNA by using thermostable group II intron reverse transcriptases</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">842</infon>
+      <infon key="pub-id_pmid">20110278</infon>
+      <infon key="fpage">841</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>85367</offset>
+      <text>BEDTools: a flexible suite of utilities for comparing genomic features</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5044</infon>
+      <infon key="pub-id_pmid">15448185</infon>
+      <infon key="fpage">5036</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>85438</offset>
+      <text>Solving the riddle of codon usage preferences: a test for translational selection</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Wiley Interdiscip Rev RNA</infon>
+      <infon key="lpage">670</infon>
+      <infon key="pub-id_pmid">26394053</infon>
+      <infon key="fpage">661</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>85520</offset>
+      <text>Roles of microRNAs and long&#8208;noncoding RNAs in human immunodeficiency virus replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">163</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">300</infon>
+      <infon key="pub-id_pmid">26451481</infon>
+      <infon key="fpage">292</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>85609</offset>
+      <text>Pausing on polyribosomes: make way for elongation in translational control</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Cancer</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">25743773</infon>
+      <infon key="fpage">34</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>85684</offset>
+      <text>MicroRNA modulators of epigenetic regulation, the tumor microenvironment and the immune system in lung cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1295</infon>
+      <infon key="pub-id_pmid">3547335</infon>
+      <infon key="fpage">1281</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>85794</offset>
+      <text>The codon adaptation index&#8211;a measure of directional synonymous codon usage bias, and its potential applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">601</infon>
+      <infon key="pub-id_pmid">22664987</infon>
+      <infon key="fpage">594</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>85908</offset>
+      <text>Translation drives mRNA quality control</text>
+    </passage>
+    <passage>
+      <infon key="volume">207</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">21</infon>
+      <infon key="pub-id_pmid">25313405</infon>
+      <infon key="fpage">13</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>85948</offset>
+      <text>Translational control in germline stem cell development</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W598</infon>
+      <infon key="pub-id_pmid">25897122</infon>
+      <infon key="fpage">W589</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86004</offset>
+      <text>The BioMart community portal: an innovative alternative to large, centralized data repositories</text>
+    </passage>
+    <passage>
+      <infon key="volume">508</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">71</infon>
+      <infon key="pub-id_pmid">24476825</infon>
+      <infon key="fpage">66</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>86100</offset>
+      <text>Poly(A)&#8208;tail profiling reveals an embryonic switch in translational control</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Curr Top Dev Biol</infon>
+      <infon key="lpage">349</infon>
+      <infon key="pub-id_pmid">26358877</infon>
+      <infon key="fpage">305</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86178</offset>
+      <text>Sculpting the transcriptome during the oocyte&#8208;to&#8208;embryo transition in mouse</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">155</infon>
+      <infon key="pub-id_pmid">17199047</infon>
+      <infon key="fpage">143</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>86258</offset>
+      <text>SMAUG is a major regulator of maternal mRNA destabilization in Drosophila and its translation is activated by the PAN GU kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">3042</infon>
+      <infon key="pub-id_pmid">19700615</infon>
+      <infon key="fpage">3033</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>86386</offset>
+      <text>The maternal&#8208;to&#8208;zygotic transition: a play in two acts</text>
+    </passage>
+    <passage>
+      <infon key="source">Science</infon>
+      <infon key="volume">347</infon>
+      <infon key="pub-id_pmid">25613900</infon>
+      <infon key="fpage">1260419</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86445</offset>
+      <text>Proteomics. Tissue&#8208;based map of the human proteome</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">585</infon>
+      <infon key="pub-id_pmid">22664985</infon>
+      <infon key="fpage">577</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>86498</offset>
+      <text>Translational control by changes in poly(A) tail length: recycling mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Curr Top Dev Biol</infon>
+      <infon key="lpage">232</infon>
+      <infon key="pub-id_pmid">26358874</infon>
+      <infon key="fpage">191</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86571</offset>
+      <text>The maternal&#8208;to&#8208;zygotic transition during vertebrate development: a model for reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">754</infon>
+      <infon key="pub-id_pmid">26321254</infon>
+      <infon key="fpage">744</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86667</offset>
+      <text>Codon usage influences the local rate of translation elongation to regulate co&#8208;translational protein folding</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">837</infon>
+      <infon key="pub-id_pmid">26214130</infon>
+      <infon key="fpage">835</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86778</offset>
+      <text>Efficient and quantitative high&#8208;throughput tRNA sequencing</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4770385</id>
+    <passage>
+      <infon key="name_2">surname:Tsoi;given-names:Ryan</infon>
+      <infon key="name_3">surname:Wu;given-names:Feilun</infon>
+      <infon key="name_0">surname:Huang;given-names:Shuqiang</infon>
+      <infon key="name_1">surname:Lee;given-names:Anna Jisu</infon>
+      <infon key="name_6">surname:You;given-names:Lingchong</infon>
+      <infon key="alt-title">Shuqiang Huang et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB156567</infon>
+      <infon key="name_5">surname:Leong;given-names:Kam W</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">collective survival engineered bacteria safeguard control spatial segregation Synthetic Biology &amp; Biotechnology Quantitative Biology &amp; Dynamical Systems</infon>
+      <infon key="name_4">surname:Zhang;given-names:Ying</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/msb.20156567</infon>
+      <infon key="article-id_pmid">26925805</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">859</infon>
+      <infon key="volume">12 12</infon>
+      <infon key="article-id_pmc">4770385</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="issue">2</infon>
+      <infon key="notes">
+
+. () : 859
+</infon>
+      <offset>0</offset>
+      <text>Coupling spatial segregation with synthetic circuits to control bacterial survival</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>83</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>92</offset>
+      <text>Engineered bacteria have great potential for medical and environmental applications. Fulfilling this potential requires controllability over engineered behaviors and scalability of the engineered systems. Here, we present a platform technology, microbial swarmbot, which employs spatial arrangement to control the growth dynamics of engineered bacteria. As a proof of principle, we demonstrated a safeguard strategy to prevent unintended bacterial proliferation. In particular, we adopted several synthetic gene circuits to program collective survival in Escherichia coli: the engineered bacteria could only survive when present at sufficiently high population densities. When encapsulated by permeable membranes, these bacteria can sense the local environment and respond accordingly. The cells inside the microbial swarmbot capsules will survive due to their high densities. Those escaping from a capsule, however, will be killed due to a decrease in their densities. We demonstrate that this design concept is modular and readily generalizable. Our work lays the foundation for engineering integrated and programmable control of hybrid biological&#8211;material systems for diverse applications.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1287</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1300</offset>
+      <text>A major endeavor in synthetic biology is to program functions of cells and cell populations in a predictable manner (Leonard et&#160;al, 2008; Khalil &amp; Collins, 2010; Ruder et&#160;al, 2011; Riccione et&#160;al, 2012; Choi &amp; Lee, 2013; Church et&#160;al, 2014; Nielsen et&#160;al, 2014; Olson &amp; Tabor, 2014; Purcell &amp; Lu, 2014; Andries et&#160;al, 2015; Ford &amp; Silver, 2015). This ability is critical for realizing the full potential of synthetic biology for diverse applications in medicine, environment, and biotechnology (Benner &amp; Sismour, 2005; Leduc et&#160;al, 2007; Keasling, 2008; Ruder et&#160;al, 2011; Weber &amp; Fussenegger, 2012). To date, efforts in synthetic biology have focused on engineering of circuit&#8208;centric or cell&#8208;centric functions (Endy, 2005; Brophy &amp; Voigt, 2014; Pardee et&#160;al, 2014). When engineering a circuit, the host cell is typically considered a static &#8220;chassis&#8221;, or a reactor for the biochemical reactions associated with the circuit function. However, this practice is in contrast with operation of natural systems, where functions of cells or cell populations often result from detection of and response to their spatial arrangement (Pai &amp; You, 2009). Depending on environmental conditions, including stress, nutrient, and temperature, many bacteria can form spatial structures consisting of cell aggregates, such as biofilms (Claessen et&#160;al, 2014) and fruiting bodies (O'Toole et&#160;al, 2000; Claessen et&#160;al, 2014) that allow them to achieve functions beyond the capability of individual cells or homogenous cell populations. We reason that this property represents a novel design strategy to engineer sophisticated functions in engineered cell populations.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2969</offset>
+      <text>Drawing inspiration from natural systems, we sought to develop a platform technology&#8212;microbial swarmbot, to demonstrate a predefined system function by integrating synthetic biology, bio&#8208;materials engineering, and microfluidics. A microbial swarmbot consists of a small population of engineered bacteria encapsulated in a polymeric capsule. Each swarmbot capsule works as an active carrier of engineered bacteria by coupling of cell&#8208;centric functions and environmental sensing. In such a system, bacteria can reside in two different compartments (inside or outside the capsule), which can serve as cues to trigger different dynamics.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3609</offset>
+      <text>As a proof of principle, here we demonstrate a safeguard strategy to prevent unintended bacterial proliferation (Church, 2005; Serrano, 2007). In particular, we use synthetic gene circuits to program collective survival in Escherichia coli, such that the engineered bacteria only survive when present at a sufficiently high density. When residing in the swarmbot capsules, these bacteria will survive due to their high local density. If they escape from the swarmbots, however, they will be killed due to a decrease in their densities (Fig&#160;1A). We used several synthetic gene circuits to demonstrate the overall function, which underscores the modularity of the design concept. In our system design, we use the term swarm to emphasize the de&#8208;centralized nature of the collective behavior by the engineered bacteria. It does not imply a requirement for the cells to be highly motile.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>4495</offset>
+      <text>Design and modeling of safeguard control in microbial swarmbots</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4559</offset>
+      <text>Design concept. Bacteria are engineered to exhibit collective survival. Bacteria confined in the microbial swarmbot can maintain a high local density and survive. Cells escaping the swarmbot will have a reduced density due to a larger extra&#8208;capsule environment. If their density drops below their survival threshold, they will die, leading to safeguard control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4923</offset>
+      <text>Collective survival. A population survives only when its initial density is&#160;&gt;&#160;NCT.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5008</offset>
+      <text>Simulation of collective survival. The collective survival can be described by a simplified model: , where &#956; is the maximum growth rate, N m is the carrying capacity of the population, d&#160;is the maximum death rate of the cells, K is the critical threshold for survival, and &#945; is the Hill coefficient. We assume that the growth rate of cells follows the logistic equation&#160;and that the death rate decreases with N. As the initial conditions, the parameters are set as N 0&#160;=&#160;variable from 0 to 1, &#956;&#160;=&#160;1.75, N m&#160;=&#160;1, d&#160;=&#160;2, K&#160;=&#160;0.5, and &#945;&#160;=&#160;4. For the given parameter set, the system has three steady states. The trivial steady state (filled red circle) corresponds to extinction. The high state (filled green circle) corresponds to survival. Both are stable and are separated by an unstable steady state (NCT, open circle). The population would reach the high steady state if and only if its density is greater than NCT. The inset shows the correlation between NCT and model parameter K.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6010</offset>
+      <text>Modulating safeguard with VR. The effectiveness of safeguard can be quantified by the area under the curve (AUC) from density differences between the microbial swarmbot and the surrounding environment. The swarmbot dynamics can be described by a two&#8208;compartment model: , where the transport of cells between the two compartments is described by the final term in each equation. Modeling predicts that AUC increases with VR, and once VR becomes sufficiently large, AUC approaches infinity, indicating high level of safeguard. As the initial conditions, the parameters are set as follows: NMSB &#160;=&#160;0.1 at t&#160;=&#160;0, &#956;&#160;=&#160;1.75, N m&#160;=&#160;1, d&#160;=&#160;2, K&#160;=&#160;0.01, &#945;&#160;=&#160;4, fN&#160;=&#160;0.1, VR &#160;=&#160;variable from 1 to 105. Insets demonstrate the simulated growth dynamics for two representative V R values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6808</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6811</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6819</offset>
+      <text>Design concept</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6834</offset>
+      <text>Our central design concept in engineering safeguard control is to couple collective survival and environment sensing. Collective survival allows the population to survive only when its density is greater than a critical threshold (N CT) (Fig&#160;1B). For engineered bacteria, the population dynamics can be captured by an ordinary differential equation&#160;model. With appropriate parameters, the system can have three steady states (Fig&#160;1C). The leftmost one is a trivial steady state, which corresponds to population extinction. The second (N&#160;=&#160;N CT) is unstable. The rightmost corresponds to population survival. If the initial population density is below N CT , the population will go extinct. Otherwise, it will survive and grow to a high final density. In subsequent simulations, the parameter K is used to account for the difference in N CT of the population (Fig&#160;1C, inset).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7715</offset>
+      <text>Environment sensing can be established by encapsulation of a&#160;population, which can sense the confinement (Fig&#160;1A). We consider the interior of the microbial swarmbots as one compartment (V 1) and the exterior as another (V 2). Depending on the specific environment it resides in, the survival of a population can be determined by its local density. These dynamics can be described by a two&#8208;compartment model (Fig&#160;1D). Our simulation predicts that the volume ratio between the two compartments (V R&#160;=&#160;V 2 /V 1) plays a critical role in safeguard performance, assuming that we start with a sufficiently high initial density in the swarmbots. At a small V R, both cell densities inside the swarmbot (N MSB)and outside (N Out) can reach a high value, corresponding to no safeguard. At a sufficiently large V R, N MSB reaches a high state but N Out cannot, leading to safeguard control (Fig&#160;1D). V R can be modulated by adjusting V 1 or V 2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8660</offset>
+      <text>Programming collective survival</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8692</offset>
+      <text>The safeguard control can be implemented by different systems that program collective survival. Experimentally, we program collective survival using three different gene circuits, which allow us to evaluate the modularity of the overall system design. To enable flexible environmental control of the programmed safeguard, all these circuits rely on the interplay between an engineered survival gene circuit and the presence of an antibiotic. In general, we note that the use of an antibiotic is not a critical requirement, but rather an implementation strategy to demonstrate the general design concept.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9296</offset>
+      <text>The BlaM circuit (Fig&#160;2A) consists of constitutive expression of a modified &#946;&#8208;lactamase (BlaM). Due to the deletion of periplasmic localization sequence that exists in the wild&#8208;type Bla (Tanouchi et&#160;al, 2012), BlaM can degrade a &#946;&#8208;lactam antibiotic, such as carbenicillin (Cb), only when it is released from the lysed cells (Appendix&#160;Fig S1A). If the initial cell density is sufficiently high, sufficient BlaM will be released to degrade the Cb to a sub&#8208;lethal concentration, allowing the remaining cells to survive.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9826</offset>
+      <text>Programming collective survival using different circuits</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9883</offset>
+      <text>Mechanisms of three collective survival circuits. The BlaM circuit consists of constitutive expression of BlaM to degrade carbenicillin upon cell lysis. BlaM works as an extracellular enzyme. The QS&#8208;CAT consists of QS&#8208;mediated expression of a chloramphenicol acetyltransferase (CAT) that degrades chloramphenicol. The QS&#8208;BlaM circuit integrates QS control and extracellular carbenicillin degradation to establish collective survival.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10323</offset>
+      <text>Regulation modes for the three circuits. The BlaM circuit depends on antibiotic&#8208;mediated release of an enzyme into the environment to realize the collective survival. The QS&#8208;CAT circuit depends on QS regulation. The QS&#8208;BlaM circuit depends on both QS regulation and enzyme release (by lysis and export).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10633</offset>
+      <text>Experimental validation of collective survival. All populations grew to high cell densities in the absence of antibiotics (blue curves). In the presence of antibiotics, only populations with initial densities greater than NCT grew. NCT was increased with the concentration of antibiotics. Engineered bacteria with the QS&#8208;BlaM circuit exhibited a significantly higher NCT than those with the BlaM or the QS&#8208;CAT circuits. Carbenicillin was used for the BlaM and QS&#8208;BlaM circuits, and chloramphenicol, for the QS&#8208;CAT circuit. Each error bar represents the standard deviation from triplicate measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11243</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11246</offset>
+      <text>The QS&#8208;CAT circuit (Fig&#160;2B) programs expression of a chloramphenicol acetyltransferase (CAT) (Collins et&#160;al, 2006) under control of quorum sensing (QS). QS is a mechanism utilized by bacteria to sense and respond to changes in their densities (Fuqua et&#160;al, 1994; Singh et&#160;al, 2000; Waters &amp; Bassler, 2005; Danino et&#160;al, 2010; Wu et&#160;al, 2014). It has been widely used to program dynamics in one (You et&#160;al, 2004; Pai et&#160;al, 2012; Smith et&#160;al, 2014) or multiple bacterial populations (Brenner et&#160;al, 2007; Balagadde et&#160;al, 2008; Song et&#160;al, 2009). Expression of CAT at a high cell density can enable cells to survive in the presence of chloramphenicol (Appendix&#160;Fig S1B). A low&#8208;density population will go extinct due to lack of CAT expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12005</offset>
+      <text>The QS&#8208;BlaM circuit (Pai et&#160;al, 2012) (Fig&#160;2C) consists of QS&#8208;mediated expression of BlaM fused to a sequence of HlyAs secretion tag, which is secreted by the HlyB/D transporters to mediate transport of the BlaM from the cytoplasm to the extracellular environment (Chervaux et&#160;al, 1995; Pai et&#160;al, 2012; Tanouchi et&#160;al, 2012). BlaM can also be released due to lysis of some cells, at an initially lethal antibiotic concentration. Notably, QS&#8208;BlaM circuit requires an extra step&#8212;secretion of BlaM&#8212;that can delay the utilization of BlaM (Appendix&#160;Fig S1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12576</offset>
+      <text>Due to the differences in their implementation, we expect the different circuits to exhibit different survival threshold (N CT) for collective survival. For the BlaM circuit, BlaM has to be released into the extracellular space to degrade the antibiotic (Fig&#160;2D). In the QS&#8208;CAT circuit, CAT can be utilized intracellularly under the control of QS mechanism (Fig&#160;2E). In the QS&#8208;BlaM circuit (Fig&#160;2F), BlaM is expressed only at a sufficiently high initial cell density by the QS regulation. Even when BlaM is fully expressed in each cell, enough cells have to be present to produce and secrete sufficient BlaM to enable population survival.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13222</offset>
+      <text>Our experiments confirmed collective survival by engineered bacteria carrying each circuit (Fig&#160;2G&#8211;I). In the presence of carbenicillin, cells carrying the BlaM circuit grew to high final densities only if their initial densities were sufficiently high (&lt;&#160;20,480&#8208;fold dilution of calibrated overnight culture for 30&#160;&#956;g/ml Cb, while &lt;&#160;2,560&#8208;fold for 100&#160;&#956;g/ml Cb). Those with lower initial densities did not grow. The control strain without the BlaM circuit did not grow regardless of the initial densities (Appendix&#160;Fig S2A). In the absence of Cb, all cultures grew to high final densities, regardless of their initial densities. For each circuit, the survival threshold (N CT) increased with the concentration of the appropriate antibiotic. Engineered bacteria carrying the QS&#8208;CAT or QS&#8208;BlaM circuits exhibited similar behaviors as the BlaM circuit. However, cells carrying the QS&#8208;BlaM circuit exhibited a higher survival threshold than cells carrying the other two circuits (&lt;&#160;320&#8208;fold dilution for 30&#160;&#956;g/ml Cb and &lt;&#160;160&#8208;fold for 100&#160;&#956;g/ml Cb). The higher N CT by QS&#8208;BlaM cells could be due to several factors. In comparison with constitutive expression of BlaM in cells carrying the BlaM circuit, cells carrying the QS&#8208;BlaM circuit rely on QS to activate expression of BlaM. Indeed, induction of QS led to significantly reduced N CT in the QS&#8208;BlaM circuit in comparison with the uninduced condition (Appendix&#160;Fig S13). In addition to QS control, the inefficient export of BlaM by HlyB/D apparatus or reduced enzymatic activity of BlaM through transportation could further increase the N CT.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14853</offset>
+      <text>Programming collective survival in the microbial swarmbot platform</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14920</offset>
+      <text>We next implemented spatial arrangement of populations by encapsulating the engineered populations into hollow hydrogel microcapsules (Appendix&#160;Figs S3 and S4), as basic units for microbial swarmbots. Bacteria could escape through intrinsic imperfections in the capsule membrane (Klinkenberg et&#160;al, 2001). These characteristics of encapsulation allowed us to test the effectiveness of engineered safeguard control that concerns whether escaping cells could survive.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15388</offset>
+      <text>To investigate the system dynamics in two compartments segregated by encapsulation (APA membrane), we developed a full model, specific for the BlaM circuit to account for the essential reactions involved in the circuit dynamics (equations&#160;(3.1), (3.2), (3.3), (3.4), (3.5), (3.6), (4.1), (4.2), (4.3), (4.4), (4.5), (4.6), Code EV1). These include cell growth, lysis by Cb, release of BlaM, and degradation of Cb by BlaM. Also, we account for the transport of nutrient, Cb, BlaM proteins, and cells across the shell of swarmbot capsule (Fig&#160;3A). The simulations using the model with varying initial densities conform to the collective survival of engineered bacteria (Appendix&#160;Fig S5) that were demonstrated by liquid culture experiments (Fig&#160;2G): at a sufficiently high initial antibiotic concentration (a&#160;=&#160;0.2), the encapsulated bacteria can only survive when their initial density in the swarmbot is greater than a threshold (N CT, Appendix&#160;Fig S5), which increases with a. Starting from a high initial density, the bacteria in the swarmbot will initiate growth first (Fig&#160;3B, solid green line): this high&#8208;density population survives by establishing a higher local BlaM concentration to reduce the local Cb concentration (Appendix&#160;Fig S6). Growth of escaped cells will be initially suppressed due to a much higher Cb&#8208;mediated killing activity in the chamber (Fig&#160;3B, dashed green line). When starting at a low initial density, bacteria cannot survive in the swarmbot or in the chamber (Fig&#160;3C, red lines). In contrast, bacteria can grow both in the swarmbot and in the chamber in the absence of the antibiotic, regardless of their initial cell densities (Fig&#160;3C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17072</offset>
+      <text>Safeguard control in microbial swarmbot using the BlaM circuit</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17135</offset>
+      <text>Configuration of the two&#8208;compartment model. The microenvironment of microbial swarmbot is separated from that of the chamber by its permeable hydrogel shell (orange), resulting in two separate compartments, defined as swarmbot and environment (chamber). Four major components involved in the population dynamics are explored in the model, including cell density (n), nutrient (s), carbenicillin (a), and BlaM concentration (b). Each component has a different transport rate, depending on the molecule size.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17644</offset>
+      <text>Simulated microbial swarmbot dynamics under a static condition. a&#160;=&#160;0.4, a microbial swarmbot with a low n 0 cannot initiate growth (red lines) but one with a high n 0 leads to growth both in the swarmbot and, after a delay, in the chamber (green lines). (C) Swarmbots with both low and high initial densities lead to eventual full growth in the chamber in the absence of the antibiotic (a&#160;=&#160;0). Solid lines: cell density inside the swarmbots; dashed lines: cell density in the chambers.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18136</offset>
+      <text>A microfluidic device for controlling and monitoring population dynamics of microbial swarmbot. The device consists of an input channel leading to a culturing chamber and a trapping slot. The chamber is used for culturing engineered bacterial populations both inside and outside the swarmbot, while the trapping slot is for trapping the swarmbot due to its smaller size but allowing the medium to flow through. Input flow patterns (static or pulsing) are controlled by a programmable syringe pump.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18634</offset>
+      <text>Experimental validation of model prediction. At 100&#160;&#956;g/ml carbenicillin, a microbial swarmbot with a high initial density led to robust growth in the capsule and, after a delay, in the chamber (green lines). While a swarmbot with a low initial cell density did not exhibit growth either in the swarmbot or in the chamber at the same carbenicillin concentration (red lines). In contrast, both the swarmbot and culturing chamber reached high cell densities in the absence of carbenicillin (F), regardless of the initial cell densities.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19170</offset>
+      <text>Time&#8208;lapse images of microbial swarmbot dynamics. The population initiated growth inside the swarmbot and subsequently in the chamber at a high initial density. But no growth occurred for a swarmbot with a low initial density at the same antibiotic concentration (rightmost). The concentration of carbenicillin was 100&#160;&#956;g/ml, and the scale bar represents 200&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19539</offset>
+      <text>The control strain lacking BlaM circuit. The population could not survive at the same concentration of carbenicillin at the high initial density.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19685</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19688</offset>
+      <text>To examine our predictions, we designed and fabricated a microfluidic device that enables dynamic control and monitoring of population dynamics of engineered bacteria in the swarmbots (Fig&#160;3D). The swarmbot capsules were loaded into the culturing chamber with appropriate media and cultured at 37&#176;C. When starting from a sufficiently high initial density in the capsule, bacteria carrying the BlaM circuit survived and grew in the swarmbots and, after a delay, in the chamber when treated with 100&#160;&#956;g/ml Cb (Fig&#160;3G). GFP fluorescence was quantified from microscopy to demonstrate the dynamics over time (Fig&#160;3E and Appendix&#160;Fig S9A, green lines). Under the same condition, a microbial swarmbot containing the engineered bacteria at a low initial cell density could not initiate growth either in the swarmbot or in the chamber (Fig&#160;3E and Appendix&#160;Fig S9A, red lines), indicating collective survival. In the absence of the antibiotic, swarmbots with high or low initial densities initiated growth both in the swarmbots and in the chambers (Fig&#160;3F and Appendix&#160;Fig S9B). In contrast, even starting from a high initial density, bacteria lacking the BlaM circuit did not grow in the swarmbot when treated with 100&#160;&#956;g/ml Cb (Fig&#160;3H and Appendix&#160;Fig S2B). That is, the collective survival was indeed due to the BlaM circuit.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21022</offset>
+      <text>Both modeling and experiment demonstrated the presence of transient safeguard for a microbial swarmbot with a high initial cell density when treated with a sufficiently high antibiotic concentration. The presence of antibiotic caused a more prolonged delay in the growth in the chamber, in comparison with the delay in the absence of antibiotic (Fig&#160;3). However, this safeguard performance is limited due to the eventual and significant growth in the chamber. The transient nature of the safeguard makes intuitive sense. Due to the lack of replenishment, the Cb in the system would eventually be degraded by BlaM released from lysed cells, as long as sufficient cells could survive in the swarmbots. As the Cb concentration in the chamber decreases to a sufficiently low level below the threshold (a&#160;&lt;&#160;0.2, Appendix&#160;Fig S6), the escaped bacteria can initiate growth and destroy the safeguard. From the perspective of the general design concept (Fig&#160;1), a reduced antibiotic concentration corresponds to a reduced N CT, making it more difficult to maintain safeguard. Another factor contributing to the quick loss of safeguard is the relatively small V R (the volume of the chamber to that of the capsule). The safeguard performance was further diminished due to decreased V R if multiple capsules were cultured together (Appendix&#160;Fig S7).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22367</offset>
+      <text>Programming sustained safeguard using a pulsing condition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22425</offset>
+      <text>Both limitations can be overcome by adopting periodic pulsing of a fresh medium (Fig&#160;4A, left), which simultaneously increases the effective size of V 2 and maintains the N CT. In our model, the pulsing flow is described with dilution and replenishment of each main component every time the culturing chamber is infused with a fresh medium (equations&#160;(3.1), (3.2), (3.3), (3.4), (3.5), (3.6), (4.1), (4.2), (4.3), (4.4), (4.5), (4.6)).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22863</offset>
+      <text>Modeling BlaM circuit&#8208;mediated microbial swarmbot safeguard under a pulsing condition</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22951</offset>
+      <text>Left: a periodic pulsing condition. Right: quantification of safeguard effectiveness by evaluating the AUC of the difference between the cell density in the swarmbot and that in the chamber (&#916;N). A larger AUC corresponds to more effective safeguard.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23205</offset>
+      <text>Effectiveness of safeguard (AUC) as a function of the antibiotic concentration (I a) and the nutrient concentration (I s). The heatmap is divided into three regions: no safeguard&#8212;cells grow both in the swarmbot and in the chamber; safeguard&#8212;cells grow in the swarmbot but not in the chamber; extinction&#8212;cells do not grow in the swarmbot or in the chamber. For each I s, safeguard is achieved for intermediate I a values. The range of I a values able to support safeguard is wider for smaller I s values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23715</offset>
+      <text>Sample temporal swarmbot dynamics corresponding to different combinations of I a and I s values. Panels 1&#8211;3 correspond to no safeguard; panels 4&#8211;7 correspond to safeguard; panels 8&#8208;9 correspond to extinction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23930</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23933</offset>
+      <text>We modeled the effects of two experimentally controllable parameters on the safeguard performance under a pulsing condition: the antibiotic concentration (I a) and the nutrient level (I s) in the input flow. The antibiotic concentration can adjust the rate of cell killing and BlaM release that are critical for realizing the safeguard. The nutrient level modulates cell growth, which also indirectly affects the lysis rate as the faster growing cells are more susceptible to Cb killing because Cb disrupts cell wall synthesis (Tuomanen et&#160;al, 1986). We use the area under the curve (AUC) of the difference between the final densities in swarmbots and in the chamber to quantify the degree of safeguard (Fig&#160;4A, right): a larger AUC indicates more effective safeguard.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24704</offset>
+      <text>We simulated the dependence of AUC on combinations of antibiotic concentration (I a) and nutrient level (I s) supplemented in the fresh medium (Fig&#160;4B). The resulting heatmap reveals three distinct states of safeguard performance. When I a is too small (no safeguard), bacteria can grow both in the swarmbot and in the chamber, causing loss of safeguard (also see Fig&#160;4C, panels 1&#8208;3, for sample time courses). When I a is too large (Extinction), bacteria cannot grow in the swarmbot or in the chamber (also see Fig&#160;4C, panels 8&#8211;9). However, for intermediate I a values (safeguard), bacteria grow in the swarmbot but not in the chamber, leading to robust safeguard (also see Fig&#160;4C, panels 4&#8211;6). Also, I s plays a critical role in modulating the safeguard performance: the safeguard region shrinks with increasing I s (Fig&#160;4B). This is in major part due to a reduced lysis rate when cells grow slower, thus allowing them to survive a higher antibiotic concentration (Fig&#160;4C, panel 7).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25700</offset>
+      <text>Experimentally, we employed periodic dosing of fresh media with or without antibiotics to test the model predictions (see Materials and Methods). The experimental results were consistent with the model predictions and confirmed the parametric space to maximize safeguard performance (Fig&#160;5A). An intermediate antibiotic concentration ([Cb]&#160;=&#160;30&#160;&#956;g/ml) along with a lower nutrient concentration ([glucose]&#160;&lt;&#160;0.4%) was the most effective in maintaining the safeguard, as predicted by our model. Sample time courses show sustained GFP fluorescence in the swarmbots but negligible GFP in the chamber (Fig&#160;5A). In addition, a high Cb concentration (100&#160;&#956;g/ml) or a high nutrient level ([glucose]&#160;=&#160;0.4%) failed to maintain the population survival (Fig&#160;5B and Appendix&#160;Fig S10). We note that the lack of growth in the chamber at a high antibiotic concentration was indeed due to circuit dynamics (Fig&#160;5B, panels 4&#8211;9), instead of washout by the flow. This was evident in the growth of bacteria in the chamber, in the absence of the antibiotic (Fig&#160;5B, panels 1&#8211;3). We would expect no growth in the chamber if washout had occurred (Materials and Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26868</offset>
+      <text>Experimental modulation of BlaM circuit&#8208;mediated safeguard control by controlling nutrient and antibiotic concentrations, under a pulsing condition</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27018</offset>
+      <text>Time courses of swarmbots treated with varying concentrations of carbenicillin and glucose. Solid lines indicate cell densities inside the swarmbots; dotted lines indicate those in the chamber. Safeguard was established for lower nutrient levels (0.004% or 0.04% glucose) along with carbenicillin treatment. At a high nutrient level (0.4% glucose), the safeguard was lost due to either growth in the chamber (panels 3 and 6) or gradual killing of the population inside the swarmbot (solid line in panel 9). These results are qualitatively consistent with the model predictions (Fig&#160;4).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27605</offset>
+      <text>Snapshots of safeguard performance at the end time point of (A). The red arrow in panel 6 indicates significant growth in the chamber; the dimmer fluorescence of the swarmbot in panel 9 indicates killing of the population.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27828</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27831</offset>
+      <text>Modular control of safeguard</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27860</offset>
+      <text>As proposed in Fig&#160;2, different collective survival systems can be used to program safeguard. Indeed, we further demonstrated that engineered bacteria containing the QS&#8208;CAT and QS&#8208;BlaM circuits also achieved varying degrees of safeguard performance. Similar to the BlaM circuit, we established the safeguard control for QS&#8208;CAT bacteria by applying the same pulsing flow with 100&#160;&#956;g/ml chloramphenicol. Robust growth occurred in the swarmbot but not in the chamber. Cells carrying the QS&#8208;BlaM circuit exhibited safeguard control even under a static condition (Fig&#160;6, Appendix&#160;Fig S11 and Movies EV1 and EV2). Over time, the escaping cells were eventually killed. This increased safeguard performance could be due to the higher N CT of QS&#8208;BlaM circuit compared with the other two systems that makes the collective survival more sensitive to the initial density (Fig&#160;2G&#8211;I). The patchy growth observed in the absence of antibiotics (Fig&#160;6 and Appendix&#160;Fig S12) was likely due to the spatial heterogeneity of the PDMS surface.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28902</offset>
+      <text>Experimental control of microbial swarmbot safeguard by other circuits</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28973</offset>
+      <text>Demonstration of modular safeguard performance of swarmbots with different collective survival systems. For the swarmbots containing cells carrying the QS&#8208;CAT circuit, pulsing flow of medium containing 100&#160;&#956;g/ml chloramphenicol established safeguard control but not for the static condition. For the swarmbots with the QS&#8208;BlaM circuit, the static condition of 100&#160;&#956;g/ml carbenicillin was sufficient for safeguard control. For all the conditions, safeguard did not occur in the absence of antibiotic (top panels from each condition). All the images were from the swarmbots cultured at 37&#176;C for 16&#160;h. The scale bar is 250&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>29609</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29620</offset>
+      <text>These observed properties demonstrate that our microbial swarmbot technology embraces a new design strategy in programming sophisticated system functions. The microbial swarmbot implements an essential property of multicellular bacterial structures in nature (de la Fuente&#8208;Nunez et&#160;al, 2013)&#8212;a combination of spatial arrangement and dynamic environment sensing. While microencapsulation of cells has been adopted for diverse applications (Cruise et&#160;al, 1999; Chang, 2005), in most cases the capsules are passive carriers of the encapsulated cells or enzymes. That is, the function of the encapsulated cells or enzymes is largely independent of the physical confinement by the capsules, other than the fact that encapsulation can modulate the lifetime or the release and transport rate of the encapsulated contents. These strategies heavily depend on passive diffusion or degradation of the encapsulation membrane for controlling the release of a drug or protein (Grayson et&#160;al, 2003).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30612</offset>
+      <text>In contrast, our approach involves coupling of encapsulation with the engineered cells as an integral part to achieve the overall system function: there is an active feedback between the circuit function and sensing of the microenvironment. Encapsulation creates a unique microenvironment different from the extra&#8208;capsular environment. This difference then triggers different bacterial population dynamics, leading to the designed safeguard control. The properties of the capsules and the culturing environment, including the permeability of the encapsulating material, the relative dimensions of the swarmbot capsule with respect to the culturing environment, and the dosing pattern of antibiotics, are all critical to&#160;realize the overall safeguard control, as are the parameters associated with the gene circuit carried by the engineered bacteria.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31465</offset>
+      <text>Another salient feature of our microbial swarmbot platform is its modularity, as demonstrated by qualitatively the same safeguard function realized by different gene circuits. Given this modularity, different aspects of the platform can be individually tuned, depending on objectives of the overall system. In this study, we have used antibiotics to enable flexible control of the extent of safeguard in different circuits (Fig&#160;2), to demonstrate the fundamental design concept. However, the use of antibiotic is not in itself critical. Instead, any circuits that can realize collective survival in one or multiple populations can be embedded in our design framework. These include other engineered bacteria (Smith et&#160;al, 2014) or yeast cells (Dai et&#160;al, 2012) that only survive at sufficiently high initial cell densities or microbial populations exhibiting mutualistic interactions (Shou et&#160;al, 2007; Kerner et&#160;al, 2012). In these systems, the use of exogenous antibiotics is not a critical component of the engineered circuit dynamics. As such, our system can serve as a foundation for programming more complex dynamics resulting from &#8220;smart&#8221; hybrid biological&#8208;material systems.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32658</offset>
+      <text>In addition to the use of different circuits, diverse polymeric materials can be adopted to tune parameters critical for the overall system function, including permeability (Chan &amp; Neufeld, 2010), mechanical properties (Kamata et&#160;al, 2014), and environmental responsiveness (Xia et&#160;al, 2013). The modular nature of our design can accommodate further optimization and extension by equipping the bacteria with effector genes of interest. These include effectors to target tumor cells (Anderson et&#160;al, 2006; Zhang et&#160;al, 2010), to kill bacterial pathogens (Saeidi et&#160;al, 2011; Gupta et&#160;al, 2013; Hwang et&#160;al, 2014), or to degrade environmental pollutants (Furukawa, 2000). For such applications, the programmed safeguard provides an intrinsic mechanism to prevent unintended proliferation of such engineered bacteria, a major safety concern that limits their broad applications.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>33541</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33563</offset>
+      <text>Bacterial strains, growth media, and culturing conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33621</offset>
+      <text> Escherichia coli strains MC4100, TOP10, and MG1655 were used for carrying BlaM (Tanouchi et&#160;al, 2012), QS&#8208;CAT, and QS&#8208;BlaM (Pai et&#160;al, 2012) circuits, respectively. All these strains were engineered with a GFP reporter. E.&#160;coli MC4100 lacking a collective survival circuit but with the GFP reporter was considered the control strain for the microbial swarmbot (Appendix&#160;Fig S2). Unless otherwise indicated, experiments were conducted in modified M9 medium [1&#215;&#160;M9 salts (48&#160;mM Na2HPO4, 22&#160;mM KH2PO4, 862&#160;mM NaCl, 19&#160;mM NH4Cl), 0.4% glucose, 0.2% casamino acids (Teknova), 0.5% thiamine (Sigma), 2&#160;mM MgSO4, 0.1&#160;mM CaCl2]. For overnight cultures, we inoculated single colonies from an agar plate into 4&#160;ml Luria&#8211;Bertani (LB) medium (Genesee Scientific). Culture medium contained corresponding antibiotics (50&#160;&#956;g/ml chloramphenicol, 100&#160;&#956;g/ml Cb, and/or 100&#160;&#956;g/ml kanamycin) for&#160;plasmid maintenance. 0.5&#160;mM IPTG, 0.1% arabinose, and 100&#160;ng/ml aTc were used for induction of gene expressions in QS&#8208;BlaM circuit.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34660</offset>
+      <text>Evaluation of collective survival for engineered bacteria</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34718</offset>
+      <text>Engineered bacteria with BlaM, QS&#8208;CAT, and QS&#8208;BlaM circuits were inoculated in 4&#160;ml LB containing appropriate antibiotics and cultured at 37&#176;C with a shaking speed at 250&#160;rpm for overnight. We calibrated initial densities of overnight cultures (OD600 of 0.5) by using a Victor 3 plate reader (Perkin Elmer). Then, we diluted the calibrated cultures into M9 medium (10&#160;&#215;&#160;20 to 10&#160;&#215;&#160;222&#8208;fold), which was supplemented with varying concentrations of antibiotics (0, 30, and 100&#160;&#956;g/ml). About 200&#160;&#956;l cultures were aliquoted into 96&#8208;well plates, which were then sealed with two membranes, AeraSeal (Excel Scientific) and Breathe&#8208;Easy membrane (Diversified Biotech), to prevent evaporation. The plates were fixed in a shaker at 250&#160;rpm at 37&#176;C for 24&#160;h before cell&#8208;density measurements. For data analysis, the measured OD600 values were background corrected.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35598</offset>
+      <text>Production of hollow alginate&#8208;poly (L&#8208;lysine)&#8208;alginate microcapsules</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35673</offset>
+      <text>Alginate&#8208;poly (L&#8208;lysine)&#8208;alginate (APA) microcapsules containing bacterial cells were fabricated by a soft lithography technique (Duffy et&#160;al, 1998). The photoresist master mold was fabricated by spin&#8208;coating two layers of SU8 3035 (MicroChem, 1,000&#160;rpm for 30&#160;s) onto a silicon wafer, which was then pre&#8208;baked for 60&#160;min at 95&#176;C, and UV cross&#8208;linked with pre&#8208;designed photomask (AutoCAD). The UV exposed wafer was post&#8208;baked for 20&#160;min at 95&#176;C, developed with SU8 developer, and finally hard&#8208;baked for 2&#160;h at 180&#176;C. We then fabricated the PDMS template by pouring mixed PDMS solution (Dow Corning SYLGARD&#174; 184, 10:1 as monomer: curing agent) onto the master mold, degassing under vacuum, and baking at 80&#176;C for 30&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36423</offset>
+      <text>Before the fabrication of swarmbot capsules, optical density (OD600) of overnight culture was adjusted to 0.5 and diluted 1,000&#8208;fold into 1% alginate solution. The microcapsules were then fabricated following the layer&#8208;by&#8208;layer technique (De Koker et&#160;al, 2011; Delcea et&#160;al, 2011). The PDMS template was degassed in vacuum for 15&#160;min and immersed in 1% alginate mixture containing different engineered bacteria. First, to polymerize alginate mixture in the wells, the PDMS template was transferred to a solution of 500&#160;mM CaCl2 (50&#160;mM for bacteria with QS&#8208;BlaM circuit due to their higher susceptibility to Ca2+ from our experimental observation) with 150&#160;mM NaCl for 15&#160;min. The polymerized alginate microparticles were detached from the template with ultrasonic treatment for 1&#160;min and coated with 0.05% poly (L&#8208;lysine) (PLL) solution on a tabletop shaker at 120&#160;rpm for 10&#160;min. To reduce reactivity of the positively charged PLL layer, another layer of 0.05% alginate solution was coated over the microparticles at 120&#160;rpm for another 10&#160;min. The cores of the microparticles were liquefied by chelating the Ca2+ with a 100&#160;mM sodium citrate solution at 120&#160;rpm for 20&#160;min. The microcapsules were washed twice between each coating with 0.85% NaCl to remove residual polymers. Each cylindrical microcapsule is ~250&#160;&#956;m in diameter, ~125&#160;&#956;m in height, and ~15&#160;&#956;m in shell thickness (Appendix&#160;Fig S4). Immediately after encapsulation, the swarmbot capsules were divided into two groups. One group was stored at 4&#176;C (swarmbots with low initial densities) while the other group was pre&#8208;grown at 37&#176;C for about 8&#160;h for BlaM and QS&#8208;CAT and 10&#160;h for QS&#8208;BlaM (swarmbots with high initial densities). The reason why we cultured longer time for bacteria with QS&#8208;BlaM was they grew slower than those with the other two circuits. This pre&#8208;growth stage allows the cells inside the swarmbots of the second group to reach a high density, which was estimated by the population size under microscopy. Unless otherwise noted, we use the swarmbot capsules from the second group for experiments with microfluidic device.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38570</offset>
+      <text>Fabrication of microfluidic devices</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38606</offset>
+      <text>We used a similar soft lithography technique to fabricate the microfluidic device. Three layers of SU3035 were spun onto a silicon wafer to fabricate the mold. The height of the SU8 mold for microfluidic device was ~450&#160;&#956;m. We then fabricated the PDMS microfluidic device containing the designed structure from the silicon mold and drilled holes for input and output flow with biopsy punches (World Precision Instruments Inc.). The PDMS device was bonded to a cover slip by using plasma treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39106</offset>
+      <text>The main structure of the microfluidic device consists of input reservoir (diameter&#160;=&#160;2&#160;mm), main channel (width&#160;=&#160;500&#160;&#956;m, length&#160;=&#160;5&#160;mm), culturing chamber (diameter&#160;=&#160;1&#160;mm), trapping channel (width&#160;=&#160;50&#160;&#956;m, length&#160;=&#160;1&#160;mm), and output reservoir (diameter&#160;=&#160;0.75&#160;mm). The height of PDMS slab is about 4&#160;mm; thus, the total volume of microfluidic device (V m) is calculated as about 20&#160;&#956;l. The swarmbots are captured in the culturing chamber since the dimension of microcapsules is larger than the trapping channel, which prevents them from flowing out of the microfluidic device.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39712</offset>
+      <text>Culturing and monitoring of microbial swarmbots in microfluidic devices</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39784</offset>
+      <text>Before loading swarmbot microcapsules into the culturing chamber, the microfluidic device was vacuumed for 15&#160;min. After loading into culturing chamber, the swarmbot capsule was washed with 100&#160;&#956;l of M9 supplemented with different concentrations of antibiotics. Unless indicated otherwise, a programmable syringe pump (Harvard Apparatus, Pump 11 Elite) was used to control the flow pattern of either static or pulsing condition. For periodic pulsing, the flow of perfusion was set as 4&#160;&#956;l/min for 5&#160;min and then delayed 25&#160;min before the next pulse. Given a reactor volume of ~20&#160;&#956;l for the microfluidic device, the effective dilution rate (D) is thus ~2/h. This dilution rate is greater than the growth rate of MG1655 cells (&lt;&#160;1/h under our experimental conditions), which would cause washout of the culture in a typical reactor even in the absence of an antibiotic. However, washout did not occur in our experiment, likely for two reasons. First, the swarmbot serves a reservoir that contributes to replenish the culture in the chamber. Second, the geometry of the microfluidic device, as well as the tendency of cells to stick to the PDMS surface, might have reduced the impact of flow (Appendix&#160;Fig S12).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41004</offset>
+      <text>The microfluidic device was installed in the microscopy hood and cultured at 37&#176;C. An inverted fluorescence microscope (Leica DMI6000) was used to monitor the dynamics of population growth both inside and outside the swarmbots. Fluorescence intensity of swarmbots was analyzed using ImageJ. For swarmbots with BlaM circuit, the flow&#8208;out medium from pulsing conditions was collected in 10&#8208;ml culturing tubes that were installed in the same microscopy hood. After 16&#160;h of experiment, cell density in the tubes was examined by measuring OD600 to confirm the performance of safeguard control (Appendix&#160;Fig S8).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41618</offset>
+      <text>Full model for the BlaM circuit</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>41650</offset>
+      <text>BlaM model in liquid culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41679</offset>
+      <text>In addition to the simplified density model described in Fig&#160;1, we developed a more detailed model to describe the BlaM circuit dynamics. We first consider the circuit dynamics in a single compartment, where the cell density corresponds to engineered bacteria growing in the liquid culture. The model comprises a set of algebraic equations and ordinary differential equations that describe the temporal dynamics of four components: cell density (N), nutrient concentration (S), carbenicillin concentration (A), and &#946;&#8208;lactamase concentration (B).      where &#956; max is the maximum growth rate, K s is the half&#8208;maximal constant for cell growth, N m is the carrying capacity, d A is the killing rate constant by antibiotics, K lysis is the half&#8208;maximal constant for lysis, &#945; is the rate constant of nutrient consumption, k r is the rate constant of nutrient release upon lysis, vmax is rate constant of antibiotic degradation by BlaM, K apm is the half&#8208;maximal constant for enzyme reaction, d B is the rate of intrinsic BlaM degradation, and k bla is the rate constant of BlaM synthesis and release.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42786</offset>
+      <text>We assume that the growth rate of cells, G, is limited by S, following the Monod kinetics, and the carrying capacity (N m), following the logistic equation. We assume that the lysis rate (L) depends on A, following the Michaelis&#8211;Menten kinetics, and G. The dependence on G is based on the observation that the killing rate by &#946;&#8208;lactams increases with bacterial growth rate (Tuomanen et&#160;al, 1986). However, we made a further assumption that lysis only occurs when cells grow sufficiently fast.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43285</offset>
+      <text>Non&#8208;dimensionalization of the full BlaM model leads to the following equations:      </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43373</offset>
+      <text>The definitions of the dimensionless variables, their physical interpretations, and their base values are listed in Appendix&#160;Table&#160;S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>43510</offset>
+      <text>Two&#8208;compartment model</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43534</offset>
+      <text>To describe microbial swarmbot dynamics in the microfluidic device, we expand the full BlaM model into a two&#8208;compartment model (Fig&#160;3A). One compartment corresponds to the swarmbot, the other the culturing chamber. Without loss of generality, we consider a single swarmbot capsule in the chamber.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43834</offset>
+      <text>In each compartment, the system dynamics are described by essentially the same set of ODEs comprising the full BlaM model. In addition, we introduce transport terms to account for diffusion of molecules and escape of cells across the shell of swarmbot capsule. We further introduce an input function D(&#964;) to account for dilution and replenishment of each component for the pulsing&#8208;flow growth condition. D(&#964;) is set to 0 for the static growth condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44292</offset>
+      <text>The two&#8208;compartment model consists of following equations:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44353</offset>
+      <text>Inside the microbial swarmbot (index&#160;=&#160;1)      </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44403</offset>
+      <text>In the chamber (index&#160;=&#160;2)      </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44438</offset>
+      <text>Here, I s and I a indicate concentrations of nutrient and carbenicillin in the fresh medium. Furthermore, we assume that the transport rate of each component (cells or molecules) is proportional to the concentration gradient between the two compartments. f n , f b , f s , and f a indicate transport rate constant of the corresponding variables. The volume ratio, V R, is defined as V 2 /V 1. The transport rate constant of each component is chosen depending on the size of each component. For instance, the size of a cell is about 3 orders of magnitude larger than the other components.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45026</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45047</offset>
+      <text>SH designed and performed the experiments, designed and fabricated the microfluidic devices, interpreted the results, and wrote the manuscript. AJL designed and performed modeling and experiments, interpreted the results, and wrote the manuscript. RT and FW assisted with experiments and manuscript revision. YZ assisted with fabrication of microfluidic devices and microcapsules. KWL assisted in manuscript revision. LY conceived the research, assisted in research design, data interpretation, model construction, and wrote the manuscript. All authors approve the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45624</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45645</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45705</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>45728</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">355</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">627</infon>
+      <infon key="pub-id_pmid">16330045</infon>
+      <infon key="fpage">619</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>45739</offset>
+      <text>Environmentally controlled invasion of cancer cells by engineered bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Expert Rev Vaccines</infon>
+      <infon key="lpage">331</infon>
+      <infon key="pub-id_pmid">25566800</infon>
+      <infon key="fpage">313</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45814</offset>
+      <text>Synthetic biology devices and circuits for RNA&#8208;based &#8216;smart vaccines&#8217;: a propositional review</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">18414488</infon>
+      <infon key="fpage">187</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45914</offset>
+      <text>A synthetic Escherichia coli predator&#8208;prey ecosystem</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">543</infon>
+      <infon key="pub-id_pmid">15995697</infon>
+      <infon key="fpage">533</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>45969</offset>
+      <text>Synthetic biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">17304</infon>
+      <infon key="pub-id_pmid">17959781</infon>
+      <infon key="fpage">17300</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>45987</offset>
+      <text>Engineered bidirectional communication mediates a consensus in a microbial biofilm consortium</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">520</infon>
+      <infon key="pub-id_pmid">24781324</infon>
+      <infon key="fpage">508</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46081</offset>
+      <text>Principles of genetic circuit design</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Biomaterials</infon>
+      <infon key="lpage">9047</infon>
+      <infon key="pub-id_pmid">20739057</infon>
+      <infon key="fpage">9040</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>46118</offset>
+      <text>Tuneable semi&#8208;synthetic network alginate for absorptive encapsulation and controlled release of protein therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Rev Drug Discov</infon>
+      <infon key="lpage">235</infon>
+      <infon key="pub-id_pmid">15738978</infon>
+      <infon key="fpage">221</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>46237</offset>
+      <text>Therapeutic applications of polymeric artificial cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">249</infon>
+      <infon key="source">Mol Gen Genet</infon>
+      <infon key="lpage">245</infon>
+      <infon key="pub-id_pmid">7500946</infon>
+      <infon key="fpage">237</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>46292</offset>
+      <text>Secretion of active beta&#8208;lactamase to the medium mediated by the Escherichia coli haemolysin transport pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">502</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">574</infon>
+      <infon key="pub-id_pmid">24077097</infon>
+      <infon key="fpage">571</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46405</offset>
+      <text>Microbial production of short&#8208;chain alkanes</text>
+    </passage>
+    <passage>
+      <infon key="source">Nature</infon>
+      <infon key="volume">438</infon>
+      <infon key="pub-id_pmid">16306966</infon>
+      <infon key="fpage">423</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>46451</offset>
+      <text>Let us go forth and safely multiply</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">294</infon>
+      <infon key="pub-id_pmid">24622617</infon>
+      <infon key="fpage">289</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46487</offset>
+      <text>Realizing the potential of synthetic biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">124</infon>
+      <infon key="pub-id_pmid">24384602</infon>
+      <infon key="fpage">115</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46532</offset>
+      <text>Bacterial solutions to multicellularity: a tale of biofilms, filaments and fruiting bodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">712</infon>
+      <infon key="pub-id_pmid">16715074</infon>
+      <infon key="fpage">708</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>46623</offset>
+      <text>Dual selection enhances the signaling specificity of a variant of the quorum&#8208;sensing transcriptional activator LuxR</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Cell Transplant</infon>
+      <infon key="lpage">306</infon>
+      <infon key="pub-id_pmid">10442742</infon>
+      <infon key="fpage">293</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>46741</offset>
+      <text>In vitro and in&#160;vivo performance of porcine islets encapsulated in interfacially photopolymerized poly(ethylene glycol) diacrylate membranes</text>
+    </passage>
+    <passage>
+      <infon key="volume">336</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1177</infon>
+      <infon key="pub-id_pmid">22654061</infon>
+      <infon key="fpage">1175</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46883</offset>
+      <text>Generic indicators for loss of resilience before a tipping point leading to population collapse</text>
+    </passage>
+    <passage>
+      <infon key="volume">463</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">330</infon>
+      <infon key="pub-id_pmid">20090747</infon>
+      <infon key="fpage">326</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>46979</offset>
+      <text>A synchronized quorum of genetic clocks</text>
+    </passage>
+    <passage>
+      <infon key="volume">63</infon>
+      <infon key="source">Adv Drug Deliv Rev</infon>
+      <infon key="lpage">761</infon>
+      <infon key="pub-id_pmid">21504772</infon>
+      <infon key="fpage">748</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47019</offset>
+      <text>Polymeric multilayer capsules delivering biotherapeutics</text>
+    </passage>
+    <passage>
+      <infon key="volume">63</infon>
+      <infon key="source">Adv Drug Deliv Rev</infon>
+      <infon key="lpage">747</infon>
+      <infon key="pub-id_pmid">21463658</infon>
+      <infon key="fpage">730</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47076</offset>
+      <text>Stimuli&#8208;responsive LbL capsules and nanoshells for drug delivery</text>
+    </passage>
+    <passage>
+      <infon key="volume">70</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="lpage">4984</infon>
+      <infon key="pub-id_pmid">21644679</infon>
+      <infon key="fpage">4974</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>47143</offset>
+      <text>Rapid prototyping of microfluidic systems in poly(dimethylsiloxane)</text>
+    </passage>
+    <passage>
+      <infon key="volume">438</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">453</infon>
+      <infon key="pub-id_pmid">16306983</infon>
+      <infon key="fpage">449</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>47211</offset>
+      <text>Foundations for engineering biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Curr Opin Chem Biol</infon>
+      <infon key="lpage">28</infon>
+      <infon key="pub-id_pmid">26056951</infon>
+      <infon key="fpage">20</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>47247</offset>
+      <text>Synthetic biology expands chemical control of microorganisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">589</infon>
+      <infon key="pub-id_pmid">23880136</infon>
+      <infon key="fpage">580</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>47308</offset>
+      <text>Bacterial biofilm development as a multicellular adaptation: antibiotic resistance and new therapeutic strategies</text>
+    </passage>
+    <passage>
+      <infon key="volume">176</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">275</infon>
+      <infon key="pub-id_pmid">8288518</infon>
+      <infon key="fpage">269</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>47422</offset>
+      <text>Quorum sensing in bacteria: the LuxR&#8208;LuxI family of cell density&#8208;responsive transcriptional regulators</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="lpage">249</infon>
+      <infon key="pub-id_pmid">10851151</infon>
+      <infon key="fpage">244</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>47529</offset>
+      <text>Engineering dioxygenases for efficient degradation of environmental pollutants</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Mater</infon>
+      <infon key="lpage">772</infon>
+      <infon key="pub-id_pmid">14619935</infon>
+      <infon key="fpage">767</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>47608</offset>
+      <text>Multi&#8208;pulse drug delivery from a resorbable polymeric microchip device</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">ACS Synth Biol</infon>
+      <infon key="lpage">723</infon>
+      <infon key="pub-id_pmid">23763381</infon>
+      <infon key="fpage">715</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>47681</offset>
+      <text>Genetically programmable pathogen sense and destroy</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Acs Synth Biol</infon>
+      <infon key="lpage">237</infon>
+      <infon key="pub-id_pmid">24020906</infon>
+      <infon key="fpage">228</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47733</offset>
+      <text>Reprogramming microbes to be pathogen&#8208;seeking killers</text>
+    </passage>
+    <passage>
+      <infon key="volume">343</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">875</infon>
+      <infon key="pub-id_pmid">24558157</infon>
+      <infon key="fpage">873</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47789</offset>
+      <text>&#8220;Nonswellable&#8221; hydrogel without mechanical hysteresis</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">ACS Chem Biol</infon>
+      <infon key="lpage">76</infon>
+      <infon key="pub-id_pmid">18205292</infon>
+      <infon key="fpage">64</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>47847</offset>
+      <text>Synthetic biology for synthetic chemistry</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22479509</infon>
+      <infon key="fpage">e34032</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>47889</offset>
+      <text>A programmable Escherichia coli consortium via tunable symbiosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">379</infon>
+      <infon key="pub-id_pmid">20395970</infon>
+      <infon key="fpage">367</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>47954</offset>
+      <text>Synthetic biology: applications come of age</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="source">J Appl Microbiol</infon>
+      <infon key="lpage">714</infon>
+      <infon key="pub-id_pmid">11576308</infon>
+      <infon key="fpage">705</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>47998</offset>
+      <text>pH&#8208;controlled cell release and biomass distribution of alginate&#8208;immobilized Lactococcus lactis subsp lactis</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Nanotechnol</infon>
+      <infon key="lpage">7</infon>
+      <infon key="pub-id_pmid">18654192</infon>
+      <infon key="fpage">3</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48110</offset>
+      <text>Towards an in&#160;vivo biologically inspired nanofactory</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="lpage">681</infon>
+      <infon key="pub-id_pmid">18977048</infon>
+      <infon key="fpage">674</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48164</offset>
+      <text>Engineering microbes with synthetic biology frameworks</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">322</infon>
+      <infon key="pub-id_pmid">24743245</infon>
+      <infon key="fpage">319</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>48219</offset>
+      <text>Engineering synergy in biotechnology</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">511</infon>
+      <infon key="pub-id_pmid">24937068</infon>
+      <infon key="fpage">502</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>48256</offset>
+      <text>Optogenetic characterization methods overcome key challenges in synthetic and systems biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Annu Rev Microbiol</infon>
+      <infon key="lpage">79</infon>
+      <infon key="pub-id_pmid">11018124</infon>
+      <infon key="fpage">49</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>48350</offset>
+      <text>BIOFILM FORMATION AS MICROBIAL DEVELOPMENT</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19584835</infon>
+      <infon key="fpage">286</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>48393</offset>
+      <text>Optimal tuning of bacterial sensing potential</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">19815</infon>
+      <infon key="pub-id_pmid">23144221</infon>
+      <infon key="fpage">19810</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48439</offset>
+      <text>Optimality and robustness in quorum sensing (QS)&#8208;mediated regulation of a costly public good enzyme</text>
+    </passage>
+    <passage>
+      <infon key="volume">159</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">954</infon>
+      <infon key="pub-id_pmid">25417167</infon>
+      <infon key="fpage">940</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>48541</offset>
+      <text>Paper&#8208;based synthetic gene networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="lpage">155</infon>
+      <infon key="pub-id_pmid">24794536</infon>
+      <infon key="fpage">146</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>48579</offset>
+      <text>Synthetic analog and digital circuits for cellular computation and memory</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Acs Synth Biol</infon>
+      <infon key="lpage">402</infon>
+      <infon key="pub-id_pmid">23411668</infon>
+      <infon key="fpage">389</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48653</offset>
+      <text>A synthetic biology approach to&#160;understanding cellular information processing</text>
+    </passage>
+    <passage>
+      <infon key="volume">333</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1252</infon>
+      <infon key="pub-id_pmid">21885773</infon>
+      <infon key="fpage">1248</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>48732</offset>
+      <text>Synthetic biology moving into the clinic</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21847113</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>48773</offset>
+      <text>Engineering microbes to sense and eradicate Pseudomonas aeruginosa, a human pathogen</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">18091727</infon>
+      <infon key="fpage">158</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48858</offset>
+      <text>Synthetic biology: promises and challenges</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1882</infon>
+      <infon key="pub-id_pmid">17267602</infon>
+      <infon key="fpage">1877</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48901</offset>
+      <text>Synthetic cooperation in engineered yeast populations</text>
+    </passage>
+    <passage>
+      <infon key="volume">407</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">764</infon>
+      <infon key="pub-id_pmid">11048725</infon>
+      <infon key="fpage">762</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>48955</offset>
+      <text>Quorum&#8208;sensing signals indicate that cystic fibrosis lungs are infected with bacterial biofilms</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1974</infon>
+      <infon key="pub-id_pmid">24449896</infon>
+      <infon key="fpage">1969</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49053</offset>
+      <text>Programmed Allee effect in bacteria causes a tradeoff between population spread and survival</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">935</infon>
+      <infon key="pub-id_pmid">19915540</infon>
+      <infon key="fpage">929</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>49146</offset>
+      <text>Spatiotemporal modulation of biodiversity in a synthetic chemical&#8208;mediated ecosystem</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23169002</infon>
+      <infon key="fpage">626</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>49233</offset>
+      <text>Programming stress&#8208;induced altruistic death in engineered bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">J Gen Microbiol</infon>
+      <infon key="lpage">1304</infon>
+      <infon key="pub-id_pmid">3534137</infon>
+      <infon key="fpage">1297</infon>
+      <infon key="year">1986</infon>
+      <infon key="type">ref</infon>
+      <offset>49302</offset>
+      <text>The rate of killing of Escherichia coli by &#946;&#8208;lactam antibiotics is strictly proportional to the rate of bacterial growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">346</infon>
+      <infon key="pub-id_pmid">16212498</infon>
+      <infon key="fpage">319</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>49426</offset>
+      <text>Quorum sensing: cell&#8208;to&#8208;cell communication in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">35</infon>
+      <infon key="pub-id_pmid">22124480</infon>
+      <infon key="fpage">21</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>49485</offset>
+      <text>Emerging biomedical applications of synthetic biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Chem Biol</infon>
+      <infon key="lpage">1638</infon>
+      <infon key="pub-id_pmid">25455858</infon>
+      <infon key="fpage">1629</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49539</offset>
+      <text>Quorum&#8208;sensing crosstalk&#8208;driven synthetic circuits: from unimodality to trimodality</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23900497</infon>
+      <infon key="fpage">2226</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49627</offset>
+      <text>Nano&#8208;structured smart hydrogels with rapid response and high elasticity</text>
+    </passage>
+    <passage>
+      <infon key="volume">428</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">871</infon>
+      <infon key="pub-id_pmid">15064770</infon>
+      <infon key="fpage">868</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>49701</offset>
+      <text>Programmed population control&#160;by cell&#8208;cell communication and regulated killing</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Cancer Gene Ther</infon>
+      <infon key="lpage">343</infon>
+      <infon key="pub-id_pmid">20075981</infon>
+      <infon key="fpage">334</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>49783</offset>
+      <text>Tumor&#8208;targeted delivery of biologically active TRAIL protein</text>
+    </passage>
+  </document>
+</collection>

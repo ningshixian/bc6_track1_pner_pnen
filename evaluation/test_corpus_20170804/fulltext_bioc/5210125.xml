@@ -1,0 +1,1598 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5210125</id>
+    <passage>
+      <infon key="name_2">surname:Leu;given-names:Jun&#8208;Yi</infon>
+      <infon key="volume">18 18</infon>
+      <infon key="name_0">surname:Jhuang;given-names:Han&#8208;Ying</infon>
+      <infon key="name_1">surname:Lee;given-names:Hsin&#8208;Yi</infon>
+      <infon key="alt-title">Han&#8208;Ying Jhuang et al</infon>
+      <infon key="article-id_publisher-id">EMBR201643311</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embr.201643311</infon>
+      <infon key="lpage">101 101</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">87 87</infon>
+      <infon key="year">2017</infon>
+      <infon key="issue">1</infon>
+      <infon key="kwd">hybrid incompatibility mitochondrial&#8211;nuclear co&#8208;evolution PPR protein yeast speciation Evolution</infon>
+      <offset>0</offset>
+      <text>Mitochondrial&#8211;nuclear co&#8208;evolution leads to hybrid incompatibility through pentatricopeptide repeat proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>113</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>122</offset>
+      <text>Mitochondrial&#8211;nuclear incompatibility has a major role in reproductive isolation between species. However, the underlying mechanism and driving force of mitochondrial&#8211;nuclear incompatibility remain elusive. Here, we report a pentatricopeptide repeat&#8208;containing (PPR) protein, Ccm1, and its interacting partner, 15S rRNA, to be involved in hybrid incompatibility between two yeast species, Saccharomyces cerevisiae and Saccharomyces bayanus. S. bayanus&#8208;Ccm1 has reduced binding affinity for S. cerevisiae&#8208;15S rRNA, leading to respiratory defects in hybrid cells. This incompatibility can be rescued by single mutations on several individual PPR motifs, demonstrating the highly evolvable nature of PPR proteins. When we examined other PPR proteins in the closely related Saccharomyces sensu stricto yeasts, about two&#8208;thirds of them showed detectable incompatibility. Our results suggest that fast co&#8208;evolution between flexible PPR proteins and their mitochondrial RNA substrates may be a common driving force in the development of mitochondrial&#8211;nuclear hybrid incompatibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1214</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1227</offset>
+      <text>A critical step of speciation is the emergence of reproductive isolating barriers between diverging populations. These barriers are classified into two major forms: (i) prezygotic isolation caused by mating discrimination or unsuccessful gamete recognition, and (ii) postzygotic isolation caused by hybrid inviability or sterility. Identifying the molecular mechanisms underlying reproductive isolation would allow us to deduce the driving force of speciation. Yeasts have proven to be an excellent model organism for studying postzygotic isolation, helping to demonstrate the involvement of anti&#8208;recombination induced by DNA sequence divergence, chromosomal rearrangements, and genetic incompatibility 1, 2, 3, 4, 5. Apart from DNA sequence divergence, which can occur simply by mutation accumulation, development of postzygotic isolation is often deemed a by&#8208;product of adaptive selection 6. In the classical genetic incompatibility model, environmental adaptation is hypothesized to be an important force driving fixation of diverging alleles in different populations 7. However, many known instances of genetic incompatibility seem to be caused by susceptibility to mutation pressure and invasion of pathogens or selfish genetic elements 8. Fixation of divergent alleles involved in incompatibility can be achieved by repeated mutation compensation processes or during the resolution of genetic conflicts 9, 10. Drawing a general picture of how genetic incompatibility evolved entails identification of more incompatibility genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2766</offset>
+      <text>Mitochondrial&#8211;nuclear incompatibility is a specific form of Dobzhansky&#8211;Muller incompatibility 11, 12, 13. Mitochondria play essential roles in the survival, growth, and sexual reproduction of organisms 14. During evolution, selective pressures for better maintenance or enhanced fixation of beneficial mutations in mitochondrial genes have led to transfer of most mitochondrial genes to the nuclear genome, leaving only a handful of protein&#8208;coding genes in modern mitochondrial genomes (mtDNA) 15, 16, 17, 18. In the budding yeast S. cerevisiae, there are around 1,000 nucleus&#8208;encoded mitochondrial proteins, whereas the mtDNA encodes only eight proteins 19. Compared to the nuclear genome, the mutation rate of mtDNA is generally an order of magnitude higher 20. To maintain proper interactions, nucleus&#8208;encoded mitochondrial proteins may need to rapidly co&#8208;evolve with mtDNA 21, 22, 23. Consequently, mismatched mitochondrial and nuclear genomes have been observed to cause inter&#8208; or intraspecific hybrid incompatibilities in a broad range of species, even though the molecular basis of incompatibility was not identified in most cases 12, 24, 25, 26, 27, 28, 29, 30, 31, 32.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3958</offset>
+      <text>Among the closely related Saccharomyces sensu stricto yeast species, several genes involved in mitochondrial&#8211;nuclear hybrid incompatibility have been characterized at the molecular level. Nucleus&#8208;encoded Mrs1 regulates intron removal of the mitochondrion&#8208;encoded COX1 mRNA 33, 34, 35. Mrs1 splices two of the S. paradoxus COX1 introns, but one of these introns was lost in S. cerevisiae during evolution. S. cerevisiae Mrs1 fails to splice both introns of the S. paradoxus COX1 gene in hybrid cells, resulting in hybrid incompatibility between S. cerevisiae and S. paradoxus36. Nucleus&#8208;encoded Aim22 is an enzyme required for lipoylation of mitochondrial targets 37, 38, 39. S. cerevisiae Aim22 cannot function properly in an S. bayanus mitochondrial genomic background, though the incompatible interacting partners remain elusive 36. Similarly, Aep2 is a nucleus&#8208;encoded pentatricopeptide repeat (PPR) protein required for translation of OLI1 mRNA, which encodes for F0&#8208;ATP synthase subunit c 40, 41. S. bayanus Aep2 is incompatible with the S. cerevisiae OLI1 gene, so synthesis of the Oli1 protein is inhibited 29. Despite that the incompatibility of both Mrs1 and Aep2 involve protein&#8211;RNA interactions, it is necessary to identify more genes in order to elucidate whether this is a common mode of mitochondrial&#8211;nuclear incompatibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5314</offset>
+      <text>Pentatricopeptide repeat proteins are often observed to regulate mitochondrial RNA and these proteins constitute one of the largest protein families in eukaryotes, mainly contributed by expanded plant PPR genes 42. The pentatricopeptide repeat is a degenerate 35&#8208;amino acid structural motif, and multiple tandem PPR motifs in the PPR protein act in a coordinated modular manner, which might allow PPR proteins to evolve rapidly 43, 44, 45. In land plants, expansion of the PPR family has been speculated to have had important impacts on the evolution of organellar genome complexity 46. The S. cerevisiae genome contains 15 predicted PPR genes 41, 47. Deletion of PPR genes often leads to decreased respiratory growth in yeast 47, 48. Although these proteins have been shown to evolve more rapidly than the entire genome background in general, their evolutionary trajectories in closely related species have not been characterized 41.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6251</offset>
+      <text>In the present study, we employed a chromosomal replacement strategy to identify another PPR gene, CCM1, involved in hybrid incompatibility between S. cerevisiae and S. bayanus. This incompatibility was bidirectional and could be rescued by a variety of mutations in the PPR motifs. Subsequent systematic replacements of all yeast PPR genes with orthologs from closely related species revealed that PPR genes prevalently contribute to hybrid incompatibility among the Saccharomyces sensu stricto yeasts. Our results demonstrate that evolution of mitochondrial&#8211;nuclear incompatibility is prevalent in yeast species and PPR proteins play a large role in fast co&#8208;evolution of the two genomes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6945</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6953</offset>
+      <text>Chromosome 7 of Saccharomyces bayanus is incompatible with the Saccharomyces cerevisiae genome</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7048</offset>
+      <text>To identify genetic incompatibility between the two closely related yeast species, S. bayanus and S. cerevisiae, we previously constructed chromosome replacement lines in which one or two chromosomes were derived from S. bayanus, and the remaining chromosomes and mtDNA were from S. cerevisiae29. When all the chromosome replacement lines were examined, we noticed that the replacement line carrying S. bayanus chromosome 7 (Sc + Sb&#8208;chr7) exhibited obvious defects in both vegetative growth and sporulation, suggestive of defects in mitochondrial respiration. To address that we grew cells in medium containing only the nonfermentable carbon source (i.e., glycerol in the following experiments). The Sc + Sb&#8208;chr7 strain showed much reduced growth on glycerol&#8208;containing plates, indicating that the mitochondrial function of Sc + Sb&#8208;chr7 was compromised (Fig 1A). However, if we crossed Sc + Sb&#8208;chr7 with a S. cerevisiae haploid strain without mtDNA (Sc&#8208;&#961;&#8304;), the growth defect was fully rescued, suggesting that the mtDNA of Sc + Sb&#8208;chr7 is intact and the observed respiratory defect is recessive (Fig 1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8171</offset>
+      <text>CCM1 is involved in the incompatibility between S. bayanus chromosome 7 and the S. cerevisiae mitochondrial genome</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8286</offset>
+      <text>Chromosome 7 of S. bayanus is incompatible with the S. cerevisiae genome. The chromosome 7 replacement stain (Sc + Sb&#8208;chr7) exhibited serious growth defects when grown on the nonfermentable carbon source (glycerol). The respiration defects could be partially rescued when a whole set of S. bayanus chromosomes were provided (Sc + Sb&#8208;chr7 &#215; Sb&#8208;&#961;&#8304;), or fully rescued with the addition of S. bayanus mtDNA (Sc + Sb&#8208;chr7&#8208;&#961;&#8304; &#215; Sb). Cell cultures were serially diluted and spotted onto YPD (glucose) or YPG (glycerol) plates. The plates were then incubated at 28&#176;C until colonies were easily observed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8901</offset>
+      <text>Ectopically expressing Sc&#8208;CCM1 rescues the respiration defect of Sc + Sb&#8208;chr7. Spot assays for the wild&#8208;type S. cerevisiae (Sc) and the chromosome 7 replacement stain (Sc + Sb&#8208;chr7) carrying an empty plasmid (+ vector) or the plasmid with the S. cerevisiae CCM1 gene (+ Sc&#8208;CCM1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9191</offset>
+      <text>Sb&#8208;CCM1 incompatibility could only be rescued in the presence of S. bayanus mtDNA. The native CCM1 ORF in S. cerevisiae was replaced by either Sb&#8208;CCM1 (Sc + Sb&#8208;CCM1) or Sc&#8208;CCM1 (Sc + Sc&#8208;CCM1, as a control) coding regions. Crossing the Sc + Sb&#8208;CCM1 strain with the mtDNA&#8208;less Sb&#8208;&#961;&#8304; strain (Sc + Sb&#8208;CCM1 &#215; Sb&#8208;&#961;&#8304;) could not rescue the growth defect.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9565</offset>
+      <text>CCM1 incompatibility is symmetric between S. cerevisiae and S. bayanus. The CCM1 ORF in S. bayanus was replaced by either Sc&#8208;CCM1 (Sb + Sc&#8208;CCM1) or Sb&#8208;CCM1 (Sb + Sb&#8208;CCM1, as a control) coding regions. Only the Sb + Sc&#8208;CCM1 strain exhibited respiration defects and the defect could not be rescued even when a whole set of S. cerevisiae chromosomes were provided (Sb + Sc&#8208;CCM1 &#215; Sc&#8208;&#961;&#8304;).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9968</offset>
+      <text>CCM1 incompatibility probably occurred during the divergence between S. bayanus and the common ancestor of S. cerevisiae, S. paradoxus, S. mikatae, and S. kudriavzevii. The endogenous CCM1 in S. cerevisiae was replaced with its orthologous alleles from other Saccharomyces sensu stricto yeasts. Only the strain carrying S. bayanus CCM1 displayed growth defects on glycerol&#8208;containing plates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10362</offset>
+      <text>Data information: Sc, S. cerevisiae. Sb, S. bayanus. &#961;&#8304;, mtDNA&#8208;less strains.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10444</offset>
+      <text>The respiratory defect of Sc + Sb&#8208;chr7 might result from incompatibility between S. bayanus chromosome 7 and other S. cerevisiae chromosomes or mtDNA. To address this issue, we generated two hybrid diploids: In the first one (Sc + Sb&#8208;chr7 &#215; Sb&#8208;&#961;&#8304;), a whole set of S. bayanus chromosomes were provided but mtDNA was from S. cerevisiae, and in the second hybrid (Sc + Sb&#8208;chr7&#8208;&#961;&#8304; &#215; Sb), it contained both S. bayanus chromosomes and mtDNA. The chr 7 incompatibility was fully rescued in the second hybrid, but only partially rescued in the first one (Fig 1A). These results indicate that the incompatibility is mainly between S. bayanus chromosome 7 and S. cerevisiae mtDNA (Sc&#8208;mtDNA), and the interactions between different chromosomes only contribute minor effects.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11228</offset>
+      <text>CCM1 is involved in the incompatibility between Saccharomyces bayanus chromosome 7 and the Saccharomyces cerevisiae mitochondrial genome</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11365</offset>
+      <text>We performed a genomic DNA library screen to search for S. cerevisiae gene(s) that could rescue the growth defect of Sc + Sb&#8208;chr7 on glycerol plates. Two different clones were obtained from the screen and both of them contained the full&#8208;length S. cerevisiae CCM1 gene (Sc&#8208;CCM1), which is also located on chromosome 7. To verify the involvement of CCM1 in hybrid incompatibility, we PCR&#8208;amplified the CCM1 gene from S. cerevisiae genomic DNA, cloned it into a single&#8208;copy plasmid, and tested its ability to rescue the growth defect of Sc + Sb&#8208;chr7. Expression of Sc&#8208;CCM1 in Sc + Sb&#8208;chr7 exhibited a considerable rescue effect (Fig 1B). We also constructed allele replacement strains in which the native CCM1 ORF in S. cerevisiae was replaced by the S. bayanus CCM1 orthologous allele and a nutrient marker (HIS3) or simply placed the nutrient marker in the downstream of CCM1 as a control (Sc + Sb&#8208;CCM1 and Sc + Sc&#8208;CCM1, respectively). Only the Sc + Sb&#8208;CCM1 strain showed substantial growth defects on glycerol plates, suggesting that the Sb&#8208;Ccm1 protein is incompatible with the S. cerevisiae genetic background (Fig 1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12511</offset>
+      <text>In S. cerevisiae, CCM1 encodes a mitochondrial protein essential for pre&#8208;mRNA intron removal of two mtDNA&#8208;encoded genes, COX1 and COB49. In addition, the Ccm1 protein directly interacts and stabilizes mitochondrial 15S rRNA 50. Therefore, CCM1 incompatibility is likely related to its functions in the mitochondria. We tested this idea by crossing the Sc + Sb&#8208;CCM1 strain to S. bayanus with or without mtDNA. Sb&#8208;CCM1 incompatibility could only be rescued in the presence of the S. bayanus mtDNA (Sc + Sb&#8208;CCM1&#8208;&#961;&#8304; &#215; Sb), indicating that Sb&#8208;CCM1 is incompatible with Sc&#8208;mtDNA (Fig 1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13114</offset>
+      <text>CCM1 incompatibility is symmetric between Saccharomyces cerevisiae and Saccharomyces bayanus</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13207</offset>
+      <text>Hybrid incompatibility caused by two interacting genetic loci may be unidirectional (asymmetric) if one of the loci remains the ancestral form in parental populations. Alternatively, if both loci have changed, as might be the case of fast&#8208;evolving genes, the incompatibility could be bidirectional (symmetric). The mitochondrial&#8211;nuclear incompatibilities identified in previous yeast studies are all asymmetric 29, 36. To characterize the symmetry of CCM1 incompatibility, we replaced the native CCM1 ORF in S. bayanus with the coding region of Sc&#8208;CCM1 and a nutrient marker (HIS3), or simply placed the nutrient marker downstream of Sb&#8208;CCM1 as a control (Sb + Sc&#8208;CCM1 or Sb + Sb&#8208;CCM1, respectively), and examined their fitness. The Sb + Sc&#8208;CCM1 strain exhibited growth defects when cultured on glycerol&#8208;containing plates (Fig 1D). Furthermore, the incompatibility could be rescued by crossing Sb + Sc&#8208;CCM1 with the S. bayanus &#961;&#8304; strain to supply a whole set of S. bayanus chromosomes, but was not rescued when crossed with the S. cerevisiae &#961;&#8304; strain (Fig 1D). The results indicate that CCM1 is involved in a symmetric mito&#8208;nuclear incompatibility between S. cerevisiae and S. bayanus.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14420</offset>
+      <text>Both S. cerevisiae and S. bayanus belong to the Saccharomyces sensu stricto group. To fine&#8208;map in which branch CCM1 incompatibility evolved, we replaced native CCM1 in S. cerevisiae with its orthologous alleles from other Saccharomyces sensu stricto yeasts, including S. paradoxus, S. mikatae, or S. kudriavzevii. We found that only the CCM1 orthologous allele from S. bayanus was incompatible with the S. cerevisiae genetic background (Fig 1E). These results suggest that CCM1 incompatibility probably occurred during the divergence between S. bayanus and the common ancestor of S. cerevisiae, S. paradoxus, S. mikatae, and S. kudriavzevii.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15064</offset>
+      <text>Sb&#8208;CCM1 incompatibility leads to reduced levels of mitochondrial 15S rRNA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15140</offset>
+      <text>One possible explanation for the Sb&#8208;CCM1 incompatibility is that the Sb&#8208;Ccm1 protein cannot be transported efficiently to Sc&#8208;mitochondria. We used subcellular fractionation to determine the localization of Ccm1. Mitochondria from wild&#8208;type S. cerevisiae strains carrying Sc&#8208;CCM1&#8208;13Myc or Sb&#8208;CCM1&#8208;13Myc were isolated and examined using Western blotting. Although a low level of Sb&#8208;Ccm1 was detected in the cytosolic fraction, the majority of Sb&#8208;Ccm1 localized to mitochondria, indicating that mislocalization was not the cause of hybrid incompatibility (Fig 2A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15722</offset>
+      <text>CCM1 incompatibility results in reduced levels of 15S rRNA and mtDNA&#8208;encoded proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15810</offset>
+      <text>Sb&#8208;Ccm1 protein is transported efficiently to S. cerevisiae mitochondria. Total cell extracts (total), cytosolic fractions (cyto), or mitochondrial fractions (mito) were hybridized with different antibodies to detect the proteins. G6PDH (glucose&#8208;6&#8208;phosphate dehydrogenase) and Cox2 served as cytosolic and mitochondrial markers, respectively. Both Sc&#8208;Ccm1 and Sb&#8208;Ccm1 were fused with c&#8208;Myc at the C&#8208;terminus and expressed from a single&#8208;copy plasmid. The Myc&#8208;tagged Ccm1 proteins consistently appeared as double bands, which was probably due to some unknown protein modifications.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16408</offset>
+      <text>The level of 15S rRNA is reduced in Sc + Sb&#8208;CCM1 cells. RNA isolated from Sc + Sb&#8208;CCM1 (labeled as Sb) or Sc + Sc&#8208;CCM1 (labeled as Sc) cells was hybridized with gene&#8208;specific probes using Northern blots.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16620</offset>
+      <text>Sb&#8208;Ccm1 interacts weakly with S. cerevisiae 15S rRNA. The level of Ccm1&#8208;bound 15S rRNA was measured using quantitative PCR analysis following mitochondrial RNA immunoprecipitation of S. cerevisiae cells expressing Sc&#8208;CCM1&#8208;13Myc or Sb&#8208;CCM1&#8208;13Myc. Data were normalized to the control group without the Myc tag to obtain the relative fold enrichment. Graph was plotted using data from three independent repeats for each strain, and P&#8208;value was calculated by unpaired, two&#8208;sided Student's t&#8208;test. Error bars indicate SD. ***P&#8208;value &lt; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17177</offset>
+      <text>Overexpression of Sb&#8208;CCM1 rescues the respiration defect of Sc + Sb&#8208;CCM1 cells. Cell cultures were serially diluted and spotted onto YPD (glucose) or YPG (glycerol) plates. The plates were then incubated at 28&#176;C until colonies were easily observed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17431</offset>
+      <text>The steady&#8208;state level of mtDNA&#8208;encoded proteins is reduced in Sc + Sb&#8208;CCM1 cells. Immunoblotting for the mitochondrial proteins in Sc + Sb&#8208;CCM1 (labeled as Sb) or Sc + Sc&#8208;CCM1 (labeled as Sc) cells. Cox1, Cox2, and Cox3 are mtDNA&#8208;encoded complex IV subunits. Tom20 is a nucleus&#8208;encoded mitochondrial protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17755</offset>
+      <text>Because Ccm1 affects both pre&#8208;mRNA splicing of COX1 and COB, and stability of 15S rRNA 49, 50, 51, we used Northern blots to examine whether the steady&#8208;state levels or maturation of the transcripts from mtDNA&#8208;encoded genes was affected in the Sc + Sb&#8208;CCM1 strain. For all the examined mtDNA&#8208;encoded genes, only 15S rRNA showed a reduced level in Sc + Sb&#8208;CCM1 cells (Fig 2B). No differences were detected in the mRNA levels of COX1 and COB between the Sc + Sb&#8208;CCM1 and Sc + Sc&#8208;CCM1 strains. To elucidate the mechanism underlying reduced levels of 15S rRNA, we tested whether the interaction between 15S rRNA and the Sb&#8208;Ccm1 protein is impeded in Sc + Sb&#8208;CCM1 cells. We expressed either C&#8208;terminally Myc&#8208;tagged Sc&#8208;Ccm1 or Sb&#8208;Ccm1 in S. cerevisiae strains, isolated the mitochondria, and then immunoprecipitated Ccm1 via the anti&#8208;Myc antibody. The level of Ccm1&#8208;bound 15S rRNA was then measured using real&#8208;time quantitative PCR, and the mRNAs of a nucleus&#8208;encoded gene TDH3 and a mtDNA&#8208;encoded gene COB were used as the negative controls (see Materials and Methods). We found that levels of co&#8208;immunoprecipitated S. cerevisiae 15S rRNA were more enriched in the strains carrying Sc&#8208;Ccm1 than those with Sb&#8208;Ccm1 (330.0 &#177; 15.4 vs. 7.1 &#177; 0.4 fold enrichment relative to controls without tagging, Fig 2C), while the transcripts of the negative controls were not detected in the elutes. These results suggest that Sb&#8208;CCM1 may function as a hypomorphic mutant of Sc&#8208;CCM1, and the weakened interaction between Sb&#8208;Ccm1 and 15S rRNA might be responsible for the reduced level of 15S rRNA. To further test this weak allele idea, we overexpressed Sb&#8208;CCM1 in S. cerevisiae using a 2&#8208;micron multi&#8208;copy plasmid (pRS426). Indeed, the respiratory defect of Sc + Sb&#8208;CCM1 cells was largely rescued by overexpression of Sb&#8208;CCM1 (Fig 2D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19633</offset>
+      <text>15S rRNA is an essential component of mitochondrial ribosomes. The decrease in 15S rRNA is likely to cause a reduction in translation of mitochondrion&#8208;encoded proteins. We used Western blots to examine Cox1, Cox2, and Cox3, that is, the subunits of mitochondrial complex IV (cytochrome c oxidase) that are encoded on the mtDNA. The steady&#8208;state protein levels of Cox1, Cox2, and Cox3 were all reduced in the Sc + Sb&#8208;CCM1 strain (Fig 2E). In contrast, the nucleus&#8208;encoded mitochondrial protein, Tom20, was maintained at similar levels in the Sc + Sb&#8208;CCM1 and Sc + Sc&#8208;CCM1 strains.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20225</offset>
+      <text>Experimental evolution to isolate mutations that can rescue CCM1 incompatibility</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20306</offset>
+      <text>Sc&#8208;Ccm1 is a large protein (864 a.a.) and it only shares 72% protein identity with Sb&#8208;Ccm1. To dissect the molecular detail of CCM1 incompatibility, we used an experimental evolution approach to isolate the mutations that could rescue the incompatibility. Single colonies of Sc + Sb&#8208;CCM1 cells were used to initiate 98 independent cell cultures, and the cultures were continuously propagated in glycerol&#8208;containing medium (see Materials and Methods). Under this selective regime, cells containing spontaneous mutations that rescued the respiratory defects of Sc + Sb&#8208;CCM1 would grow more quickly and be enriched in the population. After selection, only one colony with improved fitness was selected from each cell culture for further analysis. Therefore, mutations identified from each colony were likely to represent an independent event. We collected 94 mutant clones in total because four of the cell cultures were contaminated during the experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21270</offset>
+      <text>Next, we crossed the mutant clones with an isogenic Sc + Sb&#8208;CCM1&#8208;&#961;&#8304; strain in which mtDNA had been deleted and a different nutrient marker (URA3) was inserted next to the Sb&#8208;CCM1 gene. The diploid cells were then induced to enter meiosis, and their tetrads were analyzed. If the suppressor mutation occurred in mtDNA, the spores would display a non&#8208;Mendelian 4:0 segregation pattern for improved respiration (Fig 3A). In contrast, a 2:2 segregation pattern would be observed if the rescue effect involved a single nuclear mutation. Since the two alleles of Sb&#8208;CCM1 were next to different nutrient markers (URA3 or HIS3), we could easily check whether the suppressor mutations co&#8208;segregated with the Sb&#8208;CCM1 gene. The evolved Sb&#8208;CCM1 gene was sequenced if it was linked with the suppressor mutation. Among 94 evolved clones, two clones carried mtDNA suppressors, 20 clones carried mutations in the Sb&#8208;CCM1 gene, and the remainder contained mutations in unknown nuclear genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22266</offset>
+      <text>Incompatibility of Sb&#8208;CCM1 can be relieved by mutations in the mitochondrial genome</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22352</offset>
+      <text>Tetrad analysis reveals that the respiration defect of Sc + Sb&#8208;CCM1 cells can be rescued by mutations in mitochondrial or nuclear genomes. The suppressor clones were crossed with the Sc + Sb&#8208;CCM1&#8208;&#961;&#8304; strain and the tetrads from the cross were analyzed. A non&#8208;Mendelian 4:0 segregation pattern for improved respiration is expected if the suppressor mutation is in mtDNA (left panel). Otherwise, a 2:2 segregation pattern would be observed if the rescue effect involved a single nuclear mutation (right panel).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22871</offset>
+      <text>Partial sequence alignment of 15S rRNA from S. bayanus, S. cerevisiae, and two mitochondrial suppressor clones (#1 and #2) of Sc + Sb&#8208;CCM1. A single nucleotide deletion at position 188 and four nucleotide substitutions at positions 1,524&#8211;1,527 found in both suppressor clones are labeled in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23171</offset>
+      <text>For those clones carrying mtDNA suppressors, the rescue effect was further confirmed by reintroducing their mtDNA into an ancestral Sc + Sb&#8208;CCM1&#8208;&#961;&#8304; strain, indicating that no nuclear mutations were involved. Because our experiments had shown that S. cerevisiae 15S rRNA interacted with Sb&#8208;Ccm1 more weakly than its interaction with Sc&#8208;Ccm1, we directly sequenced evolved mitochondrial 15S rRNA to see whether it had been modified. Interestingly, both mitochondrial suppressor clones shared similar mutations, a single nucleotide deletion at position 188 and four nucleotide substitutions at positions 1,524&#8211;1,527 (Fig 3B). Although we cannot rule out the possibility that the rescue effects arose from unidentified mutations elsewhere in the evolved mtDNA, these results clearly show that the compatibility status of mito&#8208;nuclear interactions can be changed by evolving either side of the interaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24088</offset>
+      <text>Changes in the PPR domain of Sb&#8208;CCM1 rescue the incompatibility</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24154</offset>
+      <text>For the Sb&#8208;CCM1 mutant clones, we first PCR&#8208;amplified the Sb&#8208;CCM1 sequences from the suppressor genomes, reintroduced them into wild&#8208;type S. cerevisiae cells, and tested for their compatibility by growing the cells on glycerol plates. All the Sb&#8208;CCM1 mutants were confirmed to have regained compatibility with the S. cerevisiae genome (Fig 4A). Interestingly, most of the mutations were de novo amino acid changes and only two mutants had changed their residues from the S. bayanus sequence to the S. cerevisiae sequence (Sb&#8208;CCM1F294L and Sb&#8208;CCM1D400N). Because the D residue at position 400 is conserved between S. bayanus and the outgroup species Naumovia castellii, and it has become N in S. cerevisiae, S. paradoxus, S. mikatae, and S. kudriavzevii, it suggests that the D and N residues probably represent the ancestral and derived amino acid states, respectively (Fig 4B). The unequivocal correlation between the compatibility and the amino acid states of the 400th residue in S. cerevisiae prompted us to test the importance of this residue in S. bayanus. Indeed, the D400N substitution, but not E375Q (a de novo substitution that repeatedly appeared in three independent clones), in Sb&#8208;CCM1 caused a severe respiratory defect in S. bayanus (Fig 4C), suggesting that the 400th residue plays a determinant role in S. cerevisiae&#8211;S. bayanus incompatibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25534</offset>
+      <text>Changes in the PPR domain of Sb&#8208;CCM1 rescue the incompatibility</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25600</offset>
+      <text>Reconstituted Sb&#8208;CCM1 mutants can rescue the incompatibility of Sb&#8208;CCM1. Among 94 suppressor clones, 20 of them carry mutations in the Sb&#8208;CCM1 gene. These mutants were reconstructed in Sc + Sb&#8208;CCM1 cells to test their function. Superscripts next to Sb&#8208;CCM1 indicate the respective amino acid substitutions, and numbers in parentheses indicate the number of independent clones in our suppressor screen. Sc, wild&#8208;type S. cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26043</offset>
+      <text>Sequence alignment shows that most of the Sb&#8208;CCM1 suppressor mutants contain de novo amino acid changes and only two mutants have switched their residues from the S. bayanus sequence to the S. cerevisiae sequence (F294L and D400N). Letters beside the phylogenetic tree (in which the line lengths are not proportional to the evolutionary distances) indicate the amino acid state at the 400th residue and parentheses contain the codons encoding for the amino acids.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26509</offset>
+      <text>The 400th residue plays a determinant role in the S. cerevisiae&#8211;S. bayanus incompatibility. Both Sb&#8208;CCM1E375Q and Sb&#8208;CCM1D400N mutants relieved the incompatibility in S. cerevisiae, but only Sb&#8208;CCM1D400N caused respiration defects in S. bayanus. The Sb&#8208;CCM1E375Q mutant was selected as a control in this experiment since it was a charged&#8208;to&#8208;polar substitution similar to Sb&#8208;CCM1D400N and also appeared three times in our screen. Sb, wild&#8208;type S. bayanus.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26982</offset>
+      <text>Protein structural analysis shows that all intramolecular suppressor mutations were located on the predicted PPR motifs. The predicted protein structure of Ccm1 is shown on the left. Blue and green colors indicate the two &#945;&#8208;helices in each predicted PPR motif and white color indicates additional &#945;&#8208;helices in the N&#8208;terminus and the middle region. Red color indicates the positions of the suppressor mutations. Predicted PPR motifs occupy around 52% of the whole protein (453 of 871 residues). The box on the right displays a magnified version of some PPR motifs where the substitutions are located.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27590</offset>
+      <text>In the suppressor clones, several mutants (Sb&#8208;CCM1Q372H, Sb&#8208;CCM1E375Q, and Sb&#8208;CCM1E375K) appeared multiple times, indicating that our suppressor screen was close to saturation. In total, 16 unique Sb&#8208;CCM1 mutants were identified. When the structural positions of these suppressor mutations were further analyzed, it revealed the striking feature that all mutations were located at predicted PPR motifs (Fig 4D and Appendix Table S1 according to 41). PPR domains have been speculated to provide the interface for RNA binding 46. Our result shows that interactions between Ccm1 and 15S rRNA could be improved by modifying different PPR motifs, suggesting that the PPR motif is highly flexible.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28290</offset>
+      <text>The levels of mtDNA&#8208;encoded proteins and 15S rRNA are improved in the suppressor clones</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28380</offset>
+      <text>In the Sc + Sb&#8208;CCM1 strain, we have found that the weakened interaction between Sb&#8208;Ccm1 and S. cerevisiae 15S rRNA resulted in reduced levels of 15S rRNA and mtDNA&#8208;encoded Cox proteins. If the suppressor mutations rescued the Sb&#8208;CCM1 incompatibility via improvements in RNA binding, the 15S rRNA level and thus mtDNA&#8208;encoded protein levels should be restored at least partially. We tested this idea by measuring the levels of 15S rRNA in two nuclear suppressor (Sb&#8208;CCM1D400N and Sb&#8208;CCM1E375Q) and one mitochondrial suppressor strains using quantitative PCR. Indeed, all three suppressor strains exhibited significant increments in 15S rRNA even though they have not reached the wild&#8208;type level (Fig 5A). To know whether the increased 15S rRNA levels were enough to rescue the defect in mitochondrial protein translation, we examined mtDNA&#8208;encoded Cox1, Cox2, and Cox3 using Western blots. The abundance of these proteins was significantly improved in the suppressor strains (Fig 5B). These data show that both nuclear and mitochondrial suppressors rescued the incompatibility through increased levels of 15S rRNA and mitochondrial protein translation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29550</offset>
+      <text>Suppressor mutations partially restored the levels of 15S rRNA and mtDNA&#8208;encoded proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29642</offset>
+      <text>15S rRNA levels are increased in the suppressor clones. Total RNA was isolated from the replacement strains (Sc + Sc&#8208;CCM1 and Sc + Sb&#8208;CCM1), two nuclear suppressor strains (Sc + Sb&#8208;CCM1D400N and Sc + Sb&#8208;CCM1E375Q), and one mitochondrial suppressor strain and then subjected to quantitative PCR analyses. Relative mRNA abundance was calculated by normalizing the 15S rRNA level to the ATP6 mRNA level. Graph was plotted using data from five independent repeats for each strain, and P&#8208;values were calculated by unpaired, two&#8208;sided Student's t&#8208;test. Error bars indicate SD. ***P&#8208;value &lt; 0.001. **P&#8208;value &lt; 0.01. Asterisks in black, comparing Sc + Sc&#8208;CCM1 with others. Asterisks in gray, comparing Sc + Sb&#8208;CCM1 with others.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30384</offset>
+      <text>The steady&#8208;state level of mtDNA&#8208;encoded proteins is increased in the suppressor clones. Protein extracts from the replacement and suppressor strains were hybridized with antibodies against G6PDH, Cox1, Cox2, or Cox3.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30605</offset>
+      <text>Hybrid incompatibility caused by PPR proteins is prevalent among Saccharomyces sensu stricto yeast species</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30712</offset>
+      <text>Pentatricopeptide repeat proteins belong to the largest RNA&#8208;binding protein family in eukaryotes that function mostly in mitochondria or chloroplasts 46. In the S. cerevisiae genome, there are 15 predicted PPR genes. Previously, it has been speculated that genes involved in hybrid incompatibility may evolve more rapidly 52. We calculated the evolutionary rates of PPR proteins together with other protein families that shared similar features, including the MRP (required for mitochondrial protein translation), TRP (proteins with repetitive tandem motifs), RRM, and PUF (RNA&#8208;binding proteins) families. Interestingly, only PPR proteins exhibited significantly increased evolutionary rates (Fig 6A and Appendix Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31438</offset>
+      <text>Many PPR genes evolve hybrid incompatibility in Saccharomyces sensu stricto yeasts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31521</offset>
+      <text>PPR genes show significantly increased evolutionary rates. Box plot of the evolutionary rates (Ka/Ks) of PPR, TPR, RRM, MRP, and PUF genes and the whole genome by comparing S. cerevisiae and S. paradoxus. All these protein families share some features with the PPR proteins. TPR proteins contain TPR motifs that share a similar repetitive structure with the PPR motifs but mainly mediate protein&#8211;protein interactions 94. RRM proteins are RNA recognition motif&#8208;containing proteins and function in splicing, RNA stability, and translation 95. MRP proteins comprise ribosomal proteins encoded in the nuclear genome that are imported into the mitochondria 96. PUF proteins contain RNA&#8208;binding motifs similar to the PPR motifs and are involved in mRNA posttranscriptional events, including mitochondrial import of mRNA 97. P&#8208;values were calculated by two&#8208;sample Kolmogorov&#8211;Smirnov test. **P&#8208;value = 7.0143E&#8208;3. The bottom and top of the box are the first and third quartiles of the data, and the red band inside is the median. The ends of the whiskers represent the lowest and highest data points within 1.5 interquartile range of the lower and upper quartiles, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32707</offset>
+      <text>Seven of the 12 tested PPR genes exhibit incompatibility between S. cerevisiae and at least one other Saccharomyces sensu stricto species. The doubling time of S. cerevisiae cells carrying the endogenous PPR genes (Sc) or orthologs of other yeast species (Sp, Sm, Sk, and Sb) were measured in YPD (glucose) or YPG (glycerol) media. All the measurements were then normalized to the doubling time of Sc to obtain the relative doubling time. Graphs were plotted using data from at least three independent repeats for each strain. Sc, S. cerevisiae. Sp, S. paradoxus. Sm, S. mikatae. Sk, S. kudriavzevii. Sb, S. bayanus. n.d., growth not detected. P&#8208;values were calculated by unpaired, two&#8208;sided Student's t&#8208;test. Error bars indicate SD. *P&#8208;value &lt; 0.05. **P&#8208;value &lt; 0.01. ***P&#8208;value &lt; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33508</offset>
+      <text>Yeast mtDNA is highly dynamic in its genome structure and has much higher base substitution rates than the nuclear genome 20, 53, 54, 55. If co&#8208;evolution between mitochondrial RNA and the RNA&#8208;binding PPR protein led to the observed high evolutionary rates of PPR proteins, PPR proteins might have a higher chance to develop genetic incompatibility among closely related yeast species. We used functional assays to investigate whether PPR genes other than CCM1 and AEP2 also contribute to hybrid incompatibility among Saccharomyces sensu stricto yeast species. In order to detect the mito&#8208;nuclear incompatibility caused by PPR genes, we first crossed the S. cerevisiae mutant strains lacking individual PPR genes with mtDNA&#8208;less strains of S. paradoxus, S. mikatae, S. kudriavzevii, and S. bayanus, and examined their growth in glycerol&#8208;containing medium. If any growth defect was observed in the hybrid diploids, we further validated the incompatibility by expressing the orthologous alleles in the S. cerevisiae deletion strains (see Materials and Methods). One of the PPR genes, RMD9L, showed no detectable growth defects in glycerol&#8208;containing medium when deleted in S. cerevisiae. Therefore, this gene was excluded from our assays. We examined 12 additional PPR genes and found that seven of them (AEP1, AEP3, MRX1, PET111, PET309, RPM2, and RPO41) displayed various levels of incompatibility between S. cerevisiae and at least one Saccharomyces sensu stricto species (Fig 6B and Table 1). In total, nine out of 14 PPR genes in the yeast genome have evolved incompatibility among these closely related yeast species. As a control, we also tested six MRP genes under the same conditions and observed no discernible incompatibility (Appendix Table S2). These results suggest that mitochondrial&#8211;nuclear incompatibility is prevalent among Saccharomyces sensu stricto yeast species and the highly evolvable PPR proteins may have a major contributory role in the evolution of hybrid incompatibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>35520</offset>
+      <text>Genetic incompatibility of PPR genes among Saccharomyces cerevisiae and other Saccharomyces sensu stricto yeasts</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>35633</offset>
+      <text>   Protein Location Functiona Mitochondrial targeta Incompatibility Incompatible species References   Aep1 Chr 13 Translation of ATP9 ATP9 Strongb,c S. bayanus 47  Aep2 Chr 13 Translation of ATP9 ATP9 Strongd S. bayanus 2947  Aep3 Chr 16 Stabilization of ATP6/8 ATP6/8 Mildb,c S. paradoxus 47  Atp22 Chr 4 Translation of ATP6/8 ATP6/8 Nob,c  47  Pet309 Chr 12 Stabilization and translation of COX1 COX1 Mildb,c S. mikataeS. kudriavzeviiS. bayanus 47  Ccm1 Chr 7  Stabilization of 15S rRNA Processing of COX1, COB 15S rRNACOX1, COB Mildb,c S. bayanus 47495051  Cbp1 Chr 10 Stabilization and translation of COB COB Nob,c  47  Pet111 Chr 13 Translation of COX2 COX2 Weakb,c S. mikatae 47  Rmd9 Chr 7 Delivering into ribosomes All mRNAs? Noc  47  Rpm2 Chr 13 Mitochondrial RNase P All tRNAs Strongc,e S. paradoxus&gt;S. mikataeS. kudriavzeviiS. bayanus 47  Rpo41 Chr 6 Mitochondrial RNA polymerase All RNAs Weakc S. kudriavzevii 47  Sov1 Chr 13 Unknown; mutant is defective in mitochondrial respiration VAR1 Nob  47  Rmd9L Chr 2 Processing/stability of mitochondrial mRNAs; mutant is not defective in mitochondrial respiration All mRNAs? n.d.  47  Msc6 Chr 15 Multicopy suppressor of her2 involved in mitochondrial translation Unknown Nob  4798  Mrx1 Chr 5 Organization of mitochondrial gene expression Unknown Weakb,c S. mikatae 4798</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>36961</offset>
+      <text>n.d., not determined since corresponding deletion strain has no respiratory defect.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37045</offset>
+      <text>Information obtained from the reference.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37086</offset>
+      <text>Evaluated via complementation assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37124</offset>
+      <text>Evaluated via plasmid assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37154</offset>
+      <text>Previous report.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>37171</offset>
+      <text>Showing strong defects in both glucose and glycerol media.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>37230</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37241</offset>
+      <text>The general rules underlying the development of hybrid incompatibility remain unclear despite several incompatibility genes having been identified and characterized during the past decade 10. Nonetheless, it appears that incompatibilities between nuclear and organellar genomes is a widespread phenomenon across multiple eukaryotic kingdoms 12. Previously, two genes encoding mitochondrial RNA&#8208;binding proteins have been identified to cause mitochondrial&#8211;nuclear incompatibility among closely related yeast species 29, 36. In the current study, we further demonstrate that about two&#8208;thirds of budding yeast PPR proteins have evolved incompatibility among the Saccharomyces sensu stricto yeasts. Together with the observation that PPR proteins exhibit a higher evolutionary rate not found in other RNA&#8208;binding proteins, it suggests that PPR proteins may play a specific role in the development of hybrid incompatibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38169</offset>
+      <text>Pentatricopeptide repeat proteins were first discovered in plants and had expanded dramatically during the evolution of land plants 46, 56. Studies indicate that these PPR proteins are involved in various aspects of RNA processing 42. Co&#8208;evolution between plant PPR proteins and organellar genomes has been demonstrated 57, 58, and consistent with yeast PPR proteins, these plant PPR proteins are also fast&#8208;evolving 59, 60, 61. The role of PPR proteins in hybrid incompatibility was previously demonstrated in cytoplasmic male sterility (CMS) in hybrid plants 62, 63. CMS is caused by aberrant recombinant events in the mtDNA and can be rescued by nucleus&#8208;encoded restorer of fertility (Rf) genes 31, 64. Several Rf genes have been shown to belong to the PPR protein family 65, 66. In a study of Mimulus species, two linked loci responsible for hybrid incompatibility were found to contain a large number of recently expanded PPR genes, and these genes showed high homology to restorers in distantly related taxa 64. These findings suggest that plant PPR genes co&#8208;evolved with mtDNA to control its abnormal behavior 65, 66, 67.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39305</offset>
+      <text>Pentatricopeptide repeat motifs act in a coordinated manner; each base of the RNA target is recognized by two consecutive PPR motifs 43, 44, 45. Our suppressor screen revealed how rapidly the CCM1 gene can reclaim compatibility when encountering an incompatible foreign mtDNA (Fig 4). Importantly, substitutions capable of rescuing incompatibility need not be located on a specific PPR motif, further supporting the idea that the coordinated action of PPR motifs might exert an intramolecular buffering effect to increase the flexibility of PPR proteins 41. One possible scenario is that the flexibility of PPR proteins allows a population to accumulate more mutations in the PPR genes, and such genetic variation further enables cells to tolerate changes in the RNA targets of PPR proteins resulting from genetic drift or selection. However, if co&#8208;evolutionary processes are driven in different directions between two populations, incompatibility caused by mismatched PPR genes and RNA targets may eventually occur in hybrids.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40335</offset>
+      <text>Dysfunctional mitochondria have been implicated in many human diseases, including neuronal degeneration and cancer 68, 69. Intriguingly, many pathogenic mutations detected in genomewide association studies (GWAS) are also found as sequence variants in normal populations 70, 71, 72, raising the possibility that some pathogenic mutations may have been maintained through the process of mitochondrial&#8211;nuclear co&#8208;evolution. Indeed, compromised mitochondrial functions have been experimentally demonstrated using human cybrid cells in which mtDNA variants are combined with different nuclear backgrounds 73, 74. In a recent study, it was further shown that mice with mismatched mitochondrial and nuclear genomes exhibit disturbed organismal metabolic performance and aging 75. These observations suggest that mitochondrial&#8211;nuclear incompatibilities might already exist in human populations and contribute to the observed mitochondrial disorders.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41284</offset>
+      <text>It is often speculated that the high mutation rate of mtDNA is the major force driving the evolution of mitochondrial&#8211;nuclear incompatibility; when deleterious mutations in mtDNA are fixed in the population by genetic drift, compensatory nuclear mutations will be selected to rescue the fitness. Such co&#8208;evolutionary processes will eventually differentiate a population from its ancestor or other populations in which co&#8208;evolution is taking different trajectories 21, 22, 23, 26, 30. However, it has recently been suggested that more complicated interactions, such as genomic conflicts, may speed up the co&#8208;evolutionary process between mitochondrial and nuclear genomes 9, 55. As the replication of mtDNA is autonomous&#8212;replicating independently of the cell cycle&#8212;mutations that expedite mtDNA replication or that directly act on transmission to daughter cells will spread into the population even if they are not beneficial to the host. Moreover, because the inheritance of mtDNA is mainly asexual, whatever deleterious mutations occur in selfish mtDNA will hitchhike with it. Similar to the mutation accumulation model, host genomes need to offset these selfish or deleterious mutations to prevent the population from extinction. Nonetheless, the whole process is much faster than genetic drift, because the spread of mtDNA mutations in the first instance is driven by selection 55.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42680</offset>
+      <text>While the high mutation rate or selfish behavior of mtDNA constantly threatens the stability of the symbiotic relationship between mitochondrial and nuclear genomes, the highly flexible PPR proteins might represent a special defense system of the host cell. In yeast, two&#8208;thirds of PPR proteins have changed to accommodate alterations of their RNA targets in mitochondria during the recent divergence in Saccharomyces sensu stricto species. The Rf genes in plants provide further evidence that PPR proteins are able to counteract the selfish behavior of mtDNA 64, 66. PPR proteins have been identified in fungi, plants, and animals 41, 46, 76. Although mtDNA sizes vary significantly between different eukaryotic lineages, complicated mitochondrial RNA regulation has been observed even in human cells that carry very small mtDNA (consisting of only 16 kb) 77, 78. This may explain why cells employ the versatile RNA regulatory functions of PPR proteins to control mtDNA. In the future, it will be interesting to see how PPR proteins co&#8208;evolve with their targets in other eukaryotic lineages since different types of mtDNA may have distinct mutation patterns or behaviors. In addition, dissecting the evolutionary trajectories of PPR proteins and their mtDNA targets will shed light on the underlying driving force in the evolution of mitochondrial&#8211;nuclear incompatibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44060</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44082</offset>
+      <text>Yeast strains and genetic procedures</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44119</offset>
+      <text>Yeast strain genotypes are listed in Appendix Table S3. The S. cerevisiae haploid strains were derived from W303 (MATa ura3&#8208;1 his3&#8208;11,15 leu2&#8208;3,112 trp1&#8208;1 ade2&#8208;1 can1&#8208;100). The parental S. bayanus strains were derived from a strain (S. bayanus #180) collected by Dr. Duccio Cavalieri (University of Florence, Italy). The parental S. paradoxus, S. mikatae, and S. kudriavzevii strains were derived from YDG197, YDG193, and YDG190, respectively, and are gifts from Dr. Duncan Greig (University College London, UK). The chromosome 7 replacement strain (Sc + Sb&#8208;chr7) was constructed in a previous study 29. Strains carrying TAP&#8208;tagged proteins were from the yeast TAP&#8208;tagged ORF collection 79. Substitutive and integrative transformations were carried out by the lithium acetate procedure 80. Heat&#8208;shock treatments of yeast transformation for S. cerevisiae and S. bayanus were 15 min at 42&#176;C and 30 min at 37&#176;C, respectively. Media, microbial, and genetic techniques were as described 81.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45127</offset>
+      <text>For CCM1 orthologous allele replacements, we PCR&#8208;amplified the coding region with around 500 bp upstream and 500 bp downstream flanking sequences of the CCM1 gene, and a HIS3 gene serving as the selection marker. These fragments were then fused using PCR and transformed into wild&#8208;type cells using lithium acetate procedure. Successful recombinants were selected on CSM&#8208;HIS plates and verified by PCR and sequencing. In the Sb&#8208;CCM1 overexpression experiment, Sb&#8208;CCM1 with around 1,000 bp upstream and 500 bp downstream flanking sequences was PCR&#8208;amplified with a ATGCGGATCC overhanging on both ends and cloned into a 2&#8208;micron multi&#8208;copy plasmid (pRS426) at the BamHI cutting site via ligation. The plasmid was then overexpressed in the Sc + Sb&#8208;CCM1 strain. To validate the compatibility of different PPR genes, orthologous alleles with around 1,000 bp upstream and 500 bp downstream flanking sequences were PCR&#8208;amplified and cloned into a single&#8208;copy plasmid (pRS416) via yeast in vivo recombination. The plasmids were then transformed into the strain with the gene deleted.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46224</offset>
+      <text>To generate yeast strains lacking mtDNA (&#961;&#8304; strains), the cells were inoculated in YPD containing 25 &#956;g/ml of ethidium bromide and cultured overnight 82. The cells were then spread on YPD plates to form single colonies and replica&#8208;plated on glycerol&#8208;containing plates to test their respiratory capability. All petite strains were further examined under a microscope using DAPI (4&#8242;,6&#8208;diamidino&#8208;2&#8208;phenylindole) staining.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46659</offset>
+      <text>Genomic DNA library screen</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46686</offset>
+      <text>The chromosome 7 replacement strain was transformed with a genomic DNA library comprising most of the ORFs of S. cerevisiae carried on the pRS416 CEN plasmid. To construct the genomic DNA library, genomic DNA from wild&#8208;type S. cerevisiae cells was partially digested with Sau3AI to yield fragments of around 2.5&#8211;10 kb, and then cloned into the pRS416 CEN plasmid previously cut with BamHI. Transformants were grown on CSM&#8208;URA + glycerol plates, and only colonies with obviously improved growth rates were selected. The selected colonies were further tested to see whether the improved respiratory growth depended on the plasmid. The plasmid exhibiting rescue ability was isolated from the cells, and the insertion fragment was identified by Sanger sequencing.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47452</offset>
+      <text>Subcellular fractionation and Western blot analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47504</offset>
+      <text>Yeast cells were cultured in selection medium at 30&#176;C to the late&#8208;exponential phase. Mitochondrial fractions were prepared as described 83. Briefly, cells were pretreated with Tris&#8208;SO4 buffer (containing 100 mM Tris&#8208;SO4 and 10 mM dithiothreitol; pH 9.4) at 30&#176;C for 10 min under agitation (~140 rpm) and then treated with Zymolyase 20T (2 mg/g cell wet weight) in 1.2 M sorbitol buffer (containing 20 mM phosphate buffer; pH 7.4) at 30&#176;C for 20&#8211;40 min under agitation (~140 rpm). The cells were then homogenized by vortex (max intensity) with glass beads for 10 min (30&#8208;s on and 30&#8208;s off cycles) in 0.6 M sorbitol buffer (containing 20 mM HEPES&#8208;KOH; pH 7.4; RNase inhibitor (Qiagen, Valencia, CA, USA) and protease inhibitor cocktail (Set III, EDTA&#8208;free; Calbiochem, San Diego, CA, USA) were added shortly before use). Cell debris and the glass beads were removed by centrifugation at 2,000 g for 5 min. The cytosolic and mitochondrial fractions were separated by centrifugation at 12,000 g for 10 min repeatedly. The postmitochondrial supernatant (PMS) fractions were collected immediately following centrifugation of mitochondria. Laemmli sample buffer was added to the mitochondrial pellets resuspended in TE buffer plus protease inhibitors, and to the PMS fractions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48794</offset>
+      <text>For Western blot analyses, mitochondrial protein (40 &#956;g) was separated by SDS&#8211;PAGE using the GE Healthcare Life Science system (Mini&#8208;Vertical Units SE260) and then transferred to a Bio&#8208;Rad Immun&#8208;Blot PVDF membrane in transfer buffer (25 mM Tris base, 200 mM glycine, 25% methanol). The immunopositive bands were visualized by using Western Lightning Chemiluminescence Reagent (PerkinElmer, Waltham, MA, USA). Anti&#8208;G6PDH antibody was purchased from Sigma (St. Louis, MO, USA). Anti&#8208;c&#8208;Myc antibody (sc&#8208;40) was from Santa Cruz Biotechnology (Dallas, TX, USA) and anti&#8208;TAP antibody (CAB1001) was from Thermo Fisher Scientific (Waltham, MA, USA). Anti&#8208;Cox1 (MS418), anti&#8208;Cox2 (MS419), and anti&#8208;Cox3 (MS406) were purchased from MitoScience, Abcam (Cambridge, UK).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49577</offset>
+      <text>RNA isolation and Northern analyses of mitochondrial transcripts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49642</offset>
+      <text>Yeast strains were grown in 3 ml YPD liquid cultures at 30&#176;C to stationary phase, and total RNA was isolated using Qiagen RNeasy Midi Kits (Qiagen, Valencia, CA, USA). Ten micrograms of total RNA was separated on a 1.3% agarose&#8211;formaldehyde gel and then transferred to a nylon membrane (Millipore, Billerica, MA, USA). Northern blotting was performed as described 84. Probe generation and hybridization were as described in the Genius System User's Guide (Roche, Indianapolis, IN, USA). The gene&#8208;specific primers for the DIG&#8208;labeled probes for COX1, COX3, COB, and COX2 were described in previous studies 36, 85. We used 3&#8242; end&#8208;DIG&#8208;labeled oligo&#8208;nucleotide probes for 15S rRNA 50, 21S rRNA 86, and ATP6/887.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50365</offset>
+      <text>RNA immunoprecipitation and quantitative PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50410</offset>
+      <text>RNA immunoprecipitation was performed following Selth et al. 88. Briefly, 100 ml of yeast cells carrying Sc&#8208;CCM1, Sc&#8208;CCM1&#8208;13Myc, or Sb&#8208;CCM1&#8208;13Myc was first treated with formaldehyde to generate protein&#8211;RNA cross&#8208;links, and mitochondrial fractions were prepared as described above. The mitochondrial fractions were then incubated with anti&#8208;Myc agarose beads (A7470; Sigma&#8208;Aldrich) at 4&#176;C overnight. After immunoprecipitation and cross&#8208;link reversal, RNAs were phenol&#8211;chloroform&#8208;extracted from the elute, reverse&#8208;transcribed by random hexamer, and quantified using an Applied Biosystems 7500 Fast Real&#8208;Time PCR machine (Applied Biosystems, Foster City, CA, USA). Enrichment was calculated using the formula .</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51146</offset>
+      <text>Experimental evolution for the Sb&#8208;CCM1 suppressors</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51199</offset>
+      <text>Single colonies of the Sc + Sb&#8208;CCM1 cells were used to initiate independent cultures in 3 ml of the selective medium and cultured at 30&#176;C overnight. 50 &#956;l of the overnight cultures was transferred to new tubes containing 5 ml of YEP + glycerol and cultured for 1 week in each cycle. The heterogeneity of the cultures was then examined using spot assays. The same experimental cycle was repeated twice until suppressors became predominant in the population. Evolved cells were spread on YEP + glycerol plates to form single colonies. Only a single colony with improved fitness was collected from each evolved culture and subjected to further genetic characterization to determine whether the suppressors were located in mtDNA, Sb&#8208;CCM1, or other loci in the nuclear genome. Genetic analysis revealed that among the clones carrying unknown nuclear mutations, 13 of them contained multiple mutations contributing to the suppressor phenotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52144</offset>
+      <text>Protein structure prediction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52173</offset>
+      <text>The Ccm1 protein structures were predicted by the Raptor X server using default settings 89, 90, 91, 92. Colors and labels were manually added using the PyMOL program (The PyMOL Molecular Graphics System, version 1.7.4 Schr&#246;dinger, LLC.).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52413</offset>
+      <text>Evolutionary rate analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52440</offset>
+      <text>Evolutionary rates were represented by Ka values (for comparisons between S. cerevisiae and C. glabrata or N. castellii) or Ka/Ks values (for comparisons between Saccharomyces sensu stricto yeast species). The Ka and Ks values were computed by the CodeML program of the PAML package 93. Significance of differences in evolutionary rates between each group of genes and the whole genome was tested by the Kolmogorov&#8211;Smirnov test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52871</offset>
+      <text>Growth rate measurements</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52896</offset>
+      <text>Cells were cultured in YPD at permissive temperatures (28&#176;C for S. cerevisiae and 23&#176;C for S. bayanus; when cultured together, 28&#176;C was used) overnight before assessment. For spot assays, cell densities were adjusted to 625 cells/&#956;l and fivefold serially diluted four times, and 3 &#956;l of the resulting suspension was added onto the YPD and YEP + glycerol plates. To measure the doubling time, overnight cell cultures were diluted 10&#8208;fold in fresh medium for 3 h and then the cell densities were adjusted to OD600 = 0.05 to start the measurement. The OD values were recorded for 72 h using Infinite 200 series plate readers (Tecan, Mannedorf, Switzerland) with continuous shaking, and then, the doubling times were estimated using homemade Python scripts (available on request).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>53680</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53701</offset>
+      <text>J&#8208;YL and H&#8208;YJ conceived the study. H&#8208;YJ, H&#8208;YL, and J&#8208;YL designed analyses and interpreted results. H&#8208;YJ, H&#8208;YL, and J&#8208;YL performed the experiments. H&#8208;YJ and J&#8208;YL wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>53904</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53925</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>53985</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>54008</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Heredity</infon>
+      <infon key="lpage">44</infon>
+      <infon key="pub-id_pmid">18648383</infon>
+      <infon key="fpage">39</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>54019</offset>
+      <text>Reproductive isolation in Saccharomyces</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Curr Genet</infon>
+      <infon key="lpage">29</infon>
+      <infon key="pub-id_pmid">26164016</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>54059</offset>
+      <text>Negative epistasis: a route to intraspecific reproductive isolation in yeast?</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Microbiol</infon>
+      <infon key="volume">1</infon>
+      <infon key="pub-id_pmid">27571751</infon>
+      <infon key="fpage">15003</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>54137</offset>
+      <text>Speciation driven by hybridization and chromosomal plasticity in a wild yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="lpage">142</infon>
+      <infon key="source">Fungal Biol Rev</infon>
+      <infon key="fpage">136</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>54215</offset>
+      <text>Population genomics and speciation in yeasts</text>
+    </passage>
+    <passage>
+      <infon key="source">Elife</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">24963140</infon>
+      <infon key="fpage">e02630</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>54260</offset>
+      <text>Genome rearrangements and pervasive meiotic drive cause hybrid infertility in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Curr Opin Genet Dev</infon>
+      <infon key="lpage">679</infon>
+      <infon key="pub-id_pmid">15531163</infon>
+      <infon key="fpage">675</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>54352</offset>
+      <text>Speciation genes</text>
+    </passage>
+    <passage>
+      <infon key="source">Genetics and the origin of species</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">1937</infon>
+      <offset>54369</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">180</infon>
+      <infon key="pub-id_pmid">20051985</infon>
+      <infon key="fpage">175</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>54370</offset>
+      <text>The molecular evolutionary basis of species formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">325</infon>
+      <infon key="pub-id_pmid">20621759</infon>
+      <infon key="fpage">317</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>54424</offset>
+      <text>Hybrid incompatibility genes: remnants of a genomic battlefield?</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">355</infon>
+      <infon key="pub-id_pmid">21910629</infon>
+      <infon key="fpage">331</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>54489</offset>
+      <text>The genetics of hybrid incompatibilities</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">BioEssays</infon>
+      <infon key="lpage">411</infon>
+      <infon key="pub-id_pmid">20414898</infon>
+      <infon key="fpage">401</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>54530</offset>
+      <text>Speciation through cytonuclear incompatibility: insights from yeast, and implications for higher eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="lpage">302</infon>
+      <infon key="source">Annu Rev Ecol Evol Syst</infon>
+      <infon key="fpage">281</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>54638</offset>
+      <text>Cytonuclear genomic interactions and hybrid breakdown</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">BioEssays</infon>
+      <infon key="lpage">650</infon>
+      <infon key="pub-id_pmid">19408245</infon>
+      <infon key="fpage">642</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>54692</offset>
+      <text>Mitochondrial bioenergetics as a major motive force of speciation</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">R560</infon>
+      <infon key="pub-id_pmid">16860735</infon>
+      <infon key="fpage">R551</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>54758</offset>
+      <text>Mitochondria: more than just a powerhouse</text>
+    </passage>
+    <passage>
+      <infon key="volume">261</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">159</infon>
+      <infon key="pub-id_pmid">11164046</infon>
+      <infon key="fpage">153</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>54800</offset>
+      <text>Evolution of the mitochondrial genetic system: an overview</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">320</infon>
+      <infon key="pub-id_pmid">10858662</infon>
+      <infon key="fpage">315</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>54859</offset>
+      <text>Organellar genes: why do they end up in the nucleus?</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">J Mol Evol</infon>
+      <infon key="lpage">492</infon>
+      <infon key="pub-id_pmid">8662000</infon>
+      <infon key="fpage">482</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>54912</offset>
+      <text>Free&#8208;radical&#8208;induced mutation vs redox regulation: costs and benefits of genes in organelles</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Mol Phylogenet Evol</infon>
+      <infon key="lpage">395</infon>
+      <infon key="pub-id_pmid">14615181</infon>
+      <infon key="fpage">380</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>55009</offset>
+      <text>Evolution of mitochondrial gene content: gene loss and transfer to the nucleus</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">716</infon>
+      <infon key="pub-id_pmid">14642752</infon>
+      <infon key="fpage">709</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>55088</offset>
+      <text>Mitochondrial genomes: anything goes</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">9277</infon>
+      <infon key="pub-id_pmid">18583475</infon>
+      <infon key="fpage">9272</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>55125</offset>
+      <text>A genome&#8208;wide view of the spectrum of spontaneous mutations in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">569</infon>
+      <infon key="pub-id_pmid">11264408</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>55196</offset>
+      <text>Evolution of nuclear&#8208; and mitochondrial&#8208;encoded subunit interaction in cytochrome c oxidase</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12958</infon>
+      <infon key="pub-id_pmid">12271133</infon>
+      <infon key="fpage">12955</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>55292</offset>
+      <text>Functional coadaptation between cytochrome c and cytochrome c oxidase within allopatric populations of a marine copepod</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">314</infon>
+      <infon key="pub-id_pmid">22993236</infon>
+      <infon key="fpage">310</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>55412</offset>
+      <text>Evidence for compensatory evolution of ribosomal proteins in response to rapid divergence of mitochondrial rRNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="lpage">219</infon>
+      <infon key="source">G3: Genes &#8208; Genomes &#8208; Genetics</infon>
+      <infon key="fpage">209</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>55524</offset>
+      <text>Mitochondrial&#8208;nuclear epistasis impacts fitness and mitochondrial physiology of interpopulation caenorhabditis briggsae hybrids</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Genome Biol Evol</infon>
+      <infon key="lpage">3336</infon>
+      <infon key="pub-id_pmid">26590214</infon>
+      <infon key="fpage">3322</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>55654</offset>
+      <text>Mitochondrial involvement in vertebrate speciation? The case of mito&#8208;nuclear genetic divergence in chameleons</text>
+    </passage>
+    <passage>
+      <infon key="volume">198</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">1265</infon>
+      <infon key="pub-id_pmid">25164882</infon>
+      <infon key="fpage">1251</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>55766</offset>
+      <text>Mitochondrial&#8208;nuclear epistasis contributes to phenotypic variation and coadaptation in natural isolates of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Genet</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">25628643</infon>
+      <infon key="fpage">454</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>55901</offset>
+      <text>Post&#8208;zygotic sterility and cytonuclear compatibility limits in S. cerevisiae xenomitochondrial cybrids</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26008139</infon>
+      <infon key="fpage">7214</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>56006</offset>
+      <text>Comprehensive survey of condition&#8208;specific reproductive isolation reveals genetic incompatibility in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1073</infon>
+      <infon key="pub-id_pmid">19070577</infon>
+      <infon key="fpage">1065</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>56115</offset>
+      <text>Incompatibility of nuclear and mitochondrial genomes causes hybrid sterility between two yeast species</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">23437007</infon>
+      <infon key="fpage">e1003288</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>56218</offset>
+      <text>An incompatibility between a Mitochondrial tRNA and Its nuclear&#8208;encoded tRNA synthetase compromises development and fitness in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">577</infon>
+      <infon key="pub-id_pmid">23502780</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>56358</offset>
+      <text>A detrimental mitochondrial&#8208;nuclear interaction causes cytoplasmic male sterility in rice</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Cell Metab</infon>
+      <infon key="lpage">294</infon>
+      <infon key="pub-id_pmid">27425585</infon>
+      <infon key="fpage">283</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>56450</offset>
+      <text>Incompatibility between nuclear and mitochondrial genomes contributes to an interspecies reproductive barrier</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Genet</infon>
+      <infon key="lpage">191</infon>
+      <infon key="pub-id_pmid">2834089</infon>
+      <infon key="fpage">185</infon>
+      <infon key="year">1986</infon>
+      <infon key="type">ref</infon>
+      <offset>56560</offset>
+      <text>Cloning of a nuclear gene MRS1 involved in the excision of a single group I intron (bI3) from the mitochondrial COB transcript in S. cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Genet</infon>
+      <infon key="lpage">124</infon>
+      <infon key="pub-id_pmid">1699677</infon>
+      <infon key="fpage">117</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>56704</offset>
+      <text>Two group I mitochondrial introns in the cob&#8208;box and coxI genes require the same MRS1/PET157 nuclear gene product for splicing</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Gene Expr</infon>
+      <infon key="lpage">214</infon>
+      <infon key="pub-id_pmid">1333316</infon>
+      <infon key="fpage">203</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>56833</offset>
+      <text>The MRS1 gene of S. douglasii: co&#8208;evolution of mitochondrial introns and specific splicing proteins encoded by nuclear genes</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">20652018</infon>
+      <infon key="fpage">e1000432</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>56960</offset>
+      <text>Multiple molecular mechanisms cause reproductive isolation between three yeast species</text>
+    </passage>
+    <passage>
+      <infon key="volume">199</infon>
+      <infon key="source">FEMS Microbiol Lett</infon>
+      <infon key="lpage">136</infon>
+      <infon key="pub-id_pmid">11356580</infon>
+      <infon key="fpage">131</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>57047</offset>
+      <text>The isolation and characterisation of a Saccharomyces cerevisiae gene (LIP2) involved in the attachment of lipoic acid groups to mitochondrial enzymes</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">15178</infon>
+      <infon key="pub-id_pmid">11106496</infon>
+      <infon key="fpage">15166</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>57198</offset>
+      <text>Escherichia coli LipA is a lipoyl synthase: in vitro biosynthesis of lipoylated pyruvate dehydrogenase complex from octanoyl&#8208;acyl carrier protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">284</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">23242</infon>
+      <infon key="pub-id_pmid">19570983</infon>
+      <infon key="fpage">23234</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>57346</offset>
+      <text>Lipoic acid synthesis and attachment in yeast mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Curr Genet</infon>
+      <infon key="lpage">61</infon>
+      <infon key="pub-id_pmid">1718609</infon>
+      <infon key="fpage">53</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>57405</offset>
+      <text>Characterization of a yeast nuclear gene, AEP2, required for accumulation of mitochondrial mRNA encoding subunit 9 of the ATP synthase</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">2948</infon>
+      <infon key="pub-id_pmid">21546354</infon>
+      <infon key="fpage">2935</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57540</offset>
+      <text>Revisiting the yeast PPR proteins&#8211;application of an Iterative Hidden Markov Model algorithm reveals new members of the rapidly evolving family</text>
+    </passage>
+    <passage>
+      <infon key="volume">191</infon>
+      <infon key="source">New Phytol</infon>
+      <infon key="lpage">47</infon>
+      <infon key="pub-id_pmid">21557747</infon>
+      <infon key="fpage">37</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57685</offset>
+      <text>The evolution of RNA editing and pentatricopeptide repeat genes</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">22916040</infon>
+      <infon key="fpage">e1002910</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>57749</offset>
+      <text>A combinatorial amino acid code for RNA recognition by pentatricopeptide repeat proteins</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23762347</infon>
+      <infon key="fpage">e65343</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>57838</offset>
+      <text>Improved computational target site prediction for pentatricopeptide repeat RNA editing factors</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">25517350</infon>
+      <infon key="fpage">5729</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>57933</offset>
+      <text>An artificial PPR scaffold for programmable RNA recognition</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">442</infon>
+      <infon key="pub-id_pmid">24471833</infon>
+      <infon key="fpage">415</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>57993</offset>
+      <text>Pentatricopeptide repeat proteins in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="lpage">1494</infon>
+      <infon key="pub-id_pmid">24184848</infon>
+      <infon key="fpage">1477</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58037</offset>
+      <text>Yeast PPR proteins, watchdogs of mitochondrial gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">404</infon>
+      <infon key="pub-id_pmid">12134146</infon>
+      <infon key="fpage">400</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>58100</offset>
+      <text>Systematic screen for human disease genes in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Curr Genet</infon>
+      <infon key="lpage">484</infon>
+      <infon key="pub-id_pmid">19562342</infon>
+      <infon key="fpage">475</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>58151</offset>
+      <text>Ccm1p/Ygr150cp, a pentatricopeptide repeat protein, is essential to remove the fourth intron of both COB and COX1 pre&#8208;mRNAs in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">973</infon>
+      <infon key="pub-id_pmid">20124025</infon>
+      <infon key="fpage">959</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58305</offset>
+      <text>DMR1 (CCM1/YGR150C) of Saccharomyces cerevisiae encodes an RNA&#8208;binding protein from the pentatricopeptide repeat family required for the maintenance of the mitochondrial 15S ribosomal RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Biosci Rep</infon>
+      <infon key="lpage">557</infon>
+      <infon key="pub-id_pmid">22861139</infon>
+      <infon key="fpage">549</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58495</offset>
+      <text>Two independent activities define Ccm1p as a moonlighting protein in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">282</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1504</infon>
+      <infon key="pub-id_pmid">9822383</infon>
+      <infon key="fpage">1501</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>58589</offset>
+      <text>A rapidly evolving homeobox at the site of a hybrid sterility gene</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="source">Int J Syst Bacteriol</infon>
+      <infon key="issue">Pt 3</infon>
+      <infon key="lpage">1024</infon>
+      <infon key="pub-id_pmid">9734058</infon>
+      <infon key="fpage">1015</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>58656</offset>
+      <text>Structure and genetic stability of mitochondrial genomes vary among yeasts of the genus Saccharomyces</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Trends Microbiol</infon>
+      <infon key="lpage">530</infon>
+      <infon key="pub-id_pmid">20832322</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58758</offset>
+      <text>Mitochondrial inheritance in budding yeasts: towards an integrated understanding</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Genet</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26042149</infon>
+      <infon key="fpage">187</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>58839</offset>
+      <text>The Red Queen in mitochondria: cyto&#8208;nuclear co&#8208;evolution, hybrid breakdown and human disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">1128</infon>
+      <infon key="pub-id_pmid">18343892</infon>
+      <infon key="fpage">1120</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58936</offset>
+      <text>On the expansion of the pentatricopeptide repeat gene family in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">2039</infon>
+      <infon key="pub-id_pmid">21263042</infon>
+      <infon key="fpage">2029</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59007</offset>
+      <text>Pentatricopeptide repeat proteins constrain genome evolution in chloroplasts</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Evol Biol</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">22583633</infon>
+      <infon key="fpage">66</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59084</offset>
+      <text>Molecular evolution of pentatricopeptide repeat genes reveals truncation in species lacking an editing target and structural domains under distinct selective pressures</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">BMC Genom</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">130</infon>
+      <infon key="year">2007</infon>
+      <offset>59252</offset>
+      <text>Genes encoding pentatricopeptide repeat (PPR) proteins are not conserved in location in plant genomes and may be subject to diversifying selection</text>
+    </passage>
+    <passage>
+      <infon key="volume">183</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">672</infon>
+      <infon key="pub-id_pmid">19635937</infon>
+      <infon key="fpage">663</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>59399</offset>
+      <text>Signature of diversifying selection on members of the pentatricopeptide repeat protein family in Arabidopsis lyrata</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="lpage">1476</infon>
+      <infon key="pub-id_pmid">23872480</infon>
+      <infon key="fpage">1469</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59515</offset>
+      <text>The Rf and Rf&#8208;like PPR in higher plants, a fast&#8208;evolving subclass of PPR genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="issue">Suppl</infon>
+      <infon key="lpage">S169</infon>
+      <infon key="pub-id_pmid">15131248</infon>
+      <infon key="fpage">S154</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>59598</offset>
+      <text>Interactions of mitochondrial and nuclear genes that affect male gametophyte development</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">90</infon>
+      <infon key="pub-id_pmid">17188396</infon>
+      <infon key="fpage">81</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>59687</offset>
+      <text>Cytoplasmic male sterility: a window to the world of plant mitochondrial&#8208;nuclear interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">465</infon>
+      <infon key="pub-id_pmid">19933877</infon>
+      <infon key="fpage">455</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59783</offset>
+      <text>The nuclear component of a cytonuclear hybrid incompatibility in mimulus maps to a cluster of pentatricopeptide repeat genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Ann Bot</infon>
+      <infon key="lpage">455</infon>
+      <infon key="pub-id_pmid">20576737</infon>
+      <infon key="fpage">439</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59908</offset>
+      <text>Speciation genes in plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">606</infon>
+      <infon key="pub-id_pmid">24313845</infon>
+      <infon key="fpage">579</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59935</offset>
+      <text>Male sterility and fertility restoration in crops</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Mitochondrion</infon>
+      <infon key="lpage">205</infon>
+      <infon key="pub-id_pmid">24732436</infon>
+      <infon key="fpage">198</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59985</offset>
+      <text>Mitochondrion role in molecular basis of cytoplasmic male sterility</text>
+    </passage>
+    <passage>
+      <infon key="volume">1797</infon>
+      <infon key="source">BBA&#8208;Bioenergetics</infon>
+      <infon key="lpage">128</infon>
+      <infon key="pub-id_pmid">19761752</infon>
+      <infon key="fpage">113</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60053</offset>
+      <text>Mitochondrial DNA mutations and human disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">349</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1499</infon>
+      <infon key="pub-id_pmid">26404827</infon>
+      <infon key="fpage">1494</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60099</offset>
+      <text>Mutations causing mitochondrial disease: what is new and what challenges remain?</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">4662</infon>
+      <infon key="pub-id_pmid">16892079</infon>
+      <infon key="fpage">4647</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60180</offset>
+      <text>Mitochondrial mutations in cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">461</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">753</infon>
+      <infon key="pub-id_pmid">19812666</infon>
+      <infon key="fpage">747</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60214</offset>
+      <text>Finding the missing heritability of complex diseases</text>
+    </passage>
+    <passage>
+      <infon key="volume">88</infon>
+      <infon key="source">Am J Hum Genet</infon>
+      <infon key="lpage">305</infon>
+      <infon key="pub-id_pmid">21376301</infon>
+      <infon key="fpage">294</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60267</offset>
+      <text>Estimating missing heritability for disease from genome&#8208;wide association studies</text>
+    </passage>
+    <passage>
+      <infon key="source">Oxid Med Cell Longev</infon>
+      <infon key="volume">2012</infon>
+      <infon key="pub-id_pmid">23304256</infon>
+      <infon key="fpage">824275</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60350</offset>
+      <text>The creation of cybrids harboring mitochondrial haplogroups in the Taiwanese population of ethnic Chinese background: an extensive in vitro tool for the study of mitochondrial genomic variations</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">3551</infon>
+      <infon key="pub-id_pmid">24584571</infon>
+      <infon key="fpage">3537</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60545</offset>
+      <text>Inherited mitochondrial DNA variants can affect complement, inflammation and apoptosis pathways: insights into mitochondrial&#8208;nuclear interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">535</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">565</infon>
+      <infon key="pub-id_pmid">27383793</infon>
+      <infon key="fpage">561</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>60693</offset>
+      <text>Mitochondrial and nuclear DNA matching shapes metabolism and healthy ageing</text>
+    </passage>
+    <passage>
+      <infon key="volume">1819</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1016</infon>
+      <infon key="pub-id_pmid">22051507</infon>
+      <infon key="fpage">1008</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60769</offset>
+      <text>The role of mammalian PPR domain proteins in the regulation of mitochondrial gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">658</infon>
+      <infon key="pub-id_pmid">21854988</infon>
+      <infon key="fpage">645</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60862</offset>
+      <text>The human mitochondrial transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Wiley Interdiscip Rev RNA</infon>
+      <infon key="lpage">695</infon>
+      <infon key="pub-id_pmid">22777840</infon>
+      <infon key="fpage">675</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60900</offset>
+      <text>The human mitochondrial transcriptome and the RNA&#8208;binding proteins that regulate its expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">425</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">741</infon>
+      <infon key="pub-id_pmid">14562106</infon>
+      <infon key="fpage">737</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>60998</offset>
+      <text>Global analysis of protein expression in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">153</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">168</infon>
+      <infon key="pub-id_pmid">6336730</infon>
+      <infon key="fpage">163</infon>
+      <infon key="year">1983</infon>
+      <infon key="type">ref</infon>
+      <offset>61045</offset>
+      <text>Transformation of intact yeast cells treated with alkali cations</text>
+    </passage>
+    <passage>
+      <infon key="source">Guide to yeast genetics and molecular and cell biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2004</infon>
+      <offset>61110</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">52</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">335</infon>
+      <infon key="pub-id_pmid">5485912</infon>
+      <infon key="fpage">323</infon>
+      <infon key="year">1970</infon>
+      <infon key="type">ref</infon>
+      <offset>61111</offset>
+      <text>The petite mutation in yeast. Loss of mitochondrial deoxyribonucleic acid during induction of petites with ethidium bromide</text>
+    </passage>
+    <passage>
+      <infon key="volume">432</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">81</infon>
+      <infon key="pub-id_pmid">18370011</infon>
+      <infon key="fpage">65</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>61235</offset>
+      <text>Preparation of respiratory chain complexes from Saccharomyces cerevisiae wild&#8208;type and mutant mitochondria: activity measurement and subunit composition analysis</text>
+    </passage>
+    <passage>
+      <infon key="source">Molecular cloning</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2001</infon>
+      <offset>61399</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">8622</infon>
+      <infon key="pub-id_pmid">11118450</infon>
+      <infon key="fpage">8616</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>61400</offset>
+      <text>Nam1p, a protein involved in RNA processing and translation, is coupled to transcription through an interaction with yeast mitochondrial RNA polymerase</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">338</infon>
+      <infon key="pub-id_pmid">16678105</infon>
+      <infon key="fpage">329</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>61552</offset>
+      <text>Mitochondrial transcription is regulated via an ATP &#8220;sensing&#8221; mechanism that couples RNA abundance to respiration</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">15733</infon>
+      <infon key="pub-id_pmid">14742425</infon>
+      <infon key="fpage">15728</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>61670</offset>
+      <text>Aep3p stabilizes the mitochondrial bicistronic mRNA encoding subunits 6 and 8 of the H+&#8208;translocating ATP synthase of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Protoc</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">5234</infon>
+      <infon key="year">2009</infon>
+      <offset>61815</offset>
+      <text>RNA immunoprecipitation to determine RNA&#8208;protein associations in vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">1522</infon>
+      <infon key="pub-id_pmid">22814390</infon>
+      <infon key="fpage">1511</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61887</offset>
+      <text>Template&#8208;based protein structure modeling using the RaptorX web server</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="lpage">265</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="fpage">257</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61960</offset>
+      <text>Protein threading using context&#8208;specific alignment potential</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="source">Proteins</infon>
+      <infon key="issue">Suppl 10</infon>
+      <infon key="lpage">171</infon>
+      <infon key="pub-id_pmid">21987485</infon>
+      <infon key="fpage">161</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62023</offset>
+      <text>RaptorX: exploiting structure information for protein alignment by statistical inference</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="source">Proteins</infon>
+      <infon key="lpage">1939</infon>
+      <infon key="pub-id_pmid">21465564</infon>
+      <infon key="fpage">1930</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62112</offset>
+      <text>A multiple&#8208;template approach to protein threading</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">1591</infon>
+      <infon key="pub-id_pmid">17483113</infon>
+      <infon key="fpage">1586</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62164</offset>
+      <text>PAML 4: phylogenetic analysis by maximum likelihood</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="lpage">662</infon>
+      <infon key="pub-id_pmid">14659697</infon>
+      <infon key="fpage">655</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>62216</offset>
+      <text>TPR proteins: the versatile helix</text>
+    </passage>
+    <passage>
+      <infon key="volume">272</infon>
+      <infon key="source">FEBS J</infon>
+      <infon key="lpage">2131</infon>
+      <infon key="pub-id_pmid">15853797</infon>
+      <infon key="fpage">2118</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>62250</offset>
+      <text>The RNA recognition motif, a plastic RNA&#8208;binding platform to regulate post&#8208;transcriptional gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">329</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="issue">Pt 3</infon>
+      <infon key="lpage">448</infon>
+      <infon key="pub-id_pmid">9445368</infon>
+      <infon key="fpage">433</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>62361</offset>
+      <text>Mitochondrial ribosomal proteins (MRPs) of yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">21115348</infon>
+      <infon key="fpage">104</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62410</offset>
+      <text>PUF proteins: repression, activation and mRNA localization</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="lpage">853</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="fpage">843</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62469</offset>
+      <text>Organization of mitochondrial gene expression in two distinct ribosome&#8208;containing assemblies</text>
+    </passage>
+  </document>
+</collection>

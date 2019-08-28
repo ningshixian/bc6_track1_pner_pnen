@@ -1,0 +1,2343 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5069550</id>
+    <passage>
+      <infon key="name_2">surname:Zuchman;given-names:Rina</infon>
+      <infon key="name_3">surname:Ziv;given-names:Tamar</infon>
+      <infon key="name_0">surname:Hakim;given-names:Vicky</infon>
+      <infon key="name_1">surname:Cohen;given-names:Laurie D</infon>
+      <infon key="alt-title">Vicky Hakim et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201593594</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201593594</infon>
+      <infon key="article-id_pmid">27613546</infon>
+      <infon key="lpage">2262 2262</infon>
+      <infon key="pub-id_pmid">27613546</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2238 2238</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Ziv;given-names:Noam E</infon>
+      <infon key="issue">20</infon>
+      <infon key="kwd">proteasome proteasome inhibitors protein degradation SILAC synaptic proteostasis Neuroscience Post-translational Modifications, Proteolysis &amp; Proteomics</infon>
+      <offset>0</offset>
+      <text>The effects of proteasomal inhibition on synaptic proteostasis</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>63</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>72</offset>
+      <text>Synaptic function crucially depends on uninterrupted synthesis and degradation of synaptic proteins. While much has been learned on synaptic protein synthesis, little is known on the routes by which synaptic proteins are degraded. Here we systematically studied how inhibition of the ubiquitin&#8208;proteasome system (UPS) affects the degradation rates of thousands of neuronal and synaptic proteins. We identified a group of proteins, including several proteins related to glutamate receptor trafficking, whose degradation rates were significantly slowed by UPS inhibition. Unexpectedly, however, degradation rates of most synaptic proteins were not significantly affected. Interestingly, many of the differential effects of UPS inhibition were readily explained by a quantitative framework that considered known metabolic turnover rates for the same proteins. In contrast to the limited effects on protein degradation, UPS inhibition profoundly and preferentially suppressed the synthesis of a large number of synaptic proteins. Our findings point to the importance of the UPS in the degradation of certain synaptic proteins, yet indicate that under basal conditions most synaptic proteins might be degraded through alternative pathways.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1309</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1322</offset>
+      <text>Chemical synapses are sites of cell&#8211;cell contact specialized for transmitting signals between neurons and other neurons, muscles, or glands. As in nearly all biological structures, proteins in synapses have finite lifetimes and need to be continuously replaced with freshly synthesized copies. Synaptic protein homeostasis (proteostasis) presents daunting challenges from the neuron's perspective: The number of its synaptic sites can be huge, their distance from the cell body, where most protein synthesis occurs, is often enormous, and their makeup&#8212;membranal, cytoskeletal, and vesicular proteins&#8212;is extraordinarily complex. Historically, these challenges garnered considerable attention, leading to the eventual discovery of elaborate trafficking systems (reviewed in Maeder et&#160;al, 2014) and distributed capacities for protein synthesis (reviewed in Holt &amp; Schuman, 2013). More recently, synaptic proteostasis has returned to the center of attention due to mounting evidence for ties between dysregulated synaptic proteostasis and a variety of neurodegenerative conditions (Keller et&#160;al, 2002; Bingol &amp; Sheng, 2011; Yang et&#160;al, 2013; Buffington et&#160;al, 2014; Yamamoto &amp; Yue, 2014; Ciechanover &amp; Kwon, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2543</offset>
+      <text>While much has been learned on the synthesis and trafficking of synaptic proteins, less is known on the manners by which synaptic proteins are degraded. In this regard, degradation via the ubiquitin&#8208;proteasome system (UPS) has received much attention, with the accumulation of evidence that key synaptic proteins undergo ubiquitination and that suppressing proteasomal activity affects global or synaptic levels of synaptic proteins (Ageta et&#160;al, 2001; Chin et&#160;al, 2002; Wheeler et&#160;al, 2002; Ehlers, 2003; Colledge et&#160;al, 2003; Moriyoshi et&#160;al, 2004; van Roessel et&#160;al, 2004; Kato et&#160;al, 2005; Saliba et&#160;al, 2007; Yao et&#160;al, 2007; Jurd et&#160;al, 2008; Hung et&#160;al, 2010; Schwarz et&#160;al, 2010; Lazarevic et&#160;al, 2011; Tsai et&#160;al, 2012; Rezvani et&#160;al, 2012; Shin et&#160;al, 2012; reviewed in Bingol &amp; Sheng, 2011; Schwarz &amp; Patrick, 2012; Lin &amp; Man, 2013; Tsai, 2014; Alvarez&#8208;Castelao &amp; Schuman, 2015). While the evidence is compelling, it must be acknowledged that the overall contribution of UPS&#8208;based protein degradation to synaptic protein catabolism remains unclear. Thus, for example, protein ubiquitination is not necessarily indicative of imminent proteasomal&#8208;based degradation, as ubiquitination (in particular mono&#8208;ubiquitination) can act as a signal for downstream events or as an effector of protein function, without affecting protein levels (as shown for the presynaptic proteins Rim1 and Munc13; Rinetti &amp; Schweizer, 2010; see also Bianchetta et&#160;al, 2011; Pinto et&#160;al, 2016). In addition, ubiquitination events are continuously countered by deubiquitinating enzymes. Consequently, the presence of conjugated ubiquitin (e.g. Na et&#160;al, 2012) cannot be taken as unequivocal evidence that a protein is destined for degradation (Udeshi et&#160;al, 2012). Finally, and perhaps most importantly, much of the evidence concerning UPS involvement in synaptic protein catabolism is based on pharmacological agents that inhibit proteasomal activity; the interpretation of such experiments, however, is not straightforward, as the involvement of the UPS in myriad cellular processes can lead to unexpected results, including the suppression of protein synthesis (Ding et&#160;al, 2006, 2007a; King et&#160;al, 2008; Milner et&#160;al, 2013; Larance et&#160;al, 2013; see also Dong et&#160;al, 2008, 2014; Bajic et&#160;al, 2012; Jarome &amp; Helmstetter, 2014). In fact, pharmacological agents that inhibit proteasomal activity often have rather modest effects on overall and synaptic levels of most synaptic proteins (e.g. Lazarevic et&#160;al, 2011; Shin et&#160;al, 2012). Thus, while cumulative evidence points to roles for UPS&#8208;based protein catabolism in synaptic proteostasis, the degree to which this pathway is involved in basal catabolism of most synaptic proteins remains unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5315</offset>
+      <text>In the current study, we used multiplexed (Zhang et&#160;al, 2011, 2012) and pulsed (Selbach et&#160;al, 2008; Cambridge et&#160;al, 2011) SILAC (Stable Isotope Labeling with Amino acids in Cell culture) combined with MS (Mass Spectrometry; Pratt et&#160;al, 2002; Aebersold &amp; Mann, 2003; Ong &amp; Mann, 2006; Milner et&#160;al, 2006;&#160;Cox &amp; Mann, 2008; Liao et&#160;al, 2008; Spellman et&#160;al, 2008; Doherty et&#160;al, 2009; Schwanh&#228;usser et&#160;al, 2011) to systematically measure how the pharmacological suppression of proteasomal activity selectively affects the degradation (and synthesis) rates of thousands of neuronal and synaptic proteins. Using these approaches, we identified synaptic proteins whose degradation is strongly UPS dependent. We also found, however, that for the majority of synaptic proteins, degradation rates are not significantly slower in the presence of proteasomal inhibitors. In contrast to the modest effects on synaptic protein degradation, we show that UPS inhibition is associated with a profound suppression of synaptic protein synthesis. Finally, by synthesizing these data with information on metabolic turnover rates of individual proteins, we provide a quantitative framework which satisfactorily explains some of the differential effects of UPS inhibition yet&#160;also delineates limitations in the use of proteasomal inhibitors to study synaptic protein catabolism.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6688</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6696</offset>
+      <text>Lactacystin strongly suppresses proteasome&#8208;mediated protein degradation in primary cultures of rat neurons</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6805</offset>
+      <text>In the current study, we set out to examine to what degree basal synaptic protein catabolism is affected by the suppression of proteasomal activity. The pharmacological agent we selected to suppress UPS&#8208;mediated protein degradation in these (and subsequent) experiments was lactacystin. Lactacystin is a potent, highly selective proteasome inhibitor (Fenteany et&#160;al, 1994) whose main mode of action is the irreversible modification of the proteasome &#946;5 subunit at its highly conserved active site, an amino&#8208;terminal threonine residue (Fenteany &amp; Schreiber, 1998). Neither lactacystin nor its active intermediates detectably affect many other commonly tested proteases (Fenteany et&#160;al, 1995; Fenteany &amp; Schreiber, 1998); moreover, and in contrast to the commonly used proteasome inhibitor MG&#8208;132, lactacystin does not inhibit calpains. Thus, lactacystin is considered to be a highly selective inhibitor, and when used at a concentration of 10&#160;&#956;M, it has been shown to robustly block proteasome activity (e.g. Zhao et&#160;al, 2003; Willeumier et&#160;al,&#160;2006; Machiya et&#160;al, 2010; Keyomarsi et&#160;al, 2011; Bajic et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7936</offset>
+      <text>To quantify proteasome inhibition in our preparations, we performed a series of experiments based on biochemical and imaging approaches. We started by measuring proteasomal activity in extracts of cortical neurons grown in culture for 2&#160;weeks, treated (or untreated) prior to extraction with lactacystin (10&#160;&#956;M) for 4&#160;h using the fluorogenic substrate N&#8208;Succinyl&#8208;Leu&#8208;Leu&#8208;Val&#8208;Tyr&#8208;7&#8208;amino&#8208;4&#8208;methylcoumarin (Suc&#8208;LLVY&#8208;AMC; Meng et&#160;al, 1999; Fornai et&#160;al, 2003; Kisselev et&#160;al, 2003; Kisselev &amp; Goldberg, 2005). As shown in Fig&#160;EV1A and B, lactacystin pretreatment reduced Suc&#8208;LLVY&#8208;AMC fluorescence accumulation rates by a factor of ~20 (two separate experiments; see Materials and Methods for further details). We also quantified lactacystin effects on fluorescence accumulation in living cells using a similar fluorogenic substrate (LLVY&#8208;Rhodamine&#8208;110) and time&#8208;lapse imaging. Here too, lactacystin reduced fluorescence accumulation rates (~3&#8208;fold) although quantification was complicated by limited substrate penetration and availability as well as poor cytosolic retention of fluorescent products (Fig&#160;EV1D; 121 cells, four experiments).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9116</offset>
+      <text>Measuring proteasomal inhibition using fluorogenic substrates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9178</offset>
+      <text>Cortical neurons grown for 2&#160;weeks in culture were treated with lactacystin (10&#160;&#956;M) or carrier solution for 4&#160;h, washed vigorously with PBS after which they were extracted, and assayed for proteasomal (chymotrypsin&#8208;like) proteolytic activity using the fluorogenic substrate Suc&#8208;LLVY&#8208;AMC (see Materials and Methods for further details). Linear fits to the first hour are shown as black lines. Fit parameters are displayed next to lines. Two separate experiments. Y&#8208;axis, arbitrary fluorescence units.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9690</offset>
+      <text>Same as in (A) and (B) except that cells were treated here with epoxomicin (5&#160;&#956;M).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9775</offset>
+      <text>Proteasomal inhibition measured with fluorogenic substrates in living neurons. Cortical neurons were treated with lactacystin (10&#160;&#956;M) or carrier solution for 4&#160;h, after which they were exposed to LLVY&#8208;Rhodamine&#8208;110 and followed by time&#8208;lapse microscopy. Fluorescence was thereafter measured in neuronal cell bodies of neurons. Note that the fluorescence began to increase only after &#732;30&#160;min. Linear fits are shown as black lines. Fit parameters are displayed next to lines. Average and SEM for 121 cells from four experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10313</offset>
+      <text>Readouts based on fluorogenic substrates do not always provide accurate reports of proteasomal inhibition, due to the multiple proteolytic activities of proteasomes and important differences between short substrate degradation in extracts and protein degradation in cells (Dantuma et&#160;al, 2000). We thus measured how lactacystin affects the degradation of two proteins that are well&#8208;known proteasome targets. We first examined how lactacystin affects intracellular levels of p21waf1/cip1 (cyclin&#8208;dependent kinase inhibitor 1A), a short&#8208;lived protein whose UPS&#8208;based degradation has been well characterized (Abbas &amp; Dutta, 2009; see also Larance et&#160;al, 2013) and whose steady&#8208;state expression in cortical neurons is very low (Langley et&#160;al, 2008). As shown in Fig&#160;EV2, exposure to lactacystin greatly increased p21waf1/cip1 levels over the course of 4&#8211;8&#160;h. As a second approach, we used N&#8208;end rule degradation signal green fluorescent proteins (Dantuma et&#160;al, 2000). These proteins, in particular those destabilized by placing an arginine at position 1 (Ub&#8208;R&#8208;GFP), are rapidly targeted for UPS degradation. Consequently, when expressed in living cells, nominally low fluorescence levels increase substantially when UPS&#8208;mediated degradation is suppressed. Ub&#8208;R&#8208;GFP was expressed in cultured cortical neurons and followed by time&#8208;lapse imaging. As shown in Fig&#160;1A and B, exposure to lactacystin (10&#160;&#956;M) led to dramatic increases in GFP fluorescence over timescales of hours. Unfortunately, because basal fluorescence was negligible, detecting Ub&#8208;R&#8208;GFP&#8208;expressing cells proved to be challenging. To overcome this difficulty, we co&#8208;expressed cyan fluorescent protein (CFP), allowing us to locate Ub&#8208;R&#8208;GFP&#8208;expressing neurons before applying lactacystin (Fig&#160;1C). Furthermore, the coexpressed CFP allowed us to control for non&#8208;specific effects on cell morphology and for off&#8208;target effects on transcription (Biasini et&#160;al, 2004). As shown in Fig&#160;1D, lactacystin induced dramatic increases in GFP fluorescence but no change in CFP fluorescence. Conversely, carrier solution application barely affected GFP fluorescence (Fig&#160;1E). Comparing fluorescence change rates indicated that lactacystin increased GFP accumulation rates ~20&#8208;fold (Fig&#160;1F), in good agreement with our measurements based on fluorogenic peptides (Fig&#160;EV1A and B). Taken together, these experiments suggest that in the preparations used here, lactacystin suppresses proteasomal&#8208;mediated protein degradation by at least a factor of 10, probably more.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12884</offset>
+      <text>Proteasome inhibitors drive rapid accumulation of p21waf1/cip1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12947</offset>
+      <text>Western blots prepared from extracts of cortical neurons in culture and probed with antibodies to p21waf1/cip1 (top) or tubulin (bottom). Cells were untreated or treated with lactacystin (10&#160;&#956;M), epoxomicin (5&#160;&#956;M), H2O or DMSO for 4 or 8&#160;h as indicated.Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13255</offset>
+      <text>Lactacystin strongly suppresses UPS&#8208;mediated protein degradation in living neurons</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13340</offset>
+      <text>Differential interference contrast (DIC) image of cortical neurons in culture. The arrowhead points to a neuron expressing Ub&#8208;R&#8208;GFP.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13477</offset>
+      <text>GFP fluorescence before and after exposure to lactacystin (10&#160;&#956;M). Scale bar, 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13566</offset>
+      <text>A neuron coexpressing Ub&#8208;R&#8208;GFP and CFP before (left) and 10&#160;h after exposure to lactacystin (right). Top row, GFP fluorescence; bottom row, CFP fluorescence. Scale bar, 20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13749</offset>
+      <text>Changes in GFP and CFP fluorescence following exposure to lactacystin at t&#160;=&#160;1&#160;h (vertical dashed line). Changes normalized to initial fluorescence in same cells. Nine neurons from five experiments; averages and SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13969</offset>
+      <text>Same as in (D), except that here neurons were exposed only to carrier solution. 11 neurons from five experiments; averages and SEM (barely observable).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14121</offset>
+      <text>Comparison of GFP fluorescence accumulation rates. Linear fits shown as black lines; fit parameters shown next to fits. Same data as in (D) and (E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14270</offset>
+      <text>Effects of proteasomal inhibition on synaptic levels of synaptic proteins measured by quantitative immunocytochemistry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14389</offset>
+      <text>Prior studies indicate that synaptic protein degradation might be, at least for some prominent examples (the presynaptic protein Rim1 and the postsynaptic proteins Shank and PSD&#8208;95; Colledge et&#160;al, 2003; Ehlers, 2003; Yao et&#160;al, 2007) mediated by the UPS (see Introduction). To measure the effects of lactacystin on synaptic levels of these and additional synaptic proteins, we used quantitative immunofluorescence to determine how 10&#8208;h exposures to lactacystin (10&#160;&#956;M) affect synaptic levels of RIM, ProSAP2/Shank3 and PSD&#8208;95, synapsin I, Bassoon, and SV2A. Hippocampal neurons were used here, as the lower densities of cells and synapses in these networks facilitated antibody access and single synapse quantification. As shown in Fig&#160;2A and B, for most of these proteins, exposure to lactacystin was not associated with increases in their synaptic levels, as might have been expected from reduced degradation rates. If anything, slight reductions in synaptic levels of these proteins were observed. An exception was RIM, in which a small (19%) but highly statistically significant increase was observed (P&#160;&lt;&#160;10&#8722;9).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15522</offset>
+      <text>Proteasomal inhibition does not lead to generalized accumulations of synaptic proteins at synaptic sites</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15627</offset>
+      <text>Hippocampal neurons in primary culture immunolabeled against three synaptic proteins (the postsynaptic scaffold molecule Dlg4/PSD&#8208;95, the presynaptic active zone molecule RIM, and the presynaptic vesicle protein SV2A) following 10&#8208;h incubations in carrier solution (control, upper panels) or lactacystin (10&#160;&#956;M; bottom panels). Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15981</offset>
+      <text>Average synaptic immunofluorescence following 10&#8208;h incubations in lactacystin or carrier solution. Numbers within bars represent the number of fields of view analyzed for each condition (&#732;170 synapses/field of view, on average). Error bars, SEM; P&#8208;values calculated according to the two&#8208;tailed unpaired t&#8208;test. Note that a statistically significant accumulation was observed only for RIM, whereas immunolabeling of all other proteins was either unchanged or reduced.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16457</offset>
+      <text>Hippocampal neurons in primary culture were grown in the presence of lactacystin (10&#160;&#956;M), fixed at 2&#8208;h intervals, and immunolabeled against Shank3/ProSAP2. Two representative fields of view at t&#160;=&#160;0 and t&#160;=&#160;24&#160;h. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16699</offset>
+      <text>Average synaptic Shank3/ProSAP2 immunofluorescence at increasing times in the presence of lactacystin. Fluorescence was normalized to mean fluorescence at t&#160;=&#160;0. Numbers under data points reflect the numbers of fields of view analyzed at each time point. Error bars, SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16973</offset>
+      <text>A more detailed analysis was performed for Shank3/ProSAP2. Here, neurons were fixed at two&#8208;hour intervals following exposure to lactacystin. As shown in Fig&#160;2C and D, no significant changes in&#160;the synaptic immunofluorescence levels were observed over a 24&#8208;h period (two experiments, 8&#8211;54 fields of view per time point).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17301</offset>
+      <text>As this limited survey did not provide strong evidence for widespread UPS&#8208;based synaptic protein catabolism (even though it was biased toward proteins previously reported to be degraded via the UPS), we set out to examine this question on a larger scale and in an unbiased fashion by SILAC and MS.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17601</offset>
+      <text>Effects of proteasomal inhibition on apparent half&#8208;lives of synaptic proteins measured by pulsed SILAC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17706</offset>
+      <text>Metabolic half&#8208;lives of proteins are dictated by their synthesis and degradation rates. We reasoned that pharmacological inhibition of the proteasome might prolong the half&#8208;life of proteins whose degradation is primarily UPS mediated. To measure how proteasomal inhibition affects the half&#8208;lives of synaptic proteins, we adapted a dynamic SILAC approach we recently used to systematically measure synaptic protein half&#8208;lives (Cohen et&#160;al, 2013). In those experiments, lysine and arginine, containing non&#8208;radioactive, heavy isotopes of particular atoms (&#8220;heavy&#8221; amino acids), were added abruptly to rat cortical neurons raised in culture for 2&#8211;3&#160;weeks, which were thereafter subjected to MS analysis at increasing times (days). The underlying logic was that proteins synthesized after exposure to heavy (H) amino acids (AAs) would contain mainly heavy lysine and arginine (Cambridge et&#160;al, 2011), whereas proteins synthesized prior to that time would contain only &#8220;light&#8221; (L) variants of these AAs. By quantifying changes in the ratios of heavy to light (H/L) peptides over time, the turnover rates of specific proteins could be estimated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18868</offset>
+      <text>To estimate how half&#8208;lives of synaptic proteins are affected by pharmacological suppression of proteasomal activity, we raised dense networks of rat cortical neurons in culture for 2&#160;weeks in standard media, after which heavy lysine and arginine (Lys8 &#8208; 13C6, 15N2; Arg10 &#8208; 13C6, 15N4) were added in excess, resulting in a 5:1 H/L ratio of these AAs in the media. Lactacystin (10&#160;&#956;M) was added to one of the preparations, whereas carrier solution alone was added to the control preparations. Heavy AA addition, rather than replacement, allowed us to avoid the abrupt and complete media exchanges which can be rather strong perturbations in their own right (e.g. Saalfrank et&#160;al, 2015). Excess lysine and arginine, on the other hand, have no adverse effects on neuronal viability, synaptic density, spontaneous electrical activity levels, or protein expression profiles (Cohen et&#160;al, 2013). After 24&#160;h, the neurons were lysed and extracted; the extracts were separated on polyacrylamide gels, which were subsequently cut into five sets of bands according to molecular weight. Each gel slice was then subjected to MS analysis, and an H/L ratio for each identified peptide was determined. H/L ratios from at least 2 unique peptides belonging to each protein were pooled, providing an average H/L ratio for each protein. The entire process is illustrated in Fig&#160;3A.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20243</offset>
+      <text>Measuring apparent changes in protein turnover by pulsed SILAC</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20306</offset>
+      <text>Illustration of the experimental procedure. Following 2&#160;weeks of growth in normal media (containing light variants of lysine and arginine), heavy lysine and arginine were added in excess as described in the Results section. Lactacystin was added to one of the sets at this time, resulting in a final concentration of 10&#160;&#956;M. 24&#160;h later, cells were harvested and protein lysates were separated side by side by SDS&#8211;PAGE. Two lanes in such a gel (stained with Coomassie Blue) are shown. Lanes were then cut into five slices as indicated, proteins in each slice were digested, and the resulting peptides from each slice and each treatment were submitted separately to MS analysis, resulting in a list of H/L ratios for each peptide.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21040</offset>
+      <text>Comparisons of H/L ratios obtained for 1,409 proteins in lactacystin and untreated cells. H/L ratios are averages of two experiments. R2 is the linear regression coefficient of determination.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21232</offset>
+      <text>Two separate experiments were performed, resulting in 1,409 proteins for which H/L ratios were obtained in both experiments and both conditions. As shown in Appendix&#160;Fig S1, H/L ratios (expressed as log2H/L) for both the control and lactacystin data sets were highly repeatable (Pearson's correlation r&#160;=&#160;0.95 and 0.91, respectively). We thus averaged data from both experiments and used these average H/L values in subsequent analyses. As shown in Fig&#160;3B, comparisons of H/L values obtained from lactacystin&#8208;treated and untreated preparations suggested that proteasomal inhibition introduced major changes in H/L ratios, with the correlation dropping to 0.70. We then calculated, for each protein, the fold change in the H/L ratio [or more specifically, log2(H/L)Lactacystin &#8211; log2(H/L)Control] and sorted these from smallest to largest. As shown in Fig&#160;4A, H/L ratios of most proteins were reduced (suggestive of slower turnover), although elevated H/L ratios were observed for some proteins (a matter we will return to later). Remarkably, when H/L ratio changes of 160 synaptic proteins were examined (see Materials and Methods for synaptic protein selection criteria), these tended to cluster at the leftmost region of this plot (greatest reductions in H/L ratios) which would seem to suggest that their turnover was slowed down dramatically. Thus, for example, within the group of proteins for which twofold or greater reductions in H/L ratios were observed, we found many well&#8208;characterized postsynaptic proteins (such as glutamate receptor subunits, CaMKII&#945; and &#946;, PSD&#8208;95, Drebrin) and presynaptic proteins (Bassoon, synapsin I and II, syntaxin&#8208;1B, SNAP25, neurexin&#8208;2, synaptophysin, synaptotagmin&#8208;1, dynamin&#8208;1, synaptojanin&#8208;1, Munc18&#8208;1, NSF, Soluble NSF Attachment Protein; Fig&#160;4, Table&#160;EV1). In fact, an unbiased gene ontology analysis (GORILLA: Gene Ontology enRIchment anaLysis and visuaLizAtion tool, http://cbl-gorilla.cs.technion.ac.il/; Eden et&#160;al, 2009) indicated&#160;that the &#8220;synapse part&#8221;, &#8220;terminal bouton&#8221;, and &#8220;synaptic vesicle&#8221; groups were the strongest affected subcellular groups (P&#160;=&#160;7.09&#160;&#215;&#160;10&#8722;10, P&#160;=&#160;1.41&#160;&#215;&#160;10&#8722;9 and P&#160;=&#160;5.91&#160;&#215;&#160;10&#8722;9, respectively, &#8220;Component&#8221;, Fig&#160;EV3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23495</offset>
+      <text>Lactacystin&#8208;induced changes in H/L ratios</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23539</offset>
+      <text>Fold changes in the H/L ratios  measured for each protein in the experiments described in Fig&#160;3 (expressed as log2(H/L)Lactacystin &#8211; log2(H/L)control). H/L ratios used here are the average of ratios obtained in two experiments for each protein and each condition. Proteins were sorted according to the fold change in H/L ratios from the proteins whose ratios were most strongly reduced (&#732;8&#8208;fold reduction) to proteins whose H/L ratios increased to the greatest extent (&gt;&#160;8&#8208;fold increase). Red circles indicate the location of synaptic proteins along this sorted list. The names of 34 synaptic proteins located at the left&#8208;most region of the sorted list are provided in the order of their appearance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24250</offset>
+      <text>The apparent fold change in protein half&#8208;lives under certain assumptions described in the Results section. See Materials and Methods for further details on the calculation of the apparent fold change in half&#8208;lives.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24469</offset>
+      <text>Enrichment analysis of proteins whose H/L ratios were reduced following 24&#160;h in the presence of lactacystin</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24578</offset>
+      <text>Proteins were sorted according to fold changes in the H/L ratios  in the experiments described in Fig&#160;3 (expressed as D&#160;=&#160;log2(H/L)Lactacystin &#8211; log2(H/L)control) and subjected to GO&#8208;based enrichment analysis using the public domain tool &#8220;GORILLA&#8221; (Gene Ontology enRIchment anaLysis and visuaLizAtion tool). The list included 1,362 proteins for which (i) D was negative, (ii) D was positive but within 3 standard deviations of the variability observed in the two control experiments data (i.e. log2(H/L)control_exp1 &#8211; log2(H/L)control_exp2), that is, D&#160;&lt;&#160;0.95. The top panel shows the full diagram (category&#160;=&#160;&#8220;cellular component&#8221;), and the bottom panel shows an enlarged version of the diagram's center. The statistical significance of enrichment scores (minimum hypergeometric score; calculated by GORILLA) is color&#8208;coded according to the index at the bottom.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25463</offset>
+      <text>Under certain assumptions (discussed at length in Cohen et&#160;al, 2013), H/L ratios can be used to estimate half&#8208;lives of identified proteins. Indeed, half&#8208;life estimates based on the single 24&#8208;h time point of the control data set correlated well with prior estimates based on four time points (Cohen et&#160;al, 2013; r&#160;=&#160;0.75; 1,335 proteins common to both data sets; Appendix&#160;Fig S2, Table&#160;EV2). Using the same method (see Materials and Methods), we estimated the apparent half&#8208;lives of the 1,409 proteins mentioned above in lactacystin&#8208;treated and untreated preparations, and plotted the apparent fold change in half&#8208;lives for synaptic proteins (Fig&#160;4B). This analysis seemed to suggest that lactacystin prolonged the half&#8208;lives of most synaptic proteins by factors of ~2 to 7. However, as mentioned above, estimations of half&#8208;lives from H/L ratios, and consequently this interpretation, are based on certain assumptions, not all of which remain valid once the proteasome is inhibited. Of these, the most important is the assumption that protein synthesis and protein degradation rates are balanced, and thus, heavy AAs incorporation rates&#8212;which reflect protein synthesis&#8212;are mirror images of light AA loss rates&#8212;which reflect protein degradation. Once the proteasome is inhibited, however, this assumption is no longer valid; moreover, the basis for changes in H/L ratios becomes unclear: Do such changes reflect reduced protein degradation rates (larger denominators), or possibly, reductions in protein synthesis rates (i.e. smaller numerators)? The latter possibility cannot be ignored in light of prior reports concerning the effects of proteasome inhibitors on protein synthesis (see Introduction). Thus, a different approach was needed; one that would allow us to unequivocally measure the effects of proteasome inhibition on protein degradation rates and separate these from effects on protein synthesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27401</offset>
+      <text>Using multiplexed dynamic SILAC to measure the effects of proteasomal inhibition on protein degradation rates</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27511</offset>
+      <text>To selectively examine the effects of proteasomal inhibition on synaptic protein degradation, we designed experiments for quantifying the rates at which preexisting protein pools are degraded, free from &#8220;contamination&#8221; by possible effects on protein synthesis. The experiments, based on a combination of multiplexed (Zhang et&#160;al, 2011, 2012) and pulsed SILAC, were performed as follows (Fig&#160;5A): Cortical neurons were grown in culture for 2&#160;weeks in the presence of isotopically separable lysine and arginine, that is, &#8220;heavy&#8221; (H) variants (Lys8 &#8208; 13C6, 15N2; Arg10 &#8208; 13C6, 15N4) or &#8220;medium&#8221; (M) variants (Lys6 &#8208; 13C6; Arg6 &#8208; 13C6). These AAs were added to lysine and arginine&#8208;free cell culture media such that total lysine and arginine concentrations were identical to nominal concentrations in our standard cell culture media. After 14&#160;days in&#160;vitro, the media was replaced gently with media containing no isotopically labeled AAs and a 5&#215; excess of light lysine and arginine. At this time point, lactacystin (10&#160;&#956;M) was added to the set of preparations labeled with heavy AAs. The cells were harvested after 4, 10, or 24&#160;h, mixed together (as pairs of time&#8208;matched lactacystin&#8208;treated and control sets), run together on preparative gels, digested and subjected to MS analysis as detailed in Materials and Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28863</offset>
+      <text>Measuring changes in degradation rates by multiplexed SILAC</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28923</offset>
+      <text>Illustration of the experimental procedure. Cells were grown for 2&#160;weeks in growth media containing either heavy or medium variants of lysine and arginine. At day 14, the media was replaced with normal growth media containing an excess of unlabeled (light) lysine and arginine. Lactacystin or epoxomicin was added to one of the sets at this time. 4, 10, or 24&#160;h afterward, cells were harvested, mixed, and separated by SDS&#8211;PAGE. Lanes were then cut into five slices, digested, and analyzed by MS analysis, resulting in a list of H/M ratios for each peptide.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29485</offset>
+      <text>Illustration of the meaning of H/M ratio. For proteins whose degradation is retarded by proteasomal inhibitors, H&#8208;labeled copies are degraded at slower rates than M&#8208;labeled copies, resulting in H/M ratios &gt;&#160;1. For proteins whose degradation is not affected by proteasomal inhibitors, H&#8208;labeled and M&#8208;labeled proteins are degraded at similar rates, resulting in H/M ratios of &#732;1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29874</offset>
+      <text>In this scheme, the peptide mixture subjected to MS analysis contained (i) unlabeled peptides originating in proteins synthesized after the substitution of labeled AAs with unlabeled variants; and (ii) peptides labeled with either heavy or medium AAs, representing preexisting protein pools, that is, proteins synthesized prior to the removal of labeled AAs and exposure to lactacystin. The labeled peptides, in turn, were a mixture of peptides from the lactacystin&#8208;treated neurons (labeled with heavy AAs) and peptides from the untreated neurons (labeled with medium AAs). By calculating the ratios of labeled peptide quantities for each peptide at each time point, the relative amounts of these peptides in treated and untreated cells could be determined. These ratios, referred to here as H/M ratios, (heavy/medium ratios, equivalent to experiment/control ratios) were then pooled for all peptides belonging to a particular protein, giving an average H/M ratio for each protein. These H/M ratios were then used to estimate the degree to which proteasomal inhibition slowed the degradation of each protein, as illustrated in Fig&#160;5B. Thus, for example, a H/M (experiment/control) ratio of ~1.0 for a certain protein at a particular time point indicated that the residual amounts of that protein were identical in treated and untreated neurons, and thus, its degradation was not slower in the presence of proteasomal inhibitors. Conversely, H/M ratios &gt;&#160;1.0 indicated that the residual amounts of that protein were greater in the treated cells, and thus, its degradation in the presence of proteasomal inhibitors was impeded. Importantly, because peptides containing unlabeled (light) AA variants were ignored in this scheme, estimates were insensitive to changes in amounts of newly synthesized proteins and were thus highly selective for effects on protein degradation. It is worth noting that the use of heavy and medium AAs was reversed in some of the experiments to control for nonspecific effects (see Materials and Methods), but for the sake of simplicity, we refer here and throughout the manuscript to experiment/control ratios as H/M ratios.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32030</offset>
+      <text>The validity of the scheme described above depends on a requirement that at the 14&#8208;day time point, protein pools in neurons growing in heavy or medium AAs are labeled to a similar degree and preferentially at levels close to saturation. This was examined experimentally by measuring the ratios of labeled to unlabeled peptides (H/L or M/L ratios) in neurons that had been grown in either heavy or medium AAs for 14&#160;days (before lactacystin treatment). H/L and M/L ratios for all identified proteins were converted into fractional saturation values (i.e.  and ; see Materials and Methods) and compared. As shown in Fig&#160;EV4, labeling was very similar and nearly complete and for both labels (91.8 and 91.1%, 1,134 and 922 proteins, respectively). However, these values were almost certainly underestimates, as no light peptides whatsoever were detected for most identified proteins (3,814 and 4,067 proteins, respectively) suggesting that for the vast majority of proteins, labeling was practically complete.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33041</offset>
+      <text>Saturation of labeling with labeled amino acids</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33089</offset>
+      <text>Distribution of labeling saturation (illustrated in inset) following 2&#160;weeks of growth in media containing H&#8208; or M&#8208;labeled lysine and arginine. Labeling saturation was measured by quantifying the H/L and M/L ratios and converting these into labeling saturation values as detailed in Materials and Methods. Data obtained from one SILAC experiment for each sample.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33457</offset>
+      <text>The fact that material extracted from treated and control sets was mixed, prepared, and analyzed together dramatically reduced the variability associated with multiple preparations and runs, as each peptide from the treated set was compared to an internal standard from the control set. Some method was still required, however, to correct for slight differences in the relative amounts of material collected from treated and control sets. To that end, we normalized all H/M (experiment/control) ratios to H/M ratios measured for a group of seven abundant and particularly long&#8208;lived proteins (Toyama et&#160;al, 2013; Table&#160;1). The first criterion assured accurate quantification, while the second warranted that even if their degradation is UPS mediated, a 4&#8208; to 24&#8208;h&#8208;long suppression of proteasomal activity would have negligible effects on their quantities. All H/M ratios mentioned hereafter reflect H/M ratios normalized in this fashion.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>34405</offset>
+      <text>Abundant long&#8208;lived proteins used for normalization</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>34459</offset>
+      <text>   Protein t1/2 (days) from Cohen et&#160;al (2013)   Vcan/Cspg2 9.64  Lamin&#8208;B1 19.8  Lamin&#8208;B2 16.1  Nup155 9.37  Nup205 14.09  Macro&#8208;H2A.1 10.17  Macro&#8208;H2A.2 10.62</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>34628</offset>
+      <text>The list is based on Toyama et&#160;al (2013); half&#8208;lives for the same proteins obtained in networks of cortical neurons in culture are from Cohen et&#160;al (2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34788</offset>
+      <text>Three separate experiments were performed in which a total of &gt;&#160;4,500 proteins were identified. Within this group, we selected 1,750 proteins for which (i) H/M (experiment/control) ratios were quantified for at least 2 peptides in each experiment, and (ii) such ratios were obtained in all three experiments at all four time points. H/M ratios for each protein were normalized to the ratio for the aforementioned long&#8208;lived proteins for each experiment and time point (see Materials and Methods) and expressed as base 2 logarithmic values. As shown in Fig&#160;6A, the average log2(H/M) at t&#160;=&#160;0&#160;h for all 1,750 proteins after this normalization was very close to 0 (&#8722;0.005&#160;&#177;&#160;0.04; n&#160;=&#160;3); that is, initial amounts of identified proteins obtained from lactacystin&#8208;treated and control neurons were identical on average, as might be expected. To estimate the accuracy and sensitivity of our approach, we averaged the log2(H/M) values obtained for each identified protein at t&#160;=&#160;0&#160;h and examined the distribution of these average values. As Fig&#160;6B shows, average log2(H/M) values at t&#160;=&#160;0&#160;h were distributed quite narrowly around 0 (an experiment/control ratio of 1.0) with a standard deviation of 0.083. Average log2(H/M) values for &gt;&#160;99% of all proteins fell within 3 standard deviations, that is within a range of H/M ratios of 0.84&#8211;1.18, indicating that changes of &gt;&#160;18% in H/M (experiment/control) ratios were highly unlikely to occur by chance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36258</offset>
+      <text>Global changes in degradation rates and method sensitivity</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36317</offset>
+      <text>Average log2(H/M) ratios for 1,750 proteins at four time points in three separate experiments. Each time point shows the average and standard deviation of three mean log2(H/M) values obtained in three separate experiments. Each mean, in turn, represents the mean log2(H/M) value measured in the population of 1,750 proteins in that experiment and time point.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36676</offset>
+      <text>Distribution of log2(H/M) values for 1,750 proteins at t&#160;=&#160;0. The log2(H/M) value of each protein represents the average value for that protein in the three experiments. In principle, log2(H/M) for all proteins at t&#160;=&#160;0 should be 0, but in practice they are distributed around 0 as shown here. The H/M ratios for three standard deviation limits are shown beneath the x&#8208;axis (arrows).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37066</offset>
+      <text>The same as in (A) and (B) but for two experiments in which epoxomicin was used (1,823 proteins).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37164</offset>
+      <text>The same as in (A) and (B) but for the combined data from all experiments (3 experiments in which lactacystin was used and 2 experiments in which epoxomicin was used; 1,469 proteins).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37348</offset>
+      <text>In addition to these three experiments, we performed two separate experiments in identical fashion using an alternative proteasomal inhibitor, namely epoxomicin (5&#160;&#956;M; Meng et&#160;al, 1999). Epoxomicin is an exquisitely selective proteasome inhibitor, which in common with lactacystin, acts by covalently modifying catalytic &#946;&#8208;subunits of the proteasome, is even more selective than lactacystin (e.g. does not inhibit Cathepsin A or B; Meng et&#160;al, 1999; Kozlowski et&#160;al, 2001), and effectively blocks proteasome function in our preparations (Figs&#160;EV1C and EV2). The distribution of average normalized log2(H/M) values in these experiments at t&#160;=&#160;0 was somewhat broader (standard deviation&#160;=&#160;0.127; Fig&#160;6C and D), which might be expected given that these were based on two rather than three measurements for each protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38179</offset>
+      <text>We then examined how increasingly longer exposures to lactacystin or epoxomicin affected H/M ratios averaged across the entire protein populations. Somewhat surprisingly, the observed changes were very small (Fig&#160;6A and C) and not statistically significant. To increase the statistical power of these analyses, and given the similar mode of action of the two inhibitors, we averaged the normalized log2(H/M) values of each protein across all five experiments (3&#160;lactacystin and 2 epoxomicin). Here too, no statistically significant differences were observed (Fig&#160;6E). Although we cannot completely exclude the possibility that the minor differences in experiment/control ratios observed from one time point to another (ranging from &#8722;5% to +7%) reflect real effects of proteasome inhibition, we believe that these mainly stem from residual errors in the H/M normalization process described above. Importantly, pooling data across all five experiments increased the resolving power of our analyses, with the standard deviation of log2(H/M) values at&#160;t&#160;=&#160;0 dropping to 0.069 (experiment/control ratio uncertainties of ~14%; Fig&#160;6F). Consequently, data pooled in this fashion were used in all subsequent analyses.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39398</offset>
+      <text>Effects of proteasomal inhibition on synaptic protein degradation rates</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39470</offset>
+      <text>To examine how lactacystin and epoxomicin affect degradation rates of specific proteins, we compiled a stringent list of normalized log2(H/M) measurements for all proteins for all five experiments and all four time points (20 samples/protein). Proteins were included in this list if H/M ratio measurements were obtained for at least 2 peptides in each of at least 11 of the 12 lactacystin samples and at least 7 of the 8 epoxomicin samples (176 synaptic proteins, 1,530 proteins in total). We then (i) calculated the mean normalized log2(H/M) ratio value for each protein at each time point, and (ii) calculated the statistical significance of the difference between values measured at t&#160;=&#160;24&#160;h and t&#160;=&#160;0&#160;h (two&#8208;tailed Welch test). The full list is provided in Table&#160;EV3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40251</offset>
+      <text>Of the 1,530 proteins in this list, only 160 (~10%) exhibited statistically significant differences (P&#160;&#8804;&#160;0.05) in their normalized log2(H/M) ratios at t&#160;=&#160;24&#160;h. Of these, 158 exhibited positive log2(H/M) ratios, that is, exhibited slower degradation rates in the presence of proteasomal inhibitors; of these, 121 (~8% of the 1,530 proteins) exhibited normalized log2(H/M) ratios &gt;&#160;3 standard deviations of the log2(H/M) ratios measured at t&#160;=&#160;0 (0.20, i.e. H/M ratios&#160;&gt;&#160;1.13; Fig&#160;6F). Gene Ontology analysis (GOrilla) based on the 1,530 proteins of Table&#160;EV3 sorted according to log2(H/M) ratios at t&#160;=&#160;24&#160;h indicated that proteins most strongly affected were related to mitochondria (&#8220;Component&#8221;), to proton transport and to unsaturated fatty acid metabolism (&#8220;Process&#8221;).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41049</offset>
+      <text>Of the 176 synaptic proteins identified here, 21 proteins (~12%) exhibited statistically significant differences (all positive, i.e. slower degradation rates), and for 17 of these, normalized log2(H/M) ratios were &gt;&#160;3 standard deviations as described above. The five synaptic proteins that showed the greatest statistically significant slowing of degradation rates were the E3 ligase NEDD4, the atypical A&#8208;kinase anchoring protein (AKAP) Neurochondrin/Norbin, the postsynaptic density protein SAP102/Dlg3, the AKAP AKAP9/Yotiao; and the major subunit of AMPA&#8208;type glutamate receptors GluA2. Both lactacystin and epoxomicin slowed the degradation of these proteins in similar manners (Fig&#160;7A and B). Given this similarity (see also Appendix&#160;Fig S3), we combined the data from both inhibitors in all subsequent analyses, as shown in Fig&#160;7C.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41896</offset>
+      <text>Proteasomal inhibition slows the degradation rates of a subset of synaptic proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41980</offset>
+      <text>log2(H/M) values for five synaptic proteins for which degradation rates were significantly slowed down in the presence of lactacystin. Each point represents average log2(H/M) from three experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42179</offset>
+      <text>log2(H/M) values for the same five synaptic proteins in experiments in which epoxomicin was used. Each point represents average log2(H/M) from two experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42339</offset>
+      <text>Average (&#177;&#160;SEM) log2(H/M) ratios for the same five synaptic proteins, based on all five experiments (3 lactacystin, 2 epoxomicin). P&#8208;values were calculated using the two&#8208;tailed Welch's t&#8208;test, comparing the five log2(H/M) measurements at t&#160;=&#160;24 to those measured for the same proteins at t&#160;=&#160;0.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42646</offset>
+      <text>Average (&#177;&#160;SEM) log2(H/M) values for three groups of synaptic proteins (synaptic vesicle, presynaptic, postsynaptic), based on all five experiments. None of the changes observed for these proteins were statistically significant (two&#8208;tailed Welch's t&#8208;test). The temporal changes common to all proteins and all groups most likely represent slight imperfections in the H/M normalization process (compare with Fig&#160;6E; see the Results section for further details).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43113</offset>
+      <text>Log2(H/M) values at t&#160;=&#160;24&#160;h for a group of well&#8208;studied synaptic proteins, sorted from highest to lowest. P&#8208;values (two&#8208;tailed Welch's t&#8208;test) of comparisons with log2(H/M) values for the same proteins at t&#160;=&#160;0 are shown in parentheses. Proteins that exhibited statistically significant changes (P&#160;&#8804;&#160;0.05) at t&#160;=&#160;24&#160;h are shown in red. Proteins for which (0.05&#160;&lt;&#160;P&#160;&#8804;&#160;0.10) at t&#160;=&#160;24&#160;h are shown in blue/red. The gray region depicts three standard deviations of log2(H/M) values at t&#160;=&#160;0 (Fig&#160;6F), to provide a measure of the method's sensitivity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43693</offset>
+      <text>In contrast to the slower degradation observed for these proteins, degradation rates of many other synaptic proteins were not significantly affected. This is shown for three synaptic protein groups in Fig&#160;7D&#8211;F and summarized for 45 well&#8208;characterized synaptic proteins in Fig&#160;7G. Normalized log2(H/M) ratios for the apparently unaffected proteins showed small and uniform changes across time points, but these probably reflect residual errors of the normalization process as mentioned above (compare with Fig&#160;6E). It is worth noting that within the group of apparently unaffected synaptic proteins, a few additional proteins exhibited trends toward change, whose statistical significance was close, but did not quite reach the cutoff of 0.05 (Fig&#160;7G). Setting the cutoff at P&#160;=&#160;0.10 increased the number of affected proteins to 44 (25%), which still seems to suggest that under our experimental conditions, lactacystin and epoxomicin did not significantly slow the degradation rates of the majority of synaptic proteins.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44724</offset>
+      <text>Relations of proteasomal inhibition with protein half&#8208;lives</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44786</offset>
+      <text>Examination of the list of synaptic proteins whose degradation was most strongly affected by lactacystin and epoxomicin reveals an interesting trend: Practically, all of these&#8212;NEDD4, Neurochondrin, SAP102/Dlg3, GluA2, Neurabin&#8208;1&#8212;were previously shown to be particularly short&#8208;lived when compared to the typical half&#8208;lives of synaptic proteins (Cohen et&#160;al, 2013). Specifically, the half&#8208;lives of these proteins ranged from 0.72 for NEDD4 to 2.13&#160;days for SAP102/Dlg3, much shorter than the average half&#8208;life of synaptic proteins in these preparations (4.14&#160;days; Cohen et&#160;al, 2013). The same holds for AKAP9/Yotiao, whose half&#8208;life was estimated at 1.31&#160;days in our current experiments (Appendix&#160;Fig S2; Table&#160;EV2). While this observation is consistent with the notion that UPS&#8208;mediated degradation is a favored route for short&#8208;lived proteins, it is important to keep in mind that in any experiment (including our own) in which degradation pathways are inhibited, the strongest effects will be observed for proteins with the shortest half&#8208;lives. In fact, for a protein whose degradation occurs mainly through the UPS, simple assumptions allow one to predict expected H/M ratios for this protein at different time points from its known half&#8208;life (t&#189;) and the degree of proteasomal inhibition (Fig&#160;8A). Specifically, assuming that for this protein (i) degradation occurs as a first order reaction such that its residual amount decays with a time constant of &#964; (with &#964;&#160;&#8776;&#160;1.443 &#183; t&#189;), and that (ii) slowing of its degradation by proteasomal inhibition increases &#964; by some factor &#945;, then value of log2(H/M) for this protein at time t is expected to be:(see Appendix&#160;Supplementary Materials and Methods for a detailed derivation).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>46555</offset>
+      <text>Expected dependence of log2(H/M) on protein half&#8208;life</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46611</offset>
+      <text>An illustration of the quantitative framework constructed to relate expected log2(H/M) measurements to the known half&#8208;life of a particular protein. For the sake of simplicity, the natural logarithm (e) is used here, but values were ultimately converted to base 2 (which is the base used in the half&#8208;life terminology).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46933</offset>
+      <text>Dependence of expected log2(H/M) values at t&#160;=&#160;24&#160;h on the protein's half&#8208;life, given the factor (&#945;) by which its catabolism is inhibited. Note that beyond &#945;&#160;=&#160;10, the curves are nearly identical.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47139</offset>
+      <text>Expected log2(H/M) values over the course of 24&#160;h for proteins with half&#8208;lives ranging from 1 to 10&#160;days. Compare with the actual measurements shown in Fig&#160;7A&#8211;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47308</offset>
+      <text>As shown in Fig&#160;8B, for t&#160;=&#160;24&#160;h expected log2(H/M) values drop rapidly with increasing protein longevity. Conversely, dependence on &#945; saturates very quickly, such that the effects of 10&#215;, 50&#215;, or 100&#215; inhibition of UPS&#8208;based degradation are practically identical. This is expected, because at large values of &#945;, equation&#160;(1) is effectively reduced to:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47673</offset>
+      <text>Given that the concentrations of lactacystin and epoxomicin used here reduced proteasomal function at least 10&#8208;fold (Figs&#160;1, EV1 and EV2) and the insensitivity to exact values of &#945;, a value of &#945;&#160;=&#160;10 was used hereafter. Equation&#160;(1) also suggests that profiles such as those shown in Fig&#160;7A&#8211;C are also very sensitive to the half&#8208;life of the protein in question (Fig&#160;8C). In fact, this figure suggests that for particularly long&#8208;lived proteins, the ability to resolve the effects of pharmacological inhibitors on degradation rates becomes questionable. We will return to this point later.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48277</offset>
+      <text>The analytical approach described above was applied to the experimental data. To that end, we plotted, for each protein, the average log2(H/M) value obtained at 0, 4, 10, and 24&#160;h as a function of its half&#8208;life. Half&#8208;life estimates for 1,177 proteins were obtained from Cohen et&#160;al (2013). Estimates for an additional set of 239 proteins were obtained from the current data set (Appendix&#160;Fig S2; Table&#160;EV2), resulting in half&#8208;life estimates for 1,416 proteins in total. As shown in Fig&#160;9, proteins for which statistically significant changes were observed at 24&#160;h, tended to distribute along expected log2(H/M) value curves generated according to equation&#160;(1). This tendency was most obvious for short&#8208;lived proteins, but not exclusive to this group. Conversely, proteins for which statistically significant changes were not observed did not tend to distribute along the predicted curves; this was particularly true for long&#8208;lived proteins but was also observed for numerous short&#8208;lived ones. The different tendencies observed qualitatively were confirmed quantitatively by comparing the correlation (Pearson's) between measured and expected log2(H/M) values for proteins with t&#189;&#160;&#8804;&#160;5&#160;days belonging to the two groups. These were r&#160;=&#160;0.75, for proteins with statistically significant changes at 24&#160;h (i.e. P&#160;&#8804;&#160;0.05; 142 proteins), r&#160;=&#160;0.15, for proteins without statistically significant changes (640 proteins) and r&#160;=&#160;0.01 for the latter group after removing one extreme outlier (Kif1a; 639 proteins).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>49815</offset>
+      <text>Dependence of log2(H/M) values on protein half&#8208;lives</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49870</offset>
+      <text>Measured log2(H/M) values at four time points as a function of their half&#8208;lives estimated here and elsewhere (Cohen et&#160;al, 2013). All log2(H/M) values shown here are averages of values obtained in five experiments (3&#160;using lactacystin, 2 using epoxomicin). Proteins for which statistically significant differences at t&#160;=&#160;24&#160;h were observed (P&#160;&lt;&#160;0.05, two&#8208;tailed Welch's t&#8208;test) are shown in red. Expected log2(H/M) values based on equation&#160;(1) are plotted as light blue lines. To minimize the masking of potential dependencies by the slight imperfections in the H/M normalization process (which introduces small offsets along the y&#8208;axis), average population log2(H/M) values of each time point (Fig&#160;6E) were subtracted from all measured log2(H/M) values. Data for 1,416 proteins for which half&#8208;life estimates were available.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50714</offset>
+      <text>A similar analysis was carried out for 174 synaptic proteins for which half&#8208;life estimates were available (Fig&#160;10). Here too, the trends were similar: Proteins for which statistically significant changes were observed at 24&#160;h distributed along the curves generated according to equation&#160;(1). Conversely, proteins for which statistically significant changes were not observed (including short&#8208;lived ones) were more broadly distributed, and did not relate to the predicted values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>51200</offset>
+      <text>Dependence of log2(H/M) values on synaptic protein half&#8208;lives</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51264</offset>
+      <text>Measured log2(H/M) values at four time points as a function of their half&#8208;lives estimated here and elsewhere (Cohen et&#160;al, 2013). All log2(H/M) values shown here are averages of values obtained in five experiments (3&#160;using lactacystin, 2 using epoxomicin). Proteins for which statistically significant differences at t&#160;=&#160;24&#160;h were observed (P&#160;&lt;&#160;0.05, two&#8208;tailed Welch's t&#8208;test) are shown in red. Expected log2(H/M) values based on equation&#160;(1) are plotted as light blue lines. To minimize the masking of potential dependencies by the slight imperfections in the H/M normalization process (which introduces small offsets along the y&#8208;axis), average population log2(H/M) values of each time point (Fig&#160;6E) were subtracted from all measured log2(H/M) values. Data for 174 synaptic proteins for which half&#8208;life estimates were available.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52115</offset>
+      <text>The fit between expected and measured values for proteins for which statistically significant changes in H/M ratios were detected strongly reinforces the conclusion that their degradation is indeed sensitive to UPS inhibition. Similarly, the poor fit for the rest of the proteins is in line with the failure to detect statistically significant effects of proteasomal inhibitors on their degradation. The conclusion that the degradation of particular proteins is insensitive to UPS inhibition has, however, an important caveat: Where proteins with long half&#8208;lives are concerned, our analysis indicates that the expected log2(H/M) values, even at the latest time point, should be so small that they might elude detection (Fig&#160;9D). Thus, for example, for proteins with half&#8208;lives of 5&#160;days or longer, the expected log2(H/M) value at the 24&#8208;h point is less than ~0.18 (H/M&#160;&#8776;&#160;1.13) which is near the limit of our H/M ratio measurement certainty (Fig&#160;6E). Therefore, we cannot exclude the possibility that the degradation of some long&#8208;lived proteins (t&#189;&#160;&gt;&#160;5&#160;days) is mediated directly or indirectly by the UPS, even though statistically significant changes were not detected. It is important to note in this regard that this conclusion is not limited to our experiments, as it applies equally to any experimental approach based on protein quantification following exposure to protein degradation inhibitors. This matter is addressed further in the Discussion.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53588</offset>
+      <text>Effects of proteasomal inhibitors on synaptic protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53652</offset>
+      <text>In the first set of SILAC experiments described above (Figs&#160;3 and 4), we found that lactacystin strongly affected the newly synthesized/preexisting (H/L) ratios measured for synaptic proteins, but for reasons explained above, these experiments could not discern if these effects reflected reduced degradation of preexisting proteins or reduced synthesis of new ones. The second set of experiments (Figs&#160;6, 7, 8, 9, 10), however, provided selective information on protein degradation. By combining information from the two data sets, the effects of proteasomal inhibitors on synaptic protein synthesis could now be disambiguated. To that end, we compiled a list of synaptic proteins for which the first set of experiments suggested apparent half&#8208;live prolongation in the presence of lactacystin (H/L ratios significantly reduced by more than three standard deviations of the variability observed in control experiments; gray region in Fig&#160;4A) and then used the second data set (Figs&#160;6, 7, 8, 9, 10; Table&#160;EV3) to determine whether the degradation of these proteins was significantly inhibited. Of the 79 synaptic proteins in this list, the degradation of only 11 (&lt;&#160;14%) was affected in a statistically significant manner, indicating that changes in H/L ratios observed in the first set of experiments were caused primarily by substantial inhibition of protein synthesis (manifested as reduced incorporation of heavy AAs). It is worth pointing out that the scarcity of heavy AA&#8208;labeled peptides in lactacystin&#8208;treated cells (&lt;&#160;2 peptides in either of the two experiments) precluded the inclusion of 33 additional synaptic proteins in the aforementioned list (including Syntaxin&#8208;1A, RIM1, GluN2B, GRIP1, ProSAP1/Shank2, GABAB1, GABAB2, Neuroligin3) even though heavy peptides for these proteins were in present in sufficient quantities in untreated cells (&gt;&#160;2 peptides in each of both experiments). These findings thus suggest that one of the strongest effects proteasomal inhibitors have on synaptic protein metabolism is a dramatic suppression of their synthesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55732</offset>
+      <text>Careful examination of the identities of proteins for which considerable elevations in H/L ratios were observed in the presence of lactacystin (Fig&#160;4A, right hand side of plot; see list in Table&#160;EV1) provides clues as to pathways involved in the suppression of (synaptic) protein synthesis. This list contains many chaperones (including the critical ER chaperone, GRP78/Hspa5), 28 proteasome subunits (8 of which exhibit positive elevations &gt;&#160;3 standard deviations) as well as ubiquitin, suggesting accelerated synthesis of these proteins in response to UPS inhibition. These data are in line with prior studies suggesting that UPS inhibition leads to a generalized cellular response known as the unfolded protein response (UPR) (Obeng et&#160;al, 2006; Larance et&#160;al, 2013), a cellular reaction triggered by the buildup of unfolded/misfolded proteins in the endoplasmic reticulum (ER). This cellular response includes, among others, a generalized shutdown of protein synthesis (reviewed in Chakrabarti et&#160;al, 2011; Hetz et&#160;al, 2015; see also Shalgi et&#160;al, 2013; Halliday &amp; Mallucci, 2014) and, paradoxically, the enhanced synthesis of molecules critically involved in handling excess misfolded proteins, including ER&#8208;localized chaperones and folding enzymes (reviewed in Walter &amp; Ron, 2011). The multiple chaperones with elevated H/L ratios in the presence of lactacystin (indicative of accelerated synthesis) as well as the widespread suppression of protein synthesis are in good agreement with this interpretation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57255</offset>
+      <text>Under normal circumstances, unfolded/misfolded ER proteins are degraded by the proteasome as the last step of a process known as ER&#8208;associated degradation (ERAD; Brodsky, 2012; Olzmann et&#160;al, 2013; Ruggiano et&#160;al, 2014). Similarly, the proteasome plays key roles in the degradation of defective ribosomal products (DRiPs), newly synthesized polypeptides that, for a variety of reasons, fail to fold properly. Interestingly, at the earliest time point (4&#160;h) of the experiments of Figs&#160;5, 6, 7, 8, 9, 10, inhibition of degradation was noted for a conspicuous group of proteins, which seemed to occur irrespective of their half&#8208;lives (Fig&#160;9B). We examined the proteins for which, at t&#160;=&#160;4&#160;h, log2(H/M) values were in the top 5%, that is, proteins whose degradation was most strongly suppressed at this time (70 proteins) and noted that indeed, correlation with log2(H/M) values expected from their known half&#8208;lives (equation&#160;(1)) was rather poor (r&#160;=&#160;0.18, excluding two extreme outliers, Kif1a and Scd2). It should be noted that for many of these proteins, the statistical significance of changes in log2(H/M) values at t&#160;=&#160;4&#160;h as compared to t&#160;=&#160;0&#160;h was not high (P&#160;&lt;&#160;0.10: 26/70 proteins; P&#160;&lt;&#160;0.05: 10/70 proteins), but as a group, they seemed to stand out. We suspect that this group reflects, for the most part, effects of UPS inhibition on the degradation of recently synthesized proteins (i.e. synthesized shortly before inhibitors were added) by quality control mechanisms (e.g. ERAD, DRiP), rather than functional, short&#8208;lived pools of these proteins. This interpretation is based on the following reasoning: First, we noted that most proteins in this group (top 5%) were particularly large, with an average molecular weight of 271&#160;kDa (in fact, the molecular weight of only 2 proteins was &lt;&#160;110&#160;kDa, one of these being ubiquitin). This is nearly four times greater than the average molecular weight of proteins in our stringent list (71&#160;kDa; Table&#160;EV3). It might be reasonable to expect that large proteins are particularly prone to folding errors and subsequently to more degradation via quality control&#8208;related mechanisms (Duttler et&#160;al, 2013). Second, MS&#8208;based quantifications provide bulk information on peptides and proteins, and thus for a particular pool to affect the MS readout, it would have to constitute a substantial fraction of this bulk. Indeed, early studies have claimed that DRiPs constitute upwards of 30% of newly synthesized proteins (Schubert et&#160;al, 2000) and more recent studies estimate that as much as ~15% of nascent peptide chains whose properties preclude efficient folding are cotranslationally tagged for degradation (Duttler et&#160;al, 2013; Wang et&#160;al, 2013; reviewed by Pechmann et&#160;al, 2013). Thus, while we cannot fully exclude the existence of functional protein pools with half&#8208;lives shorter than prior estimates, the short timescales, UPS dependence, the sizes of the affected proteins and their substantial pools would seem to suggest that our interpretation is the most parsimonious.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60326</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60337</offset>
+      <text>In the current study, we used pulsed and multiplexed SILAC combined with MS to systematically and selectively measure how pharmacological suppression of proteasomal activity affects degradation (and synthesis) rates of thousands of neuronal and synaptic proteins. Using these approaches, we identified a group of synaptic (and non&#8208;synaptic) proteins whose degradation appeared to be strongly dependent on UPS function. We also found, however, that the degradation of most synaptic (and non&#8208;synaptic) proteins was not significantly slowed down in the presence of proteasomal inhibitors. By combining these data with information on metabolic turnover rates of individual proteins, we devised a simple quantitative framework that explained some of the differential effects of proteasomal inhibition on protein degradation. This framework, however, also delineated important limitations in the use of catabolic inhibitors to study degradation of long&#8208;lived proteins. In contrast to the restricted effects on protein degradation, UPS inhibition profoundly affected the synthesis of numerous proteins, probably by inducing an unfolded protein response, among others. Synaptic proteins were particularly prominent within the group of proteins whose synthesis was suppressed, indicating that synaptic protein synthesis is exquisitely sensitive to this cellular response. Our findings thus point to specific proteins whose degradation is UPS mediated, but also indicate that under basal conditions, most synaptic proteins are degraded through alternative pathways.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61899</offset>
+      <text>Methodological considerations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61929</offset>
+      <text>A common method for studying the involvement of catabolic pathways in the degradation of particular proteins is to pharmacologically inhibit the pathways, and examine&#8212;by Western blots or quantitative immunohistochemistry, for example&#8212;how these manipulations affect total quantities of the proteins in question. Unfortunately, these methods are incapable of separating the effects of such inhibitors on protein degradation from effects on protein synthesis. These processes are more readily discernible in pulse&#8208;chase experiments based on radioactive amino acids; this approach, however, is not free from confounds either: On the one hand, the slow turnover rates of synaptic proteins require relatively long labeling periods. On the other, labeling is typically associated with substantial (ten&#8208; to hundredfold) reductions in (labeled) amino acid concentrations, raising the risk of inducing macroautophagy (see, e.g. Sutter et&#160;al, 2013). In contrast, the methods used here do not suffer from either of these shortcomings. Moreover, their sensitivity is quite high, exhibiting an ability to detect differences as small as 14% with high certainty (Fig&#160;6).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63094</offset>
+      <text>Although the approach taken here has many advantages, it is not free from potential confounds. The first concerns the interpretation of findings based on pharmacological inhibitors. Thus, for example, slower degradation of a particular protein in the presence of proteasomal inhibitors cannot be taken as unequivocal evidence for direct degradation by the UPS; the slowing down could reflect, for example, changes in upstream molecules that regulate its degradation (as discussed below for GluA2). Conversely, the observation that its degradation is not slowed might result from the rerouting of its degradation through alternative catabolic pathways which are known to be intricately interconnected. Thus, for instance, UPS inhibition by MG&#8208;132 or lactacystin has been shown to activate macroautophagy and upregulate levels of lysosomal enzymes (e.g. Ding et&#160;al, 2007b; Shen et&#160;al, 2013). Indeed, we noted that fits to expected log2(H/M) values were somewhat better at 10&#160;h as compared to fits at 24&#160;h (Figs&#160;9 and 10), suggesting that at the later time point, degradation rates were not slowed down to the same extent, possibly implying that after an initial delay, degradation of some proteins commenced through alternative routes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64335</offset>
+      <text>A second confound concerns the ability to evaluate the roles of UPS&#8208;based degradation on the catabolism of long&#8208;lived proteins. Simple considerations, exemplified in Figs&#160;8, 9, 10, indicate that for particularly long&#8208;lived proteins, the expected extent of protein loss over short time periods is so small that it should elude detection by all but the most sensitive assays. Along this line, we concluded that our assay, sensitive as it might be, was probably insufficiently sensitive to detect changes in the abundance of proteins whose half&#8208;lives are &gt;&#160;5&#160;days even when proteasomal inhibitors were applied for 24&#160;h. We thus find it puzzling that prior studies have reported significant accumulation of synaptic proteins with known half&#8208;lives of 3 to 5&#160;days, after inhibiting proteasomal function for 4&#8211;8&#160;h or even less. It could be argued that bulk degradation rates measured here are slower than degradation rates of the same proteins at synapses. We note, however, that in our hands, little if any accumulation of some of the very same proteins was observed at synaptic sites after 10&#8208;h exposures to lactacystin (Fig&#160;2; see also Shin et&#160;al, 2012). Moreover, it is hard to reconcile this argument with the fact that many of the synaptic proteins studied here are strongly localized to synaptic sites, and thus synaptic pools represent the bulk of these proteins in neurons. We note, however, that in many of these studies, effects of proteasomal inhibition were examined following acute manipulations of neuronal activity (Ehlers, 2003; Willeumier et&#160;al, 2006; Guo &amp; Wang, 2007; Saliba et&#160;al, 2007; Jiang et&#160;al, 2010; Lazarevic et&#160;al, 2011; Shin et&#160;al, 2012), and therefore, the rapid effects of proteasomal inhibitors might reflect transients or adjustments associated with strong changes in activity levels. The current study, on the other hand, was focused on basal degradation processes in the absence of overt manipulations of network activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66314</offset>
+      <text>Having said this, we also noted that the degradation of several proteins was substantially retarded at the earliest time point (4&#160;h; Fig&#160;9B) in manners unexpected from their known half&#8208;lives. As mentioned above, we hypothesize that this reflects the effects of UPS inhibition on the degradation of recently synthesized proteins targeted to the UPS as part of cellular quality control mechanisms rather than the degradation of short&#8208;lived, functional pools of these proteins. In fact, it has been suggested that this early processing stage represents a major station for regulating the amounts of proteins ultimately trafficked to synapses (e.g. following changes in&#160;activity levels; Saliba et&#160;al, 2007). A related suggestion is the &#8220;stabilized binding complex&#8221; model (Cambridge et&#160;al, 2011) which posits that components of multimolecular complexes (as synaptic proteins tend to be) are produced in excess such that protein copies not integrated into their cognate complexes are rapidly degraded, resulting in a simple mechanism for producing components at correct stoichiometries.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67408</offset>
+      <text>The conspicuous effects of proteasomal inhibitors at the 4&#8208;h time point but not later are in agreement with prior reports. For example, 10&#8211;40% increases in cellular levels of several synaptic proteins were observed after 6&#160;h but not after 24&#160;h in the presence of MG&#8208;132 (Lazarevic et&#160;al, 2011). Interestingly, genes encoding for proteins expressed in response to ER stress were found to be upregulated ~4&#160;h after lactacystin treatment of cultured murine cortical neurons (Choy et&#160;al, 2011). Furthermore, among the proteins whose degradation was retarded at this early time point we found BCL2&#8208;associated athanogene 6 (BAG6), a protein heavily involved in handling misfolded substrates (including DRiPs) and protecting them from aggregation on their way to the proteasome (Minami et&#160;al, 2010; Xu et&#160;al, 2013). Perhaps the rapid cellular response, combined with the suppression of protein synthesis (see below), limits the obvious manifestation of this process to the first few hours of proteasomal inhibition.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68432</offset>
+      <text>Finally, when we examined spontaneous network activity levels following exposure to lactacystin, no particular trends were observed over a period of about one day (Appendix&#160;Fig S4). As spontaneous network activity in these preparations strongly depends on synaptic transmission (Eytan &amp; Marom, 2006), this further suggests that synaptic function was not grossly impaired by suppressing proteasomal activity for 10&#8208;20&#160;h. This should not be taken to imply, however, that the long&#8208;term effects of proteasomal inhibition were negligible: Morphological measures of neurons and synapses (counts, sizes), not noticeably altered after 24&#160;h (Fig&#160;EV5A,B,D and E; see also Figs&#160;1B and 2C), showed unmistakable signs of deterioration after 48&#160;h (Fig&#160;EV5C&#8211;E), in full agreement with prior studies (e.g. Dantuma et&#160;al, 2000). This also precluded extension of our proteomic analysis to durations beyond 24&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>69341</offset>
+      <text>Morphological features of synaptic connectivity following prolonged exposure to lactacystin</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>69433</offset>
+      <text>Cortical neurons, growing on glass&#8208;bottomed Petri dishes, were infected with lentiviral vectors driving the expression of the postsynaptic density protein PSD&#8208;95 fused to mTurquoise2 (PSD&#8208;95:mTurquoise2) and the presynaptic protein synapsin I fused to EGFP (EGFP:Synapsin I). At day 16 in culture, cells were exposed to lactacystin (10&#160;&#956;M) and imaged: (A) immediately, (B) after 24&#160;h, and (C) after 48&#160;h. No obvious changes in synapse density or other morphological features were observed after 24&#160;h, but signs of change were very evident after 48&#160;h. Scale bar, 20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>70016</offset>
+      <text>Quantification of EGFP:synapsin I puncta counts per field of view (FoV) and average puncta fluorescence in each FoV. Averages and SEM for 16&#8211;17 FoVs per time point. P&#8208;values of comparisons (two&#8208;tailed Welch tests) are indicated above columns.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>70265</offset>
+      <text>Quantification of PSD&#8208;95:mTurquoise2 puncta counts per FoV and average puncta fluorescence in each FoV. Averages and SEM for 16&#8211;17 FoVs per time point. P&#8208;values of comparisons (two&#8208;tailed Welch tests) are indicated above columns.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>70503</offset>
+      <text>Data information: All data in (D,E) collected in one experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>70568</offset>
+      <text>Proteasome inhibition and synaptic protein degradation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70623</offset>
+      <text>Our unbiased approach identified a group of proteins whose degradation was significantly slowed down in the presence of selective proteasomal inhibitors. The majority of these have been previously shown to be relatively short&#8208;lived (Appendix&#160;Fig S2; Table&#160;EV2; Cohen et&#160;al, 2013), in line with the generally accepted notion that the proteasome preferentially degrades short&#8208;lived proteins. As we show, however, the prevalence of short&#8208;lived proteins within this group reflects, in part, the unavoidable fact that blocking a catabolic process will necessarily have the largest effects on the shortest&#8208;lived&#160;species (see Fig&#160;8). Nevertheless, the degradation of many short&#8208;lived proteins was not significantly slowed by proteasomal inhibitors (Figs&#160;9 and 10), indicating that UPS&#8208;mediated degradation was limited to a population of specific proteins.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71490</offset>
+      <text>Among the group of proteins whose degradation was significantly retarded we found multiple proteins involved in glutamate receptor trafficking, including the AMPA&#8208;type glutamate receptor (AMPAR) subunit GluA2. This is interesting because regulation of AMPAR content is widely believed to be a central control point for regulating synapse strength (Huganir &amp; Nicoll, 2013). All four AMPAR subunit types (GluA1&#8211;4) can undergo activity&#8208;dependent ubiquitination, and it is thought that AMPAR subunit ubiquitination determines whether internalized AMPARs are targeted for lysosomal degradation or allowed to recycle back to the membrane (reviewed in Goo et&#160;al, 2015). Interestingly, one of the proteins whose degradation was most strongly affected here was the E3 ligase NEDD4, which has been shown in multiple studies to ubiquitinate AMPARs and regulate their targeting for degradation (Schwarz et&#160;al, 2010; Hou et&#160;al, 2011; Lin et&#160;al, 2011; Lin &amp; Man, 2014; Scudder et&#160;al, 2014) in a manner that is counteracted by the DUBs Usp8 and Usp46 (Scudder et&#160;al, 2014; Huo et&#160;al, 2015). It has also been suggested that AMPA receptors might be degraded directly by the proteasome (Hou et&#160;al, 2011; see also Zhang et&#160;al, 2009; Fu et&#160;al, 2011), but this conclusion was based to a large degree on the use of proteasomal inhibitors, which, as we show here, also affect the degradation of the upstream regulator NEDD4. It thus remains possible that the slowing of GluA2 degradation by proteasomal inhibitors reported here (Fig&#160;7) represents an indirect effect mediated by upstream regulatory molecules as discussed in the prior section.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73127</offset>
+      <text>Several other proteins within the group of affected proteins were previously shown to be involved in glutamate receptor trafficking: Neurochondrin/Norbin is thought to modulate the trafficking and function of metabotropic glutamate receptor 5 (Wang et&#160;al, 2009; Hermann et&#160;al, 2015); SAP102/Dlg3 is a postsynaptic density protein involved in glutamate receptor targeting, trafficking, and clearance (Zheng et&#160;al, 2011; Chen et&#160;al, 2012); interestingly, SAP102/Dlg3 trafficking was recently shown to be regulated by NEDD4&#8208;mediated monoubiquitination during apical tight junction formation (Van Campenhout et&#160;al, 2011); AKAP9/Yotiao was originally suggested to regulate glutamate receptor activity (Westphal et&#160;al, 1999); Neurabin&#8212;a synaptic actin binding protein&#8212;has been shown to target protein phosphatase (PP1) to the synapse to regulate distinct AMPAR trafficking pathways (Hu et&#160;al, 2007); finally, SNAP&#8208;&#945; was shown to interact directly with GluA2 and was implicated in AMPAR trafficking (Osten et&#160;al, 1998; Hanley et&#160;al, 2002; Hanley, 2007). It should be noted that the molecules listed above are involved in many other cellular processes; yet the association with glutamate receptor trafficking is nonetheless intriguing.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74373</offset>
+      <text>The absence of several protein groups from the list of proteins whose degradation was significantly slowed down is quite conspicuous. Thus, for example, very few synaptic vesicle molecules or molecules involved in SV exocytosis or endocytosis were present in this list. Furthermore, degradation of numerous proteins linked to neurodegenerative diseases such as Huntingtin (htt; t&#189;&#160;&#8776;&#160;3.7&#160;days) &#945;&#8208;synuclein (Snca; t&#189;&#160;&#8776;&#160;2.4&#160;days), Tau (Mapt; t&#189;&#160;&gt;&#160;20&#160;days), and TDP&#8208;43 (Tardbp; t&#189;&#160;&#8776;&#160;5.4&#160;days) was not significantly retarded by proteasomal inhibitors. For the latter two, and in particular Tau, their long half&#8208;lives might have precluded our ability to detect effects on degradation rates (see above). For the first two, however, we should have been able to detect a change. These data thus suggest that under basal conditions, proteins belonging to these groups might be degraded by pathways that do not depend on proteasomal function.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>75334</offset>
+      <text>Proteasome inhibition and synaptic protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75387</offset>
+      <text>In contrast to the rather modest effects of proteasome inhibitors on protein degradation, the effects on protein synthesis were profound. This finding is in good agreement with several prior studies in which the effects of proteasome inhibitors on protein synthesis were examined (Ding et&#160;al, 2006; King et&#160;al, 2008; Larance et&#160;al, 2013; Milner et&#160;al, 2013). As described in the Results, the proteomic profile was suggestive of an unfolded protein response (Bush et&#160;al, 1997; Sitia &amp; Braakman, 2003; Zhang &amp; Kaufman, 2004) and possibly of the closely related integrated stress response (as evidenced by increased expression of Clic4, Hmox1, Lonp1, Lgals3, and EPRS; Harding et&#160;al, 2003; Young &amp; Wek, 2016). The possible induction of an UPR by proteasomal inhibitors has been documented in several previous reports (e.g. Obeng et&#160;al, 2006; Zhang et&#160;al, 2010; Larance et&#160;al, 2013) and is exploited in the treatment of certain malignant diseases by administering proteasome inhibitors approved for clinical use (Clarke et&#160;al, 2014). More recently, it has been proposed that an UPR occurs in a host of neurodegenerative diseases associated with protein aggregation (Alzheimer's disease, Parkinson's disease, and Prion disease) and that the reactive suppression of protein synthesis catastrophically accelerates synaptic loss and exacerbates the damage caused by the initial precipitating factors (reviewed in Halliday &amp; Mallucci, 2014, 2015; Freeman &amp; Mallucci, 2016; see also Cornejo &amp; Hetz, 2013). Our analysis, covering &gt;&#160;1,400 proteins (Fig&#160;4 and Table&#160;EV1), suggests that an UPR induced by proteasomal inhibitors can suppress the synthesis of synaptic proteins by factors of eight or more, and is thus in full agreement with this suggestion. Moreover, the fact that synaptic proteins were the most strongly affected group (Figs&#160;4 and EV3) extends this suggestion and indicates that synapses might be exquisitely sensitive to pathological processes that negatively impact protein synthesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>77392</offset>
+      <text>In summary, the approach used here allowed us to identify synaptic proteins whose degradation seems to be mediated directly or indirectly by the ubiquitin&#8208;proteasome system, and tentatively conclude that many, if not most synaptic proteins seem to be degraded under basal conditions through pathways that do not depend on proteasomal function. Our findings also highlight, however, important limitations in the use of proteasomal inhibitors to study synaptic protein catabolism, which mainly stem from the relatively slow turnover rates of synaptic proteins and the strong effects proteasomal inhibitors have on their synthesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>78023</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78045</offset>
+      <text>Animal welfare</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78060</offset>
+      <text>All experiments were performed in primary cultures of newborn rat neurons prepared according to a protocol approved by the &#8220;Technion, Israel Institute of Technology Committee for the Supervision of Animal Experiments&#8221; (IL&#8208;019&#8208;01&#8208;13).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78304</offset>
+      <text>Proteasomal inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78327</offset>
+      <text>Lactacystin (Santa Cruz Biotechnology) and epoxomicin (Sigma) were stored as concentrated stocks in H2O and DMSO, respectively, at &#8722;20&#176;C. As a precaution, every inhibitor stock used throughout this study was tested for activity by probing Western blots of neuronal cell culture extracts treated with the inhibitor for increasing durations as described below (Western blots). One example is shown in Appendix&#160;Fig S5.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78747</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78760</offset>
+      <text>Primary cultures of rat cortical neurons used for SILAC experiments were prepared as described previously (Minerbi et&#160;al, 2009). Briefly, cortices of 1&#8208; to 2&#8208;day&#8208;old Wistar rats of either sex were dissected, dissociated by trypsin treatment followed by trituration using a siliconized Pasteur pipette. 1.2&#160;&#215;&#160;106 cells were then plated in 12&#8208;well plates whose surface had been pretreated with polyethylenimine (Sigma) to facilitate cell adherence. Cells were initially grown in medium containing minimal essential medium (MEM; Sigma), 25&#160;mg/l insulin (Sigma), 20&#160;mM glucose (Sigma), 2&#160;mM l&#8208;glutamine (Sigma), 11.16&#160;mg/l gentamicin sulfate (Sigma), 10% NuSerum (Becton Dickinson Labware), and 0.5% fetal bovine serum (HyClone). The preparation was then transferred to a humidified tissue culture incubator and maintained at 37&#176;C in a 95% air and 5% CO2 mixture. Half the volume of the culture medium was replaced three times a week with feeding medium similar to the medium described above but devoid of NuSerum, containing a lower concentration of l&#8208;glutamine (Sigma, 0.5&#160;mM), and 2% B&#8208;27 supplement (Gibco).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79892</offset>
+      <text>Primary cultures of rat cortical neurons for live imaging and electrophysiology recording experiments were prepared as described above except that here the neurons were plated onto 22&#160;&#215;&#160;22&#160;mm coverslips inside 6&#8208; or 8&#8208;mm&#8208;diameter glass cylinder (Bellco Glass) microwells, on glass&#8208;bottomed 35&#8208;mm petri dishes (World Precision Instruments) or on MEA dishes as in Minerbi et&#160;al (2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80291</offset>
+      <text>Primary cultures of rat hippocampal neurons experiments were prepared as described previously (Tsuriel et&#160;al, 2006). In brief, hippocampal CA1&#8208;CA3 regions of 1&#8208; to 2&#8208;day&#8208;old Wistar rats of either sex were dissected and dissociated as described above and plated onto 22&#160;&#215;&#160;22&#160;mm coverslips coated with poly&#8208;D&#8208;lysine (Sigma) inside 8&#8208;mm&#8208;diameter glass cylinder microwells. Culture medium consisted of MEM (Gibco), 20&#160;mM glucose, 0.1&#160;g/l bovine transferrin (Calbiochem), 25&#160;mg/l insulin (Sigma), 2&#160;mM l&#8208;glutamine (Sigma), 10% NuSerum (Becton Dickinson Labware), 0.5% fetal bovine serum (HyClone), 2% B&#8208;27 supplement (Gibco), and 8&#160;&#956;M cytosine &#946;&#8208;D&#8208;arabinofuranoside (Sigma) which was added to the culture medium after 3 days. Cultures were maintained at 37&#176;C in a 95% air and 5% CO2 humidified incubator. Culture medium was replaced every 7&#160;days.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>81171</offset>
+      <text>Fluorogenic substrate assays in&#160;vitro and in living cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81230</offset>
+      <text>Cortical neurons grown for 2&#160;weeks in culture were treated with lactacystin (10&#160;&#956;M), epoxomicin (5&#160;&#956;M) or carrier solution for 4&#160;h, washed vigorously with phosphate&#8208;buffered saline (PBS) after which they were scraped in PBS. The lysed cells were centrifuged for 5&#160;min at 600&#160;&#215;&#160;g. Lysis solution containing Tris&#8208;Cl (50&#160;mM), DTT (1&#160;&#956;M), NaCl (150&#160;mM), MgCl2 (1.5&#160;mM), EDTA (1&#160;mM), PMSF (1&#160;mM), ATP (2&#160;mM), iodoacetamide (5&#160;mM), NaF (0.5&#160;mM), and Na3VO4 (0.5&#160;mM) was added to the pellet and sonicated immediately. Protein amounts were adjusted using the Bradford assay (Bio&#8208;Rad). Proteasomal activity was measured in a reaction solution composing of 1/4 protein lysate, 1/4 reaction buffer (HEPES 100&#160;mM, EGTA 10&#160;mM, ATP 5&#160;mM), and 2/4 fluorogenic substrate Suc&#8208;LLVY&#8208;AMC (Boston Biochem, 100&#160;&#956;M). Fluorescence was detected using an Infinite 200 PRO plate reader for 3&#160;h at 5&#8208;min intervals at 37&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82165</offset>
+      <text>The effects of lactacystin on chymotrypsin&#8208;related proteasomal activity were also measured in living neurons by means of the fluorogenic proteasome substrate LLVY&#8208;Rhodamine&#8208;110 (LLVY&#8208;R110) as follows: At 16&#8211;19&#160;days in culture, cortical neurons, growing within 6&#160;mm glass cylinders, pairs of which were adhered to glass coverslips, were treated with lactacystin (10&#160;&#956;M) or carrier solution for 4&#160;h, after which they were exposed to LLVY&#8208;R110 (Proteasome 20S Activity Assay Kit, Sigma; final dilution 1:800). Pairs of preparations were imaged side by side on an inverted confocal microscope for several hours at 5&#8208;min intervals as described below (Microscopy and image analysis).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>82862</offset>
+      <text>Measuring proteasomal inhibition using Ub&#8208;R&#8208;GFP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82914</offset>
+      <text>Cortical neurons growing within 8&#8208;mm glass cylinders on glass coverslips were transfected with destabilized GFP (Ub&#8208;R&#8208;GFP; Dantuma et&#160;al, 2000) in pEGFP&#8208;N1 (Clontech) with or without CFP (pECFP&#8208;C1, Clontech) by calcium phosphate transfection on days 9&#8211;10 in&#160;vitro as described previously (Bresler et&#160;al, 2004). Experiments were performed at 14&#8211;19&#160;days in culture. After 1&#160;h of baseline imaging (described below) at 10&#8208;min intervals, lactacystin (10&#160;&#956;M) or carrier solution was added to the preparation and imaging was continued for &gt;&#160;0.5&#160;day at 10&#160;min intervals.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>83503</offset>
+      <text>Pulsed SILAC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>83516</offset>
+      <text>After cortical cells were grown for 14&#160;days, media containing heavy isotope&#8208;labeled variants of lysine (Lys8&#8208;13C6, 15N2) and arginine (Arg10&#8208;13C6, 15N4) (Cambridge Isotope Laboratories) was added to the culture dishes, resulting in an excess of heavy lysine and arginine (5:1) as compared with the non&#8208;labeled variants of these amino acids. Neurons were harvested after 24&#160;h by gently washing the cells three times in a physiological solution (&#8220;Tyrode's&#8221;, 119&#160;mM NaCl, 2.5&#160;mM KCl, 2&#160;mM CaCl2, 2&#160;mM MgCl2, 25&#160;mM HEPES, 30&#160;mM glucose, buffered to pH 7.4), aspirating all the solution, and immediately adding 100&#160;&#956;l of lysis buffer composed of 10% SDS (Sigma), 30&#160;mM Tris&#8211;HCl (Sigma), 3.4% glycerol, 25&#160;mM DTT (Sigma), and 0.5% v/v protease inhibitor (Calbiochem). The cells were then scraped in the lysis buffer using a disposable cell scraper. The lysate was then collected, pipetted vigorously on ice, boiled for 5&#160;min, and frozen at &#8722;80&#176;C until used.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>84498</offset>
+      <text>Multiplexed dynamic SILAC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>84524</offset>
+      <text>For multiplexed SILAC experiments, the cells were grown in lysine and arginine&#8208;free MEM (Biological Industries) to which &#8220;heavy&#8221; (H) variants (Lys8&#8208;13C6, 15N2; Arg10&#8208;13C6, 15N4) or &#8220;medium&#8221; (M) variants (Lys6&#8208;13C6; Arg6&#8208;13C6) were added such that final concentrations (0.4 and 0.6&#160;mM, respectively) were identical to the nominal lysine and arginine concentrations in our standard cell culture media. After 2&#160;weeks, cells were gently washed by partial replacement of media with lysine and arginine&#8208;free media to which &#8220;light&#8221; lysine and arginine (Sigma) were added at 5&#215; excess. At this time point, lactacystin (10&#160;&#956;M) or epoxomicin (5&#160;&#956;M) was added to one set of preparations. Cells were harvested after 4, 10, and 24&#160;h, mixed together (as pairs of time&#8208;matched treated and control sets) and run on preparative gels. Each lane (including its stacking gel section) was then cut into five slices which were subjected separately to MS analysis. To exclude the possibility of a specific labeling type affecting the experimental outcome, one biological replicate was performed in which the labeling (heavy or medium type isotopic variants) was replaced between the treated and control samples.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>85747</offset>
+      <text>Fractional incorporation of H and M variants</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>85792</offset>
+      <text>To measure the degree to which proteins became labeled with H or M amino acids after 2&#160;weeks of growth in the presence of these amino acids, cortical neurons were grown in culture for 2&#160;weeks in either in H or M media (without proteasome inhibitors). Lysates of the preparations were then subjected to MS analysis; H/L or M/L ratios were measured separately for each identified peptide, and ratios were combined (averaged) for each protein for which ratios were obtained for at least 2 peptides. These ratios were then converted to fractional saturation values (i.e. values between 0 and 1.0) by calculating for each protein: where R is the H/L or M/L ratio calculated by MaxQuant (see below).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>86488</offset>
+      <text>Immunolabeling against synaptic proteins following proteasome inhibition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>86561</offset>
+      <text>At 14 or 15&#160;days in culture, primary hippocampal cultures prepared as described above were treated with 10&#160;&#956;M lactacystin (Santa Cruz Biotechnology) or vehicle. The cells were fixed after 10&#8208;h (Fig&#160;2A and B), or at 2&#8208;h intervals over a time period of 24&#160;h (Fig&#160;2C and D), and stained using antibodies for synaptic proteins. Immunolabeling was performed by washing the cells in Tyrode's solution followed by fixation with 4% paraformaldehyde (PFA) and 120&#160;mM sucrose in phosphate&#8208;buffered saline (PBS; fixative solution) for 20&#160;min. For the 2&#8208;h interval experiments, 1% PFA in sodium acetate buffer (pH&#160;=&#160;6) plus sucrose was used. PFA&#8208;fixed cells were permeabilized for 10&#160;min in the appropriate fixative solution to which 0.25% Triton X&#8208;100 (Sigma) was added. The cells were washed three times in PBS, incubated in 10% bovine serum albumin (BSA, Sigma) for 1&#160;h at 37&#176;C or RT, and incubated overnight at 4&#176;C with primary antibodies in PBS and 1% BSA. The cells were then washed three times for 5&#160;min with PBS and incubated for 1&#160;h at room temperature with secondary antibodies in PBS and 1% BSA. The cells were washed again with PBS three times and imaged immediately.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>87757</offset>
+      <text>Primary antibodies included: mouse anti&#8208;synapsin I, 1:400 (TransLabs); mouse anti&#8208;PSD&#8208;95, clone 108E10, 1:200 (Synaptic Systems); rabbit anti&#8208;SV2A, 1:1,000 (Synaptic Systems); monoclonal anti&#8208;Bassoon 1:400 (a generous gift of Craig Garner, DZNE, Berlin, Germany); guinea pig anti&#8208;ProSAP2, 1:800 (a generous gift of Tobias M. Boeckers, Ulm University, Germany) or rabbit anti&#8208;ProSAP2, 1:500 (Synaptic Systems; 2&#8208;h intervals experiments); mouse anti&#8208;RIM, 1:200 (BD Transduction Laboratories). Secondary antibodies included: Cy5 donkey anti&#8208;mouse (Jackson ImmunoResearch Laboratories), Cy5 donkey anti&#8208;guinea pig (Jackson ImmunoResearch Laboratories), Alexa Fluor 488 goat anti&#8208;rabbit (Molecular Probes). All secondary antibodies were used at a dilution of 1:200.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>88542</offset>
+      <text>In gel proteolysis and mass spectrometry analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>88592</offset>
+      <text>Thirty micrograms of protein from each time point was sonicated, boiled, and separated on 4&#8211;15% SDS&#8211;PAGE (polyacrylamide gel electrophoresis). Each lane was sliced into five sections. The proteins in each gel slice were reduced with 3&#160;mM DTT (60&#176;C for 30&#160;min), modified with 10&#160;mM iodoacetamide in 100&#160;mM ammonium bicarbonate (in the dark, room temperature for 30&#160;min) and digested in 10% acetonitrile and 10&#160;mM ammonium bicarbonate with modified trypsin (Promega) at a 1:10 enzyme&#8208;to&#8208;substrate ratio, overnight at 37&#176;C. An additional second trypsinization was done for 4&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>89184</offset>
+      <text>The resulting tryptic peptides were desalted using C18 tips (Harvard) dried and re&#8208;suspended in 0.1% formic acid. They were analyzed by LC&#8208;MS/MS using a Q Exactive Plus mass spectrometer (Thermo) fitted with a capillary HPLC (easy nLC 1000, Thermo). The peptides were loaded onto a homemade capillary column (25&#160;cm, 75&#160;&#956;m ID) packed with Reprosil C18&#8208;Aqua (Dr Maisch GmbH, Germany) in solvent A (0.1% formic acid in water). The peptide mixture was resolved with a (5&#8211;28%) linear gradient of solvent B (95% acetonitrile with 0.1% formic acid) for 105&#160;min followed by 15&#160;min gradient of 28&#8211;95% and 15&#160;min at 95% acetonitrile with 0.1% formic acid in water at flow rates of 0.15&#160;&#956;l/min. Mass spectrometry was performed in a positive mode (m/z 350&#8211;1,800, resolution 70,000) using repetitively full MS scan followed by collision&#8208;induced dissociation (HCD, at 35 normalized collision energy) of the 10 most dominant ions (&gt;&#160;1 charges) selected from the first MS scan. The AGC settings were 3&#160;&#215;&#160;106 for the full MS and 1&#160;&#215;&#160;105 for the MS/MS scans. The intensity threshold for triggering MS/MS analysis was 1&#160;&#215;&#160;104. A dynamic exclusion list was enabled with exclusion duration of 20&#160;s.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>90395</offset>
+      <text>The mass spectrometry data were analyzed using MaxQuant software 1.5.1.2. (www.maxquant.org) for peak picking identification and quantitation using the Andromeda search engine, searching against the rat Uniprot database with mass tolerance of 20&#160;ppm for the precursor masses and 20&#160;ppm for the fragment ions. Oxidation on methionine, phosphorylation on STY, gly&#8208;gly on K, and protein N&#8208;terminus acetylation were accepted as variable modifications, and carbamidomethyl on cysteine was accepted as a static modification. Minimal peptide length was set to six amino acids, and a maximum of two miscleavages was allowed. Peptide&#8208; and protein&#8208;level false discovery rates (FDRs) were filtered to 1% using the target&#8208;decoy strategy. Protein tables were filtered to eliminate the identifications from the reverse database, and common contaminants and single peptide identifications. The data were quantified by SILAC analysis using the same software. H/L, M/L, and H/M ratios for all peptides belonging to a particular protein species were pooled, providing a ratio for each protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>91483</offset>
+      <text>The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium (http://proteomecentral.proteomexchange.org) via the PRIDE partner repository (Vizcaino et&#160;al, 2013) with data set identifiers PXD004711, PXD004726, PXD004813.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>91736</offset>
+      <text>Synaptic protein selection criteria</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>91772</offset>
+      <text>To examine the specific effects of proteasome inhibitors on a group of synaptic and synaptically related proteins, we collated a list of 314 proteins (Table&#160;EV4) that are either synapse&#8208;specific, highly enriched in synaptic compartments, or implicated in synaptic function (synaptic vesicle proteins, proteins involved in synaptic vesicle recycling, active zone proteins, neurotransmitter receptors, postsynaptic scaffolding molecules, adhesion molecules implicated in synaptic organization, and others). Of the proteins in this list, only those that were identified in all experiments and complied with the selection criteria for our data (e.g. minimum number of peptides, see details in &#8220;Data Analysis&#8221; below) were chosen for subsequent analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>92528</offset>
+      <text>Normalization to long&#8208;lived proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>92567</offset>
+      <text>As described above, multiplexed SILAC data samples were mixed together (as pairs of time&#8208;matched lactacystin&#8208;treated and control sets) and run together on preparative gels. To correct for potential remaining differences in the relative amounts of material collected from treated and control sets, we normalized all ratios to ratios measured for a group of seven abundant proteins previously shown to be particularly long&#8208;lived (Toyama et&#160;al, 2013; Table&#160;1). Normalization was performed separately for each experiment and time point.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>93108</offset>
+      <text>Data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>93122</offset>
+      <text>For pulsed SILAC experiments, two separate experiments were performed, resulting in 1,409 proteins for which H/L ratios were obtained in both experiments and both conditions (H/L ratios based on at least two peptides in each experiment and condition). Data from both experiments were pooled, and the average H/L values were used thereafter.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>93463</offset>
+      <text>Under certain assumptions, such H/L ratios can be used to estimate turnover rates of identified proteins (Cohen et&#160;al, 2013). To that end, average H/L ratios were first converted to fractional incorporation ratios (Ft) and corrected to the maximal expected ratio (Fmax&#160;&#8776;&#160;5/(5&#160;+&#160;1)) as follows: where Rt is the H/L ratio at time t.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>93801</offset>
+      <text>Half&#8208;lifetime estimates, based on a single 24&#8208;h time point, were then calculated from Ft according to: where &#964; is the turnover time constant. Solving for &#964; gives:&#964; values were then converted to half&#8208;life (t&#189;) values according to:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>94041</offset>
+      <text>The apparent fold change in half&#8208;lifetime was then calculated by: </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>94110</offset>
+      <text>For multiplexed SILAC, we performed three experiments using lactacystin and identified &gt;&#160;4,500 proteins. Data on 1,750 proteins were used in subsequent analyses, after selecting only proteins which met the following criteria: (i) H/M ratios were quantified for at least 2 peptides in each experiment, and (ii) such ratios were obtained in all three experiments at all four time points. We performed two additional experiments using epoxomicin. Here too, analysis was limited to proteins for which H/M ratios were based on at least 2 peptides in each experiment, and for which ratios were obtained in both experiments at all four time points. As described in the Results section, data obtained from experiments using both inhibitors were pooled, resulting in a stringent list of measurements for all proteins for all five experiments and all four time points (20 samples/protein). Proteins were included in the latter list if H/M ratio measurements were obtained for at least 2 peptides in each of at least 11 of the 12 lactacystin samples and at least 7 of the 8 epoxomicin samples (176 synaptic proteins, 1,595 proteins in total; Table&#160;EV3). Analyses and statistical tests were performed using Microsoft Excel and Perseus (http://www.coxdocs.org/doku.php?id=perseus:start).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>95387</offset>
+      <text>Microscopy and image analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>95417</offset>
+      <text>Imaging of immunolabeled neurons in proteasome inhibition experiments was performed using a custom designed confocal laser scanning microscope (Tsuriel et&#160;al, 2006) using a 40&#215;, 1.3 NA Fluar objective. Excitation was performed at 488&#160;nm (Argon Laser) or 633&#160;nm (Helium Neon Laser). Fluorescence emissions were read using a 500&#8211;550&#160;nm band&#8208;pass filter (Chroma) or 650&#160;nm long&#8208;pass filter (Semrock), respectively. Images were collected by averaging four or six frames at two to four focal planes spaced 0.8&#160;&#956;m apart. All data were collected at a resolution of 640&#160;&#215;&#160;480 pixels, at 12 bits per pixel. Image analysis was performed using custom written software (OpenView) written by N.E.Z.. Analysis was performed on maximal intensity projections of 2 sections (or 4 for 2&#8208;h interval experiments), located 0.8&#160;&#956;m apart. Intensities of fluorescent puncta were measured by programmatically centering 9&#160;&#215;&#160;9 pixel (~1.4&#160;&#215;&#160;1.4&#160;&#956;m) regions of interest on individual puncta and obtaining the average fluorescence intensity in each region.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>96474</offset>
+      <text>For live imaging in Ub&#8208;R&#8208;GFP experiments, automated, multisite time&#8208;lapse microscopy was performed using the inverted confocal microscope described above. Excitation of CFP and Ub&#8208;R&#8208;GFP was performed at 457&#160;nm and 488&#160;nm (Argon Laser lines), respectively. CFP fluorescence emission was read using a 467&#8211;493&#160;nm band&#8208;pass filter (Semrock). GFP emissions were split between two photomultipliers using a 550 dichroic mirror and filtered at 500&#8211;550&#160;nm (GFP; Chroma) and 570&#8211;610&#160;nm (nonspecific fluorescence; Chroma). Spectral unmixing was then used to remove the contributions of nonspecific fluorescence sources to Ub&#8208;R&#8208;GFP data. Images were collected by averaging six frames at three focal planes spaced 0.8&#160;&#956;m apart. All data were collected at a resolution of 640&#160;&#215;&#160;480, at 12 bits per pixel. Preparations were imaged within their cloning cylinders in the presence of their growth media (no perfusion). The objective was heated to 36&#176;C, and a filtered mixture of 95% air and 5% CO2 was continuously streamed into a custom enclosure placed over the cells throughout the duration of the experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>97602</offset>
+      <text>Live imaging of LLVY&#8208;R110 accumulation in living neurons was done in a similar manner. R110 fluorescence was recorded by exciting the preparations at 488&#160;nm and collecting the emissions at 500&#8211;550&#160;nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>97809</offset>
+      <text>Long&#8208;term effects on neuronal morphology were measured as follows: Cortical neurons, growing on glass&#8208;bottomed plates, were infected with lentiviral vectors driving the expression of the postsynaptic density protein PSD&#8208;95 fused to mTurquoise2 and synapsin I fused to EGFP (on consecutive days, at 2&#8211;3&#160;days in&#160;vitro, respectively). At 16&#160;days in culture, cells were exposed to lactacystin (10&#160;&#956;M) and imaged immediately, after 24&#160;h and after 48&#160;h. In between imaging sessions, the cells were kept in a 37&#176;C, 5% CO2 humidified incubator. Excitation of mTurquoise2 and GFP was performed at 457 and 488&#160;nm, respectively. mTurquoise2 fluorescence emission was read using a 467&#8211;493&#160;nm band&#8208;pass filter. GFP emission was read using a 500&#8211;550&#160;nm band&#8208;pass filter (Chroma). Differential interference contrast (DIC) images were collected and used to assess overall neuronal integrity and morphology. Images were collected by averaging six frames at eight focal planes spaced 0.8&#160;&#956;m apart. Imaging resolution and environmental conditions were as described above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>98891</offset>
+      <text>Recordings of network activity</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>98922</offset>
+      <text>Cortical neurons were plated on thin glass multielectrode array (MEA) dishes containing 59, 30&#160;&#956;m diameter, electrodes arranged in an 8&#160;&#215;&#160;8 array, spaced 200&#160;&#956;m apart. The dishes were covered by a custom designed cap containing a submerged platinum wire loop serving as a ground electrode, heated to 37&#176;C, and provided with a filtered stream of 5% CO2 and 95% air through an inlet in the cap. Network activity was recorded through a commercial 60&#8208;channel headstage/amplifier (Inverted MEA1060, MCS) with a gain of 1,024&#215; and frequency limits of 1&#8211;5,000&#160;Hz. The amplified signal was further amplified and filtered using a bank of programmable filter/amplifiers (Alpha&#8208;Omega), multiplexed into 16 channels, and then digitized by two A/D boards (Microstar Laboratories) at 12 KSamples/sec per channel. Data acquisition was performed using AlphaMap (Alpha&#8208;Omega). All data were stored as threshold crossing events with the threshold set to &#8722;20&#160;&#956;V. Electrophysiological data were imported to Matlab (MathWorks) and analyzed using custom written scripts. To determine the effects of proteasome inhibitors on neuronal network activity, cortical neurons were grown for 17&#160;days on thin glass MEAs. After 5&#160;h of baseline recording, lactacystin was applied at a concentration of 10&#160;&#956;M. Recordings were then continued for another 20&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>100273</offset>
+      <text>Western blots</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>100287</offset>
+      <text>Cortical cells were washed using Tyrode's solution and lysed in RIPA buffer or 8M urea, 100&#160;mM Tris&#8211;HCl. Protein concentrations were measured by the Bradford assay (Hershko et&#160;al, 1982) using BSA as the standard. Equal protein amounts (30 or 40&#160;&#956;g) were separated by SDS gel electrophoresis and transferred to PVDF membrane. Staining was performed using anti&#8208;P21 antibody (BD Pharmingen, 1:500), anti&#8208;&#945; tubulin (Millipore, 1:10,000), or anti&#8208;Ub conjugates (an in&#8208;house developed antibody; Gonen et&#160;al, 1999, 1:1,000) as primary antibodies and peroxidase&#8208;conjugated (ImmunoResearch Laboratories) as secondary antibody. Enhanced chemiluminescence (ECL) (Pierce) was used for immunodetection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>100995</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>101016</offset>
+      <text>VH, LDC, and RZ carried out the experiments. LDC, VH, TZ, and NEZ performed the analysis. LDC, VH, TZ, and NEZ wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>101149</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>101170</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>101230</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>101253</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">414</infon>
+      <infon key="pub-id_pmid">19440234</infon>
+      <infon key="fpage">400</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>101264</offset>
+      <text>p21 in cancer: intricate networks and multiple activities</text>
+    </passage>
+    <passage>
+      <infon key="volume">422</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">207</infon>
+      <infon key="pub-id_pmid">12634793</infon>
+      <infon key="fpage">198</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>101322</offset>
+      <text>Mass spectrometry&#8208;based proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">15897</infon>
+      <infon key="pub-id_pmid">11278836</infon>
+      <infon key="fpage">15893</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>101359</offset>
+      <text>Regulation of the level of Vesl&#8208;1S/Homer&#8208;1a proteins by ubiquitin&#8208;proteasome proteolytic systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">28630</infon>
+      <infon key="pub-id_pmid">26453306</infon>
+      <infon key="fpage">28623</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>101462</offset>
+      <text>The regulation of synaptic protein turnover</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">J Neural Transm</infon>
+      <infon key="lpage">1476</infon>
+      <infon key="pub-id_pmid">22592936</infon>
+      <infon key="fpage">1467</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>101506</offset>
+      <text>Proteasome inhibition leads to early loss of synaptic proteins in neuronal culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">12035</infon>
+      <infon key="pub-id_pmid">21849563</infon>
+      <infon key="fpage">12029</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>101589</offset>
+      <text>Cyclin&#8208;dependent kinase 5 regulates PSD&#8208;95 ubiquitination in neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">88</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">553</infon>
+      <infon key="pub-id_pmid">14720204</infon>
+      <infon key="fpage">545</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>101662</offset>
+      <text>Proteasome inhibition and aggregation in Parkinson's disease: a comparative study in untransfected and transfected cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">32</infon>
+      <infon key="pub-id_pmid">21220096</infon>
+      <infon key="fpage">22</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>101783</offset>
+      <text>Deconstruction for reconstruction: the role of proteolysis in neural plasticity and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">1520</infon>
+      <infon key="pub-id_pmid">14960624</infon>
+      <infon key="fpage">1507</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>101875</offset>
+      <text>Postsynaptic density assembly is fundamentally different from presynaptic active zone assembly</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1167</infon>
+      <infon key="pub-id_pmid">23217703</infon>
+      <infon key="fpage">1163</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>101970</offset>
+      <text>Cleaning up: ER&#8208;associated degradation to the rescue</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Annu Rev Neurosci</infon>
+      <infon key="lpage">38</infon>
+      <infon key="pub-id_pmid">25032491</infon>
+      <infon key="fpage">17</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>102025</offset>
+      <text>Translational control in synaptic plasticity and cognitive dysfunction</text>
+    </passage>
+    <passage>
+      <infon key="volume">272</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">9092</infon>
+      <infon key="pub-id_pmid">9083035</infon>
+      <infon key="fpage">9086</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>102096</offset>
+      <text>Proteasome inhibition leads to a heat&#8208;shock response, induction of endoplasmic reticulum chaperones, and thermotolerance</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">5284</infon>
+      <infon key="pub-id_pmid">22050367</infon>
+      <infon key="fpage">5275</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>102219</offset>
+      <text>Systems&#8208;wide proteomic analysis in mammalian cells reveals conserved, functional protein turnover</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="lpage">2793</infon>
+      <infon key="pub-id_pmid">21809331</infon>
+      <infon key="fpage">2777</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>102319</offset>
+      <text>A review of the mammalian unfolded protein response</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">1128</infon>
+      <infon key="pub-id_pmid">23103165</infon>
+      <infon key="fpage">1120</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>102371</offset>
+      <text>SAP102 mediates synaptic clearance of NMDA receptors</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">35079</infon>
+      <infon key="pub-id_pmid">12121982</infon>
+      <infon key="fpage">35071</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>102424</offset>
+      <text>Staring, a novel E3 ubiquitin&#8208;protein ligase that targets syntaxin 1 for degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">226</infon>
+      <infon key="source">J Cell Physiol</infon>
+      <infon key="lpage">510</infon>
+      <infon key="pub-id_pmid">20683911</infon>
+      <infon key="fpage">494</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>102511</offset>
+      <text>Up&#8208;regulation of endoplasmic reticulum stress&#8208;related genes during the early phase of treatment of cultured cortical neurons by the proteasomal inhibitor lactacystin</text>
+    </passage>
+    <passage>
+      <infon key="source">Exp Mol Med</infon>
+      <infon key="volume">47</infon>
+      <infon key="pub-id_pmid">25766616</infon>
+      <infon key="fpage">e147</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>102681</offset>
+      <text>Degradation of misfolded proteins in neurodegenerative diseases: therapeutic targets and strategies</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">573</infon>
+      <infon key="pub-id_pmid">24823636</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>102781</offset>
+      <text>Endoplasmic reticulum stress in malignancy</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23658807</infon>
+      <infon key="fpage">e63191</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>102824</offset>
+      <text>Metabolic turnover of synaptic proteins: kinetics, interdependencies and implications for synaptic maintenance</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">607</infon>
+      <infon key="pub-id_pmid">14642282</infon>
+      <infon key="fpage">595</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>102935</offset>
+      <text>Ubiquitination regulates PSD&#8208;95 degradation and AMPA receptor surface expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Semin Immunopathol</infon>
+      <infon key="lpage">292</infon>
+      <infon key="pub-id_pmid">23609500</infon>
+      <infon key="fpage">277</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>103018</offset>
+      <text>The unfolded protein response in Alzheimer's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1372</infon>
+      <infon key="pub-id_pmid">19029910</infon>
+      <infon key="fpage">1367</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>103071</offset>
+      <text>MaxQuant enables high peptide identification rates, individualized p.p.b.&#8208;range mass accuracies and proteome&#8208;wide protein quantification</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">543</infon>
+      <infon key="pub-id_pmid">10802622</infon>
+      <infon key="fpage">538</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>103212</offset>
+      <text>Short&#8208;lived green fluorescent proteins for quantifying ubiquitin/proteasome&#8208;dependent proteolysis in living cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">FASEB J</infon>
+      <infon key="lpage">1063</infon>
+      <infon key="pub-id_pmid">16770004</infon>
+      <infon key="fpage">1055</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>103330</offset>
+      <text>Proteasome inhibition induces reversible impairments in protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Trends Neurosci</infon>
+      <infon key="lpage">36</infon>
+      <infon key="pub-id_pmid">17126920</infon>
+      <infon key="fpage">31</infon>
+      <infon key="year">2007a</infon>
+      <infon key="type">ref</infon>
+      <offset>103404</offset>
+      <text>Interplay between protein synthesis and degradation in the CNS: physiological and pathological implications</text>
+    </passage>
+    <passage>
+      <infon key="volume">171</infon>
+      <infon key="source">Am J Pathol</infon>
+      <infon key="lpage">524</infon>
+      <infon key="pub-id_pmid">17620365</infon>
+      <infon key="fpage">513</infon>
+      <infon key="year">2007b</infon>
+      <infon key="type">ref</infon>
+      <offset>103512</offset>
+      <text>Linking of autophagy to ubiquitin&#8208;proteasome system is important for the regulation of endoplasmic reticulum stress and cell viability</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">18954100</infon>
+      <infon key="fpage">104</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>103649</offset>
+      <text>Turnover of the human proteome: determination of protein intracellular stability by dynamic SILAC</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Learn Mem</infon>
+      <infon key="lpage">347</infon>
+      <infon key="pub-id_pmid">18441292</infon>
+      <infon key="fpage">335</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>103747</offset>
+      <text>Proteasome inhibition enhances the induction and impairs the maintenance of late&#8208;phase long&#8208;term potentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">3182</infon>
+      <infon key="pub-id_pmid">24573276</infon>
+      <infon key="fpage">3171</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>103861</offset>
+      <text>Proteasome modulates positive and negative translational regulators in long&#8208;term synaptic plasticity</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">393</infon>
+      <infon key="pub-id_pmid">23583075</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>103964</offset>
+      <text>Principles of cotranslational ubiquitination and quality control at the ribosome</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">19192299</infon>
+      <infon key="fpage">48</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>104045</offset>
+      <text>GOrilla: a tool for discovery and visualization of enriched GO terms in ranked gene lists</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Neurosci</infon>
+      <infon key="lpage">242</infon>
+      <infon key="pub-id_pmid">12577062</infon>
+      <infon key="fpage">231</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>104135</offset>
+      <text>Activity level controls postsynaptic composition and signaling via the ubiquitin&#8208;proteasome system</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">8476</infon>
+      <infon key="pub-id_pmid">16914671</infon>
+      <infon key="fpage">8465</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>104236</offset>
+      <text>Dynamics and effective topology underlying synchronization in networks of cortical neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3362</infon>
+      <infon key="pub-id_pmid">8159752</infon>
+      <infon key="fpage">3358</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>104327</offset>
+      <text>A beta&#8208;lactone related to lactacystin induces neurite outgrowth in a neuroblastoma cell line and inhibits cell cycle progression in an osteosarcoma cell line</text>
+    </passage>
+    <passage>
+      <infon key="volume">268</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">731</infon>
+      <infon key="pub-id_pmid">7732382</infon>
+      <infon key="fpage">726</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>104487</offset>
+      <text>Inhibition of proteasome activities and subunit&#8208;specific amino&#8208;terminal threonine modification by lactacystin</text>
+    </passage>
+    <passage>
+      <infon key="volume">273</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">8548</infon>
+      <infon key="pub-id_pmid">9535824</infon>
+      <infon key="fpage">8545</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>104601</offset>
+      <text>Lactacystin, proteasome function, and cell fate</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">8966</infon>
+      <infon key="pub-id_pmid">14523098</infon>
+      <infon key="fpage">8955</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>104649</offset>
+      <text>Fine structure and biochemical mechanisms underlying nigrostriatal inclusions and cell death after proteasome inhibition</text>
+    </passage>
+    <passage>
+      <infon key="source">Brain Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>104770</offset>
+      <text>The UPR and synaptic dysfunction in neurodegeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Neurosci</infon>
+      <infon key="lpage">189</infon>
+      <infon key="pub-id_pmid">21186356</infon>
+      <infon key="fpage">181</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>104824</offset>
+      <text>APC(Cdh1) mediates EphA4&#8208;dependent downregulation of AMPA receptors in homeostatic plasticity</text>
+    </passage>
+    <passage>
+      <infon key="volume">274</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">14830</infon>
+      <infon key="pub-id_pmid">10329681</infon>
+      <infon key="fpage">14823</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>104920</offset>
+      <text>Identification of the ubiquitin carrier proteins, E2s, involved in signal&#8208;induced conjugation and subsequent degradation of IkappaBalpha</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Mol Neurosci</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">26528125</infon>
+      <infon key="fpage">60</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>105059</offset>
+      <text>Ubiquitin&#8208;dependent trafficking and&#160;turnover of ionotropic glutamate receptors</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Neuroscience</infon>
+      <infon key="lpage">109</infon>
+      <infon key="pub-id_pmid">17207582</infon>
+      <infon key="fpage">100</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>105141</offset>
+      <text>Glutamate stimulates glutamate receptor interacting protein 1 degradation by ubiquitin&#8208;proteasome system to regulate surface expression of GluR2</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Neuropharmacology</infon>
+      <infon key="issue">Pt A</infon>
+      <infon key="lpage">174</infon>
+      <infon key="pub-id_pmid">24035917</infon>
+      <infon key="fpage">169</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>105288</offset>
+      <text>Targeting the unfolded protein response in neurodegeneration: a new approach to therapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Neuropathol Appl Neurobiol</infon>
+      <infon key="lpage">427</infon>
+      <infon key="pub-id_pmid">25556298</infon>
+      <infon key="fpage">414</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>105376</offset>
+      <text>Review: modulating the unfolded protein response to prevent neurodegeneration and enhance memory</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">67</infon>
+      <infon key="pub-id_pmid">11931741</infon>
+      <infon key="fpage">53</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>105473</offset>
+      <text>NSF ATPase and alpha&#8208;/beta&#8208;SNAPs disassemble the AMPA receptor&#8208;PICK1 complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">1650</infon>
+      <infon key="pub-id_pmid">17302911</infon>
+      <infon key="fpage">1644</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>105556</offset>
+      <text>NSF binds calcium to regulate its interaction with AMPA receptor subunit GluR2</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">633</infon>
+      <infon key="pub-id_pmid">12667446</infon>
+      <infon key="fpage">619</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>105635</offset>
+      <text>An integrated stress response regulates amino acid metabolism and resistance to oxidative stress</text>
+    </passage>
+    <passage>
+      <infon key="volume">1854</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1675</infon>
+      <infon key="pub-id_pmid">25916936</infon>
+      <infon key="fpage">1667</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>105732</offset>
+      <text>Neurochondrin is an atypical RII&#945;&#8208;specific A&#8208;kinase anchoring protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">257</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">13970</infon>
+      <infon key="pub-id_pmid">6292216</infon>
+      <infon key="fpage">13964</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>105807</offset>
+      <text>Immunochemical analysis of the turnover of ubiquitin&#8208;protein conjugates in intact cells. Relationship to the breakdown of abnormal proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">838</infon>
+      <infon key="pub-id_pmid">26123108</infon>
+      <infon key="fpage">829</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>105949</offset>
+      <text>Proteostasis control by the unfolded protein response</text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">657</infon>
+      <infon key="pub-id_pmid">24183017</infon>
+      <infon key="fpage">648</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>106003</offset>
+      <text>The central dogma decentralized: new perspectives on RNA function and local translation in neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">818</infon>
+      <infon key="pub-id_pmid">22153376</infon>
+      <infon key="fpage">806</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>106102</offset>
+      <text>Homeostatic regulation of AMPA receptor trafficking and degradation by light&#8208;controlled single&#8208;synaptic activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">4686</infon>
+      <infon key="pub-id_pmid">17460080</infon>
+      <infon key="fpage">4674</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>106221</offset>
+      <text>Differential regulation of AMPA receptor trafficking by neurabin&#8208;targeted synaptic protein phosphatase&#8208;1 in synaptic transmission and long&#8208;term depression in hippocampus</text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">717</infon>
+      <infon key="pub-id_pmid">24183021</infon>
+      <infon key="fpage">704</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>106397</offset>
+      <text>AMPARs and synaptic plasticity: the last 25&#160;years</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">20352094</infon>
+      <infon key="fpage">e9842</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>106448</offset>
+      <text>Degradation of postsynaptic scaffold GKAP and regulation of dendritic spine morphology by the TRIM3 ubiquitin ligase in rat hippocampal neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">1080</infon>
+      <infon key="pub-id_pmid">26077708</infon>
+      <infon key="fpage">1067</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>106592</offset>
+      <text>The deubiquitinating enzyme USP46 regulates AMPA receptor ubiquitination and trafficking</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Mol Neurosci</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">25018696</infon>
+      <infon key="fpage">61</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>106681</offset>
+      <text>Protein degradation and protein synthesis in long&#8208;term memory formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">1809</infon>
+      <infon key="pub-id_pmid">20130189</infon>
+      <infon key="fpage">1798</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>106755</offset>
+      <text>A role for the ubiquitin&#8208;proteasome system in activity&#8208;dependent presynaptic silencing</text>
+    </passage>
+    <passage>
+      <infon key="volume">283</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">310</infon>
+      <infon key="pub-id_pmid">17962190</infon>
+      <infon key="fpage">301</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>106846</offset>
+      <text>Mind bomb&#8208;2 is an E3 ligase that ubiquitinates the N&#8208;methyl&#8208;D&#8208;aspartate receptor NR2B subunit in a phosphorylation&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5605</infon>
+      <infon key="pub-id_pmid">15809437</infon>
+      <infon key="fpage">5600</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>106988</offset>
+      <text>Activity&#8208;dependent NMDA receptor degradation mediated by retrotranslocation and ubiquitination</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Ageing Res Rev</infon>
+      <infon key="lpage">293</infon>
+      <infon key="pub-id_pmid">12039443</infon>
+      <infon key="fpage">279</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>107085</offset>
+      <text>The proteasome in brain aging</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Cell Biol Toxicol</infon>
+      <infon key="lpage">131</infon>
+      <infon key="pub-id_pmid">20853140</infon>
+      <infon key="fpage">123</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>107115</offset>
+      <text>Semi&#8208;high throughput method of measuring proteasome inhibition in&#160;vitro and in cultured cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">73</infon>
+      <infon key="source">Mol Pharmacol</infon>
+      <infon key="lpage">1063</infon>
+      <infon key="pub-id_pmid">18199701</infon>
+      <infon key="fpage">1052</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>107212</offset>
+      <text>Rapamycin inhibits polyglutamine aggregation independently of autophagy by reducing protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">35877</infon>
+      <infon key="pub-id_pmid">12815064</infon>
+      <infon key="fpage">35869</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>107314</offset>
+      <text>The caspase&#8208;like sites of proteasomes, their substrate specificity, new inhibitors and substrates, and allosteric interactions with the trypsin&#8208;like sites</text>
+    </passage>
+    <passage>
+      <infon key="volume">398</infon>
+      <infon key="source">Methods Enzymol</infon>
+      <infon key="lpage">378</infon>
+      <infon key="pub-id_pmid">16275343</infon>
+      <infon key="fpage">364</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>107473</offset>
+      <text>Monitoring activity and inhibition of 26S proteasomes with fluorogenic peptide substrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Tumour Biol</infon>
+      <infon key="lpage">215</infon>
+      <infon key="pub-id_pmid">11399945</infon>
+      <infon key="fpage">211</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>107563</offset>
+      <text>Lactacystin inhibits cathepsin A activity in melanoma cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">176</infon>
+      <infon key="pub-id_pmid">18171934</infon>
+      <infon key="fpage">163</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>107628</offset>
+      <text>Pulse inhibition of histone deacetylases induces complete resistance to oxidative death in cortical neurons without toxicity and reveals a role for cytoplasmic p21waf1/cip1 in cell cycle&#8208;independent neuroprotection</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">650</infon>
+      <infon key="pub-id_pmid">23242552</infon>
+      <infon key="fpage">638</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>107845</offset>
+      <text>Global subcellular characterization of protein degradation using quantitative proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">10200</infon>
+      <infon key="pub-id_pmid">21752995</infon>
+      <infon key="fpage">10189</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>107934</offset>
+      <text>Extensive remodeling of the presynaptic cytomatrix upon homeostatic adaptation to network activity silencing</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">15286</infon>
+      <infon key="pub-id_pmid">18829439</infon>
+      <infon key="fpage">15281</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>108043</offset>
+      <text>Quantitative proteomic analysis of primary neurons reveals diverse changes in synaptic protein content in fmr1 knockout mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">39</infon>
+      <infon key="pub-id_pmid">21338354</infon>
+      <infon key="fpage">27</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>108168</offset>
+      <text>Nedd4&#8208;mediated AMPA receptor ubiquitination regulates receptor turnover and trafficking</text>
+    </passage>
+    <passage>
+      <infon key="source">Neural Plast</infon>
+      <infon key="volume">2013</infon>
+      <infon key="pub-id_pmid">23431475</infon>
+      <infon key="fpage">432057</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>108258</offset>
+      <text>Ubiquitination of neurotransmitter receptors and postsynaptic scaffolding proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">289</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">24664</infon>
+      <infon key="pub-id_pmid">25023288</infon>
+      <infon key="fpage">24652</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>108341</offset>
+      <text>Endocytic adaptor epidermal growth factor receptor&#160;substrate 15 (Eps15) is involved in the trafficking of ubiquitinated &#945;&#8208;amino&#8208;3&#8208;hydroxy&#8208;5&#8208;methyl&#8208;4&#8208;isoxazolepropionic acid receptors</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">40744</infon>
+      <infon key="pub-id_pmid">20959456</infon>
+      <infon key="fpage">40732</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>108540</offset>
+      <text>Phosphorylated alpha&#8208;synuclein at Ser&#8208;129 is targeted to the proteasome pathway in a ubiquitin&#8208;independent manner</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Curr Opin Neurobiol</infon>
+      <infon key="lpage">170</infon>
+      <infon key="pub-id_pmid">24762653</infon>
+      <infon key="fpage">165</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>108660</offset>
+      <text>Axon and dendritic trafficking</text>
+    </passage>
+    <passage>
+      <infon key="volume">96</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10408</infon>
+      <infon key="pub-id_pmid">10468620</infon>
+      <infon key="fpage">10403</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>108691</offset>
+      <text>Epoxomicin, a potent and selective proteasome inhibitor, exhibits in&#160;vivo antiinflammatory activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">365</infon>
+      <infon key="pub-id_pmid">16272561</infon>
+      <infon key="fpage">357</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>108792</offset>
+      <text>The turnover kinetics of major histocompatibility complex peptides of human cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">1864</infon>
+      <infon key="pub-id_pmid">23538226</infon>
+      <infon key="fpage">1853</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>108881</offset>
+      <text>The effect of proteasome inhibition on the generation of the human leukocyte antigen (HLA) peptidome</text>
+    </passage>
+    <passage>
+      <infon key="volume">190</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">650</infon>
+      <infon key="pub-id_pmid">20713601</infon>
+      <infon key="fpage">637</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>108982</offset>
+      <text>BAG&#8208;6 is essential for selective elimination of defective proteasomal substrates</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">19554080</infon>
+      <infon key="fpage">e1000136</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>109065</offset>
+      <text>Long&#8208;term relationships between synaptic tenacity, synaptic remodeling, and network activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8619</infon>
+      <infon key="pub-id_pmid">15163799</infon>
+      <infon key="fpage">8614</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>109160</offset>
+      <text>Seven in absentia homolog 1A mediates ubiquitination and degradation of group 1 metabotropic glutamate receptors</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">4732</infon>
+      <infon key="pub-id_pmid">22871113</infon>
+      <infon key="fpage">4722</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>109273</offset>
+      <text>Synaptic protein ubiquitination in rat brain revealed by antibody&#8208;based ubiquitome analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">4916</infon>
+      <infon key="pub-id_pmid">16507771</infon>
+      <infon key="fpage">4907</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>109367</offset>
+      <text>Proteasome inhibitors induce a terminal unfolded protein response in multiple myeloma cells</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">23232094</infon>
+      <infon key="fpage">a013185</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>109459</offset>
+      <text>The mammalian endoplasmic reticulum&#8208;associated degradation system</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">2660</infon>
+      <infon key="pub-id_pmid">17406521</infon>
+      <infon key="fpage">2650</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>109527</offset>
+      <text>A practical recipe for stable isotope labeling by amino acids in cell culture (SILAC)</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">110</infon>
+      <infon key="pub-id_pmid">9697855</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>109613</offset>
+      <text>The AMPA receptor GluR2 C terminus can mediate a reversible, ATP&#8208;dependent interaction with NSF and alpha&#8208; and beta&#8208;SNAPs</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">421</infon>
+      <infon key="pub-id_pmid">23395271</infon>
+      <infon key="fpage">411</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>109741</offset>
+      <text>The ribosome as a hub for protein quality control</text>
+    </passage>
+    <passage>
+      <infon key="volume">212</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">801</infon>
+      <infon key="pub-id_pmid">27022091</infon>
+      <infon key="fpage">789</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>109791</offset>
+      <text>The proteasome controls presynaptic differentiation through modulation of an on&#8208;site pool of polyubiquitinated conjugates</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">591</infon>
+      <infon key="pub-id_pmid">12376573</infon>
+      <infon key="fpage">579</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>109915</offset>
+      <text>Dynamics of protein turnover, a missing dimension in proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">37</infon>
+      <infon key="pub-id_pmid">22486777</infon>
+      <infon key="fpage">24</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>109979</offset>
+      <text>Proteasomal degradation of the metabotropic glutamate receptor 1&#945; is mediated by Homer&#8208;3 via the proteasomal S8 ATPase: Signal transduction and synaptic transmission</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">3166</infon>
+      <infon key="pub-id_pmid">20203175</infon>
+      <infon key="fpage">3157</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>110149</offset>
+      <text>Ubiquitination acutely regulates presynaptic neurotransmitter release in mammalian neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">718</infon>
+      <infon key="pub-id_pmid">15550251</infon>
+      <infon key="fpage">707</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>110240</offset>
+      <text>Independent regulation of synaptic size and activity by the anaphase&#8208;promoting complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">204</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">879</infon>
+      <infon key="pub-id_pmid">24637321</infon>
+      <infon key="fpage">869</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>110329</offset>
+      <text>Quality control: ER&#8208;associated degradation: protein quality control and beyond</text>
+    </passage>
+    <passage>
+      <infon key="source">R Soc Open Sci</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">26543581</infon>
+      <infon key="fpage">150031</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>110410</offset>
+      <text>Incubator&#8208;independent cell&#8208;culture perfusion platform for continuous long&#8208;term microelectrode array electrophysiology and time&#8208;lapse imaging</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">13351</infon>
+      <infon key="pub-id_pmid">18045928</infon>
+      <infon key="fpage">13341</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>110559</offset>
+      <text>Activity&#8208;dependent ubiquitination of GABA(A) receptors regulates their accumulation at synaptic sites</text>
+    </passage>
+    <passage>
+      <infon key="volume">404</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">774</infon>
+      <infon key="pub-id_pmid">10783891</infon>
+      <infon key="fpage">770</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>110663</offset>
+      <text>Rapid degradation of a large fraction of newly synthesized proteins by proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">473</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">342</infon>
+      <infon key="pub-id_pmid">21593866</infon>
+      <infon key="fpage">337</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>110746</offset>
+      <text>Global quantification of mammalian gene expression control</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">16729</infon>
+      <infon key="pub-id_pmid">21148011</infon>
+      <infon key="fpage">16718</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>110805</offset>
+      <text>Activity&#8208;dependent ubiquitination of GluA1 mediates a distinct AMPA receptor endocytosis and sorting pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell Neurosci</infon>
+      <infon key="lpage">393</infon>
+      <infon key="pub-id_pmid">21884797</infon>
+      <infon key="fpage">387</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>110916</offset>
+      <text>Ubiquitin&#8208;dependent endocytosis, trafficking and turnover of neuronal membrane proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">16649</infon>
+      <infon key="pub-id_pmid">25505317</infon>
+      <infon key="fpage">16637</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>111006</offset>
+      <text>Synaptic strength is bidirectionally controlled by opposing activity&#8208;dependent regulation of Nedd4&#8208;1 and USP8</text>
+    </passage>
+    <passage>
+      <infon key="volume">455</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">63</infon>
+      <infon key="pub-id_pmid">18668040</infon>
+      <infon key="fpage">58</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>111120</offset>
+      <text>Widespread changes in protein synthesis induced by microRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">452</infon>
+      <infon key="pub-id_pmid">23290915</infon>
+      <infon key="fpage">439</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>111181</offset>
+      <text>Widespread regulation of translation by elongation pausing in heat shock</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Acta Pharmacol Sin</infon>
+      <infon key="lpage">673</infon>
+      <infon key="pub-id_pmid">23503475</infon>
+      <infon key="fpage">667</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>111254</offset>
+      <text>Adaptive changes in autophagy after UPS impairment in Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Neurosci</infon>
+      <infon key="lpage">1666</infon>
+      <infon key="pub-id_pmid">23143515</infon>
+      <infon key="fpage">1655</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>111328</offset>
+      <text>GKAP orchestrates activity&#8208;dependent postsynaptic protein remodeling and homeostatic scaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">426</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">894</infon>
+      <infon key="pub-id_pmid">14685249</infon>
+      <infon key="fpage">891</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>111423</offset>
+      <text>Quality control in the endoplasmic reticulum protein factory</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">1076</infon>
+      <infon key="pub-id_pmid">18256212</infon>
+      <infon key="fpage">1067</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>111484</offset>
+      <text>Stable isotopic labeling by amino acids in cultured primary neurons: application to brain&#8208;derived neurotrophic factor&#8208;dependent phosphotyrosine&#8208;associated signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">415</infon>
+      <infon key="pub-id_pmid">23870128</infon>
+      <infon key="fpage">403</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>111655</offset>
+      <text>Methionine inhibits autophagy and promotes growth by inducing the SAM&#8208;responsive methylation of PP2A</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">982</infon>
+      <infon key="pub-id_pmid">23993091</infon>
+      <infon key="fpage">971</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>111758</offset>
+      <text>Identification of long&#8208;lived proteins reveals exceptional stability of essential cellular structures</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1594</infon>
+      <infon key="pub-id_pmid">23260144</infon>
+      <infon key="fpage">1581</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>111861</offset>
+      <text>Multiple autism&#8208;linked genes mediate synapse elimination via proteasomal degradation of a synaptic scaffold PSD&#8208;95</text>
+    </passage>
+    <passage>
+      <infon key="volume">1843</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">2842</infon>
+      <infon key="pub-id_pmid">25135362</infon>
+      <infon key="fpage">2838</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>111980</offset>
+      <text>Ubiquitin proteasome system&#8208;mediated degradation of synaptic proteins: an update from the postsynaptic side</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">16903782</infon>
+      <infon key="fpage">e271</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>112090</offset>
+      <text>Local sharing as a predominant determinant of synaptic matrix molecular dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">159</infon>
+      <infon key="pub-id_pmid">22505724</infon>
+      <infon key="fpage">148</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>112171</offset>
+      <text>Methods for quantification of in&#160;vivo changes in protein ubiquitination following proteasome and deubiquitinase inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">491</infon>
+      <infon key="pub-id_pmid">21920314</infon>
+      <infon key="fpage">479</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>112295</offset>
+      <text>Dlg3 trafficking and apical tight junction formation is regulated by nedd4 and nedd4&#8208;2 E3 ubiquitin ligases</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D1069</infon>
+      <infon key="pub-id_pmid">23203882</infon>
+      <infon key="fpage">D1063</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>112405</offset>
+      <text>The Proteomics Identifications (PRIDE) database and associated tools: status in 2013</text>
+    </passage>
+    <passage>
+      <infon key="volume">334</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1086</infon>
+      <infon key="pub-id_pmid">22116877</infon>
+      <infon key="fpage">1081</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>112490</offset>
+      <text>The unfolded protein response: from stress pathway to homeostatic regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">326</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1557</infon>
+      <infon key="pub-id_pmid">20007903</infon>
+      <infon key="fpage">1554</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>112567</offset>
+      <text>Norbin is an endogenous regulator of metabotropic glutamate receptor 5 signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">378</infon>
+      <infon key="pub-id_pmid">23583076</infon>
+      <infon key="fpage">368</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>112648</offset>
+      <text>A cotranslational ubiquitination pathway for quality control of misfolded proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">96</infon>
+      <infon key="pub-id_pmid">10390370</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>112731</offset>
+      <text>Regulation of NMDA receptors by an associated phosphatase&#8208;kinase signaling complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">10282</infon>
+      <infon key="pub-id_pmid">11786535</infon>
+      <infon key="fpage">10273</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>112816</offset>
+      <text>Regulation of synaptophysin degradation by mammalian homologues of seven in absentia</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">11341</infon>
+      <infon key="pub-id_pmid">17079661</infon>
+      <infon key="fpage">11333</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>112901</offset>
+      <text>Proteasome inhibition triggers activity&#8208;dependent increase in the size of the recycling vesicle pool in cultured hippocampal neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">18076</infon>
+      <infon key="pub-id_pmid">23665563</infon>
+      <infon key="fpage">18068</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>113036</offset>
+      <text>A ubiquitin&#8208;like domain recruits an oligomeric chaperone to a retrotranslocation complex in endoplasmic reticulum&#8208;associated degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Annu Rev Neurosci</infon>
+      <infon key="lpage">78</infon>
+      <infon key="pub-id_pmid">24821313</infon>
+      <infon key="fpage">55</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>113177</offset>
+      <text>Autophagy and its normal and pathogenic states in the brain</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Trends Neurosci</infon>
+      <infon key="lpage">428</infon>
+      <infon key="pub-id_pmid">23639383</infon>
+      <infon key="fpage">418</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>113237</offset>
+      <text>Autophagy in axonal and dendritic degeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">957</infon>
+      <infon key="pub-id_pmid">17803915</infon>
+      <infon key="fpage">943</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>113284</offset>
+      <text>SCRAPPER&#8208;dependent ubiquitination of active zone protein RIM1 regulates synaptic vesicle release</text>
+    </passage>
+    <passage>
+      <infon key="volume">291</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">16935</infon>
+      <infon key="pub-id_pmid">27358398</infon>
+      <infon key="fpage">16927</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>113383</offset>
+      <text>Upstream open reading frames differentially regulate gene&#8208;specific translation in the Integrated Stress Response</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">25938</infon>
+      <infon key="pub-id_pmid">15070890</infon>
+      <infon key="fpage">25935</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>113498</offset>
+      <text>Signaling the unfolded protein response from the endoplasmic reticulum</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">4511</infon>
+      <infon key="pub-id_pmid">19357275</infon>
+      <infon key="fpage">4498</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>113569</offset>
+      <text>Na, K&#8208;ATPase activity regulates AMPA receptor turnover through proteasome&#8208;mediated proteolysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">245</infon>
+      <infon key="pub-id_pmid">19860852</infon>
+      <infon key="fpage">238</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>113668</offset>
+      <text>Activation of PERK kinase in neural cells by proteasome inhibitor treatment</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">2554</infon>
+      <infon key="pub-id_pmid">21370927</infon>
+      <infon key="fpage">2546</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>113744</offset>
+      <text>Study of neurotrophin&#8208;3 signaling in primary cultured neurons using multiplex stable isotope labeling with amino acids in cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">609</infon>
+      <infon key="pub-id_pmid">22238095</infon>
+      <infon key="fpage">599</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>113881</offset>
+      <text>RNA binding proteins accumulate at&#160;the postsynaptic density with synaptic activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">4019</infon>
+      <infon key="pub-id_pmid">12928331</infon>
+      <infon key="fpage">4011</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>113965</offset>
+      <text>Parkin is recruited to the centrosome in response to inhibition of proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Neuroscientist</infon>
+      <infon key="lpage">512</infon>
+      <infon key="pub-id_pmid">21498811</infon>
+      <infon key="fpage">493</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>114044</offset>
+      <text>MAGUKs, synaptic development, and synaptic plasticity</text>
+    </passage>
+  </document>
+</collection>

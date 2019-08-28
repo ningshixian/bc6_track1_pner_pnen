@@ -1,0 +1,1525 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5007572</id>
+    <passage>
+      <infon key="name_2">surname:Kim;given-names:Hwang&#8208;Phill</infon>
+      <infon key="name_3">surname:Han;given-names:Sae&#8208;Won</infon>
+      <infon key="name_0">surname:Yun;given-names:Jiyeon</infon>
+      <infon key="name_1">surname:Song;given-names:Sang&#8208;Hyun</infon>
+      <infon key="alt-title">Jiyeon Yun et al</infon>
+      <infon key="article-id_publisher-id">EMBR201541852</infon>
+      <infon key="name_5">surname:Kim;given-names:Tae&#8208;You</infon>
+      <infon key="lpage">1359 1359</infon>
+      <infon key="fpage">1343 1343</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">cancer stem cell cohesin EMT higher&#8208;order chromatin structure Cancer Chromatin, Epigenetics, Genomics &amp; Functional Genomics</infon>
+      <infon key="name_4">surname:Yi;given-names:Eugene C</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embr.201541852</infon>
+      <infon key="article-id_pmid">27466323</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">17 17</infon>
+      <infon key="pub-id_pmid">27466323</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">9</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>Dynamic cohesin&#8208;mediated chromatin architecture controls epithelial&#8211;mesenchymal plasticity in cancer</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>105</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>114</offset>
+      <text>Epithelial to mesenchymal transition (EMT) and mesenchymal to epithelial transition (MET) are important interconnected events in tumorigenesis controlled by complex genetic networks. However, the cues that activate EMT&#8208;initiating factors and the mechanisms that reversibly connect EMT/MET are not well understood. Here, we show that cohesin&#8208;mediated chromatin organization coordinates EMT/MET by regulating mesenchymal genes. We report that RAD21, a subunit of the cohesin complex, is expressed in epithelial breast cancer cells, whereas its expression is decreased in mesenchymal cancer. Depletion of RAD21 in epithelial cancer cells causes transcriptional activation of TGFB1 and ITGA5, inducing EMT. Reduced binding of RAD21 changes intrachromosomal chromatin interactions within the TGFB1 and ITGA5 loci, creating an active transcriptional environment. Similarly, stem cell&#8208;like cancer cells also show an open chromatin structure at both genes, which correlates with high expression levels and mesenchymal fate characteristics. Conversely, overexpression of RAD21 in mesenchymal cancer cells induces MET&#8208;specific expression patterns. These findings indicate that dynamic cohesin&#8208;mediated chromatin structures are responsible for the initiation and regulation of essential EMT&#8208;related cell fate changes in cancer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1443</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1456</offset>
+      <text>Approximately 90% of human cancer cases are caused by metastasis 1, a multi&#8208;step process in which primary tumor cells disseminate from their origin site and move into secondary locations to acquire a better environment for tumor proliferation 2, 3. Epithelial&#8211;mesenchymal transition (EMT) associated with metastasis is known as an initiation process related to intravasation 4, 5. During EMT, epithelial cancer cells acquire migratory potential, loss of apical&#8211;basal polarity, and resistance to apoptotic stimuli that promote detachment from the origin sites and neighboring cells through coordinate gains in EMT&#8208;related genes and losses of epithelial&#8208;related genes expression. Consequently, cancer cells gradually obtain migratory and invasive capabilities 6.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2227</offset>
+      <text>According to the cancer stem cell (CSC) hypothesis, tumor growth is only driven by a subpopulation of tumor&#8208;initiating cells that have self&#8208;renewal and multi&#8208;potency properties 7. CSCs are known to have mesenchymal traits and be capable of mobility; accordingly, they have been proposed as the seeds of metastasis 7. Additionally, CSC plasticity postulates that cancer has CSCs and non&#8208;CSCs, and that these different cancer cells have a characteristic of bidirectional conversion. Metastases in patients with aggressive forms of cancer and CSCs are closely linked to cancer mortality. Thus, understanding the regulatory mechanisms of EMT and mesenchymal to epithelial transition (MET), a reversible process of EMT, is important to preventing tumor metastasis 8. During cancer metastasis, EMT&#8208;MET is essential for the timely and accurate differentiation of epithelial (or mesenchymal) cancer cells into mesenchymal (or epithelial) cancer cells for tumor development 9.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3205</offset>
+      <text>Over the past few decades, many groups have studied EMT and EMT&#8208;related genes such as E&#8208;cadherin (CDH1), vimentin (VIM), tumor growth factor &#946; (TGFB), twist&#8208;related protein 1 (TWIST1), &#946;&#8208;catenin (CTNNB1), zinc finger E&#8208;box&#8208;binding homeobox 1/2 (ZEB1/2), and the miR200 family 10. Recent studies have provided compelling evidence of epigenetic regulation of the EMT process including histone deacetylation and DNA methylation of CDH1, expression of non&#8208;coding RNA (mir&#8208;200 a,b,c, mir&#8208;429, and mir&#8208;141) that regulates EMT plasticity and post&#8208;translational modifications such as sumoylation of ZEB2, and phosphorylation of snail family zinc finger 1 (SNAI1) 11, 12, 13, 14. Based on these findings, epigenetic mechanisms appear to play a crucial role in the regulation of EMT&#8208;related genes and are important mechanical factors during the EMT process. Despite these data elucidating various factors that control dramatic changes during EMT, the upstream regulatory molecules responsible for initiating EMT, called &#8220;cues&#8221;, are still unclear 7.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4274</offset>
+      <text>Higher&#8208;order chromatin architecture is known to be important to gene regulation during hematopoiesis, erythropoiesis, and development. Therefore, chromatin architectural proteins such as CCCTC&#8208;binding factor (CTCF), cohesin, and LIM domain binding 1 (LDB1) have been actively investigated 15, 16. In particular, the cohesin complex, which consists of four main subunits, two structural maintenance of chromosomes (SMC) molecules SMC1 and SMC3, either stromal antigen (SA; also known as STAG) STAG1 or STAG2, and the kleisin subunit RAD21 17, 18, tightly and dynamically controls genomic organization to regulate gene transcription, transcript splicing, chromosomal instability, and gene amplification in cancer 19, 20. Substantial evidence has shown that cohesin proteins are involved in tumorigenesis. While cohesin complex is overexpressed and mutated in some types of cancer such as breast, prostate, and colon, other malignancies such as oral squamous cell carcinoma, colorectal cancer, and myeloid leukemia express low levels or mutated forms of these proteins 17, 18. It has been reported that RAD21, a subunit of cohesin complex, is expressed at a low level in metastatic breast and oral squamous cancers 21, 22. However, the reason why RAD21 is lower in metastatic than in epithelial cancer is still unclear. Although many distinct molecular mechanisms associated with the EMT process in cancer have been identified, the contributions of higher&#8208;order chromatin architecture to regulating EMT regulation and acquisition of mesenchymal traits are still unknown 23.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5851</offset>
+      <text>In the present investigation, we showed that deprivation of RAD21 in epithelial cancer cells increases the transcription of two EMT&#8208;related genes: TGFB1 and ITGA5 by releasing the higher&#8208;order chromatin structure of the genes. Up&#8208;regulation of these genes leads directly to EMT. Furthermore, this result is confirmed by the same outcomes in cancer stem cell&#8208;like cells (CSLCs) which are known to have mesenchymal traits. The results of this study strongly suggest that cohesin dynamically regulates the three&#8208;dimensional chromatin architectures of the key genes responsible for EMT initiation. Moreover, it directly affects gene expression, causing a reversible transition between epithelial and mesenchymal states in a subpopulation of cancer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6606</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6614</offset>
+      <text>RAD21 expression in mesenchymal breast cancer is relatively lower than that of epithelial cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6710</offset>
+      <text>RAD21 was previously demonstrated to be expressed at low levels in metastatic cancer cells such as breast and oral squamous cell carcinoma 21, 22. Therefore, we investigated whether RAD21 is important in determining the state of either EMT or MET. To accomplish this, we compared RAD21 expression between epithelial (HCC70, T47D, and MCF7) and highly metastatic breast cancer cell lines (MDA&#8208;MB&#8208;231, HCC1143, and MDA&#8208;MB&#8208;157) 24 (Fig 1A). Consistent with the results of previous studies, we observed relatively low expression of RAD21 protein in mesenchymal breast cancer cell lines compared with those in epithelial breast cancer cell lines. Although the other subunits of cohesin complex SMC1A and STAG2 were also checked, there were no significant differences between the epithelial and mesenchymal breast cancer cell lines (Fig EV1A). Next, to visually compare the relationships between RAD21 expression and EMT state, we analyzed immunofluorescence staining with RAD21 and E&#8208;cadherin, a well&#8208;known epithelial marker, or VIM, a marker of mesenchymal trait, in MCF7 or HCC1143 cells. Consistent with the Western blot data, we observed that HCC1143 cells expressed a high level of VIM and low levels of E&#8208;cadherin and RAD21, while MCF7 cells had a low level of VIM and high levels of E&#8208;cadherin and RAD21 (Fig 1B). To understand why different levels of RAD21 protein expression were observed when comparing mesenchymal and epithelial breast cancer cells, we analyzed RAD21 mRNA (Fig 1C). No significant difference in mRNA expression was observed between the cells. The mRNA expression of other cohesin complex subunits did not differ greatly between cells and was not correlated with the protein levels (Fig EV1B). We further checked whether the RAD21 gene copy number was correlated with the protein levels in epithelial and mesenchymal breast cancer cells. The results showed that the gene copy number did not appear to be relevant to its protein levels (Fig EV1C). We then assessed RAD21 expression in epithelial breast cancer MCF7 cells&#8212;and mesenchymal breast cancer HCC1143 cells&#8212;following treatment with 10 &#956;g/ml actinomycin D (Act D) for 0, 3, 6, 9, 12, and 24 h (Figs 1D and EV1D&#8211;F). The levels of RAD21 transcripts and protein in MCF7 cells remained steady after 24 h of Act D treatment. In contrast, a dramatic reduction of RAD21 transcripts and protein was observed after 6 h of Act D exposure in HCC1143 cells. We also observed a significant reduction of c&#8208;Myc transcripts, which was used as a control 25, 26 in both cell lines (Figs 1D and EV1F). These findings showed that low expression of RAD21 protein in mesenchymal breast cancer cell lines might be due to less stable transcripts than in epithelial cell lines with higher RAD21 expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9495</offset>
+      <text>Unstable RAD21 mRNA leads to low levels of RAD21 protein in mesenchymal breast cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9587</offset>
+      <text>Representative results of Western blot analysis of RAD21, E&#8208;cadherin, and VIM are shown for luminal and basal&#8208;like breast cancer cell lines. The images were analyzed using ImageJ (National Institutes of Health, USA). Protein levels from the Western blots were quantified and normalized relative to &#945;&#8208;tubulin. Bars represent the mean &#177; SD from four independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9968</offset>
+      <text>Immunofluorescence staining for VIM (green) or E&#8208;cadherin (green) and RAD21 (red) in a panel of MCF7 or HCC1143 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10089</offset>
+      <text>The level of RAD21 mRNA in breast cancer cell lines. Values were normalized relative to 18S transcription. The plotted data are the average from three independent experiments. Bars represent the mean &#177; SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10296</offset>
+      <text>Stabilities of the RAD21 transcript and protein in MCF7 or HCC1143 cells. Cells were treated with 10 &#956;g/ml actinomycin D for 0, 3, 6, 9, 12, and 24 h, after which total RNA and proteins were extracted. c&#8208;Myc and 18S were used as controls. The data represent three individual experiments (m: mRNA, P: protein).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10609</offset>
+      <text>The mRNA and protein expression levels of cohesin subunits in epithelial and breast cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10706</offset>
+      <text>Results of a Western blot analysis of SMC1 and STAG2 are shown for luminal and basal&#8208;like breast cancer cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10824</offset>
+      <text>The levels of SMC1A, SMC3, and STAG2 mRNA in breast cancer cell lines. Values were normalized relative to 18S transcript. The data are the average for three independent experiments. Data are presented as the mean &#177; SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11044</offset>
+      <text>The copy number of RAD21 was evaluated using a TaqMan quantitative PCR&#8208;based CNV assay in breast cancer cell lines. Data are presented as averages &#177; SD of biological triplicate independent.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11237</offset>
+      <text>Relative protein levels from the Western blots in Fig 1D were quantified and normalized relative to &#945;&#8208;tubulin. Bars represent the mean &#177; SD from two independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11416</offset>
+      <text>RAD21 mRNA is less stable in mesenchymal cancer cells compared to those in epithelial breast cancer cells. Relative transcript levels of (E) RAD21 and (F) c&#8208;Myc were plotted. Stability of RAD21 mRNA in MCF7 and HCC1143 cells. Cells were treated with 10 &#956;g/ml actinomycin D (Act D) for 0, 3, 6, 9, 12, and 24 h, after which total RNA was extracted. c&#8208;Myc was used as an Act D treatment control. Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11974</offset>
+      <text>Taken together, our results demonstrated that the stability of RAD21 transcripts in mesenchymal breast cancer cell lines was relatively low compared to those in epithelial cancer cell lines, leading to low expression of RAD21 in mesenchymal breast cancer cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12236</offset>
+      <text>Disruption of RAD21 expression in epithelial cancer cells induces transcription of two EMT&#8208;related genes, TGFB1 and ITGA5</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12360</offset>
+      <text>Since we found that RAD21 expression levels correspond to the EMT state (Fig 1A), we investigated whether RAD21 was critical for determining the fate of cellular EMT state in cancer. To accomplish this, we stably knocked down (KD) RAD21 expression using RAD21&#8208;specific shRNA (shR#1 and shR#2) in epithelial breast cancer cells MCF7 and T47D. In addition, to rule out the possibility of breast cancer specific properties, we stably depleted RAD21 using shRNAs in epithelial gastric cancer cells SNU16 and SNU620 (Fig 2A). RAD21 expressions decreased by approximately 75% in all cells used for knockdown of RAD21. A chromosome spread assay showed that the chromosomes in RAD21KD cells appeared to have no defective sister chromatid cohesion during mitosis and meiosis (Fig EV2A). Moreover, the 75% reduction of RAD21 did not appear to affect cell cycle (Fig EV2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13225</offset>
+      <text>Reduction of RAD21 induces TGFB1 and ITGA5 transcription</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13282</offset>
+      <text>qPCR was conducted to measure the expression of RAD21. The indicated cells were stably transduced with control GFP&#8208;shRNA or two different RAD21&#8208;specific shRNA (shR#1 or shR#2, day 30). Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13618</offset>
+      <text>Results of the Western blot analysis for RAD21, E&#8208;cadherin, and VIM in RAD21KD&#8208;MCF7, &#8208;T47D, &#8208;SNU16, and &#8208;SNU620 cells are presented.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13761</offset>
+      <text>qPCR was performed to measure the expression of EMT markers ZEB2, CDH2, ZEB1, FN1, TWIST, and SNAIL2 in RAD21KD&#8208;MCF7 (upper graph) or &#8208;SNU16 cells (lower graph). Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14086</offset>
+      <text>Up&#8208;regulated genes by RAD21KD (shR#1) in MCF7 or SNU16 cells, each of which showed more than a twofold change in RAD21KD cells compared to the shCont.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14239</offset>
+      <text>Induction of TGFB1 and ITGA5 transcription in RAD21KD&#8208;MCF7, &#8208;T47D, &#8208;SNU16, and &#8208;SNU620 cells was evaluated using qPCR. Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14513</offset>
+      <text>Expression of TGFB1 and ITGA5 mRNA normalized to the 18S transcript in luminal and basal&#8208;like breast cancer cell lines, E: epithelial&#8208;like, M: mesenchymal&#8208;like breast cancer cell lines. Data are presented as the mean &#177; SD from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14778</offset>
+      <text>Reduction of RAD21 induces TGFB1 and ITGA5 transcription</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14835</offset>
+      <text>A metaphase chromosome spread was prepared by treatment with nocodazole, a microtubule polymerization inhibitor, at the day 30 after RAD21KD&#8208;MCF7 and &#8208;SNU16 cells, and then, cells were stained with DAPI. The images are representative from n = 20. The total chromosome numbers of the control GFP&#8208;KD or RAD21KD&#8208;MCF7 and &#8208;SNU16 cells populations were counted at the day 30 after three independent viral transductions. Twenty mitotic spreads were evaluated for each sample. Bars represent the mean &#177; SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15346</offset>
+      <text>shCont&#8208;(shCont) or RAD21KD (shR#1)&#8208;MCF7 and &#8208;SNU16 cells were stained with propidium iodide at the day 30 after three independent viral transductions and then subjected to FACS analysis for the cell cycle. The percentage of cells in the subG1, G1, S, and G2/M phases are shown. Data are presented as the mean &#177; SD from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15703</offset>
+      <text>Relative protein levels from the Western blots in Fig 2B were quantified and normalized relative to &#945;&#8208;tubulin. Bars represent the mean &#177; SD from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15884</offset>
+      <text>Transient knockdown (for 48 h) of RAD21 using 20 nM siRNA (siR#2 or siR#4) induced TGFB1 and ITGA5 transcription in SNU16 and MCF7 cells. To confirm the microarray data, we selected two upregulated genes CAV1 and PRLR and then analyzed the gene expression in the siRAD21 transfected cells by qRT&#8211;PCR. Values were normalized relative to 18S transcript. Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16397</offset>
+      <text>mRNA expressions of TGFB1 and ITGA5 were induced by transient knockdown of RAD21 in MCF7 cells in a time&#8208;dependent manner. The samples were harvested at 0, 12, 24, and 48 h after siRNA transfection. Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16745</offset>
+      <text>Interestingly, sufficient knockdown of RAD21 in the cells significantly decreased E&#8208;cadherin levels and simultaneously induced VIM expression (Figs 2B and EV2C). We also evaluated the expression of mesenchymal markers such as ZEB1, ZEB2, N&#8208;cadherin (CDH2), fibronectin (FN), TWIST, and SNAIL2 (Slug) 27 to confirm the induction of EMT by RAD21 depletion in MCF7 and SNU16 cells (Fig 2C). As shown in Fig 2C, the expression of most EMT markers was significantly increased in the RAD21&#8208;knockdown (RAD21KD) cells although the expression of all EMT markers was not simultaneously induced in either types of cells. Based on these results, we investigated whether RAD21 tightly regulated EMT plasticity in cancer cells. To identify the target genes of RAD21 which trigger EMT, we analyzed microarray data by comparing shControl (shCont) and RAD21KD (shR#1) in MCF7 and SNU16 cells (Fig 2D). We found that 439 and 488 genes were up&#8208;regulated (fold change &gt; 2) in RAD21KD&#8208;MCF7 and &#8208;SNU16 cells, respectively (Datasets EV1 and EV2). Next, we applied The Functional Annotation Clustering tool in Database for Annotation, Visualization, and Integrated Discovery (DAVID) (http://david.abcc.ncifcrf.gov) to analyze enriched annotations on the up&#8208;regulated genes. As shown in Tables EV1 and EV2, the functional annotation clustering analysis of each of the 397 and 467 DAVID IDs generated a total of 78 and 92 functional clusters (EASE score &lt; 0.05) using high classification stringency. The significant gene annotations included regulation of cell motion, regulation of cell migration, cell&#8208;substrate junction, and adherens junctions, suggesting that the cell movement and migration processes are the major processes induced by RAD21&#8208;depletion. Among the up&#8208;regulated genes, 29 were commonly increased in both RAD21KD cell lines. Using the functional annotation chart analysis of these genes, we found that the genes, included in the significant gene annotations (P&#8208;value &lt; 0.01), were only 9 genes: TGFB1, ITGA5, CAV1, PRLR, LGALS1, SEMA3C, WLS, FERMT1, and TGFB1I1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18822</offset>
+      <text>TGFB1 is known to be a key regulator of EMT in cancer progression, development, and fibrosis 28, 29. In vitro studies have shown that treating various epithelial cells with TGFB1 initiates EMT 29, 30, and it was reported that TGFB1 cross talks with other pathways that lead to EMT, especially ITGA5 31. ITGA5 encodes the integrin alpha&#8208;5 chain and forms a hetero&#8208;dimeric chain with one of various beta chains to form integrins, which act as receptors and transport environmental signals to cells by binding to the extracellular matrix (ECM) proteins 32. A previous study showed that during the EMT process, ITGA5 expression is induced in transformed epithelial cells 33. Therefore, among the commonly up&#8208;regulated genes, we explored whether the induced TGFB1 and ITGA5 genes led to EMT gene expression signatures in by RAD21KD&#8208;epithelial cells. To confirm the microarray data, we measured the mRNA expression of TGFB1 and ITGA5 in RAD21KD&#8208;MCF7, &#8208;T47D, &#8208;SNU16 and &#8208;SNU620 cells (Fig 2E). Consistent with the microarray data, quantitative real&#8208;time PCR (qPCR) results showed that both TGFB1 and ITGA5 mRNA expression were induced in RAD21&#8208;depleted epithelial cells. We wondered if this result was simply an effect of RAD21 deprivation in epithelial cells or if it was an outcome of long&#8208;term stable RAD21 knockdown using lentiviral&#8208;shRNA vectors. To address this question, we transiently depleted RAD21 mRNA using RAD21&#8208;specific siRNA (20 nM) (Fig EV2D). Although the induction of TGFB1 and ITGA5 expression was more modest compared to stable knockdown of RAD21 (shown in Fig 2E), we observed an increase of TGFB1 and ITGA5 mRNA following transient RAD21 depletion. Furthermore, CAV1 and PRLR, which were up&#8208;regulated in both RAD21KD&#8208;MCF7 and &#8208;SNU16 cells, were induced (Fig EV2D). These results suggested that the expression changes in the microarray data were not due to the long&#8208;term culture of the RAD21KD cells alone. The expression of TGFB1 and ITGA5 was induced along with transcription changes of EMT markers in RAD21KD epithelial cancer cells. These two factors were highly expressed in mesenchymal breast cancer cells compared to epithelial breast cancer cell lines (Fig 2F). Next, to determine which gene was more susceptible or responded more rapidly to RAD21KD, we transiently depleted RAD21 in a time&#8208;dependent manner using 20 nM siRNA (Fig EV2E). ITGA5 transcription was induced in the cells 12 h after transfection and the induced levels lasted for over 48 h. Following the induction of ITGA5 expression, TGFB1 mRNA levels increased only at 48 h after siRAD21 transfection, suggesting that ITGA5 was more sensitive to changes in RAD21 levels than TGFB1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21526</offset>
+      <text>Taken together, our results indicated that RAD21 depletion in epithelial cancer cells leads to a notable induction of EMT marker expression along with increased ITGA5 and TGFB1 transcriptions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21719</offset>
+      <text>Induced TGFB1 and ITGA5 expression leads directly to cellular morphological changes and acquisition of mesenchymal properties in RAD21&#8208;depleted cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21871</offset>
+      <text>As EMT is known to acquire the ability of cell movement, it usually occurs when the cell has undergone morphogenesis 23. As mentioned above, in vitro experiments showed that treating different epithelial cells with TGFB1 promotes the acquisition of a clear fibroblast&#8208;like phenotype characterized by a loss of epithelial traits and gain of mesenchymal features 31. ITGA5 knockdown also conferred an epithelial phenotype 34. This led us to question whether TGFB1 and ITGA5 expression induced by RAD21KD in epithelial cancer cells could cause cellular or morphological conversion into an EMT&#8208;like phenotype with an elongated spindle shape. To address this issue, we first observed changes in RAD21KD cell morphology using a microscope (Figs 3A and EV3A). With RAD21 knockdown, the epithelial&#8208;like MCF7 cells (represented as shCont) acquired a fibroblast&#8208;like appearance (represented as shR#1) that correlated with EMT initiation. We also observed that the induction of VIM and &#946;&#8208;catenin expression occurred along with nuclear accumulation of &#946;&#8208;catenin in RAD21KD cells compared to control cells (Fig 3B and C). According to a recent study that showed TGFB activates canonical Wnt signaling 35, we speculated that the results of this study suggested that the TGFB1 induced by RAD21KD might lead to the accumulation of &#946;&#8208;catenin into the nucleus via the canonical Wnt signaling pathway, accelerating EMT&#8208;related gene activation. Similar to the epithelial and mesenchymal breast cancer cells shown in Fig 1B, reduction of E&#8208;cadherin levels and induction of VIM expression occurred with the transition from an epithelial to mesenchymal morphology in RAD21&#8208;depleted epithelial breast cancer T47D cells (Fig EV3B). Consistent with the transition from an epithelial to mesenchymal morphology, the expression of other EMT&#8208;related molecules, especially those involved in the TGFB1&#8208;related signal pathway including TGFBR1 and TGFBR2 that are overexpressed in subpopulations with CSC features (CD44+) and metastatic tumors 36, 37, along with &#946;&#8208;catenin was significantly induced in RAD21KD cells (Figs 3D and EV3C). During EMT, cancer cells gradually acquire a migration ability to metastasize to other sites 38. To evaluate cell motility in addition to morphological changes, we performed a wound&#8208;healing assay. RAD21KD&#8208;MCF7 cells migrated more rapidly toward the wound sites than control cells (Fig 3E). As mentioned above, it has been proposed that TGFB1 promotes and initiates EMT in cancer cells 29. Additionally, another previous study showed that ITGA5 expression is induced through the TGFB1 intracellular Ca2+ signaling pathway in osteoblasts 39. Contrary to this, others have demonstrated that ITGA5 activates TGFB signaling to initiate EMT 40, 41, 42. Similarly, many studies have argued that TGFB1 and integrins are associated and closely cross talk with each other in cells to modulate cellular metastasis 43, 44. Given these data, we wondered if the TGFB1 and ITGA5 expression induced by RAD21&#8208;depletion directly initiated the EMT process or if the expression of one or both was simply a result of the acquisition of EMT properties via RAD21 depletion in epithelial cancer cells. Therefore, we knocked down either TGFB1 or ITGA5 in RAD21KD epithelial cancer cells with elevated TGFB1 and ITGA5 expression (Fig 3F&#8211;I). Transient knockdown of TGFB1 in RAD21KD&#8208;MCF7 cells with EMT traits showed that the levels of mesenchymal markers, such as VIM, ZEB2, CDH2, and FN1, which were up&#8208;regulated in RAD21KD&#8208;MCF7 cells, were significantly reduced with ITGA5 down&#8208;regulation (Fig 3F), while the epithelial marker CDH1 was unaffected. Although loss of E&#8208;cadherin expression is considered a critical marker of EMT plasticity, some studies have shown that mere depletion of E&#8208;cadherin cannot fully promote EMT, demonstrating that E&#8208;cadherin is not the sole pivotal molecule for EMT initiation 45, 46. Similarly, ITGA5 depletion in RAD21KD&#8208;MCF7 cells notably reduced not only the expression of TGFB1 but also that of other EMT markers (Fig 3G), indicating that TGFB1 and ITGA5 expression promoted by RAD21KD individually and cooperatively affected the expression of each other as well as the EMT process in epithelial cancer cells. These findings suggested that TGFB1 and ITGA5 are mutually regulated by each other rather than TGFB1 expression only being regulated by ITGA5</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26286</offset>
+      <text>Disrupted RAD21 causes morphological changes from epithelial&#8208;like to fibroblast&#8208;like shapes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26382</offset>
+      <text>Imaging of RAD21KD&#8208;MCF7 and &#8208;SNU16 cells to assess cell morphology. Depletion of RAD21 caused a conversion from an epithelial&#8208;like to fibroblast&#8208;like morphology.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26552</offset>
+      <text>Immunofluorescence staining for (B) VIM and (C) &#946;&#8208;catenin in RAD21KD&#8208;SNU16 cells. The indicated cells were immunostained with antibody specific for VIM or &#946;&#8208;catenin, and DAPI. Each image represents three individual experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26788</offset>
+      <text>Western blots for EMT markers TGFBR1, TGFBR2, TGFB1, ITGA5, and &#946;&#8208;catenin in RAD21KD&#8208;MCF7 and &#8208;SNU16 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26903</offset>
+      <text>Stable transfection of RAD21 shRNA in MCF7 cancer cells increased migration capabilities revealed by a wound&#8208;healing assay. Wound size was measured at 0, 24, and 48 h to calculate open wound rate (%). Data are presented as the means &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27266</offset>
+      <text>qPCR was performed to measure the expression of EMT markers VIM, ZEB2, CDH2, ZEB1, and FN1 along with the epithelial marker CDH1 in (F, G) shR#1_MCF7 or (H, I) shR#1_SNU16 cells after transfection with 20 nM negative control, TGFB1 (siTGFB1#3 and siTGFB1#4) or ITGA5 (siITGA5#1 and siITGA5#2) siRNA for 48 h. Values were normalized relative to 18S transcription. Gene expression values in the samples were divided by those in the controls (i.e., each gene in the control is &#8216;1&#8217;). Data are presented as the means &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27910</offset>
+      <text>Disrupted RAD21 expression causes a transition from an epithelial&#8208;like to fibroblast&#8208;like morphology</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28015</offset>
+      <text>Representative imaging (from n = 2) of RAD21KD&#8208;T47D cells. Depletion of RAD21 caused transition from an epithelial&#8208;like to fibroblast&#8208;like morphology (black arrows).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28187</offset>
+      <text>Immunofluorescence staining for E&#8208;cadherin (green) or VIM (green) with RAD21 (red) in RAD21KD&#8208;T47D cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28297</offset>
+      <text>Relative protein levels from the Western blots in Fig 3D were quantified and normalized relative to &#945;&#8208;tubulin. Bars represent the mean &#177; SD from two independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28561</offset>
+      <text>qPCR was performed to measure the expression of EMT markers VIM, ZEB2, CDH2, ZEB1, and FN1 along with the epithelial marker CDH1 in shR#1_MCF7 cells after transfection with 20 nM negative control, TGFB1 (siTGFB1#3) or ITGA5 (siITGA5#2) siRNA for 48 h. Bars represent the mean &#177; SD from three independent experiments. Values were normalized relative to 18S transcription. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28934</offset>
+      <text>Overall, our results demonstrated that the induction of TGFB1 and ITGA5 expression in depleted epithelial cancer cells directly promoted EMT and conferred mesenchymal&#8208;associated traits.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29122</offset>
+      <text>Gene&#8208;specific intrachromosomal architecture in the TGFB1 and ITGA5 genes is dynamically regulated by cohesin</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29233</offset>
+      <text>We next ultimately investigated how RAD21KD significantly induced TGFB1 and ITGA5 expression. To determine whether RAD21 was involved in chromatin organization, we evaluated the physical interactions between RAD21 and the TGFB1 or ITGA5 gene. We also explored the relationship between the levels of RAD21 enrichment and gene transcription using a ChIP assay. For the ChIP assay, we used mesenchymal breast cancer HCC1143 cells, which express high levels of both TGFB1 and ITGA5, and epithelial breast cancer MCF7 cells, in which TGFB1 and ITGA5 are expressed at low levels (Figs 2F and EV4A). RAD21 in the MCF7 cells was strongly enriched on the TGFB1 promoter (indicated by amplicons 5, 6, and 7 of TGFB1) and the far&#8208;upstream region from the ITGA5 gene promoter (indicated by amplicon 6 of ITGA5). In contrast, RAD21 weakly bound to the genes in mesenchymal HCC1143 cells, suggesting that the enrichment of RAD21 on the genes was negatively correlated with gene transcription levels. We also found that the strong binding of RAD21 to both the TGFB1 and ITGA5 genes was significantly reduced with RAD21KD in epithelial MCF7 and SNU16 cells (Fig 4A), implying that the induction of TGFB1 and ITGA5 transcription was inversely correlated with RAD21 enrichment in the genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30508</offset>
+      <text>Chromatin loop structures in the TGFB1 and ITGA5 genes released by RAD21KD facilitates active transcription environment on the genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30641</offset>
+      <text>TGFB1 and ITGA5 loci on chromosome 19q13.2 and chromosome 12q13.13, respectively. Locations of the putative CTCF binding sites and representative amplicon sites used for qPCR are shown with names below. A ChIP assay was performed with HCC1143 or MCF7 cells using antibodies specific for (A) RAD21 or control IgG. A ChIP assay was performed for RAD21KD&#8208;MCF7 or &#8208;SNU16 cells using antibodies specific for (B) Ser2P, (C) H3K9ac, or IgG (as a control). ChIP signals for H3K9ac were normalized to total H3. Enrichment was measured by qPCR, and the results were reported relative to the total input (4%). Results for at least three chromatin preparations are shown &#177; SEM. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31398</offset>
+      <text>Relative cross&#8208;linking frequencies among CTCF/RAD21 binding sites on the genes were measured with a 3C assay in the control GFP&#8208;shRNA (blue line) or RAD21KD (red line)&#8208;MCF7 or &#8208;SNU16 cells on day 30 after lentiviral transduction. (D) BamHI or (E) XbaI restriction sites in the TGFB1 or ITGA5 gene, respectively, appear as gray shaded bars. Black shading indicates the anchor fragment. Each value was normalized to the cross&#8208;linking frequency for the ERCC3 gene. The maximum cross&#8208;linking frequency was set at 1. Data are presented as the mean &#177; SEM (n = 3). *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32055</offset>
+      <text>Released chromatin loop structure in TGFB1 and ITGA5 genes by RAD21KD leads to the enhancement of active transcriptional environment on the gene promoter</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32209</offset>
+      <text>TGFB1 and ITGA5 loci on chromosome 19q13.2 and chromosome 12q13.13, respectively. The location of putative CTCF binding sites and representative amplicon sites used for qPCR is shown with names below. A ChIP assay was performed for RAD21KD&#8208;MCF7 or &#8208;SNU16 cells using antibodies specific for (A) RAD21, (B) Pol II, (C) AcH3, or IgG (as a control). Enrichment was measured by qPCR and expressed relative to the total input (4%). ChIP signals for AcH3 were normalized to total H3. Results for at least three chromatin preparations are shown &#177; SEM. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32845</offset>
+      <text>Relative cross&#8208;linking frequencies among CTCF/RAD21 binding sites on the genes were measured with a 3C assay in the control GFP&#8208;shRNA (blue line) or RAD21KD (red line)&#8208;MCF7 or &#8208;SNU16 cells on day 30 after lentiviral transduction. (D) BamHI or (E) XbaI restriction sites on the TGFB1 or ITGA5 gene, respectively, appear as gray shaded bars. Black shading indicates the anchor fragment. Each value was normalized to cross&#8208;linking frequency at the ERCC3 gene. The maximum cross&#8208;linking frequency was set at 1 (means &#177; SEM, n = 3). *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33472</offset>
+      <text>RAD21, one of the cohesin complex subunits, physically regulates the formation of the chromatin loop structure to control the gene&#8208;specific transcriptional environments 47. Therefore, we speculated that RAD21 on the gene might modulate gene&#8208;specific chromatin architecture to regulate transcriptional activity of the gene. Thus, a chromatin conformation capture (3C) assay for the TGFB1 and ITGA5 genes was performed 48 using RAD21KD&#8208;MCF7 or &#8208;SNU16 cells. Based on the ChIP data showing a high enrichment of RAD21 (Fig 4A), amplicon TGFB1_6 and amplicon ITGA5_6 were selected as the anchors for the TGFB1 and ITGA5 genes, respectively, in RAD21KD&#8208;MCF7 or &#8208;SNU16 cells (Fig 4D and E). The results showed that strong binding of RAD21 formed gene&#8208;specific chromatin interactions within the TGFB1 or ITGA5 gene in shCont&#8208;MCF7 or &#8208;SNU16 cells (blue line, Fig 4D and E). Consistent with the loss of RAD21 binding on the genes due to RAD21KD shown in Fig 4A, we also found that gene&#8208;specific chromatin interactions were disrupted by RAD21KD in both MCF7 and SNU16 cells (red line, Fig 4D and E). Similarly, another anchor (amplicon TGFB1_1 and amplicon ITGA5_1) also formed a chromatin loop structure that was disrupted on the TGFB1 and ITGA5 genes by RAD21KD (Fig EV4D and E). We next determined why the gene&#8208;specific chromatin architecture was related to gene transcription levels. A ChIP assay was performed to analyze four active transcription markers: RNA polymerase II (Pol II), Ser2&#8208;phosphorylated RNA polymerase II (Ser2P), acetyl&#8208;H3 (AcH3), and H3K9ac in shCont&#8208; and RAD21KD&#8208;MCF7 or &#8208;SNU16 cells (Figs 4B and C, and EV4B and C). In both shCont&#8208;MCF7 and &#8208;SNU16 cells, low enrichment of Pol II, Ser2P, AcH3, and H3K9ac was detected on both genes. On the other hand, RAD21KD significantly induced both factors to bind to the promoters of the genes. These findings suggested that the release of gene&#8208;specific intrachromosomal architecture shown in Fig 4D and E might induce enrichment of these active transcriptional marks to the gene promoters, establishing active transcriptional environments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35604</offset>
+      <text>Taken together, our results showed that the gene&#8208;specific chromatin architecture in TGFB1 and ITGA5 affected by RAD21 were closely associated with transcriptional activities. High&#8208;chromatin interactions on the genes indicated low expression of the genes. In contrast, low&#8208;chromatin interaction on the genes signified high expression (Fig 4D and E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35959</offset>
+      <text>Cancer stem&#8208;like breast cancer cells show a released higher&#8208;order chromatin structure of TGFB1&#8208; and ITGA5&#8208;mediated by RAD21, which correlated to the high transcriptional expressions and mesenchymal property</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36174</offset>
+      <text>Since it has been reported that most types of tumor overexpress RAD21 49, 50, 51, we speculated that only small population of tumor burdens with a low expression of RAD21 might be responsible for cancer metastasis to a second metastatic site. To verify this, we analyzed transcript expression data obtained from The Cancer Genome Atlas (TCGA). A total of 80 breast tumor tissues and matched normal samples, including all subtypes, were analyzed to measure the transcript levels of RAD21, CDH1, VIM, TGFB1, ITGA5, ZEB1/2, and SNAI1/2 (Fig EV5A). The results revealed that the RAD21 mRNA levels in the tumor samples were higher than those in normal cells although we could not assess the protein expression levels. Moreover, the tumor samples showed obvious epithelial traits, consistent with our data showing the relationship between RAD21 expression and the EMT (Fig EV5A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37048</offset>
+      <text>Expression levels of EMT&#8208;related genes vary in breast cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37117</offset>
+      <text>RNA expression in TCGA human breast cancer cells was analyzed based on data from the TCGA Genome Data Analysis Center. Data for mRNA expression were available for 100 human breast tumors. Levels of RAD21, CDH1, VIM, TGFB1, ITGA5, ZEB1, ZEB2, CTNNB1, SNAI1, and SNAI2 mRNA expression in the tumors were compared to the corresponding normal tissues. Boxplots show fold change of the mRNA levels in tumor samples compared to the normal tissues. Lines in the boxes represent the median level.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37606</offset>
+      <text>Relative transcription levels of (B) RAD21 and (C) c&#8208;Myc were plotted. Stability of RAD21 mRNA in MDA&#8208;MB&#8208;453 parental cells (453 P) and corresponding CSLCs (453 CSC). The cells were treated with 10 &#956;g/ml actinomycin D for 0, 3, 6, 9, 12, and 24 h after which total RNA was extracted. c&#8208;Myc was used as a control. Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38087</offset>
+      <text>The relative mRNA expression levels of EMT&#8208;related genes in RAD21&#8208;overexpressing MDA&#8208;MB&#8208;453 CSLC cells were quantified and normalized by 18S transcript. Empty vector&#8208;expressing MDA&#8208;MB&#8208;CSLC control cells are indicated by P; RAD21&#8208;expressing MDA&#8208;MB&#8208;231 cells are indicated by R. The data shown are the mean &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38540</offset>
+      <text>Western blots for RAD21 in RAD21&#8208;overexpressing MDA&#8208;MB&#8208;453 CSLC cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38617</offset>
+      <text>A ChIP assay was performed for RAD21&#8208;overexpressing MDA&#8208;MB&#8208;453 CSLC (RAD21) and the empty vector&#8208;expressing cells (mock) using antibodies specific for RAD21 and H3K9ac, or IgG (as a control). Enrichment was measured by qPCR and expressed relative to the total input (4%). ChIP signals for H3K9ac were normalized to total H3. Results for at least three chromatin preparations are shown &#177; SEM. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39104</offset>
+      <text>Relative cross&#8208;linking frequencies among CTCF/RAD21 binding sites on the genes were measured with a 3C assay in the control (P: blue line) or RAD21&#8208;overexpressing (R: red line) MDA&#8208;MB&#8208;453 CSLC cells on day 10 after lentiviral transduction. BamHI or XbaI restriction sites on the TGFB1 or ITGA5 gene, respectively, appear as gray shaded bars. Black shading indicates the anchor fragment. Each value was normalized to cross&#8208;linking frequency at the ERCC3 gene. The maximum cross&#8208;linking frequency was set at 1 (mean &#177; SEM, n = 3). *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39732</offset>
+      <text>In contradiction of our hypothesis, relatively high levels of TGFB1 mRNA expression were observed in the tumor samples relative to normal samples. Even though it is known that TGFB has multiple functions, it primarily acts as a tumor suppressor via anti&#8208;proliferative activity in normal cells. Furthermore, this factor contributes to the differentiation, proliferation, and migration of aggressive tumor cells 52, 53. These findings suggested that the high levels of TGFB1 expression in tumors with high RAD21 expression, independent from transcriptional up&#8208;regulation caused by reduced RAD21 involved in tumor metastasis, might be due to a proliferative effect of TGFB1 on tumor cells. This was supported by an absence of significant changes in ITGA5 mRNA levels when comparing normal and tumor samples (P = 0.7468) (Fig EV5A). Since primary tumors are composed of heterogeneous tumor cells, there might be certain cells with initial migratory properties. However, we could not easily detect this type of population due to their small portion like cancer stem cells (CSCs).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40811</offset>
+      <text>To understand this, we expanded our model to include CSCs since EMT has been shown to be highly linked to CSC 23, 37, 54. While traditional models of tumor initiation suggest that cancer cells arise from environmental factors or genetic alterations, then gradually acquire aggressive properties, the CSC hypothesis argues that cancer development is attributed to CSCs which consist of a small population of heterogeneous tumors that can be responsible for tumor proliferation and initiation 55. The most important feature of CSCs has been reported to be the characteristics of EMTs that allow cell dissemination, invasion, and migration.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41449</offset>
+      <text>Therefore, we used MDA&#8208;MB&#8208;453 breast cancer cell derived cancer stem&#8208;like cells (CSLCs) 56, 57 positive for CD44/CD133/CD147 expression, which are well&#8208;known markers of CSCs. Consistent with previous studies 23, 56, 58, high levels of mesenchymal&#8208;related genes including ZEB2, FN1, TWIST, VIM, TGFBR1, TGFBR2, and &#946;&#8208;catenin were observed in the CSLCs, indicating that these cells had significant mesenchymal properties (Fig 5A and B). However, we unexpectedly discovered high levels of E&#8208;cadherin in the CSLCs (Fig 5A and B), suggesting that it can serve as an evidence that E&#8208;cadherin alone is not sufficient for EMT initiation, and that CSCs have partial EMT properties. To study whether CSLC cells had mesenchymal properties such as the migration ability, we performed a transwell assay. As shown in Fig 5C, when compared with the parental MDA&#8208;MB&#8208;453 cells, the CSLC cells showed significantly higher migration ability.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42393</offset>
+      <text>RAD21 is responsible for metastatic characteristics in CSLCs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42454</offset>
+      <text>RAD21 and EMT&#8208;related molecules in parent MDA&#8208;MB&#8208;453 breast cancer cells (P) and the corresponding CSLCs (indicated by CSC or CSLC) sorted according to the CD44+ cancer stem cell markers were observed by (A) qPCR and (B) Western blot analysis. Data are presented as the mean &#177; SD from three independent experiments. *P &lt; 0.01. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42851</offset>
+      <text>Cell migration assay of MDA&#8208;MB&#8208;453 parental and CSCL cells using Transwell chamber without Matrigel. Graphs indicate the average number of cells per field. Bars represent the mean &#177; SD for three independent experiments. *P &lt; 0.01. Statistical significance was validated by Student's t&#8208;tests. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43151</offset>
+      <text>Relative cross&#8208;linking frequencies among CTCF/RAD21 binding sites on the genes were measured with a 3C assay in the parental cells (blue line) or CSLCs (red line). BamHI or XbaI restriction sites on the TGFB1 or ITGA5 gene, respectively, appear as gray shaded bars. Black shading indicates the anchor fragment. Each value was normalized to the cross&#8208;linking frequency at the ERCC3 gene. The maximum cross&#8208;linking frequency was set at 1 (mean &#177; SEM, n = 3). *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43701</offset>
+      <text>A ChIP assay was performed for the CSLCs (red bar) or parental cells (blue bar) using antibodies specific for RAD21, AcH3, Pol II, or IgG (as a control). Enrichment was measured by qPCR and reported relative to the total input (4%). ChIP signals for AcH3 were normalized to total H3. Results for at least three chromatin preparations are shown &#177; SEM. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44139</offset>
+      <text>We next checked and compared the levels of RAD21 expression between MDM&#8208;MB&#8208;453 CSLCs and the parental cells. As shown in Fig 5A and B, the expression of both RAD21 mRNA and protein in the CSLCs was reduced to less than 1.5&#8208;fold compared to the levels found in the parental cells. Although the mRNA levels of RAD21 per se were lower in the CSLCs compared to the parental cells, which was unlike the patterns of mRNA expressions found in mesenchymal and epithelial breast cancer cell lines (Fig 1C), the mRNA in the CSLCs was relatively unstable compared to that in the parental cells. These findings (Fig EV5B and C) were consistent with the results presented in Figs 1D and EV1E. In addition to a low level of RAD21 expression, we also observed high expression of TGFB1 and ITGA5 mRNA in the CSLCs, corresponding to results for the RAD21KD cells. To determine whether high levels of TGFB1 and ITGA5 expression found in the CSLCs formed its chromatin architecture as in RAD21KD epithelial cells (Fig 4D and E), we conducted a 3C assay using the CSLCs and parental cells (Fig 5D). In CSLCs with high expression of TGFB1 and ITGA5, lower interaction frequencies were observed within both the TGFB1 and ITGA5 genes compared to those in the parental cells. To determine whether the gene&#8208;specific chromatin architectures were directly mediated by RAD21 and regulated gene transcription, we assessed the enrichment of RAD21, AcH3, and Pol II on the genes using a ChIP assay (Fig 5E). Consistent with the 3C data, RAD21 binding on the genes was lower in the CSLCs than the parental cells. Conversely, the markers corresponding to transcriptional activity, AcH3 and Pol II were notably enriched on the promoter of the genes, consistent with gene transcription levels, indicating that the CSLCs might also be regulated and maintained by TGFB1 and ITGA5 gene&#8208;specific intrachromosomal interactions. The loose chromatin loop structures in each gene easily recruit transcription factors and enhance the enrichment of active histone marks on the gene promoter to activate gene transcriptions like RAD21KD epithelial cancer cells. Collectively, these results strongly support our hypothesis that cohesin&#8208;mediated three&#8208;dimensional chromatin structures are responsible for regulating and maintaining EMT plasticity in a small population of tumors or cancer stem cell model by controlling transcriptional activities of EMT&#8208;related genes associated with metastasis, thereby conferring migratory and invasive properties.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46657</offset>
+      <text>Overexpression of RAD21 in mesenchymal breast cancer cells reduces TGFB1 and ITGA5 expression, concomitant with enhancement of intrachromosomal interaction on the gene</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46825</offset>
+      <text>To confirm the function of RAD21 on the transcriptional regulation of TGFB1 and ITGA5 through modulating the transcriptionally repressive gene&#8208;specific chromatin architecture in epithelial cancer cells, we overexpressed RAD21 in MDA&#8208;MB&#8208;231 mesenchymal breast cancer cells and MDA&#8208;MB&#8208;453 CSLC cells with a low level of RAD21 expression (Figs 6A&#8211;D and EV5D&#8211;F, respectively). Although the transient overexpression of RAD21 did not appear to be sufficient in MDA&#8208;MB&#8208;231 and CSLC cells, we clearly found that the overexpressed RAD21 in mesenchymal cancer cells reduced TGFB1 and ITGA5 gene transcriptions (Figs 6A and B). Furthermore, most of the EMT markers that were induced in the RAD21KD&#8208;epithelial cells, such as VIM, ZEB1, and SNAI2, were decreased following RAD21 overexpression. These gene expression changes induced by RAD21 overexpression also led to the induction of a direct RAD21 molecule binding and the decreased Pol II and H3K9ac on the TGFB1 and ITGA5 genes (Figs 6C and EV5F). Using a 3C assay, we determined that the induction of RAD21 binding on each TGFB1 and ITGA5 genes enhanced the intrachromosomal interaction in each genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>47990</offset>
+      <text>RAD21 overexpression in MDA&#8208;MB&#8208;231 mesenchymal cancer cells decreases TGFB1 and ITGA5 expression with enhanced intrachromosomal interactions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48135</offset>
+      <text>The relative mRNA expression levels of EMT&#8208;related genes in RAD21&#8208;overexpressing MDA&#8208;MB&#8208;231 cells were quantified and normalized by 18S transcript. Empty vector&#8208;expressing MDA&#8208;MB&#8208;231 control cells are indicated by 231_P; RAD21&#8208;expressing MDA&#8208;MB&#8208;231 cells are indicated by 231_R. The data shown are the mean &#177; SD from three independent experiments. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48590</offset>
+      <text>Western blots for RAD21 in RAD21&#8208;overexpressing MDA&#8208;MB&#8208;231 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48662</offset>
+      <text>A ChIP assay was performed for RAD21&#8208;overexpressing MDA&#8208;MB&#8208;231 and the empty vector&#8208;expressing cells using antibodies specific for RAD21, Pol II, and H3K9ac, or IgG (as a control). Enrichment was measured by qPCR and expressed relative to the total input (4%). ChIP signals for H3K9ac were normalized to total H3. Results for at least three chromatin preparations are shown &#177; SEM. *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49138</offset>
+      <text>Relative cross&#8208;linking frequencies among CTCF/RAD21 binding sites on the genes were measured with a 3C assay in the control (blue line) or RAD21&#8208;overexpressing (red line) MDA&#8208;MB&#8208;231 cells on day 10 after lentiviral transduction. BamHI or XbaI restriction sites on the TGFB1 or ITGA5 gene, respectively, appear as gray shaded bars. Black shading indicates the anchor fragment. Each value was normalized to cross&#8208;linking frequency at the ERCC3 gene. The maximum cross&#8208;linking frequency was set at 1 (means &#177; SEM, n = 3). *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49756</offset>
+      <text>A proposed model of cohesin&#8208;mediated dynamic chromatin architecture of the TGFB1 and ITGA5 genes associated with EMT plasticity. Tumor cells that have undergone EMT are characterized by proposed chromatin architectures. In epithelial cancer cells, cohesin tightly mediates distant intrachromosomal interactions in the TGFB1 and ITGA5 genes. When RAD21 mRNA stability is lost, RAD21 bound on the genes is reduced and intrachromosomal interactions in the genes are released, causing active recruitment of the transcriptional complex to the gene promoters. This enhances gene transcription and the cells acquire mesenchymal properties such as enhanced mobility and morphological changes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50443</offset>
+      <text>Taken together, these results suggest that TGFB1 and ITGA5 gene transcription in cancer cells might depend on its three&#8208;dimensional chromatin structure mediated by cohesin complex, playing a crucial role in the epithelial to mesenchymal transition and mesenchymal to epithelial transition.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50735</offset>
+      <text>During tumorigenesis, individual tumor cells responsible for metastasis might accurately regulate the transcriptional activity of upstream EMT&#8208;related genes such as TGFB1 and ITGA5, which are thought to be responsible for EMT initiation, through dynamic changes in higher&#8208;order chromatin loop structures mediated by the cohesin complex (Fig 6E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>51085</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51096</offset>
+      <text>In the current study, we addressed the role of the cohesin complex in the dynamic transition of epithelial to mesenchymal cancer cells by altering distinct chromatin interactions of TGFB1 and ITGA5 genes and inducing their transcriptional activities. These two factors are considered upstream molecules that influence the EMT in epithelial cancer cells and CSCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51459</offset>
+      <text>We analyzed transcript expression data for primary breast tumor and normal tissue samples from the TCGA database. Interestingly, higher expression of RAD21 was observed in the tumor tissues than the normal samples. Since primary samples or samples of the so&#8208;called metastatic tumor obtained by biopsy are already differentiated and have lost mesenchymal properties 4, 59, and the tumor samples might have a high level of RAD21 expression similar to epithelial cancer cell lines. This suggests that only a small proportion of tumors or CSCs might play an important role in metastasis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52045</offset>
+      <text>Differences in RAD21 expression between cells with epithelial or mesenchymal traits were due to variations in mRNA stability. However, we could not determine how the stability of RAD21 mRNA is regulated or the stage of tumorigenesis and mechanisms associated with the loss of mRNA stability. Therefore, further study is required to understand the underlying mechanisms that govern dynamic RAD21 during tumorigenesis. However, we can propose that chromatin dynamics mediated by the higher&#8208;order chromatin structural molecule cohesin actively confer epithelial or mesenchymal properties depending on the surrounding environment or cell fate. Interestingly, we observed significant induction of TGFB1 and ITGA5 expression immediately after RAD21 knockdown in MCF7 and SNU16 cells (Fig EV2E). TGF&#8208;&#946; is known to be a potent inducer of EMT in mammary cells that increases stem&#8208;like properties in human breast cancer cells 37, 60. ITGA5 is expressed during tumor development and has been implicated in EMT induction. This may explain why highly invasive cancer cells have higher levels of ITGA5 and overexpression of this factor increases the metastatic capacity 61, 62. Based on the data shown in Fig 3F and G, we postulated that either TGFB1 or ITGA5 expression induced by RAD21 depletion might directly result in the induction of mesenchymal&#8208;related genes, most of which are well&#8208;known repressors of CDH1, but not the epithelial&#8208;related gene CDH1 itself. Up&#8208;regulation of these genes clearly led to a morphological transition from epithelial to mesenchymal phenotypes and provided the cells with motility and invasive capabilities (Fig 3). Interestingly, we observed a relatively high level of E&#8208;cadherin in MDA&#8208;MB&#8208;453&#8208;derived CSLCs compared to the parental cells (Fig 5B). As previously mentioned, this finding suggests that E&#8208;cadherin may not be the sole molecule responsible for EMT initiation without orchestrating regulations or changes in other EMT&#8208;related factors or MDA&#8208;MB&#8208;453 derived CSLCs may not be completely transformed into mesenchymal and invasive cells. These results also suggest that changes in mesenchymal&#8208;related gene expressions are more susceptible to alterations in the expression of upstream factors for EMT initiation (such as TGFB1 and ITGA5) than epithelial&#8208;related genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54376</offset>
+      <text>We demonstrated that the expression of TGFB1 and ITGA5 closely relies on the gene&#8208;specific three&#8208;dimensional chromatin structure mediated by cohesin (Figs 4D and E, and EV4D and E). Not surprisingly, enrichment of RAD21 on the genes affected the formation of gene&#8208;specific chromatin loop structures. While strong binding of RAD21 on the gene forms strong chromatin interactions within the genes, low enrichment of RAD21 leads to a loss of the interactions. Interestingly, gene&#8208;specific chromatin interactions in CSLCs were very weak compared to those in the parental cells, despite the persistent RAD21 expression in the CSCLs (Fig 5D). This significant difference in the chromatin interaction for TGFB1 and ITGA5 between CSLCs and the parental cells largely affected expression of the genes, suggesting that transcriptions related to the EMT gene may be dependent on chromatin interactions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55276</offset>
+      <text>According to recent studies, cohesin can bind to enhancer of genes, thereby stabilizing long&#8208;range enhancer&#8211;promoter interactions 63, 64. Moreover, it binds to insulator of genes to prevent the spread of repressive transcription from near the transcriptional environment. Similarly, many other studies have shown that the major role of cohesin in chromatin architecture for gene transcriptional regulation is to activate the gene transcription (e.g., &#946;&#8208;globin, interferon &#947; locus, and H19&#8208;IGF2). However, other studies have shown that the perturbation of cohesin complex causes up&#8208;regulation of gene transcriptions 47. Consistent with our results, several studies have shown that knockdown of RAD21 leads to significant recruitment of Ser2&#8208;Pol2, causing the activation of gene transcription 65. Taken together, these findings demonstrate that inactivated TGFB1 and ITGA5 genes are maintained by the cohesin&#8208;mediated chromatin loop structure in epithelial cells, and release of the chromatin interactions by a loss of cohesin complex binding results in the genes becoming transcriptionally activated via active recruitment of transcriptional machineries to the gene promoter and formation of an active transcriptional environment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56522</offset>
+      <text>Based on this view, depending on where the chromatin interactions are formed, chromatin loop structures are categorized into five distinct patterns with transcriptional activity (Pol II) and several histone modification signatures 66. One of these patterns features chromatin signatures of active characteristics with enrichment of Pol II, H3K4me1, H3K36me3, or AcH3, and depleted repressive markers such as H3K9, and H3K27 methylation inside the loops. Conversely, another pattern features chromatin loops with extensive methylation of H3K9 and H3K27 but loss of active markers within. As shown in Figs 4B and C, and EV4B and C, gene&#8208;specific chromatin interactions between the gene promoter and the intragenic (TGFB1) or upstream region (ITGA5) in epithelial cancer cells appears to inhibit or disturb the recruitment of transcriptional factors such as Pol II, Ser2P, AcH3, and H3K9ac, thereby preventing transcription. Consistent with the transcription levels shown in Fig 4, transcriptional activities inside the loops were significantly reduced when gene&#8208;specific chromatin interactions were released by insufficient RAD21 for chromatin interaction in epithelial cancer cells such as MCF7 and SNU16. In addition to epithelial breast and gastric cancer cell lines, weak binding of Pol II and AcH3 to the gene promoters that disrupted chromatin interactions was observed in CSLCs with low RAD21 expression compared to the parental cells (Fig 5D and E). Interestingly, strong binding of Pol II on the 3&#8242; end of TGFB1 was observed in MDA&#8208;MB&#8208;453&#8208;derived CSLCs, unlike MCF7 and SNU16 cells (Fig 5E compared to Fig 4B). We postulated that there might be unknown non&#8208;coding RNA or cis&#8208;regulatory sequences in these cells 67.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58260</offset>
+      <text>Finally, we used primary tumor data and cancer stem&#8208;like cells to clarify the clinical implications of our study. As described above, we obtained results showing that the complete primary tumor samples had epithelial properties rather than mesenchymal traits. These findings suggest that MET had already occurred in most of the population. Due to difficulties with isolating and detecting very small populations possessing mesenchymal traits or CSCs from tumors 1, 7, we obtained CSLCs derived from the breast cancer MDA&#8208;MB&#8208;453 cell line 56, 57. Using the CSLC model, we were able to obtain the same results acquired with breast cancer cell lines with mesenchymal properties (MDA&#8208;MB&#8208;231, HCC1143, and MDA&#8208;MB&#8208;157) and RAD21 depleted epithelial cancer cells (RAD21KD&#8208;MCF7, &#8208;T47D, &#8208;SNU16, and &#8208;SNU620 cells).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59088</offset>
+      <text>Given our results and the fact that recent studies showed that CSCs were re&#8208;generated from non&#8208;CSCs by the induction of EMT systems 23, 68, we speculated that the CSCs might use the same biological mechanisms as EMT properties to metastasize or migrate that are regulated by the dynamic changes in cohesin&#8208;mediated chromatin interaction of EMT&#8208;related genes, although these have been known not to be genetically and epigenetically identical.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59538</offset>
+      <text>The present study supports the theory that a specific subpopulation of cancer cells is responsible for tumor metastasis, similar to the cancer stem cell hypothesis. An important point we can suggest based on our study in this regard is that inhibiting overexpression of the cohesin complex in most aggressive tumors should be carefully considered to avoid metastasis caused by the release of three&#8208;dimensional chromatin loop structures in the TGFB1 and ITGA5 genes due to insufficient cohesin complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60044</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60066</offset>
+      <text>Cell culture, virus production, and transduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60115</offset>
+      <text>Control and RAD21&#8208;directed TRC lentiviral shRNAs were purchased from Open Biosystems. MDA&#8208;MB453 CSLC cells were obtained from the University of Pittsburgh Medical Center 56, 57. Lentiviruses were produced by transducing 293FT cells with shRNA using a ViraPower Packaging Mix (Invitrogen) as previously described 69. The following steps were previously described 70. To generate a stable knocked&#8208;down clone, several single colonies were isolated and independently expanded in the presence of puromycin as previously described 19, 20</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60653</offset>
+      <text>Overexpression of RAD21</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60677</offset>
+      <text>293FT cells were transfected with the Human Lenti&#8208;RAD21&#8208;C&#8208;mGFP (RC208262L2, purchased from Origene) vector with a ViraPower Packaging Mix (Invitrogen). The viruses were harvested from the media on day 3 by centrifugation. Stable cell lines were generated using G418 (1 mg/ml) as a positive selection marker.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60991</offset>
+      <text>mRNA stability assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61012</offset>
+      <text>Cells were treated with 10 &#956;g/ml actinomycin D (mRNA decay) and harvested at indicated time points (0, 3, 6, 9, 12, and 24 h). Total RNA was isolated by Trizol and DNase treated for the analysis of RAD21 and c&#8208;Myc mRNA levels. Changes in RAD21 or c&#8208;Myc mRNA levels were determined by the &#916;&#916;Ct method using 18S rRNAs for internal cross&#8208;normalization.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61371</offset>
+      <text>Immunofluorescence analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61399</offset>
+      <text>Cells expressing control and RAD21 (R#1) shRNAs were seeded on 0.01% poly&#8208;L&#8208;lysine (Sigma&#8208;Aldrich)&#8208;coated coverslips. The next day, coverslips were rinsed once in PBS (37&#176;C), fixed in 4% formaldehyde for 15 min, permeabilized with 0.5% Triton X&#8208;100 for 5 min, and then incubated with primary antibody for 1 h at RT. The primary antibodies used in this study were mouse polyclonal anti&#8208;E&#8208;cadherin, anti&#8208;vimentin, anti&#8208;&#946;&#8208;catenin, and anti&#8208;RAD21 (SC&#8208;8426, SC&#8208;6260, SC&#8208;7963 from Santa Cruz Biotechnology, and ab992 from Millipore, respectively) at a dilution of 1:50. The coverslips were rinsed three times with PBS and then incubated with the appropriate fluorophore&#8208;conjugated secondary antibody (Invitrogen) for 1 h at RT. The cells were subsequently counterstained with 4&#8242;,6&#8208;diamidino&#8208;2&#8208;phenylindole (DAPI, 300 nmol/l; Invitrogen), and the coverslips were mounted on slides using Faramount aqueous mounting medium (DAKO).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62361</offset>
+      <text>Affymetrix Whole Transcript Expression Arrays, functional annotation cluster, and data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62457</offset>
+      <text>Total RNA was extracted from MCF7 or SNU16 cells expressing Control and RAD21 (R#1) shRNAs (Day 30) using an RNeasy Mini Kit (Qiagen, Valencia, CA, USA) in accordance with the manufacturer's instructions. The Affymetrix Whole Transcript Expression Array process was executed according to the manufacturer's protocol (GeneChip Whole Transcript PLUS Reagent Kit). cDNA was synthesized using the GeneChip WT (Whole Transcript) Amplification kit in accordance with the manufacturer's instructions. The sense cDNA was then fragmented and biotin&#8208;labeled with TdT (terminal deoxynucleotidyl transferase) using the GeneChip WT Terminal labeling Kit. Approximately 5.5 &#956;g of labeled DNA target was hybridized to the Affymetrix GeneChip Human 2.0 ST Array at 45&#176;C for 16 h. Hybridized arrays were then washed and stained on a GeneChip Fluidics Station 450 and scanned on a GCS3000 Scanner (Affymetrix). Signal values were computed using the Affymetrix&#174; GeneChip&#8482; Command Console software. These expression data have been deposited in the Gene Expression Omnibus (GEO) database under accession number GSE82049. To select candidate genes that may contribute to the epithelial to mesenchymal transition in cancer, the genes up&#8208;regulated by RAD21&#8208;depletion were listed (&gt; twofold change) and the gene sets obtained from Cont&#8208; vs RAD21KD&#8208;MCF7 cells were compared to those from Cont&#8208; vs RAD21KD&#8208;SNU16 cells. The Gene Ontology (GO) terms of molecular function (MF), cellular component (CC), and biological process (BP) in DAVID (http://david.abcc.ncifcrf.gov/) were used for annotations.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64047</offset>
+      <text>Chromatin immunoprecipitation (ChIP) assay and quantitative real&#8208;time PCR (qPCR)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64130</offset>
+      <text>ChIP assays and qPCR were performed as previously described 69, 71. The PCR primers used for the ChIP and qPCR assays are presented in Dataset EV3.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64278</offset>
+      <text>Chromosome conformation capture (3C) assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64321</offset>
+      <text>A 3C assay was conducted as previously described 48, 69, 72 with minor modification 70. The cross&#8208;linked chromatin was digested with 1,000 U of BamHI or XbaI (NEB) at 37&#176;C overnight followed by ligation with 2,000 U of T4 DNA ligase (NEB) at 16&#176;C for 4 h. To generate control templates for the positive controls, equimolar amounts of the BAC clones (RP11&#8208;638N16 for TGFB1 and CTD&#8208;2566N5 for ITGA5) were digested with 200 U of BamHI or XbaI at 37&#176;C overnight as previously described 73. Cross&#8208;linking frequency and ligation efficiencies between different samples were normalized relative to the ligation frequency of two adjacent BamHI or XbaI fragments in the excision repair cross&#8208;complementing rodent repair deficiency, complementation group 3 (ERCC3) gene 74. We tested ERCC3 as a control gene that is ubiquitously expressed in various cells and formed in the gene&#8208;specific three&#8208;dimensional chromatin structure. The PCR primers used for the 3C assay are noted in Dataset EV3.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65318</offset>
+      <text>Wound&#8208;healing assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65340</offset>
+      <text>Cells were seeded at a high density on 60&#8208;mm culture dishes. Twelve hours later, the wounds were made by scraping through the cell monolayer with a pipette tip. After washing with PBS, the cells were incubated in growth medium and observed at 0, 24, and 48 h under a microscope. The wound closure was estimated as the ratio of the reaming wound area relative to the initial wounded area 75.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65733</offset>
+      <text>Trans&#8208;well migration assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65762</offset>
+      <text>The ability of cells to migrate was measured in 24&#8208;well Transwell plates equipped with polycarbonate filters (8 &#956;m pore size, Corning, NY, USA). Before the seeding, cells were starved for 24 h in serum&#8208;free medium. Next, 1 &#215; 105 cells were plated on the top chamber of the transwell filter, while 15% FBS medium was added to the lower chamber. Following incubation for 48 h, the cells on the lower chamber were stained using Crystal Violet (Sigma&#8208;Aldrich, USA) and counted using a microscope in ten randomly selected fields. Experiments were repeated independently three times.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66348</offset>
+      <text>CNV assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66358</offset>
+      <text>A CNV assay was performed as previously described 70. Each assay was run as a TaqMan real&#8208;time PCR in triplicate, using an FAM dye&#8208;based assay targeted to 8q24 (RAD21) and a VIC dye&#8208;based assay for the reference gene, RNase P (PN 4316844 from Applied Biosystems).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66628</offset>
+      <text>Antibodies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66639</offset>
+      <text>Antibodies specific for the following factors were used in this study: E&#8208;cadherin (SC&#8208;8426), vimentin (SC&#8208;6260), &#946;&#8208;catenin (SC&#8208;7963), normal rabbit IgG (SC&#8208;2027), TGFBR (SC&#8208;399), TGFBR (SC&#8208;1700), and RNA Pol II (SC&#8208;899) from Santa Cruz Biotechnology; RAD21 (ab992), Ser2P (ab5095), and H3 (ab1791) from AbCam; anti&#8208;AcH3 (#06&#8208;599) and H3K9ac (#06&#8208;942) from Millipore; and &#945;&#8208;tubulin (T1568) from Sigma. Anti&#8208;ITGA5 antibody (BD51&#8208;9001996) was purchased from BD Bioscience.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67141</offset>
+      <text>Statistical analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67162</offset>
+      <text>Statistical tests were applied as indicated in figure legends. Asterisks are as follows: *P &lt; 0.01, **P &lt; 0.05. Statistical significance was validated by Student's t&#8208;tests with Sigma Plot software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>67362</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67383</offset>
+      <text>JY performed all experiments. SHS, SWH, HPK, and ECY advised on most experiments. JY, SHS, and TYK designed experiments, analyzed data, and wrote the manuscript. All authors discussed results and commented on the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>67608</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67629</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>67689</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>67712</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">331</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1564</infon>
+      <infon key="pub-id_pmid">21436443</infon>
+      <infon key="fpage">1559</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>67723</offset>
+      <text>A perspective on cancer cell metastasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Cancer Metastasis Rev</infon>
+      <infon key="lpage">478</infon>
+      <infon key="pub-id_pmid">22729277</infon>
+      <infon key="fpage">469</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>67763</offset>
+      <text>Mesenchymal&#8208;epithelial transition (MET) as a mechanism for metastatic colonisation in breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">352</infon>
+      <infon key="pub-id_pmid">17440531</infon>
+      <infon key="fpage">341</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>67865</offset>
+      <text>Genetic determinants of cancer metastasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">J Clin Investig</infon>
+      <infon key="lpage">1428</infon>
+      <infon key="pub-id_pmid">19487818</infon>
+      <infon key="fpage">1420</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>67907</offset>
+      <text>The basics of epithelial&#8208;mesenchymal transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Carcinogenesis</infon>
+      <infon key="lpage">503</infon>
+      <infon key="pub-id_pmid">10688870</infon>
+      <infon key="fpage">497</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>67957</offset>
+      <text>Tumor progression and metastasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">376</infon>
+      <infon key="pub-id_pmid">21740232</infon>
+      <infon key="fpage">347</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>67990</offset>
+      <text>The ins and outs of the epithelial to mesenchymal transition in health and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">344</infon>
+      <infon key="pub-id_pmid">23548926</infon>
+      <infon key="fpage">338</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68073</offset>
+      <text>Cancer stem cells: the challenges ahead</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">701</infon>
+      <infon key="pub-id_pmid">23238008</infon>
+      <infon key="fpage">699</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>68113</offset>
+      <text>EMT and MET in metastasis: where are the cancer stem cells?</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol Clin Oncol</infon>
+      <infon key="lpage">11</infon>
+      <infon key="pub-id_pmid">24649114</infon>
+      <infon key="fpage">3</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68173</offset>
+      <text>Epigenetic control of epithelial&#8208;mesenchymal&#8208;transition in human cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">110</infon>
+      <infon key="pub-id_pmid">23344542</infon>
+      <infon key="fpage">97</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68249</offset>
+      <text>Regulatory networks defining EMT during cancer initiation and progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">1689</infon>
+      <infon key="pub-id_pmid">24360956</infon>
+      <infon key="fpage">1679</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68323</offset>
+      <text>Dynamic chromatin modification sustains epithelial&#8208;mesenchymal transition following inducible expression of Snail&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">24367927</infon>
+      <infon key="fpage">R144</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68443</offset>
+      <text>Architecture of epigenetic reprogramming following Twist1&#8208;mediated epithelial&#8208;mesenchymal transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="source">Br J Cancer</infon>
+      <infon key="lpage">671</infon>
+      <infon key="pub-id_pmid">16495925</infon>
+      <infon key="fpage">661</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>68548</offset>
+      <text>E&#8208;cadherin transcriptional downregulation by promoter methylation but not mutation is related to epithelial&#8208;to&#8208;mesenchymal transition in breast cancer cell lines</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24018975</infon>
+      <infon key="fpage">2427</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68716</offset>
+      <text>Tumour angiogenesis regulation by the miR&#8208;200 family</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2354</infon>
+      <infon key="pub-id_pmid">16951251</infon>
+      <infon key="fpage">2349</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>68771</offset>
+      <text>CTCF mediates long&#8208;range chromatin looping and local histone modification in the beta&#8208;globin locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3656</infon>
+      <infon key="pub-id_pmid">20133600</infon>
+      <infon key="fpage">3651</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>68874</offset>
+      <text>Cell type specificity of chromatin organization mediated by CTCF and cohesin</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">297</infon>
+      <infon key="pub-id_pmid">23333522</infon>
+      <infon key="fpage">290</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68951</offset>
+      <text>Synthetic lethality and cancer: cohesin and PARP at the replication fork</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">393</infon>
+      <infon key="pub-id_pmid">24854081</infon>
+      <infon key="fpage">389</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>69024</offset>
+      <text>Cohesin in cancer: chromosome segregation and beyond</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Mol Cancer Res</infon>
+      <infon key="lpage">1607</infon>
+      <infon key="pub-id_pmid">21940756</infon>
+      <infon key="fpage">1587</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>69077</offset>
+      <text>Gene regulation by cohesin in cancer: is the ring an unexpected party to proliferation?</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">572</infon>
+      <infon key="pub-id_pmid">26420833</infon>
+      <infon key="fpage">558</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>69165</offset>
+      <text>Reduced cohesin destabilizes high&#8208;level gene amplification by disrupting pre&#8208;replication complex bindings in human cancers with chromosomal instability</text>
+    </passage>
+    <passage>
+      <infon key="source">Breast Cancer Res</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">21255398</infon>
+      <infon key="fpage">R9</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>69321</offset>
+      <text>Enhanced RAD21 cohesin expression confers poor prognosis and resistance to chemotherapy in high grade luminal, basal and HER2 breast cancers</text>
+    </passage>
+    <passage>
+      <infon key="volume">448</infon>
+      <infon key="source">Virchows Arch</infon>
+      <infon key="lpage">441</infon>
+      <infon key="pub-id_pmid">16416296</infon>
+      <infon key="fpage">435</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>69462</offset>
+      <text>Correlation of invasion and metastasis of cancer cells, and expression of the RAD21 gene in oral squamous cell carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Semin Cancer Biol</infon>
+      <infon key="lpage">403</infon>
+      <infon key="pub-id_pmid">22554795</infon>
+      <infon key="fpage">396</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69583</offset>
+      <text>Cancer stem cells and epithelial&#8208;mesenchymal transition: concepts and molecular links</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">724</infon>
+      <infon key="pub-id_pmid">23201163</infon>
+      <infon key="fpage">709</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69671</offset>
+      <text>Metastatic Colonization Requires the Repression of the Epithelial&#8208;Mesenchymal Transition Inducer Prrx1</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">654</infon>
+      <infon key="pub-id_pmid">1559612</infon>
+      <infon key="fpage">642</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>69776</offset>
+      <text>Control of c&#8208;myc mRNA half&#8208;life in vitro by a protein capable of binding to a coding region stability determinant</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2128</infon>
+      <infon key="pub-id_pmid">8114742</infon>
+      <infon key="fpage">2119</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>69894</offset>
+      <text>The half&#8208;life of c&#8208;myc mRNA in growing and serum&#8208;stimulated cells: influence of the coding and 3&#8242; untranslated regions and role of ribosome translocation</text>
+    </passage>
+    <passage>
+      <infon key="volume">172</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">981</infon>
+      <infon key="pub-id_pmid">16567498</infon>
+      <infon key="fpage">973</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>70056</offset>
+      <text>The epithelial&#8208;mesenchymal transition: new insights in signaling, development, and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2477</infon>
+      <infon key="pub-id_pmid">8843198</infon>
+      <infon key="fpage">2462</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>70149</offset>
+      <text>TGF&#8208;beta1 and Ha&#8208;Ras collaborate in modulating the phenotypic plasticity and invasiveness of epithelial tumor cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">172</infon>
+      <infon key="pub-id_pmid">19153598</infon>
+      <infon key="fpage">156</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70269</offset>
+      <text>TGF&#8208;beta&#8208;induced epithelial to mesenchymal transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">4236</infon>
+      <infon key="pub-id_pmid">12376555</infon>
+      <infon key="fpage">4227</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>70327</offset>
+      <text>Transforming growth factor&#8208;beta and epidermal growth factor synergistically stimulate epithelial to mesenchymal transition (EMT) through a MEK&#8208;dependent mechanism in primary cultured pig thyrocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">J Cell Mol Med</infon>
+      <infon key="lpage">455</infon>
+      <infon key="pub-id_pmid">21883891</infon>
+      <infon key="fpage">445</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70529</offset>
+      <text>aV integrins and TGF&#8208;beta&#8208;induced EMT: a circle of regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">22</infon>
+      <infon key="pub-id_pmid">20029421</infon>
+      <infon key="fpage">9</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70595</offset>
+      <text>Integrins in cancer: biological implications and therapeutic opportunities</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">2041</infon>
+      <infon key="pub-id_pmid">15688013</infon>
+      <infon key="fpage">2032</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>70670</offset>
+      <text>Tumor cell invasiveness correlates with changes in integrin expression and localization</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">J Cell Biochem</infon>
+      <infon key="lpage">1141</infon>
+      <infon key="pub-id_pmid">20564209</infon>
+      <infon key="fpage">1130</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70758</offset>
+      <text>Functional elucidation and methylation&#8208;mediated downregulation of ITGA5 gene in breast cancer cell line MDA&#8208;MB&#8208;468</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">22415826</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70879</offset>
+      <text>Activation of canonical Wnt signalling is required for TGF&#8208;beta&#8208;mediated fibrosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">273</infon>
+      <infon key="pub-id_pmid">17349583</infon>
+      <infon key="fpage">259</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>70965</offset>
+      <text>Molecular definition of breast tumor heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="volume">133</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">715</infon>
+      <infon key="pub-id_pmid">18485877</infon>
+      <infon key="fpage">704</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71016</offset>
+      <text>The epithelial&#8208;mesenchymal transition generates cells with properties of stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">904</infon>
+      <infon key="pub-id_pmid">16892035</infon>
+      <infon key="fpage">895</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71102</offset>
+      <text>Tumor metastasis: mechanistic insights and clinical challenges</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">J Orthop Res</infon>
+      <infon key="lpage">1049</infon>
+      <infon key="pub-id_pmid">12382972</infon>
+      <infon key="fpage">1042</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>71165</offset>
+      <text>TGF&#8208;beta1 calcium signaling increases alpha5 integrin expression in osteoblasts</text>
+    </passage>
+    <passage>
+      <infon key="volume">96</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">328</infon>
+      <infon key="pub-id_pmid">10025398</infon>
+      <infon key="fpage">319</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>71247</offset>
+      <text>The integrin alpha v beta 6 binds and activates latent TGF beta 1: a mechanism for regulating pulmonary inflammation and fibrosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">232</infon>
+      <infon key="pub-id_pmid">19118215</infon>
+      <infon key="fpage">227</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>71377</offset>
+      <text>Mice that lack activity of alphavbeta6&#8208; and alphavbeta8&#8208;integrins reproduce the abnormalities of Tgfb1&#8208; and Tgfb3&#8208;null mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">165</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">734</infon>
+      <infon key="pub-id_pmid">15184403</infon>
+      <infon key="fpage">723</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>71509</offset>
+      <text>Integrin alphaVbeta6&#8208;mediated activation of latent TGF&#8208;beta requires the latent TGF&#8208;beta binding protein&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">105</infon>
+      <infon key="pub-id_pmid">20075988</infon>
+      <infon key="fpage">97</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71624</offset>
+      <text>Integrin&#8208;TGF&#8208;beta crosstalk in fibrosis, cancer and wound healing</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">21900405</infon>
+      <infon key="fpage">a005017</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>71694</offset>
+      <text>Cross talk among TGF&#8208;beta signaling pathways, integrins, and the extracellular matrix</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">1685</infon>
+      <infon key="pub-id_pmid">15075229</infon>
+      <infon key="fpage">1675</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>71782</offset>
+      <text>The transcription factor Snail downregulates the tight junction components independently of E&#8208;cadherin downregulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">939</infon>
+      <infon key="pub-id_pmid">15210113</infon>
+      <infon key="fpage">927</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>71902</offset>
+      <text>Twist, a master regulator of morphogenesis, plays an essential role in tumor metastasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">2077</infon>
+      <infon key="pub-id_pmid">24002784</infon>
+      <infon key="fpage">2066</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71990</offset>
+      <text>Cohesin&#8208;based chromatin interactions enable regulated gene expression within preexisting architectural compartments</text>
+    </passage>
+    <passage>
+      <infon key="volume">295</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1311</infon>
+      <infon key="pub-id_pmid">11847345</infon>
+      <infon key="fpage">1306</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>72108</offset>
+      <text>Capturing chromosome conformation</text>
+    </passage>
+    <passage>
+      <infon key="volume">415</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">536</infon>
+      <infon key="pub-id_pmid">11823860</infon>
+      <infon key="fpage">530</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>72142</offset>
+      <text>Gene expression profiling predicts clinical outcome of breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Mol Cancer Ther</infon>
+      <infon key="lpage">368</infon>
+      <infon key="pub-id_pmid">15767545</infon>
+      <infon key="fpage">361</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>72211</offset>
+      <text>Suppression of RAD21 gene expression decreases cell growth and enhances cytotoxicity of etoposide and bleomycin in human breast cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Genes Chromosom Cancer</infon>
+      <infon key="lpage">10</infon>
+      <infon key="pub-id_pmid">14603436</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>72352</offset>
+      <text>RAD21 and KIAA0196 at 8q24 are amplified and overexpressed in prostate cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">230</infon>
+      <infon key="pub-id_pmid">18662538</infon>
+      <infon key="fpage">215</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>72430</offset>
+      <text>TGFbeta in Cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">129</infon>
+      <infon key="pub-id_pmid">11586292</infon>
+      <infon key="fpage">117</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>72448</offset>
+      <text>TGF&#8208;beta signaling in tumor suppression and cancer progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">940</infon>
+      <infon key="pub-id_pmid">21663795</infon>
+      <infon key="fpage">926</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72513</offset>
+      <text>Paracrine and autocrine signals induce and maintain mesenchymal and stem cell states in the breast</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">728</infon>
+      <infon key="pub-id_pmid">22704512</infon>
+      <infon key="fpage">717</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72612</offset>
+      <text>Cancer stem cells: current status and evolving complexities</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">1725</infon>
+      <infon key="pub-id_pmid">23554123</infon>
+      <infon key="fpage">1714</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72672</offset>
+      <text>Proteomic analysis reveals that CD147/EMMPRIN confers chemoresistance in cancer stem cell&#8208;like cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Stem Cells</infon>
+      <infon key="lpage">1018</infon>
+      <infon key="pub-id_pmid">20506227</infon>
+      <infon key="fpage">1008</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>72775</offset>
+      <text>Permanently blocked stem cells derived from breast cancer cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mod Pathol</infon>
+      <infon key="lpage">955</infon>
+      <infon key="pub-id_pmid">22388757</infon>
+      <infon key="fpage">949</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72844</offset>
+      <text>Stem cell&#8208;related markers in primary breast cancers and associated metastatic lesions</text>
+    </passage>
+    <passage>
+      <infon key="volume">280</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">8100</infon>
+      <infon key="pub-id_pmid">15591043</infon>
+      <infon key="fpage">8094</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>72932</offset>
+      <text>Bone morphogenic protein&#8208;7 induces mesenchymal to epithelial transition in adult renal fibroblasts and facilitates regeneration of injured kidney</text>
+    </passage>
+    <passage>
+      <infon key="volume">123</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">1358</infon>
+      <infon key="pub-id_pmid">23391723</infon>
+      <infon key="fpage">1348</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>73080</offset>
+      <text>TGF&#8208;beta inhibition enhances chemotherapy action against triple&#8208;negative breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">88</infon>
+      <infon key="source">Br J Cancer</infon>
+      <infon key="lpage">333</infon>
+      <infon key="pub-id_pmid">12610521</infon>
+      <infon key="fpage">327</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>73171</offset>
+      <text>Expression level of integrin alpha 5 on tumour cells affects the rate of metastasis to the kidney</text>
+    </passage>
+    <passage>
+      <infon key="volume">74</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5619</infon>
+      <infon key="pub-id_pmid">25106427</infon>
+      <infon key="fpage">5608</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73269</offset>
+      <text>A comprehensive DNA methylation profile of epithelial&#8208;to&#8208;mesenchymal transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">293</infon>
+      <infon key="pub-id_pmid">21358745</infon>
+      <infon key="fpage">283</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73353</offset>
+      <text>Enhancer function: new insights into the regulation of tissue&#8208;specific gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">246</infon>
+      <infon key="pub-id_pmid">24614316</infon>
+      <infon key="fpage">234</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73442</offset>
+      <text>CTCF: an architectural protein bridging genome topology and function</text>
+    </passage>
+    <passage>
+      <infon key="volume">1849</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">269</infon>
+      <infon key="pub-id_pmid">25542856</infon>
+      <infon key="fpage">257</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>73511</offset>
+      <text>Cohesin modulates transcription of estrogen&#8208;responsive genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">638</infon>
+      <infon key="pub-id_pmid">21685913</infon>
+      <infon key="fpage">630</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73574</offset>
+      <text>CTCF&#8208;mediated functional chromatin interactome in pluripotent cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">488</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">120</infon>
+      <infon key="pub-id_pmid">22763441</infon>
+      <infon key="fpage">116</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73644</offset>
+      <text>A map of the cis&#8208;regulatory sequences in the mouse genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7955</infon>
+      <infon key="pub-id_pmid">21498687</infon>
+      <infon key="fpage">7950</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73704</offset>
+      <text>Normal and neoplastic nonstem cells can spontaneously convert to a stem&#8208;like state</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">822</infon>
+      <infon key="pub-id_pmid">18082606</infon>
+      <infon key="fpage">810</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73789</offset>
+      <text>A positive role for NLI/Ldb1 in long&#8208;range beta&#8208;globin locus control region function</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">572</infon>
+      <infon key="pub-id_pmid">26420833</infon>
+      <infon key="fpage">558</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>73878</offset>
+      <text>Reduced cohesin destabilizes high&#8208;level gene amplification by disrupting pre&#8208;replication complex bindings in human cancers with chromosomal instability</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="source">Lab Invest</infon>
+      <infon key="lpage">1044</infon>
+      <infon key="pub-id_pmid">22508389</infon>
+      <infon key="fpage">1033</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74034</offset>
+      <text>Gene silencing of EREG mediated by DNA methylation and histone modification in human gastric cancers</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1465</infon>
+      <infon key="pub-id_pmid">12504019</infon>
+      <infon key="fpage">1453</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>74135</offset>
+      <text>Looping and interaction between hypersensitive sites in the active beta&#8208;globin locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">435</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">645</infon>
+      <infon key="pub-id_pmid">15880101</infon>
+      <infon key="fpage">637</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>74222</offset>
+      <text>Interchromosomal associations between alternatively expressed loci</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">1733</infon>
+      <infon key="pub-id_pmid">17641637</infon>
+      <infon key="fpage">1722</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>74289</offset>
+      <text>Quantitative analysis of chromosome conformation capture assays (3C&#8208;qPCR)</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">3341</infon>
+      <infon key="pub-id_pmid">23873022</infon>
+      <infon key="fpage">3334</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74365</offset>
+      <text>Testican&#8208;1&#8208;mediated epithelial&#8208;mesenchymal transition signaling confers acquired resistance to lapatinib in HER2&#8208;positive gastric cancer</text>
+    </passage>
+  </document>
+</collection>

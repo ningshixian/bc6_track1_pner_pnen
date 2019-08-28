@@ -1,0 +1,1542 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4965873</id>
+    <passage>
+      <infon key="name_2">surname:Chaoui;given-names:Karima</infon>
+      <infon key="name_3">surname:Fiore;given-names:Fr&#233;d&#233;ric</infon>
+      <infon key="name_0">surname:Voisinne;given-names:Guillaume</infon>
+      <infon key="name_1">surname:Garc&#237;a&#8208;Blesa;given-names:Antonio</infon>
+      <infon key="name_6">surname:Malissen;given-names:Marie</infon>
+      <infon key="alt-title">Guillaume Voisinne et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB166837</infon>
+      <infon key="name_5">surname:Girard;given-names:Laura</infon>
+      <infon key="name_8">surname:Gonzalez de Peredo;given-names:Anne</infon>
+      <infon key="name_9">surname:Malissen;given-names:Bernard</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Burlet&#8208;Schiltz;given-names:Odile</infon>
+      <infon key="name_4">surname:Bergot;given-names:Elise</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/msb.20166837</infon>
+      <infon key="article-id_pmid">27474268</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="issue">7</infon>
+      <infon key="kwd">CBL CBLB CD5 ubiquitylation Immunology Post-translational Modifications, Proteolysis &amp; Proteomics Signal Transduction</infon>
+      <infon key="elocation-id">876</infon>
+      <infon key="volume">12 12</infon>
+      <infon key="article-id_pmc">4965873</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+. () : 876
+</infon>
+      <infon key="name_10">surname:Roncagalli;given-names:Romain</infon>
+      <offset>0</offset>
+      <text>Co&#8208;recruitment analysis of the CBL and CBLB signalosomes in primary T cells identifies CD5 as a key regulator of TCR&#8208;induced ubiquitylation</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>144</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>153</offset>
+      <text>T&#8208;cell receptor (TCR) signaling is essential for the function of T cells and negatively regulated by the E3 ubiquitin&#8211;protein ligases CBL and CBLB. Here, we combined mouse genetics and affinity purification coupled to quantitative mass spectrometry to monitor the dynamics of the CBL and CBLB signaling complexes that assemble in normal T cells over 600&#160;seconds of TCR stimulation. We identify most previously known CBL and CBLB interacting partners, as well as a majority of proteins that have not yet been implicated in those signaling complexes. We exploit correlations in protein association with CBL and CBLB as a function of time of TCR stimulation for predicting the occurrence of direct physical association between them. By combining co&#8208;recruitment analysis with biochemical analysis, we demonstrated that the CD5 transmembrane receptor constitutes a key scaffold for CBL&#8208; and CBLB&#8208;mediated ubiquitylation following TCR engagement. Our results offer an integrated view of the CBL and CBLB signaling complexes induced by TCR stimulation and provide a molecular basis for their negative regulatory function in normal T cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1297</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1310</offset>
+      <text>Affinity purification followed by mass spectrometry (AP&#8208;MS) enables analysis of protein&#8211;protein interaction (PPI) networks (interactomes) and of signaling complexes (signalosomes) in their physiological cellular context (Gingras et&#160;al, 2007; Hein et&#160;al, 2015). Although such large&#8208;scale studies have resulted in comprehensive views of several signalosomes, they provided limited information on their internal organization and dynamics of assembly. Such information is, however, particularly valuable to understand how the flow of information resulting from engagement of a given cell surface receptor propagates over time (Collins et&#160;al, 2013; Zheng et&#160;al, 2013). The T&#8208;cell antigen receptors (TCRs) found at the surface of T cells carry out the formidable task of identifying minute number of antigenic peptides. Despite a wealth of information concerning the dozens of molecules involved in TCR signaling, the general principle of information processing by&#160;the TCR signal transduction network remains incompletely understood (Chakraborty &amp; Weiss, 2014; Malissen &amp; Bongrand, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2406</offset>
+      <text>TCR signals propagate through the cytosol and the nucleus via a multilayered signal transduction network involving PPI, phosphorylation, and ubiquitylation. Regulatory mechanisms limit and terminate TCR&#8208;driven signals allowing the immune system to return to a basal state after antigen has been cleared (Acuto et&#160;al, 2008). The E3 ubiquitin&#8211;protein ligases CBL and CBLB have been recognized as important negative regulators of T&#8208;cell activation (Huang &amp; Gu, 2008). Following TCR engagement, the protein tyrosine kinases (PTK) LCK and ZAP&#8208;70 are activated and phosphorylate several transmembrane and cytosolic proteins, leading in turn to the recruitment of CBL and CBLB via their tyrosine kinase binding (TKB) domains or indirectly via the GRB2 adaptor. As a result, CBL and CBLB are rapidly phosphorylated on tyrosine residues, causing conformational changes allowing the recruitment of E2 ubiquitin&#8208;conjugating enzymes and their juxtaposition to substrates that include the TCR itself, scaffold proteins (also known as adaptors), cytosolic PTK, and phosphatases (Schmidt &amp; Dikic, 2005). Modification of the TCR and of its signaling partners with ubiquitin promotes their sorting to multivesicular bodies and lysosomal degradation, thereby ensuring termination of TCR signaling (Vardhana et&#160;al, 2010). CBL and CBLB are more than just E3 ubiquitin&#8211;protein ligases and possess numerous interactive elements that nucleate the formation of complexes thought to regulate cytoskeletal rearrangement (Lee &amp; Tsygankov, 2013). These interactive elements comprise a proline&#8208;rich region that binds SH3 domain&#8208;containing proteins, multiple tyrosine phosphorylation sites enabling interactions with SH2 domain&#8208;containing proteins, and a ubiquitin association (UBA) domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4187</offset>
+      <text>Although the presence of several conserved structural domains in CBL and CBLB suggests that they exert redundant functions, the mature T cells of mice deprived of CBL or CBLB showed distinct phenotypes. Mature T cells from CBL&#8208;deficient mice are less responsive to antigenic stimulation (Naramura et&#160;al, 2002). In contrast, CBLB deficiency lowers the threshold that needs to be overcome by antigenic stimulation to trigger T&#8208;cell responses (Bachmaier et&#160;al, 2000; Chiang et&#160;al, 2000). As a result, CBLB&#8208;deficient T cells proliferate and synthesize cytokines following stimulation with suboptimal concentration of anti&#8208;TCR antibody or in the absence of CD28 costimulation, and in turn, CBLB&#8208;deficient mice are prone to autoimmunity (Gronski et&#160;al, 2004; Chiang et&#160;al, 2007; Teh et&#160;al, 2010; Zhou et&#160;al, 2014). CBLB&#8208;deficient T cells have increased anti&#8208;tumor efficacy, suggesting that CBLB might be exploited as a drug target for the purpose of boosting T&#8208;cell responses against tumors (Hinterleitner et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5225</offset>
+      <text>Here, we combined mouse genetics and time&#8208;resolved, quantitative proteomics analysis to compare the mode of action of CBL and CBLB following TCR&#8208;mediated activation of mature T cells. Considering that the transformed T&#8208;cell lines that have been used in previous AP&#8208;MS studies lacked several key signaling proteins (Astoul et&#160;al, 2001), we have developed mice that bear a genetic tag allowing AP&#8208;MS of the signalosomes that assemble around CBL and CBLB at different time points following physiological activation of primary CD4+ T cells. 98 and 43 unique proteins were found to specifically interact with CBL and CBLB, respectively, in at least one condition of stimulation. Most of those interactions have not been described in the literature to our knowledge. To go beyond a mere inventory of the composition of the CBL and CBLB signalosomes and attempt to decipher the underlying PPIs responsible for their assembly, we further analyzed the kinetics of formation of such signalosomes. We showed that the correlations that exist among some preys in their kinetics of assembly with and disassembly from the CBL and CBLB baits over 600 s of TCR signaling were predictive of the probability that&#160;a physical association exists between them. By combining co&#8208;recruitment analysis of the time&#8208;resolved and quantitative CBL&#160;and CBLB signalosomes with biochemical analysis, we demonstrated that&#160;CD5, a transmembrane protein expressed at the surface of T&#160;cells, constitutes a scaffold that has a central role in the CBL&#8208; and CBLB&#8208;mediated ubiquitylation events that follow TCR engagement.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6828</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6836</offset>
+      <text>Gene&#8208;targeted mice suitable for proteomics analysis of CBL and CBLB and determination of their relative cellular abundance</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6961</offset>
+      <text>To identify by AP&#8208;MS the proteins interacting with CBL and CBLB prior to or after TCR&#8208;mediated activation of primary mouse T cells, we generated two lines of gene&#8208;targeted mice expressing One&#8208;STrEP&#8208;tag (OST) (Junttila et&#160;al, 2005) at the carboxyl&#8208;terminus of endogenous CBL and CBLB proteins (Fig&#160;EV1A and B). Analysis of mice homozygous for the Cbl OST allele (also known as B6&#8208;Cbl tm1Mal; called &#8220;CBLOST&#8221; mice here) and for the Cblb OST allele (also known as B6&#8208;Cblb tm1Ciphe; called &#8220;CBLBOST&#8221; mice here) showed that their T cells developed properly and that they contained normal numbers of CD4+ and CD8+ T cells (Fig&#160;EV1C&#8211;F). CD4+ T cells purified from wild&#8208;type, CBLOST, and CBLBOST mice and stimulated with anti&#8208;CD3 antibodies in the presence or absence of anti&#8208;CD28 antibodies showed that expression of the CBL&#8208;OST and CBLB&#8208;OST proteins had no detrimental effect on their proliferation (Fig&#160;EV1G and H) or production of interleukin 2 (Fig&#160;EV1I and J). Immunoblot analysis showed that before and after activation with anti&#8208;CD3 and anti&#8208;CD4 antibodies, CBL&#8208;OST and CBLB&#8208;OST proteins can be purified from lysates of CBLOST and CBLBOST CD4+ T cells, respectively, using Sepharose beads coupled to Strep&#8208;Tactin, a streptavidin derivative that binds with high affinity to the OST sequence (Fig&#160;1A). As expected, no detectable material was recovered from wild&#8208;type CD4+ T cells. Therefore, primary CD4+ T cells from CBLOST and CBLBOST mice are normal and can be used in AP&#8208;MS analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8503</offset>
+      <text>T cells from CBLOST and CBLBOST mice develop and function normally</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8570</offset>
+      <text>Structure of the 3&#8242; end of the wild&#8208;type Cbl allele and of the targeted Cbl OST allele following homologous recombination and CRE&#8208;mediated excision of the loxP&#8208;neor&#8208;loxP cassette. Exons are shown as filled black boxes and numbered. In the Cbl OST allele, the One&#8208;STrEP&#8208;tag (OST) is shown in red and the remaining loxP site in orange.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8918</offset>
+      <text>Structure of the 3&#8242; end of the wild&#8208;type Cblb allele and of the targeted Cblb OST allele following homologous recombination and FLP&#8208;mediated excision of the frt&#8208;neor&#8208;frt cassette. Exons are shown as filled black boxes and numbered. In the Cblb OST allele, the One&#8208;STrEP&#8208;tag (OST) is shown in red, the IRES&#8208;mTFP1 cassette in green, the two loxP sites in orange, and the remaining frt site in blue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9331</offset>
+      <text>Flow cytometry analysis of thymus and spleen from wild&#8208;type (WT) and CBLOST mice for expression of CD4 versus CD8 and CD5 versus CD45R. Numbers adjacent to outlined areas indicate percentage of cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9534</offset>
+      <text>Flow cytometry analysis of thymus and spleen from wild&#8208;type (WT) and CBLBOST mice for expression of CD4 versus CD8 and CD5 versus CD45R. Numbers adjacent to outlined areas indicate percentage of cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9738</offset>
+      <text>Cellularity of thymus, spleen, and pooled mesenteric lymph nodes (Mln) from wild&#8208;type (WT) and CBLOST mice. Data are expressed as mean value&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9891</offset>
+      <text>Cellularity of thymus, spleen, and pooled mesenteric lymph nodes (Mln) from wild&#8208;type (WT) and CBLBOST mice. Data are expressed as mean value &#177; SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10043</offset>
+      <text>ATP content of CD4+ T cells purified from WT and CBLOST mice and activated for 48&#160;h with PMA and ionomycin (PI) or with plate&#8208;bound anti&#8208;CD3 (0.3&#160;&#956;g/ml) in the presence or absence of soluble anti&#8208;CD28 (1&#160;&#956;g/ml). ATP content is directly proportional to the numbers of proliferating cells in the well and assessed by luminescence. Data are expressed as mean value&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10426</offset>
+      <text>ATP content of CD4+ T cells purified from WT and CBLBOST mice and activated for 48&#160;h with PMA and ionomycin (PI) or with plate&#8208;bound anti&#8208;CD3 (0.3&#160;&#956;g/ml) in the presence or absence of soluble anti&#8208;CD28 (1&#160;&#956;g/ml), assessed by luminescence. Data are expressed as mean value&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10719</offset>
+      <text>IL&#8208;2 in supernatants of WT and CBLOST CD4+ T cells activated as in (G). Data are expressed as mean value&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10836</offset>
+      <text>IL&#8208;2 in supernatants of WT and CBLBOST CD4+ T cells activated as in (H). Data are expressed as mean value&#160;&#177;&#160;SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10954</offset>
+      <text> Data information: Data in (C&#8208;J) are representative of at least three experiments with at least two mice per genotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11075</offset>
+      <text>Purification of CBL&#8208;OST and CBLB&#8208;OST proteins and quantification of their relative abundance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11172</offset>
+      <text>CD4+ T cells from wild&#8208;type (WT), CBLOST, and CBLBOST mice were left unstimulated (&#8722;) or stimulated for 2&#160;min with anti&#8208;CD3 and anti&#8208;CD4 antibodies (+). Equal amounts of cell lysates were subjected to affinity purification on Strep&#8208;Tactin Sepharose beads, followed by elution of proteins with D&#8208;biotin. Eluted proteins were analyzed by immunoblot with antibodies specific for CBLB and CBL. Equal amounts of proteins from whole&#8208;cell lysates (WCLs) were also probed for CBLB and CBL. Note that in the case of CBLB, two bands are detected and likely corresponded to the presence of two isoforms differing at their N&#8208;terminus (http://www.uniprot.org/uniprot/Q3TTA7). Also shown are the loading control corresponding to the same immunoblot probed with anti&#8208;CD5, and molecular masses (kDa). Data are representative of at least three experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12031</offset>
+      <text>CD4+CD8+ thymocytes and mature CD4+ T cells isolated from mice with the specified genotypes were permeabilized and stained with saturating amounts of Strep&#8208;Tactin APC and analyzed by flow cytometry. Background staining was deduced using cells from WT mouse. Data are representative of two experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12335</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12338</offset>
+      <text>The need to use distinct antibodies to detect CBL and CBLB precludes raising any conclusion on their relative abundance. Considering that CBL&#8208;OST and CBLB&#8208;OST proteins are expressed at levels comparable to that of their wild&#8208;type counterparts (Fig&#160;1A), the shared OST can be used to measure their relative abundance using Strep&#8208;Tactin coupled to the allophycocyanin (APC) fluorescent probe. Intracytoplasmic staining of double&#8208;positive (CD4+CD8+) thymocytes&#8212;the major population of developing T cells found in the thymus&#8212;and of mature CD4+ T cells with Strep&#8208;Tactin APC showed that CBL was less abundant in mature CD4+ T cells than in double&#8208;positive thymocytes, whereas the opposite occurred for CBLB (Fig&#160;1B). Consistent with a recent study of CD8+ T cells (Hukelmann et&#160;al, 2016), we found that CBL was 3.8&#8208;fold more abundant than CBLB in mature CD4+ T cells. Therefore, in contrast to previous assumptions (Naramura et&#160;al, 2002), CBL showed a greater cellular abundance than CBLB in both developing and mature T cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13385</offset>
+      <text>Characterization of the CBL and CBLB signalosomes in primary CD4+ T cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13459</offset>
+      <text>To determine the composition of the CBL and CBLB signalosomes, we isolated CD4+ T cells from CBLOST and CBLBOST mice, lysed them with non&#8208;ionic detergent before or at various times after activation with anti&#8208;CD3 and anti&#8208;CD4 antibodies, and then isolated protein complexes containing CBL&#8208;OST and CBLB&#8208;OST using Strep&#8208;Tactin. Three independent biological experiments each involving five different conditions corresponding to no stimulation and to four time points spanning 600&#160;s after anti&#8208;CD3 and anti&#8208;CD4 stimulation were analyzed by AP&#8208;MS. The reproducibility of the AP&#8208;MS process was assessed for each condition of stimulation across technical and biological replicates (Fig&#160;EV2). To distinguish truly interacting proteins from non&#8208;specific contaminants, control AP&#8208;MS experiments were performed for each time point using wild&#8208;type CD4+ T cells. Protein intensities were quantified using the MaxQuant software (Dataset EV1 and Data availability section) and normalized across the different conditions (see Materials and Methods). To determine whether a given detected protein was specifically associated with the CBL&#8208;OST (or CBLB&#8208;OST) bait over the course of an experiment, we compared for each time point the distribution of log&#8208;normalized intensities obtained for CBLOST (or CBLBOST) and for wild&#8208;type CD4+ T cells. Each comparison yielded a value denoted as r(t) and specifying the enrichment observed in CBLOST (or CBLBOST) CD4+ T cells as compared to wild&#8208;type CD4+ T cells and a corresponding P&#8208;value based on a one&#8208;way ANOVA test (denoted as P(t); Fig&#160;2A). At a given time t, proteins were selected as specific interacting partners of the considered OST bait when both the P&#8208;value P(t) was below a set threshold and the corresponding enrichment r(t) was greater than twofold (see Materials and Methods). To further avoid adventitious inclusion of non&#8208;specific partners, we repeated this selection process 200 times by resampling the experimental intensities independently from the original distribution using a bootstrap algorithm. Only proteins that were selected as specific partners in at least 90% of such tests were kept (Fig&#160;2B), resulting in 98 and 43 unique proteins specifically interacting with CBL and CBLB, respectively, in at least one condition of stimulation (Fig&#160;2C and D). The specificity of our approach can be illustrated by the CBL&#8208;OST bait, the normalized intensity of which was at least two orders of magnitude higher in CBLOST CD4+ T cells than in wild&#8208;type CD4+ T cells (Fig&#160;2A and B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16033</offset>
+      <text>Assessment of biological and technical variability across samples</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16099</offset>
+      <text>For CBL&#8208;OST (A) and CBLB&#8208;OST (B) samples, the variability between samples corresponding to a given condition of activation was estimated by computing the Pearson correlation coefficient from log&#8208;transformed intensities&#8212;normalized using indexed Retention Time peptide intensities (iRT Kit; Biognosys)&#8212;of all detected proteins for all pairs of technical and biological replicates (denoted as Rep. Tech. and Rep. Bio., respectively). For each condition of activation (i.e. prior to t&#160;=&#160;0&#160;s or following TCR engagement for t&#160;=&#160;30&#160;s, t&#160;=&#160;120&#160;s, t&#160;=&#160;300&#160;s, and t&#160;=&#160;600&#160;s), scatter plots of log&#8208;transformed and iRT&#8208;normalized intensities for all pairs of technical and biological replicates are represented along with the corresponding Pearson correlation coefficients (R). The average Pearson correlation coefficient across all pairs of technical and biological replicates (denoted as Average R) is also indicated for each time point. Strong correlations exist between technical replicates corresponding to the same biological replicate, thereby illustrating the reproducibility of the LC&#8208;MS measurement.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17229</offset>
+      <text>The iRT&#8208;normalized intensity of the CBL (C) or CBLB (D) bait proteins is represented for all the LC&#8208;MS runs corresponding to CBL&#8208;OST, CBLB&#8208;OST, and wild&#8208;type (WT) backgrounds. In each sample, a strong enrichment of the bait protein is observed in AP&#8208;MS purifications performed in the CBL&#8208;OST or CBLB&#8208;OST backgrounds as compared to control purifications performed in the WT background. In the case of control purifications from WT backgrounds, missing values are not represented.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17724</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17727</offset>
+      <text>Detection of specific interacting partners of CBL and CBLB in peripheral CD4+ T cells prior to and following TCR stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17852</offset>
+      <text>Histogram comparing the normalized CBL protein intensities resulting from AP&#8208;MS analysis of CD4+ T cells from WT and CBLOST mice prior to and after the specified stimulation times. For each time point, the distributions of the normalized intensities of the nine data points (three biological replicates&#160;&#215;&#160;three technical replicates) corresponding to CD4+ T cells from wild&#8208;type (WT) and CBLOST mice were compared using the adjusted P&#8208;value from a one&#8208;way ANOVA test (denoted as P(t)) and the value r(t) corresponding to the enrichment observed in the CBLOST samples as compared to WT samples. Different colors represent distinct biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18515</offset>
+      <text>Proteins are classified as CBL interactors according to their position in a volcano plot in which the mean P&#8208;value &lt;P(t)&gt; is plotted against the corresponding mean enrichment &lt;r(t)&gt; for CBLOST versus WT samples. The time point shown corresponds to the unstimulated condition (t&#160;=&#160;0&#160;s). Mean was calculated using bootstrap resampling (see Results and Materials and Methods). Proteins that displayed an enrichment r(t) greater than twofold and a corresponding P&#8208;value P(t) lower than a set threshold (see Materials and Methods) in more than 90% of the bootstrap iterations were selected as specific partners (indicated in red). Names of four of the most significantly enriched proteins are indicated. Dashed lines represent thresholds on the P&#8208;value P*&#160;=&#160;10&#8722;3 and the enrichment r*&#160;=&#160;2 used to identify specific interactors of CBL.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19360</offset>
+      <text>List of specific interacting partners of CBLB (C) and CBL (D) ranked according to their maximum mean enrichment across all time points. Heat maps show, for each time point, the fraction of bootstrap iterations for which the corresponding proteins were detected as specific partners (denoted as &#8220;P(Detection)&#8221;). Red dots indicate the proteins that have been previously reported as CBLB (C) or CBL (D) interactors in the BioGRID database. Ubiquitin (UB) is highlighted with a black arrow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19851</offset>
+      <text>Histograms showing the numbers of specific interactors binding to the CBL&#8208;OST or CBLB&#8208;OST proteins prior to and after TCR stimulation for different times and for which P(Detection) &gt;&#160;0.9.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20044</offset>
+      <text>Pie charts showing the percentages of CBL and CBLB interactors detected in both the present study and the BioGRID public database. The size of the pie charts is proportional to the numbers of interactors per bait.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20258</offset>
+      <text>CD4+ T cells from wild&#8208;type (WT), CBLOST, and CBLBOST mice were left unstimulated (unstim) or stimulated for 30, 120, 300, or 600&#160;s with anti&#8208;CD3 and anti&#8208;CD4 antibodies. Equal amounts of cell lysates were subjected to affinity purification using Strep&#8208;Tactin Sepharose beads and then to MS analysis as described in Materials and Methods.  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20608</offset>
+      <text>Whereas a few interacting proteins (preys) such as UBASH3A (also known as STS&#8208;2) were found constitutively associated with the CBL&#8208;OST and CBLB&#8208;OST bait, most preys showed a transient pattern of interaction (Fig&#160;2E). In the case of the CBL signalosome, the number of interactors varied non&#8208;monotonously as a function of time, a peak of 63 interactors being detected 30&#160;s after TCR stimulation followed by a second peak of smaller complexity 10&#160;min after TCR stimulation. In contrast, the CBLB signalosome reached its greatest complexity 2&#8211;5&#160;min after TCR stimulation (Fig&#160;2E). Therefore, the kinetics of assembly with and disassembly of the preys from the CBL and CBLB baits after TCR stimulation are not superimposable. 33 and 14% of the proteins identified as CBL and CBLB interactors, respectively, have been already reported in the BioGRID database (Fig&#160;2F). Such overlap corresponded to interacting proteins that in our study ranked among those with the highest maximum mean enrichment (Fig&#160;2C and D). Therefore, our approach provided a more comprehensive view of the CBL and CBLB signalosomes in that it encompasses a majority of interacting proteins not found the BioGRID database.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21814</offset>
+      <text>Proteins interacting with both CBL and CBLB</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21858</offset>
+      <text>As anticipated from the structural similarities existing between CBL and CBLB (Lee &amp; Tsygankov, 2013), 15 proteins were capable of binding to both CBL and CBLB (Fig&#160;3). UBASH3A and UBASH3B (also known as STS&#8208;1) belonged to these shared interactors and use their SH3 domain to bind to the proline&#8208;rich region of CBL and CBLB (Feshchenko et&#160;al, 2004). UBASH3A and UBASH3B comprise a histidine phosphatase domain capable of dephosphorylating phosphotyrosine&#8208;containing substrates. UBASH3B has, however, a stronger tyrosine phosphatase activity than UBASH3A and by dephosphorylating ZAP&#8208;70 acts as a negative regulator of TCR signaling (San Luis et&#160;al, 2011; Luis &amp; Carpino, 2014; Yang et&#160;al, 2015). CSK and CD5, two negative regulators of TCR signaling, also interacted with both CBL and CBLB. The PTK CSK stabilizes SRC&#8208;family PTKs in their inactive configuration, and CD5 is a transmembrane receptor that attenuates signals arising from TCR engagement (Tarakhovsky et&#160;al, 1995; Azzam et&#160;al, 2001). Adaptor proteins belonging to the GRB2 (GRB2, GRAP, and GRAP2) and CRK families (CRK and CRKL) were also present in both signalosomes. CRK family members are thought to enhance the binding of CBL to PI3K (Gelkop et&#160;al, 2001), whereas members of the GRB2 family connect CBL and CBLB to the TCR signal transduction network (Buday et&#160;al, 1996). Upon CBL&#8208; and CBLB&#8208;mediated ubiquitylation, elements of this signaling network are then recognized by components of the endocytic machinery, and two of them, ITSN2 and EPS15L1 (McGavin et&#160;al, 2001; Haglund &amp; Dikic, 2012), stood among the interacting partners common to CBL and CBLB. Although no E2 ubiquitin&#8208;conjugating enzyme was recovered in the CBL and CBLB signalosomes, ubiquitin constituted one of the species common to both signalosomes. Ubiquitin was 4.7 times more enriched in the CBLB signalosome (&lt;r&gt;max&#160;=&#160;16.9) than in that of CBL (&lt;r&gt;max&#160;=&#160;3.57). Congruent with the role played by ubiquitin in signal transduction, endosome sorting, and protein degradation, when the CBL and CBLB signalosomes were subjected to GO term enrichment analysis (Bindea et&#160;al, 2009), a significant overrepresentation of annotations related to &#8220;signaling adaptor activity&#8221; and &#8220;role in protein degradation&#8221; was observed (Fig&#160;EV3). In line with studies performed in adipocytes and fibroblasts and suggesting that CBL and CBLB are capable of heterodimerizing (Liu et&#160;al, 2003; Rorsman et&#160;al, 2016), CBLB was found in the CBL signalosome (Fig&#160;2D). The lower cellular abundance of CBLB as compared to CBL (Fig&#160;1B) and the detection limit achieved in our AP&#8208;MS experiments might explain why no CBL&#8208;specific peptide was recovered from the CBLB signalosome (Fig&#160;2C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24594</offset>
+      <text>Comparison of the CBL and CBLB signalosomes of peripheral CD4+ T cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24665</offset>
+      <text>Each protein interacting with either or both the CBL&#8208;OST and CBLB&#8208;OST baits is represented as a node and is linked by an edge to the corresponding bait. Proteins are identified by their BioGRID designations and color&#8208;coded according to their function or protein family; see key (right). As specified, a set of proteins interacts with both CBL and CBLB, and CBLB is found in the CBL signalosome.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25066</offset>
+      <text>GO term enrichment analysis of CBL and CBLB signalosomes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25123</offset>
+      <text>Organization of the CBL (A) and CBLB (B) signalosomes according to GO annotations. Enriched GO terms were extracted from the list of interacting partners identified in this study using the ClueGO plugin (http://apps.cytoscape.org/apps/cluego) on Cytoscape.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25380</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25383</offset>
+      <text>Proteins specifically interacting with CBL or CBLB</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25434</offset>
+      <text>Some GO terms (&#8220;phosphatidylinositol complex&#8221;, &#8220;F&#8208;actin capping protein complex&#8221;) were enriched only in the CBL signalosome, whereas others (&#8220;cytosolic ribosome&#8221;) were more enriched in the CBLB signalosome, highlighting that CBL and CBLB each control the formation of a unique signalosome. In support of that view, CBLB but not CBL associated with the transmembrane adaptors LAT and LAX1. LAT is essential for TCR&#8208;mediated T&#8208;cell activation, whereas LAX1 is thought to negatively regulate T&#8208;cell activation (Horejsi et&#160;al, 2004). Out of the six baits (ZAP&#8208;70, LAT, SLP&#8208;76, PAG&#8208;CBP, CBL, CBLB) analyzed to date using TCR&#8208;activated primary CD4+ T cells and a OST&#8208;based approach (Roncagalli et&#160;al, 2014; Reginald et&#160;al, 2015), CBLB was the only bait capable of precipitating a large number of components of the small and large ribosomal subunits following TCR activation (Figs&#160;3 and EV3). Ubiquitin is encoded by four different genes that include the Uba52 and Rps27a genes that code for a single copy of ubiquitin fused to the ribosomal proteins RPL40 and RPS27A, respectively. Interestingly, in some species, ubiquitin remains fused to RPS27A once it is incorporated into the mature ribosome (Catic et&#160;al, 2007). The identification of one peptide specific for RPS27A in the CBLB signalosome (indexed under ubiquitin) suggests that an interaction between the UBA of CBLB and RPS27A may account for the pull&#8208;down of the 14 ribosomal components that are uniquely recruited by CBLB following T&#8208;cell activation. Alternatively, the recovery of such numerous ribosomal components in the CBLB signalosome might be due to ubiquitylation of ribosomal proteins or of ribosome&#8208;associated chaperones by ubiquitin&#8208;protein ligases of the RING family (Panasenko, 2014). Whether CBLB plays a role in ribosomal biology, however, remains to be determined.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27313</offset>
+      <text>Among the large number of interactors specific to the CBL signalosome (Fig&#160;3) were several proteins involved in phosphoinositide&#8208;based signaling (such as PLCG1, INPP5D, and several regulatory (R1 and R2) and catalytic (CA, CB, and CD) subunits of PI3K), six members of the 14&#8208;3&#8208;3 protein family, and proteins involved in clathrin&#8208;mediated endocytosis (CLTC, CD2AP, or SH3KBP1) and in cytoskeletal rearrangement (such as the F&#8208;actin capping proteins CAPZA1 and CAPZA2, the tubulins TUBB4B and TUBB5, the Diaphanous&#8208;related formin DIAPH2, and the chaperone CCT8). FYN, a member of the SRC&#8208;family PTKs, interacted specifically with CBL but not CBLB, echoing its role in the recruitment of PI3K to CBL upon phosphorylation of the tyrosine residue found at position 731 (Hunter et&#160;al, 1999). Therefore, our analysis provided a comprehensive view of the CBL and CBLB signalosomes after TCR&#160;stimulation of primary CD4+ T cells, highlighting both the redundant and unique functional features of these two E3 ubiquitin&#8211;protein ligases and identifying 66 and 37 proteins not found associated with CBL and CBLB, respectively, in the BioGRID database.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28472</offset>
+      <text>Co&#8208;recruitment analysis of time&#8208;resolved CBL and CBLB signalosomes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28543</offset>
+      <text>To attempt to decipher the underlying PPIs responsible for the assembly of the CBL and CBLB signalosomes, we further analyzed the kinetics of formation of such signalosomes. We reasoned that if two recruited proteins are interacting with each other or are part of a macromolecular complex, their kinetics of recruitment over the first 600&#160;s of TCR signaling should be similar. To quantify the similarity in the recruitment kinetics of a given pair of proteins, we used the Pearson correlation coefficient (see Materials and Methods and Fig&#160;4A). We then carried out this computation for each pair of recruited proteins, and we partitioned the resulting correlation matrix into distinct clusters using a standard K&#8208;means algorithm (Fig&#160;EV4). In the case of the CBL signalosome, this partitioning revealed that proteins that are structurally related (for instance, 14&#8208;3&#8208;3 family members or proteins containing a &#8220;capping protein interaction&#8221; motif (CAPZA1, CAPZA2, CD2AP, and SH3KBP1)) or functionally connected (for instance, those involved in phosphoinositide&#8208;based signaling) were grouped within the same cluster (Fig&#160;EV4).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29683</offset>
+      <text>Analysis of the correlations existing in the assembly with and disassembly from the CBL&#8208;OST or CBLB&#8208;OST baits for all pairs of identified preys</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29831</offset>
+      <text>Workflow used for the generation of the co&#8208;recruitment correlation network (CN). Left: Normalized intensities of recruitment of two identified partners (denoted X i and X j) to the considered bait as a function of time. Center left: Normalized intensities of recruitment for preys X i and X j are plotted against each other (R ij: Pearson correlation value; P ij corresponding P&#8208;value). Center right: Correlation matrix (R ij) between all pairs of identified interactors partitioned into different clusters. Right: Portion of the obtained correlation network after filtering according to P ij values.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30436</offset>
+      <text>Representation of the CBL (B) and CBLB (C) CNs. Nodes represent specific interacting partners and edges connect pairs of nodes for which the P&#8208;value associated with the Pearson correlation coefficient exceeded a set threshold. Edge width is coded according to Pearson correlation coefficient (R&#160;&lt;&#160;0.8 or R&#160;&gt;&#160;0.8). The identified edges are depicted in red if they have been already reported as direct interaction partners in the BioGRID database.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30888</offset>
+      <text>Venn diagrams showing overlaps between protein&#8211;protein interactions deduced from the CBL (D) or CBLB (E) CNs and those reported in the BioGRID database for Homo sapiens and Mus musculus. Two sets of analysis are shown according to Pearson correlation coefficient values (R&#160;&lt;&#160;0.8 or R&#160;&gt;&#160;0.8). Histograms below the Venn diagrams compare the probabilities to predict existing interactions with a random network (Random), the complete CN, or the high&#8208;confidence CN (R&#160;&gt;&#160;0.8).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31370</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31373</offset>
+      <text>K&#8208;means clustering analysis of the CBL and CBLB signalosomes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31436</offset>
+      <text>Representation of the CBLB (A) and CBL (B) correlation matrix (R ij) partitioned into different clusters using a K&#8208;means clustering algorithm. The normalized recruitment intensity to the bait as a function of time is represented for the different interactors grouped into corresponding clusters. Within each cluster, interactors are listed in alphabetical order. Proteins from the 14&#8208;3&#8208;3 family and PI3K subunits are highlighted within the CBL signalosome.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31899</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31902</offset>
+      <text>To further refine the analysis of correlations in protein recruitment within the CBL and CBLB signalosomes and explore the finer structure of the correlation matrix, we constructed the corresponding co&#8208;recruitment network (CN) (Fig&#160;4B and C). In CN, nodes represent specific interacting partners and edges connect pairs of nodes that were co&#8208;recruited and for which the P&#8208;value associated with the Pearson correlation coefficient exceeded a set threshold (see Materials and Methods). As expected from the correlation matrix, the CNs of the CBL and CBLB signalosomes were organized into highly connected subnetworks corresponding to proteins belonging to the same structural family (for instance, the six identified members of the 14&#8208;3&#8208;3 family proteins or the GRB2 and GRAP adaptors), or involved in a given intracellular process (such as phosphoinositide signaling, clathrin&#8208;mediated endocytosis, or cytoskeletal rearrangement) or a macromolecular complex (the proteasome) (Fig&#160;4B and C).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32906</offset>
+      <text>Predicting PPIs using co&#8208;recruitment analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32954</offset>
+      <text>To test whether the correlations observed in the timing of co&#8208;recruitment could be predictive of actual physical interactions between co&#8208;recruited preys, we compared the interactions deduced from our CN analysis to the whole set of CBL&#8208; and CBLB&#8208;interacting partners reported in the BioGRID database. Among the 328 interactions predicted to exist on the basis of the CBL CN, 62 were already reported as physical interactions within the Homo sapiens and Mus musculus BioGRID databases (Fig&#160;4D). The probability of accurately predicting an existing interaction was thus 0.19 (P&#160;=&#160;62/328), a value largely exceeding the probability of 0.06 (P&#160;=&#160;302&#160;&#215;&#160;2/(98&#160;&#215;&#160;97)) of finding one of the 302 reported interaction among N&#160;&#215;&#160;(N&#8722;1)/2 possible interactions in a random network comprising N&#160;=&#160;98 nodes. Moreover, the probability to properly predict an existing interaction reached 0.31 (P&#160;=&#160;37/120) when only edges with a Pearson correlation coefficient greater than 0.8 were considered (Fig&#160;4D). Likewise, in the case of the CBLB CN, 7 out of 34 (P&#160;=&#160;0.21) of the predicted interactions were reported in BioGRID and 2 out of 8 (P&#160;=&#160;0.25) remained when the network was restricted to edges with R&#160;&gt;&#160;0.8 (Fig&#160;4E), thereby exceeding the odds to accurately predict a reported interaction in a random network with the same number of nodes (P&#160;=&#160;0.15). Therefore, the correlations that exist among some preys in their kinetics of assembly with and disassembly from the CBL and CBLB baits over 600&#160;s of TCR stimulation can be used as a decision support tool to infer candidate PPIs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34558</offset>
+      <text>Validation of novel PPIs predicted on the basis of the CBL and CBLB correlation networks</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34647</offset>
+      <text>To further test the predictive power of our CN analysis, we took advantage of the fact that CBLB was present in the CBL signalosome (Fig&#160;4B). We focused on the CBLB first neighbors found in the CBL CN and posited that they should be detected as interacting partners of CBLB in the experimentally determined CBLB signalosome (Fig&#160;3). Indeed, 5 out of the 13 (38.5%) CBLB first neighbors found in the CBL CN constituted interacting partners of CBLB (Fig&#160;5A). This compared favorably with the chance (15.3%) to detect one of the 15 CBLB&#8208;specific interactors found within the CBL signalosome (Fig&#160;3) if edges were drawn at random. In addition, the percentage of identified CBLB interactors increased to 66.7% when focusing on the sole edges with a Pearson correlation coefficient R&#160;&gt;&#160;0.8. We further observed that the percentage of CBL interactors detected as specific partners of CBLB rapidly decreased as a function of their distance to CBLB within the CBL CN (Fig&#160;5B). This holds true also in the high&#8208;confidence CBL CN in which only edges with R&#160;&gt;&#160;0.8 were considered. Therefore, the presence of an edge in the CBL CN was predictive of the probability that a direct physical association exists between the linked nodes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35880</offset>
+      <text>Co&#8208;recruitment network predicts the occurrence of physical association between pairs of recruited proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35989</offset>
+      <text>CBLB first&#8208;neighbors network within the CBL CN. Edge width is coded according to Pearson correlation coefficient (R&#160;&lt;&#160;0.8 or R&#160;&gt;&#160;0.8). The identified edges are depicted in red if they have been already reported as direct interaction partners in the BioGRID database. Proteins detected in the CBLB signalosome shown in Fig&#160;3 are colored in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36340</offset>
+      <text>Histograms showing the number and corresponding percentage of CBL interactors also present in the CBLB signalosome according to their distance from CBLB in the CBL CN. The two depicted analyses correspond to the complete and to the high&#8208;confidence (R&#160;&gt;&#160;0.8) CNs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36607</offset>
+      <text>Zoom on the high&#8208;confidence (R&#160;&gt;&#160;0.8) CRKL and CSK first&#8208;neighbors subnetwork found within the CBL CN. The identified edges are depicted in red if they have been already reported as direct interaction in the BioGRID database. CSK and CRKL are highlighted in yellow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36879</offset>
+      <text>Experimental validation of the PPIs predicted on the basis of the high&#8208;confidence CN shown in (C). CD4+ T cells were left unstimulated (&#8722;) or stimulated (+) with anti&#8208;CD3 and anti&#8208;CD4 antibodies and subsequently lysed. Equal amounts of cell lysates were incubated with isotype control (Iso Ctrl) or the specified antibodies and the resulting immunoprecipitates (IP) analyzed by immunoblot with the antibodies specified in the left margin. The validated PPIs predicted in (C) correspond to CSK&#8208;CBLB and CSK&#8208;CD5 (D), CRKL&#8208;PI3Kp85&#946; and CSK&#8208;PI3Kp85&#946; (E), PI3Kp85&#946;&#8208;PI3Kp110&#945; and CSK&#8208;PI3Kp110&#945; (F), and CRKL&#8208;PI3Kp110&#945; (G). Molecular masses are shown (kDa). Data are representative of at least two experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37611</offset>
+      <text>Summary of the PPIs found in the high&#8208;confidence CSK and CRKL first&#8208;neighbors subnetwork (see C) that were validated by coimmunoprecipitation (see D&#8211;G). Interactions validated and not validated by coimmunoprecipitation are shown using red and blue edges, respectively. Interactions untractable by coimmunoprecipitation analysis due to the lack of specific antibodies are shown as gray edges.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38009</offset>
+      <text> Data information: In (C) and (H), PI3Kp85&#946; and PI3Kp110&#945; are denoted as PIK3R2 and PIK3CA, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38122</offset>
+      <text>Based on the above observation, we used the CBL CN to construct the high&#8208;confidence first&#8208;neighbors subnetwork corresponding to CRKL and CSK and found that only 4 out of the 19 predicted interactions were previously reported in BioGRID (Fig&#160;5C). Within this subnetwork, the interaction between CSK and CD5 was both novel and exhibited the highest correlation (R&#160;=&#160;0.96). To confirm that this interaction occurred in stimulated T cells, coimmunoprecipitation of proteins from cell lysates of primary CD4+ T cells was performed before and after TCR stimulation. It showed that CSK was capable of interacting with CD5 upon TCR stimulation (Fig&#160;5D). Additional coimmunoprecipitations confirmed predicted PPIs involving CSK&#8208;CBLB, CRKL&#8208;PI3Kp85&#946;, CSK&#8208;PI3Kp85&#946;, PI3Kp85&#946;&#8208;PI3Kp110&#945;, CSK&#8208;PI3Kp110&#945;, and CRKL&#8208;PI3Kp110&#945; (Fig&#160;5D&#8211;G), whereas the CBLB&#8208;CD5 PPI was identified in the CBLB signalosome (Fig&#160;2C). Conversely, we failed validating predicted PPIs involving CRKL&#8208;CSK and PI3Kp85&#946;&#8208;CD5. Therefore, among the 11 PPIs interactions that can be tracked by coimmunoprecipitation analysis due to the existence of specific antibodies, 9 were validated by coimmunoprecipitation (Fig&#160;5H). False positives are expected in CN derived from such dense correlation matrix and alternative methods such as Gaussian Graphical Models or Bayesian Network can likely be used to discard potential non&#8208;direct effects (Pe'er, 2005; Krumsiek et&#160;al, 2011). Our results indicated that increasing the threshold on the Pearson R coefficient reduced the fraction of such false positives (Fig&#160;5A and B). Therefore, our results demonstrate that CN can predict novel physical associations between the preys recruited by a given bait.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39858</offset>
+      <text>Functional interdependence between CBL and CBLB</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39906</offset>
+      <text>CBL and CBLB are more than just E3 ubiquitin&#8211;protein ligases and constitute scaffolding proteins. As a result, immunoblot analysis of lysates of CD4+ T cells showed that upon TCR stimulation, several ubiquitylated proteins were associated to the CBLB&#8208;OST and CBL&#8208;OST baits (Fig&#160;6A). Consistent with the higher enrichment of ubiquitin observed in the CBLB signalosome as compared to the CBL signalosome (see above), a stronger association was detected between ubiquitylated proteins and the CBLB&#8208;OST bait relative to the CBL&#8208;OST bait (Fig&#160;6A). To gain further insights on the regulation of CBL&#8208; and CBLB&#8208;mediated ubiquitylation following TCR engagement, we constructed the first&#8208;neighbors subnetwork of ubiquitin in the CBL and CBLB CNs (Fig&#160;6B). CBLB is part of the CBL signalosome (Fig&#160;3) and constituted a first neighbor of ubiquitin in the CBL CN. CBLB and ubiquitin showed a Pearson correlation coefficient R&#160;=&#160;0.74, suggesting that CBLB recruitment to CBL correlated with the onset of ubiquitylation in the CBL signalosome. To analyze whether the presence of CBLB within the CBL signalosome contributed to the presence of ubiquitin species, we performed immunoprecipitation of CBL from lysates of TCR&#8208;stimulated CD4+ T cells isolated from CBLB&#8208;deficient mice. Unexpectedly, the lack of CBLB dramatically enhanced the association between CBL and ubiquitylated species (Fig&#160;6C). In contrast, the lack of CBL did not change the level of ubiquitylated species found within the CBLB complexes (Fig&#160;6D). Therefore, although asymmetric, a functional interdependence exists between CBL and CBLB in CD4+ T cells and controls the capacity of CBL to recruit ubiquitylated proteins following TCR stimulation. Plausible mechanisms for such an unexpected finding are discussed below.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41709</offset>
+      <text>Asymmetric functional relationships between CBL and CBLB</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41766</offset>
+      <text>CD4+ T cells from wild&#8208;type (WT), CBLOST, and CBLBOST mice were left unstimulated (&#8722;) or stimulated for 1&#160;min with anti&#8208;CD3 and anti&#8208;CD4 antibodies (+). Equal amounts of cell lysates were subjected to affinity purification on Strep&#8208;Tactin Sepharose beads, and the resulting protein eluates were analyzed by immunoblotting with anti&#8208;ubiquitin (UB), anti&#8208;CBLB, or anti&#8208;CBL antibodies. Also shown are a loading control corresponding to equal amounts of proteins from whole&#8208;cell lysates (WCLs) probed with anti&#8208;CD5, and molecular masses (kDa). TCR stimulation resulted in some CBLB degradation and in the detection of a higher molecular weight CBLB form, likely due to its ubiquitylation (marked with an asterisk). In contrast, no degradation of CBL was detectable upon TCR stimulation and its molecular weight remained unchanged. Data are representative of at least two experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42667</offset>
+      <text>Representation of the ubiquitin (UB) first&#8208;neighbors subnetwork within the CBL and CBLB CN. Edge width is coded according to Pearson correlation coefficient (R&#160;&lt;&#160;0.8 or R&#160;&gt;&#160;0.8). Red edges depict direct interactions reported in the BioGRID database. Ubiquitin (UB) is highlighted in yellow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42964</offset>
+      <text>Immunoprecipitation of CBL from cell lysates of CD4+ T cells isolated from WT or CBLB&#8208;deficient mouse (Cblb &#8722;/&#8722;) and kept unstimulated (&#8722;) or stimulated as in (A). Immunoprecipitates and whole&#8208;cell lysates (WCLs) were analyzed by immunoblot with antibodies specific for the proteins specified in the left margin. Molecular masses are shown (kDa). Data are representative of at least two experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43374</offset>
+      <text>Immunoprecipitation of CBLB from cell lysates of CD4+ T cells isolated from WT or CBL&#8208;deficient mouse (Cbl &#8722;/&#8722;) and kept unstimulated (&#8722;) or stimulated as in (A). Immunoprecipitates and whole&#8208;cell lysates (WCLs) were analyzed by immunoblot with antibodies specific for the proteins specified in the left margin. Molecular masses are shown (kDa). Data are representative of at least three experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43785</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43788</offset>
+      <text>CD5 regulates CBL&#8208; and CBLB&#8208;mediated ubiquitylation following TCR activation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43869</offset>
+      <text>Our AP&#8208;MS approach revealed that CD5 is the only transmembrane receptor expressed by CD4+ T cells capable of associating with both CBL and CBLB after TCR stimulation (Fig&#160;3), a finding confirmed using coimmunoprecipitation (Figs&#160;6C and D, and 7A). Interestingly, the presence of CD5 was highly correlated with that of ubiquitin in both the CBL and CBLB CNs (Pearson correlation coefficient of 0.83 and 0.77, respectively; Fig&#160;6B). Accordingly, we anticipated that CD5 could modulate the recruitment of ubiquitylated proteins to CBL or CBLB. Consistent with that view, immunoprecipitation of CBL from lysates of TCR&#8208;stimulated CD4+ T cells isolated from CD5&#8208;deficient mice showed that the absence of CD5 resulted in a drastic reduction in the extent of ubiquitylated proteins that coimmunoprecipitated with CBL as compared to TCR&#8208;stimulated wild&#8208;type CD4+ T cells (Fig&#160;7A). PIK3R1 (also known as PI3K p85&#945;) is found in the sole CBL signalosome and akin to CD5 constituted a first neighbor of ubiquitin within the CBL CN (Pearson correlation coefficient of 0.82; Fig&#160;6B). Ubiquitylated proteins coimmunoprecipitated with PI3KR1 in TCR&#8208;stimulated wild&#8208;type CD4+ T cells, and their presence was reduced in the absence of CBLB, in line with a former study (Fang &amp; Liu, 2001), and of CD5 (Fig&#160;7B). Altogether, these results demonstrate that CD5 plays an important role in CBL&#8208; and CBLB&#8208;mediated ubiquitylation in CD4+ T cells following TCR engagement.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>45340</offset>
+      <text>CD5 regulates CBL&#8208;mediated ubiquitylation following TCR stimulation in mature CD4+ T cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45433</offset>
+      <text>CD4+ T cells from wild&#8208;type, Cblb &#8722;/&#8722;, and Cd5 &#8722;/&#8722; mice were stimulated for 1&#160;min with anti&#8208;CD3 and anti&#8208;CD4 antibodies (+). CBL (A) and PI3KR1 (PI3Kp85&#945;) (B) were immunoprecipitated from equal amounts of protein lysates. Level of ubiquitylation and amount of CD5 associated proteins were evaluated by immunoblot with antibodies specific for the proteins specified in the left margin. Whole&#8208;cell lysates (WCLs) were also analyzed with the specified antibodies. Molecular masses are shown (kDa). Data are representative of at least two experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45999</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>46002</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46013</offset>
+      <text>In this study, we combined mouse genetics, time&#8208;resolved AP&#8208;MS and computational approaches to investigate the composition, dynamics, and internal organization of the CBL and CBLB signalosomes after TCR stimulation of primary CD4+ T cells. As expected from the structural similarity existing between CBL and CBLB, both signalosomes shared a number of interacting partners. However, these shared partners represent only 15 out of the 117 unique proteins that are enumerated when the CBL and CBLB signalosomes are pooled together. In addition, the two signalosomes show distinct kinetics of assembly. As discussed below, this may account for the fact that CBL and CBLB exert both redundant and unique functions in mature CD4+ T cells. Most of the interactors identified in this study have not been previously implicated in the CBL and CBLB signalosomes, and they constitute a valuable resource to further our understanding of the role of CBL and CBLB in the TCR signal&#8208;transduction network.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47008</offset>
+      <text>To go beyond the mere inventory of the CBL and CBLB signalosomes, we exploited correlations in protein association with the CBL and CBLB baits as a function of time of TCR stimulation. This permitted us to predict the occurrence of physical association between some of the recruited proteins and to gain insights on how CBL and CBLB regulate protein ubiquitylation following TCR stimulation. The negative role of CBL and CBLB in TCR signaling has been primarily assigned to their ubiquitin&#8211;protein ligase activity (Paolino et&#160;al, 2011) and, as expected, ubiquitin was present in both signalosomes. CBLB associated with more ubiquitylated species than CBL: this may reflect that the CBLB signalosome contains a larger spectrum of ubiquitylation substrates than the CBL signalosome or be due to the higher affinity for ubiquitin of the UBA of CBLB as compared to that of CBL (Davies et&#160;al, 2004; Zhou et&#160;al, 2008). Unexpectedly, the lack of CBLB increased the association between CBL and ubiquitylated species. When compared to CBL, CBLB has the unique ability to nucleate complexes around the LAT and LAX1 transmembrane adaptors. Therefore, in the absence of CBLB, LAT and LAX1 can plausibly recruit CBL, thereby constituting novel &#8220;entry points&#8221; allowing CBL to reach unconventional substrates. Regardless of the mechanisms at play, the impact of the CBLB deficiency on the recruitment of ubiquitylated proteins by CBL emphasizes the complex rewiring processes that can affect signaling networks in T cells deprived of a single gene product.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48559</offset>
+      <text>Our AP&#8208;MS analysis further revealed that CD5 is the only transmembrane receptor expressed by CD4+ T cells capable of associating with both CBL and CBLB following TCR stimulation. Based on our co&#8208;recruitment analysis, we predicted and validated experimentally that CD5 is an important organizer of CBL&#8208; and CBLB&#8208;mediated ubiquitylation following TCR stimulation. CD5 is a type I transmembrane glycoprotein composed of three extracellular scavenger receptor cysteine&#8208;rich domains and a highly conserved cytoplasmic domain containing multiple serine, threonine, and tyrosine phosphorylation sites. Upon TCR stimulation, some of those tyrosine residues are phosphorylated with rapid kinetics, and in thymocytes and transformed T cells, they recruit several molecules including CBL (Dennehy et&#160;al, 1998; Lozano et&#160;al, 2000; Demydenko, 2010; Roa et&#160;al, 2013). The analysis of CD5&#8208;deficient mice established an inhibitory role for CD5 on TCR signaling (Tarakhovsky et&#160;al, 1995), and the negative regulation of TCR signaling by CD5 in T&#8208;cell hybridoma was shown to depend on the presence of the CD5 cytoplasmic domain (Pena&#8208;Rossi et&#160;al, 1999). Upon TCR engagement, CD5, CBL, and CBLB are rapidly recruited to the immunological synapse where they downregulate TCR signals (Brossard et&#160;al, 2003; Vardhana et&#160;al, 2010). Our study of primary T&#160;cells provides a rationale for such negative regulatory function in that it showed that upon TCR&#8208;mediated phosphorylation, CD5 recruits CBL and CBLB at the inner face of the plasma membrane allowing ubiquitylation of several substrates (including themselves).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50177</offset>
+      <text>Elevated levels of TCR&#8208;CD3 complexes are expressed at the surface of CBL&#8208;deficient thymocytes and associated with enhanced tyrosine phosphorylation of LCK and ZAP&#8208;70, an observation accounted for by a lack of CBL&#8208;mediated ubiquitylation and subsequent degradation of the of TCR&#8208;CD3 complex (Wang et&#160;al, 2010). Moreover, CBLB deficiency reduces antigen&#8208;induced down&#8208;modulation of TCR expression at the surface of mature effector T cells (Shamim et&#160;al, 2007). However, neither TCR&#8208;CD3 complex subunits nor LCK and ZAP&#8208;70 were detectable in the CBL and CBLB signalosomes that assemble in mature T cells following TCR engagement. The only molecules involved in the regulation of proximal TCR signaling and present in both signalosomes were UBASH3B and CSK. UBASH3B reduces the level of TCR&#8208;induced ZAP&#8208;70 tyrosine phosphorylation (San Luis et&#160;al, 2011; Luis &amp; Carpino, 2014; Yang et&#160;al, 2015), whereas CSK stabilizes LCK and FYN in their inactive configuration. It has been proposed that CSK negatively controls the catalytic activity of LCK via binding to the transmembrane adaptor PAG (also known as CBP) (Brdicka et&#160;al, 2000; Davidson et&#160;al, 2003). However, the lack of phenotype of PAG&#8208;deficient mouse and recent biochemical data suggest that additional proteins compensate for the loss of PAG and can recruit CSK at the inner face of the plasma membrane following TCR stimulation (Dobenecker et&#160;al, 2005; Xu et&#160;al, 2005; Reginald et&#160;al, 2015). Our AP&#8208;MS and co&#8208;recruitment analyses showed that CD5&#8208;CBL and CD5&#8208;CBLB complexes constitute one of these additional docking sites. Therefore, the negative role of the CD5&#8208;CBL and CD5&#8208;CBLB complexes in TCR signaling could be accounted for not only by their E3 protein ligase activity and capacity to recruit UBASH3B but also by their ability to recruit CSK as suggested by the influence of CD5 abundance on the phosphorylation of the regulatory tyrosine found at position 505 of LCK (Fig&#160;EV5). Analysis of Jurkat T cells showed that CD5 negatively regulates FYN (Bamberger et&#160;al, 2011), an observation likely due to the ability of CD5&#8208;CBL and CD5&#8208;CBLB complexes to bind to CSK as we have formally demonstrated here. Importantly, CBLB molecules unable to associate with E2 ubiquitin&#8208;conjugating enzymes fail to repress T&#8208;cell activation, suggesting that it is the absence of E3 ligase activity rather than the loss of other interactive domains within CBLB that causes hyperproliferation of CBLB&#8208;deficient mature T cells (Paolino et&#160;al, 2011). Therefore, in contrast to the non&#8208;redundant E3&#8208;ubiquitin ligase activity of CBLB, UBASH3B and CSK can plausibly use other scaffolding proteins to dampen TCR&#8208;proximal tyrosine kinases.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>52911</offset>
+      <text>CD5 contributes to control the phosphorylation of the negative&#8208;regulatory tyrosine found at position 505 of LCK via CSK</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53033</offset>
+      <text>Expression of CD5 on short&#8208;term expanded CD4+ T cells stimulated by cross&#8208;linking biotinylated anti&#8208;CD3 and anti&#8208;CD4 antibodies with streptavidin for 1 min at 37&#176;C. The depicted gates define three populations of T cells with different expression of CD5 at their surface (CD5lo, CD5med and CD5hi). Numbers adjacent to outlined areas indicate percentage of cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53404</offset>
+      <text>In addition to having been stained with anti&#8208;CD5, the cells described in (A) were permeabilized and stained with an anti&#8208;pLCK(Y505). The histogram represents the levels of phospho&#8208;LCK(Y505) found in the three populations defined in (A) on the basis of CD5 levels.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53674</offset>
+      <text>The upper panel represents the mean (&#177; SD) of the log fluorescence intensity of phospho&#8208;LCK(Y505) as a function of the geometric mean fluorescence intensity of CD5. Mean and SD were computed from populations of cells defined using a regular binning of the CD5 expression histogram (lower panel).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53973</offset>
+      <text>Effect of CD5 cross&#8208;linking on the phosphorylation of Y505 of LCK. Short&#8208;term expanded CD4+ T cells were stimulated with 2 &#956;g biotinylated anti&#8208;CD3 plus 2 &#956;g biotinylated anti&#8208;CD4 (as in A) in the presence or absence of 2 &#956;g biotinylated anti&#8208;CD5 (clone 53&#8208;7.3). The intensity of phospho&#8208;LCK(Y505) is represented as percent of phospho&#8208;LCK(Y505) intensity in the unstimulated condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54378</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54381</offset>
+      <text>Mature T cells deprived of CBLB showed markedly increased responses to TCR stimulation as compared to wild&#8208;type T cells. Conversely, CBL&#8208;deficient mature T cells proliferate poorly in response to anti&#8208;CD3 stimulation. The interactors that are solely found in the CBLB signalosome may thus account for the negative regulatory role played by CBLB in mature T cells. Among them are the NCK2 adaptor, the small actin&#8208;binding protein PFN1 that regulates actin polymerization in response to extracellular signals, and ANKRD13A that binds to ubiquitylated species and regulates endocytosis of the epidermal growth factor receptor (Tanno et&#160;al, 2012) and of the B cell antigen receptor (Satpathy et&#160;al, 2015). The different &#8220;entry points&#8221; used by CBL and CBLB to dock at the plasma membrane and plug in the TCR signal transduction network might also account for the contrasting regulatory functions exerted by CBL and CBLB in mature T cells. For instance, the LAT and LAX1 transmembrane adaptors are only found in the CBLB signalosome, and the binding of CBLB to LAT might uniquely attenuate TCR signaling via both LAT ubiquitylation (Balagopalan et&#160;al, 2011) and deactivation of TCR&#8208;proximal tyrosine kinases by UBASH3B and CSK.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55620</offset>
+      <text>The CBL signalosome differed from the CBLB signalosome by the presence of the receptor tyrosine phosphatase PTPRC and of the integrin &#946; chain ITGB2. TCR stimulation also induced the association of CBL with six members of the 14&#8208;3&#8208;3 family proteins; 14&#8208;3&#8208;3 proteins are thought to modulate the interaction of CBL with signaling proteins (Liu et&#160;al, 1999). All the known catalytic subunits and two of the three regulatory subunits of class IA PI3K associated with CBL upon TCR stimulation. Binding of CBL to PI3K is mediated via the interaction of the SH2 domain of the p85 subunit of PI3K and the phosphorylated tyrosine found at position 731 of CBL, and it accounts for the effects exerted by CBL on cytoskeletal rearrangement (Lee &amp; Tsygankov, 2013). This interaction localizes PI3K to the plasma membrane for the production of phosphatidylinositol (3,4,5)&#8208;trisphosphate (PIP3). After PI3K activation, increased PIP3 levels recruit PH domain&#8208;containing Rho&#8208;GEFs that activate downstream GTPases and in turn induce actin polymerization (Haglund &amp; Dikic, 2012; Croise et&#160;al, 2014). Congruent with a role of a CBL&#8208;PI3K axis in the control of actin dynamics during endocytic processes, CBL associated with ARPC1B, a subunit of the Arp2/3 complex that is implicated in the control of actin polymerization, with IQGAP1, a scaffold protein involved in actin&#8208; and tubulin&#8208;based cytoskeletal reorganization that negatively regulates TCR stimulation (Gorman et&#160;al, 2012), with annexin A6 (ANXA6) that binds phospholipids in cellular membranes and contributes to regulation of endocytic transport, with the F&#8208;actin capping proteins CAPZA1 and CAPZA2, with the adaptor CD2AP and SH3KBP1, with the Diaphanous&#8208;related formin DIAPH2, with clathrin heavy chain (CLTC), and with tubulins TUBB4B and TUBB5. Association of the inositol polyphosphate&#8208;5&#8208;phosphatase INPP5D (also known as SHIP1) with CBL was also induced following T&#8208;cell activation, a paradoxical finding considering that INPP5D hydrolyzes PIP3 and thus opposes PI3K activity. The presence of PI3K and INNP5D in distinct CBL complexes might constitute a solution to this conundrum. Despite the fact that the signalosome of CBL is quantitatively richer than that of CBLB (our study), no detectable pathological condition resulted from the deletion of the Cbl gene (Naramura et&#160;al, 2002). The analysis of the in&#160;vivo consequences of constitutive gene inactivation has, however, clear limitations since mechanisms might be set in motion and capable of compensating the missing gene product. Conditional deletion of the Cbl gene in mature CD4+ T cells will permit to obviate these limitations and to assess whether the unique features and richness of the CBL signalosome become functionally more blatant.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58404</offset>
+      <text>In conclusion, our study demonstrates the benefits of combining time&#8208;resolved AP&#8208;MS analysis with computational methods to exploit correlations in protein association with CBL and CBLB as a function of time of TCR stimulation for predicting the occurrence of physical association between them. By properly predicting novel PPIs among the CBL and CBLB interacting partners, we highlighted yet unappreciated mechanisms on how CBL and CBLB regulate ubiquitylation following TCR stimulation. Finally, our work provides the basis for analyzing in a systematic and integrated manner the large numbers of interactomes that will be needed to make sense of the formidable complexity of the TCR signal&#8208;transduction network.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>59124</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59146</offset>
+      <text>Construction of a OST&#8208;(Stop)2&#8208;IRES2&#8208;mTFP1&#8208;loxP&#8208;frt&#8208;neor&#8208;frt cassette</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59229</offset>
+      <text>A cassette containing a One&#8208;STrEP&#8208;tag (OST) sequence (Junttila et&#160;al, 2005), two STOP codons, an IRES2 sequence (derived from pIRES2&#8208;EGFP; Clontech), a Kozak sequence, and a sequence coding for mTFP1, a monomeric, bright, and photostable version of Clavularia cyan fluorescent protein (Ai et&#160;al, 2006), was abutted to the 5&#8242;&#160;end of a frt&#8208;neor&#8208;frt cassette in which the neomycin&#8211;kanamycin resistance (neo r) gene can be expressed under the control of a prokaryotic (gb2) or a eukaryotic (Pgk1) promoter.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59749</offset>
+      <text> Cblb OST targeting vector</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59776</offset>
+      <text>A 6.2&#8208;kb genomic fragment containing the 3&#8242; end of the Cblb gene was isolated from a BAC clone (clone no. RP23&#8208;15M11; http://www.lifesciences.sourcebioscience.com) of C57BL/6J origin. Using recombination in Escherichia coli, a chloramphenicol&#8208;resistance gene&#160;bracketed at its 5&#8242; end by a sequence that codes for a Gly&#8208;Ser&#8208;Gly spacer sequence comprising a BspeE1 site and at its 3&#8242; end by a SalI site was inserted in frame at the 3&#8242; end of the Cblb coding sequence found in exon 19. Colonies containing a correctly inserted chloramphenicol resistance gene were selected, and the chloramphenicol resistance gene was excised using BspeE1 and SalI digestion and replaced by a XmaI&#8208;SalI fragment corresponding to a&#160;OST&#8208;(Stop)2&#8208;IRES2&#8208;mTFP1&#8208;loxP&#8208;frt&#8208;neor&#8208;frt cassette (see above). A loxP site was then introduced in the intron between exons 18 and 19. Finally, the targeting construct was abutted to a cassette coding for the diphtheria toxin fragment A (Soriano, 1997).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60776</offset>
+      <text> Cbl OST targeting vector</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60802</offset>
+      <text>A 7.5&#8208;kb genomic fragment containing exons 13&#8211;16 of the Cbl gene was isolated from a BAC clone (clone no. RP23&#8208;302P9; http://www.lifesciences.sourcebioscience) of C57BL/6J origin. A OST&#8208;(Stop)2loxP&#8208;tACE&#8208;CRE&#8208;PGK&#8208;gb2&#8208;neo r&#8208;loxP cassette was introduced at the 3&#8242; end of the Cbl coding sequence found in exon 16 as described (Roncagalli et&#160;al, 2014). Finally, the targeting construct was abutted to a cassette for the expression of thymidine kinase.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61271</offset>
+      <text>Isolation of recombinant embryonic stem (ES) cell clones</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61328</offset>
+      <text>Bruce 4 C57BL/6J ES cells (Kontgen et&#160;al, 1993) and JM8.F6 C57BL/6N ES cells (Pettitt et&#160;al, 2009) were electroporated with the Cblb OST and Cbl OST targeting vectors, respectively. After selection in G418 (Cblb OST) or G418 and ganciclovir (Cbl OST), ES cell clones were screened for proper homologous recombination by Southern blot or PCR analysis. Cbl OST allele: When tested on BamHI&#8208;digested genomic DNA, the 5&#8242; single&#8208;copy probe used to identify proper recombination events hybridized to a 16&#8208;kb wild&#8208;type fragment and to a 13.2&#8208;kb recombinant fragment. When tested on BamHI&#8208;digested genomic DNA, the 3&#8242; single&#8208;copy probe used to identify proper recombination events hybridized to a 16&#8208;kb wild&#8208;type fragment and to a 7&#8208;kb recombinant fragment. Cblb OST allele: When tested on Asp718&#8208;digested genomic DNA, the 5&#8242; single&#8208;copy probe used to identify proper recombination events hybridized to a 13.3&#8208;kb wild&#8208;type fragment and to a 4.7&#8208;kb recombinant fragment. When tested on Asp718&#8208;digested genomic DNA, the 3&#8242; single&#8208;copy probe used to identify proper recombination events hybridized to a 13.3&#8208;kb wild&#8208;type fragment and to a 9.3&#8208;kb recombinant fragment. A neo r&#8208;specific probe was used to ensure that adventitious non&#8208;homologous recombination events had not occurred in the selected clones corresponding to the Cbl OST and Cblb OST alleles.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62726</offset>
+      <text>Production of knock&#8208;in mice</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62756</offset>
+      <text>Mutant ES cells were injected into FVB blastocysts. In the case of the Cblb OST allele, excision of the frt&#8208;neor&#8208;frt cassette was achieved through cross with transgenic mice expressing a FLP recombinase under the control of the actin promoter (Rodriguez et&#160;al, 2000). In the case of the Cbl OST allele, screening for proper deletion of the loxP&#8208;tACE&#8208;CRE&#8208;PGK&#8208;gb2&#8208;neo&#8208;loxP cassette and for the presence of the sequence coding for the OST was performed by PCR using the following pair of primers: sense 5&#8242;&#8208;GTAGCTATCAACAAGGCGGAGGTGC&#8208;3&#8242; and antisense 5&#8242;&#8208;AAAGGCAGGACCTTACTGTGACGTC&#8208;3&#8242;. This pair of primers amplified a 300&#8208;bp band in the case of the wild&#8208;type allele and a 457&#8208;bp band in the case of the Cbl OST allele. In the case of the Cblb OST allele, screening for proper deletion of the frt&#8208;neor&#8208;frt cassette and for the presence of the OST&#8208;(Stop)2&#8208;IRES2&#8208;mTFP1&#8208;loxP sequence was performed by PCR using the following pair of primers: sense 5&#8242;&#8208;CTACTACATTCTCCCCCTAGATCCTAA&#8208;3&#8242; and antisense 5&#8242;&#8208;GGCATGGACGAGCTGTACAAGTAAA&#8208;3&#8242;. This pair of primers amplified a 510&#8208;bp band in the case of the wild&#8208;type allele and a 202&#8208;bp band in the case of the Cblb OST allele. Note that the Cblb OST allele is a multitask allele permitting (i) affinity purification of the CBLB protein, (ii) constitutive or conditional deletion of the Cblb gene, and (iii) visualization of cells expressing the Cblb gene. The two last functionalities were not used in the present study.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64277</offset>
+      <text>Mice</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64282</offset>
+      <text>CBLOST (B6&#8208;Cbl tm1Mal), CBLBOST (B6&#8208;Cblb tm1Ciphe), Cbl &#8722;/&#8722; (B6.129&#8208;Cbl tm1.1Hua), Cblb &#8722;/&#8722; (B6.129P2&#8208;Cblb tm1Pngr), Cd5 &#8722;/&#8722; (B6.129&#8208;Cd5 tm1Cgn), and wild&#8208;type B6 mice were maintained in specific pathogen&#8208;free conditions, and all experiments were done in accordance with institutional committees and French and European guidelines for animal care.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64656</offset>
+      <text>Flow cytometry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64671</offset>
+      <text>Stained cells were analyzed using an LSRII system (BD Biosciences). Data were analyzed with the Diva software (BD Biosciences). Cell viability was evaluated using SYTOX Blue (Life Technologies). The following antibodies were used: anti&#8208;CD5 (53&#8211;7.3), anti&#8208;CD4 (RM4&#8208;5), anti&#8208;CD8&#945; (53&#8211;6.7), and anti&#8208;CD45R (R3&#8208;6B2), all from BD Biosciences. For analyzing, the relative intracytoplasmic amounts of CBL and CBLB in double&#8208;positive thymocytes and CD4+ T cells from the spleen, cells were stained with antibodies directed at CD5 (53&#8211;7.3), CD8&#945; (53&#8211;6.7), and CD4 (RM4&#8208;5), permeabilized with BD Cytofix/Cytoperm (BD Biosciences) for 30&#160;min at 4&#176;C, and then stained with saturating amount of Strep&#8208;Tactin APC (IBA GmbH).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65412</offset>
+      <text>CD4+ T&#8208;cell proliferation and IL&#8208;2 secretion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65461</offset>
+      <text>For proliferation and IL&#8208;2 secretion assay, purified CD4+ T cells were stimulated with plate&#8208;bound anti&#8208;CD3 (145&#8208;2C11; Exbio) and soluble anti&#8208;CD28 (37&#8211;51; Exbio). After 48&#160;h of culture, T&#8208;cell proliferation was assessed with CellTiter&#8208;Glo&#174; Luminescent (Promega). The resulting luminescence, which is proportional to the ATP content of the culture, was measured with a Victor 2 luminometer (Wallac, Perkin Elmer Life Science). IL&#8208;2 production was measured with a DuoSet ELISA test (R&amp;D Systems).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65977</offset>
+      <text>CD4+ T&#8208;cell isolation and short&#8208;term expansion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66028</offset>
+      <text>CD4+ T cells were purified from pooled lymph nodes and spleens with a Dynabeads Untouched Mouse CD4+ T Cell Kit (Life Technologies); cell purity was 95%. Purified CD4+ T cells were expanded for 48&#160;h with plate&#8208;bound anti&#8208;CD3 (145&#8208;2C11, 5&#160;&#956;g/ml) and soluble anti&#8208;CD28 (37&#8211;51; 1&#160;&#956;g/ml) both from Exbio. After 48&#160;h of culture, CD4+ T cells were harvested and grown in&#160;the presence of IL&#8208;2 (5&#8211;10&#160;U/ml) for 48&#160;h prior to AP&#8208;MS analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66485</offset>
+      <text>Stimulation and lysis of CD4+ T cells prior to AP&#8208;MS analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66549</offset>
+      <text>Short&#8208;term expanded CD4+ T cells (100&#160;&#215;&#160;106) from CBLOST, CBLBOST, and wild&#8208;type mice were left unstimulated or stimulated at 37&#176;C with antibodies. In the last instance, CD4+ T cells were incubated with anti&#8208;CD3 (0.2&#160;&#956;g per 106 cells; 145&#8208;2C11; Exbio) and anti&#8208;CD4 (0.2&#160;&#956;g per 106 cells; GK1.5; Exbio) on ice, followed by one round of washing at 4&#176;C. Cells were then incubated at 37&#176;C for 5&#160;min and subsequently left unstimulated or stimulated at 37&#176;C with a purified rabbit anti&#8208;rat (0.4&#160;&#956;g per 106 cells; Jackson ImmunoResearch) for 0.5, 2, 5, or 10&#160;min at 37&#176;C. Stimulation was stopped by the addition of a twice&#8208;concentrated lysis buffer (100&#160;mM Tris,&#160;pH 7.5, 270&#160;mM NaCl, 1&#160;mM EDTA, 20% glycerol, 0.2% n&#8208;dodecyl&#8208;&#946;&#8208;maltoside) supplemented with protease and phosphatase inhibitors. After 10&#160;min of incubation on ice, cell lysates were centrifuged at 21,000&#160;g for 5&#160;min at 4&#176;C. Postnuclear lysates were then used for affinity purification.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67536</offset>
+      <text>Affinity purification of protein complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67579</offset>
+      <text>Equal amount of postnuclear lysates were incubated with prewashed Strep&#8208;Tactin Sepharose beads (IBA GmbH) for 1.5&#160;h at 4&#176;C on a rotary wheel. Beads were then washed five times with 1&#160;ml of lysis buffer in the absence of detergent and of protease and phosphatase inhibitors. Proteins were eluted from the Strep&#8208;Tactin Sepharose beads with 2.5&#160;mM D&#8208;biotin.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67944</offset>
+      <text>Tandem MS analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67963</offset>
+      <text>Following affinity purification, protein samples were partially air&#8208;dried in a Speed&#8208;Vac concentrator, reconstituted in Laemmli buffer containing DTT (25&#160;mM), and heated at 95&#176;C for 5&#160;min. Cysteines were alkylated for 30&#160;min at room temperature by the addition of iodoacetamide (90&#160;mM). Protein samples were loaded on an SDS&#8211;PAGE gel (0.15&#160;&#215;&#160;3&#160;&#215;&#160;8&#160;cm) and subjected to electrophoresis. Migration was stopped as soon as the protein sample entered the gel. The gel was briefly stained with Coomassie blue, and a single slice containing the whole sample was excised. The gel slice was washed twice with 100&#160;mM ammonium bicarbonate and once with 100&#160;mM ammonium bicarbonate&#8211;acetonitrile (1:1). Proteins were in&#8208;gel&#8208;digested using 0.6&#160;&#956;g modified sequencing&#8208;grade trypsin (Promega) in 50&#160;mM ammonium bicarbonate overnight at 37&#176;C. The resulting peptides were extracted from the gel by one round of incubation (15&#160;min, 37&#176;C) in 50&#160;mM ammonium bicarbonate and two rounds of incubation (15&#160;min each, 37&#176;C) in 10% formic acid&#8211;acetonitrile (1:1). The three extracted fractions were pooled with the solution in which the digestion proceeded and air&#8208;dried. Peptides were further purified on a C18 ZipTip (Millipore) and dried again. To identify CBL&#8208; and CBLB&#8208;binding partners, the tryptic peptides were resuspended in 20&#160;&#956;l of 2% acetonitrile and 0.05% trifluoroacetic acid and analyzed by MS. A mix of standard synthetic peptides (iRT Kit; Biognosys) was spiked in all samples to monitor the stability of the nano&#8208;LC&#8208;MS system during the analytical sequence. Peptides were analyzed by nano&#8208;liquid chromatography (LC) coupled to tandem MS using an UltiMate 3000 system (NCS&#8208;3500RS Nano/Cap System; Dionex) coupled to an Orbitrap Velos Pro mass spectrometer (Thermo Fisher Scientific). Five microliters of each sample was loaded on a C18 precolumn (300&#160;&#956;m inner diameter&#160;&#215;&#160;5&#160;mm, Dionex) in a solvent made of 2% acetonitrile and 0.05% trifluoroacetic acid, at a flow rate of 20&#160;&#956;l/min. After 5&#160;min of desalting, the precolumn was switched online with the analytical C18 column (75&#160;&#956;m inner diameter&#160;&#215;&#160;50&#160;cm, in&#8208;house packed with Reprosil C18) equilibrated in 95% solvent A (5% acetonitrile, 0.2% formic acid) and 5% solvent B (80% acetonitrile, 0.2% formic acid). Peptides were eluted using a 5&#8211;50% gradient of solvent B over 105&#160;min at a flow rate of 300&#160;nl/min. The LTQ Orbitrap Velos was&#160;operated in data&#8208;dependent acquisition mode with Xcalibur software. Survey scan MS was acquired in the Orbitrap on the 350&#8211;2,000&#160;m/z range, with the resolution set to a value of 60,000. The 20 most intense ions survey scans were selected for fragmentation by collision&#8208;induced dissociation, and the resulting fragments were analyzed in the linear trap. Dynamic exclusion was used within 60&#160;s to prevent repetitive selection of the same peptide. Technical LC&#8208;MS measurements were performed in triplicate (CBL&#8208;OST) and duplicate (CBLB&#8208;OST) for each of the samples.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>70994</offset>
+      <text>Protein identification and quantification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71036</offset>
+      <text>Raw MS files were processed with MaxQuant software (version 1.5.0) for database search with the Andromeda search engine and quantitative analysis. Data were searched against Mus musculus entries in the UniProt protein database (release UniProtKB/Swiss&#8208;Prot 2014_09; 16,699 entries). Carbamidomethylation of cysteines was set as a fixed modification, whereas oxidation of methionine, protein N&#8208;terminal acetylation, and phosphorylation of serine, threonine, and tyrosine were set as variable modifications. Specificity of trypsin digestion was set for cleavage after K or R, and two missed trypsin cleavage sites were allowed. The precursor mass tolerance was set to 20&#160;ppm for the first search and 4.5&#160;ppm for the main Andromeda database search. The mass tolerance in tandem MS mode was set to 0.5&#160;Da. Minimum peptide length was set to seven amino acids, and minimum number of unique peptides was set to one. Andromeda results were validated by the target decoy approach using a reverse database at both a peptide and protein false discovery rate of 1%. For label&#8208;free relative quantification of the samples, the match between runs option of MaxQuant was enabled with a time window of 0.5&#160;min, to allow cross&#8208;assignment of MS features detected in the different runs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>72315</offset>
+      <text>Identification of specific binding partners</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72359</offset>
+      <text>To identify specific CBL&#8208; and CBLB&#8208;binding partners, we used the intensity metric from the MaxQuant protein group.txt output (sum of peptide intensity values for each protein) normalized by iRT standard peptides (Dataset EV1). Protein intensities were first normalized by adjusting the mean log intensities corresponding to all the proteins that were detected at all times points and in all biological and technical replicates of CBLOST, CBLBOST, and wild&#8208;type origins. To replace missing protein intensity values, we estimated the statistics of background signals from protein intensities of wild&#8208;type samples. Accordingly, for each detected protein, the mean and standard deviation of log&#8208;transformed wild&#8208;type intensities were calculated. Missing values were then replaced by sampling from a log normal distribution centered on the 5&#8208;percentile of the distribution of mean log wild&#8208;type intensities with a standard deviation set to the mean standard deviation of log wild&#8208;type intensities computed across all detected proteins. Mean log intensities (across all detected proteins) in wild&#8208;type and CBLOST and CBLBOST backgrounds were then normalized independently for each stimulatory condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73577</offset>
+      <text>To determine whether a given detected protein was specifically associated with the bait at a time &#8220;t&#8221;, we compared the distributions of these normalized log intensities between wild&#8208;type and CBLOST (or CBLBOST) backgrounds by computing the P&#8208;value from a one&#8208;way ANOVA test &#8220;P(t)&#8221; along with the corresponding enrichment &#8220;r(t)&#8221;. Proteins were selected as specific partners of the CBLOST (or CBLBOST) bait when both the P&#8208;value was below a set threshold (P&#160;=&#160;0.001 for CBLOST and P&#160;=&#160;0.005 for CBLBOST) and the corresponding enrichment was greater than twofold. This selection process was repeated 200 times using wild&#8208;type and CBLOST (or CBLBOST) intensities resampled independently from the original distributions using a bootstrap algorithm. Only proteins that were selected as specific partners in at least 90% of such tests were included in the final list of specific partners.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74485</offset>
+      <text>Construction of correlation networks</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74522</offset>
+      <text>To quantify the kinetics of recruitment of a given interactor to the CBL&#8208;OST (or CBLB&#8208;OST) bait, we first normalized protein intensities for each condition to that of the corresponding bait. This ensured a constant intensity for the CBL&#8208;OST (or CBLB&#8208;OST) bait across all conditions (all times points and all biological and technical replicates). Next, for each protein and each biological replicate, the intensity was normalized to the maximum (across all time points) of the mean intensities computed across technical replicates. From these normalized recruitment intensities, we quantified the correlation in recruitment between two different proteins by computing the Pearson coefficient along with the corresponding P&#8208;value. To avoid the detection of spurious correlations, we used a bootstrap algorithm to resample the normalized recruitment intensities from their original distributions. The Pearson coefficient and the corresponding P&#8208;value were then estimated as their mean values across 1,000 bootstrap samples. This procedure was conducted for all pairs of identified proteins to construct a correlation matrix (R ij) along with the corresponding matrix of P&#8208;values (P ij). To obtain the correlation network for a chosen significance level &#945; (we arbitrarily chose &#945;&#160;=&#160;5&#160;&#215;&#160;10&#8722;5 here) between the N identified interactors (excluding the bait), we applied Bonferroni correction for N(N&#8722;1)/2 tests yielding a threshold P&#8208;value *P&#160;=&#160;5.29&#160;&#215;&#160;10&#8722;8 for the CBLB correlation network and *P&#160;=&#160;1.05&#160;&#215;&#160;10&#8722;8 for the CBL correlation network.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76100</offset>
+      <text>Comparison with interactions reported in the BioGRID database</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76162</offset>
+      <text>Physical interactions reported in version 3.4.130 of the BioGRID database among proteins from Homo sapiens or Mus musculus were used in our analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76312</offset>
+      <text>Immunoprecipitation, Western blot analysis, and antibodies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76371</offset>
+      <text>Briefly, expanded CD4+ T cells of the specified genotypes were incubated with anti&#8208;CD3 (0.2&#160;&#956;g per 106 cells; 145&#8208;2C11; Exbio) and anti&#8208;CD4 (0.2&#160;&#956;g per 106 cells; GK1.5; Exbio) for 15&#160;min on ice, followed by one round of washing at 4&#176;C. Cells were then incubated at 37&#176;C for 5&#160;min and subsequently left unstimulated or stimulated at 37&#176;C by cross&#8208;linking for 1&#160;min with purified goat anti&#8208;rat IgG F(ab&#8242;)2 (0.4&#160;&#956;g per 106 cells; Jackson ImmunoResearch). Stimulation was stopped by the addition of a twice&#8208;concentrated lysis buffer (100&#160;mM Tris, pH 7.5, 270&#160;mM NaCl, 1&#160;mM EDTA, 20% glycerol, 0.2% n&#8208;dodecyl&#8208;&#946;&#8208;maltoside) supplemented with protease and phosphatase inhibitors. After 10&#160;min of incubation on ice, cell lysates were centrifuged at 21,000&#160;g for 5&#160;min at 4&#176;C. Postnuclear lysates were used for immunoprecipitation or as whole&#8208;cell lysates for subsequent immunoblot analysis. For immunoprecipitation, equal amounts of cell lysates were incubated for 1.5&#160;h with specified antibodies. Immune complexes were purified with Pansorbin (Calbiochem) and were washed three times before elution in SDS&#8208;containing sample buffer. Eluted samples and whole&#8208;cell lysates were loaded on 8% SDS&#8211;PAGE gel and subsequently analyzed by immunoblot with specific antibodies. The following antibodies were used for immunoprecipitation: anti&#8208;CBL (sc&#8208;170), anti&#8208;CBLB (sc&#8208;1704), anti&#8208;CSK (sc&#8208;286), and anti&#8208;CRKL (sc&#8208;319) from Santa Cruz Biotechnology, and anti&#8208;p85&#8208;PI3K (4292) from Cell Signaling Technology. The following antibodies were used for immunoblot analysis: anti&#8208;CBL (2747), anti&#8208;p85&#8208;PI3K (4292), and anti&#8208;PI3K p110&#945; (4249) from Cell Signaling Technology; and anti&#8208;CD5 (sc&#8208;6986), anti&#8208;CSK (sc&#8208;166513), anti&#8208;CRKL (sc&#8208;365471), and anti&#8208;CBLB (sc&#8208;376409) from Santa Cruz Biotechnology. The antibody anti&#8208;phospho&#8208;LCK(Y505) (2751) from Cell Signaling Technology was used for intracellular staining.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78354</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78372</offset>
+      <text> Dataset EV2 shows the quantification of all peptides identified in this study. Selected partners and corresponding peptides of CBL and CBLB are also listed. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository (http://www.ebi.ac.uk/pride) with the dataset identifier PXD004130.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>78723</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78744</offset>
+      <text>BM, RR, and GV conceived the project; GV and RR designed and did the experiments for Figs&#160;1, 4, 5, 6, 7 and EV5; AGdP, AG&#8208;B, RR, KC, and OB&#8208;S designed and did the experiments for Fig&#160;2 and Dataset EV1; GV designed and performed the computational and bioinformatics analysis for Figs&#160;2, 3, 4, 5, 6 and EV2, EV3, EV4; BM, FF, and MM designed and performed the experiments for Fig&#160;EV1 with the technical help of LG and EB; and GV, RR, and BM wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>79213</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79234</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>79294</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>79317</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">712</infon>
+      <infon key="pub-id_pmid">18728635</infon>
+      <infon key="fpage">699</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>79328</offset>
+      <text>Tailoring T&#8208;cell receptor signals by&#160;proximal negative feedback mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">400</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">540</infon>
+      <infon key="pub-id_pmid">16859491</infon>
+      <infon key="fpage">531</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>79406</offset>
+      <text>Directed evolution of a monomeric, bright and photostable version of Clavularia cyan fluorescent protein: structural characterization and applications in fluorescence imaging</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Trends Immunol</infon>
+      <infon key="lpage">496</infon>
+      <infon key="pub-id_pmid">11525939</infon>
+      <infon key="fpage">490</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>79581</offset>
+      <text>PI 3&#8208;K and T&#8208;cell activation: limitations of T&#8208;leukemic cell lines as signaling models</text>
+    </passage>
+    <passage>
+      <infon key="volume">166</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">5472</infon>
+      <infon key="pub-id_pmid">11313384</infon>
+      <infon key="fpage">5464</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>79674</offset>
+      <text>Fine tuning of TCR signaling by CD5</text>
+    </passage>
+    <passage>
+      <infon key="volume">403</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">216</infon>
+      <infon key="pub-id_pmid">10646608</infon>
+      <infon key="fpage">211</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>79710</offset>
+      <text>Negative regulation of lymphocyte activation and autoimmunity by the molecular adaptor Cbl&#8208;b</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">2890</infon>
+      <infon key="pub-id_pmid">21282648</infon>
+      <infon key="fpage">2885</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>79805</offset>
+      <text>Enhanced T&#8208;cell signaling in cells bearing linker for activation of T&#8208;cell (LAT) molecules resistant to ubiquitylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">30336</infon>
+      <infon key="pub-id_pmid">21757751</infon>
+      <infon key="fpage">30324</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>79928</offset>
+      <text>A new pathway of CD5 glycoprotein&#8208;mediated T cell inhibition dependent on inhibitory phosphorylation of Fyn kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1093</infon>
+      <infon key="pub-id_pmid">19237447</infon>
+      <infon key="fpage">1091</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>80045</offset>
+      <text>ClueGO: a cytoscape plug&#8208;in to decipher functionally grouped gene ontology and pathway annotation networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">191</infon>
+      <infon key="source">J Exp Med</infon>
+      <infon key="lpage">1604</infon>
+      <infon key="pub-id_pmid">10790433</infon>
+      <infon key="fpage">1591</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>80154</offset>
+      <text>Phosphoprotein associated with glycosphingolipid&#8208;enriched microdomains (PAG), a novel ubiquitously expressed transmembrane adaptor protein, binds the protein tyrosine kinase csk and&#160;is involved in regulation of T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">170</infon>
+      <infon key="source">J&#160;Immunol</infon>
+      <infon key="lpage">4629</infon>
+      <infon key="pub-id_pmid">12707340</infon>
+      <infon key="fpage">4623</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>80386</offset>
+      <text>CD5 inhibits signaling at the immunological synapse without impairing its formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">271</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">6163</infon>
+      <infon key="pub-id_pmid">8626404</infon>
+      <infon key="fpage">6159</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>80470</offset>
+      <text>Interactions of Cbl with two adapter proteins, Grb2 and Crk, upon T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3483</infon>
+      <infon key="pub-id_pmid">17599068</infon>
+      <infon key="fpage">3474</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>80554</offset>
+      <text>Sequence and structure evolved separately in a ribosomal ubiquitin variant</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">807</infon>
+      <infon key="pub-id_pmid">25137454</infon>
+      <infon key="fpage">798</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>80629</offset>
+      <text>Insights into the initiation of TCR signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">403</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">220</infon>
+      <infon key="pub-id_pmid">10646609</infon>
+      <infon key="fpage">216</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>80675</offset>
+      <text>Cbl&#8208;b regulates the CD28 dependence of T&#8208;cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">1036</infon>
+      <infon key="pub-id_pmid">17364027</infon>
+      <infon key="fpage">1029</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>80736</offset>
+      <text>Ablation of Cbl&#8208;b provides protection against transplanted and spontaneous tumors</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">1253</infon>
+      <infon key="pub-id_pmid">24162925</infon>
+      <infon key="fpage">1246</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>80820</offset>
+      <text>Quantifying protein interaction dynamics by SWATH mass spectrometry: application to the 14&#8208;3&#8208;3 system</text>
+    </passage>
+    <passage>
+      <infon key="source">Small GTPases</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24914539</infon>
+      <infon key="fpage">e29469</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>80926</offset>
+      <text>Rho GTPases, phosphoinositides, and actin: a tripartite framework for efficient vesicular trafficking</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2028</infon>
+      <infon key="pub-id_pmid">12612075</infon>
+      <infon key="fpage">2017</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>81028</offset>
+      <text>Phosphorylation&#8208;dependent regulation of T&#8208;cell activation by PAG/Cbp, a lipid raft&#8208;associated transmembrane adaptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">7115</infon>
+      <infon key="pub-id_pmid">15273720</infon>
+      <infon key="fpage">7104</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>81150</offset>
+      <text>Cbl&#8208;b interacts with ubiquitinated proteins; differential functions of the UBA domains of c&#8208;Cbl and Cbl&#8208;b</text>
+    </passage>
+    <passage>
+      <infon key="volume">392</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">504</infon>
+      <infon key="pub-id_pmid">20085752</infon>
+      <infon key="fpage">500</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>81262</offset>
+      <text>c&#8208;Cbl mediated ubiquitylation and regulation of cell surface exposure of CD5</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Eur J Immunol</infon>
+      <infon key="lpage">1625</infon>
+      <infon key="pub-id_pmid">9603468</infon>
+      <infon key="fpage">1617</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>81341</offset>
+      <text>Thymocyte activation induces the association of the proto&#8208;oncoprotein c&#8208;cbl and ras GTPase&#8208;activating protein with CD5</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">10542</infon>
+      <infon key="pub-id_pmid">16287865</infon>
+      <infon key="fpage">10533</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>81466</offset>
+      <text>The ubiquitously expressed Csk adaptor protein Cbp is dispensable for embryogenesis and T&#8208;cell development and function</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">875</infon>
+      <infon key="pub-id_pmid">11526404</infon>
+      <infon key="fpage">870</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>81588</offset>
+      <text>Proteolysis&#8208;independent regulation of PI3K by Cbl&#8208;b&#8208;mediated ubiquitination in T cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">4706</infon>
+      <infon key="pub-id_pmid">15107835</infon>
+      <infon key="fpage">4690</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>81681</offset>
+      <text>TULA: an SH3&#8208; and UBA&#8208;containing protein that binds to c&#8208;Cbl and ubiquitin</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">36182</infon>
+      <infon key="pub-id_pmid">11418612</infon>
+      <infon key="fpage">36174</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>81762</offset>
+      <text>T cell activation induces direct binding of the Crk adapter protein to the regulatory subunit of phosphatidylinositol 3&#8208;kinase (p85) via a complex mechanism involving the Cbl protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">654</infon>
+      <infon key="pub-id_pmid">17593931</infon>
+      <infon key="fpage">645</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>81947</offset>
+      <text>Analysis of protein complexes using mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">188</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">6144</infon>
+      <infon key="pub-id_pmid">22573807</infon>
+      <infon key="fpage">6135</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>82001</offset>
+      <text>The cytoskeletal adaptor protein IQGAP1 regulates TCR&#8208;mediated signaling and filamentous actin dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">1239</infon>
+      <infon key="pub-id_pmid">15467726</infon>
+      <infon key="fpage">1234</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>82107</offset>
+      <text>TCR affinity and negative regulation limit autoimmunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">275</infon>
+      <infon key="pub-id_pmid">22357968</infon>
+      <infon key="fpage">265</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>82163</offset>
+      <text>The role of ubiquitylation in receptor endocytosis and endosomal sorting</text>
+    </passage>
+    <passage>
+      <infon key="volume">163</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">723</infon>
+      <infon key="pub-id_pmid">26496610</infon>
+      <infon key="fpage">712</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>82236</offset>
+      <text>A human interactome in three quantitative dimensions organized by stoichiometries and abundances</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22962608</infon>
+      <infon key="fpage">e44295</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>82333</offset>
+      <text>Adoptive transfer of siRNA Cblb&#8208;silenced CD8+ T lymphocytes augments tumor vaccine efficacy in a B16 melanoma model</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">616</infon>
+      <infon key="pub-id_pmid">15286727</infon>
+      <infon key="fpage">603</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>82451</offset>
+      <text>Transmembrane adaptor proteins: organizers of immunoreceptor signalling</text>
+    </passage>
+    <passage>
+      <infon key="volume">224</infon>
+      <infon key="source">Immunol Rev</infon>
+      <infon key="lpage">238</infon>
+      <infon key="pub-id_pmid">18759930</infon>
+      <infon key="fpage">229</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>82523</offset>
+      <text>Negative regulation of lymphocyte development and function by the Cbl family of proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">26551880</infon>
+      <infon key="fpage">104</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>82612</offset>
+      <text>The cytotoxic T cell proteome and its shaping by the kinase mTOR</text>
+    </passage>
+    <passage>
+      <infon key="volume">274</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">2106</infon>
+      <infon key="pub-id_pmid">9890970</infon>
+      <infon key="fpage">2097</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>82677</offset>
+      <text>Fyn associates with Cbl and phosphorylates tyrosine 731 in Cbl, a binding site for phosphatidylinositol 3&#8208;kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">1203</infon>
+      <infon key="pub-id_pmid">15761952</infon>
+      <infon key="fpage">1199</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>82792</offset>
+      <text>Single&#8208;step Strep&#8208;tag purification for the isolation and identification of protein complexes from mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Int Immunol</infon>
+      <infon key="lpage">964</infon>
+      <infon key="pub-id_pmid">8398989</infon>
+      <infon key="fpage">957</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>82910</offset>
+      <text>Targeted disruption of the MHC class II Aa gene in C57BL/6 mice</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Syst Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">21281499</infon>
+      <infon key="fpage">21</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>82974</offset>
+      <text>Gaussian graphical modeling reconstructs pathway reactions from high&#8208;throughput metabolomics data</text>
+    </passage>
+    <passage>
+      <infon key="volume">228</infon>
+      <infon key="source">J Cell Physiol</infon>
+      <infon key="lpage">2293</infon>
+      <infon key="pub-id_pmid">23744514</infon>
+      <infon key="fpage">2285</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>83074</offset>
+      <text>Cbl&#8208;family proteins as regulators of cytoskeleton&#8208;dependent phenomena</text>
+    </passage>
+    <passage>
+      <infon key="volume">162</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">7101</infon>
+      <infon key="pub-id_pmid">10358153</infon>
+      <infon key="fpage">7095</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>83148</offset>
+      <text>Protein kinase C activation inhibits tyrosine phosphorylation of Cbl and its recruitment of Src homology 2 domain&#8208;containing proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">36762</infon>
+      <infon key="pub-id_pmid">12842890</infon>
+      <infon key="fpage">36754</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>83284</offset>
+      <text>The roles of Cbl&#8208;b and c&#8208;Cbl in insulin&#8208;stimulated glucose transport</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Crit Rev Immunol</infon>
+      <infon key="lpage">358</infon>
+      <infon key="pub-id_pmid">11100806</infon>
+      <infon key="fpage">347</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>83359</offset>
+      <text>CD5 signal transduction: positive or negative modulation of antigen receptor signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">FEBS J</infon>
+      <infon key="lpage">707</infon>
+      <infon key="pub-id_pmid">24256567</infon>
+      <infon key="fpage">696</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83446</offset>
+      <text>Insights into the suppressor of T&#8208;cell receptor (TCR) signaling&#8208;1 (Sts&#8208;1)&#8208;mediated regulation of TCR signaling through the use of novel substrate&#8208;trapping Sts&#8208;1 phosphatase variants</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Annu Rev Immunol</infon>
+      <infon key="lpage">561</infon>
+      <infon key="pub-id_pmid">25861978</infon>
+      <infon key="fpage">539</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>83640</offset>
+      <text>Early T cell activation: integrating biochemical, structural, and biophysical cues</text>
+    </passage>
+    <passage>
+      <infon key="volume">194</infon>
+      <infon key="source">J Exp Med</infon>
+      <infon key="lpage">1787</infon>
+      <infon key="pub-id_pmid">11748279</infon>
+      <infon key="fpage">1777</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>83723</offset>
+      <text>The intersectin 2 adaptor links Wiskott Aldrich Syndrome protein (WASp)&#8208;mediated actin polymerization to T cell antigen receptor endocytosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">1199</infon>
+      <infon key="pub-id_pmid">12415267</infon>
+      <infon key="fpage">1192</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>83866</offset>
+      <text>c&#8208;Cbl and Cbl&#8208;b regulate T cell responsiveness by promoting ligand&#8208;induced TCR down&#8208;modulation</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Genet</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24904641</infon>
+      <infon key="fpage">141</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83969</offset>
+      <text>The role of the E3 ligase Not4 in cotranslational quality control</text>
+    </passage>
+    <passage>
+      <infon key="volume">186</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">2147</infon>
+      <infon key="pub-id_pmid">21248250</infon>
+      <infon key="fpage">2138</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>84035</offset>
+      <text>Essential role of E3 ubiquitin ligase activity in Cbl&#8208;b&#8208;regulated T cell functions</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci STKE</infon>
+      <infon key="volume">2005</infon>
+      <infon key="pub-id_pmid">15855409</infon>
+      <infon key="fpage">pl4</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>84122</offset>
+      <text>Bayesian network analysis of signaling networks: a primer</text>
+    </passage>
+    <passage>
+      <infon key="volume">163</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">6501</infon>
+      <infon key="pub-id_pmid">10586041</infon>
+      <infon key="fpage">6494</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>84180</offset>
+      <text>Negative regulation of CD4 lineage development and responses by CD5</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">495</infon>
+      <infon key="pub-id_pmid">19525957</infon>
+      <infon key="fpage">493</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84248</offset>
+      <text>Agouti C57BL/6N embryonic stem cells for mouse genetic resources</text>
+    </passage>
+    <passage>
+      <infon key="volume">195</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">5481</infon>
+      <infon key="pub-id_pmid">26512138</infon>
+      <infon key="fpage">5472</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>84313</offset>
+      <text>Revisiting the timing of action of the PAG adaptor using quantitative proteomics analysis of primary T cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">432</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">59</infon>
+      <infon key="pub-id_pmid">23376399</infon>
+      <infon key="fpage">52</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>84422</offset>
+      <text>The carboxy&#8208;terminal region of CD5 is required for c&#8208;CBL mediated TCR signaling downmodulation in thymocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">140</infon>
+      <infon key="pub-id_pmid">10835623</infon>
+      <infon key="fpage">139</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>84535</offset>
+      <text>High&#8208;efficiency deleter mice show that FLPe is an alternative to Cre&#8208;loxP</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">392</infon>
+      <infon key="pub-id_pmid">24584089</infon>
+      <infon key="fpage">384</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>84613</offset>
+      <text>Quantitative proteomics analysis of signalosome dynamics in primary T cells identifies the surface receptor CD6 as a Lat adaptor&#8208;independent TCR signaling hub</text>
+    </passage>
+    <passage>
+      <infon key="volume">291</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11618</infon>
+      <infon key="pub-id_pmid">27048651</infon>
+      <infon key="fpage">11608</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>84774</offset>
+      <text>The ubiquitin ligases c&#8208;Cbl and Cbl&#8208;b negatively regulate platelet&#8208;derived growth factor (PDGF) BB&#8208;induced chemotaxis by affecting PDGF receptor beta (PDGFRbeta) internalization and signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">15954</infon>
+      <infon key="pub-id_pmid">21393235</infon>
+      <infon key="fpage">15943</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>84974</offset>
+      <text>Sts&#8208;2 is a phosphatase that negatively regulates zeta&#8208;associated protein (ZAP)&#8208;70 and T cell receptor signaling pathways</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">26038114</infon>
+      <infon key="fpage">810</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>85101</offset>
+      <text>Systems&#8208;wide analysis of BCR signalosomes and downstream phosphorylation and ubiquitylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">918</infon>
+      <infon key="pub-id_pmid">16227975</infon>
+      <infon key="fpage">907</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>85195</offset>
+      <text>The Cbl interactome and its functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">179</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">7243</infon>
+      <infon key="pub-id_pmid">18025165</infon>
+      <infon key="fpage">7233</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>85233</offset>
+      <text>Cbl&#8208;b regulates antigen&#8208;induced TCR down&#8208;regulation and IFN&#8208;gamma production by effector CD8 T cells without affecting functional avidity</text>
+    </passage>
+    <passage>
+      <infon key="volume">124</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2700</infon>
+      <infon key="pub-id_pmid">9226440</infon>
+      <infon key="fpage">2691</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>85379</offset>
+      <text>The PDGF alpha receptor is required for neural crest cell development and for normal patterning of the somites</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">1353</infon>
+      <infon key="pub-id_pmid">22298428</infon>
+      <infon key="fpage">1343</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>85490</offset>
+      <text>The Ankrd 13 family of UIM&#8208;bearing proteins regulates EGF receptor endocytosis from the plasma membrane</text>
+    </passage>
+    <passage>
+      <infon key="volume">269</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">537</infon>
+      <infon key="pub-id_pmid">7542801</infon>
+      <infon key="fpage">535</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>85596</offset>
+      <text>A role for CD5 in TCR&#8208;mediated signal transduction and thymocyte selection</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">14714</infon>
+      <infon key="pub-id_pmid">20668237</infon>
+      <infon key="fpage">14709</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>85673</offset>
+      <text>T&#8208;cell regulation by casitas B&#8208;lineage lymphoma (Cblb) is a critical failsafe against autoimmune disease due to autoimmune regulator (Aire) deficiency</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">540</infon>
+      <infon key="pub-id_pmid">20399684</infon>
+      <infon key="fpage">531</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>85828</offset>
+      <text>Essential role of ubiquitin and TSG101 protein in formation and function of the central supramolecular activation cluster</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1298</infon>
+      <infon key="pub-id_pmid">20150895</infon>
+      <infon key="fpage">1285</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>85950</offset>
+      <text>Tonic ubiquitylation controls T&#8208;cell receptor:CD3 complex expression during T&#8208;cell development</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">8495</infon>
+      <infon key="pub-id_pmid">16166631</infon>
+      <infon key="fpage">8486</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>86049</offset>
+      <text>Cbp deficiency alters Csk localization in lipid rafts but does not affect T&#8208;cell development</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">1262</infon>
+      <infon key="pub-id_pmid">26390156</infon>
+      <infon key="fpage">1253</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86144</offset>
+      <text>K33&#8208;linked polyubiquitination of Zap70 by Nrdp1 controls CD8 T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">499</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">171</infon>
+      <infon key="pub-id_pmid">23846654</infon>
+      <infon key="fpage">166</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86225</offset>
+      <text>Temporal regulation of EGF signalling networks by the scaffold protein Shc1</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Protein Sci</infon>
+      <infon key="lpage">1814</infon>
+      <infon key="pub-id_pmid">18596201</infon>
+      <infon key="fpage">1805</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>86301</offset>
+      <text>Differential ubiquitin binding of the UBA domains from human c&#8208;Cbl and Cbl&#8208;b: NMR structural and biochemical insights</text>
+    </passage>
+    <passage>
+      <infon key="volume">506</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">24476824</infon>
+      <infon key="fpage">52</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>86423</offset>
+      <text> In vivo discovery of immunotherapy targets in the tumour microenvironment</text>
+    </passage>
+  </document>
+</collection>

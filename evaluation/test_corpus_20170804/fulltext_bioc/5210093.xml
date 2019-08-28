@@ -1,0 +1,1369 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5210093</id>
+    <passage>
+      <infon key="name_2">surname:Pouille;given-names:Philippe&#8208;Alexandre</infon>
+      <infon key="name_3">surname:Tosi;given-names:S&#233;bastien</infon>
+      <infon key="name_0">surname:Hern&#225;ndez&#8208;Vega;given-names:Amayra</infon>
+      <infon key="name_1">surname:Marsal;given-names:Mar&#237;a</infon>
+      <infon key="name_6">surname:Navajas;given-names:Daniel</infon>
+      <infon key="alt-title">Amayra Hern&#225;ndez&#8208;Vega et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694264</infon>
+      <infon key="name_5">surname:Luque;given-names:Tom&#225;s</infon>
+      <infon key="name_8">surname:Mart&#237;n&#8208;Blanco;given-names:Enrique</infon>
+      <infon key="lpage">41 41</infon>
+      <infon key="fpage">25 25</infon>
+      <infon key="year">2017</infon>
+      <infon key="name_7">surname:Pagonabarraga;given-names:Ignacio</infon>
+      <infon key="name_4">surname:Colombelli;given-names:Julien</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201694264</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="kwd">epiboly hydrodynamics mechanics morphogenesis zebrafish Development &amp; Differentiation Systems &amp; Computational Biology</infon>
+      <infon key="volume">36 36</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">1</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>Polarized cortical tension drives zebrafish epiboly movements</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>62</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>71</offset>
+      <text>The principles underlying the biomechanics of morphogenesis are largely unknown. Epiboly is an essential embryonic event in which three tissues coordinate to direct the expansion of the blastoderm. How and where forces are generated during epiboly, and how these are globally coupled remains elusive. Here we developed a method, hydrodynamic regression (HR), to infer 3D pressure fields, mechanical power, and cortical surface tension profiles. HR is based on velocity measurements retrieved from 2D+T microscopy and their hydrodynamic modeling. We applied HR to identify biomechanically active structures and changes in cortex local tension during epiboly in zebrafish. Based on our results, we propose a novel physical description for epiboly, where tissue movements are directed by a polarized gradient of cortical tension. We found that this gradient relies on local contractile forces at the cortex, differences in elastic properties between cortex components and the passive transmission of forces within the yolk cell. All in all, our work identifies a novel way to physically regulate concerted cellular movements that might be instrumental for the mechanical control of many morphogenetic processes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1280</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1293</offset>
+      <text>The construction of complex functional structures during morphogenesis results from the unfolding of the developmental program of individual cells. Importantly, morphogenesis does not only rely on a tight regulation of gene expression and cell communication but also depends on fundamental physical principles (Kiehart et&#160;al, 2000; Desprat et&#160;al, 2008; Pouille et&#160;al, 2009; Rauzi &amp; Lecuit, 2009; Aigouy et&#160;al, 2010; Lepage &amp; Bruce, 2010; Martin, 2010; Grill, 2011; Lecuit et&#160;al, 2011). The stereotyped tissue movements involved and the embryo optical accessibility makes zebrafish epiboly ideal for exploring mechanical coordination during morphogenesis (Concha &amp; Adams, 1998; Keller et&#160;al, 2003; Behrndt et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2019</offset>
+      <text>Epiboly is a conserved early embryonic morphogenetic movement that involves a striking physical reorganization characterized by the thinning and spreading of cell layers. Epiboly initiates when the enveloping layer (EVL), an external epithelial sheet, the deep cells&#8212;DCs, a spherical cap of blastomers centered on the animal pole of the embryo over the yolk cell, and the external yolk syncytial layer (E&#8208;YSL), a specialized region at the yolk surface positioned ahead at the EVL, undergo cortical vegetalward movements. These are associated with the shortening of the rest of the yolk surface (yolk cytoplasmic layer&#8212;YCL) and the doming up of the internal yolk. Epiboly ends by the closure of the blastoderm at the vegetal pole covering the yolk cell (Kimmel et&#160;al, 1995; Solnica&#8208;Krezel, 2006; Rohde &amp; Heisenberg, 2007; Fig&#160;1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>2859</offset>
+      <text>Epiboly kinematics</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>2878</offset>
+      <text>Representation of a zebrafish embryo at 70% epiboly. Animal (A) and vegetal (V) poles and &#966; (embryo surface, red) and &#961; (internal to external axis, green) are indicated. The enveloping layer (EVL) is a single&#8208;cell layer (dark gray) that stands at the animal cap surface surrounding the inner deep cells (DCs) (blue). It is attached to the yolk cell membrane (purple). The YSL and yolk cytoplasmic layer (YCL) (yellow) at the periphery and yolk granules fill the yolk cell. Progression of epiboly is represented by a curved black arrow. Geometrical axes are shown in gray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>3454</offset>
+      <text>Kinematics of the embryo surface. A kymograph of the embryo surface (&#966; axis) from a Tg(&#946;&#8208;actin:m&#8208;GFP) embryo shows the continuous displacement of the EVL/yolk margin, which accelerates after 50% epiboly, while most of the yolk cell membrane does not show any shift (see Video EV1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>3742</offset>
+      <text>Theoretical kymograph from 50 to 70% epiboly superimposed between the red lines on the experimental kymograph (B). Membrane signal intensity is color&#8208;coded (blue to red). White arrowheads point to flow lines (black).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>3961</offset>
+      <text>AV velocities, normalized to EVL/yolk margin velocity, were measured by PIV of time&#8208;lapse recordings of the surface of lectin&#8208;soaked embryos. The plots correspond to three different epiboly stages (30%, blue; 60%, red; and 90%, green). Blue and red arrows point to the width of the E&#8208;YSL at 30 and 60% epiboly, respectively (from Appendix&#160;Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4316</offset>
+      <text>The yolk cell membrane is highly convoluted (white brackets) ahead of the EVL leading cells and condenses over time. Tg(&#946;&#8208;actin:m&#8208;GFP) embryo at 30% (left) and 60% (right) epiboly. Scale bar, 25&#160;&#956;m. Inset shows a high magnification of the wrinkled area (arrowhead). Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4609</offset>
+      <text>Actin accumulates within wrinkles at the E&#8208;YSL. The yolk cell membrane of Lifeact&#8208;GFP&#8208;injected embryos (actin, green) was stained with lectin&#8208;TRITC (red) (top). Orthogonal projection of the wrinkled area (bottom). Wrinkles are outlined with a white dotted line. Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4898</offset>
+      <text>Biomechanical studies experience a major limitation, that is the difficulty to directly measure forces in&#160;vivo. Several methods have been developed to measure the mechanical properties of living cells. So far, however, they cannot be readily applied to whole developing organisms. Exceptions are the use of laser microsurgery (Toyama et&#160;al, 2008) and the use of genetically engineered mechanical biosensors (Grashoff et&#160;al, 2010). Alas, such techniques are intrusive, fall short of quantitative characterization [e.g., laser cuts cannot distinguish active and passive responses (Rodriguez&#8208;Diaz et&#160;al, 2008)] and cannot provide a global biomechanical representation of morphogenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5587</offset>
+      <text>We have developed a novel non&#8208;intrusive method that we refer to as hydrodynamic regression (HR), which can accurately and globally estimate the spatio&#8208;temporal profile of mechanical power and cortical tension in living organisms. It relies on considering that in deforming tissues during morphogenesis forces are balanced and stresses are continuous at the cortex/fluid interface. This physical principle (boundary condition) has been shown to apply at the single&#8208;cell embryo level (Niwayama et&#160;al, 2011) and on multicellular epithelia in gastrulating embryos (He et&#160;al, 2014). HR is mesoscopic and, although it cannot infer the mechanical properties of single cells, it helps identifying the regions where mechanical stress and power concentrate during tissue rearrangements. Importantly, it does not demand restrictive assumptions either on the mechanical nature of the cortex under stretch or on the physical properties of the embedding fluids. Thus, it can be applied to any morphogenetic process providing two conditions are met: (i) The geometry/shape of the tissues involved can be extracted from images and modeled and (ii) the flows around the cortex occur at low Reynolds number, where inertia is negligible, which is the case for most biological processes (Niwayama et&#160;al, 2011; He et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6904</offset>
+      <text>We applied HR to study epiboly global biomechanics and estimated the topography and temporal evolution of mechanical power and surface stresses of the embryo. These estimations were validated and confirmed by laser microsurgery, microrheology, and atomic force microscopy (AFM). In first place, we concluded that HR is suitable to explore the biomechanics of morphogenetic processes driven by the reorganization of cells or sheets of cells of finite width surrounded by fluids. In countless models, this may most probably be the case. Secondly, the HR analyses and in silico modeling let us suggest that epiboly mechanics and kinematics could be simply explained as a result of the integration of the contractile activity of the E&#8208;YSL and the differential elastic properties of the EVL and the yolk surface. A tension imbalance will build up across the opposite sides of the E&#8208;YSL during epiboly, enabling it to proceed (at least from 50% onwards). These novel predictions were tested in silico and experimentally confirmed by interfering in Misshapen expression [a regulator of myosin contractility active during epiboly progression (K&#246;ppen et&#160;al, 2006)] and reducing E&#8208;YSL contractility. Our new biomechanical model, in contrast to previously suggested models (Behrndt et&#160;al, 2012), accounts for all known features of epiboly kinematics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>8253</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8261</offset>
+      <text>Global kinematics of zebrafish epiboly</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8300</offset>
+      <text>To perform an analysis of epiboly biomechanics, it is essential to define the kinematic properties of the cortical vegetalward movements of the EVL, DCs, and E&#8208;YSL leading to embryo closure (see Fig&#160;1A). Experimental kymographs of the embryo surface along the animal to vegetal axis (&#966; axis) were extracted from 2D time&#8208;lapse meridional sections, perpendicular to the dorso&#8208;ventral axis (Fig&#160;1B and Video EV1). They showed a sustained displacement of the EVL/yolk margin position &#966;*, whose speed v* continuously increased and that could be fitted, after crossing the equator (v0), to the function v&#966;&#160;=&#160;v0/sin &#966;* (Fig&#160;1C and see Appendix&#160;Note S1). Kymographs also showed that the local surface speed decreased exponentially from the EVL/yolk margin toward the vegetal pole (Fig&#160;1D). This decay outlined two domains, a proximal one ahead of the EVL (~E&#8208;YSL) undergoing progressive constriction (see Appendix&#160;Fig S1) and a mostly static distal area.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9267</offset>
+      <text>The proximal E&#8208;YSL constitutes a morphologically distinguishable region with a highly convoluted membrane (Betchaku &amp; Trinkaus, 1978; Cheng et&#160;al, 2004; Fig&#160;1E). In the E&#8208;YSL, actin was conscripted within and beneath wrinkles (Fig&#160;1F) underlined by nestled mitochondria (see also Popgeorgiev et&#160;al, 2011; Appendix Fig S2). Importantly, the width of the E&#8208;YSL (&#948;&#966;) and the velocity of the EVL/yolk margin v* were inversely paired (v* ~1/&#948;&#966;) at all times. This pairing was just qualitative up to reaching the equator (v0), while quantitatively match theoretical kymographs after 50% (Fig&#160;1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9873</offset>
+      <text>In parallel to these cortical (EVL, DCs, and E&#8208;YSL) movements, we observed that the internal yolk granules undergo stereotyped motions. They spin symmetrically around a transverse annular axis creating a torus of vortices (Fig&#160;2A and Video EV2). As epiboly progressed, the centroids of these vortices move gradually toward the cortex and the vegetal pole (Fig&#160;2B&#8211;D). Importantly, they parallel the displacement of the edge of the EVL along the &#966; axis toward the vegetal pole, which after 50% epiboly showed a constant velocity of 200&#160;&#956;m/h (z&#8208;axis) (Fig&#160;2E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10443</offset>
+      <text>Yolk flows</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10454</offset>
+      <text>Yolk granules flow in stereotyped patterns as epiboly progresses. PIV of time&#8208;lapse snapshots imaged by two&#8208;photon microscopy of a Tg(&#946;&#8208;actin:m&#8208;GFP) embryo (from Video EV2). Upon epiboly onset, yolk granules flow toward the animal pole displaying two internal vortices near the E&#8208;YSL. At 50%, the movement of the yolk granules halts, but resumes afterward until the end of epiboly. Animal (A) and vegetal (V) poles are indicated. Scale bar, 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10916</offset>
+      <text>Internal yolk content speed (&#956;m/min) at the center of the embryo over time (min). Inset: spherical coordinates. The main axis of the sphere is represented by z, from the animal to the vegetal pole. The polar angle is represented by &#966;, and the radial coordinate is denoted as &#961;. Black lines represent individual measurements. Red line represents the average.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11279</offset>
+      <text>Vortex midpoints distance from the center (&#961;) over time (min). Black lines represent individual measurements. Red line represents the average.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11424</offset>
+      <text>Vortex midpoints position in relation to the &#966; axis over time (min). Black lines represent individual measurements. Red line represents the average.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11575</offset>
+      <text>Correlation between vortex displacement (blue, average of n&#160;=&#160;3 embryos) versus EVL margin displacement (red, average of n&#160;=&#160;4 embryos) along the main axis (z) over time (min). Standard errors are displayed. Arrow points to 50% epiboly.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11816</offset>
+      <text>In summary, during epiboly, the EVL leading edge movements, the shrinking and displacement of the E&#8208;YSL, and the stereotyped vortices of the yolk granules are remarkably coordinated and seem mechanically coupled.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12031</offset>
+      <text>Development of a non&#8208;invasive method, hydrodynamic regression, to determine mechanical stress and power patterns</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12146</offset>
+      <text>Although some information on the power sources for epiboly is available (Cheng et&#160;al, 2004; K&#246;ppen et&#160;al, 2006), how the different elements involved in tissue spreading are mechanically coordinated remains unexplored. To study this coupling, we developed a mesoscopic method able to dynamically infer cortex stress patterns and mechanical power maps of general applicability (hydrodynamic regression&#8212;HR).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>12556</offset>
+      <text>Method rationale</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12573</offset>
+      <text>The cortex in a biological system can be mesoscopically described as a continuous quasi&#8208;2D structure under tension embedded in viscous fluids. As such, we reasoned that the local differences in surface tension when the cortex expands or contracts could be estimated from the shear stress at its interface with the fluids. These stress values could themselves be indirectly inferred by analyzing the flows in the surrounding media (Fig&#160;3A). Therefore, by analyzing the velocity fields of embedding fluids it should be in principle possible to infer the overall spatio&#8208;temporal distribution of the 2D out&#8208;of&#8208;equilibrium cortical tension, &#964; (see below). Theoretical considerations and derivations are fully detailed in Appendix Note&#160;S2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13318</offset>
+      <text>Hydrodynamics regression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13343</offset>
+      <text>Any cortical surface of living organisms could be considered a structure under tension embedded in viscous fluids, where the stresses in the three dimensions at each point are locally balanced &#8706;&#963;ij/&#8706;xj&#160;=&#160;0 and the cortex tension &#964; is at equilibrium &#8706;/&#8706;xt&#964;&#160;=&#160;0 (top). Any disequilibrium in this tension (&#8706;/&#8706;xt&#964;&#160;&#8800;&#160;0), for example, due to the stretching of the cortex surface (graded double&#8208;headed arrow), will result in a discontinuity of the shear stress of the surrounding viscous fluid and the induction of flows (green arrows) (bottom). Thus, the measurement of the shear flow of the viscous fluid on both sides of a cortical surface lets inferring the quantitative profile of the surface tension along the cortex, regardless of its elastic properties.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14124</offset>
+      <text>Representation of a Stokeslet pair, at the limits of a perpendicular section of a planar hydrodynamic active cortex (red shadow), pointing in opposite directions (white arrows) and their associated flow lines (black) and mechanical pressure fields (color&#8208;coded).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14389</offset>
+      <text>Divergence fields of Stokeslet dipoles of opposite magnitudes corresponding to cortical expansion or contraction (left). These dipoles carry an associated mechanical pressure (middle) and power (right). Mechanical power is positive at the central Stokeslet pair that is surrounded by a cortical ring that resists its deformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14719</offset>
+      <text>Pipeline describing the different steps involved in HR. From time&#8208;lapse 2D videos (green shadowed in yellow), a set of measurements for the fluid phase (blue) are sequentially estimated through PIV and regression analysis, in particular the fluid stress (shadowed in pink). From these, the relative elastic stress and mechanical power (purple shadowed in pale blue) of the cortex are extracted for different geometrical configurations.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15157</offset>
+      <text>Representation of the planar cortex (PC) (left) and the spherical cortex (SC) (right) models where the elementary solutions (dots) pointing in opposite directions (pale green arrows) are evenly distributed on a square grid (PC) or symmetrically distributed around the main cylindrical axis of a sphere (Nc&#160;=&#160;16) (SC). For the PC model, only the external components are shown in one row and one column. For the SC model, only the external components are shown in one column.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>15633</offset>
+      <text>Method implementation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15655</offset>
+      <text>To implement HR, we have first to determine the velocity fields of the media surrounding the tissue/cortex. This can be done by employing bright field transmission or two&#8208;photon confocal microscopies live and estimating tissue kinematics by particle image velocimetry (PIV) (Supatto et&#160;al, 2005). In a second step, we model the fluid motion by distributing Ne force dipoles (Stokeslet pairs) of variable strength &#946;e perpendicular to the cortex according to its particular geometry at a distance &#948; away from each other (Fig&#160;3B). These models assume that in developmental processes, fluids at small strain rates behave as incompressible Newtonian fluids at low Reynolds number (Cartwright et&#160;al, 2009). Biological fluid dynamics can then be described by a linear continuity equation, ensuring volume conservation, and the linear Stokes equationwith &#957; being the shear viscosity, V the velocity field, &#916; the Laplace operator, grad the gradient, and P the mechanical pressure. The linear combination of the fluid flows generated by the force dipoles provides a realistic model of the 3D velocity fields (strain rates). Third, we used regression analysis to fit the analytical models to the velocity fields. At each time point, a Monte Carlo scheme was used to determine the set of &#946;e minimizing the mean square error (MSE) between experimental and theoretical fields. The mechanical pressure was determined from these same values. Last, considering the fluid strain rates and the mechanical pressure, we inferred the fluid shear stress, the local values of &#964;, the average surface tension, and the cortical mechanical power &#928;, that is, the rate of mechanical energy per unit of time (Fig&#160;3C). Performing HR over time gave access to the spatio&#8208;temporal evolution of both, cortical stresses and mechanical power maps.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17483</offset>
+      <text>The pipeline used to infer the mechanics of the cortex and its surrounding fluids by HR is shown in Fig&#160;3D. The workflow and protocols involved are described in Appendix&#160;Note S2, and a flow simulation software suite with step by step documentation is provided in Appendix&#160;Note S3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17767</offset>
+      <text>In principle, HR can be applied to different scenarios, materials, and geometries. To verify this versatility, we applied the method to diverse structures with known or easily predictable mechanical behaviors. Notably, we examined the reaction of the yolk surface of the zebrafish embryo to laser injury employing planar cortex (PC) models with Stokeslet pairs distributed on a 2D square grid. Further, we modeled a spherical fluid droplet sedimenting in&#160;an immiscible liquid building spherical cortex (SC) models with&#160;evenly distributed Stokeslet pairs around one main axis on&#160;a&#160;spherical shell with cylindrical symmetry (Fig&#160;3E and Appendix&#160;Note S4). In both cases, HR faithfully inferred mechanical pressure fields, power, and surface tension maps from experimental velocity fields (see Appendix&#160;Figs S3 and S4 and Video EV3).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18604</offset>
+      <text>Epiboly biomechanics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18625</offset>
+      <text>To understand the biomechanical behavior of the early zebrafish embryo, we studied the mechanical properties of the yolk and its cortex and employed HR to identify the power sources guiding and/or contributing to epiboly and to evaluate their dynamics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>18878</offset>
+      <text>Yolk mechanical properties</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18905</offset>
+      <text>We assessed the mechanical properties of the yolk by studying its rheological behavior recording the thermal fluctuations of microinjected fluorescent nanoparticles (Daniels et&#160;al, 2006). Images of yolk&#8208;injected nanoparticles were obtained, and the position of their centroids, their trajectories, and the two&#8208;dimensional mean square displacement (MSD) of each particle were computed. We found that the MSD exhibited a proportional dependence on time lag consistent with Newtonian fluid behavior and a viscosity of 129&#160;mPa&#183;s (Fig&#160;4A). This viscosity of the yolk is thus on the same order to that recently determined for Drosophila (286&#160;mPa&#183;s; He et&#160;al, 2014). Considering this viscosity, the speed of the yolk flows (epiboly progression rates&#8212;200&#160;&#956;m/h), the yolk density (similar to water ~1.074&#160;g/cm3; Fujimura et&#160;al, 2007), and the size of the embryo (~350&#160;&#956;m of radius), we calculated a Reynolds number for the yolk in the order of 10&#8722;7 (as in Drosophila; He et&#160;al, 2014), a very low value.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19921</offset>
+      <text>Epiboly biomechanics</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19942</offset>
+      <text>Yolk microrheology. Mean squared displacement (MSD) of thermal fluctuations of fluorescent nanoparticles embedded in the yolk of zebrafish embryos. Solid and dashed black lines are mean&#160;&#177;&#160;SEM computed from 99 particles. Red line is the fit of the Stokes&#8211;Einstein equation. MSD of nanoparticles embedded in the yolk exhibits a proportional dependence on time lag, &#916;t, consistent with a Newtonian liquid behavior with a viscosity of 129&#160;mPa&#183;s. A linear time dependence of MSD with similar values of yolk viscosity has been recently reported in Drosophila (He et&#160;al, 2014). Interestingly, the viscosity of the zebrafish yolk is two orders of magnitude lower than that of Caenorhabditis elegans embryos (Daniels et&#160;al, 2006) and of the cytoplasm of several cell types (Wirtz, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20731</offset>
+      <text>Viscoelasticity of the yolk cortex. Effective complex modulus (g*) measured by indenting the surface of zebrafish embryos with AFM. Red symbols are the elastic modulus (g&#8242;), and yellow symbols are the viscous modulus (g&#8243;), respectively. Mean&#160;&#177;&#160;SEM are displayed. In all the measured frequencies, cortex rheology is dominated by a solid&#8208;like behavior with the viscous modulus &#732;5 times lower that the elastic modulus. No significant frequency dependence was found in the elastic (ANOVA, P&#160;=&#160;0.123) and viscous modulus (ANOVA, P&#160;=&#160;0.719).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21281</offset>
+      <text>Flow lines from snapshots of the PIV measurements (at 40, 60, and 80% epiboly) of a two&#8208;photon video time&#8208;lapse (from Video EV4) of a Tg(&#946;&#8208;actin:m&#8208;GFP) embryo (top). Fitted flow lines using HR are shown at the bottom. The relative mean square errors (RMSE) of the fitting are displayed as a percentage at the bottom left of each panel. Scale bar, 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21647</offset>
+      <text>Mechanical power maps over time obtained by HR of the same embryos as in (C) (from Video EV5). The RMSE of the power is shown as a percentage at the bottom left of each panel. The mechanical work to produce doming (40% epiboly) arises mainly at the blastoderm (left); at 60% epiboly (middle), DCs undergo ingression (red), while the E&#8208;YSL resists constriction (blue). At 80% epiboly (right), the active work leading to the active movement of the EVL/yolk margin mainly maps at the E&#8208;YSL (red), while the blastoderm undergoes elastic resistance (blue). White arrows point to the main observed events. Scale bar, 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22272</offset>
+      <text>AV (red) and CC (green) stresses and their differences (blue) normalized values in arbitrary units from the regression analysis (Video EV6) were plotted as a function of the &#966; angle (0&#8211;1) along the cortex from animal to vegetal. The equator (dotted yellow line), yolk surface (purple shadow), and the RMSE of the mechanical pressure as a percentage for each time point are displayed (40; 60; 80% epiboly). The CC stress steeps up from animal to vegetal, and the AV shows a more complex profile. Their difference changes senses around the EVL/yolk margin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22830</offset>
+      <text>We then performed a direct quantification of the yolk cortex viscoelastic properties. Atomic force microscopy (AFM) was employed to acquire local surface tension measurements on living whole embryos (see Materials and Methods and Appendix&#160;Note S5). The viscoelasticity of the cortex was assessed applying low&#8208;amplitude (100&#160;nm) multifrequency oscillations composed of sinusoidal waves of different frequencies (0.35&#8211;11.45&#160;Hz). Cortex rheology was dominated by an elastic&#8208;like behavior with the viscous modulus ~5 times lower than the elastic modulus (Fig&#160;4B). Moreover, no significant frequency dependence was found for any of these moduli in the experimental time window. As the ratio between the viscous and elastic moduli is expected to drop with decreasing frequency, our rheological data indicated that at a timescale of minutes the cortex, with an apparent elastic modulus G&#8242; of ~100&#160;Pa (see Equation&#160;(6), Materials and Methods), behaves as a very soft solid in the range of the softest biological materials (Butcher et&#160;al, 2009; Discher et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23904</offset>
+      <text>Last, from the measured relaxation times determined by AFM, we estimated the effective cortex viscosity at long timescales (fluid&#8208;like response) in the order of &#951;c ~10&#160;Pa&#183;s. This implies that the ratio between the typical traction in the cortex at long times and the stresses associated with the measured flows of the fluid is just about &#951;cw/&#951;R ~0.1, where w stands for the cortex width (1&#8211;4&#160;&#956;m; Rawson et&#160;al, 2000), R the characteristic embryo size, and &#951; the yolk viscosity. In conclusion, the yolk content can be considered a viscous Newtonian fluid with low Reynolds number and the yolk surface behaves at the timescale of epiboly movements as an extremely soft solid. Importantly, the magnitudes of the cortical and yolk fluid tractions were truly comparable.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>24682</offset>
+      <text>Epiboly mechanical power sources</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24715</offset>
+      <text>We applied HR to unveil the spatiotemporal pattern of mechanical power during epiboly. To do so, experimental 2D velocity fields from time&#8208;lapse videos of embryos meridional sections employing yolk granules movements as a reference were determined by PIV. Then, simulated 3D velocity fields were generated from a SC model with Stokeslet pairs distributed on five concentric spherical shells adjusted to the embryo cortex geometry. These theoretical fields were fitted by regression analysis to the experimental fields (Fig&#160;4C and Video EV4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25260</offset>
+      <text>We found that at the epiboly onset, the active power mainly maps to the blastoderm. Later, a distinct high power domain arises under the cortex between 50 and 60% epiboly at the position and time of the ingression of DCs. Last, once the EVL front crosses the equator, the largest mechanical power concentrates to the actomyosin&#8208;rich E&#8208;YSL, while the EVL adjacent cells display negative power densities opposing deformation. The EVL cells and DCs near the animal pole remain a weak power source (Fig&#160;4D and Video EV5). At all times, the yolk always displays very low mechanical energy dissipation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>25862</offset>
+      <text>Cortical stress patterns</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25887</offset>
+      <text>HR also enabled to analyze the spatio&#8208;temporal progression of local surface tension by mapping animal to vegetal (AV) and circumferential (CC) cortical stresses as a function of time (Fig&#160;4E and Video EV6). We found that at the initiation of epiboly both, AV and CC stresses show an even distribution at the surface of the embryo. As epiboly progresses, however, a vegetalward&#8208;oriented gradient of CC stress is built up throughout the EVL and the yolk, while the AV stress displays a complex distribution. From animal to vegetal, it diminishes with time at the animal pole, dramatically rises at the EVL front, drops at the E&#8208;YSL, and increases again toward the vegetal pole. As a result, at the E&#8208;YSL after 50% epiboly, the difference between AV and CC stresses sustained minimum negative values. In contrast, the stress difference in the adjacent EVL cells was positive and maximum. Summing up, a positive gradient of tension progressively develops at the yolk surface toward the vegetal pole from 50% up to the end of epiboly. This gradient is more pronounced for the CC component.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26981</offset>
+      <text>To verify the predicted axial tensional gradient, we employed targeted laser microsurgery (Colombelli et&#160;al, 2009; Appendix&#160;Figs S5 and S6 and Appendix&#160;Note S6). We found that the experimental disruption in the AV or CC directions of the yolk actomyosin cortex at the E&#8208;YSL resulted in an immediate recoil, with exponentially decaying speed (see also Behrndt et&#160;al, 2012). This let measuring the relative magnitude and directionality of local surface tensions (Appendix&#160;Fig S7 and Video EV7). Significantly, the differences between AV and CC tension at each time point precisely recapitulated the stress differences estimated by HR (Fig&#160;5A). Thus, the inferred temporal and directional pattern of tension at the E&#8208;YSL was confirmed. Equally, the predicted vegetalward AV tension gradient at the yolk surface was also confirmed at different stages by laser microsurgery at different distances from the EVL/yolk margin (Fig&#160;5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27919</offset>
+      <text>Experimental validation of epiboly tensional pattern</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27972</offset>
+      <text>Correlation between the differential tension (cyan) represented by the recoil velocities differences (&#956;m/s) between CC and AV laser cuts and their difference (blue) calculated by regression analysis at the E&#8208;YSL during epiboly (%). The difference values in normalized relative units were fitted applying a constant adjustment ratio at all time points.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28327</offset>
+      <text>AV tension (averaged recoil velocity in &#956;m/s) in the yolk cortex at different distances from the EVL (0, 10, 20, 40, and 60&#160;&#956;m) and at different epiboly stages (50%, blue; 60&#8211;70%, red; 80% epiboly, green). Significance changes are highlighted, and mean&#160;&#177;&#160;SEM are displayed. *P&#160;&lt;&#160;0.05, **P&#160;&lt;&#160;0.005.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28637</offset>
+      <text>Probing mechanical parameters of living embryos with AFM. Force&#8208;indentation curves recorded at cantilever velocity of 10&#160;&#956;m/s (blue) fitted with a &#8220;liquid balloon&#8221; model (red). Inset: AFM force&#8208;indentation description.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28866</offset>
+      <text>Averaged values of mean surface tension (pN/&#956;m) on the yolk obtained with AFM at different epiboly stages (left), and the significant difference of tension at 60&#8211;70% epiboly (*P&#160;=&#160;0.0245) between the E&#8208;YSL and the vegetal pole (right). Standard errors are displayed.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29140</offset>
+      <text>Stress&#8208;graded profiles were further verified by AFM. We measured force&#8208;indentation curves at the yolk surface and found that they showed a perfect match to a &#8220;liquid balloon&#8221; model. This is a viscoelastic mechanical model representing a viscous liquid surrounded by an elastic cortex under mechanical stress (Evans &amp; Yeung, 1989; Lomakina et&#160;al, 2004; Krieg et&#160;al, 2008). By fitting this model to the data, we calculated absolute values of cortical tension (Tc) for the yolk membrane in the order of 100&#160;pN/&#956;m (Fig&#160;5C). Performing this analysis at two different positions, 50&#8211;100&#160;&#956;m ahead of the EVL and at the vegetal pole, detected after 50% epiboly a significant long&#8208;range positive gradient of tension. Remarkably, it also pointed, unequivocally, to the presence of tension at the vegetal pole (Fig&#160;5D). These results are consistent with the short&#8208;range gradient inferred by laser cuts in agreement with the&#160;HR analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30088</offset>
+      <text>In short, the predicted yolk surface stress gradient and dynamics were accurately supported by AFM and laser microsurgery.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30211</offset>
+      <text>Mechanically relevant elements leading epiboly movements</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30268</offset>
+      <text>Overall, epiboly kinematics suggest that the EVL behaves mesoscopically as a homogeneous deformable sheet, that the E&#8208;YSL shrinks specially after 50% epiboly, and that the rest of the yolk cell membrane is mostly un&#8208;stretchable and kept under increasing tension. Indeed, the observed spatial and temporal differences in surface speed can be consequence of the non&#8208;homogeneous stiffness of the cortex. We evaluated this option analyzing the cortex displacement in response to laser cuts on the yolk membrane. After recoil, the geometrical center of cuts parallel to the EVL consistently shifted toward the vegetal pole (Fig&#160;6A). These data emphasize the difference of stiffness between the EVL (softer) and the yolk (stiffer) surfaces. This difference correlates with previous analysis of micro&#8208;elasticity using Brillouin Scattering Spectroscopy, which also revealed the relative higher stiffness of the yolk versus the blastoderm at early cleavage stages (Fujimura et&#160;al, 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31257</offset>
+      <text>Epiboly is driven by E&#8208;YSL contractility and differential surface tensions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31334</offset>
+      <text>Kymograph showing the deformation of the cortex along a segment perpendicular to a laser cut (red line time point) in the E&#8208;YSL of a Myosin&#8208;GFP transgenic embryo [Tg(&#946;&#8208;actin:myl 12.1&#8208;e&#8208;GFP)]. After a rapid opening, an active contraction displaces the cut centroid vegetalward indicating that the EVL is more easily stretched (elastic) than the vegetal yolk cell membrane/cortex. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31744</offset>
+      <text>Proposed model of epiboly progression. The contractile E&#8208;YSL and the imbalance of stiffness between the EVL and the yolk surface account for epiboly progression. The vegetal boundary of the E&#8208;YSL is not mechanically free but linked to the tense yolk membrane. The tension originated by constriction of the actomyosin ring (E&#8208;YSL) is thus conveyed by the yolk membrane toward the vegetal pole leading to the progression of the less stiff EVL. Passive movements within the yolk arise as a result of force transmission from the surface.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32284</offset>
+      <text>Dynamic simulation of epiboly based on a single spherical cortex model (SC) considering a gradient of elastic tension from animal to vegetal and a constricting area at the E&#8208;YSL (from Video EV8; 40, 60, 80% epiboly). Color&#8208;coded mechanical power map normalized values in arbitrary units (positive, red; negative, blue) (left). Flow lines (right). The mechanical power is supplied at the surface, and internal vortices and their shift from animal to vegetal are precisely simulated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32770</offset>
+      <text>Dynamic simulation of AV and CC stresses normalized values in arbitrary units (from Video EV9; 40, 65, 80% epiboly) represented as in Fig&#160;1A. The AV and CC stresses are equal at the poles, as the epiboly simulation progresses, the CC stress steeps up from animal to vegetal, and the difference between CC and AV stresses change sense at the EVL/yolk margin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33129</offset>
+      <text>Differences in cortex stiffness may be relevant for tissue expansion, and we hypothesize that epiboly, at least after 50%, will be just reliant on the active contraction of the E&#8208;YSL and directed toward the vegetal pole as a reaction to the difference of stiffness between the animal (EVL) and vegetal (yolk) domains, which would establish a cortical tension gradient (Fig&#160;6B). To assess this hypothesis, we simulated epiboly in silico. This simulation took into account the experimental kinematics and assumed both, an exponential decay of the cortical contractility along the &#966; axis (in accord with the observed exponential decay of speed of the EVL/yolk margin) and that the EVL and the yolk behave as materials of different stiffness (see Appendix&#160;Note S7). Simulations precisely recapitulated, at least from 50% epiboly onwards, most of the kinematic and mechanical parameters associated, the yolk internal vortices, and the mechanical power and patterns of surface tension at the cortex (Fig&#160;6C and D, and Videos EV8 and EV9). Simulations also rendered a remarkably accurate profile for the speed of the EVL front displacement along the &#966; axis, slow first, up to reaching the equator, and much faster afterward.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34354</offset>
+      <text>The in silico mechanical simulations predict that interfering with the contractile capabilities of the E&#8208;YSL will result in a dramatic reduction in the speed of the advancing front and, in practical terms, in epiboly completion failure. Importantly, if we abolished the E&#8208;YSL shrinkage, simulations provided an aberrant regime for the speed of the EVL front with a progressive decline from 50% epiboly onwards (Fig&#160;7A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34779</offset>
+      <text>Experimental validation of the differential surface tension model</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34845</offset>
+      <text>Speed of the EVL advancing front at different epiboly stages (&#981; angle) for two distinct simulated conditions: (i) a difference of elastic tension between the EVL and the yolk associated with a two&#8208;phase reduction in the contractile E&#8208;YSL width (from 20&#176; to 5&#176;) as epiboly advances (from 50&#176; to 155&#176;) (wild type, blue). The contractile E&#8208;YSL width decreases at a slower rate until 80&#176; and shrinks afterward at a rate 2.25 times faster; and (ii) same assumptions as in 1 but with no shrinkage of the E&#8208;YSL (constant 20&#176;) (contractileless, red).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35403</offset>
+      <text>Experimental values for the EVL advancing front speeds at different epiboly stages (&#981; angle, top) and at different times (bottom) for wild&#8208;type controls (blue) and Msn1 yolk morphants with reduced E&#8208;YSL contractility (red). Experimental profiles closely approach to those inferred in the simulations (compare to A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35724</offset>
+      <text>Timeline showing medial sections and power isolines for wild&#8208;type (top) and Msn1 yolk morphants (bottom) along epiboly. Mechanical parameters were inferred by HR from experimental velocity fields (Video EV10). The RMSE of power is shown as a percentage at each time point. DCs in the Msn1 yolk morphants undergo ingression on schedule at 50% epiboly (yellow arrow). Importantly, as in wild&#8208;type controls, the active work in morphants is detected at the E&#8208;YSL (red arrow). This power supply fades away as epiboly slows down and eventually fails. Scale bar, 100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36296</offset>
+      <text>Tensional profiles normalized values in arbitrary units inferred by HR for wild type at 80% epiboly and its temporal equivalent (9&#160;h after egg laying) for Msn1 yolk morphants. The characteristic profiles of longitudinal and latitudinal stresses and the animal to vegetal stress gradient that are built up during epiboly are never properly developed in morphants.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36660</offset>
+      <text>We experimentally tested these inferences by genetically interfering in Msn1 expression. Msn1, an ortholog of the Drosophila Ste20&#8208;like kinase Misshapen, is a well&#8208;characterized mediator of E&#8208;YSL contractility. Actin and phospho&#8208;myosin 2 failed to be recruited at the YSL in morphants and the EVL cells at the margin do not stretch longitudinally, while ZO&#8208;1 accumulation (septate junctions) was not affected (K&#246;ppen et&#160;al, 2006). We addressed the role of msn1 in the E&#8208;YSL injecting morpholinos in the yolk at the sphere stage. This resulted, as previously described, in epiboly's slowness and arrest with 50% penetrance. We performed a kinematic and mechanical analysis of msn1 yolk morphants and found that the failure on E&#8208;YSL contractility was associated with a strong reduction in the speed of progression of the EVL front mostly after 50% epiboly (Fig&#160;7B and Video EV10). We further found by HR that power at the E&#8208;YSL was critically compromised and that stress gradients along the cortex were essentially abolished (Fig&#160;7C and D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37719</offset>
+      <text>In short, simulations and experimental interferences in E&#8208;YSL contractility show a remarkable correlation strongly supporting that epiboly kinematics and mechanical behavior can be minimally described by (i) the contractile capabilities and gradual change of dimensions of the E&#8208;YSL and (ii) the dissimilar elastic properties of the EVL and the yolk surface (Fig&#160;6B).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>38092</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38103</offset>
+      <text>We have performed a detailed study to determine the, up to now elusive, major force&#8208;generating elements driving zebrafish epiboly (Solnica&#8208;Krezel &amp; Driever, 1994; Cheng et&#160;al, 2004). We revealed several significant evidences: (i) both, the yolk surface (this manuscript and Behrndt et&#160;al, 2012) and the EVL tissue (Campinho et&#160;al, 2013), display elastic behavior at short timescales. This elastic response is sustained all throughout epiboly; (ii) the yolk cell membrane behaves as an extremely soft solid; (iii) the yolk content is fairly viscous and incompressible and flows at very low Reynolds number with negligible inertia, and (iv) the magnitudes of the cortical and yolk fluid tractions are comparable and of equivalent order. Further, we generated a theoretical approximation to the embryo as a tensile cortex of spherical shape (SC) surrounding a viscous fluid. Applying hydrodynamic regression (HR) to this SC model, we fitted a unique velocity and mechanical pressure field to experimental 2D+T time&#8208;lapses and from here we built a minimal mechanical model of epiboly.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39193</offset>
+      <text>Hydrodynamic regression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39217</offset>
+      <text>HR is a non&#8208;invasive method able to quantitatively infer dynamic mechanical parameters (mechanical power and surface/cortical tension) from in&#160;vivo imaging. HR, in principle, could be applied to images acquired from any microscope including light&#8208;sheet fluorescence (Keller &amp; Stelzer, 2008) or non&#8208;fluorescence nonlinear microscopy (second&#8208;harmonic generation&#8212;SHG and third&#8208;harmonic generation&#8212;THG) (Supatto et&#160;al, 2011) providing that velocity fields could be estimated. It relies on a well&#8208;established hydrodynamic model, which exploits the analytical expressions of elementary solutions of Stokes flow. These elementary solutions (pairs of Stokeslets) are distributed along the cortex geometry and oriented normal to it. Stokeslet pairs model local cortical contractions or expansions and are used to fit simulated velocity fields to the experimental velocity fields estimated by PIV. Due to the force balance between the cortex and adjacent fluids (see Appendix&#160;Note S2), the cortical stresses are determined from the fluid velocity fields. Significantly, HR is largely over&#8208;determined, that is, manage to fit a large number of variables with a small number of unknown parameters (the coefficients &#946;e associated with the elementary solutions). A major advantage is that the analytical dynamic pressure field is always unique for a given velocity field. Thus, any change in dynamic pressure distribution leads to different velocity fields, and vice versa. Yet, the model is mesoscopic and potential microscopic inequalities, for example, heterogeneities in the conformation of actin and/or myosin filaments in a network, cannot be directly estimated. However, HR opens up the possibility to indirectly address spatial heterogeneities through the inhomogeneous strengths of the Stokeslet pairs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41036</offset>
+      <text>HR demands that the fluids surrounding the cortex should behave as Newtonian. However, even if surrounding fluids are non&#8208;Newtonian per se, this does not represent a problem at small strain rates at which non&#8208;Newtonian materials behave as Newtonian. Indeed, the Newtonian behavior of a fluid at low Reynolds number is commonly accepted for processes such as the establishment of the body plan or organogenesis in Caenorhabditis elegans, Drosophila, Xenopus, or mice (reviewed in Cartwright et&#160;al, 2009); for example, during gastrulation in the early Drosophila embryo, stresses generated at the surface integrate with the hydrodynamic properties of the interior fluid, which behaves as Newtonian with a low Reynolds number, to transmit force (He et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41802</offset>
+      <text>Although HR can infer power densities and stress tensors regardless of the cortex material properties, it is important to point out that the macroscopic response of many tissues is viscoelastic (where the tissue behaves as an elastic solid over short timescales and a viscous fluid over long timescales). Indeed, zebrafish explants of embryonic ectodermal tissues are viscoelastic (Schotz et&#160;al, 2008). Yet, during epiboly in Xenopus (Luu et&#160;al, 2011), the ectodermal epithelium mimics an elastic solid when stretched isometrically at a timescale of hours. Considering that developmentally and geometrically amphibian and teleost epibolies are equivalent, and that not only do the relative values of their germ layer surface tensions fall in the same range but even their absolute values are essentially the same (Schotz et&#160;al, 2008), we would expect they will show equivalent mechanical properties.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42705</offset>
+      <text>In comparing to HR, current image&#8208;based analytical methods aiming at inferring pressure and tensional parameters seem severely limited. Most of them rely on the application of vertex models to planar epithelia. In these models, the geometry of cell junctions has to be extracted from image segmentation and it is assumed that the&#160;cell edge linear tensions and internal pressures are at quasi&#8208;equilibrium.&#160;To estimate the internal pressure of each cell and the tension of each cell&#8208;to&#8208;cell edge, two different approaches have so far been undertaken: (i) a statistical model of tension distribution (Ishihara &amp; Sugimura, 2012) and (ii) the solution, in the least square sense, of an over&#8208;determined system of equations imposing a common value for the internal pressure and cortical tensions of each cell (Chiou et&#160;al, 2012). None of these methods account for deforming tissues as they model an epithelium at quasi&#8208;equilibrium and hence can only probe static mechanical properties. On the other hand, video force microscopy (VFM) (Brodland et&#160;al, 2010) stands apart and allows to derive 2D forces based on tissue deformations estimated from time&#8208;lapse videos using a finite element model. The space is discretized, and partial differential equations are constrained at the boundaries of each partition. The system of linear equations is exactly determined and solved through matrix inversion. This method hence faces the typical error sensitivity inherent to inverse problems. So far, VFM has only been applied in 2D settings and both passive viscous dissipation and long&#8208;range pressure propagation in the third dimension were disregarded. Thus, the pattern of tension simulated cannot model any resisting or active part outside the measurement plane, whereas HR can. We anticipate that as the method stands today, VFM would be unable to properly describe the patterns of flows inside the yolk during epiboly or accurately map cortical power densities and stresses in 3D. Finally, quantitative measurements of cellular stresses within tissues have been recently achieved by shape reconstruction of injected microdroplets using confocal microscopy and image analysis (Campas et&#160;al, 2014). Local spatial inhomogeneities in cellular stresses can be measured with this technique, but it fails to measure the isotropic tissue pressure consequence of large&#8208;scale tissue flows. In some sense, this method may complement the information gathered by HR, and combining both methodologies could constitute a sound approach to analyze the overall biomechanics of developing tissues.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45296</offset>
+      <text>Cytoplasmic streaming has been observed in large plant cells like Chara (Yamamoto et&#160;al, 2006; Goldstein et&#160;al, 2008), in C.&#160;elegans (Wolke et&#160;al, 2007), and in the mice oocyte (Yi et&#160;al, 2011). Velocity fields have been studied and compared to kinematic models, and flows have been linked either to specific molecular motors or to stress anisotropies at the surface. However, in these works, the distributions of power and/or stress have not been inferred. HR provides relative values for mechanical parameters such as stress distributions, and these can be extremely relevant in these models. The ability of accurately inferring mechanical power patterns and surface tension profiles in&#160;vivo will enable the exploration of the genetic and cellular mechanisms that account for morphogenesis biomechanics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46108</offset>
+      <text>A global mechanical analysis of epiboly</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46148</offset>
+      <text>In its application to epiboly, HR enabled not only to estimate mechanical power and provide insight in the effective surface tension variations but also to reach a global concerted representation of epiboly in which cell movements can be fully explained by the sole mechanical properties of the system. Before crossing the equator, an active role for the EVL and DCs on epiboly is supported by the mechanical power at the blastoderm (see Fig&#160;4D) and the stresses at the embryo surface (see Fig&#160;4E). EVL and DCs early activity is instrumental for epiboly progression (Trinkaus, 1963; Warga &amp; Kimmel, 1990; Concha &amp; Adams, 1998; K&#246;ppen et&#160;al, 2006). From 50% onwards, however, we showed through simulations and experimental interference that polarized tensional properties of the yolk surface and the EVL altogether with the contractile capability of the E&#8208;YSL [latitudinal (CC) and longitudinal (AV)] are sufficient to explain both surface and inner movements (see model in Fig&#160;6B). The gradient of tension is validated by our own laser cuts (Figs&#160;5 and 6A), together with those described (Campinho et&#160;al, 2013) for the yolk and EVL marginal cells. No differences in the recoiled velocity between parallel (AV) and perpendicular cuts (CC) are observed in the marginal EVL cells at the beginning of epiboly. However, as epiboly progressed, AV tension increased (parallel cuts), while CC tension decreased in the EVL cells. Thus, a difference between AV and CC tension, being AV higher than CC, was generated over time. In the yolk, however, the differences between AV and CC tension were opposite to those of the EVL cells. This model is further backed by the documented preferential orientation of EVL cells under anisotropic tension in the AV direction (K&#246;ppen et&#160;al, 2006). It is also in agreement with recent observations pointing to the EVL as a continuous elastic medium in which tensions and elastic deformations occur at appropriate length scales (see Campinho et&#160;al, 2013). This last issue is consistent with equivalent observations in Fundulus (Weliky &amp; Oster, 1990).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48236</offset>
+      <text>It has been suggested, alternatively, that epiboly may be described as the result of the combined activities of cable&#8208;constriction and flow&#8208;friction motors (Behrndt et&#160;al, 2012). In this opposing scenario, tissue deformation would be driven by the ability of the cortical actomyosin ring at the E&#8208;YSL to contract and generate active tension, while an additional pulling longitudinal force in the yolk will be generated by a regime of intermediate friction acting against an actomyosin retrograde flow. This cortical&#8208;friction motor hypothesis derives from a theoretical description of YSL actomyosin network dynamics, and it has not been experimentally tested. It implies that the actomyosin ring, which is mechanically connected to the EVL on its animal side, has a free boundary on its vegetal side. This assumption is essential for the model and demands that the surface tension from the contractile ring toward the vegetal pole should decrease toward zero. We found, however, that laser microsurgery in the E&#8208;YSL unequivocally pointed to an oriented gradient of AV tension from the EVL/yolk margin toward the vegetal pole (Fig&#160;5C). Further, our measurements of surface tension (Tc) by AFM in&#160;vivo explicitly revealed a non&#8208;null surface/cortical tension at the vegetal pole, which increased with time (Fig&#160;5E). Therefore, the vegetal boundary of the E&#8208;YSL is not mechanically free, as it was claimed (Behrndt et&#160;al, 2012), but linked to the tense yolk membrane. Under these circumstances, the tension originated by the constriction of the actomyosin ring (at the E&#8208;YSL) will be conveyed by the yolk cell membrane toward the vegetal pole. Hence, for epiboly progression, a flow&#8208;friction motor would be, in principle, needless.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49987</offset>
+      <text>In our view, the failure to detect tension at the vegetal pole by laser microsurgery (Behrndt et&#160;al, 2012) while we readily detect a significant surface tension with AFM strongly suggests that the yolk surface/cortical tension is indeed sustained at the pole by the elastic membrane itself and not by the underlying cortex. Remarkably, considering the notable fitting of our simulations, any potential anisotropy in material properties of the yolk membrane seems not to be mechanically relevant. In this context, the role of the observed yolk cortical retrograde flows of actin and myosin might be not to provide a friction force, but to replenish actin and myosin, which undergo rapid turnover at the contractile E&#8208;YSL.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50711</offset>
+      <text>In summary, by applying HR, we have characterized the spatio&#8208;temporal evolution of local cortical tensional stresses and power sources during zebrafish epiboly. We also found that the incompressible yolk displayed stereotyped laminar flows and low but measurable mechanical energy dissipation, suggesting a novel morphogenetic mechanism by which internal flows convey a passive transmission of cortical forces leading to tissue deformation. Our simulations and experimental interferences into E&#8208;YSL contractility (msn1 yolk morphants) (Fig&#160;7) further support that the coordinated action of cortical elements (local contractility at the E&#8208;YSL and differential tension between the EVL and the yolk surface) and passive viscous flows in the yolk is instrumental in the mechanical implementation of epiboly movements (Fig&#160;6B). Local surgical detachment of the EVL and the yolk contact edge in Fundulus (Betchaku &amp; Trinkaus, 1978) results in E&#8208;YSL faster progression toward the vegetal pole (as no resistance by the EVL was placed to its forward movement) and EVL cells retraction indicating that the EVL/yolk contact is under tension. This last outcome has also been observed for zebrafish (Behrndt et&#160;al, 2012). Thus, the EVL, after 50% epiboly, appears to limit the speed of epiboly progression resisting to deformation. Yet, an active role of the EVL before reaching the equator and a mechanical input of DCs ingression (Trinkaus, 1963; Warga &amp; Kimmel, 1990; Concha &amp; Adams, 1998; K&#246;ppen et&#160;al, 2006) may be necessary to refine the process.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52264</offset>
+      <text>How the increased stiffness at the yolk cortex is achieved? Why is the yolk cortex stiffer than the EVL? Why does its stiffness increase as epiboly progresses? We could speculate that the EVL cells could easily respond to nearby pulling forces flattening passively, while the yolk, on the contrary, has no way to increase its surface area. As a result, tension would accumulate at the yolk membrane as epiboly progresses, which indirectly would lead to an overall progressive reduction in stiffness of the EVL. Indeed, when we artificially increased contractility in the YSL by microsurgery, we observed that nearby EVL cells deformed more than faraway ones, while the vegetal part of the myosin ring did not deform (see Fig&#160;6A). On the other hand, we have not yet explored in quantitative terms the molecular motors involved or the roles that microtubules or actomyosin flows may have in promoting epiboly movements. This would require developing specific analytical protocols as the hydrodynamic method, as such, does not provide any information about the physical mechanism that generates the stresses. Modeling making use of the measured stresses may be employed as input to define the roles for microtubule bundles or biofilaments and to predict their functional roles.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53540</offset>
+      <text>Local tensional stresses and the passive transmission of forces with elastic and viscous components in an incompressible medium provide a simple physical description for the mechanical control of morphogenetic movements. This biological logic appears to be widespread and it applies, for instance, to the folding of the epithelia in the early Drosophila embryo during gastrulation, where stresses generated at the surface integrate with the hydrodynamic properties of the interior to transmit force (He et&#160;al, 2014). We propose that hydrodynamics may be key for the comprehension of the biomechanics of&#160;multiple morphogenetic processes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>54179</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54201</offset>
+      <text>Zebrafish handling and maintenance, zebrafish lines and mRNA&#160;injection</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54273</offset>
+      <text>Adult fish were maintained under standard conditions. Collected embryos were grown at 28.5&#176;C in E3 embryo medium (Westerfield, 2000) and staged according to morphology as described (Kimmel et&#160;al, 1995). AB and TL wild&#8208;type backgrounds were used throughout this study. Membrane&#8208;GFP transgenic Tg(&#946;&#8208;actin:m&#8208;GFP) animals (Cooper et&#160;al, 2005) were provided by Lilianna Solnica&#8208;Krezel, and Myosin&#8208;EGFP transgenic Tg(&#946;&#8208;actin:myl 12.1&#8208;e&#8208;GFP) fish (Behrndt et&#160;al, 2012) were supplied by Carl&#8208;Philipp Heisenberg. A DNA construct encoding for Lifeact&#8208;GFP (Riedl et&#160;al, 2008) and cloned in a zebrafish expression vector was kindly provided by Erez Raz. mRNA was in&#160;vitro synthesized (mMessagem Machine kit, Ambion) and injected into the yolk at one&#8208; or 512&#8208;cell stages (150&#160;pg) as described (Westerfield, 2000).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55109</offset>
+      <text>To create a condition where E&#8208;YSL actomyosin contraction will be blocked, we employed Misshapen 1 yolk morphants (K&#246;ppen et&#160;al, 2006). The msn1 MO&#8208;splice (5&#8242;&#8208;ACACACAACT TACccttaaagtgga&#8208;3&#8242;) morpholino that targets the exon 1/intron 1 boundary of the pre&#8208;mRNA (Heasman, 2002) was used (kind gift of Antonio Jacinto). We injected 8&#160;ng of the morpholino in the E&#8208;YSL at the 1,000&#8208;cell stage on Tg(&#946;&#8208;actin:m&#8208;GFP) embryos. As previously described (K&#246;ppen et&#160;al, 2006), half of the injected embryos showed a delay in the epiboly of the DCs and the EVL. To image the internal yolk granules, we obtained medial sections using two&#8208;photon microscopy as described below. The velocity fields generated with MatPIV were subjected to analysis by HR.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55874</offset>
+      <text>Electron microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55894</offset>
+      <text>Embryos were dechorionated manually and fixed overnight at 4&#176;C with 2% PFA, 2.5% glutaraldehyde in PB. They were post&#8208;fixed in 1% osmium tetroxide with 0.08% potassium ferrocyanide, gradually dehydrated through an acetone series, infiltrated in EPON overnight, and polymerized for 48&#160;h at 60&#176;C. Ultrathin sections (50&#160;nm thick) were cut on an ultra microtome Ultracut UC6 (Leica microsystems, Vienna). Images were acquired in a JEOL 1010 electron microscope at 80&#160;kV equipped with a Megaview III CCD camera.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56409</offset>
+      <text>Live imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56422</offset>
+      <text>Embryos were manually dechorionated and mounted in 0.5% low melting agarose in E3 embryo medium in glass bottom Petri dishes (MatTek, No. 1.5 cover glass) for imaging in both laser scanning and spinning disk confocal microscopy, and in lumox dishes (Sarstedt) for two&#8208;photon microscopy.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56711</offset>
+      <text>To image the internal yolk granules, medial sections (350&#160;&#956;m depth from the yolk cell surface) were collected from Tg(&#946;&#8208;actin:mGFP) embryos using a Leica SP5 two&#8208;photon microscope equipped with a mode&#8208;locked near&#8208;infrared MAITAI Laser (Spectra&#8208;Physics) tuned at 900&#160;nm, with non&#8208;descanned detectors and with a 25&#215;/0.95 water&#8208;dipping objective. Images were scanned at 200&#160;Hz, and frames were averaged three times. Stacks of 30&#160;&#956;m, 10&#160;&#956;m step size, were collected every 2&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57211</offset>
+      <text>To visualize the surface of the yolk, Tg(&#946;&#8208;actin:mGFP) embryos were imaged in a Zeiss LSM700 confocal microscope with a 63&#215;/1.4 oil objective. Stacks of 25&#160;&#956;m, step size of 0.2&#160;&#956;m, were acquired.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57415</offset>
+      <text>To study the kinematics of the membrane, dechorionated embryos were incubated in 100&#160;&#956;g/ml lectin&#8208;TRITC (Sigma L1261) for 5&#160;min at the sphere stage, 50 or 85% epiboly, rinsed, and mounted for imaging. Images were acquired in a Zeiss LSM 700 confocal microscope with a 40&#215;/1.3 oil immersion objective. Stacks of 20&#160;&#956;m, 0.39&#160;&#956;m step size, were acquired every 30&#160;s.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57789</offset>
+      <text>A PIV analysis (see below) was applied to time&#8208;lapse videos to estimate the velocity field at each time point.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57902</offset>
+      <text>To simultaneously label the E&#8208;YSL cortical actin and the membrane, Lifeact&#8208;GFP mRNA was injected at 1&#8208;cell stage embryos and they were incubated in lectin&#8208;TRITC as mention above. Images were collected using a Zeiss LSM 700 confocal microscope with a 63&#215;/1.4 oil objective, stack of 11&#160;&#956;m, step size of 0.3&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58225</offset>
+      <text>Image analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58240</offset>
+      <text>Most image analyses were performed using Fiji (http://pacific.mpi-cbg.de) and Matlab (Mathworks). To obtain velocity fields through PIV, we applied the MatPIV software package written by Johan Kristian Sveen in Matlab (Supatto et&#160;al, 2005).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58482</offset>
+      <text>Laser surgery experiments and retraction analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58532</offset>
+      <text>Laser surgery of the actomyosin cortex was performed with a pulsed UV laser (355&#160;nm, 470&#160;ps per pulse) by inducing plasma&#8208;mediated ablation as described before (Colombelli et&#160;al, 2009). To compare the cortical tension in the AV and CC directions at the E&#8208;YSL at different stages, a 20&#8208;&#956;m laser line containing 50 pulses was scanned five times at a frequency of 800&#160;Hz, parallel and perpendicular to the EVL front, centering the cut at a distance of about 20&#160;&#956;m, through a 63&#215;/1.2&#160;W objective lens. Fluorescence imaging was performed through a custom spinning Nipkow disk unit equipped with a 488&#8208;nm laser line and a Hamamatsu ORCA CCD camera, acquiring at 1.5 frames per second.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59228</offset>
+      <text>The same type of laser ablation regime (same laser line length, same pulsed UV laser settings) was applied to validate the AV surface gradient of tension revealed by the regression analysis. This time, only cuts parallel to the EVL were performed at 0, 10, 20, 40, and 60&#160;&#956;m of the EVL border, and at different epiboly stages (50, 60&#8211;70, and 80&#8211;90% epiboly).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59593</offset>
+      <text>In all cases, to estimate the tensions, we followed the accepted assumption that the tension of the actomyosin cortex before the laser cut is proportional to the outward velocity of the immediate recoil (Grill, 2011). Retraction analysis was performed as follows: First, from the microscopic video time&#8208;lapse recordings of the laser cuts, a region of 160&#160;&#215;&#160;160 pixels was cropped and rotated so the cuts were centered and positioned horizontally. 160 pixels correspond to the apparent length of the original cuts. We then applied a PIV analysis (see Image Analysis) to measure displacements from frame to frame. We applied interrogation windows of 64 square pixels with three&#8208;fourth overlap generating a 7&#160;&#215;&#160;7 grid. From these grids, we averaged the vertical components of the displacement vectors of the three upper and lower rows and calculated the retraction speed V from their difference.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60496</offset>
+      <text>Quantification and statistics</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>60526</offset>
+      <text>Yolk granules kinematics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60551</offset>
+      <text>From the velocity fields measured by PIV in the medial plane of three sibling embryos, we estimated the speed as an average over 10 frames, every 10 frames. We also computed the vorticity of the coarse&#8208;grained velocity field and used its maximum absolute value to position the vortex centroid.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>60847</offset>
+      <text>Kinematics of the membrane</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60874</offset>
+      <text>The velocity component along the AV axis obtained from lectin&#8208;label embryos was averaged from parallel rows and consecutive time points at different stages. To compare the different videos, velocities were normalized to the velocity of the margin of the EVL.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>61135</offset>
+      <text>Laser cuts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61146</offset>
+      <text>To compare the cortical tension in the AV and CC directions at the E&#8208;YSL at different stages, we calculated the mean recoil velocities for each perpendicular direction in each stage and tested the statistical significance of their inequality using the Wilcoxon rank sum test. To quantify the AV surface gradient of tension, we normalized the recoil velocities at each distance from the EVL margin to the recoil velocity at 20&#160;&#956;m distance and tested the statistical significance of the gradient using the Wilcoxon rank sum test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61678</offset>
+      <text>Cortical tension measurements with atomic force microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61737</offset>
+      <text>Zebrafish epiboly embryos were manually dechorionated and mounted for AFM as follow: Small holes of approximately twice the embryo size in diameter and half the embryo size in depth were made with thin forceps in an embryo medium 2% agarose layer prepared in 35&#8208;mm Petri dishes. Embryos were placed in the holes made in the agarose layer and tightly held by surrounding them with 0.5% low melting agarose. They were rotated to probe the region of interest by AFM (e.g., E&#8208;YSL or the vegetal pole).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62239</offset>
+      <text>The cortical tension of the embryos was measured with a custom&#8208;built atomic force microscope (AFM) attached to an inverted optical microscope (TE2000, Nikon, Tokyo, Japan) using a previously described method (Alcaraz et&#160;al, 2003). The embryos were probed with a spherical polystyrene bead 4.5&#160;&#956;m in diameter attached to a Si3N4 cantilever with a nominal spring constant of 0.01&#160;N/m (Novascan, Ames, IA). Force&#8208;indentation (F&#8208;h) curves were recorded in two different regions of the yolk surface. Each region was probed in five different points located at the center and the corners of a 10&#160;&#215;&#160;10&#160;&#956;m square.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62859</offset>
+      <text>The vertical displacement of the AFM cantilever (z) was measured with strain gauge sensors coupled to the piezo&#8208;actuators. The cantilever deflection (d) was recorded by a quadrant photodiode using the optical lever method. The slope of a d&#8208;z curve obtained from a bare region of the coverslip was used to calibrate cantilever deflection. The cantilever spring constant (k) was determined by the thermal fluctuations method. The force (F) on the cantilever was computed as F&#160;=&#160;k&#160;&#215;&#160;d. In each measurement point, five force&#8208;displacement (F&#8208;z) curves were acquired by ramping the cantilever at 1&#160;Hz with a peak&#8208;to&#8208;peak amplitude of 5&#160;&#956;m (velocity&#160;=&#160;10&#160;&#956;m/s) up to a maximum indentation of ~2&#160;&#956;m. The indentation of the sample (h) was computed as h&#160;=&#160;(z&#160;&#8211;&#160;zc) &#8211; (d&#160;&#8211;&#160;doff), where zc is the position of the contact point and doff is the offset of the photodiode.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63754</offset>
+      <text>Force curves acquired on embryos were interpreted in terms of a &#8220;liquid balloon&#8221; model consisting of an elastic cortex with cortical tension Tc enclosing a viscous liquid. Assuming a small indentation compared to the size of the embryo, force increases proportionally with indentation (Lomakina et&#160;al, 2004; Krieg et&#160;al, 2008) aswhere Rb is the radius of the bead and Re is the radius of the embryo. Since the radius of the embryos as estimated by microscopy images (~350&#160;&#956;m) is two orders of magnitude larger than that of the bead (2.25&#160;&#956;m), this equation&#160;can be approximated asTc was computed for each F&#8208;h curve by nonlinear least&#8208;squares fitting (Matlab, MathWorks). For statistical analysis, the cortical tension in each embryo region was taken as the average value of Tc computed from the F&#8208;h curves recorded at the five different measurement points.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64627</offset>
+      <text>The &#8220;liquid balloon&#8221; model has been previously described (Ishihara &amp; Sugimura, 2012) and has been employed to estimate cortical tension of leukocytes by micropipette aspiration. This model has been extended to spherical cells indented with a microbead by means of micropipettes (Lomakina et&#160;al, 2004) and more recently applied to compute the cortical tension of spherical progenitor cells from gastrulating zebrafish embryos indented with spherical AFM tips 5&#160;&#956;m in diameter (Krieg et&#160;al, 2008). Here we adapted this AFM technique to measure Tc of zebrafish whole embryos. Although the &#8220;liquid balloon&#8221; model equation&#160;assumes small sample deformations, as previously reported (Krieg et&#160;al, 2008), we found a proportional F&#8208;h relationship up to indentations close to the radius of the microbead. Taking into account the linear behavior of the force curves and the sensitivity of parameter estimation, we fitted the &#8220;liquid balloon&#8221; model to the whole indentation range of our measurements to obtain a robust estimation of Tc.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65672</offset>
+      <text>The force&#8208;indentation curves recorded in each of the two regions exhibited a proportional relationship (Fig&#160;5C), supporting the liquid&#8208;droplet model. The model fitted all the data very well (R2&#160;&gt;&#160;0.999). To evaluate the dependence of Tc on the velocity of the cantilever, two additional sets of five F&#8208;h curves were acquired at 3 and 30&#160;&#956;m/s in the last measurement point. Although Tc increased by 13% (P&#160;&lt;&#160;0.01, t&#8208;test) when the cantilever velocity was reduced from 10 to 3&#160;&#956;m/s, no significant change was observed from 10 to 30&#160;&#956;m/s. This weak dependence of Tc on cantilever velocity provides further support to the interpretation of this parameter computed by AFM as the cortical tension in the embryo.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66397</offset>
+      <text>Rheology of the cortex with atomic force microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66449</offset>
+      <text>The viscoelastic properties of the cortex were measured in five embryos with AFM by applying a low&#8208;amplitude (100&#160;nm) multifrequency oscillation composed of sinusoidal waves of different frequencies (Alcaraz et&#160;al, 2003). An effective complex modulus g*(f) was computed in the frequency domain aswhere i is the imaginary unit and F(f) and h(f) are the frequency (f) spectra of force and indentation, respectively. The term &#8220;b&#8221; is the correction for the viscous drag on the cantilever computed from oscillations applied above the surface. g*(f) was separated into real and imaginary parts as g*(f)&#160;=&#160;g&#8242;(f)&#160;+&#160;ig&#8243;(f). g&#8242;(f) is the elastic modulus and is a measure of the elastic energy stored and recovered per cycle of oscillation. g&#8243;(f) is the viscous modulus that accounts for the dissipated energy. The loss tangent was also computed as g&#8243;(f)/g&#8242;(f), which is an index of the solid&#8208;like (&lt;&#160;1) or liquid&#8208;like (&gt;1) behavior of the material.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67417</offset>
+      <text>To compare the stiffness of the embryo with that of other biological materials, we also computed the complex shear modulus (G*(f)&#160;=&#160;G&#8242;(f)&#160;+&#160;iG&#8243;(f)) assuming the contact model of an equivalent homogeneous half&#8208;space. Transforming equation&#160;43 (see Appendix) to the frequency domain, G* can be computed aswhere ho is the operating indentation (~0.5&#160;&#956;m).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67781</offset>
+      <text>Rheology of the yolk measured by particle tracking</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67832</offset>
+      <text>The viscoelastic behavior of the yolk was assessed by recording thermal fluctuations of microinjected fluorescent nanoparticles (radius a&#160;=&#160;100&#160;nm, FluoSpheres F8811, Life Technologies). Two hours after microinjection, the embryos were placed on the stage of a confocal inverted microscope and images of nanoparticles were recorded for 26&#160;s at a sampling rate of 25&#160;Hz. The position of the centroid of the particles and the trajectories of the particles were determined with ImageJ. The two&#8208;dimensional mean square displacement (MSD) of each particle was computed&#160;with custom&#8208;made software (Daniels et&#160;al, 2006; Wirtz, 2009) aswhere t is the elapsed time and &#916;t, the time lag. In a pure viscous liquid, MSD increases inversely with viscosity (&#957;) according to the Stokes&#8211;Einstein relationshipwhere T is the absolute temperature. The viscosity of the yolk was calculated by fitting this equation&#160;to the MSD data.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68759</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68780</offset>
+      <text>AH&#8208;V and MM performed all biological tests; P&#8208;AP designed the modeling and the regression analysis; JC, AH&#8208;V, MM, and P&#8208;AP performed the laser cuts and data refinement; TL and DN provided the AFM and particle tracking rheology data; ST and IP overview the hydrodynamic analysis and code implementation, and EM&#8208;B designed the study, analyzed the data, and wrote the manuscript. All authors discussed the results and commented on the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69234</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69255</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69315</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>69338</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">786</infon>
+      <infon key="pub-id_pmid">20813263</infon>
+      <infon key="fpage">773</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>69349</offset>
+      <text>Cell flow reorients the axis of planar polarity in the wing epithelium of Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">84</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">2079</infon>
+      <infon key="pub-id_pmid">12609908</infon>
+      <infon key="fpage">2071</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>69434</offset>
+      <text>Microrheology of human lung epithelial cells measured by atomic force microscopy</text>
+    </passage>
+    <passage>
+      <infon key="volume">338</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">260</infon>
+      <infon key="pub-id_pmid">23066079</infon>
+      <infon key="fpage">257</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69515</offset>
+      <text>Forces driving epithelial spreading in zebrafish gastrulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">206</infon>
+      <infon key="source">J Exp Zool</infon>
+      <infon key="lpage">426</infon>
+      <infon key="pub-id_pmid">568653</infon>
+      <infon key="fpage">381</infon>
+      <infon key="year">1978</infon>
+      <infon key="type">ref</infon>
+      <offset>69577</offset>
+      <text>Contact relations, surface activity, and cortical microfilaments of marginal cells of the enveloping layer and of the yolk syncytial and yolk cytoplasmic layers of fundulus before and during epiboly</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">22116</infon>
+      <infon key="pub-id_pmid">21127270</infon>
+      <infon key="fpage">22111</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>69776</offset>
+      <text>Video force microscopy reveals the mechanics of ventral furrow invagination in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">122</infon>
+      <infon key="pub-id_pmid">19165226</infon>
+      <infon key="fpage">108</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>69866</offset>
+      <text>A tense situation: forcing tumour progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">189</infon>
+      <infon key="pub-id_pmid">24317254</infon>
+      <infon key="fpage">183</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>69912</offset>
+      <text>Quantifying cell&#8208;generated mechanical forces within living embryonic tissues</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1414</infon>
+      <infon key="pub-id_pmid">24212092</infon>
+      <infon key="fpage">1405</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69991</offset>
+      <text>Tension&#8208;oriented cell divisions limit anisotropic tissue tension in epithelial spreading during zebrafish epiboly</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">HFSP J</infon>
+      <infon key="lpage">93</infon>
+      <infon key="pub-id_pmid">19794816</infon>
+      <infon key="fpage">77</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70107</offset>
+      <text>Fluid dynamics in developmental biology: moving fluids that shape ontogeny</text>
+    </passage>
+    <passage>
+      <infon key="volume">231</infon>
+      <infon key="source">Dev Dyn</infon>
+      <infon key="lpage">323</infon>
+      <infon key="pub-id_pmid">15366008</infon>
+      <infon key="fpage">313</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>70182</offset>
+      <text>Organization and function of microfilaments during late epiboly in zebrafish embryos</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Comput Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">22615550</infon>
+      <infon key="fpage">e1002512</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70267</offset>
+      <text>Mechanical stress inference for two dimensional cell arrays</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">1679</infon>
+      <infon key="pub-id_pmid">19401336</infon>
+      <infon key="fpage">1665</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70327</offset>
+      <text>Mechanosensing in actin stress fibers revealed by a close correlation between force and protein localization</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">994</infon>
+      <infon key="pub-id_pmid">9463345</infon>
+      <infon key="fpage">983</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>70436</offset>
+      <text>Oriented cell divisions and cellular morphogenesis in the zebrafish gastrula and neurula: a time&#8208;lapse analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">232</infon>
+      <infon key="source">Dev Dyn</infon>
+      <infon key="lpage">368</infon>
+      <infon key="pub-id_pmid">15614774</infon>
+      <infon key="fpage">359</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>70550</offset>
+      <text>Visualizing morphogenesis in transgenic zebrafish embryos using BODIPY TR methyl ester dye as a vital counterstain for GFP</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">4719</infon>
+      <infon key="pub-id_pmid">16581841</infon>
+      <infon key="fpage">4712</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>70673</offset>
+      <text>Probing single&#8208;cell micromechanics in&#160;vivo: the microrheology of Caenorhabditis elegans developing embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">477</infon>
+      <infon key="pub-id_pmid">18804441</infon>
+      <infon key="fpage">470</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>70783</offset>
+      <text>Tissue deformation modulates twist expression to determine anterior midgut differentiation in Drosophila embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">324</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1677</infon>
+      <infon key="pub-id_pmid">19556500</infon>
+      <infon key="fpage">1673</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70896</offset>
+      <text>Growth factors, matrices, and forces combine and control stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">56</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">160</infon>
+      <infon key="pub-id_pmid">2752085</infon>
+      <infon key="fpage">151</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>70964</offset>
+      <text>Apparent viscosity and cortical tension of blood granulocytes determined by micropipet aspiration</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">J Korean Phys Soc</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">854</infon>
+      <infon key="year">2007</infon>
+      <offset>71062</offset>
+      <text>Measurement of micro&#8208;elasticity within a fertilized egg by using brillouin scattering spectroscopy</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3667</infon>
+      <infon key="pub-id_pmid">18310326</infon>
+      <infon key="fpage">3663</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71163</offset>
+      <text>Microfluidics of cytoplasmic streaming and its implications for intracellular transport</text>
+    </passage>
+    <passage>
+      <infon key="volume">466</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">266</infon>
+      <infon key="pub-id_pmid">20613844</infon>
+      <infon key="fpage">263</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71251</offset>
+      <text>Measuring mechanical tension across vinculin reveals regulation of focal adhesion dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Opin Genet Dev</infon>
+      <infon key="lpage">652</infon>
+      <infon key="pub-id_pmid">21982413</infon>
+      <infon key="fpage">647</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>71342</offset>
+      <text>Growing up is stressful: biophysical laws of morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">508</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">396</infon>
+      <infon key="pub-id_pmid">24590071</infon>
+      <infon key="fpage">392</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>71401</offset>
+      <text>Apical constriction drives tissue&#8208;scale hydrodynamic flow to mediate cell elongation</text>
+    </passage>
+    <passage>
+      <infon key="volume">243</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">214</infon>
+      <infon key="pub-id_pmid">11884031</infon>
+      <infon key="fpage">209</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>71488</offset>
+      <text>Morpholino oligos: making sense of antisense?</text>
+    </passage>
+    <passage>
+      <infon key="volume">313</infon>
+      <infon key="source">J Theor Biol</infon>
+      <infon key="lpage">211</infon>
+      <infon key="pub-id_pmid">22939902</infon>
+      <infon key="fpage">201</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71534</offset>
+      <text>Bayesian inference of force dynamics during morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Differentiation</infon>
+      <infon key="lpage">205</infon>
+      <infon key="pub-id_pmid">12694202</infon>
+      <infon key="fpage">171</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>71592</offset>
+      <text>How we are shaped: the biomechanics of gastrulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Opin Neurobiol</infon>
+      <infon key="lpage">632</infon>
+      <infon key="pub-id_pmid">19375303</infon>
+      <infon key="fpage">624</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71644</offset>
+      <text>Quantitative in&#160;vivo imaging of entire embryos with digital scanned laser light sheet fluorescence microscopy</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">490</infon>
+      <infon key="pub-id_pmid">10769037</infon>
+      <infon key="fpage">471</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>71755</offset>
+      <text>Multiple forces contribute to cell sheet morphogenesis for dorsal closure in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">203</infon>
+      <infon key="source">Dev Dyn</infon>
+      <infon key="lpage">310</infon>
+      <infon key="pub-id_pmid">8589427</infon>
+      <infon key="fpage">253</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>71843</offset>
+      <text>Stages of embryonic development of the zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">133</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2681</infon>
+      <infon key="pub-id_pmid">16794032</infon>
+      <infon key="fpage">2671</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71892</offset>
+      <text>Coordinated cell&#8208;shape changes control epithelial movement in zebrafish and Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">436</infon>
+      <infon key="pub-id_pmid">18364700</infon>
+      <infon key="fpage">429</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71981</offset>
+      <text>Tensile forces govern germ&#8208;layer organization in zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">184</infon>
+      <infon key="pub-id_pmid">21740231</infon>
+      <infon key="fpage">157</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72042</offset>
+      <text>Force generation, transmission, and integration during cell and tissue morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Int J Dev Biol</infon>
+      <infon key="lpage">1228</infon>
+      <infon key="pub-id_pmid">20712002</infon>
+      <infon key="fpage">1213</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>72127</offset>
+      <text>Zebrafish epiboly: mechanics and mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">4258</infon>
+      <infon key="pub-id_pmid">15361412</infon>
+      <infon key="fpage">4246</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>72171</offset>
+      <text>Rheological analysis and measurement of neutrophil indentation</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">4005</infon>
+      <infon key="pub-id_pmid">21368110</infon>
+      <infon key="fpage">4000</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72234</offset>
+      <text>Large&#8208;scale mechanical properties of Xenopus embryonic epithelium</text>
+    </passage>
+    <passage>
+      <infon key="volume">341</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">125</infon>
+      <infon key="pub-id_pmid">19874815</infon>
+      <infon key="fpage">114</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>72302</offset>
+      <text>Pulsation and stabilization: contractile forces that underlie morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">11905</infon>
+      <infon key="pub-id_pmid">21730185</infon>
+      <infon key="fpage">11900</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72378</offset>
+      <text>Hydrodynamic property of the cytoplasm is sufficient to mediate cytoplasmic streaming in the Caenorhabditis elegans embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">676</infon>
+      <infon key="pub-id_pmid">21571223</infon>
+      <infon key="fpage">663</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72501</offset>
+      <text>The apoptotic regulator Nrz controls cytoskeletal dynamics via the regulation of Ca2+ trafficking in the zebrafish blastula</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Signal</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">19366994</infon>
+      <infon key="fpage">ra16</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72625</offset>
+      <text>Mechanical signals trigger Myosin II redistribution and mesoderm invagination in Drosophila embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1185</infon>
+      <infon key="pub-id_pmid">19563750</infon>
+      <infon key="fpage">1183</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72725</offset>
+      <text>Closing in on mechanisms of tissue morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="lpage">336</infon>
+      <infon key="source">Aquac Res</infon>
+      <infon key="fpage">325</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>72774</offset>
+      <text>Field emission scanning electron microscopy and transmission electron microscopy studies of the chorion, plasma membrane and syncytial layers of the gastrula&#8208;stage embryo of the zebrafish Brachydanio rerio: a consideration of the structural and functional relationships with respect to cryoprotectant penetration</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">607</infon>
+      <infon key="pub-id_pmid">18536722</infon>
+      <infon key="fpage">605</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73089</offset>
+      <text>Lifeact: a versatile marker to visualize F&#8208;actin</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">HFSP J</infon>
+      <infon key="lpage">237</infon>
+      <infon key="pub-id_pmid">19404432</infon>
+      <infon key="fpage">220</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73140</offset>
+      <text>Actomyosin purse strings: renewable resources that make morphogenesis robust and resilient</text>
+    </passage>
+    <passage>
+      <infon key="volume">261</infon>
+      <infon key="source">Int Rev Cytol</infon>
+      <infon key="lpage">192</infon>
+      <infon key="pub-id_pmid">17560282</infon>
+      <infon key="fpage">159</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73231</offset>
+      <text>Zebrafish gastrulation: cell movements, signals, and mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">HFSP J</infon>
+      <infon key="lpage">56</infon>
+      <infon key="pub-id_pmid">19404452</infon>
+      <infon key="fpage">42</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73295</offset>
+      <text>Quantitative differences in tissue surface tension influence zebrafish germ layer positioning</text>
+    </passage>
+    <passage>
+      <infon key="volume">120</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2455</infon>
+      <infon key="pub-id_pmid">7956824</infon>
+      <infon key="fpage">2443</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>73389</offset>
+      <text>Microtubule arrays of the zebrafish yolk cell: organization and function during epiboly</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Opin Genet Dev</infon>
+      <infon key="lpage">441</infon>
+      <infon key="pub-id_pmid">16797963</infon>
+      <infon key="fpage">433</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>73477</offset>
+      <text>Gastrulation in zebrafish &#8211; all just about adhesion?</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1052</infon>
+      <infon key="pub-id_pmid">15657140</infon>
+      <infon key="fpage">1047</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>73532</offset>
+      <text>In vivo modulation of morphogenetic movements in Drosophila embryos with femtosecond laser pulses</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Opin Genet Dev</infon>
+      <infon key="lpage">548</infon>
+      <infon key="pub-id_pmid">21917444</infon>
+      <infon key="fpage">538</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73630</offset>
+      <text>Advances in multiphoton microscopy for imaging embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">321</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1686</infon>
+      <infon key="pub-id_pmid">18802000</infon>
+      <infon key="fpage">1683</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73685</offset>
+      <text>Apoptotic force and tissue dynamics during Drosophila embryogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="lpage">532</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="fpage">513</infon>
+      <infon key="year">1963</infon>
+      <infon key="type">ref</infon>
+      <offset>73753</offset>
+      <text>The cellular basis of Fundulus epiboly. Adhesivity of blastula and gastrula cells in culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">580</infon>
+      <infon key="pub-id_pmid">2387236</infon>
+      <infon key="fpage">569</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>73846</offset>
+      <text>Cell movements during epiboly and gastrulation in zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">386</infon>
+      <infon key="pub-id_pmid">2401201</infon>
+      <infon key="fpage">373</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>73906</offset>
+      <text>The mechanical basis of cell rearrangement. I. Epithelial morphogenesis during Fundulus epiboly</text>
+    </passage>
+    <passage>
+      <infon key="source">The zebrafish book: a guide for the laboratory use of zebrafish (Danio rerio)</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2000</infon>
+      <offset>74002</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Annu Rev Biophys</infon>
+      <infon key="lpage">326</infon>
+      <infon key="pub-id_pmid">19416071</infon>
+      <infon key="fpage">301</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>74003</offset>
+      <text>Particle&#8208;tracking microrheology of living cells: principles and applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2236</infon>
+      <infon key="pub-id_pmid">17507392</infon>
+      <infon key="fpage">2227</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>74082</offset>
+      <text>Actin&#8208;dependent cytoplasmic streaming in Caenorhabditis elegans oogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Plant Cell Physiol</infon>
+      <infon key="lpage">1431</infon>
+      <infon key="pub-id_pmid">16963465</infon>
+      <infon key="fpage">1427</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>74158</offset>
+      <text>Chara myosin and the energy of cytoplasmic streaming</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1258</infon>
+      <infon key="pub-id_pmid">21874009</infon>
+      <infon key="fpage">1252</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>74211</offset>
+      <text>Dynamic maintenance of asymmetric meiotic spindle position through Arp2/3&#8208;complex&#8208;driven cytoplasmic streaming in mouse oocytes</text>
+    </passage>
+  </document>
+</collection>

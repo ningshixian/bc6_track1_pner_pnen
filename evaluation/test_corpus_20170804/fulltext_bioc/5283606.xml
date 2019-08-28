@@ -1,0 +1,917 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5283606</id>
+    <passage>
+      <infon key="name_2">surname:de Bruin;given-names:Gerjan</infon>
+      <infon key="name_3">surname:Overkleeft;given-names:Herman S</infon>
+      <infon key="name_0">surname:Huber;given-names:Eva M</infon>
+      <infon key="name_1">surname:Heinemeyer;given-names:Wolfgang</infon>
+      <infon key="alt-title">Eva M Huber et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201695222</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201695222</infon>
+      <infon key="article-id_pmid">27789522</infon>
+      <infon key="lpage">2613 2613</infon>
+      <infon key="pub-id_pmid">27789522</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2602 2602</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Groll;given-names:Michael</infon>
+      <infon key="issue">23</infon>
+      <infon key="kwd">immunoproteasome ligand mode of action species selectivity X&#8208;ray crystallography Chemical Biology Post-translational Modifications, Proteolysis &amp; Proteomics</infon>
+      <offset>0</offset>
+      <text>A humanized yeast proteasome identifies unique binding modes of inhibitors for the immunosubunit &#946;5i</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>104</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>113</offset>
+      <text>Inhibition of the immunoproteasome subunit &#946;5i alleviates autoimmune diseases in preclinical studies and represents a promising new anti&#8208;inflammatory therapy. However, the lack of structural data on the human immunoproteasome still hampers drug design. Here, we systematically determined the potency of seven &#945;' &#946;' epoxyketone inhibitors with varying N&#8208;caps and P3&#8208;stereochemistry for mouse/human &#946;5c/&#946;5i and found pronounced differences in their subunit and species selectivity. Using X&#8208;ray crystallography, the compounds were analyzed for their modes of binding to chimeric yeast proteasomes that incorporate key parts of human &#946;5c, human &#946;5i or mouse &#946;5i and the neighboring &#946;6 subunit. The structural data reveal exceptional conformations for the most selective human &#946;5i inhibitors and highlight subtle structural differences as the major reason for the observed species selectivity. Altogether, the presented results validate the humanized yeast proteasome as a powerful tool for structure&#8208;based development of &#946;5i inhibitors with potential clinical applications.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1217</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1230</offset>
+      <text>Protein breakdown by the ubiquitin&#8208;proteasome system ensures cell survival and proliferation. The 20S proteasome core particle (CP) constitutes the heart of this non&#8208;lysosomal protein degradation pathway. In mammals, three different CP types are known: the constitutive proteasome (cCP), the immunoproteasome (iCP), and the thymoproteasome (tCP) (Murata et&#160;al, 2007; Groettrup et&#160;al, 2010). All of them are built of seven different &#945;&#8208; and seven different &#946;&#8208;subunits that are stacked in four heptameric rings around a central pore. Each type of CP incorporates a distinct set of catalytically active &#946;1, &#946;2 and &#946;5 subunits (cCP: &#946;1c, &#946;2c and &#946;5c; iCP: &#946;1i, &#946;2i and &#946;5i; tCP: &#946;1i, &#946;2i and &#946;5t) (Groll et&#160;al, 1997; Unno et&#160;al, 2002; Murata et&#160;al, 2007; Huber et&#160;al, 2012; Harshbarger et&#160;al, 2015). These subunits employ the same mechanism of peptide bond hydrolysis (Huber et&#160;al, 2012, 2016), but display different substrate specificities. Because of its pivotal biological role, the proteasome is an attractive drug target. Blockage of the &#946;5 active sites causes cell cycle arrest, an effect that led to the approval of the proteasome inhibitors bortezomib, carfilzomib, and ixazomib for the treatment of multiple myeloma (Appendix&#160;Fig S1) (Huber &amp; Groll, 2012; Muz et&#160;al, 2016). More recently, selective targeting of the iCP&#8208;subunit &#946;5i, which promotes class I antigen processing and pathogen clearance as well as the production of proinflammatory cytokines, has been shown to suppress various autoimmune diseases in mouse models (Muchamuel et&#160;al, 2009; Ichikawa et&#160;al, 2011; Basler et&#160;al, 2014; Ettari et&#160;al, 2016). Structural data on the mouse cCP and iCP in complex with ONX 0914 (formerly PR&#8208;957) (Huber et&#160;al, 2012), the first &#946;5i selective inhibitor (Muchamuel et&#160;al, 2009), provided insights into its mode of binding and enabled the structure&#8208;guided design of compounds specific for &#946;5c (Xin et&#160;al, 2016) and of ligands with improved &#946;5i&#8208;selectivity (Fig&#160;1) (de Bruin et&#160;al, 2014). The latter ones unify structural features of the &#945;', &#946;' epoxyketone inhibitors ONX 0914 and PR&#8208;924, another &#946;5i&#8208;specific compound (Parlati et&#160;al, 2009; Singh et&#160;al, 2011; Niewerth et&#160;al, 2014). While ONX 0914 inhibits both the mouse and the human &#946;5i subunit to the same extent (Muchamuel et&#160;al, 2009; Huber et&#160;al, 2012), PR&#8208;924 was reported to be more selective for human &#946;5i (Niewerth et&#160;al, 2014). However, structural data on the yeast 20S proteasome (yCP) in complex with PR&#8208;924 (de Bruin et&#160;al, 2014) could not explain the molecular reason for the enhanced &#946;5i&#8208;selectivity and the species specificity of PR&#8208;924. Due to the easy purification of proteasomes from erythrocytes, cCP crystal structures from cow&#160;(Unno et&#160;al, 2002), mouse (Huber et&#160;al, 2012), and humans (Harshbarger et&#160;al, 2015) are available to date. By contrast, iCPs are less amenable to isolation because of their cell&#8208;type&#8208;specific and cytokine&#8208;inducible expression pattern. We therefore used mutagenesis to create yeast/human and yeast/mouse chimeric proteasomes. These mutant particles served to structurally investigate the subunit and species selectivity of PR&#8208;924 and related epoxyketone compounds. Compared to wild&#8208;type (WT) yeast, X&#8208;ray structures of &#946;5c/&#946;6 and &#946;5i/&#946;6 humanized yCPs visualize distinct and exceptional binding modes for PR&#8208;924 and its analogues. These results provide insights into the molecular mechanisms of these inhibitors and deliver explanations for their high selectivity toward human &#946;5i. Furthermore, specific guidelines for the design of human &#946;5i&#8208;ligands can be inferred with respect to the stereochemistry of the peptide backbone and the N&#8208;cap size. These data now set the basis for further optimization of iCP&#8208;specific ligands for future clinical applications.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5097</offset>
+      <text>Chemical structures of &#945;', &#946;' epoxyketone immunoproteasome inhibitors analyzed in this study</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5197</offset>
+      <text>The syntheses of the ligands PR&#8208;924, 9, 14, 16, 17, and 18 have been described previously (de Bruin et&#160;al, 2014). All ligands share the peptide scaffold shown in the upper left corner with P1, P2 and P3 side chains and an N&#8208;cap; they are equipped with a l&#8208;Ala (stereochemistry (S)) or d&#8208;Ala (stereochemistry (R)) residue at P3 (red) and either an N&#8208;acylmorpholine or a 3&#8208;methyl&#8208;1H&#8208;indene group (green). Furthermore, compounds differ in their P2 residue (either methoxytyrosine or tryptophane; blue). Inhibitor 9, also termed LU&#8208;015i, is endowed with an exceptional cyclohexyl residue (gray), which is associated with increased selectivity for human &#946;5i.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5871</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5879</offset>
+      <text>Immunoproteasome inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5907</offset>
+      <text>The proteasome inhibitor bortezomib, a dipeptide boronic acid (Appendix&#160;Fig S1), equally targets the subunits &#946;5c and &#946;5i (Demo et&#160;al, 2007). Despite its off&#8208;target activity toward serine proteases, which causes severe side effects (Arastu&#8208;Kapur et&#160;al, 2011), bortezomib was granted approval by the FDA for cancer treatment. Carfilzomib, a second&#8208;generation compound based on the natural product epoxomicin, only targets the small class of N&#8208;terminal nucleophilic hydrolases such as the proteasome. By a two&#8208;step reaction mechanism, the epoxyketone inhibitor carfilzomib covalently and irreversibly modifies the active site Thr1O&#947; and Thr1N of predominantly &#946;5c and &#946;5i proteasome subunits (Groll et&#160;al, 2000; Demo et&#160;al, 2007). Screening of diverse peptide libraries (Harris et&#160;al, 2001; Nazif &amp; Bogyo, 2001; Britton et&#160;al, 2009; Blackburn et&#160;al, 2010; Huber et&#160;al, 2015a) led to the development of subunit&#8208;selective inhibitors. The prototypes of &#946;5i&#8208;specific epoxyketones are ONX 0914 (Muchamuel et&#160;al, 2009) and PR&#8208;924 (Parlati et&#160;al, 2009) (Fig&#160;1). As shown in our activity assays with genuine human as well as mouse cCP and iCP, both compounds are potent inhibitors of human &#946;5i (IC50&#160;&#8804;&#160;0.051&#160;&#956;M) with up to 20&#8208; and 255&#8208;fold selectivity over human &#946;5c, respectively (Fig&#160;2, Appendix&#160;Table&#160;S2 and Appendix&#160;Fig S2). Notably, the superior selectivity of PR&#8208;924 is not based on enhanced h&#946;5i inhibition but worse h&#946;5c targeting compared to ONX 0914 (IC50 h&#946;5c (ONX 0914): 0.487&#160;&#956;M; h&#946;5c (PR&#8208;924): 13.020&#160;&#956;M; Fig&#160;2B). The chemical structures of ONX 0914 and PR&#8208;924 differ in their P2 residue (methoxytyrosine versus tryptophane), in the stereochemistry of their P3&#8208;Ala residue (l versus d), and in their N&#8208;cap (morpholine versus 3&#8208;methyl&#8208;1H&#8208;indene; Fig&#160;1). First, we addressed the question which of these structural differences gives rise to the improved &#946;5i selectivity of PR&#8208;924, and secondly, we aimed to investigate why PR&#8208;924 is seven times less potent for mouse &#946;5i (IC50 0.353&#160;&#956;M) than for human &#946;5i (IC50 0.051&#160;&#956;M)&#8212;a phenomenon that is not observed for ONX 0914 (IC50 h&#946;5i: 0.024&#160;&#956;M versus m&#946;5i: 0.040&#160;&#956;M; Fig&#160;2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8126</offset>
+      <text>Inhibition of the chymotrypsin&#8208;like activities of yeast, human, and mouse proteasomes by ONX 0914, PR&#8208;924, 9, 14, 16, 17, and 18</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8259</offset>
+      <text>Inhibition of human &#946;5c and &#946;5i by ONX 0914 and PR&#8208;924. IC50 values are deduced from the fitted data.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8367</offset>
+      <text>IC50 values (&#956;M) for all compounds toward the yeast, human, and mouse &#946;5 subunits. For inhibition curves, see Appendix&#160;Figure&#160;S2. The ratio IC50(&#946;5c)/IC50(&#946;5i), a measure of &#946;5i selectivity, is given. Large values indicate high selectivity for &#946;5i.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8632</offset>
+      <text>Data information: Genuine WT proteasomes were used for all inhibition assays. IC50 values (&#956;M) were determined in triplicates with the fluorogenic substrate Suc&#8208;LLVY&#8208;AMC using an enzyme concentration of 13&#160;nM. Mean standard deviations are indicated as bars and given in Appendix&#160;Table&#160;S2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8929</offset>
+      <text>Since available structural data on yeast and mouse CPs failed to provide plausible explanations for the subunit and species inhibition profiles of PR&#8208;924, we created yeast/mammalian chimeric proteasomes and analyzed their X&#8208;ray structures in complex with a set of inhibitors, including PR&#8208;924 and ONX 0914 as well as previously described derivatives of both (compounds 9, 14, 16, 17 and 18, Fig&#160;1). For clarity reasons, compound numbering was taken over from the first report of these ligands (de Bruin et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9454</offset>
+      <text>Construction of chimeric yeast/human proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9503</offset>
+      <text>In an initial attempt, we tried to express the full&#8208;length human &#946;5c and &#946;5i as well as mouse &#946;5i subunits in a yeast pre2&#916; knockout strain under the control of the PRE2 promotor and terminator sequences (for details see Appendix&#160;Supplementary Methods). Despite the strictly conserved fold of proteasome subunits across species, this genetic setup was lethal, even after replacement of the genuine &#946;5c/&#946;5i propeptide by that of y&#946;5 (Fig&#160;3A). Most likely the mammalian &#946;5 subunits are unable to adopt their correct three&#8208;dimensional structure or fail to incorporate into the yeast proteasome due to species&#8208;specific differences in the subunit interface contacts.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10190</offset>
+      <text>Expression of mammalian &#946;5 proteasome subunits in yeast</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10249</offset>
+      <text>Schematic representation of yeast and mammalian &#946;5 subunits and their propeptides. Secondary structure elements, helices (H) and sheets (S), are numbered. The full&#8208;length human h&#946;5i (yellow) and &#946;5c (red) as well as the mouse m&#946;5i (green) subunits cannot substitute the endogenous yeast y&#946;5 subunit (gray). Expression of the mammalian subunits with their natural propeptide (pp; colored) or with the y&#946;5 propeptide (pp; gray) is lethal in a yeast pre2&#916; knockout strain (for details, see Appendix&#160;Supplementary Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10791</offset>
+      <text>Chimeric &#946;5 subunits are schematically illustrated according to panel (A). The N&#8208;terminal part of the subunits, which forms the primed and non&#8208;primed substrate binding pockets and the active site surroundings, was taken from human &#946;5i and the C&#8208;terminus from yeast. A construct featuring residues 1&#8211;173 from human &#946;5i was still lethal. Replacement of the residues 1&#8211;139 of y&#946;5 by the human &#946;5i counterpart (aa 1&#8211;138; see Appendix&#160;Supplementary Note), however, was compatible with yeast survival. Based on this observation, analogous fragments of the human &#946;5c and mouse &#946;5i subunits were incorporated into the y&#946;5 subunit to create the respective h&#946;5c and m&#946;5i chimeras.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11492</offset>
+      <text>Subunit &#946;6 significantly contributes to the S3 and S4 pockets of the ChT&#8208;L active site. In order to mimic the entire mammalian &#946;5/6 substrate binding channel in yeast, we mutated five residues of the y&#946;6 subunit as well (G89S, K90R, H98Y, T99N, and E120Q). These mutations correspond to both the human and the mouse &#946;6 sequence and create two mammalian segments aa 87&#8211;101 and aa 108&#8211;121 (blue; see also Appendix&#160;Supplementary Note).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11937</offset>
+      <text>The mouse&#8208;specific point mutation V31M was inserted into the h&#946;5i/h&#946;6 chimera to investigate its impact on inhibitor binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12069</offset>
+      <text>Serial dilutions of yeast cells were spotted on YPD plates and grown for 2&#160;days either at 30&#176;C or 37&#176;C. Mutant yeasts are significantly retarded in growth and show increased temperature sensitivity.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12271</offset>
+      <text>Surface illustration of the yCP. The &#946;5 and &#946;6 subunits are depicted in dark gray, with the residue ranges that correspond to mammalian &#946;5 and &#946;6 subunits in the chimeric proteasomes highlighted in gold and blue, respectively. The &#946;5' and &#946;6' subunits of the second &#946;&#8208;ring are hidden on the back of the 20S proteasome.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12611</offset>
+      <text>Next, we replaced the endogenous y&#946;5 by various chimeric h&#946;5i/y&#946;5 subunits that feature the y&#946;5 propeptide, N&#8208;terminal parts of human &#946;5i, and C&#8208;terminal segments of y&#946;5 (Fig&#160;3B). Among the viable mutant yeasts, we selected that one that carried the largest fragment of &#946;5i (amino acids (aa) 1&#8211;138; see also Appendix&#160;Supplementary Note). Importantly, this residue range encodes both primed and non&#8208;primed pockets of the substrate binding channel. The mutant strain suffered from a pronounced growth defect, from increased temperature sensitivity as well as significantly reduced chymotrypsin&#8208;like (ChT&#8208;L; &#946;5) proteasome activity (Fig&#160;3E and Appendix&#160;Fig S3A). Crystallographic analysis (for X&#8208;ray data see Appendix&#160;Table&#160;S1) however revealed that the chimeric &#946;5 subunits were properly incorporated into the CP and fully matured. Despite extensive mutagenesis, superposition with the mouse iCP and WT yCP coordinates proved the preservation of the overall fold of the chimeric &#946;5 subunits (root&#8208;mean&#8208;square deviation (r.m.s.d.) for mouse &#946;5i: C&#945; 0.751&#160;&#197;; for yeast y&#946;5: C&#945; 0.209&#160;&#197;; Appendix&#160;Fig S4A). Furthermore, the structures displayed Met45 in the same peculiar &#8220;open&#8221; conformation that has previously been discovered for the mouse iCP in the apo state (Huber et&#160;al, 2012) (Appendix&#160;Fig S4B). Hence, our results indicate that the reorientation of Met45 is inherent to iCPs irrespective of the species and that the molecular switch for this conformational change is encoded within the &#946;5i residues 1&#8211;138.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14171</offset>
+      <text>After having addressed subunit &#946;5i, we extended our mutagenesis to the neighboring &#946;6 subunit in order to create an entire human &#946;5i/&#946;6 substrate binding channel for X&#8208;ray inhibitor binding studies. In total, five amino acids of y&#946;6 that mediate important interactions with ligands bound to the &#946;5 active site were mutated (Fig&#160;3C). These residues further aggravated the growth defect of the respective yeast strain (Pre7mut; Fig&#160;3E). Compared to WT yCPs, purified h&#946;5i/h&#946;6 chimeric proteasomes showed normal &#946;1 and &#946;2 but 90% reduced &#946;5 activity (Appendix&#160;Fig S3B). In accordance, the &#946;5 subunit was less sensitive to epoxyketone inhibitors (Appendix&#160;Fig S3C). X&#8208;ray data on the h&#946;5i/h&#946;6 chimeric proteasome however proved that the modified &#946;6 residues take the same place as in the human or mouse &#946;6 subunit (Huber et&#160;al, 2012; Harshbarger et&#160;al, 2015) and that all crucial &#946;5 residues including Met45 are arranged as in the natural mouse iCP (Fig&#160;4A). In analogy to the h&#946;5i/h&#946;6 chimera, mouse m&#946;5i/m&#946;6 and human h&#946;5c/h&#946;6 proteasomes were constructed (aa 1&#8211;138; Fig&#160;3B). The respective yeasts as well as the purified CPs suffered from the same defects observed for the h&#946;5i/h&#946;6 chimera (Fig&#160;3E and Appendix&#160;Fig S3). Although the mutant CPs are not equivalent to endogenous WT yCP, cCP, and iCP with respect to catalytic activity, their structural congruence is striking. While in the i&#8208;chimeras, Met45 is in the open conformation, the crystal structure of the h&#946;5c/h&#946;6 chimera visualizes the typical &#946;5c &#8220;closed&#8221; orientation of Met45 (Fig&#160;4B&#8211;D). This structural equivalence validates the designed chimeric proteasomes for X&#8208;ray diffraction&#8208;based ligand binding studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15928</offset>
+      <text>Crystal structures of chimeric human proteasomes in their apo state</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15996</offset>
+      <text>Superposition of the &#946;5i/&#946;6 active sites of genuine mouse iCP and the h&#946;5i/h&#946;6 human/yeast chimera illustrates that Met45 adopts the same &#8220;open&#8221; conformation in both structures. Amino acid side chains important for substrate binding are depicted as sticks. The catalytic Thr1 is colored in black. Met31, the single amino acid difference between mouse and human &#946;5i active sites, is highlighted in green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16415</offset>
+      <text>Superposition of the genuine mouse and the human chimeric &#946;5c/&#946;6 active sites according to panel (A) proves the proper orientation of Met45 in the &#8220;closed&#8221; conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16591</offset>
+      <text>Superposition of the &#946;5c/&#946;6 and &#946;5i/&#946;6 active sites of the natural mouse cCP and iCP according to panel (A). Note the distinct conformations of Met45 (Huber et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16774</offset>
+      <text>Superposition of the h&#946;5c/h&#946;6 and the h&#946;5i/h&#946;6 chimeric proteasomes confirms the distinct positions of Met45 analogously to the natural mouse subunits shown in panel (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16957</offset>
+      <text>Data information: This figure contains previously published coordinates (Huber et&#160;al, 2012): mouse cCP (PDB accession code: 3UNE) and mouse iCP (PDB accession code: 3UNH).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17130</offset>
+      <text>Enhanced selectivity of PR&#8208;924 and its analogues for human &#946;5i versus &#946;5c</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17210</offset>
+      <text>Crystals of the h&#946;5c/h&#946;6 and the h&#946;5i/h&#946;6 chimeras were soaked with the prevalent proteasome inhibitors ONX 0914, bortezomib, and carfilzomib. These compounds were chosen, because structural data on their binding mode to the WT yCP (Groll et&#160;al, 2006; Huber et&#160;al, 2015b), the human (Harshbarger et&#160;al, 2015) and mouse cCP (Huber et&#160;al, 2012) as well as the mouse iCP (Huber et&#160;al, 2012) are&#160;available for comparison. Despite the reduced activity of the chimeric proteasomes, all ligands covalently modified the mutant &#946;5&#160;active sites at high occupancy (Fig&#160;EV1A and B, Appendix Table&#160;S3). Furthermore, the coordinates revealed uniform modes of binding for all three inhibitors to WT yCP, chimeric CPs, and available WT mammalian CP structures (r.m.s.d. &lt;&#160;0.65&#160;&#197;; Fig&#160;EV1C) (Huber et&#160;al, 2012; Harshbarger et&#160;al, 2015). For ONX 0914, we previously noticed distinct orientations of the N&#8208;cap in the mouse constitutive proteasome and the immunoproteasome crystal structures (Huber et&#160;al, 2012). Remarkably, these distinct conformations are now also observed with the humanized yeast structures (Fig&#160;EV1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18338</offset>
+      <text>ONX 0914, bortezomib, and carfilzomib bound to human chimeric proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18412</offset>
+      <text>The 2FO&#8208;FC electron density maps for ONX 0914, bortezomib, and carfilzomib covalently bound to the &#946;5 active site Thr1 of the h&#946;5c/h&#946;6 chimera are shown as blue meshes contoured at 1&#963; (according to Fig&#160;5A). The N&#8208;caps of carfilzomib and ONX 0914 are less well defined.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18694</offset>
+      <text>The 2FO&#8208;FC electron density maps for ONX 0914, bortezomib, and carfilzomib linked to the &#946;5 active site Thr1 of the h&#946;5i/h&#946;6 chimeric proteasomes are depicted according to panel (A). The P4 site and the N&#8208;cap of carfilzomib are poorly defined.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18947</offset>
+      <text>Superpositions of ONX 0914, bortezomib, and carfilzomib bound to &#946;5 subunits of the WT mouse iCP and cCP, WT human cCP, the human chimeric proteasomes, and the WT yCP illustrate their similar binding modes. Note that the structures are rotated by 45&#176; compared to the panels (A) and (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19237</offset>
+      <text>Data information: Panel&#160;(C) contains previously published coordinates with the following PDB accession codes: WT mouse iCP:ONX 0914, 3UNH (Huber et&#160;al, 2012); WT mouse cCP:ONX 0914, 3UNE (Huber et&#160;al, 2012); WT yCP:ONX 0914, 4QWX (Huber et&#160;al, 2015b); WT yCP:bortezomib, 4QVL (Huber et&#160;al, 2015b); WT yCP:carfilzomib, 4QW4 (Huber et&#160;al, 2015b); WT human cCP:carfilzomib, 4R67 (Harshbarger et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19647</offset>
+      <text>Next, complex structures of the chimeric human proteasomes with PR&#8208;924 and derivatives thereof were determined (Figs&#160;5 and EV2A and B). For the constitutive h&#946;5c/h&#946;6 chimera, we observed similar results as with WT yCP (de Bruin et&#160;al, 2014; and Appendix&#160;Fig S5). Compounds exclusively built of l amino acids (ONX 0914, 14) bind in an extended manner to the h&#946;5c/h&#946;6 chimera regardless of their type of N&#8208;cap. Ligands that are furnished with a P3&#8208;d&#8208;Ala and the 3&#8208;methyl&#8208;1H&#8208;indene cap (PR&#8208;924 and 18) adopt a linear orientation as well, but those combining a P3&#8208;d&#8208;Ala amino acid and a morpholine N&#8208;cap (16 and 17) are bent, with the N&#8208;cap occupying a pocket outside of the natural substrate binding channel, which we termed S3* (Figs&#160;5 and EV2A). Notably, ligands with d stereochemistry at P3 are generally less potent for y&#946;5 and human &#946;5c than those with natural l stereochemistry at P3 (ONX 0914 and 14; Fig 2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20595</offset>
+      <text>Ligand complex structures of human chimeric proteasomes reveal distinct binding modes for &#946;5c and &#946;5i</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20703</offset>
+      <text>Complex structures of the human &#946;5c/&#946;6 (left) and &#946;5i/&#946;6 (right) chimeric proteasomes with PR&#8208;924. The ligand binds in a linear (l) manner to the &#946;5c/&#946;6 substrate binding channel, but in a kinked (k) conformation to the &#946;5i/&#946;6 active site. The 2FO&#8208;FC electron density maps for the ligands bound to Thr1 of the chimeric &#946;5 active sites are shown as blue meshes contoured at 1&#963;. The inhibitor and Thr1 have been omitted for phasing.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21165</offset>
+      <text>Comparison of the conformations of ONX 0914, PR&#8208;924, 14, 16, 17, and 18 bound to the chimeric h&#946;5/h&#946;6 substrate binding channels. The l amino acid compounds ONX 0914 and 14 display a linear (l) binding mode to the h&#946;5c/h&#946;6 (left) and the h&#946;5i/h&#946;6 (right) chimeras, whereas the ligands 16 and 17 (P3&#8208;d&#8208;Ala and morpholine cap) adopt a kinked (k) conformation in both &#946;5 substrate binding channels. Remarkably, the orientation of PR&#8208;924 and its analogue 18 (P3&#8208;d&#8208;Ala and 3&#8208;methyl&#8208;1H&#8208;indene cap) in the h&#946;5c/h&#946;6 chimera (and in WT y&#946;5; see Appendix&#160;Figure&#160;S5) significantly differs from that observed with the h&#946;5i/h&#946;6 chimera. Note that the inhibitors are rotated by about 45&#176; compared to panel (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21898</offset>
+      <text>Crystal structures of human chimeric proteasomes in complex with derivatives of ONX 0914 and PR&#8208;924</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22000</offset>
+      <text>The 2FO&#8208;FC electron density maps for the ligands 14, 16, 17, and 18 linked to the &#946;5 active site Thr1 of the h&#946;5c/h&#946;6 chimeric proteasomes are shown according to Fig&#160;5A. Compound 9 could not be trapped, presumably due to its low affinity (IC50 &gt;&#160;200&#160;&#956;M; Fig&#160;2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22273</offset>
+      <text>The 2FO&#8208;FC electron density maps for the compounds 9, 14, 16, 17, and 18 bound to the &#946;5 active site Thr1 of the h&#946;5i/h&#946;6 chimeric proteasomes are depicted according to Fig&#160;5A.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22459</offset>
+      <text>In stark contrast, the chimeric immuno&#8208;h&#946;5i/h&#946;6 proteasome binds all inhibitors with a P3&#8208;d amino acid&#8212;irrespective of their type of N&#8208;cap&#8212;in a kinked conformation (Figs&#160;5 and EV2B). This observation agrees with modeling results for PR&#8208;924 (Sharma et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22737</offset>
+      <text>In summary, the compounds 14, 16, and 17 dock in an identical manner to both chimeras, while PR&#8208;924 and 18 significantly differ in their binding mode to h&#946;5c versus h&#946;5i. These results also provide an explanation for the varying potencies of the ligands. As shown by our inhibition assays with endogenous human cCP and iCP, all derivatives of ONX 0914 and PR&#8208;924 are highly effective human &#946;5i inhibitors (IC50&#160;&#8804;&#160;0.374&#160;&#956;M, Fig&#160;2B). However, with respect to &#946;5c targeting PR&#8208;924, 9 and 18 are the worst, thereby resulting in highest selectivity ratios of &#8805;&#160;155 (Fig&#160;2B). Obviously, the linear binding mode of ligands with non&#8208;natural P3&#8208;d stereochemistry and a 3&#8208;methyl&#8208;1H&#8208;indene cap bound to h&#946;5c is energetically strongly disfavored compared to the kinked orientation in the h&#946;5i subunit. This is remarkable, as ligands that adopt the bent conformation cannot be stabilized by Asp114 from the neighboring subunit &#946;6, which usually hydrogen bonds to the peptide backbone of linearly arranged inhibitors (Huber et al, 2015a).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23796</offset>
+      <text>Reducing the size of the N&#8208;cap from a 3&#8208;methyl&#8208;1H&#8208;indene to a morpholine moiety (compounds 16 and 17) leads to bent ligand binding modes in both h&#946;5c and h&#946;5i and comparable inhibition strengths for both active sites. We thus conclude that the S3* pocket of &#946;5c impedes binding of inhibitors with P3&#8208;d amino acids and bulky N&#8208;caps such as the 3&#8208;methyl&#8208;1H&#8208;indene moiety for steric and energetic reasons. From the structural data, no obvious barrier can be inferred but hydrogen bonds at the interface of the subunits &#946;5 and &#946;6 involving Ser28 (y&#946;5, m&#946;5c, m&#946;5i, h&#946;5c)/Ala28 (h&#946;5i), Thr30 (y&#946;5, m&#946;5c, h&#946;5c)/Arg30 (m&#946;5i, h&#946;5i), and Glu120 (y&#946;6)/Gln120 (h&#946;6, m&#946;6) might play crucial roles. We also determined a crystal structure of the h&#946;5i chimera (with entire subunit &#946;6 from yeast) in complex with PR&#8208;924 and found that the ligand takes the same position as in the h&#946;5i/h&#946;6 chimera. These data indicate that solely amino acid exchanges in subunit &#946;5i are responsible for triggering the kinked binding mode of PR&#8208;924 (Appendix&#160;Fig S6). Taken together, the N&#8208;cap, which originally served to improve solubility and pharmacokinetic parameters of peptide inhibitors, now becomes a dominant factor for subunit selectivity of &#946;5i ligands with d stereochemistry at the P3 position.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25140</offset>
+      <text>Structural basis for species selectivity of P3&#8208;d&#8208;Ala 3&#8208;methyl&#8208;1H&#8208;indene&#8208;capped inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25242</offset>
+      <text>As derived from our activity assays with genuine mouse and human cCP as well as iCP, no pronounced species selectivity is observed for ONX 0914 (Muchamuel et&#160;al, 2009; Huber et&#160;al, 2012) and its closest structural analogue, compound 14 (Fig&#160;2B). By contrast, PR&#8208;924, 9, and 18 show at least a sevenfold preference for human versus mouse &#946;5i (Fig&#160;2B). Furthermore, all three compounds discriminate strongly between h&#946;5c and h&#946;5i (factor &#8805;&#160;155), while this effect is less pronounced for m&#946;5c and m&#946;5i (factor &#8804;&#160;16; Fig&#160;2B). In order to analyze the molecular reason for this species selectivity, we used the mouse m&#946;5i/m&#946;6 chimeric proteasome. As expected, ONX 0914, bortezomib, and carfilzomib as well as PR&#8208;924, 9, 14, 16, 17, and 18 bind to the m&#946;5i/m&#946;6 chimeric proteasome similar as has been observed for the h&#946;5i/h&#946;6 construct (Figs&#160;6 and EV3). As noted for the h&#946;5i/h&#946;6 chimeric proteasomes, compounds with a non&#8208;natural d amino acid at the P3 site position the N&#8208;cap close to the P1 site. In the case of m&#946;5i, the N&#8208;cap approaches Met31 of the S1 pocket, which in human and mouse &#946;5c as well as in human &#946;5i is a Val residue (Appendix&#160;Fig S7). While the tiny Val31 is compatible with the kinked binding mode of P3&#8208;d&#8208;Ala inhibitors, the larger Met31 imposes a steric barrier to such ligands. This hindrance increases with the size of the P1 site and of the N&#8208;cap. The small and flexible N&#8208;acylmorpholine group is easily accommodated, but the bulky and rigid 3&#8208;methyl&#8208;1H&#8208;indene cap clashes with Met31. Hence, only compounds endowed with the latter N&#8208;cap show impaired affinity for the mouse &#946;5i subunit. We therefore mutated Val31 to methionine in the h&#946;5i/h&#946;6 chimeric proteasome (Fig&#160;3D) and determined the respective ligand complex structures (Figs&#160;6 and EV4). In support of our hypothesis, the X&#8208;ray data revealed that the morpholine&#8208;capped compounds 16 and 17 were unaffected by Met31 (Fig&#160;EV5), while the more bulky 3&#8208;methyl&#8208;1H&#8208;indene caps of PR&#8208;924 and 18 were rotated by 180&#176; and shifted up to 2.3&#160;&#197; (Fig&#160;6C). Notably, the N&#8208;caps of PR&#8208;924 and 18 are positioned as in the m&#946;5i/m&#946;6 mutant.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27425</offset>
+      <text>The impact of Met31 on ligand binding to the &#946;5i active site</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27489</offset>
+      <text>Complex structures of the mouse chimeric proteasome (left) and the h&#946;5i&#8208;V31M/h&#946;6 mutant (right) with PR&#8208;924 visualize the kinked (k) orientation of the inhibitor. The 2FO&#8208;FC electron density maps for the ligands bound to Thr1 of the chimeric &#946;5 active sites are depicted according to Fig&#160;5A. Steric hindrance of Met31 (green) with the bulky 3&#8208;methyl&#8208;1H&#8208;indene cap is indicated by a black double arrow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27907</offset>
+      <text>Superposition of inhibitors bound to the mouse chimeric proteasome (left) and the h&#946;5i&#8208;V31M/h&#946;6 mutant (right). Compounds display the same binding modes (kinked (k) or linear (l)) to the m&#946;5i/m&#946;6 active site as to the corresponding human &#946;5i/&#946;6 subunit (Fig&#160;5) and to the h&#946;5i&#8208;V31M/h&#946;6 mutant. Note that the inhibitors are rotated by about 45&#176; compared to panel (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28298</offset>
+      <text>Superposition of chimeric mammalian and WT yeast &#946;5 active sites bound to the P3&#8208;d&#8208;Ala compounds PR&#8208;924 and 18. The nucleophilic Thr1 is depicted as well as the S1 pocket forming residues 31 and 45. Residue 31 impacts on the position of the 3&#8208;methyl&#8208;1H&#8208;indene cap of PR&#8208;924 and 18. Due to steric hindrance, the N&#8208;cap is shifted in the mouse and in the h&#946;5i&#8208;V31M/h&#946;6 chimera compared to the h&#946;5i/h&#946;6 mutant proteasome crystal structures (black double arrow). Note that the structures are rotated by 90&#176; compared to panel (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28847</offset>
+      <text>Crystal structures of the mouse &#946;5i/&#946;6 chimeric proteasome in complex with ONX 0914, bortezomib, carfilzomib, and derivatives of ONX 0914 as well as PR&#8208;924</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29009</offset>
+      <text>The 2FO&#8208;FC electron density maps for the ligands bound to the &#946;5 active site Thr1 of the m&#946;5i/m&#946;6 chimeric proteasome are depicted according to Fig&#160;5A. The m&#946;5i&#8208;specific Met31 side chain is colored in green. Steric hindrance of Met31 and compound 18 is indicated by a black double arrow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29309</offset>
+      <text>Structural superpositions of ONX 0914, bortezomib, and carfilzomib bound to &#946;5 subunits of the WT mouse iCP and cCP, WT human cCP, the human, and the mouse chimeric proteasomes as well as the WT yCP illustrate their similar binding modes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29551</offset>
+      <text>Data information: Panel&#160;(B) contains previously published coordinates with the following PDB accession codes: WT mouse iCP:ONX 0914, 3UNH (Huber et&#160;al, 2012); WT mouse cCP:ONX 0914, 3UNE (Huber et&#160;al, 2012); WT yCP:ONX 0914, 4QWX (Huber et&#160;al, 2015b); WT yCP:bortezomib, 4QVL (Huber et&#160;al, 2015b); WT yCP:carfilzomib, 4QW4 (Huber et&#160;al, 2015b); WT human cCP:carfilzomib, 4R67 (Harshbarger et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29961</offset>
+      <text>Crystal structures of the h&#946;5i&#8208;V31M/h&#946;6 mutant chimeric proteasome in complex with the compounds 16, 17, and 18</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30079</offset>
+      <text>The 2FO&#8208;FC electron density maps for the ligands are shown according to Fig&#160;5A. Met31, a hallmark of the mouse &#946;5i subunit, has been incorporated in the human &#946;5i/&#946;6 chimera and is colored in green. Steric hindrance of Met31 and compound 18 is indicated by a black double arrow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30367</offset>
+      <text>Comparison of ligand binding modes to chimeric proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30426</offset>
+      <text>The orientation of ONX 0914 as well as 14, 16, and 17 is identical in all &#946;5 substrate binding channels, including those of chimeric proteasomes, WT yCP, WT mouse cCP and iCP. Met31 has no significant influence on the position of the N&#8208;cap in the compounds ONX 0914, 14, 16, and 17. However, the morpholine N&#8208;cap of 16 and 17 adopts a tilted position in the h&#946;5i/h&#946;6 chimeric proteasomes. This figure contains previously published coordinates (Huber et&#160;al, 2012, 2015b): yCP:ONX 0914 (PDB accession code: 4QWX), mouse cCP:ONX 0914 (PDB accession code: 3UNB), and mouse iCP:ONX 0914 (PDB accession code: 3UNF).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31045</offset>
+      <text>Taken together, a combination of activity assays, yeast genetics, and X&#8208;ray crystallography elucidated how a single amino acid can significantly affect ligand binding and why compounds featuring a non&#8208;natural d&#8208;Ala at P3 and a 3&#8208;methyl&#8208;1H&#8208;indene cap are more potent and more selective for human &#946;5i than for the mouse counterpart. As a result of the various crystal structures, we here provide for the first time experimental evidence that proteasome inhibitors can adopt different conformations in distinct eukaryotic CPs. This observation is of particular importance for the development of CP&#8208;type selective inhibitors and clearly limits the use of WT yeast as a model system. On the other hand, the data presented here strongly vote for yeast as an excellent tool box that can be easily genetically modified to create mammalian proteasome models for advanced structure&#8208;based drug design efforts.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>31961</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31972</offset>
+      <text>By systematically investigating the inhibition potencies of various epoxyketones for mouse and human &#946;5c and &#946;5i, we noticed that the compounds tested significantly differ in their &#946;5i selectivity (Fig&#160;2). Since large amounts of human iCPs for structural analyses of all these ligands are difficult to obtain, we aimed at integrating the human ChT&#8208;L active site of cCP and iCP into the yeast 20S proteasome. Purification and high&#8208;throughput crystallization of mutant yCPs are well established, and baker's yeast in addition allows for rapid point mutagenesis to evaluate the impact of individual amino acids on ligand binding. However, all attempts to replace the endogenous y&#946;5 by human or mouse &#946;5 subunits as a whole was lethal to yeast. We therefore created chimeric proteasomes that feature either the entire human &#946;5c/&#946;6, human &#946;5i/&#946;6, or mouse &#946;5i/&#946;6 substrate binding channel. The respective yeast strains were viable, but suffered from growth retardation and increased temperature sensitivity suggesting proteasome activity defects (Fig&#160;3E). In fact, purified chimeric proteasomes showed WT&#8208;like &#946;1 and &#946;2 activities but were almost deprived of ChT&#8208;L activity and less sensitive to &#946;5&#8208;inhibition (Appendix&#160;Fig S3B and C). Altered or disrupted inter&#8208; and intra&#8208;subunit contacts as well as impaired dynamics caused by subtle structural changes below the resolution limits might restrict reactivity of the ChT&#8208;L active site toward substrates and inhibitors. Thus, with respect to activity, the chimeric proteasomes are not equivalent to endogenous WT particles and candidate drugs have to be evaluated for their inhibition strength and subunit selectivity in enzymatic assays with genuine iCP and cCP.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33722</offset>
+      <text>However, the chimeric CPs proved to be valuable structural models. X&#8208;ray crystallographic data revealed that the mutant &#946;5 subunits structurally conform with the genuine mouse &#946;5 entities and that the orientations of Met45 correspond to those observed for the natural mouse CPs (Huber et&#160;al, 2012) (Fig&#160;4A and B). Numerous inhibitor complex structures finally revealed that compounds furnished with a large 3&#8208;methyl&#8208;1H&#8208;indene cap and a P3&#8208;d amino acid adopt distinct conformations in the &#946;5c&#8208;chimeric proteasome compared to the &#946;5i mutant one (Fig&#160;7). This observation provides an explanation for the &#946;5i&#8208;selectivity of these inhibitors and validates the chimeric proteasomes for sophisticated structure&#8208;based drug development.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34474</offset>
+      <text>Overview of key inhibitors and their distinct binding modes to the subunits y&#946;5, h&#946;5c, m&#946;5i, and h&#946;5i</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34588</offset>
+      <text>ONX 0914 binds in a linear mode to all active sites. Changing the stereochemistry at the P3 site from l&#8208;Ala (S) to d&#8208;Ala (R) leads to a kinked conformation in the &#946;5 substrate binding channels (compound 16). Substitution of the morpholine cap of 16 by a larger 3&#8208;metyhl&#8208;1H&#8208;indene moiety yields PR&#8208;924 and results in different inhibitor conformations at the y&#946;5/h&#946;5c and the mammalian &#946;5i active sites. Hereby, the selectivity for h&#946;5i over h&#946;5c is drastically increased (IC50 ratio h&#946;5c/h&#946;5i: 255) compared to ONX 0914 (IC50 ratio h&#946;5c/h&#946;5i: 20) and compound 16 (IC50 ratio h&#946;5c/h&#946;5i: 5.2, Fig&#160;2). Residue Met31 of m&#946;5i sterically hinders the kinked binding mode of PR&#8208;924, thereby creating sevenfold selectivity for human &#946;5i.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35358</offset>
+      <text>In a second approach, we created a mouse chimeric proteasome in order to investigate the species selectivity of PR&#8208;924 and its closest analogues 9 and 18. Mouse and human &#946;5i primary sequences differ in only 17 positions. By X&#8208;ray analysis, we found that Met31 of the mouse &#946;5i subunit sterically hinders binding of inhibitors featuring a P3&#8208;d amino acid in combination with a 3&#8208;methyl&#8208;1H&#8208;indene cap. In contrast, the corresponding human &#946;5i residue Val31 is compatible with such compounds, thereby enhancing selectivity for human &#946;5i at least sevenfold. Notably, this species selectivity effect largely depends on the size of the N&#8208;cap. The substrate binding pockets and the active site residues are highly conserved among mouse and human, but residues outside the natural substrate binding channel, for example, the identified S3* pocket, are subjected to higher mutagenesis rates, thereby creating species&#8208;specific differences such as Val/Met31. Furthermore, P1 side chains larger than Phe may be incompatible with a P3&#8208;d amino acid and a large N&#8208;cap because of mutual sterical hindrance. The non&#8208;natural d stereochemistry at P3 and the associated unique binding mode render the P3&#8208;d&#8208;Ala compounds PR&#8208;924, 9 and 18 exclusive &#946;5i inhibitors (de Bruin et&#160;al, 2014), a fact that may reduce cytotoxicity in clinical applications (Parlati et&#160;al, 2009). Moreover, the d&#8208;Ala amino acid may prolong the resistance to proteases as well as improve the metabolic stability and therapeutic efficacy. However, the resistance of the murine iCP against these compounds requires the use of laboratory animals other than mice for preclinical studies. Species that encode Val31, for example, rats but also apes, might be suitable alternatives (Appendix&#160;Fig S7).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37143</offset>
+      <text>In summary, our study describes the creation of a humanized yCP variant that unifies all striking structural features of the mammalian &#946;5i subunit. Proof&#160;of principle of the exceptional value of this chimeric CP for the future development of human iCP&#8208;specific inhibitors has been provided by structural analyses with PR&#8208;924 and its analogues. Certainly, these results will further support structure&#8208;guided design and optimization of CP&#8208;type&#8208;specific ligands.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>37615</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37637</offset>
+      <text>Yeast strain construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37663</offset>
+      <text>See Appendix&#160;Supplementary Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37700</offset>
+      <text>Yeast growth tests</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37719</offset>
+      <text>Overnight cultures of WT (WCG4a) and mutant yeast strains were grown in rich (YPD) medium at 30&#176;C. Their optical density was determined at 600&#160;nm, and appropriate serial dilutions in YPD were prepared. Total cell numbers of 10,000, 1,000, 100, and 10 were spotted on YPD plates and grown for several days at 30&#176;C or 37&#176;C to evaluate proliferation rates by colony size as well as survival rates by colony numbers.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38136</offset>
+      <text>Mammalian proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38158</offset>
+      <text>Human and mouse constitutive and immunoproteasomes were purchased from Boston Biochem (USA).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38251</offset>
+      <text>Purification of yeast proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38285</offset>
+      <text>Yeast strains were grown in 18&#160;l YPD cultures at 30&#176;C into early stationary phase. Cells were harvested by centrifugation for 15&#160;min at 5,000&#160;g and frozen at &#8722;20&#176;C until further use. Mutant yCPs were purified according to published procedures (Gallastegui &amp; Groll, 2012). In brief, 120&#160;g yeast cells were solubilized in 150&#160;ml of 50&#160;mM KH2PO4/K2HPO4 buffer (pH 7.5) and disrupted with a French press. Cell debris were removed by centrifugation for 30&#160;min at 41,000&#160;g (4&#176;C). The resulting supernatant was filtered, and ammonium sulfate (saturated solution) was added to a final concentration of 30% (v/v). This solution was loaded on a Phenyl Sepharose&#8482; 6 Fast Flow column (GE Healthcare) pre&#8208;equilibrated with 1&#160;M ammonium sulfate in 20&#160;mM KH2PO4/K2HPO4 (pH 7.5). CPs were eluted by applying a linear gradient from 1 to 0&#160;M ammonium sulfate. Proteasome containing fractions were pooled and loaded onto a Resource Q column (GE Healthcare). Upon gradient elution (0&#8211;500&#160;mM sodium chloride in 20&#160;mM Tris&#8211;HCl pH 7.5), CPs were subjected to size exclusion chromatography (Superose 6 10/300 GL (GE Healthcare), 20&#160;mM Tris&#8211;HCl pH 7.5, and 150&#160;mM NaCl).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39461</offset>
+      <text>Proteasome substrates and inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39498</offset>
+      <text>Peptide substrates (Bachem) and inhibitors were stored as 50&#8211;100&#160;mM stock solutions in DMSO at &#8722;20&#176;C. Bortezomib, carfilzomib, and ONX 0914 were purchased from Selleckchem. The chemical synthesis of PR&#8208;924 and the compounds 9, 14, 16, 17, and 18 was described previously (de Bruin et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39802</offset>
+      <text>Fluorescence&#8208;based activity assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39838</offset>
+      <text>Proteasome activity was determined by fluorescence spectroscopy using the model substrates carboxybenzyl&#8208;Leu&#8208;Leu&#8208;Glu&#8208;7&#8208;amino&#8208;4&#8208;methylcoumarin (Z&#8208;LLE&#8208;AMC; &#946;1), tert&#8208;butyloxycarbonyl&#8208;Leu&#8208;Arg&#8208;Arg&#8208;AMC (Boc&#8208;LRR&#8208;AMC; &#946;2), and N&#8208;succinyl&#8208;Leu&#8208;Leu&#8208;Val&#8208;Tyr&#8208;7&#8208;amino&#8208;4&#8208;methylcoumarin (Suc&#8208;LLVY&#8208;AMC; &#946;5). Purified yCPs (13&#160;nM in 100&#160;mM Tris&#8211;HCl, pH 7.5) were incubated with 200&#160;&#956;M substrate for 1 h at room temperature. The reactions were slowed down by diluting samples 1:10 in 20&#160;mM Tris&#8211;HCl, pH 7.5. AMC fluorophores released by proteasomal activity were measured in triplicate with a Varian Cary Eclipse Fluorescence Spectrophotometer (Agilent Technologies) at &#955;exc&#160;=&#160;360&#160;nm and &#955;em&#160;=&#160;460&#160;nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40596</offset>
+      <text>IC50 determination</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40615</offset>
+      <text>Initial point measurements were carried out with 200&#160;&#956;M of inhibitor. Only compounds that showed significant inhibition at this concentration were further evaluated. CPs (final concentration: 13.2&#160;nM) were mixed with serial dilutions of inhibitor or with DMSO as a control and incubated for 1&#160;h at room temperature. After addition of the peptide substrate Suc&#8208;LLVY&#8208;AMC (final concentration of 200&#160;&#956;M) and incubation for 1&#160;h at room temperature, proteolysis was slowed down by diluting the samples 1:10 in 20&#160;mM Tris&#8211;HCl, pH 7.5. The AMC molecules released by residual proteasomal activity were measured in triplicate with a Varian Cary Eclipse Fluorescence Spectrophotometer (Agilent Technologies) at &#955;exc&#160;=&#160;360&#160;nm and &#955;em&#160;=&#160;460&#160;nm. Relative fluorescence units were normalized to the DMSO treated control. The calculated residual activities were plotted against the logarithm of the applied inhibitor concentration and fitted with GraphPad Prism 5. The IC50 value, the ligand concentration that leads to 50% inhibition of the enzymatic activity, was deduced from the fitted data.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41717</offset>
+      <text>Note: IC50 values depend on time and enzyme concentration and hence are not absolute; only relative tendencies within the same experimental settings are inferable.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41881</offset>
+      <text>Crystallization and structure determination</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41925</offset>
+      <text>Mutant yCPs were crystallized as previously described for wild&#8208;type 20S proteasomes (Groll &amp; Huber, 2005; Gallastegui &amp; Groll, 2012). Crystals were grown at 20&#176;C using the hanging drop vapor diffusion method. Drops contained a 1:1 mixture of protein (40&#160;mg/ml) and reservoir solution (25&#160;mM magnesium acetate, 100&#160;mM 2&#8208;(N&#8208;morpholino)ethanesulfonic acid (MES) pH 6.8 and 9&#8211;13% (v/v) 2&#8208;methyl&#8208;2,4&#8208;pentanediol (MPD)). Crystals were cryoprotected by addition of 5&#160;&#956;l cryobuffer (20&#160;mM magnesium acetate, 100&#160;mM MES, pH 6.8 and 30% (v/v) MPD). Inhibitor complex structures were obtained by incubating crystals in 5&#160;&#956;l cryobuffer supplemented with inhibitors at a final concentration of 1.5&#160;mM for at least 8&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42657</offset>
+      <text>Diffraction data were collected at the beamline X06SA at the Paul Scherrer Institute, SLS, Villigen, Switzerland (&#955;&#160;=&#160;1.0&#160;&#197;). Evaluation of reflection intensities and data reduction was performed with the program package XDS (Kabsch, 2010). Molecular replacement was carried out with the coordinates of the yeast 20S proteasome (PDB entry code: 5CZ4; Huber et&#160;al, 2016) by rigid body refinements (REFMAC5; Vagin et&#160;al, 2004). MAIN (Turk, 2013) and COOT (Emsley et&#160;al, 2010) were used to build models. TLS refinements finally yielded excellent Rcrys and Rfree as well as r.m.s.d. bond and angle values. The coordinates, proven to have good stereochemistry from the Ramachandran plots, were deposited in the RCSB Protein Data Bank (Appendix&#160;Table&#160;S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43417</offset>
+      <text>Figures were prepared with PyMOL (DeLano, 2002). For the calculation of all electron density maps, the inhibitor and Thr1 have been omitted for phasing.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43570</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43588</offset>
+      <text>Coordinates and structure factors have been deposited in the RCSB Protein Data Bank under the following accession codes (for details see Appendix&#160;Table&#160;S1):</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43747</offset>
+      <text>5L52, 5L54, 5L55, 5L5A, 5LTT, 5L5B, 5L5D, 5L5E, 5L5F, 5L5H, 5L5I, 5L5J, 5L5O, 5L5P, 5L5Q, 5L5W, 5L5X, 5L5Y, 5L5Z, 5L60, 5L61, 5L62, 5L63, 5L64, 5L6B, 5L65, 5L66, 5L67, 5L68, 5L69, 5L6A, 5L6C, 5L5R, 5L5S, 5L5T, 5L5U, 5L5V</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43968</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43989</offset>
+      <text>WH created yeast proteasome mutants; EMH performed yeast growth and proteasome activity/inhibition assays; GdB synthesized proteasome ligands under the supervision of HSO; EMH and MG collected and analyzed X&#8208;ray data; EMH and MG wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44242</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44263</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44323</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>44346</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">2743</infon>
+      <infon key="pub-id_pmid">21364033</infon>
+      <infon key="fpage">2734</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44357</offset>
+      <text>Nonproteasomal targets of the proteasome inhibitors bortezomib and carfilzomib: a link to clinical adverse events</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="lpage">238</infon>
+      <infon key="pub-id_pmid">24399752</infon>
+      <infon key="fpage">226</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44471</offset>
+      <text>Inhibition of the immunoproteasome ameliorates experimental autoimmune encephalomyelitis</text>
+    </passage>
+    <passage>
+      <infon key="volume">430</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">476</infon>
+      <infon key="pub-id_pmid">20632995</infon>
+      <infon key="fpage">461</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44560</offset>
+      <text>Characterization of a new series of non&#8208;covalent proteasome inhibitors with exquisite potency and selectivity for the 20S beta5&#8208;subunit</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Chem Biol</infon>
+      <infon key="lpage">1289</infon>
+      <infon key="pub-id_pmid">20064438</infon>
+      <infon key="fpage">1278</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>44700</offset>
+      <text>Selective inhibitor of proteasome's caspase&#8208;like sites sensitizes cells to specific inhibition of chymotrypsin&#8208;like sites</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">J Med Chem</infon>
+      <infon key="lpage">6209</infon>
+      <infon key="pub-id_pmid">25006746</infon>
+      <infon key="fpage">6197</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44826</offset>
+      <text>Structure&#8208;based design of beta1i or beta5i specific inhibitors of human immunoproteasomes</text>
+    </passage>
+    <passage>
+      <infon key="source">The PyMOL Molecular Graphics System</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2002</infon>
+      <offset>44918</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">6391</infon>
+      <infon key="pub-id_pmid">17616698</infon>
+      <infon key="fpage">6383</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>44919</offset>
+      <text>Antitumor activity of PR&#8208;171, a novel irreversible inhibitor of the proteasome</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr Sect D &#8208; Biol Crystallogr</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">20383002</infon>
+      <infon key="fpage">486</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45000</offset>
+      <text>Features and development of Coot</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Curr Med Chem</infon>
+      <infon key="lpage">1238</infon>
+      <infon key="pub-id_pmid">26965184</infon>
+      <infon key="fpage">1217</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>45033</offset>
+      <text>Immunoproteasome&#8208;selective inhibitors: a promising strategy to treat hematologic malignancies, autoimmune and inflammatory diseases</text>
+    </passage>
+    <passage>
+      <infon key="volume">832</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">390</infon>
+      <infon key="pub-id_pmid">22350899</infon>
+      <infon key="fpage">373</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45167</offset>
+      <text>Analysing properties of proteasome inhibitors using kinetic and X&#8208;ray crystallographic studies</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">78</infon>
+      <infon key="pub-id_pmid">20010787</infon>
+      <infon key="fpage">73</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45264</offset>
+      <text>Proteasomes in immune cells: more than peptide producers?</text>
+    </passage>
+    <passage>
+      <infon key="volume">386</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">471</infon>
+      <infon key="pub-id_pmid">9087403</infon>
+      <infon key="fpage">463</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>45322</offset>
+      <text>Structure of 20S proteasome from yeast at 2.4 &#197; resolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="lpage">1238</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="fpage">1237</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>45382</offset>
+      <text>Crystal structure of&#160;epoxomicin: 20S proteasome reveals a molecular basis for selectivity of &#945;&#8242;,&#946;&#8242;&#8208;epoxyketone proteasome inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">398</infon>
+      <infon key="source">Methods Enzymol</infon>
+      <infon key="lpage">336</infon>
+      <infon key="pub-id_pmid">16275340</infon>
+      <infon key="fpage">329</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>45524</offset>
+      <text>Purification, crystallization, and X&#8208;ray analysis of the yeast 20S proteasome</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">456</infon>
+      <infon key="pub-id_pmid">16531229</infon>
+      <infon key="fpage">451</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>45604</offset>
+      <text>Crystal structure of the boronic acid&#8208;based proteasome inhibitor bortezomib in complex with the yeast 20S proteasome</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Chem Biol</infon>
+      <infon key="lpage">1141</infon>
+      <infon key="pub-id_pmid">11755392</infon>
+      <infon key="fpage">1131</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>45723</offset>
+      <text>Substrate specificity of the human proteasome</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">424</infon>
+      <infon key="pub-id_pmid">25599644</infon>
+      <infon key="fpage">418</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45769</offset>
+      <text>Crystal structure of the human 20S proteasome in complex with carfilzomib</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">738</infon>
+      <infon key="pub-id_pmid">22341445</infon>
+      <infon key="fpage">727</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45843</offset>
+      <text>Immuno&#8208; and constitutive proteasome crystal structures reveal differences in substrate and inhibitor specificity</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Angew Chem Int Ed Engl</infon>
+      <infon key="lpage">8720</infon>
+      <infon key="pub-id_pmid">22711561</infon>
+      <infon key="fpage">8708</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45958</offset>
+      <text>Inhibitors for the immuno&#8208; and constitutive proteasome: current and future trends in drug development</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="lpage">7842</infon>
+      <infon key="pub-id_pmid">26020686</infon>
+      <infon key="fpage">7835</infon>
+      <infon key="year">2015a</infon>
+      <infon key="type">ref</infon>
+      <offset>46062</offset>
+      <text>Systematic analyses of substrate preferences of 20S proteasomes using peptidic epoxyketone inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">417</infon>
+      <infon key="pub-id_pmid">25599643</infon>
+      <infon key="fpage">407</infon>
+      <infon key="year">2015b</infon>
+      <infon key="type">ref</infon>
+      <offset>46164</offset>
+      <text>Bortezomib&#8208;resistant mutant proteasomes: structural and biochemical evaluation with carfilzomib and ONX 0914</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">26964885</infon>
+      <infon key="fpage">10900</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46275</offset>
+      <text>A unified mechanism for proteolysis and autocatalytic activation in the 20S proteasome</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="lpage">503</infon>
+      <infon key="source">Arthritis Rheum</infon>
+      <infon key="fpage">493</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>46362</offset>
+      <text>Novel proteasome inhibitors have a beneficial effect in murine lupus via the dual inhibition of type I interferon and autoantibody secreting cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr Sect D &#8208; Biol Crystallogr</infon>
+      <infon key="lpage">132</infon>
+      <infon key="pub-id_pmid">20124692</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>46509</offset>
+      <text>XDS</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">787</infon>
+      <infon key="pub-id_pmid">19525961</infon>
+      <infon key="fpage">781</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>46513</offset>
+      <text>A selective inhibitor of the immunoproteasome subunit LMP7 blocks cytokine production and attenuates progression of experimental arthritis</text>
+    </passage>
+    <passage>
+      <infon key="volume">316</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1353</infon>
+      <infon key="pub-id_pmid">17540904</infon>
+      <infon key="fpage">1349</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46652</offset>
+      <text>Regulation of CD8+ T cell development by thymus&#8208;specific proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="lpage">226</infon>
+      <infon key="source">Drug Des Devel Ther</infon>
+      <infon key="fpage">217</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46723</offset>
+      <text>Spotlight on ixazomib: potential in the treatment of multiple myeloma</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">2972</infon>
+      <infon key="pub-id_pmid">11248015</infon>
+      <infon key="fpage">2967</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>46793</offset>
+      <text>Global analysis of proteasomal substrate specificity using positional&#8208;scanning libraries of covalent inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="source">Biochem Pharmacol</infon>
+      <infon key="lpage">51</infon>
+      <infon key="pub-id_pmid">24552657</infon>
+      <infon key="fpage">43</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46907</offset>
+      <text>Anti&#8208;leukemic activity and mechanisms underlying resistance to the novel immunoproteasome inhibitor PR&#8208;924</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">3447</infon>
+      <infon key="pub-id_pmid">19671918</infon>
+      <infon key="fpage">3439</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>47018</offset>
+      <text>Carfilzomib can induce tumor cell death through selective inhibition of the chymotrypsin&#8208;like activity of the proteasome</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">ChemBioChem</infon>
+      <infon key="lpage">1903</infon>
+      <infon key="pub-id_pmid">22807337</infon>
+      <infon key="fpage">1899</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>47141</offset>
+      <text>Activity&#8208;based near&#8208;infrared fluorescent probe for LMP7: a chemical proteomics tool for the immunoproteasome in living cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">152</infon>
+      <infon key="source">Br J Haematol</infon>
+      <infon key="lpage">163</infon>
+      <infon key="pub-id_pmid">21114484</infon>
+      <infon key="fpage">155</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47270</offset>
+      <text>PR&#8208;924, a selective inhibitor of the immunoproteasome subunit LMP&#8208;7, blocks multiple myeloma cell growth both in&#160;vitro and in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">1357</infon>
+      <infon key="pub-id_pmid">23897458</infon>
+      <infon key="fpage">1342</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>47407</offset>
+      <text>MAIN software for density averaging, model building, structure refinement and validation</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">618</infon>
+      <infon key="pub-id_pmid">12015144</infon>
+      <infon key="fpage">609</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>47496</offset>
+      <text>The structure of the mammalian 20S proteasome at 2.75 &#197; resolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">Acta Crystallogr Sect D &#8208; Biol Crystallogr</infon>
+      <infon key="lpage">2195</infon>
+      <infon key="pub-id_pmid">15572771</infon>
+      <infon key="fpage">2184</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>47564</offset>
+      <text>REFMAC5 dictionary: organization of prior chemical knowledge and guidelines for its use</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">J Med Chem</infon>
+      <infon key="lpage">7187</infon>
+      <infon key="pub-id_pmid">27438186</infon>
+      <infon key="fpage">7177</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>47652</offset>
+      <text>Structure&#8208;based design of beta5c selective inhibitors of human constitutive proteasomes</text>
+    </passage>
+  </document>
+</collection>

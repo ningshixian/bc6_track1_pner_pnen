@@ -1,0 +1,1706 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4731013</id>
+    <passage>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_0">surname:Brophy;given-names:Jennifer AN</infon>
+      <infon key="name_1">surname:Voigt;given-names:Christopher A</infon>
+      <infon key="alt-title">Jennifer AN Brophy &amp; Christopher A Voigt</infon>
+      <infon key="article-id_publisher-id">MSB156540</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">854</infon>
+      <infon key="article-id_doi">10.15252/msb.20156540</infon>
+      <infon key="article-id_pmid">26769567</infon>
+      <infon key="volume">12 12</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="article-id_pmc">4731013</infon>
+      <infon key="year">2016</infon>
+      <infon key="issue">1</infon>
+      <infon key="notes">
+
+. () : 854
+</infon>
+      <infon key="kwd">antisense transcription design automation genetic circuits synthetic biology systems biology Synthetic Biology &amp; Biotechnology Quantitative Biology &amp; Dynamical Systems Transcription</infon>
+      <offset>0</offset>
+      <text>Antisense transcription as a tool to tune gene&#160;expression</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>59</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>68</offset>
+      <text>A surprise that has emerged from transcriptomics is the prevalence of genomic antisense transcription, which occurs counter to gene orientation. While frequent, the roles of antisense transcription in regulation are poorly understood. We built a synthetic system in Escherichia coli to study how antisense transcription can change the expression of a gene and tune the response characteristics of a regulatory circuit. We developed a new genetic part that consists of a unidirectional terminator followed by a constitutive antisense promoter and demonstrate that this part represses gene expression proportionally to the antisense promoter strength. Chip&#8208;based oligo synthesis was applied to build a large library of 5,668 terminator&#8211;promoter combinations that was used to control the expression of three repressors (PhlF, SrpR, and TarA) in a simple genetic circuit (NOT gate). Using the library, we demonstrate that antisense promoters can be used to tune the threshold of a regulatory circuit without impacting other properties of its response function. Finally, we determined the relative contributions of antisense RNA and transcriptional interference to repressing gene expression and introduce a biophysical model to capture the impact of RNA polymerase collisions on gene repression. This work quantifies the role of antisense transcription in regulatory networks and introduces a new mode to control gene expression that has been previously overlooked in genetic engineering.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1557</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1570</offset>
+      <text>Genetic engineers typically follow a simple scheme for controlling gene expression: a promoter and terminator flank the gene in the same orientation. Larger designs consisting of multiple genes are often organized similarly, where transcription is designed to proceed in one direction. This organization avoids potential interference between promoters that can arise due to RNA polymerase (RNAP) collisions (Shearwin et&#160;al, 2005), supercoiling (Pruss &amp; Drlica, 1989; Chen &amp; Wu, 2006), non&#8208;coding RNAs (Georg &amp; Hess, 2011), and conflicts with the replication machinery (French, 1992; Vilette et&#160;al, 1995; Helmrich et&#160;al, 2013). Promoters that are oriented in the opposite direction of genes produce antisense transcription, and although this is generally regarded as a nuisance (Sharma et&#160;al, 2010; Singh et&#160;al, 2014), it can be useful for reducing leaky expression of toxic proteins (O'Connor &amp; Timmis, 1987; Worrall &amp; Connolly, 1990; Saida et&#160;al, 2006; Fozo et&#160;al, 2008) and generating genetic switches (Hongay et&#160;al, 2006; Chatterjee et&#160;al, 2011a,b). Here, we propose that promoters oriented opposite to a gene can be used reliably to tune gene expression and control the input threshold of genetic switches.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2792</offset>
+      <text>Increased use of transcriptomics has demonstrated that antisense transcription is surprisingly common across all organisms, including archaea (Wurtzel et&#160;al, 2010), prokaryotes (Selinger et&#160;al, 2000; Georg et&#160;al, 2009; G&#252;ell et&#160;al, 2009; Filiatrault et&#160;al, 2010; Wade &amp; Grainger, 2014), and eukaryotes (Dujon, 1996; Yelin et&#160;al, 2003; He et&#160;al, 2008). For example, in E.&#160;coli, ~30% of all transcription start sites were found to be antisense and internal to, or just after, genes (Tutukina et&#160;al, 2007; Dornenburg et&#160;al, 2010; Thomason et&#160;al, 2015). Similarly in H.&#160;pylori, about half of the genes have at least one antisense promoter (Sharma et&#160;al, 2010). Although some of this antisense transcription is the result of inefficient termination by intrinsic and rho&#8208;dependent terminators (Peters et&#160;al, 2012), it is often driven by promoters with well&#8208;defined regulatory motifs, such as housekeeping sigma factor binding sites (Dornenburg et&#160;al, 2010; Raghavan et&#160;al, 2012; Wade &amp; Grainger, 2014). Depending on the organism, antisense transcription can be constitutive or regulated under different environmental conditions (Beaume et&#160;al, 2010; Nicolas et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3980</offset>
+      <text>While prevalent, the role of most antisense transcription in regulation is unclear (Thomason &amp; Storz, 2010; Sesto et&#160;al, 2013). Some have postulated that the majority of antisense transcription is non&#8208;functional and is background due to pervasive transcription (Raghavan et&#160;al, 2012). However, antisense transcription is known to be an important component of the genetic switches that control bacterial competence (Chatterjee et&#160;al, 2011b) and virulence (Mason et&#160;al, 2013), as well as Saccharomyces cerevisiae's entry into meiosis (Hongay et&#160;al, 2006). It also occurs frequently for genes that require tight expression control under defined conditions, such as toxic or virulence proteins (Kawano et&#160;al, 2007; Fozo et&#160;al, 2008; Giangrossi et&#160;al, 2010; Lee &amp; Groisman, 2010). One role of antisense transcription may be to impact the threshold of genetic switches (Liu &amp; Kobayashi, 2007), defined as the amount of input signal required to reach half&#8208;maximal activity. It has been shown that the input threshold required for gene expression can be tuned by changing the translation efficiency of regulatory proteins, either by mutating ribosome binding sites or introducing small regulatory RNA, or by sequestering the proteins using dummy operators or protein&#8211;protein interactions (Buchler &amp; Cross, 2009; Chen &amp; Arkin, 2012; Lee &amp; Maheshri, 2012; Rhodius et&#160;al, 2013). There is evidence that antisense promoters can similarly change regulatory circuits by controlling the expression of repressors, activators, &#963; factors, and anti&#8208;&#963; factors (Tutukina et&#160;al, 2010; Hirakawa et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5586</offset>
+      <text>There are two classes of mechanisms by which antisense promoters may regulate gene expression. The first involves the antisense RNA (asRNA) that is generated, which can regulate gene expression by binding to the mRNA to change its stability or translation, or act as a transcriptional regulator (Brantl &amp; Wagner, 2002; Brantl, 2007). The second is transcriptional interference, where the sense and antisense promoters interact directly or via the RNAPs to cause the downregulation of a gene (Liu &amp; Kobayashi, 2007). There are four mechanisms by which transcriptional interference can occur (Shearwin et&#160;al, 2005): (i) competition (promoters overlap and only one RNAP can bind at a time), (ii) sitting duck (an RNAP that is slow to elongate is dislodged), (iii) occlusion (one RNAP elongates over a promoter transiently blocking the other), and (iv) collision (two actively transcribing RNAPs collide) (Callen et&#160;al, 2004; Sneppen et&#160;al, 2005; Palmer et&#160;al, 2009). Of these, modeling suggests that when promoters are &gt;&#160;200&#160;bp apart and oriented convergently, the dominant mechanism of interference is collision (Sneppen et&#160;al, 2005). Regulation by asRNA and transcriptional interference are not mutually exclusive. Examples have been described where regulation occurs due to only one mechanism (Liu &amp; Kobayashi, 2007; Andr&#233; et&#160;al, 2008; Hirakawa et&#160;al, 2012) or they work in concert (Giangrossi et&#160;al, 2010; Chatterjee et&#160;al, 2011b).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7031</offset>
+      <text>In this work, we harness antisense transcription as a reliable &#8220;tuning knob&#8221; for the construction of genetic circuits. We introduce a new composite part to the 3&#8242;&#8208;end of the gene of interest that consists of a unidirectional terminator followed by a reverse constitutive promoter. We demonstrate that the antisense promoter represses gene expression in accordance with its strength and that the antisense transcription can cause a change in the threshold of inducible systems. A large library of promoter&#8211;terminator combinations was constructed via chip&#8208;based oligo synthesis (Tian et&#160;al, 2004) and screened using flow&#8208;seq to identify terminators and promoters that can be used to construct reliable antisense regulation (Sharon et&#160;al, 2012; Kosuri et&#160;al, 2013). This approach has been used previously to elucidate how translation rates affect mRNA stability (Kosuri et&#160;al, 2013) and codon bias influences RNA structure and translation (Goodman et&#160;al, 2013). Finally, we determined the relative contributions of antisense RNA and transcriptional interference to repressing gene expression and introduce a biophysical model to parameterize RNA polymerase collisions. This work contributes to a larger effort to expand on the classic concept of an &#8220;expression cassette&#8221; to include additional parts that utilize genetic context to fine&#8208;tune expression levels (Lou et&#160;al, 2012; Mutalik et&#160;al, 2013; Brophy &amp; Voigt, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>8476</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8484</offset>
+      <text>Repression correlates with the strength of the antisense promoter</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8550</offset>
+      <text>A simple system was designed to quantify the impact of an antisense promoter on gene expression (Fig&#160;1A). The isopropyl &#946;&#8208;D&#8208;1&#8208;thiogalactopyranoside (IPTG)&#8208;inducible promoter Ptac was used as the forward promoter to drive the expression of red fluorescent protein (RFP). Downstream of rfp, there is a constitutive antisense promoter PR whose RNAPs will be fired toward Ptac. The full cassette was placed on a plasmid containing the p15A origin (Appendix&#160;Fig S1). Four constitutive promoters of different strength (Kosuri et&#160;al, 2013; Mutalik et&#160;al, 2013) were selected to serve as the antisense promoters, and the impact on RFP expression was quantified. The strengths of PR and Ptac were determined using a separate plasmid system and normalized by a reference standard to estimate promoter strengths as polymerase firing rates (Fig&#160;1B) (Materials and Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9426</offset>
+      <text>Antisense transcription and its impact on gene expression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9484</offset>
+      <text>A schematic showing the antisense transcription reporter system. A constitutive promoter (red) at the 3&#8242;&#8208;end of rfp represses gene expression by firing polymerases at the forward promoter Ptac (black).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9690</offset>
+      <text>Strengths of the constitutive promoters used as PR (colors) and the forward promoter (Ptac) at different inducer concentrations. The reference promoter (Pbla) used to calculate promoter strength in units of polymerase firings per second is shown (see Appendix for methods, promoter sequences, and plasmid maps).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10002</offset>
+      <text>Response functions for Ptac with different antisense promoters located at the 3&#8242;&#8208;end of RFP: no promoter, black; antisense promoters of different strength, colors as in (B). The inset is the log10 transform of the same data normalized by min and max.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10257</offset>
+      <text>The fold repression (equation&#160;(1)) is shown as a function of the induction of the forward promoter. The colors correspond to antisense promoters of different strength (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10430</offset>
+      <text>The maximum fold repression (white circles) or threshold (gray squares) is shown as a function of antisense promoter strength. The induction threshold K was calculated by fitting equation&#160;(1) to the data in (C). The lines are linear and exponential fits to the threshold (R2 = 0.9876) and repression (R2 = 0.99737) data, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10766</offset>
+      <text> Data information: In all panels, the data represent the mean of three experiments performed on different days, and the error bars are the standard deviation of these replicates. Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10996</offset>
+      <text>The addition of an antisense promoter changes the response curve for the IPTG induction of RFP in three ways (Fig&#160;1C). First, expression is reduced over the entire range of inducer concentration. We defined a parameter &#952; that captures the magnitude of repression, where the subscripts +/0 represent the presence/absence of an antisense promoter. Plotting &#952; versus inducer concentration shows that the impact of the antisense promoter is stronger when Ptac is less active (Fig&#160;1D). This biased repression is consistent with previous findings that weak promoters are more susceptible to repression via transcriptional interference and asRNAs than strong promoters (Callen et&#160;al, 2004; Shearwin et&#160;al, 2005; Sneppen et&#160;al, 2005). Second, the maximum repression increases with the strength of the antisense promoter (Fig&#160;1E, exponential regression; R2&#160;=&#160;0.99737). Notably, the strongest promoter tested (apFAB96) is unable to completely repress expression. This promoter is among the strongest from a large synthetic library (Kosuri et&#160;al, 2013) and of comparable strength to the E.&#160;coli rrn promoters (Liang et&#160;al, 1999). Finally, the threshold for induction increases as a function of the strength of antisense promoter (Fig&#160;1E, linear regression; R2&#160;=&#160;0.9876). Interestingly, the shape of the induction curve remains similar for the different antisense promoters (Fig&#160;1C, inset). The cooperativity (n&#160;=&#160;1.7&#160;&#177;&#160;0.1) is also unaffected by different antisense promoters. Thresholds and Hill coefficients were calculated by fitting the response functions in Fig&#160;1C to the Hill equationwhere x is the concentration of IPTG, y is the activity of POUT, n is the Hill coefficient, and K is the threshold level of input where the output is half&#8208;maximal. Escherichia coli growth rates were also unaffected by the addition of antisense promoters (Appendix&#160;Fig S2).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12874</offset>
+      <text>Multiplexed characterization of antisense promoters</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12926</offset>
+      <text>Experiments were designed to quantify the impact of an antisense promoter on the function of a simple genetic circuit. We chose to characterize NOT gates, where an input promoter drives the expression of a repressor that turns off an output promoter (Yokobayashi et&#160;al, 2002). This creates a response function that is inverted compared to an inducible system alone. The NOT gate is a common logic motif that has been used to build more complex combinatorial logic and dynamic functions in living cells (Stanton et al, 2014). Our design adds antisense promoters to the 3&#8242;&#8208;end of the repressor (Fig&#160;2A), which reflects natural motifs where regulatory proteins are controlled by antisense promoters (Eiamphungporn &amp; Helmann, 2009). The design also adds unidirectional terminators between the 3&#8242;&#8208;end of the repressor and the antisense promoter to demonstrate that antisense promoters can alter gene expression when added to the outside of complete expression cassettes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13902</offset>
+      <text>Construction of a library of terminator/antisense promoter pairs and characterization of their impact on regulatory circuit performance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14038</offset>
+      <text>Library construction and flow&#8208;seq screening used to measure the impact of terminator/antisense promoter pairs on NOT gate performance. All combinations of 52 unidirectional terminators and 109 promoters were constructed to create a library of 5,668 transcriptional interference constructs. The terminator and promoter strengths shown were measured previously (Chen et&#160;al, 2013; Kosuri et&#160;al, 2013; Mutalik et&#160;al, 2013). The library was synthesized as oligonucleotides, then cloned into genetic NOT gates at the 3&#8242;&#8208;end of the repressor gene (red box). Each library was transformed into Escherichia coli, grown with 100&#160;&#956;M IPTG, and sorted into bins of varying YFP fluorescence to find constructs with increased induction thresholds. Bacteria from each bin were plated on solid media, and individual colonies were selected to measure the full response function of sorted variants. Plates were scraped to isolate plasmids from bacteria in each bin, and plasmid DNA was barcoded and deep&#8208;sequenced (Materials and Methods).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15070</offset>
+      <text>Response functions of the starting NOT gates (no antisense promoters) built with TetR homologs: PhlF (left), SrpR (center), TarA (right). The response functions are measured using Ptac activity as the input and YFP as the output. Ptac activity was measured using a separate plasmid system and converted into REU with a reference standard (see Appendix for plasmid maps). Vertical lines (red) demarcate Ptac activity with 100&#160;&#956;M IPTG, the inducer concentration used to sort libraries.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15556</offset>
+      <text>Fluorescence histograms of the unmodified NOT gates and libraries before sorting. Each unmodified NOT gate was grown with 0&#160;&#956;M (light gray) and 100&#160;&#956;M (dark gray) IPTG to set upper and lower bounds for sorting, respectively. Libraries (green) were sorted into four bins, shown as colored vertical bars and numbered by increasing fluorescence.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15903</offset>
+      <text>Response functions of twenty four randomly selected clones from the sorted libraries colored by the bin in which they were found (coloring is same as in C). The response functions of the NOT gates lacking antisense promoters are shown in black.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16148</offset>
+      <text>Deep sequencing revealed the identities of antisense promoters in each bin. Previously measured values, shown in (A), were used to calculate the median promoter strength of parts sorted into each bin. Box&#160;plots display the median, with hinges indicating the first and third quartiles. The unsorted library is marked &#8220;U&#8221;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16474</offset>
+      <text>Heat map shows the bin in which each terminator/promoter pair was most enriched. Promoters are rank ordered by their strength, with the strongest at the top. The terminators were grouped based on known or predicted terminator features and sorted by the predicted strength of a cryptic antisense promoter or impact on mRNA stability, if relevant (Materials and Methods). Unidirectional terminators were sorted based on similarity in their profiles across the promoter set. Terminator/promoter combinations that are not enriched in any of the bins are colored gray. Columns and rows &gt;&#160;90% gray were removed from the enrichment grid.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17106</offset>
+      <text> Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17157</offset>
+      <text>Advances in chip&#8208;based DNA synthesis have made it possible to simultaneously synthesize 10,000s of unique ~200&#160;bp oligos (Kosuri &amp; Church, 2014). This length is appropriate to encode a terminator and antisense promoter. A library was constructed based on 52 terminators (Chen et&#160;al, 2013) and 109 constitutive promoters (Kosuri et&#160;al, 2013; Mutalik et&#160;al, 2013), paired combinatorially to produce 5,668 unique composite parts (Fig&#160;2A). All of the promoters are synthetic and their strengths fall within a range of 0.0047 au to 21 au, with an average of 3.6 au (Kosuri et&#160;al, 2013). All of the terminators are naturally occurring sequences from the E.&#160;coli K12 genome and were selected to encompass a wide range of terminator strengths. The majority of these terminators are unidirectional and allow RNAPs fired from the antisense promoter to proceed while blocking those from the forward promoter (Chen et&#160;al, 2013). The composite parts were synthesized and cloned into three NOT gates made from TetR homologs (Materials and Methods) (Stanton et&#160;al, 2014). The NOT gate repressors (PhlF, SrpR, TarA) were selected to represent different response function shapes (Fig&#160;2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18341</offset>
+      <text>The NOT gate libraries were screened using flow&#8208;seq, a technique where fluorescence&#8208;activated cell sorting (FACS) is used to sort the cells into bins, the contents of which are determined using next&#8208;generation sequencing (Materials and Methods) (Raveh&#8208;Sadka et&#160;al, 2012; Sharon et&#160;al, 2012). Here, we sorted the cells by NOT gate threshold, that is, the input promoter activity at which the output fluorescence is reduced to half&#8208;maximum. To do this, each library was grown with 100&#160;&#956;M IPTG and sorted by fluorescence into four log&#8208;spaced bins (Fig&#160;2C). At 100&#160;&#956;M IPTG, all of the gates lacking antisense promoters are OFF (Fig&#160;2B) and library members that are ON are likely to have increased induction thresholds. NOT gates without antisense promoters were grown with 0 and 100&#160;&#956;M IPTG to set upper and lower bounds for sorting, respectively. 6.5, 18.3 and 4.9% of the cells from the PhlF, SrpR, and TarA libraries have increased fluorescence relative to the gates without antisense promoters.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19358</offset>
+      <text>After sorting, cells were plated onto solid agar medium and eight colonies from each bin were randomly selected and their full response functions were measured (Fig&#160;2D). As expected, the most fluorescent bins (bins 3 and 4) captured gates with the largest increase in threshold (Fig&#160;2D, yellow and red). To quantify the effects of the antisense promoter/terminator parts, each response function was fit to equation 2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19778</offset>
+      <text>Constructs from high fluorescence bins have increased thresholds K relative to lower fluorescence bins, but the Hill coefficient n&#160;does not show a consistent trend across bins (Fig&#160;EV1). After individual colonies were analyzed, we pooled the remaining cells from each bin (50,000&#8211;200,000 colonies) and measured their response functions in aggregate. Analysis of pooled constructs shows that the ON and OFF states of all library members are essentially constant and threshold differences between the bins are statistically significant (Fig&#160;EV2, one&#8208;way ANOVA).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20345</offset>
+      <text>Thresholds and Hill coefficients of sorted NOT gate constructs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20408</offset>
+      <text>Average thresholds K for NOT gates sorted into each bin of the PhlF (left), SrpR (middle), and TarA (right) libraries.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20527</offset>
+      <text>Hill coefficients n for the same NOT gates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20571</offset>
+      <text> Data information: Thresholds and Hill coefficients were calculated by fitting NOT gate response functions to the repressor Hill equation&#160;(equation&#160;(2)). Error bars are the standard deviation between single measurements of the thresholds or Hill coefficients of the eight NOT gates characterized from each bin. Brackets indicate two&#8208;sample Student's t&#8208;tests with *P&#8208;values&#160;&lt;&#160;0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20962</offset>
+      <text>Fluorescence histograms of sorted bins</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21001</offset>
+      <text>The fluorescence histogram of cells from the PhlF (left), SrpR (middle), and TarA (right) libraries. Fluorescence was measured using flow cytometry in ON (0&#160;&#956;M IPTG, top), threshold (100&#160;&#956;M IPTG, middle), and OFF (1,000&#160;&#956;M IPTG, bottom) conditions. Histograms are colored by bin: 1,&#160;purple; 2, green; 3, yellow; 4, orange. One hundred randomly selected individual cells from each data set were used as input to one&#8208;way ANOVA tests. There were no statistically significant differences between group means for the PhlF ON (F(3, 396)&#160;=&#160;1.06, P&#160;=&#160;36.67) and OFF (F(3, 396)&#160;=&#160;1.54, P&#160;=&#160;20.48) conditions, the SrpR ON (F(3, 396)&#160;=&#160;1.22, P&#160;=&#160;30.04) and OFF (F(3,&#160;396)&#160;=&#160;1.41, P&#160;=&#160;23.87) conditions, or the TarA ON (F(3, 396)&#160;=&#160;1.25, P&#160;=&#160;29.19) condition. There are significant differences between group means for the threshold conditions: PhlF (F(3, 396)&#160;=&#160;34.67, P&#160;=&#160;5.42E&#8208;18), SrpR (F(3, 396)&#160;=&#160;13.3, P&#160;=&#160;2.65E&#8208;8), TarA (F(3, 396)&#160;=&#160;15.71, P&#160;=&#160;1.13E&#8208;9) and the TarA OFF condition (F(3, 396)&#160;=&#160;7.85, P&#160;=&#160;0.0042).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22060</offset>
+      <text> Post hoc comparisons using the Tukey HSD test for the PhlF threshold, SrpR threshold, TarA threshold, and TarA OFF conditions. Mean fluorescence values of the groups are shown in arbitrary units (au). Brackets indicate Tukey HSD comparisons with P&#8208;values listed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22326</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22329</offset>
+      <text>After sorting, the bins were sequenced to identify the promoter/terminator combinations responsible for shifting gate thresholds. Briefly, plasmid DNA was isolated from bacteria in each bin, then the composite parts were amplified from the plasmids and barcoded for multiplexed sequencing. Paired&#8208;end reads were used to ensure complete sequencing of each promoter/terminator pair (Materials and Methods). For the following analysis, we removed any sequencing reads that did not perfectly match the designed promoter/terminator pairs. The percent of perfect sequences from the pools was 32.38%, which is consistent with the error rate of chip&#8208;based oligo synthesis (Kosuri &amp; Church, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23022</offset>
+      <text>The response threshold correlates with antisense promoter strength</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23089</offset>
+      <text>Previously measured values of the promoter and terminator strengths were used to analyze the parts identified in each bin by deep sequencing (Fig&#160;2A). In all three libraries, antisense promoter strength increases as a function of bin fluorescence (Appendix&#160;Fig S3, linear regressions; R 2&#160;=&#160;0.87421&#8211;0.96112). The high fluorescence bins (bins 3 and 4) contain constructs with greater median antisense promoter strength than lower fluorescence bins (bins 1 and 2) (Fig&#160;2E). In contrast, there is no consistent trend in the forward or antisense terminator strengths across the sorted libraries (Appendix&#160;Figs S3 and S4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23715</offset>
+      <text>The parts responsible for shifting gate thresholds were further explored by enrichment analysis. Enrichment identifies the parts that are selected for, or against, in each bin during sorting (Materials and Methods). Since high fluorescence bins (bins 3 and 4) have an increased threshold relative to lower fluorescence bins (bins 1 and 2) (Fig&#160;EV1), composite parts that are enriched in high fluorescence bins are more likely to generate large shifts in gate thresholds than those enriched in lower fluorescence bins. To visualize trends in the data, enrichment was used to assign each composite part to the one bin (1&#8211;4) that best reflects its ability to shift gate thresholds (Fig&#160;2F). Most composite parts with strong antisense promoters are maximally enriched in bins 3 and 4 (Fig&#160;2F, top). However, when strong promoters are paired with bidirectional terminators that have significant antisense termination efficiencies (T s antisense &gt;&#160;10), the composite parts are incapable of shifting circuit thresholds (Fig&#160;2F, left). In contrast, when strong antisense promoters are paired with unidirectional terminators, the composite parts are sorted into high fluorescence bins. These terminators (T S antisense &lt;&#160;10) most likely facilitate greater shifts in gate thresholds than bidirectional terminators by allowing more RNAPs fired from the antisense promoter to proceed. Terminators that are predicted to destabilize mRNA or contain cryptic antisense promoters also facilitate large shifts in gate thresholds (Fig&#160;2F, right). Changes in mRNA stability can result in a large shift because the mRNA produces less protein before it is degraded (Chen et&#160;al, 2013); thus, more transcripts are required to produce the threshold amount of repressor protein. Similarly, terminators with cryptic antisense promoters increase the gate threshold by increasing the basal level of antisense transcription.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25620</offset>
+      <text>Characterization of terminator/promoter pairs as &#8220;parts&#8221;</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25681</offset>
+      <text>One of our goals is to use antisense transcription to reliably change the expression level of a gene or shift the threshold of a genetic circuit. Ideally, the impact of an antisense promoter on these functions would be predictable and a set of promoters of different strengths could be used to tune expression. When building multi&#8208;gene systems, it is desirable to use different terminators to control each gene in order to avoid homologous recombination (Sleight &amp; Sauro, 2013). Therefore, we sought to identify a set of strong terminators that could be used in conjunction with a set of antisense promoters to reliably tune gene expression. Predictability would require that the promoters impart their effect independent of the terminator to which they are paired.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26449</offset>
+      <text>Some terminators may have mechanisms that impact the effectiveness of the antisense promoter. As such, we eliminated those with known features (cryptic promoters, bidirectional termination, hairpins that impact mRNA stability) from the set (Fig&#160;2F). Then, terminators and promoters were systematically removed until there remained a core set of both in which the promoters produced a reliable response when combined with any of the terminators. This set, shown in Fig&#160;3A, provides nine strong terminators that can be fused to different genes or operons and twenty antisense promoters that can be added to control their expression (Fig&#160;3B). To confirm predictability, several terminator&#8211;promoter pairs were tested in a reporter construct with Ptac and yfp. The repression produced by these pairs collapse onto a single curve, independent of the identity of the terminator used (Fig&#160;3C, exponential regression; R2 = 0.9275) (Appendix&#160;Table&#160;S2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27400</offset>
+      <text>Composability of unidirectional terminators and antisense promoters</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27468</offset>
+      <text>The flow&#8208;seq data were used to identify a subset of promoters and terminators that could be combined to obtain a reliable reduction in gene expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27622</offset>
+      <text>Each graph shows a terminator (name at top), and each point is a promoter from the list in (A). The x&#8208;axis (&lt;Bin#&gt;) is the average for the promoter across the complete terminator set, and the y&#8208;axis (Bin#) is the bin for the specific terminator. The Bin# is calculated as described in Fig&#160;2F.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27920</offset>
+      <text>Repression was explicitly measured for a subset of terminator/promoter pairs selected from (A). The pairs were cloned into the plasmid from (A) with Ptac and yfp, and fold repression (equation&#160;(1)) was measured as a function of the forward promoter activity (see Appendix&#160;Table&#160;S1 for terminator/promoter combinations tested). Maximum fold repression is plotted against the previously measured promoter activities (Kosuri et&#160;al, 2013); R 2&#160;=&#160;0.9275. Composite parts are marked by terminator (ECK120035132, circle; ECK120010831, square; ECK120034435, triangle; ECK120021270, diamond; ECK120010793, star; ECK120030221, x; ECK120010815, +). Data represent the mean of three experiments performed on different days, and the error bars are the standard deviation of these measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28707</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28710</offset>
+      <text>Contribution of asRNA to repression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28746</offset>
+      <text>To determine the relative contributions of asRNA and transcriptional interference to repression generated by antisense promoters, we built a set of plasmids to express asRNA corresponding to the reporter gene (Appendix&#160;Fig S5). These plasmids each have one of the four antisense promoters (apFAB49, apFAB140, apFAB78, or apFAB96) driving expression of the reverse compliment of RFP followed by a strong bidirectional terminator (ECK120034435). The cassette is placed on a plasmid containing the ColE1 origin, which is maintained at a copy number approximately two times higher than p15A (Deininger, 1990). The asRNA plasmids were co&#8208;transformed into E.&#160;coli along with the original RFP reporter plasmid (pJBTI241, Appendix&#160;Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29483</offset>
+      <text>Using these data, the fold repression due to antisense RNA &#952; asRNA is calculated as in equation&#160;(1), where the subscripts +/0 now represent the presence or absence of trans encoded asRNA. &#952;asRNA should be viewed as an upper bound on the contribution from asRNA to total fold repression &#952;. This is because its expression in trans causes the asRNA to be longer (relative to the asRNAs generated at the 3&#8242;&#8208;end by RNAP collisions) and expressed at a higher level (due to the absence of RNAP collisions and the higher copy number plasmid). Fold repression generated by transcriptional interference &#952;TI was then determined by dividing the total fold repression &#952; by &#952;asRNA. Thus, &#952;asRNA and &#952;TI reflect the relative contributions of asRNA and transcriptional interference to total repression generated by antisense transcription. Plotting &#952;, &#952;asRNA, and &#952;TI versus inducer concentration shows that asRNA and transcriptional interference generate approximately equivalent contributions to repression (Fig&#160;4A, Appendix&#160;Fig S13). When the forward promoter is strongly induced, the predicted cis contribution declines, which is consistent with models of transcriptional interference (Sneppen et&#160;al, 2005) (Fig&#160;4A, Appendix&#160;Fig S13). It is noteworthy that strong repression cannot be achieved through either transcriptional interference or asRNA alone. They each contribute to the total repression that can be achieved using antisense promoters. The cis regulation is likely most important for achieving maximal repression when the asRNA does not have specific regulatory qualities, such as RNA&#8211;RNA or RNA&#8211;DNA interaction hairpins (Lucks et&#160;al, 2011; Mutalik et&#160;al, 2012), Hfq binding motifs (Brennan &amp; Link, 2007), or RNase processing sites (Lee &amp; Groisman, 2010; Stazic et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31302</offset>
+      <text>Mechanisms of repression by antisense transcription</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31354</offset>
+      <text>The total fold repression &#952; generated by the apFAB96 antisense promoter is shown as a function of forward promoter activity using the characterization system in Fig&#160;1A (black line). This is compared to the repression observed when the same promoter is used to drive the transcription of asRNA in trans from a separate plasmid (dashed red line) (Appendix&#160;Fig S5). The repression due to transcriptional interference &#952;TI (solid red line) is inferred from the total and trans asRNA repression data (see text for details).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31880</offset>
+      <text>Schematic of the transcriptional interference model. A forward PF and antisense PR promoter are located on either side of a gene, N bases apart. The promoters fire at rates &#981;F and &#981;R RNAP/second. Polymerases transcribe at a constant velocity v unless they collide with polymerases fired from opposing promoter. Polymerases collide and dissociate from the DNA with a probability &#949;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32271</offset>
+      <text>Comparison of model predictions to experimental data when &#949; F&#160;=&#160;&#949; R&#160;=&#160;1. Each data point shows experimentally measured repression (&#952; &#8208; white, &#952;TI &#8208; gray) for each PF/PR pair plotted against model predictions generated with the same promoter combinations. Repressions predicted by the model were calculated using equation&#160;(5).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32617</offset>
+      <text>Comparison of model predictions to experimental data for the highest scoring &#949; F and &#949; R. The optimal &#949; F and &#949; R values simulate repression closest to the experimentally measured value (Materials and Methods). Data points show experimentally measured repression (&#952; &#8211; white, &#952;TI &#8211; gray) for each PF/PR pair plotted against model results generated with the optimal &#949; F and &#949; R values for each promoter combination.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33075</offset>
+      <text>The range of optimal &#949; values that result from fitting the model to &#952; (which assumes that transcriptional interference is the sole mechanism of repression) or &#952;TI (which is the minimum amount of repression attributable to transcriptional interference). Box&#160;plot extends from the median optimal &#949; F and &#949; R when the model is fit to &#952;TI (&lt;&#949; F&gt;&#160;=&#160;0.07, &lt;&#949; R&gt;&#160;=&#160;0.52) to median optimal &#949; F and &#949; R when the model is fit to &#952; (&lt;&#949; F&gt;&#160;=&#160;0.14, &lt;&#949; R&gt;&#160;=&#160;0.47).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33596</offset>
+      <text> Data information: In all panels, the data represent the mean of three experiments performed on different days, and the error bars are the standard deviation of these replicates. Fold repression &#952; is the magnitude of gene expression produced by forward promoter in the absence of an antisense promoter divided by the amount of gene expression produced in the presence of an antisense promoter. Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34045</offset>
+      <text>A quantitative model of transcriptional interference</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34098</offset>
+      <text>A differential equation&#160;model was developed to explore collision interference and parameterize the repression that arises for different forward and antisense promoter firing rates (&#981;F and &#981;R) and gene length N. The model and parameters are shown in Fig&#160;4B and Appendix&#160;Table&#160;S3. Polymerases that originate from the forward promoter PF transcribe a gene at a constant velocity v unless they collide with polymerases from the interfering promoter PR on the opposing strand of DNA. In the event of a collision, polymerases may dissociate from the DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34653</offset>
+      <text>Collision interference can be captured by two differential equations that track the steady&#8208;state concentration of polymerases on the forward C F and reverse C R strands as a function of the distance from the start site x (in bp):   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34888</offset>
+      <text>Here, the &#949; F and &#949; R are parameters that reflect the possibility that RNAPs fired from the forward and antisense promoters encounter collisions and dissociate from the DNA. Several factors may influence the frequency with which RNAPs encounter collisions and dissociate from the DNA. For example, transcriptional bursting could prevent RNAPs from encountering head&#8208;on collisions by increasing the time between transcription events initiated at the opposing promoter. In vitro experiments show that head&#8208;on RNAP collisions result in stalling and backtracking of the enzymes (Crampton et&#160;al, 2006), which leaves them vulnerable to clearance (Roberts &amp; Park, 2004; Nudler, 2012). However, co&#8208;translating ribosomes (Proshkin et&#160;al, 2010) and actively transcribing RNAPs (Epshtein &amp; Nudler, 2003; Epshtein et&#160;al, 2003) have been shown to rescue stalled/backtracked complexes by realigning the 3&#8242;&#8208;termini of the RNA transcript with the enzyme's active site. In addition, there are active mechanisms that favor the termination and release of RNAPs transcribing non&#8208;coding RNA (Kaplan &amp; O'Donnell, 2003). Therefore, the model was built to accommodate the differences in dissociation for RNAPs fired from forward and antisense promoters of different strengths.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36158</offset>
+      <text>Boundary conditions are defined by the rates that polymerases are fired, that is, begin elongating, at the forward C F(x&#160;=&#160;0)&#160;=&#160;&#981;F/v and reverse C R(x&#160;=&#160;N)&#160;=&#160;&#981;R/v promoters. The polymerase velocity v&#160;=&#160;40&#160;bp/s is held constant (Vogel &amp; Jensen, 1994; Sneppen et&#160;al, 2005). The equations are numerically solved for each &#981;F and &#981;R combination (Materials and Methods). We chose to model PF as Ptac with ten different IPTG concentrations and PR as four different constitutive promoters: apFAB49, apFAB140, apFAB78, and apFAB96 (Fig&#160;1B). Simulated repression can be calculated as the ratio of full&#8208;length (x&#160;=&#160;N) transcripts produced from PF with and without an antisense promoterproviding a prediction that can be compared with measurements (equation&#160;(1)). For each combination of forward and antisense promoters, &#952; is calculated and compared with that derived from experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37055</offset>
+      <text>Repression due to asRNA is not included in the model. Rather, our approach was to fit the model predictions to the two bounds that we measured. First, results were fit to total repression &#952;, which assumes that there is no contribution from asRNA to the observed repression. Next results were fit to &#952;TI, which represents the minimum amount of repression attributable to transcriptional interference. These bounds were then used to fit the underlying biophysical parameters and provide a range of values that reflect the possible contribution of transcriptional interference to gene repression.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37657</offset>
+      <text>We first simulated collision interference with &#949; F&#160;=&#160;&#949; R&#160;=&#160;1, since previous models of transcriptional interference assume that actively transcribing polymerases never survive head&#8208;on collisions (Sneppen et&#160;al, 2005; Chatterjee et&#160;al, 2011a,b) (Fig&#160;4C). However, assuming &#949; F&#160;=&#160;&#949; R&#160;=&#160;1 predicts too much repression and results in a poor fit to our experiments. To optimize &#949; F and &#949; R, the model was solved where these parameters are varied in the range [0,1] in increments of 0.01 (Appendix&#160;Fig S6). This was repeated for each value of &#981;F and &#981;R in our data set, and the values of &#949; F and &#949; R that generate repression closest to the experimentally measured &#952;TI were determined. This yielded a set of 80 optimal values of &#949; F and &#949; R, corresponding to all of combinations of forward and antisense promoter activities (40 pairings) fit to either &#952; or &#952;TI. The optimal values of &#949; F and &#949; R produced behavior that closely matches the experimental data (Fig&#160;4D, linear regression; m = 1, R2 = 0.84082). Values of &#949;&#160;&lt;&#160;1 are interpreted as cases where polymerases either avoid or survive collision and continue transcribing. Importantly, the model does not assume that one RNAP must dissociate in order for the RNAP on the opposing strand of DNA to survive collision. This ability to bypass is supported by in&#160;vitro experiments done with viral (Ma &amp; McAllister, 2009) and yeast (Hobson et&#160;al, 2012) RNA polymerases.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39162</offset>
+      <text>The optimum values of &#949; F and &#949; R are surprisingly constant across the dataset and are independent of the identity of the antisense promoter or the firing rate of the forward promoter (Appendix&#160;Fig S7). &#949; values fit using &#952; represent the probabilities that polymerases collide and dissociate when transcriptional interference is assumed to be the sole mechanism for gene repression. In contrast, &#949; values fit using &#952;TI reflect the smallest possible contribution of transcriptional interference to gene repression. Thus, we find a range of &#949; values that reflect the potential contributions of collision interference to gene repression. We find that the probability that a polymerase dissociates due to a competing polymerase is significantly larger for RNAPs fired from the antisense promoter (&lt;&#949; R&gt;&#160;=&#160;43&#8211;54%) as compared to those from the forward promoter (&lt;&#949; F&gt;&#160;=&#160;7&#8211;15%) (Fig&#160;4E). In addition, the model predicts that fold repression due to transcriptional interference increases exponentially as a function of the antisense promoter strength and distance between the two promoters (Fig&#160;EV3A and B). To test repression as a function of distance between the forward and antisense promoters, we modified our antisense reporter system and inserted yfp between the 3&#8242;&#8208;end of rfp and the antisense promoter (Fig&#160;EV3D). This increases the distance between the two promoters from 850 to 1,500&#160;bp. Measuring repression of RFP and YFP using this system shows that repression increases as the distance between the two promoters grows.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40738</offset>
+      <text>Model predicts exponential increases in repression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40789</offset>
+      <text>Top: schematic showing the antisense transcription reporter system. Bottom: model simulations where &#981;R is varied from 0 to 2 at increments of either 0.01 or 0.1 (1/s). For these simulations, &#949;F was set to the median value fit by &#952;TI (&#949;F&#160;=&#160;0.07, white circles) or &#952; (&#949;F&#160;=&#160;0.14, gray circles) and &#949; R was held constant at 0.515. Experimental results for &#952; (black squares) and &#952;TI (red squares) are also shown as a function of antisense promoter strength. Data from Fig&#160;4A and Appendix&#160;Fig S13.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41323</offset>
+      <text>Top: Schematic showing the antisense transcription reporter system with greater distance between PF and P R. A second fluorescent protein yfp was added between the 3&#8242;&#8208;end of rfp and PR to increase the distance between promoters from 841 to 1,500&#160;bp. Plasmid maps in Appendix&#160;Fig S8. Bottom: model simulations where N is varied from 200 to 5,000&#160;bp in increments of 50, 100, or 1,000&#160;bp. PR was simulated as apFAB49, apFAB140, apFAB78, and apFAB96 by setting &#981;R to values of 0.15345 RNAP/s (blue circles), 0.64814 RNAP/s (green circles), 1.014108 RNAP/s (purple circles), and 1.231852 RNAP/s (red circles), respectively. For all simulations in this figure, &#981;F was held constant at 0.03976 (to simulate Ptac&#160;+&#160;100&#160;&#956;M IPTG) and &#949;F and &#949;R were set at the median optimum values: 0.07 and 0.515, respectively. Experimental results show RFP and YFP repression with four different antisense promoters: apFAB49 (blue squares), apFAB140 (green squares), apFAB78 (purple squares), and apFAB96 (red squares).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42337</offset>
+      <text>The collision interference model was used to predict fold repression with wide range of antisense promoter strength PR values and different distances between promoters.  Data information: Repression is measured when Ptac is induced with 100&#160;&#956;M IPTG. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42590</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42601</offset>
+      <text>This work demonstrates that antisense promoters can be reliably used to tune gene expression. The degree of repression is proportional to the strength of the antisense promoter over a &gt;&#160;30&#8208;fold range. This builds on the modern revisiting of the classical &#8220;expression cassette&#8221; to incorporate additional non&#8208;canonical parts to tune expression, insulate against context, and provide for rapid debugging via omics techniques (Mutalik et&#160;al, 2013; Nielsen et&#160;al, 2013). In this paradigm, there are alternative means to control the expression level of a gene, such as changing the forward promoter (Mutalik et&#160;al, 2013) or RBS (Salis et&#160;al, 2009), or adding small RNA (Lucks et&#160;al, 2011; Mutalik et&#160;al, 2012; Na et&#160;al, 2013) or 3&#8242;&#8208;hairpins to alter mRNA stability (Carrier &amp; Keasling, 1997). While some of these approaches can achieve greater ranges of expression control, antisense promoters have unique features that are advantageous for some applications. Notably, they offer a means of control external to the expression cassette. This is particularly valuable when the forward control elements (promoter and RBS) have been engineered to integrate additional regulatory information (Cox et&#160;al, 2007; Carothers et&#160;al, 2011; Stanton et&#160;al, 2014; Stevens &amp; Carothers, 2015). In these cases, it is not simple to adjust the overall expression level without interfering with how the signals are integrated. Exploiting antisense transcription allows for control without changing the inputs to the system or the sequence of the forward transcript. In addition, our flow&#8208;seq data demonstrate that the impact of the antisense promoter is largely context independent. From this, we derived a set of unidirectional terminators that can be combined with the antisense promoter in a modular manner. Thus, implementing this control is simple and modular and can be done with existing promoter libraries.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44514</offset>
+      <text>The performance of antisense transcription is derived from its unique synergy between its impact on transcription from the forward promoter and post&#8208;transcriptional impact on protein expression. For our system, we find that antisense RNA and collision between actively transcribing RNA polymerases contribute roughly equally to repress gene expression. This synergy is important because transcriptional interference implements its control at the transcriptional level and would not be able to repress mRNAs made by RNAPs that avoid collision. Antisense RNAs prohibit escaped mRNA transcripts from being translated. For asRNAs with weak affinity for the target mRNA, cohesion between the two mechanisms may facilitate greater repression of target genes than the asRNA alone.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45290</offset>
+      <text>The model predicts some mechanistic details about collision interference. Most strikingly, polymerases transcribing translated mRNA survive or avoid ~85% of their head&#8208;on collisions, which may explain the inability to completely abolish gene expression with transcriptional interference alone, despite the use of very strong interfering promoters. Polymerase survival rates are not as high if the polymerase is fired from the antisense promoter (~50% survival). This imbalance may be due to the differences in the kinetic properties of the two promoters, for example, burstiness and differential dissociation of the RNAPs. Single&#8208;molecule experiments that measure polymerase survival rates directly could be done to differentiate between these two mechanisms. Additional experiments can also refine our understanding of antisense transcription by parameterizing additional mechanisms. The model presented here is limited to collision interference as the mechanism of repression in cis; however, several additional factors, such as r&#8208;loop formation (Gowrishankar et&#160;al, 2013), changes in DNA topology (Chen &amp; Wu, 2006), differences in local asRNA concentration (Llopis et&#160;al, 2010), and occlusion interference (Palmer et&#160;al, 2009), could also be considered. Direct measurement of asRNA activity in cis and trans, as well as the measurement of RNA duplex formation and degradation rates, r&#8208;loop formation, and other modes of transcriptional interference, would facilitate the construction of a more detailed mechanistic model of repression mediated by antisense transcription.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46876</offset>
+      <text>Considering natural genomes, antisense promoters could be a simple evolutionary mechanism to tune gene expression. Since housekeeping sigma factors&#8212;such as &#963;70&#8212;have relatively information poor binding sites, promoters are expected to frequently arise spontaneously during evolution (Raghavan et&#160;al, 2012). Thus, constitutive antisense promoters could provide a simple mechanism to reduce gene expression that can be rapidly discovered during an evolutionary search. This is consistent with the lack of conservation of antisense promoters between species (Nicolas et&#160;al, 2012; Raghavan et&#160;al, 2012), which appear and disappear quickly in evolutionary time to fine&#8208;tune expression. Antisense transcription would be an easier solution to find than making mutations to the sense promoter, which can be significantly constrained by needs of regulatory signal integration (Price et&#160;al, 2005). Thus, the total expression of a gene could be tuned without disturbing the integration of signals. The rate of evolution around any individual promoters may not be high (Raghavan et&#160;al, 2012) because there are many similar solutions that can be found.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48027</offset>
+      <text>Here, we show how antisense transcription can be integrated into a simple NOT gate, which has been a common motif in building larger synthetic genetic circuits. Antisense transcription provides a mechanism where the switching threshold can be tuned without impacting other characteristics of the gate, such as the cooperativity. More complex circuits could be built by exploiting antisense transcription in both prokaryotic and eukaryotic systems where antisense regulation is known to occur (Hongay et&#160;al, 2006; Chatterjee et&#160;al, 2011b; Mason et&#160;al, 2013) and additional tuning knobs can help improve the performance of synthetic systems (Murphy et&#160;al, 2010; Nevozhay et&#160;al, 2013; Brophy &amp; Voigt, 2014). The simple constitutive promoters we employ here could be exchanged for dynamic promoters that respond to inducers or cellular/environmental conditions or implement negative feedback. This occurs in natural regulatory networks; for example, many of the antisense promoters in B.&#160;subtilis are regulated by alternative sigma factors that respond to different environmental conditions (Nicolas et&#160;al, 2012). This gets more complex as the sigma factors themselves are regulated by antisense transcription (Eiamphungporn &amp; Helmann, 2009). Even more interesting architectures have been observed in nature; for example, there are many that involve overlapping 5&#8242;&#8208; and 3&#8242;&#8208;UTRs. The overlap can include entire genes; for example, divergent operons have been observed where the promoter for each occurs one gene into the other (Chatterjee et&#160;al, 2011b; Lasa et&#160;al, 2011). These motifs would enable mutually exclusive switch&#8208;like changes between the sets of genes that are expressed (Sesto et&#160;al, 2013). Collectively, this points to antisense transcription as something that should be routinely incorporated into engineered systems, as opposed to being avoided.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>49903</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49925</offset>
+      <text>Strains and media</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49943</offset>
+      <text> Escherichia coli strains NEB10&#946; (&#916;(ara&#8208;leu)7697 araD139 fhuA &#916;lacX74 galK16 galE15 e14&#8208; &#981;80dlacZ&#916;M15 recA1 relA1 endA1 nupG rpsL (StrR) rph spoT1 &#916;(mrr&#8208;hsdRMS&#8208;mcrBC)) and DH10B (F &#8208; &#916;(ara&#8208;leu)7697 araD139 &#916;lacX74 galE15 &#981;80dlacZ&#916;M15 recA1 endA1 nupG rpsL mcrA &#916;(mrr&#8208;hsdRMS&#8208;mcrBC) &#955;&#8208;) were used for all experiments. Cells were grown in either LB Miller broth (Becton Dickinson 244630) or M9 minimal medium supplemented with glucose (6.8&#160;g/l Na2HPO4, 3&#160;g/l KH2PO4, 0.5&#160;g/l NaCl, 1&#160;g/l NH4Cl; Sigma M6030), 2&#160;mM MgSO4 (Affymetrix 18651), 100&#160;&#956;M CaCl2 (Sigma C1016), 0.4% glucose (Fisher scientific M10046), 0.2% casamino acids (Becton Dickinson 223050), 340&#160;mg/ml thiamine (vitamin B1) (Alfa Aesar A19560). Carbenicillin (100&#160;&#956;g/ml) (Gold Bio C&#8208;103), kanamycin (50&#160;&#956;g/ml) (Gold Bio K&#8208;120), and/or chloramphenicol (35&#160;&#956;g/ml) (USB Corporation 23660) were added to growth media to maintain plasmids when appropriate. Isopropyl &#946;&#8208;D&#8208;1&#8208;thiogalactopyranoside (IPTG) (Gold Bio I2481C) was used as the inducer for all constructs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51017</offset>
+      <text>Measurement of response functions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51051</offset>
+      <text> Escherichia coli strains were grown for 16&#160;h in LB media containing antibiotics in 96&#8208;deep well blocks (USA Scientific 1896&#8211;2000) at 37&#176;C and 250&#160;rpm in an INFORS&#8208;HT Multitron Pro. After 16&#160;h, the cultures were diluted 1:200 into M9 medium with antibiotics and grown for 3&#160;h with the same shaking and temperature settings as the overnight growth. Next, the cultures were diluted 1:700 into fresh M9 medium with antibiotics and different concentrations of isopropyl &#946;&#8208;D&#8208;1&#8208;thiogalactopyranoside (IPTG). These cultures were grown for 6&#160;h and then diluted 1:5 into phosphate&#8208;buffered saline (PBS) containing 2&#160;mg/ml kanamycin or 35&#160;&#956;g/ml chloramphenicol to arrest protein production, and fluorescence was measured using a flow cytometer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51810</offset>
+      <text>Cytometry measurement and data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51850</offset>
+      <text>Cells were analyzed by flow cytometry using a BD Biosciences Fortessa flow cytometer with blue (488&#8208;nm) and red (640&#8208;nm) lasers. An injection volume of 10&#160;&#956;l and flow rate of 0.5&#160;&#956;l/s were used. Cytometry data were analyzed using FlowJo (TreeStar Inc., Ashland, OR), and populations were gated on forward and side scatter heights. The gated populations consisted of at least 30,000 cells. The median fluorescence of the gated populations was used calculated using FlowJo and used for all reporting. Autofluorescence of white cells (NEB10&#946; without plasmids) was subtracted from all fluorescence measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52467</offset>
+      <text>Promoter strength calculations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52498</offset>
+      <text>Promoter firing rates (RNAP/second) were estimated using NEB10&#946; cells harboring one of the following plasmids: pJBTI26, pJBTI264, pJBTI265, pJBTI266, pJBTI267, pJBTI136 (Appendix&#160;Fig S10). Fluorescence of each strain was measured as described above. Fluorescence produced by the strain harboring plasmid pJBTI136 (&lt;YFP&gt;&#160;=&#160;528&#160;au) was used to define a promoter firing rate of 0.031 RNAP/second, which has been reported for promoter Pbla (Liang et&#160;al, 1999). Fluorescence of strains carrying the other plasmids was divided by fluorescence produced by the strain harboring pJBTI136 and multiplied by 0.031 RNAP/second to obtain promoter firing rates. The hammerhead ribozyme insulator RiboJ (Lou et al, 2012) was used to standardize the 5&#8242;&#8208;UTR of YFP mRNA so that changes in fluorescence could be attributed solely to differences in polymerase firing. To convert promoter firing rates (RNAP/second) back to arbitrary units reported by the cytometer, multiply the firing rates by 17,032.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53492</offset>
+      <text>Relative expression units (REUs) were calculated using DH10B cells harboring one of the following plasmids: 0RFP2, pAN1717 (Appendix&#160;Fig S11A). Strains harboring 0RFP2 and pAN1717 were grown and measured in parallel with experimental strains. To convert raw RFP fluorescence measurements into REU, RFP produced by experimental strains was divided by red fluorescence produced by the strain harboring 0RFP2. To convert our reported RFP measurements (REU) back to arbitrary units, multiply the REU value by 2,295. To convert raw YFP fluorescence measurements into REU, YFP produced by experimental strains was divided by YFP produced by pAN1717. To convert our reported YFP measurements (REU) back to arbitrary units, multiply the REU value by 550. When&#160;measuring NOT gate response functions (Fig&#160;2B), input promoter (Ptac) activity was measured using plasmid pJBTI26 (Appendix Fig S11B) and converted into REUs as described here. Cellular autofluorescence was subtracted before conversion to RNAP/second or REU by measuring the fluorescence of unmodified NEB10b cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54563</offset>
+      <text>Promoter strength measurements reported throughout the paper as au are from the RNA&#8208;seq experiments of Kosuri et&#160;al (2013). In these experiments, promoter strengths are calculated using RNA&#8208;seq read depth of mRNA produced by each promoter driving the expression of green fluorescent protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54860</offset>
+      <text>Classification of terminators</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54890</offset>
+      <text>Terminators that encode cryptic antisense promoters or destabilize mRNA when placed at the 3&#8242;&#8208;end were identified by analyzing data from Chen et&#160;al's study of E.&#160;coli intrinsic terminators. In this study, termination strength was measured by observing the changes in GFP and RFP expression that occur when a terminator is placed between two fluorescent proteins (5&#8242; GFP and 3&#8242; RFP). Strong terminators resulted in a large drop in RFP fluorescence relative to a control plasmid with no terminator (pGR). Chen et&#160;al measured several terminators in both the forward and reverse orientation, which allowed us to identify unidirectional terminators for this study. We classified terminators as unidirectional if they have termination strength &lt;&#160;10 in the reverse orientation and &gt;&#160;10 in the forward direction.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55708</offset>
+      <text>Average levels of GFP and RFP fluorescence produced by plasmids carrying Chen et&#160;al's library of terminators were used to identify terminators that encode cryptic antisense promoters or destabilize mRNA. Terminators that decreased GFP expression relative to the average were assumed to destabilize mRNA. Similarly, terminators that increased RFP expression when measured in the reverse direction were assumed to encode cryptic antisense promoters. We classified terminators that decreased GFP expression more than one standard deviation below the mean as destabilizing mRNA and terminators that increased RFP expression more than one standard deviation as encoding cryptic antisense promoters.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56403</offset>
+      <text>Library design and construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56435</offset>
+      <text>The terminator/antisense promoter library was built as described previously (Kosuri et&#160;al, 2013). The library was constructed based on 52 terminators (Chen et&#160;al, 2013) and 109 constitutive promoters (Kosuri et&#160;al, 2013; Mutalik et&#160;al, 2013), paired combinatorially to produce 5,668 unique composite parts. We used 90 promoters from an existing library (Mutalik et&#160;al, 2013) and 19 from the Anderson promoter library on the BioBricks Registry. The terminators are naturally occurring sequences from the E.&#160;coli K12 genome that were previously characterized by Chen et&#160;al (2013) and selected to encompass a wide range of terminator strengths. The composite parts were checked for restriction sites (NotI and SbfI) and none were found. To generate the final library, all sequences were flanked by restriction enzyme sites (NotI and SbfI) and PCR primer binding sites: (i) ATATAGATGCCGTCCTAGCG and (ii) AAGTATCTTTCCTGTGCCCA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57364</offset>
+      <text>The oligonucleotide library was constructed by CustomArray, Inc., using their CMOS semiconductor technology. The library was delivered as a 1 fM oligonucleotide pool and amplified using specific PCR primers: oj1299 and oj1300 (Appendix&#160;Table&#160;S4). The PCR products were then digested with NotI (New England Biolabs R3189) and SbfI (New England Biolabs R3642) restriction enzymes and cleaned with DNA Clean &amp; Concentrator columns (Zymo Research C1003). Plasmid backbones encoding repressor protein&#8208;based NOT gates (PhlF, SrpR, TarA; maps in Appendix&#160;Fig S9) were amplified by PCR with primers to add NotI and SbfI restriction sites to the 3&#8242;&#8208;end of the repressor gene. Plasmid backbones were then digested with the same restriction enzymes and cleaned using DNA Clean &amp; Concentrator columns. After digestion, the library inserts and plasmid backbones were ligated using T4 DNA ligase (New&#160;England Biolabs M0208) and cloned into E.&#160;coli NEB10&#946;&#8208;electrocompetent cells (New England Biolabs C3020K), resulting in three libraries (PhlF, SrpR, and TarA) of ~160,000 clones each and &gt;&#160;20&#8208;fold coverage of the designed sequence space. Each library was scraped from solid media plates and frozen at &#8722;80&#176;C in 200&#160;&#956;l aliquots with 15% glycerol for subsequent analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58642</offset>
+      <text>Library growth and fluorescence&#8208;activated cell sorting (FACS)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58706</offset>
+      <text>To grow libraries for flow cytometry analysis or cell sorting, one aliquot of each library was thawed and 10&#160;&#956;l of the sample was added to 3&#160;ml of LB media supplemented with carbenicillin in 15&#8208;ml culture tubes (Fischer Scientific 352059). Once thawed, the remaining library aliquot was discarded to avoid cell death from repeated freeze&#8211;thaw cycles. The inoculated libraries were grown for 12&#160;h at 30&#176;C and 250&#160;rpm in a New Brunswick Scientific Innova 44. NEB10&#946; control strains containing unmodified NOT gate plasmids (Appendix&#160;Fig S9) were inoculated from single colonies into 3&#160;ml of LB supplemented with carbenicillin and also grown at 30&#176;C and 250&#160;rpm After 12&#160;h, both library and control strain cultures were diluted 1:200 into 25&#160;ml of M9 medium with carbenicillin in 250&#8208;ml Erlenmeyer flasks (Corning 4,450&#8211;250) and grown at 37&#176;C and 250&#160;rpm for 3&#160;h. Next, the cultures were diluted to 0.001 OD600 in 25&#160;ml of M9 medium with carbenicillin and either 0 or 100&#160;&#956;M IPTG. These cultures were grown for 6&#160;h to obtain exponential phase growth. At the end of 6&#160;h, cultures were diluted to OD600 ~0.05 into PBS containing 35&#160;&#956;g/ml chloramphenicol to arrest cell growth and protein production until sorting. Aliquots of each library were also frozen at &#8722;80&#176;C with 15% glycerol (VWR BDH1172) to serve as &#8220;unsorted&#8221; controls.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60068</offset>
+      <text>Cell sorting was done on a BD Biosciences FACSAria II with a blue (488&#8208;nm) laser. Each NOT gate library was sorted into four non&#8208;adjacent log&#8208;spaced bins based on YFP fluorescence. Control strains grown with 0 and 100&#160;&#956;M IPTG defined the upper and lower boundaries for bin placement, respectively. One million cells were sorted into the lowest fluorescence bin (Bin 1; Fig&#160;2C, blue), which captured 9.8&#8211;13.9% of each library; 50,000&#8211;200,000 cells were sorted into all other bins, which captured 0.2&#8211;4.4% of the cells in each library. After sorting, cells were plated on solid media to minimize the effect of growth rate differences on library representation. Each bin was then scraped from the solid media plates and frozen at &#8722;80&#176;C in 200&#160;&#956;l aliquots with 15% glycerol (VWR BDH1172) for subsequent analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60897</offset>
+      <text>Sorted library sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60923</offset>
+      <text>Plasmids were isolated from cells in each bin using a miniprep kit (Qiagen 1018398) by thawing one aliquot of each frozen sorted bin and using the entire sample as input to the kit. For deep sequencing, 30&#160;ng of each miniprepped sample was amplified for thirty cycles of PCR with Phusion High&#8208;Fidelity Polymerase Master Mix (New England Biolabs M0531). This PCR step added barcodes to each sample using primers oj1302, 1334 &#8211; oj1348 (Appendix&#160;Table&#160;S4). Amplification of samples was verified with gel electrophoresis and quantified using a NanoDrop spectrophotometer (ND&#8208;1000). Unsorted control samples were identically processed and sequenced. 13.1&#160;M constructs were sequenced in a single MiSeq 150 paired&#8208;end lane with the sequencing primers oj1301, oj1303, and oj1356 (Appendix&#160;Table&#160;S4). To correct for the fact that fewer cells are sorted into the later bins (BIN2&#8208;4), the samples were mixed such that the &#8220;unsorted&#8221; and &#8220;BIN1&#8221; samples were present in equimolar ratios and made up 90% of the final sequenced mixture. The &#8220;BIN2&#8221;, &#8220;BIN3&#8221;, and &#8220;BIN4&#8221; samples, which were also mixed in equimolar ratios, constituted the last 10% of the final sequenced mixture. This resulted in 1.7&#8211;2.2&#160;million sequencing reads from the each of the &#8220;unsorted&#8221; and &#8220;BIN1&#8221; samples and 100,000&#8211;180,000 sequencing reads from each of the &#8220;BIN2&#8221;, &#8220;BIN3&#8221;, and &#8220;BIN4&#8221; samples (Appendix&#160;Table&#160;S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62359</offset>
+      <text>Deep sequencing analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62384</offset>
+      <text>Custom software (&#8220;IlluminaSeqAnalysis.m&#8221;, Code EV1) was written to combine paired&#8208;end reads and identify composite parts with perfect sequence identity to designed constructs. Each set of paired 150&#8208;bp reads was aligned and merged into a contig based on overlapping sequence. NotI and SbfI restriction enzyme sites were identified, and all sequences (including adapter and constant primer sequence) outside the restriction sites were trimmed from both ends of the contig. Reads that did not pair or did not have both restriction sites were discarded since all composite parts were under 200&#160;bp, and thus, paired reads should have overlapping sequence and yield contigs with both restriction sites. Of the 13.1&#160;M constructs sequenced, 11.2&#160;M (85.30%) yielded paired reads with overlapping sequence and both restriction sites. Once paired, all remaining contigs with mismatches (insertions, deletions, or substitutions) to designed constructs were discarded. Of the 11.2&#160;M contigs, 3.6&#160;M (32.28%) are perfect matches to the designed library. This is consistent with the error rate of chip&#8208;based oligo synthesis (Kosuri &amp; Church, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63533</offset>
+      <text>Analysis of the perfect sequences shows that 70.0&#8211;77.5% of the composite parts appear at least once in each of the unsorted libraries (Fig&#160;EV4, Appendix&#160;Table&#160;S1). When we select for library members that alter the NOT gate response functions, coverage of the library decreases to 50.2&#8211;74.8% in Bin 1, 38.5&#8211;50.0% in Bin 2, 25.0&#8211;26.1% in Bin 3, and 15.8&#8211;25.3% in Bin 4 (Fig&#160;EV4). This is expected since a limited subset of the constructs will be capable of shifting the gate thresholds. Indeed, &gt;&#160;50% of the composite parts encode promoters weaker than apFAB49, which generated less than a twofold change in RFP expression in our original experiments (Fig&#160;1D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>64208</offset>
+      <text>Composite part frequencies in each library by bin</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>64258</offset>
+      <text>Sequencing read counts for each composite part in the PhlF (top), SrpR (middle), and TarA (bottom) libraries. Only reads that are perfect matches to the designed sequences are shown. Promoter and terminator ordering is the same for all heatmaps. Promoters are ordered by strength from 1 (weakest) to 109 (strongest). Reference spreadsheet is available as Appendix&#160;Table&#160;S5.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64634</offset>
+      <text>Sorted&#8208;parts strength analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64667</offset>
+      <text>Custom software (&#8220;IlluminaPerfSeqAnalysis.m&#8221;, Code EV1) was written to analyze the perfect oligonucleotides, that is, sequences that are perfect matches to the designed library, sorted into each bin. Analysis relied on previously measured terminator (Chen et&#160;al, 2013) and promoter (Kosuri et&#160;al, 2013; Mutalik et&#160;al, 2013) strengths; therefore, all sequences with mutations were disregarded because they could change a part's activity and convolute the analysis. Occurrences of each promoter and terminator were counted per bin and used to calculate the median promoter, forward and reverse terminator strengths for each bin.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65301</offset>
+      <text>Enrichment calculation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65324</offset>
+      <text>To calculate enrichment for each composite part, we normalized the counts of each composite part in a bin to the total number of perfect sequences in that bin. We defined the frequency of a composite part f ijx in a bin aswhere c ij is the number of occurrences of composite part i in bin j for library x, where x&#160;=&#160;PhlF, SrpR, or TarA. Then, we defined enrichment E ijx as the ratio of the frequencies of a composite part i in a sorted bin j to the frequency of that composite part in the unsorted pool (f iux). </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65840</offset>
+      <text>If a composite part did not appear in the unsorted library at least once (f iux&#160;=&#160;0), c iux was set to one, indicating one count of the part in the unsorted library. This correction was used to ensure that none of the enrichments were infinite. Enrichment E ijx for each composite part was then averaged by bin across all three libraries. We defined the average enrichment  for a composite part aswhere N&#160;=&#160;3, the total number of libraries. To ensure that composite part behavior is consistent across all three libraries, any composite parts that did not appear in all three libraries for a given bin were assigned an enrichment of zero for that bin, that is, if E ijx&#160;=&#160;0 for any x, &#160;=&#160;0.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66538</offset>
+      <text>Next each composite part was assigned to the bin where its average enrichment was highest. Maximum average enrichment E max for each composite part i was calculated as </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66707</offset>
+      <text>Then, the composite part i is assigned to the bin j, where &#160;=&#160;E maxi. If the maximum enrichment is less than one, the composite part is depleted in the sorted library and is not assigned to a bin (Fig&#160;2F, gray). Depletion of a composite part in all of the sorted bins relative to the unsorted pool may be the result of biases in cell recovery after sorting or in amplification of the DNA for deep sequencing. The matrix of bin assignments was generated using custom software (&#8220;IlluminaEnrichmentGrid.m&#8221; Code EV1) and used to create Fig&#160;2F.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67255</offset>
+      <text>Measurement of growth curves</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67284</offset>
+      <text> Escherichia coli strains were grown for 16&#160;h in LB media containing antibiotics, when appropriate, in 96&#8208;deep well blocks (USA Scientific 1896&#8211;2000) at 37&#176;C and 250&#160;rpm in an INFORS&#8208;HT Multitron Pro. After 16&#160;h, the cultures were diluted 1:200 into M9 medium with antibiotics and grown for 3&#160;h with the same shaking and temperature settings as the overnight growth. Next, the cultures were diluted to OD600&#160;=&#160;0.001 into fresh M9 medium with antibiotics and 100&#160;&#956;M IPTG; 150&#160;&#956;l of these cultures was grown in black 96&#8208;well optical bottom plates (Thermo scientific 165305) at 37&#176;C and 1&#160;mm orbital shaking in a BioTek Synergy H1 plate reader. Optical density measurements at 600&#8208;nm wavelength (OD600) were made every 20&#160;min for 12&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68042</offset>
+      <text>Construction and testing of the transcriptional interference model</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68109</offset>
+      <text>Custom MATLAB software was written to solve the model ODEs (equations&#160;(3) and (4)) with mixed boundary conditions. Initial mesh for the MATLAB boundary solver bvp4c was formed using MATLAB function bvpinit with general solutions for the model ODEs derived in Wolfram Alpha's Mathematica:   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68401</offset>
+      <text>Integration constants were approximated using boundary conditions C F(x&#160;=&#160;0)&#160;=&#160;&#981;F/v and C R(x&#160;=&#160;N)&#160;=&#160;&#981;R/v. &#949; F and &#949; R were input directly into the model for &#949; F&#160;=&#160;&#949; R&#160;= 1 or parameter sweep experiments. Model results were reported as polymerase concentrations C F(x) and C R(x). Full&#8208;length transcript production is assumed to be proportional to C F|&#949; F&#160;=&#160;0, which should be a measure of polymerases fired from PF that successfully transcribe the entire stretch of DNA between promoters. Fold repression &#952; is calculated using equation&#160;(5), which compares C F in the absence of interference (C F|&#949; F&#160;=&#160;0) to C F with an interfering promoter (C F|&#949; F&#160;&gt;&#160;0). Model results for each forward/interfering promoter pair were scored by simple comparison to experimental data: where s is the score for a specific promoter pairing, &#952; TI_m and &#952; TI_p are measured and predicted repression, respectively, for that pair. The best &#949; F and &#949; R values were calculated for each forward/interfering promoter pair using a weighted average, where each &#949; was weighted by its score.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>69538</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69556</offset>
+      <text>Brophy, JAN, Voigt, CA (2015). Antisense library. NCBI Sequence Read Archive SRP065456.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69644</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69665</offset>
+      <text>CAV and JANB conceived of the study, designed the experiments, and wrote the manuscript. JANB performed the experiments and analyzed the data.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69808</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69829</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69889</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>69912</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5969</infon>
+      <infon key="pub-id_pmid">18812398</infon>
+      <infon key="fpage">5955</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>69923</offset>
+      <text>S&#8208;box and T&#8208;box riboswitches and antisense RNA control a sulfur metabolic operon of Clostridium acetobutylicum </text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">20505759</infon>
+      <infon key="fpage">e10725</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70039</offset>
+      <text>Cartography of methicillin&#8208;resistant S.&#160;aureus transcripts: detection, orientation and temporal expression during growth phase and stress conditions</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">2747</infon>
+      <infon key="pub-id_pmid">11976303</infon>
+      <infon key="fpage">2740</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>70191</offset>
+      <text>An antisense RNA&#8208;mediated transcriptional attenuation mechanism functions in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">109</infon>
+      <infon key="pub-id_pmid">17387036</infon>
+      <infon key="fpage">102</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>70288</offset>
+      <text>Regulatory mechanisms employed by cis&#8208;encoded antisense RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">133</infon>
+      <infon key="pub-id_pmid">17395525</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>70351</offset>
+      <text>Hfq structure, function and ligand binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">520</infon>
+      <infon key="pub-id_pmid">24781324</infon>
+      <infon key="fpage">508</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>70394</offset>
+      <text>Principles of genetic circuit design</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19455136</infon>
+      <infon key="fpage">272</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70431</offset>
+      <text>Protein sequestration generates a flexible ultrasensitive response in a genetic network</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">656</infon>
+      <infon key="pub-id_pmid">15175159</infon>
+      <infon key="fpage">647</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>70519</offset>
+      <text>Transcriptional interference between convergent promoters caused by elongation over the promoter</text>
+    </passage>
+    <passage>
+      <infon key="volume">334</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1719</infon>
+      <infon key="pub-id_pmid">22194579</infon>
+      <infon key="fpage">1716</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>70616</offset>
+      <text>Model&#8208;driven engineering of RNA devices to quantitatively program gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="lpage">580</infon>
+      <infon key="pub-id_pmid">18636526</infon>
+      <infon key="fpage">577</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>70700</offset>
+      <text>Engineering mRNA stability in Escherichia coli by the addition of synthetic hairpins using a 5&#8242; cassette system</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21765930</infon>
+      <infon key="fpage">e21974</infon>
+      <infon key="year">2011a</infon>
+      <infon key="type">ref</infon>
+      <offset>70814</offset>
+      <text>Convergent transcription in the butyrolactone regulon in Streptomyces coelicolor confers a bistable genetic switch for antibiotic biosynthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">9726</infon>
+      <infon key="pub-id_pmid">21606359</infon>
+      <infon key="fpage">9721</infon>
+      <infon key="year">2011b</infon>
+      <infon key="type">ref</infon>
+      <offset>70957</offset>
+      <text>Convergent transcription confers a bistable switch in Enterococcus faecalis conjugation</text>
+    </passage>
+    <passage>
+      <infon key="name_0">surname:Ma;given-names:J</infon>
+      <infon key="lpage">480</infon>
+      <infon key="source">Gene Expression and Regulation</infon>
+      <infon key="fpage">469</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71045</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23089683</infon>
+      <infon key="fpage">620</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71046</offset>
+      <text>Sequestration&#8208;based bistability enables tuning of the switching boundaries and design of a latch</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">664</infon>
+      <infon key="pub-id_pmid">23727987</infon>
+      <infon key="fpage">659</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71145</offset>
+      <text>Characterization of 582 natural and synthetic terminators and quantification of their design constraints</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">18004278</infon>
+      <infon key="fpage">145</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>71250</offset>
+      <text>Programming gene expression with combinatorial promoters</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5425</infon>
+      <infon key="pub-id_pmid">17012275</infon>
+      <infon key="fpage">5416</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71307</offset>
+      <text>Collision events between RNA polymerases in convergent transcription studied by atomic force microscopy</text>
+    </passage>
+    <passage>
+      <infon key="volume">186</infon>
+      <infon key="lpage">183</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="fpage">182</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>71411</offset>
+      <text>Molecular cloning: A laboratory manual: 2nd ed. Edited by J. Sambrook, E. F. Fritsch, and T. Maniatis. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY, 1989 (in 3 volumes)</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">mBio</infon>
+      <infon key="lpage">10</infon>
+      <infon key="pub-id_pmid">20689751</infon>
+      <infon key="fpage">e00024</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71595</offset>
+      <text>Widespread antisense transcription in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Trends Genet</infon>
+      <infon key="lpage">270</infon>
+      <infon key="pub-id_pmid">8763498</infon>
+      <infon key="fpage">263</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>71651</offset>
+      <text>The yeast genome project: what did we learn?</text>
+    </passage>
+    <passage>
+      <infon key="volume">191</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">1105</infon>
+      <infon key="pub-id_pmid">19047346</infon>
+      <infon key="fpage">1101</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>71696</offset>
+      <text>Extracytoplasmic function &#963; factors regulate expression of the Bacillus subtilis yabE gene via a cis&#8208;acting antisense RNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">300</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">805</infon>
+      <infon key="pub-id_pmid">12730602</infon>
+      <infon key="fpage">801</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>71822</offset>
+      <text>Cooperation between RNA polymerase molecules in transcription elongation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4727</infon>
+      <infon key="pub-id_pmid">12970184</infon>
+      <infon key="fpage">4719</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>71895</offset>
+      <text>Transcription through the roadblocks: the role of RNA polymerase cooperation</text>
+    </passage>
+    <passage>
+      <infon key="volume">192</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">2372</infon>
+      <infon key="pub-id_pmid">20190049</infon>
+      <infon key="fpage">2359</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71972</offset>
+      <text>Transcriptome analysis of Pseudomonas syringae identifies new genes, noncoding RNAs, and antisense activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Microbiol Mol Biol Rev</infon>
+      <infon key="lpage">589</infon>
+      <infon key="pub-id_pmid">19052321</infon>
+      <infon key="fpage">579</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>72080</offset>
+      <text>Small toxic proteins and the antisense RNAs that repress them</text>
+    </passage>
+    <passage>
+      <infon key="volume">258</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1365</infon>
+      <infon key="pub-id_pmid">1455232</infon>
+      <infon key="fpage">1362</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>72142</offset>
+      <text>Consequences of replication fork movement through transcription units in&#160;vivo </text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19756044</infon>
+      <infon key="fpage">305</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72222</offset>
+      <text>Evidence for a major role of antisense RNAs in cyanobacterial gene regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Microbiol Mol Biol Rev</infon>
+      <infon key="lpage">300</infon>
+      <infon key="pub-id_pmid">21646430</infon>
+      <infon key="fpage">286</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72300</offset>
+      <text>cis&#8208;antisense RNA, another level of gene regulation in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">3375</infon>
+      <infon key="pub-id_pmid">20129941</infon>
+      <infon key="fpage">3362</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>72366</offset>
+      <text>A novel antisense RNA regulates at transcriptional level the virulence gene icsA of Shigella flexneri </text>
+    </passage>
+    <passage>
+      <infon key="volume">342</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">479</infon>
+      <infon key="pub-id_pmid">24072823</infon>
+      <infon key="fpage">475</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72469</offset>
+      <text>Causes and effects of N&#8208;terminal codon bias in bacterial genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Transcription</infon>
+      <infon key="lpage">157</infon>
+      <infon key="pub-id_pmid">23756343</infon>
+      <infon key="fpage">153</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72534</offset>
+      <text>R&#8208;loops in bacterial transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">326</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1271</infon>
+      <infon key="pub-id_pmid">19965477</infon>
+      <infon key="fpage">1268</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72571</offset>
+      <text>Transcriptome complexity in a genome&#8208;reduced bacterium</text>
+    </passage>
+    <passage>
+      <infon key="volume">322</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1857</infon>
+      <infon key="pub-id_pmid">19056939</infon>
+      <infon key="fpage">1855</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>72628</offset>
+      <text>The antisense transcriptomes of human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">418</infon>
+      <infon key="pub-id_pmid">23552296</infon>
+      <infon key="fpage">412</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72672</offset>
+      <text>Transcription&#8208;replication encounters, consequences and genomic instability</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12146</infon>
+      <infon key="pub-id_pmid">22778415</infon>
+      <infon key="fpage">12141</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72749</offset>
+      <text>Antisense RNA that affects Rhodopseudomonas palustris quorum&#8208;sensing signal receptor expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">374</infon>
+      <infon key="pub-id_pmid">23041286</infon>
+      <infon key="fpage">365</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72847</offset>
+      <text>RNA polymerase II collision interrupts convergent transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">745</infon>
+      <infon key="pub-id_pmid">17110333</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>72911</offset>
+      <text>Antisense transcription controls cell fate in Saccharomyces cerevisiae </text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">R716</infon>
+      <infon key="pub-id_pmid">13678611</infon>
+      <infon key="fpage">R714</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72983</offset>
+      <text>Rho factor: transcription termination in four steps</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">6276</infon>
+      <infon key="pub-id_pmid">16260475</infon>
+      <infon key="fpage">6268</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>73035</offset>
+      <text>Detection of low&#8208;level promoter activity within open reading frame sequences of Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">754</infon>
+      <infon key="pub-id_pmid">17462020</infon>
+      <infon key="fpage">738</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73135</offset>
+      <text>An antisense RNA controls synthesis of an SOS&#8208;induced toxin evolved from an antitoxin</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">14029</infon>
+      <infon key="pub-id_pmid">23924614</infon>
+      <infon key="fpage">14024</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>73223</offset>
+      <text>Composability of regulatory sequences controlling transcription and translation in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">507</infon>
+      <infon key="pub-id_pmid">24781323</infon>
+      <infon key="fpage">499</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73324</offset>
+      <text>Large&#8208;scale de novo DNA synthesis: technologies and applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">20177</infon>
+      <infon key="pub-id_pmid">22123973</infon>
+      <infon key="fpage">20172</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73391</offset>
+      <text>Genome&#8208;wide antisense transcription drives mRNA processing in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1033</infon>
+      <infon key="pub-id_pmid">20398218</infon>
+      <infon key="fpage">1020</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73464</offset>
+      <text>An antisense RNA that governs the expression kinetics of a multifunctional virulence gene</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">22453733</infon>
+      <infon key="fpage">576</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73554</offset>
+      <text>A regulatory role for repeated decoy transcription factor binding sites in target gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">292</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">37</infon>
+      <infon key="pub-id_pmid">10493854</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>73652</offset>
+      <text>Activities of constitutive promoters in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">189</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">6935</infon>
+      <infon key="pub-id_pmid">17616602</infon>
+      <infon key="fpage">6928</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73710</offset>
+      <text>Negative regulation of the EcoRI restriction enzyme gene is associated with intragenic reverse promoters</text>
+    </passage>
+    <passage>
+      <infon key="volume">466</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">81</infon>
+      <infon key="pub-id_pmid">20562858</infon>
+      <infon key="fpage">77</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73815</offset>
+      <text>Spatial organization of the flow of genetic information in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1142</infon>
+      <infon key="pub-id_pmid">23034349</infon>
+      <infon key="fpage">1137</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73883</offset>
+      <text>Ribozyme&#8208;based insulator parts buffer synthetic circuits from genetic context</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8622</infon>
+      <infon key="pub-id_pmid">21555549</infon>
+      <infon key="fpage">8617</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73963</offset>
+      <text>Versatile RNA&#8208;sensing transcriptional regulators for engineering genetic networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">391</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">812</infon>
+      <infon key="pub-id_pmid">19576223</infon>
+      <infon key="fpage">808</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>74047</offset>
+      <text>In a head&#8208;on collision, two RNA polymerases approaching one another on the same DNA may pass by one another</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">733</infon>
+      <infon key="pub-id_pmid">24007341</infon>
+      <infon key="fpage">716</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74157</offset>
+      <text>Evidence for phenotypic bistability resulting from transcriptional interference of bvgAS in Bordetella bronchiseptica </text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">2726</infon>
+      <infon key="pub-id_pmid">20211838</infon>
+      <infon key="fpage">2712</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>74276</offset>
+      <text>Tuning and controlling gene expression noise in synthetic gene networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">454</infon>
+      <infon key="pub-id_pmid">22446835</infon>
+      <infon key="fpage">447</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74348</offset>
+      <text>Rationally designed families of orthogonal RNA regulators of translation</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">360</infon>
+      <infon key="pub-id_pmid">23474465</infon>
+      <infon key="fpage">354</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74421</offset>
+      <text>Precise and reliable gene expression via standard transcription and translation initiation elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">174</infon>
+      <infon key="pub-id_pmid">23334451</infon>
+      <infon key="fpage">170</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74521</offset>
+      <text>Metabolic engineering of Escherichia coli using synthetic small regulatory RNAs</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23385595</infon>
+      <infon key="fpage">1451</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74601</offset>
+      <text>Transferring a synthetic gene circuit from yeast to mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">335</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1106</infon>
+      <infon key="pub-id_pmid">22383849</infon>
+      <infon key="fpage">1103</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74669</offset>
+      <text>Condition&#8208;dependent transcriptome reveals high&#8208;level regulatory architecture in Bacillus subtilis </text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Curr Opin Chem Biol</infon>
+      <infon key="lpage">892</infon>
+      <infon key="pub-id_pmid">24268307</infon>
+      <infon key="fpage">878</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74772</offset>
+      <text>Advances in genetic circuit design: novel biochemistries, deep part mining, and precision gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1445</infon>
+      <infon key="pub-id_pmid">22726433</infon>
+      <infon key="fpage">1438</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74878</offset>
+      <text>RNA polymerase backtracking in gene regulation and genome instability</text>
+    </passage>
+    <passage>
+      <infon key="volume">169</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">4462</infon>
+      <infon key="pub-id_pmid">2443481</infon>
+      <infon key="fpage">4457</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>74948</offset>
+      <text>Highly repressible expression system for cloning genes that specify potentially toxic proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">555</infon>
+      <infon key="pub-id_pmid">19524535</infon>
+      <infon key="fpage">545</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>75043</offset>
+      <text>Potent transcriptional interference by pausing of RNA polymerases over a downstream promoter</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2633</infon>
+      <infon key="pub-id_pmid">23207917</infon>
+      <infon key="fpage">2621</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75136</offset>
+      <text>Rho and NusG suppress pervasive antisense transcription in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">819</infon>
+      <infon key="pub-id_pmid">15930492</infon>
+      <infon key="fpage">809</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>75213</offset>
+      <text>Operon formation is driven by co&#8208;regulation and not by horizontal gene transfer</text>
+    </passage>
+    <passage>
+      <infon key="volume">328</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">508</infon>
+      <infon key="pub-id_pmid">20413502</infon>
+      <infon key="fpage">504</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>75295</offset>
+      <text>Cooperation between translating ribosomes and RNA polymerase in transcription elongation</text>
+    </passage>
+    <passage>
+      <infon key="volume">56</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">523</infon>
+      <infon key="pub-id_pmid">2645054</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>75384</offset>
+      <text>DNA supercoiling and prokaryotic transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">mBio</infon>
+      <infon key="lpage">12</infon>
+      <infon key="pub-id_pmid">22872780</infon>
+      <infon key="fpage">e00156</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75431</offset>
+      <text>Antisense transcription is pervasive but rarely conserved in enteric bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">750</infon>
+      <infon key="pub-id_pmid">22634752</infon>
+      <infon key="fpage">743</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75509</offset>
+      <text>Manipulating nucleosome disfavoring sequences allows fine&#8208;tune regulation of gene expression in yeast</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">24169405</infon>
+      <infon key="fpage">702</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>75613</offset>
+      <text>Design of orthogonal genetic switches based on a crosstalk map of &#963;s, anti&#8208;&#963;s, and promoters</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">125</infon>
+      <infon key="pub-id_pmid">15063847</infon>
+      <infon key="fpage">120</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>75714</offset>
+      <text>Mfd, the bacterial transcription repair coupling factor: translocation, repair and termination</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Curr Protein Pept Sci</infon>
+      <infon key="lpage">56</infon>
+      <infon key="pub-id_pmid">16472168</infon>
+      <infon key="fpage">47</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>75809</offset>
+      <text>Expression of highly toxic genes in Escherichia coli: special strategies and genetic tools</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">950</infon>
+      <infon key="pub-id_pmid">19801975</infon>
+      <infon key="fpage">946</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>75900</offset>
+      <text>Automated design of synthetic ribosome binding sites to control protein expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1268</infon>
+      <infon key="pub-id_pmid">11101804</infon>
+      <infon key="fpage">1262</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>75983</offset>
+      <text>RNA expression analysis using a 30 base pair resolution Escherichia coli genome array</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">82</infon>
+      <infon key="pub-id_pmid">23268228</infon>
+      <infon key="fpage">75</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>76069</offset>
+      <text>The excludon: a new concept in bacterial antisense RNA&#8208;mediated gene regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">464</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">255</infon>
+      <infon key="pub-id_pmid">20164839</infon>
+      <infon key="fpage">250</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>76151</offset>
+      <text>The primary transcriptome of the major human pathogen Helicobacter pylori </text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">530</infon>
+      <infon key="pub-id_pmid">22609971</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>76226</offset>
+      <text>Inferring gene regulatory logic from high&#8208;throughput measurements of thousands of systematically designed promoters</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Trends Genet TIG</infon>
+      <infon key="lpage">345</infon>
+      <infon key="pub-id_pmid">15922833</infon>
+      <infon key="fpage">339</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>76344</offset>
+      <text>Transcriptional interference &#8211; a crash course</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">219</infon>
+      <infon key="pub-id_pmid">24449106</infon>
+      <infon key="fpage">214</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>76392</offset>
+      <text>Widespread suppression of intragenic transcription initiation by H&#8208;NS</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">ACS Synth Biol</infon>
+      <infon key="lpage">528</infon>
+      <infon key="pub-id_pmid">24004180</infon>
+      <infon key="fpage">519</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>76464</offset>
+      <text>Visualization of evolutionary stability dynamics and competitive fitness of Escherichia coli engineered with randomized multigene circuits</text>
+    </passage>
+    <passage>
+      <infon key="volume">346</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">409</infon>
+      <infon key="pub-id_pmid">15670592</infon>
+      <infon key="fpage">399</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>76603</offset>
+      <text>A mathematical model for transcriptional interference by RNA polymerase traffic in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">105</infon>
+      <infon key="pub-id_pmid">24316737</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>76704</offset>
+      <text>Genomic mining of prokaryotic repressors for orthogonal logic gates</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">4899</infon>
+      <infon key="pub-id_pmid">21325266</infon>
+      <infon key="fpage">4890</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>76772</offset>
+      <text>Antisense RNA protects mRNA from RNase E degradation by RNA&#8211;RNA duplex formation during phage infection</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">ACS Synth Biol</infon>
+      <infon key="lpage">115</infon>
+      <infon key="pub-id_pmid">25314371</infon>
+      <infon key="fpage">107</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>76878</offset>
+      <text>Designing RNA&#8208;based genetic control systems for efficient production from engineered metabolic pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">188</infon>
+      <infon key="pub-id_pmid">20707673</infon>
+      <infon key="fpage">167</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>76984</offset>
+      <text>Bacterial antisense RNAs: how many are there and what are they doing?</text>
+    </passage>
+    <passage>
+      <infon key="volume">197</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">28</infon>
+      <infon key="pub-id_pmid">25266388</infon>
+      <infon key="fpage">18</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>77054</offset>
+      <text>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">432</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1054</infon>
+      <infon key="pub-id_pmid">15616567</infon>
+      <infon key="fpage">1050</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>77180</offset>
+      <text>Accurate multiplex gene synthesis from programmable DNA microchips</text>
+    </passage>
+    <passage>
+      <infon key="volume">05</infon>
+      <infon key="source">J Bioinform Comput Biol</infon>
+      <infon key="lpage">560</infon>
+      <infon key="pub-id_pmid">17636861</infon>
+      <infon key="fpage">549</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>77247</offset>
+      <text>Intragenic promotor&#8208;like sites in the genome of Escherichia coli discovery and functional implication</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="lpage">447</infon>
+      <infon key="source">Mol Biol</infon>
+      <infon key="fpage">439</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>77351</offset>
+      <text>Antisense transcription within the hns locus of Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">504</infon>
+      <infon key="pub-id_pmid">8559068</infon>
+      <infon key="fpage">493</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>77417</offset>
+      <text>Transcription&#8208;induced deletions in Escherichia coli plasmids</text>
+    </passage>
+    <passage>
+      <infon key="volume">176</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">2813</infon>
+      <infon key="pub-id_pmid">7514589</infon>
+      <infon key="fpage">2807</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>77480</offset>
+      <text>The RNA chain elongation rate in Escherichia coli depends on the growth rate</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">653</infon>
+      <infon key="pub-id_pmid">25069631</infon>
+      <infon key="fpage">647</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>77557</offset>
+      <text>Pervasive transcription: illuminating the dark matter of bacterial transcriptomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">265</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">21895</infon>
+      <infon key="pub-id_pmid">2254338</infon>
+      <infon key="fpage">21889</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>77639</offset>
+      <text>The chemical synthesis of a gene coding for bovine pancreatic DNase I and its cloning and expression in Escherichia coli </text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">141</infon>
+      <infon key="pub-id_pmid">19884261</infon>
+      <infon key="fpage">133</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>77761</offset>
+      <text>A single&#8208;base resolution map of an archaeal transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">386</infon>
+      <infon key="pub-id_pmid">12640466</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>77821</offset>
+      <text>Widespread occurrence of antisense transcription in the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">16591</infon>
+      <infon key="pub-id_pmid">12451174</infon>
+      <infon key="fpage">16587</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>77890</offset>
+      <text>Directed evolution of a genetic circuit</text>
+    </passage>
+  </document>
+</collection>

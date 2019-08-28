@@ -1,0 +1,1546 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5282837</id>
+    <passage>
+      <infon key="name_2">surname:Hambardjieva;given-names:Elena</infon>
+      <infon key="name_3">surname:Derkunt;given-names:Burak</infon>
+      <infon key="name_0">surname:Burak;given-names:Matthew J</infon>
+      <infon key="name_1">surname:Guja;given-names:Kip E</infon>
+      <infon key="alt-title">Matthew J Burak et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694332</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201694332</infon>
+      <infon key="article-id_pmid">27481934</infon>
+      <infon key="lpage">2059 2059</infon>
+      <infon key="pub-id_pmid">27481934</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2045 2045</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Garcia&#8208;Diaz;given-names:Miguel</infon>
+      <infon key="issue">18</infon>
+      <infon key="kwd">DNA repair 8&#8208;oxo&#8208;deoxyguanosine MUTYH polymerase lambda DNA Replication, Repair &amp; Recombination Structural Biology</infon>
+      <offset>0</offset>
+      <text>A fidelity mechanism in DNA polymerase lambda promotes error&#8208;free bypass of 8&#8208;oxo&#8208;dG</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>91</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>100</offset>
+      <text>8&#8208;oxo&#8208;7,8&#8208;dihydroxy&#8208;2&#8242;&#8208;deoxyguanosine (8&#8208;oxo&#8208;dG) has high mutagenic potential as it is prone to mispair with deoxyadenine (dA). In order to maintain genomic integrity, post&#8208;replicative 8&#8208;oxo&#8208;dG:dA mispairs are removed through DNA polymerase lambda (Pol &#955;)&#8208;dependent MUTYH&#8208;initiated base excision repair (BER). Here, we describe seven novel crystal structures and kinetic data that fully characterize 8&#8208;oxo&#8208;dG bypass by Pol &#955;. We demonstrate that Pol &#955; has a flexible active site that can tolerate 8&#8208;oxo&#8208;dG in either the anti&#8208; or syn&#8208;conformation. Importantly, we show that discrimination against the pro&#8208;mutagenic syn&#8208;conformation occurs at the extension step and identify the residue responsible for this selectivity. This residue acts as a kinetic switch, shunting repair toward long&#8208;patch BER upon correct dCMP incorporation, thus enhancing repair efficiency. Moreover, this switch also provides a potential mechanism to increase repair fidelity of MUTYH&#8208;initiated BER.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1122</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1135</offset>
+      <text>DNA is susceptible to damage by reactive oxygen species (ROS) such as hydroxyl radicals. In particular, hydroxyl radical addition to the C8 position of guanine leads to the formation of 8&#8208;oxo&#8208;7,8&#8208;dihydroxy&#8208;2&#8242;&#8208;deoxyguanosine (8&#8208;oxo&#8208;dG). 8&#8208;oxo&#8208;dG is one of the most prevalent types of oxidative DNA damage (Beckman &amp; Ames, 1997; Helbock et&#160;al, 1998). The damaged base is capable of adopting either an anti&#8208; or syn&#8208;conformation and thus can base pair with either deoxycytosine (dC) or deoxyadenosine (dA), respectively (Kouchakdjian et&#160;al, 1991; Oda et&#160;al, 1991; Mcauleyhecht et&#160;al, 1994; Lipscomb et&#160;al, 1995). As a consequence of this dual coding potential, dAMP is misincorporated opposite 8&#8208;oxo&#8208;dG by several DNA polymerases (Shibutani et&#160;al, 1991; Zhang et&#160;al, 2000; Einolf &amp; Guengerich, 2001; Haracska et&#160;al, 2002, 2003). Accordingly, failure to remove the DNA lesion prior to replication leads to the accumulation of guanine to thymine (G&#8211;T) transversions (Klungland et&#160;al, 1999; Hirano et&#160;al, 2003; Russo et&#160;al, 2004). The deleterious nature of 8&#8208;oxo&#8208;dG is further demonstrated by the concerted cellular defense mechanisms employed in all cells to reduce this particular mutagenic burden (Boiteux et&#160;al, 1987; van der Kemp et&#160;al, 1996).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2424</offset>
+      <text>The base excision repair (BER) pathway is the main mechanism for purging the genome of oxidative lesions such as 8&#8208;oxo&#8208;dG (Michaels &amp; Miller, 1992). Two DNA glycosylases initiate repair of 8&#8208;oxo&#8208;dG lesions. In humans, OGG1 excises 8&#8208;oxo&#8208;dG adducts from double&#8208;stranded DNA, but fails to remove the lesion when mispaired to dA (Aburatani et&#160;al, 1997; Arai et&#160;al, 1997; Bjoras et&#160;al, 1997), as direct removal and subsequent repair would also result in a G&#8211;T transversion mutation. Instead, another glycosylase, MUTYH, specifically recognizes the 8&#8208;oxo&#8208;dG:dA mispair and excises the misincorporated dA (Slupska et&#160;al, 1996). The MUTYH&#8208;initiated BER pathway ultimately results in the formation of a single nucleotide gap that is subsequently filled by a specialized DNA polymerase. While DNA polymerase beta (Pol &#946;) is involved in OGG1&#8208;initiated BER (Dianov et&#160;al, 1998; Fortini et&#160;al, 1999), DNA polymerase lambda (Pol &#955;) has been implicated in the MUTYH&#8208;dependent BER (Braithwaite et&#160;al, 2005; Maga et&#160;al, 2007, 2008; Tano et&#160;al, 2007; Vermeulen et&#160;al, 2007; van Loon &amp; Hubscher, 2009; Markkanen et&#160;al, 2012; Pande et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3591</offset>
+      <text>The success of the repair in&#160;vivo is contingent on the incorporation of dCMP opposite 8&#8208;oxo&#8208;dG. In agreement with this notion, Pol &#955; is capable of mediating error&#8208;free bypass of 8&#8208;oxo&#8208;dG (Brown et&#160;al, 2007; Picher &amp; Blanco, 2007). Interestingly, MUTYH&#8208;initiated repair appears to preferentially proceed through the alternative long&#8208;patch BER pathway (van Loon &amp; Hubscher, 2009). Long&#8208;patch results in the additional incorporation of several nucleotides and thus relies on the ability of a polymerase to extend from the original lesion (Frosina et&#160;al, 1996). Accordingly, Pol &#955; extends past an 8&#8208;oxo&#8208;dG:dC base pair with a higher propensity than an undamaged base pair. Moreover, Pol &#955; is also capable of discriminating against extension of an 8&#8208;oxo&#8208;dG:dA mispair at the primer terminus (Picher &amp; Blanco, 2007). Together, these properties make Pol &#955; well suited to facilitating the error&#8208;free bypass of 8&#8208;oxo&#8208;dG during MUTYH&#8208;mediated BER. However, the mechanistic basis for these unique properties has not yet been elucidated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4656</offset>
+      <text>Here, we describe seven novel crystal structures that fully characterize the 8&#8208;oxo&#8208;dG bypass reaction in Pol &#955;. Each structure corresponds to one of the three key steps during long&#8208;patch bypass&#8212;initial binding of the DNA (DNA binding), binding of the dNTP (insertion), and polymerization past the lesion site (extension). Curiously, our structures revealed that Pol &#955; is incapable of discriminating against the pro&#8208;mutagenic syn&#8208;conformation of 8&#8208;oxo&#8208;dG during initial DNA binding. We have also demonstrated that the high efficiency of incorporation is attributable to the uniquely malleable active site of Pol &#955;. During insertion, Pol &#955; can bind 8&#8208;oxo&#8208;dG in either the anti&#8208; or syn&#8208;conformation with minimal structural distortion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5416</offset>
+      <text>Importantly, we provide structural and kinetic evidence demonstrating that discrimination against the pro&#8208;mutagenic syn&#8208;conformation occurs during the extension step. This bias depends on a conserved active site residue in the thumb subdomain that enhances nucleotide selectivity and fidelity during 8&#8208;oxo&#8208;dG bypass. Taken together, our results reveal that Pol &#955; promotes long&#8208;patch BER in order to facilitate the error&#8208;free bypass of 8&#8208;oxo&#8208;dG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5878</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5886</offset>
+      <text>In order to elucidate the mechanism of 8&#8208;oxo&#8208;dG bypass by Pol &#955;, we structurally characterized several key steps in the context of long&#8208;patch BER&#8212;initial binding of 8&#8208;oxo&#8208;dG&#8208;containing DNA (DNA binding), subsequent binding of the incoming dNTP (insertion) and polymerization past the lesion site (extension). Each of these steps can function as a fidelity checkpoint and present an opportunity for the polymerase to discriminate against dAMP misincorporation opposite 8&#8208;oxo&#8208;dG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6383</offset>
+      <text>Pol &#955; accommodates 8&#8208;oxo&#8208;dG in the syn&#8208;conformation during DNA binding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6461</offset>
+      <text>Solution structures demonstrate that an 8&#8208;oxo&#8208;dG:dA mispair is more stable than an 8&#8208;oxo&#8208;dG:dC pair (Kouchakdjian et&#160;al, 1991; Oda et&#160;al, 1991). Despite this underlying bias, in&#160;vitro studies with various polymerases indicate that other factors likely influence polymerization fidelity (Miller et&#160;al, 2000; Brown et&#160;al, 2007). Accordingly, the propensity for either dCMP or dAMP synthesis may be determined by the anti/syn&#8208;conformational equilibrium of 8&#8208;oxo&#8208;dG in the polymerase active site. We hypothesized that Pol &#955; may promote dCMP incorporation by preferentially stabilizing the anti&#8208;conformation of 8&#8208;oxo&#8208;dG upon initial binding. Therefore, we decided to crystallize Pol &#955; in complex with a gapped oligonucleotide containing 8&#8208;oxo&#8208;dG in the templating position (Fig&#160;1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7271</offset>
+      <text>Pol &#955; exclusively stabilizes 8&#8208;oxo&#8208;dG in the syn&#8208;conformation upon initial binding</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7361</offset>
+      <text>Substrate used for crystallization of the DNA binding complex. The oligo contains a templating 8&#8208;oxo&#8208;dG shown in green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7485</offset>
+      <text>The 39&#8208;kDa catalytic domain (8&#8208;kDa subdomain not shown for clarity) is colored by subdomain: fingers (salmon), palm (yellow), and thumb (purple). The polymerase is in complex with a 1&#8208;nt gapped 16&#8208;mer oligo (gray) containing a templating 8&#8208;oxo&#8208;dG (green). Key residues involved in stabilizing the templating base (Y505 and R517) are shown in black.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7846</offset>
+      <text>Left panel: 8&#8208;oxo&#8208;dG (green) preferentially adopts the pro&#8208;mutagenic syn&#8208;conformation. A simulated annealing Fo&#8208;Fc omit electron density map is shown for 8&#8208;oxo&#8208;dG (contoured at 3&#963;). Right panel: 8&#8208;oxo&#8208;dG(anti) (black, modeled using 2PFO) was overlayed with the Fo&#8208;Fc omit electron density map. In the anti&#8208;conformation, the C8&#8208;carbonyl would directly clash with the 5&#8242;&#8208;phosphate (red&#8208;dotted line).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8275</offset>
+      <text>8&#8208;oxo&#8208;dG(syn) (green) is stabilized by multiple interactions, including Tyr505 and Arg517 (gray surfaces).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8386</offset>
+      <text>We obtained crystals that diffracted to a resolution of 2.08&#160;&#197; and contained four molecules of Pol &#955; in complex with DNA per asymmetric unit (Table&#160;EV1, PDB: 5IIO). This structure represents the initial DNA binding step (Fig&#160;1B). Overall, this structure is very similar to that of the enzyme in a reference structure with unmodified gapped DNA (PDB: 1XSL, RMSD of 0.380&#160;&#197; over 320 C&#945; atoms) (Garcia&#8208;Diaz et&#160;al, 2005).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8815</offset>
+      <text>Surprisingly, our structure reveals that Pol &#955; accommodates 8&#8208;oxo&#8208;dG exclusively in the syn&#8208;conformation (Fig&#160;1C, left panel). In the anti&#8208;conformation, the C8&#8208;carbonyl would clash with the 5&#8242;&#8208;phosphate (Fig&#160;1C, right panel, red&#8208;dotted line) in the absence of a substantial rearrangement of the DNA backbone. Such a rearrangement is likely prohibited as 8&#8208;oxo&#8208;dG(syn) is stabilized by an intramolecular hydrogen bond between its N2&#8208;amino group and a non&#8208;bridging oxygen on its 5&#8242;&#8208;phosphate (3.2&#160;&#197;) (Fig&#160;1D). Additionally, the oxidized base also forms multiple interactions with Tyr505 and Arg517. Consistent with what is observed in the structure with unmodified gapped DNA (PDB: 1XSL), our structure shows that Tyr505 obstructs the position of the incoming dNTP and forms a hydrogen bond with the C6&#8208;carbonyl of 8&#8208;oxo&#8208;dG (2.8&#160;&#197;) (Fig&#160;1D). Conversely, Arg517 provides a van der Waals stacking interaction with the templating base. Importantly, this residue also forms a hydrogen&#8208;bonding interaction with another non&#8208;bridging oxygen on the phosphate backbone of 8&#8208;oxo&#8208;dG (2.9&#160;&#197;) (Fig&#160;1D). Together, these interactions likely stabilize 8&#8208;oxo&#8208;dG in the syn&#8208;conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10043</offset>
+      <text>Pol &#955; indiscriminately accommodates 8&#8208;oxo&#8208;dG during catalysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10110</offset>
+      <text>Despite the bias in favor of 8&#8208;oxo&#8208;dG(syn) upon initial binding, Pol &#955; is capable of incorporating dCMP opposite 8&#8208;oxo&#8208;dG with an efficiency similar to that of an undamaged base (Brown et&#160;al, 2007; Picher &amp; Blanco, 2007). In order to identify the structural features that promote error&#8208;free incorporation, we crystallized Pol &#955; in a complex with an 8&#8208;oxo&#8208;dG:ddCTP base pair in the active site (Fig&#160;2A). Our crystallization attempts yielded crystals of a precatalytic insertion complex that diffracted to a resolution of 1.72&#160;&#197; (Table&#160;EV1, PDB: 5IIJ). This structure depicts a polymerase poised for catalysis after undergoing a dNTP&#8208;induced conformational change (Fig&#160;2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10806</offset>
+      <text>Pol &#955; accommodates 8&#8208;oxo&#8208;dG in the anti&#8208;conformation during ddCTP binding</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10887</offset>
+      <text>Substrates used for crystallization of the 8&#8208;oxo&#8208;dG:dATP insertion complex. The primer terminal base (ddC) is shown in cyan. The incoming dNTP (ddCTP) and corresponding templating 8&#8208;oxo&#8208;dG are shown in magenta and green, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11130</offset>
+      <text>Overview of the 8&#8208;oxo&#8208;dG:dATP insertion complex. The 39&#8208;kDa catalytic domain (8&#8208;kDa subdomain not shown for clarity) is colored by subdomain: fingers (salmon), palm (yellow), and thumb (purple). The polymerase is in complex with a 1&#8208;nt gapped 16&#8208;mer oligo (gray) containing a templating 8&#8208;oxo&#8208;dG (green). The primer terminal ddC and the incoming ddCTP are shown in cyan and magenta, respectively. Key residues that form the nascent base pair binding pocket (N513 and R517) and are involved in catalysis (D427, D429, and D490) are shown in black. The catalytic metal (A) and the nucleotide binding metal (B) are shown in red and neon green, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11800</offset>
+      <text>8&#8208;oxo&#8208;dG (green) establishes a Watson&#8211;Crick base pair with ddCTP (magenta). Binding of the 8&#8208;oxo&#8208;dG in the anti&#8208;conformation is only possible because the C8&#8208;carbonyl is far enough away not to clash with the 5&#8242;&#8208;phosphate. Asn513 and Arg517 (purple) interact with the minor groove of the nascent base pair. The base pair geometry (C1&#8242; distance and &#955; angles) is indicated at the bottom of the figure. A simulated annealing Fo&#8208;Fc omit electron density map for the pair is also shown (contoured at 3&#963;).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12322</offset>
+      <text>Overlay of the primer terminus and active site with an undamaged reference structure (2PFO, black). The catalytic aspartic acids are shown in yellow, the primer terminus in cyan, and the incoming dATP in magenta. A water molecule (red) and Mg2+ (neon green) are occupying the metal A and metal B sites, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12639</offset>
+      <text>The structure reveals that Pol &#955; can tolerate an 8&#8208;oxo&#8208;dG:ddCTP base pair in the active site. The damaged base adopts the anti&#8208;conformation and forms a Watson&#8211;Crick base pair with an incoming ddCTP (Fig&#160;2C). Moreover, the C8&#8208;carbonyl of 8&#8208;oxo&#8208;dG is far removed from the 5&#8242;&#8208;phosphate (Fig&#160;2C) so as to avoid an electrostatic clash.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12991</offset>
+      <text>Interestingly, the geometry of the pair is similar to other canonical Watson&#8211;Crick base pairs. The &#955;R angle for the incoming ddCTP is 57.4&#176;, while the &#955;&#947; angle for the templating 8&#8208;oxo&#8208;dG is 58.1&#176;. Moreover, the C1&#8242;&#8211;C1&#8242; width of the base pair is 10.6&#160;&#197; which is similar to other base pairs (10.5&#160;&#197;&#8212;dA:ddTTP, 10.6&#160;&#197;&#8212;dA:dUMPNPP) (Garcia&#8208;Diaz et&#160;al, 2005, 2007; Fig&#160;2C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13390</offset>
+      <text>In Pol &#955;, formation of a catalytically active complex requires a dNTP&#8208;induced conformational change that repositions several residues, including Asn513 and Arg517. These residues form sequence&#8208;independent interactions with the minor groove and probe for correct geometry of the nascent base pair in the active site (Garcia&#8208;Diaz et&#160;al, 2005). Asn513 establishes a hydrogen bond with the O2 of the incoming ddCTP while Arg517 interacts with the N3 of the templating 8&#8208;oxo&#8208;dG. These interactions are mostly preserved (Fig&#160;2C). However, the hydrogen&#8208;bonding distance between Arg517 and 8&#8208;oxo&#8208;dG is longer than in a normal Watson&#8211;Crick base pair (3.2&#160;&#197;; Garcia&#8208;Diaz et&#160;al, 2005).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14091</offset>
+      <text>Despite this perturbation, an overlay with an undamaged precatalytic structure reveals minimal structural distortion around the primer terminus and catalytic active site residues (Fig&#160;2D). This is further evidenced by the small RMSD between our structure and a reference structure containing undamaged DNA (PDB: 2PFO, RMSD of 0.241&#160;&#197; over 233 C&#945; atoms). Together, these results suggest that Pol &#955; is capable of accommodating 8&#8208;oxo&#8208;dG (anti) in a catalytically relevant conformation without significant distortion in the active site during catalysis. These results are also consistent with the high efficiency of dCMP insertion opposite 8&#8208;oxo&#8208;dG observed in Pol &#955; (Brown et&#160;al, 2007; Picher &amp; Blanco, 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14813</offset>
+      <text>In addition to being highly efficient at polymerizing opposite 8&#8208;oxo&#8208;dG, Pol &#955; is also capable of discriminating against dAMP misincorporation. However, misincorporation is still a relatively frequent event (twofold preference for incorporating dCMP over dAMP) (Brown et&#160;al, 2007; Picher &amp; Blanco, 2007). In order to obtain insight into the structural basis of this reaction, we crystallized Pol &#955; in complex with an 8&#8208;oxo&#8208;dG:dATP mispair in the active site (Fig&#160;3A and B). Our crystals diffracted to a resolution of 1.80&#160;&#197; (Table&#160;EV1, PDB: 5III).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15376</offset>
+      <text>Pol &#955; fails to discriminate against dATP misincorporation opposite 8&#8208;oxo&#8208;dG(syn)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15462</offset>
+      <text>Substrates used for crystallization of the 8&#8208;oxo&#8208;dG:dATP insertion complex. The primer terminal base (ddC) is shown in cyan. The incoming dNTP (dATP) and corresponding templating 8&#8208;oxo&#8208;dG are shown in magenta and green, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15704</offset>
+      <text>Overview of the 8&#8208;oxo&#8208;dG:dATP insertion complex. The 39&#8208;kDa catalytic domain (8&#8208;kDa subdomain not shown for clarity) is colored by subdomain: fingers (salmon), palm (yellow), and thumb (purple). The polymerase is in complex with a 1&#8208;nt gapped 16&#8208;mer oligo (gray) containing a templating 8&#8208;oxo&#8208;dG (green). The primer terminal ddC and the incoming dATP are shown in cyan and magenta, respectively. Key residues that form the nascent base pair binding pocket (N513 and R517) and are involved in catalysis (D427, D429, and D490) are shown in black. The catalytic metal (A) and the nucleotide binding metal (B) are shown in red and neon green, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16373</offset>
+      <text>8&#8208;oxo&#8208;dG (green) establishes a Hoogsteen base pair with dATP (magenta). Asn513 and Arg517 (purple) interact with the minor groove of the nascent base pair. The base pair geometry (C1&#8242; distance and &#955; angles) is indicated at the bottom of the figure. A simulated annealing Fo&#8208;Fc omit electron density map for the pair is also shown (contoured at 3&#963;).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16732</offset>
+      <text>Overlay of the primer terminus and active site with an undamaged reference structure (2PFO, black). The catalytic aspartic acids are shown in yellow, the primer terminus in cyan, and the incoming dATP in magenta. A water molecule (red) and Mg2+ (neon green) are occupying the metal A and B sites, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17043</offset>
+      <text>As expected, 8&#8208;oxo&#8208;dG adopts the syn&#8208;conformation and forms a Hoogsteen mispair with the incoming dATP (Fig&#160;3C). In contrast to the 8&#8208;oxo&#8208;dG(anti):dC base pair, which does not substantially alter the DNA conformation, the Watson&#8211;Crick base&#8208;pairing edge of 8&#8208;oxo&#8208;dG(syn) protrudes into the major groove of the DNA. However, given the absence of protein contacts with the major groove of the DNA in this region (Garcia&#8208;Diaz et&#160;al, 2005), the Hoogsteen base pair appears to be well tolerated. The &#955;R angle for the incoming dATP and the &#955;&#947; angle for the templating 8&#8208;oxo&#8208;dG are 60.5 and 45.9&#176;, respectively. Interestingly, the C1&#8242;&#8211;C1&#8242; width of the base pair is 10.6&#160;&#197; which is also comparable to a Watson&#8211;Crick base pair (Garcia&#8208;Diaz et&#160;al, 2005, 2007). Moreover, an 8&#8208;oxo&#8208;dG(syn):dA mispair mimics the minor groove geometry of a canonical Watson&#8211;Crick base pair. Accordingly, Asn513 and Arg517 are capable of interacting with the N3 group on the incoming dATP and C8&#8208;carbonyl of the templating 8&#8208;oxo&#8208;dG(syn) (Fig&#160;3C). Similar to what has been observed in other DNA polymerases (Brieba et&#160;al, 2004; Batra et&#160;al, 2012; Freudenthal et&#160;al, 2013a,b; Vyas et&#160;al, 2015), 8&#8208;oxo&#8208;dG(syn) is also capable of hijacking these interactions in Pol &#955;, thus circumventing an important fidelity checkpoint mechanism.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18404</offset>
+      <text>An overlay with an undamaged precatalytic structure reveals minimal structural distortion around the active site (Fig&#160;3D). This is consistent with the small RMSD between our structure and a reference undamaged structure (PDB: 2PFO, RMSD of 0.243&#160;&#197; over 234 C&#945; atoms). Together, these results suggest that Pol &#955; can bind 8&#8208;oxo&#8208;dG in the syn&#8208;conformation without significant distortion in the active site. These findings are in agreement with previous kinetic results demonstrating that dCMP and dAMP are incorporated with similar efficiency opposite 8&#8208;oxo&#8208;dG by Pol &#955; (Brown et&#160;al, 2007; Picher &amp; Blanco, 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19032</offset>
+      <text>Active site rearrangements facilitate incorporation opposite 8&#8208;oxo&#8208;dG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19106</offset>
+      <text>Close inspection of both structures reveal that the C8&#8208;carbonyl of 8&#8208;oxo&#8208;dG(anti) and the N2&#8208;group of 8&#8208;oxo&#8208;dG(syn) impose local structural changes in the DNA backbone (Fig&#160;4A and B, red&#8208;dotted lines). Binding of 8&#8208;oxo&#8208;dG is only possible because Pol &#955; can tolerate a drastic repositioning of the 5&#8242;&#8208;phosphate to avoid these clashes (Fig&#160;4A and B, red arrows). This in turn leads to a notable change in the conformation of active site residue Arg514, which is displaced by 3.1&#160;&#197; (Fig&#160;4A and B, black arrows). In an undamaged complex, Arg514 forms a van der Waals stacking interaction with the templating base and a hydrogen bond with the 5&#8242;&#8208;phosphate (Garcia&#8208;Diaz et&#160;al, 2005). However, upon repositioning of the 5&#8242;&#8208;phosphate, this hydrogen bond can no longer be established (Fig&#160;4A and B, blue&#8208;dotted lines).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19958</offset>
+      <text>Structural rearrangements facilitate incorporation opposite 8&#8208;oxo&#8208;dG</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20031</offset>
+      <text>Overlay of the nascent base pair in the insertion structures with an undamaged reference structure (2PFO, black). Binding of 8&#8208;oxo&#8208;dG (green) in both the anti&#8208; (A) and syn&#8208;(B) conformation involves a repositioning of the 5&#8242;&#8208;phosphate (red arrow). Furthermore, the Arg514 side chain (purple) that normally stacks with the templating base and interacts with the 5&#8242;&#8208;phosphate (blue&#8208;dotted line), also repositions (black arrow). In both structures, Arg514 interacts with the C6&#8208;carbonyl of the templating 8&#8208;oxo&#8208;dG(anti) (A) or the C6&#8208;amino group of the incoming dATP (B). The incoming nucleotide is shown in magenta.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20670</offset>
+      <text>Upon ddCTP binding, the &#603; guanidinium group of Arg514 is positioned to hydrogen bond with the C6&#8208;amino group of 8&#8208;oxo&#8208;dG (Fig&#160;4A). This interaction may function as a conserved mechanism to stabilize the oxidized lesion. Accordingly, Pol &#955; exhibits a high efficiency of dNTP incorporation opposite 8&#8208;oxo&#8208;dG (Miller et&#160;al, 2000; Brown et&#160;al, 2007). This rearrangement is also observed in the presence of an 8&#8208;oxo&#8208;dG:dATP mispair. In this case, Arg514 forms a hydrogen bond with the C6&#8208;amino group of the incoming dATP (Fig&#160;4B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21218</offset>
+      <text>Interestingly, Arg514 forms a sequence&#8208;dependent interaction with the nascent base pair in both of the 8&#8208;oxo&#8208;dG&#8208;containing structures. We thus hypothesized that these interactions may facilitate oxidative bypass of the lesion. In order to characterize the putative role of Arg514, we generated an R514L active site substitution. The&#160;R514L substitution is expected to exhibit a van der Waals stacking profile similar to the wild&#8208;type (WT) Arg514, while abrogating the hydrogen&#8208;bonding potential. Steady&#8208;state kinetic parameters for both WT and R514L Pol &#955; were determined (Table&#160;1). Accordingly, the R514L substitution had a modest, but consistent, effect on all substrates tested (twofold&#8211;threefold). Thus, the interactions established in both damaged structures act in a compensatory manner and non&#8208;specifically enhance the efficiency of 8&#8208;oxo&#8208;dG bypass.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>22099</offset>
+      <text>Steady&#8208;state kinetic parameters of insertion opposite 8&#8208;oxo&#8208;dG by Pol &#955;</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>22178</offset>
+      <text>   Pol &#955; Template dNTP KM (&#956;M) kcat (min&#8722;1) kcat/KM (min&#8722;1&#160;&#956;M&#8722;1)   WT dG dCTP 0.8&#160;&#177;&#160;0.2 30.0&#160;&#177;&#160;4.1 42&#160;&#177;&#160;5  8&#8208;oxo&#8208;dG dCTP 2.2&#160;&#177;&#160;0.4 23.2&#160;&#177;&#160;1.8 11&#160;&#177;&#160;1   dATP 1.5&#160;&#177;&#160;0.3 62.6&#160;&#177;&#160;1.9 42&#160;&#177;&#160;5  R514L dG dCTP 2.5&#160;&#177;&#160;0.3 43.7&#160;&#177;&#160;6.6 18&#160;&#177;&#160;2  8&#8208;oxo&#8208;dG dCTP 4.3&#160;&#177;&#160;0.4 26.8&#160;&#177;&#160;2.6 6.2&#160;&#177;&#160;0.2   dATP 4.7&#160;&#177;&#160;0.1 58.9&#160;&#177;&#160;4.2 13&#160;&#177;&#160;1</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>22558</offset>
+      <text>Each experiment was independently repeated. Reported results are mean&#160;&#177;&#160;s.d. from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22674</offset>
+      <text>Together, these results highlight the importance of the malleability of the Pol &#955; active site to efficiently polymerize opposite 8&#8208;oxo&#8208;dG. The high efficiency of incorporation opposite 8&#8208;oxo&#8208;dG is a direct consequence of the ability of the active site to tolerate substantial distortion in the DNA backbone and the fact that compensatory interactions with active site residues help overcome the structural perturbations induced by 8&#8208;oxo&#8208;dG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23128</offset>
+      <text>Pol &#955; accommodates 8&#8208;oxo&#8208;dG at the primer terminus</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23184</offset>
+      <text>The inability of Pol &#955; to discriminate against dAMP misincorporation opposite 8&#8208;oxo&#8208;dG implies that other factors must explain the high fidelity of MUTYH&#8208;dependent repair in&#160;vivo. Since MUTYH&#8208;dependent repair tends to proceed through long&#8208;patch BER, one possibility is that Pol &#955; may discriminate against dAMP misincorporation during the incorporation of the next nucleotide (extension). Consistent with this idea, biochemical analysis has shown that Pol &#955; promotes error&#8208;free extension of 8&#8208;oxo&#8208;dG:dC base pairs (Picher &amp; Blanco, 2007). In order to better understand this mechanism, we crystallized Pol &#955; in a precatalytic conformation with DNA containing an 8&#8208;oxo&#8208;dG:dC base pair at the primer terminus (Fig&#160;5A). We obtained crystals that diffracted to 2.15&#160;&#197; (Table&#160;EV1, PDB: 5IIN). This structure represents a complex poised for extension past an 8&#8208;oxo&#8208;dG:dC base pair (Fig&#160;5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24101</offset>
+      <text>Pol &#955; can tolerate an 8&#8208;oxo&#8208;dG(anti):dC base pair at the primer terminus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24179</offset>
+      <text>Substrates used for crystallization of the 8&#8208;oxo&#8208;dG:dC extension complex. The incoming dNTP (dUMPNPP) is shown in magenta. The primer terminal base (dC) and corresponding templating base (8&#8208;oxo&#8208;dG) are shown in cyan and orange, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24429</offset>
+      <text>Overview of the 8&#8208;oxo&#8208;dG:dC extension complex. The 39&#8208;kDa catalytic domain (8&#8208;kDa subdomain not shown for clarity) is colored by subdomain: fingers (salmon), palm (yellow), and thumb (purple). The polymerase is in complex with a 1&#8208;nt gapped 16&#8208;mer oligo (gray) and an incoming dUMPNPP (magenta). The primer terminal dC and 8&#8208;oxo&#8208;dG are shown in cyan and magenta, respectively. Key residues that form the primer terminal base pair binding pocket (N513, R517 and Glu529) and are involved in catalysis (D427, D429, and D490) are shown in black. The nucleotide binding metal (B) is shown in neon green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25044</offset>
+      <text>8&#8208;oxo&#8208;dG (orange) establishes a Watson&#8211;Crick base pair with dC (cyan) at the primer terminus. Tyr505, Arg517, and Glu529 (purple) interact with the minor groove of the base pair. The base pair geometry (C1&#8242; distance and &#955; angles) is indicated at the bottom of the figure. A simulated annealing Fo&#8208;Fc omit electron density map for the pair is also shown (contoured at 3&#963;).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25428</offset>
+      <text>Overlay of the primer terminus and active site with an undamaged reference structure (2PFO, black). The catalytic aspartic acids are shown in yellow, incoming dUMPNPP in magenta, and primer terminal dC in cyan. Expectedly, Mg2+ (neon green) is occupying the metal B site. However, the metal A is absent in the structure, resulting in a non&#8208;catalytic position of the 3&#8242;&#8208;OH. This is consistent with other structures containing an incoming non&#8208;hydrolyzable analog.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25898</offset>
+      <text>Unsurprisingly, the structure reveals that 8&#8208;oxo&#8208;dG adopts the anti&#8208;conformation and forms a canonical Watson&#8211;Crick base pair with the primer terminal cytosine (Fig&#160;5C). Strikingly, the base pair&#160;forms several minor groove interactions with Tyr505, Arg517 and&#160;Glu529 (Fig&#160;5C). Here, Tyr505 and Arg517 establish sequence&#8208;independent hydrogen bonds with the O2/N3 acceptor groups of the base pair to probe for correct geometry. Interestingly, Glu529 forms a sequence&#8208;specific interaction with the N2&#8208;amino group of the primer terminal templating 8&#8208;oxo&#8208;dG in the anti&#8208;conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26501</offset>
+      <text>Furthermore, an overlay with an undamaged reference structure reveals minimal structural distortion around the primer terminus and the active site (Fig&#160;5D). This is evidenced by the small RMSD between both structures (PDB: 2PFO, RMSD of 0.219&#160;&#197; over 247 C&#945; atoms). Thus, Pol &#955; is capable of tolerating an 8&#8208;oxo&#8208;dG:dC base pair at the primer terminus without impeding catalysis. Curiously, while Mg2+ is occupying the metal B site, metal A is absent, resulting in a non&#8208;catalytic position of the 3&#8242;&#8208;OH (Fig&#160;5D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27028</offset>
+      <text>The use of non&#8208;hydrolyzable analogs in crystallography has been&#160;associated with subtle structural deviations (Garcia&#8208;Diaz et&#160;al, 2007). In order to validate whether our precatalytic structure is in a catalytically relevant conformation, we decided to obtain a structure of the post&#8208;catalytic complex. Completion of the nucleotidyl transfer reaction and advancement from precatalytic to the post&#8208;catalytic complex in Pol &#955; involves no significant conformational changes, other than stereochemical inversion of the &#945;&#8208;phosphate (Garcia&#8208;Diaz et&#160;al, 2005). Therefore, the post&#8208;catalytic complex is also representative of a catalytically relevant conformation. Accordingly, we crystallized the post&#8208;catalytic complex containing a newly incorporated dTMP in the active site (Table&#160;EV1, PDB: 5IIK). An overlay between the pre&#8208; and post&#8208;catalytic structure reveals minimal structural distortion around the primer terminus and the active site (Fig&#160;EV1A) as evidenced by the small RMSD between both structures (RMSD of 0.209&#160;&#197; over 279 C&#945; atoms). This confirms that our structure is in a catalytically relevant conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28172</offset>
+      <text>A primer terminal 8&#8208;oxo&#8208;dG:dC/dA base pair does not distort the Pol &#955; active site</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28259</offset>
+      <text>Overlay of the primer terminus and active site between the precatalytic and post&#8208;catalytic extension structures. The precatalytic structure is shown in black, and the &#946;&#8208; and &#947;&#8208;phosphates that constitute the pyrophosphate&#8208;leaving group are highlighted in red. The post&#8208;catalytic structure is colored with the catalytic aspartic acids shown in yellow, the incoming dUMPNPP in magenta, and dC (A) or dA (B) at the primer terminus in cyan.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28707</offset>
+      <text>We also crystallized Pol &#955; with DNA containing an 8&#8208;oxo&#8208;dG:dA mispair at the primer terminus (Fig&#160;6A and B). These crystals diffracted to a resolution of 1.94&#160;&#197; (Table&#160;EV1, PDB: 5IIM). The&#160;resulting structure reveals that 8&#8208;oxo&#8208;dG adopts the syn&#8208;conformation and forms a Hoogsteen mispair with the primer terminal adenine (Fig&#160;6C). As expected, the mispair mimics the minor groove geometry of a Watson&#8211;Crick base pair and is thus capable of interacting with Tyr505 and Arg517 (Fig&#160;6C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29213</offset>
+      <text>Pol &#955; also appears to tolerate a primer terminal 8&#8208;oxo&#8208;dG(syn):dA mispair</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29292</offset>
+      <text>Substrates used for crystallization of the 8&#8208;oxo&#8208;dG:dA extension complex. The incoming dNTP (dUMPNPP) is shown in magenta. The primer terminal base (dA) and corresponding templating base (8&#8208;oxo&#8208;dG) are shown in cyan and orange, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29542</offset>
+      <text>Overview of the 8&#8208;oxo&#8208;dG:dC extension complex. The 39&#8208;kDa catalytic domain (8&#8208;kDa subdomain not shown for clarity) is colored by subdomain: fingers (salmon), palm (yellow), and thumb (purple). The polymerase is in complex with a 1&#8208;nt gapped 16&#8208;mer oligo (gray) and an incoming dUMPNPP (magenta). The primer terminal dA and 8&#8208;oxo&#8208;dG are shown in cyan and magenta, respectively. Key residues that form the primer terminal base pair binding pocket (N513 and R517) and are involved in catalysis (D427, D429, and D490) are shown in black. The nucleotide binding metal (B) is shown in neon green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30149</offset>
+      <text>8&#8208;oxo&#8208;dG (orange) establishes a Hoogsteen base pair with dA (cyan) at the primer terminus. Tyr505 and Arg517 (purple) interact with the minor groove of the base pair. The base pair geometry (C1&#8242; distance and &#955; angles) is indicated at the bottom of the figure. A simulated annealing Fo&#8208;Fc omit electron density map for the pair is also shown (contoured at 3&#963;).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30519</offset>
+      <text>Overlay of the primer terminus and active site with an undamaged reference structure (2PFO, black). The catalytic aspartic acids are shown in yellow, incoming dUMPNPP in magenta, and primer terminal dA in cyan. Expectedly, Mg2+ (neon green) is occupying the metal B site. However, the metal A is absent in the structure, resulting in a non&#8208;catalytic position of the 3&#8242;&#8208;OH. This is consistent with other structures containing an incoming non&#8208;hydrolyzable analog.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30989</offset>
+      <text>Additionally, an 8&#8208;oxo&#8208;dG:dA base pair at the primer terminus does not distort the active site of Pol &#955; (Fig&#160;6D). This is further demonstrated by the small RMSD between our structure and an undamaged structure (PDB: 2PFO, RMSD of 0.295&#160;&#197; over 247 C&#945; atoms). Similar to the other extension structure, the catalytic metal A was also absent (Fig&#160;6D). We again crystallized a corresponding post&#8208;catalytic structure (Table&#160;EV1, PDB: 5IIL) further confirming that the presence of an 8&#8208;oxo&#8208;dG:dA base pair at the primer terminus does not distort the active site (Fig&#160;EV1B). This is demonstrated by the small RMSD between the pre&#8208; and post&#8208;catalytic structures (RMSD of 0.168&#160;&#197; over 305 C&#945; atoms).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31704</offset>
+      <text>Together, our results suggest that Pol &#955; is capable of accommodating 8&#8208;oxo&#8208;dG in both the syn&#8208; and anti&#8208;conformations without any significant distortion at the primer terminus, explaining the ability of Pol &#955; to extend past both pairs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31950</offset>
+      <text>A key conserved residue discriminates against 8&#8208;oxo&#8208;dG(syn)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32014</offset>
+      <text>While Pol &#955; appears to tolerate both 8&#8208;oxo&#8208;dG conformations at the primer terminus, biochemical results (Picher &amp; Blanco, 2007) that we were able to reproduce (Table&#160;2) demonstrate that it strongly discriminates against extension of an 8&#8208;oxo&#8208;dG:dA mispair. Surprisingly, close inspection of the extension structures revealed a specific interaction with 8&#8208;oxo&#8208;dG in the anti&#8208;conformation. A conserved residue in the SD2 region of the thumb subdomain (Romain et&#160;al, 2009), Glu529, forms a hydrogen bond with the N2&#8208;group of the templating 8&#8208;oxo&#8208;dG in the anti&#8208;conformation (Fig&#160;7A). Strikingly, this interaction is abolished when 8&#8208;oxo&#8208;dG adopts the pro&#8208;mutagenic syn&#8208;conformation (Fig&#160;7B, red&#8208;dotted line). This is likely due to an electrostatic clash between the negatively charged carboxyl group of the aspartic acid side chain and the C8&#8208;carbonyl of 8&#8208;oxo&#8208;dG (Fig&#160;7B, blue&#8208;dotted line). Thus, Glu529 may selectively stabilize correct 8&#8208;oxo&#8208;dG(anti):dC base pairs while destabilizing 8&#8208;oxo&#8208;dG(syn):dA mispairs. Accordingly, this residue may be responsible for the observed extension bias.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>33158</offset>
+      <text>Steady&#8208;state kinetic parameters of extension past 8&#8208;oxo&#8208;dG by Pol &#955;</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>33233</offset>
+      <text>   Pol &#955; Template:Primer KM (&#956;M) kcat (min&#8722;1) kcat/KM (min&#8722;1&#160;&#956;M&#8722;1)   WT dG:dC 2.5&#160;&#177;&#160;0.2 39.1&#160;&#177;&#160;1.5 16&#160;&#177;&#160;1  8&#8208;oxo&#8208;dG:dC 3.3&#160;&#177;&#160;0.4 101.2&#160;&#177;&#160;3.5 31&#160;&#177;&#160;3  8&#8208;oxo&#8208;dG:dA 3.5&#160;&#177;&#160;0.7 12.3&#160;&#177;&#160;0.5 3.7&#160;&#177;&#160;0.5  E529A dG 3.3&#160;&#177;&#160;0.5 43.9&#160;&#177;&#160;1.3 14&#160;&#177;&#160;2  8&#8208;oxo&#8208;dG:dC 6.7&#160;&#177;&#160;0.4 93.8&#160;&#177;&#160;2.3 14&#160;&#177;&#160;1  8&#8208;oxo&#8208;dG:dA 4.9&#160;&#177;&#160;0.3 51.9&#160;&#177;&#160;1.9 11&#160;&#177;&#160;1</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>33625</offset>
+      <text>Each experiment was independently repeated. Reported results are mean&#160;&#177;&#160;s.d. from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33741</offset>
+      <text>Pol &#955; discriminates against extension past an 8&#8208;oxo&#8208;dG(syn):dA mispair</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33817</offset>
+      <text>Glu529 (purple) forms a hydrogen bond with the C2&#8208;amino group of the primer terminal templating 8&#8208;oxo&#8208;dG (orange) in the anti&#8208;conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33965</offset>
+      <text>This interaction is abolished when 8&#8208;oxo&#8208;dG (orange) adopts the syn&#8208;conformation. An overlay with the 8&#8208;oxo&#8208;dG(anti)&#8208;containing structure reveals that Glu529 (black) would likely clash (red&#8208;dotted line) with the C8&#8208;carbonyl of 8&#8208;oxo&#8208;dG(syn). Repositioning of Glu529 (purple) places the side chain 4.5&#160;&#197; away from the C8&#8208;carbonyl.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34319</offset>
+      <text>Comparison of catalytic efficiencies for extension past an 8&#8208;oxo&#8208;dG(anti):dC, 8&#8208;oxo&#8208;dG(syn):dA and dG:dC base pairs at the primer terminus using WT and E529A Pol &#955;. Each experiment was independently repeated. Plotted data are mean &#177; s.d. (error bars) from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34616</offset>
+      <text>To test this hypothesis and characterize the role of Glu529 on 8&#8208;oxo&#8208;dG discrimination at the extension step, we generated an E529A active site substitution. We determined steady&#8208;state kinetic parameters for dGTP incorporation opposite a templating dC containing either an 8&#8208;oxo&#8208;dG:dC or dA base pair at the primer terminus (Table&#160;2). Interestingly, the E529A substitution had a differential effect on the catalytic efficiency of extension past both base pairs (Fig&#160;7C, Table&#160;2). With respect to the WT protein, the catalytic efficiency for dGMP incorporation decreased by 2.2&#8208;fold when an 8&#8208;oxo&#8208;dG:dC base pair was at the primer terminus. Conversely, the E529A substitution resulted in a threefold increase in extension activity past an 8&#8208;oxo&#8208;dG:dA base pair. Furthermore, the E529A substitution eliminated the extension bias, as the catalytic efficiencies for extension of both pairs were nearly identical (Fig&#160;7C, Table&#160;2). Thus, our results demonstrate that Glu529 is responsible for the inherent discrimination against extension of 8&#8208;oxo&#8208;dG:dA mispairs and is likely a key element that allows Pol &#955; to participate in MUTYH&#8208;dependent repair. Interestingly, Glu529 is conserved among all species in Pol &#955; (Fig&#160;EV2), highlighting its evolutionary importance and suggesting that the ability to selectively extend past an 8&#8208;oxo&#8208;dG: dC base pair is a unique and essential adaptation to facilitate MUTYH&#8208;dependent repair.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36076</offset>
+      <text>Amino acid sequence alignment of eukaryotic family X DNA polymerases</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36145</offset>
+      <text>Secondary structure elements are indicated on top of the alignment. White bold letters boxed in black indicate conserved residues. Black letters boxed in gray show invariant residues in at least two of the four groups aligned. Similar residues are bolded. Glu529 is conserved among all higher eukaryotes (hs, Homo sapiens; bt, Bos taurus; mm, Mus musculus; dr, Danio rerio) in Pol &#955; (white bold letters boxed in red).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36568</offset>
+      <text>Glu529 does not affect polymerization on undamaged substrates</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36630</offset>
+      <text>The observation that Glu529 can interact with 8&#8208;oxo&#8208;dG(anti) prompted us to determine whether this residue can also interact with an undamaged guanine. Analysis of an existing Pol &#955; complex containing a guanine in the templating position at the primer terminus (PDB: 2PFO) revealed an identical interaction with Glu529 (Fig&#160;8A). Conversely, this interaction was absent in all the structures containing an adenine in this position (PDB:1XSN and others) (Fig&#160;8B) (Garcia&#8208;Diaz et&#160;al, 2005). Surprisingly, this observation suggests that Glu529 is able to establish a sequence&#8208;specific interaction with the DNA template. This is unexpected for a polymerase, where interactions are typically non&#8208;specific, so as to avoid inducing sequence context effects. Therefore, we decided to analyze whether Glu529 influences polymerization on undamaged substrates in a sequence context&#8208;dependent manner. Interestingly, our kinetic results indicate that the substitution has no effect on undamaged substrates (Fig&#160;7C, Table&#160;2), which explains why the mutational spectrum of the polymerase does not appear biased toward sites preceded by a guanine residue in the templates (Bebenek et&#160;al, 2003).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37827</offset>
+      <text>Glu529 forms a sequence&#8208;specific interaction with guanines</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37888</offset>
+      <text>Undamaged structure containing a templating dG at the primer terminus (2PFO) was overlayed with a structure containing an 8&#8208;oxo&#8208;dG:dC base pair (black) or an 8&#8208;oxo&#8208;dG:dA mispair (red) at the primer terminus (A). Undamaged structure containing a templating dA at the primer terminus (1XSN) was overlayed with a structure containing an 8&#8208;oxo&#8208;dG:dC base pair (black) or an 8&#8208;oxo&#8208;dG:dA mispair (red) at the primer terminus (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>38328</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38339</offset>
+      <text>Pol &#955; is an important repair DNA polymerase that has been implicated in MUTYH&#8208;dependent BER (Braithwaite et&#160;al, 2005; Maga et&#160;al, 2007, 2008; Tano et&#160;al, 2007; Vermeulen et&#160;al, 2007; van Loon &amp; Hubscher, 2009; Markkanen et&#160;al, 2012; Pande et&#160;al, 2015). The DNA glycosylase, MUTYH, initiates repair by excising the misincorporated adenine. The resulting gap must then be filled with dCMP. The structural and kinetic studies presented here reveal the unique mechanism by which Pol &#955; contributes to the error&#8208;free bypass of 8&#8208;oxo&#8208;dG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38886</offset>
+      <text>Pol &#955; preferentially stabilizes 8&#8208;oxo&#8208;dG in the syn&#8208;conformation prior to dNTP binding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38980</offset>
+      <text>Surprisingly, Pol &#955; initially binds 8&#8208;oxo&#8208;dG&#8208;containing DNA exclusively in the syn&#8208;conformation, which is stabilized by Tyr505 and Arg517. The clear preference for binding 8&#8208;oxo&#8208;dG(syn) is particularly striking, as this would predispose Pol &#955; to misinsert dAMP. Interestingly, the structurally related DNA polymerase, Pol &#946;, also facilitates the error&#8208;free bypass of 8&#8208;oxo&#8208;dG in&#160;vitro (Miller et&#160;al, 2000; Brown et&#160;al, 2007) and has been extensively characterized in the context of this lesion (Krahn et&#160;al, 2003; Batra et&#160;al, 2010, 2012; Freudenthal et&#160;al, 2013a,b, 2015; Vyas et&#160;al, 2015). However, in contrast to Pol &#955;, Pol &#946; can initially accommodate 8&#8208;oxo&#8208;dG in both the anti&#8208; and syn&#8208;conformation with no strong preference (Batra et&#160;al, 2012). The reason for this is largely related to the substantial differences in the dNTP&#8208;induced conformational changes that take place in both enzymes. While Pol &#955; remains in a closed conformation throughout the catalytic cycle, Pol &#946; initially adopts an open conformation where the equivalent residues to Tyr505 (Tyr272) and Arg517 (Arg283) are far removed from the templating base (Batra et&#160;al, 2012). Thus, in Pol &#946;, the binding pocket for the templating base is only partially formed prior to dNTP binding, likely explaining why 8&#8208;oxo&#8208;dG freely adopts either conformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40350</offset>
+      <text>Pol &#955; struggles to discriminate against 8&#8208;oxo&#8208;dG(syn) during insertion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40426</offset>
+      <text>During dNTP binding, Pol &#955; is capable of tolerating 8&#8208;oxo&#8208;dG in either the anti&#8208; or syn&#8208;conformation. Correct and incorrect nucleotides are discriminated from each other on the basis of proper base pairing geometry. Interestingly, the minor groove geometry of an 8&#8208;oxo&#8208;dG(syn):dA mispair is similar to a canonical Watson&#8211;Crick base pair. Thus, 8&#8208;oxo&#8208;dG(syn) is capable of interacting with the minor groove probing residues in Pol &#955;, Asn513 and Arg517. This appears to be a common theme among DNA polymerases that rely on this particular type of interaction for fidelity, such as T7 DNA polymerase (Brieba et&#160;al, 2004) and Bacillus stearothermophilus DNA polymerase I (Hsu et&#160;al, 2004). Accordingly, an 8&#8208;oxo&#8208;dG(syn):dA mispair is also capable of hijacking these minor groove interactions in Pol &#946; (Batra et&#160;al, 2010, 2012; Freudenthal et&#160;al, 2013a,b, 2015; Vyas et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41332</offset>
+      <text>Moreover, in Pol &#946;, it has been postulated that a transient third metal ion (metal C) is important for catalysis. The presence of metal C has also been suggested to play a role in proper base pair discrimination (Freudenthal et&#160;al, 2013a,b). In agreement with the idea that an 8&#8208;oxo&#8208;dG(syn):dA mispair mimics a canonical base pair, metal C binding has been observed following dATP binding (Vyas et&#160;al, 2015). This further demonstrates the difficulty in distinguishing between the anti&#8208; and syn&#8208;conformations of 8&#8208;oxo&#8208;dG. Evidence for the presence of metal C was not seen in any of our structures. It is possible that this mechanism is not conserved in Pol &#955;. However, due to the transient nature of metal C binding, this might also be due to the fact that we were not able to adequately trap the reaction intermediate.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42167</offset>
+      <text>The active site of Pol &#955; is malleable, allowing for the efficient bypass of 8&#8208;oxo&#8208;dG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42257</offset>
+      <text>Interestingly, the active site of Pol &#955; is extremely malleable during 8&#8208;oxo&#8208;dG bypass. Binding of 8&#8208;oxo&#8208;dG in the anti&#8208;conformation is only possible because Pol &#955; can tolerate a drastic repositioning of the 5&#8242;&#8208;phosphate. This backbone rearrangement alleviates the electrostatic clash between the C8&#8208;carbonyl and 5&#8242;&#8208;phosphate of 8&#8208;oxo&#8208;dG. Additionally, binding of an 8&#8208;oxo&#8208;dG(anti):ddCTP also results in a repositioning of the active site residue Arg514. Here, the &#603;&#8208;amino group of Arg514 establishes a weak hydrogen bond with the C6&#8208;amino group of 8&#8208;oxo&#8208;dG. This interaction may stabilize the anti&#8208;conformation and facilitate error&#8208;free incorporation of dCMP. Similar rearrangements have also been observed in the active site of Pol &#946; (Krahn et&#160;al, 2003).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43058</offset>
+      <text>Curiously, unlike in Pol &#946; (Batra et&#160;al, 2012; Vyas et&#160;al, 2015), these rearrangements were also observed during dATP binding opposite 8&#8208;oxo&#8208;dG in Pol &#955;. Thus, our data imply that Pol &#955; non&#8208;specifically enhances 8&#8208;oxo&#8208;dG bypass. As a consequence, Pol &#955; is able to maintain a high efficiency of incorporation opposite 8&#8208;oxo&#8208;dG. In contrast, DNA polymerase iota (Pol &#953;) has a restrictive active site that promotes dCMP incorporation opposite 8&#8208;oxo&#8208;dG(syn) (Kirouac &amp; Ling, 2011). Consistently, the restrictive nature of the Pol &#953; active site likely explains its reduced insertion efficiency opposite the lesion (Zhang et&#160;al, 2001; Kirouac &amp; Ling, 2011). Furthermore, most eukaryotic polymerases involved in replication incorporate nucleotides opposite 8&#8208;oxo&#8208;dG with very low efficiency relative to undamaged DNA (Shibutani et&#160;al, 1991; Zhang et&#160;al, 2000; Einolf &amp; Guengerich, 2001; Haracska et&#160;al, 2002, 2003).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44001</offset>
+      <text>Although Pol &#955; incorporates dCMP opposite 8&#8208;oxo&#8208;dG more frequently than many other polymerases (Hashimoto et&#160;al, 2004; Brown et&#160;al, 2007; Picher &amp; Blanco, 2007), the fidelity of this reaction is modest at best (2:1 preference&#8212;dCMP/dAMP incorporation opposite 8&#8208;oxo&#8208;dG). This suggests that the high efficiency of incorporation is achieved at the expense of replication fidelity. Thus, during the insertion step, efficiency may be more important than fidelity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44473</offset>
+      <text>Failure to complete BER can result in accumulation of BER intermediates that are cytotoxic to cells (Sobol et&#160;al, 2000, 2003). Thus, the low fidelity of incorporation opposite 8&#8208;oxo&#8208;dG might be an acceptable price to pay to avoid the cytotoxic consequences of stalling BER. Moreover, the high efficiency of 8&#8208;oxo&#8208;dG bypass by Pol &#955; is consistent with its role during NHEJ (Fan &amp; Wu, 2004; Lee et&#160;al, 2004; Nick McElhinny et&#160;al, 2005; Capp et&#160;al, 2006), where the polymerase would frequently encounter oxidatively damaged ends.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45013</offset>
+      <text>Pol &#955; is uniquely adapted to discriminate against 8&#8208;oxo&#8208;dG during extension</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45094</offset>
+      <text>A very interesting and yet unexplained observation is that Pol &#955; is endowed with the extraordinary ability to extend past 8&#8208;oxo&#8208;dG with both high efficiency and fidelity (Picher &amp; Blanco, 2007). Here, we have identified a residue in the SD2 region of the thumb subdomain that forms a unique sequence&#8208;specific hydrogen bond with 8&#8208;oxo&#8208;dG(anti). In fact, owing to this interaction, extension of an 8&#8208;oxo&#8208;dG:dC pair is even more efficient than extension of an undamaged dG:dC pair (Picher &amp; Blanco, 2007). Conversely, the same residue results in an unfavorable interaction with an 8&#8208;oxo&#8208;dG(syn):dA mispair, which reduces the catalytic efficiency of extension. Together, these two effects result in a clear bias toward extension of correct 8&#8208;oxo&#8208;dG:dC pairs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45872</offset>
+      <text>Interestingly, the analogous residue in Pol &#946; is also a glutamate (Glu295) (Fig&#160;EV2). However, Glu295 does not interact with the primer terminus (Sawaya et&#160;al, 1997). Instead, this residue plays a role in the catalytic transition from the inactive to active conformation upon dNTP binding (Sawaya et&#160;al, 1997). Prior to dNTP binding, one of the active site aspartic acids (Asp192) forms a salt bridge with Arg258, sequestering it in an inactive conformation. Binding of the correct nucleotide results in a conformational change that ultimately disrupts this salt bridge. As a result, Asp192 moves in position to anchor the catalytic metal B, while Arg258 instead establishes an interaction with Glu295.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46579</offset>
+      <text>Taken together, this is striking example of a residue that is conserved in two related enzymes that play completely different functional roles. This functional divergence stresses how subtle differences in the active site can drastically affect both the functional properties and perhaps the cellular role of a DNA polymerase.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46906</offset>
+      <text>Pol &#955;&#8208;dependent MUTYH&#8208;initiated BER pathway</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46955</offset>
+      <text>The structural and kinetic results that we describe here provide a framework for understanding error&#8208;free bypass of 8&#8208;oxo&#8208;dG by Pol &#955; in the context of MUTYH&#8208;initiated BER. Interestingly, MUTYH&#8208;initiated BER appears to predominantly proceed through long&#8208;patch BER (van Loon &amp; Hubscher, 2009). Consistent with this observation, the short&#8208;patch protein, DNA ligase III, is inefficient at ligating the 3&#8242;&#8208;terminus of a correct 8&#8208;oxo&#8208;dG:dC base pair (Hashimoto et&#160;al, 2004). As a result, short&#8208;patch BER is futile and repair must instead proceed through the alternative long&#8208;patch BER route.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47571</offset>
+      <text>Our results lead to a model for MUTYH&#8208;dependent repair (Fig&#160;9) where Pol &#955; plays a central role acting as a kinetic switch that drives the reaction toward long&#8208;patch BER. Pol &#955; and Pol &#946; exhibit a similar efficiency and fidelity with respect to nucleotide insertion opposite 8&#8208;oxo&#8208;dG (Brown et&#160;al, 2007; Picher &amp; Blanco, 2007). Thus, the DNA polymerase involved during the insertion step may be interchangeable. However, Pol &#955; appears to have the unique ability to promote error&#8208;free bypass during the extension step. Strikingly, Pol &#955; bypasses an 8&#8208;oxo&#8208;dG(anti):dC pair at the primer terminus with a higher propensity than an undamaged pair, thus promoting long&#8208;patch BER extension (Picher &amp; Blanco, 2007). Moreover, error&#8208;free bypass of 8&#8208;oxo&#8208;dG by Pol &#955; is promoted by the long&#8208;patch BER auxiliary factors PCNA and RPA (Maga et&#160;al, 2007). Together, these properties make Pol &#955; well suited in facilitating the error&#8208;free bypass of 8&#8208;oxo&#8208;dG during MUTYH&#8208;mediated long&#8208;patch BER.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>48595</offset>
+      <text>Proposed mechanism for the MUTYH&#8208;initiated BER pathway</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48652</offset>
+      <text>MUTYH initiates the excision of the misincorporated adenine opposite 8&#8208;oxo&#8208;dG. The resulting 1&#8208;nt gap is then filled by Pol &#955; in an error&#8208;free (C) or error&#8208;prone (A) manner. Completion of the canonical short&#8208;patch (SP) pathway is futile as DNA ligase III cannot seal an 8&#8208;oxo&#8208;dG:dC base pair at the primer terminus. Thus, Pol &#955; promotes the long&#8208;patch (LP) extension past a correct base pair to complete error&#8208;free BER. Conversely, Pol &#955; is capable of stalling ligation (SP) or extension (LP) of an 8&#8208;oxo&#8208;dG:dA mispair, thus promoting its excision by proofreading. The resulting intermediate can then proceed through the error&#8208;free pathway.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49322</offset>
+      <text>Pol &#955; is also capable of discriminating against error&#8208;prone extension, thereby preventing error&#8208;prone long&#8208;patch BER. While it is possible that DNA ligase III can seal the 3&#8242;&#8208;terminus of an 8&#8208;oxo&#8208;dG:dA mispair (Hashimoto et&#160;al, 2004), this would result in a futile cycle of short&#8208;patch repair. Instead, failure to extend the mispair may promote removal of the misincorporated dA in an exonuclease&#8208;dependent manner. Accordingly, this increased fidelity may be attributed to the high pyrophosphorolytic activity of Pol &#955; and its ability to preferentially operate on 8&#8208;oxo&#8208;dG:dA mispairs (Crespan et&#160;al, 2012). Another possibility is that an extrinsic exonuclease is instead recruited. Interestingly, the primary abasic endonuclease involved in BER, APE1, possesses 3&#8242;&#8208;5&#8242;&#8208;exonuclease activity. Moreover, the exonuclease activity of APE1 is enhanced at 3&#8242;&#8208;termini of mismatches (Wong et&#160;al, 2003), which suggests a possible proofreading role during BER. Together, our results indicate that Pol &#955; may stall extension past the 8&#8208;oxo&#8208;dG:dA mispair to promote excision, thus acting as form of proofreading.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50465</offset>
+      <text>In summary, we have shown here how a family X polymerase utilizes subtle active site adaptations to carry out a critical repair reaction. Our results highlight the importance of Pol &#955; as a key enzyme during MUTYH&#8208;initiated BER, provide a mechanistic explanation for its unique behavior during repair, and uncover a potential mechanism to enhance the fidelity of repair.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50840</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50862</offset>
+      <text>Protein purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50883</offset>
+      <text>The sequence corresponding to residues 242&#8211;575 of human DNA polymerase lambda (Pol &#955;) was previously cloned into the bacterial expression vector pET&#8208;22b (Garcia&#8208;Diaz et&#160;al, 2004). Site&#8208;directed mutagenesis was performed on the Pol &#955; expression vector to generate the R514L and E529A mutants. WT, R514L, and E529A Pol &#955; were subsequently expressed in the E.&#160;coli strain BL21&#8208;CodonPlus(DE3)&#8208;RIL and purified as described (Garcia&#8208;Diaz et&#160;al, 2004).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51349</offset>
+      <text>Oligonucleotides for crystallography</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51386</offset>
+      <text>Oligonucleotides used for crystallography (Fig&#160;EV3A&#8211;D) were synthesized by solid&#8208;state synthesis methods using an automated DNA synthesizer and were subsequently purified by HPLC, ethanol precipitated, and quantified by UV absorbance (A260).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>51633</offset>
+      <text>Oligonucleotides used in X&#8208;ray crystallography experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51694</offset>
+      <text>Substrate used for crystallization of the DNA binding complex. The oligo contains a 1&#8208;nt gap and a templating 8&#8208;oxo&#8208;dG.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51820</offset>
+      <text>Substrate used for crystallization of both precatalytic insertion complexes. The oligo contains a 2&#8208;nt gap. ddCTP was subsequently added to generate a 1&#8208;nt gapped, dideoxy&#8208;terminated substrate containing a templating 8&#8208;oxo&#8208;dG.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52057</offset>
+      <text>Substrates used for the crystallization of the precatalytic extension complex. The oligos contain a 1&#8208;nt gap and either an 8&#8208;oxo&#8208;dG:dC (C) or dA (D) base pair at the primer terminus.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52246</offset>
+      <text>Substrates used for the crystallization of the post&#8208;catalytic extension complexes. The oligos contain a nicked primer and either an 8&#8208;oxo&#8208;dG:dC (E) or dA (F) base pair at the &#8208;1 position.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52442</offset>
+      <text>Synthetic oligonucleotides were hybridized and annealed as described in the Materials and Methods section. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52550</offset>
+      <text>Crystallization</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52566</offset>
+      <text>All crystallization complexes were formed using an upstream primer, downstream primer containing a 5&#697;&#8208;phosphate group, and template. Oligonucleotides were mixed (1:1:1) and heated to 80&#176;C for 10&#160;min before slowly cooling to room temperature in 25&#160;mM Tris&#8211;HCl pH 7.5 and 50&#160;mM MgCl2. Oligonucleotides were subsequently mixed with Pol &#955;. However, due to the low melting temperature of the downstream primer (DP4, 16&#176;C), a second annealing step (starting at 16&#176;C) in the presence of protein was used to ensure the proper formation of the final substrate. The resulting mixture (100&#160;&#956;l) contained 15&#160;mM Tris&#8211;HCl pH 7.5, 75&#160;mM NaCl, 10&#160;mM MgCl2, 1&#160;mM DTT, DNA (0.5&#160;mM), and Pol &#955; (0.4&#160;mM).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>53274</offset>
+      <text>DNA binding complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53294</offset>
+      <text>Binary complexes were formed with the oligonucleotides shown in Fig&#160;EV3A. Crystals were grown using the hanging drop method at 4&#176;C by mixing 1&#160;&#956;l of a protein&#8208;DNA solution with 1&#160;&#956;l of a reservoir solution containing 0.1&#160;M KCl, 0.01&#160;M CaCl2, 0.05&#160;M HEPES pH 7.0, and 10% PEG 400. The crystals were then transferred to a solution containing 0.1&#160;M KCl, 0.01&#160;M CaCl2, 0.05&#160;M HEPES pH 7.0, and 30% PEG 400 and 25% w/v glycerol cryo&#8208;cooled in liquid nitrogen prior to data collection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>53790</offset>
+      <text>Insertion complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53808</offset>
+      <text>Precatalytic ternary complexes were formed with the oligonucleotides shown in Fig&#160;EV3B. ddCTP (1&#160;mM) and dATP (4&#160;mM) were sequentially added to a prehybridized protein&#8208;DNA solution to allow for the proper formation of a dideoxy&#8208;terminated oligonucleotide and binding of the incoming dATP. Crystals were then grown as previously described above. Complexes containing a nascent 8&#8208;oxo&#8208;dG:ddCTP base pair were formed at 4&#176;C in 0.1&#160;M sodium cacodylate pH 7.0 and 1.0&#160;M sodium acetate trihydrate. The resulting crystals were then transferred to a solution containing 0.1&#160;M sodium cacodylate pH 7.0 and 1.1&#160;M sodium acetate trihydrate and 25% w/v glycerol for cryo&#8208;storage in liquid nitrogen prior to data collection. A subset of these crystals were also soaked overnight in a cryo&#8208;solution containing 0.1&#160;M sodium cacodylate pH 7.0, 1.5&#160;M sodium acetate trihydrate, 25% w/v glycerol, 100&#160;mM MgCl2, and 15&#160;mM dATP in order to fully exchange the residual ddCTP with dATP. All crystals were mounted in Mitegen MicroLoops prior to cryo&#8208;cooling in liquid nitrogen.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>54888</offset>
+      <text>Extension complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54906</offset>
+      <text>Precatalytic ternary complexes were formed with the oligonucleotides shown in Fig&#160;EV3C and D. dUMPNPP (4&#160;mM) was added to a prehybridized protein&#8208;DNA solution. Crystals were then grown as previously described above. Complexes containing either an 8&#8208;oxo&#8208;dG:dC or dA base pair at the primer terminus were formed at 4&#176;C in 0.2&#160;M ammonium acetate, 0.1&#160;M sodium citrate pH 4.8, and 2&#8211;7% PEG 4000, and then transferred to a solution containing 0.2&#160;M ammonium acetate, 100&#160;mM sodium citrate pH 4.8, 2&#8211;7% PEG 4000, and 25% w/v glycerol for cryo&#8208;storage in liquid nitrogen prior to data collection.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55515</offset>
+      <text>Post&#8208;catalytic nick complexes were formed with the oligonucleotides shown in Fig&#160;EV3E and F. Crystals were grown using a prehybridized protein&#8208;DNA solution as previously described above. Complexes containing either 8&#8208;oxo&#8208;dG:dC or dA base pair at the &#8208;1 position were formed at 4&#176;C in 0.2&#160;M ammonium acetate, 0.1&#160;M sodium citrate pH 4.8, and 3&#8211;5% PEG 4000 and then transferred to a solution containing 0.2&#160;M ammonium acetate, 0.1&#160;M sodium citrate pH 4.8, 3&#8211;5% PEG 4000, and 25% w/v glycerol for cryo&#8208;storage in liquid nitrogen prior to data collection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56089</offset>
+      <text>X&#8208;ray data collection and structure determination</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56141</offset>
+      <text>Diffraction data were collected on beamlines X6A, X12C, and X29 of the National Synchrotron Light Source at Brookhaven National Laboratory (BNL) and on beamline BL14&#8208;1 at the Stanford Synchrotron Radiation Lightsource (SSRL). All datasets were collected at 100&#160;K using a wavelength of 0.9795, 1.0, or 1.075&#160;&#197;. All diffraction data were processed using XDS (Kabsch, 2010) and Aimless (Evans &amp; Murshudov, 2013) as implemented in the autoPROC pipeline (Vonrhein et&#160;al, 2011). Phases were obtained by molecular replacement using Phaser (McCoy et&#160;al, 2007); search models for the binary, pre&#8208; and post&#8208;catalytic complexes were created from 1XSL (Garcia&#8208;Diaz et&#160;al, 2005), 1XSN (Garcia&#8208;Diaz et&#160;al, 2005), and 1XSP (Garcia&#8208;Diaz et&#160;al, 2005), respectively. Model building was carried out in Coot (Emsley et&#160;al, 2010), followed by refinement in Phenix (Zwart et&#160;al, 2008), Refmac (Murshudov et&#160;al, 2011), and BUSTER (Smart et&#160;al, 2012). The geometric quality of the refined models was assessed with MolProbity (Chen et&#160;al, 2010) and the structure validation tools in the Phenix suite. Data collection and refinement statistics are shown in Table&#160;EV1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57309</offset>
+      <text>Oligonucleotides for steady&#8208;state primer extension assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57369</offset>
+      <text>Oligonucleotides used for steady&#8208;state primer extension assays were obtained from Invitrogen (Fig&#160;EV4A&#8211;E). Oligonucleotides were purified by HPLC and polyacrylamide gel electrophoresis (PAGE), quantified by UV absorbance (A260), and heated to 80&#176;C for 10&#160;min before slowly cooling to room temperature overnight in 20&#160;mM Tris&#8211;HCl pH 7.5 and 150&#160;mM MgCl2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>57734</offset>
+      <text>Oligonucleotides used in steady&#8208;state kinetic experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>57794</offset>
+      <text>Substrates used for WT/R514L Pol &#955; steady&#8208;state kinetic analysis. The oligos contain a 1&#8208;nt gap and either 8&#8208;oxo&#8208;dG (A) or dG (B) in the templating position.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>57961</offset>
+      <text>Substrates used for WT/E529A Pol &#955; steady&#8208;state kinetic analysis. The oligos consist of an open duplex with either an 8&#8208;oxo&#8208;dG:dC (C), 8&#8208;oxo&#8208;dG:dA (D), or dG:dC (E) base pair at the primer terminus.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>58171</offset>
+      <text>Oligonucleotides used in synthetic oligonucleotides were hybridized as described in the Materials and Methods section. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58291</offset>
+      <text>Steady&#8208;state primer extension assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58330</offset>
+      <text>Oligonucleotides used to evaluate the biochemical role of Arg514 and Glu529 in Pol &#955; are shown in Fig&#160;EV4A and B and EV4C&#8211;E, respectively. Upstream primers were 5&#8242; labeled with a Cy3 fluorophore and downstream primers contained a 5&#697;&#8208;phosphate group. Prehybridized gapped DNA (1:1.2:1.2) or an open duplex (1:1.2) were mixed with either WT, R514L, or E529A Pol &#955;. The resulting mixture (18&#160;&#956;l) contained 50&#160;mM Tris&#8211;HCl pH 8.5, 10&#160;mM MgCl2, 1&#160;mM DTT, 4% glycerol, 0.1&#160;mg/ml BSA, P/T (200&#160;nM) and either WT, R514L, or E529A Pol &#955;. The protein/DNA mixture was directly added to varying amounts of the appropriate dNTP to start the polymerization reaction. Reaction mixtures (20&#160;&#956;l) were quenched by the addition of 95% v/v formamide, 10&#160;mM EDTA, 0.001% xylene cyanol, 0.001% bromophenol blue (10&#160;&#956;l). Extended primers were separated by denaturing (8&#160;M urea) 18% w/v PAGE. The fluorescence intensity of the bands was quantified using a Typhoon FLA 9000 imager and ImageQuant software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59336</offset>
+      <text>Kinetic analysis of the primer extension assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59384</offset>
+      <text>The observed rate of nucleotide incorporation (extended primer) was plotted as a function of nucleotide concentration. Steady&#8208;state kinetic parameters, Vmax and KM, were determined by fitting the data to the Michaelis&#8211;Menten equation: V&#160;=&#160;Vmax[S]/(KM&#160;+&#160;[S]). kcat was determined with the equation: kcat&#160;=&#160;Vmax/[E].</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59709</offset>
+      <text>Accession codes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59725</offset>
+      <text>The atomic coordinates and structure factors have been deposited in the Protein Data Bank, under accession codes: 5IIO, 5IIJ, 5III, 5IIN, 5IIM, 5IIK, and 5IIL.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>59885</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59906</offset>
+      <text>MJB and MGD conceived the project. MJB, EH, and BD performed experiments. MJB, KEG, and MGD analyzed data. MJB, KEG, and MGD wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60053</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60074</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60134</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>60157</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">2156</infon>
+      <infon key="pub-id_pmid">9187114</infon>
+      <infon key="fpage">2151</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60168</offset>
+      <text>Cloning and characterization of mammalian 8&#8208;hydroxyguanine&#8208;specific DNA glycosylase/apurinic, apyrimidinic lyase, a functional mutM homologue</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">2861</infon>
+      <infon key="pub-id_pmid">9190902</infon>
+      <infon key="fpage">2857</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60314</offset>
+      <text>Cloning of a human homolog of the yeast OGG1 gene that is involved in the repair of oxidative DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">890</infon>
+      <infon key="pub-id_pmid">20526335</infon>
+      <infon key="fpage">889</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60419</offset>
+      <text>Mutagenic conformation of 8&#8208;oxo&#8208;7,8&#8208;dihydro&#8208;2&#8242;&#8208;dGTP in the confines of a DNA polymerase active site</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">118</infon>
+      <infon key="pub-id_pmid">22178760</infon>
+      <infon key="fpage">113</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60531</offset>
+      <text>Binary complex crystal structure of DNA polymerase beta reveals multiple conformations of the templating 8&#8208;oxoguanine lesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J&#160;Biol Chem</infon>
+      <infon key="lpage">34690</infon>
+      <infon key="pub-id_pmid">12829698</infon>
+      <infon key="fpage">34685</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>60658</offset>
+      <text>The frameshift infidelity of human DNA polymerase lambda. Implications for function</text>
+    </passage>
+    <passage>
+      <infon key="volume">272</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">19636</infon>
+      <infon key="pub-id_pmid">9289489</infon>
+      <infon key="fpage">19633</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60742</offset>
+      <text>Oxidative decay of DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">6322</infon>
+      <infon key="pub-id_pmid">9321410</infon>
+      <infon key="fpage">6314</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60765</offset>
+      <text>Opposite base&#8208;dependent reactions of a human base excision repair enzyme on DNA containing 7,8&#8208;dihydro&#8208;8&#8208;oxoguanine and abasic sites</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3183</infon>
+      <infon key="pub-id_pmid">3319582</infon>
+      <infon key="fpage">3177</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>60906</offset>
+      <text>Formamidopyrimidine&#8208;DNA glycosylase of Escherichia coli: cloning and sequencing of the fpg structural gene and overproduction of the protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">280</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">31647</infon>
+      <infon key="pub-id_pmid">16002405</infon>
+      <infon key="fpage">31641</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>61049</offset>
+      <text>DNA polymerase lambda protects mouse fibroblasts against oxidative DNA damage and is recruited to sites of DNA damage/repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3461</infon>
+      <infon key="pub-id_pmid">15297882</infon>
+      <infon key="fpage">3452</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>61174</offset>
+      <text>Structural basis for the dual coding potential of 8&#8208;oxoguanosine by a high&#8208;fidelity DNA polymerase</text>
+    </passage>
+    <passage>
+      <infon key="volume">367</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">1269</infon>
+      <infon key="pub-id_pmid">17321545</infon>
+      <infon key="fpage">1258</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>61277</offset>
+      <text>Single&#8208;turnover kinetic analysis of the mutagenic potential of 8&#8208;oxo&#8208;7,8&#8208;dihydro&#8208;2&#8242;&#8208;deoxyguanosine during gap&#8208;filling synthesis catalyzed by human DNA polymerases lambda and beta</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">3007</infon>
+      <infon key="pub-id_pmid">16738138</infon>
+      <infon key="fpage">2998</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>61472</offset>
+      <text>The DNA polymerase lambda is required for the repair of non&#8208;compatible DNA double strand breaks by NHEJ in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D&#160;Biol Crystallogr</infon>
+      <infon key="issue">Pt 1</infon>
+      <infon key="lpage">21</infon>
+      <infon key="pub-id_pmid">20057044</infon>
+      <infon key="fpage">12</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>61597</offset>
+      <text>MolProbity: all&#8208;atom structure validation for macromolecular crystallography</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="lpage">74</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="fpage">68</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61676</offset>
+      <text>A new proofreading mechanism for lesion bypass by DNA polymerase&#8208;lambda</text>
+    </passage>
+    <passage>
+      <infon key="volume">273</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">33816</infon>
+      <infon key="pub-id_pmid">9837971</infon>
+      <infon key="fpage">33811</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>61750</offset>
+      <text>Repair pathways for processing of 8&#8208;oxoguanine in DNA by mammalian cell extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">3771</infon>
+      <infon key="pub-id_pmid">11110788</infon>
+      <infon key="fpage">3764</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>61833</offset>
+      <text>Fidelity of nucleotide insertion at 8&#8208;oxo&#8208;7,8&#8208;dihydroguanine by mammalian DNA polymerase delta. Steady&#8208;state and pre&#8208;steady&#8208;state kinetic analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="issue">Pt 4</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">20383002</infon>
+      <infon key="fpage">486</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>61992</offset>
+      <text>Features and development of Coot</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="issue">Pt 7</infon>
+      <infon key="lpage">1214</infon>
+      <infon key="pub-id_pmid">23793146</infon>
+      <infon key="fpage">1204</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62025</offset>
+      <text>How good are my data and what is the resolution?</text>
+    </passage>
+    <passage>
+      <infon key="volume">323</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">1333</infon>
+      <infon key="pub-id_pmid">15451442</infon>
+      <infon key="fpage">1328</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>62074</offset>
+      <text>DNA polymerase lambda can elongate on DNA substrates mimicking non&#8208;homologous end joining and interact with XRCC4&#8208;ligase IV complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">274</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">15236</infon>
+      <infon key="pub-id_pmid">10329732</infon>
+      <infon key="fpage">15230</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>62210</offset>
+      <text>The type of DNA glycosylase determines the base excision repair pathway in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">168</infon>
+      <infon key="pub-id_pmid">23827680</infon>
+      <infon key="fpage">157</infon>
+      <infon key="year">2013a</infon>
+      <infon key="type">ref</infon>
+      <offset>62301</offset>
+      <text>Observing a DNA polymerase choose right from wrong</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1858</infon>
+      <infon key="pub-id_pmid">23267011</infon>
+      <infon key="fpage">1848</infon>
+      <infon key="year">2013b</infon>
+      <infon key="type">ref</infon>
+      <offset>62352</offset>
+      <text>DNA polymerase minor groove interactions modulate mutagenic bypass of a templating 8&#8208;oxoguanine lesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">517</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">639</infon>
+      <infon key="pub-id_pmid">25409153</infon>
+      <infon key="fpage">635</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62457</offset>
+      <text>Uncovering the polymerase&#8208;induced cytotoxicity of an oxidized nucleotide</text>
+    </passage>
+    <passage>
+      <infon key="volume">271</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">9578</infon>
+      <infon key="pub-id_pmid">8621631</infon>
+      <infon key="fpage">9573</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>62532</offset>
+      <text>Two pathways for base excision repair in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">572</infon>
+      <infon key="pub-id_pmid">14992725</infon>
+      <infon key="fpage">561</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>62589</offset>
+      <text>A structural solution for the DNA polymerase lambda&#8208;dependent repair of DNA gaps with minimal homology</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">98</infon>
+      <infon key="pub-id_pmid">15608652</infon>
+      <infon key="fpage">97</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>62694</offset>
+      <text>A closed conformation for the Pol lambda catalytic cycle</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">DNA Repair (Amst)</infon>
+      <infon key="lpage">1340</infon>
+      <infon key="pub-id_pmid">17475573</infon>
+      <infon key="fpage">1333</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62751</offset>
+      <text>Role of the catalytic metal during polymerization by DNA polymerase lambda</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">16005</infon>
+      <infon key="pub-id_pmid">12444249</infon>
+      <infon key="fpage">16000</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>62826</offset>
+      <text>Role of human DNA polymerase kappa as an extender in translesion synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">1459</infon>
+      <infon key="pub-id_pmid">12556503</infon>
+      <infon key="fpage">1453</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>62901</offset>
+      <text>Yeast DNA polymerase zeta is an efficient extender of primer ends opposite from 7,8&#8208;dihydro&#8208;8&#8208;Oxoguanine and O6&#8208;methylguanine</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5934</infon>
+      <infon key="pub-id_pmid">15531653</infon>
+      <infon key="fpage">5928</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>63035</offset>
+      <text>Futile short&#8208;patch DNA base excision repair of adenine:8&#8208;oxoguanine mispair</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">293</infon>
+      <infon key="pub-id_pmid">9419368</infon>
+      <infon key="fpage">288</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>63115</offset>
+      <text>DNA oxidation matters: the HPLC&#8208;electrochemical detection assay of 8&#8208;oxo&#8208;deoxyguanosine and 8&#8208;oxo&#8208;guanine</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">38124</infon>
+      <infon key="pub-id_pmid">12917422</infon>
+      <infon key="fpage">38121</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>63231</offset>
+      <text>Mutator phenotype of MUTYH&#8208;null mouse embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">431</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">221</infon>
+      <infon key="pub-id_pmid">15322558</infon>
+      <infon key="fpage">217</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>63292</offset>
+      <text>Error&#8208;prone replication of oxidatively damaged DNA by a high&#8208;fidelity DNA polymerase</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="issue">Pt 2</infon>
+      <infon key="lpage">132</infon>
+      <infon key="pub-id_pmid">20124692</infon>
+      <infon key="fpage">125</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>63381</offset>
+      <text>Xds</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5202</infon>
+      <infon key="pub-id_pmid">8643552</infon>
+      <infon key="fpage">5197</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>63385</offset>
+      <text>Cloning and expression in Escherichia coli of the OGG1 gene of Saccharomyces cerevisiae, which codes for a DNA glycosylase that excises 7,8&#8208;dihydro&#8208;8&#8208;oxoguanine and 2,6&#8208;diamino&#8208;4&#8208;hydroxy&#8208;5&#8208;N&#8208;methylformamidopyrimidine</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3215</infon>
+      <infon key="pub-id_pmid">21300901</infon>
+      <infon key="fpage">3210</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63620</offset>
+      <text>Unique active site promotes error&#8208;free replication opposite an 8&#8208;oxo&#8208;guanine lesion by human DNA polymerase iota</text>
+    </passage>
+    <passage>
+      <infon key="volume">96</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">13305</infon>
+      <infon key="pub-id_pmid">10557315</infon>
+      <infon key="fpage">13300</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>63739</offset>
+      <text>Accumulation of premutagenic DNA lesions in mice defective in removal of oxidative base damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">1412</infon>
+      <infon key="pub-id_pmid">1991121</infon>
+      <infon key="fpage">1403</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>63834</offset>
+      <text>NMR structural studies of the ionizing radiation adduct 7&#8208;hydro&#8208;8&#8208;oxodeoxyguanosine (8&#8208;oxo&#8208;7H&#8208;dG) opposite deoxyadenosine in a DNA duplex. 8&#8208;Oxo&#8208;7H&#8208;dG(syn).dA(anti) alignment at lesion site</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">127</infon>
+      <infon key="pub-id_pmid">12517346</infon>
+      <infon key="fpage">121</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>64042</offset>
+      <text>Structure of DNA polymerase beta with the mutagenic DNA lesion 8&#8208;oxodeoxyguanine reveals structural insights into its coding potential</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">811</infon>
+      <infon key="pub-id_pmid">14561766</infon>
+      <infon key="fpage">805</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>64179</offset>
+      <text>Implication of DNA polymerase lambda in alignment&#8208;based gap filling for nonhomologous DNA end joining in human nuclear extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">723</infon>
+      <infon key="pub-id_pmid">7846041</infon>
+      <infon key="fpage">719</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>64309</offset>
+      <text>X&#8208;ray structure of a DNA decamer containing 7,8&#8208;dihydro&#8208;8&#8208;oxoguanine</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18206</infon>
+      <infon key="pub-id_pmid">19820168</infon>
+      <infon key="fpage">18201</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>64386</offset>
+      <text>An 8&#8208;oxo&#8208;guanine repair pathway coordinated by MUTYH glycosylase and DNA polymerase lambda</text>
+    </passage>
+    <passage>
+      <infon key="volume">447</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">608</infon>
+      <infon key="pub-id_pmid">17507928</infon>
+      <infon key="fpage">606</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>64481</offset>
+      <text>8&#8208;oxo&#8208;guanine bypass by human DNA polymerases in the presence of auxiliary proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">20694</infon>
+      <infon key="pub-id_pmid">19104052</infon>
+      <infon key="fpage">20689</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>64569</offset>
+      <text>Replication protein A and proliferating cell nuclear antigen coordinate DNA polymerase selection in 8&#8208;oxo&#8208;guanine repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">20406</infon>
+      <infon key="pub-id_pmid">23175785</infon>
+      <infon key="fpage">20401</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>64694</offset>
+      <text>A switch between DNA polymerases delta and lambda promotes error&#8208;free bypass of 8&#8208;oxo&#8208;G lesions</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">10270</infon>
+      <infon key="pub-id_pmid">8068665</infon>
+      <infon key="fpage">10266</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>64796</offset>
+      <text>Crystal&#8208;Structure of a DNA Duplex Containing 8&#8208;Hydroxydeoxyguanine&#8208;Adenine Base&#8208;Pairs</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="issue">Pt 4</infon>
+      <infon key="lpage">674</infon>
+      <infon key="pub-id_pmid">19461840</infon>
+      <infon key="fpage">658</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>64890</offset>
+      <text>Phaser crystallographic software</text>
+    </passage>
+    <passage>
+      <infon key="volume">174</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">6325</infon>
+      <infon key="pub-id_pmid">1328155</infon>
+      <infon key="fpage">6321</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>64923</offset>
+      <text>The GO system protects organisms from the mutagenic effect of the spontaneous lesion 8&#8208;hydroxyguanine (7,8&#8208;dihydro&#8208;8&#8208;oxoguanine)</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">1033</infon>
+      <infon key="pub-id_pmid">10653647</infon>
+      <infon key="fpage">1029</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>65060</offset>
+      <text>8&#8208;oxodGTP incorporation by DNA polymerase beta is modified by active&#8208;site residue Asn279</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="issue">Pt 4</infon>
+      <infon key="lpage">367</infon>
+      <infon key="pub-id_pmid">21460454</infon>
+      <infon key="fpage">355</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>65153</offset>
+      <text>REFMAC5 for the refinement of macromolecular crystal structures</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">366</infon>
+      <infon key="pub-id_pmid">16061182</infon>
+      <infon key="fpage">357</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>65217</offset>
+      <text>A gradient of template dependence defines distinct biological roles for family X polymerases in nonhomologous end joining</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1412</infon>
+      <infon key="pub-id_pmid">2027747</infon>
+      <infon key="fpage">1407</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>65339</offset>
+      <text>Nmr&#8208;Studies of a DNA Containing 8&#8208;Hydroxydeoxyguanosine</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">1862</infon>
+      <infon key="pub-id_pmid">25741586</infon>
+      <infon key="fpage">1859</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65399</offset>
+      <text>Unlike catalyzing error&#8208;free bypass of 8&#8208;oxodGuo, DNA polymerase lambda is responsible for a significant part of Fapy.dG&#8208;induced G &#8211;&gt; T mutations in human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">DNA Repair (Amst)</infon>
+      <infon key="lpage">1756</infon>
+      <infon key="pub-id_pmid">17686665</infon>
+      <infon key="fpage">1749</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>65568</offset>
+      <text>Human DNA polymerase lambda is a proficient extender of primer ends paired to 7,8&#8208;dihydro&#8208;8&#8208;oxoguanine</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">4656</infon>
+      <infon key="pub-id_pmid">19502493</infon>
+      <infon key="fpage">4642</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>65677</offset>
+      <text>Conferring a template&#8208;dependent polymerase activity to terminal deoxynucleotidyltransferase by mutations in the Loop1 region</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">4414</infon>
+      <infon key="pub-id_pmid">15231648</infon>
+      <infon key="fpage">4411</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>65804</offset>
+      <text>Accumulation of the oxidative base lesion 8&#8208;hydroxyguanine in DNA of tumor&#8208;prone mice defective in both the Myh and Ogg1 DNA glycosylases</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">11215</infon>
+      <infon key="pub-id_pmid">9287163</infon>
+      <infon key="fpage">11205</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>65946</offset>
+      <text>Crystal structures of human DNA polymerase beta complexed with gapped and nicked DNA: evidence for an induced fit mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">349</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">434</infon>
+      <infon key="pub-id_pmid">1992344</infon>
+      <infon key="fpage">431</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>66070</offset>
+      <text>Insertion of specific bases during DNA synthesis past the oxidation&#8208;damaged base 8&#8208;oxodG</text>
+    </passage>
+    <passage>
+      <infon key="volume">178</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">3892</infon>
+      <infon key="pub-id_pmid">8682794</infon>
+      <infon key="fpage">3885</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>66163</offset>
+      <text>Cloning and sequencing a human homolog (hMYH) of the Escherichia coli mutY gene whose function is required for the repair of oxidative DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="issue">Pt 4</infon>
+      <infon key="lpage">380</infon>
+      <infon key="pub-id_pmid">22505257</infon>
+      <infon key="fpage">368</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>66309</offset>
+      <text>Exploiting structure similarity in refinement: automated NCS and target&#8208;structure restraints in BUSTER</text>
+    </passage>
+    <passage>
+      <infon key="volume">405</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">810</infon>
+      <infon key="pub-id_pmid">10866204</infon>
+      <infon key="fpage">807</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>66414</offset>
+      <text>The lyase activity of the DNA repair protein beta&#8208;polymerase protects from DNA&#8208;damage&#8208;induced cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">39959</infon>
+      <infon key="pub-id_pmid">12882965</infon>
+      <infon key="fpage">39951</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>66527</offset>
+      <text>Base excision repair intermediates induce p53&#8208;independent cytotoxic and genotoxic responses</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">DNA Repair (Amst)</infon>
+      <infon key="lpage">875</infon>
+      <infon key="pub-id_pmid">17363341</infon>
+      <infon key="fpage">869</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>66621</offset>
+      <text>Interplay between DNA polymerases beta and lambda in repair of oxidation DNA damage in chicken DT40 cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">168</infon>
+      <infon key="source">Radiat Res</infon>
+      <infon key="lpage">688</infon>
+      <infon key="pub-id_pmid">18088185</infon>
+      <infon key="fpage">683</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>66727</offset>
+      <text>Ionizing radiation sensitivity of DNA polymerase lambda&#8208;deficient cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="issue">Pt 4</infon>
+      <infon key="lpage">302</infon>
+      <infon key="pub-id_pmid">21460447</infon>
+      <infon key="fpage">293</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>66801</offset>
+      <text>Data processing and analysis with the autoPROC toolbox</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="lpage">5230</infon>
+      <infon key="pub-id_pmid">25825995</infon>
+      <infon key="fpage">5225</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>66856</offset>
+      <text>Viewing Human DNA Polymerase beta Faithfully and Unfaithfully Bypass an Oxidative Lesion by Time&#8208;Dependent Crystallography</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">36249</infon>
+      <infon key="pub-id_pmid">12857737</infon>
+      <infon key="fpage">36242</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>66981</offset>
+      <text>Modulation of the 3&#8242;&#8211;&gt;5&#8242;&#8208;exonuclease activity of human apurinic endonuclease (Ape1) by its 5&#8242;&#8208;incised Abasic DNA product</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">4724</infon>
+      <infon key="pub-id_pmid">11095682</infon>
+      <infon key="fpage">4717</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>67114</offset>
+      <text>Error&#8208;prone lesion bypass by human DNA polymerase eta</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">935</infon>
+      <infon key="pub-id_pmid">11160925</infon>
+      <infon key="fpage">928</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>67170</offset>
+      <text>Response of human DNA polymerase iota to DNA lesions</text>
+    </passage>
+    <passage>
+      <infon key="volume">426</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">18542881</infon>
+      <infon key="fpage">419</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>67223</offset>
+      <text>Automated structure solution with the PHENIX suite</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1531 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5167347</id>
+    <passage>
+      <infon key="name_2">surname:Zaczek;given-names:Maciej P</infon>
+      <infon key="name_3">surname:Molodtsov;given-names:Maxim I</infon>
+      <infon key="name_0">surname:Davidson;given-names:Iain F</infon>
+      <infon key="name_1">surname:Goetz;given-names:Daniela</infon>
+      <infon key="name_6">surname:Litos;given-names:Gabriele</infon>
+      <infon key="alt-title">Iain F Davidson et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201695402</infon>
+      <infon key="name_5">surname:Weissmann;given-names:Florian</infon>
+      <infon key="name_8">surname:Ocampo&#8208;Hafalla;given-names:Maria</infon>
+      <infon key="name_9">surname:Ladurner;given-names:Rene</infon>
+      <infon key="lpage">2685 2685</infon>
+      <infon key="fpage">2671 2671</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Cisneros;given-names:David A</infon>
+      <infon key="name_4">surname:Huis in 't Veld;given-names:Pim J</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201695402</infon>
+      <infon key="article-id_pmid">27799150</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="issue">24</infon>
+      <infon key="kwd">cell cycle cohesin genome organization single&#8208;molecule TIRF microscopy transcription Cell Cycle Chromatin, Epigenetics, Genomics &amp; Functional Genomics Transcription</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="pub-id_pmid">27799150</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="name_10">surname:Uhlmann;given-names:Frank</infon>
+      <infon key="name_11">surname:Vaziri;given-names:Alipasha</infon>
+      <infon key="name_12">surname:Peters;given-names:Jan&#8208;Michael</infon>
+      <offset>0</offset>
+      <text>Rapid movement and transcriptional re&#8208;localization of human cohesin on DNA</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>77</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>86</offset>
+      <text>The spatial organization, correct expression, repair, and segregation of eukaryotic genomes depend on cohesin, ring&#8208;shaped protein complexes that are thought to function by entrapping DNA. It has been proposed that cohesin is recruited to specific genomic locations from distal loading sites by an unknown mechanism, which depends on transcription, and it has been speculated that cohesin movements along DNA could create three&#8208;dimensional genomic organization by loop extrusion. However, whether cohesin can translocate along DNA is unknown. Here, we used single&#8208;molecule imaging to show that cohesin can diffuse rapidly on DNA in a manner consistent with topological entrapment and can pass over some DNA&#8208;bound proteins and nucleosomes but is constrained in its movement by transcription and DNA&#8208;bound CCCTC&#8208;binding factor (CTCF). These results indicate that cohesin can be positioned in the genome by moving along DNA, that transcription can provide directionality to these movements, that CTCF functions as a boundary element for moving cohesin, and they are consistent with the hypothesis that cohesin spatially organizes the genome via loop extrusion.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1256</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1269</offset>
+      <text>Cohesin complexes mediate sister chromatid cohesion, which is essential for proper chromosome segregation in dividing cells, but also have important roles in DNA damage repair, recombination, higher&#8208;order chromatin structure, and gene regulation in both proliferating and quiescent cells (reviewed in Merkenschlager &amp; Nora, 2016). The cohesin core complex is composed of four subunits. Three of these, Smc1, Smc3, and Scc1 (also called Rad21 or Mcd1), assemble into tripartite rings with an inner diameter of ~35&#160;nm (Anderson et&#160;al, 2002; Haering et&#160;al, 2002; Gruber et&#160;al, 2003; Ivanov &amp; Nasmyth, 2005; Haering et&#160;al, 2008). The fourth subunit, in mammalian somatic cells either Stag1 or Stag2, is bound to Scc1. Related &#8220;structural maintenance of chromosomes&#8221; (SMC) complexes control the organization of mitotic chromosomes (condensin complexes) and bacterial genomes (Hirano, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2166</offset>
+      <text>To perform its functions, cohesin has to associate with DNA. In vivo, this interaction depends on ATP hydrolysis by Smc1 and Smc3, and on the Nipbl/Mau2 (also known as Scc2/Scc4) cohesin loading complex (Ciosk et&#160;al, 2000; Arumugam et&#160;al, 2003; Weitzer et&#160;al, 2003; Gillespie &amp; Hirano, 2004; Takahashi et&#160;al, 2004; Watrin et&#160;al, 2006; Hu et&#160;al, 2011; Ladurner et&#160;al, 2014) and can be reversed either by the cohesin&#8208;associated protein Wapl or the protease separase. Both of these are thought to open the cohesin ring (Huis in &#8216;t Veld et&#160;al, 2014 and references therein). Experimentally, cohesin&#8211;DNA interactions can also be reversed by cleavage of cohesin, or alternatively by cleavage of DNA (Gruber et&#160;al, 2003;&#160;Ivanov &amp; Nasmyth, 2005). This phenomenon and yeast mini&#8208;chromosome experiments (Haering et&#160;al, 2008) indicate that cohesin entraps DNA inside its ring. It has been proposed that cohesin uses this ability to mediate both sister chromatid cohesion and chromatin loop formation. According to this hypothesis, cohesin would generate cohesion by entrapping two sister DNA molecules (Gruber et&#160;al, 2003; Ivanov &amp; Nasmyth, 2005; Haering et&#160;al, 2008), but would form chromatin loops by encircling two regions of the same DNA molecule (Hadjur et&#160;al, 2009; Nativio et&#160;al, 2009). The latter interactions are thought to contribute to gene regulation by controlling the proximity between enhancer and promoter sequences, and to enable recombination events (Rollins et&#160;al, 1999; Kagey et&#160;al, 2010; Guo et&#160;al, 2011; Seitan et&#160;al, 2011; Medvedovic et&#160;al, 2013; Seitan et&#160;al, 2013). Cohesin performs these functions together with CCCTC&#8208;binding factor (CTCF), a zinc&#8208;finger DNA binding protein that recognizes specific sequences in the genome and with which cohesin co&#8208;localizes at most of its binding sites in mammalian genomes (Parelho et&#160;al, 2008; Wendt et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4069</offset>
+      <text>Although cohesin is enriched at particular sites in the genome and is thought to mediate interactions between specific pairs of these, several observations indicate that the distribution of cohesin in the genome is highly dynamic. In yeast cells, cohesin is recruited to DNA by the cohesin loading complex at sites that are distinct from most of its final binding sites and can be relocated to 3&#8242; ends of active genes by transcription (Glynn et&#160;al, 2004; Lengronne et&#160;al, 2004; Schmidt et&#160;al, 2009; Hu et&#160;al, 2011; Ocampo&#8208;Hafalla et&#160;al, 2016). Also in mammalian cells, the cohesin loading complex has been detected at genomic sites that are distinct from cohesin sites (Kagey et&#160;al, 2010; Zuin et&#160;al, 2014b), consistent with the possibility that cohesin can also be relocated within mammalian genomes. A distinct type of cohesin translocation has been proposed to explain how cohesin and CTCF are able to bring specific sequences into close proximity to mediate the formation of chromatin loops. According to this hypothetical model, distant but defined sequences on a chromosome would be brought into proximity by cohesin which would extrude a chromatin loop until it either encounters boundary elements, such as CTCF bound to its cognate binding sequences, or until it is released from DNA (Nichols &amp; Corces, 2015; Sanborn et&#160;al, 2015; Fudenberg et&#160;al, 2016). However, it remained unknown whether cohesin is actually able to move along DNA, how transcription can relocate cohesin and how CTCF and other DNA&#8208;bound proteins might influence this process.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5638</offset>
+      <text>To address these questions, we visualized cohesin&#8211;DNA interactions at the single&#8208;molecule level in real time using total internal reflection fluorescence (TIRF) microscopy. This revealed that human cohesin translocates rapidly on DNA, as was also reported during preparation of our manuscript for fission yeast cohesin and the SMC complex from Bacillus subtilis (Kim &amp; Loparo, 2016; Stigler et&#160;al, 2016). Our experiments show further that recombinant human cohesin is released from DNA following DNA or cohesin ring cleavage, but not by high&#8208;salt treatment, indicating that cohesin topologically entrapped DNA in our reconstituted system. Under these conditions, cohesin is able to pass over some DNA&#8208;bound proteins and nucleosomes but is constrained in its movement by T7 RNA polymerase and CTCF. These results are consistent with the hypotheses that cohesin is positioned in the genome by rapidly moving along DNA via passive diffusion, that transcription can provide directionality to these movements, and that CTCF functions as a boundary element to translocating cohesin.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6724</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6732</offset>
+      <text>Recombinant human tetrameric cohesin complexes bind to DNA, translocate rapidly in high&#8208;salt buffer, and are released following DNA or cohesin cleavage</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6886</offset>
+      <text>We first reconstituted the binding of recombinant human cohesin composed of Smc1, Smc3, Scc1, and Stag1 (Fig&#160;1A) to DNA, using a bulk assay developed by Murayama and Uhlmann (Murayama &amp; Uhlmann, 2014). These authors observed that loading of fission yeast cohesin onto circular DNA is stimulated by the cohesin loading complex and ATP and that the resulting cohesin&#8211;DNA interactions are sensitive to Scc1 and DNA cleavage, consistent with topological entrapment. In our experiments, human cohesin could bind a small amount of circular 3.3&#160;kb DNA (around 1&#8211;10%, depending on elution method) in the absence of the cohesin loading complex and in a manner that was not enhanced by ATP (Figs&#160;EV1A and EV2A&#8211;D). This binding was greatly reduced if DNA had been linearized (Fig&#160;1B) or if a form of cohesin was used in which a recognition site for tobacco etch virus (TEV) protease engineered into Scc1 had been cleaved (Fig&#160;1C and D). This treatment opens the cohesin ring (Huis in &#8216;t Veld et&#160;al, 2014) and mimics cohesin cleavage by separase, which initiates sister chromatid separation. Like fission yeast cohesin, a small amount of human cohesin can therefore associate with DNA spontaneously in the absence of the cohesin loading complex in a manner that depends on circularity of cohesin and DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8193</offset>
+      <text>Recombinant human tetrameric cohesin complexes bind to DNA, translocate rapidly in high&#8208;salt buffer, and are released following DNA or cohesin cleavage</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8347</offset>
+      <text>Instant Blue stained SDS&#8211;polyacrylamide gel of Scc1wt&#8208;cohesin tetramers used in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8436</offset>
+      <text>Cohesin loading assay. Scc1wt&#8208;cohesin tetramer was incubated with nicked circular (C) or 1&#215;, 2&#215;, or 4&#215; concentration of linearized (L) plasmid DNA, immunoprecipitated with anti&#8208;Scc1 antibodies, washed with high&#8208;salt buffer, and then eluted with Scc1 peptide. Recovered DNA was separated by agarose gel electrophoresis and stained with GelRed DNA stain. Input DNA&#160;=&#160;7%. Mean &#177; SEM is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8838</offset>
+      <text>Silver stained SDS&#8211;polyacrylamide gel of non&#8208;cleaved and cleaved Scc1Halo&#8208;TEV&#8208;cohesin tetramers used in (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8955</offset>
+      <text>Non&#8208;cleaved and cleaved Scc1Halo&#8208;TEV&#8208;cohesin tetramer were incubated with nicked circular plasmid DNA and processed as in (B). Input DNA&#160;=&#160;4%. Mean &#177; SEM is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9128</offset>
+      <text>Kymograph of Scc1GFP&#8208;TEV&#8208;cohesin bound to doubly tethered &#955;&#8208;DNA in cohesin binding buffer and washed with 750&#160;mM NaCl buffer&#160;+&#160;Sytox Orange. XhoI flow in induced DNA cleavage and cohesin release.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9334</offset>
+      <text>Kymographs of Scc1GFP&#8208;TEV&#8208;cohesin and Scc1GFP&#8208;cohesin bound to doubly tethered &#955;&#8208;DNA and washed with 750&#160;mM NaCl buffer. TEV protease flow in released Scc1GFP&#8208;TEV but not Scc1GFP from DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9535</offset>
+      <text>Data information: Flow in from top and scale bar&#160;=&#160;5&#160;&#956;m in all kymographs.Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9663</offset>
+      <text>Characterization of recombinant human tetrameric cohesin complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9730</offset>
+      <text>Cohesin loading assay. Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin tetramer was incubated with nicked circular plasmid DNA, immunoprecipitated with anti&#8208;Scc1 antibodies, and washed with high&#8208;salt buffer. DNA was eluted using proteinase K, separated by agarose gel electrophoresis, and stained with GelRed DNA stain. Input DNA&#160;=&#160;10%. Mean &#177; SEM are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10079</offset>
+      <text>Silver staining of purified recombinant human Scc1GFP, Scc1GFP&#8208;TEV and Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin tetramers after SDS&#8211;polyacrylamide gel electrophoresis (PAGE). TMR was visualized by UV excitation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10285</offset>
+      <text>Xenopus sperm chromatin, purified human cohesin, and interphase Xenopus egg extract were incubated for 75&#160;min. TEV protease was then added for 15&#160;min to cleave Scc1TEV. Chromatin&#8208;bound material was analyzed by immunoblotting. Human and Xenopus Scc1 can be distinguished by the GFP/Halo&#8208;induced mobility shift.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10601</offset>
+      <text>Kymographs of Scc1GFP&#8208;TEV&#8208;cohesin binding to singly or doubly tethered bacteriophage &#955; genomic DNA in cohesin binding buffer&#160;+&#160;Sytox Orange. Doubly tethered DNA molecules were extended in the presence and absence of buffer flow, whereas singly tethered DNA molecules were only stretched under flow. The diffusion of Scc1GFP&#8208;TEV&#8208;cohesin on doubly tethered DNA was minimal in low&#8208;salt buffer. Scc1GFP&#8208;TEV&#8208;cohesin rapidly compacted singly tethered DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11068</offset>
+      <text>Kymograph of Scc1GFP&#8208;TEV&#8208;cohesin bound to &#955;&#8208;DNA during buffer exchange from cohesin binding buffer to 750 mM NaCl buffer.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11197</offset>
+      <text>Kymograph of Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin bound to doubly tethered &#955;&#8208;DNA in cohesin binding buffer and washed with 750&#160;mM NaCl buffer&#160;+&#160;Sytox Green. Note the existence of bright and dim cohesin complexes on DNA. The DNA broke spontaneously at 188&#160;s, releasing translocating cohesin complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11499</offset>
+      <text>Representative field of view showing Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin bound to &#955;&#8208;DNA in cohesin binding buffer.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11612</offset>
+      <text>Representative field of view showing Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin bound to &#955;&#8208;DNA after 750&#160;mM NaCl wash. Upper panels: flow off; lower panels: flow on. Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin was pushed to the ends of doubly tethered DNA molecules by buffer flow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11873</offset>
+      <text>Data information: Flow in from top and scale bar&#160;=&#160;5&#160;&#956;m in all kymographs.Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12001</offset>
+      <text>ATP is not required for the salt&#8208;resistant binding of cohesin to DNA and does not affect the diffusion coefficient of cohesin on DNA</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12136</offset>
+      <text>Silver stained SDS&#8211;polyacrylamide gel of cohesin complexes used in (B&#8211;F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12214</offset>
+      <text>Thin&#8208;layer chromatography of [&#947;&#8208;32P]&#8208;ATP hydrolysis following incubation with cohesin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12308</offset>
+      <text>Smc1/3 wild&#8208;type or K38A ATP binding&#8208;deficient &#8220;KA&#8221; Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin was incubated with nicked circular plasmid DNA in the presence or absence of nucleotide analogues and immunoprecipitated with anti&#8208;Scc1 antibodies. Eluted DNA was separated by agarose gel electrophoresis. Input DNA&#160;=&#160;5%. Mean &#177; SEM are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12647</offset>
+      <text>High temporal resolution kymographs of single Smc1/3 wild&#8208;type or KA Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin complexes bound to doubly tethered &#955;&#8208;DNA in the presence or absence of ATP and washed with 750&#160;mM NaCl buffer. Scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12886</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12936</offset>
+      <text>To visualize cohesin, we fused wild&#8208;type and TEV protease&#8208;cleavable Scc1 to green fluorescent protein (GFP) or HaloTag, which we labeled with tetramethylrhodamine (TMR; Fig&#160;EV1B). Cleavage of Scc1Halo&#8208;TEV or Scc1GFP&#8208;TEV by TEV protease did not displace it from Smc1/Smc3, indicating that the non&#8208;cleaved cohesin complexes were ring&#8208;shaped (Figs&#160;1C and EV3A; Huis in &#8216;t Veld et&#160;al, 2014). Cohesin containing Scc1GFP or Scc1Halo associated with chromatin in Xenopus egg extract and was released following TEV protease&#8208;mediated Scc1TEV cleavage (Fig&#160;EV1C; Huis in &#8216;t Veld et&#160;al, 2014). HeLa cells in which all Scc1 alleles were modified by CRISPR&#8208;Cas9 to express Scc1GFP were viable and proliferated similarly to wild&#8208;type cells (Appendix&#160;Fig S1). Cohesin containing fluorescently tagged Scc1 is therefore able to perform its essential cellular functions. We flowed these complexes into microscopy chambers in which linear biotinylated &#955;&#8208;phage DNA (48,502&#160;bp; 16&#160;&#956;m) had been tethered at one or both ends (median tether length 10.6&#160;&#956;m, Appendix&#160;Fig S2) to an avidin&#8208;modified glass surface (Yardimci et&#160;al, 2010) and imaged cohesin&#8211;DNA interactions using a Zeiss TIRF 3 Axio Observer microscope. In low&#8208;salt buffer and in the absence of exogenously added ATP, cohesin bound all DNA and compacted singly but not doubly tethered molecules (Fig&#160;EV1D and G). This compaction activity was reminiscent of that reported for yeast Smc1&#8211;Smc3 heterodimers (Sun et&#160;al, 2013), the Xenopus condensin I complex (Strick et&#160;al, 2004), and Bacillus subtilis SMC (Kim &amp; Loparo, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14548</offset>
+      <text>Cohesin dimers or cleaved tetramers are deficient in DNA binding</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14613</offset>
+      <text>Silver staining and Western blotting of non&#8208;cleaved and cleaved Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin tetramers complexes used in (B, C). TMR was visualized by UV excitation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14783</offset>
+      <text>Representative fields of view of &#955;&#8208;DNA flow chambers incubated with non&#8208;cleaved (upper panels) or cleaved (lower panels) cohesin and washed with 25&#160;mM NaCl, 25&#160;mM KCl buffer plus Sytox Green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14982</offset>
+      <text>Quantification of non&#8208;cleaved or cleaved cohesin bound to DNA; 226 DNA molecules were analyzed for non&#8208;cleaved, 245 for cleaved.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15115</offset>
+      <text>Silver stained SDS&#8211;polyacrylamide gel of cohesin dimers and tetramers used in (E, F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15203</offset>
+      <text>Representative fields of view of &#955;&#8208;DNA flow chambers incubated with cohesin dimers (upper panels) or tetramers (lower panels) and washed with 25&#160;mM NaCl, 25&#160;mM KCl buffer plus Sytox Green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15397</offset>
+      <text>Quantification of cohesin dimers or tetramers bound to DNA; 205 DNA molecules were analyzed for dimer, 173 for tetramer.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15518</offset>
+      <text>Data information: Scale bar&#160;=&#160;5&#160;&#956;m.Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15607</offset>
+      <text>To test whether the observed cohesin&#8211;DNA interactions were similar to the ones in cells, we first exposed cohesin bound to &#955;&#8208;DNA to high&#8208;salt buffer (750&#160;mM NaCl), which extracts most proteins except cohesin (Ciosk et&#160;al, 2000; Murayama &amp; Uhlmann, 2014). This removed most cohesin and what remained was pushed by buffer flow to the ends of the doubly tethered DNA, but moved rapidly along DNA upon cessation of flow (Fig&#160;EV1E, F and H). When we flowed the restriction enzyme XhoI, which cuts &#955;&#8208;DNA at 33,498&#160;bp, into the microscopy chamber, high&#8208;salt&#8208;resistant cohesin was rapidly released from 89% of DNA molecules (n&#160;=&#160;104) (Fig&#160;1E and Appendix&#160;Fig S3A). Likewise, cohesin was released when DNA broke spontaneously (Fig&#160;EV1F, last frame). Unlike intact cohesin complexes, tetrameric complexes that had been cleaved by TEV protease during purification failed to bind to DNA (Fig&#160;EV3A&#8211;C). Scc1 cleavage also released cohesin after DNA binding as TEV protease gradually released high&#8208;salt&#8208;resistant Scc1GFP&#8208;TEV&#8208;cohesin, but not Scc1GFP&#8208;cohesin, from DNA, indicating that cohesin opened by Scc1 cleavage cannot persist on DNA (Fig&#160;1F and Appendix&#160;Fig S3B). Consistently, Smc1/Smc3Halo&#8208;TMR dimers also failed to bind to DNA (Fig&#160;EV3D&#8211;F). In the absence of the cohesin loading complex and exogenously added ATP, some cohesin therefore associates with DNA similarly to how cohesin interacts with DNA in cells, in that these interactions are high&#8208;salt resistant and dependent on DNA and cohesin integrity. In subsequent experiments, we only analyzed salt&#8208;resistant cohesin on doubly tethered DNA. Although our results do not prove that high&#8208;salt&#8208;resistant cohesin entraps DNA, they can clearly be explained by and are consistent with this hypothesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17403</offset>
+      <text>Single cohesin complexes bind to DNA and translocate rapidly in high&#8208;salt buffer</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17486</offset>
+      <text>Cohesin structures that moved on DNA displayed varying fluorescent intensities, indicating that most contained several molecules (Fig&#160;EV1F). Within these structures, most cohesin complexes must interact with DNA similarly, possibly by entrapping DNA, because Scc1 cleavage released cohesin gradually (Fig&#160;1F), and not in one step, as one might have expected if only one cohesin ring had encircled DNA and the others had only been associated with this cohesin molecule. Whether cohesin oligomerization occurs in cells is unknown. We therefore analyzed if single molecules could be detected on a custom&#8208;built TIRF microscope with higher optical sensitivity and temporal resolution. Here, some cohesin structures bleached in one step (Fig&#160;2A&#8211;C), indicating they carried a single fluorophore and therefore represented single molecules. These complexes moved rapidly on DNA, with a diffusion coefficient of 1.72&#160;&#177;&#160;0.1&#160;&#956;m2/s (Fig&#160;2D). This is up to four orders of magnitude higher than the diffusion coefficients of many other DNA binding proteins (Gorman &amp; Greene, 2008) and is similar to that of human PCNA and fission yeast cohesin sliding on naked DNA (Kochaniak et&#160;al, 2009; Stigler et&#160;al, 2016). Movements were not only seen in 750&#160;mM NaCl but also in more physiological salt concentrations (75&#160;mM NaCl and 75&#160;mM KCl, see below), ruling out high&#8208;salt artifacts. The unusual rate at which this movement occurs further supports the hypothesis that cohesin entraps DNA. The diffusion coefficients of wild type and ATP binding&#8208;mutant forms of cohesin were similar in the presence and absence of ATP, suggesting that ATP is not required for cohesin translocation (Figs&#160;2D and EV2E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19187</offset>
+      <text>Single cohesin complexes bind to DNA and translocate rapidly in high&#8208;salt buffer</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19270</offset>
+      <text>Kymograph of a single DNA&#8208;bound Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin complex after 750&#160;mM NaCl buffer wash.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19375</offset>
+      <text>Distribution of background subtracted EMCCD counts of Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin complexes immobilized on the coverslip. Peaks at &#732;4&#160;&#215;&#160;103 and &#732;8&#160;&#215;&#160;103 EMCCD counts correspond to single fluorophores and a small fraction of double fluorophores, respectively. n&#160;=&#160;290 regions with fluorescent molecules, 228 regions with background.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19720</offset>
+      <text>Photobleaching kinetics of a single DNA&#8208;bound Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19808</offset>
+      <text>Diffusion coefficients of Smc1/3 wild&#8208;type or K38A ATP binding&#8208;deficient &#8220;KA&#8221; forms of Scc1Halo&#8208;TMR&#8208;TEV&#8208;cohesin in the presence or absence of ATP. Diffusion coefficients were calculated based on the linear fit of the average mean square displacement of &#8805;&#160;13 freely diffusing molecules per condition over a 1&#8208;s time period. Mean &#177; SEM is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20172</offset>
+      <text>Data information: Scale bar&#160;=&#160;5&#160;&#956;m.Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20261</offset>
+      <text>Cohesin bypasses DNA&#8208;bound TetRHalo&#8208;TMR, Halo&#8208;TMREcoRIE111Q, and TMR&#8208;labeled nucleosomes but not QDotEcoRIE111Q</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20381</offset>
+      <text>In cells, most DNA is assembled into nucleosomal 10&#8208;nm chromatin fibers. We therefore tested if cohesin can also move on DNA associated with other proteins. First, we bound Halo&#8208;tagged bacterial Tet repressor (TetR) to 26,192&#8208;bp DNA containing seven Tet operator sequences (pPlat&#8208;TetO) (Appendix&#160;Figs S4A and B, and S5A and B; the diameter of dimeric DNA&#8208;bound TetR excluding HaloTags is ~7&#160;nm), flowed in Scc1GFP&#8208;TEV&#8208;cohesin, and washed with &#8220;medium&#8208;salt buffer&#8221; (75&#160;mM NaCl and 75&#160;mM KCl) to increase cohesin diffusion because high salt would have disrupted TetR&#8211;DNA interactions. Under these conditions, 27 out of 37 diffusing Scc1GFP&#8208;TEV&#8208;cohesin structures passed TetRHalo&#8208;TMR in 160&#160;s (Fig&#160;3A). Similar observations were made when we analyzed cohesin on &#955;&#8208;DNA bound by catalytically inactive, Halo&#8208;tagged EcoRIE111Q (Appendix&#160;Figs S4C and D, and S5A and C; the diameter of dimeric DNA&#8208;bound EcoRIE111Q excluding HaloTags is ~5&#160;nm); 89 out of 98 diffusing Scc1GFP&#8208;TEV&#8211;cohesin structures readily passed Halo&#8208;TMREcoRIE111Q bound to the five EcoRI sites on &#955;&#8208;DNA in 160&#160;s in medium&#8208;salt buffer (Fig&#160;3B; for high temporal resolution imaging, see Appendix&#160;Fig S6A). Under similar conditions (100&#160;mM NaCl), EcoRI binds to DNA with a half&#8208;life of 22&#160;h and blocks the passage of other DNA&#8208;binding proteins (for references, see Finkelstein et&#160;al, 2010), implying that cohesin could not simply pass because EcoRI transiently dissociated from DNA. We next prepared TMR&#8208;labeled recombinant histone octamers (Appendix&#160;Figs S4E and S5E, diameter ~11&#160;nm) and deposited them onto pPlat at random or at a 601 strong positioning sequence (Appendix&#160;Fig S4F); 25 out of 40 cohesin structures passed nucleosomes on pPlat, and 33 out of 56 passed nucleosomes on pPlat&#8208;601 (Fig&#160;3C). In contrast, cohesin was unable to pass EcoRIE111Q that was immunocoupled to quantum dots (approximate diameter ~21&#160;nm; Appendix&#160;Fig S5F). None of 30 Scc1GFP&#8208;TEV&#8211;cohesin structures passed QDotEcoRIE111Q in 160&#160;s (Fig&#160;3D; for high temporal resolution imaging, see Appendix&#160;Fig S6B), indicating that cohesin can pass DNA&#8208;bound proteins similar in size to nucleosomes (~11&#160;nm), but not over larger structures (&#8805;&#160;21&#160;nm). Cohesin might therefore also be able to move along DNA in cells, possibly without nucleosomes having to be disassembled or cohesin having to be released and reloaded. Consistent with the latter interpretation, we observed that cohesin complexes did not&#160;pass over each other, as cohesin structures of different fluorescent intensities never switched positions when moving on DNA (Fig&#160;EV1F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23042</offset>
+      <text>Cohesin bypasses DNA&#8208;bound TetRHalo&#8208;TMR, Halo&#8208;TMREcoRIE111Q, and TMR&#8208;labeled nucleosomes but not QDotEcoRIE111Q</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23162</offset>
+      <text>Kymograph of salt&#8208;resistant Scc1GFP&#8208;TEV&#8208;cohesin diffusing past (A) TetO&#8208;DNA&#8208;bound TetRHalo&#8208;TMR, (B) DNA&#8208;bound Halo&#8208;TMREcoRIE111Q, and (C) a pPlat&#8208;DNA&#8208;bound TMR&#8208;labeled nucleosome.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23364</offset>
+      <text>Kymograph of salt&#8208;resistant Scc1GFP&#8208;TEV&#8208;cohesin failing to bypass DNA&#8208;bound QDotEcoRIE111Q. DNA was stained with Sytox Orange.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23499</offset>
+      <text>Data information: Scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23539</offset>
+      <text>Transcription and CTCF constrain cohesin translocation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23594</offset>
+      <text>To test whether transcription affects cohesin movement on DNA, we used T7 bacteriophage RNA polymerase (T7 RNAP), a highly processive single&#8208;subunit enzyme that is easier to manipulate than eukaryotic RNA polymerases. We first analyzed the effect of T7 RNAP on the in&#160;vivo genomic distribution of cohesin in budding yeast (Fig&#160;EV4; Ocampo&#8208;Hafalla et&#160;al, 2016). We replaced the endogenous promoter of the GAL2 gene with a T7 promoter and determined the localization of cohesin in the vicinity of this locus using chromatin immunoprecipitation (ChIP) and high&#8208;resolution tiling arrays. Cohesin covered the GAL2 region in the absence of T7 RNAP (Fig&#160;EV4A) but was cleared from this region in a strain that expressed T7 RNAP (Fig&#160;EV4B) and accumulated at the site of a T7 terminator sequence in a strain in which this sequence has been inserted downstream of the GAL2 gene (Fig&#160;EV4C). This suggests that T7 RNAP expression in budding yeast can relocate cohesin in&#160;vivo, indicating that T7 RNAP represents a valid model for analyzing transcriptional effects on cohesin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24672</offset>
+      <text>Cohesin translocation by T7 RNA polymerase transcription in budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24746</offset>
+      <text>Cohesin distribution in a strain containing the T7 promoter&#8208;GAL2 locus and the T7 terminator, but not expressing T7 RNAP.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24870</offset>
+      <text>As in (A), except the strain expresses T7 RNAP fused to a nuclear localization signal under control of the yeast housekeeping ADH1 promoter, and lacks the T7 terminator sequence.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25049</offset>
+      <text>As in (B), but in a strain that includes the T7 terminator sequence.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25118</offset>
+      <text>Cohesin distribution along a section of chromosome 12 is shown, as detected by chromatin immunoprecipitation of the Pk epitope&#8208;tagged Scc1 subunit. Yellow coloring indicates a detection P&#8208;value for the microarray probe set at this location of P&#160;&lt;&#160;0.001. Blue bars above and below the midline are genes transcribed from left to right and from right to left, respectively. The promoter of the GAL2 gene was replaced by a T7 promoter consensus sequence, while a T7 terminator sequence was inserted between the EMP70 and RAX2 gene. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25653</offset>
+      <text>In the presence of nucleoside triphosphates (NTPs), recombinant Halo&#8208;TMRT7 RNAP (Appendix&#160;Fig S4G and H) rapidly bound to pPlat DNA into which we had inserted a 20&#8208;bp T7 RNAP promoter sequence (pPlat&#8208;T7) and translocated uni&#8208;directionally at a rate similar to published estimates (Fig&#160;4A; Zhang et&#160;al, 2014). Multiple fluorescent Halo&#8208;TMRT7 RNAP structures were seen per DNA. Many of&#160;these moved over distances &gt;&#160;10&#160;kb. Translocation was halted upon NTP washout and restarted following their re&#8208;addition (Fig&#160;4B and C), indicating that Halo&#8208;TMRT7 RNAP movement represents transcription.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26261</offset>
+      <text>Transcription constrains cohesin translocation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26308</offset>
+      <text>Kymograph of two Halo&#8208;TMRT7 RNAP transcription elongation events.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26376</offset>
+      <text>Kymographs showing (B) Halo&#8208;TMRT7 RNAP transcription stalling following removal of NTPs and (C) subsequent resumption after NTP flow in.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26515</offset>
+      <text>Kymograph of Halo&#8208;TMRT7 RNAP (diameter &#732;8&#160;nm excluding HaloTag) displacing Scc1GFP&#8208;TEV&#8208;cohesin following resumption of transcription in T7 reaction buffer&#160;+&#160;NTPs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26688</offset>
+      <text>Kymograph of Halo&#8208;TMRT7 RNAP constraining translocation of salt&#8208;resistant Scc1GFP&#8208;TEV&#8208;cohesin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26791</offset>
+      <text>Data information: Flow in from top and scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26852</offset>
+      <text>To test whether transcription can displace cohesin, we stalled Halo&#8208;TMRT7 RNAP, flowed in cohesin and then restarted transcription. Halo&#8208;TMRT7 RNAP was able to displace cohesin and translocate it over several kb (Fig&#160;4D). Since Scc1GFP&#8208;TEV&#8208;cohesin and Halo&#8208;TMRT7 RNAP often co&#8208;localized even when not moving, implying that they&#160;might interact with each other, we could not determine whether Halo&#8208;TMRT7 RNAP pushed or pulled cohesin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27301</offset>
+      <text>The above experiments were performed in a low&#8208;salt buffer because T7 RNAP does not transcribe DNA in the presence of higher salt concentrations. To determine whether Halo&#8208;TMRT7 RNAP could also displace salt&#8208;resistant cohesin, that is, cohesin that might entrap DNA, we first washed DNA&#8208;bound cohesin with medium&#8208;salt buffer and then added Halo&#8208;TMRT7 RNAP and NTPs in the same&#160;buffer conditions as in Fig&#160;4A and D. Under these conditions, Halo&#8208;TMRT7 RNAP diffused rapidly along the DNA with cohesin. Occasionally, cohesin&#8208;Halo&#8208;TMRT7 RNAP complexes converted to unidirectional movement, suggesting either that Halo&#8208;TMRT7 RNAP could transcribe when bound to cohesin that might have entrapped DNA, or that these complexes could be displaced by other transcribing Halo&#8208;TMRT7 RNAP molecules (Fig&#160;4E). Even though cohesin does not normally encounter bacteriophage enzymes, these results indicate that cohesin can be constrained in its movement and be displaced by transcription and imply that similar movements may be mediated by eukaryotic RNA polymerases.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28377</offset>
+      <text>If cohesin translocates on DNA in a manner that is constrained by transcription, it is conceivable that cohesin accumulates at CTCF sites in&#160;vivo because CTCF acts as a physical barrier to cohesin movement. To test this, we first generated Halo&#8208;tagged CTCF (Appendix&#160;Fig S7A) and characterized its DNA binding activity using electrophoretic mobility shift assays. Halo&#8208;TMRCTCF bound to a radiolabeled 100&#8208;bp DNA probe containing a CTCF&#8208;binding site from the H19/IGF2 imprinted control region (m3 wt) and to a probe containing a &#8220;high occupancy&#8221; CTCF&#8208;binding site (High Oc1, Plasschaert et&#160;al, 2014) but not to a probe containing a mutated m3 sequence (m3 mt, Ishihara et&#160;al, 2006; Appendix&#160;Fig S7B). Binding of Halo&#8208;TMRCTCF to m3 wt DNA could be outcompeted using an excess of unlabeled wild&#8208;type but not mutated DNA (Appendix&#160;Fig S7C). When Halo&#8208;TMRCTCF was introduced into a flow cell containing 26,323&#8208;bp DNA molecules with an array of four closely spaced high occupancy CTCF sites (pPlat 4xCTCF) and exposed to a medium&#8208;salt wash, some Halo&#8208;TMRCTCF molecules were observed at various positions on the DNA or translocated dynamically, but in most cases, CTCF was enriched at the position containing the array of CTCF&#8208;binding sites (Fig&#160;5A), indicating that Halo&#8208;TMRCTCF can recognize its cognate binding sites in&#160;vitro.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29738</offset>
+      <text>CTCF constrains cohesin translocation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29776</offset>
+      <text>Representative field of view showing Halo&#8208;TMRCTCF bound to pPlat&#8208;4xCTCF following 75&#160;mM NaCl, 75&#160;mM KCl buffer wash. Arrows denote CTCF bound at predicted site of 4xCTCF array.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29959</offset>
+      <text>Kymograph of salt&#8208;resistant Scc1GFP&#8208;TEV&#8208;cohesin failing to bypass DNA&#8208;bound Halo&#8208;TMRCTCF. DNA was post&#8208;stained with Sytox Green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30100</offset>
+      <text>Data information: Scale bars&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30141</offset>
+      <text>To test whether CTCF constrains the movement of cohesin, we bound Halo&#8208;tagged CTCF to pPlat&#8208;4xCTCF, flowed in Scc1GFP&#8208;TEV&#8208;cohesin and washed with medium&#8208;salt buffer. Out of 40 instances in which Scc1GFP&#8208;TEV&#8208;cohesin translocated independently of CTCF molecules that were immobilized at the expected position on the DNA template, 34 failed to pass Halo&#8208;TMRCTCF in 160&#160;s and instead translocated away from Halo&#8208;TMRCTCF again (Fig&#160;5B and Appendix&#160;Fig S7D and E). Similar results were obtained using a DNA template containing a single CTCF&#8208;binding site (41 out of 56 cohesin structures failed to pass CTCF, Appendix&#160;Fig S7F). This indicates that CTCF per se accounts for this effect, rather than changes in DNA topology that could occur as the result of interactions between CTCF molecules associated with different binding sites. DNA&#8208;bound CTCF therefore poses an obstacle to translocating cohesin and may thus contribute to positioning of cohesin in the genome by functioning as a boundary element.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>31163</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31174</offset>
+      <text>Although cohesin could principally mediate cohesion by connecting sister chromatids at any position, the genomic distribution of cohesin as analyzed by chromatin immunoprecipitation (ChIP) techniques is highly uneven in species from yeast to men (Blat &amp; Kleckner, 1999; Megee et&#160;al, 1999; Tanaka et&#160;al, 1999; Parelho et&#160;al, 2008; Wendt et&#160;al, 2008). Cohesin is most enriched at centromeres where it is thought to confer particularly strong cohesion that can resist the pulling force of spindle microtubules (Megee et&#160;al, 1999; Tanaka et&#160;al, 1999). Cohesin accumulation at particular chromosomal arm sites is also thought to contribute to cohesion, but has in addition been functionally attributed to the formation of long&#8208;range chromosomal cis interactions in Drosophila and mammalian genomes (Rollins et&#160;al, 1999; Hadjur et&#160;al, 2009; Nativio et&#160;al, 2009; Kagey et&#160;al, 2010; Guo et&#160;al, 2011; Seitan et&#160;al, 2011; Medvedovic et&#160;al, 2013; Seitan et&#160;al, 2013). Despite the static picture of cohesin distribution seen in ChIP experiments, it has long been suspected that the distribution of cohesin on DNA must be dynamic, as there is evidence in yeast that cohesin loaded onto DNA at centromeres is relocated to chromosomal arm sites (Megee et&#160;al, 1999; Hu et&#160;al, 2011) and that transcription can relocate cohesin (Glynn et&#160;al, 2004; Lengronne et&#160;al, 2004; Schmidt et&#160;al, 2009; Ocampo&#8208;Hafalla et&#160;al, 2016). As in yeast, the mammalian cohesin loading complex has been detected at genomic sites that are distinct from sites at which cohesin accumulates (Kagey et&#160;al, 2010; Zuin et&#160;al, 2014b), consistent with the possibility that cohesin is also recruited to DNA by the loading complex at specific sites and subsequently positioned elsewhere. However, the mechanistic basis of these re&#8208;localization processes remained poorly understood. It has been proposed that cohesin can slide along DNA (Lengronne et&#160;al, 2004), but it is also conceivable that cohesin would be positioned at distant sites by the cohesin loading complex in trans, which could contact such sites via chromatin looping (discussed in Peters &amp; Nishiyama, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33325</offset>
+      <text>Our work and the recent observations by Stigler et&#160;al (2016) reveal that cohesin can indeed translocate along DNA by passive diffusion at a rate of 1.72&#160;&#177;&#160;0.1&#160;&#956;m2/s (our study) &#8211; 3.8&#160;&#177;&#160;0.2&#160;&#956;m2/s (Stigler et al, 2016). This is comparable to the diffusion coefficient of soluble cohesin in cells, which has been estimated to be 2.96&#160;&#177;&#160;0.19&#160;&#956;m2/s (Ladurner et&#160;al, 2014). This phenomenon is difficult to explain by cohesin&#8211;DNA interaction modes other than the embracement model, according to which cohesin would entrap DNA inside its ring structure (Haering et&#160;al, 2008). Furthermore, we found that cohesin&#8211;DNA interactions in our in&#160;vitro assays were abrogated by either DNA or cohesin cleavage but resistant to high&#8208;salt (750&#160;mM NaCl) treatment, properties that reflect how cohesin interacts with DNA in cells (Ciosk et&#160;al, 2000; Gruber et&#160;al, 2003; Ivanov &amp; Nasmyth, 2005) and which strongly support the embracement model. As predicted by this model, we found that a cohesin subcomplex only containing Smc1 and Smc3, which cannot form stably closed ring structures, was unable to associate with DNA under our assays conditions, further indicating that the cohesin&#8211;DNA interactions we observed were not simply caused by non&#8208;specific binding modes. Surprisingly, however, cohesin could associate with DNA in the absence of the cohesin loading complex and ATP, both of which are thought to be essential for cohesin loading onto DNA in&#160;vivo (Ciosk et&#160;al, 2000; Arumugam et&#160;al, 2003; Weitzer et&#160;al, 2003; Hu et&#160;al, 2011; Ladurner et&#160;al, 2014). Interestingly, it has recently been observed that a specific cohesin mutant that is defective in ATPase activity can be loaded onto DNA and mediate cohesion in&#160;vivo (Camdere et&#160;al, 2015; Elbatsh et&#160;al, 2016), and a low level of in&#160;vitro loading of fission yeast cohesin onto DNA in the absence of the loading complex and ATP has also been observed (Murayama &amp; Uhlmann, 2014). We therefore suspect that under our assay conditions cohesin complexes can open and close spontaneously to entrap DNA. If correct, the cohesin loading complex and ATP might have catalytic roles in cohesin loading, that is, they would affect the rate and required activation energy but not the outcome of the cohesin loading process.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35616</offset>
+      <text>How single cohesin complexes bind to and diffuse along fully chromatinized DNA at physiological salt concentrations remains an important question for the future, but the observation made by both Stigler et&#160;al (2016) and us that cohesin can pass nucleosomes and several different DNA&#8208;bound proteins implies that cohesin may also be able to translocate along chromatin in cells. Interestingly, both human (our study) and fission yeast cohesin (Stigler et&#160;al, 2016) could pass DNA&#8208;bound proteins smaller than ~11&#160;nm in diameter but not obstacles with a diameter of more than ~21&#160;nm. These findings imply that cohesin may not exist in the &#8220;open&#8221; conformation with an inner ring diameter of 35&#160;nm in which cohesin has been observed by rotary shadowing electron microscopy when it is not associated with DNA (Anderson et&#160;al, 2002; Huis in &#8216;t Veld et&#160;al, 2014). Instead, cohesin may adopt a different conformation on DNA in which the ring diameter is smaller. Conformations other than the open ring state have indeed been observed for condensin, Bacillus subtilis SMC and recently also for human cohesin complexes, but in all these cases the coiled coil regions of the SMC proteins were &#8220;closed&#8221;, creating rod&#8208;shaped complexes with little central opening at all (Melby et&#160;al, 1998; Anderson et&#160;al, 2002; Huis in &#8216;t Veld et&#160;al, 2014; Soh et&#160;al, 2015; Hons et&#160;al, 2016). The finding that cohesin can pass obstacles up to 11&#160;nm in diameter implies that cohesin embracing DNA may exist in yet a different conformation in which its ring structure is partially opened or can rapidly alternate between different conformations.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37260</offset>
+      <text>Interestingly, we found that cohesin translocates past nucleosomes more readily than past HaloCTCF, even though a nucleosome (molecular mass 110&#160;kDa, diameter ~11&#160;nm) might be a physically larger obstacle than a single DNA&#8208;bound HaloCTCF molecule (CTCF has a molecular mass of 83&#160;kDa, but its atomic structure and precise diameter are not known; in addition, the CTCF used in our experiments was fused to HaloTag with a mass of 33&#160;kDa). Since CTCF constrains cohesin translocation irrespective of whether the DNA template contains one or four CTCF&#8208;binding sites, DNA looping between CTCF molecules is unlikely to account for this effect. Nevertheless, a change in DNA conformation caused by CTCF binding at a single site cannot be excluded. Alternatively, CTCF's reported ability to multimerize in&#160;vitro (Pant et&#160;al, 2004; Yusufzai et&#160;al, 2004; Bonchuk et&#160;al, 2015) could account for its ability to prevent cohesin from passing. In either case, our results indicate that CTCF can function as a boundary for translocating cohesin, a phenomenon that may contribute to the accumulation of cohesin at CTCF sites in&#160;vivo. As the diameter of T7 RNAP (~8&#160;nm) fused to HaloTag (~4&#160;nm) is expected to be smaller than the diameter of cohesin, it was also surprising to find that T7 RNAP could constrain cohesin movements in&#160;vitro and in&#160;vivo (this study and Ocampo&#8208;Hafalla et&#160;al, 2016). This raises the possibility that an additional process, perhaps DNA melting or RNA transcription, is responsible for constraining cohesin translocation. Experiments in which the transcriptional activity of T7 RNAP is inhibited using T7 lysozyme could be informative in this regard.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38939</offset>
+      <text>Our finding that cohesin can translocate rapidly along DNA, and does so in a uni&#8208;directional manner if encountering a transcribing polymerase, provides a potential mechanistic explanation for how cohesin might be translocated from loading sites to other genomic loci, such as CTCF sites (Lengronne et&#160;al, 2004; Kagey et&#160;al, 2010; Hu et&#160;al, 2011; Zuin et&#160;al, 2014a). Cohesin's movability may also be important to allow the unhindered translocation of RNA polymerases and other enzymes along DNA without having to release and reload cohesin, a process that would destroy cohesin&#8208;mediated chromosomal interactions. The latter would be particularly harmful for post&#8208;replicative cells since cohesin cannot establish cohesion again once DNA replication has been completed (Tachibana&#8208;Konwalski et&#160;al, 2010). Our observation that transcription can provide directionality to cohesin movements also provides a possible explanation for how cohesin could generate long&#8208;range chromosomal cis interactions via a hypothetical loop extrusion mechanism (Nasmyth, 2001; Nichols &amp; Corces, 2015; Sanborn et&#160;al, 2015; Fudenberg et&#160;al, 2016). Since large parts of the genome are transcribed, cohesin could be translocated over long genomic regions until it encounters CTCF at its cognate binding sites or is released by Wapl.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40260</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40282</offset>
+      <text>Protein expression and purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40318</offset>
+      <text>Scc1GFP and Scc1GFP&#8208;TEV&#8208;human cohesin baculoviruses for protein expression in Sf9 insect cells were generated as described (Huis in &#8216;t Veld et&#160;al, 2014). To generate Scc1Halo&#8208;TEV and Smc3Halo&#8208;Flag, the HaloTag open reading frame (ORF) was PCR amplified from pH6HTN (Promega) and inserted into a vector containing an Scc1TEV or Smc3 insect cell expression cassette using Gibson assembly (New England Biolabs Inc). Expression cassettes were combined on multigene plasmids using biGBac (Weissmann et&#160;al, 2016) to generate Smc110xHis/Smc3Halo&#8208;Flag dimeric cohesin and Smc1 (wt or K38A)/Smc3Flag (wt or K38A)/Scc1Halo&#8208;TEV/10xHisSA1 tetrameric cohesin plasmids. Tetrameric cohesin complexes were expressed in Sf9 insect cells and purified via Ni&#8208;NTA agarose (Qiagen) followed by anti&#8208;FLAG M2 agarose (Sigma&#8208;Aldrich) as described (Huis in &#8216;t Veld et&#160;al, 2014) except that the complexes used in Figs&#160;EV2 and EV3 were eluted in 50&#160;mM HEPES pH 7.5, 150&#160;mM NaCl, 2&#160;mM MgCl2, 5% glycerol, 0.5&#160;mg/ml Flag peptide. Dimeric cohesin was expressed and purified identically, except a single&#8208;step Flag purification was performed. HaloTag Tetramethylrhodamine (TMR) ligand (Promega) was diluted in anti&#8208;FLAG binding buffer, incubated for 15&#160;min at room temperature with Scc1Halo&#8208;TEV&#8208;cohesin while immobilized on anti&#8208;FLAG M2 agarose, and then washed extensively with anti&#8208;FLAG binding buffer.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41734</offset>
+      <text>To generate TetRHalo&#8208;10xHis, the TetR and HaloTag&#8208;10xHis ORFs were PCR amplified and combined with pET21a (Merck Millipore) using Gibson assembly. pET21a TetRHalo&#8208;10xHis was transformed into BL21 (DE3) RIL Escherichia coli. Cultures were grown in Lysogeny Broth (LB) supplemented with appropriate antibiotics and expression was induced at mid&#8208;logarithmic growth phase with 0.4&#160;mM isopropyl &#946;&#8208;D&#8208;1&#8208;thiogalactopyranoside (IPTG) overnight at 16&#176;C. Cell pellets were resuspended in TetR purification buffer (50&#160;mM Na2HPO4, 300&#160;mM NaCl, pH 8.0), supplemented with 10&#160;mM imidazole, 1&#160;mM DTT, 0.05% Tween&#8208;20, and complete protease inhibitor&#8211;EDTA (Roche). After sonication and centrifugation at 48,000&#160;g for 30&#160;min at 4&#176;C, the soluble fraction was incubated with NiNTA agarose for 45&#160;min and washed with TetR purification buffer supplemented with&#160;20&#160;mM imidazole. HaloTag TMR ligand was incubated with TetRHalo&#8208;10xHis for 15&#160;min at room temperature while bound to NiNTA agarose. Protein was eluted with TetR purification buffer supplemented with 250&#160;mM imidazole. TetRHalo&#8208;TMR&#8208;10xHis containing fractions were further purified over a Superdex 200 column (GE Healthcare Life Sciences) in 25&#160;mM Tris pH 7.5, 100&#160;mM NaCl, 5&#160;mM MgCl2, 1&#160;mM DTT, 1&#160;mM EDTA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43021</offset>
+      <text>To generate 6xHis&#8208;HaloEcoRIE111Q, the EcoRIE111Q ORF was PCR amplified from pEQ111m (Wright et&#160;al, 1989) and combined with 6xHis&#8208;HaloTag and pET21a using Gibson assembly. pET21a 6xHis&#8208;HaloEcoRIE111Q was transformed into BL21 (DE3) Rosetta 2 pLysS E.&#160;coli (Merck Millipore). Expression cultures were grown as described above and induced with 0.5&#160;mM IPTG for 6&#160;h at 37&#176;C, and purified as described (Graham et&#160;al, 2014). HaloTag TMR or Alexa488 ligand was incubated with 6xHis&#8208;HaloEcoRIE111Q for 15&#160;min at room temperature while bound to NiNTA agarose.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43586</offset>
+      <text>To generate 3xMyc&#8208;6xHis&#8208;HaloT7 RNAP, the T7 RNAP ORF was PCR amplified from pBioT7 (Eriksen et&#160;al, 2013) and combined with 3xMyc&#8208;6xHis&#8208;HaloTag and pBAD (ThermoFisher Inc.) using Gibson assembly. pBAD 3xMyc&#8208;6xHis&#8208;HaloT7 RNAP was transformed into Top10 E.&#160;coli. Expression cultures were grown as described above and induced with 0.2&#160;g/l L&#8208;arabinose for 4&#160;h at 37&#176;C. Cell pellets were resuspended in T7 purification buffer (50&#160;mM Tris pH 8.0, 300&#160;mM NaCl, 10% glycerol, 5&#160;mM &#946;&#8208;mercaptoethanol) supplemented with 10&#160;mM imidazole, 0.1% Tween&#8208;20, 0.1&#160;mM PMSF, and complete protease inhibitor&#8211;EDTA (Roche)) and incubated with lysozyme (1&#160;mg/ml cell suspension) for 30&#160;min at 4&#176;C. After sonication and centrifugation at 48,000&#160;g for 30&#160;min at 4&#176;C, the soluble fraction was incubated with NiNTA agarose for 90&#160;min, washed with T7 purification buffer supplemented with 10&#160;mM imidazole, 0.01% Tween&#8208;20, 0.1&#160;mM PMSF, and then with T7 purification buffer supplemented with 20&#160;mM imidazole and 0.01% Tween&#8208;20. HaloTag TMR ligand was then incubated with NiNTA&#8208;bound 3xMyc&#8208;6xHis&#8208;HaloT7 RNAP for 15&#160;min at room temperature. Protein was eluted with T7 purification buffer supplemented with 300&#160;mM imidazole and 0.01% Tween&#8208;20 and dialyzed overnight against 20&#160;mM potassium phosphate buffer pH 7.5, 100&#160;mM NaCl, 10&#160;mM DTT, 0.1&#160;mM EDTA, 50% glycerol.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44976</offset>
+      <text>To generate 10xHis&#8208;HaloCTCF, human CTCF cDNA was PCR amplified from pFastBac HTc CTCF and combined with HaloTag cDNA in a baculovirus expression plasmid under the control of a polyhedrin promoter. 10xHis&#8208;HaloCTCF baculovirus for protein expression in Sf9 insect cells was generated as described (Huis in &#8216;t Veld et&#160;al, 2014). Baculovirus&#8208;infected cell pellets were lysed by Dounce homogenization and resuspended in CTCF purification buffer (25&#160;mM HEPES&#8211;KOH pH 8.3, 200&#160;mM NaCl, 150&#160;mM KCl, 100&#160;&#956;M ZnCl2, 5% glycerol), supplemented with 10&#160;mM imidazole, 1&#160;mM DTT, 0.05% Tween&#8208;20, 1&#160;mM PMSF, and complete protease inhibitor&#8211;EDTA (Roche). After centrifugation at 48,000&#160;g for 1&#160;h at 4&#176;C, the soluble fraction was incubated with NiNTA agarose for 45&#160;min and washed with CTCF purification buffer supplemented with 20&#160;mM imidazole. HaloTag TMR ligand was incubated with 10xHis&#8208;HaloCTCF for 15&#160;min at room temperature while bound to NiNTA agarose. Protein was eluted with CTCF purification buffer supplemented with 250&#160;mM imidazole and 1&#160;mM DTT and dialyzed against CTCF purification buffer supplemented with 1&#160;mM DTT for 2.5&#160;h at 4&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46141</offset>
+      <text>For QDot conjugation to EcoRIE111Q, 3xMyc&#8208;6xHis was added at the N&#8208;terminus of EcoRIE111Q using Gibson assembly and expressed and purified as above. Anti&#8208;myc antibody 4A6 (Millipore) was labeled with QDot 705 (SiteClick Qdot 705 Antibody Labeling Kit; ThermoFisher Scientific) and mixed with 3xMyc&#8208;6xHisEcoRIE111Q prior to incubation with &#955;&#8208;DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46498</offset>
+      <text>Histone octamer expression and nucleosome reconstitution</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46555</offset>
+      <text>Amino acid substitutions in Xenopus laevis histone H3 (C110A, Q125C) and histone H2B (K113C) were introduced in the polycistronic plasmid pET29a&#8208;YS14 by site&#8208;directed mutagenesis. Recombinant histone octamers were expressed in E.&#160;coli and purified under native conditions as described (Shim et&#160;al, 2012) except that following NiNTA purification the peak histone&#8208;containing fractions were incubated with a&#160;40&#8208;fold molar excess of tetramethylrhodamine&#8208;5&#8208;maleimide (Sigma&#8208;Aldrich) overnight at 4&#176;C. Unreacted dye was quenched with DTT and separated using Sephadex G50 Fine&#160;(GE Healthcare Life Sciences). Histone octamers were purified over a Superdex 200 column (GE Healthcare Life Sciences) and were then mixed with 1&#160;&#956;g of biotinylated pPlat or pPlat&#8208;601 at a molar ratio of ~80 octamer:1 DNA in 10&#160;mM Tris pH 7.6, 2&#160;M NaCl, 1&#160;mM EDTA, and incubated for 30&#160;min at 4&#176;C. Histone octamers were deposited on DNA by stepwise dilution at 4&#176;C to reduce of NaCl concentration at&#160;4&#176;C (1&#160;h at 1&#160;M, 1&#160;h at 0.8&#160;M, 1&#160;h at 0.67&#160;M, 1&#160;h at 0.2&#160;M, overnight at 0.1&#160;M). Reconstituted nucleosomal DNA was stored at 4&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47696</offset>
+      <text>Single&#8208;molecule cohesin: DNA binding assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47741</offset>
+      <text>Biotinylated polyethylene glycol functionalized coverslips (MicroSurfaces Inc.) were assembled into flow chambers (Yardimci et&#160;al, 2010, 2012). Flow chambers were incubated with 1&#160;mg/ml Avidin DN (Vector Laboratories) for 30&#160;min and washed with 20&#160;mM Tris pH 7.5, 50&#160;mM NaCl, 2&#160;mM EDTA, 0.1&#160;mg/ml UltraPure BSA (ThermoFisher Scientific) using a syringe pump at a flow rate of 50&#160;&#956;l/min. 0.5&#160;ml of the above buffer supplemented with biotinylated &#955; genomic DNA (2.3&#160;pM final concentration) or 0.5&#160;ml biotinylated pPlat (1.7&#160;pM final concentration) (see below) was introduced at 50&#160;&#956;l/min. Following washout of unbound DNA molecules, cohesin was flowed in at 3&#8211;5&#160;nM in experiments presented in Figs&#160;1E and F, and EV1D&#8211;H, and Appendix&#160;Fig S3 and at 0.7&#160;nM in all other experiments. Cohesin was flowed in cohesin binding buffer (35&#160;mM Tris, pH 7.5, 25&#160;mM NaCl, 25&#160;mM KCl, 1&#160;mM MgCl2, 10% glycerol (v:v), 0.003% Tween&#8208;20, and 0.1&#160;mg/ml UltraPure BSA) at 20&#160;&#956;l/min and incubated for 5&#8211;10&#160;min. Flow chambers were then washed with the same buffer, and optionally with 750&#160;mM NaCl buffer (35&#160;mM Tris, pH 7.5, 750&#160;mM NaCl, 10&#160;mM EDTA, 10% glycerol, 0.35% Triton X&#8208;100, and 0.1&#160;mg/ml UltraPure BSA) to dissociate non&#8208;topologically bound cohesin complexes. Sytox Orange or Sytox Green DNA stain (ThermoFisher Scientific) was included in imaging buffers in experiments that required visualization of DNA (~5&#160;nM&#8211;500&#160;nM, depending on imaging buffer salt concentration). Single&#8208;molecule imaging experiments were performed at room temperature (~23&#176;C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49327</offset>
+      <text>A glucose oxidase/catalase/glucose oxygen scavenger system was included in all imaging buffers in experiments described in Figs&#160;1E, 2 and EV1D, F, H, and Appendix&#160;Fig S3 [final concentration 4.5&#160;mg/ml glucose, 0.2&#160;mg/ml glucose oxidase, 35&#160;&#956;g/ml catalase, 1% betamercaptoethanol (Sigma&#8208;Aldrich)]. A protocatechuic acid&#160;(PCA)/protocatechuate&#8208;3,4&#8208;dioxygenase (PCD)/Trolox oxygen scavenger system was included in all imaging buffers in the experiments described in Figs&#160;3, 4 and 5 and Appendix&#160;Figs S4B, D, F, and S7D&#8211;F (final concentration 10&#160;nM PCD, 2.5&#160;mM PCA, 2&#160;mM Trolox; Sigma&#8208;Aldrich; Aitken et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49960</offset>
+      <text>For XhoI &#955;&#8208;DNA restriction digest experiments, cohesin was flowed&#160;in as described above. The flow chamber was washed with 750&#160;mM NaCl buffer and then with XhoI digestion buffer (10&#160;mM HEPES&#8211;KOH pH 7.7, 200&#160;mM KCl, 10&#160;mM MgCl2, 0.35% Triton X&#8208;100, 0.1&#160;mg/ml UltraPure BSA (ThermoFisher Scientific)). FastDigest XhoI (ThermoFisher Scientific) was then flowed in during imaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50349</offset>
+      <text>For the cohesin cleavage experiments described in Fig&#160;EV3A&#8211;C, Smc1, Smc3FLAG, Scc1Halo&#8208;TMR&#8208;TEV, 10xHisSA1 cohesin was incubated&#160;&#177;&#160;TEV protease (generated in&#8208;house) during purification while immobilized on anti&#8208;FLAG M2 agarose (3&#160;h, 4&#176;C) and eluted in 50&#160;mM HEPES pH 7.5, 150&#160;mM NaCl, 2&#160;mM MgCl2, 5% glycerol, 0.5&#160;mg/ml FLAG peptide. For TEV protease flow in experiments, cohesin was flowed in and the flow chamber was washed with 750&#160;mM NaCl buffer supplemented with 2&#160;mM DTT; TEV protease was then flowed in during imaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50896</offset>
+      <text>For TetRHalo&#8208;TMR experiments, pPlat&#8208;TetO DNA flow chambers were washed with cohesin binding buffer. TetRHalo&#8208;TMR was flowed in at 7&#160;nM in cohesin binding buffer, incubated for 4&#160;min, and then washed with cohesin binding buffer. Cohesin was flowed in as described above, washed with cohesin binding buffer and then with cohesin binding buffer in which the salt concentration was increased to 75&#160;mM NaCl, 75&#160;mM KCl.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51320</offset>
+      <text>For Halo&#8208;TMREcoRIE111Q and Halo&#8208;A488EcoRIE111Q experiments, &#955;&#8208;DNA (112&#160;pM) was incubated with HaloEcoRIE111Q (5&#160;nM dimer) in 20&#160;&#956;l EcoRI buffer (20&#160;mM Tris pH 7.5, 150&#160;mM KCl, 0.1&#160;mg/ml BSA) for 30&#160;min at room temperature. The reaction was then diluted to 0.5&#160;ml with EcoRI buffer and drawn into the flow chamber. Non&#8208;specifically bound HaloEcoRIE111Q was washed out with EcoRI buffer. Buffer was exchanged with cohesin binding buffer prior to cohesin flow in. Cohesin was flowed in as described for the TetRHalo&#8208;TMR experiments. QDotEcoRIE111Q experiments were performed identically, except that 3xMyc&#8208;6xHisEcoRIE111Q was pre&#8208;incubated with 0.3&#160;&#956;l anti&#8208;Myc QDot 705 prior to incubation with &#955;&#8208;DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52050</offset>
+      <text>For nucleosome experiments, nucleosomal&#8208;pPlat was drawn into the flow chamber and washed with cohesin binding buffer prior to cohesin flow in. Cohesin was flowed in as described for the TetRHalo&#8208;TMR experiments except cohesin was washed with cohesin binding buffer in which the salt concentration was increased to 150&#160;mM NaCl, 150&#160;mM KCl.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52395</offset>
+      <text>For Halo&#8208;TMRT7 RNAP experiments, pPlat&#8208;T7 DNA flow chambers were washed with T7 reaction buffer (40&#160;mM Tris pH 7.9, 6&#160;mM MgCl2, 5&#160;mM DTT) prior to polymerase flow in. Halo&#8208;TMRT7 RNAP was flowed in at 5&#160;nM in 50&#160;&#956;l T7 reaction buffer supplemented with 2&#160;mM NTPs, 1.25&#160;&#956;l RNase OUT (ThermoFisher Scientific), and 1&#215; PCA/PCD/Trolox oxygen scavenger mix.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52762</offset>
+      <text>For Halo&#8208;TMRCTCF experiments, pPlat&#8208;4xCTCF or pPlat&#8208;1xCTCF DNA flow chambers were washed with cohesin binding buffer. Halo&#8208;TMRCTCF was flowed in at 0.3&#160;nM in cohesin binding buffer, incubated for 10&#160;min, and then washed with cohesin binding buffer in which the salt concentration was increased to 75&#160;mM NaCl, 75&#160;mM KCl. Buffer was exchanged with cohesin binding buffer prior to cohesin flow in. Cohesin was flowed in as described for the TetRHalo&#8208;TMR experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53240</offset>
+      <text>DNA templates for single&#8208;molecule imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53284</offset>
+      <text>Doubly biotinylated bacteriophage &#955; genomic DNA was prepared as described (Yardimci et&#160;al, 2012), except that Taq DNA ligase (New England Biolabs Inc.) was used instead of T4 DNA ligase. To generate pPlat&#8208;TetO and pPlat&#8208;T7, the plasmid pPlat (25,754&#160;bp) was linearized with FspAI and a PCR product containing seven copies of the TetO sequence amplified from pTRE3G (Clontech Laboratories Inc.) or a PCR product containing the T7 promoter and a 1.5&#8208;kb yeast genomic DNA sequence amplified from plasmid pFL2_CasIA&#160;were inserted using Gibson assembly. To generate pPlat&#8208;601, a DNA fragment containing a single 601 nucleosome positioning sequence (Lowary &amp; Widom, 1998) was generated by primer extension PCR and inserted into pPlat as described above. To generate pPlat&#8208;4xCTCF, a cDNA fragment containing four CTCF&#8208;binding sites reported to display high affinity CTCF binding (Plasschaert et&#160;al, 2014) (bGm5, GTCTTCCCTCTAGTGGTGAA; 47, CCCGGCGCAGGGGGGCGCTG; 101, CCGGCCGGCAGAGGGCGCGC; 100&#160;mt, CCGGCCAGAAGGGGGCGCGC) each separated by a 100&#8208;bp linker was synthesized (Integrated DNA Technologies Inc.) and inserted into pPlat as described above. To generate pPlat&#8208;1xCTCF, a DNA fragment containing a single high affinity CTCF&#8208;binding site (HighOc1; Plasschaert et&#160;al, 2014: GCGGCCAGCAGGGGGCGCCC) was generated by primer extension PCR and inserted into pPlat as described above. Doubly biotinylated pPlat DNA was prepared by linearizing pPlat with SpeI and performing PCR extension using biotinylated dATP and dCTP nucleotides and Taq DNA polymerase. Linearized pPlat&#8208;TetO is 26,192&#160;bp with TetO at position 10,123&#8211;10,561&#160;bp; linearized pPlat&#8208;T7 is 27,238&#160;bp with the T7 promoter at position 10,123&#160;bp; linearized pPlat&#8208;601 is 25,908&#160;bp with 601 at position 10,123&#8211;10,270&#160;bp; linearized pPlat&#8208;4xCTCF is 26,323&#160;bp with the 4 CTCF high affinity binding sites at position 10,123&#8211;10,692&#160;bp.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55210</offset>
+      <text>Single&#8208;molecule microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55239</offset>
+      <text>Time&#8208;lapse microscopy images were acquired using a Zeiss TIRF 3 Axio Observer setup described previously (Mieck et&#160;al, 2015). Images were acquired at 4&#8208;s intervals unless otherwise stated. High temporal resolution single&#8208;molecule imaging (Figs&#160;2, EV2E and EV3B&#8211;C, E&#8211;F, and Appendix&#160;Fig S6; images acquired at 15&#160;Hz) was performed using a custom&#8208;built TIRF microscope setup described previously (Mieck et&#160;al, 2015) and analyzed using software developed in MATLAB (Mathworks Inc.).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55736</offset>
+      <text>Xenopus laevis egg extract preparation and use</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55783</offset>
+      <text>Xenopus laevis egg extract experiments were performed as described (Huis in &#8216;t Veld et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55884</offset>
+      <text>Bulk cohesin: DNA loading assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55916</offset>
+      <text>Circular nicked (C) pSP64 plasmid (3&#160;kb) was prepared using Nt.BspQI (NEB). Linearized pSP64 (L) was prepared using BamHI (NEB). Plasmids were purified by Qiaquick Gel Extraction (Qiagen). For DNA cleavage experiments, recombinant Smc1, Smc3FLAG, Scc1, 10xHisSA1 cohesin was prepared as described above and eluted in 25&#160;mM Tris pH 7.5, 50&#160;mM NaCl, 50&#160;mM KCl, 2&#160;mM MgCl2, 10% glycerol, 0.5&#160;mg/ml FLAG peptide. For cohesin cleavage experiments, Smc1, Smc3FLAG, Scc1Halo&#8208;biotin&#8208;TEV, 10xHisSA1 cohesin was incubated with TEV protease during purification while immobilized on anti&#8208;FLAG M2 agarose (3&#160;h, 4&#176;C) and eluted in 35&#160;mM HEPES pH 7.5, 50&#160;mM NaCl, 50&#160;mM KCl, 2&#160;mM MgCl2, 10% glycerol, 0.5&#160;mg/ml FLAG peptide.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56645</offset>
+      <text>Bulk in&#160;vitro cohesin&#8211;DNA loading assay conditions were adapted from Murayama and Uhlmann (2014). For DNA cleavage experiments, cohesin and DNA were combined in a 20&#8208;&#956;l reaction (final composition: 45&#160;nM cohesin, 3.3&#160;nM DNA, 35&#160;mM Tris pH 7.5, 56&#160;mM NaCl, 19&#160;mM KCl, 1&#160;mM MgCl2, 1&#160;mM TCEP, 10% glycerol, 0.003% Triton X&#8208;100) and incubated for 1&#160;h at 32&#176;C. Stop buffer (180&#160;&#956;l; 35&#160;mM Tris pH 7.5, 500&#160;mM NaCl, 20&#160;mM EDTA, 0.35% Triton X&#8208;100, 5%&#160;glycerol) was added for 5&#160;min at 32&#176;C to dissociate non&#8208;topologically bound cohesin from DNA. Reactions were then combined with 15&#160;&#956;l anti&#8208;Scc1 (A900) (Waizenegger et&#160;al, 2000) coupled Affi&#8208;Prep protein A resin (Bio&#8208;Rad), diluted to 400&#160;&#956;l with low&#8208;salt buffer (35&#160;mM Tris pH 7.5, 150&#160;mM NaCl, 0.35% Triton X&#8208;100, 5% glycerol), and incubated for 2&#160;h at 4&#176;C. Resin was washed twice with high&#8208;salt buffer (35&#160;mM Tris pH 7.5, 750&#160;mM NaCl, 0.35% Triton X&#8208;100, 5% glycerol) and once with low&#8208;salt buffer. Complexes were eluted using Scc1 peptide (30&#160;min, 4&#176;C), digested with proteinase K (2&#160;h, 50&#176;C; 1&#160;mg/ml), and analyzed by 0.8% agarose gel electrophoresis in 1&#215;&#160;TAE. DNA was stained using GelRed (Biotium) and imaged using a ChemiDoc XRS+ system (Bio&#8208;Rad). Background subtraction was performed in ImageJ. Data from three independent experiments were plotted; error bars denote standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58057</offset>
+      <text>For cohesin cleavage experiments, cohesin and circular nicked DNA were combined in a 20&#8208;&#956;l reaction (final composition: 21&#160;nM cohesin, 3.3&#160;nM DNA, 30&#160;mM HEPES pH 7.5, 56&#160;mM NaCl, 18&#160;mM KCl, 1&#160;mM MgCl2, 0.1&#160;mM TCEP, 5.5% glycerol, 0.003% Triton X&#8208;100) and processed as described above. Data from four independent experiments were plotted; error bars denote standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58453</offset>
+      <text>For cohesin:ATP experiments, cohesin and circular nicked DNA were combined in a 20&#8208;&#956;l reaction (final composition: 30&#160;nM cohesin (wt or Smc1/3 K38A), 2.2&#160;nM DNA, 30&#160;mM HEPES pH 7.5, 56&#160;mM NaCl, 18&#160;mM KCl, 1&#160;mM MgCl2, 0.1&#160;mM TCEP, 5.5% glycerol, 0.003% Triton X&#8208;100&#160;&#177;&#160;0.5&#160;mM ATP, ADP, ATP&#8208;&#947;S (Jena Bioscience), AMP&#8208;PNP (Jena Bioscience) and AMP&#8208;PCP (Jena Bioscience)) and incubated for 90&#160;min at 32&#176;C. Reactions were stopped with 300&#160;&#956;l low&#8208;salt buffer supplemented with 27&#160;mM EDTA and incubated with 15&#160;&#956;l anti&#8208;Scc1 antibody beads and processed as described above. Data from three independent experiments were plotted; error bars denote standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59152</offset>
+      <text>For the proteinase K only elution experiment described in Fig&#160;EV1A, reactions were processed as for the cohesin:ATP experiments, except the beads were incubated with proteinase K (2&#160;h, 50&#176;C; 0.5&#160;mg/ml) directly following high&#8208;salt and low&#8208;salt washes. Data from three independent experiments were plotted; error bars denote standard error of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59512</offset>
+      <text>ATPase assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59525</offset>
+      <text>Cohesin complexes were incubated in 50&#160;mM HEPES pH 7.5, 150&#160;mM NaCl, 1&#160;mM MgCl2, 5% glycerol, 0.1&#160;mg/ml BSA, 10&#160;nM [&#947;&#8208;32P]&#8208;ATP, and 50&#160;&#956;M non&#8208;radiolabeled ATP. Reactions were incubated at 32&#176;C and stopped by adding 1% SDS and 10&#160;mM EDTA. Reaction products were separated on polyethyleneimine plates (EMD Biosciences) by thin&#8208;layer chromatography using 0.75&#160;M KH2PO4 (pH 3.4) and analyzed by phosphor imaging with a Typhoon Trio Scanner (Amersham).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59992</offset>
+      <text>HeLa Scc1GFP cell line generation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60026</offset>
+      <text>Scc1GFP HeLa Kyoto cells were generated by CRISPR Cas9&#8208;mediated homologous recombination as described (Cong et&#160;al, 2013). Briefly, cells were transfected with plasmids expressing SpCas9(D10A) nickase and chimeric guide RNAs targeting the region coding for the Scc1 C&#8208;terminus and a plasmid that carried the coding sequence for a monomeric version of GFP flanked on either side by 800&#8208; to 1,200&#8208;bp homology arms. Clonal cell lines were sorted by FACS; recombination and homozygous tagging were assayed by PCR and immunoblotting. Fluorescence microscopy of the endogenous GFP signal from HeLa Kyoto Scc1GFP cells was performed using a Zeiss LSM780 Axio Observer confocal microscope.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60716</offset>
+      <text>Bulk in&#160;vitro RNA transcription assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60755</offset>
+      <text>A 119&#8208;bp DNA template for in&#160;vitro transcription containing a T7 promoter was generated by primer extension (oligonucleotides: TAATACGACTCACTATAGTGATAAGTGGAATGCCATGGTTTTAGAGCTAGAAATAGCAAG and AAAAAAGCACCGACTCGGTGCCACTTTTTCAAGTTGATAACGGACTAGCCTTATTTTAACTTGCTATTTCTAGCTCTAAAAC) followed by PCR amplification using oligonucleotides TAATACGACTCACTATA and AAAAAAGCACCGACTCGGTGCCAC. In vitro transcription was performed for 4&#160;h at 37&#176;C using Halo&#8208;TMRT7 RNAP according to NEB T7 RNA Polymerase reaction conditions. The DNA template was removed by adding 1&#160;&#956;l TURBO DNase (Ambion). Nucleic acids were purified by phenol&#8211;chloroform extraction and ethanol precipitation and were resuspended in 50&#160;&#956;l RNase&#8208;free H2O. 0.2&#160;&#956;l was analyzed using capillary electrophoresis (Fragment Analyzer, Advanced Analytical Technologies Inc.) and the High Sensitivity RNA Analysis Kit (AATI, DNF&#8208;472).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61650</offset>
+      <text>Budding yeast T7 RNAP in&#160;vivo experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61693</offset>
+      <text>Details of the yeast strains and experimental setup have been published elsewhere (Ocampo&#8208;Hafalla et&#160;al, 2016). Cells were processed for chromatin immunoprecipitation as described (Lengronne et&#160;al, 2004). Pk&#8208;tagged Scc1 was immunoprecipitated using anti&#8208;Pk antibodies (AbD Serotec, SV5&#8208;Pk1) from strains grown in the absence of galactose. Chromatin immunoprecipitates were hybridized to Affymetrix GeneChip S.&#160;cerevisiae Tiling 1.0R arrays. Enrichment in the immunoprecipitate relative to a whole genome DNA sample is presented. Each bar represents the average of 25 oligonucleotide probes within adjacent 125&#8208;bp windows.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62328</offset>
+      <text>Electrophoretic mobility shift assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62366</offset>
+      <text>~100&#8208;bp dsDNA probes containing a single CTCF&#8208;binding site were generated by primer extension PCR. Probe m3 wt contains the 3rd CTCF&#8208;binding site from the H19/IGF2 ICR region (GGATGCTACCGCGCGGTGGCAGCA). Probe m3 mt contains a mutated version of m3 (Ishihara et&#160;al, 2006) (GAAGTTGCCGAGCAGCGACCAGTG). Probe HighOc1 contains a high affinity CTCF&#8208;binding site (Plasschaert et&#160;al, 2014) (TCAGAGTGGCGGCCAGCAGGGGGCGCCCTTGCCAGA). Probes were labeled with [&#947;32P]&#8208;ATP using T4 Polynucleotide Kinase (ThermoFisher Scientific).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62895</offset>
+      <text>To compare the binding affinity of HaloCTCF to m3 wt, m3 mt, and HighOc1 probes, HaloCTCF was combined with the non&#8208;specific competitor poly(deoxyinosinic&#8208;deoxycytidylic) acid (poly(dI&#8208;dC).poly(dI&#8208;dC), ThermoFisher Scientific) in a 20&#8208;&#956;l reaction for 10&#160;min at room temperature (final composition: 800 fmol HaloCTCF, 500&#160;ng poly(dI&#8208;dC).poly(dI&#8208;dC), 35&#160;mM Tris pH 8.3, 25&#160;mM NaCl, 25&#160;mM KCl, 1&#160;mM MgCl2, 10% glycerol, 1&#160;mM DTT, 0.1&#160;mM ZnCl2). 24 fmol of radiolabeled probe was added and the incubation continued for a further 30&#160;min at room temperature. Reactions were resolved on a 6% polyacrylamide DNA Retardation Gel (ThermoFisher Scientific), exposed to a phosphorimager screen, and analyzed using a Typhoon Trio Scanner (Amersham).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63656</offset>
+      <text>To analyze the effect of competitors on the binding affinity of HaloCTCF to m3 wt probe DNA, 800 fmol of HaloCTCF was combined with 500&#160;ng poly(dI&#8208;dC).poly(dI&#8208;dC), 7.2 pmol m3 wt, or 7.2 pmol m3 mt for 10&#160;min at room temperature in the above buffer. 24 fmol radiolabeled m3 wt probe was then added, and the reactions were processed as described above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64014</offset>
+      <text>Immunoblotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64029</offset>
+      <text>Previously described antibodies raised against Smc1 (A847) (Sumara et&#160;al, 2002), Smc3 (A845) (Sumara et&#160;al, 2002), Scc1 (A900) (Waizenegger et&#160;al, 2000), and SA1 (A823) (Sumara et&#160;al, 2000) were used to detect corresponding subunits of recombinant human cohesin. Scc1 (A900) was also used to detect Xenopus Scc1. Commercially available antibodies were used to detect GFP (Roche, 11814460001), Scc1 (Appendix&#160;Fig S1C, Merck Millipore, 05&#8208;908), and H3 (Santa Cruz, sc&#8208;8654).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>64511</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64532</offset>
+      <text>IFD, DG, MPZ, MIM, PJHV, MO&#8208;H, RL, FU, AV, and J&#8208;MP designed the experiments and interpreted the data. IFD, DG, MPZ, PJHV, FW, and GL generated reagents. IFD performed most of the single&#8208;molecule imaging experiments and the Xenopus experiments. DG carried out the bulk cohesin&#8211;DNA loading assays.&#160;MPZ performed the Halo&#8208;TMRCTCF electrophoretic mobility shift assays and the TetRHalo&#8208;TMR single&#8208;molecule imaging. MPZ and IFD carried out the Halo&#8208;TMRCTCF single&#8208;molecule imaging. MIM and IFD performed the single&#8208;molecule imaging described in Fig&#160;2. DAC generated and characterized the HeLa Scc1GFP cell line. MO&#8208;H carried out the in&#160;vivo budding yeast T7 RNAP&#160;experiments under the guidance of FU. IFD and J&#8208;MP wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>65292</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65313</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>65373</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>65396</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">1835</infon>
+      <infon key="pub-id_pmid">17921203</infon>
+      <infon key="fpage">1826</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>65407</offset>
+      <text>An oxygen scavenging system for improvement of dye stability in single&#8208;molecule fluorescence experiments</text>
+    </passage>
+    <passage>
+      <infon key="volume">156</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">424</infon>
+      <infon key="pub-id_pmid">11815634</infon>
+      <infon key="fpage">419</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>65514</offset>
+      <text>Condensin and cohesin display different arm conformations with characteristic hinge angles</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1953</infon>
+      <infon key="pub-id_pmid">14614819</infon>
+      <infon key="fpage">1941</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>65605</offset>
+      <text>ATP hydrolysis is required for cohesin's association with chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">259</infon>
+      <infon key="pub-id_pmid">10428036</infon>
+      <infon key="fpage">249</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>65675</offset>
+      <text>Cohesins bind to preferential sites along yeast chromosome III, with differential regulation along arms versus the centric region</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Biol</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">26248466</infon>
+      <infon key="fpage">63</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65805</offset>
+      <text>Functional role of dimerization and CP190 interacting domains of CTCF protein in Drosophila melanogaster</text>
+    </passage>
+    <passage>
+      <infon key="source">eLife</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">26583750</infon>
+      <infon key="fpage">e11315</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65910</offset>
+      <text>The ATPases of cohesin interface with regulators to modulate cohesin&#8208;mediated DNA tethering</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">254</infon>
+      <infon key="pub-id_pmid">10882066</infon>
+      <infon key="fpage">243</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>66004</offset>
+      <text>Cohesin's binding to chromosomes depends on a separate complex consisting of Scc2 and Scc4 proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">339</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">823</infon>
+      <infon key="pub-id_pmid">23287718</infon>
+      <infon key="fpage">819</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>66104</offset>
+      <text>Multiplex genome engineering using CRISPR/Cas systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">588</infon>
+      <infon key="pub-id_pmid">26895426</infon>
+      <infon key="fpage">575</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>66158</offset>
+      <text>Cohesin releases DNA through asymmetric ATPase&#8208;driven ring opening</text>
+    </passage>
+    <passage>
+      <infon key="volume">2013</infon>
+      <infon key="source">J Nanomater</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">468105</infon>
+      <infon key="year">2013</infon>
+      <offset>66227</offset>
+      <text>A novel complex: a quantum dot conjugated to an active T7 RNA polymerase</text>
+    </passage>
+    <passage>
+      <infon key="volume">468</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">987</infon>
+      <infon key="pub-id_pmid">21107319</infon>
+      <infon key="fpage">983</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66300</offset>
+      <text>Single&#8208;molecule imaging reveals mechanisms of protein disruption by a DNA translocase</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">2049</infon>
+      <infon key="pub-id_pmid">27210764</infon>
+      <infon key="fpage">2038</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>66388</offset>
+      <text>Formation of chromosomal domains by loop extrusion</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1603</infon>
+      <infon key="pub-id_pmid">15341749</infon>
+      <infon key="fpage">1598</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>66439</offset>
+      <text>Scc2 couples replication licensing to sister&#160;chromatid cohesion in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">15309048</infon>
+      <infon key="fpage">E259</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>66528</offset>
+      <text>Genome&#8208;wide mapping of the cohesin complex in the yeast Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">774</infon>
+      <infon key="pub-id_pmid">18679428</infon>
+      <infon key="fpage">768</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>66611</offset>
+      <text>Visualizing one&#8208;dimensional diffusion of proteins along DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1238</infon>
+      <infon key="pub-id_pmid">24829297</infon>
+      <infon key="fpage">1228</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>66673</offset>
+      <text>ParB spreading requires DNA bridging</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">777</infon>
+      <infon key="pub-id_pmid">12654244</infon>
+      <infon key="fpage">765</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>66710</offset>
+      <text>Chromosomal cohesin forms a ring</text>
+    </passage>
+    <passage>
+      <infon key="volume">477</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">430</infon>
+      <infon key="pub-id_pmid">21909113</infon>
+      <infon key="fpage">424</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>66743</offset>
+      <text>CTCF&#8208;binding elements mediate control of V(D)J recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">460</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">413</infon>
+      <infon key="pub-id_pmid">19458616</infon>
+      <infon key="fpage">410</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>66806</offset>
+      <text>Cohesins form chromosomal cis&#8208;interactions&#160;at the developmentally regulated IFNG locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">788</infon>
+      <infon key="pub-id_pmid">11983169</infon>
+      <infon key="fpage">773</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>66896</offset>
+      <text>Molecular architecture of SMC proteins and the yeast cohesin complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">454</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">301</infon>
+      <infon key="pub-id_pmid">18596691</infon>
+      <infon key="fpage">297</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>66965</offset>
+      <text>The&#160;cohesin ring concatenates sister DNA molecules</text>
+    </passage>
+    <passage>
+      <infon key="volume">164</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">857</infon>
+      <infon key="pub-id_pmid">26919425</infon>
+      <infon key="fpage">847</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>67017</offset>
+      <text>Condensin&#8208;based chromosome organization from bacteria to vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">27549742</infon>
+      <infon key="fpage">12523</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>67088</offset>
+      <text>Topology and structure of an engineered human cohesin complex bound to Pds5B</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">24</infon>
+      <infon key="pub-id_pmid">21185190</infon>
+      <infon key="fpage">12</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>67165</offset>
+      <text>ATP hydrolysis is required for relocating cohesin from sites occupied by its Scc2/4 loading complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">346</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">972</infon>
+      <infon key="pub-id_pmid">25414306</infon>
+      <infon key="fpage">968</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>67265</offset>
+      <text>Characterization of a DNA exit gate in the human cohesin ring</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">742</infon>
+      <infon key="pub-id_pmid">16949368</infon>
+      <infon key="fpage">733</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>67327</offset>
+      <text>CTCF&#8208;dependent chromatin insulator is linked to epigenetic remodeling</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">860</infon>
+      <infon key="pub-id_pmid">16179255</infon>
+      <infon key="fpage">849</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>67399</offset>
+      <text>A topological interaction between cohesin rings and a circular minichromosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">467</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">20720539</infon>
+      <infon key="fpage">430</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>67477</offset>
+      <text>Mediator and cohesin connect gene expression and chromatin architecture</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">26725510</infon>
+      <infon key="fpage">10200</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>67549</offset>
+      <text>Multistep assembly of DNA condensation clusters by SMC</text>
+    </passage>
+    <passage>
+      <infon key="volume">284</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">17710</infon>
+      <infon key="pub-id_pmid">19411704</infon>
+      <infon key="fpage">17700</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>67604</offset>
+      <text>Proliferating cell nuclear antigen uses two distinct modes to move along DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">2237</infon>
+      <infon key="pub-id_pmid">25220052</infon>
+      <infon key="fpage">2228</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>67681</offset>
+      <text>Cohesin's ATPase activity couples cohesin loading onto DNA with Smc3 acetylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">430</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">578</infon>
+      <infon key="pub-id_pmid">15229615</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>67762</offset>
+      <text>Cohesin relocation from sites of chromosomal loading to places of convergent transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">9514715</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>67853</offset>
+      <text>New DNA sequence rules for high affinity binding to histone octamer and sequence&#8208;directed nucleosome positioning</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">244</infon>
+      <infon key="pub-id_pmid">23973221</infon>
+      <infon key="fpage">229</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>67968</offset>
+      <text>Flexible long&#8208;range loops in the VH gene region of the Igh locus facilitate the generation of a diverse antibody repertoire</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">450</infon>
+      <infon key="pub-id_pmid">10518226</infon>
+      <infon key="fpage">445</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>68094</offset>
+      <text>The centromeric sister chromatid cohesion site directs Mcd1p binding to adjacent sequences</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1604</infon>
+      <infon key="pub-id_pmid">9744887</infon>
+      <infon key="fpage">1595</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>68185</offset>
+      <text>The symmetrical structure of structural maintenance of chromosomes (SMC) and MukB proteins: long, antiparallel coiled coils, folded at a flexible hinge</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Annu Rev Genomics Hum Genet</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">27089971</infon>
+      <infon key="fpage">17</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>68337</offset>
+      <text>CTCF and cohesin in genome folding and transcriptional gene regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">eLife</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">e04489</infon>
+      <infon key="year">2015</infon>
+      <offset>68408</offset>
+      <text>Non&#8208;catalytic motor domains enable processive movement and functional diversification of the kinesin&#8208;14 Kar3</text>
+    </passage>
+    <passage>
+      <infon key="volume">505</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">371</infon>
+      <infon key="pub-id_pmid">24291789</infon>
+      <infon key="fpage">367</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>68521</offset>
+      <text>Biochemical reconstitution of topological DNA binding by the cohesin ring</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">745</infon>
+      <infon key="pub-id_pmid">11700297</infon>
+      <infon key="fpage">673</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>68595</offset>
+      <text>Disseminating the genome: joining, resolving, and separating sister chromatids during mitosis and meiosis</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19956766</infon>
+      <infon key="fpage">e1000739</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>68701</offset>
+      <text>Cohesin is required for higher&#8208;order chromatin conformation at the imprinted IGF2&#8208;H19 locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">162</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">705</infon>
+      <infon key="pub-id_pmid">26276625</infon>
+      <infon key="fpage">703</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>68797</offset>
+      <text>A CTCF code for 3D genome architecture</text>
+    </passage>
+    <passage>
+      <infon key="source">Open Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">27278645</infon>
+      <infon key="fpage">150178</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>68836</offset>
+      <text>Evidence for cohesin sliding along budding yeast chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">3504</infon>
+      <infon key="pub-id_pmid">15060168</infon>
+      <infon key="fpage">3497</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>68897</offset>
+      <text>Mutation of a single CTCF target site within the H19 imprinting control region leads to loss of Igf2 imprinting and complex patterns of de novo methylation upon maternal inheritance</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">433</infon>
+      <infon key="pub-id_pmid">18237772</infon>
+      <infon key="fpage">422</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>69079</offset>
+      <text>Cohesins functionally associate with CTCF on mammalian chromosome arms</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23043155</infon>
+      <infon key="fpage">a011130</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69150</offset>
+      <text>Sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">789</infon>
+      <infon key="pub-id_pmid">24121688</infon>
+      <infon key="fpage">774</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>69176</offset>
+      <text>CTCF binding site sequence differences are associated with unique regulatory and functional trends during embryonic stem cell differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">152</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">593</infon>
+      <infon key="pub-id_pmid">10353901</infon>
+      <infon key="fpage">577</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>69318</offset>
+      <text>Nipped&#8208;B, a Drosophila homologue of chromosomal adherins, participates in activation by remote enhancers in the cut and Ultrabithorax genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E6465</infon>
+      <infon key="pub-id_pmid">26499245</infon>
+      <infon key="fpage">E6456</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>69460</offset>
+      <text>Chromatin extrusion explains key features of loop and domain formation in wild&#8208;type and engineered genomes</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">19454013</infon>
+      <infon key="fpage">R52</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>69569</offset>
+      <text>Conserved features of cohesin binding along fission yeast chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">476</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">471</infon>
+      <infon key="pub-id_pmid">21832993</infon>
+      <infon key="fpage">467</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>69639</offset>
+      <text>A role for cohesin in T&#8208;cell&#8208;receptor rearrangement and thymocyte differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">2077</infon>
+      <infon key="pub-id_pmid">24002784</infon>
+      <infon key="fpage">2066</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69725</offset>
+      <text>Cohesin&#8208;based chromatin interactions enable regulated gene expression within preexisting architectural compartments</text>
+    </passage>
+    <passage>
+      <infon key="volume">427</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="lpage">192</infon>
+      <infon key="pub-id_pmid">22617796</infon>
+      <infon key="fpage">190</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69843</offset>
+      <text>Polycistronic coexpression and nondenaturing purification of histone octamers</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">303</infon>
+      <infon key="pub-id_pmid">25557547</infon>
+      <infon key="fpage">290</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>69921</offset>
+      <text>Molecular basis for SMC rod formation and its dissolution upon DNA binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">998</infon>
+      <infon key="pub-id_pmid">27117417</infon>
+      <infon key="fpage">988</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>69996</offset>
+      <text>Single&#8208;molecule imaging reveals a collapsed conformational state for DNA&#8208;bound cohesin</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">880</infon>
+      <infon key="pub-id_pmid">15186743</infon>
+      <infon key="fpage">874</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>70087</offset>
+      <text>Real&#8208;time detection of single&#8208;molecule DNA compaction by condensin I</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">762</infon>
+      <infon key="pub-id_pmid">11076961</infon>
+      <infon key="fpage">749</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>70160</offset>
+      <text>Characterization of vertebrate cohesin complexes and their regulation in prophase</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">525</infon>
+      <infon key="pub-id_pmid">11931760</infon>
+      <infon key="fpage">515</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>70242</offset>
+      <text>The dissociation of cohesin from chromosomes in prophase is regulated by Polo&#8208;like kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">6160</infon>
+      <infon key="pub-id_pmid">23620281</infon>
+      <infon key="fpage">6149</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>70334</offset>
+      <text>The SMC1&#8208;SMC3 cohesin heterodimer structures DNA through supercoiling&#8208;dependent loop formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2516</infon>
+      <infon key="pub-id_pmid">20971813</infon>
+      <infon key="fpage">2505</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70433</offset>
+      <text>Rec8&#8208;containing cohesin maintains bivalents without turnover during the growing phase of mouse oocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">996</infon>
+      <infon key="pub-id_pmid">15448702</infon>
+      <infon key="fpage">991</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>70538</offset>
+      <text>Recruitment of Xenopus Scc2 and cohesin to chromatin requires the pre&#8208;replication complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">858</infon>
+      <infon key="pub-id_pmid">10499801</infon>
+      <infon key="fpage">847</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>70630</offset>
+      <text>Identification of cohesin association sites at centromeres and along chromosome arms</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">410</infon>
+      <infon key="pub-id_pmid">11081627</infon>
+      <infon key="fpage">399</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>70715</offset>
+      <text>Two distinct pathways remove mammalian cohesin from chromosome arms in prophase and from centromeres in anaphase</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">874</infon>
+      <infon key="pub-id_pmid">16682347</infon>
+      <infon key="fpage">863</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>70828</offset>
+      <text>Human Scc4 is required for cohesin binding to chromatin, sister&#8208;chromatid cohesion, and mitotic progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E2569</infon>
+      <infon key="pub-id_pmid">27114506</infon>
+      <infon key="fpage">E2564</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>70938</offset>
+      <text>biGBac enables rapid gene assembly for the expression of large multisubunit protein complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1940</infon>
+      <infon key="pub-id_pmid">14614818</infon>
+      <infon key="fpage">1930</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>71032</offset>
+      <text>A model for ATP hydrolysis&#8208;dependent binding of cohesin to DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">451</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">801</infon>
+      <infon key="pub-id_pmid">18235444</infon>
+      <infon key="fpage">796</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>71097</offset>
+      <text>Cohesin mediates transcriptional insulation by CCCTC&#8208;binding factor</text>
+    </passage>
+    <passage>
+      <infon key="volume">264</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11821</infon>
+      <infon key="pub-id_pmid">2745418</infon>
+      <infon key="fpage">11816</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>71167</offset>
+      <text>The negative charge of Glu&#8208;111 is required to activate the cleavage center of EcoRI endonuclease</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">840</infon>
+      <infon key="pub-id_pmid">21145490</infon>
+      <infon key="fpage">834</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71266</offset>
+      <text>Uncoupling of sister replisomes during eukaryotic DNA replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Methods</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">22503776</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71332</offset>
+      <text>Single&#8208;molecule analysis of DNA replication in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">298</infon>
+      <infon key="pub-id_pmid">14759373</infon>
+      <infon key="fpage">291</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>71402</offset>
+      <text>CTCF tethers an insulator to subnuclear sites, suggesting shared insulator mechanisms across species</text>
+    </passage>
+    <passage>
+      <infon key="source">eLife</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">24473079</infon>
+      <infon key="fpage">e01775</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>71503</offset>
+      <text>Single&#8208;molecule tracking of the transcription cycle by sub&#8208;second RNA detection</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1001</infon>
+      <infon key="pub-id_pmid">24335803</infon>
+      <infon key="fpage">996</infon>
+      <infon key="year">2014a</infon>
+      <infon key="type">ref</infon>
+      <offset>71587</offset>
+      <text>Cohesin and CTCF differentially affect chromatin architecture and gene expression in human cells</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">24550742</infon>
+      <infon key="fpage">e1004153</infon>
+      <infon key="year">2014b</infon>
+      <infon key="type">ref</infon>
+      <offset>71684</offset>
+      <text>A cohesin&#8208;independent role for NIPBL at promoters provides insights in CdLS</text>
+    </passage>
+  </document>
+</collection>

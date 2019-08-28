@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5081484</id>
+    <passage>
+      <infon key="name_2">surname:Hallstr&#246;m;given-names:Bj&#246;rn M</infon>
+      <infon key="name_3">surname:K&#228;ll;given-names:Lukas</infon>
+      <infon key="name_0">surname:Edfors;given-names:Fredrik</infon>
+      <infon key="name_1">surname:Danielsson;given-names:Frida</infon>
+      <infon key="name_6">surname:Forsstr&#246;m;given-names:Bj&#246;rn</infon>
+      <infon key="alt-title">Fredrik Edfors et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB167144</infon>
+      <infon key="name_5">surname:Pont&#233;n;given-names:Fredrik</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Uhl&#233;n;given-names:Mathias</infon>
+      <infon key="name_4">surname:Lundberg;given-names:Emma</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/msb.20167144</infon>
+      <infon key="article-id_pmid">27951527</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="type">front</infon>
+      <infon key="kwd">gene expression protein quantification targeted proteomics transcriptomics Genome-Scale &amp; Integrative Biology Post-translational Modifications, Proteolysis &amp; Proteomics Transcription</infon>
+      <infon key="elocation-id">883</infon>
+      <infon key="volume">12 12</infon>
+      <infon key="article-id_pmc">5081484</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="issue">10</infon>
+      <infon key="notes">
+
+. () : 883
+ See also: GM Silva and C Vogel (October 2016)</infon>
+      <offset>0</offset>
+      <text>Gene&#8208;specific correlation of RNA and protein levels in human cells and tissues</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>81</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>90</offset>
+      <text>An important issue for molecular biology is to establish whether transcript levels of a given gene can be used as proxies for the corresponding protein levels. Here, we have developed a targeted proteomics approach for a set of human non&#8208;secreted proteins based on parallel reaction monitoring to measure, at steady&#8208;state conditions, absolute protein copy numbers across human tissues and cell lines and compared these levels with the corresponding mRNA levels using transcriptomics. The study shows that the transcript and protein levels do not correlate well unless a gene&#8208;specific RNA&#8208;to&#8208;protein (RTP) conversion factor independent of the tissue type is introduced, thus significantly enhancing the predictability of protein copy numbers from RNA levels. The results show that the RTP ratio varies significantly with a few hundred copies per mRNA molecule for some genes to several hundred thousands of protein copies per mRNA molecule for others. In conclusion, our data suggest that transcriptome analysis can be used as a tool to predict the protein copy numbers per cell, thus forming an attractive link between the field of genomics and proteomics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1257</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1270</offset>
+      <text>Fundamental biological processes govern the flow of information from genome to gene product to cellular phenotype (Payne, 2015). The correlation between mRNA levels and the corresponding protein levels is in this context an important issue, and the presence or absence of such correlation on an individual gene/protein level has been debated in literature for many years (Anderson &amp; Seilhamer, 1997; Gry et&#160;al, 2009; Maier et&#160;al, 2009, 2011; Lundberg &amp; Uhl&#233;n, 2010; Schwanh&#228;usser et&#160;al, 2011; Lawless et&#160;al, 2016). Resolving these conflicting reports is of fundamental interest for both genome and proteome research, since massive efforts to characterize the steady&#8208;state transcriptome in various human cells and tissues are ongoing, including the HPA (Uhl&#233;n et&#160;al, 2015), GTEx consortium (Mel&#233; et&#160;al, 2015), and ENCODE (ENCODE Project Consortium et&#160;al, 2012) efforts. If RNA levels could be used to predict protein levels, the value of these extensive expression resources would substantially increase, thereby allowing protein level prediction studies based on genomewide transcriptomics data tremendously benefit systems biology efforts of human biology and disease. However, numerous reports have concluded (Nagaraj et&#160;al, 2011; Vogel &amp; Marcotte, 2012; Payne, 2015) that proteome and transcriptome abundances are not sufficiently correlated to act as proxies for each other. In contrast, several recent reports based on genome&#8208;scale data have suggested a correlation between the steady&#8208;state levels of mRNA indicating a constant protein&#8211;mRNA ratio in human cell lines (Lundberg et&#160;al, 2010) and tissues (Wilhelm et&#160;al, 2014). This led to the hypothesis that protein abundance in any given tissue might be predicted from mRNA abundance (Wilhelm et&#160;al, 2014). These conflicting results thus call for more in&#8208;depth studies to clarify this issue.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3142</offset>
+      <text>Here, we decided to investigate the correlation using a targeted proteomics approach with internal standards to allow the determination of the absolute copy number of molecules across human cell lines and tissues, in contrast to previous studies based on label&#8208;free absolute quantification of proteins that have been shown to underestimate proteins over large dynamic ranges (Ahrn&#233; et&#160;al, 2013). The targeted proteomics method rely on spike&#8208;in of known amounts of stable isotope&#8208;labeled protein fragments (Zeiler et&#160;al, 2012) followed by trypsin digestion and parallel reaction monitoring (PRM) analysis (Gallien et&#160;al, 2012) to determine relative amounts of peptides from sample and internal standard, thereby creating precise anchoring points for all quantitative measurements between all replicates and thus minimizing technical artifacts. Absolute protein copy numbers in the sample can subsequently be calculated from the ratio measured between sample and standard peptides. In contrast to similar methods using labeled peptides as standards, such as AQUA peptides (Gerber et&#160;al, 2003), the protein fragments are digested simultaneously together with the target protein, which minimizes errors arising during sample preparation, such as the effect of incomplete trypsin digestion or sample loss prior addition of standard.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4481</offset>
+      <text>The protein copy numbers of selected genes were determined across tissues and cell lines representing cells of different origin, and the transcript levels corresponding to the protein&#8208;coding genes were established by genomewide transcriptome analysis. This allowed us, for the first time, to compare absolute protein copy numbers per cell with transcript levels measured as TPM (transcripts per million) (Bray et&#160;al, 2016). An important part of the study was to develop a precise cell count method based on a histone&#8208;based normalization procedure to allow the absolute number of cells be established also for complex tissue samples containing mixtures of cell types. Based on this normalization and the precise determination of protein copy numbers, we demonstrate that the predictability of the protein copy numbers from RNA levels can be significantly enhanced if a gene&#8208;specific, cell independent RNA&#8208;to&#8208;protein (RTP) conversion factor is introduced.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5446</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5454</offset>
+      <text>Selection of genes and development of PRM assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5503</offset>
+      <text>The RNA and protein levels were studied in samples from nine human cell lines (Table&#160;EV1) and 11 human tissues representing diverse functional units, such as liver, lung, kidney, and tonsil (Table&#160;EV2). The transcriptome of these samples was determined using digital counting of the transcript using RNA&#8208;Seq (Mortazavi et&#160;al, 2008). The number of transcripts per gene was determined as transcript per million (TPM), thus calculating the number of estimated mRNA molecules for a given gene per million of total mRNA molecules in the cell, allowing for a straightforward comparison of transcription levels between samples of different sequencing depths and cell counts. Based on transcript analysis, genes for targeted proteomics analysis were selected based according to the following criteria: (i) intracellular or membrane bound protein product (i.e., non&#8208;secreted), (ii) present across most of the analyzed tissues and cells, and (iii) having a relatively high degree of variability in the analyzed tissues and cells. This resulted in 55 genes suitable for PRM analysis with available protein standards. Transcriptomics data across the cell lines and tissues for these genes are shown in Table&#160;EV3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6712</offset>
+      <text>To allow for a precise determination of copy number of the corresponding proteins, PRM assays were developed (Table&#160;EV4) representing each of the 55 genes with stable isotope&#8208;labeled recombinant protein fragments (QPrESTs) produced in a bacterial host and quantified as described before (Zeiler et&#160;al, 2012). PRM assays, in most cases based on at least two independent peptides, were developed (Table&#160;EV5), and the sample&#8208;specific concentration of isotope&#8208;labeled standard to be spiked&#8208;in to reach approximately one&#8208;to&#8208;one ratio between standard and endogenous target protein were determined using lysates from a selection of cell lines (U2OS and HEK293). This allowed us to assemble a multiplex mixture of 69 isotope&#8208;labeled QPrEST standards, some genes covered by multiple standards, with the concentration of each standard reflecting the abundance of the corresponding protein targets in the cell lines. The assembly of this QPrEST mixture allowed us to perform multiplex analysis of all the 55 protein targets using targeted mass spectrometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7777</offset>
+      <text>Normalization of tissue samples using PRM&#8208;based histone quantification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7850</offset>
+      <text>To analyze the number of cells in the tissue samples, we took advantage of the QPrEST approach to develop a quantitative assay based on the four core histone subunits (H2A, H2B, H3, and H4) (Fig&#160;1A). Histones have previously been shown to give a good estimate of DNA content in various samples using label&#8208;free approaches (Wi&#347;niewski et&#160;al, 2014), and here, we introduce isotope&#8208;labeled recombinant QPrEST standards in all our assays representing the four major histones. An analysis of cell numbers present in the different tissue samples (Fig&#160;1B) showed that there are many more cells per mg tissue from spleen and tonsil as compared to heart. This observation is supported by immunohistochemistry (Fig&#160;1C) showing many more cells with nuclear staining in tonsil as compared to heart muscle. The number of proteins quantified in each tissue sample was therefore normalized based on the histones and subsequently used to calculate cell counts for each tissue in this study, as shown in Table&#160;EV6. Dilution series of these standards demonstrated a good linearity (Fig&#160;1D) based on an assay using the heavy standard spiked into a serial dilution of a U2OS cell lysate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9029</offset>
+      <text>Determination of cell counts using the histone abundance for normalization</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9104</offset>
+      <text>The core histones and overview of the corresponding QPrEST and peptide standards mapped out on the protein sequence.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9221</offset>
+      <text>Relative quantification of all four histone proteins in each tissue replicate (order of appearance per replicate: H2A, H2B, H3.3, and H4).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9360</offset>
+      <text>Immunohistochemistry images from the Human Protein Atlas (http://www.proteinatlas.org) for protein ANXA1 with nuclear staining (blue) for three selected tissues (scale bars&#160;=&#160;100&#160;&#956;m).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9548</offset>
+      <text>Calibration curves for two of the four histone peptides, with decreasing amount of QPrEST standard spiked into a U2OS cell lysate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9679</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9682</offset>
+      <text>The protein copy number of the target genes in tissues and cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9752</offset>
+      <text>Using the multiplex QPrEST mixture, the protein copy number for the 55 target proteins was determined in all the samples. The results for all cell lines and tissues are summarized in Table&#160;EV8, and examples of the results are summarized in Fig&#160;2A. The protein levels for the various target proteins ranged from thousands to hundreds of millions of copies per cell. As an example, the absolute copy number per average cell in the kidney ranged from 20,500 protein molecules for a nucleotidase (CANT1) to 15 million for a leukocyte elastase inhibitor (SERPINB1). Interestingly, the absolute copy numbers per cell of many of the target proteins are significantly different in the kidney&#8208;derived cell line HEK293 demonstrating, as noted earlier (Uhl&#233;n et&#160;al, 2015), that caution should be taken to use cell lines as models for normal tissue. This observation is supported also when comparing the absolute copy number of proteins in liver and the liver&#8208;derived cell line HepG2, the lung and the lung&#8208;derived cell line A549, and the breast and the breast&#8208;derived cell line MCF7.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10837</offset>
+      <text>Absolute copy number of proteins in tissues and corresponding cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10910</offset>
+      <text>Absolute copy number of protein in kidney tissue and human embryonal kidney cells (HEK293), liver tissue and liver cancer cell line (HepG2), lung tissue and lung cancer cell line (A549), and breast tissue and breast cancer cell line (MCF7). The order of proteins is the same in the tissue and corresponding cell line, and the proteins have been ordered according to the abundance in the respective tissue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11316</offset>
+      <text>The direct correlation between RNA (TPM) and protein abundances (copy number) for all quantified genes in the same tissues and cell lines. Spearman's (&#961;) and Pearson's (r) correlation between the two values across the quantified genes are shown. The other seven tissues and five cell lines are shown in Fig EV4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11630</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11633</offset>
+      <text>The direct correlation between RNA and protein levels in tissues and cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11713</offset>
+      <text>We then decided to compare directly the RNA and protein levels of the target genes in the different tissues and cell lines. In Fig&#160;2B, the RNA levels and protein copy number for the analyzed genes are plotted for some of the cell lines and tissues. A moderate correlation can be observed, and this is reflected in calculation of the Pearson's correlations across the genes. The Pearson's correlation range from 0.39 in the kidney&#8208;derived HEK293 to 0.79 in the breast&#8208;derived cell line MCF7 with a correlation around 0.6 for all the tissues. These results are in line with earlier results (Schwanh&#228;usser et&#160;al, 2013) showing a moderate correlation when RNA and protein levels are compared directly without taking gene&#8208;specific differences into account.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12474</offset>
+      <text>The gene&#8208;specific correlation of RNA and protein levels for selected genes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12551</offset>
+      <text>Next, the gene&#8208;specific RNA&#8208;to&#8208;protein correlation was investigated for each gene separately. In Fig&#160;3, some examples of the protein copy number and the RNA levels (TPM) are shown across the nine cell lines and the 11 tissues. For each gene, the correlation between RNA and protein levels across the cells and tissues was calculated as Spearman's (rho) or Pearson's (r or R 2) correlations. The similarity of the ratio between RNA and protein levels across the cells of different origin allowed us also to calculate an average RNA&#8208;to&#8208;protein (RTP) ratio independent of cellular origin. As an example, selenium binding protein 1 (SELENBP1) shows a similar pattern of expression between RNA and protein levels across the samples and this is confirmed by a high Pearson's correlation (r&#160;=&#160;0.90, log&#8208;log) resulting in an average RTP ratio of 220,000. Similarly, stomatin (STOM) shows a high correlation (r&#160;=&#160;0.89), but with a much lower average RTP ratio of 26,000. The third example, argininosuccinate synthetase 1 (ASS1), also shows a high correlation (r&#160;=&#160;0.89) with a slightly higher RTP ratio (32,500). In Fig&#160;EV1, the RNA and protein levels for all the 55 genes are shown and the Pearson's and Spearman's correlations with the average RTP ratios are summarized in Table&#160;EV7. The gene&#8208;specific RNA&#8208;to&#8208;protein conversion factor is shown for all genes and samples, and in Fig&#160;4A, the RTP ratio across the nine cell lines and eleven tissues are summarized as box&#8208;plots to visualized the variation of RTP values between the samples, but also between different genes. The analysis suggests that the RTP ratios are relatively constant for an individual gene independent of origin of cell and tissue, although the ratio differs significantly between the genes with the RTP ratios varying from 200 for a transcription factor (MYBL2) to 220,000 for SERPINB1, most likely reflecting differences in translation rate and/or protein degradation for individual proteins. In Fig&#160;EV2A, the coefficient of variation of the RTP ratios is plotted versus protein length showing a tendency for higher variation for longer proteins across the analyzed samples, although general statements must be verified with analysis of more genes in the future.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14810</offset>
+      <text>The protein and RNA levels for three genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14853</offset>
+      <text>Subcellular localization by immunofluorescence staining and immunohistochemistry staining in tissue sections by three different antibodies (SELENBP1, HPA011731; STOM, HPA010961; ASS1, HPA020896). Microtubule and nuclear probes are visualized in red and blue, respectively. Antibody staining is shown in green. RNA&#8208;to&#8208;protein ratio across nine cell lines and 11 tissues with Spearman's &#961;, Pearson's r and R 2 for each gene. All other genes can be found in Fig&#160;EV1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15323</offset>
+      <text>Protein copy number and RNA levels (TPM) for all quantified genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15389</offset>
+      <text>The absolute copy numbers of proteins (blue) and the level of RNA (purple) measured as TPM are shown for all 55 genes across nine cell lines and 11 tissues. All values can be found in Table&#160;EV3 and Table&#160;EV6.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15600</offset>
+      <text>The correlation between the absolute copy number of proteins and the corresponding RNA levels (measured as TPM) in nine cell lines and 11 tissues</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15746</offset>
+      <text>The gene&#8208;specific RNA&#8208;to&#8208;protein correlation factors are shown for all the 55 genes with a box&#8208;plot showing the average correlation factor for each gene and the variation observed in the nine cell lines and 11 tissues. All the values for each of the cell lines and tissues are found in Table&#160;EV7. Horizontal lines&#160;=&#160;median. The lower and upper &#8220;hinges&#8221; correspond to the first and third quartiles (the 25th and 75th percentiles). Length of the whiskers as multiple of IQR&#160;=&#160;1.5. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16243</offset>
+      <text>The gene&#8208;specific correlation between protein copy number (x&#8208;axis) and predicted protein copy number based on the RNA levels (RNA&#8208;based prediction) is shown for four tissues and four cell lines. The other seven tissues and five cell lines are also shown in Fig EV5 and predicted copy numbers can be found in Table&#160;EV9.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16569</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16572</offset>
+      <text>RNA&#8208;to&#8208;protein ratio and variation versus protein length</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16633</offset>
+      <text>The variation measured as coefficient of variation (cv) across samples are plotted against the protein length.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16744</offset>
+      <text>The protein lengths for the 55 target proteins are plotted against the RTP ratio.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16826</offset>
+      <text>  Data information: Test based on Pearson's product moment correlation coefficient and follows a t&#8208;distribution with length(x)&#8208;2 degrees of freedom if the samples follow independent normal distributions. An asymptotic confidence interval is given based on Fisher's Z&#8208;transform. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17111</offset>
+      <text>In Fig&#160;EV2B, the RTP ratios are plotted versus protein length showing a tendency for higher RTP ratios for smaller sized proteins, although the generality of this must be further investigated by including more genes in the analysis. Interestingly, an analysis of the RTP ratios for proteins in different cellular compartments (Fig&#160;EV3) suggests that there are subcellular effects. As an example, higher RTP ratios are in general observed for proteins in the extracellular space. Again, this tendency must be further investigated with more genes before general statements can be made.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17697</offset>
+      <text>RNA&#8208;to&#8208;protein ratios for proteins with different subcellular compartments</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17776</offset>
+      <text>The number of GO&#8208;annotated (UniProt, August 1, 2016) proteins in each compartment with a given RTP ratio is plotted (blue) with all other proteins not annotated to this compartment (red). P&#8208;values are calculated using Student's t&#8208;test. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18019</offset>
+      <text>Prediction of protein copy number based on RTP ratios</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18073</offset>
+      <text>The results above suggest that protein copy number can be roughly predicted from the corresponding RNA levels using a gene&#8208;specific RTP ratio independent of cellular origin. Thus, the mean RNA values in each tissue and cell were multiplied with the gene&#8208;specific RNA&#8208;to&#8208;protein conversion factor and the protein copy numbers predicted from the RNA values were plotted against the experimentally determined protein copy number for all the genes for some of the tissues and cell lines (Fig&#160;4B). Note that in each case, the gene&#8208;specific RNA&#8208;to&#8208;protein conversion factor used for prediction of protein copy number was calculated from the other nineteen cells and tissues, excluding the plotted tissue in order to avoid overfitting. As shown, a good correlation can be observed across all the genes in each of the tissues and cells suggesting that the RNA levels can be used to predict the corresponding protein copy number per cell using the gene&#8208;specific RTP ratio (Figs&#160;EV4 and EV5).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19074</offset>
+      <text>Protein copies per cell versus RNA levels (TPM) for all quantified genes in all cell lines and tissues</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19177</offset>
+      <text>The direct correlation between RNA (TPM, y&#8208;axis) and protein abundances (copy number, x&#8208;axis) for all quantified genes in all cell lines (A) and tissues (B). The Spearman's (&#961;) and Pearson's (r) correlations between the two values across the quantified genes are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19452</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19455</offset>
+      <text>Prediction of protein levels based on TPM levels as compared to the experimentally derived protein copy number for all quantified genes in all cell lines and tissues</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19621</offset>
+      <text>The gene&#8208;specific correlation between protein copy number (x&#8208;axis) and predicted protein copy number based on the RNA levels (RNA&#8208;based prediction, y&#8208;axis) in all cell lines (A) and tissues (B). The Spearman's (&#961;) and Pearson's (r) correlations between the two values across the quantified genes are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19937</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19940</offset>
+      <text>The robustness of the prediction was assessed by varying the number of samples used for prediction of the RNA&#8208;to&#8208;protein conversion factor (Fig&#160;5A). The results show that the conversion factor calculated from four or more random samples (training set), predicting all other samples (test set), yields a median Pearson's correlation higher than 0.9. These results suggest that it is enough to determine the RTP ratio in a few cell lines or tissues and then used the mean to determine a &#8220;universal&#8221; gene&#8208;specific RTP ratio to predict protein copy number across other cells and tissues.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20535</offset>
+      <text>The gene&#8208;specific correlation between RNA and protein levels</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20598</offset>
+      <text>The gene&#8208;specific correlation between protein copy number (x&#8208;axis) and predicted protein copy number based on the RNA levels (RNA&#8208;based prediction) is shown for all the 55 genes and all 20 cell lines and tissues. Horizontal lines&#160;=&#160;median. The lower and upper &#8220;hinges&#8221; correspond to the first and third quartiles (the 25th and 75th percentiles). Length of the whiskers as multiple of IQR. Defaults to 1.5. Circles indicate outliers.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21043</offset>
+      <text>The Pearson's correlation between RNA and protein levels for the 55 genes in the nine cell lines and 11 tissues is shown as a direct comparison of RNA and protein levels (purple, RNA versus protein) and after introducing the gene&#8208;specific correlation factor (blue, RNA&#8208;based prediction versus protein).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21350</offset>
+      <text>Density plot for the direct comparison between RNA and protein levels before and after introducing the RTP&#8208;conversion factor. The Pearson's correlation using the RTP&#8208;conversion factor is improved substantially for all cell lines and tissues with a median Pearson's correlation of 0.93.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21640</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21643</offset>
+      <text>The correlation between RNA and protein levels for all the analyzed genes in the various cell lines and tissues was plotted based on Pearson's correlation to allow a summary comparison before and after the use of the gene&#8208;specific RTP correlation factor (Fig&#160;5B). The Pearson's correlations vary significantly across the cell lines and tissues when a direct comparison is carried out with a medium correlation of 0.67. This correlation is significantly enhanced when the gene&#8208;specific RTP ratio is applied for each protein to yield a median Pearson's correlation of 0.93. An overview of these results is shown in Fig&#160;5C, in which the obtained Pearson's correlations over the 55 genes in the nine cell lines and eleven tissues are plotted with and without using the gene&#8208;specific RTP&#8208;conversion factor. A clear improvement of predictability is obtained by introducing the gene&#8208;specific RTP ratio.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>22551</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22562</offset>
+      <text>The evidence that genomewide transcriptomics data can be used as proxies for the corresponding steady&#8208;state protein copy numbers in cells and tissues has far&#8208;reaching consequences and thus justifies the use of genomewide transcriptomics data for molecular studies involving the analysis of protein levels, including metabolic modeling, systems biology, and biomarker discovery efforts. The results reinforce the importance of open source transcriptomics data resources, such as GTEx (Mel&#233; et&#160;al, 2015), HPA (Uhl&#233;n et&#160;al, 2015), FANTOM (FANTOM Consortium and the RIKEN PMI and CLST (DGT), 2014), TCGA (Cancer Genome Atlas Research Network et&#160;al, 2013), and Expression Atlas (Petryszak et&#160;al, 2016), and the data confirm that these resources are valuable also for researchers interested in analyzing protein abundances. The results support a strategy for genomewide expression studies with an initial analysis of transcript levels using transcriptomics followed by a more in&#8208;depth analysis of the relevant protein products using direct protein analysis, such as antibody&#8208;based methods or mass spectrometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23681</offset>
+      <text>In order to determine the steady&#8208;state number of protein molecules per cell, it is important to be able to establish the exact number of cells in a sample, which is relatively straightforward by cell counting of in&#160;vitro cultivated cells, but more challenging for tissues lysates as the heterogeneity of cells present varies across different tissues. Here, we took advantage of the QPrEST approach to develop a quantitative assay based on the four core histone subunits (H2A, H2B, H3, and H4) known to be distributed approximately equally along the chromosomes (van Holde, 1989; Thomas, 1999). In this way, it was possible to calculate the number of cells in the various samples and to normalize each tissue with regard to the&#160;presence of number of cells per mg of sample. An analysis of the tissue samples showed that there are many more cells per mg tissue from spleen and tonsil than compared to the heart, with 30 times more histone protein per weight tissue. Noteworthy, the determined ratio between individual histone genes is conserved across tissue types, suggesting that the level of modification in the quantified region is relatively conserved (the regions were originally selected to show few possible modification sites as reported by Uniprot), which strengthens the quantification method as each histone can be used as control for the others. Each tissue sample was thus normalized to allow the number of cells to be approximately calculated from each tissue sample, thereby eliminating artifacts that arise from interference by proteins from the extracellular matrix or by differences in cell size.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25299</offset>
+      <text>The data presented here demonstrate that the predictability of protein copy numbers from RNA levels can be significantly enhanced whether a gene&#8208;specific, cell and tissue independent RNA&#8208;to&#8208;protein (RTP) conversion factor is introduced and the results from normalization of the tissues are taken into account. The results show that the RTP ratio varies hugely between different genes suggesting that one mRNA molecule in some cases can generate close to a million protein copies at steady state, while mRNA from other genes generate in average less than thousand proteins under the same conditions. This is not surprising, since it known that protein half&#8208;lives can vary many orders of magnitude and that proteins also have different translational rates (Schwanh&#228;usser et&#160;al, 2011; Vogel &amp; Marcotte, 2012). However, our data imply that these gene&#8208;specific differences in RNA&#8208;to&#8208;protein ratio are independent of cell or tissue, and thus, a &#8220;universal&#8221; RTP ratio can be determined that can be used across cells of different origin and stage for a given gene product. Although a relatively limited amount of genes have been investigated here, the results support the view that the translational rates and protein half&#8208;lives are roughly the same for a given protein across various cells and tissues. The analysis here was designed to cover intracellular proteins present in a majority of the selected cell and tissue samples, thereby excluding proteins potentially expressed at very low levels in only a fraction of the investigated tissues.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26859</offset>
+      <text>Here, we have analyzed the RTP ratio in cell lines and tissues representing some of the major organs and tissues in the human body, but obviously more work is needed to extend this analysis also to other tissues and to include more genes into the analysis to possibly establish the generality of this observation and to identify exceptions in which RNA and protein levels do not correlate. Due to the inherent issues in the use of RNA as proxies for protein levels, it is important to follow up the RNA&#8208;based analysis with protein profiling to conform the results from the transcript analysis. In this context, more in&#8208;depth analysis of factors that might give miss&#8208;leading ratios are encouraged, such as the presence of protein modifications on the target protein that will affect the protein copy number determinations and the presence of non&#8208;coding RNAs that might affect the transcriptomics analysis. It is also important to point out that the tissues analyzed here consist of mixtures of cell types of different origin and thus only yields the average mRNA and protein levels at steady&#8208;state conditions across all the different cell types in the tissue samples.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28036</offset>
+      <text>In summary, our results suggest that the predictability of protein copy numbers from RNA levels can be significantly enhanced if a gene&#8208;specific, cell independent RNA&#8208;to&#8208;protein (RTP) conversion factor is used. Thus, transcriptome analysis can be used as a powerful tool to predict the corresponding protein copy numbers, forming an attractive link between the field of genomics and proteomics. We suggest that the gene&#8208;specific RNA&#8208;to&#8208;protein protein conversion factor should be determined across all protein&#8208;coding genes to provide a basic resource for the medical and life science community.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>28645</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28667</offset>
+      <text>Ethical statement</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28685</offset>
+      <text>Human tissue samples used for protein and mRNA expression analyses were collected and handled in accordance with Swedish laws and regulation and obtained from the Department of Pathology, Uppsala University Hospital, Uppsala, Sweden, as part of the sample collection governed by the Uppsala Biobank (http://www.uppsalabiobank.uu.se/en/). All human tissue samples used in the present study were anonymized in accordance with approval and advisory report from the Uppsala Ethical Review Board [Reference # 2002&#8208;577, 2005&#8208;338 and 2007&#8208;159 (protein) and # 2011&#8208;473 (RNA)], and consequently, the need for informed consent was waived by the ethics committee.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29346</offset>
+      <text>Selection of genes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29365</offset>
+      <text>A selection of 60 genes was initially chosen for the study. Firstly, genes coding for predicted secreted proteins were excluded based on a majority decision&#8208;based method for secreted proteins (MDSEC) used for protein classification within the Protein Atlas (http://www.proteinatlas.org/humanproteome/secretome#prediction). Secondly, the gene had to be differentially expressed on transcript level across nine cell lines (A431, HepG2, A549, HeLa, HEK293, A549, RT4, MCF7, and SH&#8208;SY5Y) subjected for the study. Finally, QPrEST standard had to be available, yielding at least one proteotypic peptide as the protein was degraded into peptides by trypsin.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30020</offset>
+      <text>Production and quantification of protein standards for absolute quantification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30099</offset>
+      <text>An Escherichia coli strain auxotrophic for the amino acids arginine and lysine (Matic et&#160;al, 2011) was used for recombinant production of heavy isotope&#8208;labeled QPrEST standards. DNA fragments were initially cloned into the expression pAff8c (Larsson, 2000) and were thereafter transformed into an E.&#160;coli strain for recombinant protein production. Cells containing expression vectors were cultivated in 10&#160;ml minimal media using 100&#8208;ml shake flasks as previously described (Studier, 2005; Tegel et&#160;al, 2009). Heavy isotope&#8208;labeled (13C and 15N) versions of lysine and arginine (Cambridge Isotope Laboratories, Tewksbury, MA, USA) were provided to the cells at 200&#160;&#956;g/ml to generate fully incorporated heavy protein standards. Cell cultures were harvested, and the QPrESTs were purified using the N&#8208;terminal quantification tag (QTag) that included a hexahistidine tag used for immobilize metal ion affinity chromatography (IMAC). After purification, all isotopic QPrEST fragments were absolutely quantified by mass spectrometry against a non&#8208;labeled ultra purified QTag&#8208;standard, which previously had been quantified by amino acid analysis. The QTag&#8208;standard, also including a C&#8208;terminal a OneStrep tag, was purified using IMAC chromatography, and the IMAC elution buffer was exchanged for 1&#215;&#160;PBS (10&#160;mM NaP, 150&#160;mM NaCl, pH 7.3) using a PD&#8208;10 desalting column (GE Healthcare, Uppsala, Sweden). The sample was purified on a StrepTrap HP column (GE Healthcare) on an &#196;kta explorer system (GE Healthcare) according to the manufactures protocol. All QPrESTs were quantified by mixing 1:1 with QTag&#8208;standard and thereafter digested using an in&#8208;solution trypsin digestion protocol. Proteins were first reduced with 10&#160;mM dithiothreitol (DTT) for 30&#160;min at 56&#176;C and thereafter followed by addition of 50&#160;mM iodoacetamide (IAA) and incubated in dark for 20&#160;min. Proteomics grade porcine trypsin (Sigma) was added in a 1:50 enzyme to substrate (E:S) ratio and incubated in a thermomixer at 37&#176;C. After 16&#160;h, the reaction was quenched by addition of FA and the sample was desalted using in&#8208;house prepared StageTips packed with Empore C18 Bonded Silica matrix (3M, Saint Paul, MN) (Rappsilber et&#160;al, 2007). Briefly, three layers of octadecyl membrane were placed in 200&#8208;&#956;l pipette tips. The membrane was activated by addition of 100% ACN, followed by centrifugation for 1&#160;min at 840&#160;g. The membrane was equilibrated by addition of 0.1% FA, MQ followed by centrifugation for 1&#160;min at 840&#160;g. The sample was acidified prior addition onto the membrane, followed by centrifugation for 1&#160;min at 840&#160;g. The membrane was washed twice with 0.1% FA, MQ, and the peptides were eluted in two steps using 60% ACN, MQ. Desalted peptides were vacuum&#8208;dried before subjected for LC&#8208;MS analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32922</offset>
+      <text>Preparation of cell pellets</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32950</offset>
+      <text>Nine different cell lines (A431, HepG2, A549, HeLa, HEK 293, U2OS, RT4, MCF7, and SH&#8208;SY5Y) were cultivated at 37&#176;C in a humidified atmosphere containing 5% CO2. HEK&#8208;293, MCF7, HeLa, and HepG2 were cultivated in Minimum Essential Medium Eagle (Sigma&#8208;Aldrich, St Louis, MO, USA). A549 and SH&#8208;SY5Y were cultivated in Dulbecco's modified Eagle's medium (Sigma&#8208;Aldrich). U2OS and RT4 were cultivated in McCoy's medium (Sigma&#8208;Aldrich), and A431 was cultivated in RPMI&#8208;1640 (Sigma&#8208;Aldrich). All media were supplemented with 10% fetal bovine serum (Sigma&#8208;Aldrich). Media for HEK 293, MCF7, HeLa, and HepG2 were supplemented with 1% MEM non&#8208;essential amino acid solution (Sigma&#8208;Aldrich), and media for MCF7 and HepG2 were also supplemented with 1% l&#8208;glutamine (Sigma&#8208;Aldrich). The cells were cultivated up to 80% confluence and counted with a Scepter 2.0 Cell Counter (Merck Millipore, Billerica, MA, USA) before pellets were collected and stored at &#8722;80&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33928</offset>
+      <text>RNAseq analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33944</offset>
+      <text>For the cell lines, RNA was extracted from the cells using the RNEasy&#174; kit (Qiagen), generating high&#8208;quality total RNA (i.e., RIN&#160;&gt;&#160;8) that was used as input material for library construction with Illumina TruSeq Stranded mRNA reagents. The samples were sequenced on the Illumina HiSeq2500 platform to a depth of ~20 million reads. Raw sequences were mapped to the human reference genome GrCh38 and further quantified using the Kallisto software (Bray et&#160;al, 2016). TPM values for genes were generated by summing up TPM values for the corresponding transcripts generated by Kallisto. All cell line data are available at http://www.ncbi.nlm.nih.gov/bioproject/PRJNA183192.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34622</offset>
+      <text>Procedures for extraction of RNA from tissues, library preparation, and sequencing have been described elsewhere (Uhl&#233;n et&#160;al, 2015). Briefly, reads were mapped to the human reference genome assembly GRCh38 and quantified using Kallisto version 0.42.4. Normalized expression levels (TPM values) on gene level were obtained by summing the estimated values from the constituent transcripts of each gene, respectively. All tissue data are available at http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1733/.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35133</offset>
+      <text>Cell lysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35144</offset>
+      <text>Cells were dissolved in lysis buffer (100&#160;mM Tris&#8211;HCl, 4% SDS, 10&#160;mM DTT, pH 7.6) and incubated at 95&#176;C in a thermomixer for 5&#160;min at 30&#160;g and thereafter sonicated at 50% amp (1&#160;s pulse, 1&#160;s hold) for 1&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35362</offset>
+      <text>Tissue lysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35375</offset>
+      <text>Twenty consecutive sections from 11 different fresh&#8208;frozen human tissues (Table&#160;EV2) were subjected for analysis. Tissue sections were disrupted directly from their frozen state by 3&#8208;mm tungsten carbide beads using a Tissue Lyser LT (Qiagen, Hilden, Germany) set to maximum speed for 2&#160;min. After complete tissue disruption, 250&#160;&#956;l lysis buffer (100&#160;mM Tris&#8211;HCl, 4% SDS, 10&#160;mM DTT, pH 7.6) was added and samples were immediately incubated in a thermomixer for 5&#160;min at 95&#176;C and mixed at 30&#160;g. All samples were sonicated for 1&#160;min at 50% amplitude (1&#160;s pulse&#160;+&#160;1&#160;s hold) and all clarified by centrifugation at 13,570&#160;g for 10&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36027</offset>
+      <text>Filter&#8208;aided Sample preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36061</offset>
+      <text>One QPrEST mastermix was prepared to represent a 1:1 (L:H) peptide ratio to the endogenous levels in U2OS and HEK293, and the same amount of the mastermix was spiked&#8208;in also to all other samples, either to 1 million cells or 600&#160;&#956;g of clarified tissue lysate. The lysate was diluted with denaturing buffer (8&#160;M urea, 100&#160;mM Tris&#8211;HCl pH 8.5) and centrifuged through a 0.22&#8208;&#956;m spin filter (Corning, Corning, NY, USA). Trypsin digestion was performed using the previously described filter&#8208;aided sample preparation (FASP) method (Wi&#347;niewski et&#160;al, 2009) After overnight digestion using porcine trypsin (Sigma) in a 1:50 E:S ratio, all peptides were extracted from cell line digests and desalted using the same in&#8208;house prepared C18 StageTip protocol as described above. Peptides from tissue digests (excluding kidney) were all extracted using strong cation exchange material due to polymers present in the cryopreservative surrounding the fresh&#8208;frozen tissue. Briefly, three layers of strong cation matrix (3M, Saint Paul, MN) were placed in 200&#8208;&#956;l pipette tips. The membrane was activated by addition of 100% MeOH, followed by centrifugation for 1&#160;min at 840&#160;g. The membrane was equilibrated by addition of wash buffer (30% MeOH, 0.1% FA, MQ) followed by centrifugation for 1&#160;min at 840&#160;g. The sample was acidified prior being added onto the membrane, followed by centrifugation for 1&#160;min at 840&#160;g. The membranes were washed twice with wash buffer, and peptides were then eluted in two steps using elution buffer (33% NH4OH, 30% MeOH, MQ). Desalted peptides were vacuum&#8208;dried before LC&#8208;MS analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37689</offset>
+      <text>Liquid chromatography</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37711</offset>
+      <text>Liquid chromatography was performed using an UltiMate 3000 binary RS nano system (Thermo Scientific) with an EASY&#8208;Spray ion&#160;source. All samples were stored in their lyophilized state and resuspended by the autosampler prior injection as 1&#160;&#956;g sample material was loaded onto a Acclaim PepMap 100 trap column (75&#160;&#956;m&#160;&#215;&#160;2&#160;cm, C18, 3&#160;&#956;m, 100&#160;&#197;), washed 5&#160;min at 0.250&#160;&#956;l/min with solvent A (95% H2O, 5% DMSO, 0.1% FA), and thereafter separated using a PepMap 800 C18 column (15&#160;cm&#160;&#215;&#160;75&#160;&#956;m, 3&#160;&#956;m). The gradient went from solvent A to solvent B (90% ACN, 5% H2O, 5% DMSO, 0.1% FA) at a constant flow of 0.250&#160;&#956;l/min, up to 43% solvent B in 40&#160;min, followed by an increase up to 55% in 10&#160;min and thereafter a steep increase to 100% B in 2&#160;min. Online LC&#8211;MS was performed using a Q&#8208;Exactive HF mass spectrometer (Thermo Scientific).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38571</offset>
+      <text>Spectral library generation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38599</offset>
+      <text>A pool of 71 QPrESTs representing 60 genes were pooled in equimolar amounts and digested by trypsin according to the in&#8208;solution protocol described above. QPrEST peptides were resuspended in 3% ACN, 0.1% FA, MQ prior LC&#8208;MS analysis, and 50&#160;fmol per QPrEST&#8208;ID was injected onto column. A Top5 MS&#8208;method with master scans performed at 60,000 resolution (mass range 300&#8211;1,600&#160;m/z, AGC 3e6) was followed by five consecutive MS2 at 30,000 resolution (AGC 1e5, underfill ratio 0.1%) with normalized collision energy set to 25. Raw files were searched using MaxQuant (Cox &amp; Mann, 2008), using the search engine Andromeda against QPrEST sequences (Table&#160;EV4) with an E.&#160;coli (BL21 Uniprot&#8208;ID: #UP000002032) background, which was used for recombinant protein production in order to limit false&#8208;positive hits against QPrEST peptides. Identified peptides were further processed by only allowing proteotypic peptides mapping to one single human gene (defined by SwissProt), also excluding peptides with miscleavages and peptides including methionines.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39657</offset>
+      <text>Data&#8208;independent MS acquisition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39691</offset>
+      <text>Full MS master scans at 60,000 resolution (mass range 300&#8211;1,600&#160;m/z, AGC 1e6) were followed by 20 data&#8208;independent acquisitions MS/MS at 60,000 resolution (AGC 1e6) defined by a scheduled parallel reaction monitoring (PRM) method (Table&#160;EV5). Precursors were isolated with a 1.2&#160;m/z isolation window, and maximum injection time was set to 105&#160;ms for both MS1 and MS2, which resulted in a duty cycle of 2.7&#160;s. The isolation list was split into two consecutive LC runs, targeting 120 paired light and heavy peptides per injection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40229</offset>
+      <text>MS&#8208;data evaluation and protein quantification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40277</offset>
+      <text>Raw MS&#8208;files (available at: http://www.proteinatlas.org/download/prm_cells_tissues.zip) from the data&#8208;independent method were processed using Skyline Proteomics Environment (MacLean et&#160;al, 2010). The ratio between endogenous and heavy peptide standard was calculated from the summed area intensity over the retention time for each peptide fragment separately. Here, five genes were excluded from the analysis as endogenous peptides could not be successfully quantified. All peptide ratios, in each replicate separately, were normalized against the amount of histones quantified in the replicate (Table&#160;EV6; Fig&#160;EV6) in order account for quantification errors that arise from differences in number of cells subjected for analysis, extracellular matrix in tissue samples, and pipetting errors when spiking in standards. Median peptide ratios between replicates were used to calculate the absolute amount of peptide concentration after normalizing for the absolute and known amount of protein standard that was spiked to each sample. If more than one peptide assay per protein was available (13 genes with two peptides, 11 genes with three peptides, five genes with four peptides, two genes with five peptides), the median peptide value was used for calculation of protein concentration for each replicate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41588</offset>
+      <text>Examples of quantitative peptide profiles using QPrEST for targeted proteomics</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41667</offset>
+      <text>All peptides were quantified by comparing the relative amount of light endogenous peptide (red) against the heavy standard peptide (blue). The relative amount was thereafter normalized against the number of cells present in each biological replicate by accounting for the relative amount of histones present in each sample.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41991</offset>
+      <text>RNA&#8208;to&#8208;protein conversion factor</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42028</offset>
+      <text>Protein values were used to calculate a gene&#8208;specific RNA&#8208;to&#8208;protein conversion factor by dividing the amount of protein in each sample by the TPM value for that gene in the corresponding sample. The gene&#8208;specific median of all ratios was used to predict theoretical protein levels from the RNA level (TPM), that is, RNA&#8208;based prediction, excluding the sample being predicted when calculating the RNA&#8208;to&#8208;protein conversion factor from all other 19 samples. In order to assess the predictive power of the conserved RNA&#8208;to&#8208;protein conversion factor across all investigated sample types, different sizes of test and validation sets were used in a k&#8208;fold cross&#8208;validation as 5,000 protein predictions were made for each test set, ranging from 1 to 19 randomly assigned sample combinations in the training set, predicting all other samples in the test set.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42902</offset>
+      <text>Equations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42912</offset>
+      <text>Protein amount is dependent on cell size. This calls for a method that controls the number of cells present in an analyzed sample, especially when tissue samples as cell counter cannot be used: Protein copies per cells is given by: DNA amount is a proxy for number of cells (Milo, 2013) as the amount of DNA per 2N human cell equals approximately 3.6&#160;pg:  Also, DNA and histones are good proxies for each other as the number of histones per cell is proportional toward amount of DNA per cell, that is, same for all 2N human cells (Wi&#347;niewski et&#160;al, 2014) (note: not applicable for cell lines with different karyotypes):  This is applicable for all 2N human cells and also intra&#8208;cell lines with the same karyotype (i.e., technical replicates):  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43662</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43683</offset>
+      <text>MU designed the study. FE and BF performed the laboratory work. FE, FD MU, LK, and BMH did the bioinformatics and statistical analysis. MU, FE, and BF wrote the manuscript with contributions from EL and FP.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43890</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43911</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43971</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>43994</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">2578</infon>
+      <infon key="pub-id_pmid">23794183</infon>
+      <infon key="fpage">2567</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44005</offset>
+      <text>Critical assessment of proteome&#8208;wide label&#8208;free absolute abundance estimation strategies</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Electrophoresis</infon>
+      <infon key="lpage">537</infon>
+      <infon key="pub-id_pmid">9150937</infon>
+      <infon key="fpage">533</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>44098</offset>
+      <text>A comparison of selected mRNA and protein abundances in human liver</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">527</infon>
+      <infon key="pub-id_pmid">27043002</infon>
+      <infon key="fpage">525</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44166</offset>
+      <text>Near&#8208;optimal probabilistic RNA&#8208;seq quantification</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Nat Genetics</infon>
+      <infon key="lpage">1120</infon>
+      <infon key="pub-id_pmid">24071849</infon>
+      <infon key="fpage">1113</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44220</offset>
+      <text>The Cancer Genome Atlas Pan&#8208;Cancer analysis project</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1372</infon>
+      <infon key="pub-id_pmid">19029910</infon>
+      <infon key="fpage">1367</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44274</offset>
+      <text>MaxQuant enables high peptide identification rates, individualized p.p.b.&#8208;range mass accuracies and proteome&#8208;wide protein quantification</text>
+    </passage>
+    <passage>
+      <infon key="volume">489</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">74</infon>
+      <infon key="pub-id_pmid">22955616</infon>
+      <infon key="fpage">57</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44415</offset>
+      <text>An integrated encyclopedia of DNA elements in the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">507</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">470</infon>
+      <infon key="pub-id_pmid">24670764</infon>
+      <infon key="fpage">462</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44478</offset>
+      <text>A promoter&#8208;level mammalian expression atlas</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">1723</infon>
+      <infon key="pub-id_pmid">22962056</infon>
+      <infon key="fpage">1709</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44524</offset>
+      <text>Targeted proteomic quantification on quadrupole&#8208;orbitrap mass spectrometer</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">6945</infon>
+      <infon key="pub-id_pmid">12771378</infon>
+      <infon key="fpage">6940</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>44601</offset>
+      <text>Absolute quantification of proteins and phosphoproteins from cell lysates by tandem MS</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">BMC Genom</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">365</infon>
+      <infon key="year">2009</infon>
+      <offset>44688</offset>
+      <text>Correlations between RNA and protein expression profiles in 23 human cell lines</text>
+    </passage>
+    <passage>
+      <infon key="source">Chromatin</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">1989</infon>
+      <offset>44768</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="lpage">157</infon>
+      <infon key="pub-id_pmid">10908795</infon>
+      <infon key="fpage">143</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>44769</offset>
+      <text>High&#8208;throughput protein expression of cDNA products as a tool in functional genomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">1322</infon>
+      <infon key="pub-id_pmid">26750110</infon>
+      <infon key="fpage">1309</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44856</offset>
+      <text>Direct and absolute quantification of over 1800 yeast proteins via selected reaction monitoring</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21179022</infon>
+      <infon key="fpage">450</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44952</offset>
+      <text>Defining the transcriptome and proteome in three functionally different human cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">3996</infon>
+      <infon key="pub-id_pmid">20648481</infon>
+      <infon key="fpage">3984</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45041</offset>
+      <text>Creation of an antibody&#8208;based subcellular protein atlas</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">968</infon>
+      <infon key="pub-id_pmid">20147306</infon>
+      <infon key="fpage">966</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45099</offset>
+      <text>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</text>
+    </passage>
+    <passage>
+      <infon key="volume">583</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">3973</infon>
+      <infon key="pub-id_pmid">19850042</infon>
+      <infon key="fpage">3966</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>45198</offset>
+      <text>Correlation of mRNA and protein in complex biological samples</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21772259</infon>
+      <infon key="fpage">511</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45260</offset>
+      <text>Quantification of mRNA and protein and integration with protein turnover in a bacterium</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">4875</infon>
+      <infon key="pub-id_pmid">21830832</infon>
+      <infon key="fpage">4869</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45348</offset>
+      <text>Absolute SILAC&#8208;compatible expression strain allows Sumo&#8208;2 copy number determination in clinical samples</text>
+    </passage>
+    <passage>
+      <infon key="volume">348</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">665</infon>
+      <infon key="pub-id_pmid">25954002</infon>
+      <infon key="fpage">660</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45456</offset>
+      <text>The human transcriptome across tissues and individuals</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">BioEssays</infon>
+      <infon key="lpage">1055</infon>
+      <infon key="pub-id_pmid">24114984</infon>
+      <infon key="fpage">1050</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45511</offset>
+      <text>What is the total number of protein molecules per cell volume? A call to rethink some published values</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">628</infon>
+      <infon key="pub-id_pmid">18516045</infon>
+      <infon key="fpage">621</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45614</offset>
+      <text>Mapping and quantifying mammalian transcriptomes by RNA&#8208;Seq</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22068331</infon>
+      <infon key="fpage">548</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45676</offset>
+      <text>Deep proteome and transcriptome mapping of a human cancer cell line</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="lpage">3</infon>
+      <infon key="pub-id_pmid">25467744</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45744</offset>
+      <text>The utility of protein and mRNA correlation</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D752</infon>
+      <infon key="pub-id_pmid">26481351</infon>
+      <infon key="fpage">D746</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>45788</offset>
+      <text>Expression Atlas update&#8212;an integrated database of gene and protein expression in humans, animals and plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">1906</infon>
+      <infon key="pub-id_pmid">17703201</infon>
+      <infon key="fpage">1896</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>45898</offset>
+      <text>Protocol for micro&#8208;purification, enrichment, pre&#8208;fractionation and storage of peptides for proteomics using StageTips</text>
+    </passage>
+    <passage>
+      <infon key="volume">473</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">342</infon>
+      <infon key="pub-id_pmid">21593866</infon>
+      <infon key="fpage">337</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>46020</offset>
+      <text>Global quantification of mammalian gene expression control</text>
+    </passage>
+    <passage>
+      <infon key="volume">495</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">127</infon>
+      <infon key="pub-id_pmid">23407496</infon>
+      <infon key="fpage">126</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46079</offset>
+      <text>Corrigendum: global quantification of mammalian gene expression control</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Protein Expr Purif</infon>
+      <infon key="lpage">234</infon>
+      <infon key="pub-id_pmid">15915565</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>46151</offset>
+      <text>Protein production by auto&#8208;induction in high density shaking cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">19039781</infon>
+      <infon key="fpage">51</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>46223</offset>
+      <text>High&#8208;throughput protein production &#8211; Lessons from scaling up&#160;from 10 to 288 recombinant proteins per week</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">331</infon>
+      <infon key="pub-id_pmid">10395563</infon>
+      <infon key="fpage">312</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>46334</offset>
+      <text>Histone H1: location and role</text>
+    </passage>
+    <passage>
+      <infon key="source">Science</infon>
+      <infon key="volume">347</infon>
+      <infon key="pub-id_pmid">25613900</infon>
+      <infon key="fpage">1260419</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46364</offset>
+      <text>Proteomics. Tissue&#8208;based map of the human proteome</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">232</infon>
+      <infon key="pub-id_pmid">22411467</infon>
+      <infon key="fpage">227</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46417</offset>
+      <text>Insights into the regulation of protein abundance from proteomic and transcriptomic analyses</text>
+    </passage>
+    <passage>
+      <infon key="volume">509</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">587</infon>
+      <infon key="pub-id_pmid">24870543</infon>
+      <infon key="fpage">582</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46510</offset>
+      <text>Mass&#8208;spectrometry&#8208;based draft of the human proteome</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">362</infon>
+      <infon key="pub-id_pmid">19377485</infon>
+      <infon key="fpage">359</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>46566</offset>
+      <text>Universal sample&#160;preparation method for proteome analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">3506</infon>
+      <infon key="pub-id_pmid">25225357</infon>
+      <infon key="fpage">3497</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46625</offset>
+      <text>A &#8216;proteomic ruler&#8217; for protein copy number and concentration estimation without spike&#8208;in standards</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">O111.009613</infon>
+      <infon key="year">2012</infon>
+      <offset>46731</offset>
+      <text>A Protein Epitope Signature Tag (PrEST) library allows SILAC&#8208;based absolute quantification and multiplexed determination of protein copy numbers in cell lines</text>
+    </passage>
+  </document>
+</collection>

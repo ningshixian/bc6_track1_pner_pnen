@@ -1,0 +1,1792 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5286371</id>
+    <passage>
+      <infon key="name_2">surname:Julian;given-names:Linda</infon>
+      <infon key="name_3">surname:Helbig;given-names:Lena</infon>
+      <infon key="name_0">surname:Rath;given-names:Nicola</infon>
+      <infon key="name_1">surname:Morton;given-names:Jennifer P</infon>
+      <infon key="name_6">surname:Anderson;given-names:Kurt I</infon>
+      <infon key="alt-title">Nicola Rath et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMMM201606743</infon>
+      <infon key="name_5">surname:McGhee;given-names:Ewan J</infon>
+      <infon key="name_8">surname:Mullin;given-names:Margaret</infon>
+      <infon key="name_9">surname:Pinho;given-names:Andreia V</infon>
+      <infon key="lpage">218 218</infon>
+      <infon key="fpage">198 198</infon>
+      <infon key="year">2017</infon>
+      <infon key="name_7">surname:Kalna;given-names:Gabriela</infon>
+      <infon key="name_4">surname:Kadir;given-names:Shereen</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/emmm.201606743</infon>
+      <infon key="article-id_pmid">28031255</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="issue">2</infon>
+      <infon key="kwd">collagen remodeling extracellular matrix pancreatic cancer ROCK kinases tumor cell invasion Cancer Digestive System</infon>
+      <infon key="volume">9 9</infon>
+      <infon key="article-id_pmc">5286371</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <infon key="name_10">surname:Rooman;given-names:Ilse</infon>
+      <infon key="name_11">surname:Samuel;given-names:Michael S</infon>
+      <infon key="name_12">surname:Olson;given-names:Michael F</infon>
+      <offset>0</offset>
+      <text> ROCK signaling promotes collagen remodeling to facilitate invasive pancreatic ductal adenocarcinoma tumor cell growth</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>119</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>128</offset>
+      <text>Pancreatic ductal adenocarcinoma (PDAC) is a major cause of cancer death; identifying PDAC enablers may reveal potential therapeutic targets. Expression of the actomyosin regulatory ROCK1 and ROCK2 kinases increased with tumor progression in human and mouse pancreatic tumors, while elevated ROCK1/ROCK2 expression in human patients, or conditional ROCK2 activation in a Kras G12D/p53 R172H mouse PDAC model, was associated with reduced survival. Conditional ROCK1 or ROCK2 activation promoted invasive growth of mouse PDAC cells into three&#8208;dimensional collagen matrices by increasing matrix remodeling activities. RNA sequencing revealed a coordinated program of ROCK&#8208;induced genes that facilitate extracellular matrix remodeling, with greatest fold&#8208;changes for matrix metalloproteinases (MMPs) Mmp10 and Mmp13. MMP inhibition not only decreased collagen degradation and invasion, but also reduced proliferation in three&#8208;dimensional contexts. Treatment of Kras G12D/p53 R172H PDAC mice with a ROCK inhibitor prolonged survival, which was associated with increased tumor&#8208;associated collagen. These findings reveal an ancillary role for increased ROCK signaling in pancreatic cancer progression to promote extracellular matrix remodeling that facilitates proliferation and invasive tumor growth.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1433</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1446</offset>
+      <text>Patient survival from pancreatic cancer is the lowest of all common cancers, with 5&#8208;year survival rates below 5% in England for both men and women. Despite significant effort focused on developing pancreatic cancer targeted therapies, survival rates have not improved, emphasizing the need for additional therapeutic targets and treatment strategies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1799</offset>
+      <text>The predominant cancer form is pancreatic ductal adenocarcinoma (PDAC), characterized by dense desmoplasia with extensive myofibroblast proliferation and extracellular matrix (ECM) deposition, largely composed of bundled collagen fibers (Chu et&#160;al, 2007). The contribution of tumor&#8208;associated desmoplasia to PDAC growth and progression is unclear and controversial (Rath &amp; Olson, 2016). The dense stroma serves as a barrier that impairs drug uptake (Feig et&#160;al, 2012); acute depletion of tumor&#8208;associated stroma using a Hedgehog pathway inhibitor (Olive et&#160;al, 2009); or enzymatic degradation of hyaluronic acid (Provenzano et&#160;al, 2012; Jacobetz et&#160;al, 2013) in mouse PDAC models increased drug uptake and promoted survival. Long&#8208;term inhibition or genetic deletion of Hedgehog signaling reduced stromal content and promoted tumor aggression in preclinical mouse models, while Hedgehog pathway activation increased desmoplasia and reduced epithelial cell proliferation (Lee et&#160;al, 2014; Rhim et&#160;al, 2014). Furthermore, depletion of &#945;&#8208;smooth muscle actin (&#945;SMA) expressing myofibroblasts resulted in invasive, undifferentiated tumors with reduced PDAC mouse survival, an observation paralleled by the association between fewer myofibroblasts and worse human patient survival (Ozdemir et&#160;al, 2014). Similarly, high PDAC stromal density has been linked with better patient survival (Bever et&#160;al, 2015). These observations are consistent with PDAC desmoplasia restraining tumor growth. However, it was reported recently that, although total and fibrillary collagen did not differ significantly in tumors at varying differentiation stages, collagen fiber diameters increased adjacent to poorly differentiated PDAC tumors, which was associated with short patient survival (Laklai et&#160;al, 2016). In addition, elevated levels of the collagen cross&#8208;linking enzyme lysyl oxidase (LOX) or fibrillar collagen were associated with reduced PDAC patient survival (Miller et&#160;al, 2015). These seemingly contradictory results illustrate the complex role of PDAC desmoplasia with the possibility of both negative and positive effects on tumor growth and progression, suggesting that the extent of desmosplasia alone is not directly responsible for tumor aggressiveness. By extension, properties that enabled PDAC cells to overcome potential inhibitory constraints on tumor growth imposed by the desmoplastic microenvironment would likely be positively selected, particularly in advanced tumors with well&#8208;established stromal components.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4340</offset>
+      <text>Genomic analysis of pancreatic cancers identified core drivers including KRAS, TP53, SMAD4, and CDKN2A mutations as well as copy number variations including amplifications of MET and NOTCH1 (Waddell et&#160;al, 2015; Bailey et&#160;al, 2016). The ROCK1 locus on chromosome 18 was found to be amplified in 15% of pancreatic patient tumors (Biankin et&#160;al, 2012), which was accompanied by concordant copy number/gene expression changes (Bailey et&#160;al, 2016). The Rho GTPase&#8208;regulated ROCK1 and ROCK2 kinases control actomyosin contractility through phosphorylation of substrates including LIM kinases 1&amp;2 (LIMK), myosin&#8208;binding subunit of the MLC phosphatase (MYPT1), and regulatory myosin light chain 2 (MLC2) (Rath &amp; Olson, 2012; Julian &amp; Olson, 2014). What role ROCK&#8208;mediated actomyosin contractility might play in PDAC has not been established, nor has it been determined whether ROCK2 expression is altered in pancreatic cancer.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5270</offset>
+      <text>In this study, ROCK2 expression was found to increase with pancreatic cancer progression in human and Kras G12D&#8208;driven mouse tumors. Elevated ROCK1 and/or ROCK2 expression was associated with shorter survival in human pancreatic cancer patients, while conditional ROCK activation in Kras G12D&#8208;driven PDAC mice was sufficient to accelerate mortality. Conditional ROCK1 or ROCK2 activation in Kras G12D /p53 +/&#8722; mouse PDAC tumor cells promoted collective invasion and proliferation in three&#8208;dimensional collagen matrices. Transcriptome analysis identified ROCK&#8208;induced differentially expressed gene networks associated with cell adhesion and cell&#8211;matrix interactions, with most highly induced transcripts being Mmp10 and Mmp13. ROCK&#8208;induced collagen degradation, collective invasion, and proliferation in three&#8208;dimensional collagen were blocked by MMP inhibition, indicating that ROCK signaling enables PDAC cells to overcome extracellular matrix imposed restraints on invasion and growth. Treatment of mice with Kras G12D&#8208;driven PDAC with the ROCK small molecule inhibitor Fasudil prolonged survival. These findings reveal an ancillary role for increased ROCK signaling in advanced pancreatic cancer to promote extracellular matrix remodeling that enables invasive tumor growth by overcoming microenvironmentally imposed proliferation restraints. An implication of these results is that ROCK inhibitor administration to pancreatic cancer patients might reverse the ability of pancreatic cancer cells to surmount the growth&#8208;restraining properties of tumor&#8208;associated desmoplasia.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6870</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6878</offset>
+      <text>ROCK2 expression increases during pancreatic cancer progression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6942</offset>
+      <text>To characterize ROCK2 expression in human pancreatic cancer progression, a tissue microarray containing 78 cases of pancreatic cancer and five normal pancreatic tissue samples was immunohistochemically stained with a ROCK2 antibody (Fig&#160;1A). The specificity of the ROCK2 antibody had been validated in Pdx1&#8208;Cre; ROCK2 fl/fl; Rosa26&#8208;LSL&#8208;RFP mouse pancreatic tissue, in which Cre&#8208;mediated recombination induced ROCK2 deletion and concomitant red fluorescent protein (RFP) expression (Appendix&#160;Fig S1A and B). ROCK2 levels rose with increasing tumor stage and grade, with the most progressed Stage III/IV having significantly higher levels than Normal or Stage I (Figs&#160;1A and EV1A). In addition, ROCK2 was also present in tumor cells at resection margins (Fig&#160;EV1B). Analysis of The Cancer Genome Atlas (TCGA) Research Network (Cerami et&#160;al, 2012) pancreatic adenocarcinoma provisional dataset revealed that survival of patients with genomic amplification or significantly elevated mRNA for ROCK1 and/or ROCK2, or truncating ROCK1 mutations similar to previously described cancer&#8208;associated activating ROCK1 truncation mutations (Lochhead et&#160;al, 2010), was significantly shorter than in patients without ROCK1/ROCK2 alterations (median survival periods: 21&#160;months for patients without alterations versus 17&#160;months, P&#160;=&#160;0.037) (Fig&#160;1B). These observations paralleled the significantly elevated ROCK1 (Fig&#160;1C) and ROCK2 (Fig&#160;1D) mRNA levels observed in pancreatic tumors relative to normal tissue detected in publicly available datasets (Iacobuzio&#8208;Donahue et&#160;al, 2003; Segara et&#160;al, 2005; Badea et&#160;al, 2008) using Oncomine (Rhodes et&#160;al, 2004). Furthermore, TCGA Research Network data (Cerami et&#160;al, 2012) also revealed significantly coordinated ROCK1 and ROCK2 mRNA expression in pancreatic cancers (Fig&#160;1E), consistent with an observed advantage associated with increased ROCK signaling in pancreatic cancer (Laklai et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8901</offset>
+      <text> ROCK expression is elevated in pancreatic cancer and promotes disease progression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8984</offset>
+      <text>ROCK2 immunohistochemistry&#8208;stained sections of normal and stages I, II, and III cases of human pancreas adenocarcinoma (left). Scale bar&#160;=&#160;50&#160;&#956;m. Histoscores of ROCK2 staining (right) in normal pancreas (n&#160;=&#160;5) and pancreas adenocarcinoma stage I (n&#160;=&#160;22), stage II (n&#160;=&#160;46), and stage III/IV (n&#160;=&#160;4). One&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9403</offset>
+      <text>Overall survival of 107 patients without alterations versus 37 patients with ROCK1 and/or ROCK2 gene amplification significantly increased mRNA or truncation mutation from TCGA research network. Survival P&#8208;value determined by log&#8208;rank test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9648</offset>
+      <text>Log2 median&#8208;centered ROCK1 or ROCK2 RNA expression in normal (n&#160;=&#160;39) vs. PDAC (n&#160;=&#160;39), normal (n&#160;=&#160;5) vs. pancreatic adenocarcinoma (PAC) (n&#160;=&#160;12), or normal (n&#160;=&#160;6) vs. pancreatic carcinoma (PC) (n&#160;=&#160;11) samples from indicated studies. Exact P&#8208;values determined by Mann&#8211;Whitney test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9953</offset>
+      <text>ROCK1 and ROCK2 mRNA expression in human PDAC (n&#160;=&#160;146) from the TCGA research network. Significance (P&#8208;value) of slope deviation from 0 determined by Deming regression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10127</offset>
+      <text>Representative hematoxylin and eosin (H&amp;E)&#8208; and ROCK2 immunohistochemistry&#8208;stained sections of normal mouse pancreas, acinar&#8208;to&#8208;ductal metaplasia (ADM), pancreatic intraepithelial neoplasia (PanIN) stages 1&#8211;3, and PDAC from mice with the indicated genotype. Scale bar&#160;=&#160;50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10418</offset>
+      <text>Quantification of ROCK2 staining in pancreatic cells of normal (wildtype), ADM/PanIN1 (KC), PanIN2 (KPC), PanIN3 (KPC), and PDAC (KPC) tissue (n&#160;=&#160;5 mice per group). One&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10689</offset>
+      <text>Survival analysis of Pdx1&#8208;Cre; LSL&#8208;KRas G12D/+; LSL&#8208;Trp53 R172H/+; LSL&#8208;ROCK2:ER (RKPC) mice without (n&#160;=&#160;21) or with conditional ROCK activation with tamoxifen citrate (n&#160;=&#160;19). Survival P&#8208;value determined by log&#8208;rank test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10929</offset>
+      <text> Data information: Box&#160;(upper and lower quartiles divided by median value) and whisker (5th&#8211;95th percentile) plots show outliers as individual points.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11083</offset>
+      <text> ROCK2 association with pancreas adenocarcinoma grade and expression in tumor cells in resection margin (related to Fig&#160;1)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11207</offset>
+      <text>Histoscores of ROCK2 staining (Fig&#160;1A) in normal pancreas (n&#160;=&#160;5), and pancreas adenocarcinoma grade 1 (n&#160;=&#160;23), grade 2 (n&#160;=&#160;27), and grade 3 (n&#160;=&#160;13). Box&#160;(upper and lower quartiles divided by median value) and whisker (5th&#8211;95th percentile) plots show outliers as individual points.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11504</offset>
+      <text>ROCK2&#8208;positive stained cells (indicated with arrows) found beyond the tumor in the resection margin of human PDAC.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11621</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11624</offset>
+      <text>To further investigate ROCK2 expression in PDAC development and progression, genetically modified mouse models were used that closely recapitulate human PDAC (Gopinathan et&#160;al, 2015). Oncogenic Kras G12D, preceded by a Lox&#8208;Stop&#8208;Lox (LSL) transcriptional termination cassette that can be excised by Cre recombinase expressed from the pancreas&#8208;selective Pdx1 promoter (Pdx1&#8208;Cre), was combined with p53 deletion or mutation (Hingorani et&#160;al, 2003, 2005; Morton et&#160;al, 2010). ROCK2 immunostaining of normal pancreata as well as pancreatic tumors from LSL&#8208;Kras G12D ; Pdx1&#8208;Cre (KC) or LSL&#8208;Kras G12D ; LSL&#8208;p53 R172H ; Pdx1&#8208;Cre (KPC) mice revealed weak ROCK2 expression in healthy normal tissue from wild&#8208;type mice, with progressive elevation in developing lesions of acinar&#8208;ductal metaplasia (ADM), pancreatic intraepithelial neoplasia (PanIN) stages 1&#8211;3, and highest expression in PDAC tumors (Fig&#160;1F and G).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12556</offset>
+      <text>To determine whether increased ROCK signaling was sufficient to influence PDAC mouse survival, LSL&#8208;Kras G12D ; LSL&#8208;p53 R172H ; Pdx1&#8208;Cre (KPC) mice were crossed with genetically modified mice containing a Hprt&#8208;targeted LSL&#8208;ROCK2:ER transgene (Fig&#160;EV2A) (Samuel et&#160;al, 2016) to establish a RKPC mouse line (Fig&#160;EV2B). Fusion of the ROCK2 kinase domain with the estrogen receptor (ER) hormone&#8208;binding domain generates a ROCK2:ER chimeric protein that is inactive in the absence of ligand, but which can be conditionally activated by estrogen analogues such as 4&#8208;hydroxytamoxifen (4HT) or tamoxifen (Fig&#160;EV2C) both in&#160;vitro and in&#160;vivo (Croft et&#160;al, 2006; Samuel et&#160;al, 2009, 2011; Sanz&#8208;Moreno et&#160;al, 2011; Kumar et&#160;al, 2012). To conditionally activate ROCK2:ER in Pdx1&#8208;expressing Kras G12D/p53 R172H pancreatic tumor cells (Appendix&#160;Figs S2 and S3), tamoxifen citrate or vehicle control was administered to RKPC cohorts for 9&#160;weeks, starting at 10&#160;weeks of age when KPC mice have typically progressed to the PanIN stage (Fig&#160;1F) (Morton et&#160;al, 2010). Conditional ROCK activation significantly (P&#160;=&#160;0.022) reduced RKPC mouse survival time relative to vehicle control&#8208;treated mice (Fig&#160;1H), indicating that the additional ROCK activity in the PDAC mouse model paralleled the effect of increased ROCK1/ROCK2 expression on reduced human PDAC patient survival (Fig&#160;1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13957</offset>
+      <text>Tissue&#8208;selective expression of conditionally activated ROCK2 (related to Fig&#160;1)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14040</offset>
+      <text>A CAG&#8208;LSL&#8208;Rock2:ER expression cassette was targeted to the mutant mouse Hprt gene locus together with the promoter and first exon of human HPRT and the second exon of murine Hprt to reconstitute an active chimeric Hprt locus. Not to scale.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14284</offset>
+      <text>Generation of LSL&#8208;ROCK2:ER; KPC (RKPC) mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14331</offset>
+      <text>Conditional activation of the ROCK2:ER fusion protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14386</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14389</offset>
+      <text>ROCK kinases drive PDAC cell invasion and proliferation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14445</offset>
+      <text>Pancreatic tumor masses are largely composed of stroma, of which ECM proteins including collagen are major constituents (Feig et&#160;al, 2012). Tumor cells must invade through the collagen&#8208;rich microenvironment to invade local tissue and to metastasize. A three&#8208;dimensional collagen matrix invasion assay, used previously to characterize PDAC cell invasive behavior (Timpson et&#160;al, 2011; Nobis et&#160;al, 2014), in which tumor cells move through a fibroblast&#8208;remodeled collagen meshwork toward serum&#8208;containing medium, was utilized to determine how ROCK signaling might influence invasion. Invasive KPC mouse PDAC cells (Appendix&#160;Fig S4) (Timpson et&#160;al, 2011) invaded significantly less into collagen matrix in the presence of ROCK&#8208;selective inhibitor H1152 (Fig&#160;2A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15221</offset>
+      <text> ROCK activation induces PDAC cell invasion</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15265</offset>
+      <text>H&amp;E&#8208;stained sections of cell invasion into collagen matrix after 8&#160;days. Scale bar&#160;=&#160;100&#160;&#956;m. Invasion index of KPC cells in the presence or absence of 10&#160;&#956;M H1152 ROCK inhibitor. Means&#160;&#177;&#160;SEM (n&#160;=&#160;9 for untreated, n&#160;=&#160;8 for H1152), P&#8208;value by unpaired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15544</offset>
+      <text>Schematic representation of ROCK domains (RBD, Rho binding domain; PH, pleckstrin homology domain; CR, cysteine&#8208;rich). Conditionally activated human ROCK1, human ROCK2, and GFP control fusion proteins (EGFP, enhanced green fluorescent protein; hbER, estrogen receptor hormone&#8208;binding domain) were expressed in KPflC mouse PDAC cells and blotted with anti&#8208;GFP antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15919</offset>
+      <text>KPflC cells expressing GFP:ER, ROCK1:ER or ROCK2:ER fusion proteins were treated for 24&#160;h with EtOH vehicle or 1&#160;&#956;M 4HT in the presence or absence of 1&#160;&#956;M or 10&#160;&#956;M H1152. Immunoblotting shows endogenous ROCK1 and ROCK2, ER&#8208;fusions, and phosphorylation of MLC2 (T18S19). Total MLC (MRCL3/MRLC2/MYL9) and glyceraldehyde&#8208;3&#8208;phosphate dehydrogenase (GAPDH) were blotted as loading controls.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16318</offset>
+      <text>H&amp;E&#8208;stained sections of cell invasion into collagen matrix after 8&#160;days. Scale bar&#160;=&#160;100&#160;&#956;m. Invasion index of KPflC cells treated with 1&#160;&#956;M 4HT. Means&#160;&#177;&#160;SEM (n&#160;=&#160;6), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Dunnett's multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16606</offset>
+      <text>Cell proliferation determined by Ki67 immunofluorescence. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16687</offset>
+      <text>Quantification of cell number at the collagen matrix surface per 0.046&#160;mm2 field. Means&#160;&#177;&#160;SEM (n&#160;=&#160;30), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Dunnett's multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16904</offset>
+      <text>Ki67&#8208;positive cell percentages at the surface and within the collagen matrix. Means&#160;&#177;&#160;SEM (n&#160;=&#160;30; n&#160;=&#160;12 for GFP:ER/Matrix), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Dunnett's multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17146</offset>
+      <text>Viable cell relative to starting cell numbers were determined after 24 or 48&#160;h treatment with vehicle (&#8722;) or 4HT on uncoated plastic surfaces (H) or collagen1&#8208;coated surfaces (I). Means&#160;&#177;&#160;SEM (n&#160;=&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17357</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17360</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17412</offset>
+      <text>To understand how additional ROCK signaling input might promote PDAC progression and reduce survival in human patients and mouse PDAC models (Fig&#160;1), we adopted a conditional gain&#8208;of&#8208;function approach. Conditionally activated ER&#8208;fusions with ROCK1 (ROCK1:ER) or ROCK2 (ROCK2:ER) kinase domains, or green fluorescent protein (GFP:ER), were stably retrovirally transduced and expressed in non&#8208;invasive PDAC tumor cells derived from Pdx1&#8208;Cre; LSL&#8208;Kras G12D ; LSL&#8208;p53 fl/+ (KPflC) mice (Fig&#160;2B). While antibodies specific for epitopes in the carboxyl&#8208;terminal regions present in full&#8208;length endogenous ROCK1 or ROCK2 showed consistent levels, blotting with an antibody against a kinase&#8208;domain epitope shared by endogenous ROCK1, ROCK2, ROCK1:ER, or ROCK2:ER revealed comparable expression of the fusion proteins to endogenous ROCK kinases (Fig&#160;2C). ROCK:ER fusions were induced and activated by 4HT, with consequent increased phosphorylation of MLC2 (pMLC2) that could be reversed by the ROCK&#8208;selective inhibitor H1152, in contrast to the lack of effect of 4HT treatment on GFP:ER&#8208;expressing cells (Fig&#160;2C and Appendix&#160;Fig S5A). Consistent with previous observations (Croft et&#160;al, 2005), 4HT treatment of ROCK1:ER&#8208; or ROCK2:ER&#8208;expressing KPflC cells was sufficient to induce contraction and rounding compared to vehicle&#8208;treated controls, which were not observed for 4HT&#8208;treated GFP:ER&#8208;expressing cells (Appendix Fig&#160;S5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18871</offset>
+      <text>Non&#8208;invasive KPflC mouse PDAC cells (Appendix&#160;Fig S4; Timpson et&#160;al, 2011) expressing GFP:ER and treated with 4HT did not invade the collagen matrix, while ROCK1:ER&#8208; or ROCK2:ER&#8208;expressing cells were significantly more invasive (Fig&#160;2D). Comparable results were obtained if embedded fibroblasts were not removed prior to addition of ROCK1:ER&#8208; or ROCK2:ER&#8208;expressing KPflC cells to the collagen matrix surface (Fig&#160;EV3A). Further analysis revealed thicker ROCK1:ER and ROCK2:ER cell layers at collagen matrix surfaces (Fig&#160;2D, inserts) with significantly more cells relative to GFP:ER&#8208;expressing cells (Fig&#160;2E and F), associated with significantly increased cell proliferation as indicated by Ki67 immunoreactivity (Fig&#160;2E and G). All three cell lines had high Ki67&#8208;positive percentages of cells that had successfully invaded collagen matrix, although both ROCK:ER&#8208;expressing cell lines tended to have higher percentages than GFP:ER controls (Fig&#160;2G). However, when cells were grown on two&#8208;dimensional plastic (Fig&#160;2H) or a thin collagen1&#8208;coated surface (Fig&#160;2I), conditional ROCK activation did not affect viable proliferation. Furthermore, the invasion and proliferation of ROCK1:ER or ROCK2:ER&#8208;expressing cells were significantly reduced by addition of H1152 ROCK inhibitor to the collagen matrix invasion assay (Fig&#160;EV3B&#8211;E). Together, these data indicate that increased ROCK activity drives PDAC cell invasion, which enables proliferation by overcoming restraints imposed by three&#8208;dimensional collagen matrices that are not influential in two dimensions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20466</offset>
+      <text> ROCK&#8208;induced collagen matrix invasion (related to Fig&#160;2)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20527</offset>
+      <text>H&amp;E&#8208;stained sections of cell invasion into collagen matrix containing embedded fibroblasts after 8&#160;days. Scale bar&#160;=&#160;100&#160;&#956;m. Invasion index of KPflC cells treated with 1&#160;&#956;M 4HT. Means&#160;&#177;&#160;SEM (n&#160;=&#160;6), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Dunnett's multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20847</offset>
+      <text>H&amp;E&#8208;stained sections of cell invasion into collagen matrix after 8&#160;days. Scale bar&#160;=&#160;100&#160;&#956;m. Invasion index of KPflC cells treated with EtOH vehicle, 1&#160;&#956;M 4HT, or 1&#160;&#956;M 4HT&#160;+&#160;10&#160;&#956;M H1152. Means&#160;&#177;&#160;SEM (n&#160;=&#160;6; n&#160;=&#160;5 for ROCK2:ER/4HT), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21204</offset>
+      <text>Cell proliferation determined by Ki67 immunofluorescence. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21285</offset>
+      <text>Quantification of cell number at the collagen matrix surface per 0.046&#160;mm2 field. Means&#160;&#177;&#160;SEM (n&#160;=&#160;24), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21498</offset>
+      <text>Ki67&#8208;positive cell percentages at the surface. Means&#160;&#177;&#160;SEM (n&#160;=&#160;24), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21677</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21680</offset>
+      <text>ROCK activation induces collagen remodeling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21724</offset>
+      <text>To determine whether ROCK&#8208;induced invasion (Fig&#160;2) was associated with collagenolysis, collagen matrix sections were immunostained with Col1 3/4C antibody to detect a collagen1 neo&#8208;epitope at the C&#8208;terminal end of the &#190; fragment resulting from &#945;1&#8208; and &#945;2&#8208;chains cleavage at G775&#8211;I776 and G775&#8211;L776, respectively, and local triple helix denaturation. While collagen cleavage was minimal in GFP:ER&#8208;expressing cells, invasive ROCK1:ER and ROCK2:ER cells had considerable staining below collagen matrix surfaces and surrounding cell clusters (Fig&#160;3A, left). To quantitatively assess fibrillar collagen organization in collagen matrices, second harmonic generation (SHG) microscopy, which takes advantage of optical properties of supramolecularly assembled collagen fibers (Chen et&#160;al, 2012), was performed at multiple z&#8208;planes below the collagen matrix surface (Fig&#160;3A, second to fourth panels). When the intensity of fibrillary collagen detected by SHG was assessed, it was apparent that fibrillar collagen areas diminished more slowly with increasing depth of surface penetration in GFP:ER&#8208;expressing cells (Fig&#160;3A, green line) compared to the greater decline observed in ROCK1:ER&#8208;expressing cells (Fig&#160;3A, orange line). Gray&#8208;level correlation matrix (GLCM) texture analysis (Mosta&#231;o&#8208;Guidolin et&#160;al, 2013; Cameron et&#160;al, 2015; Miller et&#160;al, 2015) of SHG images confirmed that invading ROCK:ER cells had extensively remodeled fibrillar collagen (Fig&#160;3B and C). Transmission electron microscopy (TEM) revealed that regions of collagen matrix surfaces not associated with invasive cell clusters lacked protrusions (Fig&#160;3D), while surface cells near invasive clusters (Fig&#160;3D, black border) or invading cell clusters (Fig&#160;3D, red or green borders) had extensive protrusions resembling blebs and microvesicles. Tannic acid&#8208;glutaraldehyde fixation (Cotta&#8208;Pereira et&#160;al, 1976) allowed visualization of collagen fibers within the collagen matrix. Long fibers were often visible in regions away from cells or adjacent to non&#8208;invading cells at the collagen matrix surface (Fig&#160;3E; left, yellow arrows), while there were decreased apparent long fibers and shorter collagen bundles observed adjacent to invading cell clusters, protrusions and microvesicles (Fig&#160;3E; right, red arrows). These results reveal that ROCK:ER&#8208;expressing cells extensively re&#8208;modeled three&#8208;dimensional collagen matrices, likely resulting from proximal collagenolysis, physical force from actomyosin contraction, and pressure produced by invasive cell cluster expansion.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24314</offset>
+      <text> ROCK activation induces collagen cleavage and remodeling</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24372</offset>
+      <text>Immunofluorescence of collagen matrix sections co&#8208;stained for cleaved collagen neo&#8208;epitope Col1 3/4C and DAPI (left panels). Second harmonic generation (SHG) images of collagen fibers within three&#8208;dimensional collagen matrices at 15&#160;&#956;m and 45&#160;&#956;m below the cell surface (middle panels). Scale bar&#160;=&#160;20&#160;&#956;m. Graphs indicate the mean&#160;&#177;&#160;SEM fibrillary collagen areas at 2.5&#160;&#956;m increments below the cell/collagen interface (n&#160;=&#160;5). SHG fibrillar collagen (red); cells (green).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24864</offset>
+      <text>Gray&#8208;level correlation matrix (GLCM) texture analysis of SHG correlation (n&#160;=&#160;6) and contrast (n&#160;=&#160;5). Mean&#160;&#177;&#160;SEM at each distance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25005</offset>
+      <text>Transmission electron microscopy of a collagen matrix section. Scale bar&#160;=&#160;1&#160;&#956;m. Positions of magnified areas indicated by corresponding colored squares.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25163</offset>
+      <text>Transmission electron microscopy of collagen matrix sections with collagen stained by Tannic acid. Yellow arrows indicate long collagen bundles. Red arrows indicate short collagen bundles. Scale bar&#160;=&#160;0.5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25376</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25379</offset>
+      <text>ROCK regulation of gene expression and MMP release</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25430</offset>
+      <text>Although ROCK actions on actin structures and cell morphology are well&#8208;known (Rath &amp; Olson, 2012; Julian &amp; Olson, 2014), the same signaling pathway regulates gene transcription (Rajakyl&#228; &amp; Vartiainen, 2014). Using RNA sequencing, expressions of 305 genes were found to be significantly (P&#160;&lt;&#160;0.05) changed greater than twofold in 4HT&#8208;treated ROCK1:ER&#8208;expressing cells relative to GFP:ER&#8208;expressing cells (Fig&#160;4A, left), while 374 genes were significantly changed in ROCK2:ER versus GFP:ER&#8208;expressing cells (Fig&#160;4A, right), of which 285 were common changes (Fig&#160;4B) (Rath et&#160;al, 2016). The greatest significantly increased fold&#8208;changes were Mmp10 and Mmp13, prostaglandin&#8208;endoperoxidase synthase 2 (Ptgs2 also known as Cox2), and Tenascin&#8208;C (Tnc) (Fig&#160;4A and Dataset EV1). COX2 is commonly elevated in human PDAC (Yip&#8208;Schneider et&#160;al, 2000), and its overexpression promoted mouse PDAC development (Hill et&#160;al, 2012). TNC is a component of tumor&#8208;specific ECM associated with pancreatic carcinogenesis (Esposito et&#160;al, 2006). Metacore&#8482; was used to identify differentially expressed gene process networks (1,036 genes with false discovery rates &lt;&#160;5% and &#8805;&#160;1.5&#8208;fold increased (603) or decreased (433) in ROCK1:ER&#160;+&#160;4HT vs. GFP:ER&#160;+&#160;4HT and ROCK2:ER&#160;+&#160;4HT vs. GFP:ER&#160;+&#160;4HT), which ranked Cell adhesion: Cell&#8208;matrix interaction first (Appendix&#160;Table&#160;S1). Figure&#160;4C shows the relative expression of 33 differentially expressed genes from this network in 4HT&#8208;treated GFP:ER&#8208;, ROCK1:ER&#8208;, or ROCK2:ER&#8208;expressing cells from three independent experiments. The average number of MMP sequencing reads from 4HT&#8208;treated GFP:ER&#8208;, ROCK1:ER&#8208;, and ROCK2:ER&#8208;expressing cells were plotted in Fig&#160;4D, indicating the significant up&#8208;regulation of the stromelysin Mmp10 and collagenase Mmp13 (Appendix&#160;Table&#160;S2). Although not a direct collagenase, MMP10 superactivates procollagenases including proMMP13 (Barksby et&#160;al, 2006). Expression of several collagens was also altered by ROCK activation (Appendix&#160;Fig S6 and Appendix&#160;Table&#160;S3). ROCK&#8208;induced increases in Mmp10 (Fig&#160;4E) and Mmp13 (Fig&#160;4F) mRNA transcripts were confirmed by qPCR. In addition, the ROCK inhibitor H1152 reversed ROCK&#8208;induced Mmp10 and Mmp13 expression (Fig&#160;4E and F). Furthermore, higher MMP10 histoscores correlated with higher pancreatic adenocarcinoma grades (Fig&#160;4G).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27831</offset>
+      <text> MMP induction by ROCK activation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27865</offset>
+      <text>Volcano plots of RNA sequencing data of genes that pass a threshold false discovery rate (FDR) &lt;&#160;5%, with log10 fold&#8208;change (FC) in expression in 4HT&#8208;treated ROCK1:ER&#8208;expressing cells relative to GFP:ER&#8208;expressing cells (left) or 4HT&#8208;treated ROCK2:ER&#8208;expressing cells relative to GFP:ER&#8208;expressing cells (right) versus log10&#8208;adjusted P&#8208;value (n&#160;=&#160;3). ROCK1:ER&#160;+&#160;4HT vs GFP:ER&#160;+&#160;4HT: 3,828 genes. ROCK2:ER&#160;+&#160;4HT vs. GFP:ER&#160;+&#160;4HT: 4,481 genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28336</offset>
+      <text>Venn diagram of genes with FDR&#160;&lt;&#160;5% and &#8805; 2&#8208;fold expression changes for ROCK1:ER&#160;+&#160;4HT vs. GFP:ER&#160;+&#160;4HT and ROCK2:ER&#160;+&#160;4HT vs. GFP:ER&#160;+&#160;4HT.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28491</offset>
+      <text>Heatmap of 33 differentially expressed genes in the MetaCore&#8482; process network Cell adhesion: Cell&#8208;matrix interaction. High relative expression in red and low relative expression in blue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28682</offset>
+      <text>MMP average RNA sequence reads. Mean&#160;&#177;&#160;SEM (n&#160;=&#160;3). * indicates adjusted P&#8208;value &lt;&#160;0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28779</offset>
+      <text>Left: Mmp10 mRNA levels relative to Gapdh determined by qPCR following treatment with EtOH vehicle (&#8722;) or 1&#160;&#956;M 4HT for 24&#160;h. Means&#160;&#177;&#160;SEM (n&#160;=&#160;4), P&#8208;value by unpaired t&#8208;test. Right: Mmp10 mRNA levels relative to Gapdh determined by qPCR following treatment with EtOH vehicle (&#8722;), 1&#160;&#956;M 4HT or 4HT&#160;+&#160;1&#160;&#956;M H1152 ROCK inhibitor for 24&#160;h. Means&#160;&#177;&#160;SEM (n&#160;=&#160;3), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29264</offset>
+      <text>Left: Mmp13 mRNA levels relative to Gapdh determined by qPCR following treatment with EtOH vehicle (&#8722;) or 1&#160;&#956;M 4HT for 24&#160;h. Means&#160;&#177;&#160;SEM (n&#160;=&#160;4), P&#8208;value by unpaired t&#8208;test. Right: Mmp13 mRNA levels relative to Gapdh determined by qPCR following treatment with EtOH vehicle (&#8722;), 1&#160;&#956;M 4HT or 4HT&#160;+&#160;1&#160;&#956;M H1152 ROCK inhibitor for 24&#160;h. Means&#160;&#177;&#160;SEM (n&#160;=&#160;3), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29749</offset>
+      <text>MMP10 immunohistochemistry&#8208;stained sections of human pancreas adenocarcinoma (left). Scale bar&#160;=&#160;100&#160;&#956;m. Histoscores of MMP10 staining (right) in normal pancreas (n&#160;=&#160;5) and pancreas adenocarcinoma grade 1 (n&#160;=&#160;23), grade 2 (n&#160;=&#160;27), and grade 3 (n&#160;=&#160;13). One&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test. Box&#160;(upper and lower quartiles divided by median value) and whisker (5th&#8211;95th percentile) plots show outliers as individual points.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30257</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30260</offset>
+      <text>Immunofluorescence indicated that ROCK:ER activation led to MMP10 and MMP13 accumulation in bleblike protrusions (Fig&#160;5A), effects that could be reversed by H1152 ROCK inhibitor (Fig&#160;EV4A and B). Conditioned media contained increased MMP10 and MMP13 following ROCK:ER activation, with little difference in MMP10 levels in cell lysates (Fig&#160;5B), suggesting that MMP protein release was not rate&#8208;limiting. Given that MMP10 release has been reported to be mediated via microvesicles (de Lizarrondo et&#160;al, 2012) and that ROCK signaling was shown to promote microvesicle formation (Li et&#160;al, 2012), we sought to determine whether ROCK activation promoted MMP10 release via microvesicles. Consistent with the appearance of microvesicles associated with ROCK activation in collagen matrix invasion assays (Fig&#160;3D and E), microvesicle enrichment by ultracentrifugation of conditioned media yielded significantly more protein following ROCK activation (Fig&#160;5C). Western blotting revealed significantly increased MMP10 protein, which could be detected in isolated microvesicles by immunogold staining in TEM images, as well as increased MMP10 to caveolin and MMP10 to microvesicle protein ratios in ultracentrifuge&#8208;enriched protein (Fig&#160;5D). In contrast, the caveolin to microvesicle protein ratio (Fig&#160;5E) as well as MMP10 to GAPDH or caveolin to GAPDH ratios in cell lysates (Fig&#160;5F) were not affected by ROCK activation. Together, these findings indicate that ROCK&#8208;induced Mmp10 and Mmp13 mRNA expression was associated with increased release of microvesicles that enable efficient MMP release into the surrounding environment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31897</offset>
+      <text> MMP proteins are efficiently released in response to ROCK activation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31967</offset>
+      <text>Confocal microscope images of ROCK1:ER&#8208;expressing cells co&#8208;stained for F&#8208;actin, MMP10 (left) or MMP13 (right), and DAPI following treatment with vehicle or 1&#160;&#956;M 4HT for 24&#160;h. Multiple z&#8208;planes were used to generate x&#8722;z and y&#8722;z images. Scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32239</offset>
+      <text>Representative immunoblot of MMP13 and MMP10 in conditioned media, as well as MMP10 and GAPDH in cell lysates. Cells were treated with vehicle (&#8722;) or 1&#160;&#956;M 4HT for 48&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32413</offset>
+      <text>Representative stained gel of ultracentrifuge&#8208;enriched microvesicle protein from GFP:ER or ROCK1:ER&#8208;expressing cell&#8208;conditioned media following treatment with vehicle (&#8722;) or 1&#160;&#956;M 4HT for 24&#160;h (top). Absolute arbitrary unit values for total microvesicle protein levels in stained gels (bottom). Means&#160;&#177;&#160;SEM (n&#160;=&#160;4), P&#8208;value by ratio paired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32780</offset>
+      <text>Representative immunoblot of MMP10 and caveolin in ultracentrifuge&#8208;enriched microvesicle proteins from cell&#8208;conditioned media following treatment with vehicle (&#8722;) or 1&#160;&#956;M 4HT for 24&#160;h as well as MMP10, caveolin, and GAPDH in cell lysates (top left). Transmission electron microscopy of ultracentrifuge&#8208;enriched microvesicles (top center), and immunogold labeling of MMP10 in ROCK1:ER 4HT&#8208;treated microvesicles, indicated by red arrows (top right). Absolute arbitrary unit values for MMP10 levels in Western blots of ultracentrifugation&#8208;enriched microvesicle proteins (bottom left). Ratios of MMP10 to caveolin (bottom center) or to total microvesicle proteins (bottom right). Means&#160;&#177;&#160;SEM (n&#160;=&#160;4), P&#8208;value by ratio paired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33533</offset>
+      <text>Absolute arbitrary unit values for caveolin levels in Western blots of ultracentrifugation&#8208;enriched microvesicle proteins (left). Ratio of caveolin to total microvesicle proteins (right). Means&#160;&#177;&#160;SEM (n&#160;=&#160;4), P&#8208;value by ratio paired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33785</offset>
+      <text>Ratios of MMP10 to GAPDH (left) and caveolin to GAPDH (right) in Western blots of whole&#8208;cell lysates. Means&#160;&#177;&#160;SEM (n&#160;=&#160;3), P&#8208;value by ratio paired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33951</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33954</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34006</offset>
+      <text>Accumulation of MMP10 and MMP13 in bleblike protrusions (related to Fig&#160;5)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34082</offset>
+      <text>Confocal microscope images of KPflC cells expressing ROCK1:ER or ROCK2:ER as indicated co&#8208;stained for F&#8208;actin, MMP10 (A) or MMP13 (B), and DAPI following treatment with vehicle, 1&#160;&#956;M 4HT, or 1&#160;&#956;M 4HT&#160;+&#160;1&#160;&#956;M H1152 for 24&#160;h. Multiple z&#8208;planes were used to generate x&#8722;z and y&#8722;z images (bottom). Scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34415</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34418</offset>
+      <text>ROCK kinases induce collagen remodeling to enable invasive growth</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34484</offset>
+      <text>To directly test whether ROCK&#8208;induced MMP release drives collagen degradation, GFP:ER&#8208; and ROCK1:ER&#8208;expressing cells were plated on FITC&#8208;labeled collagen1 and collagenolysis was detected by reduced FITC fluorescence. Greater areas of collagen degradation were apparent in ROCK1&#8208;activated cells (Fig&#160;6A and B), which were significantly reduced by H1152 to below GFP:ER control levels (Fig&#160;6A and B). Treatment with the myosin ATPase inhibitor Blebbistatin to reduce actomyosin contraction (Straight et&#160;al, 2003) or the broad&#8208;spectrum MMP inhibitor GM6001 (Grobelny et&#160;al, 1992) reduced GFP:ER control and ROCK1:ER&#8208;induced collagen degradation (Fig&#160;6C). Further, ROCK&#8208;induced MMP10 and Mmp13 were present at invasive cell interfaces with collagen matrix (Fig&#160;6D and E). The critical importance of MMP activity for ROCK&#8208;induced three&#8208;dimensional collagen matrix invasion was demonstrated by sensitivity to GM6001 (Fig&#160;7A and B). While ROCK:ER activation increased the total number of cells (Fig&#160;2F) and Ki67&#8208;positive cells at the collagen matrix surface (Fig&#160;2G), GM6001 blocked ROCK&#8208;induced cell layer thickening (Fig&#160;7A, inserts and C) and significantly reduced the number of Ki67&#8208;positive cells (Fig&#160;7D and E). Although GM6001 significantly blocked ROCK&#8208;induced invasion (Fig&#160;7A and B), the Ki67 positivity of successfully invaded cells was not affected by GM6001 (Fig&#160;7D and F). Proliferation was not affected by GM6001 on two&#8208;dimensional uncoated (Fig&#160;7G) or collagen1&#8208;coated surfaces (Fig&#160;7H). These results indicate that ROCK activation enables PDAC proliferation by promoting ECM degradation to relieve constraints imposed by three&#8208;dimensional microenvironments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36201</offset>
+      <text> ROCK activation promotes collagen degradation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36248</offset>
+      <text>Representative fluorescence images of cells treated with 1&#160;&#956;M 4HT in the absence or presence of 10&#160;&#956;M H1152 for 18&#160;h on Collagen1&#8208;FITC (Col1&#8208;FITC). Co&#8208;staining for F&#8208;actin, MMP10 (red), and DAPI (blue). Scale bar&#160;=&#160;10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36487</offset>
+      <text>Quantification of collagen degradation by cells treated with 1&#160;&#956;M 4HT or 4HT&#160;+&#160;10&#160;&#956;M H1152 for 16&#160;h. Means&#160;&#177;&#160;SEM (n&#160;=&#160;15), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36725</offset>
+      <text>Quantification of collagen degradation by cells treated with 1&#160;&#956;M 4HT, 4HT&#160;+&#160;DMSO vehicle, 4HT&#160;+&#160;50&#160;&#956;M Blebbistatin or 4HT&#160;+&#160;10&#160;&#956;M GM6001 for 16&#160;h. Means&#160;&#177;&#160;SEM (n&#160;=&#160;15), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37016</offset>
+      <text>Immunofluorescence of collagen matrix sections co&#8208;stained for MMP10 and DAPI. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37119</offset>
+      <text> Mmp13 in situ hybridization&#8208;stained sections of collagen matrices. Scale bar&#160;=&#160;50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37212</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37215</offset>
+      <text> ROCK activation promotes MMP&#8208;dependent invasive growth</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37273</offset>
+      <text>H&amp;E&#8208;stained sections of cell invasion into collagen matrix after 8&#160;days, in the absence (top) or presence of 10&#160;&#956;M GM6001 (bottom). Scale bar&#160;=&#160;100&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37434</offset>
+      <text>Invasion index of KPflC cells. Means&#160;&#177;&#160;SEM (n&#160;=&#160;4), P&#8208;value by unpaired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37523</offset>
+      <text>Quantification of cell number at the collagen matrix surface per 0.046&#160;mm2 field. Means&#160;&#177;&#160;SEM (n&#160;=&#160;20), P&#8208;value by unpaired t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37665</offset>
+      <text>Cell proliferation determined by Ki67 immunofluorescence. Scale bar&#160;=&#160;20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37746</offset>
+      <text>Ki67&#8208;positive cell percentages at the collagen matrix surface. Means &#177; SEM (n&#160;=&#160;20; n&#160;=&#160;19 for GFP:ER/vehicle, n&#160;=&#160;18 for GFP:ER/GM6001), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37996</offset>
+      <text>Ki67&#8208;positive cell percentages in collagen matrix. Means&#160;&#177;&#160;SEM (n&#160;=&#160;20; n&#160;=&#160;8 for GFP:ER/vehicle, n&#160;=&#160;10 for GFP:ER/GM6001, n&#160;=&#160;17 for ROCK1:ER/GM6001, n&#160;=&#160;15 for ROCK2:ER/GM6001), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38295</offset>
+      <text>The increase in viable cell numbers of cells plated on uncoated plastic surfaces (G) or collagen1 (Col1)&#8208;coated surfaces (H) and treated with 1&#160;&#956;M 4HT for 24&#160;h was not affected by 10&#160;&#956;M GM6001. Means&#160;&#177;&#160;SEM (n&#160;=&#160;3), one&#8208;way ANOVA with multiplicity adjusted exact P&#8208;value by post hoc Tukey multiple comparison test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38625</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38628</offset>
+      <text>ROCK inhibition promotes PDAC mouse survival</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38673</offset>
+      <text>Finally, we wished to determine whether ROCK signaling was a pharmacologically actionable target in the mouse pre&#8208;clinical PDAC model. The ROCK inhibitor Fasudil has been safely used in Japan since 1995 to reverse the effect of ROCK&#8208;mediated blood vessel constriction during cerebral vasospasm (Olson, 2008). Administration of Fasudil to KPC mice from 10&#160;weeks of age significantly increased survival (Fig&#160;8A), with 123&#8208;day median survival for vehicle&#8208;treated mice and 168&#8208;day median survival for Fasudil&#8208;treated mice (P&#160;=&#160;0.043). Endpoint tumors showed many similar characteristics (Appendix&#160;Fig S7A&#8211;E), including the staining of collagen with picrosirius red (Lattouf et&#160;al, 2014) (Fig&#160;8B) revealing no difference in total collagen area (Fig&#160;8C, top). However, pancreatic tumors from Fasudil&#8208;treated mice had significantly higher average collagen staining intensity than vehicle controls over the positive staining regions (Fig&#160;8C, bottom), indicating that ROCK inhibition was associated with increased collagen content. These results reveal an association between pancreatic cancer survival in mice with increased collagen in PDAC tumors following ROCK inhibition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>39866</offset>
+      <text> ROCK kinase signaling influences PDAC mouse survival</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39920</offset>
+      <text>Survival analysis of Pdx1&#8208;Cre; LSL&#8208;KRas G12D/+; LSL&#8208;Trp53 R172H/+ (KPC) mice without (n&#160;=&#160;13) or with Fasudil treatment (n&#160;=&#160;13). Survival P&#8208;value determined by Gehan&#8211;Breslow&#8211;Wilcoxon test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40126</offset>
+      <text>Representative images of picrosirius red stained endpoint tumors from KPC mice. Scale bar&#160;=&#160;1&#160;mm.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40227</offset>
+      <text>Picrosirius red percentage of positive staining area (top) or average staining intensity of positive area (bottom) in pancreatic tumors from vehicle (n&#160;=&#160;8) and Fasudil (n&#160;=&#160;7)&#8208;treated mice. Box&#160;(upper and lower quartiles divided by median value) and whisker (5th&#8211;95th percentile) plots show outliers as individual points, with exact P&#8208;value by Mann&#8211;Whitney test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40604</offset>
+      <text>Schematic diagram of the contribution made by ROCK signaling to pancreatic cancer invasive growth.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40703</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40706</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40717</offset>
+      <text>Previous studies have reported significantly higher levels of ROCK1 (Iacobuzio&#8208;Donahue et&#160;al, 2003; Segara et&#160;al, 2005; Badea et&#160;al, 2008) (Fig&#160;1C) and ROCK2 (Segara et&#160;al, 2005; Badea et&#160;al, 2008) (Fig&#160;1D) mRNA in pancreatic tumors relative to normal tissue. ROCK1 protein was also detected in 18 of 21 pancreatic cancer samples and five cell lines, but not in 10 normal pancreas specimens (Kaneko et&#160;al, 2002). Regression analysis of data from the TCGA Research Network (Cerami et&#160;al, 2012) revealed that ROCK1 and ROCK2 mRNA expression appear to be coordinately regulated (Fig&#160;1E). In this study, using a rigorously validated anti&#8208;ROCK2 antibody (Appendix&#160;Fig S1A), we found that ROCK2 expression increased with tumor progression in human PDAC (Fig&#160;1A) and in mouse pancreatic cancer models (Fig&#160;1F and G). Mutant Kras induction of eukaryotic translation initiation factor 5A, which plays a critical role in PDAC tumor growth (Fujimura et&#160;al, 2014), facilitates elevation of ROCK1 and ROCK2 protein levels in pancreatic cancer cells (Fujimura et&#160;al, 2015), indicating that there are also post&#8208;transcriptional mechanisms that may contribute to increased ROCK expression in PDAC. These results suggest that, although ROCK1 and ROCK2 are unlikely to be cancer drivers, their frequent elevated expression in advanced tumors is consistent with their providing ancillary functions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42117</offset>
+      <text>The role of the PDAC&#8208;associated desmoplastic reaction in tumor growth is unclear and controversial. Although the dense stroma limits drug efficacy due to poor tumor vascularization (Olive et&#160;al, 2009) and high interstitial fluid pressure (Provenzano et&#160;al, 2012), anti&#8208;stromal therapies have not been approved for clinical use (Neesse et&#160;al, 2015). Recent studies found that mice with reduced stroma developed more aggressive tumors with undifferentiated histology, increased proliferation, and reduced survival (Ozdemir et&#160;al, 2014; Rhim et&#160;al, 2014), suggesting that the desmoplastic microenvironment serves to restrain PDAC tumor growth. Consistent with these observations, high stromal collagen density has been associated with better pancreatic cancer patient prognosis (Bever et&#160;al, 2015). In opposition to these findings, high levels of large diameter fibrillary collagen adjacent to tumor margins have been associated with poor patient survival (Miller et&#160;al, 2015; Laklai et&#160;al, 2016). These apparently contradictory results suggest that PDAC desmoplasia may have both negative and positive properties that act in opposition. Thus, the extent of desmosplasia alone is not likely to correlate directly with tumor aggressiveness or patient outcome. By implication, PDAC cells are likely to favor properties, particularly in advanced tumors with dense stromal components, which enable them to overcome inhibitory constraints on tumor growth imposed by the desmoplastic microenvironment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43622</offset>
+      <text>Matrix metalloproteinases are proteolytic enzymes that influence tissue homeostasis and tumor growth through processes including ECM remodeling and tissue invasion (Kessenbrock et&#160;al, 2010). It was recently shown that leptin, which uses ROCK as a critical signal mediator (Huang et&#160;al, 2012), induces migration and invasion of human pancreatic cells via MMP13 up&#8208;regulation, while increased MMP13 expression in patients was associated with lymph node metastasis and pathological stage (Fan et&#160;al, 2015). MMP10 was also found to enhance the proliferation, invasion, and metastatic potential of PDAC cells (Zhang et&#160;al, 2014). MMP10 lacks collagenase activity itself, but MMP10 was found to play a critical role in tissue remodeling by promoting the expression and/or activity of collagenolytic MMPs, in particular MMP13 (Barksby et&#160;al, 2006; Rohani et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44492</offset>
+      <text>Although expression of some collagens increased in mouse PDAC cells following ROCK activation (Appendix&#160;Fig S6 and Appendix&#160;Table&#160;S3), the most profound gene expression changes were in networks associated with extracellular matrix remodeling (Fig&#160;4C and D, and Appendix&#160;Table&#160;S1). Recently, it was found that actomyosin contractile force in rounded melanoma cells increased the expression of several MMPs and that these MMPs promoted amoeboid migration (Orgaz et&#160;al, 2014). Consistent with these findings, our gene expression profiling of PDAC cells revealed that Mmp10 and Mmp13 were the most differentially expressed genes upon ROCK activation. Although MMP10 was not increased in cell lysates by ROCK activation (Fig&#160;5B and D), both MMP10 and MMP13 were elevated in cell&#8208;conditioned medium (Fig&#160;5B). Furthermore, when microvesicles were enriched by ultracentrifugation from conditioned medium, ROCK activation increased total protein (Fig&#160;5C) and MMP10 content in this fraction (Fig&#160;5D), with significantly greater ratios of MMP10 to total protein or MMP10 to caveolin, a lipid raft scaffolding protein found in microvesicles (Lee et&#160;al, 2011). Consistent with our observations, MMP10 release has been reported to be mediated via microvesicles (de Lizarrondo et&#160;al, 2012) and the Rho&#8208;ROCK pathway was previously shown to contribute to microvesicle initiation by inducing membrane protrusions akin to blebs (Antonyak et&#160;al, 2012; Li et&#160;al, 2012). These results indicate that ROCK activation contributes to stromal remodeling through the combined effects of inducing changes in the expression of genes associated with ECM remodeling and increasing the efficient delivery of the corresponding encoded proteins to the proximal microenvironment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46255</offset>
+      <text>ROCK activation also led to significant collagen degradation and remodeling associated with increased invasive growth (Figs&#160;2, 3, 6 and 7). Importantly, treatment of ROCK&#8208;activated invasive cells with the MMP inhibitor GM6001 blocked invasion and reduced proliferation in three&#8208;dimensional collagen (Fig&#160;7A&#8211;E), but not in two&#8208;dimensional contexts (Fig&#160;7G and H), indicating that ROCK&#8208;induced collagen remodeling enables PDAC proliferation by relieving stromally imposed constraints (Fig&#160;8D). Consistent with these observations, conditional ROCK activation in&#160;vivo reduced pancreatic cancer mouse survival (Fig&#160;1H), while treatment with the ROCK inhibitor Fasudil prolonged survival and increased collagen levels (Fig&#160;8A and C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47000</offset>
+      <text>Despite much effort, new treatment regimens for pancreatic cancer have only minimally improved patient survival. The standard chemotherapeutic agent for PDAC is gemcitabine, either as a single agent or combined with albumin&#8208;bound paclitaxel, or a combination of fluorouracil, irinotecan, oxaliplatin, and leucovorin (FOLFIRINOX) (Cid&#8208;Arregui &amp; Juarez, 2015), which benefits a minority of patients and often leads to drug resistance over time. Our results indicate that ROCK inhibitors (Rath &amp; Olson, 2012) as pancreatic cancer therapy might be beneficial due to reduced invasive growth of tumor cells due to the effect on impairing stromal collagen remodeling. In addition, these findings are in agreement with the concept that by reducing collagen remodeling activity it is possible to tip the balance such that dense collagen hinders, rather than promotes, pancreatic cancer. As with any systemically administered therapy, cell types in addition to tumor cells are potentially affected. Given that ROCK inhibition has previously been shown to block the activation of pancreatic stellate cells (Masamune et&#160;al, 2003) that have a tumor&#8208;promoting role in PDAC growth and progression (Apte et&#160;al, 2013), the therapeutic effect of Fasudil on PDAC mouse survival may be due to combined actions on tumor and non&#8208;tumor cells. We previously showed that conditional ROCK activation in mouse skin led to increased collagen deposition and accelerated progression of epidermal papillomas to invasive carcinomas (Samuel et al, 2011). The difference between these observations illustrates the context&#8208;dependence of the relationships between ROCK activation, collagen deposition/remodeling, and tumor progression.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48712</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48734</offset>
+      <text>Animal models</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48748</offset>
+      <text>All mouse experiments were performed according to UK Home Office regulations. Pdx1&#8208;Cre, LSL&#8208;KRas G12D, LSL&#8208;Trp53 fl, and LSL&#8208;Trp53 R172H mice have been described previously (Jackson et&#160;al, 2001; Jonkers et&#160;al, 2001; Hingorani et&#160;al, 2003; Liu et&#160;al, 2004; Olive et&#160;al, 2004). Conditional ROCK2 knockout (ROCK2tm1a(KOMP)Wtsi) embryonic stem cells were supplied by the trans&#8208;NIH Knock&#8208;Out Mouse Project (KOMP, clone EPD0492_1_C01). Mice were subsequently crossed to Actb (ActFLPe) mice for removal of the lacZ/neo cassette, to Pdx1&#8208;Cre mice to generate pancreas&#8208;specific ROCK2 knockout mice, and to Rosa26&#8208;LSL&#8208;RFP reporter mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49400</offset>
+      <text> LSL&#8208;ROCK:ER mice were generated by gene&#8208;targeting to the Hprt locus (Fig&#160;EV2A) using an approach we have previously described (Samuel et&#160;al, 2009). Briefly, the sequence encoding the cytokeratin 14 promoter in the constructs pHprtK14&#8208;ROCK:ER and pHprtK14&#8208;KD:ER was replaced with a sequence encoding the chimeric synthetic promoter CAG (Niwa et&#160;al, 1991) and a floxed transcription termination sequence. The constructs were then used to separately target HM1 ES cells by electroporation, and targeted cells were selected in HAT medium as previously described (Samuel et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49993</offset>
+      <text>KPC experimental males were treated with 100&#160;&#956;l Fasudil (20&#160;mg/ml) or water vehicle by gavage from 10&#160;weeks of age until endpoint. RKPC experimental males were treated with Tamoxifen citrate salt in 1% EtOH (100&#160;mg/l) or 1% EtOH vehicle in the drinking water from 10&#160;weeks of age till endpoint, or for a maximum period of 9&#160;weeks. Animals were sacrificed as per institutional guidelines. Organs and tumors were fixed in 10% formalin at room temperature and processed using standard histological methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50504</offset>
+      <text>Human pancreas tissue</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50526</offset>
+      <text>A commercial tissue microarray with normal pancreatic tissue and 78 cases of pancreatic cancer, including TNM, clinical stage, and pathology grade, was purchased from US Biomax (PA961c). Clinical data associated with these samples can be found in Appendix&#160;Table&#160;S4.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50794</offset>
+      <text>Tissue from border areas of resected tumors was collected prospectively following informed patient consent. The West of Scotland Research Ethics Committee 4 approved the study.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50971</offset>
+      <text>Small molecules</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50987</offset>
+      <text>Y27632 (Tocris 1254), H1152 (Tocris 2414), Fasudil (Selleckchem S1573, LC Laboratories F&#8208;4660), Blebbistatin (Tocris 1760), GM6001 (Millipore 142880&#8208;36&#8208;2), Tamoxifen citrate salt (Sigma T9262), 4HT (4&#8208;Hydroxytamoxifen, Sigma H7904).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51228</offset>
+      <text>Antibodies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51239</offset>
+      <text>ROCK1 (BD&#8208;611136), ROCK2 (BD&#8208;610623), ROCK1/2 (Millipore 07&#8208;1458), phospho&#8208;MLC2 (Cell Signaling 3674), MRCL3/MRLC2/MYL9 (Santa Cruz sc&#8208;28329), MMP13 (Abcam ab39012), MMP10 (Leica NCL&#8208;MMP10), GFP (Abcam ab6556), RFP (Rockland 600&#8208;401&#8208;379), Ki67 (Vector VP&#8208;K452), Col1 3/4C (ImmuGlobe 0207&#8208;050), GAPDH (Millipore MAB374), Caveolin&#8208;1 (Santa Cruz sc&#8208;894), CD3 (Vector VP&#8208;RM01), CD31 (Abcam ab28364), &#945;&#8208;Smooth Muscle Actin (Sigma&#8208;Aldrich A2547).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51711</offset>
+      <text>Pancreatic tumor cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51739</offset>
+      <text>Pancreatic ductal adenocarcinoma tumor cell lines were established from Pdx1&#8208;Cre; LSL&#8208;KRas G12D/+ ; LSL&#8208;Trp53 R172H/+ (KPC) and Pdx1&#8208;Cre; LSL&#8208;KRas G12D/+ ; LSL&#8208;Trp53 fl/+ (KPflC) mice (Morton et&#160;al, 2010). Retroviral pBABE puro constructs with conditionally active human ROCK1 (EGFP&#8208;ROCK1:ER), human ROCK2 (EGFP&#8208;ROCK2:ER), or GFP control (EGFP:ER) have been described previously (Croft et&#160;al, 2004). Stable KPflC cell lines were selected by standard procedures using 2.5&#160;&#956;g/ml Puromycin. PDAC cell lines were cultured in DMEM supplemented with 10% FBS, 2&#160;mmol/l l&#8208;glutamine, and penicillin&#8211;streptomycin (complete DMEM). For experiments, cells were plated in complete DMEM or serum&#8208;free DMEM containing EtOH vehicle or 1&#160;&#956;M 4HT to activate ROCK kinase activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52529</offset>
+      <text>Cell growth assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52547</offset>
+      <text>The CellTiter&#8208;Glo Luminescent Cell Viability Assay (Promega) was used to determine cell growth in monolayer. 5&#160;&#215;&#160;103 cells were plated into the wells of a 96&#8208;well cell culture dish. Wells were pre&#8208;coated with 0.05&#160;mg/ml rat tail collagen type I (BD Biosciences) as indicated. Cells were left to settle and grow overnight in DMEM complete, and a first baseline measurement was taken. Then, 1&#160;&#956;M 4HT or EtOH vehicle was added to the medium, and second (24&#160;h) and third (48&#160;h) measurements were taken. The increase in viable cells at 24&#160;h and 48&#160;h time points was calculated relative to the baseline measurement.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53173</offset>
+      <text>Immunoblotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53188</offset>
+      <text>Standard protocols were used for Western blot analysis. Primary antibodies were routinely used at 1:500 or 1:1,000 dilutions. Alexa Fluor 680 and DyLight 800 (Thermo Fisher Scientific)&#8208;conjugated secondary antibodies were detected by infrared imaging (Li&#8208;Cor Odyssey). Pancreatic tissue was homogenized using the hard tissue homogenizing CK28&#8208;R Precellys lysing kit. Cells were grown in 6&#8208;well plates. Whole&#8208;cell lysates were prepared in cell lysis buffer (1% SDS, 50&#160;mM Tris pH 7.5), and protein concentration was determined by Bicinchoninic assay (Sigma).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53757</offset>
+      <text>For validation of the conditional ROCK:ER activation in KPflC cell lines, 1&#160;&#215;&#160;106&#160;cells were plated in DMEM complete and allowed to settle and grow overnight. Next day, cells were washed 3&#215; with serum&#8208;free DMEM and 2&#160;ml serum&#8208;free DMEM with EtOH vehicle or 1&#160;&#956;M 4HT in the presence or absence of 1&#160;&#956;M or 10&#160;&#956;M H1152 was added to the cells. After 24&#160;h of treatment, cell lysates were prepared for Western blot analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54193</offset>
+      <text>For analysis of matrix metalloproteinase expression and release, 1&#160;&#215;&#160;106 KPflC cells were plated in DMEM complete and allowed to settle and grow overnight. Next day, cells were washed 3&#215; with serum&#8208;free DMEM and 2&#160;ml serum&#8208;free DMEM with EtOH vehicle or 1&#160;&#956;M 4HT was added to the cells. After 48&#160;h of treatment, cell lysates were prepared for Western blot analysis. Conditioned media were harvested at the same time. To remove cell debris, media were centrifuged 30&#160;min at 10,000&#160;&#215;&#160;g, 4&#176;C and the supernatant was snap frozen. For detection of MMP10, concentration of media was not required. For detection of MMP13, media were concentrated using 10K spin columns (Amicon Ultra&#8208;0.5&#160;ml, UFC501096).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54909</offset>
+      <text>Immunofluorescence</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54928</offset>
+      <text>IF images were taken on a Zeiss 710 confocal microscope. Primary antibodies were routinely used at 1:50 or 1:100 dilutions. Alexa Fluor 488 phalloidin, Alexa Fluor 647 phalloidin, Alexa Fluor 488, and Alexa Fluor 594 (Thermo Fisher Scientific) secondary antibodies were used. Fluorescently labeled cells and tissue samples were mounted with ProLong Gold/ProLong Diamond incl. DAPI (Molecular Probes).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55329</offset>
+      <text>Cells were fixed in 4% paraformaldehyde (PFA) for 15&#160;min and permeabilized with 0.5% Triton X&#8208;100/PBS for 5&#160;min. Non&#8208;specific antibody binding was blocked by incubation of cells with 1% BSA/PBS for 5&#160;min. Cells were then incubated with primary antibody for 1&#160;h, followed by incubation with secondary antibody and/or phalloidin for 1&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55674</offset>
+      <text>To stain cells in three&#8208;dimensional collagen matrix invasion assays, PFA&#8208;fixed, paraffin&#8208;embedded sections were rehydrated and immersed in 10&#160;mM citric acid buffer at pH 6.0, boiled for 20&#160;min, cooled, and blocked with 10% normal goat serum in PBS. Sections were then incubated with primary antibody for 1&#160;h, followed by incubation with Alexa Fluor 594 antibody for 1&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56055</offset>
+      <text>To stain cleaved collagen1 in three&#8208;dimensional collagen matrix invasion assays, PFA&#8208;fixed, paraffin&#8208;embedded sections were rehydrated and equilibrated in PBS. Sections were then incubated with collagen1 3/4C antibody for 1.5&#160;h, followed by incubation with Alexa Fluor 594 antibody for 1&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56354</offset>
+      <text>Immunohistochemistry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56375</offset>
+      <text>IHC slides were imaged and analyzed using the Leica SCN 400f scanner and Leica Slidepath Digital Image Hub software. Primary antibodies were routinely used at 1:50 or 1:100 dilutions. Formalin&#8208;fixed, paraffin&#8208;embedded sections were rehydrated and immersed in 10&#160;mM citric acid buffer at pH 6.0, boiled for 20&#160;min, cooled, and sequentially blocked with 3% H2O2 and 10% normal goat serum in PBS. Sections were then incubated with primary antibody, followed by incubation with Envision&#160;+&#160;System&#8208;HRP labeled Polymer (Dako). Staining was visualized with Liquid DAB&#160;+&#160;Substrate (Dako).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56967</offset>
+      <text>For collagen staining, formalin&#8208;fixed, paraffin&#8208;embedded sections were rehydrated and immersed in Picrosirius Red for 2&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57095</offset>
+      <text>To stain Mmp13 in three&#8208;dimensional collagen matrix invasion assays, the RNAscope Probe Mm&#8208;Mmp13 (ACD 427601) was used according to manufacturer's instructions. Images were taken on an Olympus BX51 microscope.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57309</offset>
+      <text>To determine the ROCK2 and MMP10 histoscores of human pancreas adenocarcinoma cases, DAB staining intensities of pancreatic acinar cells (normal) or pancreatic tumor cells were scored. A weighted histoscore was calculated from the sum of (1&#160;&#215;&#160;% area of weak staining)&#160;+&#160;(2&#160;&#215;&#160;% area of moderate staining)&#160;+&#160;(3&#160;&#215;&#160;% area of strong staining), providing a semi&#8208;quantitative classification of staining intensity on a scale from 0 (negative) to 300 (strongest). Two researchers (N.R. and J.P.M.) quantified the TMA in a blinded fashion, and means were used for statistical analyses. Images of tissue microarrays were taken on an Olympus BX51 microscope.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57971</offset>
+      <text>Microvesicle enrichment</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57995</offset>
+      <text>Cells were cultured in serum&#8208;free DMEM containing either 1&#160;&#956;M 4HT or EtOH vehicle for 24&#160;h. For each condition, 135&#160;ml medium was collected and subjected to differential centrifugation and ultracentrifugation steps all performed at 4&#176;C. Media were centrifuged at 300&#160;&#215;&#160;g for 10&#160;min, followed by centrifugation at 2,000&#160;&#215;&#160;g for 10&#160;min to pellet live and dead cells, respectively. Then, media were centrifuged in an ultracentrifuge (Optima L&#8208;90K, Beckman) at 10,000&#160;&#215;&#160;g for 30&#160;min to remove cell debris, followed by ultracentrifugation at 100,000&#160;&#215;&#160;g for 70&#160;min. The microvesicle pellet was washed with 36&#160;ml PBS, followed by a second ultracentrifugation step at 100,000&#160;&#215;&#160;g for 70&#160;min to re&#8208;pellet the microvesicles. The supernatant was discarded, and microvesicles were resuspended in 200&#160;&#956;l PBS. For Western blot analysis and Coomassie staining, 6&#215; lysis buffer (1% SDS, 50&#160;mM Tris pH 7.5) was added for protein extraction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58956</offset>
+      <text>Collagen degradation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58983</offset>
+      <text>Glass coverslips were placed on top of 25&#160;&#956;l Collagen type I, FITC conjugate 1&#160;mg/ml (Sigma), and incubated at room temperature in the dark for 15&#160;min. They were then placed on top of 50&#160;&#956;l 0.5% glutaraldehyde for 30&#160;min. After three washes with PBS, 6&#160;&#215;&#160;104&#160;cells were plated on collagen&#8208;coated coverslips in 500&#160;&#956;l DMEM complete containing either 1&#160;&#956;M 4HT or EtOH vehicle in the absence or presence of the following drugs: 10&#160;&#956;M H1152 dihydrochloride, 10&#160;&#956;M GM6001, 50&#160;&#956;M Blebbistatin, or DMSO vehicle. Collagen and cells were fixed and IF stained after 16 or 18&#160;h. Images of DAPI&#8208;stained cells and FITC&#8208;labeled collagen were taken on the Zeiss 710 confocal microscope. ImageJ was used to quantify the area of collagen degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59745</offset>
+      <text>Collagen matrix invasion assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59776</offset>
+      <text>Collagen matrix invasion assays were performed as previously described (Timpson et&#160;al, 2011). Primary human fibroblasts were mixed with rat tail collagen1 and left in a cell culture incubator for a week to allow conditioning of the collagen. To remove fibroblasts from the collagen matrices, the disks were incubated with 5&#160;&#956;g/ml Puromycin for at least 24&#160;h and then washed twice with medium. 2&#160;&#215;&#160;105&#160;cells were seeded in DMEM complete without or with 1&#160;&#956;M 4HT on top of the disks and allowed to settle and grow over 2&#160;days. Afterward, the collagen matrices were mounted onto grids to generate an air/liquid interface. DMEM complete containing 1&#160;&#956;M 4HT, 10&#160;&#956;M H1152, 10&#160;&#956;M GM6001, or DMSO was added to the dishes as indicated. After 8&#160;days of invasion, the collagen matrix disks were fixed in 4% paraformaldehyde overnight and processed using standard histological methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60668</offset>
+      <text>H&amp;E&#8208;stained sections were scanned and analyzed using Digital Slide Server (Slidepath) software. For quantification of invading cells, the polygon tool was used to draw a rectangle covering the whole collagen matrix disk but omitting the stationary cells at the surface. An algorithm was written to specifically detect H&amp;E&#8208;stained PDAC cells in collagen matrices. The area of invading cells was divided by the total area and percentages were used to calculate the invasion index, relative to the respective control, for graphs and statistics.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61214</offset>
+      <text>Immunofluorescence&#8208;stained sections were analyzed with the ImageJ cell counter plugin. 4&#8211;10 immunofluorescence images were taken at 40&#215; magnification of each disk. For graphs and statistics, total counts of cells at the surface or percentages of Ki67&#8208;positive cells over total cell number were used.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61521</offset>
+      <text>Determination of collagen quantity and quality</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61568</offset>
+      <text>Collagen second harmonic images were collected using a LaVision Biotec Trim&#8208;scope equipped with a Coherent Chameleon Ti:Sapphire femtosecond pulsed laser and analyzed in ImageJ as described in (Miller et&#160;al, 2015). An excitation wavelength of 890&#160;nm was used so that the second harmonic generation (SHG) would be generated at a central wavelength of 445&#160;nm and focused to the sample plane by a long working distance 20&#215; (NA&#160;=&#160;0.95) water immersion objective from Olympus. A z&#8208;stack of 100&#160;&#956;m deep was imaged over a region of 500&#160;&#956;m by 500&#160;&#956;m, with at least three duplicates of each condition. The UMB GLCM plugin was used as the basis for the texture analysis, but modified so as to run automatically through the four directions of comparison, for each of the 100 comparison distances. Firstly, the user selected a directory containing the collagen stack images. A maximum projection image was then produced and duplicated. The duplicate image was then automatically thresholded to produce a mask that was then applied to the original maximum projection image. This removed the background noise bias introduced in the GLCM analysis by selecting only the collagen SHG signal. The masked image was then passed to the GLCM texture plugin (Kvaal et&#160;al, 2008), which had been modified so that it could be operated in a nested loop for varying pixel comparison distances and alternative directions of comparison. The output of the plugin for each image was 100 rows of the five texture parameters over each of four directions, totaling 2,000 parameter values. These were saved as a text data file for each image. When all the images in the directory were analyzed, the data files were processed using a MATLAB script that produced the mean of each texture parameter for each image. These were then imported into Prism, where a double exponential decay model was fit to the data for the correlation GLCM parameter and the weighted mean decay distance for each sample was calculated in Excel.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>63570</offset>
+      <text>Transmission electron microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63603</offset>
+      <text>For contrast staining, ultrathin collagen matrix sections were incubated with 2% methanolic uranyl acetate for 5&#160;min and then Reynolds' lead citrate for 5&#160;min. Collagen was visualized by incubation with 2% aqueous uranyl acetate for 10&#160;min, 2% aqueous tannic acid for 10&#160;min, and then Reynolds' lead citrate for 5&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63927</offset>
+      <text>Ultracentrifuge&#8208;pelleted microvesicles were fixed in 2% PFA/PBS for 1&#160;h at 4&#176;C. All other processing steps were performed at room temperature. 5&#160;&#956;l droplets of microvesicles were placed onto 300mesh Formvar/carbon&#8208;coated Nickel grids and left to settle for 30&#160;min. For routine negative staining, grids were rinsed by floating sample side down on droplets of distilled water (6&#160;&#215;&#160;2 min) before staining with 2% Ammonium Molybdate for 30&#160;s, and then left to dry before imaging. For immunogold labeling, grids were floated sample side down on droplets of PBS (6&#160;&#215;&#160;5&#160;min), followed by droplets of 0.05&#160;M Glycine/PBS (4&#160;&#215;&#160;5&#160;min) and droplets of 3% BSA/PBS (6&#160;&#215;&#160;5&#160;min). Next, grids were transferred onto droplets of MMP10 primary antibody in 3% BSA/PBS (1:50 dilution) for 1&#160;h. Grids were passed through droplets of 3% BSA/PBS (6&#160;&#215;&#160;5&#160;min) and then incubated on droplets of gold conjugate GAM (1:20 dilution) for 1&#160;h. Grids were washed with 3% BSA/PBS (6&#160;&#215;&#160;5&#160;min), PBS (6&#160;&#215;&#160;5&#160;min), fixed with 1% Glutaraldehyde/PBS for 5&#160;min, and rinsed 10&#215; in droplets of distilled water. Grids were transferred onto droplets of Uranyl&#8208;Oxalate solution (pH 7) for 5&#160;min and then onto droplets of Methyl Cellulose&#8208;UA for 10&#160;min on ice. Finally, grids were scooped up on platinum loops and left to dry after excess Methyl Cellulose&#8208;UA was carefully removed with filter paper (Th&#233;ry et&#160;al, 2001).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65350</offset>
+      <text>Images were viewed on the FEI Tecnai T20 transmission electron microscope running at 200&#160;kV, and images were captured using a GATAN Multiscan camera 794 and GATAN Digital Imaging software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65540</offset>
+      <text>RNA sequencing and quantitative polymerase chain reaction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65598</offset>
+      <text>1&#160;&#215;&#160;106 KPflC cells were seeded into 6&#8208;well plates in DMEM complete and allowed to settle and grow overnight. Next day, cells were washed three times with serum&#8208;free DMEM and 2&#160;ml serum&#8208;free DMEM with drugs was added: 1&#160;&#956;M 4HT or 1&#160;&#956;M H1152. After 24&#160;h of treatment, total RNA was extracted from cells with the RNAeasy kit (Qiagen) and RNA was quantified using a nanodrop spectrophotometer (NanoDrop Tech).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66020</offset>
+      <text>For RNA sequencing, RNA quality was assessed using the Agilent 2100 Bioanalyzer with the RNA 6000 Nano LabChipVR reagent set (Agilent Technologies). The Illumina TruSeq RNA Library Preparation kit v2.0 was used to prepare an oligo dT&#8208;based library. The library was sequenced on the NextSeq 500 platform using the High Output 75 cycles kit (2&#160;&#215;&#160;36 cycles, paired&#8208;end reads, single index). Quality control of raw RNASeq data files was performed by fastqc (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and fastq_screen (http://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/). Then, RNASeq reads were aligned to the mouse genome (GRCm38.75) using TopHat2 (Kim et&#160;al, 2013) and resulting bam files processed with htseq_count (http://www.huber.embl.de/users/anders/HTSeq/doc/count.html). The final counts were normalized and analyzed with DESeq2 (Love et&#160;al, 2014). Statistically significant differences in gene expression were determined with a false discovery rate (FDR) of 5%.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67027</offset>
+      <text>For quantitative polymerase chain reaction (qPCR), complementary DNA was synthesized using the QuantiTect Reverse Transcription Kit (Qiagen). Quantitative reverse transcriptase (RT)&#8211;PCR primers for Mmp10, Mmp13 and Gapdh were acquired from Qiagen (Quantitect Primer Assay). QPCR was set up with the DyNAmo HS SYBR Green qPCR Kits (Thermo Fisher Scientific) and run on the 7500 Fast Real&#8208;Time PCR System (Applied Biosystems).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67456</offset>
+      <text>Statistical analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67477</offset>
+      <text>Calculations were done in GraphPad Prism, and the statistical tests used are indicated in each figure legend. Bar graphs represent means&#160;&#177;&#160;SEM. Box&#160;(upper and lower quartiles divided by median value) and whisker (5th&#8211;95th percentile) plots show outliers as individual points.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>67759</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67780</offset>
+      <text>NR performed experiments and analyzed data; JPM, LJ, LH, SK, EJM, MM, and AVP contributed to experiments; MSS established the LSL&#8208;ROCK:ER mouse line; GK analyzed RNA seq data; IR advised on primary acinar cell culture experiments; KIA advised on second harmonic generation microscopy and analysis; MFO supervised the work and assisted with data analysis; NR and MFO prepared the figures and wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68195</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68216</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1_caption</infon>
+      <offset>68276</offset>
+      <text>The paper explained</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68296</offset>
+      <text>Problem</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68304</offset>
+      <text>Pancreatic ductal adenocarcinoma (PDAC) is the most common type of pancreatic cancer, which is one of the leading causes of cancer death. Despite some recent advances in treatment regimens, the overall outcome is still poor with a five&#8208;year survival of &lt;&#160;5%. Consequently, there is a significant unmet clinical need for the identification of alternative therapeutic targets.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68682</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68690</offset>
+      <text>We show that ROCK kinase expression is up&#8208;regulated during pancreatic cancer progression and that high ROCK levels correlate with decreased survival time. Cell&#8208;based assays demonstrate that ROCK activation is sufficient to drive PDAC cell invasion and growth in 3D collagen matrices. We identified ROCK signaling as a driver of a gene expression program leading to extracellular matrix remodeling and collagen degradation through expression and release of matrix metalloproteinases via microvesicles. Importantly, ROCK inhibitors reversed these effects and significantly prolonged PDAC mouse survival.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>69296</offset>
+      <text>Impact</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69303</offset>
+      <text>Our results highlight an ancillary role for elevated ROCK signaling in pancreatic tumor growth and progression. We suggest that ROCK kinases should be considered as a potential target for combination chemotherapy of invasive pancreatic cancer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>69547</offset>
+      <text>For more information</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69568</offset>
+      <text>Unprocessed RNA sequencing reads have been deposited as fastq files at the National Center for Biotechnology Information (NCBI) Sequence Reads Archive (SRA) with the reference SRP081135 (https://www.ncbi.nlm.nih.gov/sra/?term=srp081135) (Rath et&#160;al, 2016). In addition, a project overview has been submitted as the BioProject reference PRJNA327913 (http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA327913) with a description of the BioSample reference SAMN05361890 (http://www.ncbi.nlm.nih.gov/biosample/?term=SAMN05361890).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>70095</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>70118</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Small GTPases</infon>
+      <infon key="lpage">224</infon>
+      <infon key="pub-id_pmid">22906997</infon>
+      <infon key="fpage">219</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70129</offset>
+      <text>R(h)oads to microvesicles</text>
+    </passage>
+    <passage>
+      <infon key="volume">144</infon>
+      <infon key="source">Gastroenterology</infon>
+      <infon key="lpage">1219</infon>
+      <infon key="pub-id_pmid">23622130</infon>
+      <infon key="fpage">1210</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>70155</offset>
+      <text>A starring role for stellate cells in the pancreatic cancer microenvironment</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Hepatogastroenterology</infon>
+      <infon key="lpage">2027</infon>
+      <infon key="pub-id_pmid">19260470</infon>
+      <infon key="fpage">2016</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>70232</offset>
+      <text>Combined gene expression analysis of whole&#8208;tissue and microdissected pancreatic ductal adenocarcinoma identifies genes specifically overexpressed in tumor epithelia</text>
+    </passage>
+    <passage>
+      <infon key="volume">531</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">52</infon>
+      <infon key="pub-id_pmid">26909576</infon>
+      <infon key="fpage">47</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>70399</offset>
+      <text>Genomic analyses identify molecular subtypes of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Arthritis Rheum</infon>
+      <infon key="lpage">3253</infon>
+      <infon key="pub-id_pmid">17009259</infon>
+      <infon key="fpage">3244</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>70465</offset>
+      <text>Matrix metalloproteinase 10 promotion of collagenolysis via procollagenase activation: implications for cartilage degradation in arthritis</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">HPB (Oxford)</infon>
+      <infon key="lpage">298</infon>
+      <infon key="pub-id_pmid">25250696</infon>
+      <infon key="fpage">292</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70604</offset>
+      <text>The prognostic value of stroma in pancreatic cancer in patients receiving adjuvant therapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">491</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">405</infon>
+      <infon key="pub-id_pmid">23103869</infon>
+      <infon key="fpage">399</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70695</offset>
+      <text>Pancreatic cancer genomes reveal aberrations in axon guidance pathway genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1525</infon>
+      <infon key="pub-id_pmid">25981793</infon>
+      <infon key="fpage">1520</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70771</offset>
+      <text>Polarized cell motility induces hydrogen peroxide to inhibit cofilin via cysteine oxidation</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Cancer Discov</infon>
+      <infon key="lpage">404</infon>
+      <infon key="pub-id_pmid">22588877</infon>
+      <infon key="fpage">401</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70863</offset>
+      <text>The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">669</infon>
+      <infon key="pub-id_pmid">22402635</infon>
+      <infon key="fpage">654</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70965</offset>
+      <text>Second harmonic generation microscopy for quantitative analysis of collagen fibrillar structure</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">J Cell Biochem</infon>
+      <infon key="lpage">907</infon>
+      <infon key="pub-id_pmid">17266048</infon>
+      <infon key="fpage">887</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>71061</offset>
+      <text>Stromal biology of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">World J Gastroenterol</infon>
+      <infon key="lpage">9316</infon>
+      <infon key="pub-id_pmid">26309356</infon>
+      <infon key="fpage">9297</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71098</offset>
+      <text>Perspectives in the treatment of pancreatic adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Stain Technol</infon>
+      <infon key="lpage">11</infon>
+      <infon key="pub-id_pmid">59416</infon>
+      <infon key="fpage">7</infon>
+      <infon key="year">1976</infon>
+      <infon key="type">ref</infon>
+      <offset>71157</offset>
+      <text>The use of tannic acid&#8208;glutaraldehyde in the study of elastic and elastic&#8208;related fibers</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">9001</infon>
+      <infon key="pub-id_pmid">15604264</infon>
+      <infon key="fpage">8994</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>71250</offset>
+      <text>Conditional ROCK activation in&#160;vivo induces tumor cell dissemination and angiogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">168</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">255</infon>
+      <infon key="pub-id_pmid">15657395</infon>
+      <infon key="fpage">245</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>71337</offset>
+      <text>Actin&#8208;myosin&#8208;based contraction is responsible for apoptotic nuclear disintegration</text>
+    </passage>
+    <passage>
+      <infon key="volume">406</infon>
+      <infon key="source">Methods Enzymol</infon>
+      <infon key="lpage">553</infon>
+      <infon key="pub-id_pmid">16472686</infon>
+      <infon key="fpage">541</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71424</offset>
+      <text>Conditional regulation of a ROCK&#8208;estrogen receptor fusion protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">208</infon>
+      <infon key="source">J Pathol</infon>
+      <infon key="lpage">685</infon>
+      <infon key="pub-id_pmid">16450333</infon>
+      <infon key="fpage">673</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71492</offset>
+      <text>Tenascin C and annexin II expression in the process of pancreatic carcinogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">16134</infon>
+      <infon key="pub-id_pmid">25948792</infon>
+      <infon key="fpage">16120</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71573</offset>
+      <text>Leptin signaling enhances cell invasion and promotes the metastasis of human pancreatic cancer via increasing MMP&#8208;13 production</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">4276</infon>
+      <infon key="pub-id_pmid">22896693</infon>
+      <infon key="fpage">4266</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71703</offset>
+      <text>The pancreas cancer microenvironment</text>
+    </passage>
+    <passage>
+      <infon key="volume">74</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">6681</infon>
+      <infon key="pub-id_pmid">25261239</infon>
+      <infon key="fpage">6671</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>71740</offset>
+      <text>A hypusine&#8208;eIF5A&#8208;PEAK1 switch regulates the pathogenesis of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">29919</infon>
+      <infon key="pub-id_pmid">26483550</infon>
+      <infon key="fpage">29907</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71822</offset>
+      <text>Eukaryotic translation initiation factor 5A (EIF5A) regulates pancreatic cancer metastasis by modulating RhoA and rho&#8208;associated kinase (ROCK) protein expression levels</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Dis Model Mech</infon>
+      <infon key="lpage">1200</infon>
+      <infon key="pub-id_pmid">26438692</infon>
+      <infon key="fpage">1185</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71993</offset>
+      <text>GEMMs as preclinical models for testing pancreatic cancer therapies</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">7154</infon>
+      <infon key="pub-id_pmid">1322694</infon>
+      <infon key="fpage">7152</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>72061</offset>
+      <text>Inhibition of human skin fibroblast collagenase, thermolysin, and Pseudomonas aeruginosa elastase by peptide hydroxamic acids</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cancer Ther</infon>
+      <infon key="lpage">2137</infon>
+      <infon key="pub-id_pmid">22784710</infon>
+      <infon key="fpage">2127</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72187</offset>
+      <text>Cell intrinsic role of COX&#8208;2 in pancreatic cancer development</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">450</infon>
+      <infon key="pub-id_pmid">14706336</infon>
+      <infon key="fpage">437</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72251</offset>
+      <text>Preinvasive and invasive ductal pancreatic cancer and its early detection in the mouse</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">483</infon>
+      <infon key="pub-id_pmid">15894267</infon>
+      <infon key="fpage">469</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>72338</offset>
+      <text>Trp53R172H and KrasG12D cooperate to promote chromosomal instability and widely metastatic pancreatic ductal adenocarcinoma in mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Neurosci</infon>
+      <infon key="lpage">1398</infon>
+      <infon key="pub-id_pmid">22941110</infon>
+      <infon key="fpage">1391</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72470</offset>
+      <text>Rho&#8208;kinase regulates energy balance by targeting hypothalamic leptin receptor signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">162</infon>
+      <infon key="source">Am J Pathol</infon>
+      <infon key="lpage">1162</infon>
+      <infon key="pub-id_pmid">12651607</infon>
+      <infon key="fpage">1151</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72560</offset>
+      <text>Exploration of global gene expression patterns in pancreatic adenocarcinoma using cDNA microarrays</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">3248</infon>
+      <infon key="pub-id_pmid">11751630</infon>
+      <infon key="fpage">3243</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>72659</offset>
+      <text>Analysis of lung tumor initiation and progression using conditional expression of oncogenic K&#8208;ras</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Gut</infon>
+      <infon key="lpage">120</infon>
+      <infon key="pub-id_pmid">22466618</infon>
+      <infon key="fpage">112</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72759</offset>
+      <text>Hyaluronan impairs vascular function and drug delivery in a mouse model of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">425</infon>
+      <infon key="pub-id_pmid">11694875</infon>
+      <infon key="fpage">418</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>72852</offset>
+      <text>Synergistic tumor suppressor activity of BRCA2 and p53 in a conditional mouse model for breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="source">Small GTPases</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">25010901</infon>
+      <infon key="fpage">e29846</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72954</offset>
+      <text>Rho&#8208;associated coiled&#8208;coil containing kinases (ROCK)</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Pancreas</infon>
+      <infon key="lpage">257</infon>
+      <infon key="pub-id_pmid">11893932</infon>
+      <infon key="fpage">251</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>73011</offset>
+      <text>Expression of ROCK&#8208;1 in human pancreatic cancer: its down&#8208;regulation by morpholino oligo antisense can reduce the migration of pancreatic cancer cells in&#160;vitro </text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">67</infon>
+      <infon key="pub-id_pmid">20371345</infon>
+      <infon key="fpage">52</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73177</offset>
+      <text>Matrix metalloproteinases: regulators of the tumor microenvironment</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">23618408</infon>
+      <infon key="fpage">R36</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>73245</offset>
+      <text>TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">655</infon>
+      <infon key="pub-id_pmid">22541434</infon>
+      <infon key="fpage">642</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73349</offset>
+      <text>The GATA2 transcriptional network is requisite for RAS oncogene&#8208;driven non&#8208;small cell lung cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="lpage">721</infon>
+      <infon key="source">J Chemom</infon>
+      <infon key="fpage">717</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73451</offset>
+      <text>eAMTexplorer: a software package for texture and signal characterization using Angle Measure Technique</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">505</infon>
+      <infon key="pub-id_pmid">27089513</infon>
+      <infon key="fpage">497</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>73554</offset>
+      <text>Genotype tunes pancreatic ductal adenocarcinoma tissue tension to induce matricellular fibrosis and tumor progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">J Histochem Cytochem</infon>
+      <infon key="lpage">758</infon>
+      <infon key="pub-id_pmid">25023614</infon>
+      <infon key="fpage">751</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73672</offset>
+      <text>Picrosirius red staining: a useful tool to appraise collagen networks in normal and pathological tissues</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Semin Immunopathol</infon>
+      <infon key="lpage">467</infon>
+      <infon key="pub-id_pmid">21318413</infon>
+      <infon key="fpage">455</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73777</offset>
+      <text>Microvesicles as mediators of intercellular communication in cancer&#8211;the emerging science of cellular &#8216;debris&#8217;</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E3100</infon>
+      <infon key="pub-id_pmid">25024225</infon>
+      <infon key="fpage">E3091</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>73893</offset>
+      <text>Stromal response to Hedgehog signaling restrains pancreatic cancer progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">4749</infon>
+      <infon key="pub-id_pmid">22266864</infon>
+      <infon key="fpage">4740</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>73972</offset>
+      <text>RhoA triggers a specific signaling pathway that generates transforming microvesicles in cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">68</infon>
+      <infon key="pub-id_pmid">14702042</infon>
+      <infon key="fpage">63</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>74073</offset>
+      <text>Chromosome stability, in the absence of apoptosis, is critical for suppression of tumorigenesis in Trp53 mutant mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Arterioscler Thromb Vasc Biol</infon>
+      <infon key="lpage">1487</infon>
+      <infon key="pub-id_pmid">22492089</infon>
+      <infon key="fpage">1477</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74190</offset>
+      <text>Synergistic effect of thrombin and CD40 ligand on endothelial matrix metalloproteinase&#8208;10 expression and microparticle generation in&#160;vitro and in&#160;vivo </text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">2598</infon>
+      <infon key="pub-id_pmid">20140017</infon>
+      <infon key="fpage">2591</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>74346</offset>
+      <text>Activating ROCK1 somatic mutations in human cancer</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">25516281</infon>
+      <infon key="fpage">550</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74397</offset>
+      <text>Moderated estimation of fold change and dispersion for RNA&#8208;seq data with DESeq2</text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Br J Pharmacol</infon>
+      <infon key="lpage">1302</infon>
+      <infon key="pub-id_pmid">14581180</infon>
+      <infon key="fpage">1292</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>74479</offset>
+      <text>Rho kinase inhibitors block activation of pancreatic stellate cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="lpage">1076</infon>
+      <infon key="pub-id_pmid">26077591</infon>
+      <infon key="fpage">1063</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>74547</offset>
+      <text>Targeting the LOX/hypoxia axis reverses many of the features that make pancreatic cancer deadly: inhibition of LOX abrogates metastasis and enhances drug efficacy</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">251</infon>
+      <infon key="pub-id_pmid">20018721</infon>
+      <infon key="fpage">246</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>74710</offset>
+      <text>Mutant p53 drives metastasis and overcomes growth arrest/senescence in pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Rep</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">23846580</infon>
+      <infon key="fpage">2190</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74799</offset>
+      <text>Collagen morphology and texture analysis: from statistics to classification</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Gut</infon>
+      <infon key="lpage">1484</infon>
+      <infon key="pub-id_pmid">25994217</infon>
+      <infon key="fpage">1476</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>74875</offset>
+      <text>Stromal biology and therapy in pancreatic cancer: a changing paradigm</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">199</infon>
+      <infon key="pub-id_pmid">1660837</infon>
+      <infon key="fpage">193</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>74945</offset>
+      <text>Efficient selection for high&#8208;expression transfectants with a novel eukaryotic vector</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Cell Adh Migr</infon>
+      <infon key="lpage">486</infon>
+      <infon key="pub-id_pmid">25482620</infon>
+      <infon key="fpage">478</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>75032</offset>
+      <text>Monitoring the dynamics of Src activity in response to anti&#8208;invasive dasatinib treatment at a subcellular level using dual intravital imaging</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">860</infon>
+      <infon key="pub-id_pmid">15607980</infon>
+      <infon key="fpage">847</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>75176</offset>
+      <text>Mutant p53 gain of function in two mouse models of Li&#8208;Fraumeni syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">324</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1461</infon>
+      <infon key="pub-id_pmid">19460966</infon>
+      <infon key="fpage">1457</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>75250</offset>
+      <text>Inhibition of Hedgehog signaling enhances delivery of chemotherapy in a mouse model of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">248</infon>
+      <infon key="pub-id_pmid">18282695</infon>
+      <infon key="fpage">242</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>75355</offset>
+      <text>Applications for ROCK kinase inhibition</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24963846</infon>
+      <infon key="fpage">4255</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>75395</offset>
+      <text>Diverse matrix metalloproteinase functions regulate cancer amoeboid migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">734</infon>
+      <infon key="pub-id_pmid">24856586</infon>
+      <infon key="fpage">719</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>75473</offset>
+      <text>Depletion of carcinoma&#8208;associated fibroblasts and fibrosis induces immunosuppression and accelerates pancreas cancer with reduced survival</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">429</infon>
+      <infon key="pub-id_pmid">22439937</infon>
+      <infon key="fpage">418</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75614</offset>
+      <text>Enzymatic targeting of the stroma ablates physical barriers to treatment of pancreatic ductal adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="source">Small GTPases</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24603113</infon>
+      <infon key="fpage">e27539</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>75723</offset>
+      <text>Rho, nuclear actin, and actin&#8208;binding proteins in the regulation of transcription and gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">908</infon>
+      <infon key="pub-id_pmid">22964758</infon>
+      <infon key="fpage">900</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>75827</offset>
+      <text>Rho&#8208;associated kinases in tumorigenesis: re&#8208;considering ROCK inhibition for cancer therapy</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Data</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">27824338</infon>
+      <infon key="fpage">160101</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>75922</offset>
+      <text>ROCK signalling induced gene expression changes in mouse pancreatic ductal adenocarcinoma cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">463</infon>
+      <infon key="pub-id_pmid">27149218</infon>
+      <infon key="fpage">462</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>76018</offset>
+      <text>Regulation of pancreatic cancer aggressiveness by stromal stiffening</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">747</infon>
+      <infon key="pub-id_pmid">24856585</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>76087</offset>
+      <text>Stromal elements act to restrain, rather than support, pancreatic ductal adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Neoplasia</infon>
+      <infon key="lpage">6</infon>
+      <infon key="pub-id_pmid">15068665</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>76175</offset>
+      <text>ONCOMINE: a cancer microarray database and integrated data&#8208;mining platform</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">J Invest Dermatol</infon>
+      <infon key="lpage">2384</infon>
+      <infon key="pub-id_pmid">25927164</infon>
+      <infon key="fpage">2377</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>76252</offset>
+      <text>MMP&#8208;10 regulates collagenolytic activity of alternatively activated resident macrophages</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Genesis</infon>
+      <infon key="lpage">446</infon>
+      <infon key="pub-id_pmid">19391117</infon>
+      <infon key="fpage">440</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>76343</offset>
+      <text>Tissue selective expression of conditionally&#8208;regulated ROCK by gene targeting to a defined locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">791</infon>
+      <infon key="pub-id_pmid">21665151</infon>
+      <infon key="fpage">776</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>76442</offset>
+      <text>Actomyosin&#8208;mediated cellular tension drives increased tissue stiffness and &#946;&#8208;catenin activation to induce epidermal hyperplasia and tumor growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Genesis</infon>
+      <infon key="lpage">646</infon>
+      <infon key="pub-id_pmid">27775859</infon>
+      <infon key="fpage">636</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>76592</offset>
+      <text>Tissue&#8208;selective expression of a conditionally&#8208;active ROCK2&#8208;estrogen receptor fusion protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">245</infon>
+      <infon key="pub-id_pmid">21840487</infon>
+      <infon key="fpage">229</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>76691</offset>
+      <text>ROCK and JAK1 signaling cooperate to control actomyosin contractility in tumor cells and stroma</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">3596</infon>
+      <infon key="pub-id_pmid">15867264</infon>
+      <infon key="fpage">3587</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>76787</offset>
+      <text>Expression of HOXB2, a retinoic acid signaling target in pancreatic cancer and pancreatic intraepithelial neoplasia</text>
+    </passage>
+    <passage>
+      <infon key="volume">299</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1747</infon>
+      <infon key="pub-id_pmid">12637748</infon>
+      <infon key="fpage">1743</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>76903</offset>
+      <text>Dissecting temporal and spatial control of cytokinesis with a myosin II inhibitor</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Curr Protoc Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">3.22</infon>
+      <infon key="year">2001</infon>
+      <offset>76985</offset>
+      <text>Isolation and characterization of exosomes from cell culture supernatants and biological fluids</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">757</infon>
+      <infon key="pub-id_pmid">21266354</infon>
+      <infon key="fpage">747</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>77081</offset>
+      <text>Spatial regulation of RhoA activity during pancreatic cancer cell invasion driven by mutant p53</text>
+    </passage>
+    <passage>
+      <infon key="volume">518</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">25719666</infon>
+      <infon key="fpage">495</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>77177</offset>
+      <text>Whole genomes redefine&#160;the mutational landscape of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Carcinogenesis</infon>
+      <infon key="lpage">146</infon>
+      <infon key="pub-id_pmid">10657949</infon>
+      <infon key="fpage">139</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>77247</offset>
+      <text>Cyclooxygenase&#8208;2 expression in human pancreatic adenocarcinomas</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Cancer</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">24884523</infon>
+      <infon key="fpage">130</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>77313</offset>
+      <text>Yin Yang&#8208;1 suppresses invasion and metastasis of pancreatic ductal adenocarcinoma by downregulating MMP10 in a MUC4/ErbB2/p38/MEF2C&#8208;dependent mechanism</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1307 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5167340</id>
+    <passage>
+      <infon key="name_2">surname:Huis in't Veld;given-names:Pim J</infon>
+      <infon key="name_3">surname:Nishiyama;given-names:Tomoko</infon>
+      <infon key="name_0">surname:Kanke;given-names:Mai</infon>
+      <infon key="name_1">surname:Tahara;given-names:Eri</infon>
+      <infon key="alt-title">Mai Kanke et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201695756</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201695756</infon>
+      <infon key="article-id_pmid">27872142</infon>
+      <infon key="lpage">2698 2698</infon>
+      <infon key="pub-id_pmid">27872142</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2686 2686</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">24</infon>
+      <infon key="kwd">chromosome segregation cohesin DNA replication post&#8208;translational&#160;modification single&#8208;molecule TIRF microscopy Cell Cycle Chromatin, Epigenetics, Genomics &amp; Functional Genomics DNA Replication, Repair &amp; Recombination</infon>
+      <offset>0</offset>
+      <text>Cohesin acetylation and Wapl&#8208;Pds5 oppositely regulate translocation of cohesin along DNA</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>91</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>100</offset>
+      <text>Cohesin is a ring&#8208;shaped protein complex that plays a crucial role in sister chromatid cohesion and gene expression. The dynamic association of cohesin with chromatin is essential for these functions. However, the exact nature of cohesin dynamics, particularly cohesin translocation, remains unclear. We evaluated the dynamics of individual cohesin molecules on DNA and found that the cohesin core complex possesses an intrinsic ability to traverse DNA in an adenosine triphosphatase (ATPase)&#8208;dependent manner. Translocation ability is suppressed in the presence of Wapl&#8208;Pds5 and Sororin; this suppression is alleviated by the acetylation of cohesin and the action of mitotic kinases. In Xenopus laevis egg extracts, cohesin is translocated on unreplicated DNA in an ATPase&#8208; and Smc3 acetylation&#8208;dependent manner. Cohesin movement changes from bidirectional to unidirectional when cohesin faces DNA replication; otherwise, it is incorporated into replicating DNA without being translocated or is dissociated from replicating DNA. This study provides insight into the nature of individual cohesin dynamics and the mechanisms by which cohesin achieves cohesion in different chromatin contexts.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1302</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1315</offset>
+      <text>Cohesin, an evolutionarily conserved structural maintenance of chromosomes (SMC) family member, plays crucial roles in sister chromatid cohesion, chromatin structure organization, and gene expression in eukaryotes. Cohesin dysfunction in humans has been implicated in hereditary diseases, such as Cornelia de Lange syndrome (Liu &amp; Krantz, 2009; Deardorff et&#160;al, 2012), Roberts syndrome (Vega et&#160;al, 2005), and cancer (Barber et&#160;al, 2008; Solomon et&#160;al, 2011; Welch et&#160;al, 2012; Kon et&#160;al, 2013). However, the pathogenicity mechanisms of these disorders remain unclear.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1890</offset>
+      <text>Since the discovery of the cohesin complex (Guacci et&#160;al, 1997; Michaelis et&#160;al, 1997; Losada et&#160;al, 1998), which consists of four core subunits, Smc1, Smc3, Scc1, and stromal antigen (SA/STAG) (Onn et&#160;al, 2008; Nasmyth &amp; Haering, 2009), accumulating biochemical evidence has suggested that ring&#8208;shaped cohesin complexes hold sister chromatids together by entrapping two DNA molecules (Anderson et&#160;al, 2002; Haering et&#160;al, 2002, 2008; Arumugam et&#160;al, 2003). Cohesin loading onto DNA depends on the cohesin loader complex Scc2&#8208;Scc4 and the hydrolysis of adenosine triphosphate (ATP) by Smc1 and Smc3 (Ciosk et&#160;al, 2000; Arumugam et&#160;al, 2003; Weitzer et&#160;al, 2003). Several cohesin&#8208;binding proteins and modification factors regulate sister chromatid cohesion. For example, to establish cohesion, the Smc3 subunit must be acetylated by the Eco1/Esco1/2 acetyltransferases (Ben&#8208;Shahar et&#160;al, 2008; Unal et&#160;al, 2008; Zhang et&#160;al, 2008; Rowland et&#160;al, 2009), and Sororin, a vertebrate cohesin&#8208;binding protein, is then recruited to chromatin&#8208;bound cohesin following acetylation of Smc3 (Lafont et&#160;al, 2010; Nishiyama et&#160;al, 2010). The cohesin&#8208;associated Wapl&#8208;Pds5 heterodimer is required for cohesin removal from chromosome arms during mitotic prophase (Gandhi et&#160;al, 2006; Kueng et&#160;al, 2006; Shintomi &amp; Hirano, 2009; Tedeschi et&#160;al, 2013). Cohesin dissociation also requires phosphorylation of the cohesin SA subunit (Losada et&#160;al, 2002; Sumara et&#160;al, 2002) and Sororin (Nishiyama et&#160;al, 2013). Wapl&#8208;Pds5 and phosphorylation presumably act to open the &#8220;exit gate&#8221; (Smc3&#8208;Scc1 interface) (Chan et&#160;al, 2012; Buheitel &amp; Stemmann, 2013; Eichinger et&#160;al, 2013; Gligoris et&#160;al, 2014; Huis in &#8216;t Veld et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3642</offset>
+      <text>A previous study demonstrated that the depletion of Wapl stabilizes cohesin on DNA, resulting in the over&#8208;cohesion of interphase chromatin, chromosome mis&#8208;segregation, and altered gene expression (Tedeschi et&#160;al, 2013), suggesting that the dynamic interaction of cohesin with DNA is essential not only for faithful chromosome segregation, but also for proper chromosome architecture and gene&#160;expression. Previous studies have suggested two modes of cohesin dynamics: cohesin&#8211;chromatin &#8220;association/dissociation&#8221; and cohesin &#8220;translocation&#8221; along DNA. The former has been studied by analyzing the chromatin residence times of cohesin (Gerlich et&#160;al, 2006; Gause et&#160;al, 2010; Chan et&#160;al, 2012; Ladurner et&#160;al, 2014). However, the latter &#8220;translocation&#8221; mode is not well&#8208;understood, although it is thought to occur in budding yeast (Lengronne et&#160;al, 2004; Hu et&#160;al, 2011). Recent single&#8208;molecule studies revealed that cohesin is translocated on DNA by one&#8208;dimensional diffusion and cohesin can be pushed by DNA motor proteins (Davidson et&#160;al, 2016; Stigler et&#160;al, 2016). It has also been suggested that cohesin slides along budding yeast chromatin via the pushing force of&#160;the&#160;transcription machinery (Ocampo&#8208;Hafalla et&#160;al, 2016). However, the regulatory mechanisms of cohesin translocation are not understood.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4989</offset>
+      <text>Single&#8208;molecule techniques such as optical/magnetic tweezers, atomic force microscopy, tethered particle microscopy, and fluorescence spectroscopy have been developed. Among them, the fluorescence imaging&#8208;based flow&#8208;stretching method enables high&#8208;throughput analysis of single&#8208;molecule dynamics on DNA. This technique has been used to show that Rad51 and lac repressor (LacI), as well as cohesin, diffuse on DNA (Graneli et&#160;al, 2006; Wang et&#160;al, 2006; Davidson et&#160;al, 2016; Stigler et&#160;al, 2016), and hOgg1, a DNA repair protein, slides along the DNA double helix (Blainey et&#160;al, 2006). Furthermore, recent studies showed that stretched DNA could be replicated by combining the flow&#8208;stretching system with cell extracts (Yardimci et&#160;al, 2010, 2012b; Loveland et&#160;al, 2012). To determine the molecular mechanisms of cohesin translocation along DNA, we applied flow&#8208;stretching method&#8208;based single&#8208;molecule techniques. After reconstituting the cohesin complex with its binding and modifying proteins and the loading complex, we analyzed the dynamics of single cohesin molecules on DNA or chromatin. These experiments provide novel insights into the regulatory mechanisms of cohesin translocation. The cohesin complex randomly translocates along DNA in an ATPase&#8208;dependent manner. This translocation ability is attenuated by Wapl&#8208;Pds5 and attenuation is alleviated by Smc3 acetylation, whereas Sororin further suppresses the translocation ability. Cohesin movement along the chromatin in Xenopus egg extracts depends on cohesin acetylation; translocation ability is influenced by DNA replication. Based on these results, we discuss the mechanisms of cohesin translocation along DNA and chromatin, as regulated by cohesin&#8208;associated proteins, cell cycle&#8208;dependent post&#8208;translational modifications, and DNA replication.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6836</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6844</offset>
+      <text>Cohesin translocates along DNA in an ATPase&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6907</offset>
+      <text>To investigate cohesin dynamics, we first examined single cohesin particles under physiological conditions. First, 48.5&#160;kb of linear &#955; phage DNA (&#955; DNA) was biotinylated at both ends and tethered to a streptavidin&#8208;coated coverslip that was assembled in a microfluidic flow cell attached to a syringe pump (Yardimci et&#160;al, 2012a) and then observed under a total internal reflection fluorescence (TIRF) microscope (Appendix&#160;Fig&#160;S1A). A human cohesin tetramer harboring Halo&#8208;tagged Scc1 was expressed and purified from baculovirus&#8208;infected insect cells and Scc1&#8208;Halo was then covalently labeled with a fluorescent dye (Fig&#160;1A). Based on the particle intensities and photobleaching results, particles with intensities similar to the peak intensity (0.5&#8211;0.8&#160;&#215;&#160;103 EMCCD count; Appendix&#160;Fig&#160;S1B) were bleached in one step by continuous excitation (Appendix&#160;Fig&#160;S1C), suggesting that these particles were single molecules. After tethering the DNA at both ends to the coverslip, labeled cohesin was introduced to the flow cell in the presence of ATP. The cohesin tetramer alone could specifically bind to DNA under low&#8208;salt conditions (30&#160;mM NaCl, Fig&#160;EV1A). However, most cohesin particles were dissociated under high&#8208;salt conditions (Fig&#160;EV1B), which is consistent with previous observations in&#160;vitro (Murayama &amp; Uhlmann, 2014), indicating that these cohesin complexes were not topologically bound to DNA. In order to observe only cohesin particles that were topologically bound to DNA, cohesin was loaded onto DNA in the presence of the Scc2&#8208;Scc4 complex (Fig&#160;EV1C and D) and washed with a high&#8208;salt buffer. As expected, in the presence of Scc2&#8208;Scc4, a significant number of cohesin particles remained on the DNA after washing with high&#8208;salt buffer (Fig&#160;EV1B). If these DNA&#8208;bound cohesins are topologically bound to DNA, cleavage of the cohesin ring should result in the dissociation of cohesin from DNA (Uhlmann et&#160;al, 1999, 2000). To test this, we utilized a cohesin complex in which the Scc1 subunit harbored tobacco etch virus (TEV) protease cleavage recognition sites (Fig&#160;1A) to allow the artificial opening of cohesin rings by this enzyme. We found that most Scc1 was cleaved within 45&#160;min of TEV protease treatment (Appendix&#160;Fig&#160;S1D). TEV&#8208;cleavable cohesin was loaded onto DNA in the presence of Scc2&#8208;Scc4, washed in high&#8208;salt buffer, and then treated with TEV protease. TEV treatment significantly decreased the amount of cohesin on DNA (Fig&#160;1B), indicating that cohesin was topologically bound to DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9470</offset>
+      <text>Cohesin translocates along DNA in an ATPase&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9533</offset>
+      <text>Purification of the Halo&#8208;tagged cohesin tetramer. Human cohesin tetramer tagged by Halo was purified from insect cells and Alexa 488 dye was conjugated to Halo&#8208;tag (cohesinHalo488).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9719</offset>
+      <text>CohesinHalo488 loaded onto DNA in the presence of Scc2&#8208;Scc4 was incubated in the buffer with or without TEV protease. After high&#8208;salt washing, cohesinHalo488 intensities on DNA were measured. Red bars denote the median, lower, and upper quartile values (n&#160;&#8805;&#160;98; *P&#160;&lt;&#160;0.0001, two&#8208;tailed Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10043</offset>
+      <text>Kymograph of a single DNA&#8208;interacting cohesinHalo488 particle. CohesinHalo488 is loaded onto DNA in the presence of Scc2&#8208;Scc4 and, after high&#8208;salt washing, single cohesin particles were observed in the presence of ATP and 100&#160;mM KCl. Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10303</offset>
+      <text>Histogram of the net displacement (xfinal &#8722; xinitial) of cohesin particles treated as in (C). The magenta curve represents the Gaussian fit.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10446</offset>
+      <text>CohesinHalo488 was loaded and washed in high&#8208;salt as in (C), and the cohesin particles were observed in the presence of ATP and 100&#160;mM or 750&#160;mM KCl. Kymograph of DNA&#8208;associated cohesin particles under high&#8208;salt conditions (750&#160;mM KCl, right) and the mean square displacement (MSD) vs. time (left) are shown. Dotted lines are regression lines used to estimate the diffusion coefficient (D). Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10865</offset>
+      <text>MSD vs. time for DNA&#8208;bound cohesinWT&#8208;Halo488 or cohesinKA&#8208;Halo488 particles. CohesinWT&#8208;Halo488 or cohesinKA&#8208;Halo488 was loaded onto DNA in the presence of Scc2&#8208;4 and ATP. After high&#8208;salt washing, the cohesin particles on DNA were observed in the presence of 1&#160;mM AMP&#8208;PCP or ATP and 100&#160;mM KCl. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11245</offset>
+      <text>Proper loading of cohesin by Scc2&#8208;Scc4 is required for translocation ability (related to Fig&#160;1)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11344</offset>
+      <text>CohesinHalo488 is specifically bound to DNA in the absence of Scc2&#8208;Scc4. CohesinHalo488 (3.25&#160;nM) was directly loaded onto DNA and DNA&#8208;bound cohesinHalo488 was observed. CohesinHalo488 signals were detected all along DNA. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11591</offset>
+      <text>CohesinHalo488 was loaded onto DNA in the presence or absence of Scc2&#8208;Scc4 and washed in high&#8208;salt buffer. Scc2 was immunostained by anti&#8208;Scc2 antibody. DNA was counterstained with SYTOX. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11805</offset>
+      <text>CohesinHalo488 specifically binds to DNA in the presence of Scc2&#8208;Scc4. CohesinHalo488 (3.25&#160;nM) was loaded onto DNA after Scc2&#8208;Scc4 bound to DNA, and cohesinHalo488 was observed. Note that cohesinHalo488 signals were detected all along the DNA. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12074</offset>
+      <text>SYPRO Ruby staining of the purified Scc2&#8208;Scc4 complex after separation by SDS&#8211;PAGE. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12163</offset>
+      <text>CohesinHalo488 was loaded onto DNA as in (B). After high&#8208;salt wash, residual cohesin particles on DNA were observed in the presence of ATP and 100&#160;mM KCl. MSD vs. time is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12412</offset>
+      <text>Based on time&#8208;lapse images, cohesin particles moved along &#955; DNA in the presence of ATP; the movement became more evident under higher salt conditions (&#8805;&#160;100&#160;mM KCl) (Fig&#160;1C). A histogram of the net displacement of cohesin particles was fitted by a Gaussian curve (Fig&#160;1D), suggesting that the movement was consistent with diffusion, rather than an active or a directional process. By plotting the mean square displacement (MSD) vs. time (&#916;t), we estimated the diffusion coefficient (D) of cohesin on DNA and found that it increased depending on the salt concentration and that cohesins were translocated along DNA even in the presence of 750&#160;mM KCl (Fig&#160;1E). As cohesin cannot be loaded onto DNA even in the presence of 100&#160;mM NaCl (Appendix&#160;Fig&#160;S1E) (Murayama &amp; Uhlmann, 2014), this result also indicates that cohesin was topologically bound to DNA, which is consistent with a previous report (Davidson et&#160;al, 2016; Stigler et&#160;al, 2016). Because the cohesin tetramer by itself may associate with DNA in the absence of Scc2&#8208;Scc4 (Fig&#160;EV1A), we next evaluated whether cohesin loaded onto DNA independently of Scc2&#8208;Scc4 could be translocated along DNA. When cohesin was directly loaded onto DNA, the DNA&#8208;bound cohesin was much less mobile than that loaded by Scc2&#8208;Scc4 (approximately threefold lower based on the diffusion coefficient: Fig&#160;EV1E), suggesting that the translocation ability of cohesin requires its proper loading via the Scc2&#8208;Scc4 complex. To test whether this movement is non&#8208;specific and is thus displayed by all DNA&#8208;bound proteins, GFP&#8208;tagged Tet repressor protein (TetR&#8208;GFP) was mixed with a linear DNA fragment containing tet operator sequences (tetO), that is, TetR&#8208;specific target sequences, at both ends. As expected, TetR&#8208;GFP remained at both ends of tetO&#8208;DNA (Appendix&#160;Fig&#160;S1F), demonstrating that proteins bound to specific sequences do not exhibit the random movement displayed by cohesin. We also tested the effect of aggregation of cohesin particles on translocation ability as cohesin frequently forms aggregates on DNA. The diffusion coefficients indicated that aggregated particles lost their mobility on DNA compared to non&#8208;aggregated single particles (Appendix&#160;Fig&#160;S1G). Therefore, we selected particles with intensities corresponding to that of single molecule to avoid aggregation in subsequent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14803</offset>
+      <text>Next, we tested the requirement of cohesin ATPase activity for this movement. To rule out the possibility of secondary effects resulting from mis&#8208;regulation in the cohesin loading step, cohesin was loaded onto DNA in the presence of Scc2&#8208;Scc4 and ATP and then washed with high&#8208;salt buffer. Cohesin movement was then observed in the presence of ATP or non&#8208;hydrolyzable ATP analogues (AMP&#8208;PCP). Although AMP&#8208;PCP did not affect the amount of cohesin bound to DNA (Appendix&#160;Fig&#160;S1H), it significantly reduced the diffusion coefficient (Fig&#160;1F). The translocation ability of cohesinKA, a cohesin mutant containing an Smc3 subunit harboring an ATP&#8208;binding abolishing mutation (Smc3&#8208;K38A) (Arumugam et&#160;al, 2006; Ladurner et&#160;al, 2014), was insensitive to AMP&#8208;PCP (Fig&#160;1F). Because the cohesin tetramer could be randomly translocated along DNA even in the absence of ATP (Davidson et&#160;al, 2016; Stigler et&#160;al, 2016), the physical disengagement of the Smc1/3 head domain after ATP hydrolysis may facilitate diffusion.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15836</offset>
+      <text>Cohesin acetylation antagonizes Wapl&#8208;Pds5&#8208;dependent attenuation of translocation ability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15929</offset>
+      <text>We next evaluated whether cohesin&#8208;associated proteins and post&#8208;translational modifications affect the translocation ability of cohesin. The Wapl&#8208;Pds5 heterodimer is required for the dynamic interaction of cohesin to DNA in interphase as well as mitosis (Gandhi et&#160;al, 2006; Kueng et&#160;al, 2006; Shintomi &amp; Hirano, 2009; Tedeschi et&#160;al, 2013). We first tested the ability of Wapl&#8208;Pds5 to regulate translocation. The Wapl&#8208;Pds5 heterodimer was expressed and purified as a stoichiometric complex from baculovirus&#8208;infected insect cells (Appendix&#160;Fig&#160;S2A). When the Wapl&#8208;Pds5 heterodimer was introduced into the flow cell after cohesin was loaded onto DNA by Scc2&#8208;Scc4, Wapl&#8208;Pds5 specifically bound to DNA&#8208;bound cohesin (Appendix&#160;Fig&#160;S2B), which promoted cohesin dissociation from DNA after washing in high&#8208;salt buffer (Appendix&#160;Fig&#160;S2C), confirming that Wapl&#8208;Pds5 was functional in our flow cell system. We then examined whether Wapl&#8208;Pds5 affects cohesin movement along DNA. Cohesin was topologically loaded by Scc2&#8208;Scc4 followed by high&#8208;salt washing and Wapl&#8208;Pds5 was bound to the cohesin. When these cohesin particles were analyzed in the presence of ATP, we unexpectedly found that Wapl&#8208;Pds5 significantly attenuated the translocation (Fig&#160;2A and B). AMP&#8208;PCP further decreased the translocation ability in the presence of Wapl&#8208;Pds5 (Appendix&#160;Fig S2D), suggesting that Wapl&#8208;Pds5 and ATPase activity independently affect translocation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17410</offset>
+      <text>Acetylation of cohesin antagonizes Wapl&#8208;Pds5&#8208;dependent suppression of cohesin translocation along DNA</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17516</offset>
+      <text>Kymograph of cohesinHalo488 in the presence or absence of Wapl&#8208;Pds5. CohesinHalo488 was loaded onto DNA in the presence of Scc2&#8208;Scc4 and washed in high&#8208;salt buffer. DNA&#8208;bound cohesin was further incubated with or without Wapl&#8208;Pds5, and then cohesinHalo488 particles were observed in the presence of ATP and 100&#160;mM KCl. Scale bar, 1&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17865</offset>
+      <text>MSD vs. time of cohesin particles in (A) is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17984</offset>
+      <text>Acetylated or unacetylated cohesinHalo488 was loaded onto DNA in the presence of Scc2&#8208;Scc4 and washed in high&#8208;salt buffer. DNA&#8208;bound cohesin was further incubated with Wapl&#8208;Pds5, and then cohesinHalo488 particles were observed in the presence of ATP and 100&#160;mM KCl. MSD vs. time is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18350</offset>
+      <text>Acetylated cohesinHalo488 was treated as in (C), the DNA&#8208;bound cohesin was further incubated with buffer, Wapl&#8208;Pds5, or Wapl&#8208;Pds5 plus Sororin, and then cohesinHalo488 particles were observed in the presence of ATP and 100&#160;mM KCl. MSD vs. time is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18679</offset>
+      <text>Wapl and/or Pds5 exhibit anti&#8208;establishment activity against Eco1/Esco1/2&#8208;dependent cohesion (Gandhi et&#160;al, 2006; Ben&#8208;Shahar et&#160;al, 2008; Unal et&#160;al, 2008; Rowland et&#160;al, 2009). Thus, we tested whether Smc3 acetylation affects the affinity of cohesin to DNA or cohesin translocation. In eukaryotes, the acetylation of two lysine residues in the Smc3 subunit, K105/K106 (human) and K112/K113 (budding yeast), by Eco1/Esco1/2 acetyltransferases is essential for the establishment of cohesion (Ben&#8208;Shahar et&#160;al, 2008; Unal et&#160;al, 2008; Zhang et&#160;al, 2008; Rowland et&#160;al, 2009). Because of the low efficiency of the in&#160;vitro acetylation reaction, we purified the acetylated cohesin tetramer from insect cells co&#8208;expressing human Esco1. Acetylated cohesin was loaded onto DNA in the presence of Scc2&#8208;Scc4, washed with high&#8208;salt buffer, and incubated with Wapl&#8208;Pds5. Acetylation of cohesin was confirmed by immunofluorescence microscopy using an acetylated Smc3&#8208;specific antibody; we estimated that ~50% of cohesin particles were acetylated (Fig&#160;EV2A). Intriguingly, the diffusion coefficient of acetylated cohesin was significantly higher than that of unacetylated cohesin, even in the presence of Wapl&#8208;Pds5 (Fig&#160;2C). This result suggests the diffusion coefficient increased because Wapl&#8208;Pds5 is dissociated from acetylated cohesin. However, immunofluorescence microscopy revealed that Wapl was not dissociated from cohesin when cohesin was acetylated (Fig&#160;EV2B). Furthermore, acetylation itself facilitated translocation in the absence of Wapl&#8208;Pds5 (Fig&#160;EV2C). Thus, acetylation directly affects the translocation ability of the cohesin core complex, irrespective of the presence of Wapl&#8208;Pds5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20407</offset>
+      <text>Acetylation of Smc3 facilitates cohesin translocation (related to Fig&#160;2)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20481</offset>
+      <text>Topologically loaded cohesinHalo488 (&#8722;Esco1) or ac&#8208;cohesinHalo488 (+Esco1) was washed in high&#8208;salt buffer. Acetylated Smc3 (Smc3&#8208;ac) was detected by immunostaining. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20673</offset>
+      <text>Topologically loaded cohesinHalo488 (&#8722;Esco1) or ac&#8208;cohesinHalo488 (+Esco1) was washed in high&#8208;salt buffer and treated with Wapl&#8208;Pds5. Wapl was detected by immunostaining. Scale bar, 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20872</offset>
+      <text>CohesinHalo488 was treated as in (A) and cohesinHalo488 (cohesin) or acetylated cohesinHalo488 (Ac&#8208;cohesin) particles were observed. MSD vs. time is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21098</offset>
+      <text>We next assessed the effect of Sororin on cohesin translocation. Sororin is a cohesion establishment factor that associates with acetylated cohesin via Pds5 (Rankin et&#160;al, 2005; Schmitz et&#160;al, 2007; Nishiyama et&#160;al, 2010). Because Sororin associates with Pds5 and antagonizes its cohesin removal activity (Nishiyama et&#160;al, 2010), Sororin may also affect cohesin movement. His&#8208;tagged recombinant human Sororin was expressed in and purified from Escherichia coli (Appendix&#160;Fig S2E) and incubated with acetylated cohesin in the presence of Wapl&#8208;Pds5. We confirmed that Sororin particles were specifically associated with cohesin on DNA (Appendix&#160;Fig S2F) and stabilized cohesin on DNA in the presence of Wapl&#8208;Pds5 (Appendix&#160;Fig S2G). Sororin further suppressed Wapl&#8208;Pds5&#8208;bound cohesin translocation (Fig&#160;2D). These results indicate that the two cohesion establishment factors, that is, acetylation of Smc3 and Sororin, have different effects on cohesin translocation ability.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22089</offset>
+      <text>Plk1 and Aurora B facilitates translocation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22133</offset>
+      <text>Given the Sororin&#8208;dependent stabilization of cohesin, we asked whether stabilized cohesin is relieved during mitosis. In living cells, mitotic phosphorylation of the cohesin SA/STAG subunit by polo&#8208;like kinase 1 (Plk1) and cyclin&#8208;dependent kinase 1 (CDK1)&#8208; and Aurora B&#8208;dependent phosphorylation of Sororin are required for the mitotic dissociation of cohesin from chromosomes (Losada et&#160;al, 2002; Sumara et&#160;al, 2002; Hauf et&#160;al, 2005; Nishiyama et&#160;al, 2013). We therefore evaluated whether the mitotic kinases are responsible for the translocation of cohesin. The acetylated cohesin tetramer was loaded onto DNA in the presence of Scc2&#8208;Scc4, incubated with Wapl&#8208;Pds5 and Sororin after a high&#8208;salt wash, and then treated with the mitotic kinases Plk1, Aurora B, or CDK1. Among these kinases, Plk1 and Aurora B significantly increased the diffusion coefficient of cohesin (Fig&#160;3). When the cohesin complex was treated with recombinant Plk1 protein, phosphorylation was detected by the incorporation of [&#947;&#8208;32P] ATP and mass spectrometry (Appendix&#160;Fig S3A and B). Mass spectrometry analysis indicated that Plk1 phosphorylated SA1 at multiple sites located in similar regions as the previously reported Plk1&#8208;dependent mitotic phosphorylation sites of SA2 (Appendix&#160;Fig S3B) (Olsen et&#160;al, 2010; Hegemann et&#160;al, 2011). Cohesin was topologically loaded, treated with Plk1, and evaluated for the movement of cohesin particles. Plk1&#8208;dependent phosphorylation did not affect the amount of DNA&#8208;bound cohesin molecules over a range of salt concentrations (Appendix&#160;Fig S3C). DNA&#8208;bound cohesin became more dynamic in the presence of Plk1, which was suppressed by BI4834, a Plk1 inhibitor (Fig&#160;3A). However, immunofluorescence microscopy revealed that Plk1, as well as CDK1, significantly reduced the amount of Sororin, but not Wapl&#8208;Pds5 on DNA (Fig&#160;3B, and Appendix&#160;Fig S3D). Therefore, Plk1&#8208;dependent promotion of translocation is presumably caused by the removal of Sororin from the cohesin&#8211;Wapl&#8211;Pds5 complex. Because phosphorylation of Sororin by Plk1 is not sufficient for removing Sororin from Wapl&#8208;Pds5 (Nishiyama et&#160;al, 2013), the dissociation of Sororin observed in this study may be caused by the phosphorylation of cohesin itself or Wapl&#8208;Pds5. In contrast, Aurora B reduced the levels of neither Sororin nor Wapl&#8208;Pds5 on cohesin (Fig&#160;3B and Appendix&#160;Fig S3D), even though Sororin was phosphorylated (Appendix&#160;Fig S3E). We previously showed that phosphorylation of Sororin by Aurora B inhibits Sororin binding to Wapl&#8208;Pds5 in an in&#160;vitro binding assay (Nishiyama et&#160;al, 2013). This was not observed in our flow cell system presumably because (i) the flow cell was washed under mild conditions without any detergents or (ii) Aurora B&#8208;dependent phosphorylations of the cohesin core complex or Wapl&#8208;Pds5 (Hegemann et&#160;al, 2011) affect the affinity between Sororin and Wapl&#8208;Pds5. Nevertheless, Aurora B significantly increased the diffusion coefficient of cohesin (Fig&#160;3C), indicating that the Aurora B&#8208;dependent phosphorylation of cohesin, Wapl&#8208;Pds5, or Sororin counteracts the affinity between cohesin and DNA, presumably by inducing conformational changes or imparting a negative charge at the phosphorylation site to facilitate translocation. Interestingly, we found that Plk1 suppressed cohesin translocation in the absence of Wapl&#8208;Pds5 and Sororin (Appendix&#160;Fig S3F), indicating that the effect of mitotic kinases on cohesin translocation is altered in the presence of Wapl&#8208;Pds5 and Sororin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25701</offset>
+      <text>Plk1&#8208; and Aurora B&#8208;dependent phosphorylation facilitates cohesin translocation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25784</offset>
+      <text>Acetylated cohesinHalo488 was loaded onto DNA in the presence of Scc2&#8208;Scc4 and washed in high&#8208;salt buffer. DNA&#8208;bound cohesin was further incubated with Wapl&#8208;Pds5 plus Sororin and then treated with buffer, Plk1, or Plk1 plus BI4834. CohesinHalo488 particles were observed in the presence of ATP and 100&#160;mM KCl. MSD vs. time is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26194</offset>
+      <text>Acetylated cohesinHalo488 was treated as in (A), or treated with CDK1 or Aurora B rather than Plk1. Sororin intensity on DNA was measured after immunofluorescence microscopy with anti&#8208;Sororin antibody (n&#160;&gt;&#160;100, P&#160;&lt;&#160;0.0001, two&#8208;tailed Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26462</offset>
+      <text>Acetylated cohesinHalo488 was treated as in (A) but treated with Aurora B rather than Plk1. CohesinHalo488 particles were observed in the presence of ATP and 100&#160;mM KCl. MSD vs. time is shown. D indicates the diffusion coefficient (n&#160;=&#160;45, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26724</offset>
+      <text>Cohesin preferentially accumulates in the nucleosome&#8208;poor region of chromatin in Xenopus egg extract</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26827</offset>
+      <text>To investigate the properties of single cohesin molecules under conditions mimicking those in&#160;vivo, we observed the dynamics of cohesin on DNA in interphase Xenopus egg extracts. In the egg extracts, cohesin loading onto the chromatin was dependent on the formation of a pre&#8208;replication complex (pre&#8208;RC) consisting of four factors: ORC, Cdc6, Cdt1, and Mcm2&#8211;7. The Cdt1 inhibitor geminin inhibits this loading (Gillespie &amp; Hirano, 2004; Takahashi et&#160;al, 2004). Consistent with these characteristics, endogenous Xenopus cohesin was bound to tethered &#955; DNA in the high&#8208;speed supernatant (HSS) of Xenopus egg extracts, whereas both the formation of the pre&#8208;RC and loading of cohesin were abolished in the presence of geminin (Fig&#160;4A and B). We next loaded fluorescently labeled human cohesin complexes onto DNA in HSS in the presence of the purified human Scc2&#8208;Scc4 heterodimer. As expected, Scc2&#8208;Scc4&#8208;dependent cohesin loading was diminished with the ATP&#8208;binding&#8208;deficient cohesinKA mutant (Appendix&#160;Fig S4A and B). We also tested whether nucleosome density affected the cohesin&#8211;DNA association under these conditions. A previous study revealed that, in budding yeast, Scc2&#8208;Scc4 recruits cohesins to a nucleosome&#8208;free chromatin region, cooperating with the RSC chromatin remodeling complex (Lopez&#8208;Serra et&#160;al, 2014). In contrast to budding yeast, where Scc2&#8208;Scc4 recruitment is correlated with transcription (Lopez&#8208;Serra et&#160;al, 2014), little transcriptional activity was observed in early Xenopus embryos and was nearly entirely absent in the HSS, where Scc2&#8208;Scc4 recruitment depended on pre&#8208;RC formation. Therefore, cohesin loading machinery in the two systems may differ. Taking advantage of the HSS system, where small circular DNA can form nucleosomes (Laskey et&#160;al, 1977), we examined cohesin loading onto chromatin. Nucleosome formation on loosely stretched DNA was initiated in the HSS supplemented with geminin, which was added to inhibit cohesin loading before nucleosome formation. Fluorescently labeled cohesin pre&#8208;incubated with Scc2&#8208;Scc4 was then added, and the mixture was introduced into the flow cell. Nucleosomes were detected by immunostaining of histone H3 and H2A.X&#8208;F, an embryonic histone variant. Histone H3 signals were frequently co&#8208;localized with H2A.X&#8208;F, and a lack of co&#8208;localization in some cases was presumably attributed to other H2A variants (Appendix&#160;Fig S4C), suggesting that most of the detected particles formed nucleosomes. When the relative positions of the nucleosomes and cohesin molecules were compared, we found that 38% of the cohesin particles co&#8208;localized with nucleosomes, while 62% did not. Most non&#8208;co&#8208;localizing molecules were adjacent to nucleosomes (&#8804;&#160;1&#160;&#956;m distance; Fig&#160;4C and D). Remarkably, when we assayed nucleosome&#8208;rich chromatin, the number of chromatin&#8208;bound cohesin molecules was significantly reduced compared with that observed for nucleosome&#8208;poor regions (Fig&#160;4C and E). Most of those cohesin molecules resided in gaps between nucleosome&#8208;rich regions (Fig&#160;4C), suggesting that in our replication&#8208;dependent system, cohesin preferentially accumulated in nucleosome&#8208;poor regions on chromatin, as observed in budding yeast. If pre&#8208;RC itself forms in a nucleosome&#8208;poor region, this could explain the cohesin localization. However, as shown in Fig&#160;4F, pre&#8208;RC formation (i.e., localization of Mcm2) did not exhibit a preference for nucleosome&#8208;poor region, suggesting that cohesin rather than pre&#8208;RC is preferentially localized in nucleosome&#8208;poor regions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30431</offset>
+      <text>Cohesin preferentially accumulates in nucleosome&#8208;poor regions on chromatin in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30532</offset>
+      <text>Stretched DNA was incubated in the HSS in the presence or absence of geminin. After washing the HSS, endogenous Smc3 (green) and Mcm2 (magenta) were detected by immunofluorescence staining. DNA was counterstained with SYTOX (gray). Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30783</offset>
+      <text>Numbers of Smc3 and Mcm2 signals were counted on 10&#160;&#956;m DNA shown in (A). (22 DNAs per condition, n&#160;=&#160;3, mean&#160;&#177;&#160;s.e.m., *P&#160;&lt;&#160;0.0001, two&#8208;tailed Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30963</offset>
+      <text>Chromatin formed in the HSS in the presence of geminin, and cohesinHalo488 (green) was loaded onto the chromatin with Scc2&#8208;Scc4. Chromatin was detected by immunostaining of histone H3 (magenta). DNA was counterstained with SYTOX (gray). The distributions of cohesin particles and histone H3 are shown as line scan plots (bottom). Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31314</offset>
+      <text>Cohesin particles observed in (C) were categorized as indicated (&gt;&#160;37 particles per condition, n&#160;=&#160;6, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31438</offset>
+      <text>Cohesin particle numbers for each condition. Red bars denote the median, lower, and upper quartile values (n&#160;&#8805;&#160;12, *P&#160;&lt;&#160;0.0004, unpaired t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31592</offset>
+      <text>Co&#8208;localization of Mcm2 with Smc3 was quantified (50 Mcm2 particles per condition, n&#160;=&#160;3, mean&#160;&#177;&#160;s.e.m.) </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31705</offset>
+      <text>Cohesin acetylation is required for the dynamic translocation of cohesin along unreplicated chromatin in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31831</offset>
+      <text>Next, we examined the cohesin translocation ability in Xenopus egg extracts. Immunofluorescence microscopy analyses revealed that Mcm helicases did not always co&#8208;localize with cohesins (Figs&#160;4 and 5A), despite the fact that cohesin loading requires pre&#8208;RC formation. This indicates that cohesins and Mcm helicases are uncoupled after loading. Indeed, we observed that the fluorescently labeled Xenopus cohesin complex (xCohesinHaloTMR, Appendix&#160;Fig S5A) moved extensively along DNA in the HSS (Fig&#160;5B, HSS). Consistent with recent in&#160;vitro observations (Davidson et&#160;al, 2016; Stigler et&#160;al, 2016), motion was lagging around the nucleosome&#8208;rich region (Fig&#160;5C), indicating that nucleosomes act as semipenetrable barriers under physiological conditions. When cohesin was pre&#8208;loaded onto DNA in the HSS and washed with HSS supplemented with AMP&#8208;PNP, a non&#8208;hydrolyzable ATP analogue, we observed that cohesin particles transiently associated with DNA with a maximum residence time of 9&#160;s (Fig&#160;5B, HSSAMP&#8208;PNP &#8220;transient&#8221;). This result is consistent with the fact that cohesin requires ATPase activity for stable loading onto DNA (Appendix&#160;Fig S4A and B) (Arumugam et&#160;al, 2003; Weitzer et&#160;al, 2003; Lopez&#8208;Serra et&#160;al, 2014). In addition to the transient fraction, we frequently observed immobile cohesin particles in the presence of AMP&#8208;PNP (Fig&#160;5B, HSSAMP&#8208;PNP &#8220;stable&#8221;). Considering that ATPase activity is required for cohesin acetylation (Ladurner et&#160;al, 2014) and that acetylation facilitates cohesin translocation (Figs&#160;2C and EV2C), the stable association of cohesin in the presence of AMP&#8208;PNP may be due to inefficient acetylation of cohesin. However, we did not detect a significant decrease in cohesin acetylation in the presence of AMP&#8208;PNP compared to ATP (Appendix&#160;Fig S5B). This may be because: (i) ATPase activity does not affect cohesin acetylation in Xenopus egg extracts or (ii) acetylation is less stable on Xenopus chromatin because cohesin is translocated from its loading sites (pre&#8208;RC), where XEco2, a major acetyltransferase responsible for Smc3 acetylation and cohesion establishment in Xenopus egg extracts, is loaded onto chromatin (Higashi et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34057</offset>
+      <text>XEco2 is required for the dynamic translocation of cohesin along unreplicated DNA in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34163</offset>
+      <text>Stretched DNA was incubated in the HSS. Endogenous Smc3 (green) and Mcm2 (magenta) were detected by immunofluorescence staining. DNA was counterstained with SYTOX (gray). Co&#8208;localization of Smc3 and Mcm2 was quantified (bottom, n&#160;=&#160;3, mean&#160;&#177;&#160;s.e.m.). Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34440</offset>
+      <text>Fluorescently labeled Xenopus cohesins (xCohesinHaloTMR) were loaded onto DNA in the HSS, and DNA&#8208;bound cohesin particles were observed in the HSS with or without 5&#160;mM AMP&#8208;PNP supplementation. On the kymograph, the magenta lines indicate the duration of DNA binding of each cohesin particle. DNA was counterstained with SYTOX. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34791</offset>
+      <text>Kymographs of DNA&#8208;bound xCohesinHaloTMR (green) in HSS. After time&#8208;lapse imaging of xCohesinHaloTMR, nucleosomes were immunostained by anti&#8208;H3 antibody (magenta). Results of H3 immunostaining were merged with the kymograph. DNA was counterstained with SYTOX. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35075</offset>
+      <text>HSS was subjected to mock or XEco2 immunodepletion and human Esco1&#8208;His (hEsco1) was added back to XEco2&#8208;depleted HSS. Sperm chromatin was incubated in these extracts and chromatin&#8208;bound proteins were analyzed by immunoblotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35309</offset>
+      <text>Kymographs of DNA&#8208;bound xCohesinHaloTMR in mock&#8208;, XEco2&#8208;depleted, or hEsco1&#8208;added XEco2&#8208;depleted HSS. Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35440</offset>
+      <text>MSD vs. time of cohesin particle in the experiment in (E). D indicates the diffusion coefficient (n&#160;=&#160;15, mean&#160;&#177;&#160;s.e.m.).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35567</offset>
+      <text>In order to directly test the effect of cohesin acetylation, we examined translocation ability in the absence of XEco2. After immunodepletion of endogenous XEco2 from HSS using anti&#8208;XEco2 antibody beads (Fig&#160;5D), minimal acetylated cohesin on chromatin was detected in XEco2&#8208;depleted HSS (Fig&#160;5D and Appendix&#160;Fig S5C). In mock&#8208;depleted extracts, cohesin translocation was observed, as in untreated HSS (Fig&#160;5E and F, &#916;mock). However, translocation was significantly diminished in XEco2&#8208;depleted HSS (Fig&#160;5E and F, &#916;XEco2). The addition of purified human&#8208;Esco1&#8208;His protein (Appendix&#160;Fig S5D) to XEco2&#8208;depleted HSS restored cohesin acetylation on chromatin to the same level as in mock&#8208;depleted HSS (Fig&#160;5D) and translocation ability was restored (Fig&#160;5E and F, add back). Thus, acetylation is a prerequisite for sustaining the translocation ability of cohesin on unreplicated chromatin. Because we found that endogenous Wapl was bound to cohesin in both mock&#8208; and XEco2&#8208;depleted HSS (Appendix&#160;Fig S5C), the diminished translocation in XEco2&#8208;depleted HSS may have depended on Wapl&#8208;Pds5. However, as the diffusion coefficient in XEco2&#8208;depleted HSS was significantly lower than that in&#160;vitro, where cohesin bound to Wapl&#8208;Pds5 (Figs&#160;5F and 2C), there may be additional inhibitory mechanisms on chromatin in Xenopus egg extracts. Notably, not all cohesin molecules were acetylated, even in mock&#8208;depleted HSS (Appendix&#160;Fig S5C), although both cohesin and XEco2 are recruited to chromatin in a pre&#8208;RC formation&#8208;dependent&#160;manner (Gillespie &amp; Hirano, 2004; Takahashi et&#160;al, 2004; Higashi et&#160;al, 2012), suggesting that cohesin acetylation may be less stable on chromatin in HSS.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37286</offset>
+      <text>Cohesin dynamics on replicating chromatin in Xenopus egg&#160;extracts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37353</offset>
+      <text>To determine whether cohesin translocation is affected by DNA replication, we assessed cohesin dynamics in nucleoplasmic extracts (NPEs), in which linear DNA can be replicated (Yardimci et&#160;al, 2010; Loveland et&#160;al, 2012). Both&#8208;end&#8208;tethered DNA was first incubated in HSS in the presence of xCohesinHaloTMR to allow cohesin loading and subsequently incubated in NPE to start replication. DNA replication was monitored by incorporation of photoactivatable GFP (PAGFP)&#8208;tagged Xenopus flap endonuclease 1 (xFen1)D179A (Fig&#160;6A and Appendix&#160;Fig S6A; Loveland et&#160;al, 2012). On replicating DNA, we found that cohesin particles were (i) unidirectionally translocated, (ii) immobile, or (iii) dissociated. We further classified the cohesin motion into 5 groups (Fig&#160;6B). A total of 14.7% of cohesin particles were located on the tip of the replication bubble and translocated together with the progression of replication (Fig&#160;6B, group 1), whereas 23.5% of particles appeared to stop replication on the tip of the replication bubbles (Fig&#160;6B, group 2), although they could be only arrested at the end of the DNA. In contrast, 32.4% of particles were incorporated into replicating DNA (Fig&#160;6B, group 3) and 29.4% of particles were dissociated from chromatin during replication (Fig&#160;6B, group 4) or when cohesin was faced replication sites (Fig&#160;6B group 5). Interestingly, some cohesin particles, which were randomly translocated on unreplicated DNA, became immobile a few minutes before the initiation of replication and were then incorporated into replicating DNA (Fig&#160;6B, group 3). Taking into account the function of cohesin, it must be present in replicated DNA and that it is indeed the case in our system (Appendix&#160;Fig S6B) as well as in&#160;vivo; thus, at least some populations of cohesin (~30% in our system) must be regulated such that they are not pushed away or dissociated from replicated DNA. Although we do not know how many cohesins properly entrap DNA on Xenopus chromatin, these remaining cohesins could be &#8220;cohesive cohesin&#8221;; otherwise, the replication machinery may displace cohesin molecules from the replication sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>39503</offset>
+      <text>Cohesin behaviors on replicating chromatin in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39570</offset>
+      <text>Experimental design for monitoring replication and cohesin in Xenopus egg extracts.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39654</offset>
+      <text>Kymographs of examples for cohesin motion during DNA replication. xCohesinHaloTMR (magenta) was loaded onto DNA in the HSS, and NPE was introduced to allow DNA replication. DNA replication was monitored by xFen1D179A&#8208;PAGFP (green). Thirty&#8208;four particles were categorized into five groups. Arrowheads indicate the time points when cohesin was dissociated from chromatin. Scale bar, 2&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40047</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40058</offset>
+      <text>The present study evaluated the dynamics and regulatory mechanisms of single cohesin molecules. We found that Scc2&#8208;Scc4&#8208;dependent&#160;topological loading and cohesin ATPase activity (disengagement of the head domain) are crucial for cohesin translocation along DNA. Consistent with this finding, the ATPase&#8208;dependent translocation of cohesin in budding yeast was described in a previous study (Hu et&#160;al, 2011). Although Wapl&#8208;Pds5 promotes the dissociation of cohesin from DNA as previously described (Gandhi et&#160;al, 2006; Kueng et&#160;al, 2006) (Appendix&#160;Fig S2C), we showed that Wapl&#8208;Pds5 renders DNA&#8208;associated cohesin immobile (Fig&#160;2A and B). Considering that the engagement of Smc head domains restrains cohesin movement (Fig&#160;1F), Wapl&#8208;Pds5 may contribute to the tightening of the cohesin ring by associating with SA1, Scc1, and/or Smc3 (Shintomi &amp; Hirano, 2009; Hara et&#160;al, 2014; Murayama &amp; Uhlmann, 2015; Ouyang et&#160;al, 2016). Therefore, Wapl&#8208;Pds5 may&#160;have dual activities: &#8220;anti&#8208;establishment activity&#8221; and &#8220;anti&#8208;translocation&#160;activity&#8221;.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41132</offset>
+      <text>It remains unclear how cohesin acetylation facilitates the translocation ability of cohesin irrespective of the presence or absence of Wapl&#8208;Pds5. Although acetylation does not affect the ATPase activity of cohesin in&#160;vitro (Ladurner et&#160;al, 2014), it has been suggested to reduce DNA&#8208;stimulated ATPase activity (Murayama &amp; Uhlmann, 2015). If this is because of lower ATP binding to the cohesin's head domain, resulting in less frequent closure of the ring, this may explain why acetylation facilitates translocation ability. Another possibility is that if Wapl&#8208;Pds5 tightens the cohesin ring, as discussed above, so that the cohesin ring cannot readily translocate along DNA, Smc3 acetylation may neutralize the tightening ability of Wapl&#8208;Pds5 by changing the cohesin conformation to release Wapl&#8208;Pds5&#8208;dependent constraint or changing the affinity of the cohesin complex to DNA. In vertebrates, chromatin&#8208;bound cohesin is acetylated by Esco1 during G1 phase, after cohesin is loaded onto DNA by Scc2&#8208;Scc4 during telophase/G1 phase, whereas both Esco1 and Esco2 acetylate cohesin during S phase (Hou &amp; Zou, 2005). Although cohesin acetylation in S phase is essential for cohesion establishment, the biological significance of cohesin acetylation in G1 phase is not well&#8208;understood. Our findings revealed that the acetylation of cohesin facilitates its translocation irrespective of the presence or absence of Wapl&#8208;Pds5. This translocation ability is presumably required to prevent the transcription machinery from stalling after encountering the cohesin complex (Davidson et&#160;al, 2016; Ocampo&#8208;Hafalla et&#160;al, 2016). Indeed, acetylated cohesin preferentially accumulates at the 3&#8242; end of active genes, whereas cohesin itself localizes equally on the 5&#8242; and 3&#8242; ends of genes (Deardorff et&#160;al, 2012), indicating that acetylated cohesin can translocate on active genes depending on transcription progress. Cohesin may also encounter the replication machinery during S phase. In Xenopus egg extracts, XEco2/Esco2&#8208;dependent acetylation occurs in a pre&#8208;RC&#8208;dependent manner, that is, before the initiation of DNA replication (Higashi et&#160;al, 2012), indicating that XEco2&#8208;dependent acetylation of Smc3 in S phase is also required to avoid collision between cohesin and the replication machinery (see below). In contrast to acetylation, Sororin negatively regulates cohesin translocation in the presence of Wapl&#8208;Pds5 (Fig&#160;2D). It has been shown that the establishment of Sororin&#8208;dependent cohesion relies on the association of Sororin with acetylated cohesin and&#160;Pds5 (Nishiyama et&#160;al, 2010) and stabilization of the cohesin&#8211;chromatin interaction (Schmitz et&#160;al, 2007; Ladurner et&#160;al, 2016). Although at least one role of Sororin is to antagonize the cohesin dissociation activity of Wapl&#8208;Pds5, Sororin may also protect immobility induced by Wapl&#8208;Pds5 when cohesin regains translocation ability by Smc3 acetylation. Thus, cohesion establishment activity may be closely related to the mobility of the cohesin complex on chromatin. In this sense, it would be reasonable to infer that only mitotic kinases, particularly Aurora B and Plk1, could alleviate this immobility in the presence of Sororin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44370</offset>
+      <text>We demonstrated that cohesins were indeed translocated along unreplicated DNA/chromatin in Xenopus egg extracts in an ATPase&#8208;dependent manner. Consistent with this finding, cohesin particles and the Mcm complexes were detected at different loci (Fig&#160;5A). Because Mcm helicases are not likely to be active in the HSS (Pacek &amp; Walter, 2004), it appears likely that cohesin, but not Mcm, is translocated from its loading sites, as has been suggested for budding yeast (Lengronne et&#160;al, 2004; Hu et&#160;al, 2011; Ocampo&#8208;Hafalla et&#160;al, 2016). As XEco2 (i.e., cohesin acetylation) is indeed required for cohesin translocation in HSS, it is plausible that the acetylation of cohesin is required to avoid collision with the DNA replication machinery in the presence of Wapl&#8208;Pds5. In our replication system, we found that ~15% of cohesin particles were translocated together with the progression of replication (Fig&#160;6B, group 1). This replication&#8208;associated translocation may require cohesin acetylation. More importantly, approximately one&#8208;third of cohesin particles were incorporated into replicated DNA without being translocated (Fig&#160;6B, group 3). These particles could be &#8220;cohesive cohesins&#8221;, which contribute to sister chromatid cohesion, and Sororin may be important for this immobile status of cohesin, which should allow the progression of DNA replication. If this process is misregulated and cohesin becomes improperly immobile, DNA replication can be arrested, as shown in Fig&#160;6B (group 2). It remains unclear whether there are any regulatory mechanisms by which cohesin is incorporated into replicating DNA or if replication machinery is simply passing through inside of the cohesin ring. Further studies are necessary to clarify this point.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>46132</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46154</offset>
+      <text>Microscopy and flow cell assembly</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46188</offset>
+      <text>The TIRFM system was built based on a Nikon Ti inverted microscope with a 100&#215; objective (NA1.49, oil immersion, Nikon) and an EMCCD camera iXon DU888E (Andor) or Evolve (Roper). Illumination was provided by sapphire solid&#8208;state lasers (20&#160;mW, 488&#160;nm and 20&#160;mW, 561&#160;nm; Coherent) and diode lasers (100&#160;mW, 405&#160;nm and 40&#160;mW, 640&#160;nm; Coherent) and passed through an excitation filter (TRF89902&#8208;ET quad band set, Chroma). All images were taken through the 1.5&#215; intermediate magnification module. Assembly of the flow cell and preparation of &#955;DNA were performed based on the method previously described (Yardimci et&#160;al, 2012a). In several experiments, PDMS (2&#160;mm&#160;&#215;&#160;100&#160;nm) flow cells were used. The flow cell was attached to the syringe pump (Pump 11 Elite, Harvard Apparatus) via a 3&#8208;ml syringe.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47004</offset>
+      <text>Preparation of Xenopus egg extracts and XEco2 immunodepletion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47066</offset>
+      <text>Low&#8208;speed interphase Xenopus egg extracts were prepared as described (Nishiyama et&#160;al, 2010). To prepare HSS, low&#8208;speed extracts were centrifuged at 200,000&#160;g for 90&#160;min, and the supernatant was collected. NPE was prepared as previously described (Lebofsky et&#160;al, 2009). To deplete XEco2 from the HSS, 1 vol of XEco2 antiserum (Higashi et&#160;al, 2012) was bound to 1 vol of Affi&#8208;Prep beads. Then, 0.4 or 0.6 vol of the antibody&#8208;coupled beads was incubated in 1 vol of HSS for 30&#160;min on ice. Retrieved HSS was used for TIRFM observations. hEsco1 was added to the XEco2&#8208;depleted HSS to a final concentration of 17.5&#160;nM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47698</offset>
+      <text>Chromatin isolation and immunoblotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47737</offset>
+      <text>Preparation of Xenopus chromatin fraction was performed as described previously (Nishiyama et&#160;al, 2010) with some modifications. Sperm nuclei were incubated in HSS at a concentration of 8,000&#160;nuclei/&#956;l for 30&#160;min at 22&#176;C. 50&#160;&#956;l of HSS was diluted by 450&#160;&#956;l of ice&#8208;cold extract buffer (EB) [5&#160;mM MgCl2, 100&#160;mM KCl, HEPES&#8211;KOH pH 7.5] containing 0.25% Triton X&#8208;100 and 0.25&#160;M sucrose, and layered over EB containing 0.5&#160;M sucrose. After centrifugation at 20,000&#160;g for 5&#160;min at 4&#176;C, the chromatin pellets were washed with EB containing 0.25% Triton X&#8208;100 and 0.25&#160;M sucrose, and suspended in SDS loading sample buffer. Chromatin&#8208;bound proteins were analyzed by immunoblotting using anti&#8208;Smc3 polyclonal antibody (A300&#8208;060A, Bethyl Laboratories), anti&#8208;Smc3&#8208;ac monoclonal antibody (Nishiyama et&#160;al, 2010), anti&#8208;His monoclonal antibody (9c11, Wako), anti&#8208;XEco2 polyclonal antibody (Higashi et&#160;al, 2012), and anti&#8208;histone H3 polyclonal antibody (9715L, Cell Signaling).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48742</offset>
+      <text>TIRFM observation of cohesin and the particle analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48797</offset>
+      <text>Cohesin loading reaction was performed as described in a previous study (Murayama &amp; Uhlmann, 2014) with some modifications. Scc2&#8208;Scc4 complex (7.5&#160;nM) in CL buffer [35&#160;mM Tris&#8211;HCl (pH 7.4), 30&#160;mM NaCl, 1&#160;mM TCEP, 1&#160;mM MgCl2, 15% (v/v) glycerol, 0.003% Tween&#8208;20] was introduced into a DNA&#8208;tethered flow cell and incubated for 15&#160;min. Then, cohesinHalo488 (3.25&#160;nM) in CL buffer containing 0.5&#160;mM ATP was introduced and incubated for 30&#160;min. After incubation, the flow cell was washed by TW buffer [35&#160;mM Tris&#8211;HCl (pH 7.4), 300&#160;mM NaCl, 0.5&#160;mM TCEP, 0.25&#160;mM ATP, 0.1% Triton X&#8208;100] followed by TC buffer [35&#160;mM Tris&#8211;HCl (pH 7.4), 100&#160;mM NaCl, 0.5&#160;mM TCEP, 1&#160;mM MgCl2, 0.25&#160;mM ATP or AMP&#8208;PCP, 0.05% Tween&#8208;20]. Then, SB buffer [40&#160;mM Tris&#8211;HCl (pH 7.4), 100&#160;mM KCl, 1&#160;mM DTT, 1&#160;mM MgCl2, 1&#160;mM ATP or AMP&#8208;PCP, 1&#160;mg/ml BSA] was flowed into the flow cell and cohesin particles were observed under 100, 200, or 400&#160;mM KCl conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49769</offset>
+      <text>To observe effects of Wapl&#8208;Pds5, Sororin, and mitotic kinases on cohesin movements, cohesin complexes were loaded onto DNA and washed by TW buffer, and then TC buffer. After washing by SB buffer, Wapl&#8208;Pds5 complex (15&#160;nM) in SB buffer (100&#160;mM KCl) was introduced into the flow cell and incubated for 30&#160;min. After incubation, SB buffer (100&#160;mM KCl) was flowed and cohesin movement was observed in SB buffer (100, 200, or 400&#160;mM KCl).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50212</offset>
+      <text>Sororin (15&#160;nM) was introduced into the flow cell after incubation of cohesin with Wapl&#8208;Pds5 for 20&#160;min. Sororin was introduced and incubated for 20&#160;min in SB buffer (100&#160;mM KCl). After washing by SB buffer (100&#160;mM KCl), cohesin particles were observed under 100, 200, or 400&#160;mM KCl conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50515</offset>
+      <text>For kinase reactions, the flow cell was washed by kinase buffer [40&#160;mM Tris&#8211;HCl (pH 7.4), 100&#160;mM KCl, 1&#160;mM DTT, 5&#160;mM MgCl2, 1&#160;mM ATP] after the incubation of cohesin with Wapl&#8208;Pds5 and Sororin. Then, 2&#160;&#956;l of CDK (0.1&#160;mg/ml, 14&#160;nmol/min/mg; SignalChem), 1.5&#160;&#956;l of Aurora B (0.1&#160;mg/ml, 190&#160;nmol/min/mg; Cell Signaling), or 1&#160;&#956;l of Plk1 (0.1&#160;mg/ml, 17&#160;nmol/min/mg; Sigma&#8208;Aldrich) in a total 30&#160;&#956;l of kinase buffer was introduced into the flow cell and incubated for 30&#160;min at 22&#176;C for Plk1, or 26&#176;C for CDK and Aurora B. To inhibit Plk1 activity, BI (final 10&#160;&#956;M) was added to the kinase reaction mix. After incubation, the flow cell was washed by SB buffer (100&#160;mM KCl) and cohesin particles were observed under 100, 200, or 400&#160;mM KCl conditions. In all experiments, DNA was visualized by SYTOX Orange (25&#160;nM) or SYTOX Blue (125&#160;nM).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51382</offset>
+      <text>In each condition, 45 cohesin particles were filmed in every 100&#160;ms for 30&#160;s, and the particle tracking was performed by NIS&#8208;Elements (Nikon). Based on the experimentally obtained trajectory of 45 particles, we determined the mean square displacement (MSD) and diffusion coefficient (D) (Tafvizi et&#160;al, 2008). The MSD was calculated as where N is the total number of frames (N&#160;=&#160;300) and &#916;t is time interval (&#916;t&#160;=&#160;0.1&#160;s). MSD was plotted as a function of time window n&#916;t and D was estimated from the initial slope of the MSD vs. n&#916;t curve (i.e., by fitting a straight line to the MSD calculated at &#916;t1, &#916;t2, &#916;t3, &#916;t4, and &#916;t5; from 0&#160;s to 0.5&#160;s). Line scan analysis was performed by NIS&#8208;Elements (Nikon) and other measurements/analyses/processing was performed by ImageJ software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52199</offset>
+      <text>Immunofluorescence microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52229</offset>
+      <text>For immunofluorescence microscopy, following primary antibodies are used: anti&#8208;Smc3 polyclonal antibody (A300&#8208;060A, Bethyl Laboratories), anti&#8208;histone H3 monoclonal antibody (304&#8208;34781, MBL), anti&#8208;histone H2A.X&#8208;F1 polyclonal antibody (gift from M. Iwabuchi and K. Ohsumi), anti&#8208;Mcm2 monoclonal antibody (BM28, BD Biosciences), anti&#8208;NIPBL (Scc2) monoclonal antibody ab5 (gift from L. Strom), anti&#8208;hSororin polyclonal antibody (Schmitz et&#160;al, 2007), anti&#8208;xWapl polyclonal antibody (Nishiyama et&#160;al, 2010), anti&#8208;Smc3&#8208;ac monoclonal antibody (Nishiyama et&#160;al, 2010), and anti&#8208;hWapl monoclonal antibody (ab109537, Abcam). Primary antibodies were diluted in ELB [10 mM HEPES&#8211;KOH (pH 7.7), 2.5 mM MgCl2, 50 mM KCl] (1&#160;&#956;g/ml in final concentration or 1/100 for anti&#8208;hWapl) containing 40&#160;&#956;g/ml &#954;&#8208;casein and introduced into the flow cell, then incubated for 7.5&#8211;10&#160;min (Smc3, H3, H2A.X&#8208;F1, Mcm2, Scc2, hSororin, and hWapl) or 30&#160;min (xWapl and Smc3&#8208;ac). After washing by ELB containing 1&#160;mg/ml BSA (ELB++), 2&#160;&#956;g/ml of secondary antibodies (anti&#8208;rabbit, anti&#8208;mouse and anti&#8208;guinea pig Alexa Fluor 568, anti&#8208;rabbit and anti&#8208;mouse Alexa Fluor 647, and anti&#8208;rabbit and anti&#8208;mouse Alexa Fluor 488; Invitrogen) diluted in ELB containing 40&#160;&#956;g/ml &#954;&#8208;casein was flowed for 2.5&#160;min, washed by ELB++, and fluorescent signals were observed by TIRFM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53627</offset>
+      <text>Chromatin formation, cohesin loading, and DNA replication in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53709</offset>
+      <text>High&#8208;speed supernatant supplemented with 2&#160;mM ATP (final 4&#160;mM; HSS was supplemented with 2&#160;mM ATP during the preparation) or 5&#160;mM AMP&#8208;PNP, 20&#160;mM phosphocreatine, 5&#160;&#956;g/ml creatine kinase, 20&#160;&#956;g/ml aprotinin, 20&#160;&#956;g/ml leupeptin, and 15&#160;&#956;g/ml nocodazole was centrifuged at 20,000&#160;g for 5&#160;min at 22&#176;C to remove debris. For chromatin formation in HSS, a DNA&#8208;tethered flow cell was washed by ELB++, and HSS was introduced into the flow cell in the presence or absence of geminin. Mcm2 and Smc3 were detected by immunostaining. For fluorescence&#8208;labeled cohesin loading, HSS was incubated with human cohesinHalo488 or Xenopus cohesinHaloTMR (61.4&#8211;210&#160;nM) and 60&#160;ng/&#956;l of oligo&#8208;duplex for 5&#160;min at RT, and the exogenous cohesin&#8208;containing HSS was flowed into the flow cell and incubated for 30&#160;min. Then, HSS containing 10&#160;nM SYTOX Green and HSS diluted to 1/2 by ELB containing 5&#160;nM SYTOX Green, without cohesinHaloTMR, were introduced and cohesin particles were observed under TIRFM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54723</offset>
+      <text>Replication reaction in a flow cell was performed as described previously (Loveland et&#160;al, 2012; Yardimci et&#160;al, 2012a) with some modifications. For replication reaction, HSS was incubated with cohesinHaloTMR (210&#8211;450&#160;nM) and 60&#160;ng/&#956;l of oligo&#8208;duplex for 5&#8211;10&#160;min at 22&#176;C and then introduced into the DNA&#8208;tethered flow cell. To prepare NPE&#8208;HSS mix, 20&#160;&#956;l of HSS was incubated with 1.2&#160;&#956;l of 15.6&#160;&#956;M geminin, and 20&#160;&#956;l of NPE was incubated with 1.2&#160;&#956;l of ATP regeneration mix [66.7&#160;&#956;M ATP, 667&#160;&#956;M phosphocreatine, 166&#160;&#956;g/ml creatine kinase], 0.6&#160;&#956;l of aprotinin/leupeptin mix [10&#160;mg/ml aprotinin, 10&#160;mg/ml leupeptin], and 0.4&#160;&#956;l of 1&#160;M DTT for 5&#160;min at 22&#176;C, respectively. Then, HSS and NPE were mixed and incubated at 22&#176;C for 5 min. After incubation, 0.78&#160;&#956;l of 1&#160;mM DIG&#8208;11&#8208;dUTP (Roche), 1.65&#160;&#956;l of 530&#160;ng/&#956;l carrier plasmid (pBS(&#8722;)SK+), and 5.7&#160;&#956;l of 42.3&#160;&#956;M xFen1D179A&#8208;PAGFP (final 4&#160;&#956;M) were added and incubated for 5&#160;min at 22&#176;C. Then, 9.7&#160;&#956;l of ELB supplemented with 15&#160;&#956;g/ml nocodazole, 4&#160;mM ATP, 40&#160;mM phosphocreatine, and 10&#160;&#956;g/ml creatine kinase was added and the HSS&#8211;NPE mix was flowed into the flow cell. Progression of DNA replication was monitored by photoactivation of xFen1D179A&#8208;PAGFP, and cohesin movements during DNA replication were observed by TIRFM. DIG&#8208;dUTP incorporation on DNA was visualized by staining with anti&#8208;DIG&#8208;Rhodamine,&#160;Fab fragments (Roche).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>56184</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56205</offset>
+      <text>TN designed experiments. MK and TN performed TIRFM experiments and analyzed and interpreted the data. ET purified proteins and performed particle tracking. PJHV produced human cohesin complex&#8208;expressing MultiBac system. MK and TN prepared the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>56462</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56483</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>56543</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>56566</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">156</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">424</infon>
+      <infon key="pub-id_pmid">11815634</infon>
+      <infon key="fpage">419</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>56577</offset>
+      <text>Condensin and cohesin display different arm conformations with characteristic hinge angles</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1953</infon>
+      <infon key="pub-id_pmid">14614819</infon>
+      <infon key="fpage">1941</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>56668</offset>
+      <text>ATP hydrolysis is required for cohesin's association with chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">2008</infon>
+      <infon key="pub-id_pmid">17055978</infon>
+      <infon key="fpage">1998</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>56738</offset>
+      <text>Cohesin's ATPase activity is stimulated by the C&#8208;terminal Winged&#8208;Helix domain of its kleisin subunit</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">3448</infon>
+      <infon key="pub-id_pmid">18299561</infon>
+      <infon key="fpage">3443</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>56843</offset>
+      <text>Chromatid cohesion defects may underlie chromosome instability in human colorectal cancers</text>
+    </passage>
+    <passage>
+      <infon key="volume">321</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">566</infon>
+      <infon key="pub-id_pmid">18653893</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>56934</offset>
+      <text>Eco1&#8208;dependent cohesin acetylation during establishment of sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">5757</infon>
+      <infon key="pub-id_pmid">16585517</infon>
+      <infon key="fpage">5752</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>57021</offset>
+      <text>A base&#8208;excision DNA&#8208;repair protein finds intrahelical lesion bases by fast sliding in contact with DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">676</infon>
+      <infon key="pub-id_pmid">23361318</infon>
+      <infon key="fpage">666</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>57128</offset>
+      <text>Prophase pathway&#8208;dependent removal of cohesin from human chromosomes requires opening of the Smc3&#8208;Scc1 gate</text>
+    </passage>
+    <passage>
+      <infon key="volume">150</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">974</infon>
+      <infon key="pub-id_pmid">22901742</infon>
+      <infon key="fpage">961</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>57240</offset>
+      <text>Cohesin's DNA exit gate is distinct from its entrance gate and is regulated by acetylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">254</infon>
+      <infon key="pub-id_pmid">10882066</infon>
+      <infon key="fpage">243</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>57331</offset>
+      <text>Cohesin's binding to chromosomes depends on a separate complex consisting of Scc2 and Scc4 proteins</text>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>57431</offset>
+      <text>Rapid movement and transcriptional re&#8208;localization of human cohesin on DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">489</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">317</infon>
+      <infon key="pub-id_pmid">22885700</infon>
+      <infon key="fpage">313</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>57508</offset>
+      <text>HDAC8 mutations in Cornelia de Lange syndrome affect the cohesin acetylation cycle</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">665</infon>
+      <infon key="pub-id_pmid">23340528</infon>
+      <infon key="fpage">656</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>57591</offset>
+      <text>Disengaging the Smc3/kleisin interface releases cohesin from Drosophila chromosomes during interphase and mitosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">2417</infon>
+      <infon key="pub-id_pmid">17112726</infon>
+      <infon key="fpage">2406</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>57705</offset>
+      <text>Human Wapl is a cohesin&#8208;binding protein that promotes sister&#8208;chromatid resolution in mitotic prophase</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">4951</infon>
+      <infon key="pub-id_pmid">20696838</infon>
+      <infon key="fpage">4940</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>57811</offset>
+      <text>Dosage&#8208;sensitive regulation of cohesin chromosome binding and dynamics by Nipped&#8208;B, Pds5, and Wapl</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1578</infon>
+      <infon key="pub-id_pmid">16890534</infon>
+      <infon key="fpage">1571</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>57914</offset>
+      <text>Live&#8208;cell imaging reveals a stable cohesin&#8208;chromatin interaction after but not before DNA replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1603</infon>
+      <infon key="pub-id_pmid">15341749</infon>
+      <infon key="fpage">1598</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>58020</offset>
+      <text>Scc2 couples replication licensing to sister chromatid cohesion in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">346</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">967</infon>
+      <infon key="pub-id_pmid">25414305</infon>
+      <infon key="fpage">963</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>58108</offset>
+      <text>Closing the cohesin ring: structure and function of its Smc3&#8208;kleisin interface</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1226</infon>
+      <infon key="pub-id_pmid">16432240</infon>
+      <infon key="fpage">1221</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>58189</offset>
+      <text>Long&#8208;distance lateral diffusion of human Rad51 on double&#8208;stranded DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">9335334</infon>
+      <infon key="fpage">47</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>58263</offset>
+      <text>A direct link between sister chromatid cohesion and chromosome condensation revealed through the analysis of MCD1 in S. cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">788</infon>
+      <infon key="pub-id_pmid">11983169</infon>
+      <infon key="fpage">773</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>58394</offset>
+      <text>Molecular architecture of SMC proteins and the yeast cohesin complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">454</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">301</infon>
+      <infon key="pub-id_pmid">18596691</infon>
+      <infon key="fpage">297</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58463</offset>
+      <text>The cohesin ring concatenates sister DNA molecules</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">870</infon>
+      <infon key="pub-id_pmid">25173175</infon>
+      <infon key="fpage">864</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>58514</offset>
+      <text>Structure of cohesin subcomplex pinpoints direct shugoshin&#8208;Wapl antagonism in centromeric cohesion</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">15737063</infon>
+      <infon key="fpage">e69</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>58615</offset>
+      <text>Dissociation of cohesin from chromosome arms and loss of arm cohesion during early mitosis depends on phosphorylation of SA2</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Signal</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">22067460</infon>
+      <infon key="fpage">rs12</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>58740</offset>
+      <text>Systematic phosphorylation analysis of human mitotic protein complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">988</infon>
+      <infon key="pub-id_pmid">22560615</infon>
+      <infon key="fpage">977</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58811</offset>
+      <text>The prereplication complex recruits XEco2 to chromatin to promote cohesin acetylation in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">3918</infon>
+      <infon key="pub-id_pmid">15958495</infon>
+      <infon key="fpage">3908</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>58921</offset>
+      <text>Two human orthologues of Eco1/Ctf7 acetyltransferases are both required for proper sister&#8208;chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">24</infon>
+      <infon key="pub-id_pmid">21185190</infon>
+      <infon key="fpage">12</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59032</offset>
+      <text>ATP hydrolysis is required for relocating cohesin from sites occupied by its Scc2/4 loading complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">346</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">972</infon>
+      <infon key="pub-id_pmid">25414306</infon>
+      <infon key="fpage">968</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59132</offset>
+      <text>Characterization of a DNA exit gate in the human cohesin ring</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">1237</infon>
+      <infon key="pub-id_pmid">23955599</infon>
+      <infon key="fpage">1232</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59194</offset>
+      <text>Recurrent mutations in multiple components of the cohesin complex in myeloid neoplasms</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">967</infon>
+      <infon key="pub-id_pmid">17113138</infon>
+      <infon key="fpage">955</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>59281</offset>
+      <text>Wapl controls the dynamic association of cohesin with chromatin</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">2237</infon>
+      <infon key="pub-id_pmid">25220052</infon>
+      <infon key="fpage">2228</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59345</offset>
+      <text>Cohesin's ATPase activity couples cohesin loading onto DNA with Smc3 acetylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">653</infon>
+      <infon key="pub-id_pmid">26903600</infon>
+      <infon key="fpage">635</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>59426</offset>
+      <text>Sororin actively maintains sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">20369</infon>
+      <infon key="pub-id_pmid">21059905</infon>
+      <infon key="fpage">20364</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59479</offset>
+      <text>Sororin cooperates with the acetyltransferase Eco2 to ensure DNA replication&#8208;dependent sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">243</infon>
+      <infon key="pub-id_pmid">189936</infon>
+      <infon key="fpage">237</infon>
+      <infon key="year">1977</infon>
+      <infon key="type">ref</infon>
+      <offset>59594</offset>
+      <text>Assembly of SV40 chromatin in a cell&#8208;free system from Xenopus eggs</text>
+    </passage>
+    <passage>
+      <infon key="volume">521</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">252</infon>
+      <infon key="pub-id_pmid">19563110</infon>
+      <infon key="fpage">229</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>59663</offset>
+      <text>DNA replication in nucleus&#8208;free Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">430</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">578</infon>
+      <infon key="pub-id_pmid">15229615</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>59718</offset>
+      <text>Cohesin relocation from sites of chromosomal loading to places of convergent transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Clin Genet</infon>
+      <infon key="lpage">314</infon>
+      <infon key="pub-id_pmid">19793304</infon>
+      <infon key="fpage">303</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>59809</offset>
+      <text>Cornelia de Lange syndrome, cohesin, and beyond</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">1151</infon>
+      <infon key="pub-id_pmid">25173104</infon>
+      <infon key="fpage">1147</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59857</offset>
+      <text>The Scc2&#8208;Scc4 complex acts in sister chromatid cohesion and transcriptional regulation by maintaining nucleosome&#8208;free regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1997</infon>
+      <infon key="pub-id_pmid">9649503</infon>
+      <infon key="fpage">1986</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>59987</offset>
+      <text>Identification of Xenopus SMC protein complexes required for sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">3016</infon>
+      <infon key="pub-id_pmid">12464631</infon>
+      <infon key="fpage">3004</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>60074</offset>
+      <text>Cohesin release is required for sister chromatid resolution, but not for condensin&#8208;mediated compaction, at the onset of mitosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">992</infon>
+      <infon key="pub-id_pmid">22961247</infon>
+      <infon key="fpage">987</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60204</offset>
+      <text>A general approach to break the concentration barrier in single&#8208;molecule imaging</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">45</infon>
+      <infon key="pub-id_pmid">9335333</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60287</offset>
+      <text>Cohesins: chromosomal proteins that prevent premature separation of sister chromatids</text>
+    </passage>
+    <passage>
+      <infon key="volume">505</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">371</infon>
+      <infon key="pub-id_pmid">24291789</infon>
+      <infon key="fpage">367</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60373</offset>
+      <text>Biochemical reconstitution of topological DNA binding by the cohesin ring</text>
+    </passage>
+    <passage>
+      <infon key="volume">163</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1640</infon>
+      <infon key="pub-id_pmid">26687354</infon>
+      <infon key="fpage">1628</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60447</offset>
+      <text>DNA Entry into and Exit out of the Cohesin Ring by an Interlocking Gate Mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">558</infon>
+      <infon key="pub-id_pmid">19886810</infon>
+      <infon key="fpage">525</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60529</offset>
+      <text>Cohesin: its roles and mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">143</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">749</infon>
+      <infon key="pub-id_pmid">21111234</infon>
+      <infon key="fpage">737</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60563</offset>
+      <text>Sororin mediates sister chromatid cohesion by antagonizing Wapl</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">13409</infon>
+      <infon key="pub-id_pmid">23901111</infon>
+      <infon key="fpage">13404</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60627</offset>
+      <text>Aurora B and Cdk1 mediate Wapl activation and release of acetylated cohesin from chromosomes by phosphorylating Sororin</text>
+    </passage>
+    <passage>
+      <infon key="source">Open Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">27278645</infon>
+      <infon key="fpage">150178</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>60747</offset>
+      <text>Evidence for cohesin sliding along budding yeast chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Signal</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">20068231</infon>
+      <infon key="fpage">ra3</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60808</offset>
+      <text>Quantitative phosphoproteomics reveals widespread full phosphorylation site occupancy during mitosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">129</infon>
+      <infon key="pub-id_pmid">18616427</infon>
+      <infon key="fpage">105</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60909</offset>
+      <text>Sister chromatid cohesion: a simple concept with a complex reality</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">259</infon>
+      <infon key="pub-id_pmid">26971492</infon>
+      <infon key="fpage">248</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>60976</offset>
+      <text>Structural basis and IP requirement for Pds5&#8208;dependent cohesin dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3676</infon>
+      <infon key="pub-id_pmid">15329670</infon>
+      <infon key="fpage">3667</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>61050</offset>
+      <text>A requirement for MCM7 and Cdc45 in chromosome unwinding during eukaryotic DNA replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">200</infon>
+      <infon key="pub-id_pmid">15837422</infon>
+      <infon key="fpage">185</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>61141</offset>
+      <text>Sororin, a substrate of the anaphase&#8208;promoting complex, is required for sister chromatid cohesion in vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">774</infon>
+      <infon key="pub-id_pmid">19328069</infon>
+      <infon key="fpage">763</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61256</offset>
+      <text>Building sister chromatid cohesion: smc3 acetylation counteracts an antiestablishment activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">636</infon>
+      <infon key="pub-id_pmid">17349791</infon>
+      <infon key="fpage">630</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>61351</offset>
+      <text>Sororin is required for stable binding of cohesin to chromatin and for sister chromatid cohesion in interphase</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2236</infon>
+      <infon key="pub-id_pmid">19696148</infon>
+      <infon key="fpage">2224</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61462</offset>
+      <text>Releasing cohesin from chromosome arms in early mitosis: opposing actions of Wapl&#8208;Pds5 and Sgo1</text>
+    </passage>
+    <passage>
+      <infon key="volume">333</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1043</infon>
+      <infon key="pub-id_pmid">21852505</infon>
+      <infon key="fpage">1039</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61560</offset>
+      <text>Mutational inactivation of STAG2 causes aneuploidy in human cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">998</infon>
+      <infon key="pub-id_pmid">27117417</infon>
+      <infon key="fpage">988</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>61627</offset>
+      <text>Single&#8208;Molecule Imaging Reveals a Collapsed Conformational State for DNA&#8208;Bound Cohesin</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">525</infon>
+      <infon key="pub-id_pmid">11931760</infon>
+      <infon key="fpage">515</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>61718</offset>
+      <text>The dissociation of cohesin from chromosomes in prophase is regulated by Polo&#8208;like kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Biophys J </infon>
+      <infon key="lpage">L03</infon>
+      <infon key="pub-id_pmid">18424488</infon>
+      <infon key="fpage">L01</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>61810</offset>
+      <text>Tumor suppressor p53 slides on DNA with low friction and high stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">996</infon>
+      <infon key="pub-id_pmid">15448702</infon>
+      <infon key="fpage">991</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>61882</offset>
+      <text>Recruitment of Xenopus Scc2 and cohesin to chromatin requires the pre&#8208;replication complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">501</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">568</infon>
+      <infon key="pub-id_pmid">23975099</infon>
+      <infon key="fpage">564</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61974</offset>
+      <text>Wapl is an essential regulator of chromatin structure and chromosome segregation</text>
+    </passage>
+    <passage>
+      <infon key="volume">400</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">10403247</infon>
+      <infon key="fpage">37</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>62055</offset>
+      <text>Sister&#8208;chromatid separation at anaphase onset is promoted by cleavage of the cohesin subunit Scc1</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">386</infon>
+      <infon key="pub-id_pmid">11081625</infon>
+      <infon key="fpage">375</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>62155</offset>
+      <text>Cleavage of cohesin by the CD clan protease separin triggers anaphase in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">321</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">569</infon>
+      <infon key="pub-id_pmid">18653894</infon>
+      <infon key="fpage">566</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>62234</offset>
+      <text>A molecular determinant for the establishment of sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">470</infon>
+      <infon key="pub-id_pmid">15821733</infon>
+      <infon key="fpage">468</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>62309</offset>
+      <text>Roberts syndrome is caused by mutations in ESCO2, a human homolog of yeast ECO1 that is essential for the establishment of sister chromatid cohesion</text>
+    </passage>
+    <passage>
+      <infon key="source">Phys Rev Lett</infon>
+      <infon key="volume">97</infon>
+      <infon key="pub-id_pmid">16907618</infon>
+      <infon key="fpage">048302</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>62458</offset>
+      <text>Single molecule measurements of repressor protein 1D diffusion on DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1940</infon>
+      <infon key="pub-id_pmid">14614818</infon>
+      <infon key="fpage">1930</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>62528</offset>
+      <text>A model for ATP hydrolysis&#8208;dependent binding of cohesin to DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">150</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">278</infon>
+      <infon key="pub-id_pmid">22817890</infon>
+      <infon key="fpage">264</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62593</offset>
+      <text>The origin and evolution of mutations in acute myeloid leukemia</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">840</infon>
+      <infon key="pub-id_pmid">21145490</infon>
+      <infon key="fpage">834</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62657</offset>
+      <text>Uncoupling of sister replisomes during eukaryotic DNA replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Methods</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">22503776</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2012a</infon>
+      <infon key="type">ref</infon>
+      <offset>62723</offset>
+      <text>Single&#8208;molecule analysis of DNA replication in Xenopus egg extracts</text>
+    </passage>
+    <passage>
+      <infon key="volume">492</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">209</infon>
+      <infon key="pub-id_pmid">23201686</infon>
+      <infon key="fpage">205</infon>
+      <infon key="year">2012b</infon>
+      <infon key="type">ref</infon>
+      <offset>62793</offset>
+      <text>Bypass of a protein barrier by a replicative DNA helicase</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">151</infon>
+      <infon key="pub-id_pmid">18614053</infon>
+      <infon key="fpage">143</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>62851</offset>
+      <text>Acetylation of Smc3 by Eco1 is required for S phase sister chromatid cohesion in both human and yeast</text>
+    </passage>
+  </document>
+</collection>

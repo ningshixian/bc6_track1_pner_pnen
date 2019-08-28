@@ -1,0 +1,1064 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5242381</id>
+    <passage>
+      <infon key="name_2">surname:Niemann;given-names:Catherin</infon>
+      <infon key="name_3">surname:Glauche;given-names:Ingmar</infon>
+      <infon key="name_0">surname:Chac&#243;n&#8208;Mart&#237;nez;given-names:Carlos Andr&#233;s</infon>
+      <infon key="name_1">surname:Klose;given-names:Markus</infon>
+      <infon key="alt-title">Carlos A Chac&#243;n&#8208;Mart&#237;nez et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694902</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211; See also: A S&#225;nchez&#8208;Dan&#233;s &amp; C Blanpain (January 2017)</infon>
+      <infon key="article-id_doi">10.15252/embj.201694902</infon>
+      <infon key="article-id_pmid">27940653</infon>
+      <infon key="lpage">164 164</infon>
+      <infon key="pub-id_pmid">27940653</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">36 36</infon>
+      <infon key="fpage">151 151</infon>
+      <infon key="year">2017</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Wickstr&#246;m;given-names:Sara A</infon>
+      <infon key="issue">2</infon>
+      <infon key="kwd">differentiation hair follicle stem cells niche reprogramming stem cell cultures Development &amp; Differentiation Stem Cells Systems &amp; Computational Biology</infon>
+      <offset>0</offset>
+      <text>Hair follicle stem cell cultures reveal self&#8208;organizing plasticity of stem cells and their&#160;progeny</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>102</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>111</offset>
+      <text>Understanding how complex tissues are formed, maintained, and regenerated through local growth, differentiation, and remodeling requires knowledge on how single&#8208;cell behaviors are coordinated on the population level. The self&#8208;renewing hair follicle, maintained by a distinct stem cell population, represents an excellent paradigm to address this question. A major obstacle in mechanistic understanding of hair follicle stem cell (HFSC) regulation has been the lack of a culture system that recapitulates HFSC behavior while allowing their precise monitoring and manipulation. Here, we establish an in&#160;vitro culture system based on a 3D extracellular matrix environment and defined soluble factors, which for the first time allows expansion and long&#8208;term maintenance of murine multipotent HFSCs in the absence of heterologous cell types. Strikingly, this scheme promotes de novo generation of HFSCs from non&#8208;HFSCs and vice versa in a dynamic self&#8208;organizing process. This bidirectional interconversion of HFSCs and their progeny drives the system into a population equilibrium state. Our study uncovers regulatory dynamics by which phenotypic plasticity of cells drives population&#8208;level homeostasis within a niche, and provides a discovery tool for studies on adult stem cell fate.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1405</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1418</offset>
+      <text>Adult somatic stem cells (SCs) fuel tissue renewal, repair, and remodeling. The ability of SCs to tune their proliferation and differentiation rates to the changing needs of their resident tissues is central for the maintenance of organ homeostasis. Given their potency, even incremental alterations in SC behavior should lead to substantial changes in tissue size and architecture. Yet, such changes are strikingly rare, strongly implying that SCs are under tight homeostatic regulation allowing rapid adaptation of the system to disturbances to efficiently restore tissue functions. However, the mechanisms of such population&#8208;level regulation are poorly understood.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2088</offset>
+      <text>Hair follicle stem cells (HFSCs) fuel cyclical bouts of adult hair follicle regeneration. Due to their well&#8208;defined quiescence&#8208;activation cycle, HFSCs represent an excellent paradigm for studying somatic adult SC lineage commitment (Blanpain &amp; Fuchs, 2014). HFSCs are activated in a two&#8208;step process: First, quiescent HFSCs are activated to generate primed HFSCs that in a second step establish a pool of transit&#8208;amplifying cells (TACs; Greco et&#160;al, 2009; Hsu et&#160;al, 2014b). TACs are a transition state between SCs and their differentiated progeny, and their generation is a rate&#8208;limiting step in SC differentiation (Hsu et&#160;al, 2014b).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2737</offset>
+      <text>SCs reside in spatially distinct microenvironments termed niches that consist of neighboring cells, extracellular matrix and signals derived from these compartments. Niches integrate signals to adjust SC behavior to the needs of organisms, to prevent SC depletion and at the same time restrict excessive SC expansion into the surrounding tissue (Morrison &amp; Spradling, 2008; Blanpain &amp; Fuchs, 2014; Scadden, 2014). Even though the critical importance of niches in SC regulation has been established, their complexity in mammals has prevented identification of the precise nature and combination of niche&#8208;derived signals, and hindered mechanistic studies of adult SC regulation. Interestingly, lineage tracing and ablation studies have demonstrated that HFSCs are dispensable for regeneration and that activated progeny re&#8208;populate the ablated SC niche to sustain hair regeneration (Hsu et&#160;al, 2011; Rompolas et&#160;al, 2013). This suggests that the niche instructs reprogramming of committed progenitors to a SC state, providing a mechanism to ensure robustness of tissue homeostasis. However, the mechanisms of this niche&#8208;directed reprogramming are completely unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3910</offset>
+      <text>Thus, there is a fundamental need to unravel the complex signaling circuitry governing HFSC identity and behavior and to define how the niche instructs HFSC homeostasis. One major obstacle to uncovering these fundamentals has been the lack of a system for ex&#160;vivo maintenance of HFSCs in the absence of other heterologous cell types and that also allows precise manipulation and monitoring of HFSC fate decisions. While various 2D cell culture systems for epidermal keratinocytes exist (Barrandon &amp; Green, 1987; Trempus et&#160;al, 2003; Blanpain et&#160;al, 2004; Jensen et&#160;al, 2010; Bilousova &amp; Roop, 2013), methods to maintain and expand bona fide multipotent HFSCs in culture in the absence of feeder cells are lacking, as are in&#160;vitro methods to capture the dynamic behavior of HFSCs and their progeny. In the current study, we identify a specific combination of niche factors that for the first time allow expansion and long&#8208;term maintenance of HFSCs. Utilizing this system, we uncover self&#8208;organizing phenotypic plasticity and dynamic bidirectional interconversion between HFSCs and their progeny, providing a cellular mechanism for homeostatic regulation of a SC niche.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5087</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5095</offset>
+      <text>Establishment of a HFSC culture system</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5134</offset>
+      <text>We aimed at reconstituting the essential components of the HFSC niche in&#160;vitro by applying knowledge gained from in&#160;vivo studies on signaling within the HFSC niche. Freshly isolated epidermal cells from telogen&#8208;stage mice (P21) contained 5.6&#160;&#177;&#160;1.2% (&#177;&#160;SD) CD34+&#945;6+ HFSCs (Fig&#160;1A). These isolated epidermal cell suspensions were subsequently cultured in standard 2D culture conditions either in a keratinocyte growth medium (KGM) or in FAD medium on a fibroblast feeder layer, which are widely used culture conditions for murine keratinocytes (Watt &amp; Green, 1982; Morgner et&#160;al, 2015). Flow cytometry analyses of cells grown under these conditions demonstrated that the CD34+&#945;6+ HFSC population was depleted within 14&#160;days (Fig&#160;1A and B, and Appendix&#160;Fig S1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5910</offset>
+      <text>Establishment of a HFSC culture system</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5949</offset>
+      <text>Representative FACS plots of freshly isolated epidermal cells (Epi d0) and day 14 (d14) cultures of epidermal cells in different growth conditions and media. KGM 2D: 2D in basal KGM; 3C: 3D&#8208;Matrigel in KGM&#160;+&#160;Y27632&#160;+&#160;VEGF&#8208;A&#160;+&#160;FGF&#8208;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6194</offset>
+      <text>CD34+&#945;6+ cells were quantified by flow cytometry from d14 as in panel (A) (mean&#160;&#177;&#160;SD; n&#160;=&#160;3&#8211;5; *P&#160;&#8804;&#160;0.05; ***P&#160;&#8804;&#160;0.001, Kruskal&#8211;Wallis/Dunn's post&#8208;test). 3C 2D: 2D in KGM&#160;+&#160;Y27632&#160;+&#160;VEGF&#8208;A&#160;+&#160;FGF&#8208;2; Y: 3D&#8208;Matrigel in KGM&#160;+&#160;Y27632; YV: Y&#160;+&#160;VEGF&#8208;A; YF: Y&#160;+&#160;FGF&#8208;2; 3C: Y&#160;+&#160;VEGF&#8208;A&#160;+&#160;FGF&#8208;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6529</offset>
+      <text>Absolute numbers of CD34+&#945;6+ cells from Epi d0 and d14 cultures as in (A and B). Fold enrichment over Epi d0 is shown (mean&#160;&#177;&#160;SEM, n&#160;=&#160;3&#8211;5; *P&#160;&#8804;&#160;0.05, Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6718</offset>
+      <text>Epidermal cells grown for 14&#160;days in the indicated conditions. 3C: 3D&#8208;Matrigel in KGM&#160;+&#160;Y27632&#160;+&#160;VEGF&#8208;A&#160;+&#160;FGF&#8208;2. 3C 2D: 2D in 3C medium. Scale bars 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6888</offset>
+      <text>Immunofluorescence analysis of 3C cultures showing the expression of the HFSC markers CD34 and SOX9 in a subset of cells. Scale bars 25&#160;&#956;m. See also Appendix&#160;Fig S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7057</offset>
+      <text>As laminins are important for HFSC maintenance (DeRouen et&#160;al, 2010; Morgner et&#160;al, 2015), and laminin&#8208;rich basement membrane extracts such as Matrigel have been successfully used to support growth of other epithelial SCs (Sato &amp; Clevers, 2013), we tested whether providing a basement membrane&#8208;like extracellular matrix 3D environment would support HFSC growth in culture. We embedded freshly isolated epidermal cells in Matrigel and cultured them in KGM. As cells failed to survive under these conditions, we included a ROCK inhibitor (Y27632) to prevent anoikis that occurs due to deprivation of cell&#8211;cell contacts (Hofmann et&#160;al, 2007). These culture conditions provided a small but consistent increase in the population of CD34+&#945;6+ HFSCs compared to cells cultured in 2D (Fig&#160;1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7853</offset>
+      <text>Several growth factors, including FGFs, EGF and VEGF&#8208;A, are expressed in cells of the HF and have been shown to regulate their growth (Kozlowska et&#160;al, 1998; Ozeki &amp; Tabata, 2002; Doma et&#160;al, 2013; Plikus &amp; Chuong, 2014). Combining Y27632 with either FGF&#8208;2 or VEGF&#8208;A in KGM&#8208;3D Matrigel resulted in a further relative increase in CD34+&#945;6+ cells (Fig&#160;1B), but these media did not increase the absolute numbers of CD34+&#945;6+ cells (Fig&#160;1C), suggesting that both conditions promoted HFSC survival and/or growth to a limited extent. In contrast, culturing epidermal cells in KGM&#8208;3D Matrigel containing Y27632, FGF&#8208;2, and VEGF&#8208;A (from now on referred to as 3C) significantly expanded CD34+&#945;6+ cells within the cultured keratinocyte population (Fig&#160;1A&#8211;C), inducing a ~sevenfold increase in the relative amount and a fivefold increase in absolute numbers of CD34+&#945;6+ cells after 14&#160;days of culture (Fig&#160;1A&#8211;C). FGFs 7, 10, and 18 promoted enrichment of CD34+&#945;6+ cells to the same extent as FGF&#8208;2 (Appendix&#160;Fig S1B). The 3D configuration was essential, as there was no enrichment of CD34+&#945;6+ cells when cells were cultured in the 3C medium in standard 2D conditions (3C 2D; Fig&#160;1B). Interestingly, the commonly used keratinocyte medium FAD supplemented with 3C failed to support cell growth even in the presence of 3D Matrigel (Appendix&#160;Fig S1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9224</offset>
+      <text>Next, we analyzed the morphology of cells grown in 3C conditions. Cultures containing CD34+&#945;6+ cells grew into spheroid cell clusters that did not generate a lumen (Fig&#160;1D), in contrast to other epithelial&#8208;cell 3D culture systems (Lee et&#160;al, 1984; Sato et&#160;al, 2009). Interestingly, the complex laminin&#8208;rich mixture of matrix proteins present in Matrigel was dispensable as CD34+&#945;6+ cells could also be grown in type I collagen gels using 3C medium (Appendix&#160;Fig S1D), most likely due to the expression and deposition of a laminin&#8208;332 meshwork that was observed in both Matrigel and collagen I cultures (Appendix&#160;Fig S1E).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9859</offset>
+      <text>Immunofluorescence analysis of 3C cultures revealed expression of the HFSC markers CD34, keratin&#8208;15, and SOX9 (Fig&#160;1E and Appendix&#160;Fig S1F and G), the latter a pioneer transcription factor required to establish HFSC identity (Adam et&#160;al, 2015). Expression of these markers was not detected in 2D cultures even in the presence of 3C medium (Appendix&#160;Fig S1G). Importantly, the cultures comprised of 97.7&#160;&#177;&#160;0.63% epithelial cells as indicated by staining for the epithelial cell adhesion molecule (EpCAM; Appendix&#160;Fig S1H). Altogether, these data show that a 3D environment together with FGF&#8208;2, VEGF&#8208;A, and Y27632 provide an essential set of HFSC&#8208;niche factors that are both necessary and sufficient to enable growth and expansion of cells with HFSC characteristics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10640</offset>
+      <text>Cells in 3C cultures retain self&#8208;renewing capacity and&#160;multipotency</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10711</offset>
+      <text>To assess whether cells cultured in 3C conditions maintain their proliferative potential characteristic for HFSCs, colony&#8208;forming assays were performed (Jensen et&#160;al, 2010). Cells from 3C cultures subsequently plated on feeders at clonal density gave rise to more colonies that were also larger in size compared to freshly isolated epidermal cells containing 5.6&#160;&#177;&#160;1.2% HFSCs (Fig&#160;2A). In addition, these colonies contained small, tightly packed, cobblestone&#8208;like colonies (Appendix&#160;Fig S2A), characteristic of holoclones observed in feeder&#8208;dependent 2D cultures of purified HFSCs (Blanpain et&#160;al, 2004; Greco et&#160;al, 2009). These findings indicate that the 3C conditions enrich for epidermal cells with high proliferative potential, a hallmark of HFSCs and their immediate progeny (Blanpain et&#160;al, 2004; Greco et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11551</offset>
+      <text>Cells in 3C cultures retain self&#8208;renewing capacity and multipotency</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11621</offset>
+      <text>Colony&#8208;forming assays show increased proliferative potential of cells cultured in 3C compared to freshly isolated epidermal cells (Epi d0; control; mean&#160;&#177;&#160;SEM; n&#160;=&#160;5; *P&#160;&#8804;&#160;0.05, Mann&#8211;Whitney U&#8208;test). 3C: 3D&#8208;Matrigel in KGM&#160;+&#160;Y27632&#160;+&#160;VEGF&#8208;A&#160;+&#160;FGF&#8208;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11898</offset>
+      <text>Full&#8208;thickness skin reconstitution assay with freshly isolated epidermal cells (Epi d0) or 3C cultures shows that cells cultured in 3C retain their self&#8208;renewal capacity and multipotency. A representative recipient of four mice/condition is shown. Right panel shows quantification of hair follicle density. Note that 3C cultures give rise to more hair compared to controls (mean&#160;&#177;&#160;SEM; n&#160;=&#160;4; *P&#160;&#8804;&#160;0.05, Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12341</offset>
+      <text>Long&#8208;term culture of cells in 3C was performed as shown in the left panel. 3C cultures maintain a stable population of CD34+&#945;6+ long term (data are shown using a box&#8208;and&#8208;whisker plot: box indicates 25th and 75th percentiles; error bars represent 10th and 90th percentiles; middle line is the median; n&#160;=&#160;3&#8211;5 independent experiments). p: passage.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12698</offset>
+      <text>Full&#8208;thickness skin reconstitution assay using 3C cells from passage 1 (p1) and passage 15 (p15) shows that cells cultured in 3C maintain their multipotency and self&#8208;renewal capacity in long&#8208;term cultures. A representative recipient of four mice/condition is shown. See also Appendix&#160;Fig S2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12997</offset>
+      <text>In order to evaluate whether the ex&#160;vivo expanded CD34+&#945;6+ cells represented functional HFSCs, we examined their self&#8208;renewal and multipotency in&#160;vivo. To this end, we performed full&#8208;thickness skin reconstitution assays (Lichti et&#160;al, 1995; Blanpain et&#160;al, 2004; Jensen et&#160;al, 2010). Cells cultured in 3C fully reconstituted the epidermis and produced hair, and as expected, were slightly more efficient in their regenerative capacity compared to freshly isolated epidermal cells reflecting the difference in HFSC quantity (5.6&#160;&#177;&#160;1.2% CD34+&#945;6+ in epidermis compared to 42 &#177; 7% CD34+&#945;6+ in 3C cultures; Fig&#160;2B). This demonstrates that cells cultured in 3C preserve their multipotency and capacity to self&#8208;renew.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13727</offset>
+      <text>Strikingly, 3C cultures could be passaged every 2&#160;weeks into fresh 3D Matrigel for a period of at least 20&#160;weeks without changes in the levels of CD34+&#945;6+ cells (Fig&#160;2C) or their proliferative potential (Appendix&#160;Fig S2B). The proportion of CD34+&#945;6+ cells within the 3C cultures remained largely stable from the first passage onward and the cells propagated long&#8208;term were still fully competent to generate hair in full&#8208;thickness skin reconstitution assays (Fig&#160;2D). Moreover, freeze&#8211;thaw experiments demonstrated that 3C cultures could be stored frozen and cultured again without loss of the CD34+&#945;6+ population or its ability to generate hair (Appendix&#160;Fig S2C and D). Collectively, these data demonstrate that the 3C conditions recapitulate the conditions of a SC niche, enabling maintenance and enrichment of functionally competent cells that display HFSC characteristics. In addition, long&#8208;term 3C cultures sustain a stable equilibrium between CD34+&#945;6+ and CD34&#8722;&#945;6+ cells that can be stored frozen without loss of multipotency.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14781</offset>
+      <text>Transcriptomes of cells cultured in 3C resemble in&#160;vivo HFSCs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14844</offset>
+      <text>In order to provide an optimal model to uncover novel HFSC biology, cells cultured in 3C should share high resemblance to in&#160;vivo HFSCs also on the molecular level. To examine the molecular identity of cells cultured in 3C, we performed RNA sequencing (RNAseq) and compared the transcriptomes of epidermal cells cultured in 3C to freshly isolated epidermal cells that were used to establish the 3C cultures as well as to FACS&#8208;purified in&#160;vivo CD34+&#945;6+ HFSCs (Fig&#160;3A and B; Dataset EV1). 3C cultures more closely resembled in&#160;vivo HFSCs than the epidermal cell mixtures they were derived from, as shown by Euclidian distance (Fig&#160;3B), Pearson's correlation, and principal component analysis (Appendix&#160;Fig S3A and B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15569</offset>
+      <text>Transcriptomes of cells cultured in 3C resemble in&#160;vivo HFSCs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15632</offset>
+      <text>Schematic workflow of the RNAseq experiment from FACS&#8208;purified CD34+&#945;6+ HFSCs (CD34+&#945;6+), cells cultured in 3C and freshly isolated epidermal cells (Epi d0).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15798</offset>
+      <text>Heatmap and Euclidian distance dendrogram of quantified transcripts from RNAseq data generated as shown in panel (A). 3C cultures cluster with purified CD34+&#945;6+ HFSCs (n&#160;=&#160;3 biological replicates).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16000</offset>
+      <text>Venn diagram of genes most significantly upregulated in 3C and in purified CD34+&#945;6+ (log2FC &gt;&#160;2, padj &lt;&#160;0.05) together with published HFSC signature shows significant overlap between the three signatures (P&#160;=&#160;0.00252451 and P&#160;=&#160;3.058928e&#8208;51, hypergeometric distribution).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16281</offset>
+      <text>Schematic workflow of the RNAseq experiment from FACS&#8208;purified CD34+&#945;6+ and CD34&#8722;&#945;6+ cells from 3C cultures.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16398</offset>
+      <text>Heatmap of selected genes differentially expressed in 3C&#8208;CD34+&#945;6+ and 3C&#8208;CD34&#8722;&#945;6+ cells. Note upregulation of multiple key HFSC lineage identity transcription factors and bulge markers (triangles) in 3C&#8208;CD34+&#945;6+ cells, and upregulation of genes implicated in lineage progression in 3C&#8208;CD34&#8722;&#945;6+ cells (circles).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16725</offset>
+      <text>Venn diagram of genes upregulated in 3C&#8208;CD34+&#945;6+ and in purified CD34+&#945;6+ cells (log2FC &gt;&#160;2, padj&#160;&lt;&#160;0.05) together with a published HFSC signature shows significant overlap between the three groups (P&#160;=&#160;1.381896e&#8208;09 and P&#160;=&#160;0.01636903, hypergeometric distribution).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17004</offset>
+      <text>RT&#8211;qPCR analyses of FACS&#8208;purified CD34+&#945;6+ and CD34&#8722;&#945;6+ cells from either 3C cultures or from freshly isolated epidermis show upregulation of HFSC identity genes in both freshly isolated and 3C&#8208;CD34+&#945;6+ cells compared to freshly isolated CD34&#8722;&#945;6+ progenitors. 3C&#8208;CD34&#8722;&#945;6+ cells show intermediated expression (mean&#160;&#177;&#160;SEM; n&#160;=&#160;4; *P&#160;&#8804;&#160;0.05, **P&#160;&#8804;&#160;0.01, Kruskal&#8211;Wallis).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17406</offset>
+      <text>Both 3C&#8208;CD34+&#945;6+ and 3C&#8208;CD34&#8722;&#945;6+ cells show upregulation of a panel of cell cycle genes and genes shown to be enriched in HFSC progeny (mean&#160;&#177;&#160;SEM; n&#160;=&#160;4; *P&#160;&#8804;&#160;0.05, **P&#160;&#8804;&#160;0.01, Kruskal&#8211;Wallis). See also Appendix&#160;Fig S3 and Datasets EV1, EV2, and EV3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17682</offset>
+      <text>We next examined in which respects the gene expression profiles of 3C cultures resembled and differed from in&#160;vivo HFSCs. For this, we computed genewise Euclidian distance calculations of the three conditions (Epi d0, 3C, CD34+&#945;6+ HFSCs) to identify clusters of genes that explained most of the variance in gene expression among the three groups. Gene ontology (GO) term analysis of the top 5 clusters revealed three clusters of genes (clusters 1, 2, and 5; Appendix&#160;Fig S3C) that showed comparable, lower expression levels in 3C and CD34+&#945;6+ HFSCs and higher expression levels in Epi d0 (Appendix&#160;Fig S3C). These clusters contained GO terms for protein translation, protein transport, and metabolism. This was intriguing, as low protein translation rates have been recently linked to HFSC identity and function (Blanco et&#160;al, 2016). Cluster 3 contained genes that displayed an intermediate expression level in 3C (Appendix&#160;Fig S3C). These genes were enriched in GO terms for metabolism, translation, and oxidative phosphorylation. Only one cluster (cluster 4; Appendix&#160;Fig S3C) was identified for genes that were different in 3C when compared to CD34+&#945;6+ HFSCs, which enriched for genes involved in transcription, tRNA processing, and DNA replication, possibly reflecting the slower replication rates of the quiescent CD34+&#945;6+ HFSCs isolated from telogen&#8208;stage mice compared to cells in culture.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19095</offset>
+      <text>We further analyzed the genes that were similarly expressed in 3C cultures and purified CD34+&#945;6+ HFSCs in comparison with total epidermal cells in more detail. The most significantly upregulated genes (log2FC &gt;&#160;2, padj&#160;&lt;&#160;0.05; Dataset EV2) were compiled to generate gene expression enrichment profiles for 3C cultures and purified CD34+&#945;6+ HFSCs, respectively, which were then compared to each other and to a compiled HFSC signature from published datasets (Morris et&#160;al, 2004; Tumbar et&#160;al, 2004; Lien et&#160;al, 2011; Dataset EV2). Despite being a ~50:50 mixture of CD34+&#945;6+ and CD34&#8722;&#945;6+ cells, genes enriched in 3C cultures showed significant overlap with genes enriched in purified CD34+&#945;6+ HFSCs (P&#160;=&#160;3.058928e&#8208;51) and, importantly, with the published HFSC signature (P&#160;=&#160;0.00252451) including key HFSC lineage identity genes such as Cd34, Sox9, Tcf3 (Fig&#160;3C). This provided further support that cells propagated in 3C cultures resemble HFSCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20060</offset>
+      <text>We proceeded to explore the differences in gene expression between 3C cultures and purified CD34+&#945;6+ HFSCs. GO term and Gene set enrichment (GSEA; (Subramanian et&#160;al, 2005) analyses revealed that genes involved in Wnt signaling, regulation of cell proliferation, extracellular matrix organization, and keratinocyte differentiation were among the most significantly overrepresented among the differentially expressed genes (Appendix&#160;Fig S3D&#8211;F). Closer examination of the specific genes revealed that negative regulators of Wnt such as Dkk3 and Sfrp1, as well as Wnt ligands shown to be regulated by the BMP signaling pathway (Wnt 5b, 16), were up in CD34+&#945;6+ HFSCs whereas Wnts shown to be enriched in activated HFSCs or their progeny (Wnt 4, 9a, 10a, 10b) were upregulated in 3C (Appendix&#160;Fig S3F). Furthermore, positive regulators of the cell cycle such as cyclin D1 and G1 (Ccnd1 and Ccng1), as well as genes associated with keratinocyte differentiation were upregulated in 3C (Appendix&#160;Fig S3F). A number of ECM genes were upregulated in CD34+&#945;6+ HFSCs possibly reflecting the excess of ECM proteins present in the Matrigel of the 3C cultures (Appendix&#160;Fig S3E and F).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21244</offset>
+      <text>As the transcriptome&#8208;wide expression analyses indicated that cells cultured in 3C conditions closely resembled in&#160;vivo HFSCs, but that differences in Wnt and BMP signaling pathway regulators and targets as well as cell cycle regulators were observed, we hypothesized that the 3C cultures consist of a ~50:50 mixture of HFSCs (CD34+&#945;6+ cells) and their progeny (CD34&#8722;&#945;6+ cells). To test this, we FACS&#8208;purified CD34+&#945;6+ and CD34&#8722;&#945;6+ cells from 3C cultures and performed RNAseq (Fig&#160;3D and E; Dataset EV3). Remarkably, 47% of the genes upregulated in CD34+&#945;6+ cells from 3C cultures (3C&#8208;CD34+&#945;6+) were components of HFCS signatures (Fig&#160;3E and F), including several key lineage identity genes such as Lhx2, Id2, Sox9, Nfatc1, Tcf3, as well as bulge markers Krt15 and Cd34 (Fig&#160;3E). In contrast, genes downregulated in the 3C&#8208;CD34+&#945;6+ population contained markers of early lineage commitment (Fig&#160;3E and Appendix&#160;Fig S3I), previously shown to be upregulated in HFSC progeny (TACs, hair germ or hair matrix cells; Greco et&#160;al, 2009; Lien et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22319</offset>
+      <text>To validate the sequencing data and to dissect the gene expression differences in 3C cells (3C&#8208;CD34+&#945;6+ and 3C&#8208;CD34&#8722;&#945;6+) and freshly isolated in&#160;vivo CD34&#8722;&#945;6+ (basal progenitors) and CD34+&#945;6+ HFSCs in more detail, we performed RT&#8211;qPCR analyses. Importantly, these analyses corroborated the RNAseq results and demonstrated that key HFSC lineage identity genes (Sox9, Tcf3, Lhx2, Nfatc1, Id2, and Dkk3) were highly enriched in 3C&#8208;CD34+&#945;6+ compared to progenitors in&#160;vivo (CD34&#8722;&#945;6+) or in 3C (3C&#8208;CD34&#8722;&#945;6+), and in most cases expressed at comparable levels as in in&#160;vivo CD34+&#945;6+ HFSCs, confirming that the 3C&#8208;CD34+&#945;6+ cells are HFSCs (Fig&#160;3G). In line with the RNAseq data, a panel of cell cycle regulators and hair germ/matrix markers showed upregulation in both 3C populations compared to freshly isolated cells (Fig&#160;3H), most likely reflecting their active expansion compared to the telogen&#8208;stage in&#160;vivo CD34+&#945;6+ cells (Fig&#160;1C). Interestingly, 3C&#8208;CD34&#8722;&#945;6+ cells showed mild upregulation of early lineage commitment genes (Fig&#160;3E and Appendix&#160;Fig S3G), but displayed higher expression of the key HFSCs lineage identity genes compared to in&#160;vivo CD34&#8722;&#945;6+ cells (Fig&#160;3G), suggesting that these cells could represent immediate progeny of 3C&#8208;CD34+&#945;6+ cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23627</offset>
+      <text>3C cultures evolve into a stable population equilibrium of HFSCs and non&#8208;HFSCs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23708</offset>
+      <text>Our data so far showed that long&#8208;term 3C cultures established and maintained a stable mixture of CD34+&#945;6+ HFSCs and CD34&#8722;&#945;6+ progenitors (Fig&#160;2C). To understand how this was generated, we first analyzed the dynamic evolution of the population equilibrium in 3C cultures generated from freshly isolated epidermal cell mixtures. Time course analyses revealed that after an initial drop in both CD34+&#945;6+ and CD34&#8722;&#945;6+ cell numbers, both populations steadily expanded starting from day 2 with CD34&#8722;&#945;6+ showing a more rapid increase (Fig&#160;4A). However, after both populations reached peak values by day 8, the numbers of CD34&#8722;&#945;6+ declined to establish an approximate 50:50 equilibrium of HFSCs and non&#8208;HFSCs (Fig&#160;4A). This was accompanied by a plateau in the size of the 3C cell clusters (Appendix&#160;Fig S4A). The population equilibrium remained constant during passaging (Appendix&#160;Fig S4B), similar to what was observed in long&#8208;term cultures (Fig&#160;2C). Interestingly, determination of proliferation rates by EdU incorporation after the cultures had reached equilibrium (d10&#8208;d14) showed that cultured CD34+&#945;6+ cells cycled slightly faster than the CD34&#8722;&#945;6+ population (Fig&#160;4B), whereas the apoptosis rates were comparable between the two populations (Appendix&#160;Fig S4C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25002</offset>
+      <text>3C cultures evolve into a stable population equilibrium of HFSCs and non&#8208;HFSCs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25083</offset>
+      <text>FACS analysis of CD34+&#945;6+ cells over time shows that 3C cultures reach a &#732;50:50 population equilibrium after 10&#160;days of culture (mean&#160;&#177;&#160;SEM; n&#160;=&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25240</offset>
+      <text>Cells were EdU&#8208;labeled for 24&#160;h (day 10&#8211;11) prior to analysis by flow cytometry to quantify proliferating cells. Percentage of EdU+ cells is indicated (n&#160;=&#160;4; mean&#160;&#177;&#160;SD; *P&#160;&#8804;&#160;0.05, Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25461</offset>
+      <text>Schematic illustration of the parameters used in the mathematical model. HFSCs (CD34+&#945;6+) and non&#8208;HFSCs (CD34&#8722;&#945;6+) have a maximum proliferation rate of pSC,max and pP,max, respectively. They enter apoptosis with rates apSC and apP and are both degraded with a rate deg. Non&#8208;HFSCs can convert to HFSCs with a rate tP&#8594;SC and vice versa with rate tSC&#8594;P.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25824</offset>
+      <text>Simulated population proportions of CD34+&#945;6+ HFSCs and CD34&#8722;&#945;6+ non&#8208;HFSCs derived from the mathematical model describing steady&#8208;state cultures. Experimental data from (A) are shown as reference (in gray) (mean&#160;&#177;&#160;SEM; n = 3). See also Appendix&#160;Fig S4 and Dataset EV4.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26103</offset>
+      <text>To understand how the system would self&#8208;evolve into equilibrium, we modeled the steady&#8208;state dynamics of 3C cultures. To this end, we used a mathematical model based on ordinary differential equations (ODE) to describe the behavior of CD34+&#945;6+ HFSCs and CD34&#8722;&#945;6+ non&#8208;HFSCs. In both states, cells are able to proliferate (up to a limiting capacity) and to undergo apoptosis with rates determined by our experiments. Furthermore, cells are capable of switching from one state to the other with conversion rates tSC&#8594;P (conversion of HFSCs to non&#8208;HFSCs) and tP&#8594;SC (conversion of non&#8208;HFSCs to HFSCs), respectively (Fig&#160;4C). Conversion rates were estimated together with proliferation rates by fitting the model to the time course data (Fig&#160;4A and Appendix&#160;Fig S4B) using a maximum&#8208;likelihood (ML) approach (Fig&#160;4D and Appendix&#160;Fig S4D and E). The model reflected the observed growth dynamics and, surprisingly, indicated conversion of non&#8208;HFSCs to HFSCs in addition to the expected HFSC to progenitor transition (Appendix&#160;Fig S4E; Dataset EV4).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27171</offset>
+      <text>Bidirectional interconversion drives a dynamic self&#8208;organizing equilibrium between HFSCs and non&#8208;HFSCs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27278</offset>
+      <text>To experimentally test the predicted bidirectional interconversion, we FACS&#8208;purified CD34+&#945;6+ and CD34&#8722;&#945;6+ (&gt;&#160;98&#8211;99% purity) from total epidermal cells and cultured the two populations independently (Fig&#160;5A). Strikingly, both freshly purified CD34+&#945;6+ and CD34&#8722;&#945;6+ populations were able to generate a mixture of CD34+&#945;6+ and CD34&#8722;&#945;6+ cells (Fig&#160;5A). To analyze the dynamics of the interconversion in more detail, we performed time course experiments where we quantified CD34+&#945;6+ and CD34&#8722;&#945;6+ cells and their proliferation rates in 3C cultures established from FACS&#8208;purified CD34+&#945;6+ or CD34&#8722;&#945;6+ cells. To prevent the extensive cell loss due to stress caused by the combination of tissue disruption and FACS purification, we used cells precultured in 3C. Interestingly, both purified cell populations self&#8208;organized into ~50:50 equilibrium cultures of CD34+&#945;6+ and CD34&#8722;&#945;6+ cells, further substantiating bidirectional interconversion (Fig&#160;5B and C). Pure CD34+&#945;6+ cells established the equilibrium earlier than CD34&#8722;&#945;6+ cells (Fig&#160;5B and C), indicating that the CD34+&#945;6+ to CD34&#8722;&#945;6+ conversion occurs more frequently than vice versa. Quantification of proliferation and apoptosis rates over time in 3C cultures derived from pure populations of CD34+&#945;6+ or CD34&#8722;&#945;6+ cells revealed that, like in the 3C cultures derived from mixed, freshly isolated cells, the apoptosis rates of both populations were similar, whereas after an initial phase of exponential proliferation of both populations, the CD34+&#945;6+ cells proliferated slightly faster, irrespective of their cell type of origin (Appendix&#160;Fig S5A and B). Importantly, the generation of a population equilibrium from pure CD34+&#945;6+ cells or pure CD34&#8722;&#945;6+ cells could be recapitulated by the mathematical model only under the assumption of bidirectional interconversion (Fig&#160;5D and E, and Appendix&#160;Fig S5C&#8211;E), although the interconversion appeared slower than in the primary, steady&#8208;state cultures. This indicates that dynamic bidirectional lineage transitions can explain a stable, self&#8208;organizing population equilibrium and that this equilibrium can also be established from pure populations of HFSCs or non&#8208;HFSCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29526</offset>
+      <text>Bidirectional interconversion drives a dynamic self&#8208;organizing equilibrium between HFSCs and non&#8208;HFSCs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29633</offset>
+      <text>CD34+&#945;6+ HFSCs and CD34&#8722;&#945;6+ non&#8208;HFSCs were FACS&#8208;purified from total epidermis (d0) to &#8805;&#160;98% purity post&#8208;sorting (d0 post&#8208;sort), and grown 14&#160;days in 3C cultures (d14 3C). A significant population of CD34+&#945;6+ HFSCs and CD34&#8722;&#945;6+ non&#8208;HFSCs is generated from both purified populations after 14&#160;days. A representative of three independent experiments is shown (mean&#160;&#177;&#160;SD).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30027</offset>
+      <text>Time course analyses of 3C cultures established from FACS&#8208;purified populations of CD34+&#945;6+ HFSCs (B) or CD34&#8722;&#945;6+ non&#8208;HFSCs (C) from 3C cultures. Both cultures reach population equilibrium between day 6 and 10 (n&#160;=&#160;4; mean&#160;&#177;&#160;SD).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30269</offset>
+      <text>Simulated population proportions of CD34+&#945;6+ HFSCs (D) and CD34&#8722;&#945;6+ non&#8208;HFSCs (E) from the mathematical model describing behavior of pure cell populations. The model parameters were estimated from the experimental data in (B, C; shown in gray as reference).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30535</offset>
+      <text>Schematic illustration of lineage&#8208;tracing experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30592</offset>
+      <text>Lineage tracing of FACS&#8208;purified CD34+&#945;6+ HFSCs and CD34&#8722;&#945;6+ non&#8208;HFSCs from EGFP&#8722; and EGFP+ 3C cultures, respectively. CD34+&#945;6+ and CD34&#8722;&#945;6+ were mixed at the indicated ratios at d0, and EGFP expression was used to trace the cells of origin over time by flow cytometry. Presence of CD34+&#945;6+ EGFP+ cells in cultures at d10 indicates non&#8208;HFSC to HFSC interconversion.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30978</offset>
+      <text>Lineage tracing as in (F) shows that 3C cultures reach equilibrium between day 6 and 10 independent of the initial proportions of HFSCs and non&#8208;HFSCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31131</offset>
+      <text>Quantification of the proportion of CD34+&#945;6+ cells that maintain their fate over time (experiments with both EGFP+ and EGFP&#8722; labeled cells are indicated).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31290</offset>
+      <text>Quantification of the proportion of CD34&#8722;&#945;6+ cells that maintain their fate over time (experiments with both EGFP+ and EGFP&#8722; labeled cells are indicated).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31450</offset>
+      <text>Data information: Data in panels (G&#8211;J) show n&#160;=&#160;4; mean&#160;&#177;&#160;SD. See also Appendix&#160;Fig S5.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31546</offset>
+      <text>Finally, we assessed whether the interconversion rates would depend on the relative amounts of CD34+&#945;6+ and CD34&#8722;&#945;6+ cells within the cultures. To this end, we performed lineage&#8208;tracing experiments using the LifeAct&#8208;EGFP transgenic mice (Riedl et&#160;al, 2010) as a stable genetic marker for the cell type of origin, and FACS&#8208;purified CD34+&#945;6+ and CD34&#8722;&#945;6+ cells from both EGFP&#8208;positive and EGFP&#8208;negative mice. The purified populations were subsequently mixed in various ratios (9:1, 1:1, 1:9) and placed in 3C cultures (Fig&#160;5F). The numbers of EGFP&#8208;expressing cells within the CD34+&#945;6+ and CD34&#8722;&#945;6+ populations were subsequently quantified as a function of time. These experiments further substantiated bidirectional interconversion as indicated by the presence of EGFP&#8208;positive CD34+&#945;6+ cells in cultures generated from mixtures of EGFP&#8208;negative CD34+&#945;6+ cells and EGFP&#8208;positive CD34&#8722;&#945;6+ cells as well as vice versa (Fig&#160;5G and Appendix&#160;Fig S5F). As predicted by the model, these experiments further revealed that the rate by which the ~50:50 equilibrium was reached was independent of the ratios of HFSCs and non&#8208;HFSCs in the initial mixture (Fig&#160;5H and Appendix&#160;Fig S5G). Furthermore, the two populations behaved independently of each other, as regardless of the fraction of CD34&#8722;&#945;6+ cells present in the initial cell mixtures, ~50% of the CD34+&#945;6+ population converted to CD34&#8722;&#945;6+ cells over time (Fig&#160;5I). Likewise, irrespective of the initial fraction of CD34+&#945;6+ cells, ~30% of CD34&#8722;&#945;6+ cells converted to CD34+&#945;6+ cells (Fig&#160;5J). This independence of single&#8208;cell conversion rates from the composition of the cell mixture was consistent with the observations that the individual cell clusters were generated by a single cell as revealed by live cell imaging (Appendix&#160;Fig S5H and Movie EV1) and that each cluster contained both CD34+&#945;6+ and CD34&#8722;&#945;6+ cells (Fig&#160;1E), suggesting that each cell cluster within the 3C cultures behaves in an independent manner.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33575</offset>
+      <text>Intriguingly, de novo generation of CD34+&#945;6+ cells was also observed in 3C cultures when epidermal cells were first completely depleted of CD34+&#945;6+ cells by culturing them for 2&#160;weeks in 2D conditions (Appendix&#160;Figs S1A and S5I), followed by passaging and growth in 3C cultures (Appendix&#160;Fig S5I). Together, our results indicate that the 3C conditions can drive reprogramming of non&#8208;HFSCs to generate a stable HFSC population, as has previously been achieved by in&#160;vivo transplantation (Adam et&#160;al, 2015). Our results further indicate that each cell cluster within the 3C cultures represents a single&#8208;cell&#8208;derived system that is capable of generating both HFSCs and non&#8208;HFSCs independently of the relative abundance of these cells in the initial mixture.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34345</offset>
+      <text>Shh and BMP signaling mediate transitions between HFSCs and progeny to control population dynamics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34444</offset>
+      <text>We next sought to dissect the underlying signaling pathways that mediate the bidirectional interpopulation conversion. As TACs have been shown to signal through Shh to maintain HFSC activation during hair growth (Hsu et&#160;al, 2014b), we predicted that blocking this pathway should favor the HFSCs state, and therefore lead to decreased numbers of CD34&#8722;&#945;6+ cells. Addition of the Shh inhibitor cyclopamine (Taipale et&#160;al, 2000) led to a drastic increase in the proportion of CD34+&#945;6+ cells (Fig&#160;6A&#8211;C). On the other hand, as BMP signaling is required to maintain quiescent HFSCs (Genander et&#160;al, 2014) we hypothesized that inhibiting BMP signaling would activate CD34+&#945;6+ cells to generate differentiated progeny. Inhibition of BMP signaling with dorsomorphin (Yu et&#160;al, 2008) led to substantial depletion of the CD34+&#945;6+ population in 3C cultures (Fig&#160;6A&#8211;C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35316</offset>
+      <text>Shh and BMP signaling mediate transitions between HFSCs and progeny to control population dynamics</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35415</offset>
+      <text>Inhibitor treatment scheme (A) and FACS plots (B) of 3C cultures treated with the Shh inhibitor cyclopamine or the BMP inhibitor dorsomorphin (mean&#160;&#177;&#160;SD; n&#160;=&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35582</offset>
+      <text>Quantification of experiments as in (B) shows enrichment of HFSCs upon cyclopamine (Cyclo) treatment, whereas dorsomorphin (Dorso) treatment leads to depletion of HFSCs (mean&#160;&#177;&#160;SD; n&#160;=&#160;3; *P&#160;&#8804;&#160;0.05, Kruskal&#8211;Wallis).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35809</offset>
+      <text>Heatmap of significantly (padj value&#160;&lt;&#160;0.05) differentially expressed genes from RNAseq analysis of 3C cultures treated with Cyclo or Dorso for 48&#160;h. HFSC identity genes (triangles) and genes implicated in HFSC lineage progression (circles) are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36068</offset>
+      <text>RT&#8211;qPCR analysis of 3C cultures treated as in (D) confirms that Id 1,2, and 3 are significantly upregulated in Cyclo&#8208;treated cells (mean&#160;&#177;&#160;SEM; n&#160;=&#160;4; *P&#160;&#8804;&#160;0.05, Mann&#8211;Whitney U&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36269</offset>
+      <text>RT&#8211;qPCR analysis of 3C cultures treated as in (A) shows upregulation of HFSC identity genes upon cyclopamine treatment whereas regulators of HFSC quiescence are downregulated upon dorsomorphin treatment (mean&#160;&#177;&#160;SEM; n&#160;=&#160;4; *P&#160;&#8804;&#160;0.05, **P&#160;&#8804;&#160;0.01, Kruskal&#8211;Wallis).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36549</offset>
+      <text>Inhibitor treatment scheme of 3C cultures treated from day 8 onward.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36618</offset>
+      <text>Quantification of experiments as in (G) (mean&#160;&#177;&#160;SD; n&#160;=&#160;3&#8211;4; *P&#160;&#8804;&#160;0.05, **P&#160;&#8804;&#160;0.01, Kruskal&#8211;Wallis). See also Appendix&#160;Fig S6 and Dataset EV5.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36779</offset>
+      <text>To substantiate that inhibition of Shh and BMP induced fate changes of HFSCs and to identify underlying factors of these changes, we performed RNAseq experiments of 3C cultures treated for 48&#160;h with cyclopamine or dorsomorphin (Fig&#160;6D and Dataset EV5). GO term analysis of differentially expressed genes revealed that genes involved in keratinocyte differentiation, angiogenesis, and wound healing were most significantly altered (Appendix&#160;Fig S6A). Interestingly, among a panel of upregulated HFSC identity genes (Gas6, Krt15, Postn, Hoxc13), the Id genes Id1, Id2, Id3 were found to be one of the most significantly upregulated genes in cyclopamine&#8208;treated 3C cultures, also confirmed by RT&#8211;qPCR analyses (Fig&#160;6D and E). This was intriguing as these genes represent direct BMP and Smad 1/5 targets, are highly transcribed in HFSCs, downregulated during telogen to anagen transition, as well as functionally implicated in HFSC activation and TAC specification (Genander et&#160;al, 2014), confirming that the 3C system recapitulates complex in&#160;vivo signaling networks of HFSCs. These early transcriptional changes were accompanied by later changes in the expression of lineage identity genes and markers of HFSC quiescence, as observed by RT&#8211;qPCR analyses of 3C cultures treated with the inhibitors for 14 d (Fig&#160;6F). Consistent with the depletion of HFSCs, dorsomorphin&#8208;treated 3C cultures showed downregulation of the lineage identity genes Cd34 and Wnt7a as well as Lhx2 and Nfatc1 (Fig&#160;6F), two master regulators of HFSC quiescence.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38328</offset>
+      <text>We further validated the observed fate changes using functional assays. Importantly, cyclopamine&#8208;treated 3C cultures showed increased colony&#8208;forming capacity compared to untreated cultures (Appendix&#160;Fig S6B). These colonies showed densely packed morphology typical of HFSCs (Appendix&#160;Fig S6C), confirming that Shh inhibition enriched for HFSCs. Substantiating that BMP inhibition promoted HFSC differentiation, colony&#8208;forming assays from dorsomorphin&#8208;treated 3C cultures showed reduced colony area (Appendix&#160;Fig S6B) with loosely packed, larger cells, typical for committed HFSC progeny (Appendix&#160;Fig S6C). The specificity of the BMP inhibition was confirmed using another compound, K02288 (Sanvitale et&#160;al, 2013), which showed a similar effect (Appendix&#160;Fig S6D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39107</offset>
+      <text>We next asked whether the system could be dynamically tuned to switch between the HFSC and non&#8208;HFSC states by interfering with Shh and BMP signaling once the equilibrium was established. To this end, we cultured epidermal cells for 8 d before adding the inhibitors and analyzed the proportion of CD34+&#945;6+ cells. Once the equilibrium had been established, inhibition of Shh or BMP still shifted the balance toward the CD34+&#945;6+ population in case of Shh inhibition, and toward the CD34&#8722;&#945;6+ population in the case of BMP inhibition (Fig&#160;6G and H), indicating that the steady&#8208;state equilibrium critically depends on the activity of these two pathways.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39767</offset>
+      <text>To further test whether Shh and BMP pathways could dynamically reprogram the cell populations, we first treated 3C cultures with dorsomorphin or cyclopamine to enrich for CD34&#8722;&#945;6+ or CD34+&#945;6+ cells, respectively, and then passaged the cells into fresh 3C conditions without inhibitors. In both cases, the cultures re&#8208;established the steady&#8208;state equilibrium after removal of the inhibitors (Appendix&#160;Fig S6E and F). Remarkably, we could also obtain cultures enriched for CD34+&#945;6+ cells with cyclopamine in dorsomorphin&#8208;treated cells and vice versa (Appendix&#160;Fig S6E and F), demonstrating that changes triggered by Shh and BMP inhibition are fully reversible and that the cells grown in 3C maintain their phenotypic plasticity even after 4&#160;weeks in culture.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40538</offset>
+      <text>Altogether our results demonstrated that HFSCs and their immediate progeny can be de novo generated and expanded in 3C cultures, which evolve into a dynamic equilibrium between HFSCs and their progeny through Shh&#8208; and BMP&#8208;mediated signaling mechanisms.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40795</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40806</offset>
+      <text>Lineage tracing and ablation studies have demonstrated that HFSCs are dispensable for regeneration and that activated progeny re&#8208;populate the ablated SC compartment to sustain hair regeneration (Hsu et&#160;al, 2011; Rompolas et&#160;al, 2013). This indicates that the niche can instruct committed progenitors to be reprogrammed to a SC state through currently unknown mechanisms. We have identified a set of factors sufficient for this reprogramming and established an ex&#160;vivo niche that allows, for the first time, long&#8208;term maintenance of HFSCs without loss of their multipotency. HFSCs grow as 3D cell clusters without forming any obvious anatomical structure. The absence of lineage commitment and HF&#8208;like morphogenesis points to an indispensible role of dermal resident cells, in particular dermal papilla fibroblasts, in HF morphogenesis (Hsu et&#160;al, 2014a; Morgan, 2014), or a requirement of a topological cue from the local tissue environment. But on the other hand it indicates that the minimal essential components of the HFSC niche are ECM proteins, epidermal non&#8208;HFSCs, and a distinct set of growth factors.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41928</offset>
+      <text>Beyond important implications for regenerative medicine, our ex&#160;vivo niche enables systematic molecular dissection of SC fate decisions due to the stable proportions of HFSCs and non&#8208;HFSCs. We show that inhibition of BMP signaling leads to a rapid depletion of the HFSC population, whereas inhibition of Shh signaling enriches for these cells, as would be predicted from genetic ablation studies in the mouse (Hsu et&#160;al, 2014a). The fact that our 3C culture system recapitulates complex in&#160;vivo signaling networks highlights the potential of the system to uncover physiologically relevant signaling networks that govern SC fate.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42562</offset>
+      <text>One of the remarkable features of tissue resident adult somatic SC populations is their ability to remain constant over the majority of adult life. This is particularly striking in high turnover rate tissues, such as the intestine or skin, where SCs are constantly activated to produce differentiated progeny to fuel tissue self&#8208;renewal. We observe that HFSCs and non&#8208;HFSCs establish a self&#8208;evolving stable equilibrium, providing a mechanism to enable tissue robustness.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43039</offset>
+      <text>Strikingly, we observe that a stable HFSC&#8211;non&#8208;HFSC equilibrium can evolve from a pure population of non&#8208;HFSCs. This not only corroborates previous studies showing that activated progeny re&#8208;populate an ablated SC niche and subsequently adopt SC fate (Hsu et&#160;al, 2011; Rompolas et&#160;al, 2013), but for the first time defines a set of factors that can drive this reprogramming. The tunable nature of the 3C culture system now allows precise dissection of the genetic and epigenetic requirements of the reprogramming process. The fact that the cultures of de novo reprogrammed HFSCs evolve into a similar phenotypic equilibrium state as mixed cultures implies that stemness could represent a population trait rather than a trait of individual cells that could be defined by the precise molecular composition of the niche. Experimental and theoretical exploration of this concept will be an important future research avenue.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43967</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43989</offset>
+      <text>Mice</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43994</offset>
+      <text>Epidermal cells were isolated from 21&#8208;day&#8208;old or 48&#8208;day&#8208;old to 60&#8208;day&#8208;old C57BL/6J mice or LifeAct&#8208;EGFP mice (Riedl et&#160;al, 2010). 7&#8208; to 9&#8208;week&#8208;old BALB/c nude mice (CAnN.Cg&#8208;Foxn1nu/Crl; Charles River, Germany) were used as recipients in transplantation experiments. Primary dermal fibroblasts were isolated from 2&#8208;day&#8208;old C57BL/6J mice. Animals were housed and maintained according to FELASA guidelines in the animal facility of the Max Planck Institute for Biology of Ageing, Cologne, Germany. All experiments were approved by local authorities.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44568</offset>
+      <text>Cell culture media and reagents</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44600</offset>
+      <text>The following components were used to prepare a keratinocyte growth medium (KGM): MEM (Spinners modification, Sigma), 5&#160;&#956;g/ml insulin (Sigma), 10&#160;ng/ml EGF (Sigma), 10&#160;&#956;g/ml transferrin (Sigma), 10&#160;&#956;M phosphoethanolamine (Sigma), 10&#160;&#956;M ethanolamine (Sigma), 0.36&#160;&#956;g/ml hydrocortisone (Calbiochem), 2&#160;mM glutamine (Gibco), 100&#160;U/mL penicillin and 100&#160;&#956;g/ml streptomycin (Gibco), 8% chelated fetal calf serum (Gibco). The following components were used to prepare the FAD medium: 2 parts of DMEM (Gibco) and 1 part of Ham's F12 (Gibco), 2&#160;mM glutamine (Gibco), 100&#160;U/ml penicillin and 100&#160;&#956;g/ml streptomycin (Gibco), 10% chelated fetal calf serum (Gibco), 50&#160;&#956;g/ml vitamin C (sodium L&#8208;ascorbate; Sigma), 10&#160;ng/ml EGF (Sigma), 5&#160;&#956;g/ml insulin (Sigma), 0.5&#160;&#956;g/ml hydrocortisone (Calbiochem), 0.1&#160;nM cholera toxin (Sigma), 180&#160;&#956;M adenine (Sigma). The following media compositions were used: KGM basal medium, medium Y (KGM, 5&#160;&#956;M Y27632; Sigma&#8208;Aldrich), medium YV (KGM, 5&#160;&#956;M Y27632, 20&#160;ng/ml mouse recombinant VEGF&#8208;A; Miltenyi Biotec), medium YF (KGM, 5&#160;&#956;M Y27632, 20&#160;ng/ml human recombinant FGF&#8208;2; Miltenyi Biotec), 3C (KGM, 5&#160;&#956;M Y27632, 20&#160;ng/ml mouse recombinant VEGF&#8208;A, 20&#160;ng/ml human recombinant FGF&#8208;2), 3C&#8208;FAD (FAD, 5&#160;&#956;M Y27632, 20&#160;ng/ml mouse recombinant VEGF&#8208;A, 20&#160;ng/ml human recombinant FGF&#8208;2). Cyclopamine hydrate (Sigma), dorsomorphin (Miltenyi Biotec), and K02288 (Tocris) were added where indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46071</offset>
+      <text>Cell isolation and culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46098</offset>
+      <text>Keratinocytes were isolated from back skin of mice by incubating skin pieces in 0.8% trypsin (Gibco) for 50&#160;min at 37&#176;C. After separating the epidermis from the underlying dermis, cells were passed through 70&#8208;&#956;m and 45&#8208;&#956;m cell strainers (BD Biosciences) and pelleted at 900&#160;rpm for 3&#160;min. For 2D culture of epidermal cells, tissue culture Petri dishes were coated with a mixture of collagen I (30&#160;&#956;g/ml) and fibronectin (10&#160;&#956;g/ml; both from Millipore) in MEM for 1&#160;h at 37&#176;C after which cells resuspended in KGM or FAD medium were seeded on the coated dishes. For 3D culture, 8 &#215; 104 cells were suspended in 40&#160;&#956;l ice&#8208;cold 1:1 mixture of KGM and growth factor&#8208;reduced Matrigel (Corning) that was dispensed as a droplet in 24&#8208;well cell culture dishes. The suspension was allowed to solidify for 15&#160;min after which it was overlaid with 500&#160;&#956;l of medium. All cultures were incubated at 37&#176;C, 5% CO2. Medium was exchanged the next day after initial seeding and thereafter every second day. For cell passaging, cells were extracted from Matrigel by mechanical homogenization and incubation in 0.5% Trypsin (Gibco), 0.5&#160;mM EDTA, or Accutase (Gibco) for 10&#160;min at 37&#176;C. Cells were passaged every 10&#8211;14&#160;days in a 1:3&#8211;1:5 ratio in fresh 1:1 KGM:Matrigel.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47381</offset>
+      <text>Proliferative potential assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47411</offset>
+      <text>Proliferative potential of stem and progenitor cells was assayed as previously described (Jensen et&#160;al, 2010). Briefly, 2,000&#8211;4,000 cells were plated on 6&#8208;well plates containing Mitomycin C&#8208;treated J2 feeder cells. Cultures were incubated at 37&#176;C, 5% CO2 for 12&#8211;14&#160;days during which the medium was replaced every 2&#160;days. Experiments were terminated when colonies reached a sufficient size to be visually identified and quantified. Colonies were fixed with 4% paraformaldehyde for 10&#160;min and stained with 1% crystal violet. Colonies were quantified using the Fiji software. All conditions were performed in triplicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48043</offset>
+      <text>Flow cytometry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48058</offset>
+      <text>Single&#8208;cell suspensions were prepared from murine back skin or from cultured cells as described above. Cells were rinsed once with KGM and stained with fluorescently labeled antibodies for 30&#160;min on ice. After two washes with FACS Buffer (2% FCS, 2&#160;mM EDTA, PBS), cells were analyzed in a BD FACSCanto II or sorted in either a BD FACSAria II or a BD FACSAria Fusion. Data were analyzed using FlowJo software version 10. Expression of cell surface markers was analyzed on live cells after exclusion of cell doublets and dead cells using 7AAD (eBioscience) or Fixable Viability Dye eFluor506 (eBioscience). Apoptotic cells were labeled with BV421&#8208;Annexin V (BD Biosciences). The following antibodies were used: eFluor660&#8208; or FITC&#8208;CD34 (clone RAM34, eBioscience), BV421&#8208;CD34 (clone RAM34, BD), eFluor450&#8208;, PE&#8208;Cy7&#8208; or FITC&#8208;&#945;6 Integrin (clone GoH3, eBioscience), PE&#8208;Cy7&#8208;EpCAM (clone G8.8, eBioscience).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48981</offset>
+      <text>EdU incorporation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49005</offset>
+      <text>Cells were grown in the presence or absence of 9.4&#160;&#956;m EdU (LifeTechnologies) for 24&#160;h before analysis. After preparing single&#8208;cell suspensions, cells were stained with a fixable viability dye eFluor506 followed by antibody staining before fixation in 2% PFA for 10&#160;min at room temperature. Cells were subsequently permeabilized in 0.025% Triton X&#8208;100, PBS for 10&#160;min, and incubated 30&#160;min in EdU reaction cocktail (100&#160;mM Tris pH 8.5, 1&#160;mM CuSO4, 0.5&#160;&#956;M AlexaFluor 488 or 647&#8208;Azide (A10266 or A10277, Life Technologies), 100&#160;mM ascorbic acid). After two washes with PBS, cells were analyzed by flow cytometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49632</offset>
+      <text>Immunofluorescence and immunohistochemistry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49676</offset>
+      <text>Cultured HFSCs were rinsed once in PBS, followed by fixation in 2% PFA, PBS for 30&#160;min at RT. Fixed cells were rinsed three times with 100&#160;mM glycine, PBS, then permeabilized and blocked for 2&#160;h at 37&#176;C in 0.3% Triton X&#8208;100, 5% BSA, PBS. Cells were stained with unlabeled or fluorescent primary antibodies in 0.3% Triton X&#8208;100, 1% BSA, PBS overnight at RT. Secondary, fluorescent antibodies were used to detect primary antibody binding, and nuclei were visualized with DAPI. Slides were mounted with Elvanol mounting medium. The following antibodies were used: SOX9 (H&#8208;90, Santa Cruz Biotechnology), keratin&#8208;15 (LHK15, NeoMarkers), eFluor660&#8208;CD34, laminin 332 (gift from R.E. Burgeson). Secondary antibodies anti&#8208;mouse AlexaFluor 488 and anti&#8208;rabbit AlexaFluor 568 were from LifeTechnologies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50487</offset>
+      <text>Microscopy and image analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50517</offset>
+      <text>Fluorescent images were collected by laser scanning confocal microscopy (TCS SP5X; Leica) with 63&#215;, 40&#215; or 20&#215; immersion objectives using LAS X software. All images were recorded sequentially and averaged at least twice. Live imaging was performed using an inverted Axio Observer microscope (Zeiss) equipped with an environment chamber set to 5% CO2, 37&#176;C. Images were acquired using a 10&#215; objective with DIC optics with a rate of 1 frame/10&#160;min for 4&#160;days. Image acquisition was controlled by VisiView Software (Visitron). Image processing (linear brightness and contrast enhancement) was performed with Fiji Software version 2.0.0 or Adobe Photoshop CS5.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51181</offset>
+      <text>Full&#8208;thickness skin reconstitution assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51224</offset>
+      <text>Transplantation of epidermal cells to assess their multipotency and self&#8208;renewal capacity was performed as previously described (Blanpain et&#160;al, 2004; Jensen et&#160;al, 2010). Briefly, a mixture of 1&#8211;5&#160;&#215;&#160;105 freshly isolated epidermal cells or 3C cells together with 5&#160;&#215;&#160;106 freshly isolated neonatal fibroblasts was injected into a silicon chamber inserted into a full&#8208;thickness wound on the back skin of nude mice. The chamber was removed a week after transplantation, and hair growth was monitored for the following 2&#8211;4&#160;weeks.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51767</offset>
+      <text>RNA sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51782</offset>
+      <text>Total RNA was isolated using the RNeasy Plus Micro Kit after which the RNA quality was determined using an Agilent 2200 TapeStation. Libraries were prepared with NEBNext Ultra Directional RNA Library Prep Kit (New England Biolabs) followed by sequencing with HiSeq 2500 (Illumina) from three biological replicates/condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52107</offset>
+      <text>After quality control and preprocessing, reads were mapped to the Mus musculus reference genome (build GRCm38_79), followed by differential gene expression analysis using Cufflinks (version 2.2.1). Transcripts regulated &#8805;&#160;2 log2 fold change and with q&#8208;value &#8804;&#160;0.05 were defined as &#8220;gene expression enrichment profiles&#8221; for a given condition. Genewise Euclidean distances were calculated in R v3.2.4. A cutoff of 5 was applied to select the five top clusters. Gene ontology term enrichment analyses were performed using DAVID (Huang da et&#160;al, 2009). Gene set enrichment analysis was performed on a pre&#8208;ranked gene list (ranked according to log2 fold change) and compared to the Broad Institute Molecular Signatures Database collection of chemical and genetic perturbations (C2) using the Web&#8208;based tool available from the Broad Institute (Subramanian et&#160;al, 2005). Enrichments with an FDR value &lt;&#160;0.25 were considered significant. The data have been submitted to NCBI&#8208;GEO (GSE76779).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53111</offset>
+      <text>qPCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53116</offset>
+      <text>RNA was isolated using the RNeasy Plus Mini Kit (Qiagen), after which cDNA was synthesized using the High&#8208;Capacity cDNA Reverse Transcription Kit (Applied Biosystems) or SuperScript VILO (LifeTechnologies). qPCR was performed on the StepOne Plus Real Time PCR System (Applied Biosystems) or CFX384 Touch Real Time PCR Detection System (Bio&#8208;Rad) using the DyNAmo ColorFlash SYBR Green Mix (Thermo Fisher). Gene expression changes were calculated following normalization to Actb or to ERCC spike&#8208;in reference RNA (Ambion&#8208;LifeTechnologies) using the comparative Ct (cycle threshold) method. Primer sequences used are available upon request.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53762</offset>
+      <text>Mathematical modeling and simulations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53800</offset>
+      <text>A coupled ordinary differential equation&#160;(ODE) model was used to describe the cell numbers within four compartments, namely HFSCs and non&#8208;HFSCs, as well as their pre&#8208;apoptotic counterparts (corresponding to the Annexin V+ subpopulations). HFSCs and non&#8208;HFSCs follow a logistic growth dynamic with maximum proliferation rates pSC,max and pP.max, respectively, and a carrying capacity K (see Appendix&#160;Supplementary Methods for details). Cells of both compartments enter into apoptosis with rates apSC and apP, respectively, before they are finally removed from the system after an average residence time in the pre&#8208;apoptotic state of 12&#160;h (corresponding to a rate of deg&#160;=&#160;1/12 cells/h). Conversion rates tSC&#8594;P and tP&#8594;SC between the HFSCs and non&#8208;HFSCs states as well as the carrying capacity K and the proliferation rates were estimated from the time course data in Fig&#160;4A and Appendix&#160;Fig S4A by minimizing the residual sum of squares of simulated and measured data. Simulations were implemented and calculated using the software R (version 3.2.2, 2015&#8208;08&#8208;14) and the R package &#8220;bbmle&#8221; (R Development Core Team, 2008; Ben Bolker and R Development Core Team, 2016). For a detailed description and model parameters see Appendix&#160;Supplementary Methods and Dataset EV4.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55095</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55116</offset>
+      <text>Statistical analyses were performed using R or GraphPad Prism software (GraphPad, version 5.0). Statistical significance was determined by the Mann&#8211;Whitney U&#8208;test, Kruskal&#8211;Wallis with Dunn's post&#8208;test or hypergeometric distribution probability as indicated in the corresponding figure legends.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>55418</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55439</offset>
+      <text>CAC&#8208;M designed and performed most of the experiments and analyzed data, MK and IG designed and performed the mathematical modeling, CN advised with transplantation experiments, SAW conceived and supervised the study, designed experiments, and analyzed data. CAC&#8208;M and SAW wrote the paper. All authors commented and edited the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>55781</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55802</offset>
+      <text>A patent application describing the HFSC culture system has been filed to the European Patent Office.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>55904</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>55927</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">521</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">370</infon>
+      <infon key="pub-id_pmid">25799994</infon>
+      <infon key="fpage">366</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>55938</offset>
+      <text>Pioneer factors govern super&#8208;enhancer dynamics in stem cell plasticity and lineage choice</text>
+    </passage>
+    <passage>
+      <infon key="volume">84</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">2306</infon>
+      <infon key="pub-id_pmid">2436229</infon>
+      <infon key="fpage">2302</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>56030</offset>
+      <text>Three clonal types of keratinocyte with different capacities for multiplication</text>
+    </passage>
+    <passage>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>56110</offset>
+      <text>bbmle: Tools for General Maximum Likelihood Estimation</text>
+    </passage>
+    <passage>
+      <infon key="volume">961</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">350</infon>
+      <infon key="pub-id_pmid">23325655</infon>
+      <infon key="fpage">337</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>56165</offset>
+      <text>Generation of functional multipotent keratinocytes from mouse induced pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">534</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">340</infon>
+      <infon key="pub-id_pmid">27306184</infon>
+      <infon key="fpage">335</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>56258</offset>
+      <text>Stem cell function and stress response are controlled by protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">648</infon>
+      <infon key="pub-id_pmid">15339667</infon>
+      <infon key="fpage">635</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>56333</offset>
+      <text>Self&#8208;renewal, multipotency, and the existence of two cell populations within an epithelial stem cell niche</text>
+    </passage>
+    <passage>
+      <infon key="source">Science</infon>
+      <infon key="volume">344</infon>
+      <infon key="pub-id_pmid">24926024</infon>
+      <infon key="fpage">1242281</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>56442</offset>
+      <text>Stem cell plasticity. Plasticity of epithelial stem cells in tissue regeneration</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Dev Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">21067603</infon>
+      <infon key="fpage">112</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>56523</offset>
+      <text>Laminin&#8208;511 and integrin beta&#8208;1 in hair follicle development and basal cell carcinoma formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Int J Mol Sci</infon>
+      <infon key="lpage">19384</infon>
+      <infon key="pub-id_pmid">24071938</infon>
+      <infon key="fpage">19361</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>56623</offset>
+      <text>EGFR&#8208;ras&#8208;raf signaling in epidermal stem cells: roles in hair follicle development, regeneration, tissue remodeling and epidermal cancers</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">633</infon>
+      <infon key="pub-id_pmid">25312496</infon>
+      <infon key="fpage">619</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>56765</offset>
+      <text>BMP signaling and its pSMAD1/5 target genes differentially regulate hair follicle stem cell lineages</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">169</infon>
+      <infon key="pub-id_pmid">19200804</infon>
+      <infon key="fpage">155</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>56866</offset>
+      <text>A two&#8208;step mechanism for stem cell activation during hair regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Gastroenterology</infon>
+      <infon key="lpage">600</infon>
+      <infon key="pub-id_pmid">17258732</infon>
+      <infon key="fpage">587</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>56939</offset>
+      <text>Cell&#8208;cell contacts prevent anoikis in primary human colonic epithelial cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">144</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">105</infon>
+      <infon key="pub-id_pmid">21215372</infon>
+      <infon key="fpage">92</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57018</offset>
+      <text>Dynamics between stem cells, niche, and progeny in the hair follicle</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">856</infon>
+      <infon key="pub-id_pmid">25100530</infon>
+      <infon key="fpage">847</infon>
+      <infon key="year">2014a</infon>
+      <infon key="type">ref</infon>
+      <offset>57087</offset>
+      <text>Emerging interactions between skin stem cells and their niches</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">949</infon>
+      <infon key="pub-id_pmid">24813615</infon>
+      <infon key="fpage">935</infon>
+      <infon key="year">2014b</infon>
+      <infon key="type">ref</infon>
+      <offset>57150</offset>
+      <text>Transit&#8208;amplifying cells orchestrate stem cell activity and tissue regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">19131956</infon>
+      <infon key="fpage">44</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>57232</offset>
+      <text>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">911</infon>
+      <infon key="pub-id_pmid">20431535</infon>
+      <infon key="fpage">898</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>57325</offset>
+      <text>Assaying proliferation and differentiation capacity of stem cells using disaggregated adult mouse epidermis</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">Arch Dermatol Res</infon>
+      <infon key="lpage">668</infon>
+      <infon key="pub-id_pmid">9879835</infon>
+      <infon key="fpage">661</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>57433</offset>
+      <text>Expression of vascular endothelial growth factor (VEGF) in various compartments of the human hair follicle</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">155</infon>
+      <infon key="pub-id_pmid">6707082</infon>
+      <infon key="fpage">146</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>57540</offset>
+      <text>Modulation of secreted proteins of mouse mammary epithelial cells by the collagenous substrata</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">J Invest Dermatol</infon>
+      <infon key="lpage">44S</infon>
+      <infon key="pub-id_pmid">7738395</infon>
+      <infon key="fpage">43S</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>57635</offset>
+      <text>Hair follicle development and hair growth from defined cell populations grafted onto nude mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">232</infon>
+      <infon key="pub-id_pmid">21885018</infon>
+      <infon key="fpage">219</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57730</offset>
+      <text>Genome&#8208;wide maps of histone modifications unwind in&#160;vivo chromatin states of the hair follicle lineage</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Med</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24985131</infon>
+      <infon key="fpage">a015180</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>57836</offset>
+      <text>The dermal papilla: an instructive niche for epithelial stem and progenitor cells in development and regeneration of the hair follicle</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26349061</infon>
+      <infon key="fpage">8198</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>57971</offset>
+      <text>Integrin&#8208;linked kinase regulates the niche of quiescent epidermal stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">417</infon>
+      <infon key="pub-id_pmid">15024388</infon>
+      <infon key="fpage">411</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>58050</offset>
+      <text>Capturing and profiling adult hair follicle stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">611</infon>
+      <infon key="pub-id_pmid">18295578</infon>
+      <infon key="fpage">598</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58105</offset>
+      <text>Stem cells and niches: mechanisms that promote stem cell maintenance throughout life</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Biomaterials</infon>
+      <infon key="lpage">2373</infon>
+      <infon key="pub-id_pmid">12013184</infon>
+      <infon key="fpage">2367</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>58190</offset>
+      <text>Promoted growth of murine hair follicles through controlled release of vascular endothelial growth factor</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Med</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24384813</infon>
+      <infon key="fpage">a015198</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>58296</offset>
+      <text>Macroenvironmental regulation of hair cycling and collective regenerative behavior</text>
+    </passage>
+    <passage>
+      <infon key="source">R: a language and environment for statistical computing</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2008</infon>
+      <offset>58379</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">169</infon>
+      <infon key="pub-id_pmid">20195247</infon>
+      <infon key="fpage">168</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58380</offset>
+      <text>Lifeact mice for studying F&#8208;actin dynamics</text>
+    </passage>
+    <passage>
+      <infon key="volume">502</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">518</infon>
+      <infon key="pub-id_pmid">24097351</infon>
+      <infon key="fpage">513</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58425</offset>
+      <text>Spatial organization within a niche as a determinant of stem&#8208;cell fate</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23646137</infon>
+      <infon key="fpage">e62721</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58498</offset>
+      <text>A new class of small molecule inhibitor of BMP signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">459</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">265</infon>
+      <infon key="pub-id_pmid">19329995</infon>
+      <infon key="fpage">262</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>58555</offset>
+      <text>Single Lgr5 stem cells build crypt&#8208;villus structures in&#160;vitro without a mesenchymal niche</text>
+    </passage>
+    <passage>
+      <infon key="volume">340</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1194</infon>
+      <infon key="pub-id_pmid">23744940</infon>
+      <infon key="fpage">1190</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58648</offset>
+      <text>Growing self&#8208;organizing mini&#8208;guts from a single intestinal stem cell: mechanism and applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">50</infon>
+      <infon key="pub-id_pmid">24679525</infon>
+      <infon key="fpage">41</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>58749</offset>
+      <text>Nice neighborhood: emerging concepts of the stem cell niche</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">15550</infon>
+      <infon key="pub-id_pmid">16199517</infon>
+      <infon key="fpage">15545</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>58809</offset>
+      <text>Gene set enrichment analysis: a knowledge&#8208;based approach for interpreting genome&#8208;wide expression profiles</text>
+    </passage>
+    <passage>
+      <infon key="volume">406</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1009</infon>
+      <infon key="pub-id_pmid">10984056</infon>
+      <infon key="fpage">1005</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>58919</offset>
+      <text>Effects of oncogenic mutations in Smoothened and Patched can be reversed by cyclopamine</text>
+    </passage>
+    <passage>
+      <infon key="volume">120</infon>
+      <infon key="source">J Invest Dermatol</infon>
+      <infon key="lpage">511</infon>
+      <infon key="pub-id_pmid">12648211</infon>
+      <infon key="fpage">501</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>59007</offset>
+      <text>Enrichment for living murine keratinocytes from the hair follicle bulge with the cell surface marker CD34</text>
+    </passage>
+    <passage>
+      <infon key="volume">303</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">363</infon>
+      <infon key="pub-id_pmid">14671312</infon>
+      <infon key="fpage">359</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>59113</offset>
+      <text>Defining the epithelial stem cell niche in skin</text>
+    </passage>
+    <passage>
+      <infon key="volume">295</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">436</infon>
+      <infon key="pub-id_pmid">6895777</infon>
+      <infon key="fpage">434</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>59161</offset>
+      <text>Stratification and terminal differentiation of cultured epidermal cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">41</infon>
+      <infon key="pub-id_pmid">18026094</infon>
+      <infon key="fpage">33</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>59233</offset>
+      <text>Dorsomorphin inhibits BMP signals required for embryogenesis and iron metabolism</text>
+    </passage>
+  </document>
+</collection>

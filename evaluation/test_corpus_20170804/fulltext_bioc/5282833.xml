@@ -1,0 +1,871 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5282833</id>
+    <passage>
+      <infon key="name_2">surname:Evans;given-names:Jared M</infon>
+      <infon key="name_3">surname:Roellinger;given-names:Samantha</infon>
+      <infon key="name_0">surname:Perales&#8208;Clemente;given-names:Ester</infon>
+      <infon key="name_1">surname:Cook;given-names:Alexandra N</infon>
+      <infon key="name_6">surname:Oglesbee;given-names:Devin</infon>
+      <infon key="alt-title">Ester Perales&#8208;Clemente et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694892</infon>
+      <infon key="name_5">surname:Emmanuele;given-names:Valentina</infon>
+      <infon key="name_8">surname:Hirano;given-names:Michio</infon>
+      <infon key="name_9">surname:Schon;given-names:Eric A</infon>
+      <infon key="lpage">1990 1990</infon>
+      <infon key="fpage">1979 1979</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Mootha;given-names:Vamsi K</infon>
+      <infon key="name_4">surname:Secreto;given-names:Frank</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201694892</infon>
+      <infon key="article-id_pmid">27436875</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="issue">18</infon>
+      <infon key="kwd">global private mutation human iPSC intra&#8208;person variability mitochondrial DNA quality control universal heteroplasmy Stem Cells</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="pub-id_pmid">27436875</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211; See also: RH H&#228;m&#228;l&#228;inen (September 2016)</infon>
+      <infon key="name_10">surname:Terzic;given-names:Andre</infon>
+      <infon key="name_11">surname:Nelson;given-names:Timothy J</infon>
+      <offset>0</offset>
+      <text>Natural underlying mtDNA heteroplasmy as a potential source of intra&#8208;person hiPSC variability</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>96</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>Functional variability among human clones of induced pluripotent stem cells (hiPSCs) remains a limitation in assembling high&#8208;quality biorepositories. Beyond inter&#8208;person variability, the root cause of intra&#8208;person variability remains unknown. Mitochondria guide the required transition from oxidative to glycolytic metabolism in nuclear reprogramming. Moreover, mitochondria have their own genome (mitochondrial DNA [mtDNA]). Herein, we performed mtDNA next&#8208;generation sequencing (NGS) on 84 hiPSC clones derived from a cohort of 19 individuals, including mitochondrial and non&#8208;mitochondrial patients. The analysis of mtDNA variants showed that low levels of potentially pathogenic mutations in the original fibroblasts are revealed through nuclear reprogramming, generating mutant hiPSCs with a detrimental effect in their differentiated progeny. Specifically, hiPSC&#8208;derived cardiomyocytes with expanded mtDNA mutations non&#8208;related with any described human disease, showed impaired mitochondrial respiration, being a potential cause of intra&#8208;person hiPSC variability. We propose mtDNA NGS as a new selection criterion to ensure hiPSC quality for drug discovery and regenerative medicine.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1310</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1323</offset>
+      <text>Since their discovery in 2007, human&#8208;induced pluripotent stem cells (hiPSCs) have become recognized as powerful tools for modeling disease process in basic research and in drug discovery and form the basis for new regenerative therapies (Takahashi et&#160;al, 2007; Yu et&#160;al, 2007). The functional variability among hiPSC clones is one of the primary challenges with regard to assembling high&#8208;quality hiPSC biorepositories for application in regenerative medicine and drug discovery platforms (Silva et&#160;al, 2015). Genetic and epigenetic variability among individuals is recognized as contributing to variability among hiPSCs generated from different individuals (inter&#8208;person variability) (Liang &amp; Zhang, 2013; Mills et&#160;al, 2013). However, mechanisms underlying variability observed in hiPSCs generated from the same individual (intra&#8208;person variability) remain largely undefined, despite the well&#8208;documented functional consequences resulting from intra&#8208;person variability concerning differentiation potential and gene expression (Narsinh et&#160;al, 2011; Cahan &amp; Daley, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2409</offset>
+      <text>Mitochondria play a major role in energy production via the oxidative phosphorylation system (OXPHOS). Beyond providing energy, mitochondria play an important role during nuclear reprogramming, guiding the transition from somatic oxidative bioenergetics to pluripotent glycolytic metabolism (Folmes et&#160;al, 2011). Moreover, metabolic plasticity controls different stem cell fates, which include quiescence, self&#8208;renewal, and lineage specification for tissue regeneration (Folmes et&#160;al, 2012). Human mitochondria have their own genome, called mitochondrial DNA (mtDNA), a small 16.6&#8208;kb circular DNA containing 37 genes: 13 protein&#8208;coding genes, 2 ribosomal RNAs (rRNAs), and 22 tRNAs used for translation of those 13 polypeptides. Because of the role of mitochondria in nuclear reprogramming, we considered that there was a need to examine mtDNA as a potential source of hiPSC intra&#8208;person variability.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3320</offset>
+      <text>The coexistence of multiple variants of mtDNA in a cell or tissue is referred to as heteroplasmy. While healthy somatic mammalian cells are fundamentally homoplasmic, it has recently been shown that they are heteroplasmic and harbor mtDNA variants, albeit at extremely low levels (Payne et&#160;al, 2013). Often called the universal heteroplasmy of human mtDNA, these subtle changes in mtDNA are likely due to either inherited or somatic single base substitutions. However, high heteroplasmy levels (or at least heteroplasmy levels necessary to reveal clinical phenotypes) of pathogenic mtDNA mutations are found not only in mitochondrial disease patients, but also occur in some tumors, in neurodegenerative diseases and diabetes, and are also associated with normal aging (Schon et&#160;al, 2012; Wallace, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4127</offset>
+      <text>Segregation of mtDNA during nuclear reprogramming of cells from patients with mtDNA&#8208;based diseases has been proposed to result from two distinct mechanisms: (i) the original mosaicism present in the starting dermal fibroblasts (Cherry et&#160;al, 2013; Folmes et&#160;al, 2013; Ma et&#160;al, 2015), resulting in a broad distribution in the mitochondrial heteroplasmy of the disease&#8208;causing point mutation; and (ii) segregation through an embryonic bottleneck, yielding two populations, one enriched in wild&#8208;type (WT) mtDNAs, and the other enriched in mutated mtDNAs (Hamalainen et&#160;al, 2013). At present, it has been difficult to distinguish between these two mechanistic possibilities.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4809</offset>
+      <text>As described herein, we performed whole mtDNA next&#8208;generation sequencing (NGS) on 84 hiPSC clones derived from a cohort of 19 individuals distributed in mitochondrial and non&#8208;mitochondrial patients. The analysis of mtDNA variants showed that a low level of heteroplasmic variance in mtDNA, without any obvious phenotypic effect on the parental tissue, is revealed during nuclear reprogramming, generating hiPSC clones with high levels of mtDNA heteroplasmy, including enrichment of mutations potentially detrimental to the differentiated progeny.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5360</offset>
+      <text>We therefore propose that mtDNA NGS be used as a release criterion in the selection process of hiPSC clones. Analysis of mtDNA NGS data using HaploGrep software, focusing on the analysis of global private mutations (GPMs: mtDNA variants that do not belong to the sample haplogroup or to any other haplogroup), is able to identify clones harboring potentially damaging mutations.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5739</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5747</offset>
+      <text>mtDNA variants reveal inter&#8208; and intra&#8208;person variability in hiPSCs derived from mitochondrial disease patients</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5863</offset>
+      <text>We analyzed the heteroplasmy levels at mtDNA position 3243 in a total of 82 hiPSC clones at passage two that were derived from three unrelated patients with mitochondrial encephalomyopathy, lactic acidosis, and stroke&#8208;like episodes (MELAS), all of whom harbored the m.3243A&gt;G mutation in the MT&#8208;TL1 gene specifying tRNALeu(UUR) (Goto et&#160;al, 1990). PCR&#8208;RFLP analyses showed an inter&#8208;person variability of this point mutation in the reprogrammed pluripotent state (Fig&#160;1A). hiPSCs derived from two MELAS patients (MitoA, MitoB) displayed a broad distribution of heteroplasmy levels of the m.3243A&gt;G mutation, ranging from 100% wild type to 100% mutant (Fig&#160;1A). However, hiPSC clones derived from the third MELAS patient (MitoC) exhibited a median level of mutation approaching 80%, with only a single clone harboring &lt;&#160;10% mutation at passage two (Fig&#160;1A). Moreover, the intra&#8208;person variability among the hiPSC clones derived from the same patient is revealed by the broad spectrum of mutation load at position 3243 found in the three MELAS patients. This intra&#8208;person variability of a disease&#8208;causing mutation in mtDNA permitted us to isolate mtDNA&#8208;mutant hiPSCs and isogenic wild&#8208;type clones, bypassing the need to perform genome editing assays (Folmes et&#160;al, 2013; Ma et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7173</offset>
+      <text>Segregation and dynamics of the m.3243A&gt;G point mutation during nuclear reprogramming reveals inter&#8208; and intra&#8208;person hiPSC clonal variability</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7320</offset>
+      <text>Heteroplasmy levels by PCR&#8208;RFLP at position 3243 in 82 hiPSC clones at passage 2, derived from three MELAS patients (MitoA, MitoB, and MitoC). The black dots represent the mutation load for a specific hiPSC clone; n is the total number of individual hiPSC clones analyzed per patient. The red stars represent the heteroplasmy levels for the parental fibroblasts.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7685</offset>
+      <text>Dynamics of the m.3243A&gt;G mutation in hiPSC clones during a month in culture: MitoA (B), MitoB (C), and MitoC (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7800</offset>
+      <text>One of the characteristics of pluripotent stem cells is their robust self&#8208;renewal capacity, enabling them to grow indefinitely in culture. A shift toward WT mtDNA was previously described in a small number of hiPSC clones that were maintained in culture for more than 40 passages (Cherry et&#160;al, 2013; Folmes et&#160;al, 2013). In order to determine whether the loss of specific mtDNA mutations in hiPSCs is proportional to time in culture, we assessed the m.3243A&gt;G mutation in a total of 25 hiPSC clones derived from our three MELAS patients at passage two, and again following passage eight, corresponding to approximately 1&#160;month in culture. We observed a general tendency of loss of the m.3243A&gt;G mutation associated with time in culture, at a rate of ~12% per month, when the initial mutation load was greater than 80% (Fig&#160;1B&#8211;D). However, five of the 25 analyzed clones demonstrated essentially no change in heteroplasmy levels (Fig&#160;1B&#8211;D). Moreover, two hiPSC clones showed a dramatic shift in heteroplasmy, decreasing by approximately 50% in a single month (Fig&#160;1B and 1D). On the other hand, increases in mutation load were rare; only two &#8220;wild&#8208;type&#8221; hiPSCs (where the mutation was present below the PCR&#8208;RFLP detection limit) showed an increase in percentage of mutation with time (Fig&#160;1B and C). Our&#160;results show that mtDNA segregation is a dynamic process contributing to the intra&#8208;person variability in hiPSCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9241</offset>
+      <text>Nuclear reprogramming reveals preexisting mtDNA mutations besides the m.3243A&gt;G MELAS causing mutation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9344</offset>
+      <text>We performed whole mtDNA NGS of 36 hiPSC clones with normal karyotype derived from the three MELAS patients, and their associated skin fibroblasts, to assess whether segregation of mtDNA in nuclear reprogramming amplifies mtDNA variants present in the original fibroblasts. Each sample produced an average of 6.4&#160;million 51&#8208;base pair (bp) reads with 83% of the reads mapping to the mitochondrial reference sequence. On average, 96% of the reference sequence had at least 5,000&#215; coverage (Fig&#160;EV1). The variants were analyzed using HaploGrep software, an algorithm that uses PhyloTree (a regularly updated classification tree of global mtDNA variations) to classify haplogroups of individual samples. HaploGrep further classifies variants that are not contained in a sample's haplogroup based on whether (local private mutations) or not (global private mutations [GPMs]) they are found in other haplogroups. Thus, we prioritized the analysis of GPMs as they were unique to the sample and were not related to known haplogroups. Analysis of the mtDNA NGS in hiPSCs revealed that all MitoA&#8208; and MitoB&#8208;derived hiPSC clones contain GPMs; however, the majority of MitoC&#8208;derived hiPSCs contained only the m.3243A&gt;G point mutation (Fig&#160;2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10587</offset>
+      <text>mtDNA NGS coverage of 36 MELAS patient&#8208;derived hiPSC clones and their corresponding parental fibroblasts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10694</offset>
+      <text>MitoA fibroblasts (in red), MitoA hiPSCs (n&#160;=&#160;13, in black).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10757</offset>
+      <text>MitoB fibroblasts (in red), MitoB hiPSCs (n&#160;=&#160;12, in black).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10820</offset>
+      <text>MitoC fibroblasts (in red), MitoC hiPSCs (n&#160;=&#160;11, in black).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10883</offset>
+      <text>mtDNA next&#8208;generation sequencing of 36 MELAS patient&#8208;derived hiPSC clones and their corresponding parental fibroblasts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11006</offset>
+      <text>mtDNA NGS of MitoA fibroblasts (MitoA FB at passage 5) and MitoA&#8208;derived hiPSCs (passages 7&#8211;9); n&#160;=&#160;13.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11116</offset>
+      <text>mtDNA NGS of MitoB fibroblasts (MitoB FB at passage 3) and MitoB&#8208;derived hiPSCs (passages 5&#8211;11); n&#160;=&#160;12.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11227</offset>
+      <text>mtDNA NGS of MitoC fibroblasts (MitoC FB at passage 7) and MitoC&#8208;derived hiPSCs (passages 5&#8211;11); n&#160;=&#160;11.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11338</offset>
+      <text>Data information: GPMs are represented by black diamonds at the specific mtDNA positions; small black diamonds denote mutation load between 1 and 10%, medium black diamonds 10&#8211;40%, and large black diamonds &gt;&#160;40%. Red diamonds: point mutation A3243G (MELAS causing disease mutation). Numbers beside diamonds indicate the specific mutation load at that position.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11702</offset>
+      <text>Most of the MitoA patient&#8208;derived hiPSC clones contained five GPMs in addition to the MELAS mutation (m.3243A&gt;G): m.2269G&gt;A in MT&#8208;RNR2 (16S rRNA), m.4112T&gt;C in MT&#8208;ND1, m.5133A&gt;G in MT&#8208;ND2, m.9547G&gt;A in MT&#8208;CO3, and m.13918T&gt;C in MT&#8208;ND5 (Fig&#160;2A). Notably, most of the clones that were wild type at position 3243 had the mutation m.9547G&gt;A at different levels of heteroplasmy. In contrast, clones harboring a mutation at position 3243 were wild type at position 9547, but exhibited different levels of point mutations m.4112T&gt;C and m.5133A&gt;G. These results suggest two clearly mitochondrial genotypes in hiPSCs derived from MitoA patient fibroblasts. However, due to the mosaicism in the original fibroblasts, we found hiPSC clones with a different mitochondrial genotype such as MitoA clone 217 (wild type at position 3243 [i.e., 3243A]), with two GPMs with ~80% mutation at m.2269G&gt;A and m.13918T&gt;C, that were not found in any of the other 3243A MitoA hiPSC clones. Moreover, three of the 3243G MitoA hiPSC clones (#224, 61, and 67) had no mutation at positions 4112 or 5133. As expected, all MitoA hiPSC clones have the same haplotype as the original dermal fibroblasts: T2b (Table&#160;EV4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12904</offset>
+      <text>Similar results were found in MitoB patient&#8208;derived hiPSC clones, containing two GPMs besides the MELAS mutation: m.1082A&gt;G in MT&#8208;RNR1 (12S rRNA) and m.12005T&gt;C in MT&#8208;ND4 (Fig&#160;2B). Most of the MitoB hiPSC clones that were wild type at 3243 had the mutation m.12005T&gt;C at high levels. On the other hand, high levels of m.3243A&gt;G correlated with high levels of m.1082A&gt;G and the absence or low levels of m.12005T&gt;C. Thus, these results suggest the presence of two main mitochondrial genotypes in MitoB hiPSC clones, having the same haplotype as the parental fibroblasts line: K1a4 (Table&#160;EV4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13504</offset>
+      <text>We then asked whether the GPMs found in hiPSC clones were present in the original dermal fibroblasts. Analysis of the mtDNA NGS data showed that all GPMs found in MitoA hiPSC clones were present in the original fibroblasts (MitoA FB p5), even those at very low levels of heteroplasmy (Fig&#160;2A). Notably, the mutation level of m.9547G&gt;A increased massively during nuclear reprogramming, from 0.5% in the fibroblasts to 53% in MitoA hiPSC clone 58 (Fig&#160;2A). Similarly, all GPMs found in the MitoB hiPSC clones were also present in the parental fibroblasts (MitoB FB p3) (Fig&#160;2B). As with the MitoA&#8208;derived hiPSCs, several MitoB hiPSC clones demonstrated levels of heteroplasmy that were amplified in nuclear reprogramming, most remarkably m.12005T&gt;C, which was present at 4% in the original fibroblasts but increased to 100% in selected clones (MitoB clones 36, 322, and 310) (Fig&#160;2B). Low numbers of GPMs at low mutation load were found in MitoC hiPSC clones (Fig&#160;2C) having the same haplotype as the parental fibroblasts line: I4a1). However, in one out of eleven MitoC hiPSC clones (MitoC&#8208;156), the mutation m.12128T&gt;C was present in the original fibroblasts (MitoC FB p7) at 1% mutation load but increased up to 22% in MitoC&#8208;156 clone (Fig&#160;2C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14762</offset>
+      <text>Our results demonstrated that the mutation load of GPMs, which were present at very low levels in the parental fibroblasts, increased dramatically in the hiPSC clones.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14930</offset>
+      <text>Possible damaging mutations in mtDNA are present in hiPSC clones derived from non&#8208;mitochondrial disease patients</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15045</offset>
+      <text>To evaluate whether the presence of GPMs in bioengineered stem cells are characteristic of mitochondrial disease patient&#8208;derived hiPSCs or were a more common phenomenon associated with nuclear reprogramming and clonal expansion, we sequenced the mtDNA of 84 hiPSC clones distributed among two groups: non&#8208;mitochondrial disease&#8208;derived hiPSCs (control group, with a total of 43 clones generated from 16 individuals; Table&#160;EV1) and mitochondrial disease&#8208;derived hiPSCs (MELAS group with a total of 41 clones generated from the 3 MELAS patients: MitoA, MitoB, and MitoC; Table&#160;EV2) (Fig&#160;3A). Since our goal was to study the prevalence of variants present in both groups without the bias of the mutation in tRNALeu(UUR), we eliminated the m.3243A&gt;G point mutation in the MELAS group from our analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15854</offset>
+      <text>mtDNA next&#8208;generation sequencing of 84 hiPSC clones</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15908</offset>
+      <text>mtDNA NGS performed in 84 hiPSC clones distributed in non&#8208;mitochondrial disease group (n&#160;=&#160;43 hiPSCs derived from 16 individuals) and MELAS group (n&#160;=&#160;41 hiPSCs derived from 3 patients). See also Tables&#160;EV1 and EV2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16131</offset>
+      <text>Distribution of GPMs with mutation load lower or &gt;&#160;10%, in control and MELAS groups. The majority of GPMs are present at levels lower than 10% in either group. SNV, single nucleotide variant.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16324</offset>
+      <text>Location of GPMs greater than 10% in mtDNA. SNV, single nucleotide variant.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16400</offset>
+      <text>PolyPhen2 damaging score corresponding to those GPMs residing in protein&#8208;coding genes. Potentially damaging mutations (score close to 1.0) are present in both groups.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16569</offset>
+      <text>Analysis of the GPMs showed that most of the heteroplasmic variants were present at levels lower than 10% in both control and MELAS groups (Fig&#160;3B). However, we prioritized mtDNA variants present at greater than 10% heteroplasmy (Tables&#160;EV3 and EV4); we mapped the location of those variants to the mtDNA (D&#8208;loop, rRNA, tRNA, or OXPHOS protein&#8208;coding genes) in both groups (Fig&#160;3C). Notably, no GPMs were found in the D&#8208;loop in either control or MELAS hiPSCs (Fig&#160;3C). Only 15% of the mapped (i.e., &gt;&#160;10%) GPMs were found at tRNA genes in the control group; half of the variants were present in protein&#8208;coding genes in both groups (Fig&#160;3C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17224</offset>
+      <text>To predict whether a specific amino acid substitution might affect protein function, we used the PolyPhen2 algorithm (Adzhubei et&#160;al, 2010). Probably damaging mutations (PolyPhen2 damaging score close to 1) were found in both control and MELAS groups (Fig&#160;3D, Tables&#160;EV3 and EV4). Analysis of the GenBank database revealed that the majority of GPMs were found at low frequency in either control or MELAS groups (Tables&#160;EV3 and EV4). Seven GPMs found in hiPSCs from the control group are not annotated in the MITOMAP database and may represent rare mutations capable of disrupting protein function (Table&#160;1). All mtDNA variants located in protein&#8208;coding regions in the control group have a PolyPhen2 score close to one, indicative of a probably damaging mutation. Moreover, 12 GPMs in the MELAS group are absent from MITOMAP, seven of which are located in protein&#8208;coding genes (Table&#160;1). These results demonstrate that there is a risk of obtaining hiPSC clones with harmful mutations in mtDNA, regardless of whether the parental skin fibroblasts were originated from healthy donors or patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>18328</offset>
+      <text>Global private mutations in mtDNA not annotated in MITOMAP</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>18387</offset>
+      <text>   GPM % heteroplasmy Locus Present in hiPSC PolyPhen2 prediction   rRNA variants in control group  A2220C 45% MT&#8208;RNR2 48H1&#8208;76 NA  rRNA variants in MELAS group  A1082G From 87 to 34% MT&#8208;RNR1 MitoB clones: 30, 34, 35, 37, 43, 233, 311 NA  G2269A 84% MT&#8208;RNR2 MitoA&#8208;217 NA  G2571A 11% MT&#8208;RNR2 MitoA&#8208;224 NA  G1569A 17 and 18% MT&#8208;RNR1 MitoA&#8208;50 and MitoA&#8208;72 NA  G2107A 12 and 14% MT&#8208;RNR2 MitoA&#8208;61 and MitoA&#8208;67 NA  tRNA variants in control group  T12298A 40% MT&#8208;TL2 886H3&#8208;49 NA  tRNA variants in MELAS groupa  NA NA NA NA NA  Protein&#8208;coding genes variants in control group  A12911G 15% MT&#8208;ND5 49H3&#8208;65 Probably damaging; Score: 0.994  T7818C 16% MT&#8208;CO2 49H4&#8208;39 Probably damaging; Score: 0.975  T5002C 19% MT&#8208;ND2 4H1&#8208;8 Probably damaging; Score: 0.962  G13958A 46% MT&#8208;ND5 988H1&#8208;261 Probably damaging; Score: 0.945  G15173A 31% MT&#8208;CYB 988H4&#8208;276 Probably damaging; Score: 1.000  Protein&#8208;coding genes variants in MELAS group  T12005C From 100 to 47% MT&#8208;ND4 MitoB clones: 35, 36, 43, 231, 236, 310, and 322 Benign  T13369C 11 and 20% MT&#8208;ND5 MitoB&#8208;30 and MitoB&#8208;34 Probably damaging; Score: 0.997  T7644C 17% MT&#8208;CO2 MitoB&#8208;310 Probably damaging; Score: 1.000  T13918C 83% MT&#8208;ND5 MitoA&#8208;217 Probably damaging; Score: 0.996  T4112C From 19 to 42% MT&#8208;ND1 MitoA clones: 50, 68, 69, and 72 Probably damaging; Score: 0.954  A5133G From 55 to 79% MT&#8208;ND2 MitoA clones: 50, 68, 69, and 72 Benign  T12128C 22% MT&#8208;ND4 MitoC&#8208;156 Benign</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>19871</offset>
+      <text>m.3243A&gt;G mutation in MT&#8208;TL1 was eliminated from the analysis. NA: not applicable.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19956</offset>
+      <text>hiPSC&#8208;derived cardiomyocytes with GPMs demonstrate impaired mitochondrial respiration</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20044</offset>
+      <text>In order to determine whether GPMs harbored by hiPSC clones affected mitochondrial function in the differentiated progeny, we carried out in&#160;vitro cardiac differentiation (Fig&#160;4A) of seven hiPSC clones derived from patient MitoA with different mtDNA genotypes: MitoA&#8208;57 and MitoA&#8208;65 (wild type); MitoA&#8208;61 and MitoA&#8208;69 (78 and 83% m.3243A&gt;G, respectively); MitoA&#8208;58 and MitoA&#8208;59 (68 and 40% m.9547G&gt;A, respectively); and MitoA&#8208;217 (83% m.2269G&gt;A, 82%m.13918T&gt;C) (Fig&#160;4B). All hiPSC clones had normal karyotype. The quantity and quality of the hiPSC&#8208;derived cardiomyocytes were determined by flow cytometry and immunofluorescence, respectively. High percentages of MitoA hiPSC&#8208;derived cardiomyocytes expressed the mature cardiac markers MF20, cTnT, and cTnI by flow cytometry, demonstrating high quantity hiPSC&#8208;derived cardiomyocytes regardless of the mtDNA genotype (Fig&#160;4C and Table&#160;EV5). Additionally, sarcomeric structures expressed in MitoA&#8208;57&#8208;derived cardiomyocytes (wild type) and MitoA&#8208;69&#8208;derived cardiomyocytes (tRNALeu(UUR) mutant) appeared similar in morphology (Fig&#160;4D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21159</offset>
+      <text>Mitochondrial respiration is impaired in hiPSC&#8208;derived cardiomyocytes with GPMs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21241</offset>
+      <text>In vitro cardiac differentiation protocol with lactate enrichment (from days 14 to 16 after induction) performed in seven isogenic MitoA&#8208;derived hiPSCs with different mtDNA genotypes. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21428</offset>
+      <text>mtDNA NGS showing the position and mutation load of GPMs in seven isogenic MitoA&#8208;derived hiPSC clones and their differentiated counterparts. The mtDNA genotype is stable during in&#160;vitro cardiac differentiation and lactate enrichment. MitoA hiPSCs 57 and 65 (wild type) are labeled in black, MitoA hiPSCs 61 and 69 (m.3243A&gt;G mutant) are labeled in red, and MitoA hiPSCs 58, 59, and 217 (with amplified GPMs in nuclear reprogramming) are labeled in blue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21885</offset>
+      <text>Quantification of the percentage of mature hiPSC&#8208;derived cardiomyocytes in direct differentiation of hiPSC clones. Representative histograms showing the percentage of the cells expressing mature cardiac markers: myosin heavy chain (MF20), troponin T (cTnT), and troponin I (cTnI) by flow cytometry, in MitoA&#8208;57&#8208;derived cardiomyocytes (wild type) and MitoA&#8208;69&#8208;derived cardiomyocytes (83% m.3243A&gt;G). For complete quantification of cardiac markers in all hiPSC&#8208;derived cardiomyocytes generated, see Table&#160;EV5. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22407</offset>
+      <text>Immunofluorescence images of cardiac markers (cTnT and MF20) showing similar sarcomere structures in hiPSC&#8208;derived cardiomyocytes wild type (MitoA&#8208;57) and mutant (MitoA&#8208;69).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22587</offset>
+      <text>Oxygen consumption rate (OCR) in hiPSCs. OCR reported as percentage of that in MitoA&#8208;57 hiPSC, the control line. MitoA&#8208;57 and MitoA&#8208;65 hiPSC wild type (in black), MitoA&#8208;61 and MitoA&#8208;69 m.3243A&gt;G mutant (in red), and MitoA&#8208;58, MitoA&#8208;59, and MitoA&#8208;217 hiPSC&#8208;amplified GPMs (in blue). Data are presented as mean&#160;&#177;&#160;SD, and OCR data are representative 3 biological replicates in all samples.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22995</offset>
+      <text>Oxygen consumption rate in hiPSC&#8208;derived cardiomyocytes at day 19 of cardiac differentiation. OCR reported as percentage of that in MitoA&#8208;57&#8208;derived cardiomyocytes, the control line. MitoA&#8208;57&#8208; and MitoA&#8208;65&#8208;derived cardiomyocytes wild type (in black), MitoA&#8208;61&#8208; and MitoA&#8208;69&#8208;derived cardiomyocyte mutants m.3243A&gt;G (in red), and MitoA&#8208;58&#8208;, MitoA&#8208;59&#8208;, and MitoA&#8208;217&#8208;derived cardiomyocytes with amplified GPMs (in blue). Data are presented as mean&#160;&#177;&#160;SD, and OCR data are representative of two independent in&#160;vitro cardiac differentiation experiments, with at least 3 biological replicates in each sample, and significance established using Student's t&#8208;test. ***P = 0.0003, ****P &lt; 0.0001.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23721</offset>
+      <text>To evaluate whether the mtDNA genotype was altered in the process of in&#160;vitro cardiac differentiation, we performed mtDNA NGS of the seven MitoA hiPSC clones in the induced pluripotent state, along with their differentiated progeny (Fig&#160;4B). The mtDNA sequence and heteroplasmy levels remained essentially unchanged following induction of cardiac differentiation and lactate enrichment of the cardiac lineage (Fig&#160;4B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24143</offset>
+      <text>Finally, we determined whether the mtDNA GPMs revealed through nuclear reprogramming affected mitochondrial oxygen consumption rates in hiPSC clones and their differentiated counterparts. In the induced pluripotent state, all hiPSC clones exhibited similar basal and uncoupled respiration regardless their mtDNA genotype (Fig&#160;4E), being in accordance with previous findings showing that hiPSCs are agnostic to disease&#8208;causing mtDNA mutations due to their low reliance in oxidative metabolism (Folmes et&#160;al, 2013). However, once the cells differentiate into cardiomyocytes, they rely mainly on OXPHOS to produce ATP. As expected, MitoA&#8208;61&#8208; and MitoA&#8208;69&#8208;derived cardiomyocytes containing m.3243A&gt;G in MT&#8208;TL1 at 83% of mutation load, displayed basal&#160;and uncoupled respiration rates significantly lower than their wild&#8208;type counterparts (Fig&#160;4F). Remarkably, MitoA&#8208;58&#8208;derived cardiomyocytes with GPM revealed during nuclear reprogramming (m.9547G&gt;A in MT&#8208;CO3 at 70%) exhibited reduced basal and uncoupled mitochondrial oxygen consumption compared with their wild&#8208;type counterparts. The pathogenic effect of this GPM could lead to similar functional defects than MELAS causing disease mutation, when the mutation load reaches the 70%. MitoA&#8208;59&#8208;derived cardiomyocytes harboring the same mutation (m.9547G&gt;A) at 40% heteroplasmy did not show reduced mitochondrial oxygen consumption, demonstrating the required mtDNA mutational threshold to show the mitochondrial defect (Fig&#160;4F). It should be noted that not all the GPMs at high levels of mutation affected mitochondrial oxygen consumption. The MitoA&#8208;217&#8208;derived cardiomyocytes containing the m.13918T&gt;C mutation in MT&#8208;ND5 at 83% exhibited basal and uncoupled respiration rates similar to controls (Fig&#160;4F). These results suggest that analysis of GPMs provides a useful tool for screening for potentially damaging mutations in mtDNA; however, functional analyses are necessary to confirm any causal role.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>26130</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26141</offset>
+      <text>Functional variability among hiPSC clones derived from the same individual is one of the primary challenges to interpret and obtain reproducible results. Here, we reported mutations in mtDNA as a potential source in this intra&#8208;person variability. It is important to note that other sources of variability have been reported previously in nuclear genes, like full or partial chromosomal aberrations (Mayshar et&#160;al, 2010) and copy number variants (Hussein et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26613</offset>
+      <text>In order to elucidate whether low levels of heteroplasmic pathogenic mtDNA variants present in donor's fibroblasts can be segregated during nuclear reprogramming, we performed mtDNA next&#8208;generation sequencing in 84 hiPSC clones derived from a cohort of 19 individuals (16 non&#8208;mitochondrial and 3 mitochondrial disease patients). It has been previously shown that the segregation of mtDNA during nuclear reprogramming mirrors the original mosaicism present in the parental fibroblast population (Cherry et&#160;al, 2013; Folmes et&#160;al, 2013), phenomenon that was further confirmed by other groups (Ma et&#160;al, 2015; Yokota et&#160;al, 2015). However, other studies suggest that mtDNA segregation is likely a consequence of the mitochondrial genetic bottleneck during nuclear reprogramming (Hamalainen et&#160;al, 2013). Our results suggest that both phenomena may work together revealing mtDNA mutations originally present at low level of mutation load in the original fibroblasts. Previously, nuclear reprogramming was reported as the cause of new mtDNA mutations in hiPSCs (Prigione et&#160;al, 2011). Similar results were reported recently (Kang et&#160;al, 2016) showing low amount of shared mutation between hiPSC clones and the parental fibroblasts. However, our results obtained from mtDNA NGS analysis of 36 hiPSC clones and their parental dermal patient fibroblasts showed that all mtDNA variants present in the bioengineered stem cells were also present in the corresponding fibroblasts. mtDNA variants are exposed up to 100&#8208;fold during nuclear reprogramming (e.g., from 0.5% of m.9547G&gt;A in the MitoA fibroblasts, up to 53% in MitoA clone 58). The extremely high depth of sequencing that was performed allowed us to separate the low level of heteroplasmy from the background noise. That could be a reason why low level of heteroplasmic mutations was not detected in previous studies in hiPSCs. Our results are in accordance with the Universal Heteroplasmy Theory (Payne et&#160;al, 2013) where very low level of heteroplasmy point mutations (&lt;&#160;1%) appears to be a universal finding among different healthy individuals. Furthermore, the mutation m.9547G&gt;A is annotated in MITOMAP as a somatic mutation. In accordance with the Universal Heteroplasmy Theory, the origin of such very low&#8208;level heteroplasmic variance is likely due to both inherited and somatic single base substitutions (Payne et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29012</offset>
+      <text>Moreover, mtDNA NGS analysis of 36 hiPSC clones derived from the three MELAS patients showed that some GPMs co&#8208;segregate with the MELAS causing disease mutation. hiPSC clones wild type at 3243 position carried a GPM in mtDNA (m.9547&#160;G&gt;A in MitoA hiPSC clones or m.12005T&gt;C in MitoB hiPSC clones). Mutant hiPSC clones at 3243 did not harbor those specific mutations, but others GPMs raised like m.4112T&gt;C and m.5133A&gt;G in MitoA hiPSC clones or m.1082A&gt;G in MitoB hiPSC clones. We propose two possible explanations about the co&#8208;segregation of different mitochondrial genotypes in nuclear reprogramming. One is that the segregation of mtDNA is likely determined by nucleoid organization (mtDNA molecules and protein assemblages) during nuclear reprogramming (Gilkerson et&#160;al, 2008; Spelbrink, 2010). In this model, wild&#8208;type 3243 mtDNA molecules are associated with mutant 9547 mtDNA molecules in MitoA hiPSCs, likely through physical association in nucleoids. The second explanation is that both mutations m.3243A&gt;G and m.9547G&gt;A may not coexist in the same cell due to the detrimental effect of both mutations in mitochondrial function, and mitochondria with both mutations are likely degraded through mitophagy (Narendra et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30256</offset>
+      <text>Due to the range of mutation loads found in hiPSC clones, it is possible to select those hiPSC clones harboring a high percentage of a pathogenic mtDNA mutation (&#8220;disease state&#8221;), along with those containing very low or no detectable levels of that mutation (&#8220;healthy state&#8221;). Thus, the ability to distinguish between mutated and wild&#8208;type hiPSC clones provides a tremendous advantage to the mitochondrial field, allowing for the examination of mtDNA&#8208;mutant and wild&#8208;type hiPSCs without the need for any additional genomic editing (Folmes et&#160;al, 2013; Hamalainen et&#160;al, 2013; Ma et&#160;al, 2015). However, our results showed the necessity to perform mtDNA NGS to evaluate the presence of additional GPMs, which at high mutation load may have a mitochondrial respiration defect.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31047</offset>
+      <text>Our results demonstrate that potentially damaging mutations are present in hiPSCs derived from both mitochondrial disease patients and healthy human individuals. Analyses of mtDNA NGS in 84 hiPSCs showed that mtDNA variants with a pathogenic potential can be amplified in patient&#8208;specific hiPSCs. Eight out of 41 hiPSC clones in the control group had a potential level of damaging mutation at &gt;&#160;10%. Our results are in accordance with recent findings of the 1000 Genome Project, where at least 20% of individuals harbor heteroplasmies implicated in disease (Ye et&#160;al, 2014). Moreover, mtDNA variants can be a consequence of replication errors and clonal expansion in the original dermal fibroblasts. Accumulation of those replication errors over a life span may correspond to an aging phenotype (Pinto &amp; Moraes, 2015). Our results show that low levels of heteroplasmic mtDNA variants are revealed in nuclear reprogramming regardless of donor's age, as we found GPMs exhibiting heteroplasmy levels in excess of 10% in hiPSC clones derived from individuals from 1&#160;month of age to 44&#160;years of age in control group (Fig&#160;EV2), supporting the Universal Heteroplasmy Theory as the process responsible for the differences exposed in mtDNA during nuclear reprogramming, rather than an accumulation of somatic mutations with age (Kang et&#160;al, 2016). Our findings demonstrate that hidden mtDNA heteroplasmy can profoundly affect hiPSC function when differentiated into cardiac lineages and is consistent with emerging evidence that indicates a generalizable mechanism inherent to clonal expansion of hiPSC clones (Kang et&#160;al, 2016). Additionally, our data establish that all ages of patients and independent of mitochondrial disease phenotype are vulnerable to mtDNA load. Conversely, low heteroplasmy hiPSC clones are commonly identified even from mitochondrial patients expected to have high heteroplasmy based on clinical presentation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32983</offset>
+      <text>Heteroplasmic mtDNA variants are revealed through nuclear reprogramming regardless of donor's age</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33081</offset>
+      <text>Percentage of mutation load versus the donors' age at skin biopsy in control group.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33165</offset>
+      <text>In addition to maintaining patient&#8208;specific mtDNA mutations in hiPSCs, nuclear reprogramming with clonal expansion can reveal low&#8208;level inherited or somatic mtDNA variants up to levels capable of compromising mitochondrial respiration in the differentiated progeny from specific clones. Upon successful in&#160;vitro cardiac differentiation of hiPSCs harboring mutations in mtDNA, these results demonstrate that heteroplasmy levels of mtDNA variants remain stable during differentiation and allow for genotype/phenotype analysis. Moreover, hiPSC&#8208;derived cardiomyocytes with point mutations revealed during nuclear reprogramming like m.9547G&gt;A displayed significantly impaired mitochondrial respiration similar to m.3243A&gt;G MELAS causing disease mutation. The cardiac differentiation potential of the hiPSCs harboring those mutations was not affected. It is well established that patients with mitochondrial disease develop cardiac manifestations like hypertrophic and dilated cardiomyopathy, arrhythmias, left ventricular myocardial non&#8208;compaction, and heart failure (Meyers et&#160;al, 2013). More experimental work is necessary to modeling this defect in&#160;vitro. Remarkably, our results demonstrated that the purifying selection observed in the mitochondrial embryonic bottleneck in mice (Stewart et&#160;al, 2008), where the mutations that are likely to affect a mtDNA&#8208;encoded protein are being strongly selected against, is not present during nuclear reprogramming. Thus, nuclear reprogramming produces hiPSCs with mutations in protein&#8208;coding genes with potentially damaging effects in the differentiated progeny required for most hiPSC applications.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34820</offset>
+      <text>Our results underscore the potential of using mtDNA NGS in patient&#8208;specific hiPSCs to characterize possible pathogenic mtDNA variants that have detrimental effects in the differentiated progeny and usually are at very low levels of heteroplasmy in the parental fibroblasts and typically ignored. Our analysis of global private mutations using HaploGrep software together with functional analyses of mitochondrial oxygen consumption in the differentiated progeny is a powerful tool for screening for potentially damaging mtDNA variants in hiPSCs. We propose mtDNA sequencing as an important release criterion for selection of hiPSC clones, in addition to assays already being extensively employed like colony morphology, DNA fingerprint analysis, karyotype, RNA profiling, and teratoma formation. We believe that mtDNA NGS will become a critical tool in regenerative medicine due to the ability to screen and identify potentially damaged hiPSC clones and prevent unintended consequences due to intra&#8208;person variability.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>35843</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35865</offset>
+      <text>hiPSC generation, characterization, and culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35913</offset>
+      <text>Skin biopsies from 16 non&#8208;mitochondrial disease patients (control group) were obtained in accordance with Mayo Clinic institutional regulations (Mayo Clinic IRB 10&#8208;006845, Clinical Trials Identifier NCT01860898) (Table&#160;EV1). Similarly, skin biopsies from three unrelated MELAS patients (CUMC&#8208;MitoA [MitoA], CUMC&#8208;BM [MitoB], and CUMC&#8208;MitoC [MitoC]) with the same mutation m.3243A&gt;G in MT&#8208;TL1 (tRNALeu(UUR)) at different heteroplasmy levels (17, 45, 46%) were obtained in accordance with Columbia University regulations (Table&#160;EV2).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36458</offset>
+      <text>All primary human skin fibroblasts were reprogrammed by ReGen Theranostics (Rochester, MN) with similar efficiency, using CytoTune&#8208;iPS Sendai Reprogramming Kits according to manufacturer's instructions (Invitrogen, A13780&#8208;02, A16517, A16518). MELAS fibroblasts and derived hiPSC were supplemented with 50&#160;&#956;g/ml of uridine. All hiPSC clones were culture in mTeSR1 medium (STEMCELL Technologies). An average of 14 hiPSC clones from MitoA, MitoB, and MitoC patients were expanded and further characterized by matched fingerprint analysis with the original fibroblasts, 88% of them had normal karyotype. Finger printing analyses were performed by CellLine Genetics (Madison, WI). Karyotype analyses were performed by the Cytogenetics Core at Mayo Clinic.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37215</offset>
+      <text>Determination of MELAS mutation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37247</offset>
+      <text>To quantify the heteroplasmy levels of the mutation m.3243A&gt;G in hiPSC clones, polymerase chain reaction&#8211;restriction fragment length polymorphism (PCR&#8208;RFLP) analyses were performed using the oligos 5&#8242;&#8208;CGTTTGTTCAACGATTAAAG&#8208;3&#8242; and 5&#8242;&#8208;AGCGAAGGGTTGTAGTAGCC&#8208;3&#8242; following restriction digestion using ApaI. Fragments were analyzed following electrophoresis through a 10% polyacrylamide gel.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37651</offset>
+      <text>mtDNA next&#8208;Generation sequencing and analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37699</offset>
+      <text>Whole mtDNA NGS was performed by the Department of Laboratory Medicine and Pathology Molecular Genetics Laboratory and the Medical Genome Facility at Mayo Clinic, using the revised Cambridge reference sequence (rCRS; GenBank accession # NC_012920.1) as the reference sequence for the mtDNA. Two overlapping long&#8208;range PCR (LR&#8208;PCR) products (11,745 and 5,277&#160;bp) of the complete 16,569&#8208;bp mitochondrial genome, originating from a total DNA specimen, were visually confirmed by agarose gel electrophoresis and gel imaging. The samples were prepped and sequenced on an Illumina HiSeq 2000 with 51&#8208;bp paired&#8208;end reads.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38325</offset>
+      <text>Analysis of the mtDNA NGS data was performed by the Bioinformatics Core at Mayo Clinic. The paired&#8208;end reads were aligned to the rCRS using Novoalign 2.08.01 (www.novocraft.com) with single nucleotide variants (SNVs) and small insertions/deletions (INDELS) called by Varscan 2.3.5 (Koboldt et&#160;al, 2012). Analysis of the mtDNA variants was performed using HaploGrep v1.0&#8208;140222 software and PhyloTree 16 (van Oven &amp; Kayser, 2009; Kloss&#8208;Brandstatter et&#160;al, 2011). HaploGrep is an algorithm that uses PhyloTree (a regularly updated classification tree of global mtDNA variations) to classify haplogroups of individual samples. HaploGrep further classifies variants that are not contained in a sample's haplogroup based on whether (local private mutations) or not (global private mutations) they are found in other haplogroups.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39157</offset>
+      <text>In vitro cardiac differentiation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39190</offset>
+      <text>hiPSCs were cultured in monolayer for four days prior to cardiac induction. hiPSCs were subjected to direct in&#160;vitro cardiac differentiation as described elsewhere (Burridge et&#160;al, 2014) with small modifications. In brief, cardiac induction was performed in confluent Geltrex&#174; (ThermoFisher A1413301) coated 96&#8208;well plate with 6&#160;&#956;M CHIR99021 (STEMGENT 04&#8208;0004) and 10&#160;ng/ml of recombinant activin A (R&amp;D systems 338&#8208;AC&#8208;01M/CF) for 20&#160;h. At day 3 post&#8208;induction, medium was changed and supplemented with 5&#160;&#956;M IWP2 (TOCRIS 3533) and 10&#160;ng/ml of recombinant human BMP&#8208;4 (R&amp;D systems 314&#8208;BP&#8208;010) for 2&#160;days. Beating cardiomyocyte cultures were subjected to a lactate cardiomyocyte enrichment protocol (Tohyama et&#160;al, 2013) between days 14 and 16 post&#8208;induction in order to increase the percentage of cardiomyocytes in culture, reducing the cell population heterogeneity. At day 16, single&#8208;cell hiPSC&#8208;derived cardiomyocytes were isolated using 0.05&#160;U of TH Research Grade Liberase (SIGMA 5401135001) and 6.3 U of DNase I (SIGMA D4513&#8208;1VL) in RPMI medium (per well of 96&#8208;well plate). Single&#8208;cell hiPSC&#8208;derived cardiomyocytes were replated in Geltrex&#174; coated plates for further analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40415</offset>
+      <text>Flow cytometry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40430</offset>
+      <text>Following the isolation of hiPSC&#8208;derived cardiomyocytes, 250,000 cells were transfer to a 12&#160;&#215;&#160;75&#160;mm flow tube and they were fixed with 5% paraformaldehyde for 15&#160;min. After washing with PBS, cells were permeabilized using solution 2 contained in the Intra Prep permeabilization kit (Beckman Coulter, A07803). hiPSC&#8208;derived cardiomyocytes were stained using Anti&#8208;Myosin Heavy Chain Alexa Fluor&#174; 488 (eBioscience, MF&#8208;20 53&#8208;6503&#8208;82), PE mouse Anti&#8208;Cardiac Troponin T (BD PharmigenTM 564767), and Alexa Fluor&#174; 647 Mouse Anti&#8208;Cardiac Troponin I (BD PharmigenTM 564409) to each stain tube. Finally, tubes were washed with DPBS and assayed by flow cytometry (Beckman Coulter Gallios 10&#8208;color flow cytometer).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41158</offset>
+      <text>Immunofluorescence</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41177</offset>
+      <text>Cells were fixed for 15&#160;min with 4% paraformaldehyde, permeabilized with 1% Triton X&#8208;100 and blocked using Super Block (Thermo P1&#8208;37515). The primary antibodies included monoclonal mouse anti&#8208;MF20 (eBioscience, 1:250) and monoclonal mouse anti&#8208;cTnT (Thermo Scientific MS&#8208;295&#8208;P1ABX, 1:500). Conjugated secondary antibodies (Invitrogen) included Alexa fluor 568 anti&#8208;mouse IgG2b (A21144) and Alexa fluor 488 anti&#8208;mouse IgG1 (A21121), all used at 1:500 dilutions. Nuclei were stained with 4&#8242;,6&#8208;diamidino&#8208;2&#8208;phenylindole (DAPI). Images were acquired with a Zeiss LSM 780 confocal microscope.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41789</offset>
+      <text>Oxygen consumption rate</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41813</offset>
+      <text>Oxygen consumption rates were measured using a XF24 Extracellular Flux Analyzer (Seahorse Biosciences, Billerica Massachusetts). In brief, cells were plated into wells of a XF24 Cell Culture Microplate and maintained until 80% confluent. Prior to assay, plates were equilibrated in unbuffered XF assay medium supplemented with 25&#160;mM glucose, 2&#160;mM glutaMAX, 1&#160;mM sodium pyruvate, 1&#215; non&#8208;essential amino acids, and 1% FBS in the absence of CO2 for 1&#160;h. Mitochondrial processes were interrogated by serial addition of carbonyl cyanide 4&#8208;(trifluoromethoxy)phenylhydrazone (FCCP; 0.3&#160;&#956;M for hiPSCs and 2&#160;&#956;M for hiPSC&#8208;derived cardiomyocytes) and rotenone (0.5&#160;&#956;M) plus antimycin A (1&#160;&#956;M) to establish basal respiration rates and maximal (uncoupled) respiration. Each plotted value was normalized to basal oxygen consumption and total protein quantified using a Bradford assay (Bio&#8208;Rad, Hercules, California), using MitoA clone 57 as control.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42770</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42791</offset>
+      <text>Data are presented as mean&#160;&#177;&#160;SD. Student's t&#8208;test was used to evaluate two group comparisons. A value of P&#160;&lt;&#160;0.05 was considered significant.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42940</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42961</offset>
+      <text>EPC and TJN performed conceptualization. EPC, FS, SR, VE, and DO performed methodology. EPC and JME carried out formal analysis. EPC and ANC carried out investigation. DO, MH, and TJN collected resources. EPC and TJN carried out writing and original draft. EPC, FS, DO, VKM, MH, EAS, AT, and TJN carried out writing and review and editing. EAS, AT, and TJN performed supervision. AT and TNJ carried out funding acquisition.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43385</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43406</offset>
+      <text>Mayo Clinic and authors (AT, TJN) have financial rights to ReGen Theranostics through licensing agreements.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43514</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>43537</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">249</infon>
+      <infon key="pub-id_pmid">20354512</infon>
+      <infon key="fpage">248</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>43548</offset>
+      <text>A method and server for predicting damaging missense mutations</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">860</infon>
+      <infon key="pub-id_pmid">24930130</infon>
+      <infon key="fpage">855</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>43611</offset>
+      <text>Chemically defined generation of human cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">368</infon>
+      <infon key="pub-id_pmid">23673969</infon>
+      <infon key="fpage">357</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43665</offset>
+      <text>Origins and implications of pluripotent stem cell variability and heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Stem Cells</infon>
+      <infon key="lpage">1297</infon>
+      <infon key="pub-id_pmid">23400930</infon>
+      <infon key="fpage">1287</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43745</offset>
+      <text>Induced pluripotent stem cells with a mitochondrial DNA deletion</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">606</infon>
+      <infon key="pub-id_pmid">23122287</infon>
+      <infon key="fpage">596</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>43810</offset>
+      <text>Metabolic plasticity in stem cell homeostasis and differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Stem Cells</infon>
+      <infon key="lpage">1308</infon>
+      <infon key="pub-id_pmid">23553816</infon>
+      <infon key="fpage">1298</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43876</offset>
+      <text>Disease&#8208;causing mitochondrial heteroplasmy segregated within induced pluripotent stem cell clones derived from a patient with MELAS</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Metab</infon>
+      <infon key="lpage">271</infon>
+      <infon key="pub-id_pmid">21803296</infon>
+      <infon key="fpage">264</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44010</offset>
+      <text>Somatic oxidative bioenergetics transitions into pluripotency&#8208;dependent glycolysis to facilitate nuclear reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">181</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1128</infon>
+      <infon key="pub-id_pmid">18573913</infon>
+      <infon key="fpage">1117</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44131</offset>
+      <text>Mitochondrial nucleoids maintain genetic autonomy but allow for functional complementation</text>
+    </passage>
+    <passage>
+      <infon key="volume">348</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">653</infon>
+      <infon key="pub-id_pmid">2102678</infon>
+      <infon key="fpage">651</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>44222</offset>
+      <text>A mutation in the tRNA(Leu)(UUR) gene associated with the MELAS subgroup of mitochondrial encephalomyopathies</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E3630</infon>
+      <infon key="pub-id_pmid">24003133</infon>
+      <infon key="fpage">E3622</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44332</offset>
+      <text>Tissue&#8208; and cell&#8208;type&#8208;specific manifestations of heteroplasmic mtDNA 3243A&gt;G mutation in human induced pluripotent stem cell&#8208;derived disease model</text>
+    </passage>
+    <passage>
+      <infon key="volume">471</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">62</infon>
+      <infon key="pub-id_pmid">21368824</infon>
+      <infon key="fpage">58</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44487</offset>
+      <text>Copy number variation and selection during reprogramming to pluripotency</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">636</infon>
+      <infon key="pub-id_pmid">27151456</infon>
+      <infon key="fpage">625</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44560</offset>
+      <text>Age&#8208;Related Accumulation of Somatic Mitochondrial DNA Mutations in Adult&#8208;Derived Human iPSCs</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Hum Mutat</infon>
+      <infon key="lpage">32</infon>
+      <infon key="pub-id_pmid">20960467</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44657</offset>
+      <text>HaploGrep: a fast and reliable algorithm for automatic classification of mitochondrial DNA haplogroups</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">576</infon>
+      <infon key="pub-id_pmid">22300766</infon>
+      <infon key="fpage">568</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44760</offset>
+      <text>VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">159</infon>
+      <infon key="pub-id_pmid">23910082</infon>
+      <infon key="fpage">149</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44855</offset>
+      <text>Genetic and epigenetic variations in iPSCs: potential causes and implications for application</text>
+    </passage>
+    <passage>
+      <infon key="volume">524</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">238</infon>
+      <infon key="pub-id_pmid">26176921</infon>
+      <infon key="fpage">234</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44949</offset>
+      <text>Metabolic rescue in pluripotent cells from patients with mtDNA disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">531</infon>
+      <infon key="pub-id_pmid">20887957</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45020</offset>
+      <text>Identification and classification of chromosomal aberrations in human induced pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Tex Heart Inst J</infon>
+      <infon key="lpage">394</infon>
+      <infon key="pub-id_pmid">24082366</infon>
+      <infon key="fpage">385</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45121</offset>
+      <text>Mitochondrial cardiomyopathy: pathophysiology, diagnosis, and management</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">2051</infon>
+      <infon key="pub-id_pmid">23940280</infon>
+      <infon key="fpage">2047</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45194</offset>
+      <text>Clonal genetic and hematopoietic heterogeneity among human&#8208;induced pluripotent stem cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">183</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">803</infon>
+      <infon key="pub-id_pmid">19029340</infon>
+      <infon key="fpage">795</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45291</offset>
+      <text>Parkin is recruited selectively to impaired mitochondria and promotes their autophagy</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">1221</infon>
+      <infon key="pub-id_pmid">21317531</infon>
+      <infon key="fpage">1217</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45377</offset>
+      <text>Single cell transcriptional profiling reveals heterogeneity of human induced pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Hum Mutat</infon>
+      <infon key="lpage">E394</infon>
+      <infon key="pub-id_pmid">18853457</infon>
+      <infon key="fpage">E386</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>45477</offset>
+      <text>Updated comprehensive phylogenetic tree of global human mitochondrial DNA variation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">390</infon>
+      <infon key="pub-id_pmid">23077218</infon>
+      <infon key="fpage">384</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45561</offset>
+      <text>Universal heteroplasmy of human mitochondrial DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="source">Free Radic Biol Med</infon>
+      <infon key="lpage">258</infon>
+      <infon key="pub-id_pmid">25979659</infon>
+      <infon key="fpage">250</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45611</offset>
+      <text>Mechanisms linking mtDNA damage and aging</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Stem Cells</infon>
+      <infon key="lpage">1348</infon>
+      <infon key="pub-id_pmid">21732474</infon>
+      <infon key="fpage">1338</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45653</offset>
+      <text>Human induced pluripotent stem cells harbor homoplasmic and heteroplasmic mitochondrial DNA mutations while maintaining human embryonic stem cell&#8208;like metabolic reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">890</infon>
+      <infon key="pub-id_pmid">23154810</infon>
+      <infon key="fpage">878</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45830</offset>
+      <text>Human mitochondrial DNA: roles of inherited and somatic mutations</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">17</infon>
+      <infon key="pub-id_pmid">25575079</infon>
+      <infon key="fpage">13</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45896</offset>
+      <text>Generating iPSCs: translating cell reprogramming science into scalable and robust biomanufacturing strategies</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">IUBMB Life</infon>
+      <infon key="lpage">32</infon>
+      <infon key="pub-id_pmid">20014006</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>46006</offset>
+      <text>Functional organization of mammalian mitochondrial DNA in nucleoids: history, recent developments, and future challenges</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">662</infon>
+      <infon key="pub-id_pmid">18695671</infon>
+      <infon key="fpage">657</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>46127</offset>
+      <text>Purifying selection of mtDNA and its implications for understanding evolution and mitochondrial disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">872</infon>
+      <infon key="pub-id_pmid">18035408</infon>
+      <infon key="fpage">861</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46231</offset>
+      <text>Induction of pluripotent stem cells from adult human fibroblasts by defined factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">137</infon>
+      <infon key="pub-id_pmid">23168164</infon>
+      <infon key="fpage">127</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46315</offset>
+      <text>Distinct metabolic flow enables large&#8208;scale purification of mouse and human pluripotent stem cell&#8208;derived cardiomyocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">123</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">1412</infon>
+      <infon key="pub-id_pmid">23543062</infon>
+      <infon key="fpage">1405</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46440</offset>
+      <text>A mitochondrial bioenergetic etiology of disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10659</infon>
+      <infon key="pub-id_pmid">25002485</infon>
+      <infon key="fpage">10654</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46489</offset>
+      <text>Extensive pathogenicity of mitochondrial heteroplasmy in healthy human individuals</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">4709</infon>
+      <infon key="pub-id_pmid">26025377</infon>
+      <infon key="fpage">4698</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46572</offset>
+      <text>Mitochondrial respiratory dysfunction caused by a heteroplasmic mitochondrial DNA mutation blocks cellular reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">318</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1920</infon>
+      <infon key="pub-id_pmid">18029452</infon>
+      <infon key="fpage">1917</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46693</offset>
+      <text>Induced pluripotent stem cell lines derived from human somatic cells</text>
+    </passage>
+  </document>
+</collection>

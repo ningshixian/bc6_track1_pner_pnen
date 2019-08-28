@@ -1,0 +1,1152 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5048371</id>
+    <passage>
+      <infon key="name_2">surname:Smythies;given-names:James</infon>
+      <infon key="name_3">surname:Choudhry;given-names:Hani</infon>
+      <infon key="name_0">surname:Platt;given-names:James L</infon>
+      <infon key="name_1">surname:Salama;given-names:Rafik</infon>
+      <infon key="name_6">surname:Ratcliffe;given-names:Peter J</infon>
+      <infon key="alt-title">James L Platt et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642198</infon>
+      <infon key="name_5">surname:Hughes;given-names:Jim R</infon>
+      <infon key="lpage">1421 1421</infon>
+      <infon key="fpage">1410 1410</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Mole;given-names:David R</infon>
+      <infon key="name_4">surname:Davies;given-names:James OJ</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embr.201642198</infon>
+      <infon key="article-id_pmid">27506891</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="issue">10</infon>
+      <infon key="kwd">Capture&#8208;C chromatin cis&#8208;interaction HIF Hypoxia Chromatin, Epigenetics, Genomics &amp; Functional Genomics Transcription</infon>
+      <infon key="volume">17 17</infon>
+      <infon key="pub-id_pmid">27506891</infon>
+      <infon key="article-id_pmc">5048371</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <offset>0</offset>
+      <text>Capture&#8208;C reveals preformed chromatin interactions between HIF&#8208;binding sites and distant promoters</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>103</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>112</offset>
+      <text>Hypoxia&#8208;inducible factor (HIF) directs an extensive transcriptional cascade that transduces numerous adaptive responses to hypoxia. Pan&#8208;genomic analyses, using chromatin immunoprecipitation and transcript profiling, have revealed large numbers of HIF&#8208;binding sites that are generally associated with hypoxia&#8208;inducible transcripts, even over long chromosomal distances. However, these studies do not define the specific targets of HIF&#8208;binding sites and do not reveal how induction of HIF affects chromatin conformation over distantly connected functional elements. To address these questions, we deployed a recently developed chromosome conformation assay that enables simultaneous high&#8208;resolution analyses from multiple viewpoints. These assays defined specific long&#8208;range interactions between intergenic HIF&#8208;binding regions and one or more promoters of hypoxia&#8208;inducible genes, revealing the existence of multiple enhancer&#8211;promoter, promoter&#8211;enhancer, and enhancer&#8211;enhancer interactions. However, neither short&#8208;term activation of HIF by hypoxia, nor long&#8208;term stabilization of HIF in von Hippel&#8211;Lindau (VHL)&#8208;defective cells greatly alters these interactions, indicating that at least under these conditions, HIF can operate on preexisting patterns of chromatin&#8211;chromatin interactions that define potential transcriptional targets and permit rapid gene activation by hypoxic stress.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1529</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1542</offset>
+      <text>Hypoxia&#8208;inducible factor (HIF) is the key transcription factor regulating transcriptional responses to hypoxia and is central to the pathogenesis of many human diseases including cancer. The DNA binding complex compromises an oxygen&#8208;regulated alpha&#8208;subunit, which dimerizes with a constitutively expressed beta&#8208;subunit and binds to cis&#8208;acting hypoxia response elements containing a core &#8220;RCGTG&#8221; consensus sequence 1, 2. Activation of HIF directs a broad range of inducible responses, which vary according to cellular and pathophysiological context 3, raising questions as to how different responses are specified.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2170</offset>
+      <text>Recent advances in high&#8208;throughput DNA sequencing have facilitated pan&#8208;genomic analyses of the architecture of HIF transcriptional response and are beginning to shed light on these processes 4, 5, 6, 7. These studies have revealed hundreds to thousands of HIF&#8208;binding sites across the genome. As expected, a proportion of these sites clusters with annotated promoters. However, approximately 30% of HIF&#8208;1 &amp; 50% of HIF&#8208;2 binding sites are more than 10 kb away from their nearest annotated gene 7. Tests of association with hypoxia&#8208;inducible transcripts, such as gene set enrichment analyses (GSEA), have demonstrated clear statistical association with positive effects on gene expression, suggesting that at least some of these loci are hypoxia&#8208;inducible transcriptional enhancers 7. However, with the exception of a small number of loci 8, 9, physical association with a hypoxia&#8208;inducible promoter has not been defined. Nor is it known whether any such associations are induced following exposure of cells to hypoxia and/or the binding of HIF to DNA or whether they are present prior to the induction of HIF and contribute to the cell&#8208;type&#8208;specific operation of the HIF transcriptional response. These questions are of interest both mechanistically, since hypoxia has been reported to affect chromatin structure 10, 11, 12, 13, and medically, since specific therapeutic modulation (both positive and negative) of components of the hypoxic transcriptional response is a major focus for pharmaceutical development 14, 15.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3710</offset>
+      <text>To address these, and related questions as to the number and range of interactions made by HIF&#8208;binding sequences under different inducing conditions, we deployed a recently developed multiplexed assay of chromatin conformation 16, 17 in normoxic and hypoxic cells, and in renal cancer cells in which HIF is activated in normoxia by inactivation of the von Hippel&#8211;Lindau (pVHL) E3 ubiquitin ligase 18. This technology enabled the detection of an average of approximately 6,000 unique ligation junctions at each of 38 viewpoints overlapping selected promoter&#8208;distant HIF&#8208;binding sites and gene promoters. Our findings revealed that these intergenic HIF&#8208;binding regions commonly interact with the promoters of hypoxia&#8208;inducible genes. They demonstrated cis&#8208;acting chromatin interactions from HIF&#8208;binding regions to multiple types of DNA element, including both the promoters of hypoxia&#8208;inducible genes and other distant elements over distances of up to 250 kb. The findings also revealed that most intergenic regions that bind HIF in hypoxic cells bear the marks of active enhancers in normoxic cells and that cis&#8208;interactions between these sites and hypoxia responsive promoters are already established, with few changes occurring during induction of the HIF response by hypoxia. Taken together with other recent analyses of the HIF response, the results support a model of gene regulation whereby many HIF&#8208;binding sites and their target promoters are accessible, functionally annotated, active, and associated in close proximity prior to HIF binding, ready to effect a rapid transcriptional response through release of promoter&#8208;paused RNApol2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5377</offset>
+      <text>Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5400</offset>
+      <text>Chromatin environment at distal HIF&#8208;binding sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5452</offset>
+      <text>To investigate HIF&#8208;binding sites that are distant from annotated gene promoters or transcribed regions of the genome 7, we first defined whether these distal sites carry histone modifications consistent with enhancers rather than unidentified promoters. ChIP&#8208;seq was performed in MCF&#8208;7 cells, incubated in normoxia or hypoxia (0.5% oxygen, 16 h), using antibodies to H3K4me1 and H3K27ac, and analyzed together with RNA&#8208;seq and H3K4me3, RNApol2 and HIF ChIP&#8208;seq datasets obtained previously under similar conditions 4 as well as DNase&#8208;seq analyses published by ENCODE (GSE32970) (Fig 1A&#8211;N). Importantly, HIF binding was highly inducible by hypoxia, with almost no detectable levels of normoxic HIF&#8208;1&#946; binding (Fig 1A and B). HIF&#8208;binding sites that were more than 10 kb from annotated transcriptional start sites were associated with negligible levels of RNA expression compared with gene bodies (Fig 1C and D). We were unable to confidently observe eRNAs, most probably because the total RNA&#8208;seq data were not sequenced to sufficient depth. These promoter&#8208;distal HIF&#8208;binding sites were highly accessible compared to promoters and were strongly enriched for the enhancer mark H3K4me1, with lower levels of H3K4me3 19, 20 (Fig 1E&#8211;J).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6710</offset>
+      <text>HIF&#8208;bound enhancers are in a poised state in normoxia</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6766</offset>
+      <text>Averaged signals at promoter&#8208;distal (&gt; 10 kb) HIF&#8208;binding sites and at the promoters of hypoxia&#8208;regulated genes for comparison are shown for HIF&#8208;1&#946; ChIP&#8208;seq (A, B), total RNA&#8208;seq (C, D), DNase&#8208;seq (E, F), H3K4me1 ChIP&#8208;seq (G, H), H3K4me3 ChIP&#8208;seq (I, J), H3K27ac ChIP&#8208;seq (K, L), and RNApol2 ChIP&#8208;seq (M, N). Median RPKM (reads per kilobase per million reads, scaled to background signal) from normoxic (red) and hypoxic (blue) MCF&#8208;7 cells are plotted for &#177; 10&#8208;kb flanking regions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7276</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7279</offset>
+      <text>Although levels of H3K4me1 were unchanged at promoter&#8208;distal HIF&#8208;binding sites in hypoxia (Fig 1G), H3K27ac and RNApol2 signals were increased (Fig 1K and M) consistent with increased enhancer activity in hypoxia 21. However, H3K27ac and RNApol2 were also present at these sites in normoxia before HIF binds. Similarly, RNApol2 was present across the gene bodies of hypoxia&#8208;regulated genes (Fig 1N) indicating that they are transcribed, at lower levels (Fig 1D), before HIF is stabilized in hypoxia. This supports a model in which promoter&#8208;distant HIF binding can occur at enhancers that are already partially active in normoxic cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7923</offset>
+      <text>Chromatin interactions with HIF&#8208;bound enhancers</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7973</offset>
+      <text>To determine how these putative HIF&#8208;bound enhancers act on their target promoters, we next examined chromatin cis&#8208;interactions with a subset of promoter&#8208;distant, HIF&#8208;binding sites (Appendix Table S1). As expected, these co&#8208;localized with ChIP&#8208;seq signals for H3K4me1 and H3K27ac (e.g., Fig 2A). We first studied hypoxic MCF&#8208;7 cells and analyzed cis&#8208;interactions with 18 intergenic HIF&#8208;binding sites that were &gt; 10 kb (median 74 kb, mean 125 kb) away from any annotated promoter, using Capture&#8208;C 16, 17. Capture&#8208;C is a derivative of the chromatin conformation capture (3C) technique 22, coupled with oligonucleotide enrichment and high&#8208;throughput sequencing. Capture&#8208;C allows discovery of previously unknown distant interacting elements (promoters, enhancers, CTCF sites, etc.) from multiple &#8220;viewpoints&#8221; (in this case HIF&#8208;binding sites) in parallel and at high resolution. Each experiment was performed in duplicate and demonstrated a high degree of reproducibility (Appendix Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8990</offset>
+      <text>Distant HIF&#8208;binding sites make physical contact with the promoters of HIF target genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9079</offset>
+      <text>Capture&#8208;C from hypoxic MCF&#8208;7 cells (top) and ChIP&#8208;seq tracks for subunits of HIF, H3K4me1, H3K27ac, CTCF, and RNA&#8208;seq in normoxic and hypoxic MCF&#8208;7 cells as indicated at the ARRDC3 (arrestin domain containing 3) and LUCAT1 (lung cancer associated transcript 1, non&#8208;protein coding) gene loci. RNA&#8208;seq tracks are shown in both low scale and high scale to represent regulation of transcripts with differing transcript levels. Capture&#8208;C was performed using oligonucleotides to a &#8220;viewpoint&#8221; region at the HIF&#8208;binding site (highlighted in red). Interaction with the TSS of both LUCAT1 and ARRDC3 is highlighted in blue. Association with regions, including additional enhancers, is highlighted in green.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9799</offset>
+      <text>Regions associated with HIF&#8208;binding sites were classified according to the presence of a UCSC&#8208;annotated TSS, or coincidence with H3K4me1 or H3K4me3 ChIP&#8208;seq signal. The bar chart shows the average number of each type of site that interacted per HIF&#8208;binding site.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10070</offset>
+      <text>Histogram showing the frequency distribution of elements interacting with HIF&#8208;binding sites according to absolute distance from the &#8220;viewpoint&#8221; site on the horizontal axis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10249</offset>
+      <text>Genes at which the TSS interacted with a HIF&#8208;binding site (D) and genes adjacent to HIF&#8208;binding sites, which did not interact with the site (E), were subjected to GSEA using a ranking metric combining fold&#8208;change in hypoxia and significance 25. The ranking metric on the horizontal axis is shown as a color scale at the bottom. All the genes whose promoters were associated with HIF&#8208;binding sites appeared among the most strongly hypoxia&#8208;induced genes, while non&#8208;interacting genes showed no enrichment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10764</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10767</offset>
+      <text>At 14 of the 18 sites, strong enrichment of sequences at the &#8220;viewpoint&#8221; site was observed confirming efficient capture; sites with poor capture efficiencies were excluded from further analysis. Regions that had a re&#8208;ligation frequency that was significantly greater than a background, modeled on the average distance&#8208;dependent signal decay, were defined as sites of significant cis&#8208;interaction. Each HIF&#8208;binding site showed significant interaction with an average of seven sites (Fig 2B). These cis&#8208;interacting sites were then correlated with UCSC gene annotations and ChIP&#8208;seq analyses of H3K4me3, H3K4me1, H3K27ac, RNApol2, and CTCF binding to define functionally annotated regions. Approximately 50% of cis&#8208;interacting sites contained one or more of the above marks (Fig 2B). Cis&#8208;interacting elements lay predominantly within 250 kb of the HIF&#8208;binding site (Fig 2C) and all were located within the same topologically associating domain (TAD) 23.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11739</offset>
+      <text> Cis&#8208;interactions were identified between HIF&#8208;bound enhancers and at least one annotated gene promoter lying up to 150 kb from the HIF&#8208;binding site at nine of the 14 HIF&#8208;binding sites assayed. Notably, this was not always the nearest gene. At three sites, cis&#8208;interaction with the promoter of a hypoxia&#8208;regulated gene was observed, although the number of interactions was below the level required to be statistically significant. At only two out of 14 HIF&#8208;binding sites was no association with the promoter of a gene detected. Both had evidence for strong HIF binding, although the closest hypoxia&#8208;regulated gene was &gt; 1.5 Mb away. Whether these two sites represent a distinct functional class of HIF&#8208;binding sites will require further analysis. Three sites where cis&#8208;interactions with more than one promoter were seen were all associated with a co&#8208;regulated coding and noncoding gene pairing (e.g., Fig 2A).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12670</offset>
+      <text>Genes whose promoters interacted with distant HIF&#8208;binding sites were enriched among hypoxia&#8208;upregulated transcripts in RNA&#8208;seq analyses as determined by Gene Set Enrichment Analysis (GSEA) 24, using a ranking metric combining fold&#8208;change in hypoxia and significance 25 (Fig 2D). By comparison, adjacent genes whose promoters did not interact were not enriched for hypoxic regulation (Fig 2E) despite the presence of H3K4me3, RNApol2, and RNA&#8208;seq signal at these gene loci. This suggests that the observed chromatin&#8211;chromatin interactions are functional and that Capture&#8208;C may be used to predict the target promoter(s) of intergenic HIF binding elements, even when the genes lie at large distances and are not necessarily the closest locus to the HIF&#8208;binding element. It also provides clear evidence, across multiple gene loci that promoter&#8208;distant HIF&#8208;binding sites can physically interact with hypoxia&#8208;regulated gene promoters.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13621</offset>
+      <text>In addition to showing association with gene promoters, HIF&#8208;binding sites also interacted with an average of approximately three additional distant enhancer elements as characterized by the presence of H3K4me1 and H3K27ac (Fig 2B and Appendix Fig S2). This suggests more extensive convergence between HIF signaling and additional transcriptional regulatory pathways than is apparent from examining sequences local to the HIF&#8208;binding site.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14064</offset>
+      <text>Chromatin interactions with HIF&#8208;regulated promoters</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14118</offset>
+      <text>In addition to observing frequent weak ChIP&#8208;seq signal at sites interacting with a strong peak, several gene loci (e.g., NDRG1, DDIT4, ERRFI1, EGLN3) harbored multiple strong signals of roughly equal intensity, each of which contained a consensus HRE motif. These are among the most hypoxia&#8208;upregulated genes in MCF&#8208;7 cells (ranked 8, 28, 68, and 35, respectively) 4. This raised the question as to whether the promoters of these genes are able to interact with more than one HIF&#8208;binding site. To answer this, we performed Capture&#8208;C using the promoters of these genes as &#8220;viewpoint&#8221; sites. This identified clear association between the promoters of these genes and multiple HIF&#8208;binding sites, both upstream and downstream of the promoter (Fig EV1). As multiple HIF&#8208;bound enhancers are brought into close proximity with the promoters of these genes, this indicates that more than one HIF&#8208;binding site may contribute to the regulation of a single gene, perhaps contributing to greater amplitude of regulation by hypoxia.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15157</offset>
+      <text>Promoter of hypoxia&#8208;regulated gene NDRG1 interacts with multiple HIF&#8208;binding sites</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15244</offset>
+      <text>Capture&#8208;C and ChIP&#8208;seq tracks at the NDRG1 locus, showing that the NDRG1 promoter (bait site highlighted by pink shading) is in close contact with multiple strong HIF&#8208;binding sites (blue shading).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15447</offset>
+      <text>Glycolysis is one of the best&#8208;characterized HIF&#8208;regulated pathways, with at least one isoenzyme catalyzing each step of the pathway being a HIF target gene 4 (Appendix Fig S3). Unexpectedly, inspection of HIF ChIP&#8208;seq signals revealed that these gene loci bound both HIF&#8208;1 and HIF&#8208;2 with similar intensity, at or very close to their promoter, although all but one gene was exclusively regulated by HIF&#8208;1 (Fig EV2A&#8211;C). Interestingly, the exception, HK1, has a HIF&#8208;binding site within an intron of its gene, which although intragenic is (unusually for glycolytic genes) approximately 50 kb from the promoter (Appendix Fig S3). This raised questions as to whether functional selectivity among bound HIF isoforms might be a general function of distance from a promoter. To test this, we interrogated our genomewide datasets 4, 7. This analysis revealed a clear difference between promoter&#8208;proximal and promoter&#8208;distal sites that bound both HIF isoforms. Promoters bound by both HIF&#8208;1 and HIF&#8208;2 were almost entirely upregulated by HIF&#8208;1 alone, whereas promoter&#8208;distant HIF&#8208;binding sites were found to be associated with genes that were upregulated by either or both HIF&#8208;1 and HIF&#8208;2 (Tables EV1 and EV2 and Fig EV3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16692</offset>
+      <text>HIF regulation of the glycolysis pathway</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16733</offset>
+      <text>Averaged HIF1&#945; (blue) and HIF2&#945; (red) ChIP&#8208;seq signals (RPKM) at the HIF&#8208;binding sites closest to the HIF&#8208;regulated glycolysis pathway genes highlighted in Appendix Fig S5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16914</offset>
+      <text>Heatmap showing the changes in expression of HIF&#8208;regulated glycolysis pathway genes (normalized to the control siRNA) when either HIF1&#945; or HIF2&#945; or both are knocked down by siRNA. Genes were ordered by row according to hierarchical clustering.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17166</offset>
+      <text>Frequency histogram showing the distribution of genomic distances between the promoters of glycolytic genes and the closest HIF&#8208;binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17311</offset>
+      <text>Frequency histogram showing the distribution of genomic distances between the promoters of glycolytic genes and all enhancers looping to them.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17454</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17457</offset>
+      <text>Differential transcriptional activation activity of HIF1 and HIF2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17523</offset>
+      <text>Genes bound by HIF at their promoters (2 kb or less).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17577</offset>
+      <text>Genes bound by HIF at distal enhancers (10 kb or more).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17633</offset>
+      <text>Binding sites bound both by HIF1 and HIF2 were identified and classified by the distance from the binding site to the closest TSS. Expression of the closest gene (normalized to the control siRNA) is shown for MCF&#8208;7 cells treated with control siRNA, HIF1&#945; siRNA, HIF2&#945; siRNA or HIF1&#945; and HIF2&#945; siRNA combined. Genes were ordered by row according to hierarchical clustering.   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18025</offset>
+      <text>Since HIF binding at glycolytic gene loci is strongly promoter associated (Fig EV2C), we next determined the distribution of other enhancers at these loci. Despite the promoter&#8208;proximal nature of HIF binding, Capture&#8208;C, using the promoters of these genes as &#8220;viewpoint&#8221; sites, identified frequent interactions with more distant enhancers (Fig EV2D), indicating that the pattern of HIF binding observed does not merely reflect short&#8208;range interactions at these loci.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18501</offset>
+      <text>HIF&#8208;binding sites are precomplexed with interacting elements before HIF binds</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18581</offset>
+      <text>There are reports that certain inducible transcription factors bind to preexisting chromatin complexes 26, 27, 28, 29, while others induce new patterns of interaction 30, 31, 32, 33. However, there have been very few studies that examine the question at high resolution and at scale. Since HIF&#8208;bound enhancers and HIF&#8208;regulated promoters bear active histone modifications prior to HIF stabilization, we next wished to determine whether and to what extent cis&#8208;interactions between these sites were pre&#8208;established or to what extent they were induced by HIF binding. We therefore performed Capture&#8208;C on MCF&#8208;7 cells, incubated in normoxia or hypoxia using the same capture probes to HIF&#8208;binding sites as above. The interaction frequencies in hypoxia correlated strongly with those in normoxia (Fig 3A and B). Only about 3% of cis&#8208;interactions were significantly altered in frequency following stabilization of HIF, and the magnitude of these changes was small (1.4&#8208; to 1.9&#8208;fold). Thus, induction of HIF does not greatly affect the pattern or strength of chromatin&#8211;chromatin interactions from HIF&#8208;bound sequences. To further assess the effect of HIF activation on chromatin structure, we also used ChIP&#8208;seq to examine binding of CTCF, a protein that has been shown to coordinate chromatin architecture 34. Consistent with our Capture&#8208;C analysis, CTCF binding flanking HIF&#8208;binding sites was not significantly altered by hypoxia (Fig 3C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20044</offset>
+      <text>Chromatin interactions with HIF&#8208;binding sites are pre&#8208;established in normoxia</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20126</offset>
+      <text>Capture&#8208;C tracks (averaged across the two replicates) from normoxic (red) and hypoxic (inverted in blue) MCF&#8208;7 cells are shown for each HIF&#8208;binding site captured.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20295</offset>
+      <text>The interaction frequency (normalized to the number of informative reads in each dataset and to the expected distribution of counts at a given distance from the capture site) in hypoxia (vertical axis) was plotted against that in normoxia (horizontal axis) for each site that interacted significantly with a HIF&#8208;binding site in either normoxia or hypoxia or both. Highlighted in red are sites that had a significantly different interaction frequency in either condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20768</offset>
+      <text>CTCF ChIP&#8208;seq peaks immediately flanking the captured HIF&#8208;binding sites were identified, and the average normalized CTCF ChIP&#8208;seq signal (RPKM) was plotted for normoxic (red) and hypoxic (blue) MCF&#8208;7 cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20983</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20986</offset>
+      <text>To extend these observations, we next examined cis&#8208;interactions from HIF&#8208;binding sites in the renal cancer cell line 786&#8208;O. This cell line lacks functional pVHL, which is a common and early event, critical to the development of kidney cancer, and leads to long&#8208;term constitutive activation of HIF. To study the effect of short&#8208;term hypoxia in this context, wild&#8208;type VHL was stably re&#8208;introduced (786&#8208;O+VHL) and cells were studied in both normoxia and hypoxia. Again, we found chromatin interactions to be largely pre&#8208;established before hypoxic stabilization of HIF (Fig EV4). Finally, we examined whether long&#8208;term HIF stabilization resulting from VHL inactivation might alter cis&#8208;interactions with these HIF&#8208;binding sites by comparing Capture&#8208;C signals in VHL&#8208;reconstituted (786&#8208;O+VHL) and defective (786&#8208;O&#8208;VHL) 786&#8208;O cells (Appendix Fig S4). For the large part, interaction frequencies were comparable in VHL&#8208;reconstituted and VHL&#8208;deficient cells, with the exception of reduced interaction with the promoter of TSC22D2 in VHL&#8208;reconstituted cells versus VHL&#8208;defective cells, which correlates with a lack of hypoxic inducibility of this VHL&#8208;regulated gene in these cells 35, 36. Thus, neither short&#8208;term activation of HIF by hypoxia, nor its long&#8208;term stabilization by VHL inactivation greatly alters chromatin interactions with HIF&#8208;binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22387</offset>
+      <text>Chromatin looping is pre&#8208;established in normoxia in 786&#8208;O cells reconstituted with wtVHL</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22480</offset>
+      <text>Capture&#8208;C tracks from normoxic (red) and hypoxic (inverted in blue) 786&#8208;O cells reconstituted with wtVHL are shown for each HIF&#8208;binding site captured.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22637</offset>
+      <text>For each site that looped to a HIF&#8208;binding site, the normalized interaction frequency in hypoxia (vertical axis) was plotted against that in normoxia (horizontal axis).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22808</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22811</offset>
+      <text>Despite the potential for both HIF and hypoxia to modify chromatin through multiple interactions with histone and chromatin&#8208;modifying proteins 10, 11, 12, neither short&#8208;term activation by hypoxia nor long&#8208;term activation in VHL&#8208;defective cells appears to substantially alter patterns of chromatin conformation local to HIF&#8208;binding sites, at least as identified in these assays and in these cancer cell lines. Taken together, this reveals a model of induction of the HIF pathway in which the chromatin structure between HIF&#8208;binding sites and HIF&#8208;activated promoters is present prior to HIF induction, distant active enhancer elements being precomplexed with target promoters that are themselves preloaded with paused RNApol2. The processes defining the chromatin structure in normoxic cells are unclear, but likely include DNA binding and structural proteins, including the cohesin complex, that are involved in the establishment and maintenance of the chromatin landscape within which HIF operates and which are thus important in determining the shape of the hypoxia response.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23902</offset>
+      <text>Cell&#8208;type&#8208;dependent patterns of chromatin interaction with HIF&#8208;binding sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23985</offset>
+      <text>Both the binding of HIF and its transcriptional targets vary considerably between cell types 37. We therefore examined the extent to which these cell&#8208;type differences are reflected by differences in chromatin interactions by comparing Capture&#8208;C signals in hypoxic MCF&#8208;7 cells and in the VHL&#8208;defective 786&#8208;O cell line, in which HIF is constitutively stable (Fig 4A). This analysis showed that approximately 20% of cis&#8208;interacting sites differed significantly between the two cell types (1.2&#8208; to 6.0&#8208;fold), although many other cis&#8208;interactions were preserved. This result is in contradistinction to the roughly 3% of cis&#8208;interacting sites that differed between normoxia and hypoxia in MCF&#8208;7 cells (Figs 3B and 4B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24720</offset>
+      <text>Cell&#8208;type specificity of chromatin interactions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24770</offset>
+      <text>The normalized interaction frequency (as above) in MCF&#8208;7 cells cultured in hypoxia (vertical axis) was plotted against that in VHL&#8208;defective 786&#8208;O cells in normoxia (horizontal axis) for each site that interacted significantly with a HIF&#8208;binding site in either cell line or both. Highlighted in red are sites that had a significantly different interaction frequency in either cell type.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25165</offset>
+      <text>Box and whisker plot showing the log2 (fold difference) between MCF&#8208;7 cells in normoxia and hypoxia (left) and VHL&#8208;defective 786&#8208;O cells in normoxia and MCF&#8208;7 cells in hypoxia (right) from Figure 3B and panel (A), respectively. Highlighted in red are sites that had a significantly different interaction frequency in either condition/cell type. Thick horizontal line denotes median. Boxes denote interquartile range and whiskers and thin bars denote 95% range.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25634</offset>
+      <text>Capture&#8208;C (MCF&#8208;7 hypoxia: blue; 786&#8208;O: green) at the CCND1 locus from an enhancer (red highlight) bound by HIF almost exclusively in VHL&#8208;defective 786&#8208;O and showing cell&#8208;specific cis&#8208;interactions, blue highlighted region indicates region of interaction at the TSS of CCND1, and green highlighted region indicates region of interaction at an enhancer 3&#8242; to the MYEOV gene.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26022</offset>
+      <text>Capture&#8208;C (MCF&#8208;7 hypoxia: blue; 786&#8208;O: green) at the TGFA locus from an enhancer bound by HIF exclusively in VHL&#8208;defective 786&#8208;O cells but showing constitutive interaction. Blue highlighted region indicates interaction with the TSS of TGFA. Green highlighted region indicates interaction with an enhancer immediately 3&#8242; to MYEOV.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26364</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26367</offset>
+      <text>Sites that bound HIF in both cell lines interacted with the same promoter in each cell type, suggesting that the transcriptional target of a specific binding site may be independent of cell type. Conversely, sites that bound HIF in one cell line, but not the other (Appendix Table S1), showed a more heterogeneous picture of cis&#8208;interactions (Fig EV5). In particular, significantly reduced association with the target promoter was observed, at three loci, in the cell type, which did not bind HIF at the &#8220;viewpoint&#8221; enhancer locus (versus that in the HIF&#8208;binding cell type; Fig 4C). However, at the remaining sites, cis&#8208;interaction with the target promoter was clearly preserved in the cell type that lacked HIF binding (Fig 4D). These findings support a model in which preexisting HIF&#8208;independent patterns of chromatin interaction define potential HIF targets, but also identify a second mechanism of selectivity, whereby additional factors contribute to cell&#8208;type&#8208;specific HIF binding at common preformed active chromatin complexes. The marked renal tissue specificity of pVHL&#8208;associated cancer 38 has focused attention on specific components of the HIF pathway that might be oncogenic in this context. Interestingly, two genes that have been defined as contributors to VHL&#8208;associated oncogenesis, CCND1 39, 40 and TGFA 39, 41, are representative of each group: CCND1 among those manifesting cell&#8208;specific chromatin conformation (Fig 4C), and TGFA among those showing cell&#8208;specific HIF binding despite similar patterns of interaction (Fig 4D). Further work aimed at defining the mechanisms underlying these differences will be of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28033</offset>
+      <text>Patterns of chromatin interaction from cell&#8208;specific HIF&#8208;binding sites</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28108</offset>
+      <text>Capture&#8208;C tracks (averaged across the two replicates) from hypoxic MCF&#8208;7 cells (blue) and VHL&#8208;defective 786&#8208;O cells (inverted in green) are shown for each HIF&#8208;binding site that was bound exclusively in one cell line or the other. Three promoters showing significantly different interaction with the HIF&#8208;binding site are highlighted in red, otherwise association is largely conserved between the two cell types. One promoter showing similar interaction frequency despite differential HIF binding is highlighted in black.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28640</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28643</offset>
+      <text>In summary, the present work has revealed complex patterns of preexisting chromatin interaction between multiple HIF&#8208;binding enhancers and promoters that shape the transcriptional architecture of the HIF response. This supports a model in which binding of HIF to primed functional chromatin complexes may enable rapid activation of the HIF transcriptional program. Since HIF activates gene expression through release of promoter&#8208;proximal paused RNA polymerase 2 4, 6, this may be a strategy specific to this type of gene regulation, rather than a general mechanism for enhancer&#8208;induced transcriptional activation. It also distinguishes at least two other mechanisms that operate on top of these frameworks to define selective patterns of gene activation: cell&#8208;type&#8208;specific HIF binding to these preformed complexes and isoform&#8208;specific activity of the bound HIF.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>29518</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29540</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29553</offset>
+      <text>MCF&#8208;7 and 786&#8208;O cells were cultured in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% fetal bovine serum, 2 mM L&#8208;glutamine, 100 U/ml penicillin, and 100 &#956;g/ml streptomycin. For hypoxia treatment, cells were incubated for 16 h in an In Vivo2 Hypoxia Work station (Ruskinn Technology) at 0.5% oxygen.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29876</offset>
+      <text>ChIP&#8208;seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29887</offset>
+      <text>Chromatin immunoprecipitation was performed as previously described 7 using antibodies against HIF&#8208;1 (PM14), HIF&#8208;2 (PM9) 42, 43, HIF&#8208;1 (Novus NB&#8208;100&#8208;110), H3K4me1 (Millipore, #07&#8208;436), H3K4me3 (#9751, Cell Signaling Technology), H3K27ac (#ab4729, Abcam), CTCF (#07&#8208;729, Millipore), and RNApol2 (#sc&#8208;899, Santa Cruz Biotechnology). Each ChIP was performed in duplicate. Libraries were prepared using PrepX Complete ILMN DNA library kit (#400076, Wafergen).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30359</offset>
+      <text>Capture&#8208;C</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30371</offset>
+      <text>Capture&#8208;C libraries were prepared as previously described 16. Cells were fixed with 2% (vol/vol) formaldehyde for 10 min, quenched with 125 mM glycine in PBS, and then lysed in cold lysis buffer (10 mM Tris&#8211;HCl, pH 8, 10 mM NaCl, 0.2% IGEPAL, 1&#215; complete protease inhibitor cocktail (Roche). Chromatin was digested with DpnII (New England Biolabs) at 37&#176;C overnight. Fragments were then diluted and ligated with T4 DNA ligase (Thermo Scientific) at 16&#176;C overnight. Cross&#8208;linking was reversed by overnight incubation at 60&#176;C with proteinase K (Bioline). The 3C libraries were then purified by phenol&#8211;chloroform and chloroform extraction followed by precipitation in ethanol at &#8722;80&#176;C overnight. Digestion efficiency was determined by qPCR and gel electrophoresis. Sequencing libraries were prepared from 5 &#956;g of each 3C library by sonication using a S220 focused ultrasonicator (Covaris) to a average size of 200 bp and indexed using NEBnext reagents (New England Biolabs) according to the manufacturer's protocol. Enrichment of 1&#8211;2 &#956;g of an indexed library incubated with 13 pmol of a pool of biotinylated oligonucleotides (Integrated DNA Technologies or Sigma&#8208;Aldrich; Appendix Table S1) was performed using the SeqCap EZ system (#06953212001, Roche/NimbleGen) following the manufacturer's instructions. Two rounds of capture employing 48&#8211;72 and 24 h hybridizations, respectively, were used. Capture enrichment was determined by qPCR. Correct library size was confirmed using a Bioanalyzer DNA 1000 or Tapestation D1000 kit (Agilent), and DNA concentrations were determined using a Qubit 2.0 Fluorometer (Thermo Fisher Scientific).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32026</offset>
+      <text>High&#8208;throughput sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32055</offset>
+      <text>All sequencing was performed on the HiSeq 2500 or HiSeq 4000 platforms using paired&#8208;end 50&#8208; or 75&#8208;bp protocols (Illumina).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32184</offset>
+      <text>Accession codes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32200</offset>
+      <text>Capture&#8208;C data from this study are available from Gene Expression Omnibus at GSE78100 and ChIP&#8208;seq are available at GSE28352 (HIF&#8208;1&#945;, HIF&#8208;2&#945;, and HIF&#8208;1&#946; ChIP&#8208;seq in MCF&#8208;7 cells), GSE32970 (ENCODE DNase&#8208;seq in MCF&#8208;7 cells), GSE67237 (HIF&#8208;2a and HIF&#8208;1b ChIP&#8208;seq in 786&#8208;O cells), GSM1011120 (FAIRE&#8208;seq in 786&#8208;O cells), and from EMBL&#8208;EBI Array Express at E&#8208;MTAB&#8208;1994 and E&#8208;MTAB&#8208;1995 (RNApol2 and H3K4me3 ChIP&#8208;seq and RNA&#8208;seq in MCF&#8208;7 cells) and GSE78113 (other histone modifications and CTCF ChIP&#8208;seq).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32750</offset>
+      <text>ChIP&#8208;seq analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32770</offset>
+      <text>ChIP&#8208;seq data were processed as previously described 36; peaks were called using MACS 44 and TPIC 45. ChIP reads were counted under peaks and were normalized to the total library size and the width of the peak using RPKM 36.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32997</offset>
+      <text>Capture&#8208;C analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33018</offset>
+      <text>Reads were processed, in silico digested, and aligned to the human genome using Bowtie 1.0.0 (http://bowtie-bio.sourceforge.net/index.shtml). Interaction frequencies were determined using CCanalyser2.pl (https://github.com/telenius/captureC/releases) as previously described 16 (Appendix Table S2). The presence of undigested self&#8208;circles was examined using the method of Jin et al 26. Only small undigested self&#8208;circles of &lt; 2 kb were detected, likely reflecting the higher cutting frequency of DpnII. Beyond this distance, the ratios of outward/same&#8208;strand and inward/same&#8208;strand reads were both 0.5, consistent with efficient cutting and re&#8208;ligation of DpnII fragments (Appendix Fig S5).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33719</offset>
+      <text>Identifying significant interaction regions</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>33763</offset>
+      <text>Normalization of observed counts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33796</offset>
+      <text>To identify regions of significant interaction with the capture probe, we followed an approach similar to that used previously 26.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33927</offset>
+      <text>Firstly, the observed interaction count Y x,j between a DpnII fragment x and a specific capture probe j was normalized to the total captured interactions for the capture probe Y j and to the size of the DpnII fragment W x.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34150</offset>
+      <text> where  is the normalized count, and NF is a numerical normalization factor, 108, to adjust the counts to a similar mean before normalization.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>34293</offset>
+      <text>Empirical estimation of random background interaction counts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34354</offset>
+      <text>The random interaction rate between the capture fragment and nearby chromatin is expected to decrease exponentially with distance. Accordingly, we used the normalized interaction counts across all experiments to empirically estimate the expected background distribution of interaction counts at a given distance.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34667</offset>
+      <text>The region surrounding each bait site, j was divided into 2&#8208;kb bins and the normalized count for each 2&#8208;kb bin estimated by summing the counts for each DpnII fragment, x within bin i.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34855</offset>
+      <text> where N is the number of DpnII fragments within each 2&#8208;kb bin i.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34923</offset>
+      <text>The expected interaction frequency at bin i is then given by the interaction counts in bin i averaged across all the probes j for every experiment in that cell type (Appendix Fig S6A): where N j is the number of bait sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35147</offset>
+      <text>However, background counts may vary from experiment to experiment, so the average interaction counts for a given cell type were then corrected using a scalar correction factor C e derived for each experiment, e: using a method similar to that used in DESeq 46, where: and where  is the geometric mean of all the interaction counts across all the probes j for experiment e: </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35521</offset>
+      <text>Similarly, a normalization factor, C j, for each capture probe was calculated to normalize the capture probe efficiency: where  is the geometric mean of the probe across all experiments for the same cell line, averaging over all the bins:and  is the geometric mean of all the interaction counts across all the experiments in the same cell line: </text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>35867</offset>
+      <text>Log&#8211;log model of interaction counts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35905</offset>
+      <text>To model the interaction count at a given distance from the capture site, we then fitted a log&#8211;log power law for the relationship between the expected interaction count  in bin i and its distance from the center 26 (Appendix Fig S6B) in a certain cell line. We then regressed  against the distance and defined &#956; i as the randomly expected interaction count at distance d i as follows:where e k &#8722; 1 is the expected signal closest to the capture site (i.e., at bin 1) or the intercept, and &#948; is the exponential decay parameter for the interaction signal. Using this model, &#948; was then calculated, for every cell line used, using the maximum likelihood estimate.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36573</offset>
+      <text>The distribution of interaction counts, , at bin i for any capture probe has been shown to follow a negative binomial distribution, which allows for fitting an extra parameter &#946; i for the mean&#8211;variance relationship:   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36795</offset>
+      <text> &#946; i was previously observed, to be fixed 26; however, we found that this parameter is a linear function of the mean counts (Appendix Fig S6C) 47: </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36946</offset>
+      <text>Accordingly, we used generalized linear modeling to empirically estimate the maximum likelihood parameters for &#945; and k. This identified the expected distribution of counts at a given distance from the capture site as shown in Appendix Fig S6D.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>37194</offset>
+      <text>Calculation of interaction significance</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37234</offset>
+      <text>Having built a model of the null hypothesis distribution at every bin i, we then used the observed interaction counts to test its significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37378</offset>
+      <text>We first segmented the interaction space around the capture probe, into overlapping windows of width 2 kb at an equally spaced distance of 200 bp. We then calculated the interaction counts  as shown before. Finally, we normalized the interaction counts for every probe to a similar mean, to avoid any false positives:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37698</offset>
+      <text>We then used the model built before to build the null hypothesis model at the observed distance of the window, to estimate the P&#8208;value. P&#8208;values were calculated using the cumulative distribution function (CDF) for the expected negative binomial distribution:  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>37963</offset>
+      <text>False discovery rate (FDR) correction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38001</offset>
+      <text>False discovery correction assumes an equal probability of significance across all the tests being conducted. However, within the same capture probe, this is a false assumption, since it is harder to call significance closer to the capture site, and at extreme distances and the distribution of P&#8208;values at different bins will therefore differ. Accordingly, stratified FDR correction 48, correcting at every bin across all the probes being captured, was used. This is justified, since all the probes are captured in one experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>38535</offset>
+      <text>GC content and mappability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38562</offset>
+      <text>The effect of potential confounders, including GC content and mappability, was determined using previously described methods 26. The GC content and mappability of statistically significant cis&#8208;interaction regions was comparable to that of control, non&#8208;cis&#8208;interacting, regulatory regions within 500 kb of bait sites (Appendix Fig S7).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>38903</offset>
+      <text>Differential significance between conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38948</offset>
+      <text>To perform differential analysis, we constructed a union of the significantly interacting regions across the two conditions (i.e., normoxia and hypoxia in MCF&#8208;7). We used any significant region that was called significant in any replicate. We then used an approach similar to that of DESeq 46.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39244</offset>
+      <text>Essentially, we used the likelihood ratio test (LRT) to examine the null hypothesis that the interaction frequencies at each site were similar across the two conditions. Specifically, a generalized linear model (GLM) with a negative binomial response was applied under the null hypothesis and compared to an unrestricted negative binomial GLM. The chi&#8208;squared test with 1 degree of freedom was then used to find the significance of each interaction, and P&#8208;values were adjusted for false discovery rate (FDR).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39757</offset>
+      <text>To test across different cell lines, we normalized the cell line mean interaction frequency. Accordingly, we used a similar normalization approach to the above: we calculated a correction factor for the interaction counts that would ensure that the median interaction counts across the cell lines being tested were similar:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40081</offset>
+      <text> where GY cl,j is the geometric mean across probe j in one cell line, and GY j is the geometric mean across probe j for all the cell lines. C cl is then the median of this normalization factor for the cell line cl. The interaction counts for each cell line are then obtained using:  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40365</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40386</offset>
+      <text>JLP, RS, JRH, PJR, and DRM designed the experiments. JLP, JS, and HC performed the experiments. JLP, RS, JRH, JOJD, and DRM performed data analysis. JLP, PJR, and DRM wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40575</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40596</offset>
+      <text>PJR is a scientific co&#8208;founder and holds equity in ReOx Ltd., a university spin&#8208;out company that seeks to develop inhibitors of the HIF hydroxylases.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40750</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>40773</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci STKE</infon>
+      <infon key="volume">2005</infon>
+      <infon key="pub-id_pmid">16234508</infon>
+      <infon key="fpage">re12</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>40784</offset>
+      <text>Integration of oxygen signaling at the consensus HRE</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">408</infon>
+      <infon key="pub-id_pmid">22304911</infon>
+      <infon key="fpage">399</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>40837</offset>
+      <text>Hypoxia&#8208;inducible factors in physiology and medicine</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">2345</infon>
+      <infon key="pub-id_pmid">20061373</infon>
+      <infon key="fpage">2332</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>40892</offset>
+      <text>Genome&#8208;wide identification of hypoxia&#8208;inducible factor binding sites and target genes by a probabilistic model integrating transcription&#8208;profiling data and in silico binding site prediction</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">76</infon>
+      <infon key="pub-id_pmid">24363272</infon>
+      <infon key="fpage">70</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>41088</offset>
+      <text>Extensive regulation of the non&#8208;coding transcriptome by hypoxia: role of HIF in releasing paused RNApol2</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cancer</infon>
+      <infon key="lpage">28</infon>
+      <infon key="pub-id_pmid">24461128</infon>
+      <infon key="fpage">13</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>41195</offset>
+      <text>Integrated analysis of microRNA and mRNA expression and association with HIF binding reveals the complexity of microRNA expression regulation under hypoxia</text>
+    </passage>
+    <passage>
+      <infon key="volume">153</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1339</infon>
+      <infon key="pub-id_pmid">23746844</infon>
+      <infon key="fpage">1327</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>41351</offset>
+      <text>HIF1A employs CDK8&#8208;mediator to stimulate RNAPII elongation in response to hypoxia</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">e217</infon>
+      <infon key="pub-id_pmid">21447827</infon>
+      <infon key="fpage">e207</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>41435</offset>
+      <text>High&#8208;resolution genome&#8208;wide mapping of HIF&#8208;binding sites by ChIP&#8208;seq</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">425</infon>
+      <infon key="pub-id_pmid">22406644</infon>
+      <infon key="fpage">420</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>41512</offset>
+      <text>Common genetic variants at the 11q13.3 renal cancer susceptibility locus influence binding of HIF to an enhancer of cyclin D1 expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5823</infon>
+      <infon key="pub-id_pmid">26007655</infon>
+      <infon key="fpage">5810</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>41649</offset>
+      <text>Destruction of a distal hypoxia response element abolishes trans&#8208;activation of the PAG1 gene mediated by HIF&#8208;independent chromatin looping</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Cell Signal</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">21924352</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>41792</offset>
+      <text>Chromatin as an oxygen sensor and active player in the hypoxia response</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Int J Mol Sci</infon>
+      <infon key="lpage">4721</infon>
+      <infon key="pub-id_pmid">21845106</infon>
+      <infon key="fpage">4705</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>41864</offset>
+      <text>Epigenetics: new questions on the response to hypoxia</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Int J Cancer</infon>
+      <infon key="lpage">256</infon>
+      <infon key="pub-id_pmid">23564219</infon>
+      <infon key="fpage">249</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>41918</offset>
+      <text>Epigenetic regulation of hypoxia&#8208;responsive gene expression: focusing on chromatin and DNA modifications</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">16</infon>
+      <infon key="pub-id_pmid">26541514</infon>
+      <infon key="fpage">246</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42025</offset>
+      <text>A transient ischemic environment induces reversible compaction of chromatin</text>
+    </passage>
+    <passage>
+      <infon key="volume">47&#8211;48</infon>
+      <infon key="lpage">75</infon>
+      <infon key="source">Mol Aspects Med</infon>
+      <infon key="fpage">54</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>42101</offset>
+      <text>Pharmacological targeting of the HIF hydroxylases &#8208; A new field in medicine development</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Rev Nephrol</infon>
+      <infon key="lpage">410</infon>
+      <infon key="pub-id_pmid">26055355</infon>
+      <infon key="fpage">394</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42191</offset>
+      <text>Anaemia in kidney disease: harnessing hypoxia responses for therapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">80</infon>
+      <infon key="pub-id_pmid">26595209</infon>
+      <infon key="fpage">74</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>42259</offset>
+      <text>Multiplexed analysis of chromosome conformation at vastly improved sensitivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">212</infon>
+      <infon key="pub-id_pmid">24413732</infon>
+      <infon key="fpage">205</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>42338</offset>
+      <text>Analysis of hundreds of cis&#8208;regulatory landscapes at high resolution in a single, high&#8208;throughput experiment</text>
+    </passage>
+    <passage>
+      <infon key="volume">399</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">275</infon>
+      <infon key="pub-id_pmid">10353251</infon>
+      <infon key="fpage">271</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>42451</offset>
+      <text>The tumour suppressor protein VHL targets hypoxia&#8208;inducible factors for oxygen&#8208;dependent proteolysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">489</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">74</infon>
+      <infon key="pub-id_pmid">22955616</infon>
+      <infon key="fpage">57</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42556</offset>
+      <text>An integrated encyclopedia of DNA elements in the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">837</infon>
+      <infon key="pub-id_pmid">17512414</infon>
+      <infon key="fpage">823</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>42619</offset>
+      <text>High&#8208;resolution profiling of histone methylations in the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">21936</infon>
+      <infon key="pub-id_pmid">21106759</infon>
+      <infon key="fpage">21931</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>42691</offset>
+      <text>Histone H3K27ac separates active from poised enhancers and predicts developmental state</text>
+    </passage>
+    <passage>
+      <infon key="volume">295</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1311</infon>
+      <infon key="pub-id_pmid">11847345</infon>
+      <infon key="fpage">1306</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>42779</offset>
+      <text>Capturing chromosome conformation</text>
+    </passage>
+    <passage>
+      <infon key="volume">485</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">380</infon>
+      <infon key="pub-id_pmid">22495300</infon>
+      <infon key="fpage">376</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42813</offset>
+      <text>Topological domains in mammalian genomes identified by analysis of chromatin interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">3253</infon>
+      <infon key="pub-id_pmid">17644558</infon>
+      <infon key="fpage">3251</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>42903</offset>
+      <text>GSEA&#8208;P: a desktop application for Gene Set Enrichment Analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">807</infon>
+      <infon key="pub-id_pmid">22321699</infon>
+      <infon key="fpage">801</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>42968</offset>
+      <text>A novel significance score for gene selection and ranking</text>
+    </passage>
+    <passage>
+      <infon key="volume">503</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">294</infon>
+      <infon key="pub-id_pmid">24141950</infon>
+      <infon key="fpage">290</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43026</offset>
+      <text>A high&#8208;resolution map of the three&#8208;dimensional chromatin interactome in human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">284</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">6052</infon>
+      <infon key="pub-id_pmid">19124469</infon>
+      <infon key="fpage">6048</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>43114</offset>
+      <text>Glucocorticoid receptor activation of the Ciz1&#8208;Lcn2 locus by long range interactions</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">23340844</infon>
+      <infon key="fpage">638</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43201</offset>
+      <text>Genome&#8208;wide analysis of FOXO3 mediated transcription regulation through RNA polymerase II profiling</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">535</infon>
+      <infon key="pub-id_pmid">23273978</infon>
+      <infon key="fpage">524</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43303</offset>
+      <text>eRNAs are required for p53&#8208;dependent enhancer activity and gene transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">283</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">32988</infon>
+      <infon key="pub-id_pmid">18728018</infon>
+      <infon key="fpage">32977</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>43383</offset>
+      <text>Regulation of estrogen receptor&#8208;mediated long range transcription via evolutionarily conserved distal response elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">462</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">64</infon>
+      <infon key="pub-id_pmid">19890323</infon>
+      <infon key="fpage">58</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>43505</offset>
+      <text>An oestrogen&#8208;receptor&#8208;alpha&#8208;bound human chromatin interactome</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">242</infon>
+      <infon key="pub-id_pmid">18243117</infon>
+      <infon key="fpage">232</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>43573</offset>
+      <text>Exchange of GATA factors mediates transitions in looped chromatin organization at a developmentally regulated gene locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4414</infon>
+      <infon key="pub-id_pmid">23103767</infon>
+      <infon key="fpage">4404</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>43694</offset>
+      <text>TNFalpha signals through specialized factories where responsive coding and miRNA genes are transcribed</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2354</infon>
+      <infon key="pub-id_pmid">16951251</infon>
+      <infon key="fpage">2349</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43797</offset>
+      <text>CTCF mediates long&#8208;range chromatin looping and local histone modification in the beta&#8208;globin locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">11406</infon>
+      <infon key="pub-id_pmid">25890500</infon>
+      <infon key="fpage">11395</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>43900</offset>
+      <text>Distinct von Hippel&#8208;Lindau gene and hypoxia&#8208;regulated alterations in gene and protein expression patterns of renal cell carcinoma and their effects on metabolism</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">26262842</infon>
+      <infon key="fpage">e0134645</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44066</offset>
+      <text>Heterogeneous effects of direct hypoxia pathway activation in kidney cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">394</infon>
+      <infon key="source">Biol Chem</infon>
+      <infon key="lpage">517</infon>
+      <infon key="pub-id_pmid">23324384</infon>
+      <infon key="fpage">507</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>44142</offset>
+      <text>Pan&#8208;genomic binding of hypoxia&#8208;inducible transcription factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Annu Rev Pathol</infon>
+      <infon key="lpage">173</infon>
+      <infon key="pub-id_pmid">18039096</infon>
+      <infon key="fpage">145</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>44209</offset>
+      <text>Von Hippel&#8208;Lindau disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">5686</infon>
+      <infon key="pub-id_pmid">15964822</infon>
+      <infon key="fpage">5675</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>44237</offset>
+      <text>Contrasting properties of hypoxia&#8208;inducible factor 1 (HIF&#8208;1) and HIF&#8208;2 in von hippel&#8208;lindau&#8208;associated renal cell carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">3019</infon>
+      <infon key="pub-id_pmid">12036906</infon>
+      <infon key="fpage">3014</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>44371</offset>
+      <text>VHL&#8208;mediated hypoxia regulation of cyclin D1 in renal carcinoma cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1392</infon>
+      <infon key="pub-id_pmid">11171960</infon>
+      <infon key="fpage">1387</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>44443</offset>
+      <text>Role of transforming growth factor&#8208;alpha in von Hippel&#8208;Lindau (VHL)(&#8208;/&#8208;) clear cell renal carcinoma cell proliferation: a possible mechanism coupling VHL tumor suppressor inactivation and tumorigenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">96</infon>
+      <infon key="source">Br J Cancer</infon>
+      <infon key="lpage">1292</infon>
+      <infon key="pub-id_pmid">17387348</infon>
+      <infon key="fpage">1284</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>44653</offset>
+      <text>Target gene selectivity of hypoxia&#8208;inducible factor&#8208;alpha in renal cancer cells is conveyed by post&#8208;DNA&#8208;binding mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">FASEB J</infon>
+      <infon key="lpage">273</infon>
+      <infon key="pub-id_pmid">12490539</infon>
+      <infon key="fpage">271</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>44784</offset>
+      <text>Widespread hypoxia&#8208;inducible expression of HIF&#8208;2alpha in distinct cell populations of different organs</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">18798982</infon>
+      <infon key="fpage">R137</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44891</offset>
+      <text>Model&#8208;based analysis of ChIP&#8208;Seq (MACS)</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">21226895</infon>
+      <infon key="fpage">15</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44935</offset>
+      <text>Shape&#8208;based peak identification for ChIP&#8208;Seq</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">20979621</infon>
+      <infon key="fpage">R106</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44984</offset>
+      <text>Differential expression analysis for sequence count data</text>
+    </passage>
+    <passage>
+      <infon key="volume">88</infon>
+      <infon key="source">Ecology</infon>
+      <infon key="lpage">2772</infon>
+      <infon key="pub-id_pmid">18051645</infon>
+      <infon key="fpage">2766</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>45041</offset>
+      <text>Quasi&#8208;Poisson vs. negative binomial regression: how should we model overdispersed count data?</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Genet Epidemiol</infon>
+      <infon key="lpage">530</infon>
+      <infon key="pub-id_pmid">16800000</infon>
+      <infon key="fpage">519</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>45137</offset>
+      <text>Stratified false discovery control for large&#8208;scale hypothesis testing with application to genome&#8208;wide association studies</text>
+    </passage>
+  </document>
+</collection>

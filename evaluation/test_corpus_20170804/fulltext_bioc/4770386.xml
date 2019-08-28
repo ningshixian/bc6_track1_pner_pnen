@@ -1,0 +1,1718 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4770386</id>
+    <passage>
+      <infon key="name_2">surname:Gevaert;given-names:Kris</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_0">surname:Gawron;given-names:Daria</infon>
+      <infon key="name_1">surname:Ndah;given-names:Elvis</infon>
+      <infon key="alt-title">Daria Gawron et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB156662</infon>
+      <infon key="name_3">surname:Van Damme;given-names:Petra</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">858</infon>
+      <infon key="article-id_doi">10.15252/msb.20156662</infon>
+      <infon key="article-id_pmid">26893308</infon>
+      <infon key="volume">12 12</infon>
+      <infon key="source">Mol Syst Biol.</infon>
+      <infon key="article-id_pmc">4770386</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">2</infon>
+      <infon key="notes">
+
+ () : 858
+</infon>
+      <infon key="kwd">alternative translation initiation initiator methionine processing N&#8208;terminal proteoform protein stability ribosome profiling Genome-Scale &amp; Integrative Biology Post-translational Modifications, Proteolysis &amp; Proteomics</infon>
+      <offset>0</offset>
+      <text>Positional proteomics reveals differences in N&#8208;terminal proteoform stability</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>79</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>88</offset>
+      <text>To understand the impact of alternative translation initiation on a proteome, we performed a proteome&#8208;wide study on protein turnover using positional proteomics and ribosome profiling to distinguish between N&#8208;terminal proteoforms of individual genes. By combining pulsed SILAC with N&#8208;terminal COFRADIC, we monitored the stability of 1,941 human N&#8208;terminal proteoforms, including 147&#160;N&#8208;terminal proteoform pairs that originate from alternative translation initiation, alternative splicing or incomplete processing of the initiator methionine. N&#8208;terminally truncated proteoforms were less abundant than canonical proteoforms and often displayed altered stabilities, likely attributed to individual protein characteristics, including intrinsic disorder, but independent of N&#8208;terminal amino acid identity or truncation length. We discovered that the removal of initiator methionine by methionine aminopeptidases reduced the stability of processed proteoforms, while susceptibility for N&#8208;terminal acetylation did not seem to influence protein turnover rates. Taken together, our findings reveal differences in protein stability between N&#8208;terminal proteoforms and point to a role for alternative translation initiation and co&#8208;translational initiator methionine removal, next to alternative splicing, in the overall regulation of proteome homeostasis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1454</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1467</offset>
+      <text>Protein stability has been suggested to reflect the individual properties and biological functions of proteins (Cambridge et&#160;al, 2011; Boisvert et&#160;al, 2012). In eukaryotic cells, a wide variety of proteins with roles in cell cycle progression, signal transduction and metabolic regulation are quickly degraded by the proteasome (Hershko &amp; Ciechanover, 1998), whereas some constituents of abundant protein complexes (such as the ribosome and the spliceosome) are extremely stable (Cambridge et&#160;al, 2011; Boisvert et&#160;al, 2012). Short&#8208;lived proteins are predicted to have an increased aggregation potential, which often places them central in protein deposition diseases correlated with ageing and reduced proteasome activity (De Baets et&#160;al, 2011). Estimations of the impact of protein turnover on gene regulation revealed that protein synthesis and degradation rates are comparable for proteins within functional protein classes and among individual components of macromolecular protein complexes (Kristensen et&#160;al, 2013). As such, protein stability is undoubtedly a key component that regulates the outcome of gene expression and shapes cellular phenotypes. Large&#8208;scale studies of proteome dynamics in living cells were made possible by applying stable isotope labelling, including SILAC (stable isotope labelling by amino acids in cell culture), in combination with mass spectrometry. To measure protein turnover, cells are usually pulsed with media containing stable isotopic variants of essential amino acids and the rate of incorporation of these newly added isotopes then enables calculating the protein half&#8208;life (Doherty et&#160;al, 2009; Cambridge et&#160;al, 2011; Schwanhausser et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3174</offset>
+      <text>In several recent N&#8208;terminomics analyses using mouse and human cell lines, we showed that the prevalence of translation start sites not annotated in protein sequence databases was underestimated as we found that 10&#8211;20% of all protein N&#8208;termini resulted from alternative translation initiation events, point to inadequately annotated protein start sites or to alternative splicing (Menschaert et&#160;al, 2013; Koch et&#160;al, 2014; Van Damme et&#160;al, 2014). Scarce evidence indicates that alternative translation initiation can produce protein variants&#8212;proteoforms (Smith &amp; Kelleher, 2013)&#8212;that differ in stability when compared to their database&#8208;annotated counterparts (Song et&#160;al, 2009). As an example, alternative translation initiation of the opioid receptor that results in an N&#8208;terminal protein extension rich in lysine residues and prone to ubiquitination contributes to the high degradation rate of this proteoform (Song et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4125</offset>
+      <text>Triggered by such atomistic studies, we set out to study on a more global scale if N&#8208;terminal proteoforms derived from the same gene showed different stabilities. In contrast to other proteome studies that do not distinguish between N&#8208;terminal proteoforms, we here combine SILAC pulse labelling (Boisvert et&#160;al, 2012) (pSILAC) with N&#8208;terminal COFRADIC (COmbined FRActional DIagonal Chromatography) (Gevaert et&#160;al, 2003) to study the stability and turnover rates of proteoforms with heterogeneous N&#8208;termini. Important here is that we rely on known (previously identified, Van Damme et&#160;al, 2014) N&#8208;terminal modifications to unambiguously assign an identified peptide as a proxy for a protein's N&#8208;terminus. Indeed, N&#8208;termini of eukaryotic proteins typically undergo co&#8208;translational modifications, which can be used to discriminate N&#8208;termini pointing to translation initiation events from those pointing to proteolytic cleavage using mass spectrometry (Van Damme et&#160;al, 2009). For example, methionine aminopeptidases typically remove the initiator Met (iMet) if the side chain of the next amino acid has a small gyration radius as found in alanine (Ala), valine (Val), serine (Ser), threonine (Thr), cysteine (Cys), glycine (Gly) or proline (Pro) (Frottin et&#160;al, 2006). Subsequently, the alpha&#8208;amino group of the resulting N&#8208;terminus, with the exception of Pro, are frequently modified by N&#8208;terminal acetylation (Nt&#8208;acetylation) catalysed by N&#8208;terminal acetyltransferases (Nt&#8208;acetyltransferases or NATs) (Arnesen et&#160;al, 2009). iMet&#8208;retaining N&#8208;termini may also be Nt&#8208;acetylated, largely depending on the sequence specificity of the NAT involved (Van Damme et&#160;al, 2011, 2012). Taken together, up to 90% of all human proteins undergo either partial or complete Nt&#8208;acetylation (Starheim et&#160;al, 2012). For several cases, Nt&#8208;acetylation was shown to alter protein interactions, functions and structure (Skoumpla et&#160;al, 2007; Scott et&#160;al, 2011; Shemorry et&#160;al, 2013; Dikiy &amp; Eliezer, 2014). Moreover, protein N&#8208;termini have other unique properties, such as increased disorder in their secondary structure (Holmes et&#160;al, 2014). Surprisingly, the length of N&#8208;terminal disorder strongly correlates with the probability of protein Nt&#8208;acetylation, with highly disordered sequences being more frequently Nt&#8208;acetylated. As a consequence, it was suggested that Nt&#8208;acetylation may play a role in structural stabilisation. More specifically, Nt&#8208;acetylation of alpha&#8208;synuclein was shown to stabilise the helicity of its N&#8208;terminus (Dikiy &amp; Eliezer, 2014) and loss of Nt&#8208;acetylation seems to inhibit aggregation of prion proteins (Holmes et&#160;al, 2014). Moreover, Nt&#8208;acetylation may have important roles in protein stability. Although it was long believed that Nt&#8208;acetylation may prevent protein degradation by the ubiquitin system (Hershko et&#160;al, 1984), other studies indicated that Nt&#8208;acetylated proteins are not significantly more stable or shielded from proteolytic degradation (Brown, 1979). The N&#8208;end rule further explores the relationship between the in&#160;vivo protein half&#8208;life and the identity of a protein's N&#8208;terminal amino acid(s). In summary, the N&#8208;end rule links the removal of protein substrates covering the whole spectrum of N&#8208;terminal identities, except of Pro&#8208; and Gly&#8208;starting N&#8208;termini. Degradation signals encoded by N&#8208;terminal residues, referred to as N&#8208;degrons, may be recognised by specialised E3 ubiquitin ligases and the N&#8208;end rule consists of two major branches, being the Arg/N&#8208;end rule and the Ac/N&#8208;end rule pathways. The Arg/N&#8208;end rule targets unmodified iMet&#8208;starting N&#8208;termini followed by a hydrophobic amino acid (Kim et&#160;al, 2014) and neo&#8208;N&#8208;termini generated upon proteolytic cleavage (Piatkov et&#160;al, 2012; Kim et&#160;al, 2014). The acetylation&#8208;dependent branch of the N&#8208;end rule (Ac/N&#8208;end rule) mediates a targeted degradation of proteins with Nt&#8208;acetylated Met, Arg, Val, Ser, Thr and Cys residues (Hwang et&#160;al, 2010). Interestingly, Nt&#8208;acetylation of two N&#8208;terminal proteoforms raised by alternative initiation of SNC1 in Arabidopsis thaliana had an opposing effect on proteoform stability dependent on the NAT involved (Xu et&#160;al, 2015). The longest form was destabilised by NatA, whereas NatB&#8208;mediated Nt&#8208;acetylation increased the stability of the truncated proteoform. On the other hand, recent studies of human Ogden syndrome caused by a NatA loss&#8208;of&#8208;function mutation indicated that Nt&#8208;acetylation was involved in the increased stability of the NatA substrate THOC7 (Myklebust et&#160;al, 2015). Next to the N&#8208;end rule, additional mechanisms have been shown to repress undesirable protein degradation. For example, N&#8208;degrons may be shielded by proper folding of the mature protein or by integration into macromolecular complexes (Eisele &amp; Wolf, 2008; Shemorry et&#160;al, 2013; Park et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9073</offset>
+      <text>To summarise, alternative translation initiation and co&#8208;translational&#160;modifications seem to contribute substantially to the diversity of protein N&#8208;termini and are implicated in the regulation of protein turnover. Evidently, a comprehensive characterisation of&#160;N&#8208;terminal proteoforms linked to their stability is of great importance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9414</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9422</offset>
+      <text>We combined N&#8208;terminal COFRADIC, a positional proteomics technology that enables the enrichment of N&#8208;terminal peptides, with pSILAC for the identification of N&#8208;terminal proteoforms and characterisation of their cellular stability in human Jurkat T&#8208;lymphocytes. Following database searching, we retained N&#8208;termini starting at position 1 or 2 that point to &#8220;database&#8208;annotated&#8221; translation initiation sites (dbTIS). Next, we inspected N&#8208;terminal peptides starting beyond position 2 and selected those peptides that comply with the rules of iMet processing and Nt&#8208;acetylation (Arnesen et&#160;al,&#160;2009; Van Damme et&#160;al, 2011). Proteoforms linked to these N&#8208;terminal peptides were expected to be mainly derived from the use of alternative translation initiation sites (aTIS).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10214</offset>
+      <text>Overall, we identified 2,578&#160;N&#8208;terminal peptides (Table&#160;EV1A), including 2,135 dbTIS and 443 aTIS. Our study demonstrates that N&#8208;terminal proteoforms raised upon translation initiation and alternative iMet processing contribute substantially to the diversity of the human proteome. Indeed, we identified 335&#160;N&#8208;terminal proteoforms derived from 133 genes displaying multiple N&#8208;termini raised from different translation initiation sites (Fig&#160;1A). Additionally, we observed 81 proteoforms resulting from partial iMet processing (Fig&#160;1A). Of note, 63% of all aTIS were identified in the absence of their canonical counterparts.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10851</offset>
+      <text>The origin of N&#8208;terminal proteoforms</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10890</offset>
+      <text>2,578 proteoforms were identified including 2,135 dbTIS and 443 aTIS. For the majority of proteins, we found a unique translation initiation site (grey). Additionally, 335&#160;N&#8208;terminal peptides pointed to proteins with multiple N&#8208;termini created by alternative translation initiation (blue), whereas 81&#160;N&#8208;termini were generated by alternative iMet processing (green).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11264</offset>
+      <text>Proteomics&#8208;derived translation initiation events were verified at the transcript level using Ribo&#8208;Seq data obtained in Jurkat cells and HCT116 cells (data unpublished). Although in this study, the degree of in&#160;vivo Nt&#8208;acetylation could not be directly determined, all retained N&#8208;termini were compliant with the rules of N&#8208;terminal processing (Van Damme et&#160;al, 2014). In the case N&#8208;termini were found to be in&#160;vivo Nt&#8208;acetylated (previous MS/MS&#8208;based evidence, Van Damme et&#160;al, 2014), this information is indicated. dbTIS and aTIS peptides were further mapped to protein N&#8208;termini annotated in Swiss&#8208;Prot Isoform, UniProt TrEMBL and Ensembl databases and neo&#8208;N&#8208;termini (proteolytic products) of the knowledgebase TopFind 3.0. The number of matching N&#8208;termini is indicated in dark grey. N&#8208;terminal peptides supported by at least one source of metadata pointing to translation (Nt&#8208;acetylation, Ribo&#8208;Seq, Swiss&#8208;Prot Isoforms, TrEMBL or Ensembl) were classified as highly confident TIS (indicated in green).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12305</offset>
+      <text>Using experimental and metadata, we assigned the most likely origin of aTIS peptides and confirmed that alternative translation initiation within the same transcript (leaky scanning) contributes to the majority of alternative TIS identified.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12547</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12550</offset>
+      <text>Diversity of N&#8208;terminal proteoforms</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12588</offset>
+      <text>Deviations from the canonical translation mechanism such as ribosome leaky scanning and re&#8208;initiation (Sonenberg &amp; Hinnebusch, 2009; Hinnebusch, 2011) allow for selection of alternative translation initiation sites within one transcript and, together with mRNA splicing, contribute to the N&#8208;terminal proteoform diversity observed in our study. Leaky scanning is a mechanism by which a fraction of ribosomes omits less favourable start codons to initiate translation downstream (Kozak, 2002; Gawron et&#160;al, 2014). Ribosome profiling previously demonstrated (Lee et&#160;al, 2012) that leaky scanning is responsible for most database non&#8208;annotated TIS selection events and that the efficiency of downstream initiation is heavily dependent on the strength of the translation initiation context surrounding dbTIS, a finding corroborated by our previously obtained N&#8208;terminomics data (Van Damme et&#160;al, 2014). To study the contribution of (alternative) translation initiation and splicing to N&#8208;terminal proteoform expression in more detail, we performed ribosome profiling experiments in Jurkat cells. Additionally, the N&#8208;terminal peptides identified in our proteomics experiment in the Swiss&#8208;Prot database were mapped to alternative databases: human Swiss&#8208;Prot Isoform, UniProt TrEMBL and Ensembl.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13894</offset>
+      <text>Ribosome profiling, or Ribo&#8208;Seq, enables studying in&#160;vivo protein synthesis by deep sequencing of ribosome&#8208;associated mRNA fragments, thereby providing a genome&#8208;wide snapshot of actively translated mRNAs. Additionally, (alternative) translation initiation can be studies with sub&#8208;codon to single&#8208;nucleotide resolution through the use of antibiotics such lactimidomycin (LTM), which exclusively inhibit initiating ribosomes (Lee et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14348</offset>
+      <text>Using ribosome profiling, of the 2,578&#160;N&#8208;terminal proteoforms identified by means of N&#8208;terminomics, we were able to confirm translation initiation for 89% of dbTIS (1,895 of 2,135) and 29% of aTIS (130 of 443 aTIS) in Jurkat cells (Fig&#160;1B and C). Using a Mann&#8211;Whitney one&#8208;sided test, we further confirmed that aTIS detected by Ribo&#8208;Seq (130) had significantly lower translation initiation signal (RLTM&#8208;CHX) at the start codon compared to dbTIS (1,895) (P&#8208;value&#160;=&#160;0.011). The same was observed when directly comparing dbTIS to aTIS variants (31 pairs) detected by Ribo&#8208;Seq and originating from the same gene (Wilcoxon signed&#8208;rank test for paired samples; P&#8208;value of 0.00068). Further, from the data mapping to Ensembl and Swiss&#8208;Prot Isoforms databases, we found that 23% of the aTIS proteoforms (101 out of 443) could likely be explained by a database&#8208;annotated alternative splicing event (Fig&#160;1D). Additionally, only 19 aTIS N&#8208;termini were annotated in the proteolytic knowledgebase of protein N&#8208;termini, TopFIND 3.0, as potential protease cleavage products (Fortelny et&#160;al, 2015) (Fig&#160;1C). However, of these seven could be disregarded due to Nt&#8208;acetylation evidence and/or Ribo&#8208;Seq confirmed TIS selection. Overall, given the N&#8208;terminal selection strategies applied and the metadata at hand, only very few of the here reported N&#8208;termini can be considered as potential proteolytic products. The majority of remaining N&#8208;terminal proteoforms (330) is thus likely generated upon leaky scanning or other translation initiation mechanism as previously shown by others and us (Lee et&#160;al, 2012; Van Damme et&#160;al, 2014). Leaky scanning frequently results in initiation at a downstream start codon in the immediate proximity of the first AUG codon (Fig&#160;2A) (Van Damme et&#160;al, 2014); however, supported by Ribo&#8208;Seq data, we found examples of translation initiation by means of leaky scanning at more distant start codons (Fig&#160;2B). Relying on the current Ensembl human transcriptome annotation and splice variants present in the Swiss&#8208;Prot Isoform database, we were additionally able to confirm the expression of N&#8208;terminal proteoforms from alternatively spliced transcripts (Fig&#160;2C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16577</offset>
+      <text>Examples of translation initiation events confirmed by Ribo&#8208;Seq in Jurkat cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16659</offset>
+      <text>Alternative translation initiation due to leaky scanning.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16717</offset>
+      <text>Alternative splicing.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16739</offset>
+      <text>The preferential expression of an N&#8208;terminally truncated proteoform.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16810</offset>
+      <text>Evidence for alternative translation initiation occurring at two consecutive AUG codons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16899</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16902</offset>
+      <text>Interestingly, we found 12 aTIS proteoforms being exclusively expressed in the absence of dbTIS, judging from the lack of preceding Ribo&#8208;Seq and proteomics evidence (Van Damme et&#160;al, 2014) (Fig&#160;2D). The two most likely scenarios leading to the creation of N&#8208;terminal proteoforms starting at two consecutive Met residues (e.g. at positions 1 and 2) are leaky scanning or alternative iMet processing. Our proteomics data provide evidence of consecutive Met&#8208;starting N&#8208;termini for 11 genes and matching Ribo&#8208;Seq data indicate that translation initiation may occur at both Met residues (Fig&#160;2E and F).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17513</offset>
+      <text>Protein turnover measurement</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17542</offset>
+      <text>To measure turnover times of N&#8208;terminal proteoforms, we used human Jurkat T&#8208;lymphocytes that were pre&#8208;labelled with either light (Arg0) or medium (Arg6) isotopes of arginine and harvested 0.5, 1.5, 4, 8, 12, 24 or 48&#160;h after a label swap to light or heavy arginine (Arg10) containing medium (see Fig&#160;3A). Note that arginine was used as the SILAC label given that by nature of the N&#8208;terminal COFRADIC procedure, all N&#8208;terminal peptides end on arginine. After mixing equal amounts of light and medium/heavy labelled proteome samples taken at the seven different time points, N&#8208;terminal COFRADIC analyses were performed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18174</offset>
+      <text>Experimental set&#8208;up using pSILAC and N&#8208;terminal COFRADIC to assess N&#8208;terminal proteoform stability</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18279</offset>
+      <text>Jurkat cells were pre&#8208;labelled with light or medium L&#8208;Arg isotopes. A label swap was performed of cells growing in medium Arg, whereas light cells were cultured in the same medium. Cells were harvested at different time points and equal proteome amounts were mixed, followed by N&#8208;terminal COFRADIC and LC&#8208;MS/MS analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18608</offset>
+      <text>Ratios between three dynamic forms of N&#8208;terminal peptides reflect protein synthesis and degradation rates, allowing the calculation of 50% turnover times.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18765</offset>
+      <text>The distribution of turnover times (N&#160;=&#160;1,894) calculated was not unimodal, with a sizable number of quickly turned over proteins and the median protein turnover rate being 21.6&#160;h. The doubling time of Jurkat cells (24&#160;h) is indicated in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19012</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19015</offset>
+      <text>From the total of 2,578&#160;N&#8208;terminal peptides identified (Table&#160;EV1A), we retained 1,972 peptides that were identified in at least three of the time points analysed (Table&#160;EV1B). Their SILAC ratio values were then used to calculate protein stabilities by monitoring protein degradation and synthesis based on changes in M/L and H/L isotope ratios, with the crossing point between the degradation and synthesis profiles enabling a direct read&#8208;out of the 50% protein turnover (Fig&#160;3B) (Boisvert et&#160;al, 2012). Using a simple exponential model, we calculated turnover times for 1,928 (98%) of the 1,972 proteoforms with minimal R 2 coefficients &#8805;&#160;0.8. To evaluate the relationship between the number of observations and the predictive power of our model, we re&#8208;calculated turnover times of selected proteoforms based on a subset of available observations, showing that turnover times can be precisely reproduced using as few as three randomly selected data points (Fig&#160;EV1). Our model very well described the variation in experimental data (as supported by a high median R 2 value of 0.98; see Fig&#160;EV2), overall demonstrating that protein degradation in Jurkat cells follows mono&#8208;exponential kinetics. Only a minority of degradation and synthesis curves (2%) showed monotonic changes in time not following an exponential trend (R 2&#160;&lt;&#160;0.8). In 13 such cases, turnover times were determined using a linear interpolation of the crossing point, but otherwise such proteoforms were excluded from further analysis. In total, we could assign 50% turnover times to 1,941&#160;N&#8208;terminal proteoforms (Table&#160;EV1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20633</offset>
+      <text>Turnover time calculations using a subset of available data points</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20700</offset>
+      <text>Representative proteoforms (10) identified in seven time points displaying a large variety of turnover rates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20810</offset>
+      <text>For each peptide, all possible combinations of 3 random points were fitted with an exponential model and used for calculating 50% turnover time. Next, models with R 2 coefficient below 0.8 were rejected. The remaining valid models were grouped per peptide and represented as box plots.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21096</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21099</offset>
+      <text>For each proteoform quantified in at least three time points (1,972), variation of data unexplained by the exponential model was calculated as (1&#160;&#8722;&#160;R 2) and represented in %</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21277</offset>
+      <text>The distribution of the unexplained variations is tightly centred around 2% (corresponding to a median R 2&#160;=&#160;0.98) while only a minority of exponential models fitted insufficiently (R 2&#160;&lt;&#160;0.8) and were rejected.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21493</offset>
+      <text>To account for cell growth, our exponential model of protein degradation incorporated the doubling time measured for Jurkat cells (24&#160;h, see Fig&#160;EV3). This allowed for the determination of two additional parameters, namely protein degradation rate constants (k deg) and protein half&#8208;life values [h]. Since 50% turnover values can be measured more directly and reflect both protein synthesis and degradation, we selected 50% turnover time as the desired parameter to perform our subsequent analyses.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21996</offset>
+      <text>Experimental assignment of Jurkat cell doubling time</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22049</offset>
+      <text>Density of cell culture was monitored in triplicate over the course of 48&#160;h and fitted with an exponential model using the Doubling Time Online Calculator (http://www.doubling-time.com/compute.php). Cell doubling time was calculated from the assigned growth rate (0.0288) as follows: ln(2)/0.0288 and represented in hours.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22373</offset>
+      <text>Protein function and turnover: correlation with previous reports</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22438</offset>
+      <text>Overall, protein turnover times in Jurkat cells varied from &lt;&#160;1, to more than 48&#160;h with a median turnover time of 21.6&#160;h (Fig&#160;3C). Protein degradation constants determined for Jurkat cells (control sample) (Fierro&#8208;Monti et&#160;al, 2013), protein turnover times measured in HeLa cells (whole cell lysates) (Boisvert et&#160;al, 2012) and protein half&#8208;lives derived from NIH3T3 mouse fibroblasts (Schwanhausser et&#160;al, 2011) were retrieved and compared to their corresponding values of canonical proteoforms quantified in our study. We detected a moderate correlation between our data and previous reports, with Spearman rank correlation coefficients reaching 0.49 for HeLa data (Boisvert et&#160;al, 2012), 0.48 for NIH3T3 data (Schwanhausser et&#160;al, 2011) and 0.44 for Jurkat data (Fierro&#8208;Monti et&#160;al, 2013). Moreover, a median protein half&#8208;life of 50.5&#160;h measured in our study was in good agreement with previously reported values in mouse NIH3T3 cells (47.8&#160;h) (Schwanhausser et&#160;al, 2011) and human Jurkat cells (55.8&#160;h) (Fierro&#8208;Monti et&#160;al, 2013). Further, we observed a highly similar median turnover time (21.6&#160;h) and turnover distribution to estimates obtained in HeLa cells (20&#160;h) (Boisvert et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23662</offset>
+      <text>Based on gene ontology (GO) biological process term enrichment of our data using the Gorilla software (Eden et&#160;al, 2009) and considering one proteoform per gene, we found that proteins with common functional annotations displayed comparable cellular stabilities. To reduce the complexity and redundancy of enriched categories, we applied REViGIO (Supek et&#160;al, 2011) and visualised selected GO terms with false discovery rate (FDR) q&#8208;values lower than 0.05. Unstable proteins were more often involved in mitosis, chromosome segregation, cell cycle and apoptosis, next to regulation of RNA transcription and protein ubiquitination (Fig&#160;4A). On the other hand, RNA splicing, protein translation, folding and transport as well as various metabolic processes of carbohydrates, nucleotides, aldehydes, ketones, glutathione, nitrogen and phosphorus were conducted by more stable proteins (Fig&#160;4B). Along the same line, category enrichment analysis of KEGG pathway terms clearly pointed to increased stability of spliceosome and ribosome components next to RNA degradation, aminoacyl&#8208;tRNA biosynthesis, glycolysis and gluconeogenesis, and pentose phosphate pathways (all with FDR values below 9.0E&#8208;04) (Schwanhausser et&#160;al, 2011; Boisvert et&#160;al, 2012). Pfam data did not point to a significant influence of protein domain composition on protein turnover.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25021</offset>
+      <text> GO term enrichment analysis for unstable (A) and stable (B) proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25091</offset>
+      <text>Horizontal bar chart representations are given for significantly enriched GO terms in the human proteome (FDR  q&#8208;value&#160;&#8804;&#160;0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25225</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25228</offset>
+      <text>Overall, the results of our annotation enrichment analysis agree very well with previous studies in mouse (Schwanhausser et&#160;al, 2011) and human (Boisvert et&#160;al, 2012; Fierro&#8208;Monti et&#160;al, 2013), and thus, protein turnover rates seem to be conserved between different cell lines and organisms, especially at the level of protein groups and biological processes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25593</offset>
+      <text>Stability, abundance and structural disorder of alternative proteoforms</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25665</offset>
+      <text>To facilitate the interpretation of the relationship between alternative translation and protein turnover, whenever an iMet&#8208;retaining and iMet&#8208;processed proteoform were identified, we only selected the expected mature N&#8208;terminus per proteoform, according to the rules of iMet processing (Frottin et&#160;al, 2006). In total, we assigned protein turnover rates for 323 aTIS and 1,571 dbTIS N&#8208;terminal proteoforms (Fig&#160;5A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26092</offset>
+      <text>Characterisation of identified N&#8208;terminal proteoforms</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26148</offset>
+      <text>We assigned the turnover time of 1,941 proteoforms, including 1,894 proteoforms derived from 1,571 dbTIS and 323 aTIS next to 47&#160;N&#8208;termini generated by alternative iMet processing. dbTIS&#8208; and aTIS&#8208;derived proteoforms are indicated in shades of blue and shades of red, respectively. Stability of 100&#160;N&#8208;terminal proteoform pairs derived from the same gene (dark red).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26524</offset>
+      <text>Distribution of iMet positions giving rise to 323&#160;N&#8208;terminal proteoforms with assigned turnover times (to avoid redundancy a single iMet&#8208;processed proteoform was considered).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26704</offset>
+      <text>Distribution of turnover values shows differences in the overall stability of dbTIS versus aTIS proteoforms.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26813</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26816</offset>
+      <text>The majority of the identified aTIS resulted in relatively short N&#8208;terminal protein truncations (protein length reduced by less than 13%). The distribution of aTIS corresponding iMet positions centred within the first 200 amino acids with a median position of 52 (Fig&#160;5B), an observation in line with the fact that leaky ribosome scanning is likely to be responsible for the majority of downstream translation events observed (see above and Lee et&#160;al, 2012; Van Damme et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27303</offset>
+      <text>Interestingly, N&#8208;terminal proteoforms derived from aTIS usage frequently displayed distinct stabilities (Fig&#160;5C). We were able to quantify turnover rates of 100&#160;dbTIS/aTIS pairs and observed that some aTIS displayed altered stabilities as compared to their dbTIS counterparts. More specifically, we detected numerous examples of aTIS proteoforms with increased as well as decreased stability (Fig&#160;6A and B). This effect appeared not to correlate with the distance between aTIS and dbTIS positions (Fig&#160;6C). Since the differences in stabilities between aTIS and dbTIS expressed forms of the same gene were not uniform, no statistical difference was detected between their turnover times (Fig&#160;6C, Table&#160;1). However, when we compared the entire populations of aTIS to dbTIS, alternative proteoforms were on average found to be significantly more stable (P&#8208;value&#160;=&#160;1.52e&#8208;08) (Fig&#160;5C, Table&#160;1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28209</offset>
+      <text>N&#8208;terminal proteoforms may display different stabilities</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28268</offset>
+      <text>Degradation profiles of AIMP2, MARE2 and AN32E dbTIS and aTIS proteoforms as representative examples of N&#8208;terminal proteoforms that differ in stability.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28423</offset>
+      <text>MS spectra of the N&#8208;termini of two proteoforms originating from the aminoacyl&#8208;tRNA synthase complex&#8208;interacting multifunctional protein 2 (AIMP2): a dbTIS indicative N&#8208;terminus with processed iMet and starting at the second amino acid Pro, an aTIS indicative peptide starting at position 3 and retaining its iMet. As evident from the MS spectra shown, these N&#8208;terminal proteoforms displayed largely different turnover rates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28858</offset>
+      <text>Differences in turnover times were calculated for 100 dbTIS and aTIS proteoform pairs and presented in ascending order. The extent of N&#8208;terminal truncation in each pair was colour&#8208;coded to visualise the absence of correlation between the number of lacking amino acids and the direction of turnover shift.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29167</offset>
+      <text>An increase in disorder content between aTIS and dbTIS proteoforms can be observed for a multitude of dbTIS/aTIS pairs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29287</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>29290</offset>
+      <text>Differences in turnover, disorder and abundance values between aTIS and dbTIS</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>29368</offset>
+      <text>   Variable Data set Test  P&#8208;value Conclusion   Turnover time Complete data set Mann&#8211;Whitney test 1.52e&#8208;08 aTIS&gt;dbTIS  dbTIS/aTIS pairs Wilcoxon signed&#8208;rank test 0.5021 No difference  Disorder Complete data set Mann&#8211;Whitney test 0.00157 aTIS&gt;dbTIS  dbTIS/aTIS pairs Wilcoxon signed&#8208;rank test 0.01216 aTIS&gt;dbTIS  Spectral counts Complete data set Mann&#8211;Whitney test 4.31e&#8208;09 aTIS&lt;dbTIS  dbTIS/aTIS pairs Wilcoxon signed&#8208;rank test 3.44e&#8208;09 aTIS&lt;dbTIS  NSAF Complete data set Mann&#8211;Whitney test 1.15e&#8208;07 aTIS&lt;dbTIS  dbTIS/aTIS pairs Wilcoxon signed&#8208;rank test 6.45e&#8208;09 aTIS&lt;dbTIS</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>29970</offset>
+      <text>For the complete data set of aTIS and dbTIS with reliable turnover measurements and considering a single iMet proteoform (N&#160;=&#160;1,894; 323 aTIS and 1,571 dbTIS), a comparison of turnover, disorder and abundance values was performed using Mann&#8211;Whitney one&#8208;sided test for independent samples. Differences in paired dbTIS&#8208;aTIS data were measured using a Wilcoxon signed&#8208;rank one&#8208;sided test for paired samples. All analyses were performed at P&#160;&#8804;&#160;0.05 significance level.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30451</offset>
+      <text>We further determined whether aTIS indicative N&#8208;termini share features that are distinct from dbTIS. Given that translation is a one&#8208;directional process and downstream initiation due to leaky scanning only occurs with a limited probability, in a normal cellular context one might expect that many aTIS variants are less efficiently produced than dbTIS variants, leading to lower abundance of the former (Michel et&#160;al, 2014; Van Damme et&#160;al, 2014). To investigate this, we used spectral counts as well as NSAF scores (Paoletti et&#160;al, 2006) as quantitative proteoform measures. Using a Mann&#8211;Whitney one&#8208;sided test to compare the aTIS (323) and dbTIS (1,571) groups, we confirmed that, on average, aTIS variants are less abundant with high significance values when using both spectral counts (P&#8208;value&#160;=&#160;4.31e&#8208;09) and NSAF scores (P&#8208;value&#160;=&#160;1.15e&#8208;07). The same was observed when directly comparing dbTIS to aTIS variants originating from the same gene using a Wilcoxon signed&#8208;rank test for paired samples (P&#8208;values of 3.44e&#8208;09 and 6.45e&#8208;09, respectively, for spectral counts and NSAF, see Table&#160;1). Finally, we observed a&#160;slight positive correlation between turnover time and protein abundance (Spearman rank correlation of 0.285). Further analysis indicated reduced levels of the top 10% of unstable proteins and higher levels of the 10% most stable proteins in relation to the mean protein abundance in our data set (Benjamini&#8211;Hochberg FDR of 2.29e&#8208;11 and 7.44e&#8208;05, respectively).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31969</offset>
+      <text>Intrinsic disorder in protein structures is an important factor that determines protein degradation rates (reviewed in Babu et&#160;al, 2011). The extent of structural flexibility can be assessed, among others, by studying the amino acid composition of proteins (Dosztanyi et&#160;al, 2005b). For every proteoform sequence, the percentage of intrinsically disordered regions was predicted using the RAPID server (Yan et&#160;al, 2013). The average disorder of aTIS proteoforms was found to be higher than that of dbTIS proteoforms (Mann&#8211;Whitney one&#8208;sided test, P&#160;=&#160;0.00157). These observations were confirmed in paired samples of aTIS and dbTIS products of the same gene (Wilcoxon signed&#8208;rank test, P&#160;=&#160;0.01216, see Fig&#160;6D). In conclusion, aTIS proteoforms were characterised by lower expression levels and higher structural flexibility than dbTIS proteoforms. Moreover, the aTIS population displayed an overall higher stability compared to dbTIS. Additionally, a low negative correlation was observed between protein turnover and the percentage of disordered sequence (Spearman rank correlation of &#8722;0.209), suggesting that unstable proteins tend to have more disordered regions, as reported in previous studies (Doherty et&#160;al, 2009; Kristensen et&#160;al, 2013). In&#160;line with this, the 10% most stable proteins had significantly lower disorder content, contrary to the 10% least stable proteins with highly disordered structures (Benjamini&#8211;Hochberg FDR of 3.27e&#8208;11).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33440</offset>
+      <text>Protein turnover and N&#8208;terminal amino acid composition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33497</offset>
+      <text>We next investigated whether the identified N&#8208;termini hold intrinsic information on the so&#8208;called N&#8208;degrons (Kim et&#160;al, 2014), and what the role is of iMet cleavage in this process.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33686</offset>
+      <text>To correlate the N&#8208;end rule with our pSILAC data set, we examined the relation between the turnover rate and the identity of the two utmost N&#8208;terminal residues. A Bartlett test indicated insufficient homogeneity of variance between the studied groups, leading to the selection of non&#8208;parametrical tests for further analysis. First, we performed a pairwise comparison of protein stability across N&#8208;termini grouped according to their N&#8208;terminal amino acid identity. A Kruskal&#8211;Wallis rank sum test indicated a significant impact of N&#8208;terminal residues on protein turnover, whereas a subsequent multiple comparison test allowed to indicate the most deviating pairs (with P&#160;&lt;&#160;0.05). Met&#8208;Asn and Met&#8208;Asp were among the least stable N&#8208;termini which deviated significantly from stable N&#8208;termini such as Met&#8208;Thr&#8208;, Met&#8208;Val&#8208;, Met&#8208;Ala&#8208; and Pro&#8208;starting N&#8208;termini (Fig&#160;7A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34588</offset>
+      <text>Relationship between N&#8208;terminal amino residue(s) identity and 50% turnover rates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34671</offset>
+      <text>All protein N&#8208;termini were grouped according to the identity of their N&#8208;terminal residues and sorted in ascending order of stability.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34809</offset>
+      <text>Methionine processing typically affects N&#8208;termini displaying amino acids with small gyration radii (S, A, T, C, V, G or P residues at the second position). Although the majority of these N&#8208;termini undergo methionine cleavage, some (partially) retain their first amino acid. Subsequently, iMet&#8208;processed N&#8208;termini may be Nt&#8208;acetylated by NatA in the following order of efficiency (S, A, T, C, V and G) with the exception of P which always remains unmodified (Van Damme et&#160;al, 2011). The stability of iMet&#8208;processed N&#8208;termini is very similar for S&#8208;, A&#8208;, T&#8208;, C&#8208; and G&#8208; and P&#8208;starting N&#8208;termini, but their iMet&#8208;retaining counterparts have overall higher stability, and this especially for MT and MV N&#8208;termini. In contrast to methionine processing, Nt&#8208;acetylation susceptibility does not appear to have an effect on the stability of proteoforms. *The extent of in&#160;vivo Nt&#8208;acetylation was described by Van Damme et&#160;al (2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35768</offset>
+      <text>Differences in turnover times where calculated for N&#8208;termini starting with S, A, T, C and G and P and their iMet&#8208;retaining counterparts (47 proteoform pairs with valid turnover measurements). Decreased stability of processed N&#8208;termini could be observed, especially for T&#8208; and V&#8208;starting N&#8208;termini.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36078</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36081</offset>
+      <text>To further dissect our data, we compared the stability of N&#8208;termini undergoing iMet processing, leading to N&#8208;terminal Ser, Ala, Thr, Cys, Val, Gly and Pro. Interestingly, a general lower stability was observed for proteoforms with their iMet residue removed compared to proteoforms that retained the iMet. A significant impact of iMet processing on turnover rates was confirmed using a Kruskal&#8211;Wallis rank sum test (P&#160;&lt;&#160;2.2e&#8208;16). To decouple the effect of Nt&#8208;acetylation from iMet processing, we compared completely or partially Nt&#8208;acetylated (Ser, Ala, Thr, Cys, Val, Gly) to in&#160;vivo free (Pro) N&#8208;termini, and for both groups, we observed a lower stability of proteoforms with their iMet removed (see Fig&#160;7B). Considering individual amino acids, only Thr and Val deviated significantly from their corresponding iMet&#8208;retaining N&#8208;termini (see Fig&#160;7B and C). However, a less strict analysis with pairwise Wilcoxon rank sum test (without correction for multiple testing) pointed to significant deviation between iMet&#8208;processed and iMet&#8208;retaining Ala&#8208;, Ser&#8208; and Gly&#8208;starting N&#8208;termini. To conclude, turnover rates of N&#8208;termini with different susceptibility for Nt&#8208;acetylation (Van Damme et&#160;al, 2011) were generally affected by iMet processing.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37361</offset>
+      <text>These findings suggest that irrespective of (the degree of) Nt&#8208;acetylation, iMet processing, rather than Nt&#8208;acetylation, seems to be a main contributing factor to N&#8208;terminal proteoform stability. In particular and in line with previous findings (Brown, 1979), no correlation was found with the Nt&#8208;acetylation susceptibility of protein N&#8208;termini (Fig&#160;7B). Secondly, the presence of a hydrophobic residue at the second position has no apparent influence on average turnover rates as proteins starting with N&#8208;termini such as Met&#8208;Leu, Met&#8208;Phe, Met&#8208;Tyr and Met&#8208;Ile have stabilities close to the median stability of all protein N&#8208;termini (Fig&#160;7A). A more detailed analysis of grand average of hydropathy (GRAVY) of 2 and 10 most N&#8208;terminal residues revealed no correlation with protein turnover times (Spearman correlation coefficients of 0.013 and 0.0085, respectively).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38253</offset>
+      <text>Ubiquitination and protein turnover</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38289</offset>
+      <text>Post&#8208;translational modifications, such as ubiquitination, may affect protein stability and are thus worthwhile to consider in the context of N&#8208;terminal proteoforms. Ubiquitination has a known, direct impact on protein degradation and was previously studied at the proteome&#8208;wide level using Jurkat cells as a model system (Stes et&#160;al, 2014). Our group reported on a compilation of more than 7,500 in&#160;vivo ubiquitinated peptides in more than 3,300 different proteins (Stes et&#160;al, 2014). Using this data set, we investigated whether annotated N&#8208;terminal proteoforms holding possible (previously identified) ubiquitination sites displayed different stabilities than proteoforms not found to be ubiquitinated. We compared the stability of 348 dbTIS containing at least one detected ubiquitination site to 388&#160;N&#8208;termini with one or more lysine residues but no experimental evidence of ubiquitination in Jurkat cells. A one&#8208;sided Mann&#8211;Whitney U&#8208;test revealed a significant higher median stability of ubiquitinated proteoforms compared to non&#8208;ubiquitinated proteoforms (P&#160;=&#160;0.0005; see Fig&#160;EV4), although in each case a very broad range of protein stabilities could be observed. To provide more insight, we decided to investigate particular cases of ubiquitinated N&#8208;termini. The existence of additional ubiquitination sites may contribute to the difference in turnover observed between longer and shorter proteoforms, as reported in the case of the mu opioid receptor (MOP) (Song et&#160;al, 2009). Interestingly, in our data set, we found 31 dbTIS proteoforms holding unique ubiquitination sites not present in a shorter proteoform (aTIS). Eleven such proteoforms displayed reduced stability (turnover time decreased by at least 2&#160;h) compared to their aTIS counterparts (Table&#160;EV2). For these proteoforms, ubiquitination potentially contributes to the observed differences in stability. We also found 14 proteoform pairs where ubiquitination of the longer variant possible contributed to an increased stability and five cases were irrelevant differences in stability between proteoform pairs were observed (&lt;&#160;2&#160;h).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40424</offset>
+      <text>Distribution of turnover values for lysine containing ubiquitinated (N&#160;=&#160;348) and non&#8208;ubiquitinated dbTIS indicative N&#8208;termini (N&#160;=&#160;388)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40569</offset>
+      <text>&#160;</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40572</offset>
+      <text>Protein turnover in macromolecular complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40617</offset>
+      <text>Following up on a recent report on the precise regulation of protein synthesis rates being proportional to the stoichiometry of macromolecular protein complexes (Li et&#160;al, 2014), we here investigated whether protein synthesis and degradation are coordinated for members of known macromolecular protein complexes (Table&#160;EV1B). According to the strategy reported by Kristensen et&#160;al (2013), we retrieved the human core protein complexes from the CORUM database (Ruepp et&#160;al, 2010). Next, we assigned turnover times to members of complexes using only the dbTIS proteoforms identified in our study. We calculated the absolute difference in stability between every protein and all other members of a given complex. Significant outliers with statistically larger differences to other proteins in a complex were identified using the Mann&#8211;Whitney&#160;U&#8208;test (&#945;&#160;=&#160;0.05, one&#8208;sided). In this way, we estimated the dispersion of turnover rates for 189 proteins within 173 macromolecular complexes with three or more members identified, and came to the conclusion that a majority of turnover rates correlate well within a complex (127 or 73% of the complexes). Inconsistencies were observed in 46 complexes of which 74% involved a single outlier. In 28 complexes, we detected a single unstable component, hinting to a rate&#8208;limiting factor for complex formation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41978</offset>
+      <text>Next, we investigated whether protein&#8211;protein interactions could be affected by the expression of alternative N&#8208;terminal proteoforms. Here, a comparative analysis of GO terms related to protein function in aTIS&#8208; versus dbTIS&#8208;derived proteoforms revealed that alternative proteoforms were clearly enriched in protein forming homomultimers (FDR q&#8208;value of 0.0096) hinting to the likely impact of alternative proteoform incorporation on the overall stability of protein complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42466</offset>
+      <text>Verification of protein turnover times</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42505</offset>
+      <text>Cycloheximide (CHX) pulse&#8208;chase experiments were performed to confirm the stability of selected proteoforms. Half&#8208;lives of six selected endogenous proteins (Fig&#160;8A) were assayed by Western blotting using lysates of Jurkat cells treated with CHX for 0&#8211;48&#160;h. Protein levels of short&#8208;lived securin, lamin B, &#946;&#8208;catenin and GCIP&#8208;interacting protein p29 levels were monitored by Western blotting and compared to those of stable proteins such as actin and GAPDH. Protein half&#8208;lives deduced from Western blot analyses corresponded well to those calculated from pSILAC data. Overexpression of selected V5&#8208;tagged proteoforms in the human colorectal HCT116 carcinoma cell line allowed us to validate differential turnover of identified dbTIS and aTIS products from two different genes: MARE2 and AN32E (Fig&#160;8B and C). Data from the latter experiments further suggest that common trends can be observed in the regulation of proteoform stability across different human cell lines, despite discrepancies in the exact values calculated using CHX&#8208;chase and pSILAC.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>43576</offset>
+      <text>Comparison of protein turnover measured by pSILAC and CHX&#8208;chase</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43642</offset>
+      <text>Jurkat cells were treated with 100&#160;&#956;g/ml CHX for 0, 0.5, 1.5, 4, 8, 12 or 24&#160;h. Protein degradation was monitored by Western blotting, and stabilities of several short&#8208;lived endogenous proteins were confirmed using antibodies (including lamin B, securin, &#946;&#8208;catenin, GCIP&#8208;interacting protein p29) and compared to stable proteins (such as GAPDH and actin). Proteoform&#8208;specific bands were used to calculate protein half&#8208;lives which were in a good agreement with turnover times obtained from pSILAC</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44151</offset>
+      <text>Validation of the differential turnover time of the dbTIS&#8208; and aTIS&#8208;derived proteoforms of MARE2 and AN32E. Selective C&#8208;terminal V5&#8208;tagged proteoforms were overexpressed in HCT116 cells for 24&#160;h, and CHX pulse&#8208;chase experiments were performed as described for Jurkat cells. Degradation of overexpressed proteoforms was monitored by an anti&#8208;V5 antibody and compared to the turnover of stable proteins such as actin and tubulin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44591</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44594</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44646</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44657</offset>
+      <text>The selection of translation initiation sites attributes to the complexity of proteomes as N&#8208;terminally truncated and extended proteoforms may be differentially regulated, localised (Leissring et&#160;al, 2004; Kobayashi et&#160;al, 2009), display altered stabilities (Song et&#160;al, 2009) and functionalities (Calligaris et&#160;al, 1995; Thomas et&#160;al, 2008; Khanna&#8208;Gupta et&#160;al, 2012) especially in the case of some large N&#8208;terminal truncations. Proteoforms arisen from alternative translation initiation are generally well conserved among eukaryotic orthologous protein species (Van Damme et&#160;al, 2014). Selection between alternative translation start sites is regulated under conditions of cellular stress (Gawron et&#160;al, 2014) and may change the repertoire of N&#8208;terminal proteoforms expressed in a developmental and tissue&#8208;specific manner (Calligaris et&#160;al, 1995; Thomas et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45546</offset>
+      <text>pSILAC was already used in several proteome studies to determine the dynamic properties of thousands of proteins in a single experiment. Most studies made use of non&#8208;synchronised, proliferating cell lines (Selbach et&#160;al, 2008; Doherty et&#160;al, 2009; Schwanhausser et&#160;al, 2011; Boisvert et&#160;al, 2012), while others employed growth arrest (Cambridge et&#160;al, 2011) or studied protein synthesis and degradation rates in dynamically changing systems [e.g. during differentiation (Kristensen et&#160;al, 2013) or following drug&#8208;mediated inhibition of Hsp90 (Fierro&#8208;Monti et&#160;al, 2013)]. We decided to employ a pSILAC approach similar to the one described by Boisvert et&#160;al (2012) which enabled the measurement of protein half&#8208;lives (t 1/2) as well as protein turnover, reflecting the overall protein synthesis and degradation rates (Boisvert et&#160;al, 2012). To better reflect our experimental results, we simplified the mathematical model proposed by Boisvert et&#160;al (2012). In their set&#8208;up, levels of medium Arg were retained at 20% instead of asymptotically approaching zero as degradation of proteins proceeds, an observation which they attributed to amino acid recycling. In Jurkat cells, we observed a complete isotope replacement, similar to another recent pSILAC study conducted in the same cell line (Fierro&#8208;Monti et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46886</offset>
+      <text>Here, we performed a first global, N&#8208;terminal proteoform&#8208;specific analysis of protein stability and identified numerous N&#8208;terminally truncated proteoforms with distinct turnover rates compared to their full&#8208;length counterparts. Among the compared dbTIS/aTIS pairs, the stability of alternative proteoforms was not correlated to the length of truncation. The regulation of protein turnover rather seemed proteoform&#8208;specific, pointing to many different factors involved in the synthesis and degradation of specific proteins. One such contributing factor may be post&#8208;translational modifications, as we found 11 proteoform pairs where ubiquitination of the longer variant possible contributed to reduced proteoform stability.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47620</offset>
+      <text>To validate the difference in half&#8208;lives of selected proteoform pairs, we turned to the use of a more classic method for measuring protein turnover, being CHX pulse&#8208;chase experiments followed by Western blot analysis. We confirmed turnover rates of several endogenously expressed short&#8208; and long&#8208;lived proteins. Due to the limitation in molecular weight resolution and sensitivity, we subsequently turned to overexpression studies for the validation of differential N&#8208;terminal proteoform stabilities from two human genes. Nonetheless, since upon incubation of the cells with protein synthesis inhibitors, protein degradation may be altered (Hanna et&#160;al, 2003; Dai et&#160;al, 2013), and cell toxicity can only be controlled for a relatively short period; CHX treatment may preclude a correct delineation/validation of long protein half&#8208;lives.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48472</offset>
+      <text>We further evaluated the origin of N&#8208;terminal proteoforms identified in our study using ribosome profiling and extensive mining of public databases (Table&#160;EV1C) and found that 74% of the aTIS were generated by alternative translation initiation, whereas 23% likely pointed to splicing events. Truncated proteoforms displayed a lower translation initiation signal at the start codon, in line with their reduced proteome abundance estimated by spectral counting. These finding are consistent with a lower frequency of downstream translation initiation assumed from the leaky scanning model of translation initiation and corroborated by previous reports (Lee et&#160;al, 2012). Next to their lower abundance, the limited overlap between aTIS identified by means of proteomics and Ribo&#8208;Seq might be additionally attributed to the TIS calling approach used, since typically a higher interference is observed at internal TIS typically flanked by signal at both 5&#8242; and 3&#8242; end. Moreover, some aTIS may actually be the sole or preferential TIS site selected due to alternative splicing and, in some cases, alternative translation initiation. In this context, previous studies demonstrated that their corresponding dbTIS sites are typically embedded in less optimal Kozak consensus sequences (Van Damme et&#160;al, 2014). Indeed, we found 12 aTIS proteoforms exclusively expressed in the absence of dbTIS at both the translatome and the proteome levels. In some cases, a truncated proteoform may also display superior stability over the canonical proteoform. Viewing their general lower abundance, stable aTIS proteoforms are more likely to be detected. The latter could explain why the aTIS population was slightly enriched for long&#8208;lived proteins.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50215</offset>
+      <text>As reported previously (Cambridge et&#160;al, 2011; Kristensen et&#160;al, 2013), turnover rates were similar for proteins belonging to similar functional groups or macromolecular complexes. This is supported by the notion that some proteins get stabilised upon complexation with other proteins, lipids, sugars or nucleotides (Cambridge et&#160;al, 2011). In line, other studies suggested that protein subunits turn over quickly where the complex is assembled, but are stabilised in cellular compartments where the complex is functional (Boisvert et&#160;al, 2012). Some of the identified protein truncations are predicted to be benign for a protein's function or binding but have large consequences for protein stability. For example, a single amino acid truncation of AIMP2 increases protein stability (see Fig&#160;6A and B) but was not predicted to alter its sequence disorder content, localisation [TargetP (Emanuelsson et&#160;al, 2000), WoLF PSORT (Horton et&#160;al, 2007)] or any of its known interacting domains. Considering such cases, a differential regulation of N&#8208;terminal proteoform stability may potentially result in elimination or introduction of unstable components into a complex. It is also important to consider that the relative expression levels of proteoforms are responsive to cellular conditions (Touriol et&#160;al, 2003; Thomas et&#160;al, 2008; Leprivier et&#160;al, 2014). In this context, depletion of one proteoform may increase the impact of another proteoform's turnover on protein complex formation. As we observed that aTIS proteoforms were enriched in proteins forming homomultimers, generation of alternative proteoforms may be important in the context of homomultimerisation. Interestingly, in the case of the transcription factor GATA&#8208;1, proteoforms generated by alternative translation initiation were already shown to produce dimers (Calligaris et&#160;al, 1995) with altered activities dependent on the relative ratios of the two proteoforms in the complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52177</offset>
+      <text>The extent of intrinsic disorder in protein structures was correlated with turnover times, indicating that a change in structural flexibility of protein N&#8208;termini from truncated proteoforms might have an impact on the proteoforms&#8217; cellular stabilities. In line with the observation that proteins displaying iMet cleavage are overrepresented in&#160;vivo, the general belief is that retained iMet reduces the stability of proteins (Meinnel et&#160;al, 2005; Frottin et&#160;al, 2006). Unexpectedly, our stability data showed a reduced stability of iMet&#8208;processed proteoforms in numerous cases. However, it is important to discriminate between the effect of iMet removal on protein abundance and the effect on protein turnover time, as these two terms should not be used interchangeably. Relying on previous quantitative data on protein Nt&#8208;acetylation (Van Damme et&#160;al, 2014), another common co&#8208;translational modification, Nt&#8208;acetylation seemed to have no overall impact on turnover rates. Of note however, due to the experimental methodology applied, we cannot distinguish Nt&#8208;acetylated from Nt&#8208;free proteoform counterparts. In fact, the role of Nt&#8208;acetylation in protein stability is debated (Brown, 1979; Hershko et&#160;al, 1984) and is likely protein context and NAT dependent (Myklebust et&#160;al, 2015; Xu et&#160;al, 2015). It was postulated that Nt&#8208;acetylation may stabilise otherwise flexible structures of N&#8208;termini and reduce their propensity for aggregation (Holmes et&#160;al, 2014). At the same time, acetylated protein N&#8208;termini are substrates of the N&#8208;end rule pathway (Hwang et&#160;al, 2010) which may constitute a clearance mechanism for N&#8208;terminally misfolded or non&#8208;complexed proteins (Eisele &amp; Wolf, 2008; Heck et&#160;al, 2010; Shemorry et&#160;al, 2013; Park et&#160;al, 2015). Moreover, it is difficult to directly compare our results to the destabilising properties of the corresponding N&#8208;terminal amino acids originally described by Varshavsky and colleagues, especially considering differences in the studied organisms and the techniques used for protein turnover determination (pSILAC vs. CHX&#8208;chase). We believe that the property of iMet retention to increase the stability of N&#8208;terminal proteoforms described in our study may exist as an additional mechanism next to the N&#8208;end rule pathways to ensure the fine&#8208;tuning of protein stability in eukaryotic cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54563</offset>
+      <text>Recent large&#8208;scale studies on protein stability report a limited correlation to other high&#8208;throughput data and especially differences in the methodologies applied appear to account for the observed discrepancies (Yen et&#160;al, 2008; Doherty et&#160;al, 2009; Cambridge et&#160;al, 2011; Eden et&#160;al, 2011; Boisvert et&#160;al, 2012). In this context, pSILAC approaches share general advantages, as they target endogenous proteins expressed at physiological levels in untreated cells. We therefore sought to cross&#8208;examine our present turnover data with previous studies performed using pSILAC in human (HeLa and Jurkat cells, Boisvert et&#160;al, 2012; Fierro&#8208;Monti et&#160;al, 2013) and mouse (NIH3T3 cells, Schwanhausser et&#160;al, 2011). We observed a positive correlation of our data with these other protein stability studies, with Spearman's correlation coefficients of 0.48, 0.44 and 0.49 (Schwanhausser et&#160;al, 2011; Boisvert et&#160;al, 2012 and Fierro&#8208;Monti et&#160;al, 2013), respectively. Moreover, comparison of gene ontology enrichment analyses indicated that protein turnover rates seem to be conserved between different cell lines and organisms. Despite similar experimental procedures, there was still a lot of unexplained variation between the data sets, which may be attributed to differential regulation of protein stability in different cell lines or differential growth conditions in the case of the Jurkat cell line, while data processing and interpretation are other factors to consider. Importantly, we clearly demonstrate the contribution of proteoform&#8208;specific turnover rates and that differences in stability between N&#8208;terminal protein variants may in principle only be resolved by focusing on their unique peptides, whereas shared peptides are a potential source of error in turnover measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56370</offset>
+      <text>Protein turnover measurements were recently extended to protein isoforms and (modified) protein pools (Ahmad et&#160;al, 2012; Boisvert et&#160;al, 2012). The Lamond group provided evidence for differential stabilities and localisation of proteoforms. Their shotgun approach, however well suited to study splice variants, had limited application for N&#8208;terminal proteoforms. Our pSILAC/N&#8208;terminal COFRADIC approach can be further extended to study changes in stability and proteoform expression levels during dynamic processes or in different tissues (Fierro&#8208;Monti et&#160;al, 2013; Kristensen et&#160;al, 2013). Since targeting to diverse micro&#8208;environments allows fine&#8208;tuning of local protein concentrations, adding a spatial context to protein turnover may increase our understanding of the functional diversity of proteomes in future studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57210</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57232</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57245</offset>
+      <text>For N&#8208;terminal COFRADIC analyses, human Jurkat T&#8208;lymphocytes (clone E6&#8208;1 ATCC TIB&#8208;152, ATCC) were subjected to SILAC labelling (Ong et&#160;al, 2002). Cells were cultured in a 5% CO2 gas&#8208;equilibrated, humidified incubator in Roswell Park Memorial Institute (RPMI)&#8212;1640 medium without arginine and lysine (Silantes, GmbH, Munich, Germany) containing 10% fetal bovine serum dialysed using a 10&#8208;kDa cut&#8208;off membrane (Gibco, Life Technologies, Paisley, Scotland, UK), 2&#160;mM alanyl&#8208;L&#8208;glutamine dipeptide (GlutaMAX, Gibco), 50&#160;units/ml of penicillin (Gibco), 50&#160;&#956;g/ml of streptomycin (Gibco) and 146&#160;&#956;g/ml light (12C6) L&#8208;lysine (Cambridge Isotope Labs, Andover, MA, USA). Media were supplemented with either light (Arg0, 12C6 14N4) or medium (Arg6, 13C6 14N4) L&#8208;arginine (Cambridge Isotope Labs) at a final concentration of 48&#160;&#956;g/ml at which Arg to Pro conversion was not detected. To achieve a complete incorporation of the labelled amino acids, cells were maintained in culture for seven population doublings (Fig&#160;EV5).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>58289</offset>
+      <text> SILAC labelling of Jurkat cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>58322</offset>
+      <text>Jurkat cells cultured in regular RPMI medium were transferred to RPMI SILAC medium containing Arg6 l&#8208;arginine and cultured for 7&#160;days. Subsequently, cells were transferred to a RPMI SILAC medium containing Arg0 l&#8208;arginine for next 7&#160;days, to achieve complete unlabelling. The isotope replacement was monitored by quantifying the identified MS spectra using Mascot Distiller.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58703</offset>
+      <text>The pulsed SILAC strategy for protein turnover measurements was previously described by Boisvert et&#160;al (2012). Briefly, suspension cultures containing equal numbers of unlabelled (Arg0) and labelled (Arg6) cells were taken and the medium was removed by centrifugation for 5&#160;min at 350&#160;g. Cell pellets were washed with PBS and centrifuged for 5&#160;min at 350&#160;g. The unlabelled cells were then suspended in light RPMI medium, whereas the medium labelled (Arg6) cells were suspended in medium containing heavy Arg (Arg10, 13C6 15N4) l&#8208;arginine. Following medium change, separate starting cultures of 107 cells were cultured at a concentration of 2&#160;&#215;&#160;105&#160;cells/ml for periods of 0.5, 1.5, 4, 8, 12, 24 or 48&#160;h, after which cultures of 107 cells were collected by centrifugation. Following two rounds of re&#8208;suspending in PBS and centrifugation at room temperature, cell pellets were immediately frozen on dry ice and stored at &#8722;80&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59646</offset>
+      <text>Proteins were isolated from cell pellets by three rounds of freezing and thawing in 1&#160;ml of 50&#160;mM sodium phosphate buffer, pH 7.5, and cell debris was removed by a 10&#8208;min centrifugation at 13,200&#160;g at 4&#176;C. The protein concentration in the supernatants was measured by the Bradford method, and for every time point sample, an equal amount of medium/heavy labelled proteome sample was mixed with the corresponding equivalent of light control sample.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60100</offset>
+      <text>Cycloheximide pulse&#8208;chase experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60140</offset>
+      <text>100&#160;&#956;g/ml cycloheximide was added to Jurkat cells that were cultured at a density of 180,000&#160;cells/ml. A total of 3.46&#160;&#215;&#160;106&#160;cells were harvested after 0, 0.5, 1.5, 4, 8, 12 or 24&#160;h of treatment and pelleted for 3&#160;min at 800&#160;g. Cells were lysed in 100&#160;&#956;l of RIPA buffer (50&#160;mM Tris&#8211;HCl pH 8.0, 150&#160;mM NaCl, 1% NP&#8208;40) with protease inhibitors added (Roche). All lysates were flash&#8208;frozen and stored at &#8722;80&#176;C until further processing. Samples were thawed and centrifuged for 10&#160;min at 13,200&#160;g, followed by measurement of protein content using the Bradford method. Forty micrograms of protein material from each sample was separated by SDS&#8211;PAGE (4&#8211;12% Criterion Bis&#8208;Tris gel, Bio&#8208;Rad), and protein levels were monitored by Western blotting. The following antibodies were used: anti&#8208;lamin B (NA12, Calbiochem), anti&#8208;securin (ab3305, Abcam), anti&#8208;&#946;&#8208;catenin (C2206, Sigma), anti&#8208;SYF2 (ab3610, Abcam), anti&#8208;GAPDH (ab9484, Abcam), anti&#8208;actin (A2066, Sigma) and anti&#8208;&#945;&#8208;tubulin (T5168, Sigma). The intensity of bands was assessed using the LICOR Odyssey software for Western Blot image processing.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61282</offset>
+      <text>To validate the proteomics&#8208;derived differential protein turnover of dbTIS and aTIS proteoforms of MARE2 and AN32E, complete cDNA clones were obtained from the ORFeome 7.1 collection (ID 4499) and I.M.A.G.E. (ID 3047915), respectively. Site&#8208;directed mutagenesis (Stratagene, Agilent Technologies) by mutating ATG (Met) to TTG (Leu) codons was performed to analyse the expression of selected proteoforms. (Mutagenised) constructs were subcloned into the eukaryotic pEF&#8208;DEST51 expression vector (Gateway, Life Technologies) and transfected in HCT116 cells using Fugene HD (Promega) at a 0.8/3/150,000 ratio of DNA [&#956;g], Fugene HD [&#956;l] and number of cells. Cycloheximide pulse&#8208;chase experiments were performed as described above for Jurkat cells, except that 150,000 HCT116 cells were harvested for every overexpressed construct and time point analysed. Cells were lysed in 80&#160;&#956;l RIPA buffer, and about 10&#160;&#956;g of total protein material was separated by SDS&#8211;PAGE. Degradation of overexpressed proteoforms was monitored by Western blotting using the anti&#8208;V5 antibody (R96025, Life Technologies) and compared to the turnover of stable proteins such as actin (Schwanhausser et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>62480</offset>
+      <text>N&#8208;terminal COFRADIC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62502</offset>
+      <text>The combined proteome mixtures were analysed by N&#8208;terminal COFRADIC (Staes et&#160;al, 2011; Van Damme et&#160;al, 2011). In summary, proteins are first blocked at their N&#8208;ends (&#945;&#8208;amines) and lysines (&#949;&#8208;amines) by acetylation. After trypsin digestion, terminal peptides are enriched for by means of SCX at low pH and by applying two consecutive RP&#8208;HPLC separations. In the latter, any remaining internal peptides and C&#8208;terminal peptides are shifted by reaction of their free &#945;&#8208;amino groups (new free &#945;&#8208;amino groups introduced by the action of trypsin) with 2,4,6&#8208;trinitrobenzenesulphonic acid (TNBS), thereby allowing for their segregation from N&#8208;terminal peptides. Fractions enriched for N&#8208;terminal peptides are subsequently analysed by means of LC&#8208;MS/MS. All steps of the N&#8208;terminal COFRADIC analysis, including SCX enrichment, were performed as described (Staes et&#160;al, 2011). More specifically, solid guanidinium hydrochloride (Gu.HCl) was added to the proteome mixtures to a final concentration of 4&#160;M in order to denature all proteins. Next, proteins were reduced and alkylated using TCEP and iodoacetamide, respectively. Upon desalting of the S&#8208;alkylated samples in 50&#160;mM sodium phosphate (pH 8.0), primary free amines were N&#8208;acetylated (no distinction between can be made between in&#160;vivo Nt&#8208;free (and thus in&#160;vitro Nt&#8208;acetylated) and in&#160;vivo Nt&#8208;acetylated N&#8208;termini by adding sulfo&#8208;N&#8208;hydroxysuccinimide (NHS) acetate (Pierce). Twice the molar excess of glycine over the NHS ester was subsequently added to quench any non&#8208;reacted NHS&#8208;acetate. Possible O&#8208;acetylation of Ser, Thr or Tyr residues was reverted by adding hydroxylamine (Fluka) to the modified protein mixtures. A final desalting step was performed in protein digestion buffer (10&#160;mM ammonium bicarbonate, pH 7.9), and the proteomes were digested overnight at 37&#176;C with sequencing&#8208;grade, modified trypsin (Promega, Madison, WI, USA) (enzyme/substrate of 1/100, w/w). Subsequent steps of the N&#8208;terminal COFRADIC analysis, including SCX enrichment, were performed as described (Stes et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64621</offset>
+      <text>Following label swapping, one N&#8208;terminal COFRADIC analysis was performed per time point (7&#160;N&#8208;terminal COFRADIC analysis in total). During the primary RP&#8208;HPLC separation of the actual N&#8208;terminal COFRADIC procedure, peptides were collected in 13 fractions of 4&#160;min each. Next, 12 secondary fractions were collected per primary fraction and pooled as described in Staes et&#160;al (2011), overall resulting in 36 samples for LC&#8208;MS/MS analysis per N&#8208;terminal COFRADIC set&#8208;up.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65105</offset>
+      <text>LC&#8208;MS/MS analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65125</offset>
+      <text>LC&#8208;MS/MS analysis was performed using an Ultimate 3000 RSLC nano HPLC (Dionex, Amsterdam, the Netherlands) in&#8208;line connected to an LTQ Orbitrap Velos mass spectrometer (Thermo Fisher Scientific, Bremen, Germany). The sample mixture was loaded on a trapping column (made in&#8208;house, 100&#160;&#956;m I.D.&#160;&#215;&#160;20&#160;mm, 5&#8208;&#956;m beads C18 Reprosil&#8208;HD, Dr. Maisch). After back flushing from the trapping column, the sample was loaded on a reverse&#8208;phase column (made in&#8208;house, 75&#160;&#956;m I.D.&#160;&#215;&#160;150&#160;mm, 5&#8208;&#956;m beads C18 Reprosil&#8208;HD, Dr. Maisch). Peptides were loaded in solvent A&#8217; (0.1% trifluoroacetic acid, 2% acetonitrile (ACN)) and separated with a linear gradient from 2% solvent A&#8217;&#8217; (0.1% formic acid) to 50% solvent B&#8217; (0.1% formic acid and 80% ACN) at a flow rate of 300&#160;nl/min followed by a wash reaching 100% solvent B&#8217;. The mass spectrometer was operated in data&#8208;dependent mode, automatically switching between MS and MS/MS acquisition for the ten most abundant peaks in a given MS spectrum. Full&#8208;scan MS spectra were acquired in the Orbitrap at a target value of 1E6 with a resolution of 60,000. The 10 most intense ions were then isolated for fragmentation in the linear ion trap, with a dynamic exclusion of 20&#160;s. Peptides were fragmented after filling the ion trap at a target value of 1E4 ion counts. Mascot Generic Files were created from the MS/MS data in each LC run using the Mascot Distiller software (version 2.4.2.0, Matrix Science, www.matrixscience.com/Distiller.html). To generate these MS/MS peak lists, grouping of spectra was allowed with a maximum intermediate retention time of 30&#160;s and a maximum intermediate scan count of 5. Grouping was done with a 0.005&#160;Da precursor tolerance. A peak list was only generated when the MS/MS spectrum contained more than 10 peaks. There was no de&#8208;isotoping and the relative signal&#8208;to&#8208;noise limit was set at 2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67026</offset>
+      <text>The generated MS/MS peak lists were searched with Mascot using the Mascot Daemon interface (version 2.3.01, Matrix Science). Searches were performed in the Swiss&#8208;Prot database with taxonomy set to human (UniProtKB/Swiss&#8208;Prot database version 2011_08, containing 20,244 human protein entries). The Mascot search parameters were set as follows: acetylation at lysine side chains, carbamidomethylation of cysteine and methionine oxidation to methionine&#8208;sulfoxide were set as fixed modifications. Variable modifications were acetylation of N&#8208;termini and pyroglutamate formation of N&#8208;terminal glutamine (both at peptide level). Endoproteinase semi&#8208;Arg&#8208;C/P (semi&#8208;Arg&#8208;C specificity with Arg&#8208;Pro cleavage allowed) was set as enzyme allowing for no missed cleavages. Mass tolerance was set to 10&#160;ppm on the precursor ion and to 0.5&#160;Da on fragment ions. Peptide charge was set to 1+, 2+, 3+ and instrument setting was put to ESI&#8208;TRAP. Only peptides that scored above the threshold score, set at 99% confidence, were withheld. The FDR was estimated by searching a decoy database (a shuffled version of the human Swiss&#8208;Prot database version 2011_08) and ranged from 0.32% to 2.27% for individual samples, with a global FDR of 1.18% on the spectrum level.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>68295</offset>
+      <text>Ribosome profiling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68314</offset>
+      <text>For ribosome profiling, Jurkat cells were grown in RPMI medium (Gibco) supplemented with 10% fetal bovine serum, 2&#160;mM alanyl&#8208;l&#8208;glutamine dipeptide (GlutaMAX, Gibco), 50&#160;units/ml penicillin and 50&#160;&#956;g/ml streptomycin at 37&#176;C and 5% CO2. Cultures were treated with 50&#160;&#956;M lactimidomycin (LTM) (Ju et&#160;al, 2005; Schneider&#8208;Poetsch et&#160;al, 2010) or 100&#160;&#956;g/ml cycloheximide (CHX) (Sigma, USA) for 30&#160;min at 37&#176;C before cell harvest. Subsequently, cells were collected by centrifugation (5&#160;min at 300&#160;g), rinsed with ice&#8208;cold PBS and recovered again by centrifugation in the presence of CHX. 108&#160;cells were re&#8208;suspended in 1&#160;ml ice&#8208;cold lysis buffer [10&#160;mM Tris&#8211;HCl, pH 7.4, 5&#160;mM MgCl2, 100&#160;mM KCl, 1% Triton X&#8208;100, 2&#160;mM dithiothreitol (DTT), 100&#160;&#956;g/ml CHX, 1&#215; complete and EDTA&#8208;free protease inhibitor cocktail (Roche)] (Guo et&#160;al, 2010). Following 10&#160;min of incubation on ice, samples were passed through QIAshredder spin columns (Qiagen). The flow&#8208;through was clarified by centrifugation for 10&#160;min at 16,000&#160;&#215;&#160;g and 4&#176;C. Six hundred microlitres of the recovered supernatant was subjected to RNase I (Life Technologies) digestion using 1000 U of enzyme. Digestion of polysomes proceeded for 55&#160;min at room temperature and was stopped with SUPERase.In RNase Inhibitor (Life Technologies). Next, monosomes were recovered by ultracentrifugation at 75,000&#160;rpm in a cooled TLA&#8208;120.2 rotor over a 1&#160;M sucrose cushion in 20&#160;mM HEPES&#8208;KOH pH 7.4, 5&#160;mM MgCl2, 100&#160;mM KCl, 2&#160;mM DTT, 100&#160;&#956;g/ml CHX and 100&#160;U/ml&#160;Superase.In. Subsequent steps were performed as described by Ingolia et&#160;al (2011) with some minor adjustments. RNA was extracted from the samples using a heated acid phenol&#8211; chloroform&#8211; isoamyl alcohol (125:24:1) procedure. Seventeen micrograms of RNA was subjected to electrophoresis under denaturing conditions in 15% TBE&#8208;Urea polyacrylamide gel (Life Technologies). Ribosome&#8208;protected fragments (RPFs) of 28&#8211;34 nucleotides were extracted from the gel in RNase&#8208;free water for 10&#160;min at 70&#176;C and precipitated with 1/10 volume of 3&#160;M sodium acetate pH 5.2, 1.5&#160;&#956;l GlycoBlue (Life Technologies) and 1 volume of isopropanol overnight at &#8722;80&#176;C. Following a dephosphorylation reaction (end&#8208;repair) with 10&#160;U of T4 polynucleotide kinase (New England Biolabs), the RPFs were depleted of ribosomal RNA contaminants using the Ribo&#8208;Zero Magnetic Gold Kit (Illumina) according to the manufacturer's protocol. Subsequently, fragments were ligated to a 1.5&#160;&#956;g of Universal cloning linker using 200&#160;U of T4 RNA ligase II (both New England Biolabs). The ligated product was size&#8208;selected using denaturing gel electrophoresis and purified from gel as described above. Subsequently, reverse transcription (RT) was performed with 200&#160;U of SuperScript III (Life Technologies) according to Ingolia et&#160;al (2011), followed by a size selection of the RT product (described above). Next, samples were subjected to circular ligation using 100&#160;U of CircLigase (Illumina) and amplified by PCR using Phusion polymerase (New England Biolabs) for 12 cycles of denaturation (10&#160;s at 98&#176;C), annealing (10&#160;s of 65&#176;C) and elongation (5&#160;s at 72&#176;C) using primer pairs compatible with the Illumina sequencing platform (Ingolia et&#160;al, 2011). The resulting ribosome profiling libraries of LTM&#8208; and CHX&#8208;treated Jurkat cells were sequenced on a NextSeq 500 instrument (Illumina) to yield 75&#8208;bp single&#8208;end reads.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>71792</offset>
+      <text>Measurement of proteoform turnover</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71827</offset>
+      <text>Arg&#8208;ending N&#8208;terminal peptides were selected that started at position 1 or 2 (entries stored in the Swiss&#8208;Prot database) or derived from alternative translation initiation at positions &gt;&#160;2) and which complied with rules of iMet processing and Nt&#8208;acetylation (Van Damme et&#160;al, 2014). For every unique N&#8208;terminus (unique proteoform), SILAC ratios (M/L, H/L and H/M) calculated for the highest scoring peptide identification were included in the analysis. M/L and H/L ratios were normalised, according to equation&#160;(1): where L, M and H denote light, medium and heavy isotope&#8208;labelled peptide intensities.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72444</offset>
+      <text>M/L and H/L ratios were plotted in function of time as degradation and synthesis curves, respectively. The crossing over point between the two curves corresponds to 50% protein turnover, see Equation&#160;(2):  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72652</offset>
+      <text>Fifty per cent protein turnover was calculated as the crossing point between protein degradation and synthesis curves for proteoforms quantified in at least three time points. We assumed that protein degradation follows a first&#8208;order process. Therefore, an exponential curve with one parameter (B) was fitted to M/L data using the R software (version 0.98.739) and the turnover time was calculated as follows: where k deg is the protein degradation constant; t cc, cell doubling time; and t turn, turnover time.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73166</offset>
+      <text>Alternatively, the turnover time was approximated from linear equations between two M/L and two H/L points lying on opposite sides of the crossing point. We observed a very high correlation between the exponential and the linear method (Pearson coefficient of 0.98). Exponential curve fitting was used for protein turnover determination if the quality of fit determined by the coefficient of determination (R 2) was at least 0.8. In other cases, turnover time was calculated from the linear approximation, provided a descending trend of M/L changes in time was observed. Turnover measurements fulfilling criteria described above were regarded as valid, while other turnover rates remained unassigned and were excluded from analysis. Protein degradation constants were derived from the parameter B (Equation&#160;(3)) of individual M/L profiles, and protein half&#8208;lives (t 1/2) were calculated accordingly to equation&#160;(4):  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74088</offset>
+      <text>Due to the constrains of equations&#160;(3) and (4), negative values of k deg were disregarded and protein half&#8208;lives estimated to be infinite due to continuous cell divisions: t 1/2&#160;&#8811;&#160;t cc&#160;&#8594;&#160;t 1/2&#160;&#8776;&#160;&#8734;.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74303</offset>
+      <text>Quantification of proteoform abundance</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74342</offset>
+      <text>Per unique proteoform, spectral counts were averaged among all time points whenever identified (using an arithmetical mean). Normalised spectral abundance factor (NSAF) values (Paoletti et&#160;al, 2006) were calculated based on amino acid lengths of individual proteoforms. All proteoforms identified in at least one time point were taken as the complete data set (Table&#160;EV1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74718</offset>
+      <text>Analysis of ribosome profiling data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74754</offset>
+      <text>Ribosome profiling (Ribo&#8208;Seq) performed in Jurkat cells treated with CHX to study translation elongation and LTM to study translation initiation were analysed using the PROTEOFORMER pipeline (Crappe et&#160;al, 2015). PROTEOFORMER was used to perform the quality control, mapping onto a reference genome, identification of TIS and generation of a protein database.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75117</offset>
+      <text>The 3&#8242; adapter sequences were clipped using the fastx_clipper, and reads shorter than 26 or longer than 34 nucleotides were discarded for the Ribo&#8208;Seq&#8208;based TIS calling. The reads were first mapped onto small nuclear RNA, tRNA and rRNA sequences to eliminate contaminating reads. The remaining reads were subsequently mapped onto the human GRCh37 reference genome (Ensembl annotation bundle 75) allowing for a maximum of two mismatches along the entire read. Reads mapping to a maximum of 16 locations on the genome were allowed and retained for every loci. All mapping steps were performed using STAR 2.4.0i. RPF alignments were reduced to a specific position (the P&#8208;site nucleotide) using an offset from the 5&#8242; end of the alignment based on the read length (+12, +13 and +14, respectively, for alignment of &#8804;&#160;30 bases long, 31&#8211;33 bases long and &#8805;&#160;34 bases long). Translation start sites were identified by setting different parameter values for the different TIS categories in the tool. A TIS was called at the Ensembl&#8208;annotated start site if (i) it had a minimum read count of 5; (ii) the position was a local maximum within a 7&#8208;nucleotide window (one codon upstream and one codon downstream); (iii) the difference between the LTM (foreground) and CHX (background) normalised ratio (RLTM&#8208;CHX) within the window reached at least 0.01. A TIS was called within the coding region of a transcript (downstream of annotated start sites) if it had a minimum read count of 15 and RLTM&#8208;CHX of 0.15. For TIS located at the 5&#8242;UTR, 3&#8242;UTR and other non&#8208;protein&#8208;coding transcripts, the minimum read count was set to 10 with a RLTM&#8208;CHX of 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76785</offset>
+      <text>We used the above settings to define translation initiation events in Jurkat cells. Taking into consideration every annotated transcript splice variant, all possible ORFs starting at the detected TIS sites were in silico translated. The N&#8208;terminal peptides identified in our pSILAC experiment (N&#160;=&#160;2,578) were mapped onto the Ribo&#8208;Seq&#8208;derived protein sequences allowing to associate peptides with ORFs and their corresponding transcripts.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>77232</offset>
+      <text>Analysis of translation initiation and splicing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>77280</offset>
+      <text>To study the contribution of splicing and (alternative) translation initiation to N&#8208;terminal proteoform expression, we mapped the N&#8208;terminal peptides identified in our proteomics experiment onto the human Swiss&#8208;Prot Isoform, UniProt TrEMBL, Ensembl human protein sequences next the Ribo&#8208;Seq data from Jurkat cells. Further, a comparison was made with Ribo&#8208;Seq data obtained from another human cell line (HCT116 colorectal cancer cells, unpublished data).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>77745</offset>
+      <text>In case of Ribo&#8208;Seq matching evidence, a peptide corresponding to position 1 was assumed to be generated via translation initiation. A peptide mapping at position 2 was considered a TIS only if the first methionine was preceded by an alanine, cysteine, glycine, proline, threonine or valine and therefore likely co&#8208;translationally processed. We used the Jurkat data as reference (i) to retrieve RLTM&#8208;CHX values for called TIS sites; (ii) to associate transcripts with a normalised RPF read count (the normalised read count was calculated by summing all the reads that map across the transcript and dividing by its length) and iii) to determine their exon coverage. Since an N&#8208;terminal peptide might map to multiple transcripts, additional information regarding the expression was provided for every matching transcript to allow for a discrimination of transcripts poorly supported by the Ribo&#8208;Seq data.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78658</offset>
+      <text>We further investigated whether a downstream peptide is pointing to a possible annotated splicing or alternative translation event by checking whether this peptide matched the N&#8208;terminal protein sequence previously reported in the protein databases: Ensembl, Swiss&#8208;Prot Isoform or UniProt TrEMBL protein sequences. A peptide was considered as a possible N&#8208;terminus of a splice variant if it mapped at position 1 or 2 to a given sequence in Ensembl or Swiss&#8208;Prot Isoform databases. Further, we qualified the Ensembl&#8208;derived evidence of splicing as either poor (less likely) or good (likely) splicing events. A downstream peptide was considered to be supported by a likely splicing event if any of the Ensembl protein sequences associated with the peptide had a transcript support level less than or equal to three (with one being the highest rank). If none of the protein sequences associated with the peptide had a transcript support level less than three, it was considered as a poorly supported splicing event or not applicable if there was no transcript support level assigned to any of the valid transcripts. For N&#8208;terminal peptides matching an N&#8208;terminus of a Swiss&#8208;Prot Isoform sequence, we further retrieved the information if this protein isoform is generated via splicing or alternative translation initiation. The above&#8208;mentioned data are presented in Table&#160;EV1C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>80051</offset>
+      <text>Analysis of proteoform turnover rates in macromolecular complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80117</offset>
+      <text>To investigate the dynamic properties of macromolecular complex substituents, protein turnover times were mapped to members of human protein complexes defined by the CORUM database (core set of 1,343 human complexes, Ruepp et&#160;al, 2008). Only Swiss&#8208;Prot&#8208;annotated proteoforms (dbTIS) with the most plausible iMet processing status (Van Damme et&#160;al, 2011) and high&#8208;quality turnover measurement were considered (Arnesen et&#160;al, 2009; Van Damme et&#160;al, 2011). Absolute differences in turnover were calculated pairwise between all members of a complex. Subsequently, one&#8208;sided Mann&#8211;Whitney U&#8208;test at a 95% confidence interval (R, wilcoxon.test, stats package) was applied to detect proteins with significantly higher absolute differences than the remaining members of a complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>80905</offset>
+      <text>Gene ontology enrichment analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80939</offset>
+      <text>Swiss&#8208;Prot accessions of the 1,894 proteoforms with high&#8208;quality measurement of stability of one representative N&#8208;terminal proteoform were ranked based on their corresponding turnover values. Subsequently, an enrichment analysis of GO terms was performed using GOrilla (http://cbl-gorilla.cs.technion.ac.il/; Eden et&#160;al, 2009) using the &#8220;single ranked list of genes&#8221; option. Duplicate accessions were removed keeping the highest ranking instance per accession. The enrichment P&#8208;values were computed using mHG (minimal Hyper Geometric) statistics and corrected for multiple testing using the Benjamini and Hochberg method giving the FDR q&#8208;values. GO terms enriched in stable or unstable proteins with FDR q&#8208;values &#8804;&#160;0.05 were subsequently summarised using REViGO (Supek et&#160;al, 2011). Redundant GO terms were removed and the remaining terms&#160;visualised in bar charts according to their significance (&#8722;log10(q&#8208;value)). Analogously, we performed an enrichment analysis of GO terms in aTIS vs. dbTIS proteoforms using the GOrilla &#8220;target and background&#8221; option.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>82025</offset>
+      <text>Prediction of protein intrinsic disorder</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82066</offset>
+      <text>Canonical protein sequences identified in at least three time points (1,972 proteoforms) were retrieved and adjusted to start at the initiating residue of the N&#8208;terminal peptide identified. Of these proteoforms, the percentage of intrinsically disorder was predicted using RAPID (http://biomine-ws.ece.ualberta.ca/RAPID/index.php; Yan et&#160;al, 2013) which implements the IUPred algorithms (Dosztanyi et&#160;al, 2005a,b).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>82485</offset>
+      <text>Hydropathy of protein N&#8208;termini</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82519</offset>
+      <text>The grand average of hydropathy (GRAVY) was calculated for the 2&#8208; and 10&#8208;amino acid&#8208;long N&#8208;terminal sequence of every proteoform (1,894 proteoforms) at http://www.gravy-calculator.de/. Increasing positive score indicated greater hydrophobicity. The calculation was based on the sum of hydropathy values of amino acids in Kyte&#8211;Doolittle scale (Kyte &amp; Doolittle, 1982), divided by the number of residues. Correlation between GRAVY values and turnover times was estimated using Pearson and Spearman correlation coefficients.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>83051</offset>
+      <text>Statistical analysis of turnover, abundance and disorder of aTIS versus dbTIS</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>83129</offset>
+      <text>Differences in turnover, abundance and disorder values between aTIS and dbTIS groups were measured for paired dbTIS&#8208;aTIS data using a Wilcoxon signed&#8208;rank one&#8208;sided test for paired samples (R, stats package) and independently between the whole aTIS and dbTIS groups using a Kruskal&#8211;Wallis test for difference in distribution (R, stats package), multiple comparison test after Kruskal&#8211;Wallis (R, pgirmess package) and Mann&#8211;Whitney one&#8208;sided test for independent samples. All analyses were performed in R at P&#160;&#8804;&#160;0.05 significance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>83676</offset>
+      <text>Category enrichment analysis in turnover, disorder and abundance data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>83746</offset>
+      <text>1D enrichment analysis of Pfam, KEGG, GO slim and other categories was performed using the Perseus software (Cox &amp; Mann, 2012) at P&#160;&#8804;&#160;0.01 significance with a two&#8208;sided test with Benjamini&#8211;Hochberg FDR correction. Turnover, disorder and abundance values corresponding to each categorical term were tested for deviations from the complete distribution, and a preference for larger or smaller values was assessed independently for every variable. Correlation of turnover, disorder and abundance values was assessed using Spearman rank correlation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>84300</offset>
+      <text>Relation between protein turnover and N&#8208;terminal amino acid composition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>84374</offset>
+      <text>All proteoforms with measured turnover rates (including proteoforms with alternative iMet processing; 1,941 in total) were categorised according to the identity of their utmost N&#8208;terminal residues. Additionally, N&#8208;termini susceptible to iMet processing were further categorised as either Met retaining or Met cleaved. The general impact of N&#8208;terminal residues and iMet processing (categorical variables) on protein turnover was assessed by a Kruskal&#8211;Wallis rank sum test (R, stats package). A subsequent multiple comparison test for Kruskal&#8211;Wallis (R, pgirmess package) and pairwise Wilcoxon rank sum test (without correction for multiple testing; R, stats package) allowed to indicate the most deviating subgroups (with P&#160;&lt;&#160;0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>85118</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>85136</offset>
+      <text>MS/MS data was converted using PRIDE Converter (Barsnes et&#160;al, 2009) and is available through the PRIDE database (Martens et&#160;al, 2005) with the data set identifier PXD002091 and DOI: 10.6019/PXD002091.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>85340</offset>
+      <text>Ribo&#8208;Seq sequencing data has been deposited in NCBI's Gene Expression Omnibus (Edgar et&#160;al, 2002) and is accessible through GEO Series accession number GSE74279 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74279).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>85566</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>85587</offset>
+      <text>DG performed experiments, analysed data, drafted and revised the manuscript. EN analysed data. KG drafted and revised the manuscript. PVD conceived the study, performed the proteomics experiments, analysed data, drafted and revised the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>85835</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>85856</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>85916</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>85939</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">M111.013680</infon>
+      <infon key="year">2012</infon>
+      <offset>85950</offset>
+      <text>Systematic analysis of protein pools, isoforms, and modifications affecting turnover and subcellular localization</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8162</infon>
+      <infon key="pub-id_pmid">19420222</infon>
+      <infon key="fpage">8157</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>86064</offset>
+      <text>Proteomics analyses reveal the evolutionary conservation and divergence of N&#8208;terminal acetyltransferases from yeast and humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Opin Struct Biol</infon>
+      <infon key="lpage">440</infon>
+      <infon key="pub-id_pmid">21514144</infon>
+      <infon key="fpage">432</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>86193</offset>
+      <text>Intrinsically disordered proteins: regulation and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">599</infon>
+      <infon key="pub-id_pmid">19587657</infon>
+      <infon key="fpage">598</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>86251</offset>
+      <text>PRIDE Converter: making proteomics data&#8208;sharing easy</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">M111.011429</infon>
+      <infon key="year">2012</infon>
+      <offset>86306</offset>
+      <text>A quantitative spatial proteomics analysis of proteome turnover in human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">254</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">1449</infon>
+      <infon key="pub-id_pmid">762143</infon>
+      <infon key="fpage">1447</infon>
+      <infon key="year">1979</infon>
+      <infon key="type">ref</infon>
+      <offset>86385</offset>
+      <text>A comparison of the turnover of alpha&#8208;N&#8208;acetylated and nonacetylated mouse L&#8208;cell proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">11602</infon>
+      <infon key="pub-id_pmid">8524811</infon>
+      <infon key="fpage">11598</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>86482</offset>
+      <text>Alternative translation initiation site usage results in two functionally distinct forms of the GATA&#8208;1 transcription factor</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">5284</infon>
+      <infon key="pub-id_pmid">22050367</infon>
+      <infon key="fpage">5275</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>86608</offset>
+      <text>Systems&#8208;wide proteomic analysis in mammalian cells reveals conserved, functional protein turnover</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="issue">Suppl. 16</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">23176165</infon>
+      <infon key="fpage">S12</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>86708</offset>
+      <text>1D and 2D annotation enrichment: a statistical method integrating quantitative proteomics with complementary high&#8208;throughput data</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">43</infon>
+      <infon key="pub-id_pmid">25510491</infon>
+      <infon key="fpage">e29</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86840</offset>
+      <text>PROTEOFORMER: deep proteome coverage through ribosome profiling and MS integration</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">23883</infon>
+      <infon key="pub-id_pmid">23843462</infon>
+      <infon key="fpage">23875</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86923</offset>
+      <text>Inhibition of protein synthesis alters protein degradation through activation of protein kinase B (AKT)</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Comput Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21731483</infon>
+      <infon key="fpage">e1002090</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>87027</offset>
+      <text>An evolutionary trade&#8208;off between protein turnover rate and protein aggregation favors a higher aggregation propensity in fast degrading proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">289</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">3665</infon>
+      <infon key="pub-id_pmid">24338013</infon>
+      <infon key="fpage">3652</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>87175</offset>
+      <text>N&#8208;terminal acetylation stabilizes N&#8208;terminal helicity in lipid&#8208; and micelle&#8208;bound alpha&#8208;synuclein and increases its affinity for physiological membranes</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">18954100</infon>
+      <infon key="fpage">104</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>87338</offset>
+      <text>Turnover of the human proteome: determination of protein intracellular stability by dynamic SILAC</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">3434</infon>
+      <infon key="pub-id_pmid">15955779</infon>
+      <infon key="fpage">3433</infon>
+      <infon key="year">2005a</infon>
+      <infon key="type">ref</infon>
+      <offset>87436</offset>
+      <text>IUPred: web server for the prediction of intrinsically unstructured regions of proteins based on estimated energy content</text>
+    </passage>
+    <passage>
+      <infon key="volume">347</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">839</infon>
+      <infon key="pub-id_pmid">15769473</infon>
+      <infon key="fpage">827</infon>
+      <infon key="year">2005b</infon>
+      <infon key="type">ref</infon>
+      <offset>87558</offset>
+      <text>The pairwise energy content estimated from amino acid composition discriminates between folded and intrinsically unstructured proteins</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">19192299</infon>
+      <infon key="fpage">48</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>87693</offset>
+      <text>GOrilla: a tool for discovery and visualization of enriched GO terms in ranked gene lists</text>
+    </passage>
+    <passage>
+      <infon key="volume">331</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">768</infon>
+      <infon key="pub-id_pmid">21233346</infon>
+      <infon key="fpage">764</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>87783</offset>
+      <text>Proteome half&#8208;life dynamics in living human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">210</infon>
+      <infon key="pub-id_pmid">11752295</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>87835</offset>
+      <text>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</text>
+    </passage>
+    <passage>
+      <infon key="volume">582</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">4146</infon>
+      <infon key="pub-id_pmid">19041308</infon>
+      <infon key="fpage">4143</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>87921</offset>
+      <text>Degradation of misfolded protein in the cytoplasm is mediated by the ubiquitin ligase Ubr1</text>
+    </passage>
+    <passage>
+      <infon key="volume">300</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">1016</infon>
+      <infon key="pub-id_pmid">10891285</infon>
+      <infon key="fpage">1005</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>88012</offset>
+      <text>Predicting subcellular localization of proteins based on their N&#8208;terminal amino acid sequence</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24312217</infon>
+      <infon key="fpage">e80423</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>88108</offset>
+      <text>A novel pulse&#8208;chase SILAC strategy measures changes in protein decay and synthesis rates induced by perturbation of proteostasis with an Hsp90 inhibitor</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D297</infon>
+      <infon key="pub-id_pmid">25332401</infon>
+      <infon key="fpage">D290</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>88263</offset>
+      <text>Proteome TopFIND 3.0 with TopFINDer and PathFINDer: database and analysis tools for the association of protein termini to pre&#8208; and post&#8208;translational events</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">2349</infon>
+      <infon key="pub-id_pmid">16963780</infon>
+      <infon key="fpage">2336</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>88424</offset>
+      <text>The proteomics of N&#8208;terminal methionine cleavage</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">2662</infon>
+      <infon key="pub-id_pmid">25263132</infon>
+      <infon key="fpage">2647</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>88475</offset>
+      <text>The proteome under translational control</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">569</infon>
+      <infon key="pub-id_pmid">12665801</infon>
+      <infon key="fpage">566</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>88516</offset>
+      <text>Exploring proteomes and analyzing protein processing by mass spectrometric identification of sorted N&#8208;terminal peptides</text>
+    </passage>
+    <passage>
+      <infon key="volume">466</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">840</infon>
+      <infon key="pub-id_pmid">20703300</infon>
+      <infon key="fpage">835</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>88638</offset>
+      <text>Mammalian microRNAs predominantly act to decrease target mRNA levels</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">9261</infon>
+      <infon key="pub-id_pmid">14645527</infon>
+      <infon key="fpage">9251</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>88707</offset>
+      <text>Ubiquitin depletion as a key mediator of toxicity by translational inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1111</infon>
+      <infon key="pub-id_pmid">20080635</infon>
+      <infon key="fpage">1106</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>88785</offset>
+      <text>Cytoplasmic protein quality control degradation mediated by parallel actions of the E3 ubiquitin ligases Ubr1 and San1</text>
+    </passage>
+    <passage>
+      <infon key="volume">81</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7025</infon>
+      <infon key="pub-id_pmid">6095265</infon>
+      <infon key="fpage">7021</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>88904</offset>
+      <text>Role of the alpha&#8208;amino group of protein in ubiquitin&#8208;mediated protein breakdown</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="lpage">479</infon>
+      <infon key="pub-id_pmid">9759494</infon>
+      <infon key="fpage">425</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>88989</offset>
+      <text>The ubiquitin system</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Microbiol Mol Biol Rev</infon>
+      <infon key="lpage">467</infon>
+      <infon key="pub-id_pmid">21885680</infon>
+      <infon key="fpage">434</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>89010</offset>
+      <text>Molecular mechanism of scanning and start codon selection in eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">25023910</infon>
+      <infon key="fpage">4383</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>89082</offset>
+      <text>Loss of amino&#8208;terminal acetylation suppresses a prion phenotype by modulating global protein folding</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W587</infon>
+      <infon key="pub-id_pmid">17517783</infon>
+      <infon key="fpage">W585</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>89185</offset>
+      <text>WoLF PSORT: protein localization predictor</text>
+    </passage>
+    <passage>
+      <infon key="volume">327</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">977</infon>
+      <infon key="pub-id_pmid">20110468</infon>
+      <infon key="fpage">973</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>89228</offset>
+      <text>N&#8208;terminal acetylation of cellular proteins creates specific degradation signals</text>
+    </passage>
+    <passage>
+      <infon key="volume">147</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">802</infon>
+      <infon key="pub-id_pmid">22056041</infon>
+      <infon key="fpage">789</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>89311</offset>
+      <text>Ribosome profiling of mouse embryonic stem cells reveals the complexity and dynamics of mammalian proteomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="lpage">11931</infon>
+      <infon key="pub-id_pmid">16117518</infon>
+      <infon key="fpage">11930</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>89419</offset>
+      <text>Iso&#8208;migrastatin congeners from Streptomyces platensis and generation of a glutarimide polyketide library featuring the dorrigocin, lactimidomycin, migrastatin, and NK30424 scaffolds</text>
+    </passage>
+    <passage>
+      <infon key="volume">287</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">32737</infon>
+      <infon key="pub-id_pmid">22851180</infon>
+      <infon key="fpage">32728</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>89603</offset>
+      <text>Up&#8208;regulation of translation eukaryotic initiation factor 4E in nucleophosmin 1 haploinsufficient cells results in changes in CCAAT enhancer&#8208;binding protein alpha activity: implications in myelodysplastic syndrome and acute myeloid leukemia</text>
+    </passage>
+    <passage>
+      <infon key="volume">156</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">169</infon>
+      <infon key="pub-id_pmid">24361105</infon>
+      <infon key="fpage">158</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>89848</offset>
+      <text>The N&#8208;terminal methionine of cellular proteins as a degradation signal</text>
+    </passage>
+    <passage>
+      <infon key="volume">583</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">2445</infon>
+      <infon key="pub-id_pmid">19481542</infon>
+      <infon key="fpage">2441</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>89921</offset>
+      <text>Targeted mass spectrometric analysis of N&#8208;terminally truncated isoforms generated via alternative translation initiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">2698</infon>
+      <infon key="pub-id_pmid">25156699</infon>
+      <infon key="fpage">2688</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>90044</offset>
+      <text>A proteogenomics approach integrating proteomics and ribosome profiling increases the efficiency of protein identification and enables the discovery of alternative translation start sites</text>
+    </passage>
+    <passage>
+      <infon key="volume">299</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">34</infon>
+      <infon key="pub-id_pmid">12459250</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>90232</offset>
+      <text>Pushing the limits of the scanning mechanism for initiation of translation</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">24045637</infon>
+      <infon key="fpage">689</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>90307</offset>
+      <text>Protein synthesis rate is the predominant regulator of protein expression during differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">132</infon>
+      <infon key="pub-id_pmid">7108955</infon>
+      <infon key="fpage">105</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>90404</offset>
+      <text>A simple method for displaying the hydropathic character of a protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E2432</infon>
+      <infon key="pub-id_pmid">22927429</infon>
+      <infon key="fpage">E2424</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>90474</offset>
+      <text>Global mapping of translation initiation sites in mammalian cells at single&#8208;nucleotide resolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">383</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">446</infon>
+      <infon key="pub-id_pmid">15285718</infon>
+      <infon key="fpage">439</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>90574</offset>
+      <text>Alternative translation initiation generates a novel isoform of insulin&#8208;degrading enzyme targeted to mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="volume">1849</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">860</infon>
+      <infon key="pub-id_pmid">25464034</infon>
+      <infon key="fpage">845</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>90690</offset>
+      <text>Stress&#8208;mediated translational control in cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">635</infon>
+      <infon key="pub-id_pmid">24766808</infon>
+      <infon key="fpage">624</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>90746</offset>
+      <text>Quantifying absolute protein synthesis rates reveals principles underlying allocation of cellular resources</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="lpage">3545</infon>
+      <infon key="pub-id_pmid">16041671</infon>
+      <infon key="fpage">3537</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>90854</offset>
+      <text>PRIDE: the proteomics identifications database</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="source">Biochimie</infon>
+      <infon key="lpage">712</infon>
+      <infon key="pub-id_pmid">16054524</infon>
+      <infon key="fpage">701</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>90901</offset>
+      <text>Processed N&#8208;termini of mature proteins in higher eukaryotes and their major contribution to dynamic proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">1790</infon>
+      <infon key="pub-id_pmid">23429522</infon>
+      <infon key="fpage">1780</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>91014</offset>
+      <text>Deep proteome coverage based on ribosome profiling aids mass spectrometry&#8208;based protein and peptide discovery and provides evidence of alternative translation products and near&#8208;cognate translation initiation events</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">25413677</infon>
+      <infon key="fpage">380</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>91233</offset>
+      <text>Computational approach for calculating the probability of eukaryotic translation initiation from ribo&#8208;seq data that takes into account leaky scanning</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">1976</infon>
+      <infon key="pub-id_pmid">25489052</infon>
+      <infon key="fpage">1956</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>91385</offset>
+      <text>Biochemical and cellular analysis of Ogden syndrome reveals downstream Nt&#8208;acetylation defects</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">386</infon>
+      <infon key="pub-id_pmid">12118079</infon>
+      <infon key="fpage">376</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>91481</offset>
+      <text>Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18933</infon>
+      <infon key="pub-id_pmid">17138671</infon>
+      <infon key="fpage">18928</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>91603</offset>
+      <text>Quantitative proteomic analysis of distinct mammalian Mediator complexes using normalized spectral abundance factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">347</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1252</infon>
+      <infon key="pub-id_pmid">25766235</infon>
+      <infon key="fpage">1249</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>91720</offset>
+      <text>Control of mammalian G protein signaling by N&#8208;terminal acetylation and the N&#8208;end rule pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E1847</infon>
+      <infon key="pub-id_pmid">22670058</infon>
+      <infon key="fpage">E1839</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>91818</offset>
+      <text>The N&#8208;end rule pathway counteracts cell death by destroying proapoptotic protein fragments</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D650</infon>
+      <infon key="pub-id_pmid">17965090</infon>
+      <infon key="fpage">D646</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>91911</offset>
+      <text>CORUM: the comprehensive resource of mammalian protein complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D501</infon>
+      <infon key="pub-id_pmid">19884131</infon>
+      <infon key="fpage">D497</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>91976</offset>
+      <text>CORUM: the comprehensive resource of mammalian protein complexes&#8211;2009</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">217</infon>
+      <infon key="pub-id_pmid">20118940</infon>
+      <infon key="fpage">209</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>92048</offset>
+      <text>Inhibition of eukaryotic translation elongation by cycloheximide and lactimidomycin</text>
+    </passage>
+    <passage>
+      <infon key="volume">473</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">342</infon>
+      <infon key="pub-id_pmid">21593866</infon>
+      <infon key="fpage">337</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>92132</offset>
+      <text>Global quantification of mammalian gene expression control</text>
+    </passage>
+    <passage>
+      <infon key="volume">334</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">678</infon>
+      <infon key="pub-id_pmid">21940857</infon>
+      <infon key="fpage">674</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>92191</offset>
+      <text>N&#8208;terminal acetylation acts as an avidity enhancer within an interconnected multiprotein complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">455</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">63</infon>
+      <infon key="pub-id_pmid">18668040</infon>
+      <infon key="fpage">58</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>92290</offset>
+      <text>Widespread changes in protein synthesis induced by microRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">551</infon>
+      <infon key="pub-id_pmid">23603116</infon>
+      <infon key="fpage">540</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>92351</offset>
+      <text>Control of protein quality and stoichiometries by N&#8208;terminal acetylation and the N&#8208;end rule pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">120</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">1645</infon>
+      <infon key="pub-id_pmid">17452625</infon>
+      <infon key="fpage">1635</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>92455</offset>
+      <text>Acetylation regulates tropomyosin function in the fission yeast Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">187</infon>
+      <infon key="pub-id_pmid">23443629</infon>
+      <infon key="fpage">186</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>92545</offset>
+      <text>Proteoform: a single term describing protein complexity</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">745</infon>
+      <infon key="pub-id_pmid">19239892</infon>
+      <infon key="fpage">731</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>92601</offset>
+      <text>Regulation of translation initiation in eukaryotes: mechanisms and biological targets</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Cell Mol Life Sci</infon>
+      <infon key="lpage">2942</infon>
+      <infon key="pub-id_pmid">19609488</infon>
+      <infon key="fpage">2933</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>92687</offset>
+      <text>Differential use of an in&#8208;frame translation initiation codon regulates human mu opioid receptor (OPRM1)</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">1141</infon>
+      <infon key="pub-id_pmid">21799483</infon>
+      <infon key="fpage">1130</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>92793</offset>
+      <text>Selecting protein N&#8208;terminal peptides by combined fractional diagonal chromatography</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="lpage">161</infon>
+      <infon key="pub-id_pmid">22405572</infon>
+      <infon key="fpage">152</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>92880</offset>
+      <text>Protein N&#8208;terminal acetyltransferases: when the start matters</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">3113</infon>
+      <infon key="pub-id_pmid">24816145</infon>
+      <infon key="fpage">3107</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>92944</offset>
+      <text>A COFRADIC protocol to study protein ubiquitination</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21789182</infon>
+      <infon key="fpage">e21800</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>92996</offset>
+      <text>REVIGO summarizes and visualizes long lists of gene ontology terms</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">870</infon>
+      <infon key="pub-id_pmid">18579077</infon>
+      <infon key="fpage">859</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>93063</offset>
+      <text>Alternative translation initiation in rat brain yields K2P2.1 potassium channels permeable to sodium</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Biol Cell</infon>
+      <infon key="lpage">178</infon>
+      <infon key="pub-id_pmid">12867081</infon>
+      <infon key="fpage">169</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>93164</offset>
+      <text>Generation of protein isoform diversity by alternative initiation of translation at non&#8208;AUG codons</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">1261</infon>
+      <infon key="pub-id_pmid">24623590</infon>
+      <infon key="fpage">1245</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>93265</offset>
+      <text>N&#8208;terminal proteomics and ribosome profiling provide a comprehensive view of the alternative translation initiation landscape in mice and men</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21750686</infon>
+      <infon key="fpage">e1002169</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>93409</offset>
+      <text>NatF contributes to an evolutionary shift in protein N&#8208;terminal acetylation and is important for normal chromosome segregation</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12454</infon>
+      <infon key="pub-id_pmid">22814378</infon>
+      <infon key="fpage">12449</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>93538</offset>
+      <text>N&#8208;terminal acetylome analyses and functional insights of the N&#8208;terminal acetyltransferase NatB</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Proc</infon>
+      <infon key="issue">Suppl. 6</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">19660099</infon>
+      <infon key="fpage">S6</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>93637</offset>
+      <text>A review of COFRADIC techniques targeting protein N&#8208;terminal acetylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">1562</infon>
+      <infon key="pub-id_pmid">25966763</infon>
+      <infon key="fpage">1547</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>93712</offset>
+      <text>Two N&#8208;terminal acetyltransferases antagonistically regulate the stability of a nod&#8208;like receptor in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">1834</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1680</infon>
+      <infon key="pub-id_pmid">23732563</infon>
+      <infon key="fpage">1671</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>93828</offset>
+      <text>RAPID: fast and accurate sequence&#8208;based prediction of intrinsic disorder content on proteomic scale</text>
+    </passage>
+    <passage>
+      <infon key="volume">322</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">923</infon>
+      <infon key="pub-id_pmid">18988847</infon>
+      <infon key="fpage">918</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>93930</offset>
+      <text>Global protein stability profiling in mammalian cells</text>
+    </passage>
+  </document>
+</collection>

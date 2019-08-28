@@ -1,0 +1,1336 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5048352</id>
+    <passage>
+      <infon key="name_2">surname:Su;given-names:Tiffany Y</infon>
+      <infon key="name_3">surname:Corbett;given-names:Kevin D</infon>
+      <infon key="name_0">surname:Ye;given-names:Qiaozhen</infon>
+      <infon key="name_1">surname:Ur;given-names:Sarah N</infon>
+      <infon key="alt-title">Qiaozhen Ye et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694082</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201694082</infon>
+      <infon key="lpage">2151 2151</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2139 2139</infon>
+      <infon key="year">2016</infon>
+      <infon key="issue">19</infon>
+      <infon key="kwd">monopolin complex meiosis kinetochore kinase Cell Cycle Structural Biology</infon>
+      <offset>0</offset>
+      <text>Structure of the Saccharomyces cerevisiae Hrr25:Mam1 monopolin subcomplex reveals a novel kinase regulator</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>107</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>116</offset>
+      <text>In budding yeast, the monopolin complex mediates sister kinetochore cross&#8208;linking and co&#8208;orientation in meiosis I. The CK1&#948; kinase Hrr25 is critical for sister kinetochore co&#8208;orientation, but its roles are not well understood. Here, we present the structures of Hrr25 and its complex with the monopolin subunit Mam1. Hrr25 possesses a &#8220;central domain&#8221; that packs tightly against the kinase C&#8208;lobe, adjacent to the binding site for Mam1. Together, the Hrr25 central domain and Mam1 form a novel, contiguous embellishment to the Hrr25 kinase domain that affects Hrr25 conformational dynamics and enzyme kinetics. Mam1 binds a hydrophobic surface on the Hrr25 N&#8208;lobe that is conserved in CK1&#948;&#8208;family kinases, suggesting a role for this surface in recruitment and/or regulation of these enzymes throughout eukaryotes. Finally, using purified proteins, we find that Hrr25 phosphorylates the kinetochore receptor for monopolin, Dsn1. Together with our new structural insights into the fully assembled monopolin complex, this finding suggests that tightly localized Hrr25 activity modulates monopolin complex&#8211;kinetochore interactions through phosphorylation of both kinetochore and monopolin complex components.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1341</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1354</offset>
+      <text>Sexual reproduction in eukaryotes depends on meiosis, a specialized two&#8208;stage cell division program that reduces a cell's ploidy by half to generate haploid gametes. In the first meiotic division, termed meiosis I, homologous chromosomes become linked by reciprocal DNA exchanges called crossovers. These links allow the kinetochores of each homolog pair to bi&#8208;orient, or attach to microtubules extending from opposite spindle poles, enabling their subsequent segregation from one another in the meiosis I division. As each homolog is made up of two sister chromosomes, proper homolog bi&#8208;orientation also requires that sister kinetochores co&#8208;orient, or attach to the same spindle pole. In budding yeast, sister kinetochore co&#8208;orientation is mediated by the monopolin complex, which cross&#8208;links each pair of sister kinetochores to fuse them into a single complex that binds one microtubule in meiosis I (Toth et&#160;al, 2000; Rabitsch et&#160;al, 2003; Winey et&#160;al, 2005; Petronczki et&#160;al, 2006; Corbett et&#160;al, 2010; Sarangapani et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2405</offset>
+      <text>The structural core of the monopolin complex comprises the Csm1 and Lrs4 proteins, which are found throughout fungi and assemble into a &#8220;V&#8221;&#8208;shaped complex with two &#8220;heads&#8221; that each contains at least one binding site for the kinetochore protein Dsn1 (Corbett et&#160;al, 2010; Corbett &amp; Harrison, 2012; Sarkar et&#160;al, 2013). In S.&#160;pombe, this complex localizes to kinetochores in mitosis and suppresses the attachment of single kinetochores to microtubules extending from both spindle poles, called merotelic attachments (Gregan et&#160;al, 2007; Rumpf et&#160;al, 2010b; Tada et&#160;al, 2011; Burrack et&#160;al, 2013). In budding yeast, whose kinetochores cannot form merotelic attachments as they bind a single microtubule, Csm1 and Lrs4 play only a minor role in supporting mitotic chromosome segregation accuracy (Brito et&#160;al, 2010). Budding yeast Csm1 and Lrs4 are critically important in meiosis I, however, where they mediate sister kinetochore co&#8208;orientation along with two regulatory subunits, Mam1 and Hrr25 (Toth et&#160;al, 2000; Rabitsch et&#160;al, 2003; Petronczki et&#160;al, 2006).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3488</offset>
+      <text>The budding yeast&#8208;specific Mam1 protein is expressed only in meiosis and contains binding sites for both Csm1 and Hrr25 (Toth et&#160;al, 2000; Rabitsch et&#160;al, 2003; Petronczki et&#160;al, 2006; Corbett &amp; Harrison, 2012). Hrr25 is a CK1&#948;&#8208;family kinase, and while its kinase activity is dispensable for monopolin's kinetochore localization, it is required for specific sister kinetochore co&#8208;orientation in meiosis I (Petronczki et&#160;al, 2006). Hrr25 kinase activity is not required for cross&#8208;linking of purified kinetochore particles in&#160;vitro (Sarangapani et&#160;al, 2014), perhaps due to high protein concentration in these&#160;experiments, and/or a lack of geometric constraints imposed by chromosome structure. Overall, these data imply that&#160;Hrr25&#160;likely contributes to meiosis I sister kinetochore co&#8208;orientation by phosphorylating its targets to either reinforce correct monopolin&#8211;kinetochore interactions or suppress incorrect interactions. Hrr25's specific roles remain unclear, however, due largely to a lack of mechanistic information on its recruitment to kinetochores, its differential regulation when part of the monopolin complex, and its specific substrates in this context.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4678</offset>
+      <text>CK1 kinases comprise a large, functionally diverse kinase family that regulates numerous processes including circadian rhythms (Gallego &amp; Virshup, 2007), Wnt signaling (Price, 2006), and many other pathways (Knippschild et&#160;al, 2005). Major CK1 isoforms in mammals include CK1&#945;, CK1&#948;, CK1&#949;, and CK1&#947; (Knippschild et&#160;al, 2005). Saccharomyces cerevisiae possesses four CK1 family members (Yck1, Yck2, Yck3, and Hrr25), of which three (Yck1, Yck2, and&#160;Yck3) are C&#8208;terminally prenylated and membrane&#8208;localized (Vancura et&#160;al, 1994; Wang et&#160;al, 1996). Hrr25 is the sole soluble CK1 ortholog in S.&#160;cerevisiae and is most closely related to mammalian CK1&#948;. In addition to its role in the monopolin complex, S.&#160;cerevisiae Hrr25 has been implicated in DNA repair (Hoekstra et&#160;al, 1991), ribosome biogenesis (Sch&#228;fer et&#160;al, 2006; Ghalei et&#160;al, 2015), vesicle trafficking and autophagy (Lord et&#160;al, 2011; Bhandari et&#160;al, 2013; Mochida et&#160;al, 2014; Pfaffenwimmer et&#160;al, 2014; Tanaka et&#160;al, 2014; Wang et&#160;al, 2015), clathrin&#8208;mediated endocytosis (Peng et&#160;al, 2015a), and most recently microtubule assembly (Peng et&#160;al, 2015b). Hrr25 and its fission&#8208;yeast homologs Hhp1 and Hhp2 have also been implicated in several monopolin&#8208;independent meiotic functions, including controlling cleavage of the meiotic cohesin subunit Rec8 (Ishiguro et&#160;al, 2010; Katis et&#160;al, 2010; Rumpf et&#160;al, 2010a) and assembly of the meiotic chromosome axis (Phadnis et&#160;al, 2015; Sakuno &amp; Watanabe, 2015). In most of these diverse contexts, the mechanistic basis for Hrr25 recruitment and regulation, if any, remains largely unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6307</offset>
+      <text>Here, we present the structures of Hrr25 from two species of budding yeast, S.&#160;cerevisiae and Candida glabrata, and the structure of the S.&#160;cerevisiae Hrr25:Mam1 complex. The structures reveal that Hrr25 bears close structural similarity to other CK1&#948; kinases, but unique features of both Hrr25 and its complex with Mam1 reveal a novel mode for kinase recruitment and regulation. Mam1 binds a conserved hydrophobic surface on the Hrr25 N&#8208;lobe, suggesting that CK1&#948;&#8208;family kinases throughout eukaryotes may be regulated via this surface. Along with our prior structures of the Csm1:Lrs4 and Csm1:Mam1 complexes, we can now assemble a nearly complete atomic model for the budding yeast monopolin complex. Based on this model, we propose a scheme in which highly localized Hrr25 activity modulates the binding affinity of the monopolin complex for kinetochores, thereby mediating the specific cross&#8208;linking of sister kinetochores in meiosis I.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7258</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7266</offset>
+      <text>CK1&#948; proteins from point&#8208;centromere fungi possess a conserved central domain</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7347</offset>
+      <text>Saccharomyces cerevisiae Hrr25 contains an N&#8208;terminal kinase domain (amino acids ~1&#8211;290), a &#8220;central domain&#8221; (amino acids ~290&#8211;394) that we previously reported is found only in S.&#160;cerevisiae and its close relatives (Corbett &amp; Harrison, 2012), and a C&#8208;terminal proline/glutamine&#8208;rich domain that is predicted to be largely disordered in solution (Fig&#160;1A). To more clearly determine the species distribution and conservation of the Hrr25 central domain, we generated a phylogenetic tree from the sequences of 93 fungal Hrr25 orthologs (Figs&#160;1B and EV1A). We found that Hrr25 orthologs from Saccharomycotina yeast split into two major groups, based on whether they possess the central domain or not. The set of species whose Hrr25 orthologs possess a central domain correlates with those species that possess a MAM1 gene, and with species known or suspected to possess point centromeres, short DNA sequence&#8208;defined centromeres whose kinetochores bind a single microtubule as in S.&#160;cerevisiae (Meraldi et&#160;al, 2006; Westermann et&#160;al, 2007; Gordon et&#160;al, 2011). This striking correlation supports the idea that the Hrr25 central domain is involved in a monopolin complex&#8208;specific role, likely through an interaction (physical or functional) with Mam1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8618</offset>
+      <text>Hrr25 orthologs from point&#8208;centromere fungi form a distinct group</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8686</offset>
+      <text>Domain diagram of CK1&#948; orthologs from Saccharomyces cerevisiae, S.&#160;pombe, and M.&#160;musculus, with percent sequence identity (% ID) noted and of S.&#160;cerevisiae Mam1. Hrr25 orthologs from S.&#160;cerevisiae and its close relatives possess a &#8220;central domain&#8221; (green) and a C&#8208;terminal proline/glutamine&#8208;rich region predicted to be disordered in solution (magenta).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9052</offset>
+      <text>Phylogenetic tree constructed from an alignment of 93 fungal Hrr25 orthologs. Branches in green represent Hrr25 proteins from Saccharomycotina yeast with the conserved central domain (see Fig&#160;EV1A for sequence alignment). Branches in blue represent Saccharomycotina Hrr25 proteins lacking this domain. Orange stars indicate the presence of a Mam1 ortholog in each species' genome. E.&#160;cymbalariae (white star) possesses an unannotated Mam1 ortholog on chromosome VII (region &#732;313,000&#8211;315,000, 32% identity to S.&#160;cerevisiae Mam1 residues 83&#8211;242, identified by TBLASTN (NCBI)). Purple diamonds denote organisms in which point&#8208;centromere sequences have been identified (Meraldi et&#160;al, 2006; Gordon et&#160;al, 2011). Point centromeres and Mam1 orthologs are both exclusive to the group of yeast whose Hrr25 orthologs possess the central domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9900</offset>
+      <text>Sequence alignments of the Hrr25 central domain and the Hrr25&#8208;binding region of Mam1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9987</offset>
+      <text>Sequence alignment of the Hrr25 central domain from the Saccharomycotina fungi (green branches in Fig&#160;1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10095</offset>
+      <text>Sequence alignment of the Mam1&#8211;Hrr25&#8208;binding region from the same set of Saccharomycotina fungi. Shown in yellow are conserved zinc&#8208;coordinating cysteine and histidine residues (see Fig&#160;4). Green and magenta arrows mark residues involved in Hrr25 interfaces #1 and #2, respectively (see Fig&#160;5).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10398</offset>
+      <text>Structure of the Hrr25 kinase domain</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10435</offset>
+      <text>To explore the structural basis for Hrr25 function within the monopolin complex, we sought to determine the structure of the protein from point&#8208;centromere fungi. We previously showed that an S.&#160;cerevisiae Hrr25 construct consisting of the kinase and central domains (residues 1&#8211;394 of 494) can be expressed in Escherichia coli (Corbett &amp; Harrison, 2012). Because this protein is extensively and heterogeneously autophosphorylated when purified from E.&#160;coli, we purified a kinase&#8208;dead version of the protein (lysine 38 to arginine; K38R) for crystallization trials. We obtained crystals of Hrr251&#8211;394 K38R in the presence of the CK1 inhibitor CK1&#8208;7, which likely constrained the conformational freedom of the kinase domain and contributed to the formation of well&#8208;ordered crystals (Chijiwa et&#160;al, 1989; Xu et&#160;al, 1996). We also cloned the equivalent construct of C.&#160;glabrata Hrr25 (residues 1&#8211;403 of 495) and obtained crystals both in the absence of bound nucleotide (Apo) and in the presence of ADP. We used single&#8208;wavelength anomalous diffraction (SAD) methods to determine the structure of C.&#160;glabrata Hrr251&#8211;403 K38R bound to ADP at a resolution of 2.0&#160;&#197;, then used this model to determine the structures of C.&#160;glabrata Hrr251&#8211;403 K38R in the Apo form at 2.9&#160;&#197; and of CK1&#8208;7&#8208;bound S.&#160;cerevisiae Hrr251&#8211;394 K38R at 3.0&#160;&#197; (Figs&#160;2 and EV2, and Table&#160;EV1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11832</offset>
+      <text>Structure and nucleotide/inhibitor binding by budding yeast Hrr25</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11898</offset>
+      <text>Domain diagram of crystallized Hrr25 constructs from Saccharomyces cerevisiae and Candida glabrata, missing the P/Q&#8208;rich C&#8208;terminal domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12042</offset>
+      <text>Structures of S.&#160;cerevisiae Hrr251&#8211;394 K38R bound to CK1&#8208;7 (Chijiwa et&#160;al, 1989; Xu et&#160;al, 1996) and C.&#160;glabrata Hrr251&#8211;403 K38R bound to ADP, with domains colored as in (A). Bound / ions are shown as spheres (see Fig&#160;EV2A for additional C.&#160;glabrata Hrr25 structures and Fig&#160;EV3A for  ion electron density).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12363</offset>
+      <text>Overlay of the kinase domain of C.&#160;glabrata Hrr25 (Apo form, crystallized with 1.2&#160;M ) with rat CK1&#948; crystallized in the presence of tungstate ions (WO4; PDB ID 1CKJ; Longenecker et&#160;al, 1996) (see Fig&#160;EV2B for detailed views of ion binding).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12610</offset>
+      <text>Stereo view of CK1&#8208;7 binding to S.&#160;cerevisiae Hrr25. Bound drug is positioned identically to a previous structure of S.&#160;pombe Cki1 bound to CK1&#8208;7 (Xu et&#160;al, 1996). All active&#8208;site residues shown are conserved between S.&#160;cerevisiae and C.&#160;glabrata Hrr25.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12875</offset>
+      <text>Stereo view of ADP binding to C.&#160;glabrata Hrr25 (formate structure;  structure is equivalent, but the GxGxxG motif is disordered in that structure). All active&#8208;site residues shown are conserved between S.&#160;cerevisiae and Candida glabrata Hrr25.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13123</offset>
+      <text> binding sites in Hrr25</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13147</offset>
+      <text>Aligned structures of Candida glabrata Hrr251&#8211;403 crystallized without nucleotide (Apo, left), or in the presence of ADP in crystallization buffer with formate (center) or sulfate (, right). / ions bound to sites 1 and 2 are shown as spheres. In the ADP (formate) structure, there is no ion bound to site 2, but a formate ion (CHOO&#8722;) is observed at site 1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13508</offset>
+      <text>Close&#8208;up view of  binding sites S1 and S2 in C.&#160;glabrata Hrr25 (blue), overlaid with the formate&#8208;bound structure (white).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13635</offset>
+      <text>View of the C.&#160;glabrata Hrr25 active site and  at S1, with modeled substrate peptide from a Cdk2:cyclin A:peptide complex (PDB ID 1GY3) (Cook et&#160;al, 2002).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13793</offset>
+      <text>The structures of S.&#160;cerevisiae and C.&#160;glabrata Hrr25 are nearly identical, showing between 0.3 and 0.7&#160;&#197; overall C&#945; r.m.s.d. (Fig&#160;2A and B). The structures are also highly similar to those of mammalian CK1&#948; and S.&#160;pombe Cki1, showing 0.6&#8211;0.7&#160;&#197; C&#945; r.m.s.d. with both enzymes (over 215&#8211;226 C&#945; atom pairs) (Fig&#160;2C). The juxtaposition of the N&#8208; and C&#8208;lobes, and the position of important active&#8208;site residues, is also nearly identical between Apo, ADP, and CK1&#8208;7 bound Hrr25 structures. As observed in prior CK1 structures, Hrr25 bears the structural hallmarks of an active kinase in both the Apo and nucleotide&#8208;bound structures. First, the DFG motif (residues 149&#8211;151) containing the catalytic aspartic acid residue is in its active conformation. Also, the &#945;C helix bordering the nucleotide&#8208;binding site is in the &#8220;in&#8221; position. CK1 enzymes do not require phosphorylation in the &#8220;activation loop&#8221; for full activity; however, a conserved  binding site in Hrr25 does align structurally with other kinases' activation loop phosphothreonine residue (see below). Finally, both nucleotide and CK1&#8208;7 bind Hrr25 in an identical manner to prior structures (Xu et&#160;al, 1996).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14999</offset>
+      <text>Hrr25 shares conserved  binding sites with other CK1 enzymes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15060</offset>
+      <text>Prior structures of S.&#160;pombe Cki1 and mammalian CK1&#948; revealed two conserved sites that bind phosphate () or tungstate () ions in the crystals (Xu et&#160;al, 1995; Longenecker et&#160;al, 1996). Both S.&#160;cerevisiae and C.&#160;glabrata Hrr25 were crystallized in the presence of 0.2&#160;M or higher  or  salts (see Materials and Methods), and we observed ions bound to both previously identified sites in all structures (Figs&#160;2C and EV2). The first site, referred to here as S1, is likely involved in substrate recognition. CK1 enzymes are phosphate&#8208;directed, preferring substrates with a &#8220;priming phosphate&#8221; in the &#8722;2 or &#8722;3 position (Flotow &amp; Roach, 1991; Knippschild et&#160;al, 2005). S1 is positioned close to the active site, and modeling a substrate onto the Hrr25 structure shows that a phosphorylated residue in the &#8722;2 or &#8722;3 position could be accommodated at this site (Fig&#160;EV2C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15948</offset>
+      <text>The second ion&#8208;binding site, S2, is positioned behind the active site between the N&#8208; and C&#8208;lobes, but is coordinated solely by C&#8208;lobe residues in both Hrr25 and other CK1&#948; enzymes (Figs&#160;2C and EV2). This site overlaps almost perfectly with the location of the phosphorylated activation loop threonine in other kinase families and has been proposed to recognize phosphorylated residues in&#160;the autoregulatory C&#8208;terminal domain of CK1 enzymes (Longenecker et&#160;al, 1996). To determine whether ion occupancy at S2 affects the conformation of Hrr25, we attempted to crystallize the protein in the absence of  or . We determined the structure of C.&#160;glabrata Hrr251&#8211;403 K38R bound to ADP in the presence of sodium formate instead of lithium sulfate and found that while S1 was bound to a formate ion, S2 was unoccupied. In this structure, the overall protein conformation is unchanged but residues 174&#8211;176, positioned directly between S1 and S2, shift position slightly and are less well defined in electron density maps in the formate&#8208;bound structure than in the &#8208;bound structure (Fig&#160;EV2B). As this region makes up part of the substrate&#8208;binding groove, local perturbations in structure induced by binding or release of ions at these positions may have an effect on substrate recognition or kinase activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17274</offset>
+      <text>Structure of the Hrr25 central domain</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17312</offset>
+      <text>While the structure of its kinase domain is nearly identical to that of other CK1 enzymes, Hrr25 differs from these enzymes in possessing a conserved, well&#8208;ordered &#8220;central domain&#8221; between the kinase domain and C&#8208;terminal autoregulatory region (Figs&#160;1A, 3 and EV1A). This domain adopts the same structure in both S.&#160;cerevisiae and C.&#160;glabrata Hrr25 and folds into a cluster of five short &#945;&#8208;helices and one extended loop, all packed tightly against the C&#8208;lobe of the kinase domain (Fig&#160;3B). Helices &#945;2 and &#945;5 are poorly ordered (as judged by B&#8208;factor, a statistical measure of order in a refined crystal structure) in all structures, and helix &#945;2 is visible in electron density maps in only one structure, that of C.&#160;glabrata Hrr251&#8211;403 K38R in the Apo state. Structural similarity searches using DALI reveal no similar folds, either as independently folded proteins or associated with kinases.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18231</offset>
+      <text>Structure of the Hrr25 central domain</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18269</offset>
+      <text>Two views of Candida glabrata Hrr25 (Apo form) with domains colored as in Fig&#160;1, showing bound  ions and the previously identified Mam1&#8208;binding residues His25 and Glu34 (Petronczki et&#160;al, 2006).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18468</offset>
+      <text>Two views, roughly equivalent to the views in (A), of the Hrr25 central domain, colored as a rainbow according to the schematic at top. Dotted lines in the schematic indicate disordered loops (see Fig&#160;EV1A for sequence alignment of this domain).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18715</offset>
+      <text>Structure of the Hrr25:Mam1 complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18751</offset>
+      <text>We previously reported that a construct of S.&#160;cerevisiae Mam1 containing residues 87&#8211;191 forms a stable complex with Hrr251&#8211;394 K38R when co&#8208;expressed in E.&#160;coli (Corbett &amp; Harrison, 2012). After initial crystallization trials with this complex (Hrr251&#8211;394 K38R:Mam187&#8211;191) were unsuccessful, we performed reductive methylation of surface&#8208;exposed lysine residues (Walter et&#160;al, 2006; Kim et&#160;al, 2008) and identified conditions for crystallization of the modified complex. We determined the structure of the Hrr251&#8211;394 K38R:Mam187&#8211;191 complex by molecular replacement in two different crystal forms, one with one copy of the 1:1 complex per asymmetric unit (form 1, 1.84&#160;&#197; resolution) and one with two copies (form 2, 2.89&#160;&#197; resolution) (Table&#160;EV1). In both crystal forms, key crystal packing interactions are mediated by methylated surface lysine residues (Fig&#160;EV3). We have so far been unable to obtain crystals of the complex in the presence of nucleotides or inhibitors.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19751</offset>
+      <text>Representative electron density maps</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19788</offset>
+      <text>Stereo view of a 2Fo&#8211;Fc simulated&#8208;annealing composite all&#8208;omit map from the Candida glabrata Hrr251&#8211;403&#183;ADP complex (2.0&#160;&#197; resolution), showing the sulfate ion bound to site #1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19977</offset>
+      <text>Refined 2Fo&#8211;Fc electron density for the &#945;1&#8211;&#945;3 segment (&#945;2 is disordered in this structure) Hrr25 central domain in the C.&#160;glabrata Hrr251&#8211;403&#183;ADP complex (2.0&#160;&#197; resolution).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20164</offset>
+      <text>Example crystal packing interaction mediated by dimethylated surface lysine residues in the structures of S.&#160;cerevisiae Hrr251&#8211;394 K38R:Mam187&#8211;191. Here, dimethylated Hrr25 Lys155 (foreground; blue) forms a hydrophobic packing interaction with a symmetry&#8208;related Mam1 Trp144 (background; orange). Refined 2Fo&#8211;Fc electron density is shown at 1.5 &#963;.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20522</offset>
+      <text>Mam187&#8211;191 adopts a fold with five &#945;&#8208;helices and one extended loop (residues 162&#8211;191) that packs tightly against Hrr25. The protein possesses only a minimal buried hydrophobic core and is likely dependent on Hrr25 binding to fold properly. Mam187&#8211;191 unexpectedly contains a zinc&#8208;binding motif that resembles a &#8220;zinc knuckle&#8221; but with a previously unobserved pattern of zinc&#8208;coordinating residues. Three of these residues (Cys114, His116, and Cys119) are located in the short loop between &#945;&#8208;helices 1 and 2, with the fourth (Cys152) on &#945;&#8208;helix 4 (Fig&#160;4C and D). These residues are highly conserved among budding yeast Mam1 orthologs, but are not universally conserved; several species have lost one or more of the zinc&#8208;liganding residues (Fig&#160;EV1B), suggesting that a bound zinc is not absolutely required for Mam1's structure or activity. We confirmed that the coordinated atom in our structure is in fact zinc using a diffraction dataset collected at zinc's anomalous absorption edge; this map contains large anomalous peaks (~15 &#963;) at the expected locations (Fig&#160;4D). As with the Hrr25 central domain, structural similarity searches using DALI reveal no similar folds to that of Mam187&#8211;191.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21747</offset>
+      <text>Structure of the Hrr25&#8211;Mam1 complex</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21785</offset>
+      <text>Domain diagram of Saccharomyces cerevisiae Hrr25 (top) and Mam1 (bottom), with a schematic of Mam1 secondary structure. Zinc&#8208;coordinating cysteine and histidine residues (Cys114, His116, Cys119, and Cys152) are shown in their approximate locations in the secondary structure (see Fig&#160;EV1B for Mam1 sequence alignment).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22107</offset>
+      <text>Overall structure of the S.&#160;cerevisiae Hrr251&#8211;394 K38R:Mam187&#8211;191 complex, colored as in (A). View is equivalent to Fig&#160;2B.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22237</offset>
+      <text>Close&#8208;up view of Mam187&#8211;191, colored as in the schematic in (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22306</offset>
+      <text>Close&#8208;up view of the variant zinc knuckle motif of Mam1, with zinc anomalous difference electron density shown at 3 &#963; (gray) and 10 &#963; (red).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22455</offset>
+      <text>Geometry of zinc binding in Mam1. Zn&#8208;S bonds and the Zn&#8208;N bond were restrained to &#732;2.3&#160;&#197; and &#732;2.0&#160;&#197;, respectively, during refinement.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22599</offset>
+      <text>Mam1 forms an extensive interface with the Hrr25 kinase and central domains, burying over 2,700&#160;&#197;2 of surface area per interacting partner. The main interface, between Mam1 and the Hrr25 kinase domain N&#8208;lobe, can be broken into two parts, termed interfaces #1 and #2 (Fig&#160;5A). Interface #1 involves hydrophobic residues in Mam1 &#945;&#8208;helix 1 inserting into a hydrophobic cavity on the top surface of the Hrr25 kinase domain N&#8208;lobe. Mam1 binding imparts significant order to the N&#8208;terminal ~5 residues of Hrr25, which are disordered in our other structures. The hydrophobic cavity on Hrr25, which comprises residues Leu3, Val5, Ile11, Tyr24, Leu39, and Tyr77, is conserved and solvent&#8208;exposed in other CK1&#948; proteins and comprises part of a crystallographic dimer interface observed in several CK1&#948; crystal structures (Longenecker et&#160;al, 1996, 1998; Zeringo et&#160;al, 2013) (Fig&#160;EV4; see Discussion). Interface #1 also involves two conserved polar residues from Mam1, Gln101 and Glu108, forming a hydrogen&#8208;bond network with several residues immediately preceding the Hrr25 GxGxxG motif (residues 16&#8211;21), including Gly12, Arg13, and Lys14. Mam1 residue Arg131 also interacts directly with Hrr25 residues Asp91 and Ile15, bridging the N&#8208; and C&#8208;lobes of the kinase very near the ATP&#8208;binding site. Together, these interactions likely impart additional order onto the Hrr25 N&#8208;lobe and particularly the GxGxxG motif that drapes over a bound nucleotide, potentially affecting the kinetics of nucleotide binding and/or release by Hrr25. Mam1:Hrr25 interface #2 borders interface #1 and is anchored by a buried hydrogen&#8208;bond network involving two residues in Hrr25, His25 and Glu34, that were previously shown to be involved in Mam1 binding (Petronczki et&#160;al, 2006). These residues form a buried hydrogen&#8208;bond network with Mam1 residues Arg149 and Tyr158 that is surrounded by conserved hydrophobic residues in both proteins (Fig&#160;5C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24553</offset>
+      <text>Two interfaces in the Hrr25:Mam1 complex</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24594</offset>
+      <text>The Hrr25:Mam1 complex with Mam1 shown as orange ribbons, and Hrr25 shown as a white surface with Mam1&#8208;binding interface #1 shown in green and #2 in magenta.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24754</offset>
+      <text>Stereo view of interface #1, which involves hydrophobic interactions by Mam1 L92, L97, L100, and I104, and a hydrogen&#8208;bond network between Mam1 Q101/E108/R131 and Hrr25 residues 12&#8211;15.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24943</offset>
+      <text>Stereo view of interface #2. Hrr25 residues H25 and E34 participate in a buried hydrogen&#8208;bond network with Mam1 residues R149 and Y158 and are surrounded by hydrophobic residues on both proteins. For clarity, Mam1 helix &#945;4, on which R149, Y153, and Y158 are located, is not shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25228</offset>
+      <text>Pull&#8208;down assay with in&#160;vitro&#8208;translated Mam187&#8211;191 (wild&#8208;type and alanine mutants) and Hrr251&#8211;394 K38R. Mam1 mutations also disrupt Hrr25 binding when the two are co&#8208;expressed in Escherichia coli (Fig&#160;EV6B). Bottom: Spore viability of MAM1 mutant strains (see Table&#160;EV2 for strains; strains tested are KC549, KC560, KC566, KC552, KC554, KC556, and KC558; 46&#8211;48 tetrads were dissected for each strain). &#8220;&#8211;&#8221; indicates that this mutation was not tested for spore viability.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25723</offset>
+      <text>Conservation of N&#8208;lobe hydrophobic surface in CK1&#8208;family kinases</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25792</offset>
+      <text>Views of the kinase domain N&#8208;lobes of Hrr25 (A, B), human CK1&#948; in PDB 4JJR (C, D) (Zeringo et&#160;al, 2013), and human CK1&#948; in PDB 1CKI (E, F) (Longenecker et&#160;al, 1996). Upper panels show kinase domain (blue) with conserved hydrophobic surface residues in stick view and bound &#945;&#8208;helix from Mam1 (A) or a symmetry&#8208;related copy of CK1&#948; (C, E) in orange. Lower panels are missing bound partner for clarity, with conserved hydrophobic surface residues labeled.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26261</offset>
+      <text>Sequence alignment of the Hrr25 N&#8208;lobe with all human CK1&#8208;family kinases. At bottom is shown the conservation score (1&#8211;10, &#8220;+&#8221; indicates a score of 10) calculated by Jalview from an alignment of the entire human kinome (downloaded from http://kinase.com) plus Hrr25. Hydrophobic surface residues are shown with green arrows; most of these residues are highly conserved within CK1&#8208;family kinases but poorly conserved in kinases as a whole.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26712</offset>
+      <text>To determine the importance of each interface for Mam1&#8211;Hrr25 binding, we generated a series of alanine mutants in Mam1 and examined their ability to bind Hrr25 in a pull&#8208;down assay (Fig&#160;5D). In interface #1, mutation of the hydrophobic amino acids Leu92, Leu97, Leu100, and Ile104 all disrupted Hrr25 binding. Mutation of the polar amino acids in interface #1 had a more variable effect: mutation of Glu108 strongly disrupted Hrr25 binding, while mutation of Gln101 weakly disrupted binding and mutation of Arg131 had no effect. In interface #2, mutation of either Mam1 Arg149 or Tyr158 strongly disrupted Hrr25 binding, consistent with the known role of Hrr25 residues His25 and Glu34 (Petronczki et&#160;al, 2006). Mutation of the surrounding Mam1 hydrophobic residues Tyr153 and Trp165 also affected Hrr25 binding, although not as strongly as Arg149 and Tyr158 (Fig&#160;5C). To confirm that disrupting the Mam1:Hrr25 interface results in meiotic chromosome segregation defects, we tested spore viability for Mam1 point mutations in interfaces #1 and #2. While the effects were less severe than deleting MAM1 (8.5% viable for mam1&#916; compared to 92% for wild&#8208;type; Fig&#160;5D), several mutations showed strong spore viability effects, most notably I104A in interface #1 (58% viable) and R149A in interface #2 (35% viable; Fig&#160;5D). These results suggest that the point mutants tested do not completely disrupt Mam1&#8211;Hrr25 binding in&#160;vivo, but rather lower the affinity of the interaction by varying degrees. Nonetheless, these data strongly support the in&#160;vivo relevance of our structural findings.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28312</offset>
+      <text>Kinase activity of Hrr25 and Hrr25:Mam1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28352</offset>
+      <text>Our structures showed that Mam1 packs tightly against the N&#8208;lobe and central domain of Hrr25, but does not significantly alter Hrr25's conformation. Mam1 binding does, however, significantly rigidify the Hrr25 N&#8208;lobe, as judged by crystallographic B&#8208;factors in this domain (Figs&#160;6 and EV5). The GxGxxG motif in particular is well ordered in all three crystallographically unique views of the Hrr25:Mam1 structure, despite the lack of bound nucleotide. This loop is disordered in three of our four structures of Hrr25 alone and is only visible in one of the two structures of ADP&#8208;bound C.&#160;glabrata Hrr251&#8211;403 K38R. These data support the idea that Mam1 binding imparts significant additional order onto Hrr25 and particularly the ATP&#8208;binding site, suggesting that Mam1 may directly affect the kinase's activity and/or substrate specificity. Also, we previously showed that co&#8208;expression of Mam1 with Hrr25 in E.&#160;coli leads to a reduction in its non&#8208;specific autophosphorylation activity, suggesting that Mam1 binding directly affects the activity and/or specificity of Hrr25 (Corbett &amp; Harrison, 2012). To more quantitatively examine the effects of Mam1 binding on Hrr25 activity, we next examined Hrr25's kinase activity directly.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29602</offset>
+      <text>Mam1 binding restricts Hrr25 N&#8208;lobe mobility</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29649</offset>
+      <text>Ribbon views of the Saccharomyces cerevisiae Hrr251&#8211;394:Mam187&#8211;191 structure (form 1), CK1&#8208;7 bound S.&#160;cerevisiae Hrr251&#8211;394, and ADP&#8208;bound C.&#160;glabrata Hrr251&#8211;403 (formate condition), with Hrr25 colored according to main&#8208;chain B&#8208;factor from low (purple) to cyan (high). For each, coloring is normalized to correspond to the average of the 20 lowest (purple) or highest (cyan) main&#8208;chain B&#8208;factors in Hrr25. Mam1 (panel A) is colored in light gray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30118</offset>
+      <text> Overall main&#8208;chain B&#8208;factors for the N&#8208;lobe (residues 1&#8211;85) of four structures of Hrr25 (both C.&#160;glabrata and S.&#160;cerevisiae) and the three crystallographically unique views of the S.&#160;cerevisiae Hrr25:Mam1 complex. Values are normalized to the average main&#8208;chain B&#8208;factor for the entire Hrr25 chain (dotted line at 1.0). P&#8208;value&#160;= 0.004 (Student's t&#8208;test) (see Fig&#160;EV5 for residue&#8208;by&#8208;residue B&#8208;factor plots for each structure). Error bars represent standard deviation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30614</offset>
+      <text>N&#8208;lobe B&#8208;factors for Hrr25 and Hrr25:Mam1 structures</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30671</offset>
+      <text>Residue&#8208;by&#8208;residue plot of main&#8208;chain B&#8208;factors from four structures of Hrr25 and three crystallographically unique views of Hrr25:Mam1. Values are normalized as in Fig&#160;6D, with the average B&#8208;factor for the entire Hrr25 chain adjusted to 1.0. Values calculated with BAVERAGE (Winn et&#160;al, 2011). GxGxxG indicates the glycine&#8208;rich loop (residues 16&#8211;21 in both Saccharomyces cerevisiae and Candida glabrata Hrr25) that drapes over a bound nucleotide. This motif is well ordered in all three views of Hrr25:Mam1, but only one of the four structures of Hrr25. Because the GxGxxG motif was disordered in three of four Hrr25&#8208;alone structures and was therefore not included in the analysis in Fig&#160;6D, that analysis likely under&#8208;estimates the stabilizing effect of Mam1 on Hrr25 structure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31473</offset>
+      <text>To quantitatively study Hrr25 kinase activity in&#160;vitro, we used a high&#8208;throughput ATP hydrolysis assay (ADP&#8208;Glo; Promega). Both S.&#160;cerevisiae Hrr251&#8211;394 and the Hrr251&#8211;394:Mam187&#8211;191 complex showed low basal ATPase activity that was strongly stimulated by a non&#8208;specific substrate protein, bovine casein (Fig&#160;7A). We were unable to purify isolated full&#8208;length Hrr25 due to poor expression and solubility, but we could purify full&#8208;length Hrr25 in complex with Mam187&#8211;191. This complex showed similar activity to the truncated complex in all assays, indicating that the Hrr25 C&#8208;terminal region does not strongly affect in&#160;vitro activity (Fig&#160;7). Hrr251&#8211;394 showed a roughly twofold higher Vmax than Hrr251&#8211;394:Mam187&#8211;191 and also showed a roughly threefold tighter Km for&#160;casein (Fig&#160;7A and D). In a second assay, we found that Hrr251&#8211;394:Mam187&#8211;191 shows a roughly twofold tighter Km for ATP than Hrr251&#8211;394 alone (Fig&#160;7B). Together, these data suggest that Mam1 can alter several aspects of Hrr25's catalytic activity, including its nucleotide binding affinity. The Hrr251&#8211;394:Mam187&#8211;191 complex's weaker Km for casein suggests that Mam1 may weaken interactions with non&#8208;specific substrates. This idea is supported by our observation (not shown) that Hrr251&#8211;394 ATPase activity increases with protein concentration in the absence of casein, suggesting that the kinase can act as a non&#8208;specific substrate for itself. This behavior was not observed in the presence of casein and was also not observed for Hrr251&#8211;394:Mam187&#8211;191 in either the presence or absence of casein.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33097</offset>
+      <text>Mam1 binding regulates Hrr25 kinase activity</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33142</offset>
+      <text>ADP&#8208;Glo ATPase assay showing stimulation of Saccharomyces cerevisiae Hrr251&#8211;394 (blue circles), Hrr251&#8211;394 K38R (red diamonds), Hrr25 full&#8208;length:Mam187&#8211;191 (black triangles), Hrr251&#8211;394:Mam187&#8211;191 (orange squares), and Hrr251&#8211;394:Mam187&#8211;191 R131A (green triangles) by bovine casein (see Fig&#160;EV6A for SDS&#8211;PAGE analysis of purified proteins). Error bars represent standard deviation from triplicate measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33575</offset>
+      <text>Stimulation of Hrr251&#8211;394, Hrr251&#8211;394:Mam187&#8211;191, and Hrr251&#8211;394:Mam187&#8211;191 R131A by ATP, measured using an enzyme&#8208;coupled ATPase assay. Error bars represent standard deviation from triplicate measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33794</offset>
+      <text>ADP&#8208;Glo assay showing the effect of added CK1&#8208;7 on Hrr251&#8211;394, Hrr251&#8211;394:Mam187&#8211;191, and Hrr251&#8211;394:Mam187&#8211;191 R131A. Error bars represent standard deviation from triplicate measurements.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33997</offset>
+      <text>Km, Vmax, and IC50 values for tested enzymes. Vmax was calculated from curves in (A) at 100&#160;&#956;M ATP.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34099</offset>
+      <text>Mam1 residue Arg131 is highly conserved in Mam1 proteins and positioned close to the Hrr25 active site, but its mutation does not affect Mam1&#8211;Hrr25 binding in&#160;vitro or cause spore lethality (Fig&#160;5D). This residue's proximity to the Hrr25 active site suggested a potential direct role in regulating ATP binding or hydrolysis, but we found that the catalytic parameters of Hrr251&#8211;394:Mam187&#8211;191 R131A were nearly identical to the wild&#8208;type complex (Fig&#160;7A and D). We did, however, notice a strong effect on the efficacy of the inhibitor CK1&#8208;7. CK1&#8208;7 inhibits Hrr251&#8211;394 with an IC50 of 37&#160;&#177;&#160;5&#160;&#956;M at 40&#160;&#956;M ATP (Ki ~19&#160;&#956;M as calculated using the Cheng&#8211;Prusoff approximation; see Materials and Methods), but only very weakly inhibits the Hrr251&#8211;394:Mam187&#8211;191 complex (IC50&#160;&gt;&#160;300&#160;&#956;M; Fig&#160;7C and D). Structural modeling suggests that the aminoethyl group of CK1&#8208;7, which&#160;extends out of the Hrr25 active site, would clash with Mam1 Arg131 (Fig&#160;EV6C). In support of this idea, the Mam1 R131A mutation rescued inhibition by CK1&#8208;7, with the mutated complex showing an IC50 of 85&#160;&#177;&#160;24&#160;&#956;M (Ki&#160;~&#160;27&#160;&#956;M) (Fig&#160;7C and D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35258</offset>
+      <text>Purification of Hrr25 and Hrr25:Mam1 for ATPase assays and modeling of Mam1 Arg131 interaction with nucleotide and CK1&#8208;7</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35381</offset>
+      <text>SDS&#8211;PAGE analysis of purified Saccharomyces cerevisiae Hrr251&#8211;394 and Hrr251&#8211;394:Mam187&#8211;191 complexes used for ATPase assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35515</offset>
+      <text>Ni2+ affinity pull&#8208;down of co&#8208;expressed His6&#8208;Hrr251&#8211;394 K38R:Mam187&#8211;191 complexes with mutations to Mam1 in interfaces #1 or #2. Except for R131A, all mutations result in a loss of co&#8208;purification of Mam1, indicating a loss of binding, and a significant reduction in the level of soluble Hrr251&#8211;394 K38R.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35834</offset>
+      <text>Close&#8208;up views of the Hrr25 active site in the structure of S.&#160;cerevisiae Hrr251&#8211;394:Mam187&#8211;191. Mam1 R131 extends toward the ATP&#8208;binding pocket, and while it would not clash with a bound nucleotide (center panel), it would clash with the aminoethyl group of bound CK1&#8208;7 (right panels).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36132</offset>
+      <text>Hrr25 phosphorylates Dsn1, the kinetochore receptor for monopolin</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36198</offset>
+      <text>Hrr25 has been previously shown to phosphorylate Mam1, and this activity was proposed to regulate monopolin&#8211;kinetochore interactions (Petronczki et&#160;al, 2006; Corbett &amp; Harrison, 2012). To further investigate the potential regulatory roles of Hrr25 in monopolin&#8211;kinetochore binding, we tested the activity of Hrr251&#8211;394 and Hrr251&#8211;394:Mam187&#8211;191 on the purified S.&#160;cerevisiae Mtw1 complex, which contains the kinetochore receptor for the monopolin complex, Dsn1. By examining band shifts on a Phos&#8208;tag SDS&#8211;PAGE gel (Kinoshita et&#160;al, 2006), we observed that both Hrr251&#8211;394 and Hrr251&#8211;394:Mam187&#8211;191 phosphorylate Dsn1, but not the other subunits of this complex (Fig&#160;8A). In contrast to our findings with bovine casein, the Hrr251&#8211;394:Mam187&#8211;191 complex was roughly as active as Hrr251&#8211;394 alone when phosphorylating Dsn1. This supports the idea that instead of globally suppressing Hrr25's kinase activity, Mam1 rather alters the kinase's substrate specificity. The observed band shifts are due specifically to phosphorylation by Hrr25, as the shift was eliminated by the addition of CK1&#8208;7 (Fig&#160;8A) or alkaline phosphatase (not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37367</offset>
+      <text>Hrr25 phosphorylates Dsn1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37393</offset>
+      <text>Phos&#8208;tag gels showing phosphorylation of purified S.&#160;cerevisiae Mtw1 complex by Hrr251&#8211;394 and Hrr251&#8211;394:Mam187&#8211;191. Asterisks denote N&#8208;terminal proteolytic cleavage products of Dsn1, with the red asterisk denoting a previously characterized product lacking the first 171 residues (Hornung et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37710</offset>
+      <text>Model of the intact monopolin complex. Four copies of Csm1 (blue) and two of Lrs4 (green) form the core &#8220;V&#8221;&#8208;shaped kinetochore&#8208;binding complex (Corbett et&#160;al, 2010). Each dimer of Csm1 binds one Mam1 (orange) (Corbett &amp; Harrison, 2012), which in turn recruits one copy of Hrr25 (blue/green). Thirty&#8208;one residues of Mam1 (192&#8211;222) separate the protein's Hrr25&#8208;binding and Csm1&#8208;binding domains, which when fully extended could reach as far as &#732;120&#160;&#197;.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38179</offset>
+      <text>Dsn1 contains 576 residues, with a proteolytically sensitive ~220 residue N&#8208;terminal domain that is predicted to be mostly disordered (Hornung et&#160;al, 2011). This region also contains the Csm1&#8208;binding site, which spans approximately residues 70&#8211;110 (Sarkar et&#160;al, 2013). Our preparation of the Mtw1 complex contained two major proteolytic degradation products of Dsn1, the smaller of which has previously been shown to lack the N&#8208;terminal 171 residues of Dsn1 (Hornung et&#160;al, 2011). In contrast to the full&#8208;length protein, neither proteolytic fragment of Dsn1 was detectably phosphorylated by Hrr25, indicating that the bulk of Hrr25&#8208;mediated Dsn1 phosphorylation likely occurs in the disordered N&#8208;terminal region (Fig&#160;8A). Due to limited yield and purity of the Mtw1 complex, we have so far been unable to test its ability to stimulate Hrr25 ATPase activity, or determine the sites on Dsn1 that are phosphorylated by Hrr25.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>39121</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39132</offset>
+      <text>Here, we report the structure of budding yeast Hrr25 and its complex with the monopolin subunit Mam1. These reveal close structural similarity to other CK1&#948;&#8208;family enzymes, including the conservation of two  binding sites previously observed in both mammalian CK1&#948; and S.&#160;pombe Cki1. Unique to budding yeast Hrr25, however, is a &#8220;central domain&#8221; with a novel fold that packs tightly against the kinase domain's C&#8208;lobe. The species distribution of this domain suggests that its main function is to cooperate with Mam1 in a monopolin&#8208;specific role, likely in regulation and/or localization of Hrr25's kinase activity. A recent report has implicated this domain in its localization to P&#8208;bodies, however, suggesting that the domain may also play a role in Hrr25 localization outside the context of monopolin (Zhang et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39973</offset>
+      <text>Mam1 adopts a novel fold anchored by a variant zinc knuckle motif, and forms an extensive interface with the Hrr25 N&#8208;lobe, C&#8208;lobe, and central domain. The most significant effect of Mam1 on Hrr25 structure is the evident suppression of conformational dynamics in the Hrr25 N&#8208;lobe and especially the GxGxxG motif that participates in nucleotide binding. Our biochemical analysis shows that Mam1 binding reduces the Kcat of Hrr25 by about half and also induces a tighter Km for ATP, both effects that are consistent with suppressed dynamics in the Hrr25 N&#8208;lobe. The Hrr25:Mam1 complex's lowered affinity for a non&#8208;specific substrate (bovine casein) suggests a role for Mam1 in regulating substrate recognition, but confirmation of this idea will require quantitative characterization of Hrr25's activity on a bona fide monopolin&#8208;specific substrate. As Hrr25 is involved in a large number of distinct signaling pathways in budding yeast, it will also be important to determine whether Mam1's mode of Hrr25 recruitment and regulation is unique, or rather represents a mechanism shared by other pathways in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41102</offset>
+      <text>The Hrr25:Mam1 interface further provides a clue to how CK1&#948;&#8208;family kinases may be regulated more globally. Hrr25:Mam1 interface #1 involves an &#945;&#8208;helix from Mam1 docking into a hydrophobic cavity on the Hrr25 N&#8208;lobe. The residues within this cavity are highly conserved and consistently hydrophobic throughout the CK1 kinase family, but are typically hydrophilic or charged in other kinase families (Fig&#160;EV4). In addition, the same surface is involved in formation of a crystallographic dimer that has been observed in three different crystal forms of mammalian CK1&#948; and has been proposed to represent an autoinhibited state (Longenecker et&#160;al, 1996, 1998; Zeringo et&#160;al, 2013). In this dimer, an &#945;&#8208;helix from the CK1&#948; C&#8208;lobe docks onto the hydrophobic cavity in a neighboring CK1&#948; N&#8208;lobe, in a manner analogous to Mam1 &#945;&#8208;helix 1 in our structure (Fig&#160;EV4). This common interface suggests one of two possibilities, both of which implicate this surface as an important regulatory element: first, CK1 kinases may share a mechanism for autoinhibition through dimerization. Second, and more intriguingly, the hydrophobic cavity on the CK1&#948; N&#8208;lobe may be a conserved site of recruiter/regulator binding. In this context, the CK1&#948; dimer structures may represent fortuitous interactions that utilize a conserved, solvent&#8208;exposed hydrophobic surface.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42481</offset>
+      <text>The structure of the Hrr25:Mam1 complex represents the final element necessary for a complete structural model of the budding yeast monopolin complex (Fig&#160;8B). Our earlier structures showed that Csm1 and Lrs4 form a &#8220;V&#8221;&#8208;shaped complex with at least two binding sites for Dsn1 (Corbett et&#160;al, 2010). The C&#8208;terminal domain of Mam1 (residues 223&#8208;263 of 302) wraps around the Csm1 C&#8208;terminal domains on each head of the &#8220;V&#8221;, close to the Dsn1&#8208;binding surface (Corbett &amp; Harrison, 2012). Our current structure shows that Mam1 residues 87&#8211;191 form a folded domain that tethers Hrr25, and sequence alignments/structure predictions indicate that the 31 residues of Mam1 between its Csm1&#8208; and Hrr25&#8208;binding regions likely constitute a disordered linker. While the sequence of this region is highly variable, its length is remarkably consistent among Mam1 orthologs (not shown). If completely extended (3.8&#160;&#197; per residue), this disordered linker region could stretch only to ~120&#160;&#197;, implying that Hrr25 kinase activity is tightly constrained around the monopolin complex's kinetochore&#8208;binding site. The consistent length of this region in different Mam1 orthologs also suggests that Hrr25's &#8220;range&#8221; when bound to kinetochores is functionally important.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43760</offset>
+      <text>How could highly localized Hrr25 kinase activity contribute to sister kinetochore cross&#8208;linking specificity? A yeast kinetochore contains between 8 and 20 copies of Dsn1 (Joglekar et&#160;al, 2006; Lawrimore et&#160;al, 2011), and each Dsn1 contains a binding site for Csm1 in its disordered N&#8208;terminal region (Sarkar et&#160;al, 2013). In order to cross&#8208;link two kinetochores, a single monopolin complex must bind at least one Dsn1 from each of two separate kinetochores, rather than binding multiple copies of Dsn1 within a single kinetochore. Given the structure of the complex, with two Csm1 dimer &#8220;heads&#8221; separated by ~10&#160;nm (Corbett et&#160;al, 2010), the most likely scenario is that each head binds Dsn1 from a different kinetochore. We propose that Hrr25's kinase activity is important to suppress binding of the second Csm1 dimer head to the same kinetochore as the first head is bound. This suppression is likely achieved through phosphorylation of Mam1 and/or Dsn1, which could modulate, either positively or negatively, their affinity for Csm1 (Corbett &amp; Harrison, 2012). Because sister chromosomes are physically linked through cohesin complexes, pairs of kinetochores that approach one another closely enough to be bound by the two heads of monopolin are overwhelmingly likely to be sisters, meaning that even non&#8208;specific kinetochore cross&#8208;linking would mostly occur between sisters. A role for Hrr25 in suppressing intrakinetochore binding of the two monopolin heads is consistent with evidence implicating Hrr25 in negative regulation of monopolin&#8211;kinetochore binding (Petronczki et&#160;al, 2006; Corbett &amp; Harrison, 2012) and could also explain the very low stoichiometry of the monopolin complex in purified meiotic kinetochore samples (Sarangapani et&#160;al, 2014). A more detailed analysis of the interactions between Csm1 and Dsn1, and the roles of Mam1 and Hrr25 in modulating these interactions, will be required to fully understand the mechanism of sister kinetochore co&#8208;orientation by the monopolin complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45792</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45814</offset>
+      <text>Sequence alignments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45834</offset>
+      <text>For sequence alignments, fungal orthologs of S.&#160;cerevisiae Hrr25 and Mam1 were identified by PSI&#8208;BLAST, then aligned with MAFFT (Katoh &amp; Standley, 2013) in JalView (Waterhouse et&#160;al, 2009). An unrooted phylogenetic tree for Hrr25 was calculated in JalView and visualized using the Drawtree module of the PHYLIP package (Felsenstein, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46178</offset>
+      <text>Cloning and protein purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46211</offset>
+      <text>Saccharomyces cerevisiae Hrr251&#8211;394 and C.&#160;glabrata Hrr251&#8211;403 proteins were cloned from genomic DNA into pET&#8208;based vectors with N&#8208;terminal, TEV protease&#8208;cleavable His6 tags; then, kinase&#8208;dead K38R variants were cloned using site&#8208;directed mutagenesis.&#160;For co&#8208;expression of Hrr251&#8211;394 (wild type or K38R) with Mam187&#8211;191, a&#160;polycistronic expression cassette was assembled by PCR, with Hrr25 tagged with an N&#8208;terminal, TEV protease&#8208;cleavable His6 tag. Proteins were expressed in E.&#160;coli strain Rosetta2(DE3)pLysS (EMD Millipore) transformed with a pCDFDuet vector encoding &#955;&#8208;phosphatase (kindly provided by A. Motamedi); expression was induced with IPTG for 16&#8211;20&#160;h at 20&#176;C. For S.&#160;cerevisiae Mtw1 complex, the four proteins (Mtw1, Nnf1, Nsl1 and Dsn1) were sequentially cloned&#160;into a polycistronic expression plasmid (Tan, 2001) with Dsn1 fused to an N&#8208;terminal, TEV protease&#8208;cleavable His6 tag and expressed in E.&#160;coli Rosetta2(DE3)pLysS using autoinducing media (Studier, 2005). Proteins were purified by Ni2+&#8208;affinity (Ni&#8208;NTA; Qiagen) and ion&#8208;exchange (Hitrap SP HPor Hitrap Q HP; GE Healthcare) chromatography; then, His6&#8208;tags were cleaved by incubation with TEV protease (Kapust et&#160;al, 2001) at 4&#176;C overnight, and the proteins were further purified by gel filtration (Superdex 200; GE Healthcare). Proteins were concentrated and stored at 4&#176;C for crystallization, or at &#8722;80&#176;C for biochemical assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47671</offset>
+      <text>Crystallization and structure determination</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47715</offset>
+      <text>For crystallization, S.&#160;cerevisiae Hrr251&#8211;394 K38R was concentrated to 10&#160;mg/ml and exchanged into a buffer containing 20&#160;mM HEPES pH 7.5, 0.3&#160;M NaCl, 1&#160;mM DTT, 5&#160;mM MgCl2, and 1&#160;mM EDTA. The protein was mixed 1:1 in hanging&#8208;drop format with well solution containing 0.1&#160;M CAPS pH 11, 0.2&#160;M lithium sulfate, and&#160;1.5&#8211;1.6&#160;M ammonium sulfate. Football&#8208;shaped crystals (~100&#160;&#215;&#160;100&#160;&#215;&#160;200&#160;&#956;m) were cryoprotected by the addition of 25% glycerol and flash&#8208;frozen in liquid nitrogen. Candida glabrata Hrr251&#8211;403 K38R was concentrated to 12&#160;mg/ml and exchanged into a buffer containing 20&#160;mM HEPES pH 7.5, 0.3&#160;M NaCl, 1&#160;mM DTT, 5&#160;mM MgCl2, and 1&#160;mM EDTA. For crystals of the ADP&#8208;bound form, the protein was mixed 1:1 in hanging&#8208;drop format with well solution&#160;containing 0.1&#160;M Bis&#8208;Tris pH 6.5, 0.2&#160;M lithium sulfate, 19% PEG 3350, and 5&#160;mM TCEP. Crystals (oval&#8208;shaped plates ~300&#160;&#215;&#160;700&#160;&#215;&#160;40&#160;&#956;m) were cryoprotected by the addition of 10% glycerol and flash&#8208;frozen in liquid nitrogen. For crystals grown with formate, lithium sulfate was replaced with 0.2&#160;M sodium formate. For crystals of the Apo form, the protein was mixed 1:1 in hanging&#8208;drop format with well solution containing 0.1&#160;M CAPS pH 10.5, 0.2&#160;M lithium sulfate, 0.56&#160;M NaH2PO4, and 0.66&#160;M K2HPO4. Crystals (triangular plates ~30&#160;&#215;&#160;50&#160;&#215;&#160;5&#160;&#956;m) were cryoprotected by addition of 25% glycerol and flash&#8208;frozen in liquid nitrogen.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49168</offset>
+      <text>For crystallization of S.&#160;cerevisiae Hrr251&#8211;394 K38R:Mam187&#8211;191, purified protein at 0.5&#160;mg/ml was subjected to reductive dimethylation of surface lysine residues by incubation (2&#160;h, 4&#176;C) with 50&#160;mM borane dimethylamine complex and 0.1&#160;M formaldehyde (Sigma&#8208;Aldrich), followed by quenching with 25&#160;mM glycine. Methylated protein was exchanged into a buffer containing 20&#160;mM HEPES pH 7.5, 0.3&#160;M NaCl, 1&#160;mM DTT, 5&#160;mM MgCl2, and 1&#160;mM EDTA, concentrated to 10&#160;mg/ml, and crystallized in hanging&#8208;drop format by mixing 1:1 with well solution. There are two crystal forms. For form 1 crystals, well solution contained 0.1&#160;M CHES pH 8.9, 5% Tacsimate, 25&#160;mM YCl3, and 19% PEG 3350. Needle&#8208;shaped crystals (~300&#160;&#215;&#160;40&#160;&#215;&#160;40&#160;&#956;m) were cryoprotected with the addition of 15% glycerol and flash&#8208;frozen in liquid nitrogen. For form 2 crystals, well solution contained 0.1&#160;M imidazole pH 8.0, 14% PEG 3350, and 6% glycerol. Crystals (arrow&#8208;shaped plates, ~300&#160;&#215;&#160;100&#160;&#215;&#160;10&#160;&#956;m) were cryoprotected with the addition of 15% glycerol and flash&#8208;frozen in liquid nitrogen.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50264</offset>
+      <text>Datasets for S.&#160;cerevisiae Hrr251&#8211;394 K38R and C.&#160;glabrata Hrr251&#8211;403 K38R were collected on beamline 24&#8208;ID&#8208;E at the Advanced Photon Source at Argonne National Laboratory, datasets for S.&#160;cerevisiae Hrr251&#8211;394 K38R:Mam187&#8211;191 form 1 crystals were collected on NE&#8208;CAT beamline 24&#8208;ID&#8208;C at the Advanced Photon Source at Argonne National Laboratory, and datasets for S.&#160;cerevisiae Hrr251&#8211;394 K38R:Mam187&#8211;191 form 2 crystals were collected on beamline 12.3.1 at the Advanced Light Source at Lawrence Berkeley National Laboratory. The structure of C.&#160;glabrata Hrr251&#8211;403 ADP was determined by single&#8208;wavelength anomalous diffraction (SAD) phasing using a 2.5&#160;&#197; dataset collected from a crystal grown from selenomethionine&#8208;derivatized protein. Phasing was carried out using an automated protocol (NE&#8208;CAT RAPD; Frank Murphy) incorporating SHELXC/D/E (Sheldrick, 2010) for site identification followed by PHASER (McCoy et&#160;al, 2007) for SAD phasing. An initial model built by RESOLVE allowed us to dock a model of S.&#160;pombe CK1 (PDB ID 1CSN) (Xu et&#160;al, 1995) into the density. This model was iteratively rebuilt in COOT (Emsley et&#160;al, 2010) and refined against a 2.0&#160;&#197; native dataset using phenix.refine (Adams et&#160;al, 2010), then used as a starting point for rebuilding and refinement of the C.&#160;glabrata Hrr251&#8211;403 K38R Apo model. A consistent free&#8208;R set was used for refinement of the two structures of C.&#160;glabrata Hrr251&#8211;403 K38R. The C.&#160;glabrata model was then used for molecular replacement in PHASER to determine the S.&#160;cerevisiae Hrr251&#8211;394 K38R&#183;CK1&#8208;7 structure. All Hrr25 models were refined in phenix.refine using positional, B&#8208;factor, and TLS refinement and have good R&#8208;factors and stereochemical parameters (Table&#160;EV1). For S.&#160;cerevisiae Hrr251&#8211;394 K38R:Mam187&#8211;191, the structure of S.&#160;cerevisiae Hrr251&#8211;394 K38R was used as a molecular&#8208;replacement model to generate initial phases. The Mam1 model was iteratively rebuilt in COOT and refined using phenix.refine. The location and identity of the Mam1&#8208;bound Zn2+ ion was confirmed with an anomalous difference map generated from a form 2 dataset collected just above the zinc K&#8208;edge (9964&#160;eV/1.2829&#160;&#197;) (Fig&#160;4D). Original diffraction data for all structures are deposited at the SBGrid Data Bank, and refined structure factors and coordinates are deposited at the RCSB Protein Data Bank (see Table&#160;EV1 for accession numbers).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52720</offset>
+      <text>Kinase assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52734</offset>
+      <text>Kinase assays were performed using the ADP&#8208;Glo kinase assay kit (Promega), or an enzyme&#8208;coupled assay, as indicated. All reactions were performed in kinase buffer (20&#160;mM HEPES pH 7.5, 200&#160;mM NaCl, 5% glycerol, 2&#160;mM MgCl2, and 1&#160;mM DTT) supplemented with ATP and dephosphorylated bovine casein (Sigma) as indicated. For casein titration, [ATP] was 100&#160;&#956;M; for ATP titration, [casein] was 500&#160;&#956;g/ml; and for inhibition by CK1&#8208;7, [ATP] was 40&#160;&#956;M and [casein] was 100&#160;&#956;g/ml. For ADP&#8208;Glo assays, reactions were performed for 60&#160;min at 30&#176;C. Enzyme&#8208;coupled assays were performed essentially as described (Ye et&#160;al, 2015), in kinase buffer supplemented with 3&#160;mM phosphoenolpyruvate, 20&#160;U/ml lactate dehydrogenase (Sigma), 20&#160;U/ml pyruvate kinase (Sigma), and 0.3&#160;mM NADH. Enzyme&#8208;coupled assays were performed at 28&#176;C. Both luminescence and absorbance measurements were taken with a TECAN Infinite M1000 spectrophotometer (Mannedorf) in 384&#8208;well microplates. All data analysis was performed with PRISM v. 6 (GraphPad Software). Ki values were calculated using the Cheng&#8211;Prusoff equation: Ki&#160;=&#160;IC50/(([S]/Km)+1) (Cheng &amp; Prusoff, 1973).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53901</offset>
+      <text>For tests with purified S.&#160;cerevisiae Mtw1 complex, 9.2&#160;&#956;g (84&#160;pM) of Mtw1 complex (purified as previously described) (Corbett et&#160;al, 2010) was incubated with Hrr251&#8211;394 or Hrr251&#8211;394:Mam187&#8211;191 (16.8, 8.4, or 4.2&#160;pM; 5&#215;, 10&#215;, or 20&#215; less kinase than substrate) in 20&#160;&#956;l reactions in kinase buffer (20&#160;mM Tris&#8211;HCl pH 7.5, 300&#160;mM NaCl, 10% glycerol, 1&#160;mM DTT, 2&#160;mM EDTA, 10&#160;mM MgCl2, and 5&#160;mM ATP) for 30&#160;min at 20&#176;C. Samples were run on a 10% polyacrylamide Phos&#8208;tag gel (Kinoshita et&#160;al, 2006) and visualized by Coomassie staining. For inhibition by CK1&#8208;7, 1&#160;mM CK1&#8208;7 was added at the start of the incubation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54547</offset>
+      <text>In vitro translation and pull&#8208;down assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54591</offset>
+      <text>In vitro translation of MBP&#8208;fused S.&#160;cerevisiae Mam187&#8211;191 fragments and pull&#8208;down assays with His&#8208;MBP&#8208;Hrr251&#8211;394 K38R were performed as previously described (Corbett &amp; Harrison, 2012). Prey constructs (Mam187&#8211;191 and mutants) were cloned into a plasmid with a T7 promoter, leading Kozak sequence, and an N&#8208;terminal MBP&#8208;fusion, and translated using a TNT T7 Transcription/Translation kit (Promega) with 35S&#8208;methionine. Ten micrograms of purified bait protein (His&#8208;MBP&#8208;Hrr251&#8211;394 K38R) was incubated with 10&#160;&#956;l of the translation reaction in binding buffer (20&#160;mM HEPES, pH 7.5, 150&#160;mM NaCl, 20&#160;mM imidazole, 5% glycerol, 1&#160;mM dithiothreitol (DTT), and 0.1% NP&#8208;40) for 90&#160;min at 4&#176;C, then 15&#160;&#956;l Ni&#8208;NTA beads were added, and the mixture was incubated for further 45&#160;min. Beads were washed three times with 0.5&#160;ml buffer, then eluted with 25&#160;&#956;l elution buffer (2&#215; SDS&#8211;PAGE loading dye plus 400&#160;mM imidazole) and boiled. Samples were run on SDS&#8211;PAGE; then, the gel was dried and scanned with a phosphorimager.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55648</offset>
+      <text>Yeast strains and sporulation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55678</offset>
+      <text>Wild&#8208;type S.&#160;cerevisiae SK1 strains (A4841, A4842) were generously provided by A. Amon. Mutant strains were generated with PCR&#8208;based methods as described (Longtine et&#160;al, 1998). The natMX4 selection marker was derived from plasmid pAG25 (Goldstein &amp; McCusker, 1999). For spore viability, cells were grown on YPD agar and then patched onto SPO medium (1% KOAc) for 48&#8211;72&#160;h. About 46&#8211;48 tetrads were dissected for each strain. Yeast strain genotypes can be found in Table&#160;EV2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56165</offset>
+      <text>Synchrotron support statements</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56196</offset>
+      <text>Portions of this work were conducted at the Northeastern Collaborative Access Team beamlines at the Advanced Photon Source at Argonne National Laboratory, which are funded by the National Institute of General Medical Sciences from the National Institutes of Health (P41 GM103403). The Pilatus 6M detector on 24&#8208;ID&#8208;C beamline is funded by a NIH&#8208;ORIP HEI grant (S10 RR029205). This research used resources of the Advanced Photon Source, a U.S. Department of Energy (DOE) Office of Science User Facility operated for the DOE Office of Science by Argonne National Laboratory under Contract No. DE&#8208;AC02&#8208;06CH11357.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56815</offset>
+      <text>Portions of this work were conducted at the Advanced Light Source (ALS), a national user facility operated by Lawrence Berkeley National Laboratory on behalf of the Department of Energy, Office of Basic Energy Sciences, through the Integrated Diffraction Analysis Technologies (IDAT) program, supported by DOE Office of Biological and Environmental Research. Additional support for beamline 12.3.1 comes from the National Institute of Health project MINOS (R01GM105404).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57286</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57307</offset>
+      <text>QY designed the experiments, purified all proteins, determined all crystal structures, and performed quantitative ATPase assays; SNU performed spore viability measurements; TYS measured Hrr25 phosphorylation of the S.&#160;cerevisiae Mtw1 complex; KDC designed the experiments, helped with structure determination, and performed ATPase assays. KDC and QY wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57680</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57701</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57761</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>57784</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">221</infon>
+      <infon key="pub-id_pmid">20124702</infon>
+      <infon key="fpage">213</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>57795</offset>
+      <text>PHENIX: a comprehensive Python&#8208;based system for macromolecular structure solution</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">2738</infon>
+      <infon key="pub-id_pmid">23864707</infon>
+      <infon key="fpage">2727</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>57879</offset>
+      <text>Sit4p/PP6 regulates ER&#8208;to&#8208;Golgi traffic by controlling the dephosphorylation of COPII coat subunits</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">3618</infon>
+      <infon key="pub-id_pmid">20818155</infon>
+      <infon key="fpage">3611</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>57983</offset>
+      <text>The Lrs4&#8208;Csm1 monopolin complex associates with kinetochores during anaphase and is required for accurate chromosome segregation</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">2819</infon>
+      <infon key="pub-id_pmid">23885115</infon>
+      <infon key="fpage">2807</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58114</offset>
+      <text>Monopolin recruits condensin to organize centromere DNA and repetitive DNA sequences</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Biochem Pharmacol</infon>
+      <infon key="lpage">3108</infon>
+      <infon key="pub-id_pmid">4202581</infon>
+      <infon key="fpage">3099</infon>
+      <infon key="year">1973</infon>
+      <infon key="type">ref</infon>
+      <offset>58199</offset>
+      <text>Relationship between the inhibition constant (K1) and the concentration of inhibitor which causes 50 per cent inhibition (I50) of an enzymatic reaction</text>
+    </passage>
+    <passage>
+      <infon key="volume">264</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">4927</infon>
+      <infon key="pub-id_pmid">2925675</infon>
+      <infon key="fpage">4924</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>58351</offset>
+      <text>A newly synthesized selective casein kinase I inhibitor, N&#8208;(2&#8208;aminoethyl)&#8208;5&#8208;chloroisoquinoline&#8208;8&#8208;sulfonamide, and affinity purification of casein kinase I from bovine testis</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">7311</infon>
+      <infon key="pub-id_pmid">12044161</infon>
+      <infon key="fpage">7301</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>58537</offset>
+      <text>Structural studies on phospho&#8208;CDK2/cyclin A bound to nitrate, a transition state analogue: implications for the protein kinase mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">567</infon>
+      <infon key="pub-id_pmid">20723757</infon>
+      <infon key="fpage">556</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58676</offset>
+      <text>The monopolin complex crosslinks kinetochore components to regulate chromosome&#8208;microtubule attachments</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">589</infon>
+      <infon key="pub-id_pmid">22813733</infon>
+      <infon key="fpage">583</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58781</offset>
+      <text>Molecular architecture of the yeast monopolin complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">20383002</infon>
+      <infon key="fpage">486</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58835</offset>
+      <text>Features and development of Coot</text>
+    </passage>
+    <passage>
+      <infon key="type">ref</infon>
+      <infon key="year">2013</infon>
+      <offset>58868</offset>
+      <text>PHYLIP (Phylogeny Inference Package) version 3.695</text>
+    </passage>
+    <passage>
+      <infon key="volume">266</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">3727</infon>
+      <infon key="pub-id_pmid">1995625</infon>
+      <infon key="fpage">3724</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>58919</offset>
+      <text>Role of acidic residues as substrate determinants for casein kinase I</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">148</infon>
+      <infon key="pub-id_pmid">17245414</infon>
+      <infon key="fpage">139</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>58989</offset>
+      <text>Post&#8208;translational modifications regulate the&#160;ticking of the circadian clock</text>
+    </passage>
+    <passage>
+      <infon key="volume">208</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">759</infon>
+      <infon key="pub-id_pmid">25778921</infon>
+      <infon key="fpage">745</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>59069</offset>
+      <text>Hrr25/CK1&#948;&#8208;directed release of Ltv1 from pre&#8208;40S ribosomes is necessary for ribosome assembly and cell growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Yeast</infon>
+      <infon key="lpage">1553</infon>
+      <infon key="pub-id_pmid">10514571</infon>
+      <infon key="fpage">1541</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>59184</offset>
+      <text>Three new dominant drug resistance cassettes for gene disruption in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">21811419</infon>
+      <infon key="fpage">e1002190</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59277</offset>
+      <text>Mechanisms of chromosome number evolution in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1200</infon>
+      <infon key="pub-id_pmid">17627824</infon>
+      <infon key="fpage">1190</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>59328</offset>
+      <text>The kinetochore proteins Pcs1 and Mde4 and heterochromatin are required to prevent merotelic orientation</text>
+    </passage>
+    <passage>
+      <infon key="volume">253</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1034</infon>
+      <infon key="pub-id_pmid">1887218</infon>
+      <infon key="fpage">1031</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>59433</offset>
+      <text>HRR25, a putative protein kinase from budding yeast: association with repair of damaged DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">405</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">559</infon>
+      <infon key="pub-id_pmid">21075115</infon>
+      <infon key="fpage">548</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59525</offset>
+      <text>Molecular architecture and connectivity of the budding yeast Mtw1 kinetochore complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">506</infon>
+      <infon key="pub-id_pmid">20383139</infon>
+      <infon key="fpage">500</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59611</offset>
+      <text>Shugoshin&#8208;PP2A counteracts casein&#8208;kinase&#8208;1&#8208;dependent cleavage of Rec8 by separase</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">585</infon>
+      <infon key="pub-id_pmid">16715078</infon>
+      <infon key="fpage">581</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>59701</offset>
+      <text>Molecular architecture of a kinetochore&#8211;microtubule attachment site</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Protein Eng</infon>
+      <infon key="lpage">1000</infon>
+      <infon key="pub-id_pmid">11809930</infon>
+      <infon key="fpage">993</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>59771</offset>
+      <text>Tobacco etch virus protease: mechanism of autolysis and rational design of stable mutants with wild&#8208;type catalytic proficiency</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">409</infon>
+      <infon key="pub-id_pmid">20230747</infon>
+      <infon key="fpage">397</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59900</offset>
+      <text>Rec8 phosphorylation by casein kinase 1 and Cdc7&#8208;Dbf4 kinase regulates cohesin cleavage by separase during meiosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">780</infon>
+      <infon key="pub-id_pmid">23329690</infon>
+      <infon key="fpage">772</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60017</offset>
+      <text>MAFFT multiple sequence alignment software version 7: improvements in performance and usability</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">854</infon>
+      <infon key="pub-id_pmid">18825126</infon>
+      <infon key="fpage">853</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60113</offset>
+      <text>Large&#8208;scale evaluation of protein reductive methylation for improving protein crystallization</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">757</infon>
+      <infon key="pub-id_pmid">16340016</infon>
+      <infon key="fpage">749</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60209</offset>
+      <text>Phosphate&#8208;binding tag, a new tool to visualize phosphorylated proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Cell Signal</infon>
+      <infon key="lpage">689</infon>
+      <infon key="pub-id_pmid">15722192</infon>
+      <infon key="fpage">675</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>60282</offset>
+      <text>The casein kinase 1 family: participation in multiple cellular processes in eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="volume">195</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">582</infon>
+      <infon key="pub-id_pmid">22084307</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60369</offset>
+      <text>Point centromeres contain more than a single centromere&#8208;specific Cse4 (CENP&#8208;A) nucleosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">257</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">631</infon>
+      <infon key="pub-id_pmid">8648628</infon>
+      <infon key="fpage">618</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>60463</offset>
+      <text>Three&#8208;dimensional structure of mammalian casein kinase I: molecular basis for phosphate recognition</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">475</infon>
+      <infon key="pub-id_pmid">9761932</infon>
+      <infon key="fpage">473</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>60565</offset>
+      <text>Crystallographic studies of casein kinase I delta toward a structural understanding of auto&#8208;inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Yeast</infon>
+      <infon key="lpage">961</infon>
+      <infon key="pub-id_pmid">9717241</infon>
+      <infon key="fpage">953</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>60670</offset>
+      <text>Additional modules for versatile and economical PCR&#8208;based gene deletion and modification in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">473</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">21532587</infon>
+      <infon key="fpage">181</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60789</offset>
+      <text>Sequential interactions with Sec23 control the direction of vesicle traffic</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">J Appl Crystallogr</infon>
+      <infon key="lpage">674</infon>
+      <infon key="pub-id_pmid">19461840</infon>
+      <infon key="fpage">658</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>60865</offset>
+      <text>Phaser crystallographic software</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">16563186</infon>
+      <infon key="fpage">R23</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60898</offset>
+      <text>Phylogenetic and structural analysis of centromeric DNA and kinetochore proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">588</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">3869</infon>
+      <infon key="pub-id_pmid">25281559</infon>
+      <infon key="fpage">3862</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60979</offset>
+      <text>Hrr25 phosphorylates the autophagic receptor Atg34 to promote vacuolar transport of &#945;&#8208;mannosidase under nitrogen starvation conditions</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">240</infon>
+      <infon key="pub-id_pmid">25625208</infon>
+      <infon key="fpage">231</infon>
+      <infon key="year">2015a</infon>
+      <infon key="type">ref</infon>
+      <offset>61118</offset>
+      <text>Casein kinase 1 promotes initiation of clathrin&#8208;mediated endocytosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">2518</infon>
+      <infon key="pub-id_pmid">25971801</infon>
+      <infon key="fpage">2505</infon>
+      <infon key="year">2015b</infon>
+      <infon key="type">ref</infon>
+      <offset>61189</offset>
+      <text>Interaction of CK1&#948; with &#947;TuSC ensures proper microtubule assembly and spindle positioning</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1064</infon>
+      <infon key="pub-id_pmid">16990132</infon>
+      <infon key="fpage">1049</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>61288</offset>
+      <text>Monopolar attachment of sister kinetochores at meiosis I requires casein kinase 1</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">870</infon>
+      <infon key="pub-id_pmid">24968893</infon>
+      <infon key="fpage">862</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61370</offset>
+      <text>Hrr25 kinase promotes selective autophagy by phosphorylating the cargo receptor Atg19</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">25993311</infon>
+      <infon key="fpage">e1005225</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>61456</offset>
+      <text>Casein kinase 1 and phosphorylation of cohesin subunit Rec11 (SA3) promote meiotic recombination through linear element formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">410</infon>
+      <infon key="pub-id_pmid">16481469</infon>
+      <infon key="fpage">399</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>61586</offset>
+      <text>CKI, there's more than one: casein kinase I family members in Wnt and Hedgehog signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">548</infon>
+      <infon key="pub-id_pmid">12689592</infon>
+      <infon key="fpage">535</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>61675</offset>
+      <text>Kinetochore recruitment of two nucleolar proteins is required for homolog segregation in meiosis I</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">2662</infon>
+      <infon key="pub-id_pmid">20581463</infon>
+      <infon key="fpage">2657</infon>
+      <infon key="year">2010a</infon>
+      <infon key="type">ref</infon>
+      <offset>61774</offset>
+      <text>Casein kinase 1 is required for efficient removal of Rec8 during meiosis I</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">4004</infon>
+      <infon key="pub-id_pmid">20935472</infon>
+      <infon key="fpage">3997</infon>
+      <infon key="year">2010b</infon>
+      <infon key="type">ref</infon>
+      <offset>61849</offset>
+      <text>Laser microsurgery provides evidence for merotelic kinetochore attachments in fission yeast cells lacking Pcs1 or Clr4</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">230</infon>
+      <infon key="pub-id_pmid">25579976</infon>
+      <infon key="fpage">220</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>61968</offset>
+      <text>Phosphorylation of cohesin Rec11/SA3 by casein kinase 1 promotes homologous recombination by assembling the meiotic chromosome axis</text>
+    </passage>
+    <passage>
+      <infon key="volume">346</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">251</infon>
+      <infon key="pub-id_pmid">25213378</infon>
+      <infon key="fpage">248</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62100</offset>
+      <text>Sister kinetochores are mechanically fused during meiosis I in yeast</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">23861669</infon>
+      <infon key="fpage">e1003610</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62169</offset>
+      <text>Monopolin subunit Csm1 associates with MIND complex to establish monopolar attachment of sister kinetochores at meiosis I</text>
+    </passage>
+    <passage>
+      <infon key="volume">441</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">655</infon>
+      <infon key="pub-id_pmid">16738661</infon>
+      <infon key="fpage">651</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>62291</offset>
+      <text>Hrr25&#8208;dependent phosphorylation state regulates organization of the pre&#8208;40S subunit</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">485</infon>
+      <infon key="pub-id_pmid">20383001</infon>
+      <infon key="fpage">479</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62379</offset>
+      <text>Experimental phasing with SHELXC/D/E: combining chain tracing with density modification</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Protein Expr Purif</infon>
+      <infon key="lpage">234</infon>
+      <infon key="pub-id_pmid">15915565</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>62467</offset>
+      <text>Protein production by auto&#8208;induction in high density shaking cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">483</infon>
+      <infon key="pub-id_pmid">21633354</infon>
+      <infon key="fpage">477</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62539</offset>
+      <text>Condensin association with histone H2A shapes mitotic chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Protein Expr Purif</infon>
+      <infon key="lpage">234</infon>
+      <infon key="pub-id_pmid">11162410</infon>
+      <infon key="fpage">224</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>62605</offset>
+      <text>A modular polycistronic expression system for overexpressing protein complexes in Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="volume">207</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">105</infon>
+      <infon key="pub-id_pmid">25287303</infon>
+      <infon key="fpage">91</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62704</offset>
+      <text>Hrr25 triggers selective autophagy&#8208;related pathways by phosphorylating receptor proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1168</infon>
+      <infon key="pub-id_pmid">11163190</infon>
+      <infon key="fpage">1155</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>62795</offset>
+      <text>Functional genomics identifies monopolin: a kinetochore protein required&#160;for segregation of homologs during meiosis I</text>
+    </passage>
+    <passage>
+      <infon key="volume">269</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">19278</infon>
+      <infon key="pub-id_pmid">8034689</infon>
+      <infon key="fpage">19271</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>62914</offset>
+      <text>A prenylation motif is required for plasma membrane localization and biochemical function of casein kinase I in budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">1622</infon>
+      <infon key="pub-id_pmid">17098187</infon>
+      <infon key="fpage">1617</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>63040</offset>
+      <text>Lysine methylation as a routine rescue strategy for protein crystallization</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">5385</infon>
+      <infon key="pub-id_pmid">8816449</infon>
+      <infon key="fpage">5375</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>63116</offset>
+      <text>Prenylated isoforms of yeast casein kinase I, including the novel Yck3p, suppress the gcs1 blockage of cell proliferation from stationary phase</text>
+    </passage>
+    <passage>
+      <infon key="volume">210</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">285</infon>
+      <infon key="pub-id_pmid">26195667</infon>
+      <infon key="fpage">273</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>63260</offset>
+      <text>Ypt1/Rab1 regulates Hrr25/CK1&#948; kinase activity in ER&#8208;Golgi traffic and macroautophagy</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1191</infon>
+      <infon key="pub-id_pmid">19151095</infon>
+      <infon key="fpage">1189</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>63350</offset>
+      <text>Jalview version 2&#8211;a multiple sequence alignment editor and analysis workbench</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="lpage">591</infon>
+      <infon key="pub-id_pmid">17362199</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>63430</offset>
+      <text>Structures and functions of yeast kinetochore complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">1188</infon>
+      <infon key="pub-id_pmid">15635095</infon>
+      <infon key="fpage">1178</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>63486</offset>
+      <text>Three&#8208;dimensional ultrastructure of Saccharomyces cerevisiae meiotic spindles</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">242</infon>
+      <infon key="pub-id_pmid">21460441</infon>
+      <infon key="fpage">235</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63566</offset>
+      <text>Overview of the CCP4 suite and current developments</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1023</infon>
+      <infon key="pub-id_pmid">7889932</infon>
+      <infon key="fpage">1015</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>63618</offset>
+      <text>Crystal structure of casein kinase&#8208;1, a phosphate&#8208;directed protein kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">6313</infon>
+      <infon key="pub-id_pmid">8692811</infon>
+      <infon key="fpage">6308</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>63696</offset>
+      <text>Structural basis for selectivity of the isoquinoline sulfonamide family of protein kinase inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Elife</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">213</infon>
+      <infon key="year">2015</infon>
+      <offset>63797</offset>
+      <text>TRIP13 is a protein&#8208;remodeling AAA+ ATPase that catalyzes MAD2 conformation switching</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="lpage">1083</infon>
+      <infon key="source">Acta Crystallogr Sect F Struct Biol Cryst Commun</infon>
+      <infon key="fpage">1077</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63885</offset>
+      <text>A monoclinic crystal form of casein kinase 1|&#948;</text>
+    </passage>
+    <passage>
+      <infon key="volume">203</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">1202</infon>
+      <infon key="pub-id_pmid">27182950</infon>
+      <infon key="fpage">1191</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>63936</offset>
+      <text>The activity&#8208;dependent regulation of protein kinase stability by the localization to P&#8208;bodies</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1543 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5090218</id>
+    <passage>
+      <infon key="name_2">surname:M&#252;ller;given-names:Jo&#235;lle S</infon>
+      <infon key="name_3">surname:Lenard;given-names:Anna</infon>
+      <infon key="name_0">surname:Konantz;given-names:Martina</infon>
+      <infon key="name_1">surname:Alghisi;given-names:Elisa</infon>
+      <infon key="name_6">surname:Kanz;given-names:Lothar</infon>
+      <infon key="alt-title">Martina Konantz et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201593454</infon>
+      <infon key="name_5">surname:Carroll;given-names:Kelli J</infon>
+      <infon key="name_8">surname:Lengerke;given-names:Claudia</infon>
+      <infon key="lpage">2331 2331</infon>
+      <infon key="fpage">2315 2315</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:North;given-names:Trista E</infon>
+      <infon key="name_4">surname:Esain;given-names:Virginie</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201593454</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="kwd">AKT endothelial&#8208;to&#8208;hematopoietic transition EVI1 hematopoietic stem cells Notch VEGF Development &amp; Differentiation Signal Transduction Stem Cells</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">21</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>Evi1 regulates Notch activation to induce zebrafish hematopoietic stem cell emergence</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>86</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <text>During development, hematopoietic stem cells (HSCs) emerge from aortic endothelial cells (ECs) through an intermediate stage called hemogenic endothelium by a process known as endothelial&#8208;to&#8208;hematopoietic transition (EHT). While Notch signaling, including its upstream regulator Vegf, is known to regulate this process, the precise molecular control and temporal specificity of Notch activity remain unclear. Here, we identify the zebrafish transcriptional regulator evi1 as critically required for Notch&#8208;mediated EHT. In&#160;vivo live imaging studies indicate that evi1 suppression impairs EC progression to hematopoietic fate and therefore HSC emergence. evi1 is expressed in ECs and induces these effects cell autonomously by activating Notch via pAKT. Global or endothelial&#8208;specific induction of notch, vegf, or pAKT can restore endothelial Notch and HSC formations in evi1 morphants. Significantly, evi1 overexpression induces Notch independently of Vegf and rescues HSC numbers in embryos treated with a Vegf inhibitor. In sum, our results unravel evi1&#8211;pAKT as a novel molecular pathway that, in conjunction with the shh&#8211;vegf axis, is essential for activation of Notch signaling in VDA endothelial cells and their subsequent conversion to HSCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1355</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1368</offset>
+      <text>The zebrafish (Danio rerio) model is increasingly used to study vertebrate hematopoiesis. Its rapid development, external fertilization, and embryonic transparency facilitate in&#160;vivo imaging of early embryonic processes and make it amenable for genetic and small molecule screens (Palis &amp; Yoder, 2001; Davidson &amp; Zon, 2004; Bertrand &amp; Traver, 2009). Moreover, molecular pathways governing blood development appear largely conserved between fish and mammals, indicating that knowledge obtained in this model is likely transferrable to mammalian systems. As in other vertebrates, zebrafish hematopoiesis develops in sequential waves (Davidson &amp; Zon, 2004). The first hematopoietic cells appear as the primitive wave at 12&#160;h post&#8208;fertilization (hpf) in the intermediate cell mass, an intra&#8208;embryonic tissue derived from the ventral mesoderm (Detrich et&#160;al, 1995; Palis &amp; Yoder, 2001). A second transient hematopoietic wave occurs in the caudal hematopoietic tissue (CHT), where multipotent erythromyeloid progenitors (EMPs) are generated as early as 24&#160;hpf (Bertrand et&#160;al, 2007, 2010b). Shortly afterward, these cells are replaced by definitive hematopoietic stem/progenitor cells (HSPCs) that in fish start emerging approximately at 26&#160;hpf in the ventral dorsal aorta (VDA)&#8212;the equivalent of the aorta&#8211;gonad&#8211;mesonephros (AGM) region in mammals&#8212;and then migrate to the CHT to expand in number (Bertrand et&#160;al, 2010a; Boisset et&#160;al, 2010). HSPCs subsequently colonize kidney marrow and thymus, the adult hematopoietic organs, to maintain the hematopoietic pool throughout the zebrafish life span (Jin et&#160;al, 2007; Chen &amp; Zon, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3019</offset>
+      <text>The regulation of HSPC development in the VDA and AGM, respectively, is subject of intense research. On the cellular level, HSPCs arise from specialized VDA endothelial cells (ECs) referred to as hemogenic endothelium (HE), in a process known as endothelial&#8208;to&#8208;hematopoietic transition (EHT). Molecularly, several signaling pathways and genes have been demonstrated to regulate both artery and HSPC development (North et&#160;al, 1999; Burns et&#160;al, 2009; Chen et&#160;al, 2009). For example, the Notch&#8211;gridlock pathway controls the assembly of the first embryonic arteries, regulates arterial endothelial fate specification, and is critical for definitive hematopoietic stem cell (HSC) formation in both mammals and fish (Zhong et&#160;al, 2001; Kumano et&#160;al, 2003; Burns et&#160;al, 2005; Robert&#8208;Moreno et&#160;al, 2005). Interestingly, Notch signaling is dispensable for the specification of primitive hematopoietic cells and EMPs (Bertrand et&#160;al, 2010b). Although arterial identity has been described as a prerequisite for HSCs, it is still controversial whether full arterial specification is required for HSC generation (de Bruijn et&#160;al, 2000). Indeed, most of the mouse and fish mutants that do not generate arteries show defective HSC development (Kumano et&#160;al, 2003; Burns, 2005; Robert&#8208;Moreno et&#160;al, 2008; North et&#160;al, 2009). However, hematopoiesis is not necessarily affected in mutants with perturbed artery&#8211;vein boundaries, if intact Notch signaling is provided (Burns et&#160;al, 2005; You et&#160;al, 2005). Together, these data suggest that active Notch signaling is a key factor for ECs to generate HSCs, as well as needed for full arterial specification. Precise Notch activity levels, as achieved in ECs of the VDA at this developmental time point, might in fact distinguish cells capable of differentiating into blood from those that do not have this property and will remain part of the arteries (Gama&#8208;Norton et&#160;al, 2015). Supporting this notion, in&#160;vitro cultured ECs derived from murine AGM, human embryonic stem (hES), or Macaca nemestrina&#8208;induced pluripotent stem (iPS) cells require Notch induction (e.g., via genetic manipulation or co&#8208;culture with ECs expressing the Notch ligands Jag1 and Dll4) for generating definitive HSPCs (Gori et&#160;al, 2015; Hadland et&#160;al, 2015). Similarly, the Notch ligand Dll4 was implicated as a hemato&#8208;endothelial progenitor marker in hESCs and shown to regulate their hematopoietic differentiation (Ayll&#243;n et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5499</offset>
+      <text>The upstream regulatory mechanisms that control Notch levels in ECs are not fully understood. A major inductive role has been attributed to vascular endothelial growth factor (Vegf) and its upstream regulator sonic hedgehog (Ssh), which both have an essential role in regulating zebrafish HSC development in a Notch&#8208;dependent manner (Lawson et&#160;al, 2002; Gering &amp; Patient, 2005). However, in contrast to direct exposure to Notch ligands (Gori et&#160;al, 2015), standard addition of Vegf to cultured ES cells cannot by itself induce HSCs (Lengerke &amp; Daley, 2005, 2010; Lengerke et&#160;al, 2008; M&#252;ller &amp; Lengerke, 2009), indicating that additional factors may be involved in Notch regulation. Here, we identify the zebrafish homologue of the zinc finger transcription factor ecotropic viral integration site&#8208;1 (Evi1, also termed Mecom) as a critical regulator of Notch pathway induction and HSC emergence in the zebrafish VDA endothelium.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6436</offset>
+      <text>Evi1 is a member of the SET/PR domain protein family and contains ten zinc finger motifs organized into two domains, each with distinct DNA&#8208;binding specificities (Fig&#160;EV1A; Perkins et&#160;al, 1991; Delwel et&#160;al, 1993). Given its complex molecular structure, Evi1 can interact with different molecular partners, exerting inductive and/or repressive effects on several genes in a tissue&#8208;dependent manner (Wieser, 2007). Identified several years ago as a common locus of retroviral integration in murine myeloid tumors (Mucenski et&#160;al, 1988), Evi1 has been mostly studied as an oncogene and poor risk factor in leukemia (Suzukawa et&#160;al, 1994; Ogawa et&#160;al, 1996; Konantz et&#160;al, 2013). However, Evi1 is also expressed in several embryonic and adult tissues (e.g., heart, somites, cranial ganglia, peripheral nervous system) and regulates proliferation and/or differentiation of various cell types (Hirai, 1999; Wieser, 2007). Evi1&#8722;/&#8722; mice die early, between 10.5 (Hoyt et&#160;al, 1997; Yuasa et&#160;al, 2005) and 16.5 (Goyama et&#160;al, 2008) days post&#8208;coitum, depending on the model, and show multiple abnormalities including paleness and reduced numbers of proliferating HSCs (Hoyt et&#160;al, 1997; Yuasa et&#160;al, 2005; Goyama et&#160;al, 2008). Here, we use the zebrafish model to investigate the mechanistic role of evi1 in developmental hematopoiesis. We find that evi1 regulates EHT and is required for the generation of HSPCs in the VDA. Molecularly, evi1 regulates this process by inducing pAKT&#8208;Notch independently of Vegf activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7972</offset>
+      <text>Validation of the evi1 morpholino oligonucleotides</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8023</offset>
+      <text>Schematic representation of protein domains of the transcription factor Evi1. Blue boxes represent zinc finger motifs in the Evi1 protein. Other functional domains are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8202</offset>
+      <text>The evi1 splice donor MO, depicted by red crosses, target either the 3rd (MO1) or the 6th (MO2) zinc finger in the first zinc finger domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8343</offset>
+      <text>RT&#8211;PCR of evi1 in embryos injected with evi1 MO1 or MO2 indicates splice modification. Corresponding primer pairs are shown. Expected wt bands for MO1 389&#160;bp, in evi1 morphants 2,526&#160;bp. For MO2: expected wt bands 1,100&#160;bp, 5,695&#160;bp for evi1 morphants.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8602</offset>
+      <text>No pooling was observed by o&#8208;dianisidine staining in evi1 morphants at 38&#160;hpf.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8684</offset>
+      <text>Co&#8208;injection of capped evi1 mRNA (E) or UAS:mEvi1 (in Tg(fli.1:Gal4FF;UAS:RFP) embryos, E') together with the evi1 MO rescues the HSC phenotype, shown by restored runx1/c&#8208;myb expression in the VDA, marked with black arrowheads. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation of runx1/c&#8208;myb in each condition. Lateral views are shown, anterior to the left, dorsal up.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9172</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9180</offset>
+      <text>Zebrafish evi1 expression is detectable in the VDA and required for HSC development</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9264</offset>
+      <text>Whole&#8208;mount in&#160;situ hybridization (WISH) analyses were performed to document expression of the zebrafish homologue of the evi1 gene during early zebrafish development. Consistent with data collected in mice (Hoyt et&#160;al, 1997), evi1 expression is detectable in select cell types in the brain, the branchial arches, and the posterior pronephric duct (Fig&#160;1A left and middle). Moreover, evi1 is expressed in the zebrafish VDA at the time point of HSC emergence and co&#8208;localizes with the endothelial marker flk1 (Fig&#160;1A right) and the HSC marker c&#8208;myb (Appendix&#160;Fig&#160;S1), as shown by double WISH (Davidson &amp; Zon, 2004). These results suggest that evi1 is present in hematopoietic cells as they emerge from the aortic endothelium and may regulate definitive hematopoiesis in a cell&#8208;autonomous manner.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10073</offset>
+      <text>evi1 is expressed in emerging HSPCs and critically regulates definitive hematopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10159</offset>
+      <text>Whole&#8208;mount in&#160;situ hybridization (WISH) of evi1 at 20 (left) and 32 (middle) hpf. evi1 expression is visible in various structures of the brain, neuronal structures, the posterior pronephric duct (ppnd), and the branchial arches (ba), as well as in the VDA (ventral dorsal aorta) region. Additionally, evi1 co&#8208;localizes with the endothelial marker flk1 (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10527</offset>
+      <text>WISH of runx1/c&#8208;myb in HSPCs (B), mpo in neutrophils (left), and l&#8208;plastin (right) in monocytes/macrophages (C) at 36&#160;hpf in control (upper)&#8208; and evi1 MO (lower)&#8208;injected embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10716</offset>
+      <text>WISH of globin in erythrocytes of 6&#160;dpf embryos (D), of rag&#8208;1 in the thymus of 5 dpf embryos (E; red asterisk), of cd41 at 52&#160;hpf (F), and gata2b at 32&#160;hpf (G) for both control (upper)&#8208; and evi1 morpholino (lower)&#8208;injected embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10957</offset>
+      <text>Quantitation of results is shown for each gene, displaying the percentages of embryos with normal vs. changed expression in each condition. A Fisher's exact test was applied to calculate statistical significance. ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11186</offset>
+      <text>WISH of runx1/c&#8208;myb in HSPCs of uninjected control and UAS:mEvi1 plasmid DNA&#8208;injected Tg(&#8208;1.5hsp70l:Gal4) embryos with heat&#8208;shock induction performed at 14&#160;hpf.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11356</offset>
+      <text>WISH of runx1/c&#8208;myb in HSPCs of uninjected control and UAS:mEvi1 mRNA in Tg(fli.1:Gal4FF;UAS:RFP) embryos, leading to endothelial&#8208;specific evi1 overexpression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11520</offset>
+      <text>Graph displays quantitation of results from (I) and (J), displaying the percentages of embryos with normal vs. changed expression in each condition. A Fisher's exact test was applied to calculate statistical significance. **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11772</offset>
+      <text>Data information: Lateral views are shown, with anterior to the left, dorsal up. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation for each gene. A minimum of two biological replicates was performed for each marker with at least n&#160;=&#160;5 embryos per experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12145</offset>
+      <text>To investigate the role of evi1 in zebrafish hematopoiesis, in&#160;vivo loss&#8208;of&#8208;function experiments were performed and embryos treated with two different antisense morpholino oligonucleotides (MO) to inhibit evi1 pre&#8208;mRNA splicing. Both MOs result in intron preservation, thereby leading to a premature stop either in the 2nd (MO1) or the 6th (MO2) zinc finger of the first zinc finger domain (Fig&#160;EV1A and B). Transcripts in morphants were mis&#8208;spliced, whereas uninjected and control&#8208;injected embryos showed normal splicing (Fig&#160;EV1C). o&#8208;Dianisidine staining was performed to exclude major defects in vascular integrity, including hemorrhaging and/or blood pooling, in MO&#8208;injected fish (Fig&#160;EV1D). Control and evi1 MO&#8208;injected fish were analyzed by WISH for the expression of hematopoietic genes and/or flow cytometric quantification using transgenic reporter lines (Fig&#160;1B&#8211;H and Appendix&#160;Fig&#160;S2). Indeed, reduced numbers of runx1+/c&#8208;myb+ HSPCs were observed in the VDA region of evi1 morphants vs. control embryos at 36&#160;hpf (Figs&#160;1B and H, and EV2A and C). Co&#8208;injection with zebrafish evi1 mRNA in wild&#8208;type fish (Fig&#160;EV1E) and, respectively, with UAS:mEvi1 plasmid DNA in Tg(fli.1:Gal4FF;UAS:RFP) fish (Fig&#160;EV1E'), was able to rescue runx1/c&#8208;myb expression in the VDA of evi1 morphants, indicating that the observed effects on HSCs were specific to evi1 inhibition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13548</offset>
+      <text>evi1 MO2 injection leads to the same phenotype as seen by injection of evi1 MO1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13628</offset>
+      <text>WISH of c&#8208;myb in control&#8208; and evi1 MO2&#8208;injected albino (alb) embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13704</offset>
+      <text>WISH of l&#8208;plastin (upper) and mpo (lower) in control&#8208; and evi1 MO2&#8208;injected alb embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13799</offset>
+      <text>For each analyzed gene, quantitation of results is shown, displaying the percentages of embryos with normal vs. decreased gene expression for each condition. A Fisher's exact test was applied to calculate statistical significance (***P&#160;&lt;&#160;0.001).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14047</offset>
+      <text>Data information: Gene expression is reduced upon evi1 MO2 injection as indicated by the black arrows. Lateral views are shown, anterior to the left, dorsal up. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation in each condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14389</offset>
+      <text>Consistent with HSPC loss, lower numbers of mpo+, l&#8208;plastin+, or lyz+ myeloid cells (Fig&#160;1C and Appendix&#160;Fig&#160;S2A, Tg(lyz:dsred): P&#160;=&#160;0.0286) as well as hbae3+, globin+ erythroid cells (Fig&#160;1D and Appendix&#160;Fig&#160;S2B, Tg(globin:GFP): P&#160;=&#160;0.057), rag1+ T lymphocytes (Fig&#160;1E, note that thymus epithelium is intact as shown in Fig&#160;EV3A), and cd41+ cells (Fig&#160;1F and Appendix&#160;Fig&#160;S2C, Tg(cd41:eGFP): P&#160;=&#160;0.0286) were documented by WISH and flow cytometry in evi morphants vs. control fish analyzed at 36&#160;hpf to 6&#160;dpf (Figs&#160;1C&#8211;H and EV2B and C). Interestingly, we also observe downregulation of gata2b, a recently identified early regulator of the HE (Butko et&#160;al, 2015), in our evi1 morphants (Fig&#160;1G). Together, these data suggest that suppression of evi1 expression severely affects VDA&#8208;derived HSPCs, thereby strongly reducing blood cell counts of all definitive lineages (Figs&#160;1H and EV2C). Further supporting the notion that evi1 expression regulates definitive hematopoiesis, increased numbers of HSPCs were observed at 32&#160;hpf in the VDA of UAS:mEvi1&#8208;injected Tg(&#8208;1.5hsp70l:Gal4) or Tg(fli.1:Gal4FF;UAS:RFP) embryos, in which Evi1 expression was conditionally induced by heat shock or via the Gal4:UAS binary system specifically in endothelial cells, respectively (Fig&#160;1I&#8211;K).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15701</offset>
+      <text>Thymus epithelium, notochord, and vasculature are not affected upon evi1 knockdown</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15784</offset>
+      <text>WISH of foxn1 in the thymus epithelium of both control (left)&#8208; and evi1 MO&#8208;injected (right) 5&#160;dpf embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15896</offset>
+      <text>WISH of endothelial&#8208;specific flt1 (upper) and flt4 (lower) in both control (left)&#8208; and evi1 MO&#8208;injected (right) 26&#160;hpf embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16031</offset>
+      <text>WISH of shh in the notochord of both control&#8208; and evi1 MO&#8208;injected embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16111</offset>
+      <text>Data information: Lateral views are shown, with anterior to the left, dorsal up. Squares represent enlargements of the region of interest. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. A minimum of two biological replicates was performed for each marker with at least n&#160;=&#160;5 embryos per experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16487</offset>
+      <text>evi1 regulates HSC development by inducing EHT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16534</offset>
+      <text>Next, we explored the mechanism by which evi1 expression regulates HSPCs. Genes marking the blood vessels (flt1 and flt4, Fig&#160;EV3B) and nearby tissues (e.g., shh in the notochord, see Fig&#160;EV3C) showed unaltered expression. Importantly, circulation was intact in evi1 morphants, suggesting that the HSPC defect was not due to gross alteration of vascular development or blood flow, previously shown to affect HSC formation (Adamo et&#160;al, 2009; North et&#160;al, 2009; Movies EV1, EV2, and EV3). However, evi1 morphants showed strong reduction in the expression of notch1b and dll4 (Fig&#160;2A), while conditional induction of Evi1 leads to increased notch1b expression (Fig&#160;2B), suggesting that evi1 might regulate HSCs by modulating Notch activity. Since evi1 co&#8208;stained with the endothelial marker flk1 in the VDA (Fig&#160;1B), but evi1 suppression did not overtly impair endothelial cells (Fig&#160;EV3B), we asked whether EHT, the next step in HSC development, was perturbed. Double&#8208;transgenic Tg(kdrl:mKate&#8208;CAAX;c&#8208;myb:eGFP) embryos were examined by in&#160;vivo confocal time&#8208;lapse microscopy between 28 and 42&#160;hpf, to analyze the emergence of HSPCs (c&#8208;myb:eGFP+ (green)) from the VDA (kdrl:mKate+ (red)). Consistent with the results above, microscopy did not reveal any obvious endothelial phenotype in evi1 morphants. In control&#8208;injected embryos, c&#8208;myb:eGFP+ hematopoietic cells directly arose from kdrl:mKate+ ECs along the VDA as previously described: ECs, normally flattened in appearance, transformed into double&#8208;positive kdrl+c&#8208;myb+ cells of spherical shape before budding into the lumen of the DA (Fig&#160;3A, control MO, upper panel) (Bertrand et&#160;al, 2010a; Kissa &amp; Herbomel, 2010). However, after evi1 MO injection, kdrl+c&#8208;myb+ cells started transitioning to spherical shape but could not emerge from the DA (Fig&#160;3A, evi1 MO, lower panel). In particular, endothelial kdrl+ cells from the VDA of evi1 morphants began to turn yellow indicative of acquisition of the green signal due to c&#8208;myb induction, but afterward failed to be released into the lumen of the venous system as seen in control embryos (see Movie&#160;EV1). To quantify these observations, kdrl+c&#8208;myb+ cells detectable at any time in the VDA, their proliferation capacity, as well as numbers of HSPCs directly emerging from kdrl+c&#8208;myb+ cells (as documented by live imaging) were counted in n&#160;=&#160;10 movies of evi1 morphants and control embryos, each taken over 8&#160;h. Interestingly, evi1 MO&#8208;injected embryos showed a significantly lower amount of emerging HSPCs than control&#8208;injected embryos (Fig&#160;3B, P&#160;&lt;&#160;0.01), while no differences were detected in dividing or total numbers of kdrl+c&#8208;myb+ cells (&#8220;kdrl+c&#8208;myb+ cells in view&#8221;). In sum, these data indicate that evi1 expression is required for full transition to the hematopoietic fate and specifically regulates HSPCs emergence (Fig&#160;3B) from the VDA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19437</offset>
+      <text>Endothelial Notch signaling is dependent on evi1 expression levels</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19504</offset>
+      <text>WISH of notch1b (upper) and dll4 (lower) in both control (left)&#8208; and evi1 MO&#8208;injected embryos (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19611</offset>
+      <text>WISH of notch1b in uninjected (left) and UAS:mEvi1 plasmid DNA&#8208;injected (right) Tg(fli.1:Gal4FF;UAS:RFP) embryos resulting in endothelial&#8208;specific evi1 induction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19778</offset>
+      <text>Data information: Lateral views are shown, with anterior to the left, dorsal up. Squares represent enlargements of the region of interest. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation for each gene. A minimum of two biological replicates was performed for each marker with at least n&#160;=&#160;5 embryos per experiment. For each analyzed gene, quantitation of results is shown, displaying the percentages of embryos with normal vs. changed gene expression for each condition. A Fisher's exact test was applied to calculate statistical significance. n.s., not significant; ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20477</offset>
+      <text>evi1 regulates HSC emergence from the VDA</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20519</offset>
+      <text>Confocal time&#8208;lapse live imaging was performed in Tg(c&#8208;myb:GFP; kdrl:mKate&#8208;CAAX) embryos from 28 to 42&#160;hpf (Movie EV1). Shown are three representative time points in which the transformation from hemogenic endothelial cells to the hematopoietic fate is visible, indicated by the white arrowheads. For each time point, merged images are shown. White arrowheads denote double&#8208;positive cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20918</offset>
+      <text>Cell counts of total numbers of kdrl+cmyb1+ cells &#8220;in view&#8221;, dividing and, respectively, emerging HSPCs. n&#160;=&#160;10 movies from n&#160;=&#160;3 biological replicates were analyzed. A nonparametric Mann&#8211;Whitney U&#8208;test was used to test for statistical significance, and error bars are shown as&#160;&#177;&#160;s.d.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21218</offset>
+      <text>Gene expression analysis of endothelial (kdrl, flt1, dab2, cdh5) and blood&#8208;specific genes (c&#8208;myb, CD45, CD41, runx1) in sorted kdrl+c&#8208;myb+ cells from 34&#160;hpf Tg(c&#8208;myb:GFP; kdrl:mKate&#8208;CAAX) embryos. Cells were isolated from 15 to 25 pooled embryos per sample. Three biological experiments were performed with one representative shown. Error bars indicate s.d. of three technical replicates for each representative experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21653</offset>
+      <text>To further investigate the influence of evi1 during EHT, we isolated kdrl+c&#8208;myb+ cells from evi1 MO and control Tg(kdrl:mKate; c&#8208;myb:eGFP) embryos, respectively, by FACS (Appendix Fig&#160;S3) and performed qRT&#8211;PCR expression analyses of hematopoietic and endothelial genes. evi1 knockdown quantitatively reduced the kdrl+c&#8208;myb+ cell population (2.59% vs. 1.4% of total gated live embryonic cells, Appendix&#160;Fig&#160;S3, P&#160;&lt;&#160;0.05), which comprises the kdrl+c&#8208;myb+ cells in the VDA as well as most of emerging HSPCs, and may retain some fluorescent signal indicative of an endothelial origin (due to the half&#8208;life of the introduced fluorescent protein). Interestingly, the kdrl+c&#8208;myb+ cell population of evi1 morphants also showed severe upregulation of endothelial and downregulation of hematopoietic genes (Fig&#160;3C), indicative of an arrest in the transition from endothelial&#8208;to&#8208;hematopoietic cell fate. Together, these data argue that evi1 expression is required for the&#160;transition of ECs to hematopoietic fate and thereby for HSC emergence.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22710</offset>
+      <text>HSPC emergence is determined by parallel evi1 and Vegf&#8208;mediated Notch induction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22792</offset>
+      <text>One prominent regulator of early HSC development is the Notch&#8211;Runx1 pathway (Burns et&#160;al, 2005). Although morphologically normal, endothelial cells in the VDA of evi1 morphants showed strongly reduced expression of dll4 and notch1b (Fig&#160;2A), suggesting that evi1 might impact HSPC emergence via Notch regulation. Treatment with DAPT, a &#947;&#8208;secretase inhibitor that blocks the intracellular cleavage of Notch receptors required for signal propagation, strongly inhibited HSPC formation but did not influence evi1 expression, suggesting that evi1 is upstream of Notch signaling at this stage of development in the VDA (Appendix&#160;Fig&#160;S4). However, evi1 morphants showed unchanged expression of the Notch ligand delta C (dlc) and the Notch target gene efnb2a, a well&#8208;established arterial marker commonly associated with HE capable of HSC generation (Fig&#160;EV4A and B) suggestive of a more complex regulatory interaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23716</offset>
+      <text>Unchanged expression of genes involved during the somitic requirement of HSC emergence</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23803</offset>
+      <text>WISH of dlc (A), efnb2a (B), wnt16 (C), foxc1b (D), and twist1b (E) in control&#8208;injected (left) or evi1 MO&#8208;injected alb embryos (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23943</offset>
+      <text>Data information: At least two biological replicates were performed for each experiment. Lateral views are shown, anterior to the left, dorsal up. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24212</offset>
+      <text>To further investigate the relationship between evi1 and the Notch pathway, we next performed rescue experiments using a heat&#8208;shock&#8208;inducible notch intracellular domain (NICD) transgenic zebrafish line. Indeed, defined hyper&#8208;activation of NICD at both 14 and 20&#160;hpf robustly rescued the loss of runx1/c&#8208;myb expression in the VDA of evi1 morphants (Fig&#160;4A and F; Appendix&#160;Fig&#160;S5A and C). In order to determine whether spatially restricted endothelial expression of NICD was sufficient to rescue HSC development in the VDA of evi1 suppressed fish, we used an endothelial&#8208;specific Gal4 driver line (Tg(cdh5BAC:gal4ff)mu101) to induce NICD (Tg(UAS:myc&#8208;Notch1a&#8208;intra)). Indeed, forced NICD expression restricted to the endothelium was equally able to restore runx1/c&#8208;myb expression in the VDA of evi1 morphants (Fig&#160;4B and F). Moreover, the activation of Notch signaling (at both 14 or 20&#160;hpf) via global induction of its upstream activator vegfaa, using a heat&#8208;shock inducible line (Carroll et&#160;al, 2014), also rescued HSPC development (Fig&#160;4C and F, Appendix&#160;Figs S5B and C, and S6), while ectopic induction of the Notch target gene gata2a, via mRNA co&#8208;injection, provided a partial rescue (Fig&#160;4D and F). Together, these data suggest that evi1 induces EHT by regulating local Notch levels (see also Appendix&#160;Fig&#160;S7). To further explore this hypothesis, we performed live imaging analyses of evi1 morphant fish with spatial&#8208;restricted endothelial expression of NICD (Fig&#160;5A and B) by using an endothelial&#8208;specific Gal4 driver line (Tg(fli.1:Gal4:RFP; c&#8208;myb:GFF)) to induce NICD (Tg(UAS:myc&#8208;Notch1a&#8208;intra)). HSPCs directly emerging from fli.1+c&#8208;myb+ cells in these fish were counted in n&#160;=&#160;5 movies all from independent experiments taken over 8&#160;h (Fig&#160;5, Movies EV2 and EV3). Confirming our previous results, evi1 MO&#8208;injected embryos showed significantly lower numbers of HSPCs emerging from fli.1+c&#8208;myb+ cells of the endothelial niche, and enforced endothelial NICD expression could rescue these effects (Fig&#160;5B, P&#160;&lt;&#160;0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26288</offset>
+      <text>Global and tissue&#8208;specific activation of Notch or upstream Vegf signaling is sufficient to rescue HSPCs in evi1 morphants</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26412</offset>
+      <text>WISH for runx1/c&#8208;myb in 36 hpf evi1 morphant (left) and evi1 morphant transgenic Tg(5xUAS&#8208;E1b:6xMYC&#8208;notch1a;&#8208;1.5hsp70l:Gal4) embryos (right) with global heat&#8208;shock (HS) induction at 20&#160;hpf.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26613</offset>
+      <text>WISH for runx1/c&#8208;myb in 36&#160;hpf evi1 morphant (left) and evi1 morphant transgenic Tg(5xUAS&#8208;E1b:6xMYC&#8208;notch1a; cdh5:gal4ff) embryos with endothelial&#8208;specific NICD induction (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26802</offset>
+      <text>WISH for runx1/c&#8208;myb in 36&#160;hpf evi1 morphant (left) and evi1 morphant transgenic Tg(Hsp70l:vegfaa; myl7:eGFP) embryos (right) with global heat&#8208;shock induction at 20&#160;hpf.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26978</offset>
+      <text>WISH for runx1/c&#8208;myb in 32&#160;hpf evi1 MO&#8208;injected embryos (left) and embryos injected with both evi1 MO and capped gata2 mRNA (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27116</offset>
+      <text>Quantitation of all rescue experiments. Shown are the percentages of embryos displaying normal or changed runx1/c&#8208;myb expression. A Fisher's exact test was applied to calculate statistical significance. n.s., not significant; ***P&#160;&lt;&#160;0.001; **P&#160;&lt;&#160;0.01.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27374</offset>
+      <text>Data information: Data from three biological replicates are summarized for each experiment, with the exception of (D) where data from two experiments are shown. Lateral views are shown, anterior to the left, dorsal up. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation of runx1/c&#8208;myb in each condition. Arrowheads denote the VDA region.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27825</offset>
+      <text>Endothelial NICD induction rescues HSC emergence from the VDA</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27887</offset>
+      <text>Confocal time&#8208;lapse live imaging was performed in Tg(c&#8208;myb:GFP; fli.1:UAS;Gal4:RFP) evi1 morphant embryos (top, Movie EV2) or in Tg(c&#8208;myb:GFP; fli.1:UAS;Gal4:RFP) crossed to Tg(5xUAS&#8208;E1b:6xMYC&#8208;notch1a) embryos prior to MO injection (bottom, Movie EV3) from 28 to 42&#160;hpf. Shown are three representative time points, in which the transformation from hemogenic endothelial cells to the hematopoietic fate is visible. For each time point, merged images are shown. NICD induction controlled by endothelial fli.1 (lower panel) can rescue the evi1 morphant phenotype and increases the number of HSPCs cells emerging from the VDA (arrows). Arrowheads indicate double&#8208;positive cells. Dividing cells are marked by an asterisk.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28617</offset>
+      <text>Cell counts of emerging HSPCs in control and evi1 morphant fish with or without endothelial NICD induction. At least n&#160;=&#160;5 movies from n&#160;=&#160;3 biological replicates were analyzed. A nonparametric Mann&#8211;Whitney U&#8208;test was used to test for statistical significance, and error bars are shown as&#160;&#177;&#160;s.d. n.s., not significant, *P&#160;&lt;&#160;0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28960</offset>
+      <text>Since both ectopic NICD and its activator Vegf functionally rescued HSPC formation in evi1 morphants, we next asked whether evi1 controls Notch via Vegf. ISH for the Vegf receptor genes flt1 and flt4 as well as the known vegf upstream regulator shh showed unaltered expression upon evi1 inhibition at 26&#160;hpf (Fig&#160;EV3B and C). Moreover, whereas Vegf is critical for vasculature development (Liang et&#160;al, 2001), evi1 morphants did not present overt vascular abnormalities, suggesting that vegf levels were not grossly influenced by evi1 expression. Of note, overexpression of vegfaa not only restored the expression of runx1/c&#8208;myb (Fig&#160;4C, Appendix&#160;Fig&#160;S5B and S6) but also of Notch pathway&#8208;associated molecules in the VDA of evi1 morphants (dll4, notch1b, Fig&#160;6A). In order to analyze whether evi1 acts in parallel or downstream of Vegf, we next treated embryos with the Vegf receptor inhibitor SU5461 from 24 to 32&#160;hpf. As expected, SU5461 treatment reduced runx1/c&#8208;myb and notch1b expression in the VDA in a dose&#8208;dependent manner (Fig&#160;6B and C, middle and Appendix Fig&#160;S8). However, overexpression of evi1 (achieved by co&#8208;injection of UAS:mEvi1 in Tg(fli.1:Gal4FF;UAS:RFP embryos) was able to rescue runx1+/c&#8208;myb+ cells and notch1b expression in evi1 MO&#8208;injected fish (Fig&#160;6B and C, left). Together, these data indicate that evi1 critically regulates EHT by activating Notch via a mechanism that is separate from and perhaps complementary to the classical shh&#8211;vegf axis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30459</offset>
+      <text>evi1 regulates Notch independently of the Vegf pathway and can compensate for Vegf inhibition</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30553</offset>
+      <text>WISH of dll4 (upper) and notch1b (lower) in control&#8208;injected embryos (left), evi1 morphants (middle), and evi1 morphant transgenic Tg(Hsp70l:vegfaa; myl7:eGFP) embryos at 32&#160;hpf after heat&#8208;shock induction at 20&#160;hpf (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30783</offset>
+      <text>WISH of runx1/c&#8208;myb (B) or notch1b (C) after treatment with DMSO (left), the VEGF receptor inhibitor SU5461 (middle), and, respectively, SU5461 after injection of UAS:mEvi1 (inducing endothelial evi1 expression) in Tg(fli.1:Gal4FF;UAS:RFP) embryos (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31042</offset>
+      <text>Data information: Two or more biological replicates are shown for each experiment. Lateral views are shown, anterior to the left, dorsal up. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation of the respective gene in each condition. For each analyzed gene, quantitation of results is shown, displaying the percentages of embryos with normal vs. decreased gene expression for each condition. A Fisher's exact test was applied to calculate statistical significance (*P&#160;&lt;&#160;0.05, **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31662</offset>
+      <text>evi1 activates endothelial Notch via pAKT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31704</offset>
+      <text>PI3K/AKT/mTOR signaling has been implicated in Notch regulation during development and is also known to be molecularly linked to Evi1 in intestinal epithelial (Liu et&#160;al, 2006) and adult murine bone marrow cells (Yoshimi et&#160;al, 2011). Therefore, we sought to investigate the relationship between evi1, Notch, and AKT during HSC development. As shown in Fig&#160;7A, embryos treated with the PI3K&#947; inhibitor wortmannin (WM) from 14 to 36&#160;hpf were analyzed for effects of pAKT suppression on runx1/c&#8208;myb expression in the VDA (Li et&#160;al, 2015). As observed in evi1 morphants, vessel development remained intact, but expression of runx1/c&#8208;myb and notch1b was strongly suppressed in the VDA region upon treatment with WM (Fig&#160;7A and B), reflective of efficiently suppressing pAKT (Appendix&#160;Fig&#160;S9A). Importantly, enforced, heat&#8208;shock induced NICD expression was able to restore runx1/c&#8208;myb expression in WM&#8208;treated fish (Fig&#160;7A, right), as previously documented in evi1 MO&#8208;injected embryos (Fig&#160;4A), suggesting these factors may work in conjunction to regulate Notch.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32785</offset>
+      <text>evi1 regulates Notch signaling via pAKT</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32825</offset>
+      <text>Expression of runx1/c&#8208;myb in the VDA after treatment with DMSO vehicle control (left), the PI3K/AKT inhibitor wortmannin (WM, middle), and after joined treatment with WM and enforced NICD expression via HS at 14&#160;hpf in Tg(5xUAS&#8208;E1b:6xMYC&#8208;notch1a;&#8208;1.5hsp70l:Gal4) embryos (right). Graph displays quantitation of results. Shown are the percentages of embryos with normal or decreased runx1/c&#8208;myb expression for each condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33261</offset>
+      <text>Expression of notch1b after treatment with DMSO vehicle control (left) or wortmannin (WM, middle). Graph displays quantitation of results. Shown are the percentages of embryos with normal or decreased notch1b expression for each condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33501</offset>
+      <text>WISH for runx1/c&#8208;myb in control&#8208;injected embryos (upper left), evi1 morphants (upper right), or, respectively, evi1 MO with myr&#8208;AKT&#8208;injected embryos with HS at 14&#160;hpf (lower right) and evi1 MO with UAS:myr&#8208;AKT&#8208;injected transgenic Tg(fli.1:Gal4FFubs3; UAS:RFP)rk embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33785</offset>
+      <text>Quantitation of results from (C). Shown are the percentages of embryos with normal or decreased runx1/c&#8208;myb expression for each condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33926</offset>
+      <text>WISH for notch1b in evi1 MO&#8208;injected (left) and evi1 plus UAS:myr&#8208;AKT&#8208;injected transgenic Tg(fli.1:Gal4FFubs3; UAS:RFP)rk embryos (right). Graph displays quantitation of results. Shown are the percentages of embryos with normal or decreased notch1b expression for each condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34212</offset>
+      <text>Schematic illustration of the role of Evi1 during HSPC emergence and the dual regulation of Notch by the shh&#8211;vegf and the evi1&#8211;pAKT axes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34354</offset>
+      <text>Data information: Two or more biological replicates are summarized for each experiment. Lateral views are shown, anterior to the left, dorsal up. Numbers indicate the amount of embryos with the respective phenotype/total number of embryos analyzed in each experiment. Arrows indicate up&#8208; or downregulation of each analyzed gene. A Fisher's exact test was applied to calculate statistical significance (n.s., not significant; *P&#160;&lt;&#160;0.05, **P&#160;&lt;&#160;0.01, ***P&#160;&lt;&#160;0.001).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34825</offset>
+      <text>In adult hematopoietic cells, Evi1 has been shown to positively regulate AKT phosphorylation via PTEN suppression (Yoshimi et&#160;al, 2011). Consistently, evi1 morphants displayed suppressed pAKT but mainly unaltered AKT levels (Appendix&#160;Fig&#160;S9B, left and middle). However, no induction of PTEN protein levels were observed in evi1 morphant vs. control&#8208;injected embryos (Appendix&#160;Fig&#160;S9B, right), suggesting that alternative regulatory mechanisms may be active. To further explore pAKT as a downstream target of evi1 in VDA cells, rescue experiments were performed using a myristoylated AKT (myr&#8208;AKT) construct to induce pAKT in evi1 morphants after heat&#8208;shock induction (Appendix&#160;Fig&#160;S9C and D). Indeed, mosaic expression of myr&#8208;AKT (Appendix&#160;Fig&#160;S9C and D) was sufficient to partially restore runx1/c&#8208;myb expression in the VDA of evi1 MO&#8208;injected embryos (Fig&#160;7C and D). Finally, forced endothelial pAKT expression, using a UAS:myr&#8208;AKT construct injected into Tg(fli.1:Gal4FFubs3; UAS:RFP)rk embryos, rescued both runx1/c&#8208;myb and notch1b expressions (Fig&#160;7C&#8211;E). In sum, these data indicate an endothelial evi1&#8211;pAKT molecular axis that acts in parallel to VEGF to control the precise induction of Notch expression levels required for HSPC emergence (Fig&#160;7F).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>36113</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36124</offset>
+      <text>Evi1 has been primarily studied as an oncogene in myeloid and more recently lymphoid leukemia, as well as a marker of healthy and malignant hematopoietic stem cells (Suzukawa et&#160;al, 1994; Ogawa et&#160;al, 1996; Konantz et&#160;al, 2013; Sato et&#160;al, 2014; Saito &amp; Morishita, 2015). Evi1 and its target genes are preferentially expressed in long&#8208;term repopulating (LT)&#8208;HSCs, and Evi1 has been functionally associated with stemness and self&#8208;renewal (Forsberg et&#160;al, 2010). Moreover, Evi1 was shown to induce HSC proliferation via Gata2 and apoptotic resistance as a target of Survivin (Yuasa et&#160;al, 2005; Goyama et&#160;al, 2008; Kataoka et&#160;al, 2011; Bard&#8208;Chapeau et&#160;al, 2014; Fukuda et&#160;al, 2015). This manuscript investigates the contribution of evi1 to HSPC development during embryogenesis. In&#160;vivo loss&#8208;of&#8208;function studies were performed in zebrafish embryos, which, in contrast to mammalian embryos, develop ex&#160;utero, allowing direct visualization of HSC emergence. evi1 suppression was achieved via the injection of inhibiting morpholino oligonucleotides. Notably, embryos injected with multiple gRNAs died, suggesting that introduction of mutations using the CRISPR&#8208;Cas9 system might be lethal even at mosaic levels. Consistent with murine Evi1&#8722;/&#8722; AGM explant culture studies (Goyama et&#160;al, 2008) showing reduced HSC numbers, evi1 zebrafish morphants displayed a profound suppression of VDA HSCs and consequently of definitive hematopoietic cells of all lineages in&#160;vivo (Fig&#160;1). To explore the mechanistic role of evi1 specifically on this cell population, we performed live imaging analysis on double&#8208;transgenic zebrafish embryos of the Tg(kdrl:mKate&#8208;CAAX) and Tg(c&#8208;myb:eGFP) lines, two marker previously used to visualize the generation of HSCs from the HE in the zebrafish VDA (Bertrand et&#160;al, 2010a; Kissa &amp; Herbomel, 2010). Surprisingly, a yet unknown and very striking defect in HSPC specification from ECs was noted in detailed live imaging and molecular analyses of sorted cell populations, which all reinforced that indeed evi1 promotes HSC development by controlling the completion of EHT and HSC emergence (Fig&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38282</offset>
+      <text>A major player required for HSPC formation is the Notch signaling pathway (Butko et&#160;al, 2016; Kanz et&#160;al, 2016), which is also important for the development of the VDA itself (Lawson et&#160;al, 2002; Quillien et&#160;al, 2014). As shown by multiple groups, Notch activity is mandatory to initiate specification of hematopoietic fate within the DA by controlling runx1 expression (Kumano et&#160;al, 2003; Burns et&#160;al, 2005; Gering &amp; Patient, 2005; Richard et&#160;al, 2013). gata2b expression within the hemogenic sub&#8208;compartment of the VDA is likewise Notch&#8208;dependent, and its deregulation reduces runx1 (Butko et&#160;al, 2015). Upon evi1 inhibition, downregulation of notch1b and dll4 expressions was observed in VDA cells, although expression of the Notch target gene efnb2a was unchanged, indicating that cells have successfully undergone arterial specification (Figs&#160;2A and EV4B). Moreover, production of EHT and HSPC was restored in evi1 morphants by global or EC&#8208;specific induction of Notch, its upstream regulator Vegf, or its downstream target gata2 (Fig&#160;4). Together, these data indicate that evi1 expression in EC is necessary for proper Notch signaling inducing EHT (Fig&#160;5). In support of this hypothesis, the Evi1 was recently found to be the second most upregulated transcription factor in murine AGM&#8208;derived HE as compared to EC cells (Solaimani Kartalaei et&#160;al, 2015). Furthermore, the Notch ligand Dll4 has been lately demonstrated to mark human hemato&#8208;endothelial progenitor cells and regulate their hematopoietic fate (Ayll&#243;n et&#160;al, 2015; Gama&#8208;Norton et&#160;al, 2015). This signal is lacking in evi1 morphants, and therefore, we propose that EHT can initiate but then arrest in an intermediate state, with HE unable to generate emerging HSCs without Evi1 activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40066</offset>
+      <text>Recently, two separate waves of Notch signaling requirement have been identified for HSC development: an early somitic (~14&#160;hpf), non&#8208;cell&#8208;autonomous and a late endothelial (~20&#160;hpf), cell&#8208;autonomous wave (Clements et&#160;al, 2011; Kim et&#160;al, 2014). The fact that late induction of Notch (at 20&#160;hpf) is sufficient to restore runx1/c&#8208;myb cell numbers and HSC emergence in our model strongly suggests that evi1 regulates Notch levels required during this latter phase. Early induction of Notch at 14&#160;hpf (via NICD or vegfaa) also provides a rescue (Appendix&#160;Fig&#160;S5), but in this experimental setting, induction is sustained throughout the second wave (20&#160;hpf). In further support of the notion that evi1 regulates the late Notch signaling requirement wave, evi1 morphants showed unchanged expression of molecules shown to be involved during the first wave such as wnt16, downstream dlc, or of the sclerotome&#8208;specific markers foxc1b and twist1b (Fig&#160;EV4) (Clements et&#160;al, 2011; Kim et&#160;al, 2014). Finally, we show that evi1 activates endothelial Notch independent of its well&#8208;known upstream regulator Vegf, since evi1 expression restored Notch and HSPC numbers in embryos treated with the VEGF inhibitor SU5461. Consistently, Vegf&#8208;dependent endothelial development was unaffected in evi1 morphants. We therefore propose that evi1 induces activation of an alternative pathway that cooperates with Vegf to induce Notch levels permissive for EHT and HSC emergence.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41546</offset>
+      <text>A promising intermediate between Evi1 and Notch is the PI3K/AKT/mTOR signaling pathway. Mice with disrupted PI3K and Notch signaling show phenotypic similarities during blood development (Clayton et&#160;al, 2002), and co&#8208;culture with AKT&#8208;activated AGM&#8208;derived ECs was previously shown to stimulate the hematopoietic activity of E10&#8208;E11 P&#8208;Sp/AGM tissues (Hadland et&#160;al, 2015). Although more data exist on the role of Notch as an activator of the PI3K/AKT/mTOR pathway (Meurette et&#160;al, 2009; Cornejo et&#160;al, 2011), there is also evidence that, vice versa, PI3K/AKT can act upstream of Notch. For example, PI3K/AKT pathway activity has been shown to determine the cellular responsiveness to Notch signals in various cell types (McKenzie et&#160;al, 2006). Likewise, in T acute lymphoblastic leukemia (T&#8208;ALL) cells, AKT inhibitors could downregulate the expression of Notch pathway molecules (Calzavara et&#160;al, 2008). In our model, treatment with the PI3K&#947; inhibitor wortmannin suppresses pAKT and strongly reduces both notch1b expression (Fig&#160;7B) and runx1/c&#8208;myb expression in the VDA in a similar manner to that of evi1 inhibition (Fig&#160;7A, middle). Moreover, the evi1 morphant/pAKT epistasis experiment confirmed that indeed evi1 exerts its effects on Notch activity and subsequent EHT via modulation of endothelial pAKT (Fig&#160;7C). In adult murine bone marrow, Evi1 was shown to activate AKT/mTOR signaling by repressing PTEN either directly or via interaction with Polycomb group (PcG) proteins (Yoshimi et&#160;al, 2011). In spite showing reduction in pAKT, evi1 morphants did not show convincing changes in PTEN levels, suggesting that evi1 may modulate AKT phosphorylation by additional mechanisms (see Appendix&#160;Fig&#160;S9B). Finally, the G&#8208;coupled protein receptor 56 (Gpr56), a direct molecular target of Evi1 in adult murine hematopoietic stem cells (Saito et&#160;al, 2013), has recently been identified by whole transcriptome analysis as a key factor in EHT in mice (Solaimani Kartalaei et&#160;al, 2015). In fish, HSCs were absent in gpr56 morphants, and gpr56 overexpression induced ectopic HSPC formation in the axial vein (Solaimani Kartalaei et&#160;al, 2015). How gpr56 acts in the EHT and how it molecularly relates to the evi1&#8211;pAKT&#8211;notch molecular axis identified here is currently unknown and subject of ongoing studies. Recently, a related G protein&#8208;coupled receptor, gpr183, has also been found to regulate EHT in a Notch&#8208;dependent manner, indicating potential functional redundancies (Zhang et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44075</offset>
+      <text>Together, our study specifically addresses the function of Evi1 during HSC emergence from endothelial cells. Previous reports indicate that Evi1 can regulate proliferation of fetal liver and bone marrow HSCs, thereby providing alternative mechanisms by which inhibition of this gene can impair stem cell numbers. Indeed, similar mechanisms of action during development as well as in the biology of preformed HSCs have been reported for gata2, a molecular downstream target of evi1. By taking advantage of the strengths of the zebrafish model for live imaging and genetic studies, we identify a novel Evi1&#8211;pAKT&#8211;Notch molecular axis that is essential for regulation of VDA EC, enabling EHT and subsequent HSC emergence during embryogenesis (Fig&#160;7F).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44828</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44850</offset>
+      <text>Zebrafish husbandry and genetic strains</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44890</offset>
+      <text>Zebrafish were bred and maintained as described in N&#252;sslein&#8208;Volhard &amp; Dahm (2002) at 28&#176;C. Staging was done by hours post&#8208;fertilization (hpf) as described by Warga and Kimmel (Warga &amp; Kimmel, 1990) and according to FELASA and&#160;Swiss federal law guidelines. The following lines were used in&#160;this study: wild&#8208;type Tuebingen strains, alb, Tg(globin: eGFP), Tg(c&#8208;myb:GFP) (both provided by L. I. Zon, Children's Hospital, Harvard Medical School, Boston, MA), Tg(lyz:dsred), Tg(cd41:eGFP), Tg(UAS:myc&#8208;Notch1a&#8208;intra)kca3, Tg(hsp70l:gal4)1.5kca4, Tg(hsp:70l:vegfaa, myl7:eGFP), Tg(cdh5BAC:gal4ff)mu101, Tg(BAC:kdrl:mKate2&#8208;CAAX)UBS16, and Tg(fli.1:Gal4FFubs3; UAS:RFP)rk (Scheer &amp; Campos&#8208;Ortega, 1999; Scheer et&#160;al, 2001; Lin et&#160;al, 2005; Hall et&#160;al, 2007; Parsons et&#160;al, 2009; Bussmann et&#160;al, 2011; Herwig et&#160;al, 2011; Wiley et&#160;al, 2011; Lenard et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45769</offset>
+      <text>Morpholino design and validation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45802</offset>
+      <text>Two evi1 splice morpholino oligonucleotides (MO) and a standard control MO were synthesized by Gene Tools (Gene Tools LLC, OR, USA): (1: CCAAAATAGTGGTGTTCTCACCTCT, 2: TGAAGGGTCTGAGTGACTTACATAT), preventing either splicing of the first or the third exon&#8211;intron splice junction. Embryos were injected at the one&#8208;cell stage. About 0.05% of phenol red (Sigma&#8208;Aldrich, St. Louis, MI, USA) was added as an injection tracer. Embryos were raised to appropriate stages and fixed in 4% paraformaldehyde (PFA)/1&#215; phosphate&#8208;buffered saline (PBS) for gene expression analysis. For validation, control&#8208;injected and MO&#8208;injected embryos were collected and mRNA was isolated using the RNeasy Mini Kit (Qiagen, Hilden, Germany). cDNA was synthesized using Transcriptor First Strand cDNA Synthesis Kit (Roche, Basel, Switzerland) according to the manufacturer's protocol. RT&#8211;PCR was performed using the following primers to verify splice modification on agarose gels: CAAGAGAGATGGCCAAGGAG, GAGCAGGTCTTTCCTGATGC, ATAGTGCTTGCCGCTGTCAT, TATGAAGGGCTTGACGGAAG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46854</offset>
+      <text>Generation of expression constructs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46890</offset>
+      <text>For rescue experiments, evi1 and gata2 were PCR&#8208;amplified using gene&#8208;specific primers (see Appendix&#160;Table&#160;S1), cloned into the pCR&#174;2&#8208;TOPO&#174; vector, and then subcloned into the pCS2+ expression vector. Capped RNA was synthesized using the mMessage mMachine SP6 Kit (Ambion Life Technologies, Carlsbad, CA, USA). About 25&#8211;45&#160;picograms of RNA was injected into the yolk of one&#8208;cell stage embryos together with the evi1 MO to rescue the MO phenotype. UAS:mEvi1 was generated by cloning a codon&#8208;optimized version of the murine Evi1 gene (Konantz et&#160;al, 2013) into pENTRY using the pENTRYD&#8208;TOPO cloning system (Invitrogen). pENTRYmEvi1 and 4nrUAS (Akitake et&#160;al, 2011) were cloned into a Tol2 vector (pDestTol2CG2 (Kwan et&#160;al, 2007)). The final pUAS:mEvi1 plasmid was co&#8208;injected with tol2 mRNA into the Tg(fli.1:Gal4FFubs3;UAS:RFP)rk and Tg(&#8208;1.5hsp70l:Gal4) embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47777</offset>
+      <text>pBSFI&#8208;myr&#8208;akt1 was a gift from Peter Vogt (Addgene plasmid #&#160;49186) (Aoki et&#160;al, 1998). To create the hsp70:myr&#8208;akt1 construct, gene&#8208;specific primers (see Appendix&#160;Table&#160;S1) with a 5&#8242; BamHI and a 3&#8242; BstBI restriction site were designed. Full&#8208;length myr&#8208;akt1 without the stop codon was PCR&#8208;amplified from the pBSFI&#8208;myr&#8208;akt1 plasmid as template and purified using the Wizard&#174; SV Gel and PCR Clean&#8208;Up System (Promega, Fitchburg, WI, USA). After BamHI and BstBI digestion, the construct was subcloned in frame in a pMini Tol2 vector hsp70:cdc123 p2a Cherry (kindly provided by Judith Konantz, CRTD Dresden, Germany), substituting the cdc123 insert. Plasmid DNA containing the myr&#8208;Akt1 insert was injected into the zygote, and embryos were raised to the appropriate stage.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48576</offset>
+      <text>Whole&#8208;mount in&#160;situ hybridization (WISH) of zebrafish embryos</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48641</offset>
+      <text>Riboprobes for WISH were generated using the following plasmid templates, restriction enzymes for DNA linearization, and RNA enzymes for further antisense probe production: runx1: HindIII, T7; c&#8208;myb: pBK&#8208;CMV, EcoRI, T7 (gift from Caroline E. Burns); evi1: pSPORT1, KpnI, SP6 (gift from Rebecca Wingert); shh: HindIII, T7 (gift from Judith Konantz); rag1: PCRII, HindIII, T7; efnb2a: pBS, HindII, T7; foxn1: XbaI, T7; wnt16: pCR2.1, NotI, SP6; notch1b: pCR&#8208;Script, BamHI, T3; notch3: pCR&#8208;Script, XhoI, T3; dlc: pBS(SK), XbaI, T7, dll4: PCRII, NotI, SP6; twist1b: pCRII, NotI, SP6, foxc1b: pCRII, BamHI, T7 (gifts from David Traver and Julien Bertrand); flk1: EcoRI, T7; flt4: EcoRI, T7 (gifts from Markus Affolter and Elin Ellertsdottir). RT/PCR&#8208;based approaches were used to generate riboprobes for hbae3, mpo, and l&#8208;plastin using gene&#8208;specific primers (Appendix&#160;Table&#160;S1). For the PCR, an antisense primer was designed, which has the T7&#8208;promoter sequence tagged onto its 5&#8242;&#8208;end. The resultant PCR product will then include the target sequence flanked by the T7&#8208;promoter sequence. Riboprobes were labeled with digoxigenin or fluorescein&#8208;labeled UTP as recommended by Roche, 100&#8208;fold diluted in Hyb solution, and stored at &#8722;20&#176;C. WISH was performed according to standard procedures. Stained embryos were kept in 50% glycerol/PBS at 4&#176;C until they were mounted in 89% glycerol and photographed using a digital AxioCam HRm camera attached on a Zeiss Axioplan 2 microscope or a digital MC170 HD camera attached to a Leica DM 2000 LED.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50204</offset>
+      <text>Flow cytometric analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50229</offset>
+      <text>Embryos were dissociated into single cells by using Accumax dissociation reagent (Millipore, Billerica, MA, USA) at room temperature. From time to time, embryos were disrupted using a 20&#8208;G needle. After dissociation was complete, cells were washed once in PBS and passed through a 35&#8208;&#956;M filter. The number of fluorescent&#8208;labeled cells was them determined via flow cytometry on a FACSCanto II using FACSDiva&#8482; software (BD Biosciences, Franklin Lakes, NJ, USA) and Sytox&#174; blue for dead cell discrimination.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50744</offset>
+      <text>Isolation and time&#8208;lapse imaging of kdrl+c&#8208;myb+ and, respectively, fli.1+c&#8208;myb+ cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50836</offset>
+      <text>Transgenic Tg(c&#8208;myb:GFP) were crossed to either Tg(BAC:kdrl:mKate2&#8208;CAAX)UBS16or Tg(fli1:Gal4FF; UAS:RFP) fish. In order to isolate forming/emerging HSCs, embryos were screened for positive fluorescence, dissociated as described above, and sorted according to their fluorescence signal using a BD Influx&#8482; Cell sorter. DAPI was used for live/dead cell discrimination. HSCs (kdrl:mKate+;c&#8208;myb:GFP+) were directly sorted into RNeasy lysis buffer (Qiagen), and RNA was isolated according to the manufacturer's protocol and amplified with QantiTect Whole Transcriptome Kit (Qiagen). Gene transcripts were detected by quantitative real&#8208;time reverse transcription PCR (qRT&#8211;PCR) using an Applied Biosystems&#174; Real&#8208;Time PCR 7500 Fast System instrument and Fast Start Universal SYBR Green Master with Rox (Roche) and gene&#8208;specific primers (Appendix&#160;Table&#160;S1). A &#946;&#8208;actin control for equal loading was used throughout the experiments to later normalize the real&#8208;time PCR data. Fold change values of gene expression between cells isolated from morphants vs. control embryos represented by averages from triplicate measurements were calculated using the &#8710;&#8710;CT method as described by Livak and Schmittgen (Livak &amp; Schmittgen, 2001). For time&#8208;lapse imaging, fish were screened for fluorescence, anaesthetized in tricaine, and embedded in 0.8% low&#8208;melting agarose. Time&#8208;lapse imaging was performed using double&#8208;transgenic fish between 28 and 42&#160;hpf on a Leica TCS SP5 confocal (Tg(BAC:kdrl:mKate2&#8208;CAAX)UBS16&#215; Tg(c&#8208;myb:GFP)) or a Visitron Systems CSU&#8208;W1 spinning disk microscope (Tg(fli1:Gal4FF;UAS:RFP)&#160;&#215;&#160;Tg(c&#8208;myb:GFP)). Raw data were analyzed using Fiji software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52530</offset>
+      <text>Rescue experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52549</offset>
+      <text>Tg(hsp70:gal4) were mated to Tg(UAS:notch1a&#8208;intra) and Tg(hsp:70l:vegfaa,myl7:EGFP) to wild&#8208;type Tuebingen stains, and (MO&#8208;injected) embryos were then raised in E3 until 14&#160;hpf for heat&#8208;shock induction. Embryos were therefore collected in 5&#160;ml of E3 and placed in a 38&#176;C waterbath for 8 or 10&#160;min, respectively. hsp70:myr&#8208;Akt p2a Cherry plasmid DNA&#8208;injected wild&#8208;type Tuebingen fish were heat&#8208;shocked in a 37&#176;C water at the same age for 50&#160;min. Subsequently, embryos were transferred to petri dishes and allowed to develop until the respective time points (26, 32, and 36&#160;hpf) for further experiments. For tissue&#8208;specific rescue experiments Tg(5xUAS&#8208;E1b:6xMYC&#8208;notch1a), fish were crossed to Tg(cdh5BAC:gal4ff)mu101 animals prior to MO injection. For tissue&#8208;specific AKT rescue, UAS&#8208;AKT DNA (carrying cmlc:GFP as injection control; kind gift from M. Mione, Karlsruhe Institute of Technology) was injected together with Tol2 RNA into Tg(fli.1:Gal4FFubs3; UAS:RFP)rk embryos. For tissue&#8208;specific rescue in&#160;vivo live imaging experiments, Tg(5xUAS&#8208;E1b:6xMYC&#8208;notch1a) fish were crossed to Tg(fliGal4:UAS:RFP;cmyb:GFP) prior to MO injection. For rescue experiments with murine Evi1, the UAS&#8208;construct was injected with or without evi1 MO in Tg(fli.1:Gal4FF;UAS:RFP) embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53859</offset>
+      <text>Pharmacological inhibition of Notch, VEGF, and PI3K signaling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53921</offset>
+      <text>The &#947;&#8208;secretase inhibitor DAPT (Sigma&#8208;Aldrich) was dissolved in DMSO at 12.5&#160;mM and applied at 100&#160;&#956;M as described before (Gering &amp; Patient, 2005). The VEGF inhibitor SU5461 (Sigma&#8208;Aldrich) was applied between 24 and 32&#160;hpf at different concentrations. To attenuate PI3K/AKT signaling, 0.4&#160;&#956;M wortmannin (Sigma) was added to 14&#160;hpf embryos until the appropriate stage (Li&#160;et&#160;al, 2015). For each experiment, DMSO was used as a vehicle control.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54380</offset>
+      <text>Immunoblot analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54400</offset>
+      <text>Total protein lysates were prepared at the indicated times and after treatments by homogenizing between 10 and 50 embryos with an equal amount of lysis buffer. Lysates were denatured in Laemmli buffer and then electrophoresed on 12% polyacrylamide gels. After electrophoresis, proteins were transferred to PVDF membranes (Amersham, Amersham, UK) in a semi&#8208;dry blotting apparatus (Trans&#8208;Blot Turbo, Bio&#8208;Rad, Hercules, CA, USA) and then probed with the following antibodies: rabbit anti&#8208;human phospho&#8208;Akt (Ser473), anti&#8208;human pan Akt, anti&#8208;human PTEN, and anti &#946;&#8208;actin from Cell Signaling Technology (Danvers, MA, USA) and detected via ECL.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55056</offset>
+      <text>o&#8208;Dianisidine staining</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55081</offset>
+      <text>Whole embryo staining for heme expression was performed using o&#8208;dianisidine staining according to previously described methods (Detrich et&#160;al, 1995).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>55234</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55255</offset>
+      <text>MK and CL wrote the paper. MK, EA, JM, and AL performed experiments and analyzed the data. MK, AL, EA, TEN, and CL analyzed and interpreted the data. VE, KJC, and LK provided critical reagents and/or technical/administrative support. All authors contributed to editing of the manuscript. CL conceived and supervised the study.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>55582</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55603</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>55663</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>55686</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">459</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1135</infon>
+      <infon key="pub-id_pmid">19440194</infon>
+      <infon key="fpage">1131</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>55697</offset>
+      <text>Biomechanical forces promote embryonic haematopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">352</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">201</infon>
+      <infon key="pub-id_pmid">21223961</infon>
+      <infon key="fpage">191</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>55751</offset>
+      <text>Transgenerational analysis of transcriptional silencing in zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">14955</infon>
+      <infon key="pub-id_pmid">9843996</infon>
+      <infon key="fpage">14950</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>55820</offset>
+      <text>The akt kinase: molecular determinants of oncogenicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Leukemia</infon>
+      <infon key="lpage">1753</infon>
+      <infon key="pub-id_pmid">25778099</infon>
+      <infon key="fpage">1741</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>55875</offset>
+      <text>The Notch ligand DLL4 specifically marks human hematoendothelial progenitors and regulates their hematopoietic fate</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">24586749</infon>
+      <infon key="fpage">e89397</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>55991</offset>
+      <text>Mice carrying a hypomorphic Evi1 allele are embryonic viable but exhibit severe congenital heart defects</text>
+    </passage>
+    <passage>
+      <infon key="volume">464</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">111</infon>
+      <infon key="pub-id_pmid">20154733</infon>
+      <infon key="fpage">108</infon>
+      <infon key="year">2010a</infon>
+      <infon key="type">ref</infon>
+      <offset>56096</offset>
+      <text>Haematopoietic stem cells derive directly from aortic endothelium during development</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">2783</infon>
+      <infon key="pub-id_pmid">20107232</infon>
+      <infon key="fpage">2777</infon>
+      <infon key="year">2010b</infon>
+      <infon key="type">ref</infon>
+      <offset>56181</offset>
+      <text>Notch signaling distinguishes 2 waves of definitive hematopoiesis in the zebrafish embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">4156</infon>
+      <infon key="pub-id_pmid">17959717</infon>
+      <infon key="fpage">4147</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>56271</offset>
+      <text>Definitive hematopoiesis initiates through a committed erythromyeloid progenitor in the zebrafish embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Opin Hematol</infon>
+      <infon key="lpage">248</infon>
+      <infon key="pub-id_pmid">19491671</infon>
+      <infon key="fpage">243</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>56376</offset>
+      <text>Hematopoietic cell development in the zebrafish embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">464</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">120</infon>
+      <infon key="pub-id_pmid">20154729</infon>
+      <infon key="fpage">116</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>56431</offset>
+      <text>In vivo imaging of haematopoietic cells emerging from the mouse aortic endothelium</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2474</infon>
+      <infon key="pub-id_pmid">10835345</infon>
+      <infon key="fpage">2465</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>56514</offset>
+      <text>Definitive hematopoietic stem cells first develop within the major arterial regions of the mouse embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2342</infon>
+      <infon key="pub-id_pmid">16166372</infon>
+      <infon key="fpage">2331</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>56618</offset>
+      <text>Hematopoietic stem cell fate is established by the Notch&#8208;Runx pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">5782</infon>
+      <infon key="pub-id_pmid">19332767</infon>
+      <infon key="fpage">5776</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>56690</offset>
+      <text>A genetic screen in zebrafish defines a hierarchical network of pathways required for hematopoietic stem cell emergence</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2342</infon>
+      <infon key="pub-id_pmid">16166372</infon>
+      <infon key="fpage">2331</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>56810</offset>
+      <text>Hematopoietic stem cell fate is established by the Notch&#8208;Runx pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1726</infon>
+      <infon key="pub-id_pmid">21429983</infon>
+      <infon key="fpage">1717</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>56882</offset>
+      <text>Arterial&#8208;venous network formation during brain vascularization involves hemodynamic regulation of chemokine signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1061</infon>
+      <infon key="pub-id_pmid">25758220</infon>
+      <infon key="fpage">1050</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>57002</offset>
+      <text>Gata2b is a restricted early regulator of hemogenic endothelium in the zebrafish embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">409</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">138</infon>
+      <infon key="pub-id_pmid">26586199</infon>
+      <infon key="fpage">129</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>57090</offset>
+      <text>Complex regulation of HSC emergence by the Notch signaling pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">J Cell Biochem</infon>
+      <infon key="lpage">1412</infon>
+      <infon key="pub-id_pmid">17849443</infon>
+      <infon key="fpage">1405</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>57157</offset>
+      <text>Reciprocal regulation of Notch and PI3K/Akt signalling in T&#8208;ALL cells in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">453</infon>
+      <infon key="pub-id_pmid">24871948</infon>
+      <infon key="fpage">437</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>57239</offset>
+      <text>Estrogen defines the dorsal&#8208;ventral limit of VEGF regulation to specify the location of the hemogenic endothelial niche</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">J Cell Biochem</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">19565566</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>57361</offset>
+      <text>Zebrafish blood stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">457</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">891</infon>
+      <infon key="pub-id_pmid">19129762</infon>
+      <infon key="fpage">887</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>57388</offset>
+      <text>Runx1 is required for the endothelial to haematopoietic cell transition but not thereafter</text>
+    </passage>
+    <passage>
+      <infon key="volume">196</infon>
+      <infon key="source">J Exp Med</infon>
+      <infon key="lpage">763</infon>
+      <infon key="pub-id_pmid">12235209</infon>
+      <infon key="fpage">753</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>57479</offset>
+      <text>A crucial role for the p110delta subunit of phosphatidylinositol 3&#8208;kinase in B cell development and activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">224</infon>
+      <infon key="pub-id_pmid">21654806</infon>
+      <infon key="fpage">220</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57592</offset>
+      <text>A somitic Wnt16/Notch pathway specifies haematopoietic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">1273</infon>
+      <infon key="pub-id_pmid">21653327</infon>
+      <infon key="fpage">1264</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57658</offset>
+      <text>Crosstalk between NOTCH and AKT signaling during murine megakaryocyte lineage specification</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">7246</infon>
+      <infon key="pub-id_pmid">15378083</infon>
+      <infon key="fpage">7233</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>57750</offset>
+      <text>The &#8216;definitive&#8217; (and &#8216;primitive&#8217;) guide to zebrafish hematopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">4300</infon>
+      <infon key="pub-id_pmid">8321231</infon>
+      <infon key="fpage">4291</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>57826</offset>
+      <text>Four of the seven zinc fingers of the Evi&#8208;1 myeloid&#8208;transforming gene are required for sequence&#8208;specific binding to GA(C/T)AAGA(T/C)AAGATAA</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">10717</infon>
+      <infon key="pub-id_pmid">7479870</infon>
+      <infon key="fpage">10713</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>57972</offset>
+      <text>Intraembryonic hematopoietic cell migration during vertebrate development</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">20098702</infon>
+      <infon key="fpage">e8785</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58046</offset>
+      <text>Molecular signatures of quiescent, mobilized and leukemia&#8208;initiating hematopoietic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Leukemia</infon>
+      <infon key="lpage">440</infon>
+      <infon key="pub-id_pmid">24903482</infon>
+      <infon key="fpage">433</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>58142</offset>
+      <text>Survivin modulates genes with divergent molecular functions and regulates proliferation of hematopoietic stem cells through Evi&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26465397</infon>
+      <infon key="fpage">8510</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>58274</offset>
+      <text>Notch signal strength controls cell fate in the haemogenic endothelium</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">400</infon>
+      <infon key="pub-id_pmid">15737934</infon>
+      <infon key="fpage">389</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>58345</offset>
+      <text>Hedgehog signaling is required for adult blood stem cell formation in zebrafish embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">1254</infon>
+      <infon key="pub-id_pmid">25664855</infon>
+      <infon key="fpage">1243</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>58433</offset>
+      <text>Vascular niche promotes hematopoietic multipotent progenitor formation from pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">220</infon>
+      <infon key="pub-id_pmid">18682242</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58532</offset>
+      <text>Evi&#8208;1 is a critical regulator for hematopoietic stem cells and transformed leukemic cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">2045</infon>
+      <infon key="pub-id_pmid">25866967</infon>
+      <infon key="fpage">2032</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>58624</offset>
+      <text>Endothelium and NOTCH specify and amplify aorta&#8208;gonad&#8208;mesonephros&#8208;derived hematopoietic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Dev Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">17477879</infon>
+      <infon key="fpage">42</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>58729</offset>
+      <text>The zebrafish lysozyme C promoter drives myeloid&#8208;specific expression in transgenic fish</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1948</infon>
+      <infon key="pub-id_pmid">22079115</infon>
+      <infon key="fpage">1942</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>58819</offset>
+      <text>Distinct cellular mechanisms of blood vessel fusion in the zebrafish embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Int J Biochem Cell Biol</infon>
+      <infon key="lpage">1371</infon>
+      <infon key="pub-id_pmid">10641791</infon>
+      <infon key="fpage">1367</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>58895</offset>
+      <text>The transcription factor Evi&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="source">Mech Dev</infon>
+      <infon key="lpage">70</infon>
+      <infon key="pub-id_pmid">9256345</infon>
+      <infon key="fpage">55</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>58928</offset>
+      <text>The Evi1 proto&#8208;oncogene is required at midgestation for neural, heart, and paraxial mesenchyme development</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">5214</infon>
+      <infon key="pub-id_pmid">17327398</infon>
+      <infon key="fpage">5208</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>59037</offset>
+      <text>Migratory path of definitive hematopoietic stem/progenitor cells during zebrafish development</text>
+    </passage>
+    <passage>
+      <infon key="volume">1370</infon>
+      <infon key="source">Ann N Y Acad Sci</infon>
+      <infon key="lpage">108</infon>
+      <infon key="pub-id_pmid">27015586</infon>
+      <infon key="fpage">97</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>59131</offset>
+      <text>Endothelial&#8208;to&#8208;hematopoietic transition: notch&#8208;ing vessels into blood</text>
+    </passage>
+    <passage>
+      <infon key="volume">208</infon>
+      <infon key="source">J Exp Med</infon>
+      <infon key="lpage">2416</infon>
+      <infon key="pub-id_pmid">22084405</infon>
+      <infon key="fpage">2403</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59207</offset>
+      <text>Evi1 is essential for hematopoietic stem cell self&#8208;renewal, and its expression marks hematopoietic cells with long&#8208;term multilineage repopulating activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2373</infon>
+      <infon key="pub-id_pmid">25230933</infon>
+      <infon key="fpage">2363</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59366</offset>
+      <text>Discrete Notch signaling requirements in the specification of hematopoietic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">464</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">115</infon>
+      <infon key="pub-id_pmid">20154732</infon>
+      <infon key="fpage">112</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59453</offset>
+      <text>Blood stem cells emerge from aortic endothelium by a novel type of cell transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Leukemia</infon>
+      <infon key="lpage">65</infon>
+      <infon key="pub-id_pmid">22828445</infon>
+      <infon key="fpage">56</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59536</offset>
+      <text>EVI&#8208;1 modulates leukemogenic potential and apoptosis sensitivity in human acute lymphoblastic leukemia</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Immunity</infon>
+      <infon key="lpage">711</infon>
+      <infon key="pub-id_pmid">12753746</infon>
+      <infon key="fpage">699</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>59641</offset>
+      <text>Notch1 but not Notch2 is essential for generating hematopoietic stem cells from endothelial cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">236</infon>
+      <infon key="source">Dev Dyn</infon>
+      <infon key="lpage">3099</infon>
+      <infon key="pub-id_pmid">17937395</infon>
+      <infon key="fpage">3088</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>59739</offset>
+      <text>The Tol2kit: a multisite gateway&#8208;based construction kit for Tol2 transposon transgenesis constructs</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">136</infon>
+      <infon key="pub-id_pmid">12110173</infon>
+      <infon key="fpage">127</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>59841</offset>
+      <text>Sonic hedgehog and vascular endothelial growth factor act upstream of the Notch pathway during arterial endothelial differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">506</infon>
+      <infon key="pub-id_pmid">23763948</infon>
+      <infon key="fpage">492</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59973</offset>
+      <text>In vivo analysis reveals a highly stereotypic morphogenetic pathway of vascular anastomosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Exp Hematol</infon>
+      <infon key="lpage">979</infon>
+      <infon key="pub-id_pmid">16140144</infon>
+      <infon key="fpage">971</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>60065</offset>
+      <text>Patterning definitive hematopoietic stem cells from embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">82</infon>
+      <infon key="pub-id_pmid">18371423</infon>
+      <infon key="fpage">72</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60138</offset>
+      <text>BMP and Wnt specify hematopoietic fate by activation of the Cdx&#8208;Hox pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Blood Rev</infon>
+      <infon key="lpage">37</infon>
+      <infon key="pub-id_pmid">19910091</infon>
+      <infon key="fpage">27</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60216</offset>
+      <text>Autologous blood cell therapies from pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">523</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">471</infon>
+      <infon key="pub-id_pmid">26201599</infon>
+      <infon key="fpage">468</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60276</offset>
+      <text>Epoxyeicosatrienoic acids enhance embryonic haematopoiesis and adult marrow engraftment</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Mech Dev</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">11578859</infon>
+      <infon key="fpage">29</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>60364</offset>
+      <text>The role of vascular endothelial growth factor (VEGF) in vasculogenesis, angiogenesis, and hematopoiesis in zebrafish development</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">3810</infon>
+      <infon key="pub-id_pmid">16099879</infon>
+      <infon key="fpage">3803</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>60494</offset>
+      <text>Analysis of thrombocyte development in CD41&#8208;GFP transgenic zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">3575</infon>
+      <infon key="pub-id_pmid">16462766</infon>
+      <infon key="fpage">3565</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60565</offset>
+      <text>Evi1 is a survival factor which conveys resistance to both TGFbeta&#8208; and taxol&#8208;mediated cell death via PI3K/AKT</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Methods</infon>
+      <infon key="lpage">408</infon>
+      <infon key="pub-id_pmid">11846609</infon>
+      <infon key="fpage">402</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>60680</offset>
+      <text>Analysis of relative gene expression data using real&#8208;time quantitative PCR and the 2(&#8208;Delta Delta C(T)) Method</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Cell Biol</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">16507111</infon>
+      <infon key="fpage">10</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60795</offset>
+      <text>Cellular Notch responsiveness is defined by phosphoinositide 3&#8208;kinase&#8208;dependent signals</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5022</infon>
+      <infon key="pub-id_pmid">19491273</infon>
+      <infon key="fpage">5015</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60887</offset>
+      <text>Notch activation induces Akt signaling via an autocrine loop to&#160;prevent apoptosis in breast epithelial cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">308</infon>
+      <infon key="pub-id_pmid">2827004</infon>
+      <infon key="fpage">301</infon>
+      <infon key="year">1988</infon>
+      <infon key="type">ref</infon>
+      <offset>60997</offset>
+      <text>Identification of a common ecotropic viral integration site, Evi&#8208;1, in the DNA of AKXD murine myeloid tumors</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Rev Endocrinol</infon>
+      <infon key="lpage">203</infon>
+      <infon key="pub-id_pmid">19352317</infon>
+      <infon key="fpage">195</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61108</offset>
+      <text>Patient&#8208;specific pluripotent stem cells: promises and challenges</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2575</infon>
+      <infon key="pub-id_pmid">10226014</infon>
+      <infon key="fpage">2563</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>61175</offset>
+      <text>Cbfa2 is required for the formation of intra&#8208;aortic hematopoietic clusters</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">748</infon>
+      <infon key="pub-id_pmid">19450519</infon>
+      <infon key="fpage">736</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61252</offset>
+      <text>Hematopoietic stem cell development is dependent on blood flow</text>
+    </passage>
+    <passage>
+      <infon key="source">Zebrafish: a practical approach</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2002</infon>
+      <offset>61315</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">191</infon>
+      <infon key="pub-id_pmid">8700545</infon>
+      <infon key="fpage">183</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>61316</offset>
+      <text>Structurally altered Evi&#8208;1 protein generated in the 3q21q26 syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Exp Hematol</infon>
+      <infon key="lpage">936</infon>
+      <infon key="pub-id_pmid">11495698</infon>
+      <infon key="fpage">927</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>61387</offset>
+      <text>Yolk&#8208;sac hematopoiesis: the first blood cells of mouse and man</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="source">Mech Dev</infon>
+      <infon key="lpage">912</infon>
+      <infon key="pub-id_pmid">19595765</infon>
+      <infon key="fpage">898</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61452</offset>
+      <text>Notch&#8208;responsive cells initiate the secondary transition in larval zebrafish pancreas</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2674</infon>
+      <infon key="pub-id_pmid">2017172</infon>
+      <infon key="fpage">2665</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>61540</offset>
+      <text>Evi&#8208;1, a murine zinc finger proto&#8208;oncogene, encodes a sequence&#8208;specific DNA&#8208;binding protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1552</infon>
+      <infon key="pub-id_pmid">24598161</infon>
+      <infon key="fpage">1544</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61640</offset>
+      <text>Distinct Notch signaling outputs pattern&#160;the developing arterial system</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">611</infon>
+      <infon key="pub-id_pmid">23537631</infon>
+      <infon key="fpage">600</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61713</offset>
+      <text>Endothelio&#8208;mesenchymal interaction controls runx1 expression and modulates the notch pathway to initiate aortic hematopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1126</infon>
+      <infon key="pub-id_pmid">15689374</infon>
+      <infon key="fpage">1117</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>61841</offset>
+      <text>RBPjkappa&#8208;dependent Notch function regulates Gata2 and is essential for the formation of intra&#8208;embryonic hematopoietic cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1895</infon>
+      <infon key="pub-id_pmid">18528438</infon>
+      <infon key="fpage">1886</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>61970</offset>
+      <text>Impaired embryonic haematopoiesis yet normal arterial development in the absence of the Notch ligand Jagged1</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Leukemia</infon>
+      <infon key="lpage">1649</infon>
+      <infon key="pub-id_pmid">23478665</infon>
+      <infon key="fpage">1637</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62079</offset>
+      <text>Maintenance of the hematopoietic stem cell pool in bone marrow niches by EVI1&#8208;regulated GPR56</text>
+    </passage>
+    <passage>
+      <infon key="volume">56</infon>
+      <infon key="source">Rinsho Ketsueki</infon>
+      <infon key="lpage">383</infon>
+      <infon key="pub-id_pmid">25971267</infon>
+      <infon key="fpage">375</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62175</offset>
+      <text>Maintenance of leukemic and normal hematopoietic stem cells in bone marrow niches by EVI1&#8208;regulated GPR56</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">5038</infon>
+      <infon key="pub-id_pmid">24747972</infon>
+      <infon key="fpage">5028</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62283</offset>
+      <text>Evi1 defines leukemia&#8208;initiating capacity and tyrosine kinase inhibitor resistance in chronic myeloid leukemia</text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">Mech Dev</infon>
+      <infon key="lpage">158</infon>
+      <infon key="pub-id_pmid">10072782</infon>
+      <infon key="fpage">153</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>62396</offset>
+      <text>Use of the Gal4&#8208;UAS technique for&#160;targeted gene expression in the zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">128</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1107</infon>
+      <infon key="pub-id_pmid">11245575</infon>
+      <infon key="fpage">1099</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>62475</offset>
+      <text>An instructive function for Notch in promoting gliogenesis in the zebrafish retina</text>
+    </passage>
+    <passage>
+      <infon key="volume">212</infon>
+      <infon key="source">J Exp Med</infon>
+      <infon key="lpage">106</infon>
+      <infon key="pub-id_pmid">25547674</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62558</offset>
+      <text>Whole&#8208;transcriptome analysis of endothelial to hematopoietic stem cell transition reveals a requirement for Gpr56 in HSC generation</text>
+    </passage>
+    <passage>
+      <infon key="volume">84</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">2688</infon>
+      <infon key="pub-id_pmid">7919381</infon>
+      <infon key="fpage">2681</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>62692</offset>
+      <text>Identification of a breakpoint cluster region 3&#8242; of the ribophorin I gene at 3q21 associated with the transcriptional activation of the EVI1 gene in acute myelogenous leukemias with inv(3)(q21q26)</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">580</infon>
+      <infon key="pub-id_pmid">2387236</infon>
+      <infon key="fpage">569</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>62891</offset>
+      <text>Cell movements during epiboly and gastrulation in zebrafish</text>
+    </passage>
+    <passage>
+      <infon key="volume">396</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">357</infon>
+      <infon key="pub-id_pmid">17507183</infon>
+      <infon key="fpage">346</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62951</offset>
+      <text>The oncogene and developmental regulator EVI1: expression,&#160;biochemical properties, and biological functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">692</infon>
+      <infon key="pub-id_pmid">21572418</infon>
+      <infon key="fpage">686</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63060</offset>
+      <text>Distinct signalling pathways regulate sprouting angiogenesis from the dorsal aorta and the axial vein</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">3628</infon>
+      <infon key="pub-id_pmid">21289308</infon>
+      <infon key="fpage">3617</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63162</offset>
+      <text>Evi1 represses PTEN expression and activates PI3K/AKT/mTOR via interactions with polycomb proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">435</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">104</infon>
+      <infon key="pub-id_pmid">15875024</infon>
+      <infon key="fpage">98</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>63261</offset>
+      <text>Suppression of Notch signalling by the COUP&#8208;TFII transcription factor regulates vein identity</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1987</infon>
+      <infon key="pub-id_pmid">15889140</infon>
+      <infon key="fpage">1976</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>63357</offset>
+      <text>Oncogenic transcription factor Evi1 regulates hematopoietic stem cell proliferation through GATA&#8208;2 expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">1107</infon>
+      <infon key="pub-id_pmid">26358189</infon>
+      <infon key="fpage">1093</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>63469</offset>
+      <text>G protein&#8208;coupled receptor 183 facilitates endothelial&#8208;to&#8208;hematopoietic transition via Notch1 inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">414</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">220</infon>
+      <infon key="pub-id_pmid">11700560</infon>
+      <infon key="fpage">216</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>63580</offset>
+      <text>Gridlock signalling pathway&#160;fashions the first embryonic artery</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1932 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5210152</id>
+    <passage>
+      <infon key="name_2">surname:Tumbar;given-names:Tudorita</infon>
+      <infon key="volume">36 36</infon>
+      <infon key="name_0">surname:Wang;given-names:Alex B</infon>
+      <infon key="name_1">surname:Zhang;given-names:Ying V</infon>
+      <infon key="alt-title">Alex B Wang et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201694572</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201694572</infon>
+      <infon key="lpage">78 78</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">61 61</infon>
+      <infon key="year">2017</infon>
+      <infon key="issue">1</infon>
+      <infon key="kwd">DNA damage Gata6 hair follicle progenitor matrix cell replication stress Development &amp; Differentiation DNA Replication, Repair &amp; Recombination Stem Cells</infon>
+      <offset>0</offset>
+      <text>Gata6 promotes hair follicle progenitor cell renewal by genome maintenance during proliferation</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>96</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>Cell proliferation is essential to rapid tissue growth and repair, but can result in replication&#8208;associated genome damage. Here, we implicate the transcription factor Gata6 in adult mouse hair follicle regeneration where it controls the renewal of rapidly proliferating epithelial (matrix) progenitors and hence the extent of production of terminally differentiated lineages. We find that Gata6 protects against DNA damage associated with proliferation, thus preventing cell cycle arrest and apoptosis. Furthermore, we show that in&#160;vivo Gata6 stimulates EDA&#8208;receptor signaling adaptor Edaradd level and NF&#8208;&#954;B pathway activation, known to be important for DNA damage repair and stress response in general and for hair follicle growth in particular. In cultured keratinocytes, Edaradd rescues DNA damage, cell survival, and proliferation of Gata6 knockout cells and restores MCM10 expression. Our data add to recent evidence in embryonic stem and neural progenitor cells, suggesting a model whereby developmentally regulated transcription factors protect from DNA damage associated with proliferation at key stages of rapid tissue growth. Our data may add to understanding why Gata6 is a frequent target of amplification in cancers.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1344</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1357</offset>
+      <text>Many tissue stem cells divide infrequently and are long&#8208;lived while their downstream progenitor cells proliferate rapidly and are short&#8208;lived (Fuchs &amp; Chen, 2013; Sada &amp; Tumbar, 2013). This hierarchical stem&#8208;progenitor system has been presumably set in place to prevent accumulation of replication&#8208;associated damage and maintain genome integrity in long&#8208;term stem cells (Adams et&#160;al, 2015). DNA replication&#8208;induced stress causes spontaneous double&#8208;strand breaks in dividing cells and results in activation of break&#8208;repair mechanisms to resume stalled replication forks (Berti &amp; Vindigni, 2016). Hematopoietic stem cells are the best understood, where both stem cell&#8208;intrinsic (i.e. transcription factors) and stem cell&#8208;extrinsic (provided by the niche) mechanisms maintain quiescence, to protect the stem cell genome in long term against DNA damage (Kosan &amp; Godmann, 2016) and prevent cancer and aging (Flach et&#160;al, 2014). This depends on full replication&#8208;origin licensing via MCM3 (Alvarez et&#160;al, 2015). In the hair follicle, a mutation that promotes proliferation of otherwise quiescent hair follicle stem cells (HFSCs) also leads to increased DNA damage and premature aging (Morgner et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2583</offset>
+      <text>Some tissue stem cells in&#160;vivo (i.e. epidermis) and pluripotent stem cells in culture divide relatively frequently, and mechanisms other than quiescence may protect against replication&#8208;induced stress (Sotiropoulou et&#160;al, 2012; Weissbein et&#160;al, 2014). Similarly, some rapidly dividing progenitor cells must provide essential tissue regenerative capacity for substantial periods of time. Developmental mechanisms may be set in place in a cell&#8208;type&#8208;specific manner to prevent catastrophic accumulation of DNA damage during times of intense tissue growth and repair. Recently, two developmental transcription factors, SRF in pluripotent stem cells (Lamm et&#160;al, 2016) and MYCN in neural progenitors (Petroni et&#160;al, 2016), were shown to control replication&#8208;induced stress in rapidly proliferating cells. However, the extent to which developmentally regulated pathways or transcription factors may be implicated in augmenting the ability of highly proliferative cells to maintain genomic integrity during replication at key stages in tissue growth is currently unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3659</offset>
+      <text>The hair follicle is a classical stem&#8208;progenitor model system and is particularly well suited for studying mechanisms of genome integrity related to differences in cell proliferative behavior during adult homeostasis. The HFSCs are infrequently dividing and long&#8208;lived and are localized in the bulge, whereas the progenitor cells are rapidly dividing, have a short life span, and are localized in the matrix within the hair bulb. Additionally, hairs undergo cyclic and synchronous, at least during youth, phases of quiescence (telogen), growth (anagen), and destruction (catagen), known as the hair cycle. Proliferation of stem and progenitor cells is restricted within highly defined stages of the hair cycle. At the start of anagen, quiescent early progenitor cells in the hair germ begin to proliferate to form a pool of multipotent progenitors known as the matrix. Matrix progenitor cells rapidly proliferate, temporarily self&#8208;renew, and eventually become lineage restricted unipotent progenitors with the hair shaft (HS) committed cells localized in the upper matrix, the inner root sheath (IRS) in the mid&#8208;matrix, and the lower bulb ORS in the lower matrix (Legu&#233; &amp; Nicolas, 2005; Legu&#233; et&#160;al, 2010). The unipotent progenitor cells divide briefly when displaced from the dermal papillae (DP), a mesenchymal pocket of cells working as an organizing and signaling center in the hair follicle, and then withdraw from the hair cycle and terminally differentiate to IRS and HS lineages (Legu&#233; &amp; Nicolas, 2005; Legu&#233; et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5204</offset>
+      <text>Defined steps in the stem cell lineage determination hierarchy of HFSCs have been intensively studied and their regulation by known developmental transcription factors is summarized in Fig&#160;1A. Specifically, Nfatc1, Tcf3/4, and Foxc1 are important for maintaining bulge stem cell quiescence (Horsley et&#160;al, 2008; Lien et&#160;al, 2014; Lay et&#160;al, 2016; Wang et&#160;al, 2016), while Tbx1, Sox9, Lhx2, and Gli2 are known to promote bulge cell self&#8208;renewal (Chen et&#160;al, 2012; Folgueras et&#160;al, 2013; Hsu et&#160;al, 2014; Kadaja et&#160;al, 2014). Runx1 promotes initial activation of bulge stem cells during quiescence to become hair germ cells that are subsequently capable of conducting timely anagen onset (Osorio et&#160;al, 2008, 2011; Hoi et&#160;al, 2010; Lee et&#160;al, 2013, 2014). Stat3 also plays a role in anagen onset by regulating proliferation of hair germ cells (Sano et&#160;al, 1999, 2000). During terminal differentiation of matrix progenitor cells, Dlx3, Foxn1, Msx2, Hoxc13, and Lef1 are known to promote differentiation toward the hair shaft lineage (Zhou et&#160;al, 1995; DasGupta &amp; Fuchs, 1999; Merrill et&#160;al, 2001; Jave&#8208;Suarez et&#160;al, 2002; Ma et&#160;al, 2003; Lowry et&#160;al, 2005; Weiner et&#160;al, 2007; Hwang et&#160;al, 2008; Hu et&#160;al, 2010a; Kim &amp; Yoon, 2013), while Cutl1, Gata3, and Foxn1 promote differentiation toward the IRS lineage (Ellis et&#160;al, 2001; Kaufman et&#160;al, 2003; Cai et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6597</offset>
+      <text>Hair follicle progenitor cells express Gata6</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6642</offset>
+      <text>Overview of hair follicle stem and progenitor cell dynamics with transcription factors known to regulate each stage.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6759</offset>
+      <text>Lineage tracing of the anagen matrix from &#946;&#8208;actin&#8208;CreER:Confetti, 7&#160;days after induction with either a high dose of tamoxifen (TM) (top) or low dose (bottom) for single cell clonal lineages.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6956</offset>
+      <text>Images of skin sections at various stages of the hair cycle, immunostained for Gata6 (red), CD34 or K14 (green), and DNA (blue). Arrowhead indicates Gata6 expression in the hair germ.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7140</offset>
+      <text>TM induction scheme (D) and images (D&#8242;) for Gata6 inducible knockout (iKO) and wild&#8208;type (WT) mice over time, showing the loss of Gata6 (red) from the hair follicle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7310</offset>
+      <text>Data information: Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7349</offset>
+      <text>The developmental transcription factors regulating intermediate steps in hair follicle lineage determination, specifically matrix progenitor cell proliferation, extent of self&#8208;renewal, and genome maintenance of these rapidly proliferative cells are currently not known (Fig&#160;1A). With that said, components of DNA repair machinery, namely p53 and BRCA1, were shown to be crucial in the hair follicle matrix cells (but not in the inter&#8208;follicular epidermal cells) for their genome maintenance during normal homeostasis, suggesting the existence of significant genotoxic stress in the progenitor matrix cells (Sotiropoulou et&#160;al, 2012). During anagen, Sonic hedgehog (Shh) and Wnt signaling are implicated in matrix cell proliferation (St&#8208;Jacques et&#160;al, 1998; Wang et&#160;al, 2000; Oro &amp; Higgins, 2003; Choi et&#160;al, 2013; Hsu et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8193</offset>
+      <text>Here, we set to identify transcription factors controlling progenitor matrix cell function and implicate the zinc&#8208;finger factor Gata6, in the activation and extent of renewal of the hair follicle progenitor cells (hair germ and matrix). Gata6 was previously known to regulate development of visceral endoderm, liver, lung, heart, and intestine (Morrisey et&#160;al, 1998; Yang et&#160;al, 2002; Zhao et&#160;al, 2005, 2008; Zhang et&#160;al, 2008; Beuling et&#160;al, 2011, 2012) through control of differentiation, survival, and proliferation, but a role in DNA damage has not yet been reported to our knowledge. Our new findings from the hair follicle implicate Gata6 in prevention of DNA damage associated with proliferation and may refine our understanding of Gata6 phenotypes in other tissue stem&#8208;progenitor cell systems (Zhang et&#160;al, 2008), as well as provide an important link with its known role as an oncogene (Shureiqi et&#160;al, 2007; Kwei et&#160;al, 2008; Lin et&#160;al, 2012; Shen et&#160;al, 2013; Whissell et&#160;al, 2014). Moreover, we expand Gata6 function, previously thought restricted to the mesoderm&#8208; and endoderm&#8208;derived lineages (Molkentin, 2000; Maeda et&#160;al, 2005), into an ectodermal tissue.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9384</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9392</offset>
+      <text>Gata6 is expressed in hair follicle progenitor cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9445</offset>
+      <text>Previously, lineage tracing experiments of early progenitor (hair germ) and progenitor (matrix) cells have shown that multipotent early progenitors become lineage restricted within the matrix to form either the inner root sheath or hair shaft, while it was suggested that a pool of cells at the base of the matrix may contribute to the lower outer root sheath in the hair bulb (Legu&#233; &amp; Nicolas, 2005; Zhang et&#160;al, 2009; Legu&#233; et&#160;al, 2010). Furthermore, it has been proposed that the matrix is structured such that lineage specification correlates with position of cells along the length of the matrix, and proliferative potential correlates with radial position relative to the DP (Legu&#233; &amp; Nicolas, 2005). Using the ubiquitously expressed &#946;&#8208;actin&#8208;CreER mice and a multi&#8208;color reporter not previously employed to study matrix cell differentiation (Confetti reporter mice; Snippert et&#160;al, 2010), we performed our own lineage tracing during anagen by inducing with tamoxifen (TM) followed by 4&#8208;day chases. High TM doses (100&#160;&#956;g/g body) induced multi&#8208;color labeling within one lineage emanating from multiple progenitors contacting the DP at specific vertical positions that contribute simultaneously to hair growth. Low TM doses (20&#160;&#956;g/g body) produced single&#8208;color&#8208;single lineage patterns (Fig&#160;1B), consistent with the previously proposed model (Legu&#233; &amp; Nicolas, 2005).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10840</offset>
+      <text>Next, we set out to identify transcription factors that may regulate matrix progenitor cell function. Previously, we performed microarray analysis of HFSC lineages at distinct stages of self&#8208;renewal (anagen) and early differentiation (telogen&#8211;anagen transition; Zhang et&#160;al, 2009). These data revealed Gata6 as a transcription factor that was up&#8208;regulated in dividing hair germ cells on their way to forming matrix but not in dividing bulge cells that were self&#8208;renewing at later anagen stages. We confirmed the microarray data here by qRT&#8211;PCR of sorted hair follicle cell populations (Fig&#160;EV1A and B). These data suggested that Gata6 might play a specific role in the proliferation of hair germ (but not bulge) cells during matrix progenitor cell formation and prompted us to further study its expression and role in the hair follicle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11689</offset>
+      <text>Gata6 is up&#8208;regulated in differentiating hair germ cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11748</offset>
+      <text>Experimental scheme for doxycycline chased K5tTA&#160;&#215;&#160;pTRE&#8208;H2B&#8208;GFP mice used to obtain divided and un&#8208;divided cell populations during the differentiating phase&#8212;telogen (T)&#8211;anagen (A) transition&#8212;and self&#8208;renewing phase of HFSCs during early anagen, as previously described in Zhang et&#160;al (2009). Bulge cells were sorted as divided or un&#8208;divided based on H2B&#8208;GFP levels and high CD34 and &#945;6&#8208;integrin expression; hair germ cells at telogen&#8211;anagen transition were the divided cells with low CD34 levels and high expression of &#945;6&#8208;integrin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12310</offset>
+      <text>qRT&#8211;PCR confirmation of Gata6 expression in differentiating (hair germ, divided), self&#8208;renewing (bulge, divided), or non&#8208;dividing bulge stem cells (average&#160;&#177;&#160;SD, n&#160;=&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12491</offset>
+      <text>Immunofluorescence image of the skin shows epidermis and infundibulum stained with Hoechst for DNA (blue), basal layer/ORS marker K14 (green), and Gata6 (red). Scale bar: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12671</offset>
+      <text>Gel image of DNA genotyped for floxed Gata6 allele. Shown are genotypes from three mice: heterozygote (Gata6fl/wt), homozygous WT (Gata6wt/wt), and homozygous floxed (Gata6fl/fl).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12851</offset>
+      <text>We evaluated Gata6 protein expression patterns during the hair cycle by immunofluorescence staining. Consistent with our microarray data, immunofluorescence staining revealed Gata6 expression in the hair germ but not bulge during telogen and early anagen (Fig&#160;1C). Expression was high throughout the entire matrix at anagen, including all matrix zones represented by progenitors of lower ORS, IRS, and cortex, and remained high during full and late anagen (Fig&#160;1C and D&#8212;top panel). Moreover, expression was high in the differentiated hair layers of inner root sheath (Fig&#160;1C and D). Gata6 was also present in the infundibulum (the upper portion of the hair follicle) and in the inter&#8208;follicular epidermis (Figs&#160;1C and EV1C). In the bulge, Gata6 was detectable in rare cells in the lower zone bordering the hair germ during early anagen, but was absent from the bulge during stages of HFSCs self&#8208;renewal (early and mid&#8208;anagen) (Fig&#160;1C). These data suggested that Gata6 might play a role in matrix cell formation, proliferation, and differentiation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13912</offset>
+      <text>Loss of Gata6 causes hair follicle degeneration</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13960</offset>
+      <text>To investigate the role of Gata6 in the hair follicle, we performed inducible knockout of Gata6 in the skin epithelium of K14&#8208;CreERT2;Gata6fl/fl mice (Gata6 iKO) (Li et&#160;al, 2000; Sodhi et&#160;al, 2006). Upon induction with TM, Gata6 is rapidly lost from the lower hair follicle (Fig&#160;1D) and epidermis (Fig&#160;EV1C). Control littermate mice without TM induction (K14&#8208;CreERT2;Gata6fl/fl injected with oil), without Cre expression (Gata6fl/fl injected with TM), or without Gata6 loxP sites (K14&#8208;CreERT2 injected with TM) showed no phenotypic effects and are referred to as wild type (WT) throughout the paper. A time course of immunofluorescence staining following induction in anagen shows that Gata6 is initially lost from matrix cells bordering the DP, followed by progressive loss from the rest of the matrix within 2&#160;days post&#8208;TM, and finally from the differentiated lineages by 5&#160;days after induction (Fig&#160;1D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14882</offset>
+      <text>Given the presence of Gata6 in both the telogen/early anagen hair germ and the anagen matrix, we asked how loss of Gata6 affects the hair cycle at these two stages (Fig&#160;2A). When Gata6 loss is induced at telogen, hair follicles are arrested in telogen in iKO mice while WT littermates progress into anagen by 10&#160;days (Figs&#160;2B and EV2A). This was true in all hair follicles from iKO and WT mice tested (n&#160;&#8805;&#160;3 mice/genotype) in multiple experiments with skin sections from different parts of the body. Not only do telogen&#8208;induced iKO follicles fail to enter anagen, but also the hair germ of telogen iKO follicles shrinks in size suggesting loss of the early progenitor cells in the absence of Gata6. A more dramatic reduction in hair follicle progenitor cells occurs when Gata6 is depleted during anagen, when matrix progenitor cells are rapidly proliferating and differentiating. Over the course of 10&#160;days, WT follicles progress through full anagen. In contrast, anagen iKO follicles display reduced matrix size, accumulate ectopic melanin granules, and by 10&#160;days degenerate to a telogen&#8208;like structure (Figs&#160;1D, 2C and EV2B and D) in all mice analyzed (n&#160;&#8805;&#160;3 mice/genotype/time point). Consistent with our observed localization of Gata6 within the matrix and its absence in the bulge, these changes to the hair structure appear to be limited to the lower hair follicle, while the bulge morphology remains intact during these stages (Fig&#160;EV2C). Also, no gross phenotype was detectable in the epidermis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16406</offset>
+      <text>Gata6 is necessary for anagen initiation and maintenance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16463</offset>
+      <text>Induction scheme for generating the Gata6 iKO. Mice were induced during either telogen (PD21) or anagen (PD30) for up to 10&#160;days (n&#160;&#8805;&#160;3 mice/time point/genotype).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16631</offset>
+      <text>Representative images of hematoxylin staining of skin sections from the telogen&#8208;induced mice sacrificed at 2, 4, and 10&#160;days (d) post&#8208;TM induction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16784</offset>
+      <text>Images of hematoxylin staining of skin section from the anagen&#8208;induced mice. Quantification shown in Fig&#160;EV2D.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16898</offset>
+      <text>Data information: Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16937</offset>
+      <text>Gata6 is necessary for anagen initiation and maintenance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16994</offset>
+      <text>Low magnification images of skin with hematoxylin staining, for telogen&#8208;induced (A) and anagen&#8208;induced (B) mice. Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17132</offset>
+      <text>Immunofluorescence images of hair follicles 10&#160;days post&#8208;anagen induction stained with bulge marker CD34. Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17262</offset>
+      <text>Quantification of the number of cells in anagen matrix hair follicles post&#8208;Gata6 iKO induction (average&#160;&#177;&#160;SD, n&#160;=&#160;20 follicles from three mice each). Unpaired t&#8208;test *P&#8208;values: 1&#160;day&#160;=&#160;0.86, 2&#160;days&#160;=&#160;7&#160;&#215;&#160;10&#8722;5, 4&#160;days&#160;=&#160;4&#160;&#215;&#160;10&#8722;10.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17522</offset>
+      <text>Together, these data demonstrate that Gata6 is necessary for the telogen&#8211;anagen transition and hair germ proliferation and maintenance. In addition, it is absolutely required to maintain the hair follicle matrix and normal hair growth during anagen and to prevent its premature degeneration with return to a telogen&#8208;like state.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17854</offset>
+      <text>Gata6 is not necessary for hair follicle progenitor cell terminal differentiation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17936</offset>
+      <text>Previously, Gata6 has been implicated in the differentiation of lung epithelial progenitor cells (Zhang et&#160;al, 2008). To determine whether loss of Gata6 in the hair follicle progenitors (matrix) during anagen plays a role in terminal differentiation, we performed immunofluorescence staining of skin sections with antibodies including markers for the differentiated lineages of the hair. The stainings included the ORS marker K14, the IRS and medulla marker AE15, the hair cortex marker AE13, Gata3 that marks the cuticle and Huxley layers of the IRS, the companion layer marker K6, and hair shaft cortex marker Lef1. Surprisingly, the differentiated hair lineages were detectable in Gata6 iKO not only at 2&#160;days but also at 5&#160;days after TM induction (Figs&#160;3 and EV3A&#8211;D), when Gata6 expression was completely lost from the hair follicle as indicated by our staining (Fig&#160;1D). This suggested that Gata6 is not directly implicated in terminal differentiation of hair follicle cells, as expected from its role in other systems.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18968</offset>
+      <text>Gata6 is not necessary for terminal differentiation of matrix cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19036</offset>
+      <text>Scheme&#160;for BrdU pulse&#8208;chase experiment to track matrix cell differentiation into the upper inner lineages during anagen. The plus sign marks the starting point for TM or BrdU.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19215</offset>
+      <text>Gata6 WT and iKO skin 3&#160;days after TM induction and 12&#160;h after BrdU labeling or 5&#160;days after TM induction and 2&#160;days after BrdU labeling stained with markers as indicated in corresponding color. Scale bars: 30&#160;&#956;m. Arrowheads indicate colocalization of BrdU with AE13 (D) and AE15 (E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19506</offset>
+      <text>Gata6 is not necessary for terminal differentiation of the hair follicle</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19579</offset>
+      <text>Immunofluorescence staining of skin sections 2&#160;days post&#8208;tamoxifen induction for terminally differentiated lineages reveal labeling in the hair bulb, as expected. Specific stains are indicted in corresponding colors. Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19820</offset>
+      <text>Quantification of images like those shown in Fig&#160;3 shows percentage of BrdU+ cells located in the differentiated IRS and hair shaft lineages after the initial 12&#8208;h pulse labeling and after the 2&#160;days BrdU chase (average&#160;&#177;&#160;SD, n&#160;=&#160;3, P&#8208;value&#160;=&#160;0.7 for 12&#160;h WT versus iKO and 0.4 for 2&#160;days WT versus iKO).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20140</offset>
+      <text>To more directly inquire whether Gata6 iKO matrix cells actually continue to proliferate, produce terminally differentiated cells, and move upward into the inner hair follicle lineages above the DP after Gata6 loss, we conducted a BrdU pulse&#8208;chase experiment to label the matrix cells after TM induction and follow their fate. Mice were injected with BrdU 3&#160;days after tamoxifen induction, when Gata6 is normally lost in the matrix (Fig&#160;1D) and sacrificed at 12&#160;h and at 3&#160;days after injection by which time Gata6 is also lost from the differentiated lineages (Fig&#160;3A). As expected, after 12&#160;h of chase, the BrdU labeling is predominantly located in the matrix and this was true in both WT and iKO mice (Figs&#160;3B and EV3E). As the matrix cells differentiate, they feed upwards into the IRS and hair shaft. Indeed, after 2&#8208;day chase the BrdU label appeared in the zone occupied by terminally differentiated lineages above the DP in both WT and iKO skin, where they co&#8208;localize with differentiation markers AE15 and AE13 (Figs&#160;3D and E, and EV3E). Additionally, the 5&#8208;day Gata6 iKO follicles also express all other differentiation markers tested, namely Gata3, K6, and Lef1, in a manner similar to that detected in WT hair follicles (Fig&#160;3F and G).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21403</offset>
+      <text>These data showed that despite the rapid shrinkage of matrix and loss of hair follicle growth with premature collapse into early catagen in response to Gata6 iKO, hair follicle matrix progenitors continue to produce all the differentiated inner layer lineages, suggesting that Gata6 is not essential for commitment to terminal differentiation. Thus, we set to examine whether there was a potential impairment in the extent of matrix cell proliferation or survival during anagen, which would explain the abnormal shrinkage of the iKO matrix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21944</offset>
+      <text>Matrix cells undergo DNA damage, apoptosis, and reduced proliferation after loss of Gata6</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22034</offset>
+      <text>The rapid degeneration of the hair follicle and ectopic melanin granules observed after loss of Gata6 were reminiscent of the dystrophic catagen morphology frequently observed in response to severe damage, such as following chemotherapy (Hendrix et&#160;al, 2005). We therefore analyzed whether genomic damage and cell death are observed in Gata6 iKO matrix cells by immunofluorescence staining of skin sections from mice sacrificed at different time&#8208;points after TM injection. We used antibodies for the DNA damage marker &#947;H2A.X, which localizes to double&#8208;strand breaks, and for the apoptosis marker activated caspase&#8208;3 (Fig&#160;4A). Gata6 iKO hair follicles displayed frequent matrix cells that were either caspase&#8208;3+/&#947;H2A.X+ (indicative of cell death) or caspase&#8208;3&#8722;/&#947;H2A.X+ (indicative of DNA damage), while in WT matrix, these cells were largely absent. Quantification of these data demonstrated that the number of cells with DNA damage and/or apoptosis peaked at 1&#8208;day post&#8208;TM induction and was followed by a gradual decline by 4&#160;days post&#8208;TM (Fig&#160;4B and C). These data suggested that Gata6 loss results in drastic DNA damage followed by apoptosis in the matrix cells and were in line with the observed shrinking of the matrix cells over the same time period (Fig&#160;1D). Neither DNA damage nor apoptosis was found within the bulge stem cells (Fig&#160;EV4); this was expected since these cells do not express Gata6 during anagen (Fig&#160;1C). Additionally, although the inter&#8208;follicular epidermis and infundibulum express Gata6 (Figs&#160;1C and EV1C), neither DNA damage nor apoptosis was observable (Fig&#160;EV4), perhaps due to the action of additional DNA damage protective mechanisms that seem to operate in these compartments (Sotiropoulou et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23803</offset>
+      <text>Hair follicle progenitors show impaired proliferation and increased DNA damage and apoptosis following loss of Gata6</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23920</offset>
+      <text>Hair follicles exhibit immunostaining signal for DNA damage marker &#947;H2A.X (red) and apoptosis marker caspase&#8208;3 (green) as early as 1&#160;day after Gata6 iKO induction. Top panel shows a section of UV irradiated epidermis as a positive control for DNA damage. Note that caspase&#8208;3 is not expressed in the &#947;H2A.X&#8208;positive cells of the epidermis but is found in some iKO hair follicle matrix cells. Right panels show single&#8208;color images as indicated on top. Scale bars: 30&#160;&#956;m</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24401</offset>
+      <text>Quantification (average&#160;&#177;&#160;SD) of the percentage of apoptotic cells per matrix as determined by counting of caspase&#8208;3+ cells (n&#160;=&#160;50 follicles from three mice per group).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24578</offset>
+      <text>Quantification (average&#160;&#177;&#160;SD) of the percentage of DNA damaged cells per matrix as determined by counting of &#947;H2A.X+ caspase&#8208;3&#8722; cells (n&#160;=&#160;50 follicles from three mice per group).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24768</offset>
+      <text>Regional distribution of apoptosis was analyzed by dividing the matrix into four compartments as shown in the color legend and counting the fraction of caspase&#8208;3+ cells for each matrix compartments (right; n&#160;=&#160;50 follicles from three mice per group).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25023</offset>
+      <text>Proliferation in the matrix compartments shown in (D) was assessed by BrdU labeling for 1&#160;h, followed by staining (E), and quantification (F). Box spans the first quartile (Q1, bottom) to the third quartile (Q3, top), the horizontal line within the box represents the median, the whiskers extend from (Q1 or Q3 + 1.5)*(Q3&#8208;Q1), and points represent outliers outside of the previously defined range (interior cells labeled with solid bars, exterior cells labeled with striped bars). Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25528</offset>
+      <text>Data information: Unpaired t&#8208;test: *P&#8208;value&#160;&lt;&#160;0.05. n&#160;=&#160;20 follicles from 2 mice per group.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25628</offset>
+      <text>Gata6 loss does not cause DNA damage or apoptosis in the inter&#8208;follicular epidermis or bulge</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25723</offset>
+      <text>Skin sections immunostained for caspase&#8208;3 and &#947;H2A.X show no detectable signal in the inter&#8208;follicular epidermis or bulge HFSCs. Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25878</offset>
+      <text>Since the different unipotent matrix progenitors are spatially compartmentalized along the proximal&#8208;distal and lateral axis (Legu&#233; &amp; Nicolas, 2005), we quantified the distribution of caspase&#8208;3 staining in different regions of the matrix (Fig&#160;4D). The matrix was divided vertically into a lower region from the base of the matrix to the middle of the DP, and an upper region from the middle of the DP to the Line of Auber, where the IRS and cortex of the hair shaft begin. Additionally, along the radial axis, we divided the matrix into an interior region that is adjacent to the DP, and the exterior region that does not contact the DP. The immediate vicinity to the DP has been deemed essential for the extent of self&#8208;renewal of unipotent progenitor matrix cells (Legu&#233; &amp; Nicolas, 2005). Careful quantification of the frequency of caspase&#8208;3+ cells per region demonstrated that all matrix cells were affected by apoptosis, irrespective of their spatial distribution. Although there were some differences in frequency of apoptotic cells in the different categories, these were likely a reflection of how rapidly Gata6 loss occurred in distinct matrix regions as the cells near the DP lose Gata6 first, immediately after TM induction (Fig&#160;1D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27132</offset>
+      <text>We also investigated the effect of Gata6 loss on proliferation in different regions of the matrix in WT and iKO mice injected with BrdU 1&#160;h before sacrifice (Fig&#160;4E and F). As expected based on the proximity to the DP (Legu&#233; &amp; Nicolas, 2005), the WT matrix displayed more BrdU+ cells in the inner versus the outer regions. The upper exterior matrix region is the least proliferative, as it includes terminally differentiated cells of the IRS, and Gata6 loss had a subtle effect in this region by 2&#160;days post&#8208;TM. However, significant decrease in the fraction of BrdU+ cells was detectable in all other examined matrix categories within 1 and 2&#160;days of TM injection (Fig&#160;4E and F), suggesting Gata6 function is essential for normal proliferation of all matrix progenitor cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27916</offset>
+      <text>In conclusion, loss of Gata6 at anagen induced rapid DNA damage, apoptosis, and decreased proliferation in the hair follicle progenitors throughout the matrix, providing an explanation for early cessation of production in terminal differentiated lineages and collapse of hair follicle into premature catagen.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28225</offset>
+      <text>Cultured keratinocytes acquire proliferation&#8208;associated DNA damage following Gata6 loss</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28315</offset>
+      <text>To better understand the intrinsic cellular responses that occur upon Gata6 loss, we examined cultured keratinocytes isolated from the skin epithelium of Gata6 WT and iKO newborn mice. Induction of iKO by TM administration to pups prior to cell plating resulted in complete loss of colony formation and growth abilities of iKO relative to WT cells (Fig&#160;5A and B). While large colonies are seeded by keratinocyte stem cells, the subsequent cultured cells are mixtures of rare stem cells and frequent progenitor cells (Barrandon &amp; Green, 1987). The loss of colony formation ability could be explained by an effect of Gata6 on stem cells themselves or on their early progenitor cells. Thus, to test more directly the possible role in progenitor cells, we established cell lines from WT and iKO mice prior to TM induction and induced the Gata6 loss in the cultured cells. Within 3&#160;days post&#8208;induction, cells were largely lost from the dish (Fig&#160;5D), suggesting a rapid depletion of the cultured progenitor cells upon Gata6 loss. To examine the early cellular responses to Gata6 loss, we asked how quickly is Gata6 protein depleted post&#8208;induction by performing Western blots. We found that Gata6 is substantially reduced as early as 6&#160;h following TM addition to the culture medium (Fig&#160;5C). As with the hair follicle matrix cells in&#160;vivo, iKO cultured keratinocytes rapidly acquired DNA damage indicated by &#947;H2A.X foci staining, as early as 6&#160;h post&#8208;induction (Fig&#160;5E and G). We also confirmed the presence of DNA damage in keratinocytes by comet assays, using WT cells with 1&#8208;min high UV dose irradiation as positive controls (Fig&#160;5F and H). Apoptosis was not detectable in iKO cells 6&#160;h post&#8208;induction, although it was readily detectable in our control WT cells treated with high UV doses and cultured for 24&#160;h (Fig&#160;5E). These results indicated that DNA damage is an early and rapid response to Gata6 loss. Cell cycle analysis of keratinocytes at 24&#160;h post&#8208;TM induction displayed decreased proliferation in response to Gata6 loss. This was indicated by a dramatic reduction in the fraction of cells in S&#8208;phase (G1&#8208;phase was also somewhat decreased) of the cycle in the Gata6 iKO, and an increase in the G2/M&#8208;phase. These data suggest cell cycle arrest occurs in response to the observed DNA damage induced by Gata6 loss (Fig&#160;5I and J). These effects on the cell cycle were also detectable in cell culture using a knockdown approach with Gata6&#8208;specific shRNA (Appendix&#160;Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30825</offset>
+      <text>Proliferation&#8208;induced DNA damage in keratinocytes results in cell cycle arrest and cell death</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30921</offset>
+      <text>Colony formation of WT and TM&#8208;induced Gata6 iKO keratinocytes stained with hematoxylin. Primary keratinocytes were isolated from induced iKO newborn mice, plated on feeder cells, and stained with hematoxylin at day 7 after plating (top). Phase contrast images of cells are shown below. Scale bars: 30&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31230</offset>
+      <text>Quantification of colony formation from (A), average&#160;&#177;&#160;SD from n&#160;=&#160;3 mice in each genotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31327</offset>
+      <text>Western blot of WT and iKO cultured keratinocytes after 0 or 6&#160;h of tamoxifen induction, blotted with actin and Gata6 antibodies, showing a decrease in Gata6 protein levels after 6&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31513</offset>
+      <text>Phase contrast images of WT and Gata6 iKO keratinocytes 3&#160;days after induction with TM (n&#160;&gt;&#160;3 per genotype). Scale bar: 20&#160;&#956;m</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31644</offset>
+      <text>Images and quantification of DNA damage in cultured keratinocytes based on staining for DNA damage marker &#947;H2A.X (E and G) and comet assay (F and H). Scale bar: 20&#160;&#956;m. Arrowheads in (F) indicate DNA damaged cell nuclei with comet shape. Quantification of &#947;H2A.X (G) represents average&#160;&#177;&#160;SD from at least 300 cells per condition from three experiments using different cell lines. Unpaired t&#8208;test *P&#8208;values: 6&#160;h&#160;=&#160;0.01 and 24&#160;h&#160;=&#160;0.004. Quantification of comet assay (H) represents average&#160;&#177;&#160;SD (n&#160;=&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32168</offset>
+      <text>FACS cell cycle profiles and quantification show that Gata6 iKO keratinocytes show decreased proliferation and G2&#8208;M arrest. (J) Quantification of FACS cell cycle analysis represent average&#160;&#177;&#160;SD (n&#160;=&#160;3 per genotype). Unpaired t&#8208;test *P&#8208;values: G1&#160;=&#160;0.03, S&#160;=&#160;5&#160;&#215;&#160;10&#8722;4, G2&#8208;M&#160;=&#160;7&#160;&#215;&#160;10&#8722;4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32482</offset>
+      <text>Quantification of the frequency of &#947;H2A.X+ staining in keratinocytes within S&#8208;phase (EdU+) or another cell cycle stage (EdU&#8722;) following a 20&#160;min EdU pulse labeling (average&#160;&#177;&#160;SD, n&#160;=&#160;5). Unpaired t&#8208;test *P&#8208;values: WT&#160;=&#160;0.1, iKO&#160;=&#160;0.05. Mann&#8211;Whitney U&#8208;test P&#8208;values: WT&#160;=&#160;0.09, iKO&#160;=&#160;0.03.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32800</offset>
+      <text>Cultured keratinocytes were made quiescent by gradual serum depletion. (L) Quantification of EdU+ cells in proliferative and serum&#8208;depleted quiescent cells (average&#160;&#177;&#160;SD, n&#160;=&#160;4). (M) Quantification of &#947;H2A.X+ keratinocytes during proliferative and quiescent conditions (average&#160;&#177;&#160;SD, n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;value&#160;=&#160;0.04. Mann&#8211;Whitney U&#8208;test P&#8208;value&#160;=&#160;0.06.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33188</offset>
+      <text>To examine the possible relationship between replication and DNA damage in response to Gata6 iKO, we co&#8208;stained EdU&#8208;labeled cells with &#947;H2A.X and found a significantly greater proportion of &#947;H2A.X+ cells associated with EdU+ cells than EdU&#8722; cells (Fig&#160;5K). Furthermore, to test whether proliferation is necessary for Gata6 iKO cells to acquire DNA damage, we attempted to make cultured keratinocytes quiescent. A decrease in EdU labeling confirmed increased quiescence of WT and iKO cells upon gradual serum withdrawal (Fig&#160;5L). We found DNA damage indicated by &#947;H2A.X staining was decreased in quiescent cells compared to proliferative cells (Fig&#160;5M). The residual DNA damage observed in the serum&#8208;deprived iKO cells may be attributable to the incomplete cell cycle arrest, as indicated by the remaining ~10% EdU&#8208;labeled cells. These data suggested that Gata6 plays a role in protecting proliferative keratinocytes from DNA damage, cell cycle arrest, and eventual cell death with loss from the culture dish. These results were in line with the effects of Gata6 loss on the hair follicle matrix cells in&#160;vivo, suggesting that cultured keratinocytes are a good model to study in more details mechanisms of Gata6 action in skin epithelial cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34449</offset>
+      <text>Genome maintenance factors are downstream targets of Gata6</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34508</offset>
+      <text>To understand the downstream mechanisms by which Gata6 performs its cellular function in protecting the genome from DNA damage and cell cycle arrest in proliferative skin epithelial cells, we performed mRNA sequencing (RNA&#8208;seq). For this analysis, we used RNA purified from independent iKO and WT keratinocyte lines (three lines each) 6&#160;h after TM induction. 542 genes were differentially expressed by &gt;&#160;1.5&#8208;fold (adjusted P&#8208;value&#160;&lt;&#160;0.05) in Gata6 iKO compared to WT keratinocytes, with 317 up&#8208;regulated genes and 225 down&#8208;regulated genes (Fig&#160;6A and Appendix&#160;Fig S2). We selected a number of candidate genes whose mutants have similar degenerative hair follicle phenotypes to those observed in Gata6 iKO mice and confirmed their expression changes by qRT&#8211;PCR (Fig&#160;6B and C). Given the DNA damage phenotype observed both in&#160;vivo and in&#160;vitro, we were initially drawn to the significantly down&#8208;regulated genes involved in antioxidant function such as Gls2, Gclc, and Gsr, and Gstp1, which are all enzymes involved in the synthesis of the key antioxidant glutathione. However, we examined reactive oxygen species (ROS) levels with dihydroethidium staining of cells and found no significant change in Gata6 iKO keratinocytes compared to WT (Fig&#160;6D and E). Given the association of DNA damage induced by Gata6 loss with S&#8208;phase, we suspected a possible implication of replication&#8208;induced stress (Berti &amp; Vindigni, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35953</offset>
+      <text>Genome&#8208;wide transcriptional changes following Gata6 depletion</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36017</offset>
+      <text>Heatmap of differentially expressed genes (Wald test adjusted P&#8208;value&#160;&lt;&#160;0.05 and fold change &gt;&#160;1.5) from RNA&#8208;seq (n&#160;=&#160;3 different WT and iKO cell lines).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36180</offset>
+      <text>qRT&#8211;PCR validation of candidate genes selected from RNA&#8208;seq analysis using RNA from cultured cells (average&#160;&#177;&#160;SD, n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;values: Edaradd&#160;=&#160;0.03, Apcdd1&#160;=&#160;0.005, Gls2&#160;=&#160;7&#160;&#215;&#160;10&#8722;5, Ppargc1b&#160;=&#160;3&#160;&#215;&#160;10&#8722;4, Rab17&#160;=&#160;2&#160;&#215;&#160;10&#8722;5, Foxn1&#160;=&#160;0.03. Mann&#8211;Whitney U&#8208;test P&#8208;values: Edaradd&#160;=&#160;0.06, Apcdd1&#160;=&#160;0.03, Gls2&#160;=&#160;0.03, Ppargc1b&#160;=&#160;0.03, Rab17&#160;=&#160;0.03, Foxn1&#160;=&#160;0.03.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36608</offset>
+      <text>Table&#160;summarizing selection of candidate genes from (B). Genes were selected based on known function or skin phenotype related to Gata6 iKO phenotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36760</offset>
+      <text>Staining of ROS by DHE. LY83583&#8208;treated cells served as a positive control with elevated ROS. Scale bar: 10&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36876</offset>
+      <text>Quantification of fold change in ROS at 6 and 24&#160;h after TM compared to WT, based on fluorescence intensity of DHE (average&#160;&#177;&#160;SD, n&#160;=&#160;2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37020</offset>
+      <text>Analysis of transcription factor binding site overrepresentation (oPOSSUM) in differentially expressed genes from RNA&#8208;seq. Points represent transcription factors plotted as Z&#8208;score of the frequency of transcription factor binding site occurrences in the promoters of down&#8208;regulated genes compared to the background rate of occurrences in all gene promoters and Fisher P&#8208;value of the proportion of down&#8208;regulated gene promoters containing each transcription factor binding site compared to the frequency in all gene promoters.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37556</offset>
+      <text>Comparison of Gata6 iKO down&#8208;regulated genes with genes up&#8208;regulated in Eda transgenic (Tg) skin. Genes related to DNA replication and repair are found in the set of genes shared between the two datasets.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37765</offset>
+      <text>qRT&#8211;PCR of selected genes found to be overlapping between Gata6 iKO and Eda transgenic analyzed in Gata6 WT and iKO keratinocytes (average&#160;&#177;&#160;SD, n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;values: Mcm3&#160;=&#160;0.001, Mcm6&#160;=&#160;0.02, Mcm10&#160;=&#160;0.04, Exo1&#160;=&#160;0.02, Pold1&#160;=&#160;0.02. Mann&#8211;Whitney U&#8208;test P&#8208;values: Mcm3&#160;=&#160;0.03, Mcm6&#160;=&#160;0.03, Mcm10&#160;=&#160;0.03, Exo1&#160;=&#160;0.03, Pold1&#160;=&#160;0.06.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38147</offset>
+      <text>To better understand the various downstream processes and pathways Gata6 may be affecting, we conducted gene ontology and transcription factor binding site enrichment analyses on the differentially expressed genes. Gene ontology analyses revealed that among the down&#8208;regulated genes, there was an overrepresentation of genes related to cell cycle and cell proliferation, as well as DNA metabolism, which included a number of genes related to DNA replication as well as repair (Appendix&#160;Table&#160;S1). Additionally, we conducted transcription factor binding site enrichment analyses on the promoters of the genes changed in response to Gata6 loss using the oPOSSUM database (Ho Sui et&#160;al, 2005). Interestingly, the most significantly overrepresented transcription factor conserved binding site in the putative promoters of Gata6 down&#8208;regulated genes was that of NF&#8208;&#954;B (Fig&#160;6F and Appendix&#160;Table&#160;S2). NF&#8208;&#954;B has an established role in regulating proliferation, DNA repair, and apoptosis especially in response to stress (Janssens &amp; Tschopp, 2006). Furthermore, inhibition of the NF&#8208;&#954;B pathway has been shown to have a phenotype in hair follicles resembling the premature degeneration seen in the of Gata6 iKO (Sayama et&#160;al, 2010). Together, this suggested the possibility that Gata6 may be maintaining hair follicle progenitor cells indirectly, through activation of the NF&#8208;&#954;B pathway, thus preventing accumulation of DNA damage and apoptosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39607</offset>
+      <text>One of the genes we found to be down&#8208;regulated in our RNA&#8208;seq analysis was Edaradd (Fig&#160;6B and C), which is linked with Eda and NF&#8208;&#954;B signaling and has established roles in hair morphogenesis and in the hair cycle (Mustonen et&#160;al, 2003; Cui &amp; Schlessinger, 2006; Kloepper et&#160;al, 2014). We also found the NF&#8208;&#954;B activator TNF&#8208;&#945; was down&#8208;regulated as well in response to Gata6 loss. TNF&#8208;&#945; has also been reported to have effects on hair follicle growth (Tong &amp; Coulombe, 2006; Chen et&#160;al, 2015). To address which genes downstream of Gata6 may be regulated by Edar&#8208;NF&#8208;&#954;B signaling, we compared the genes down&#8208;regulated by Gata6 loss with those that were previously found to be up&#8208;regulated by Eda overexpression (Cui et&#160;al, 2006). Interestingly, among the 34 genes we found to be shared between the two sets (Appendix&#160;Table&#160;S3), a handful, including MCM 3, 6 and 10, were involved in DNA replication and repair and showed expected down&#8208;regulation of gene expression by qRT&#8211;PCR (Fig&#160;6H). Loss of these genes could potentially explain the observed DNA damage induced by Gata6 iKO in proliferative cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40743</offset>
+      <text>Gata6 augments Edaradd expression and NF&#8208;&#954;B signaling in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40809</offset>
+      <text>The known interactions among Eda, Edaradd, and NF&#8208;&#954;B (Headon et&#160;al, 2001) and their implication in DNA damage, proliferation, and apoptosis prompted us to further explore a potential upstream role of Gata6 in regulating this pathway in the hair follicle (Fig&#160;7A). To confirm that Edaradd is down&#8208;regulated by the Gata6 iKO in the skin in&#160;vivo, we first performed qRT&#8211;PCR from total skin RNA. As seen previously in cultured keratinocytes (Fig&#160;6B), Edaradd mRNA was significantly down&#8208;regulated in Gata6 iKO skin compared to WT (Fig&#160;7B). Western blotting showed a similar depletion of the Edaradd protein in Gata6 iKO skin compared with WT and reduction of NF&#8208;&#954;B protein phospho&#8208;p65 (Serine 536) (Fig&#160;7D). Moreover, immunofluorescence staining and quantification confirmed reduced Edaradd protein and of NF&#8208;&#954;B protein phospho&#8208;p65 (Serine 536) within the hair follicle matrix during anagen, in Gata6 iKO skin (Fig&#160;7E&#8211;H). Immunofluorescence signal was cytoplasmic as expected from this form of serine phosphorylated NF&#8208;&#954;B (Sakurai et&#160;al, 2003; Moreno et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41903</offset>
+      <text>Edaradd&#8211;NF&#8208;&#954;B signaling is downstream of Gata6</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41955</offset>
+      <text>Model of potential Gata6 role upstream of Edaradd/NF&#8208;&#954;B.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42016</offset>
+      <text>qRT&#8211;PCR confirmation of the change in Edaradd mRNA expression in&#160;vivo from mouse whole skin (average&#160;&#177;&#160;SD, 1&#160;day n&#160;=&#160;3, 2&#160;days n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;values: 1&#160;day&#160;=&#160;0.02, 2&#160;days&#160;=&#160;0.05. Mann&#8211;Whitney U&#8208;test P&#8208;values: 1&#160;day&#160;=&#160;0.06, 2&#160;days&#160;=&#160;0.03.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42300</offset>
+      <text>ChIP&#8208;qPCR for Gata6 at three conserved binding sites within the Edaradd promoter. GAPDH served as a negative control. Binding sites 1, 2, and 3 are located 50&#160;bp, 1&#160;kb, and 1.5&#160;kb upstream of the transcription start site, respectively (average&#160;&#177;&#160;SD, n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;values GAPDH&#160;=&#160;0.4, 1&#160;=&#160;0.002, 2&#160;=&#160;0.8, 3&#160;=&#160;0.2. Mann&#8211;Whitney U&#8208;test P&#8208;values: GAPDH&#160;=&#160;0.3, 1&#160;=&#160;0.06, 2&#160;=&#160;0.9, 3&#160;=&#160;0.2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42733</offset>
+      <text>Western blot from whole&#8208;skin lysate. Note decrease in Edaradd and activated pNF&#8208;&#954;B in the iKO.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42833</offset>
+      <text>Staining for Edaradd and quantification show decrease in Edaradd protein levels in the matrix of Gata6 iKO. Scale bar: 30&#160;&#956;m. Unpaired t&#8208;test *P&#8208;value&#160;=&#160;3.5&#160;&#215;&#160;10&#8722;14. n&#160;=&#160;100 follicles from three mice per genotype. Box spans the first quartile (Q1, bottom) to the third quartile (Q3, top), the horizontal line within the box represents the median, the whiskers extend from (Q1 or Q3 + 1.5)*(Q3&#8208;Q1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43248</offset>
+      <text>Staining for pNF&#8208;&#954;B and quantification show decrease in active NF&#8208;&#954;B in the Gata6 iKO matrix. Scale bar: 30&#160;&#956;m. Unpaired t&#8208;test *P&#8208;value&#160;=&#160;2.2&#160;&#215;&#160;10&#8722;16. n&#160;=&#160;50 follicles from three mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43455</offset>
+      <text>Rescue of Gata6 iKO keratinocyte growth by transfection with pGata6 or pEdaradd. Cell plates of keratinocytes are stained with Rhodanile Blue (n&#160;=&#160;3 cell lines each).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43624</offset>
+      <text>Quantification of &#947;H2A.X in cells stably transfected with pMock, pGata6, or pEdaradd plasmids, followed by induction with TM for 6&#160;h (average&#160;&#177;&#160;SD, n&#160;=&#160;4 with &gt;&#160;500 cells counted per condition). Unpaired t&#8208;test *P&#8208;values&#160;=&#160;2&#160;&#215;&#160;10&#8722;4 (iKO pGata6 versus pMock), 2&#160;&#215;&#160;10&#8722;4 (iKO pEdaradd versus pMock).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43945</offset>
+      <text>qRT&#8211;PCR analysis of Mcm10 expression in pMock, pGata6, and pEdaradd WT and iKO expressing cells (average&#160;&#177;&#160;SD, n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;values: 8&#160;&#215;&#160;10&#8722;4 (iKO pGata6 versus pMock), 0.03 (iKO pEdaradd versus pMock). Mann&#8211;Whitney U&#8208;test P&#8208;values: 0.03 (iKO pGata6 versus pMock), 0.03 (iKO pEdaradd versus pMock).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44279</offset>
+      <text>To test whether Gata6 may directly bind to the Edaradd promoter to activate its transcription, we performed chromatin immunoprecipitation (ChIP) with a Gata6&#8208;specific antibody on chromatin prepared from Gata6 WT and iKO cultured keratinocytes. The Gata6 bound chromatin was then analyzed by qPCR using primers for three regions within the Edaradd promoter (0.1, 1 and 1.5&#160;kb upstream) that contained Gata6 binding sites conserved between mouse and human sequences (Fig&#160;7C). We found significant enrichment over background at the 0.1&#160;kb binding site and also found that Gata6 binding was depleted from this site in iKO cells. Thus, we suggest Gata6 activates Edaradd transcription by directly binding its promoter although additional promoter bashing and mutagenesis assays will be required to firmly establish this direct link. Thus, our data show that Gata6 regulates Edaradd expression and NF&#8208;&#954;B signaling in&#160;vivo, which may at least in part protect the hair follicle progenitor cells from DNA damage and premature apoptosis. We suggest that this regulation may occur through direct binding of the Edaradd promoter, although additional mechanisms may not be excluded by our data.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45470</offset>
+      <text>Edaradd overexpression partially rescues Gata6 iKO keratinocytes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45535</offset>
+      <text>To examine how important Edaradd levels are downstream of Gata6 in cultured cells to control DNA damage, cell proliferation, and cell survival, we asked whether overexpression of Edaradd can rescue the Gata6 iKO keratinocyte cultures. WT and iKO keratinocytes were stably transfected with either plasmid containing Edaradd, Gata6 as a positive control, or the empty plasmid backbone as a negative control. Stable transfection of cells with Gata6 or Edaradd plasmids resulted in overexpression of the respective genes (Fig&#160;EV5A). After TM induction of Gata6 iKO, unlike control&#8208;transfected cells that did not grow, both Gata6 and Edaradd transfected cultures contained cells survived Gata6 iKO and continued to proliferate forming large colonies (Figs&#160;7I and EV5B). We also examined a potential direct link between Edaradd and the NF&#8208;&#954;B activation downstream of Gata6 in cultured keratinocytes, but results were variable and inconclusive (data not shown). As shown in the previous section, this variability was not observed in&#160;vivo where NF&#8208;&#954;B activity appeared consistently down&#8208;regulated upon Gata6 loss (Fig&#160;7D&#8211;H). This discrepancy may indicate transient and compensatory effects on the activity of NF&#8208;&#954;B in&#160;vitro due to cells being more dependent on this pathway in the stressful cell culture environment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>46864</offset>
+      <text>Overexpression of Edaradd rescues Gata6 iKO keratinocytes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46922</offset>
+      <text>qRT&#8211;PCR analysis of Gata6 and Edaradd in Gata6 WT and iKO stably transfected with pMock, pGata6, or pEdaradd (average&#160;&#177;&#160;SD, n&#160;=&#160;4).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47061</offset>
+      <text>Phase contrast images of keratinocytes from cells stably transfected with empty plasmid, pGata6, or pEdaradd. Scale bars: 20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47192</offset>
+      <text>qRT&#8211;PCR of selected genes found to be overlapping between Gata6 iKO and Eda transgenic analyzed in Gata6 WT and iKO keratinocytes stably expressing pMock, pGata6, or pEdaradd (average&#160;&#177;&#160;SD, n&#160;=&#160;4). Unpaired t&#8208;test *P&#8208;values: 8&#160;&#215;&#160;10&#8722;4 (iKO pGata6 versus pMock), 0.03 (iKO pEdaradd versus pMock). Mann&#8211;Whitney U&#8208;test P&#8208;values: 0.03 (iKO pGata6 versus pMock), 0.03 (iKO pEdaradd versus pMock).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47605</offset>
+      <text>Analysis of DNA damage by &#947;H2A.X immunofluorescence staining in the transfected cells shows that keratinocytes overexpressing either Gata6 or Edaradd do not accumulate DNA damage in response to Gata6 loss, demonstrating a rescue of this phenotype (Fig&#160;7J). We next investigated whether this rescue of the DNA damage phenotype was related to the DNA replication and repair genes we found in common between Gata6 and Eda expression datasets (Fig&#160;EV5C). While Mcm3, Mcm6, and Exo1 showed modest increases in expression in response to Gata6 and Edaradd overexpression, Mcm10 was significantly increased compared to mock transfected cells consistent with a role in the observed DNA damage rescue (Fig&#160;7K). Interestingly, in addition to its role in DNA replication initiation (Homesley et&#160;al, 2000), Mcm10 resists DNA damage and genomic instability by maintaining replication fork processivity and interacting with the Rad9&#8208;Hus1&#8208;Rad1 DNA repair complex (Chattopadhyay &amp; Bielinsky, 2007; Alver et&#160;al, 2014; Becker et&#160;al, 2014; Miotto et&#160;al, 2014). Our result suggests that Edaradd plays an essential role downstream of Gata6 in cultured keratinocytes, possibly through MCM10, to protect rapidly proliferating skin epithelial cells from cell death and to promote their survival and proliferation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48906</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48917</offset>
+      <text>Here, we implicate Gata6, a developmental transcription factor whose function was previously thought restricted to differentiation of endoderm and mesoderm&#8208;derived lineages (Molkentin, 2000; Maeda et&#160;al, 2005), in the regulation of adult homeostasis in an ectoderm&#8208;derived tissue. Specifically, we find that Gata6 is expressed in the hair follicle's early progenitor cells (hair germ) at the transition between telogen (rest phase) and anagen (growth phase) and in the mature progenitor cells (matrix) at anagen. We show that Gata6 plays essential roles in adult hair homeostasis (cycle) regulation at both phases, as follows. First, loss of Gata6 from the epithelium prior to telogen/anagen transition blocks the progression of hair follicle into anagen by impairing activation and degeneration of early progenitor (hair germ cells). Second, loss of Gata6 induced during anagen resulted in premature catagen followed by telogen, due to what appear to be defects in maintenance and self&#8208;renewal of the matrix progenitor cells. Since at least two transcription factors (e.g. Runx1 and Stat3) have already been implicated in control of early progenitor activation at the telogen/anagen transition (Sano et&#160;al, 1999, 2000; Osorio et&#160;al, 2008, 2011; Hoi et&#160;al, 2010; Lee et&#160;al, 2014), we focused our attention on the matrix maintenance phenotype during anagen, a process not currently well understood (Fig&#160;1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50336</offset>
+      <text>Hair follicle matrix cells have been deemed one of the most proliferative cell populations of any mammalian tissue (Lehrer et&#160;al, 1998). These cells must cope with high replication&#8208;associated DNA damage to ensure that genomic integrity is preserved. We find that Gata6 is essential for the adult hair follicle progenitor (matrix) cells to self&#8208;renew during the hair growth (anagen) phase while Gata6 is dispensable for their terminal differentiation. Gata6 loss resulted in rapid accumulation of DNA damage, impaired proliferation, and apoptosis of the matrix progenitor cells. This coupled with continuous production of differentiation lineages (IRS, cortex, and lower ORS in the bulb) causes rapid exhaustion of the matrix progenitor cells and leads to an early dystrophic catagen, as previously reported in hair follicles severely damaged by chemotherapy and irradiation (Hendrix et&#160;al, 2005).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51239</offset>
+      <text>Based on genes changed in our RNA&#8208;seq analysis, we tested ROS as a possible source of DNA damage. While we did not find ROS levels significantly increased upon Gata6 loss, it remains possible that impaired protection from oxidative stress contributes to the observed DNA damage phenotype. Importantly, we find that active passage through the cell cycle is deterministic of the level of DNA damage in Gata6&#8208;deficient cells and is increased in S&#8208;phase. This is consistent with replication&#8208;induced genotoxic stress and is supported by misregulation of expression in a number of replication&#8208;associated genes upon Gata6 loss. Most notable are the minichromosome maintenance proteins Mcm3, Mcm6, and Mcm10, which are absolutely needed for DNA replication initiation, and even moderate decreases in the level of these proteins can cause genomic instability (Chuang et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52122</offset>
+      <text>Given the large number of genes that change expression upon Gata6 loss, the mechanisms operating downstream are likely to be complex and involve additional direct and indirect target genes. A handful of genes we found changed have been previously implicated in hair follicle growth regulation in&#160;vivo (Headon et&#160;al, 2001; St&#8208;Pierre et&#160;al, 2006; Weiner et&#160;al, 2007; Hu et&#160;al, 2010b; Shimomura et&#160;al, 2010; Beaumont et&#160;al, 2011; Giacobbe et&#160;al, 2013; Shoag et&#160;al, 2013). Of these, Edaradd, previously identified as a death domain adapter, is known to promote Eda/Edar signaling, which plays a well&#8208;established role in hair follicle morphogenesis and control of hair cycle, in anagen length and apoptosis during catagen (Mustonen et&#160;al, 2003; Cui &amp; Schlessinger, 2006; Fessing et&#160;al, 2006). Furthermore, Edaradd is known to link Edar signaling to the NF&#8208;&#954;B and JNK pathways (Headon et&#160;al, 2001; Kumar et&#160;al, 2001; Cui et&#160;al, 2002; Yan et&#160;al, 2002). Inhibition of NF&#8208;&#954;B in the hair follicle is associated with increased apoptosis (Schmidt&#8208;Ullrich et&#160;al, 2001; Kloepper et&#160;al, 2014), as is also observed in Edar mutants (Fessing et&#160;al, 2006). The observed Gata6 iKO phenotypes also resemble those of hair follicles from Tak1&#8208;deficient mice (an activator of NF&#8208;&#954;B, as well as JNK and TGF&#8208;&#946;/Smad pathways), which undergo G2/M cell cycle arrest, increased apoptosis, and premature catagen (Sayama et&#160;al, 2006, 2010; Omori et&#160;al, 2008). Additionally, NF&#8208;&#954;B has been shown to activate Shh expression in the hair matrix, which is associated with matrix cell proliferation (Hammerschmidt &amp; Schlake, 2007; Xiong et&#160;al, 2013). Identification of GATA binding sites in the enhancer of the ligand Eda led to early speculation of a link (Pengue et&#160;al, 1999). In the hair follicle, we find that of 542 genes that change downstream of Gata6, 405 had conserved NF&#8208;&#954;B binding sites; of these, 397 also had Gata6 conserved binding sites suggesting possible co&#8208;regulation by Gata6 and NF&#8208;&#954;B. Here, we provide evidence that Gata6 is essential for Edaradd expression and for constitutive activation of NF&#8208;&#954;B in matrix cells in&#160;vivo during normal growth of the adult hair follicle. Our data in cell culture suggest that Gata6 may bind the Edaradd promoter and that activation of Edarrad transcription may further control MCM10 expression. Although loss of Gata6 and Edar or NF&#8208;&#954;B both display increased apoptosis, Gata6 iKO hairs undergo a more robust degeneration compared to the premature catagen observed in the latter (Fessing et&#160;al, 2006; Kloepper et&#160;al, 2014). This discrepancy is likely due to the down&#8208;regulation of other target genes and pathways that may also contribute to Gata6's protective function (Fig&#160;8).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>54881</offset>
+      <text>Model for the role of Gata6 in hair follicle progenitor cell survival through genome maintenance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54978</offset>
+      <text>&#160;</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54981</offset>
+      <text>Our study in the hair follicle may shed new light on how Gata6 functions during tissue growth. As seen in studies of other tissues (Zhang et&#160;al, 2008), we observed that differentiated lineages are either not produced (telogen induction) or prematurely cease to be produced (anagen induction). However, taking advantage of the distinct compartmentalization of progenitor and differentiated cells and timing of events in the hair follicle, our study clearly demonstrates that terminal differentiation can occur in the absence of Gata6 but that impairment in production of differentiated lineages is an indirect consequence of defective early progenitor cell activation (telogen induction) or self&#8208;renewal/genome maintenance and cell survival of mature progenitor cells (anagen induction). In light of our findings, it may be interesting to consider this alternative interpretation for the previously observed differentiation defects in other tissues.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55933</offset>
+      <text>In addition to its role in development, Gata6 is frequently found to be amplified or overexpressed in various epithelial cancers such as colon (Shureiqi et&#160;al, 2007), pancreatic (Zhong et&#160;al, 2011), esophageal (Lin et&#160;al, 2012), and gastric carcinomas (Sulahian et&#160;al, 2013). Knockdown of Gata6 in these cancer cells is associated with decreased proliferation and apoptosis, and moreover, Gata6 copy number is significantly correlated with patient survival (Zhong et&#160;al, 2011; Lin et&#160;al, 2012; Shen et&#160;al, 2013). Our study points toward Edaradd&#8208;NF&#8208;&#954;B as a potential mediator of Gata6's survival abilities, and therefore, a possible therapeutic target to be examined in the future for Gata6 amplified cancers.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56654</offset>
+      <text>In conclusion, our current study adds to very recent publications (Lamm et&#160;al, 2016; Petroni et&#160;al, 2016) in suggesting that highly proliferative cells, such as the progenitor cells of the hair follicle and the brain, as well as embryonic stem cells employ developmentally controlled transcription factors (i.e. SRF, MYCN, and now Gata6) to protect against increased risk of genotoxic stress associated with rapid proliferation. Intriguingly, we find that MYCN binding sites were second most enriched (after NF&#8208;&#954;B) on our list of transcription factors potentially associated with Gata6 function (Appendix Table&#160;S2). We propose that proliferative cells cope with their increased vulnerability to replication&#8208;associated stress and genomic instability that may lead to cancer by employing developmentally regulated transcription factors. This occurs at critical stages to augment components of the DNA replication and DNA damage complexes, as a means to coordinate and sustain normal and rapid tissue growth.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57668</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57690</offset>
+      <text>Mice</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57695</offset>
+      <text>For matrix lineage tracing, inducible multicolor reporter mice were generated by crossing &#946;&#8208;actin&#8208;CreER mice with R26R&#8208;Confetti (Snippert et&#160;al, 2010). The &#946;&#8208;actin&#8208;CreER+:Confetti+ progeny were induced with either a high dose of tamoxifen dissolved in corn oil (100&#160;&#956;g/g body weight; Sigma) or a low dose for inefficient labeling and clonal lineage tracing (20&#160;&#956;g/g body weight). For Gata6 iKO experiments, Gata6fl/fl mice (Gata6tm2.1Sad; Jackson Laboratories) (Sodhi et&#160;al, 2006) were crossed with transgenic K14&#8208;CreERT2 (Li et&#160;al, 2000). Mice were genotyped from tail snip DNA as described by Sodhi et&#160;al (2006) (Fig&#160;EV1D). CreERT2 was activated by a single intraperitoneal injection of tamoxifen dissolved in corn oil (100&#160;&#956;g/g body weight). For BrdU experiments, mice were injected intraperitoneally with 50&#160;&#956;g/g body weight BrdU in PBS. All mouse work was approved by the Cornell University IACUC.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58625</offset>
+      <text>Immunofluorescence staining, microscopy, and image processing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58687</offset>
+      <text>Mouse back skin was embedded in optimal cutting temperature compound, frozen, cryosectioned, fixed, immunoblocked, and incubated with antibodies. Cultured keratinocytes were grown on glass coverslips, fixed, immunoblocked, and incubated with antibodies. Antibodies and dilutions used were rat anti&#8208;BrdU (1:300; Abcam ab6326), rabbit anti&#8208;active caspase&#8208;3 (1:500; R&amp;D Systems AF835), mouse anti&#8208;AE13 (1:50; Immunoquest IQ292), mouse anti&#8208;AE15 (1:10; gift from T. T. Sun, New York University), rat anti&#8208;CD34 (1:50; BD Biosciences 553731), mouse anti&#8208;GATA3 (1:100; Santa Cruz Biotechnology sc&#8208;268), goat anti&#8208;GATA6 (1:200; R&amp;D Systems AF1700), mouse anti&#8208;&#947;H2A.X (1:200; Millipore 05&#8208;636), mouse anti&#8208;K14 (1:300; Abcam ab7800), rabbit anti&#8208;Edaradd (1:100; Abcam ab124484), and rabbit anti&#8208;NF&#8208;&#954;B p65 Ser536 (1:100; Cell Signaling 3033). When using mouse primary antibodies, endogenous mouse antigens were blocked using the M.O.M. basic kit (Vector Laboratories). Signal from Edaradd and NF&#8208;&#954;B stainings were amplified using TSA plus fluorescein system (PerkinElmer). Imaging was performed on a fluorescence light microscope (Nikon) with a Retiga EXi 12&#8208;bit CCD digital camera (QImaging) using the IP&#8208;Lab software (MVI). Images were assembled into montages in Photoshop (Adobe), and brightness, contrast, and levels were adjusted to the same extent for all samples within the same experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60113</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60126</offset>
+      <text>Mouse keratinocytes were isolated from newborn epidermis, cultured in low&#8208;Ca2+ keratinocyte E media (Tumbar, 2006), and were used between passage seven and ten. K14&#8208;CreERT2 was induced with 1&#160;&#956;M 4&#8208;hydroxytamoxifen. For comet assays, cells were analyzed under alkaline conditions by CometAssay Electrophoresis kit (Trevigen). For serum starvation experiment, serum levels were decreased over 3&#160;days to maintain cells in quiescence without undergoing apoptosis according to the following protocol: cells grown to subconfluence in standard 15% serum media, 2&#160;days in 7.5% serum media, 1&#160;day in 3.75% serum media. Proliferation was assessed by EdU labeling and staining (Molecular Probes). Cell cycle analysis was conducted by labeling with BrdU Flow kit (BD Biosciences) and analyzed on a BD LSRII Flow Cytometer. For rescue experiments, stably transfected cell lines were generated by co&#8208;transfection of pCMV&#8208;Tag2B&#8208;GATA6 (gift from E. Morrisey, University of Pennsylvania) or pSG5&#8208;HA&#8208;Edaradd (gift from D. Headon, University of Edinburgh) with empty backbone plasmid and TransFectin (Bio&#8208;Rad) followed by selection with G418 (Sigma). Stably transfected cells were subsequently treated with tamoxifen for Cre induction of&#160;the Gata6 iKO. Knockdown experiments were conducted with&#160;transfection of Gata6 and scrambled shRNA vectors (OriGene).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61488</offset>
+      <text>qRT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61498</offset>
+      <text>Total RNA was isolated from cultured keratinocytes or mouse back skin using RNeasy Mini kit (Qiagen) and DNase treated (Ambion). All RNA samples were quality checked with an Agilent 2100 Bioanalyzer through the Cornell Biotechnology Resource Center. cDNA was synthesized using the iScript kit (Bio&#8208;Rad). qRT&#8211;PCR was conducted using homebrew SYBR Green PCR buffer, and an iCycler PCR machine (Bio&#8208;Rad) was used to measure fluorescence. Primers used are listed in Appendix&#160;Table&#160;S4.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61987</offset>
+      <text>RNA&#8208;seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61997</offset>
+      <text>Total RNA was prepared as described above. RNA&#8208;seq libraries were prepared using an Illumina TruSeq RNA Sample Prep Kit v2 then submitted to the Cornell Biotechnology Resource Center for sequencing with an Illumina HiSeq 2000. Differential expression of the RNA&#8208;seq data was performed using DEseq2 (Love et&#160;al, 2014). Gene ontology analyses were performed with DAVID (Huang et&#160;al, 2009a,b). Enrichment of conserved transcription factor binding sites were performed with oPOSSUM (Ho Sui et&#160;al, 2005, 2007; Kwon et&#160;al, 2012), searching 10&#160;kb upstream and downstream of the transcription start sites of differentially expressed genes for transcription factor binding motifs with a PhastCons conservation cutoff of 0.4 and comparing to the background database of all mouse genes. List of Eda transgenic skin up&#8208;regulated genes was obtained from GEO GSE6952 (Cui et&#160;al, 2006). The RNA&#8208;seq data from this publication have been submitted to the GEO database (http://www.ncbi.nlm.nih.gov/geo/) and will be available with the accession number GSE80354.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>63055</offset>
+      <text>ChIP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63060</offset>
+      <text>Cells were fixed in 1% formaldehyde and sonicated with a Sonic Dismembrator 100 (Fisher) to obtain fragments between 300 and 600&#160;bp. Immunoprecipitations were performed using rabbit anti&#8208;GATA6 antibody (H&#8208;92, Santa Cruz sc&#8208;9055), rabbit IgG (Cell Signaling Technology), and protein A agarose beads (Millipore). Following immunoprecipitation, PCR purification kit (Qiagen) was used to purify DNA. ChIP signals were calculated by qPCR based on serial dilutions of input DNA standards. Primers were designed against regions in the Edaradd promoter that contained conserved Gata6 binding sites identified by Whole Genome rVista (Zambon et&#160;al, 2005). Primers used for ChIP&#8208;qPCR are listed in Appendix Table&#160;S4.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>63777</offset>
+      <text>Western blot</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63790</offset>
+      <text>Total protein extracts from keratinocytes were subjected to SDS&#8211;PAGE and Western blot analysis. Blots were probed with mouse anti&#8208;actin (1:8,000; Millipore MAB1501), rabbit anti&#8208;GATA6 (1:500; H&#8208;92, Santa Cruz sc&#8208;9055), rabbit anti&#8208;Edaradd (1:1,000; Abcam ab124484), and rabbit anti&#8208;NF&#8208;&#954;B p65 Ser536 (1:1,000; Cell Signaling 3033) antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64149</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64170</offset>
+      <text>For statistical analysis, we compare WT and iKO samples from n&#160;&gt;&#160;3 mice or independent cell lines per group by unpaired t&#8208;test. We assumed equal variance among the groups, and P&#8208;values&#160;&#8804;&#160;0.05 were considered significant. Since the small group size characteristic to biological samples does not allow accurate assessment of normal distribution of variances, P&#8208;values close to 0.05 in unpaired t&#8208;test indicate moderate proof of significance. To augment our statistical analyses, for some of our data we used a second, more conservative nonparametric test (e.g. Mann&#8211;Whitney U&#8208;test), which does not require assumption about normality or variances. These calculated P&#8208;values are shown in figure legend.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>64889</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64910</offset>
+      <text>YVZ conducted microarray identification of Gata6 in the hair follicle, qRT&#8211;PCR confirmation, colony formation assay, keratinocyte isolation, and contributed to hematoxylin, Gata6, and &#947;H2A.X staining of skin. All other experiments were conducted by ABW. ABW, YVZ, and TT designed the project. ABW and TT wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>65240</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65261</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>65321</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>65344</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">612</infon>
+      <infon key="pub-id_pmid">26046760</infon>
+      <infon key="fpage">601</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65355</offset>
+      <text>Aging&#8208;induced stem cell mutations as drivers for disease and cancer</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26456157</infon>
+      <infon key="fpage">8548</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65425</offset>
+      <text>Replication stress caused by low MCM expression limits fetal erythropoiesis and hematopoietic stem cell functionality</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">8404</infon>
+      <infon key="pub-id_pmid">24972833</infon>
+      <infon key="fpage">8389</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65543</offset>
+      <text>The N&#8208;terminus of Mcm10 is important for interaction with the 9&#8208;1&#8208;1 clamp and in resistance to DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">84</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">2306</infon>
+      <infon key="pub-id_pmid">2436229</infon>
+      <infon key="fpage">2302</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>65655</offset>
+      <text>Three clonal types of keratinocyte with different capacities for multiplication</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Traffic</infon>
+      <infon key="lpage">643</infon>
+      <infon key="pub-id_pmid">21291502</infon>
+      <infon key="fpage">627</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>65735</offset>
+      <text>The recycling endosome protein Rab17 regulates melanocytic filopodia formation and melanosome trafficking</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">1748</infon>
+      <infon key="pub-id_pmid">24674891</infon>
+      <infon key="fpage">1737</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65841</offset>
+      <text>Mcm10 deficiency causes defective&#8208;replisome&#8208;induced mutagenesis and a dependency on error&#8208;free postreplicative repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">109</infon>
+      <infon key="pub-id_pmid">26840898</infon>
+      <infon key="fpage">103</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>65965</offset>
+      <text>Replication stress: getting back on track</text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Gastroenterology</infon>
+      <infon key="lpage">1229.e2</infon>
+      <infon key="pub-id_pmid">21262227</infon>
+      <infon key="fpage">1219</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>66007</offset>
+      <text>GATA factors regulate proliferation, differentiation, and gene expression in small intestine of mature mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">3402</infon>
+      <infon key="pub-id_pmid">22733991</infon>
+      <infon key="fpage">3392</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>66115</offset>
+      <text>GATA6 is required for proliferation, migration, secretory cell maturation, and gene expression in the mature mouse colon</text>
+    </passage>
+    <passage>
+      <infon key="volume">326</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">430</infon>
+      <infon key="pub-id_pmid">19103190</infon>
+      <infon key="fpage">420</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>66236</offset>
+      <text>Genetic interplays between Msx2 and Foxn1 are required for Notch1 expression and hair shaft differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">4095</infon>
+      <infon key="pub-id_pmid">17699597</infon>
+      <infon key="fpage">4085</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>66344</offset>
+      <text>Human Mcm10 regulates the catalytic subunit of DNA polymerase&#8208;alpha and prevents DNA damage during replication</text>
+    </passage>
+    <passage>
+      <infon key="volume">485</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">108</infon>
+      <infon key="pub-id_pmid">22495305</infon>
+      <infon key="fpage">104</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>66457</offset>
+      <text>An RNA interference screen uncovers a new molecule in stem cell self&#8208;renewal and long&#8208;term regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">161</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">290</infon>
+      <infon key="pub-id_pmid">25860610</infon>
+      <infon key="fpage">277</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>66565</offset>
+      <text>Organ&#8208;level quorum sensing directs regeneration in hair stem cell populations</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">733</infon>
+      <infon key="pub-id_pmid">24315444</infon>
+      <infon key="fpage">720</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>66645</offset>
+      <text>Distinct functions for Wnt/&#946;&#8208;catenin in hair follicle stem cell proliferation and survival and interfollicular epidermal homeostasis</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">20838603</infon>
+      <infon key="fpage">e1001110</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66781</offset>
+      <text>Incremental genetic perturbations to MCM2&#8208;7 expression and subcellular distribution reveal exquisite sensitivity of mice to DNA replication stress</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">1773</infon>
+      <infon key="pub-id_pmid">12095918</infon>
+      <infon key="fpage">1763</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>66930</offset>
+      <text>EDA targets revealed by skin gene expression profiles of wild&#8208;type, Tabby and Tabby EDA&#8208;A1 transgenic mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">2483</infon>
+      <infon key="pub-id_pmid">17102627</infon>
+      <infon key="fpage">2477</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>67041</offset>
+      <text>EDA signaling and skin appendage development</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">9147</infon>
+      <infon key="pub-id_pmid">16738056</infon>
+      <infon key="fpage">9142</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>67086</offset>
+      <text>Ectodysplasin regulates the lymphotoxin&#8208;beta pathway for hair differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">4568</infon>
+      <infon key="pub-id_pmid">10498690</infon>
+      <infon key="fpage">4557</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>67166</offset>
+      <text>Multiple roles for activated LEF/TCF transcription complexes during hair follicle development and differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2319</infon>
+      <infon key="pub-id_pmid">11544187</infon>
+      <infon key="fpage">2307</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>67280</offset>
+      <text>The transcriptional repressor CDP (Cutl1) is essential for epithelial cell differentiation of the lung and the hair follicle</text>
+    </passage>
+    <passage>
+      <infon key="volume">169</infon>
+      <infon key="source">Am J Pathol</infon>
+      <infon key="lpage">2084</infon>
+      <infon key="pub-id_pmid">17148670</infon>
+      <infon key="fpage">2075</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>67405</offset>
+      <text>Involvement of the Edar signaling in the control of hair follicle involution (catagen)</text>
+    </passage>
+    <passage>
+      <infon key="volume">512</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">202</infon>
+      <infon key="pub-id_pmid">25079315</infon>
+      <infon key="fpage">198</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>67492</offset>
+      <text>Replication stress is a potent driver of functional decline in ageing haematopoietic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">327</infon>
+      <infon key="pub-id_pmid">24012369</infon>
+      <infon key="fpage">314</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>67588</offset>
+      <text>Architectural niche organization by LHX2 is linked to hair follicle stem cell function</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">48</infon>
+      <infon key="pub-id_pmid">23229591</infon>
+      <infon key="fpage">39</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>67675</offset>
+      <text>A matter of life and death: self&#8208;renewal in stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="lpage">1405</infon>
+      <infon key="pub-id_pmid">23574722</infon>
+      <infon key="fpage">1395</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>67732</offset>
+      <text>p63 regulates glutaminase 2 expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">305</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">261</infon>
+      <infon key="pub-id_pmid">17376426</infon>
+      <infon key="fpage">246</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>67771</offset>
+      <text>Localization of Shh expression by Wnt and Eda affects axial polarity and shape of hairs</text>
+    </passage>
+    <passage>
+      <infon key="volume">414</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">916</infon>
+      <infon key="pub-id_pmid">11780064</infon>
+      <infon key="fpage">913</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>67859</offset>
+      <text>Gene defect in ectodermal dysplasia implicates a death domain adapter in development</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="source">J Invest Dermatol</infon>
+      <infon key="lpage">51</infon>
+      <infon key="pub-id_pmid">15982301</infon>
+      <infon key="fpage">42</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>67944</offset>
+      <text>A guide to assessing damage response pathways of the hair follicle: lessons from cyclophosphamide&#8208;induced alopecia in mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">3164</infon>
+      <infon key="pub-id_pmid">15933209</infon>
+      <infon key="fpage">3154</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>68069</offset>
+      <text>oPOSSUM: identification of over&#8208;represented transcription factor binding sites in co&#8208;expressed genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W252</infon>
+      <infon key="pub-id_pmid">17576675</infon>
+      <infon key="fpage">W245</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>68174</offset>
+      <text>oPOSSUM: integrated tools for analysis of regulatory motif over&#8208;representation</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2536</infon>
+      <infon key="pub-id_pmid">20308320</infon>
+      <infon key="fpage">2518</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>68255</offset>
+      <text>Runx1 directly promotes proliferation of hair follicle stem cells and epithelial tumor formation in mouse skin</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">926</infon>
+      <infon key="pub-id_pmid">10783164</infon>
+      <infon key="fpage">913</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>68366</offset>
+      <text>Mcm10 and the MCM2&#8208;7 complex interact to initiate DNA synthesis and to release replication factors from origins</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">310</infon>
+      <infon key="pub-id_pmid">18243104</infon>
+      <infon key="fpage">299</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>68480</offset>
+      <text>NFATc1 balances quiescence and proliferation of skin stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">949</infon>
+      <infon key="pub-id_pmid">24813615</infon>
+      <infon key="fpage">935</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>68544</offset>
+      <text>Transit&#8208;amplifying cells orchestrate stem cell activity and tissue regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1532</infon>
+      <infon key="pub-id_pmid">20634318</infon>
+      <infon key="fpage">1519</infon>
+      <infon key="year">2010a</infon>
+      <infon key="type">ref</infon>
+      <offset>68626</offset>
+      <text>Control of hair follicle cell fate by underlying mesenchyme through a CSL&#8208;Wnt5a&#8208;FoxN1 regulatory axis</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7460</infon>
+      <infon key="pub-id_pmid">20378837</infon>
+      <infon key="fpage">7455</infon>
+      <infon key="year">2010b</infon>
+      <infon key="type">ref</infon>
+      <offset>68732</offset>
+      <text>Glutaminase 2, a novel p53 target gene regulating energy metabolism and antioxidant function</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">19131956</infon>
+      <infon key="fpage">44</infon>
+      <infon key="year">2009a</infon>
+      <infon key="type">ref</infon>
+      <offset>68825</offset>
+      <text>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">13</infon>
+      <infon key="pub-id_pmid">19033363</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2009b</infon>
+      <infon key="type">ref</infon>
+      <offset>68918</offset>
+      <text>Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">3159</infon>
+      <infon key="pub-id_pmid">18684741</infon>
+      <infon key="fpage">3149</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>69022</offset>
+      <text>Dlx3 is a crucial regulator of hair follicle differentiation and cycling</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="lpage">784</infon>
+      <infon key="pub-id_pmid">16410802</infon>
+      <infon key="fpage">773</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>69095</offset>
+      <text>Signals from within: the DNA&#8208;damage&#8208;induced NF&#8208;kappaB response</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">3726</infon>
+      <infon key="pub-id_pmid">11714694</infon>
+      <infon key="fpage">3718</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>69164</offset>
+      <text>HOXC13 is involved in the regulation of human hair keratin gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">341</infon>
+      <infon key="pub-id_pmid">24532713</infon>
+      <infon key="fpage">328</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>69239</offset>
+      <text>SOX9: a stem cell transcriptional regulator of secreted niche signaling factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2122</infon>
+      <infon key="pub-id_pmid">12923059</infon>
+      <infon key="fpage">2108</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>69319</offset>
+      <text>GATA&#8208;3: an unexpected regulator of cell lineage determination in skin</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">J Dermatol Sci</infon>
+      <infon key="lpage">209</infon>
+      <infon key="pub-id_pmid">23702391</infon>
+      <infon key="fpage">203</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69391</offset>
+      <text>Hairless down&#8208;regulates expression of Msx2 and its related target genes in hair follicles</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">J Invest Dermatol</infon>
+      <infon key="lpage">2038</infon>
+      <infon key="pub-id_pmid">24518172</infon>
+      <infon key="fpage">2036</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>69483</offset>
+      <text>NF&#8208;&#954;B activity is required for anagen maintenance in human hair follicles in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="source">Stem Cells Int</infon>
+      <infon key="volume">2016</infon>
+      <infon key="pub-id_pmid">26798358</infon>
+      <infon key="fpage">5178965</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>69570</offset>
+      <text>Genetic and epigenetic mechanisms that maintain hematopoietic stem cell function</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">2677</infon>
+      <infon key="pub-id_pmid">11035039</infon>
+      <infon key="fpage">2668</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>69651</offset>
+      <text>The ectodermal dysplasia receptor activates the nuclear factor&#8208;kappaB, JNK, and cell death pathways and binds to ectodysplasin A</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">18535672</infon>
+      <infon key="fpage">e1000081</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>69782</offset>
+      <text>Genomic profiling identifies GATA6 as a candidate oncogene amplified in pancreatobiliary cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">G3</infon>
+      <infon key="lpage">1002</infon>
+      <infon key="pub-id_pmid">22973536</infon>
+      <infon key="fpage">987</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69878</offset>
+      <text>oPOSSUM&#8208;3: advanced analysis of regulatory motif over&#8208;representation across genes or ChIP&#8208;Seq datasets</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">261</infon>
+      <infon key="pub-id_pmid">26669899</infon>
+      <infon key="fpage">253</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>69987</offset>
+      <text>Genomic instability in human pluripotent stem cells arises from replicative stress and chromosome condensation defects</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E1515</infon>
+      <infon key="pub-id_pmid">26912458</infon>
+      <infon key="fpage">E1506</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>70106</offset>
+      <text>FOXC1 maintains the hair follicle stem cell niche and governs stem cell quiescence to preserve long&#8208;term tissue&#8208;regenerating potential</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">4639</infon>
+      <infon key="pub-id_pmid">23487742</infon>
+      <infon key="fpage">4634</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>70245</offset>
+      <text>Runx1 and p21 synergistically limit the extent of hair follicle stem cell quiescence in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">513</infon>
+      <infon key="pub-id_pmid">24462289</infon>
+      <infon key="fpage">499</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>70339</offset>
+      <text>High Runx1 levels promote a reversible, more&#8208;differentiated cell state in hair&#8208;follicle stem cells during quiescence</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">4154</infon>
+      <infon key="pub-id_pmid">16107474</infon>
+      <infon key="fpage">4143</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>70460</offset>
+      <text>Hair follicle renewal: organization of stem cells in the matrix and the role of stereotyped lineages and behaviors</text>
+    </passage>
+    <passage>
+      <infon key="volume">137</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">577</infon>
+      <infon key="pub-id_pmid">20110322</infon>
+      <infon key="fpage">569</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>70575</offset>
+      <text>Hair follicle renewal: authentic morphogenesis that depends on a complex progression of stem cell lineages</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="issue">Pt 19</infon>
+      <infon key="lpage">2875</infon>
+      <infon key="pub-id_pmid">9730979</infon>
+      <infon key="fpage">2867</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>70682</offset>
+      <text>Strategies of epithelial repair: modulation of stem cell and transit amplifying cell proliferation</text>
+    </passage>
+    <passage>
+      <infon key="volume">407</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">636</infon>
+      <infon key="pub-id_pmid">11034212</infon>
+      <infon key="fpage">633</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>70781</offset>
+      <text>Skin abnormalities generated by temporally controlled RXRalpha mutations in mouse epidermis</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">190</infon>
+      <infon key="pub-id_pmid">24463605</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>70873</offset>
+      <text>In vivo transcriptional governance of hair follicle stem cells by canonical Wnt regulators</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">4256</infon>
+      <infon key="pub-id_pmid">22375031</infon>
+      <infon key="fpage">4251</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70964</offset>
+      <text>Activation of GATA binding protein 6 (GATA6) sustains oncogenic lineage&#8208;survival in esophageal adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">25516281</infon>
+      <infon key="fpage">550</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>71076</offset>
+      <text>Moderated estimation of fold change and dispersion for RNA&#8208;seq data with DESeq2</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1611</infon>
+      <infon key="pub-id_pmid">15961525</infon>
+      <infon key="fpage">1596</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>71158</offset>
+      <text>Defining the impact of beta&#8208;catenin/Tcf transactivation on epithelial stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">389</infon>
+      <infon key="pub-id_pmid">12466204</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>71241</offset>
+      <text>&#8216;Cyclic alopecia&#8217; in Msx2 mutants: defects in hair cycling and hair shaft differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Dev Growth Differ</infon>
+      <infon key="lpage">600</infon>
+      <infon key="pub-id_pmid">16316404</infon>
+      <infon key="fpage">591</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>71335</offset>
+      <text>Further extension of mammalian GATA&#8208;6</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1705</infon>
+      <infon key="pub-id_pmid">11445543</infon>
+      <infon key="fpage">1688</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>71375</offset>
+      <text>Tcf3 and Lef1 regulate lineage&#160;differentiation of multipotent stem cells in skin</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">587</infon>
+      <infon key="pub-id_pmid">24726359</infon>
+      <infon key="fpage">575</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>71457</offset>
+      <text>The RBBP6/ZBTB38/MCM10 axis regulates DNA replication and common fragile site stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">275</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">38952</infon>
+      <infon key="pub-id_pmid">11042222</infon>
+      <infon key="fpage">38949</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>71545</offset>
+      <text>The zinc finger&#8208;containing transcription factors GATA&#8208;4, &#8208;5, and &#8208;6. Ubiquitously expressed regulators of tissue&#8208;specific gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">6044</infon>
+      <infon key="pub-id_pmid">20507904</infon>
+      <infon key="fpage">6029</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>71693</offset>
+      <text>Specification of the NF&#8208;kappaB transcriptional response by p65 phosphorylation and TNF&#8208;induced nuclear translocation of IKK epsilon</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26349061</infon>
+      <infon key="fpage">8198</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71829</offset>
+      <text>Integrin&#8208;linked kinase regulates the niche of quiescent epidermal stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">3590</infon>
+      <infon key="pub-id_pmid">9832509</infon>
+      <infon key="fpage">3579</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>71908</offset>
+      <text>GATA6 regulates HNF4 and is required for differentiation of visceral endoderm in the mouse embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">259</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">136</infon>
+      <infon key="pub-id_pmid">12812793</infon>
+      <infon key="fpage">123</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72006</offset>
+      <text>Stimulation of ectodermal organ development by Ectodysplasin&#8208;A1</text>
+    </passage>
+    <passage>
+      <infon key="volume">283</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">26168</infon>
+      <infon key="pub-id_pmid">18606807</infon>
+      <infon key="fpage">26161</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>72072</offset>
+      <text>TAK1 regulates reactive oxygen species and cell death in keratinocytes, which is essential for skin integrity</text>
+    </passage>
+    <passage>
+      <infon key="volume">255</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">248</infon>
+      <infon key="pub-id_pmid">12648487</infon>
+      <infon key="fpage">238</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72182</offset>
+      <text>Hair cycle regulation of Hedgehog signal reception</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1068</infon>
+      <infon key="pub-id_pmid">18256199</infon>
+      <infon key="fpage">1059</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>72233</offset>
+      <text>Runx1 modulates developmental, but not injury&#8208;driven, hair follicle stem cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">193</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">250</infon>
+      <infon key="pub-id_pmid">21464233</infon>
+      <infon key="fpage">235</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72324</offset>
+      <text>Runx1 modulates adult hair follicle stem cell emergence and maintenance from distinct embryonic skin compartments</text>
+    </passage>
+    <passage>
+      <infon key="volume">274</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">26484</infon>
+      <infon key="pub-id_pmid">10473608</infon>
+      <infon key="fpage">26477</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>72438</offset>
+      <text>Functional characterization of the promoter of the X&#8208;linked ectodermal dysplasia gene</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="lpage">206</infon>
+      <infon key="pub-id_pmid">26068589</infon>
+      <infon key="fpage">197</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>72526</offset>
+      <text>The MRN complex is transcriptionally regulated by MYCN during neural cell proliferation to control replication stress</text>
+    </passage>
+    <passage>
+      <infon key="volume">300</infon>
+      <infon key="source">Int Rev Cell Mol Biol</infon>
+      <infon key="lpage">50</infon>
+      <infon key="pub-id_pmid">23273858</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>72644</offset>
+      <text>New insights into mechanisms of stem cell daughter fate determination in regenerative tissues</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">36923</infon>
+      <infon key="pub-id_pmid">12842894</infon>
+      <infon key="fpage">36916</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72738</offset>
+      <text>Tumor necrosis factor&#8208;alpha&#8208;induced IKK phosphorylation of NF&#8208;kappaB p65 on serine 536 is mediated through the TRAF2, TRAF5, and TAK1 signaling pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4668</infon>
+      <infon key="pub-id_pmid">10469645</infon>
+      <infon key="fpage">4657</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>72896</offset>
+      <text>Keratinocyte&#8208;specific ablation of Stat3 exhibits impaired skin remodeling, but does not affect skin morphogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">97</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">13829</infon>
+      <infon key="pub-id_pmid">11087819</infon>
+      <infon key="fpage">13824</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>73012</offset>
+      <text>Two distinct&#160;signaling pathways in hair cycle induction: Stat3&#8208;dependent and &#8208;independent pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">22020</infon>
+      <infon key="pub-id_pmid">16754690</infon>
+      <infon key="fpage">22013</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>73116</offset>
+      <text>Transforming growth factor&#8208;beta&#8208;activated kinase 1 is essential for differentiation and the prevention of apoptosis in epidermis</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">20585657</infon>
+      <infon key="fpage">e11275</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73249</offset>
+      <text>Inflammatory mediator TAK1 regulates hair follicle morphogenesis and anagen induction shown by using keratinocyte&#8208;specific TAK1&#8208;deficient mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">128</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">3853</infon>
+      <infon key="pub-id_pmid">11585809</infon>
+      <infon key="fpage">3843</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>73396</offset>
+      <text>Requirement of NF&#8208;kappaB/Rel for the development of hair follicles and other epidermal appendices</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Oncol Rep</infon>
+      <infon key="lpage">1361</infon>
+      <infon key="pub-id_pmid">23784465</infon>
+      <infon key="fpage">1355</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>73496</offset>
+      <text>GATA6 predicts prognosis and hepatic metastasis of colorectal cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">464</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1047</infon>
+      <infon key="pub-id_pmid">20393562</infon>
+      <infon key="fpage">1043</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73565</offset>
+      <text>APCDD1 is a novel Wnt inhibitor mutated in hereditary hypotrichosis simplex</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">157</infon>
+      <infon key="pub-id_pmid">23201126</infon>
+      <infon key="fpage">145</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>73641</offset>
+      <text>PGC&#8208;1 coactivators regulate MITF and the tanning response</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">FASEB J</infon>
+      <infon key="lpage">753</infon>
+      <infon key="pub-id_pmid">17167069</infon>
+      <infon key="fpage">743</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>73701</offset>
+      <text>The transcription factor GATA&#8208;6 is overexpressed in&#160;vivo and contributes to silencing 15&#8208;LOX&#8208;1 in&#160;vitro in human colon cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">143</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">144</infon>
+      <infon key="pub-id_pmid">20887898</infon>
+      <infon key="fpage">134</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73835</offset>
+      <text>Intestinal crypt homeostasis results from neutral competition between symmetrically dividing Lgr5 stem cells</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Dev Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">16611361</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>73944</offset>
+      <text>Generation of mice harbouring a conditional loss&#8208;of&#8208;function allele of Gata6</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">51</infon>
+      <infon key="pub-id_pmid">23271346</infon>
+      <infon key="fpage">39</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>74025</offset>
+      <text>BRCA1 deficiency in skin epidermis leads to selective loss of hair follicle stem cells and their progeny</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1068</infon>
+      <infon key="pub-id_pmid">9768360</infon>
+      <infon key="fpage">1058</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>74130</offset>
+      <text>Sonic hedgehog signaling is essential for hair development</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">408</infon>
+      <infon key="pub-id_pmid">17055439</infon>
+      <infon key="fpage">397</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>74189</offset>
+      <text>Suppression of reactive oxygen species and neurodegeneration by the PGC&#8208;1 transcriptional coactivators</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">5648</infon>
+      <infon key="pub-id_pmid">24317510</infon>
+      <infon key="fpage">5637</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74294</offset>
+      <text>An integrative analysis reveals functional targets of GATA6 transcriptional regulation in gastric cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1364</infon>
+      <infon key="pub-id_pmid">16702408</infon>
+      <infon key="fpage">1353</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>74399</offset>
+      <text>Keratin 17 modulates hair follicle cycling in a TNFalpha&#8208;dependent fashion</text>
+    </passage>
+    <passage>
+      <infon key="volume">419</infon>
+      <infon key="source">Meth Enzymol</infon>
+      <infon key="lpage">99</infon>
+      <infon key="pub-id_pmid">17141052</infon>
+      <infon key="fpage">73</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>74476</offset>
+      <text>Epithelial skin stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="source">J Invest Dermatol</infon>
+      <infon key="lpage">908</infon>
+      <infon key="pub-id_pmid">10771469</infon>
+      <infon key="fpage">901</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>74503</offset>
+      <text>Conditional disruption of hedgehog signaling pathway defines its critical role in hair development and regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">351</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">617</infon>
+      <infon key="pub-id_pmid">26912704</infon>
+      <infon key="fpage">613</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>74619</offset>
+      <text>Foxc1 reinforces quiescence in self&#8208;renewing hair follicle stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">942</infon>
+      <infon key="pub-id_pmid">17803914</infon>
+      <infon key="fpage">932</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>74691</offset>
+      <text>Dedicated epithelial recipient cells determine pigmentation patterns</text>
+    </passage>
+    <passage>
+      <infon key="volume">204</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">163</infon>
+      <infon key="pub-id_pmid">24446481</infon>
+      <infon key="fpage">153</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74760</offset>
+      <text>Quality control: genome maintenance in pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">707</infon>
+      <infon key="pub-id_pmid">24952462</infon>
+      <infon key="fpage">695</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>74822</offset>
+      <text>The&#160;transcription factor GATA6 enables self&#8208;renewal of colon adenoma&#160;stem cells by repressing BMP gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">181</infon>
+      <infon key="pub-id_pmid">23602386</infon>
+      <infon key="fpage">169</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>74940</offset>
+      <text>Brg1 governs a positive feedback circuit in the hair follicle for tissue regeneration and repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">413</infon>
+      <infon key="pub-id_pmid">11882293</infon>
+      <infon key="fpage">409</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>75037</offset>
+      <text>Identification of a novel death domain&#8208;containing adaptor molecule for ectodysplasin&#8208;A receptor that is mutated in crinkled mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2246</infon>
+      <infon key="pub-id_pmid">11959831</infon>
+      <infon key="fpage">2233</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>75170</offset>
+      <text>GATA6 regulates&#160;differentiation of distal lung epithelium</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8566</infon>
+      <infon key="pub-id_pmid">15939874</infon>
+      <infon key="fpage">8561</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>75229</offset>
+      <text>Gene expression patterns define key transcriptional events in cell&#8208;cycle regulation by cAMP and protein kinase A</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">870</infon>
+      <infon key="pub-id_pmid">18536717</infon>
+      <infon key="fpage">862</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>75344</offset>
+      <text>A Gata6&#8208;Wnt pathway required for epithelial stem cell development and airway regeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">278</infon>
+      <infon key="pub-id_pmid">19664980</infon>
+      <infon key="fpage">267</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>75436</offset>
+      <text>Distinct self&#8208;renewal and differentiation phases in the niche of infrequently dividing hair follicle stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2631</infon>
+      <infon key="pub-id_pmid">15767668</infon>
+      <infon key="fpage">2622</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>75550</offset>
+      <text>GATA6 is essential for embryonic development of the liver but dispensable for early heart formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">317</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">619</infon>
+      <infon key="pub-id_pmid">18400219</infon>
+      <infon key="fpage">614</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>75650</offset>
+      <text>Loss of both GATA4 and GATA6 blocks cardiac myocyte differentiation and results in acardia in mice</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21811562</infon>
+      <infon key="fpage">e22129</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>75749</offset>
+      <text>GATA6 activates Wnt signaling in pancreatic cancer by negatively regulating the Wnt antagonist dickkopf&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">713</infon>
+      <infon key="pub-id_pmid">7537238</infon>
+      <infon key="fpage">700</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>75857</offset>
+      <text>Lymphoid enhancer factor 1 directs hair follicle patterning and epithelial cell fate</text>
+    </passage>
+  </document>
+</collection>

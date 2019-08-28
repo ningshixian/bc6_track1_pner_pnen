@@ -1,0 +1,1494 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5090707</id>
+    <passage>
+      <infon key="name_2">surname:Wang;given-names:Tao</infon>
+      <infon key="name_3">surname:Zhao;given-names:Danyun</infon>
+      <infon key="name_0">surname:Chen;given-names:Keshi</infon>
+      <infon key="name_1">surname:Long;given-names:Qi</infon>
+      <infon key="name_6">surname:Wu;given-names:Yi</infon>
+      <infon key="alt-title">Keshi Chen et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642402</infon>
+      <infon key="name_5">surname:Qi;given-names:Juntao</infon>
+      <infon key="name_8">surname:Chen;given-names:Chunlan</infon>
+      <infon key="name_9">surname:Zeng;given-names:Xiaoming</infon>
+      <infon key="lpage">1656 1656</infon>
+      <infon key="fpage">1641 1641</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">chromatin relaxer FRAP Gadd45a heterochromatin relaxation reprogramming Chromatin, Epigenetics, Genomics &amp; Functional Genomics Stem Cells</infon>
+      <infon key="name_21">surname:Xu;given-names:Guoliang</infon>
+      <infon key="name_20">surname:Sch&#246;ler;given-names:Hans R</infon>
+      <infon key="name_23">surname:Pei;given-names:Duanqing</infon>
+      <infon key="name_22">surname:Liu;given-names:Xingguo</infon>
+      <infon key="article-id_doi">10.15252/embr.201642402</infon>
+      <infon key="article-id_pmid">27702986</infon>
+      <infon key="name_7">surname:Li;given-names:Shengbiao</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="issue">11</infon>
+      <infon key="name_4">surname:Zhou;given-names:Yanshuang</infon>
+      <infon key="volume">17 17</infon>
+      <infon key="pub-id_pmid">27702986</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_18">surname:Chen;given-names:Jiekai</infon>
+      <infon key="name_19">surname:Pan;given-names:Guangjin</infon>
+      <infon key="name_10">surname:Yang;given-names:Jianguo</infon>
+      <infon key="name_11">surname:Zhou;given-names:Zisong</infon>
+      <infon key="name_12">surname:Qin;given-names:Weiwen</infon>
+      <infon key="name_13">surname:Liu;given-names:Xiyin</infon>
+      <infon key="name_14">surname:Li;given-names:Yuxing</infon>
+      <infon key="name_15">surname:Li;given-names:Yingying</infon>
+      <infon key="name_16">surname:Huang;given-names:Xiaofen</infon>
+      <infon key="name_17">surname:Qin;given-names:Dajiang</infon>
+      <offset>0</offset>
+      <text>Gadd45a is a heterochromatin relaxer that enhances iPS cell generation</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>71</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>80</offset>
+      <text>Reprogramming of somatic cells to induced pluripotent stem cells rewrites the code of cell fate at the chromatin level. Yet, little is known about this process physically. Here, we describe a fluorescence recovery after photobleaching method to assess the dynamics of heterochromatin/euchromatin and show significant heterochromatin loosening at the initial stage of reprogramming. We identify growth arrest and DNA damage&#8208;inducible protein a (Gadd45a) as a chromatin relaxer in mouse embryonic fibroblasts, which also enhances somatic cell reprogramming efficiency. We show that residue glycine 39 (G39) in Gadd45a is essential for interacting with core histones, opening chromatin and enhancing reprogramming. We further demonstrate that Gadd45a destabilizes histone&#8211;DNA interactions and facilitates the binding of Yamanaka factors to their targets for activation. Our study provides a method to screen factors that impact on chromatin structure in live cells, and identifies Gadd45a as a chromatin relaxer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1094</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1107</offset>
+      <text>Reprogramming somatic cells to induced pluripotent stem cells (iPSCs) by defined factors opened up many interesting avenues for biology and medicine. For example, it is feasible to generate patient&#8208;specific iPSCs that can be used to model diseases for drug developments or generate functional cells to treat illness through cell transplantation 1, 2. Yet, recent reports have suggested that iPSCs generated with current technologies may have potential problems in clinical applications due to genome integration and immunogenicity 3, 4. Thus, further refinement and improvement of current reprogramming methods may mitigate some of those concerns.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1757</offset>
+      <text>Reprogramming is an epigenetic process. For example, DNA demethylation enzymes such as the Tet family have been shown to play a critical role in the reestablishment of pluripotency 5, 6, 7. Likewise, histone modification enzymes or small molecule inhibitors/activators for these enzymes have been shown to regulate reprogramming efficiency 8, 9, 10, 11. At the chromatin level, remodeling factors such as Brg1 and Baf155 have been shown to promote reprogramming 12, whereas other modifying enzymes such as Dot1l or Mbd3 have been shown to inhibit reprogramming 13, 14. These insights not only enhanced our understanding of reprogramming, but also provided means to improve the reprogramming process. At the cellular level, mouse embryonic fibroblasts (MEFs) appear to undergo a mesenchymal&#8208;to&#8208;epithelial transition (MET) at the early phase of reprogramming 15, 16. Beyond the MET, there is an intermediate state called pre&#8208;iPSCs 17, 18, which can be further converted to fully reprogrammed iPSCs by vitamin C (Vc) apparently through histone demethylases specific for H3K9me3 19. Therefore, factors capable of modulating the epigenetic state may be beneficial to reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2940</offset>
+      <text>iPSCs, like ESCs, have less condensed heterochromatin foci and hyperdynamic chromatin proteins compared to MEFs 20, 21. Therefore, reprogramming of MEFs into iPSCs must undergo a gradual loosening or relaxation of the tightly packed heterochromatin in MEFs. It has been reported that fluorescence recovery after photobleaching (FRAP) can be used to analyze the dynamic interaction among chromatin proteins 22, 23. Here in this report, we describe a FRAP&#8208;based method to analyze heterochromatin and euchromatin dynamics during reprogramming and the identification of Gadd45a as a powerful chromatin relaxer that also enhances reprogramming robustly.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>3591</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>3599</offset>
+      <text>FRAP reveals heterochromatin dynamics in the early phase of somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3686</offset>
+      <text>Heterochromatin has been shown to be the main difference between somatic and pluripotent stem cells and also one of the major barriers for reprogramming 24, 25, 26. To understand the dynamic changes in heterochromatin during reprogramming, we took advantage of a previously reported live cell imaging method to detect chromatin dynamics called FRAP 22, 23 and made several critical modifications such that we can monitor and quantify euchromatin and heterochromatin remodeling dynamics. First, we labeled heterochromatin protein 1a (HP1a) with mCherry and chromatin&#8208;associated protein Histone1 (H1) with green fluorescent protein (GFP) (Fig 1A). HP1a&#8208;mCherry should allow us to distinguish between heterochromatin and euchromatin by selecting the region of interest (ROI) within (heterochromatin) or outside (euchromatin) HP1a foci; meanwhile, H1&#8208;GFP has been widely used in FRAP analysis of chromatin 27. We also developed FRAP of H1&#8208;GFP in these ROIs to analyze the dynamics of heterochromatic and euchromatic H1, respectively (Fig 1A). We recorded FRAP curves for a period of 120 s after bleaching and analyzed the mobile fraction (MF), which refers to the recovery ratio in 120 s post&#8208;bleaching. This method allows a concise determination of heterochromatin and euchromatin dynamics by sequential HP1a region selection and H1 FRAP.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5032</offset>
+      <text>Heterochromatin loosening in the early phase of somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5107</offset>
+      <text>Scheme of H1&#8208;GFP FRAP in heterochromatin foci (with HP1a&#8208;mCherry) and euchromatin (without HP1a&#8208;mCherry). The relative FRAP curves of euchromatin (Eu) and heterochromatin (Het) are shown divided into two parts&#8212;the mobile fraction (MF) and the immobile fraction (IF) after bleaching recovery. ROI, region of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5432</offset>
+      <text>FRAP curves of H1&#8208;GFP in reprogramming with SKO. The mean values of relative fluorescence recovery are shown in the curves. For heterochromatin, the recovery ratio is higher in cells transfected with reprogramming factors than that in the control on day 3. Changes are significantly different. More than 16 cells were analyzed for each group. *P &#8804; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5790</offset>
+      <text>The ratio of MF at 120 s post&#8208;bleaching in FRAP was compared in the reprogramming stages. For heterochromatin, cells transfected with SKO showed much more rapid recovery than control cells (Flag) on day 3. More than 16 cells were analyzed for each group. *P &#8804; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6060</offset>
+      <text>DNA FISH images showing the localizations of endogenous Oct4 locus and HP1a foci in MEFs infected with SKO or Flag control. More than 72 cells were analyzed for each group. Scale bar: 5 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6251</offset>
+      <text>Summary of percentage of co&#8208;localization between the Oct4 locus and HP1a foci in SKO&#8208;mediated reprogramming. More than 72 cells were analyzed for each group.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6413</offset>
+      <text>Data information: In (B), data are presented as mean value; in (C), data are presented as mean &#177; SEM. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6594</offset>
+      <text>We then performed FRAP analysis and found that only heterochromatin, not euchromatin, exhibits greater MFs in cells undergoing reprogramming (SKO&#8208;D3) than in control MEFs (Flag&#8208;D3) (Fig 1B and C), suggesting that heterochromatin undergoes a relaxation process at the early phase of reprogramming. We then quantified heterochromatin with HP1a stain and showed that it overlaps with 4&#8242;, 6&#8208;diamidino&#8208;2&#8208;phenylindole (DAPI) staining (Fig EV1A and B). Interestingly, in MEFs undergoing SKO or Sox2, Klf4, Oct4, c&#8208;Myc (SKOM) reprogramming, we observed a dramatic decrease in heterochromatin at the very early phase of reprogramming (day 3) (Fig EV1A&#8211;D), a known feature characteristic of pluripotent stem cells 28, 29. We also performed immunofluorescence in situ hybridization (immuno&#8208;FISH) to map the endogenous Oct4 locus and HP1a foci in MEFs infected with SKO or SKOM. While the Oct4 loci overlapped with HP1a foci in control MEFs, no such association was found between them in MEFs undergoing SKO or SKOM reprogramming (Figs 1D and E, and EV1E and F). Taken together, our results demonstrate that heterochromatin undergoes significant relaxation during early stages of reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7795</offset>
+      <text>Relaxation of heterochromatin during early phase of somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7874</offset>
+      <text>HP1a, as the heterochromatin marker, was detected in reprogramming with SKO. It shows co&#8208;localization between HP1a foci and DAPI foci. More than 20 cells were analyzed for each group. Scale bars: 8 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8079</offset>
+      <text>The distribution of heterochromatin marked with HP1a was analyzed by comparing HP1a foci area to the total nuclear area. It shows that the relative HP1a area decreases rapidly in reprogramming process with SKO, especially in day 3. More than 20 cells were analyzed for each group. *P &#8804; 0.05; **P &#8804; 0.01; ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8403</offset>
+      <text>Rapid decrease of HP1a foci relative area from day 0 to day 9 during SKOM&#8208;induced reprogramming. More than 20 cells were analyzed for each group. Scale bars: 8 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8570</offset>
+      <text>The distribution of heterochromatin marked with HP1a was analyzed by comparing HP1a foci area to the total nuclear area during SKOM&#8208;induced reprogramming. More than 20 cells were analyzed for each group. *P &#8804; 0.05; ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8805</offset>
+      <text>Representative images showing the association of endogenous Oct4 locus with HP1a foci during SKOM reprogramming. More than 81 cells were analyzed. Scale bar: 5 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8970</offset>
+      <text>Summary of percentage of co&#8208;localizations at the Oct4 locus and HP1a foci in SKOM reprogramming. More than 72 cells were analyzed for each group.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9118</offset>
+      <text>Data information: In (B and D), data are presented as mean &#177; SEM. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9263</offset>
+      <text>FRAP as a tool to identify heterochromatin relaxers</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9315</offset>
+      <text>As heterochromatin relaxes during the conversion of somatic cells into iPSCs, we wish to employ FRAP to screen for factors that can relax heterochromatin and perhaps enhance reprogramming also. We firstly tested six chemicals or protein factors with FRAP in MEFs: valproic acid (VPA) as positive control 27, protein factors (p53, p21 and Gadd45a) in cell cycle regulation 30, 31, 32, and Jumonji family proteins (Jhdm1b and Utx) with the ability to enhance reprogramming 9, 10, 33 (Fig EV2A). VPA is a histone deacetylase inhibitor known to enhance heterochromatin dynamics and somatic cell reprogramming 27, 34, and thus serves as a positive control. Interestingly, we discovered that Gadd45a also increases heterochromatin dynamics (Figs 2A and EV2A). In contrast, p53 and p21, which have been reported to inhibit reprogramming 35, 36, 37, suppress heterochromatin dynamics (Fig EV2A and B). On the other hand, Jhdm1b and Utx, which have been reported to facilitate reprogramming 9, 10, 33, surprisingly, have no effect on heterochromatin dynamics (Fig EV2A and B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10383</offset>
+      <text>Gadd45a as a heterochromatin relaxer</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10420</offset>
+      <text>Factors screened with FRAP were divided into three groups. Genes were selected to analyze the effect on H1 dynamics in heterochromatin by overexpression in MEFs on day 3. More than 20 cells were analyzed for each group. *P &#8804; 0.05; ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10669</offset>
+      <text>The ratio of MF at 120 s post&#8208;bleaching in (A) is shown. More than 20 cells were analyzed for each group. *P &#8804; 0.05; ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10806</offset>
+      <text>The recovery kinetics of heterochromatin in MEFs infected with Flag or Gadd45a on day 3, day 6, and day 10. More than 20 cells were analyzed for each group. ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10979</offset>
+      <text>The ratio of MF at 120 s post&#8208;bleaching in (C) is shown. More than 20 cells were analyzed for each group. ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11103</offset>
+      <text>The recovery kinetics of euchromatin in MEFs infected with Flag or Gadd45a on day 3. The ratio of MF at 120 s post&#8208;bleaching is shown in the right panel. More than 20 cells were analyzed for each group. ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11324</offset>
+      <text>The recovery kinetics of euchromatin in MEFs infected with Flag alone or SKO plus Flag or Gadd45a on day 3. The ratio of MF of euchromatin is shown in the right panel. More than 19 cells were analyzed for each group.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11541</offset>
+      <text>Data information: In (A and C), data are presented as mean value; in (B and D), data are presented as mean &#177; SEM; in (E and F), data are presented as mean (left panel) or mean &#177; SEM (right panel). P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11818</offset>
+      <text>Gadd45a as a heterochromatin relaxer that enhances reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11883</offset>
+      <text>The recovery kinetics of heterochromatin in MEFs infected with Flag or Gadd45a on day 3. The ratio of MF at 120 s post&#8208;bleaching is shown at the right panel. More than 20 cells were analyzed for each group. ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12108</offset>
+      <text>The recovery kinetics of heterochromatin in MEFs infected with Flag alone or SKO plus Flag or Gadd45a on day 3. The ratio of MF of heterochromatin is shown at the right panel. More than 19 cells were analyzed for each group. *P &#8804; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12346</offset>
+      <text>ChIP&#8208;PCR analysis of H3K9Ac, H3K9me2, H3K9me3, H3K27Ac, H3K27me2, or H3K27me3 modification levels in Oct4 binding sites of MEFs infected with SKO plus Flag or Gadd45a on day 3. **P &#8804; 0.01; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12546</offset>
+      <text>Data information: In (A and B), data are presented as mean &#177; SEM; in (C), data are presented as mean &#177; SD. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12733</offset>
+      <text>We then showed that the H1 dynamics in MEFs gradually decreases during culture from day 3 to day 10 perhaps due to cell senescence and can be reversed by Gadd45a (Fig EV2C and D). It appears that both heterochromatin and euchromatin are affected by Gadd45a under the same experimental settings (Fig EV2E). To further understand the role of Gadd45a on chromatin density status, we performed chromatin immunoprecipitation (ChIP) assays with antibodies targeting H3K9Ac, H3K9me2, H3K9me3, H3K27Ac, H3K27me2, and H3K27me3 at the promoters of the pluripotency genes Oct4, Nanog, and Sox2 in MEFs infected with Gadd45a. Overexpression of Gadd45a could increase the H3K9Ac and H3K27Ac levels and reduce the H3K9Me2/3 and H3K27Me2/3 levels (Appendix Fig S1). Methylation of H3K9 and H3K27 is thought to be a marker for heterochromatin 24, and H3K27 methylation could be established by dense chromatin 38. Histone acetylation is always associated with active gene promoters and transcription 39. Taken together, our results suggest that Gadd45a regulates chromatin density and can relax it significantly.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13829</offset>
+      <text>Gadd45a relaxes heterochromatin during reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13882</offset>
+      <text>Based on the ability of Gadd45a to relax both heterochromatin and euchromatin in MEFs (Figs 2A and EV2A and E), we next tested whether Gadd45a could further relax chromatin during reprogramming. We co&#8208;infected MEF cells with Gadd45a and the reprogramming factors SKO, and found that Gadd45a increases heterochromatin H1 dynamics by FRAP, though it has no further effect on euchromatin dynamics (Figs 2B and EV2F). ChIP assays with antibodies targeting H3K9Ac, H3K9me2, H3K9me3, H3K27Ac, H3K27me2, and H3K27me3 during reprogramming with SKO or SKO plus Gadd45a on day 3 of reprogramming were performed to show an enhancement of the H3K9Ac and H3K27Ac levels and a reduction of the H3K9me2, H3K9me3, H3K27me2, and H3K27me3 levels at the promoters of the pluripotency genes Oct4, Nanog, and Sox2 in the presence of Gadd45a (Fig 2C). These results suggest that Gadd45a dynamically regulates modifications of H3K9 and H3K27, that is, acetylation enhancement and methylation reduction, during reprogramming. Based on these observations, we further conclude that Gadd45a relaxes heterochromatin in reprogramming cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14996</offset>
+      <text>Gadd45 proteins enhance reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15034</offset>
+      <text>We next ask whether Gadd45a enhances reprogramming. To this end, we co&#8208;infected MEFs containing a transgenic Oct4 promoter driving GFP expression (OG2 MEFs), with Gadd45a and the reprogramming factor combinations SKO/SKOM. The GFP&#8208;positive colonies were counted in SKO or SKOM reprogramming, respectively. The normalized relative reprogramming efficiency was calculated as reported 40 and shown in Fig 3A. We found that Gadd45a can improve the efficiency of reprogramming (Fig 3A). The resulting iPSC clones were characterized for the expression of several pluripotent markers (Appendix Fig S2A&#8211;E), and for their abilities to generate chimeric mice capable of germline transmission (Appendix Fig S2F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15742</offset>
+      <text>Gadd45 proteins enhance reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15780</offset>
+      <text>Gadd45 proteins significantly improve reprogramming efficiency. The reprogramming efficiencies were compared with SKO or SKOM, respectively. We normalized the numbers of SKO+Factor to SKO+Flag (1 as control); also we normalized the numbers of SKOM+Factor to SKOM+Flag (1 as control). **P &#8804; 0.01; ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16101</offset>
+      <text>The efficiencies of SKO&#8208; and SKOM&#8208;induced reprogramming were tested in overexpression of two or three Gadd45 proteins. The reprogramming efficiencies were compared with SKO or SKOM, respectively. **P &#8804; 0.01, ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16338</offset>
+      <text>SKO&#8208;MEFs or SKOM&#8208;MEFs infected with DOX&#8208;inducible Gadd45a were either treated with DOX immediately after infection, and DOX was removed at different time points (left panel) or treated with DOX from different time points until the end of the experiment (right panel). The reprogramming efficiencies were compared with DOX&#8208;free treatment (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16692</offset>
+      <text>Data information: In (A&#8211;C), data are presented as mean &#177; SD. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test. Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16884</offset>
+      <text>The Gadd45 family comprises three members, Gadd45a, Gadd45b and Gadd45g, which have several conserved domains and similar functions 41, 42. Although the expression level of these three genes in reprogramming cells was similar to that in control MEFs (Appendix Fig S3A), all of them could greatly promote reprogramming (Fig 3A), but had no additive effects, indicating that they function in the same way (Fig 3B). We further showed that Gadd45a could not substitute Sox2, Klf4, or Oct4 among the reprogramming factors in generating iPSCs (Appendix Fig S3B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17441</offset>
+      <text>To test whether endogenous Gadd45 proteins are required for reprogramming, we knocked down the three Gadd45 proteins using shRNAs (Fig EV3A). The reprogramming efficiencies, H1 dynamics, and pluripotency gene expression were not affected by neither individual nor combined knockdown them (Fig EV3B&#8211;D), suggesting paradoxically that either Gadd45 proteins are not the endogenous factors mediating heterochromatin relaxation or any residual Gadd45a might be sufficient during reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17932</offset>
+      <text>Knockdown of Gadd45</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17952</offset>
+      <text>qPCR analysis of expression of Gadd45a, Gadd45b, and Gadd45g upon knockdown with shRNAs, respectively. ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18078</offset>
+      <text>Knockdown of Gadd45 proteins has no effect on both SKO&#8208; and SKOM&#8208;induced reprogramming. The reprogramming efficiency was compared with SKO+shLuc or SKOM+shLuc, respectively (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18264</offset>
+      <text>The recovery kinetics of heterochromatin in MEFs infected with Flag or SKO+shRNAs on day 3. The ratio of MF at 120 s post&#8208;bleaching is shown in the right panel. More than 20 cells were analyzed for each group, **P &#8804; 0.01.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18490</offset>
+      <text>qPCR analysis of expression of endogenous Oct4, Nanog, and endogenous Sox2 upon knocking down Gadd45 proteins during SKO&#8208;mediated reprogramming (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18645</offset>
+      <text>Data information: In (A, B and D), data are presented as mean &#177; SD; in (C), data are presented as mean &#177; SEM. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test. Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18885</offset>
+      <text>We then investigated the time window of sensitivity to Gadd45a with a doxycycline (DOX)&#8208;inducible system and showed that Gadd45a is effective in the early and middle stages of reprogramming. Specifically, we showed that in SKO&#8208;mediated reprogramming, Gadd45a is effective between days 2 and 14, whereas in SKOM&#8208;mediated reprogramming, between days 2 and 8. When DOX was added at different time points, we found that Gadd45a does not have any effect on both SKO&#8208; or SKOM&#8208;mediated reprogramming after day 11 (Fig 3C). These results suggest that Gadd45a functions in a time&#8208;dependent manner to promote reprogramming at the early and middle stages when heterochromatin remodeling occurs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19581</offset>
+      <text>Gadd45a G39 residue is crucial for both reprogramming and heterochromatin relaxation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19666</offset>
+      <text>The Gadd45 proteins are stress inducible and involved in multiple biological processes, such as cell cycle, senescence, tumor progression, DNA repair and active DNA demethylation 43, 44, 45. To better understand the roles of Gadd45a in heterochromatin relaxation, we constructed and tested a series of point mutants of Gadd45a in somatic cell reprogramming. According to previous reports, residues G39 and K45 are conserved among three Gadd45 proteins and are critical for Gadd45 proteins to bind RNAs 46. We designed substitutions for G39 with alanine, K45 with glutamate, and also a non&#8208;conservative residue R34 with glycine (Fig EV4A), which has no effects on structure 47. We then showed that the R34G and K45E mutants had no effect on the functions of Gadd45a in both heterochromatin and euchromatin dynamics, as well as reprogramming (Fig 4A, B and E, and Appendix Fig S4A). However, the G39A mutant lost the ability to relax heterochromatin and euchromatin according to FRAP (Fig 4A and B, and Appendix Fig S4A). We further showed that G39A Gadd45a is no longer able to reduce the HP1a foci as effectively as wild&#8208;type Gadd45a (Fig 4C), consistent with the FRAP results. To further confirm the FRAP result, we performed immuno&#8208;FISH to map the endogenous Oct4 loci and HP1a foci in MEFs infected with wild&#8208;type or G39A Gadd45a. We observed that there was no association between the Oct4 loci and HP1a foci in MEFs infected with wild&#8208;type Gadd45a. However, the Oct4 loci remained co&#8208;localized with HP1a in MEFs infected with G39A Gadd45a, as in controls (Figs 4D and EV4B). Together, we conclude that G39 is required for Gadd45a to relax chromatin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21332</offset>
+      <text>G39A mutation impairs the chromatin loosening of Gadd45a in reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21406</offset>
+      <text>Western blot detection of expression of Gadd45a and its mutants in MEFs infected with the indicated virus.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21513</offset>
+      <text>Summary of percentage of co&#8208;localizations between the Oct4 locus and HP1a foci upon overexpression of wild&#8208;type and G39A Gadd45a. More than 72 cells were analyzed for each group.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21696</offset>
+      <text>ChIP&#8208;PCR analysis of H3K9Ac, H3K9me2, H3K9me3, H3K27Ac, H3K27me2, or H3K27me3 modification levels in Oct4 binding sites of MEFs infected with SKO plus wild&#8208;type or G39A Gadd45a on day 3. **P &#8804; 0.01; n = 3. Data are presented as mean &#177; SD. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22020</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22070</offset>
+      <text>Mutational analysis of Gadd45a on heterochromatin dynamics and reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22147</offset>
+      <text>Several Gadd45a mutations were tested revealing that only the G39A mutation lost the ability to increase the H1 dynamics of heterochromatin. More than 18 cells were analyzed for each group. ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22353</offset>
+      <text>The ratio of MF increased with wild&#8208;type Gadd45a or K45E and R34G Gadd45a, but not G39A Gadd45a at day 3. More than 18 cells were analyzed for each group. ***P &#8804; 0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22526</offset>
+      <text>Immunofluorescence detection of HP1a foci in MEFs transfected with wild&#8208;type Gadd45a or G39A Gadd45a (upper panel). Quantitative analysis of the ratio of the HP1a foci area to the total nuclear area revealed by DAPI staining (dashed lines) shows that wild&#8208;type Gadd45a reduces the relative area of HP1a foci, whereas the G39A Gadd45a does not (lower panel). More than 20 cells were analyzed for each group. Scale bar: 5 &#956;m. **P &#8804; 0.01.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22969</offset>
+      <text>Immuno&#8208;FISH images showing the localizations of endogenous Oct4 loci and HP1a foci in MEFs infected with wild&#8208;type or G39A Gadd45a. More than 72 cells were analyzed for each group. Scale bar: 5 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23172</offset>
+      <text>Comparison of the reprogramming efficiencies of SKO&#8208;MEFs and SKOM&#8208;MEFs overexpressing wild&#8208;type or mutant Gadd45a proteins. The reprogramming efficiencies were compared with SKO or SKOM, respectively. **P &#8804; 0.01, ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23416</offset>
+      <text>Data information: In (A), data are presented as mean (SEM is not shown); in (B and C), data are presented as mean &#177; SEM; in (E), data are presented as mean &#177; SD. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test. Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23708</offset>
+      <text>Next, we showed that G39A Gadd45a is no longer able to further loosen heterochromatin during reprogramming (Appendix Fig S4B). The increase of H3K9Ac and H3K27Ac and the reduction of H3K9Me2/3 and H3K27Me2/3 by wild&#8208;type Gadd45a were also impaired by G39A mutation (Fig EV4C). Consequently, G39A Gadd45a could not enhance reprogramming by SKO or SKOM (Fig 4E). These results indicate that G39 is critical for Gadd45a to relax heterochromatin and enhance reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24179</offset>
+      <text>Gadd45a destabilizes histone&#8211;DNA interactions and facilitates binding of Yamanaka factors to their targets via G39</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24296</offset>
+      <text>To explore the role of Gadd45a and its G39 residue in histone&#8211;DNA interaction, we purified recombinant wild&#8208;type Gadd45a and G39A Gadd45a proteins (Fig EV5A and B) and performed electrophoretic mobility shift assay (EMSA) with several probes amplified from the Oct4 promoter (Appendix Fig S5A). As expected, the addition of core histones alone retarded the oligomer mobility (Fig 5A). Gadd45a did not change the mobility of the probes in the absence of core histones, indicating that Gadd45a does not interact directly with DNA (Fig 5A). In the presence of core histones, Gadd45a increased the mobility of DNA and counteracted the effect of histones (Fig 5A and Appendix Fig S5B&#8211;D), consistent with the observed interruption of the core histones and double&#8208;stranded DNA by Gadd45 48. On the other hand, G39A Gadd45a was inactive in the same assay system (Fig 5A and Appendix Fig S5B&#8211;D). We also tested a half&#8208;length probe compared with the previous probes and obtained similar results (Appendix Fig S5E). As both the CMV promoter and the EGFP gene showed the same results, Gadd45a appears to regulate the interactions between DNA and histones in a DNA sequence&#8208;independent manner (Appendix Fig S5F and G). Since core histones prepared by high&#8208;salt extraction may contain unknown nuclear components, we decided to repeat the same experiments with purified recombinant histones. To determine which protein Gadd45a acts on, we simply used the H2A/H2B heterodimer and the H3/H4 tetramer to perform EMSA (Fig 5B). We showed that the wild&#8208;type Gadd45a, but not the G39A mutant, blocked the mobility shift of the DNA in the presence of either the H2A/H2B heterodimer or the H3/H4 tetramer (Fig 5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26006</offset>
+      <text>The interaction between Gadd45a and chromatin</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26052</offset>
+      <text>SDS&#8211;PAGE and native PAGE analysis of the recombinant Gadd45a protein and its G39A mutant. The gels were stained with Coomassie Blue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26187</offset>
+      <text>Western blot analysis of the recombinant Gadd45a protein and its G39A mutant.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26265</offset>
+      <text>ChIP&#8208;PCR analysis between Gadd45a and the promoters of Oct4 and Nanog (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26346</offset>
+      <text>Two&#8208;step cross&#8208;linking method identified G39A Gadd45a could not interact with chromatin in the promoter regions of Oct4 and Nanog. Cells were cross&#8208;linked with DSG before ChIP&#8208;PCR analysis (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26552</offset>
+      <text>Data information: In (C and D), data are presented as mean &#177; SD.Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26667</offset>
+      <text>Gadd45a destabilizes histone&#8211;DNA interactions and facilitates binding of Yamanaka factors to their targets</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26776</offset>
+      <text>Recombinant Gadd45a protein and its G39A mutant were added to the histones&#8211;oligo&#8208;DNA mixture. The mixtures were separated by 4% non&#8208;denaturing PAGE and stained with ethidium bromide (EB). The oligo&#8208;DNA probes were amplified from the Oct4 promoter. &#8220;Histone+&#8221; means in the presence of core histones.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27087</offset>
+      <text>Recombinant wild&#8208;type Gadd45a and G39A Gadd45a were added to the mixtures of oligo&#8208;DNA and the recombinant H2A/H2B heterodimer or H3/H4 tetramer. The mixtures were separated by 4% non&#8208;denaturing PAGE and stained with EB.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27314</offset>
+      <text>Co&#8208;immunoprecipitation of wild&#8208;type Gadd45a, G39A Gadd45a, and H3 shows that the interaction between Gadd45a and H3 is dependent on G39 residue.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27463</offset>
+      <text>Two&#8208;step cross&#8208;linking method identified Gadd45a could interact with chromatin in the promoter regions of Oct4 and Nanog. Cells were cross&#8208;linked with DSG before ChIP&#8208;PCR analysis. **P &#8804; 0.01; ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27689</offset>
+      <text>The chromatin compaction of the indicated regions was detected by nuclease accessibility assay. Genomic DNA was purified from MEFs infected with Flag alone and SKO plus Flag, wild&#8208;type Gadd45a, or G39A Gadd45a on day 8. *P &#8804; 0.05; **P &#8804; 0.01; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27945</offset>
+      <text>ChIP&#8208;PCR analysis of the binding of Oct4, Sox2, and Klf4 to their targets individually in MEFs infected with SKO plus Flag, wild&#8208;type Gadd45a, or G39A Gadd45a on day 8. NC, negative control; ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28163</offset>
+      <text>Data information: In (D&#8211;F), data are presented as mean &#177; SD. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test. Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28355</offset>
+      <text>We then performed ChIP&#8208;PCR and co&#8208;immunoprecipitation assays to characterize the interaction between chromatin and Gadd45a in living cells. As previously reported 48, we showed by co&#8208;immunoprecipitation that wild&#8208;type Gadd45a, not the G39A mutant, interacts with core histone H3 (Fig 5C). We then performed ChIP with two&#8208;step cross&#8208;linking, which use disuccinimidyl glutarate (DSG) to cross&#8208;link Gadd45a with core histones before ChIP&#8208;PCR 49. We further showed that wild&#8208;type Gadd45a, but not G39A mutant, binds to the promoter regions of Oct4 and Nanog (Figs 5D and EV5C and D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28953</offset>
+      <text>By disrupting the histone&#8211;DNA interactions, Gadd45a could potentially change the chromatin status and modify DNA accessibility. To test this idea, we analyzed the nuclease accessibility to endogenous Oct4 and Nanog promoter regions and several binding sites of exogenous reprogramming factors during reprogramming. We showed that MEFs infected with SKO factors display an open structure in all the studied regions compared with MEFs infected with the Flag control (Fig 5E and Appendix Fig S6). We then showed that Gadd45a, but not its inactive G39A mutant, further increases the nuclease access (Fig 5E and Appendix Fig S6).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29580</offset>
+      <text>We then wished to test whether Gadd45a facilitates the binding of the Yamanaka factors Oct4, Sox2, and Klf4 to their targets during reprogramming. By performing ChIP&#8208;PCR to assess the factor binding properties, we showed that on day 8 all three factors bound to their targets more readily when co&#8208;expressed with wild&#8208;type Gadd45a, but not G39A Gadd45a (Fig 5F). Consistently, a recent study has shown that chromatin opening by chromatin relaxers such as CAF&#8208;1 could promote binding of reprogramming factors to their targets 25. Together, our data demonstrate that Gadd45a, via G39, disrupts histone&#8211;DNA interactions, opens heterochromatin, and enhances the binding of reprogramming factors to their targets.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30298</offset>
+      <text>Gadd45a activates pluripotency genes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30335</offset>
+      <text>To investigate the genes regulated by Gadd45a through chromatin relaxation during reprogramming, we analyzed the gene expressions in MEF cells undergoing reprogramming transfected with wild&#8208;type Gadd45a or G39A. Microarray assays were performed twice and the common data showed that Gadd45a promotes the expression of 335 genes involved in embryo development (such as NF2 and Sprr1a), germ cell development (such as Rnf17 and Ddx25), amino acid modification (such as Metap2 and Map6d1), among many (Fig 6A and Appendix Fig S7A and B). On the other hand, Gadd45a also appears to inhibit the expression of 96 genes involved in neurotransmitter transport (such as Gad2 and Trim9) and several metabolic processes (such as Stat5b and Cytl1) (Appendix Fig S7A and B, and S8A). We also showed that pluripotency maintenance genes are upregulated by Gadd45a during reprogramming (Fig 6B). We then confirmed the expression of these pluripotency genes by qPCR and showed that whereas wild&#8208;type Gadd45a enhances the expression of pluripotency genes such as endogenous Oct4, Nanog, and Sox2 during reprogramming, G39A Gadd45a does not (Fig 6C and Appendix Fig S8B). The higher pluripotency gene expression could be the cause or the consequence of improved reprogramming. Of note, Jhdm1b, a factor that could greatly enhance reprogramming efficiency 9, does not promote the expression of pluripotency genes under similar settings (Appendix Fig S8C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31775</offset>
+      <text>Gadd45a facilitates the activation of pluripotency genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31832</offset>
+      <text>Summary of enriched Gene Ontology terms more potently upregulated by Gadd45a. The P&#8208;values represent the modified Fisher exact corrected EASE score.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31983</offset>
+      <text>Heatmaps depicting the relative fold change of gene expression at 8 dpi by DNA microarray. Red and green colors indicate increased and decreased expression, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32154</offset>
+      <text>qPCR analysis of endogenous Oct4, Nanog, or endogenous Sox2 expression level during reprogramming with SKO plus Flag, wild&#8208;type Gadd45a, or G39A Gadd45a. **P &#8804; 0.01, ***P &#8804; 0.001; n = 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32347</offset>
+      <text>Data information: In (C), data are presented as mean &#177; SD. P&#8208;values were calculated using an unpaired two&#8208;tailed Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>32485</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32496</offset>
+      <text>In this report, we present a live cell imaging method, FRAP, to measure the dynamics of heterochromatin/euchromatin in cells undergoing reprogramming and demonstrated significant heterochromatin relaxation at the initial stage of reprogramming. Furthermore, by using the adapted FRAP as a screening tool, we identified Gadd45a as an unexpected heterochromatin relaxer as well as reprogramming enhancer. Similarly, it has been reported that the histone chaperone CAF&#8208;1 promotes reprogramming as well as increases chromatin dynamics 25. The chromatin remodelers, such as Brg1/BAF155 12, INO80 50, have been also reported to be able to promote reprogramming. Thus, heterochromatin dynamics may serve as a critical process in regulating the initiating phase of somatic cell reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33283</offset>
+      <text>Chromatin structure and dynamics can be analyzed by a number of methods, including electron microscopy 51 and ChIP&#8208;seq 52, 53. However, neither can be performed on live cells. In this study, we developed the live cell imaging method, FRAP, for concisely measuring the dynamics of heterochromatin/euchromatin, which can also be adapted as a screening tool for heterochromatin relaxer. By this method, we tested several factors including p53 and p21 whose overexpression leads to reduction in chromatin dynamics (Fig EV2A and B). Indeed, p53 activation and p21 activation have been reported to modulate cellular senescence, one important function of which is densely stained regions of chromatin 30, 31, 32. FRAP is therefore able to identify not only enhancers but also barriers of reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34081</offset>
+      <text>Our finding that Gadd45a is a heterochromatin relaxer capable of enhancing reprogramming may generate further interests mechanistically. As Gadd45a has been reported previously to play important roles in regulating cell cycle, senescence, apoptosis, DNA damage repair, DNA demethylation, and tumorigenesis 43, 54, 55, one may be intrigued if these reported functions are responsible for the observed impact of Gadd45a on reprogramming. However, we actually showed that Gadd45a inhibits MEF proliferation during reprogramming (Appendix Fig S9), suggesting that it enhances reprogramming not through accelerating cell proliferation. On the other hand, the relationship between Gadd45 proteins and p53 is inconsistent as cells activate Gadd45a through p53 under ionic irradiation 43, 48, yet p53 is a potent inhibitor of reprogramming 35, 36, 37 and all Gadd45 proteins have the same effects on reprogramming (Fig 3A). Therefore, it appears that Gadd45a promotes and p53 inhibits reprogramming through different mechanisms.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35102</offset>
+      <text>We did not demonstrate that endogenous Gadd45 proteins are required for reprogramming. We used shRNAs to knockdown Gadd45 proteins and showed that the knockdown has no effect on reprogramming. This could be due to the residual Gadd45 proteins after shRNA&#8208;mediated knockdown being sufficient for reprogramming. As such, only genetic ablation of all three Gadd45 proteins may allow us to address this question in the near future. Nonetheless, our work shows that Gadd45, when overexpressed as an exogenous factor, disrupts histone&#8211;DNA interactions, opens up chromatin, and facilitates the binding of the Yamanaka factors to their targets. Gadd45a could be opening chromatin directly by disrupting histone&#8211;DNA interactions. There could also be alternative mechanism such as DNA methylation. Indeed, we have analyzed the total DNA methylation and hydroxymethylation levels at the early stage of reprogramming in the presence and absence of Gadd45a. Neither DNA methylation nor hydroxymethylation was affected by Gadd45a (Appendix Fig S10A and B). We also tested for the DNA methylation of the Oct4 and Nanog promoter regions and found no obvious differences among GFP, SKO, and SKO plus Gadd45a at day 8 (Appendix Fig S10D). Besides, we tried to overexpress XPB and XPG, which were reported to be the DNA repair endonucleases required for Gadd45a to demethylate DNA 55, 56, as well as TAF12, that could recruit Gadd45a and the nucleotide excision repair proteins (such as XPG) to demethylate the promoter of rRNA genes 45, and showed that these proteins are unable to enhance reprogramming (Appendix Fig S10C). Further studies would be needed to clarify the mechanism.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36773</offset>
+      <text>Interestingly, G39 has been reported to be a critical amino acid for the function and localization of Gadd45a 46. Exchange of glycine residue at this position for alanine would lead to considerable steric clashes such as RNA binding defect. However, K45E Gadd45a still enhances reprogramming despite its inability to bind RNAs, indicating that the two properties of Gadd45a can be uncoupled. By analyzing the crystal structure of Gadd45a in silico, dimerization of Gadd45a does not seem to be affected by G39A 47. This raises the possibility that G39A interferes with some other important property of Gadd45a, for example, interaction with core histones to loosen heterochromatin in our experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37473</offset>
+      <text>Finally, heterochromatin dynamics could be a universal process in cell fate transitions. Factors identified by FRAP screening might affect not only somatic cell reprogramming, but also other cell fate transitions. To this end, we have shown that Gadd45a could relax heterochromatin in human fibroblasts (Appendix Fig S11). We believe that further exploration of factors that can impact heterochromatin dynamics with FRAP as shown here can lead to better practice and understanding of cell fate reprogramming.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>37982</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38004</offset>
+      <text>DNA constructs, cell lines, and cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38049</offset>
+      <text>All expression vectors were based on the retroviral pMX backbone as described 9. The inducible Gadd45a was cloned into the pRLenti plasmid 40. The shRNAs: shGadd45a (5&#8242;&#8208;ATGGCATCCGAATGGAAATAA&#8208;3&#8242;); shGadd45b (5&#8242;&#8208;TGAAGAGAGCAGAGGCAATAA&#8208;3&#8242;); shGadd45g (5&#8242;&#8208;GATCGACTTGGTGACACTCTA&#8208;3&#8242;), were cloned into pSuper plasmids 9. Point mutation constructs were generated with pMXs&#8208;Gadd45a as the template by using synthetic oligonucleotides: For R34G, primers were forward (5&#8242;&#8208;CAAGGCTCGGAGTCAGGGCACCATTACGGTCGGCGTGT&#8208;3&#8242;) and reverse (5&#8242;&#8208;ACACGCCGACCGTAATGGTGCCCTGACTCCGAGCCTTG&#8208;3&#8242;). Primers for G39A were as follows: forward (5&#8242;&#8208;ACCATTACGGTCGCCGTGTACGAGGCTGCCAA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TTGGCAGCCTCGTACACGGCGACCGTAATGGT&#8208;3&#8242;); primers for K45E were as follows: forward (5&#8242;&#8208;GGTCGGCGTGTACGAGGCTGCCGAGCTGCTCAACGTAGACCCCGATAACGTGGTA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TACCACGTTATCGGGGTCTACGTTGAGCAGCTCGGCAGCCTCGTACACGCCGACC&#8208;3&#8242;).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39007</offset>
+      <text>OG2 MEFs were derived from E13.5 embryos that carry the Rosa26&#8208;lacZ allele and a transgenic Oct4 promoter driving GFP expression and used for reprogramming within two passages as described 8. MEFs and plat&#8208;E cells were maintained in DMEM/high glucose supplemented with 10% fetal bovine serum (FBS) (Hyclone). Mouse ESCs and iPSCs were maintained in a media containing DMEM/knockout (Gibco), 15% KSR (Gibco), NEAA (Gibco), GlutaMax (Gibco), and LIF with feeder cells as described 8. Human skin fibroblasts were cultured in DMEM (Hyclone) with 10% FBS (Hyclone) + non&#8208;essential amino acids (Gibco) + l&#8208;glutamine (Gibco) + penicillin/streptomycin (Hyclone). The cells were obtained with approval from the ethics committee of the Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39818</offset>
+      <text>Virus infection</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39834</offset>
+      <text>Retroviral vectors (pMXs or pSuper) carrying the factors or shRNAs were transfected into plat&#8208;E cells using PEI (PolyScience) transfection. Lentiviruses with inducible Gadd45a were prepared by transfecting lentivirus vector (pRLenti), psPAX, and pMD2G into 293T cells. The viral supernatants were collected and filtered prior to infecting MEFs with polybrene (Sigma) as described 8.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40219</offset>
+      <text>Immunofluorescence</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40238</offset>
+      <text>MEFs were infected with viral vectors carrying the genes of interest and then stained with antibody directed against HP1a (CST, #2616), Nanog (R&amp;D, AF2729), Rex1 (Santa Cruz, sc&#8208;50668), or Ssea&#8208;1 (R&amp;D, MAB2155). A Zeiss LSM 710 confocal microscope was used for detection. The area of HP1a&#8208;positive foci or DAPI foci was measured in ImageJ using the Particle Analysis plug&#8208;in.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40622</offset>
+      <text>FRAP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40627</offset>
+      <text>MEFs infected with GFP&#8208;Histone1.4 and mCherry&#8208;HP1a were cultured in 35&#8208;mm dishes with glass bottom (WPI) and then infected with viral vectors carrying the genes under investigation. FRAP was performed at day 3 post&#8208;infection. Bleaching was accomplished with 100% power of 488 nm laser, and images were taken at 1 fps with a Zeiss LSM 710 confocal microscope at 512 &#215; 512 resolution. The bleach was confined to oval areas of 25 pixels in diameter using 100&#215; oil objectives. The FRAP curve was measured by ImageJ after stack&#8208;registered with StackReg plug&#8208;in and analyzed by GraphPad 57.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41226</offset>
+      <text>iPSC generation and characterization</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41263</offset>
+      <text>Oct4, Sox2, Klf4, c&#8208;Myc, and other plasmids were transfected into plat&#8208;E cells using PEI (PolyScience) to generate viral stocks that infect OG2&#8208;MEFs cultured in medium containing 15% FBS (Gibco) + NEAA (Gibco) + GlutaMax (Gibco) + sodium pyruvate (Gibco) + &#946;&#8208;mercaptoethanol (Invitrogen) + LIF as described 8. iPSC colonies (GFP&#8208;positive colonies) were picked up and characterized as described 8, 58. Chimeras were generated by injecting iPSCs into blastocysts derived from ICR mice, followed by implantation into pseudopregnant ICR mice. F2 mice were then bred from chimeric mice and ICR mice for germline transmission as described 58. DOX (Sigma) was added at indicated time frame for the inducible experiments. GFP+ iPSC colonies were scored at the indicated days for SKO or SKOM and normalized relative reprogramming efficiency as described 40. VPA was purchased from Sigma and used at 1 mM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42170</offset>
+      <text>Protein purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42191</offset>
+      <text>The murine Gadd45a cDNA and its mutants were inserted into pGEX&#8208;4T2 plasmid (GE Healthcare) fusion with a GST tag and expressed in E. coli strain BL21 (DE3). The fusion proteins were purified following the instruction of GST fusion protein purification. The GST tag is removed upon purification.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42489</offset>
+      <text>SDS&#8211;PAGE and native PAGE</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42516</offset>
+      <text>SDS&#8211;PAGE was performed with 12% acrylamide/Bis gel in Tris&#8208;glycine buffer containing 0.1% SDS, and native PAGE with 10% acrylamide/Bis gel in Tris&#8208;glycine buffer (pH 8.3) minus the SDS, and stained with Coomassie Blue as described 59.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42757</offset>
+      <text>Western blot</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42770</offset>
+      <text>The purified wild&#8208;type and G39A Gadd45a proteins were analyzed with SDS&#8211;PAGE and then transferred to PVDF membrane (Millipore). After incubated with antibodies, the membrane was exposed to X film. The antibody against Gadd45a was purchased from Santa Cruz (sc&#8208;797x).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43043</offset>
+      <text>EMSA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43048</offset>
+      <text>The full&#8208;length Gadd45a and the G39A mutant proteins were produced and purified as described above. The core histones were extracted from mouse embryonic stem cells and purified with salt elution at 2.5 M NaCl and diluted in the assay buffer. The recombinant H2A/H2B heterodimer and the H3/H4 tetramer were purchased from NEB. The EMSA was carried out with the Chemiluminescent EMSA Kit (Beyotime, Jiangsu, PR China). Gadd45a or G39A proteins (100 &#956;g) were incubated with or without core histones (same amount as other two proteins). Biotin&#8208;labeled DNA oligomers (cloned from Oct4 promoter, CMV promoter, or EGFP gene) were added to the reaction mixture, and the products were loaded onto a non&#8208;denaturing gel. Then, it was either stained with ethidium bromide (EB) or transferred to NC membranes followed by incubating with streptavidin&#8211;HRP and detected with X&#8208;ray film. The probes used are as followed: primers for Oct4 probe, forward (5&#8242;&#8208;AAGTTGTCCCCAGGGGAGCCATC&#8208;3&#8242;) and reverse (5&#8242;&#8208;TCTTGTGTTGTCCAGGTTGGTAG&#8208;3&#8242;); probe A: forward (5&#8242;&#8208;GGTGGTTAGTGTCTAATCTACCAAC&#8208;3&#8242;) and reverse (5&#8242;&#8208;ACCACAAAGCCTGTTGGCACTGC&#8208;3&#8242;); probe B: forward (5&#8242;&#8208;GGACTGGAGGTGCAATGGCTGT&#8208;3&#8242;) and reverse (5&#8242;&#8208;CCCAGGAGGCCTTCATTTTCAAC&#8208;3&#8242;); probe C: forward (5&#8242;&#8208;GGGCATCCGAGCAACTGGTTTGT&#8208;3&#8242;) and reverse (5&#8242;&#8208;TTTCACCTCTCCCTCCCCAATCCCA&#8208;3&#8242;), probe D: forward (5&#8242;&#8208;AGTTTCTCCCACCCCCACAGCTCT&#8208;3&#8242;) and reverse (5&#8242;&#8208;CTTAGCCAGGTTCGAGGATCCACC&#8208;3&#8242;); CMV promoter probe: forward (5&#8242;&#8208;TCAATGGGTGGACTATTTACGGT&#8208;3&#8242;) and reverse (5&#8242;&#8208;TTGGAAATCCCCGTGAGTCAAAC&#8208;3&#8242;); EGFP gene probe: forward (5&#8242;&#8208;GTTCACCGGGGTGGTGCCCATC&#8208;3&#8242;) and reverse (5&#8242;&#8208;AGAAGATGGTGCGCTCCTGGAC&#8208;3&#8242;).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44771</offset>
+      <text>Nuclease accessibility assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44800</offset>
+      <text>Nuclease accessibility assay was performed with EpiQ Chromatin Analysis Kit (Bio&#8208;Rad). MEFs were infected with Flag, SKO, or SKO plus wild&#8208;type or G39A Gadd45a, then divided into two groups with one of which was digested with the EpiQ nuclease. The genomic DNA was purified and subjected to qPCR. The primers were designed from the Oct4 promoter, Nanog promoter, and binding sites of reprogramming factors. The nuclease accessibility index was calculated after normalization to an internal control. Primers for O1 were as follows: forward (5&#8242;&#8208;CTCTCGTCCTAGCCCTTCCT&#8208;3&#8242;) and reverse (5&#8242;&#8208;CCTCCACTCTGTCATGCTCA&#8208;3&#8242;). Primers for O2 were as follows: forward (5&#8242;&#8208;CTGACCCTAGCCAACAGCTC&#8208;3&#8242;) and reverse (5&#8242;&#8208;TGCTCCTACACCATGCTCTG&#8208;3&#8242;). Primers for O3 were as follows: forward (5&#8242;&#8208;CTTAGTGTCTTTCCGCCAGC&#8208;3&#8242;) and reverse (5&#8242;&#8208;TCCCCTCACACAAGACTTCC&#8208;3&#8242;). Primers for O4 were as follows: forward (5&#8242;&#8208;GCACTTCTCTGGGGTCTCTG&#8208;3&#8242;) and reverse (5&#8242;&#8208;TGAACCCAGTATTTCAGCCC&#8208;3&#8242;). Primers for O5 were as follows: forward (5&#8242;&#8208;CTGTAAGGACAGGCCGAGAG&#8208;3&#8242;) and reverse (5&#8242;&#8208;CAGGAGGCCTTCATTTTCAA&#8208;3&#8242;). Primers for O6 were as follows: forward (5&#8242;&#8208;CACGAGTGGAAAGCAACTCA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TTGGTTCCACCTTCTCCAAC&#8208;3&#8242;). Primers for N1 were as follows: forward (5&#8242;&#8208;ATCGCCTTGAGCCGTTGG&#8208;3&#8242;) and reverse (5&#8242;&#8208;CGAGGGAAGGGATTTCTG&#8208;3&#8242;). Primers for N2 were as follows: forward (5&#8242;&#8208;ATGGTGGCTGTGGTGGC&#8208;3&#8242;) and reverse (5&#8242;&#8208;GGTTGGTGGTGTTTGTTTGA&#8208;3&#8242;). Primers for N3 were as follows: forward (5&#8242;&#8208;GGCAGTGGAAGAAGGGAA&#8208;3&#8242;) and reverse (5&#8242;&#8208;AGCCACCATACTACTACTGTCTC&#8208;3&#8242;). Primers for Fbxo15 were as follows: forward (5&#8242;&#8208;GCCCTTAGTTCCCAGATG&#8208;3&#8242;) and reverse (5&#8242;&#8208;CTCACCTTACAAGTCCTCAA&#8208;3&#8242;). Primers for Dppa5 were as follows: forward (5&#8242;&#8208;GCGATAGCCCAAAGAAGT&#8208;3&#8242;) and reverse (5&#8242;&#8208;ACAGAGATTGAAGCAGACAT&#8208;3&#8242;). Primers for Lefty were as follows: forward (5&#8242;&#8208;GTCCAGACAGGCTTTTGTGT&#8208;3&#8242;) and reverse (5&#8242;&#8208;AGTCTGCGGAGGAATGGTA&#8208;3&#8242;). Primers for Chd1 were as follows: forward (5&#8242;&#8208;CCATGTTAAAATGTCATTTA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TGGAGTTACAAAGGACTTTA&#8208;3&#8242;). Primers for Tert were as follows: forward (5&#8242;&#8208;ACTTTGGTTGCCCAATGC&#8208;3&#8242;) and reverse (5&#8242;&#8208;AAGGAAAGGTCGGCAGGT&#8208;3&#8242;). Primers for Mixl were as follows: forward (5&#8242;&#8208;GAATAATCGCTTCCGCTGAC&#8208;3&#8242;) and reverse (5&#8242;,&#8208;AGAGGGGGTTCTGTCCAAGT&#8208;3&#8242;). Primers for GAPDH were as follows: forward (5&#8242;&#8208;TGCGACTTCAACAGCAACTC&#8208;3&#8242;) and reverse (5&#8242;&#8208;CTTGCTCAGTGTCCTTGCTG&#8208;3&#8242;). Primers for HBB were as follows: forward (5&#8242;&#8208;GAGTGGCACAGCATCCAGGGAGAAA&#8208;3&#8242;) and reverse (5&#8208;'CCACAGGCCAGAGACAGCAGCCTTC&#8208;3&#8242;).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47476</offset>
+      <text>ChIP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47481</offset>
+      <text>Cells were cross&#8208;linked with 1% formaldehyde for 15 min at room temperature and then washed three times with PBS and then harvested by scraping with a spatula. Cells were lysed in SDS buffer (1% SDS, 50 mM Tris&#8211;HCl (pH 8.0), 10 mM EDTA, and protease inhibitor cocktail) for 10 min at 4&#176;C and sheared by sonication. Sheared chromatin was diluted with ChIP IP buffer (0.01% SDS, 1% Triton X&#8208;100, 2 mM EDTA, 50 mM Tris&#8211;HCl (pH 8.0), 150 mM NaCl, and protease inhibitor cocktail) by 10 times. Antibodies were coupled to Dynabeads with protein A or G (Invitrogen) for more than 3 h at 4&#176;C in PBS supplemented with 0.01% Tween&#8208;20, and beads were washed with PBS supplemented with 0.01% Tween&#8208;20. Diluted chromatin was incubated with antibodies overnight at 4&#176;C. After immunoprecipitation, beads were washed with low&#8208;salt wash buffer (0.1% SDS, 1% Triton X&#8208;100, 2 mM EDTA, 20 mM Tris&#8211;HCl (pH 8.0), and 150 mM NaCl), high&#8208;salt wash buffer [0.1% SDS, 1% Triton X&#8208;100, 2 mM EDTA, 20 mM Tris&#8211;HCl (pH 8.0), and 500 mM NaCl), LiCl wash buffer (0.25 M LiCl, 1% NP&#8208;40, 1% deoxycholate, 1 mM EDTA, and 10 mM Tris&#8211;HCl (pH 8.1)], and TE buffer [10 mM Tris&#8211;HCl and 1 mM EDTA (pH 8.0)]. DNA was extracted with Chelex 100 and used for analysis 60. ChIP assays using anti&#8208;Oct4 (Santa Cruz, sc&#8208;8628), anti&#8208;Sox2 (Millipore, 17&#8208;10256), and anti&#8208;Klf4 (R&amp;D, AF3158) antibodies were performed on day 8 during SKO&#8208;mediated reprogramming. ChIP assays using anti&#8208;H3K9Me2/3 (Abcam, ab1220 and ab8898), anti&#8208;H3K9Ac (Abcam, ab10812), anti&#8208;H3K27Me2/3 (Abcam, ab24684 and ab6002), and anti&#8208;H3K27Ac (Abcam, ab4729) antibodies were performed on day 3 of SKO&#8208;mediated reprogramming. Primers for GAPDH were as follows: forward (5&#8242;&#8208;CCTTCATTGACCTCAACTACA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TAGACTCCACGACATACTCA&#8208;3&#8242;) 19. Primers for Oct4 were as follows: forward (5&#8242;&#8208;ATACTTGAACTGTGGTGGAG&#8208;3&#8242;) and reverse (5&#8242;&#8208;GCTATCATGCACCTTTGTTAT&#8208;3&#8242;). Primers for Nanog were as follows: forward (5&#8242;&#8208;CAGGTGGGAAGTATCTATGG&#8208;3&#8242;) and reverse (5&#8242;&#8208;ACGGCTATTCTATTCAGTGG&#8208;3&#8242;). Primers for Sox2 were as follows: forward (5&#8242;&#8208;TTTATTCAGTTCCCAGTCCAA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TTATTCCTATGTGTGAGCAAGA&#8208;3&#8242;). Primers for negative control (NC) were as follows: forward (5&#8242;&#8208;AGCATGTGTTCTTCTTACCA&#8208;3&#8242;) and reverse (5&#8242;&#8208;GTTAGTTCATATTATTGTTCCACCTATA&#8208;3&#8242;). The negative control corresponds to NC_000074.5/Mus musculus strain C57BL/6J chromosome 8, MGSCv37 C57BL/6J; the locus is from 44,386,388 to 44,386,527, which does not belong to any promoter nor gene body. Other primers were the same in the nuclease accessibility assay.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50131</offset>
+      <text>To perform ChIP with two&#8208;step cross&#8208;linking, cells were cross&#8208;linked with 2 mM DSG (Thermo) in PBS supplemented with 1 mM MgCl2 for 45 min at room temperature. After washing three times with PBS, cells were cross&#8208;linked with 1% formaldehyde and continued for ChIP assay as described above. ChIP assays using anti&#8208;Gadd45a antibodies (Santa Cruz, sc&#8208;797x) were performed on day 8 during SKO plus WT or G39A Gadd45a&#8208;mediated reprogramming. Primers used were the same in the nuclease accessibility assay.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50646</offset>
+      <text>Immuno&#8208;FISH</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50660</offset>
+      <text>The probes for Oct4 were generated from the BAC as RP24&#8208;248K18 (Children's Hospital Oakland, USA) containing the Oct4 genome sequence and the probes from empty vector were used as controls. They were labeled with Atto550&#8208;dUTP by using a nick translation mix (ATTO&#8208;TEC Gmbh, Siegen, Germany).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50958</offset>
+      <text>MEF cells were cultured on 12&#8208;well cell plates and infected with retrovirus encoding Oct4 or other genes described in the text. The cells were transferred onto coverslips on day 3 and next day fixed with 2% formaldehyde and permeabilized with 0.5% Triton X&#8208;100 for 10 min each. Samples were denatured with 70% formamide/2&#215; SSC for 15 min at 76&#176;C and then hybridized with 10 &#956;l of hybridization mix containing 10 ng probes with 65% formamide/2&#215; SSC at 37&#176;C for 24 h. After three washes with 50% formamide/2&#215; SSC, the immunostaining of HP1a was performed as described above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51541</offset>
+      <text>Real&#8208;time quantitative PCR (qPCR)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51577</offset>
+      <text>Total RNA was extracted with TRIzol (Invitrogen) and 3 &#956;g RNA was used to generate complementary DNA. The expression levels of genes were determined using Premix Ex Taq (Takara) and analyzed with CFX96 Real&#8208;Time System (Bio&#8208;Rad). Primers for Gadd45a were as follows: forward (5&#8242;&#8208;TGAGCTGCTGCTACTGGAGA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TCCCGGCAAAAACAAATAAG&#8208;3&#8242;). Primers for Gadd45b were as follows: forward (5&#8242;&#8208;CACCCTGATCCAGTCGTTCT&#8208;3&#8242;) and reverse (5&#8242;&#8208;TGACAGTTCGTGACCAGGAG&#8208;3&#8242;). Primers for Gadd45g were as follows: forward (5&#8242;&#8208;AGTCCTGAATGTGGACCCTG&#8208;3&#8242;) and reverse (5&#8242;&#8208;TCAACGTGAAATGGATCTGC&#8208;3&#8242;). Primers for endogenous Oct4 were as follows: forward (5&#8242;&#8208;TAGGTGAGCCGTCTTTCCAC&#8208;3&#8242;) and reverse (5&#8242;&#8208;GCTTAGCCAGGTTCGAGGAT&#8208;3&#8242;). Primers for endogenous Sox2 were as follows: forward (5&#8242;&#8208;AGGGCTGGGAGAAAGAAGAG&#8208;3&#8242;) and reverse (5&#8242;&#8208;CCGCGATTGTTGTGATTAGT&#8208;3&#8242;). Primers for Nanog were as follows: forward (5&#8242;&#8208;CTCAAGTCCTGAGGCTGACA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TGAAACCTGTCCTTGAGTGC&#8208;3&#8242;). Primers for Rex1 were as follows: forward (5&#8242;&#8208;CCCTCGACAGACTGACCCTAA&#8208;3&#8242;) and reverse (5&#8242;&#8208;TCGGGGCTAATCTCACTTTCAT&#8208;3&#8242;). Primers for Dppa3 were as follows: forward (5&#8242;&#8208;TGTGGAGAACAAGAGTGA&#8208;3&#8242;) and reverse (5&#8242;&#8208;CTCAATCCGAACAAGTCTT&#8208;3&#8242;). Primers for Dnmt3 l were as follows: forward (5&#8242;&#8208;CGGAGCATTGAAGACATC&#8208;3&#8242;) and reverse (5&#8242;&#8208;CATCATCATACAGGAAGAGG&#8208;3&#8242;). Primers for Esrrb were as follows: forward (5&#8242;&#8208;GCACCTGGGCTCTAGTTGC&#8208;3&#8242;) and reverse (5&#8242;&#8208;TACAGTCCTCGTAGCTCTTGC&#8208;3&#8242;). Primers for Lin28 were as follows: forward (5&#8242;&#8208;CCAAGATTACTGAACCTACC&#8208;3&#8242;) and reverse (5&#8242;&#8208;CGTTGCTAGAGACCATTC&#8208;3&#8242;). Primers for Sall4 were as follows: forward (5&#8242;&#8208;CCCTGGGAACTGCGATGAAG&#8208;3&#8242;) and reverse (5&#8242;&#8208;TCAGAGAGACTAAAGAACTCGGC&#8208;3&#8242;). Primers for Trim6 were as follows: forward (5&#8242;&#8208;ATGACTTCAACAGTCTTGGTGG&#8208;3&#8242;) and reverse (5&#8242;&#8208;TTCCCAGGCTGATAGGAGGTC&#8208;3&#8242;). Primers for exogenous Gadd45a were as follows: forward (5&#8242;&#8208;GGGTGGACCATCCTCTAGAC&#8208;3&#8242;) and reverse (5&#8242;&#8208;CTTGGCAGCCTCGTACACGC&#8208;3&#8242;). Primers for exogenous Sox2 were as follows: forward (5&#8242;&#8208;GGGTGGACCATCCTCTAGAC&#8208;3&#8242;) and reverse (5&#8242;&#8208;GGGCTGTTCTTCTGGTTG&#8208;3&#8242;). Primers for exogenous Klf4 were as follows: forward (5&#8242;&#8208;GGGTGGACCATCCTCTAGAC&#8208;3&#8242;) and reverse (5&#8242;&#8208;GCTGGACGCAGTGTCTTCTC&#8208;3&#8242;). Primers for exogenous Oct4 were as follows: forward (5&#8242;&#8208;GGGTGGACCATCCTCTAGAC&#8208;3&#8242;) and reverse (5&#8242;&#8208;CCAGGTTCGAGAATCCAC&#8208;3&#8242;). Primers for Actin were as follows: forward (5&#8242;&#8208;TGCTAGGAGCCAGAGCAGTA&#8208;3&#8242;) and reverse (5&#8242;&#8208;AGTGTGACGTTGACATCCGT&#8208;3&#8242;).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54216</offset>
+      <text>Co&#8208;immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54241</offset>
+      <text>EGFP, wild&#8208;type Gadd45a, and G39A Gadd45a were constructed with Flag tag and transduced into MEFs. MEFs were lysed with buffer (50 mM pH 7.4 Tris&#8211;HCl, 150 mM NaCl, 1 mM EDTA, 1% Nonidet P&#8208;40, protease inhibitors) for 30 min. Lysates were incubated with the anti&#8208;Flag resin (Sigma) for 4 h. After immunoprecipitation, resin was washed with lysis buffer six times and was boiled for 10 min to elute Flag fusion proteins. The eluent was analyzed by Western blot with antibodies against Flag (Sigma, F1804) and H3 (Abcam, ab1791).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54776</offset>
+      <text>DNA microarrays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54792</offset>
+      <text>DNA microarrays were performed using Agilent Whole Mouse Genomic Oligo Microarray chip (Shanghai Biotechnology). Microarray data were extracted with Feature Extraction software 10.7 (Agilent technologies). All the raw data were normalized by the Quantile algorithm, Gene Spring Software 11.0 (Agilent technologies). The experiment and data analysis were performed by Shanghai Biotechnology. Genes showing significant expression changes (FC &gt; 2) upon overexpression of wild&#8208;type Gadd45a compared to Flag or G39A Gadd45a in SKO&#8208;induced reprogramming were selected and further analyzed. The Gene Ontology analysis was performed using DAVID database (https://david.ncifcrf.gov). The P&#8208;values represent the modified Fisher exact corrected EASE score.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55544</offset>
+      <text>Bisulfate genomic sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55573</offset>
+      <text>Genomic DNA (700 ng) was isolated and bisulfate converted using 50.6% sodium bisulfate (Sigma) and 10 mM hydroquinone (Sigma) overnight at 56&#176;C. The promoter regions of Oct4 and Nanog were amplified by PCR. The PCR products were cloned into the pMD18T vector and sequenced.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55848</offset>
+      <text>Global DNA methylation and hydroxymethylation status detection</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55911</offset>
+      <text>Genomic DNA was isolated and analyzed with MethylFlash&#8482; Methylated DNA Quantification Kit (Colorimetric) or MethylFlash&#8482; Hydroxymethylated DNA Quantification Kit (Colorimetric) according to the manufacturer's instructions (Epigentek Group Inc.).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56161</offset>
+      <text>Statistics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56172</offset>
+      <text>DNA microarrays were performed twice and all the other experiments were performed more than three times. FRAP data analysis used two&#8208;tailed Student's t&#8208;test and expressed as mean &#177; SEM, which refers to previous reports 20, 27, 61. Other data used Student's t&#8208;test and expressed as mean &#177; SD. P &#8804; 0.05 was considered statistically significant.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56525</offset>
+      <text>Accession numbers</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56543</offset>
+      <text>The accession number for the DNA microarrays gathered in this study is GSE56944.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>56624</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56645</offset>
+      <text>DP supervised the project. DP, KC, and TW initiated wild&#8208;type and mutant Gadd45a effects on reprogramming efficiency and pluripotent gene expression, XinL and QL initiated setting up FRAP method to reveal heterochromatin dynamics in reprogramming and identify Gadd45a as a heterochromatin relaxer. DP, XinL, KC, and QL designed and performed FRAP, FISH, EMSA, ChIP, co&#8208;IP, nuclease accessibility assay, and microarray assays to show Gadd45 loosening chromatin by destabilizing histone&#8208;DNA interactions, facilitating binding of Yamanaka factors to their targets via G39, and regulating downstream multiple gene expression. DZ and YW participated in cell culture and ChIP experiments, YZ, JQ, SL, and YuL participated in immunofluorescence and FISH experiments, XiyL participated in EMSA and ChIP experiments, CC, XZ, JY, ZZ, and WQ participated in plasmid construction and iPSC identification, YinL and XH provided recombined proteins, DQ, JC, GP, HRS, and GX provided suggestions. DP, XinL, KC, and QL wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57675</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57696</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57756</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>57779</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">676</infon>
+      <infon key="pub-id_pmid">16904174</infon>
+      <infon key="fpage">663</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>57790</offset>
+      <text>Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">872</infon>
+      <infon key="pub-id_pmid">18035408</infon>
+      <infon key="fpage">861</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>57896</offset>
+      <text>Induction of pluripotent stem cells from adult human fibroblasts by defined factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">322</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1815</infon>
+      <infon key="pub-id_pmid">19095934</infon>
+      <infon key="fpage">1811</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>57980</offset>
+      <text>Nuclear reprogramming in cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Circ Res</infon>
+      <infon key="lpage">533</infon>
+      <infon key="pub-id_pmid">23371901</infon>
+      <infon key="fpage">523</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58011</offset>
+      <text>Steps toward safe cell therapy using induced pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">488</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">655</infon>
+      <infon key="pub-id_pmid">22902501</infon>
+      <infon key="fpage">652</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58079</offset>
+      <text>Early&#8208;stage epigenetic modification during somatic cell reprogramming by Parp1 and Tet2</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">522</infon>
+      <infon key="pub-id_pmid">24529596</infon>
+      <infon key="fpage">512</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>58169</offset>
+      <text>Tet and TDG mediate DNA demethylation essential for mesenchymal&#8208;to&#8208;epithelial transition in somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">1509</infon>
+      <infon key="pub-id_pmid">24162740</infon>
+      <infon key="fpage">1504</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58292</offset>
+      <text>Vitamin C modulates TET1 function during somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">79</infon>
+      <infon key="pub-id_pmid">20036631</infon>
+      <infon key="fpage">71</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58360</offset>
+      <text>Vitamin C enhances the generation of mouse and human induced pluripotent stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">587</infon>
+      <infon key="pub-id_pmid">22100412</infon>
+      <infon key="fpage">575</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>58444</offset>
+      <text>The histone demethylases Jhdm1a/1b enhance somatic cell reprogramming in a vitamin&#8208;C&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="volume">488</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">413</infon>
+      <infon key="pub-id_pmid">22801502</infon>
+      <infon key="fpage">409</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58550</offset>
+      <text>The H3K27 demethylase Utx regulates somatic and germ cell epigenetic reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">377</infon>
+      <infon key="pub-id_pmid">19167336</infon>
+      <infon key="fpage">364</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>58633</offset>
+      <text>Role of the murine reprogramming factors in the induction of pluripotency</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">955</infon>
+      <infon key="pub-id_pmid">20550931</infon>
+      <infon key="fpage">943</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58707</offset>
+      <text>Chromatin&#8208;remodeling components of the BAF complex facilitate reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">483</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">602</infon>
+      <infon key="pub-id_pmid">22388813</infon>
+      <infon key="fpage">598</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58785</offset>
+      <text>Chromatin&#8208;modifying enzymes as modulators of reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">502</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">70</infon>
+      <infon key="pub-id_pmid">24048479</infon>
+      <infon key="fpage">65</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58846</offset>
+      <text>Deterministic direct reprogramming of somatic cells to pluripotency</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">63</infon>
+      <infon key="pub-id_pmid">20621050</infon>
+      <infon key="fpage">51</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>58914</offset>
+      <text>A mesenchymal&#8208;to&#8208;epithelial transition initiates and is required for the nuclear reprogramming of mouse fibroblasts</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">77</infon>
+      <infon key="pub-id_pmid">20621051</infon>
+      <infon key="fpage">64</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>59034</offset>
+      <text>Functional genomics reveals a BMP&#8208;driven mesenchymal&#8208;to&#8208;epithelial transition in the initiation of somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1789</infon>
+      <infon key="pub-id_pmid">21468033</infon>
+      <infon key="fpage">1778</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59166</offset>
+      <text>Constitutive heterochromatin reorganization during somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">18942890</infon>
+      <infon key="fpage">e253</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>59244</offset>
+      <text>Promotion of reprogramming to ground state pluripotency by signal inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">23202127</infon>
+      <infon key="fpage">34</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59321</offset>
+      <text>H3K9 methylation is a barrier during somatic cell reprogramming into iPSCs</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">116</infon>
+      <infon key="pub-id_pmid">16399082</infon>
+      <infon key="fpage">105</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>59396</offset>
+      <text>Hyperdynamic plasticity of chromatin proteins in pluripotent embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">850</infon>
+      <infon key="pub-id_pmid">21663790</infon>
+      <infon key="fpage">835</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59478</offset>
+      <text>Chromatin connections to pluripotency and cellular reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">408</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">876</infon>
+      <infon key="pub-id_pmid">11130728</infon>
+      <infon key="fpage">873</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>59543</offset>
+      <text>Rapid exchange of histone H1.1 on chromatin in living human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">408</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">881</infon>
+      <infon key="pub-id_pmid">11130729</infon>
+      <infon key="fpage">877</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>59609</offset>
+      <text>Dynamic binding of histone H1 to chromatin in living cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">47</infon>
+      <infon key="pub-id_pmid">21179060</infon>
+      <infon key="fpage">36</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59668</offset>
+      <text>Open chromatin in pluripotency and reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">528</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">224</infon>
+      <infon key="pub-id_pmid">26659182</infon>
+      <infon key="fpage">218</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>59717</offset>
+      <text>The histone chaperone CAF&#8208;1 safeguards somatic cell identity</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Stem Cells Dev</infon>
+      <infon key="lpage">3009</infon>
+      <infon key="pub-id_pmid">22657835</infon>
+      <infon key="fpage">3001</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59780</offset>
+      <text>Induced pluripotent stem&#8208;induced cells show better constitutive heterochromatin remodeling and developmental potential after nuclear transfer than their parental cells</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">22713752</infon>
+      <infon key="fpage">910</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59950</offset>
+      <text>Histone modifications and lamin A regulate chromatin protein dynamics in early embryonic stem cell differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">J Mol Cell Biol</infon>
+      <infon key="lpage">350</infon>
+      <infon key="pub-id_pmid">22044880</infon>
+      <infon key="fpage">341</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60065</offset>
+      <text>Global epigenetic changes during somatic cell reprogramming to iPS cells</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">20479880</infon>
+      <infon key="fpage">e10531</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60138</offset>
+      <text>Global chromatin architecture reflects pluripotency and lineage commitment in the early mouse embryo</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">5143</infon>
+      <infon key="pub-id_pmid">23416979</infon>
+      <infon key="fpage">5129</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60239</offset>
+      <text>Senescence and aging: the critical roles of p53</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">771</infon>
+      <infon key="pub-id_pmid">23916530</infon>
+      <infon key="fpage">765</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60287</offset>
+      <text>Stressing the cell cycle in senescence and aging</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2358</infon>
+      <infon key="pub-id_pmid">17242207</infon>
+      <infon key="fpage">2343</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>60336</offset>
+      <text>Molecular dissection of formation of senescence&#8208;associated heterochromatin foci</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">466</infon>
+      <infon key="pub-id_pmid">22522173</infon>
+      <infon key="fpage">457</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60418</offset>
+      <text>Kdm2b promotes induced pluripotent stem cell generation by facilitating gene activation early in reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">797</infon>
+      <infon key="pub-id_pmid">18568017</infon>
+      <infon key="fpage">795</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60529</offset>
+      <text>Induction of pluripotent stem cells by defined factors is greatly improved by small&#8208;molecule compounds</text>
+    </passage>
+    <passage>
+      <infon key="volume">460</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1135</infon>
+      <infon key="pub-id_pmid">19668191</infon>
+      <infon key="fpage">1132</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60634</offset>
+      <text>Suppression of induced pluripotent stem cell generation by the p53&#8208;p21 pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">460</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1144</infon>
+      <infon key="pub-id_pmid">19668186</infon>
+      <infon key="fpage">1140</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60715</offset>
+      <text>Linking the p53 tumour suppressor pathway to somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">460</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1153</infon>
+      <infon key="pub-id_pmid">19668189</infon>
+      <infon key="fpage">1149</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60787</offset>
+      <text>A p53&#8208;mediated DNA damage response limits reprogramming to ensure iPS cell genomic integrity</text>
+    </passage>
+    <passage>
+      <infon key="volume">337</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">975</infon>
+      <infon key="pub-id_pmid">22923582</infon>
+      <infon key="fpage">971</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60882</offset>
+      <text>Dense chromatin activates Polycomb repressive complex 2 to regulate H3 lysine 27 methylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Chromosome Res</infon>
+      <infon key="lpage">211</infon>
+      <infon key="pub-id_pmid">16544193</infon>
+      <infon key="fpage">203</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60975</offset>
+      <text>Histone H3 acetylated at lysine 9 in promoter is associated with low nucleosome density in the vicinity of transcription start site in human cell</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Stem Cells</infon>
+      <infon key="lpage">92</infon>
+      <infon key="pub-id_pmid">26388522</infon>
+      <infon key="fpage">83</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>61121</offset>
+      <text>Srebp&#8208;1 interacts with c&#8208;Myc to enhance somatic cell reprogramming</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8804</infon>
+      <infon key="pub-id_pmid">3194391</infon>
+      <infon key="fpage">8800</infon>
+      <infon key="year">1988</infon>
+      <infon key="type">ref</infon>
+      <offset>61192</offset>
+      <text>DNA damage&#8208;inducible transcripts in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">22201</infon>
+      <infon key="pub-id_pmid">20460379</infon>
+      <infon key="fpage">22196</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>61246</offset>
+      <text>Solution structure of human growth arrest and DNA damage 45alpha (Gadd45alpha) and its interactions with proliferating cell nuclear antigen (PCNA) and Aurora A kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Int J Biochem Cell Biol</infon>
+      <infon key="lpage">989</infon>
+      <infon key="pub-id_pmid">18760377</infon>
+      <infon key="fpage">986</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61413</offset>
+      <text>Growth arrest and DNA damage&#8208;45 alpha (GADD45alpha)</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Differentiation</infon>
+      <infon key="lpage">68</infon>
+      <infon key="pub-id_pmid">26546041</infon>
+      <infon key="fpage">59</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>61467</offset>
+      <text>GADD45a physically and functionally interacts with TET1</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">353</infon>
+      <infon key="pub-id_pmid">19217408</infon>
+      <infon key="fpage">344</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61523</offset>
+      <text>TAF12 recruits Gadd45a and the nucleotide excision repair complex to the promoter of rRNA genes leading to active DNA demethylation</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21249130</infon>
+      <infon key="fpage">e14500</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61655</offset>
+      <text>Gadd45a is an RNA binding protein and is localized in nuclear speckles</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">6571</infon>
+      <infon key="pub-id_pmid">18445651</infon>
+      <infon key="fpage">6566</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>61726</offset>
+      <text>The crystal structure and dimerization interface of GADD45gamma</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">1685</infon>
+      <infon key="pub-id_pmid">10022855</infon>
+      <infon key="fpage">1673</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>61790</offset>
+      <text>Gadd45, a p53&#8208;responsive stress protein, modifies DNA accessibility on damaged chromatin</text>
+    </passage>
+    <passage>
+      <infon key="volume">809</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="lpage">120</infon>
+      <infon key="pub-id_pmid">22113271</infon>
+      <infon key="fpage">105</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61881</offset>
+      <text>Two&#8208;step cross&#8208;linking for analysis of protein&#8208;chromatin interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">591</infon>
+      <infon key="pub-id_pmid">24792115</infon>
+      <infon key="fpage">575</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61957</offset>
+      <text>INO80 facilitates pluripotency gene activation in embryonic stem cell self&#8208;renewal, reprogramming, and blastocyst development</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">J Mol Cell Biol</infon>
+      <infon key="lpage">420</infon>
+      <infon key="pub-id_pmid">24838272</infon>
+      <infon key="fpage">409</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62085</offset>
+      <text>Small molecule compound induces chromatin de&#8208;condensation and facilitates induced pluripotent stem cell generation</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">250</infon>
+      <infon key="pub-id_pmid">19151716</infon>
+      <infon key="fpage">246</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>62202</offset>
+      <text>Large histone H3 lysine 9 dimethylated chromatin blocks distinguish differentiated from embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">491</infon>
+      <infon key="pub-id_pmid">20452322</infon>
+      <infon key="fpage">479</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62311</offset>
+      <text>Distinct epigenomic landscapes of pluripotent and lineage&#8208;committed human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">7315</infon>
+      <infon key="pub-id_pmid">12499274</infon>
+      <infon key="fpage">7305</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>62393</offset>
+      <text>Gadd45a protects against UV irradiation&#8208;induced skin tumors, and promotes apoptosis and stress signaling via MAPK and p53</text>
+    </passage>
+    <passage>
+      <infon key="volume">445</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">675</infon>
+      <infon key="pub-id_pmid">17268471</infon>
+      <infon key="fpage">671</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62517</offset>
+      <text>Gadd45a promotes epigenetic gene activation by repair&#8208;mediated DNA demethylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">227</infon>
+      <infon key="pub-id_pmid">22341196</infon>
+      <infon key="fpage">220</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62600</offset>
+      <text>Active DNA demethylation by Gadd45 and DNA repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">IEEE Trans Image Process</infon>
+      <infon key="lpage">41</infon>
+      <infon key="pub-id_pmid">18267377</infon>
+      <infon key="fpage">27</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>62650</offset>
+      <text>A pyramid approach to subpixel registration based on intensity</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">894</infon>
+      <infon key="pub-id_pmid">21445094</infon>
+      <infon key="fpage">884</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62713</offset>
+      <text>Rational optimization of reprogramming culture conditions for the generation of induced pluripotent stem cells with ultra&#8208;high efficiency and fast kinetics</text>
+    </passage>
+    <passage>
+      <infon key="volume">52</infon>
+      <infon key="source">Biotechniques</infon>
+      <infon key="lpage">21</infon>
+      <infon key="pub-id_pmid">22229723</infon>
+      <infon key="fpage">20</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62871</offset>
+      <text>Native PAGE</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">34</infon>
+      <infon key="pub-id_pmid">16397291</infon>
+      <infon key="fpage">e2</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>62883</offset>
+      <text>Fast chromatin immunoprecipitation assay</text>
+    </passage>
+    <passage>
+      <infon key="volume">299</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">725</infon>
+      <infon key="pub-id_pmid">12560555</infon>
+      <infon key="fpage">721</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>62924</offset>
+      <text>Maintenance of stable heterochromatin domains by dynamic HP1 binding</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4946140</id>
+    <passage>
+      <infon key="volume">35 35</infon>
+      <infon key="name_0">surname:Le;given-names:Tung BK</infon>
+      <infon key="name_1">surname:Laub;given-names:Michael T</infon>
+      <infon key="alt-title">Tung BK Le &amp; Michael T Laub</infon>
+      <infon key="article-id_publisher-id">EMBJ201593561</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201593561</infon>
+      <infon key="lpage">1595 1595</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">1582 1582</infon>
+      <infon key="year">2016</infon>
+      <infon key="issue">14</infon>
+      <infon key="kwd">chromosomal domains transcription chromosome organization Hi&#8208;C supercoil diffusion Chromatin, Epigenetics, Genomics &amp; Functional Genomics DNA Replication, Repair &amp; Recombination Microbiology, Virology &amp; Host Pathogen Interaction</infon>
+      <offset>0</offset>
+      <text>Transcription rate and transcript length drive formation of chromosomal interaction domain boundaries</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>102</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>111</offset>
+      <text>Chromosomes in all organisms are highly organized and divided into multiple chromosomal interaction domains, or topological domains. Regions of active, high transcription help establish and maintain domain boundaries, but precisely how this occurs remains unclear. Here, using fluorescence microscopy and chromosome conformation capture in conjunction with deep sequencing (Hi&#8208;C), we show that in Caulobacter crescentus, both transcription rate and transcript length, independent of concurrent translation, drive the formation of domain boundaries. We find that long, highly expressed genes do not form topological boundaries simply through the inhibition of supercoil diffusion. Instead, our results support a model in which long, active regions of transcription drive local decompaction of the chromosome, with these more open regions of the chromosome forming spatial gaps in&#160;vivo that diminish contacts between DNA in neighboring domains. These insights into the molecular forces responsible for domain formation in Caulobacter likely generalize to other bacteria and possibly eukaryotes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1207</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1220</offset>
+      <text>In all living organisms, chromosomes are not haphazardly packed inside the cells but rather are compacted into highly organized structures, presumably to support the execution and fidelity of DNA&#8208;based processes such as replication, transcription, repair, recombination, and chromosome segregation. The three&#8208;dimensional organization of chromosomes has recently emerged through the microscopic analysis of fluorescently tagged DNA loci and by chromosome conformation capture in conjunction with deep sequencing (Hi&#8208;C) (Umbarger et&#160;al, 2011; Le et&#160;al, 2013; Wang et&#160;al, 2013; Badrinarayanan et&#160;al, 2015). Hi&#8208;C provides quantitative information about the spatial proximity of genomic loci in&#160;vivo by measuring the frequency with which different regions of the chromosome can be cross&#8208;linked together (Dekker et&#160;al, 2002; Lieberman&#8208;Aiden et&#160;al, 2009). The first application of Hi&#8208;C to bacteria examined the chromosome of Caulobacter crescentus (Le&#160;et&#160;al, 2013). Caulobacter cells can be easily synchronized with respect to the cell cycle and DNA replication, enabling Hi&#8208;C analysis of large, nearly homogeneous populations of cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2375</offset>
+      <text>Hi&#8208;C analysis of wild&#8208;type Caulobacter cells revealed a pattern of DNA&#8211;DNA interactions consistent with the origin of replication being located at one cell pole, the terminus near the opposite pole, and the two chromosomal arms running in parallel and colinearly down the long axis of the cell (Le et&#160;al, 2013). Additionally, Hi&#8208;C and recombination&#8208;based assays demonstrated that the Caulobacter chromosome is subdivided into a series of chromosomal interaction domains (CIDs), averaging ~120&#160;kb in length, where loci within a domain interact more frequently with other loci in the same domain. Chromosomal domains have also recently been reported in B.&#160;subtilis using Hi&#8208;C (Marbouty et&#160;al, 2015; Wang et&#160;al, 2015). CIDs represent just one level of chromosome organization in bacteria. Multiple CIDs are often nested, with several consecutive CIDs comprising a larger entity that may correspond to the so&#8208;called macrodomains first documented in E.&#160;coli (Valens et&#160;al, 2004). The genomic DNA within each CID is also further organized, likely forming plectonemic loops of supercoiled DNA (Deng et&#160;al, 2005). Individual supercoil domains have been estimated to be ~10&#160;kb on average meaning there may be several supercoil domains within a given CID (Higgins et&#160;al, 1996). Such supercoil domains are difficult to see by Hi&#8208;C given their size, which is close to or below the resolution of Hi&#8208;C. Additionally, supercoils can diffuse, so the genomic distribution of supercoil domains may not be consistent across a population of cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3931</offset>
+      <text>Domains similar to CIDs, called topologically associated domains (TADs), have been documented in a range of eukaryotic cells (reviewed in Dekker &amp; Heard, 2015). In both bacteria and eukaryotes, domain boundaries are frequently associated with highly transcribed genes. TAD boundaries have also been correlated with several other factors, including CTCF and cohesin (Dekker &amp; Heard, 2015), but the factors ultimately responsible for TAD formation are still unclear. However, studies of C.&#160;crescentus indicate that chromosomal interaction domains in bacteria (hereafter referred to as chromosomal domains or just domains for brevity) are frequently created directly by highly transcribed genes (Le et&#160;al, 2013). In addition to a strong correlation between domain boundaries and the locations of very highly expressed genes, inhibiting transcription in Caulobacter with rifampicin almost completely eliminates domain boundaries (Le et&#160;al, 2013). Strikingly, the insertion of a highly expressed gene, rsaA, was also sufficient to produce a new domain boundary at the site of insertion (Le et&#160;al, 2013). Nevertheless, the precise relationship between gene expression and chromosomal domains is uncertain. Not all highly expressed genes form domain boundaries, and for those that do, the molecular or physical mechanisms responsible remain unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5278</offset>
+      <text>Here, we use Hi&#8208;C along with microscopy&#8208;based analyses of individual loci, to characterize domain boundary formation in Caulobacter. We show that highly expressed genes must be of a sufficient length to create barriers in&#160;vivo that prevent long&#8208;range DNA interactions. We provide evidence that the transcription of long, highly expressed genes, and not their translation, which can occur concurrently with transcription in bacteria, is critical to domain boundary formation. We show that longer genes are slightly more efficient than shorter genes in blocking supercoil diffusion, helping to establish boundaries, although our results indicate that long, highly expressed genes can establish boundaries primarily by creating decompacted, extensible regions of the chromosome that physically separate and insulate the flanking domains. In sum, our findings reveal a primary mechanism driving the formation of chromosomal domains in Caulobacter and are likely applicable to all bacterial chromosomes and possibly eukaryotes as well.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6316</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6324</offset>
+      <text>Starvation&#8208;induced changes in global transcription redistribute domain boundaries</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6408</offset>
+      <text>Prior studies indicating that regions of high gene expression in Caulobacter often correspond to chromosomal domain boundaries were done exclusively in a rich growth medium. To confirm that gene expression globally affects chromosome organization in Caulobacter, we first generated and compared Hi&#8208;C contact maps for cells growing in exponential phase or following nutrient starvation when gene expression patterns change dramatically (Fig&#160;1). Caulobacter cells were starved of carbon and nitrogen by resuspending a population of synchronized swarmer cells in M2 salts for 90&#160;min before fixing with 1% formaldehyde and performing Hi&#8208;C. To analyze the Hi&#8208;C data, we divided the genome into 10&#8208;kb bins and assigned to the appropriate bins the interaction frequencies for all informative ligation products that were sequenced. Interaction frequencies were visualized as a contact map with each matrix position, mij, reflecting the relative interaction frequency of loci in bin i with those in bin j. The contact map contains two prominent diagonals (Fig&#160;1A and Appendix&#160;Fig S1A). The main diagonal represents high&#8208;frequency interactions between DNA loci on the same arm of the chromosome, i.e. intra&#8208;arm interactions. The less prominent diagonal reflects lower&#8208;frequency interactions between loci on one arm of the chromosome and those on the opposite arm, i.e. inter&#8208;arm interactions (Appendix&#160;Fig S1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7831</offset>
+      <text>Starvation induces a global change in the locations of domain boundaries in Caulobacter crescentus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7930</offset>
+      <text> Normalized Hi&#8208;C contact maps showing contact frequencies between 10&#8208;kb bins across the Caulobacter genome during exponential growth (Le et&#160;al, 2013) and following nutrient starvation. Axes indicate genome position of each bin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8163</offset>
+      <text>Hi&#8208;C contact maps for intra&#8208;chromosomal arm interactions (dashed box in panel A) rotated 45&#176; clockwise. Images were resized in each dimension after rotation, but otherwise unprocessed relative to (A). CID boundaries are marked with vertical purple lines and numbered. Directional preference plots were used to assign domain boundaries (see Materials and Methods and Appendix&#160;Fig S1B and C). Leftward and rightward preferences are shown as green and red bars, respectively. Abrupt transitions from leftward to rightward preference correspond to chromosomal interaction domain boundaries. Plots of gene expression &#8220;rpkpm&#160;*&#160;transcript length&#8221; for each 10&#8208;kb bin along the chromosome are shown beneath the directional preference plots. Genomic locations of long, highly expressed genes or operons (see Dataset EV2) are indicated by orange vertical lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9028</offset>
+      <text>Comparison of normalized Hi&#8208;C contact maps for regions of the Caulobacter chromosome during exponential growth and following starvation. The black dashed line shows the genomic location of (D) an rRNA locus, (E) a ribosomal protein gene cluster, (F) an ATP synthase gene cluster, and (G) starvation&#8208;induced genes CCNA03325, CCNA03327, CCNA03328, and CCNA03337.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9393</offset>
+      <text>Both Hi&#8208;C contact maps showed regions of high self&#8208;interaction or chromosomal interaction domains. These domains appear as squares along the main diagonal, or as triangles if the contact map is rotated (Fig&#160;1B and C, and Appendix&#160;Fig S1B and C). The existence of domains was independently verified previously using a recombination assay, and they are not artefacts of restriction site distribution (Le et&#160;al, 2013). Additionally, we verified here that domains do not arise because of differences in the cross&#8208;linking efficiency of certain regions of the genome. If cross&#8208;linking were substantially higher for certain regions of the genome, those regions would have significantly higher numbers of reads. However, the distribution of sequencing reads was relatively uniform across the entire genome with no correlation between reads and domain boundary location (Appendix&#160;Fig S1D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10286</offset>
+      <text>We called the locations of domain boundaries by analyzing patterns of directional preference for individual bins (see Materials and Methods). Briefly, domain boundaries correspond to locations in which the directional preference of individual bins switches abruptly from negative to positive (Figs&#160;1B and C, and EV1 and Dataset EV1). Although the Hi&#8208;C maps for growing and starved cells were broadly similar, a careful inspection of the main diagonals revealed clear differences in domain organization (Fig&#160;1B&#8211;G). For the starved cells shown in Fig&#160;1C, there were 29 domains, whereas exponentially growing cells had 23, with 11 domain boundaries in common (Dataset EV1). Using RNA&#8208;Seq to quantify mRNA abundances in starved and exponentially growing cells, we found a clear correspondence between the changes in gene expression and changes in domain boundary locations (Fig&#160;1B&#8211;G). For instance, domain boundaries associated with ribosomal RNA (rRNA) clusters and genes encoding ribosomal proteins in growing cells became significantly less prominent in starved cells (Figs&#160;1D and E, and EV1), and the transcription of these genes decreased significantly upon starvation, with the rpkpm values for ribosomal protein genes typically being greater than 3,800 in growing cells but less than 400 in starved cells (Dataset EV2). Similarly, domain boundaries found exclusively in starved cells (Figs&#160;1B and C, and EV1) were typically associated with starvation&#8208;induced genes. For instance, the genes CCNA02866, CCNA03169, and CCNA03327 (Fig&#160;1G and Dataset EV2) exhibited dramatic increases in expression from 131, 365, and 422 rpkpm to 12,652, 184,180, and 193,835 rpkpm, respectively, when shifted from rich medium to starvation conditions, and each gene was located near a starvation&#8208;specific domain boundary. We also found that the domain boundaries in starved cells were generally sharper and more well defined than in exponentially growing cells (Fig&#160;1B&#8211;G). The reason for this increase is unclear, but likely not due to ATP depletion in starvation conditions reducing DNA movement as DNP&#8208;induced dissipation of ATP alone did not result in more well&#8208;defined boundaries (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12497</offset>
+      <text>Starvation induces a global change in locations of domain boundaries in Caulobacter crescentus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12592</offset>
+      <text>Hi&#8208;C contact maps for intra&#8208;chromosomal arm interactions rotated 45o clockwise. Directional preference plots were used to assign domain boundaries (see Appendix Supplementary Materials and Methods). Leftward and rightward preferences are shown as green and red bars, respectively. Abrupt transitions from leftward to rightward preference correspond to chromosomal interaction domain boundaries. Vertical black and orange dashed lines indicate boundaries specific to growing or starved cells, respectively. The directional preference plot and &#8220;rpkm&#160;*&#160;transcript length&#8221; plot corresponding to each condition are shown beneath the Hi&#8208;C plots. For a complete tabulation of CID boundary locations, transcript lengths, and expression levels, see Dataset EV2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13357</offset>
+      <text>The differences in domain boundaries between starved and exponentially growing cells were reproducible (Dataset EV1). A second, independent replicate of the Hi&#8208;C for starved cells had 26 domain boundaries (Fig&#160;EV1), with 25 domain boundaries in common between the two replicates (Fig&#160;1C), and again with 11 boundaries in common with those of exponentially growing cells. The correlation between the directional preference values derived from each replicate was 0.82 (P&#160;&lt;&#160;10&#8722;15). In contrast, the correlation between directional preference values for starved cells and exponentially growing cells was 0.34 and 0.4, respectively, for the two independent replicates of starved cells (Dataset EV1).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14060</offset>
+      <text>Length of a highly expressed transcript determines the strength of a domain boundary</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14145</offset>
+      <text>Although high gene expression and domain boundaries are clearly correlated, not all highly transcribed genes were associated with domain boundaries, in both growing and starved cells. For example, genes encoding tRNAs are very highly expressed in fast&#8208;growing cells, but were rarely associated with domain boundaries. Notably, tRNAs (~76&#8211;90&#160;bp) are much shorter than an average bacterial gene (~1,000&#160;bp). Moreover, we observed that the highly expressed genes associated with domain boundaries were often particularly long genes or operons, such as rsaA (3&#160;kb), the ATP synthase gene cluster (~5.8&#160;kb), the large ribosomal protein gene cluster (~14.5&#160;kb), and rRNA loci (~5&#160;kb). Thus, we hypothesized that transcript length, not just abundance, affects domain boundary formation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14935</offset>
+      <text>To test this hypothesis, we first calculated &#8220;rpkpm * transcript length&#8221; for each gene or operon in the Caulobacter genome and plotted these values as a function of genome position (Figs&#160;1B and C, and EV1 and Dataset EV2). For growing cells, 15 of the 18 highest (and 23 of the 40 highest) &#8220;rpkpm * transcript length&#8221; values were for genes or operons positioned at domain boundaries (P&#160;&lt;&#160;10&#8722;8 in each case, binomial test). For starved cells, the set of genes with the highest &#8220;rpkpm * transcript length&#8221; values changed substantially, but again, 15 of the 18 highest (and 24 of the 40 highest) values were for genes or operons located at domain boundaries (P&#160;&lt;&#160;10&#8722;8 in each case, binomial test). We found that there were 12 chromosomal domain boundaries specific to cells grown in a rich medium (Fig&#160;EV1 and Dataset EV2). Of these 12 boundaries, 11 coincided with long (&gt;&#160;1&#160;kb) genes that were highly expressed in rich media but not in starved cells. Conversely, there were 18 boundaries specific to starved cells; 14 of these 18 coincided with long genes that were highly expressed in starved, but not nutrient&#8208;replete cells. Taken together, these analyses support the hypothesis that domain boundaries frequently arise at the positions of long, highly expressed genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16231</offset>
+      <text>To further test this hypothesis, we ectopically inserted the ~3&#8208;kb coding region for rsaA, a highly expressed gene encoding the Caulobacter S&#8208;layer, together with its promoter at the vanillate utilization (van) locus. The van locus is normally transcriptionally inactive and resides within a chromosomal domain, but the insertion of PrsaA&#8208;rsaA was sufficient to generate a sharp new domain boundary at this location (Fig&#160;2) (Le et&#160;al, 2013). To alter the length of the transcribed region, we inserted a cassette containing two TAA stop codons and two transcriptional terminators 60&#8208;, 560&#8208;, 1,060&#8208;, or 2,060&#8208;bp downstream from the rsaA transcription start site (Fig&#160;2). RT&#8211;PCR analysis of these strains confirmed that (i) transcription was efficiently terminated at the site of the inserted transcriptional terminator and (ii) levels of the truncated rsaA transcripts were comparable to the wild&#8208;type rsaA in each case (Fig&#160;EV2A and B). We also used Western blotting with an anti&#8208;FLAG antibody to confirm that truncated RsaA variants harboring an N&#8208;terminal FLAG tag had the predicted molecular weights and were produced at roughly comparable levels (Fig&#160;EV2C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17419</offset>
+      <text>Longer transcripts are more effective in establishing chromosomal domain boundaries</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17503</offset>
+      <text>Normalized Hi&#8208;C contact maps for &#916;rsaA van::promoterless rsaA and derivatives of &#916;rsaA van::PrsaA&#8208;rsaA with transcription terminators inserted 60, 560, 1,060, or 2,060&#160;bp from the transcription start site. Only the region of the genome containing the van locus (dashed line) is shown. Above each Hi&#8208;C contact map is a schematic of the corresponding rsaA construct with the transcription terminator shown as a black hairpin and transcript as a wavy red line. Below each map is the corresponding directional preference plot.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18035</offset>
+      <text>Expression levels and transcript lengths of wild&#8208;type rsaA and its derivatives</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18116</offset>
+      <text>A schematic showing the location of RT&#8211;PCR products (green) examined for rsaA and the ruvA control. Transcripts are denoted as wavy red lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18261</offset>
+      <text>RT&#8211;PCR products from RNA extracted from strains harboring the wild&#8208;type rsaA or the derivative indicated. Samples where no reverse transcriptase was added were included to control for genomic DNA contamination.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18476</offset>
+      <text>Western blot of FLAG&#8208;tagged RsaA and its various derivatives indicated. Anti&#8208;FLAG primary antibody and anti&#8208;mouse secondary antibody were used.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18626</offset>
+      <text>Contact probability plots showing interaction frequencies as a function of genomic distance for each strain examined by Hi&#8208;C in Figs&#160;2 and 3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18771</offset>
+      <text>Expanded view of the region surrounding the site of insertion (dashed line) for each strain examined in Fig&#160;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18883</offset>
+      <text>We then examined domain boundary induction by each rsaA variant using Hi&#8208;C analysis of swarmer cells from each strain grown to exponential phase. The Hi&#8208;C maps were very similar (Fig&#160;EV2D) except at the van locus, with a sharp domain boundary present when the terminator cassette was at least 2,060&#160;bp from the transcriptional start site (Figs&#160;2 and EV2E). There was no domain boundary or a very weak boundary when the transcript length was engineered to be &lt;&#160;2,060&#160;bp. To quantify the sharpness of the boundary formed, we calculated the difference in directional preference between the two bins flanking the site of insertion for each strain constructed. This value increased from 6.9 in the case of a promoterless rsaA to 12.0, 12.9, 14.2, 27.9, and 32.3 in the strains producing rsaA transcripts of length 60, 560, 1,060, 2,060, or 3,060&#160;bp, respectively. Taken together, our results indicate that the length of a highly expressed gene plays a critical role in determining whether it creates a chromosomal domain boundary.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19919</offset>
+      <text>Translating ribosomes do not contribute to domain boundary formation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19988</offset>
+      <text>Long, highly expressed genes could, in principle, form domain boundaries if multiple ribosomes, which can begin translating even before transcription finishes in bacteria, sterically block or diminish the interactions between flanking loci. To test this possibility, we sought to eliminate ribosome binding to the mRNA of an ectopically inserted rsaA gene by mutating the ATG start codon to a TAA stop codon (Figs&#160;3 and EV3A and B). This mutation strongly reduced the intensity of the domain boundary at the van locus; however, transcription of this mutant rsaA (ATG&#8594;TAA) was severely diminished, likely due to Rho&#8208;dependent transcription termination (Figs&#160;3 and EV3B&#8211;D). Thus, to retain high levels of transcription while preventing translation, we inserted a Caulobacter anti&#8208;termination sequence (Arnvig et&#160;al, 2008) into the leader sequence of rsaA. RT&#8211;PCR analysis confirmed that rsaA transcription in this strain (anti&#8208;termination&#160;+&#160;ATG&#8594;TAA) was restored to near wild&#8208;type levels (Fig&#160;EV3B&#8211;D), and S&#8208;layer protein extraction confirmed the absence of rsaA translation (Fig&#160;EV3E). Cells were then synchronized and subsequently analyzed by Hi&#8208;C. The resulting Hi&#8208;C contact map indicated that a sharp chromosomal domain boundary was clearly formed at the site harboring this untranslated rsaA construct. As before, we calculated the difference in directional preference for the two genomic bins flanking the insertion site. For the anti&#8208;termination + ATG&#8594;TAA construct, this difference was 25.6, whereas for the ATG&#8594;TAA construct lacking the anti&#8208;terminator, this value was only 12.6, with the promoterless rsaA construct producing a value of 6.9. These analyses demonstrate that ribosome binding does not contribute significantly to domain boundary formation in Caulobacter (Fig&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21814</offset>
+      <text>The recruitment of ribosomes to highly expressed genes does not contribute to domain boundary formation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21918</offset>
+      <text>Normalized Hi&#8208;C contact maps for &#916;rsaA van::promoterless rsaA, &#916;rsaA van::PrsaA&#8208;rsaA (ATG&#8594;TAA), and &#916;rsaA van::PrsaA&#8208;rsaA (anti&#8208;termination&#160;+&#160;ATG&#8594;TAA) cells. Only the region of the genome containing the van locus (dashed line) is shown. Above each Hi&#8208;C contact map is a schematic of the corresponding rsaA construct. The transcription anti&#8208;terminator is shown as a red hairpin, the start codon mutated to TAA is in red font, and the transcript produced is shown as a wavy red line. Below each map is the corresponding directional preference plot.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22486</offset>
+      <text>Expression levels and transcript lengths of rsaA variants</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22544</offset>
+      <text>Independent repeats for the Hi&#8208;C maps in Fig&#160;2 (right panel) and Fig&#160;3 (left and center panels). A 1&#8208;Mbp region near the site of rsaA construct insertion (dashed line) is shown with the corresponding region of the directional preference plot below.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22799</offset>
+      <text>Expanded view of the region surrounding the site of insertion (dashed line) for each strain examined in Fig&#160;3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22911</offset>
+      <text>A schematic showing the location of RT&#8211;PCR products (green) examined for rsaA and a ruvA control locus. mRNA transcripts are denoted with wavy red lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23067</offset>
+      <text>RT&#8211;PCR products from RNA extracted from a strain expressing wild&#8208;type rsaA or the derivative indicated. Wild&#8208;type samples where no reverse transcriptase was added were included to control for genomic DNA contamination.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23292</offset>
+      <text>SDS&#8211;PAGE showing protein level after S&#8208;layer extraction by low pH for the strains indicated below. The position of RsaA on the gel is denoted by a black arrow.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23456</offset>
+      <text>We also tested the role of ribosomes and translation in chromosome domain formation using Hi&#8208;C on cells treated with chloramphenicol, an inhibitor of peptide chain elongation. Caulobacter cells growing in exponential phase were synchronized and then treated with 50&#160;&#956;g/ml chloramphenicol for 30&#160;min before fixation. The contact map of chlor&#8208;treated cells had the same global, X&#8208;shaped pattern seen with untreated cells (Fig&#160;4A). Most domain boundaries seen in the control cells were retained in the chlor&#8208;treated sample although their strengths were substantially reduced and most boundaries were considerably less well defined (Fig&#160;4B). This effect likely stems from Rho&#8208;dependent termination, which attenuates transcription when translation is blocked (Richardson et&#160;al, 1975). The two domain boundaries that remained prominent, and were in fact slightly sharper, in the chlor&#8208;treated cells correspond to the 10&#8208;kb bins harboring the two rRNA clusters (Fig&#160;4B), which are, of course, not translated. Consistent with sharper boundaries near these rRNA loci, RT&#8211;qPCR analysis indicated that rRNA levels increased ~2&#8211;3&#8208;fold in chlor&#8208;treated cells relative to the untreated control cells (data not shown). Prior work in E.&#160;coli has also found that translation&#8208;inhibited cells increase rRNA promoter activity, likely as an attempt to overcome inhibition (Shen &amp; Bremer, 1977; Schneider et&#160;al, 2002). Collectively, our results support the conclusion that long, highly active genes induce chromosomal domain boundaries and that the translation of such genes is not necessary for boundary formation or maintenance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25098</offset>
+      <text>The effect of inhibiting translation on chromosomal domain boundaries</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25168</offset>
+      <text>Normalized Hi&#8208;C contact maps for untreated (left) and chloramphenicol&#8208;treated cells (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25265</offset>
+      <text>Hi&#8208;C contact maps for intra&#8208;chromosomal arm interactions (dashed box in panel A) rotated 45&#176; clockwise with directional preference plots below. Images were resized in each dimension after rotation, but otherwise unprocessed relative to (A). Leftward and rightward preferences are shown as green and red bars, respectively. Vertical dashed black lines indicate the positions of the largest ribosomal protein cluster and the two rRNA loci in the Caulobacter chromosome.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25738</offset>
+      <text>Transcription rate and transcript length contribute to an inhibition of supercoil diffusion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25830</offset>
+      <text>The diffusion of supercoils can drive DNA&#8211;DNA contacts by bringing together within a plectoneme two loci that are relatively distant in the primary sequence. As gene expression can interfere with supercoil diffusion (Deng et&#160;al, 2005; Booker et&#160;al, 2010), we sought to determine whether such a mechanism contributes to the formation of domains seen by Hi&#8208;C. To quantify supercoil diffusion, we developed a recombination assay based on the &#947;&#948; resolvase TnpR (Higgins et&#160;al, 1996; Deng et&#160;al, 2005) (Fig&#160;5A). Briefly, two resolution (res) sites were inserted in the same orientation flanking a tetracycline resistance (tetR) cassette with TnpR expressed from a cumate&#8208;inducible promoter. TnpR, which depends on supercoil diffusion to align the two res sites (Wells &amp; Grindley, 1984; Benjamin et&#160;al, 1985), can drive site&#8208;specific recombination, leading to excision of the tetR cassette, rendering cells tetracycline sensitive. We inserted the res&#8208;tetR&#8208;res construct at the van locus and expressed TnpR from a plasmid for 2&#160;h. Cells were then spotted on plates +/&#8722; tetracycline to determine the recombination frequency, as a proxy for the efficiency of supercoil diffusion. Recombination was highly efficient, with TnpR induction driving a 4&#8208;log drop in plating viability in the presence of tetracycline (Fig&#160;5B). Recombination was dependent on res&#8208;binding as the induction of a TnpR variant lacking the DNA&#8208;binding domain (TnpR&#916;DBD) did not reduce plating viability on tetracycline (Appendix&#160;Fig S2A). We also confirmed that recombination is promoted by negative supercoiling as treatment with novobiocin, an inhibitor of DNA gyrase, diminished the viability drop and thus recombination associated with TnpR induction (Appendix&#160;Fig S2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27599</offset>
+      <text>The ability of different rsaA constructs to inhibit supercoil diffusion does not correlate with their ability to establish a chromosomal domain boundary</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27752</offset>
+      <text>A &#947;&#948; TnpR recombinase (green) was induced from a cumate&#8208;inducible promoter. TnpR recombines two res sites (blue and red arrows) that flank a tet resistance cassette (orange arrows) to excise the intervening DNA. Recombination requires supercoiling&#8208;dependent juxtaposition of res sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28046</offset>
+      <text>Induction of TnpR from Pcumate results in a loss of cell viability on tetracycline plates. Each spot is a 10&#8208;fold dilution.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28172</offset>
+      <text>Percentage of tetracycline&#8208;resistant colonies represent a proxy for the extent of supercoil diffusion inhibition by the various PrsaA&#8208;rsaA constructs indicated, each inserted between one res site and the tetR cassette. Error bars represent SD, n&#160;=&#160;3. The ability of each construct to form a CID boundary is indicated on the left (see Figs&#160;2 and 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28528</offset>
+      <text>LacI binding to 10 consecutive lacO sites in between two res sites does not significantly inhibit supercoil diffusion. TnpR and LacI&#8208;YFP (brown arrow) were induced from Pcumate and Pxyl, respectively. Error bars represent SD, n&#160;=&#160;3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28765</offset>
+      <text>We then measured how the various rsaA constructs characterized above (Figs&#160;2 and 3) affected supercoil diffusion using our recombination assay. Each rsaA construct was inserted between the two res sites, adjacent to the tetR cassette with the efficiency of supercoil diffusion inhibition quantified as the percentage of tetR colonies (Fig&#160;5C). A promoterless rsaA variant failed to block supercoil diffusion yielding only ~4% tetR colonies, whereas full&#8208;length rsaA was highly efficient, producing ~87% tetR colonies, indicating that a high rate of transcription prevents supercoil diffusion and loss of the tetR cassette. Consistent with this conclusion, we found that inhibiting transcription by treating cells with rifampicin, an inhibitor of RNA polymerase elongation, also resulted in higher rates of recombination (Appendix&#160;Fig S2C). Transcription&#8208;based inhibition of supercoil diffusion is likely not simply a consequence of DNA binding by RNA polymerase between two res sites. Cells harboring 10 consecutive lacO sites in between the res sites and expressing LacI&#8208;YFP did not affect recombination (Fig&#160;5D). We conclude that it is likely the DNA unwinding associated with active transcription, rather than protein binding, that drives supercoil diffusion inhibition, as also suggested previously from studies of Salmonella (Booker et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30128</offset>
+      <text>The rsaA variant producing a truncated, ~2&#8208;kb transcript was as efficient as full&#8208;length rsaA in preventing supercoil diffusion. The rsaA variants producing truncated transcripts of 1,060, 560, or 60 nucleotides were only slightly less efficient in blocking supercoil diffusion with 55, 62, and 75% tetR colonies, respectively (Fig&#160;5C), and none of the differences relative to full&#8208;length rsaA were statistically significant. Importantly, these results suggest that long transcripts likely do not create chromosomal domain boundaries simply by establishing more effective supercoil diffusion barriers. For instance, the truncated rsaA variant producing a 60 nucleotide transcript was nearly as effective as full&#8208;length rsaA in blocking supercoil diffusion, but failed to produce a chromosomal domain boundary by Hi&#8208;C (Fig&#160;2). Similarly, we found that an rsaA variant with the start codon converted to a stop codon, which does not form a Hi&#8208;C boundary, was also nearly as efficient in blocking supercoil diffusion as a variant with the start to stop codon change and an anti&#8208;terminator, which does form a Hi&#8208;C boundary (Figs&#160;3 and 5C).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31282</offset>
+      <text>Long transcripts decompact DNA near domain boundaries, separating flanking loci</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31362</offset>
+      <text>Taken all together, our results suggest that transcript length influences whether a gene or operon will produce a chromosomal domain boundary, but that longer transcripts are not substantially better at blocking supercoil diffusion, suggesting that chromosomal domains are not identical to supercoil diffusion barriers. Instead, because transcription requires the unwinding and local decompaction of DNA, long genes or polycistronic operons likely lead to greater physical separation of flanking loci, thereby preventing collisions and producing domain boundaries. Such a model predicts that if the chromosome were allowed to expand, as occurs in elongated cells, the DNA in regions of high gene expression would be more extensible than the compacted DNA within a chromosomal interaction domain. In other words, the chromosome should expand non&#8208;uniformly, with greater extension occurring between domains compared to within domains.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32297</offset>
+      <text>To test this model, we fluorescently labeled two loci either within the same chromosomal domain or in adjacent domains using orthogonal ParB/parS systems and then measured inter&#8208;focus distances in individual cells. The loci in each case were ~200&#160;kb apart, at chromosomal positions +600 and +800&#160;kb for examining intra&#8208;domain interactions or +400 and +600&#160;kb for examining inter&#8208;domain interactions (Fig&#160;6A and B). We measured these inter&#8208;focus distances in cells where the only copy of dnaA is driven by a vanillate&#8208;regulated promoter. Growth in medium lacking vanillate produced a population of cells that (i) contained only one chromosome and (ii) continued to grow without dividing, leading to elongated cells in which the chromosome continues to occupy nearly the entire cell volume, as judged by visualization of a fluorescent protein fused to the nucleoid&#8208;associated protein HU (Appendix Fig&#160;S3A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33219</offset>
+      <text>Intra&#8208; and inter&#8208;domain DNA expand differentially in elongated Caulobacter cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33304</offset>
+      <text>Pairs of loci were labeled with YFP&#8208;ParBpMT1/parSpMT1 and mCherry&#8208;ParBP1/parSP1 at genomic positions 400 and 600&#160;kb (inter&#8208;domain) or at 600 and 800&#160;kb (intra&#8208;domain).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33482</offset>
+      <text>Same as (A) but for a strain producing CtrA(D51E)&#916;3&#937;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33544</offset>
+      <text>Same as (A and B), but with pairs of loci labeled with YFP&#8208;ParBpMT1/parSpMT1 and mCherry&#8208;ParBP1/parSP1 at genomic positions 1,400 and 1,600&#160;kb (inter&#8208;domain) or at 1,600 and 1,800&#160;kb (intra&#8208;domain). Note that differences in Hi&#8208;C chromosomal domain sharpness reflect differences in interaction patterns as the color scale and image contrast settings are identical across each time series.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33944</offset>
+      <text>Data information: Box&#160;plots show the distribution of inter&#8208;focus distances for cells of different sizes. Asterisks indicate statistical significance (***P&#8208;value&#160;&lt;&#160;0.001; ns, not significant; Student's t&#8208;test). For the region of the chromosome containing the labeled loci (indicated by dashed gray lines), the corresponding region of the Hi&#8208;C map generated at each time point indicated is shown, with the same region from wild&#8208;type cells shown at the bottom. For complete Hi&#8208;C maps, see Fig&#160;EV4; for representative microscopy images, see Appendix&#160;Fig S3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34515</offset>
+      <text>Before initiating DnaA depletion, cells were, on average, approximately wild&#8208;type length (~2.5&#160;&#956;m), with the distance between loci in different domains slightly greater than that between loci in the same domain (mean&#160;&#177;&#160;standard error: 0.267&#160;&#177;&#160;0.013&#160;&#956;m versus 0.176&#160;&#177;&#160;0.011&#160;&#956;m, P&#160;=&#160;2&#160;&#215;&#160;10&#8722;7, Student's t&#8208;test) (Fig&#160;6A and Appendix&#160;Fig S3B). As cells were depleted of DnaA and grew longer, this difference became more pronounced. After 3&#160;h, cells were, on average, 4.2&#160;&#956;m long, with an average interfocus distance of 0.77&#160;&#956;m for loci in different domains and 0.46&#160;&#956;m for loci in the same domain. Additionally, the variance and range in inter&#8208;focus distances was much greater for the loci in different domains than for those in the same domain (Fig&#160;6A). Similar observations were made in a strain engineered to produce elongated cells via a different mechanism, namely by expressing ctrA (D51E)&#916;3&#937;, a constitutively active allele of ctrA (Domian et&#160;al, 1997) (Fig&#160;6B and Appendix&#160;Fig S3C). We also performed the same experiment but with another set of loci (at +1,400, +1,600, and +1,800&#160;kb); again, the average inter&#8208;focus distance and especially the variance increased more substantially for the inter&#8208;domain locus pair than the intra&#8208;domain pair (Fig&#160;6C and D, and Appendix&#160;Fig S3D and E).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35857</offset>
+      <text>In parallel with these microscopy analyses, we performed Hi&#8208;C on the elongated cells resulting from DnaA depletion or overexpression of ctrA(D51E)&#916;3&#937;. In both cases, the locations of the chromosomal domains were unchanged, but the domain boundaries became progressively sharper and more well defined as cells elongated (Figs&#160;6A&#8211;D and EV4A&#8211;C). The sharpness of domain boundaries indicates diminished interactions between domains and, consequently, reduced long&#8208;range interactions in Hi&#8208;C. Consistent with this conclusion, the contact probability graphs clearly indicated an increase in short&#8208;range (&lt;&#160;100&#160;kb) interactions and a corresponding decrease in long&#8208;range (100&#8211;1,000&#160;kb) interactions over a 3&#8208;h time course (Fig&#160;EV4D and E), with the increased short&#8208;range interactions arising through an increase in interaction frequencies within domains compared to between domains (Fig&#160;EV4F and G). Thus, the sharpness in Hi&#8208;C boundaries indicates that, as cells elongate, the interactions within domains are increasingly favored relative to the interactions between domains, consistent with a preferential expansion of chromosomal DNA associated with domain boundaries. The difference in intra&#8208; and inter&#8208;domain interactions seen likely reflects the decreased confinement of the chromosome as cells elongate; in addition, the synchronization procedure could cause global chromosome compaction that cells recover from over time. Whatever the case, our microscopy and Hi&#8208;C analyses together indicate that nucleoid expansion does not occur uniformly across the chromosome. The DNA at chromosomal domain boundaries is likely less compacted and therefore stretches more than the DNA inside a domain. These results further support our conclusion that domain boundaries produced by highly expressed and long genes produce a spatial barrier in&#160;vivo that diminishes contacts between loci in adjacent domains.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37789</offset>
+      <text>Hi&#8208;C analysis of elongated Caulobacter cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37836</offset>
+      <text>Hi&#8208;C maps for cells depleted of DnaA for the times indicated. Only the top left half of each symmetric Hi&#8208;C map is shown with a region outlined shown as an inset&#160;along with a representative phase contrast micrograph of cells from each time point.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38088</offset>
+      <text>Same as (A) but for cells overproducing CtrA(D51E)&#916;3&#937;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38151</offset>
+      <text>Same portion of the Hi&#8208;C maps shown in Fig&#160;6A and B corresponding to the locations of loci examined by microscopy, but with directional preference plots below each panel.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38325</offset>
+      <text>DNA&#8211;DNA contact probability P(s), plotted against genomic distance for (D) DnaA&#8208;depleted cells, or (E) cells overproducing CtrA(D51E)&#916;3&#937; at different time points after synchronization.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38518</offset>
+      <text>Plots show the ratio of P(s) values at length scales up to 100&#160;kb for locus&#8211;locus interactions within and between domains for (F) DnaA&#8208;depleted cells or (G) cells overproducing CtrA(D51E)&#916;3&#937; at different time points after synchronization.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>38765</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38776</offset>
+      <text>Hi&#8208;C studies in a range of organisms, from bacteria to humans, have demonstrated that chromosomes are comprised of discrete domains with individual loci interacting preferentially with other loci in the same domain (Dixon et&#160;al, 2012; Hou et&#160;al, 2012; Sexton et&#160;al, 2012; Le et&#160;al, 2013; Naumova et&#160;al, 2013; Hsieh et&#160;al, 2015). Although a number of factors and chromosomal features correlate with domain boundaries in eukaryotes, including highly expressed genes (Hsieh et&#160;al, 2015; Ulianov et&#160;al, 2016), a cause and effect relationship has not been defined or characterized. For bacteria, we previously showed that high rates of transcription are both necessary and sufficient to establish chromosomal domain boundaries (Le et&#160;al, 2013), but the precise mechanisms responsible were unclear. Here, we demonstrated that regions of high gene expression in Caulobacter can create domain boundaries primarily by locally decompacting the chromosome and creating a spatial gap or separation between flanking regions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39799</offset>
+      <text>Boundary formation and the decrease in contacts between loci in neighboring domains do not depend on the recruitment of ribosomes. Because translation in bacteria can occur even before a full&#8208;length transcript is produced, ribosomes could, in principle, sterically hinder interactions between adjacent domains. However, highly expressed genes that are naturally not translated (e.g. rRNAs) or are engineered not to be translated (Fig&#160;3) were still fully capable of establishing a domain boundary. Nevertheless, not all highly expressed genes form domain boundaries, and we demonstrated that, at least for rsaA, only a relatively long (&gt;&#160;~2&#160;kb) transcript could produce a clear domain boundary in Hi&#8208;C. This observation likely explains why some highly expressed genes, such as tRNAs, are rarely associated with domain boundaries. More generally, these results suggest that a combination of promoter activity and transcript length enables domain boundary formation in Caulobacter. The presence of at least one gene or operon with a high &#8220;rpkpm * transcript length&#8221; value was strongly correlated with the presence of a chromosomal domain boundary. Additionally, in both growing and starved cells, the highest &#8220;rpkpm * transcript length&#8221; values were generally observed for genes or operons associated with the sharpest domain boundaries. Systematic assessments of promoter activity and transcript length may ultimately enable the prediction of boundary locations in other growth conditions or in other organisms. Whether expression level or transcript length should be weighted most heavily is not yet clear and the development of a predictive metric for boundary formation remains a challenge for the future.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41520</offset>
+      <text>Long, highly expressed genes may create domain boundaries in part by efficiently inhibiting the diffusion of supercoiled plectonemes, a phenomenon originally characterized in S.&#160;typhimurium (Deng et&#160;al, 2005; Booker et&#160;al, 2010). The slithering of DNA within a plectoneme can promote the spatial juxtaposition of loci separated in the primary genome sequence; such interactions would be blocked by regions of high gene expression and the concomitant unwinding of the DNA (Fig&#160;7). However, we found that both short and long transcripts can block supercoil diffusion (Fig&#160;5), but only the latter create clear domain boundaries by Hi&#8208;C, indicating that Hi&#8208;C and supercoiling domains are not equivalent. Moreover, most plectonemes are ~10&#8211;20&#160;kb (Higgins et&#160;al, 1996), so the ability of highly expressed genes to diminish interactions at longer length scales, as is seen in Hi&#8208;C, presumably arises primarily from a different mechanism.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42466</offset>
+      <text>Model of chromosomal domain boundary formation in the Caulobacter chromosome</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42543</offset>
+      <text>Compacted chromosomal interaction domains (red and green) are connected by a domain boundary denoted as a blue line. (Top) High rates of transcription that produce a relatively long (&gt;&#160;2&#160;kb) transcript (wavy orange lines) locally decompact the DNA, thereby creating a spatial gap between flanking loci. This spatial separation diminishes the long&#8208;range contacts that can occur within a fixed sphere (black dotted circle), leading to the domain boundaries visible by Hi&#8208;C analysis. High rates of transcription can also prevent supercoil diffusion, helping to limit DNA&#8211;DNA interactions on a shorter length scale (gray dotted circle). (Bottom) In the absence of transcription, DNA at a domain boundary (blue) will become more compacted, reducing the spatial separation between adjacent domains, and enabling supercoil diffusion, thereby promoting long&#8208; and short&#8208;range contacts, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43446</offset>
+      <text>Collectively, our results suggest that long, highly expressed genes create a spatial gap or barrier between flanking loci that effectively blocks, or at least substantially diminishes, interactions (Fig&#160;7). The local decompaction and unwinding of DNA necessary for transcription likely physically separates neighboring loci; indeed, if fully stretched out, a 3&#8208;kb segment of the genome would be ~1&#160;&#956;m. In Streptomyces coelicolor, DNase I sensitivity correlates positively with transcription levels, further implying that transcribed DNA has a more &#8220;open&#8221; structure (McArthur &amp; Bibb, 2006). We found that, as cells elongate, domain boundaries in Hi&#8208;C maps became sharper (Figs&#160;6 and EV4), indicating that loci continue to interact strongly with other loci in the same domain but even less frequently with loci in other domains, consistent with a model in which domain boundaries create spatial barriers. Additionally, our microscopy analysis demonstrated that the distance between loci in different domains increased more in elongated cells and became significantly more variable, compared to loci in the same domain but at an equivalent distance in the primary sequence.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44629</offset>
+      <text>We propose that chromosomes have a &#8220;domains&#8208;on&#8208;a&#8208;string&#8221; organization with domain boundaries created by long, highly expressed genes serving as flexible tethers between domains. Chromosomal interaction domains ~100&#160;kb in length have also been seen in Bacillus subtilis (Marbouty et&#160;al, 2015; Wang et&#160;al, 2015) and in Vibrio cholerae, E.&#160;coli and Pseudomonas aeruginosa (Val et&#160;al, 2016; R. Koszul and F. Boccard, personal communication), suggesting that they are a conserved unit of chromosome organization in bacteria. In B.&#160;subtilis, domain boundaries also frequently coincide with highly expressed genes. The binding of certain nucleoid&#8208;associated proteins was also suggested, though not yet validated, as&#160;an alternative mechanism for domain boundary formation (Marbouty et&#160;al, 2015), and could explain some of the boundaries in Caulobacter not associated with very long, highly expressed genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45548</offset>
+      <text>In sum, chromosomal interaction domains have emerged recently as a fundamental unit of chromosome structure (Dixon et&#160;al, 2012; Hou et&#160;al, 2012; Sexton et&#160;al, 2012; Le et&#160;al, 2013; Naumova et&#160;al, 2013; Hsieh et&#160;al, 2015) and these domains, in turn, likely influence a wide range of DNA&#8208;based transactions inside cells, both prokaryotic and eukaryotic. The open, decompacted nature of domain boundaries might allow easier access of transcription factors and RNA polymerases to certain stretches of DNA. Thus, the high rates of transcription at domain boundaries may enable yet more transcription, potentially forming a positive feedback loop. If open DNA is not immediately compacted following starvation or other major changes in the environment, it could also help direct transcription to certain genes upon recovery. Domains may also impact the expression of less highly expressed genes. The chromosomal position of a gene can dramatically affect its expression level (Bryant et&#160;al, 2014), and we speculate that position relative to domain boundaries may contribute to these effects, although this idea remains to be explored. Finally, domain boundaries may help promote the segregation and decatenation of sister chromosomes, both during the cell cycle and possibly during periods of DNA damage and repair. In sum, the identification of chromosomal interaction domains and the elucidation of a primary mechanism of their formation now lay the foundation for future studies of chromosome organization and its relationship to a variety of other essential cellular processes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>47133</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47155</offset>
+      <text>Strains, media, and growth conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47193</offset>
+      <text>Escherichia coli and C.&#160;crescentus were grown in LB and PYE, respectively. When appropriate, media were supplemented with antibiotics at the following concentrations (liquid/solid media for C.&#160;crescentus; liquid/solid media for E.&#160;coli [&#956;g/ml]): chloramphenicol (1/2; 20/30), kanamycin (5/25; 30/50), oxytetracycline (1/2; 12/12), spectinomycin (25/100; 50/50 and gentamycin (0.5/5; 15/20).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47588</offset>
+      <text>Synchronizations were performed on mid&#8208;exponential phase cells using Percoll (GE Healthcare) and density gradient centrifugation. A detailed procedure is described in the Appendix. After synchronization, swarmer cells were released into PYE&#160;+&#160;1% formaldehyde for fixation for chromosome conformation capture and Hi&#8208;C analysis. For antibiotic treatment, swarmer cells were incubated with 50&#160;&#956;g/ml chloramphenicol (final concentration) for 30&#160;min before fixing with formaldehyde. For starvation experiments, swarmer cells were released into an 1&#215;&#160;M2 salts solution for 90&#160;min before fixation for Hi&#8208;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48202</offset>
+      <text>All plasmids, strains, and primers used are listed in Appendix Tables S1 and S2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48283</offset>
+      <text>Chromosome conformation capture with deep sequencing (Hi&#8208;C)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48345</offset>
+      <text>Hi&#8208;C experiments were performed exactly as described previously (Le et&#160;al, 2013). Restriction enzymes (BglII or NcoI) used for Hi&#8208;C and the number of valid reads are listed for each sample in Appendix&#160;Table&#160;S3. More details on generating Hi&#8208;C contact maps and directional preference plots are described in the Appendix Supplementary Materials and Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48710</offset>
+      <text>RNA&#8208;seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48720</offset>
+      <text>Exponentially growing Caulobacter cells were collected by centrifugation, released into 1&#215;&#160;M2 salts for 90&#160;min before being pelleted and snap&#8208;frozen in liquid nitrogen in preparation for RNA extraction. Total RNA was extracted using a combination of hot Trizol (Thermo Scientific) and RNA extraction spin columns (Zymo Research). Subsequently, contaminated genomic DNA was removed from this RNA prep by Turbo DNaseI (Ambion) treatment. A detailed procedure is described in the Appendix. The integrity of the RNA was checked by Bioanalyzer before being submitted for Illumina library prep and deep sequencing (BioMicroCenter, MIT).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49356</offset>
+      <text>For analysis of RNA&#8208;seq data, Hiseq 2500 Illumina short reads (40&#160;bp) were mapped back to the Caulobacter NA1000 reference genome using Bowtie 1. The sequencing coverage was computed using BEDTools (Quinlan &amp; Hall, 2010). The normalized value of reads per kb per million mapped reads (rpkpm) was calculated for each gene by a custom R script to enable comparison of gene expression within and between RNA&#8208;seq datasets (Dataset EV2). To identify genes that are potentially responsible for the differences in CID boundaries in exponentially growing versus starved cells (Dataset EV2), we considered highly expressed genes with RPKPM values &gt;&#160;1,000 and gene length &gt;&#160;1&#160;kb. Highly expressed genes &lt;&#160;1&#160;kb in length were also considered if they are in an operon and the total length of the operon was &gt;&#160;1&#160;kb or if there were multiple highly expressed genes in a 10&#8208;kb bin near a given CID boundary and the total length of these genes was &gt;&#160;1&#160;kb.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50312</offset>
+      <text>Determination of subcellular positions of chromosomal loci by orthogonal ParB/parS systems</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50403</offset>
+      <text>Strains were grown to OD600&#160;=&#160;0.4 in the presence of appropriate antibiotics, vanillate, and glucose before the cells were collected by centrifugation and washed of residual vanillate, antibiotics and glucose twice with fresh PYE. Cells were then resuspended in PYE plus xylose (0.3% final concentration) (vanillate omitted) to deplete DnaA for 90&#160;min before synchronization, thereby inducing cell elongation. Cells were imaged at 0, 1, 2 and 3&#160;h post&#8208;synchronization. Phase contrast (150&#160;ms exposure) and fluorescence images (2,000&#160;ms exposure) were collected. MicrobeTracker (http://microbetracker.org/) was used to detect cell outlines and SpotFinderZ to detect fluorescent foci positions. The number of cells used for construction of boxplots in Fig&#160;6 (cell length &#956;m/loci measured kb/number of cells) was as follows: (&lt;&#160;2.5/400&#8211;600/206), (&lt;&#160;2.5/600&#8211;800/254), (2.5&#8211;3.5/400&#8211;600/1,438), (2.5&#8211;3.5/600&#8211;800/998), (3.5&#8211;4.5/400&#8211;600/803), (3.5&#8211;4.5/600&#8211;800/651), (4.5&#8211;5.5/400&#8211;600/422), (4.5&#8211;5.5/600&#8211;800/458), (&lt;&#160;2.5/1,400&#8211;1,600/90), (&lt;&#160;2.5/1,600&#8211;1,800/152), (2.5&#8211;3.5/1,400&#8211;1,600/131), (2.5&#8211;3.5/1,600&#8211;1,800/714), (3.5&#8211;4.5/1,400&#8211;1,600/401), (3.5&#8211;4.5/1,600&#8211;1,800/346), (4.5&#8211;5.5/1,400&#8211;1,600/308), (4.5&#8211;5.5/1,600&#8211;1,800/520). The procedure for CtrA(D51E)&#916;3&#937; overexpression strains is described in the Appendix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51775</offset>
+      <text>&#947;&#948; TnpR recombination assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51811</offset>
+      <text>Caulobacter strains used for the recombination assay were first grown to early exponential phase in PYE supplemented with tetracycline and kanamycin. Just before inducing TnpR, cells were collected by centrifugation, washed of tetracycline, and resuspended in fresh PYE&#160;+&#160;kanamycin to an OD600 of ~0.2. Cumate was then added to a final concentration of 100&#160;&#956;M, and cultures were incubated with shaking at 30&#176;C for 2&#160;h. Subsequently, cultures were 10&#8208;fold serially diluted, and 5&#160;&#956;l of each dilution was spotted on both tetracycline&#160;+&#160;kanamycin and kanamycin PYE plates. To measure colony&#8208;forming units (CFU), Caulobacter cultures were serially (20&#8208;fold) diluted with 50&#160;&#956;l of appropriately diluted culture spread on tetracycline&#160;+&#160;kanamycin or kanamycin PYE plates. Plates were incubated at 30&#176;C for 2&#160;days before counting CFUs. A more detailed procedure is described in the Appendix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52718</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52736</offset>
+      <text>Hi&#8208;C data are available in GEO, GSE74364.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>52780</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52801</offset>
+      <text>TBKL and MTL conceived of the project. TBKL performed experiments. TBKL and MTL analyzed the data and wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>52925</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52946</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>53006</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>53029</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">190</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">7257</infon>
+      <infon key="pub-id_pmid">18757535</infon>
+      <infon key="fpage">7251</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>53040</offset>
+      <text>Evolutionary comparison of ribosomal operon antitermination function</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">199</infon>
+      <infon key="pub-id_pmid">26566111</infon>
+      <infon key="fpage">171</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>53109</offset>
+      <text>Bacterial chromosome organization and segregation</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">158</infon>
+      <infon key="pub-id_pmid">2981625</infon>
+      <infon key="fpage">147</infon>
+      <infon key="year">1985</infon>
+      <infon key="type">ref</infon>
+      <offset>53159</offset>
+      <text>Recombination site selection by Tn3 resolvase: topological tests of a tracking mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">78</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1364</infon>
+      <infon key="pub-id_pmid">21143310</infon>
+      <infon key="fpage">1348</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>53248</offset>
+      <text>DNA topology of highly transcribed operons in Salmonella enterica serovar typhimurium</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">11392</infon>
+      <infon key="pub-id_pmid">25209233</infon>
+      <infon key="fpage">11383</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>53334</offset>
+      <text>Chromosome position effects on gene expression in Escherichia coli K&#8208;12</text>
+    </passage>
+    <passage>
+      <infon key="volume">295</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1311</infon>
+      <infon key="pub-id_pmid">11847345</infon>
+      <infon key="fpage">1306</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>53408</offset>
+      <text>Capturing chromosome conformation</text>
+    </passage>
+    <passage>
+      <infon key="volume">589</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">2884</infon>
+      <infon key="pub-id_pmid">26348399</infon>
+      <infon key="fpage">2877</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>53442</offset>
+      <text>Structural and functional diversity of topologically associating domains</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1521</infon>
+      <infon key="pub-id_pmid">16135220</infon>
+      <infon key="fpage">1511</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>53515</offset>
+      <text>Organization of supercoil domains and their reorganization by transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">485</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">380</infon>
+      <infon key="pub-id_pmid">22495300</infon>
+      <infon key="fpage">376</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53591</offset>
+      <text>Topological domains in mammalian genomes identified by analysis of chromatin interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">424</infon>
+      <infon key="pub-id_pmid">9267022</infon>
+      <infon key="fpage">415</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>53681</offset>
+      <text>Cell type&#8208;specific phosphorylation and proteolysis of a transcriptional regulator controls the G1&#8208;to&#8208;S transition in a bacterial cell cycle</text>
+    </passage>
+    <passage>
+      <infon key="volume">178</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">2835</infon>
+      <infon key="pub-id_pmid">8631670</infon>
+      <infon key="fpage">2825</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>53827</offset>
+      <text>Surveying a supercoil domain by using the gamma delta resolution system in Salmonella typhimurium</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">484</infon>
+      <infon key="pub-id_pmid">23041285</infon>
+      <infon key="fpage">471</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53925</offset>
+      <text>Gene density, transcription, and insulators contribute to the partition of the Drosophila genome into physical domains</text>
+    </passage>
+    <passage>
+      <infon key="volume">162</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">119</infon>
+      <infon key="pub-id_pmid">26119342</infon>
+      <infon key="fpage">108</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>54044</offset>
+      <text>Mapping nucleosome resolution chromosome folding in yeast by Micro&#8208;C</text>
+    </passage>
+    <passage>
+      <infon key="volume">342</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">734</infon>
+      <infon key="pub-id_pmid">24158908</infon>
+      <infon key="fpage">731</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>54115</offset>
+      <text>High&#8208;resolution mapping of the spatial organization of a bacterial chromosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">326</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">293</infon>
+      <infon key="pub-id_pmid">19815776</infon>
+      <infon key="fpage">289</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>54195</offset>
+      <text>Comprehensive mapping of long&#8208;range interactions reveals folding principles of the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">602</infon>
+      <infon key="pub-id_pmid">26295962</infon>
+      <infon key="fpage">588</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>54293</offset>
+      <text>Condensin&#8208; and replication&#8208;mediated bacterial chromosome folding and origin condensation revealed by Hi&#8208;C and super&#8208;resolution imaging</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5401</infon>
+      <infon key="pub-id_pmid">17012277</infon>
+      <infon key="fpage">5395</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>54436</offset>
+      <text>In vivo DNase I sensitivity of the Streptomyces coelicolor chromosome correlates with gene expression: implications for bacterial chromosome structure</text>
+    </passage>
+    <passage>
+      <infon key="volume">342</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">953</infon>
+      <infon key="pub-id_pmid">24200812</infon>
+      <infon key="fpage">948</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>54587</offset>
+      <text>Organization of the mitotic chromosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">842</infon>
+      <infon key="pub-id_pmid">20110278</infon>
+      <infon key="fpage">841</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>54626</offset>
+      <text>BEDTools: a flexible suite of utilities for comparing genomic features</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1728</infon>
+      <infon key="pub-id_pmid">1098042</infon>
+      <infon key="fpage">1725</infon>
+      <infon key="year">1975</infon>
+      <infon key="type">ref</infon>
+      <offset>54697</offset>
+      <text>Transcription termination factor rho activity is altered in Escherichia coli with suA gene mutations</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">8607</infon>
+      <infon key="pub-id_pmid">12060720</infon>
+      <infon key="fpage">8602</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>54798</offset>
+      <text>NTP&#8208;sensing by rRNA promoters in Escherichia coli is direct</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">472</infon>
+      <infon key="pub-id_pmid">22265598</infon>
+      <infon key="fpage">458</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>54860</offset>
+      <text>Three&#8208;dimensional folding and functional organization principles of the Drosophila genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">1116</infon>
+      <infon key="pub-id_pmid">324975</infon>
+      <infon key="fpage">1109</infon>
+      <infon key="year">1977</infon>
+      <infon key="type">ref</infon>
+      <offset>54952</offset>
+      <text>Rate of ribosomal ribonucleic acid chain elongation in Escherichia coli B/r during chloramphenicol treatment</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">84</infon>
+      <infon key="pub-id_pmid">26518482</infon>
+      <infon key="fpage">70</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>55061</offset>
+      <text>Active chromatin and transcription play a key role in chromosome partitioning into topologically associating domains</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">264</infon>
+      <infon key="pub-id_pmid">22017872</infon>
+      <infon key="fpage">252</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>55178</offset>
+      <text>The three&#8208;dimensional architecture of a bacterial genome and its alteration by genetic perturbation</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Adv</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">27152358</infon>
+      <infon key="fpage">e1501914</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>55280</offset>
+      <text>A checkpoint control orchestrates the replication of the two chromosomes of Vibrio cholerae</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4341</infon>
+      <infon key="pub-id_pmid">15470498</infon>
+      <infon key="fpage">4330</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>55372</offset>
+      <text>Macrodomain organization of the Escherichia coli chromosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Genet</infon>
+      <infon key="lpage">203</infon>
+      <infon key="pub-id_pmid">23400100</infon>
+      <infon key="fpage">191</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>55432</offset>
+      <text>Organization and segregation of bacterial chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1675</infon>
+      <infon key="pub-id_pmid">26253537</infon>
+      <infon key="fpage">1661</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>55486</offset>
+      <text>Condensin promotes the juxtaposition of DNA flanking its loading site in Bacillus subtilis</text>
+    </passage>
+    <passage>
+      <infon key="volume">179</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">687</infon>
+      <infon key="pub-id_pmid">6094833</infon>
+      <infon key="fpage">667</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>55577</offset>
+      <text>Analysis of the &#947;&#948; res site: sites required for site&#8208;specific recombination and gene expression</text>
+    </passage>
+  </document>
+</collection>

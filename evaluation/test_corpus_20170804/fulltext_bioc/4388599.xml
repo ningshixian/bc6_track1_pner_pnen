@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4388599</id>
+    <passage>
+      <infon key="name_2">surname:Martinou;given-names:Jean-Claude</infon>
+      <infon key="volume">34</infon>
+      <infon key="name_0">surname:Bender;given-names:Tom</infon>
+      <infon key="name_1">surname:Pena;given-names:Gabrielle</infon>
+      <infon key="kwd">metabolism mitochondria mitochondrial pyruvate carrier pyruvate branch point</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_doi">10.15252/embj.201490197</infon>
+      <infon key="article-id_pmid">25672363</infon>
+      <infon key="lpage">924</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="fpage">911</infon>
+      <infon key="year">2015</infon>
+      <infon key="issue">7</infon>
+      <offset>0</offset>
+      <text>Regulation of mitochondrial pyruvate uptake by alternative pyruvate carrier complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>86</offset>
+      <text>At the pyruvate branch point, the fermentative and oxidative metabolic routes diverge. Pyruvate can be transformed either into lactate in mammalian cells or into ethanol in yeast, or transported into mitochondria to fuel ATP production by oxidative phosphorylation. The recently discovered mitochondrial pyruvate carrier (MPC), encoded by MPC1, MPC2, and MPC3 in yeast, is required for uptake of pyruvate into the organelle. Here, we show that while expression of Mpc1 is not dependent on the carbon source, expression of Mpc2 and Mpc3 is specific to fermentative or respiratory conditions, respectively. This gives rise to two alternative carrier complexes that we have termed MPCFERM and MPCOX. By constitutively expressing the two alternative complexes in yeast deleted for all three endogenous genes, we show that MPCOX has a higher transport activity than MPCFERM, which is dependent on the C-terminus of Mpc3. We propose that the alternative MPC subunit expression in yeast provides a way of adapting cellular metabolism to the nutrient availability.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1143</offset>
+      <text>See also: H Rampelt &amp; M van der Laan (April 2015)</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1193</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1206</offset>
+      <text>Pyruvate is a critical cellular metabolite that is the end product of glycolysis and has two major metabolic fates. In mammalian cells, it can be reduced by lactate dehydrogenase, thereby restoring the cellular pool of NAD+ that is needed to keep glycolysis running. If this pathway is used, the net energy yield is only the two molecules of ATP per molecule of glucose obtained through glycolysis. Alternatively, pyruvate can be transported into mitochondria and oxidized by the pyruvate dehydrogenase complex (PDH) to enter the TCA cycle. Through oxidative phosphorylation, more than 30 ATP molecules per molecule of glucose can be produced inside mitochondria. Pyruvate is thus located at a key metabolic branch point, and how pyruvate is processed has a major influence on the overall metabolism of the cell (Gray et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2039</offset>
+      <text>Although counterintuitive at first glance, many cancer cells rely primarily on glycolysis for energy production. This phenomenon has been described as early as 1924 by Otto Warburg and is now referred to as the &#8220;Warburg effect&#8221; (reviewed by Koppenol et&#160;al, 2011). The paradox that rapidly proliferating cells preferentially use an inefficient way of energy production can be explained by the high availability of glucose in multicellular organisms. More precisely, it is not ATP production, but the synthesis of biomolecules that are required for biomass expansion, like amino acids, lipids, and nucleotides, which appears to be the limiting factor for rapidly dividing cells and is favored by a high rate of glycolysis (Vander Heiden et&#160;al, 2009). Remarkably, the situation in cancer cells is reminiscent of that in some rapidly proliferating microorganisms when grown in an excess of nutrients. The unicellular model organism Saccharomyces cerevisiae (baker's yeast), for example, shows the so-called Crabtree effect (De Deken, 1966), according to which glucose is preferentially fermented to produce ethanol, even in the presence of oxygen. As yeast can shift readily between fermentative and oxidative metabolism dependent on the carbon source available, it has been suggested to be an ideal simple model to study the metabolic reprogramming associated with the shift toward aerobic fermentation (Diaz-Ruiz et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3471</offset>
+      <text>Consistent with this, many common features regarding metabolic enzyme composition are shared between cancer cells and fermenting yeast (Diaz-Ruiz et&#160;al, 2009). At the pyruvate branch point, pyruvate decarboxylase (PDC) in fermenting yeast and lactate dehydrogenase in cancer cells are hyperactive, favoring the production of ethanol or lactate, respectively (Van Urk et&#160;al, 1990; Rong et&#160;al, 2013). In addition to overexpression of the enzyme, yeast PDC is activated by phosphorylation (de Assis et&#160;al, 2013), while yeast PDH, responsible for the conversion of pyruvate to acetyl-CoA inside mitochondria, is inactivated by phosphorylation. PDH activity is controlled by two kinases and two phosphatases, homologs of&#160;which are also present in mammalian mitochondria (Krause-Buchholz et&#160;al, 2006; Gey et&#160;al, 2008). In mammals, PDH was shown to be activated during oncogene-induced senescence (Kaplon et&#160;al, 2013), and these authors concluded that cancer cells require inactive PDH in order to proliferate.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4483</offset>
+      <text>While the enzymes at the pyruvate branch point have been extensively studied, less is known about the machinery that mediates pyruvate uptake into the mitochondrial matrix. Like most metabolites, pyruvate is believed to cross the mitochondrial outer&#160;membrane through the porins, the homologs of the voltage-dependent anion channel (VDAC) in yeast (Lee et&#160;al, 1998). While the existence of a mitochondrial pyruvate carrier (MPC) in the mitochondrial inner membrane has been known for many years (Papa et&#160;al, 1971; Halestrap &amp; Denton, 1974), its molecular identity has only recently been discovered (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). In S.&#160;cerevisiae, the carrier is encoded by three homologous genes (MPC1, MPC2, and MPC3), while only two genes have been identified in mammals and flies. Recently, an MPC has also been described in plants (Li et&#160;al, 2014). The gene products are conserved mitochondrial inner membrane proteins that migrate on Blue Native PAGE (BN-PAGE) as a complex of &#8765;150&#160;kDa (Bricker et&#160;al, 2012). MPC proteins are required for pyruvate import into isolated mitochondria (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). Moreover, mouse MPC1 and MPC2 could be functionally reconstituted in Lactococcus lactis, showing that the two protein components are also sufficient for pyruvate uptake (Herzig et&#160;al, 2012). While the exact stoichiometry of the MPC subunits has not been determined, a very recent structural analysis of bacterial SemiSWEET transporters (Xu et&#160;al, 2014), which share some similarity with MPC proteins, suggests that the MPC may be a dimer.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6078</offset>
+      <text>In yeast, mitochondrial pyruvate is the precursor for biosynthesis of branched-chain amino acids (BCAA) (Kohlhaw, 2003), and thus, growth in the absence of leucine and valine provides a means of monitoring MPC activity (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). Since MPC2 and MPC3 are about 80% identical, and either gene in combination with MPC1 is sufficient for growth in medium lacking BCAA, it was proposed that their function could be redundant (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). MPC3 gene expression, however, has previously been shown to be induced by the non-fermentable carbon source glycerol (Tim&#243;n-G&#243;mez et&#160;al, 2013), implying that MPC subunit composition is subject to regulation. If and how mitochondrial pyruvate uptake is generally regulated and whether this regulation might participate in the metabolic reprogramming occurring during the Warburg and Crabtree effects remain to be determined.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7004</offset>
+      <text>In this work, we have investigated mitochondrial pyruvate uptake in S.&#160;cerevisiae. We show that, depending on the carbon source, yeast cells express two different complexes containing either Mpc1 and Mpc2 (MPCFERM) or Mpc1 and Mpc3 (MPCOX). Furthermore, by using constitutive promoters in a triple mpc deletion strain, we have expressed MPCFERM and MPCOX under the same growth conditions to compare their respective pyruvate transport activities. We demonstrate that transport activity of MPCOX is significantly higher than that of MPCFERM and that the C-terminal domain of Mpc3 is largely responsible for the higher activity. We thus conclude that the subunit composition of the MPC is responsive to the nutrient status of the environment and plays a role in regulating the metabolic decision at the pyruvate branch point.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7829</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7837</offset>
+      <text>Yeast cells express alternative MPC complexes depending on the carbon source</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7914</offset>
+      <text>We chose the yeast S.&#160;cerevisiae as a model organism to investigate regulation of the MPC because yeast cells use either fermentative or oxidative metabolism depending on the carbon source that is provided in the growth medium. This allows an experimental setup in which the fate of pyruvate can be determined experimentally. In the presence of glucose, pyruvate is decarboxylated by PDC, which is the entry point into fermentation. On the other hand, when yeast is grown in a non-fermentable carbon source like glycerol, the majority of pyruvate is taken up into mitochondria by the MPC (Pronk et&#160;al, 1996). We therefore sought to determine the expression pattern of the MPC subunits depending on the carbon source present in the growth medium. We isolated mitochondria from yeast strains in which Mpc1, Mpc2, or Mpc3 had been fused C-terminally to a 3HA-tag but were expressed from their endogenous promoters (Herzig et&#160;al, 2012). Cells were grown in rich medium containing either glucose (YPD) or glycerol (YPG). When we analyzed MPC subunit expression by Western blot, we found that Mpc1 was expressed in both conditions, while Mpc2 and Mpc3 were expressed selectively in either fermentative or respiratory conditions, respectively (Fig1A). While Mpc3 was completely absent in YPD, a faint trace of Mpc2 could be detected in YPG.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9251</offset>
+      <text> Mpc1 and Mpc2 are present under fermentative conditions, while Mpc1 and Mpc3 are present under respiratory conditions. MPC subunits were detected by Western blot in mitochondria isolated from yeast cells grown in glucose (YPD) or glycerol (YPG). Mitochondrial matrix protein aconitase (Aco1), 23-kDa translocase of the inner membrane subunit (Tim23), and 70-kDa translocase of the outer membrane subunit (Tom70) were used as loading controls. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9696</offset>
+      <text> Kinetics of the switch from Mpc2 to Mpc3. Yeast cells were grown in YPD until mid-log phase and then shifted to YPG medium. Whole cell extracts were taken at the indicated time points after the shift, and HA-tagged Mpc2 and Mpc3 detected by Western blotting. Mpc3 is induced very rapidly by switch from YPD to YPG, while Mpc2 levels decrease only gradually. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10056</offset>
+      <text> Alternative pyruvate carrier complexes MPCFERM and MPCOX are detected by BN-PAGE. Isolated mitochondria expressing HA-tagged MPC proteins were run on blue native gels, and MPC complexes detected with an HA-specific antibody. MPCFERM consisting of Mpc1 and Mpc2 is present under fermentative conditions, and MPCOX consisting of Mpc1 and Mpc3 is present under respiratory conditions. In addition, a complex of &#732;300&#160;kDa is observed under respiratory conditions that contains Mpc1 and Mpc3. Non-specific reactivity of the anti-HA antibody toward respiratory chain complexes that are highly abundant in oxidative growth conditions is denoted by an asterisk (*). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10717</offset>
+      <text>Alternative MPC complexes are found dependent on the carbon source  Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10835</offset>
+      <text>Because mitochondrial pyruvate is also the precursor for biosynthesis of BCAA, MPC deletion mutants show slower growth in media lacking leucine and valine (Supplementary Fig S1A; Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). We thus checked whether growth in glucose-containing synthetic medium lacking all amino acids (SD&#8722;AA) had any effect on MPC subunit expression pattern. Interestingly, under these conditions, we observed an increase in Mpc2 abundance (Supplementary Fig S1B). However, we found no difference compared with synthetic medium containing amino acids (SD+AA). Mpc3 was not detected in either growth condition (Supplementary Fig S1B), once more implying that a non-fermentable carbon source is needed for the induction of this subunit. In conclusion, yeast mitochondria express Mpc1 and Mpc2 during fermentative growth and Mpc1 and Mpc3 under respiratory conditions, while the availability of BCAA had no effect on subunit expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11787</offset>
+      <text>Next, we decided to investigate the kinetics of Mpc2 replacement by Mpc3 when yeast cells are shifted from glucose- to glycerol-containing medium. We grew MPC2-HA and MPC3-HA yeast in YPD until mid-log phase and then shifted them to YPG for up to 24&#160;h. Remarkably, Mpc3-HA could be detected by Western blot as early as 1&#160;h after the shift and increased only moderately from that time point on (Fig1B, lanes 7&#8211;12). Mpc2-HA, on the other hand, was found to decrease gradually over time (Fig1B, lanes 1&#8211;6).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12297</offset>
+      <text>As Mpc1 was previously shown to interact physically with Mpc2 (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012), and since Mpc2 and Mpc3 are paralogs with 80% identity, we reasoned that Mpc1 might also form a complex with Mpc3 under conditions where Mpc2 is absent. We therefore investigated MPC1-HA, MPC2-HA, and MPC3-HA mitochondria by BN-PAGE, a method used to investigate protein complexes by native gel electrophoresis. When mitochondria were isolated from cells grown in YPD, we observed a complex with an apparent molecular mass of &#8765;150&#160;kDa composed of Mpc1-HA and Mpc2-HA (Fig1C, lanes 1 and 2), as previously described (Bricker et&#160;al, 2012). On the other hand, in mitochondria from cells grown in YPG, we observed a complex that migrated slightly slower and contained Mpc1-HA and Mpc3-HA (Fig1C, lanes 3 and 4). The slower migration is probably due to the slightly larger Mpc3 compared to Mpc2 (16.2 versus 14.5&#160;kDa). Even though in BN-PAGE Mpc1-HA was less well detected than Mpc2-HA or Mpc3-HA with the anti-HA antibody, expression levels were similar, as&#160;shown by the results in Fig1A. Some cross-reactivity of our antiserum with other proteins was also observed (denoted by asterisks in Fig1C). This is likely to be with respiratory chain complexes that are very abundant in yeast grown in YPG but almost absent in YPD.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13630</offset>
+      <text>Taken together, our results suggest that two alternative MPC complexes exist in yeast mitochondria depending on the carbon source: An MPCFERM complex consisting of Mpc1 and Mpc2 is present with YPD, while an MPCOX complex consisting of Mpc1 and Mpc3 is found with YPG. Curiously, under respiratory conditions, we consistently observed a higher molecular weight complex of about 300&#160;kDa that also contained both Mpc1-HA and Mpc3-HA (Fig1C, 300K). This additional complex was only present in respiratory conditions, and no comparable structure could be detected when Mpc1 was complexed with Mpc2 in glucose-grown mitochondria.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14256</offset>
+      <text>Functional expression of MPCFERM and MPCOX complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14309</offset>
+      <text>We asked whether MPCFERM and MPCOX have different functions related to the different metabolic routes followed by pyruvate under the growth conditions in which the respective complexes were expressed. The structure and function of mitochondria from cells grown under fermentative conditions, however, is known to be different from that of cells grown under respiratory conditions, and little valid conclusion can be drawn from experiments where mitochondria have been isolated from cells grown under different conditions. To minimize any variability due to different mitochondrial protein or metabolite content, we therefore decided to express constitutively either Mpc2 or Mpc3 in combination with Mpc1. All further experiments could thus be performed with mitochondria isolated from cells grown under the same conditions. To maximize mitochondria yield, we chose medium containing glycerol (see Materials and Methods). Furthermore, in order to additionally exclude interference due to the expression of the endogenous genes, we transformed the triple gene deletion strain (mpc1&#916; mpc2&#916; mpc3&#916;) with centromeric expression plasmids that contained epitope-tagged MPC genes under the control of a constitutive promoter. As MPC proteins normally exhibit a low level of endogenous expression, we chose to use the CYC1 promoter that has relatively weak activity (Mumberg et&#160;al, 1995). Comparison of protein levels when MPC1-HA was expressed from either the CYC1 or its endogenous MPC1 promoter showed that the constitutive promoter resulted in only a moderate level of protein overexpression (Supplementary Fig S1C). As expected, co-expression of either Mpc1 and Mpc2 or Mpc1 and Mpc3 was able to rescue the growth defect of the triple mutant in minimal medium lacking amino acids, while expression of either subunit alone did not rescue (Fig2A), suggesting that the expression of either MPC complex restored pyruvate transport activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16253</offset>
+      <text> A Constitutive expression of either MPCFERM or MPCOX can rescue the slow growth phenotype of the mpc1&#916;mpc2&#916;mpc3&#916; triple deletion mutant. Growth tests were performed with cells transformed with MPC1, MPC2, or MPC3 expression plasmids or with empty vectors in indicated combinations. A serial dilution of yeast cells was spotted on agar plates with glucose-containing synthetic minimal medium with (SD+AA) or without (SD&#8722;AA) amino acids. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16703</offset>
+      <text> B Plasmid-encoded MPC proteins can be detected in isolated mitochondria when Mpc1 is co-expressed with either Mpc2 or Mpc3. Cells were grown in selective medium containing glycerol as a carbon source. MPC subunits were constitutively expressed from plasmids in indicated combinations in the mpc1&#916;mpc2&#916;mpc3&#916; background and detected by Western blot using anti-HA or anti-Flag antibodies. Mitochondrial enzymes aconitase (Aco1) and malate dehydrogenase (Mdh1) were used as loading controls. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17205</offset>
+      <text> C BN-PAGE confirms the formation of MPCFERM and MPCOX complexes after constitutive plasmid-based protein expression. Non-specific reactivity of the antibody is denoted by an asterisk (*). It has to be noted that all complexes migrate slightly faster than in Fig1C, most likely because MPC proteins are tagged with a single epitope tag as opposed to the 3HA-tag in Fig1C. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17578</offset>
+      <text> D Mpc1 is co-immunoprecipitated with Mpc2 or Mpc3. Mitochondria isolated from cells harboring appropriate expression plasmids and grown in glycerol-containing medium were lysed in 1% digitonin, and either Mpc2-Flag or Mpc3-Flag was immunoprecipitated. Mpc1-HA was detected by Western blot with an antibody directed against the epitope tag. The matrix protein aconitase (Aco1) and 40-kDa translocase of the outer membrane subunit (Tom40) were not co-immunoprecipitated. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18049</offset>
+      <text> E, F Stoichiometry of MPC complexes. Chemical cross-linking indicates that Mpc1/Mpc2 and Mpc1/Mpc3 form heterodimers of the predicted molecular weight. DSG, disuccimidyl glutarate. Cross-linking products with unknown partners are labeled with a question mark (?). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18315</offset>
+      <text>Constitutive expression of alternative MPC complexes  Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18419</offset>
+      <text>We then examined whether proteins were indeed expressed in both combinations and assembled into the alternative complexes MPCFERM and MPCOX. Western blot and immunodetection with antibodies directed against the HA or Flag epitope tags confirmed the presence of plasmid-derived proteins in isolated mitochondria (Fig2B, lanes 5 and 6). Importantly, the alternative subunits Mpc2 and Mpc3 were present in approximately equal amounts. Even in the absence of Mpc1, the expression of Mpc2 and Mpc3 was unaffected (Fig2B, lanes 3 and 4). Mpc1, on the other hand, was barely detectable when no other carrier subunit was present (Fig2B, lane 2, and Supplementary Fig S1C), indicating that the protein is not stable under these conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19150</offset>
+      <text>Formation of MPC complexes was examined by BN-PAGE. Both MPCFERM and MPCOX were formed as expected by Mpc1/Mpc2 or Mpc1/Mpc3, respectively (Fig2C, lanes 3, 4, 8 and 9). Furthermore, as seen previously, the &#8765;300-kDa complex was only formed in the presence of Mpc1 and Mpc3, indicating that this complex is dependent&#160;on protein composition rather than the growth conditions. Interestingly, Mpc2 or Mpc3 alone was also able to form complexes, which migrated slightly faster than the respective complex containing Mpc1 (Fig2C, lanes 6 and 7). However, these are not functionally active as seen by the failure to rescue the growth defect of the triple mpc mutant (Fig2A), and as assayed directly (see Fig 4 below).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19863</offset>
+      <text>Finally, we have confirmed complex formation by co-immunoprecipitation. Mitochondria were purified from appropriately transformed cells and lysed with 1% digitonin, and either Mpc2 or Mpc3 was pulled down by virtue of a C-terminal Flag-tag. In both cases, HA-tagged Mpc1 was co-immunoprecipitated (Fig2D). Taken together, these data show that both plasmid-derived MPCFERM and plasmid-derived MPCOX were correctly assembled and able to transport pyruvate into mitochondria.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20336</offset>
+      <text>Chemical cross-linking reveals a heterodimeric composition of the MPC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20406</offset>
+      <text>We next decided to examine in more detail some of the molecular properties of the reconstituted MPC complexes. In particular, since a comparison with similar carriers suggested that the MPC might be dimeric (Jezegou et&#160;al, 2012; Xu et&#160;al, 2014), we were interested in determining the subunit stoichiometry for each complex. To do this, we treated isolated mitochondria with the membrane-permeable, amino-reactive cross-linker disuccimidyl glutarate (DSG) in order to covalently link the MPC subunits present in close proximity. The size of the cross-linked oligomers was estimated by SDS&#8211;PAGE and immunoblot. For Mpc2-Flag (Fig2E) and Mpc3-Flag (Fig2F), cross-linking resulted in the detection of a higher molecular weight band at about 30 or 32&#160;kDa, respectively, corresponding to the size of a hypothetical dimer. Furthermore, Mpc1-HA was cross-linked to a product of exactly the same size as the Mpc2-Flag- or Mpc3-Flag-containing dimer, depending on what subunit it was co-expressed with (Fig2E and F). This, and the co-immunoprecipitation of Mpc1 with Mpc2 or Mpc3 (Fig2D), strongly indicates that the observed cross-link product is a heterodimer of either Mpc1 and Mpc2 or Mpc1 and Mpc3. Both MPCFERM and MPCOX thus appear to be heterodimers composed of Mpc1 complexed with either Mpc2 or Mpc3, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21726</offset>
+      <text>Interestingly, a dimer band was also detected for Mpc3-Flag in the absence of cross-linker (Fig2F, line 3), which indicates that a small fraction of the complex is resistant to SDS and heat treatment. In agreement with this notion, when a sample without cross-linker was not heated at 95&#176;C prior to SDS&#8211;PAGE, the amount of dimer was increased (Supplementary Fig S2A). On the other hand, the amount of dimer was not increased under non-reducing electrophoresis conditions (Supplementary Fig S2A), indicating that the two subunits are not covalently linked by a disulfide bond.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22305</offset>
+      <text>Since we had observed by BN-PAGE that Mpc2 and Mpc3 were able to form complexes when expressed without Mpc1 (Fig2C), we also performed a DSG cross-linking experiment using mitochondria containing either Mpc2 or Mpc3 alone. Indeed, both proteins could be cross-linked into homodimeric forms with the predicted molecular weight (Supplementary Fig S2B). To test whether homodimers are also able to form in the presence of Mpc1, we transformed mpc2&#916;mpc3&#916; cells with plasmids coding for either Mpc2 or Mpc3 with two different epitope tags. By immunoprecipitation from mitochondrial lysates, we confirmed in both cases the occurrence of homomeric interactions (Supplementary Fig S2C). This strongly indicates that Mpc2 or Mpc3 homodimers also exist in vivo, even though both the growth test (Fig2A) and analysis of transport activity (see Fig 4 below) suggest that homodimers are non-functional.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23203</offset>
+      <text>MPC proteins differ in their membrane topology</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23250</offset>
+      <text>Based on prediction algorithms, MPC proteins have previously been suggested to contain either two or three alpha-helical transmembrane segments (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). In an attempt to resolve this question experimentally and to determine the localization of the N- and C-termini, we have used the thiol-reactive dye 4-acetamido-4&#8242;-((iodoacetyl) amino)stilbene-2,2&#8242;-disulfonic acid (IASD), which is able to cross the outer but not the inner mitochondrial membrane and thus can label only those cysteine residues of inner membrane proteins that are exposed to the intermembrane space (IMS) (Malhotra et&#160;al, 2013). For these experiments, we have created single cysteine variants of both Mpc1 and Mpc3 by first changing the endogenous cysteines to alanines and then introducing cysteines at various positions along the polypeptide chain (Supplementary Fig S3A). All MPC1 or MPC3 mutants were functional when expressed in the mpc1&#916; or mpc2&#916;mpc3&#916; background, respectively, as judged by their ability to rescue the growth defect in the absence of BCAA (Supplementary Fig S3B and D). To study the topology of the MPC proteins, mitochondria were isolated from appropriately transformed cells and treated in vitro with IASD. Accessibility of cysteines was detected by Western blot as a small increase in molecular weight (&#8765;500&#160;Da) caused by covalent binding of the dye. Treatment with the reducing agent dithiothreitol (DTT) and lysis of mitochondrial membranes with the detergent Triton X-100 prior to the labeling served as negative and positive controls, respectively, for the labeling reaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24872</offset>
+      <text>For Mpc1, in intact mitochondria, we found labeling of only one mutant, C87A/D51C, where the cysteine had been introduced in the short connecting loop between the first and second putative transmembrane segments, indicating that this loop is found in the IMS (Fig3A, lanes 9&#8211;12). All other variants were unlabeled (Fig3A and Supplementary Fig S3C), including the variants in which cysteines were introduced in the N- or C-terminal regions (C87A/S12C or C87A/A116C), thus showing that both termini are found in the mitochondrial matrix. We therefore conclude in contrast to earlier predictions that Mpc1 contains only two transmembrane segments and that the short loop between these helices is found in the IMS (see Fig3D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25597</offset>
+      <text> A, B Determination of MPC membrane topology by IASD labeling of isolated mitochondria expressing the indicated single cysteine variants of Mpc1 (A) and Mpc3 (B). Mitochondria were treated with IASD as indicated. Negative [quenching by pretreatment with DTT (pre-DTT)] and positive [lysis with 0.5% Triton X-100 (T-X100)] controls for the labeling reaction are shown. As a further control, also translocase of the inner membrane subunit Tim23 is detected by Western blot, which contains three endogenous cysteines, all of which are located in membrane-embedded regions. Labeling of an IMS-exposed cysteine with IASD is indicated by a mobility shift on SDS&#8211;PAGE corresponding to the molecular weight of IASD (&#732;500&#160;Da). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26320</offset>
+      <text> C Protease protection assay in mitochondria expressing Mpc1-GFP, Mpc2-GFP, or Mpc3-GFP. Intact mitochondria (M), mitoplasts with a ruptured outer membrane after hypo-osmotic swelling (Sw), or mitochondrial lysates with 0.5% Triton X-100 (Tr) were treated with proteinase K (PK). Loading controls are Tom70 (outer membrane), Tim23 (inner membrane), and Mdh1 (matrix). GFP-fused Mpc2 and Mpc3 are degraded in mitoplasts, whereas Mpc1-GFP is not. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26766</offset>
+      <text> D Model showing the proposed membrane topology of Mpc1 and Mpc3. Whereas Mpc1 has only two transmembrane helices, Mpc3 has three. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26898</offset>
+      <text>Membrane topology of MPC proteins  Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26983</offset>
+      <text>As predicted from the homology between all MPC proteins, the cysteine introduced at position 50 of Mpc3 (C87A/S50C) should also fall between the first two transmembrane regions, and as expected, this cysteine was also labeled with IASD (Fig3B, lanes 9&#8211;12). While the N-terminal region (variant C87A/S16C; Fig3B, lanes 5&#8211;8) was not labeled, we surprisingly detected labeling of the C-terminal cysteine variant C87A/S132C (Fig3B, lanes 13&#8211;16). The cysteines located within putative transmembrane segments were not labeled (Supplementary Fig S3E). This is compatible only with a three-transmembrane segment topology, where the N-terminus is found in the matrix and the C-terminus resides within the IMS (see Fig3D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27702</offset>
+      <text>To confirm this, we expressed Mpc1, Mpc2, and Mpc3 fused C-terminally with green fluorescent protein (GFP). All GFP fusions were able to rescue the growth phenotype of the respective deletion mutant (Supplementary Fig S4A). As expected from the calculated molecular weight of the fusion proteins, Western blot with an anti-GFP antibody detected a band of &#8765;40&#160;kDa, indicating that GFP fusions were properly expressed (Supplementary Fig S4B). An additional band of &#8765;27&#160;kDa most likely corresponded to the GFP moiety alone that is resistant to proteolytic removal in vivo. We then performed a protease protection assay using isolated mitochondria to determine the accessibility of MPC proteins to externally added proteinase K (PK). In intact mitochondria, no PK digestion of the GFP fusion proteins was observed (Fig3C, lanes 1, 7 and 13), whereas all GFP-fused molecules were completely degraded following complete membrane disruption in the presence of Triton X-100 (Fig3C, lanes 3, 9 and 15). Interestingly, when the outer membrane was disrupted selectively by hypo-osmotic swelling, both Mpc2-GFP and Mpc3-GFP were cleaved in the presence of PK, consistent with exposure of the C-terminus of those two proteins to the IMS (Fig3C, lanes 8 and 14). Mpc1-GFP, on the other hand, was protected from PK digestion after swelling, presumably because it exposes only the short loop between the alpha-helical transmembrane segments to the IMS (Fig3C, lane 2).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29161</offset>
+      <text>In summary, we conclude from these data that Mpc1 has two transmembrane-spanning segments separated by a small loop which is localized to the IMS, while the N- and C-termini are associated with the mitochondrial matrix, and that in contrast, Mpc2 and Mpc3 have an additional transmembrane domain, which results in the projection of the C-termini of Mpc2 and Mpc3 into the IMS (Fig3D).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29546</offset>
+      <text>The transport activity of MPCOX is higher than that of MPCFERM</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29609</offset>
+      <text>Having established the existence of two alternative MPC complexes, we were next interested in characterizing their pyruvate transport activities. Pyruvate uptake was assayed as previously described (Herzig et&#160;al, 2012) by measuring 14C-labeled pyruvate import into isolated mitochondria expressing either MPCFERM or MPCOX. Import kinetics were determined using an inhibitor-stop approach with the specific MPC inhibitor UK5099 (Halestrap, 1975). By performing the transport experiment in buffer at pH 6.8 while mitochondria were isolated in buffer at pH 7.4, we artificially created a proton gradient over the mitochondrial inner membrane that could be used as the driving force for pyruvate import. As expected, there was almost no import when the mpc1&#916; mpc2&#916; mpc3&#916; triple deletion strain was transformed with the empty vectors (Fig4A and B). Likewise, mitochondria expressing either Mpc2 or Mpc3 alone show import only slightly above the background (Fig4A and B), confirming that Mpc2 or Mpc3 homodimers are non-functional in pyruvate transport. However, co-expression of either Mpc2 or Mpc3 with Mpc1 resulted in specific pyruvate import (Fig4A and B). Remarkably, the import rate after 5&#160;min of incubation was about 2.2-fold higher when subunits Mpc1 and Mpc3 were expressed together, compared to co-expression of Mpc1 and Mpc2 (Fig4A and B), even though no difference was detected in protein expression levels (see Fig2B). Thus, the MPCOX displays a significantly higher rate of pyruvate import than does the MPCFERM (P&#160;=&#160;0.0037).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31157</offset>
+      <text> MPCOX has higher transport activity than MPCFERM. The uptake of 14C-labeled pyruvate into intact mitochondria was measured in vitro. Mitochondria had been isolated from cells grown in glycerol-containing medium and expressing no subunit (vectors), MPCFERM, MPCOX, Mpc2, or Mpc3. Imported pyruvate was quantified by re-isolation of mitochondria and subsequent scintillation counting after 1, 2, or 5&#160;min of incubation with [14C]-pyruvate. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31598</offset>
+      <text> Imported [14C]-pyruvate as in (A) after 5-min incubation. The difference between MPCOX and MPCFERM (**P&#160;=&#160;0.0037) was significant (unpaired t-test). </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31751</offset>
+      <text> Pyruvate dehydrogenase activity was measured in lysates of mitochondria expressing no subunit (vectors), MPCFERM, or MPCOX. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31877</offset>
+      <text>Pyruvate transport activity of mitochondria containing MPCFERM or MPCOX Data information: Means of n&#160;=&#160;6 (A, B) or n&#160;=&#160;3 (C) experiments are shown, with error bars representing SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32063</offset>
+      <text>As a control, we checked whether changes in mitochondrial pyruvate metabolism could be responsible for the observed differences in pyruvate uptake rates. This was considered necessary as we had previously observed a slightly lower PDH activity in mpc1&#916; mitochondria (Herzig et&#160;al, 2012), most probably because PDH requires a lipoic acid cofactor, for which mitochondrial pyruvate can serve as biosynthetic precursor (Schonauer et&#160;al, 2009). We thus measured PDH activity in mitochondria expressing either MPCOX or MPCFERM. No significant differences were observed, and the activity in both cases was similar to the activity in mitochondria lacking any MPC subunit (Fig4C). Thus, we conclude that the increased pyruvate transport rate in the presence of MPCOX compared to MPCFERM is not due to increased pyruvate metabolism but to a higher intrinsic transport activity of the carrier.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32951</offset>
+      <text>Growth rates are unaffected by forced expression of MPCFERM and MPCOX</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33021</offset>
+      <text>The differences in pyruvate transport activity of MPCFERM and&#160;MPCOX suggest that the subunit exchange serves to adapt mitochondrial pyruvate uptake to oxidative or fermentative metabolism. We thus asked whether forced expression of either complex had any effect in vivo. For this, we again used the plasmid-based expression system, where MPC genes are expressed from a constitutive promoter in cells devoid of all endogenous MPC genes. We measured growth curves in both glucose- and glycerol-containing minimal medium that supported maintenance of the plasmids. The strain containing empty vectors clearly showed delayed growth under both conditions, indicating that in minimal medium, mitochondrial pyruvate import is required for normal growth, even if BCAA are provided (Supplementary Fig S5). In contrast, the growth rates of MPCFERM- and MPCOX-expressing cells were virtually indistinguishable, under both fermentative and respiratory conditions (Supplementary Fig S5). We conclude that the activity of MPCFERM under respiratory conditions is sufficient to promote normal proliferation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34114</offset>
+      <text>The higher transport activity of MPCOX is dependent on the Mpc3&#160;C-terminus</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34190</offset>
+      <text>The subunits Mpc2 and Mpc3 are believed to have arisen from a recent gene duplication and share about 80% overall sequence identity (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). However, while the major part of the protein from amino acid 1 to 106 shows a very high degree of homology, the extreme C-termini are completely different (Supplementary Fig S6A). We therefore asked whether the alternative C-termini (22 amino acids in Mpc2, 39 amino acids in Mpc3) might be responsible for the difference in pyruvate uptake activities shown by the MPCFERM and MPCOX complexes. To address this question, we created chimeric proteins in which the C-terminus of Mpc2 was replaced by the C-terminus of Mpc3 (Mpc2C3) and vice versa (Mpc3C2; Fig5A). Both chimeric proteins were co-expressed with Mpc1 in yeast cells lacking all three MPC genes (mpc1&#916;mpc2&#916;mpc3&#916;). Initial Western blot analysis showed that whereas Mpc2C3-Flag was well expressed, only a trace of Mpc3C2 was detectable (Fig5B), presumably due to impaired complex assembly or increased turnover of the latter protein construct. We therefore decided to exclude the Mpc3C2 chimera from all further analyses. The construct Mpc2C3, however, was able to restore the growth phenotype of the triple deletion strain on minimal medium lacking amino acids (Supplementary Fig S5B), and interacted with co-expressed Mpc1-HA, as shown by co-immunoprecipitation (Supplementary Fig S5C). Thus, the Mpc2C3 chimera was able to form an active pyruvate carrier together with Mpc1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35713</offset>
+      <text> Scheme of the chimeric protein constructs Mpc2C3 and Mpc3C2. The C-terminal region of Mpc2 was replaced by the corresponding region of Mpc3, and vice versa. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35872</offset>
+      <text> The chimeric construct Mpc2C3 is expressed in isolated mitochondria, while Mpc3C2 is not. Mpc1-HA and the Flag-tagged chimeric proteins were detected by Western blotting in isolated mitochondria. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36070</offset>
+      <text> Mpc2C3 forms a carrier complex with Mpc1, as analyzed by BN-PAGE. When co-expressed with Mpc1, Mpc2C3 shows the same complex pattern as Mpc3, including the 300K complex. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36242</offset>
+      <text> Pyruvate transport activity of the Mpc1/Mpc2C3 complex reaches &#732;85% of MPCOX activity. Uptake of [14C]-pyruvate into mitochondria isolated from yeast cells expressing the indicated MPC protein combinations was measured in vitro. Difference between MPCFERM and Mpc1/Mpc2C3 is significant (unpaired t-test; *P&#160;=&#160;0.02). Means of n&#160;=&#160;4 experiments are shown, with error bars representing SEM. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36638</offset>
+      <text>Role of the C-terminus of the alternative subunit  Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36739</offset>
+      <text>We then examined the effect of the C-terminal substitution on the migration on BN-PAGE. The complex composed of Mpc1 and Mpc2C3 ran at approximately the same size as MPCOX (Fig5C), again indicating that the chimeric protein is integrated into a functional pyruvate carrier complex. Interestingly, the &#8765;300-kDa complex was also formed in the presence of Mpc2C3 (Fig5C). The formation of this larger complex normally formed between Mpc1 and Mpc3 is thus dependent on the C-terminal region of Mpc3.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37237</offset>
+      <text>Finally, we measured in vitro import of 14C-labeled pyruvate into mitochondria co-expressing Mpc2C3 and Mpc1, and compared the activity with mitochondria expressing the MPCFERM or MPCOX complexes. Remarkably, the chimeric MPC complex showed about 85% of MPCOX activity and significantly greater activity than MPCFERM (P&#160;=&#160;0.020; Fig5D). Thus, replacing the short C-terminal region of Mpc2 by the corresponding region of Mpc3 is sufficient to confer a significantly higher capacity for pyruvate transport, suggesting that the C-terminal region of the Mpc1 interaction partner plays a key role in establishing the pyruvate transport properties of MPCFERM and MPCOX.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>37903</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37914</offset>
+      <text>The metabolic decision at the pyruvate branch point determines whether a cell uses oxidative phosphorylation or glycolysis for production of ATP. While it is clear that key enzyme activities like pyruvate decarboxylase or pyruvate dehydrogenase, which catalyze the first step toward the fermentative or oxidative route, respectively, are regulated (Gey et&#160;al, 2008; de Assis et&#160;al, 2013), little is known about the carrier that transports pyruvate across the mitochondrial inner membrane. This study aims at elucidating the role of the mitochondrial pyruvate carrier in the regulation of cellular metabolism in the model organism Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38572</offset>
+      <text>Previous experiments have shown that either Mpc2 or Mpc3 is needed together with Mpc1 to maintain growth in the absence of BCAA, implying that the function of Mpc2 and Mpc3 may be redundant (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). However, we found that these two subunits were differentially expressed in an all-or-nothing fashion, depending on the carbon source on which the cells are grown (Fig1A). This finding is in good agreement with a previous study showing that MPC3 expression is strongly and rapidly induced via the HOG pathway when cells are shifted to glycerol-containing medium (Tim&#243;n-G&#243;mez et&#160;al, 2013). In addition, the MPC3 promoter was shown to bind the Sko1 transcription factor, and gene expression was upregulated in response to osmotic stress (Proft et&#160;al, 2005), indicating that MPC3 is a highly regulated gene. The regulation of MPC2 expression, on the other hand, seems to be more complex. Our results suggest that the protein is more abundant when cells are grown in minimal medium (Supplementary Fig S1B), indicating that it may be induced by deprivation of some nutrient that is lacking under these conditions. Moreover, Tim&#243;n-G&#243;mez et&#160;al (2013) have shown that the level of MPC2 mRNA does not change after a switch to a non-fermentable carbon source, yet we find only a faint trace of the HA-tagged protein under these conditions. We therefore suggest that Mpc2 protein levels may also be regulated post-transcriptionally, presumably by translational inhibition or proteolytic removal in the absence of glucose.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40124</offset>
+      <text>We have demonstrated using BN-PAGE that the differential subunit expression gives rise to two alternative MPC complexes that we have termed MPCFERM and MPCOX (Fig1C). In order to compare their properties, we have reconstituted both complexes in vivo by expressing each of the subunits from a constitutive promoter in cells lacking all three MPC genes (mpc1&#916;mpc2&#916;mpc3&#916;). This has allowed us to study MPCFERM and MPCOX under the same growth conditions. Chemical cross-linking revealed that both MPCFERM and MPCOX are most likely to be heterodimers (Fig2E and F). We have also detected homodimeric forms of Mpc2 and Mpc3, which are present in the absence of Mpc1, or when the subunit is present in excess over Mpc1 (Supplementary Fig S2B and C). However, homodimers are unable to transport pyruvate (Fig4A and B). We thus propose that in vivo, Mpc2 and Mpc3 homodimers may provide a reservoir of functional subunits that can be rapidly recruited by Mpc1 to form the functional carrier most appropriate to the growth conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41161</offset>
+      <text>Even though the theoretical molecular weight of a dimeric MPC complex would be around 30&#160;kDa, the native complex shows an apparent molecular weight of &#8765;150&#160;kDa on BN gels. This could indicate that multiple dimers assemble to form the mature carrier, or that additional, yet undiscovered subunits are present in the complex, which were not cross-linked by DSG in our assay. It has to be taken into account, however, that the presence of membrane lipids or detergents bound to the dimeric MPC may affect its mobility in native electrophoresis, leading to an overestimation of its size. Likewise, it was recently demonstrated that the 30-kDa monomeric mitochondrial ATP/ADP carrier migrates with an apparent molecular weight of &#8765;120&#160;kDa in BN-PAGE (Crichton et&#160;al, 2013). Thus, we consider it likely that it is the &#8765;30-kDa MPC dimer that migrates at &#8765;150&#160;kDa on BN gels.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42042</offset>
+      <text>Interestingly, MPC proteins were reported to be similar to a group of transporters called the PQ-loop family (Jezegou et&#160;al, 2012). Because these transporters contain seven transmembrane segments organized in two consecutive three-helix domains on the same polypeptide chain, it has been speculated that the shorter MPC proteins could dimerize in order to form a full carrier (Gray et&#160;al, 2013), an idea that is now supported by the discovery of MPC heterodimers. Furthermore, the three-dimensional structure of bacterial SemiSWEET transporters, which are also remotely similar to MPC proteins, was recently solved, showing that two-three-helix subunits form a homodimer (Xu et&#160;al, 2014). It is thus conceivable that the heterodimeric MPC is an asymmetric version of a SemiSWEET-like dimeric carrier and that MPC and SemiSWEET proteins evolved from a common ancestor (Xu et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42931</offset>
+      <text>The exact membrane topology of MPC proteins has not been determined to date. Here, we show that Mpc1 has two transmembrane domains, with both the N- and C-terminus located in the matrix, while Mpc3 has three-transmembrane domains with the N-terminus in the matrix and the C-terminus in the IMS (see model in Fig3D). Based on the high degree of sequence similarity, we assume that Mpc2 has the same topology as Mpc3, which is also confirmed by the protease protection experiments performed with mitochondria expressing either Mpc2-GFP or Mpc3-GFP (Fig3C). A similar protease protection experiment conducted by Herzig et&#160;al (2012) suggests that the different membrane topology of MPC proteins is also conserved in mammalian cells. An additional interesting difference between Mpc1 and the other two subunits is that Mpc1 is not stable when expressed on its own (Fig2B). It will therefore be an interesting question for future research to relate the topological and structural differences between Mpc1 and Mpc2/Mpc3 to their different functions within the MPC.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43990</offset>
+      <text>By directly measuring pyruvate uptake in isolated mitochondria, we have shown that MPCOX has a higher transport activity than MPCFERM (Fig4). Despite this, forced expression of either MPCFERM in glycerol-containing medium, or of MPCOX in glucose-containing medium does not have a significant effect on growth rates (Supplementary Fig S5). This result is not surprising, however, given that a complete loss of all MPC proteins can be tolerated without an apparent growth defect in rich medium (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). We suggest that in the case of MPCFERM expression under respiratory conditions, alternative pathways leading to the production of acetyl-CoA, like fatty or amino acid oxidation, can compensate for the lower mitochondrial pyruvate uptake rates. Indeed, a similar scenario was recently described for cultured mammalian cells after downregulation or pharmacological inhibition of the MPC (Vacanti et&#160;al, 2014; Yang et&#160;al, 2014). In the case of MPCOX expression under fermentative conditions, it is possible that changes in mitochondrial enzymes downstream of MPC, for example, inhibition of PDH through reversible phosphorylation (Gey et&#160;al, 2008), may create a constriction in pyruvate flux such that despite the presence of the high-activity carrier, the majority of pyruvate is diverted toward ethanol production. The absence of a growth phenotype after forced expression of either MPC complex is therefore not inconsistent with the conclusion that in wild-type cells, the alternative MPC complexes indeed play a role in adapting the cellular metabolism to nutrient availability.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45610</offset>
+      <text>Based on these data, we propose the following model for regulation of metabolite flux at the pyruvate branch point (Fig6). PDC, the first enzyme in the fermentation pathway, and the MPC both compete for the pyruvate produced through glycolysis. In cells grown in glucose (Fig6A), PDC is upregulated in the cytosol, while the low-activity transporter MPCFERM is present in mitochondria, which results in the majority of pyruvate remaining in the cytosol where it is processed to ethanol. Under these conditions, MPCFERM transports just sufficient pyruvate to ensure the biosynthesis of leucine and valine for which mitochondrial pyruvate is the precursor, as evidenced by the slow growth phenotype of mpc mutants in medium lacking amino acids (Bricker et&#160;al, 2012; Herzig et&#160;al, 2012). Under respiratory conditions (Fig6B), on the&#160;other hand, cells express the high-activity MPCOX and divert the majority of pyruvate toward the mitochondrial matrix, where it is used to fuel the TCA cycle and ATP production in the respiratory chain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46646</offset>
+      <text> Fermentative conditions. The low-activity MPCFERM (composed of Mpc1 and Mpc2) is competing for cytosolic pyruvate produced through glycolysis with pyruvate decarboxylase (PDC), the first enzyme of the alcoholic fermentation pathway. Consequently, the majority of pyruvate remains in the cytosol is decarboxylated by PDC and is finally transformed into ethanol. Low-level transport of pyruvate into mitochondria is required for the biosynthesis of leucine and valine. In addition, mitochondrial pyruvate oxidation may be blocked by a hypothetical inactivation of pyruvate dehydrogenase (PDH) by phosphorylation of the E1 subunit under these conditions. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47300</offset>
+      <text> Respiratory conditions. The high-activity MPCOX (composed of Mpc1 and Mpc3) is expressed while PDC is downregulated. This allows the efficient uptake of pyruvate into mitochondria. Inside the organelle, pyruvate is converted to acetyl-CoA by PDH, which enters the TCA cycle and thus finally fuels ATP production in the respiratory chain. The subunit exchange in the MPC thus very likely participates in the Crabtree effect in Saccharomyces cerevisiae. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47754</offset>
+      <text>Model for regulation of metabolism at the pyruvate branch point </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47819</offset>
+      <text>In order to investigate the molecular basis for the differences in transport activity between MPCOX and MPCFERM, we focused our attention on the C-termini of the alternative subunits Mpc2 and Mpc3 (Fig5), since this is the main region of sequence divergence between the two proteins. Strikingly, we found that after replacing the C-terminus of Mpc2 with the C-terminus of Mpc3 (Mpc2C3), the transport activity of the chimeric complex was increased almost to the level of MPCOX (Fig5D). It seems therefore that the C-terminus of Mpc3 plays a major role in efficient mitochondrial pyruvate uptake by the MPCOX complex. Interestingly, the chimeric MPC is also able to form the &#8765;300-kDa complex, which is normally only formed when Mpc1 is present together with Mpc3. It remains to be determined whether the formation of the &#8765;300-kDa complex is responsible for the high transport activity and whether additional components besides Mpc1 and Mpc3 are present in this structure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48794</offset>
+      <text>In summary, our results argue in favor of a key role for the MPC in the control of cellular metabolism at the pyruvate branch point, and we propose that, in addition to other regulated enzymes such as PDH or PDC, the subunit exchange within the MPC contributes to the Crabtree effect in yeast (Fig6). This raises the interesting question of whether regulation of mitochondrial pyruvate transport may also be responsible at least in part for the Warburg effect in cancer cells, as was recently suggested (Schell et&#160;al, 2014). Clearly, the subunit exchange mechanism is not conserved in mammals, since there are only two subunits encoded in mammalian genomes. Nevertheless, we show here for the first time that a mechanism for regulating pyruvate transport has evolved that acts at the level of the MPC. It is thus tempting to speculate that controlling MPC activity has the potential to contribute to the regulation of cellular energy metabolism in higher eukaryotes. In this respect, it is interesting that mouse MPC2, the homolog of yeast Mpc2 and Mpc3, becomes reversibly acetylated on two lysine residues, which is dependent on caloric restriction and the SIRT3 deacetylase (Hebert et&#160;al, 2013). Furthermore, SIRT deacetylases are currently regarded as major regulators of metabolism in mammalian cells (Sack &amp; Finkel, 2012). It therefore seems plausible that rather than the subunit exchange mechanism we have described in yeast, higher eukaryotes may have evolved post-translational mechanisms to control MPC activity and thus to determine the intracellular fate of pyruvate in relation to the physiological needs of the cell.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50428</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50450</offset>
+      <text>Yeast cultivation, mitochondria isolation, and growth tests</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50510</offset>
+      <text>Saccharomyces cerevisiae strains used in this study are listed in Supplementary Table S1. Yeast cells were grown in YP medium (1% yeast extract, 2% peptone) containing 2% glucose (YPD) or 3% glycerol (YPG), or in synthetic dropout medium (0.67% yeast nitrogen base, 2% glucose) with (SD+AA) or without (SD&#8722;AA) amino&#160;acid mix, and mitochondria were isolated by differential centrifugation, as previously described (Ryan et&#160;al, 2001). For mitochondria isolation from cells harboring expression plasmids, SG medium (0.67% yeast nitrogen base, appropriate amino acid dropout mix, 0.5% glucose, 3% glycerol) was used. To assess growth complementation of MPC-expressing strains, yeast cells were grown over night in SD+AA medium, and serial dilutions were spotted on either SD+AA or SD&#8722;AA agar plates. Growth curves were recorded by measuring OD600 in 96-well plate format at 30&#176;C in SD+AA medium using a Tecan Sunrise plate reader, or were recorded manually in shaking cultures at 30&#176;C containing SG+AA medium (0.67% yeast nitrogen base, appropriate amino acid dropout mix, 3% glycerol) by withdrawing aliquots at indicated time points and measuring OD600 in a spectrophotometer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51693</offset>
+      <text>Blue native PAGE</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51710</offset>
+      <text>Blue native gels were prepared by standard published procedures (Wittig et&#160;al, 2006). For sample preparation, 50&#160;&#956;g of isolated mitochondria was lysed in 50&#160;&#956;l ice-cold lysis buffer (5% [w/v] digitonin [Calbiochem], 20&#160;mM Tris pH 7.4, 50&#160;mM NaCl, 0.5&#160;mM EDTA, 1&#160;mM PMSF, 10% [v/v] glycerol) and centrifuged for 15&#160;min at 21,000&#160;&#215;&#160;g to remove non-solubilized material. To 45&#160;&#956;l of lysate, 5&#160;&#956;l of loading dye (5% [w/v] Coomassie brilliant blue G250, 50&#160;mM imidazole pH 7.0, 500&#160;mM &#949;-amino-n-caproic acid) was added. Samples were loaded on 6&#8211;16% polyacrylamide gradient gels and run at 4&#176;C with current limited to 15&#160;mA. Gels were transferred to PVDF membrane, and protein complexes were detected by immunodecoration with specific antisera.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52473</offset>
+      <text>Co-immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52496</offset>
+      <text>Immunoprecipitation of the Flag epitope was performed using 20&#160;&#956;l of anti-Flag M2 affinity gel (Sigma) equilibrated three times in 500&#160;&#956;l wash buffer [0.2% (w/v) digitonin, 20&#160;mM Tris pH 7.4, 150&#160;mM NaCl, 0.5&#160;mM EDTA, 1&#160;mM PMSF, 5% (v/v) glycerol, protease inhibitors (Roche)]. 400&#160;&#956;g of isolated mitochondria was lysed in 800&#160;&#956;l of lysis buffer [1% (w/v) digitonin, 20&#160;mM Tris pH 7.4, 150&#160;mM NaCl, 0.5&#160;mM EDTA, 1&#160;mM PMSF, 5% (v/v) glycerol, protease inhibitors (Roche)] and centrifuged for 15&#160;min at 21,000&#160;&#215;&#160;g to remove non-solubilized material. After removing a 40-&#956;l sample (input), the remaining lysate was incubated with the beads at 4&#176;C for 1&#160;h on a rotating wheel. Beads were washed three times in wash buffer, and bound material was eluted with 0.5&#160;M acetic acid (pH 3.4) and neutralized immediately with 1&#160;M Tris base. Samples were&#160;precipitated with TCA and analyzed by SDS&#8211;PAGE and Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53435</offset>
+      <text>IASD labeling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53449</offset>
+      <text>Labeling of MPC proteins with IASD (4-acetamido-4&#8242;-((iodoacetyl)amino)stilbene-2,2&#8242;-disulfonic acid, Molecular Probes) was performed essentially as described (Malhotra et&#160;al, 2013). Briefly, 20&#160;&#956;g of isolated mitochondria was either resuspended in 80&#160;&#956;l SEM buffer or SEM buffer containing 0.5% [v/v] Triton X-100. Mitochondrial proteins were then labeled by addition of IASD to a final concentration of 2.5&#160;mM and incubation at 26&#176;C for 20&#160;min. Reactions were subsequently quenched by addition of 200&#160;mM DTT. Samples were precipitated with TCA and examined by SDS&#8211;PAGE and Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54056</offset>
+      <text>Protease protection assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54082</offset>
+      <text>Fifty microgram of mitochondria was resuspended in either 100&#160;&#956;l SEM buffer (250&#160;mM sucrose, 1&#160;mM EDTA, 10&#160;mM MOPS-KOH pH 7.2) or hypotonic swelling buffer (1&#160;mM EDTA, 10&#160;mM MOPS-KOH pH 7.2) or lysis buffer (SEM containing 0.5% Triton X-100). Reactions were split in two halves, to one of which was added 50&#160;&#956;g/ml proteinase K (PK). All reactions were subsequently incubated for 20&#160;min on ice, and then, PK digestion was stopped by the addition of 2&#160;mM phenylmethylsulfonyl fluoride (PMSF). Total mitochondrial protein was precipitated with TCA and analyzed by SDS&#8211;PAGE and Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54687</offset>
+      <text>Chemical crosslinking</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54709</offset>
+      <text>20&#160;&#956;g of isolated mitochondria was resuspended in 100&#160;&#956;l of SEM buffer, and the cross-linker disuccimidyl glutarate (DSG, Thermo Scientific) dissolved in 2&#160;&#956;l DMSO was added to a final concentration of 500&#160;&#956;M. After incubation for 30&#160;min on ice, 25&#160;mM Tris pH 7.4 was added to quench the reaction, and samples were incubated on ice for an additional 15&#160;min. Mitochondria were re-isolated by centrifugation, washed, and analyzed by SDS&#8211;PAGE and Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55184</offset>
+      <text>Pyruvate transport into isolated mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55230</offset>
+      <text>Pyruvate transport experiments were performed as described previously (Herzig et&#160;al, 2012), with minor modifications. For each time point, 250&#160;&#956;g of isolated mitochondria was resuspended in 50&#160;&#956;l pyruvate transport buffer pH 7.4 [PTB7.4; 250&#160;mM sucrose, 80&#160;mM KCl, 5&#160;mM MgCl2, 10&#160;mM MOPS pH 7.4, 0.1% (w/v) bovine serum albumin] and added to 150&#160;&#956;l pyruvate transport buffer pH 6.8 (PTB6.8; 250&#160;mM sucrose, 80&#160;mM KCl, 5&#160;mM MgCl2, 10&#160;mM MOPS pH 6.8, 0.1% [w/v] bovine serum albumin) containing 50&#160;&#956;M [14C]-pyruvate. Reactions were incubated on ice, and import was stopped at the indicated times by addition of 10&#160;&#956;M UK5099 (Sigma). Mitochondria were re-isolated by centrifugation for 1&#160;min at 16,000&#160;&#215;&#160;g, washed with 500&#160;&#956;l PTB7.4 containing 50&#160;mM cold pyruvate, and centrifuged again. Imported [14C]-pyruvate was quantified by scintillation counting. Values shown are means&#160;&#177;&#160;SEM of at least four independent experiments. For statistical analyses, the unpaired t-test was employed.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56241</offset>
+      <text>Plasmids, reagents, and enzyme activity measurements</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56294</offset>
+      <text>Plasmids for expression of MPC subunits were generated by amplifying the open reading frames YGL080w (MPC1), YHR162w (MPC2), and YGR243w (MPC3) from WT (BY4741) genomic DNA by PCR and inserting the resulting sequences into the expression vector pRS313 or pRS316 (Sikorski &amp; Hieter, 1989) containing the CYC1&#160;promoter for low-level constitutive expression. Monoclonal antibodies were purchased from Sigma (anti-Flag), Roche (anti-GFP), or Covance (anti-HA). Polyclonal rabbit antisera were gifts from Dr. W. Voos (University of Bonn, Germany) and Dr. B. Westermann (University of Bayreuth, Germany). Pyruvate dehydrogenase complex activity was measured as described previously (Bender et&#160;al, 2011). Values shown are means&#160;&#177;&#160;SEM of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57060</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57081</offset>
+      <text>TB and J-CM designed the study, GP performed yeast growth tests and PDH activity measurements, TB performed all other experiments, TB and J-CM analyzed data, and TB and J-CM wrote the article. All authors read and approved the article.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57317</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57338</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>57398</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Masuda;given-names:CA</infon>
+      <infon key="name_3">surname:Rodrigues;given-names:SP</infon>
+      <infon key="name_0">surname:de Assis;given-names:LJ</infon>
+      <infon key="name_1">surname:Zingali;given-names:RB</infon>
+      <infon key="name_4">surname:Montero-Lomeli;given-names:M</infon>
+      <infon key="source">FEMS Yeast Res</infon>
+      <infon key="volume">13</infon>
+      <infon key="lpage">528</infon>
+      <infon key="pub-id_pmid">23692511</infon>
+      <infon key="fpage">518</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>57409</offset>
+      <text>Pyruvate decarboxylase activity is regulated by the Ser/Thr protein phosphatase Sit4p in the yeast Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Franken;given-names:S</infon>
+      <infon key="name_3">surname:Baitzel;given-names:C</infon>
+      <infon key="name_0">surname:Bender;given-names:T</infon>
+      <infon key="name_1">surname:Lewrenz;given-names:I</infon>
+      <infon key="name_4">surname:Voos;given-names:W</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="volume">22</infon>
+      <infon key="lpage">554</infon>
+      <infon key="pub-id_pmid">21209324</infon>
+      <infon key="fpage">541</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>57533</offset>
+      <text>Mitochondrial enzymes are protected from stress-induced aggregation by mitochondrial chaperones and the Pim1/LON protease</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Schell;given-names:JC</infon>
+      <infon key="name_3">surname:Orsak;given-names:T</infon>
+      <infon key="name_0">surname:Bricker;given-names:DK</infon>
+      <infon key="name_1">surname:Taylor;given-names:EB</infon>
+      <infon key="name_6">surname:Cox;given-names:JE</infon>
+      <infon key="name_7">surname:Cardon;given-names:CM</infon>
+      <infon key="name_4">surname:Boutron;given-names:A</infon>
+      <infon key="name_5">surname:Chen;given-names:YC</infon>
+      <infon key="name_8">surname:Van Vranken;given-names:JG</infon>
+      <infon key="name_9">surname:Dephoure;given-names:N</infon>
+      <infon key="lpage">100</infon>
+      <infon key="fpage">96</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">337</infon>
+      <infon key="pub-id_pmid">22628558</infon>
+      <infon key="name_10">surname:Redin;given-names:C</infon>
+      <infon key="name_11">surname:Boudina;given-names:S</infon>
+      <infon key="name_12">surname:Gygi;given-names:SP</infon>
+      <infon key="name_13">surname:Brivet;given-names:M</infon>
+      <infon key="name_14">surname:Thummel;given-names:CS</infon>
+      <infon key="name_15">surname:Rutter;given-names:J</infon>
+      <offset>57655</offset>
+      <text>A mitochondrial pyruvate carrier required for pyruvate uptake in yeast, Drosophila, and humans</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ruprecht;given-names:JJ</infon>
+      <infon key="name_3">surname:Lee;given-names:Y</infon>
+      <infon key="name_0">surname:Crichton;given-names:PG</infon>
+      <infon key="name_1">surname:Harding;given-names:M</infon>
+      <infon key="name_4">surname:Kunji;given-names:ERS</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">288</infon>
+      <infon key="lpage">22173</infon>
+      <infon key="pub-id_pmid">23744064</infon>
+      <infon key="fpage">22163</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>57750</offset>
+      <text>Lipid, detergent, and Coomassie Blue G-250 affect the migration of small membrane proteins in blue native gels: mitochondrial carriers migrate as monomers not dimers</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="name_0">surname:De Deken;given-names:RH</infon>
+      <infon key="source">J Gen Microbiol</infon>
+      <infon key="lpage">156</infon>
+      <infon key="pub-id_pmid">5969497</infon>
+      <infon key="fpage">149</infon>
+      <infon key="year">1966</infon>
+      <infon key="type">ref</infon>
+      <offset>57916</offset>
+      <text>The Crabtree effect: a regulatory system in yeast</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Devin;given-names:A</infon>
+      <infon key="name_3">surname:Rigoulet;given-names:M</infon>
+      <infon key="name_0">surname:Diaz-Ruiz;given-names:R</infon>
+      <infon key="name_1">surname:Uribe-Carvajal;given-names:S</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="volume">1796</infon>
+      <infon key="lpage">265</infon>
+      <infon key="pub-id_pmid">19682552</infon>
+      <infon key="fpage">252</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>57966</offset>
+      <text>Tumor cell energy metabolism and its common features with yeast metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Devin;given-names:A</infon>
+      <infon key="volume">1807</infon>
+      <infon key="name_0">surname:Diaz-Ruiz;given-names:R</infon>
+      <infon key="name_1">surname:Rigoulet;given-names:M</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">576</infon>
+      <infon key="pub-id_pmid">20804724</infon>
+      <infon key="fpage">568</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>58041</offset>
+      <text>The Warburg and Crabtree effects: on the origin of cancer cell energy metabolism and of yeast glucose repression</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hoflack;given-names:B</infon>
+      <infon key="name_3">surname:R&#246;del;given-names:G</infon>
+      <infon key="name_0">surname:Gey;given-names:U</infon>
+      <infon key="name_1">surname:Czupalla;given-names:C</infon>
+      <infon key="name_4">surname:Krause-Buchholz;given-names:U</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">283</infon>
+      <infon key="lpage">9767</infon>
+      <infon key="pub-id_pmid">18180296</infon>
+      <infon key="fpage">9759</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58154</offset>
+      <text>Yeast pyruvate dehydrogenase complex is regulated by a concerted activity of&#160;two kinases and two phosphatases</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Taylor;given-names:EB</infon>
+      <infon key="volume">71</infon>
+      <infon key="name_0">surname:Gray;given-names:LR</infon>
+      <infon key="name_1">surname:Tompkins;given-names:SC</infon>
+      <infon key="source">Cell Mol Life Sci</infon>
+      <infon key="lpage">2604</infon>
+      <infon key="pub-id_pmid">24363178</infon>
+      <infon key="fpage">2577</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>58265</offset>
+      <text>Regulation of pyruvate metabolism and human disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="name_0">surname:Halestrap;given-names:AP</infon>
+      <infon key="name_1">surname:Denton;given-names:RM</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">316</infon>
+      <infon key="pub-id_pmid">4822737</infon>
+      <infon key="fpage">313</infon>
+      <infon key="year">1974</infon>
+      <infon key="type">ref</infon>
+      <offset>58317</offset>
+      <text>Specific inhibition of pyruvate transport in rat liver mitochondria and human erythrocytes by alpha-cyano-4-hydroxycinnamate</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="name_0">surname:Halestrap;given-names:AP</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">96</infon>
+      <infon key="pub-id_pmid">1156402</infon>
+      <infon key="fpage">85</infon>
+      <infon key="year">1975</infon>
+      <infon key="type">ref</infon>
+      <offset>58442</offset>
+      <text>The mitochondrial pyruvate carrier. Kinetics and specificity for substrates and inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Yu;given-names:W</infon>
+      <infon key="name_3">surname:Bailey;given-names:DJ</infon>
+      <infon key="name_0">surname:Hebert;given-names:AS</infon>
+      <infon key="name_1">surname:Dittenhafer-Reed;given-names:KE</infon>
+      <infon key="name_6">surname:Carson;given-names:JJ</infon>
+      <infon key="name_7">surname:Tonelli;given-names:M</infon>
+      <infon key="name_4">surname:Selen;given-names:ES</infon>
+      <infon key="name_5">surname:Boersma;given-names:MD</infon>
+      <infon key="name_8">surname:Balloon;given-names:AJ</infon>
+      <infon key="name_9">surname:Higbee;given-names:AJ</infon>
+      <infon key="lpage">199</infon>
+      <infon key="fpage">186</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">49</infon>
+      <infon key="pub-id_pmid">23201123</infon>
+      <infon key="name_10">surname:Westphall;given-names:MS</infon>
+      <infon key="name_11">surname:Pagliarini;given-names:DJ</infon>
+      <infon key="name_12">surname:Prolla;given-names:TA</infon>
+      <infon key="name_13">surname:Assadi-Porter;given-names:F</infon>
+      <infon key="name_14">surname:Roy;given-names:S</infon>
+      <infon key="name_15">surname:Denu;given-names:JM</infon>
+      <infon key="name_16">surname:Coon;given-names:JJ</infon>
+      <offset>58533</offset>
+      <text>Calorie restriction and SIRT3 trigger global reprogramming of the mitochondrial protein acetylome</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Montessuit;given-names:S</infon>
+      <infon key="name_3">surname:Veuthey;given-names:JL</infon>
+      <infon key="name_0">surname:Herzig;given-names:S</infon>
+      <infon key="name_1">surname:Raemy;given-names:E</infon>
+      <infon key="name_6">surname:Kunji;given-names:ER</infon>
+      <infon key="name_7">surname:Martinou;given-names:JC</infon>
+      <infon key="name_4">surname:Zamboni;given-names:N</infon>
+      <infon key="name_5">surname:Westermann;given-names:B</infon>
+      <infon key="volume">337</infon>
+      <infon key="lpage">96</infon>
+      <infon key="pub-id_pmid">22628554</infon>
+      <infon key="source">Science</infon>
+      <infon key="fpage">93</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58631</offset>
+      <text>Identification and functional expression of the mitochondrial pyruvate carrier</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Anne;given-names:C</infon>
+      <infon key="name_3">surname:Kieffer-Jaquinod;given-names:S</infon>
+      <infon key="name_0">surname:Jezegou;given-names:A</infon>
+      <infon key="name_1">surname:Llinares;given-names:E</infon>
+      <infon key="name_6">surname:Chabli;given-names:A</infon>
+      <infon key="name_7">surname:Sagne;given-names:C</infon>
+      <infon key="name_4">surname:O'Regan;given-names:S</infon>
+      <infon key="name_5">surname:Aupetit;given-names:J</infon>
+      <infon key="volume">109</infon>
+      <infon key="name_8">surname:Debacker;given-names:C</infon>
+      <infon key="name_9">surname:Chadefaux-Vekemans;given-names:B</infon>
+      <infon key="lpage">E3443</infon>
+      <infon key="pub-id_pmid">23169667</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="fpage">E3434</infon>
+      <infon key="year">2012</infon>
+      <infon key="name_10">surname:Journet;given-names:A</infon>
+      <infon key="name_11">surname:Andre;given-names:B</infon>
+      <infon key="name_12">surname:Gasnier;given-names:B</infon>
+      <infon key="type">ref</infon>
+      <offset>58710</offset>
+      <text>Heptahelical protein PQLC2 is a lysosomal cationic amino acid exporter underlying the action of cysteamine in cystinosis therapy</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Meissl;given-names:K</infon>
+      <infon key="name_3">surname:Chaneton;given-names:B</infon>
+      <infon key="name_0">surname:Kaplon;given-names:J</infon>
+      <infon key="name_1">surname:Zheng;given-names:L</infon>
+      <infon key="name_6">surname:van der Burg;given-names:SH</infon>
+      <infon key="name_7">surname:Verdegaal;given-names:EM</infon>
+      <infon key="name_4">surname:Selivanov;given-names:VA</infon>
+      <infon key="name_5">surname:Mackay;given-names:G</infon>
+      <infon key="volume">498</infon>
+      <infon key="name_8">surname:Cascante;given-names:M</infon>
+      <infon key="name_9">surname:Shlomi;given-names:T</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">23685455</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">109</infon>
+      <infon key="year">2013</infon>
+      <infon key="name_10">surname:Gottlieb;given-names:E</infon>
+      <infon key="name_11">surname:Peeper;given-names:DS</infon>
+      <infon key="type">ref</infon>
+      <offset>58839</offset>
+      <text>A key role for mitochondrial gatekeeper pyruvate dehydrogenase in oncogene-induced senescence</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="name_0">surname:Kohlhaw;given-names:GB</infon>
+      <infon key="source">Microbiol Mol Biol Rev</infon>
+      <infon key="lpage">15</infon>
+      <infon key="pub-id_pmid">12626680</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>58933</offset>
+      <text>Leucine biosynthesis in fungi: entering metabolism through the back door</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dang;given-names:CV</infon>
+      <infon key="volume">11</infon>
+      <infon key="name_0">surname:Koppenol;given-names:WH</infon>
+      <infon key="name_1">surname:Bounds;given-names:PL</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">337</infon>
+      <infon key="pub-id_pmid">21508971</infon>
+      <infon key="fpage">325</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>59006</offset>
+      <text>Otto Warburg's contributions&#160;to&#160;current concepts of cancer metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Wunschmann;given-names:J</infon>
+      <infon key="name_3">surname:Becker;given-names:S</infon>
+      <infon key="name_0">surname:Krause-Buchholz;given-names:U</infon>
+      <infon key="name_1">surname:Gey;given-names:U</infon>
+      <infon key="name_4">surname:R&#246;del;given-names:G</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="volume">580</infon>
+      <infon key="lpage">2560</infon>
+      <infon key="pub-id_pmid">16643908</infon>
+      <infon key="fpage">2553</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>59078</offset>
+      <text>YIL042c and YOR090c encode the kinase and phosphatase of the Saccharomyces cerevisiae pyruvate dehydrogenase complex</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Blachly-Dyson;given-names:E</infon>
+      <infon key="name_3">surname:Forte;given-names:M</infon>
+      <infon key="name_0">surname:Lee;given-names:AC</infon>
+      <infon key="name_1">surname:Xu;given-names:X</infon>
+      <infon key="name_4">surname:Colombini;given-names:M</infon>
+      <infon key="source">J Membr Biol</infon>
+      <infon key="volume">161</infon>
+      <infon key="lpage">181</infon>
+      <infon key="pub-id_pmid">9435273</infon>
+      <infon key="fpage">173</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>59195</offset>
+      <text>The role of yeast VDAC genes on the permeability of the mitochondrial outer membrane</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ma;given-names:XY</infon>
+      <infon key="name_3">surname:Zhang;given-names:W</infon>
+      <infon key="name_0">surname:Li;given-names:CL</infon>
+      <infon key="name_1">surname:Wang;given-names:M</infon>
+      <infon key="source">Mol Plant</infon>
+      <infon key="volume">7</infon>
+      <infon key="lpage">1521</infon>
+      <infon key="pub-id_pmid">24842572</infon>
+      <infon key="fpage">1508</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59280</offset>
+      <text>NRGA1, a putative mitochondrial pyruvate carrier, mediates ABA regulation of guard cell ion channels and drought stress responses in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Landin;given-names:JS</infon>
+      <infon key="name_3">surname:Johnson;given-names:AE</infon>
+      <infon key="name_0">surname:Malhotra;given-names:K</infon>
+      <infon key="name_1">surname:Sathappa;given-names:M</infon>
+      <infon key="name_4">surname:Alder;given-names:NN</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="volume">20</infon>
+      <infon key="lpage">972</infon>
+      <infon key="pub-id_pmid">23832274</infon>
+      <infon key="fpage">965</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59425</offset>
+      <text>Structural changes in the mitochondrial Tim23 channel are coupled to the proton-motive force</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Funk;given-names:M</infon>
+      <infon key="volume">156</infon>
+      <infon key="name_0">surname:Mumberg;given-names:D</infon>
+      <infon key="name_1">surname:M&#252;ller;given-names:R</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">122</infon>
+      <infon key="pub-id_pmid">7737504</infon>
+      <infon key="fpage">119</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>59518</offset>
+      <text>Yeast vectors for the controlled expression of heterologous proteins in different genetic backgrounds</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Paradies;given-names:G</infon>
+      <infon key="name_3">surname:Meduri;given-names:B</infon>
+      <infon key="name_0">surname:Papa;given-names:S</infon>
+      <infon key="name_1">surname:Francavilla;given-names:A</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="volume">12</infon>
+      <infon key="lpage">288</infon>
+      <infon key="pub-id_pmid">11945601</infon>
+      <infon key="fpage">285</infon>
+      <infon key="year">1971</infon>
+      <infon key="type">ref</infon>
+      <offset>59620</offset>
+      <text>The transport of pyruvate in rat liver mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Copeland;given-names:M</infon>
+      <infon key="name_3">surname:Roth;given-names:FP</infon>
+      <infon key="name_0">surname:Proft;given-names:M</infon>
+      <infon key="name_1">surname:Gibbons;given-names:FD</infon>
+      <infon key="name_4">surname:Struhl;given-names:K</infon>
+      <infon key="source">Eukaryot Cell</infon>
+      <infon key="volume">4</infon>
+      <infon key="lpage">1352</infon>
+      <infon key="pub-id_pmid">16087739</infon>
+      <infon key="fpage">1343</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>59672</offset>
+      <text>Genomewide identification of Sko1 target promoters reveals a regulatory network that operates in response to osmotic stress in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Van Dijken;given-names:JP</infon>
+      <infon key="volume">12</infon>
+      <infon key="name_0">surname:Pronk;given-names:JT</infon>
+      <infon key="name_1">surname:Yde Steensma;given-names:H</infon>
+      <infon key="source">Yeast</infon>
+      <infon key="lpage">1633</infon>
+      <infon key="pub-id_pmid">9123965</infon>
+      <infon key="fpage">1607</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>59824</offset>
+      <text>Pyruvate metabolism in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ni;given-names:X</infon>
+      <infon key="name_3">surname:Kuang;given-names:T</infon>
+      <infon key="name_0">surname:Rong;given-names:Y</infon>
+      <infon key="name_1">surname:Wu;given-names:W</infon>
+      <infon key="name_6">surname:Lou;given-names:W</infon>
+      <infon key="name_4">surname:Jin;given-names:D</infon>
+      <infon key="name_5">surname:Wang;given-names:D</infon>
+      <infon key="volume">34</infon>
+      <infon key="lpage">1530</infon>
+      <infon key="pub-id_pmid">23404405</infon>
+      <infon key="source">Tumour Biol</infon>
+      <infon key="fpage">1523</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59872</offset>
+      <text>Lactate dehydrogenase A is overexpressed in pancreatic cancer and promotes the growth of pancreatic cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pfanner;given-names:N</infon>
+      <infon key="volume">65</infon>
+      <infon key="name_0">surname:Ryan;given-names:MT</infon>
+      <infon key="name_1">surname:Voos;given-names:W</infon>
+      <infon key="source">Methods Cell Biol</infon>
+      <infon key="lpage">215</infon>
+      <infon key="pub-id_pmid">11381594</infon>
+      <infon key="fpage">189</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>59985</offset>
+      <text>Assaying protein import into mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="name_0">surname:Sack;given-names:MN</infon>
+      <infon key="name_1">surname:Finkel;given-names:T</infon>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23209156</infon>
+      <infon key="fpage">a013102</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60027</offset>
+      <text>Mitochondrial metabolism, sirtuins, and aging</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Jiang;given-names:L</infon>
+      <infon key="name_3">surname:Hawkins;given-names:AJ</infon>
+      <infon key="name_0">surname:Schell;given-names:JC</infon>
+      <infon key="name_1">surname:Olson;given-names:KA</infon>
+      <infon key="name_6">surname:Egnatchik;given-names:RA</infon>
+      <infon key="name_7">surname:Earl;given-names:EG</infon>
+      <infon key="name_4">surname:Van Vranken;given-names:JG</infon>
+      <infon key="name_5">surname:Xie;given-names:J</infon>
+      <infon key="volume">56</infon>
+      <infon key="name_8">surname:DeBerardinis;given-names:RJ</infon>
+      <infon key="name_9">surname:Rutter;given-names:J</infon>
+      <infon key="lpage">413</infon>
+      <infon key="pub-id_pmid">25458841</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="fpage">400</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60073</offset>
+      <text>A role for the mitochondrial pyruvate carrier as a repressor of the warburg effect and colon cancer cell growth</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kursu;given-names:VA</infon>
+      <infon key="name_3">surname:Hiltunen;given-names:JK</infon>
+      <infon key="name_0">surname:Schonauer;given-names:MS</infon>
+      <infon key="name_1">surname:Kastaniotis;given-names:AJ</infon>
+      <infon key="name_4">surname:Dieckmann;given-names:CL</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">284</infon>
+      <infon key="lpage">23242</infon>
+      <infon key="pub-id_pmid">19570983</infon>
+      <infon key="fpage">23234</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60185</offset>
+      <text>Lipoic acid synthesis and attachment in yeast mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="name_0">surname:Sikorski;given-names:RS</infon>
+      <infon key="name_1">surname:Hieter;given-names:P</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">27</infon>
+      <infon key="pub-id_pmid">2659436</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>60244</offset>
+      <text>A system of shuttle vectors and yeast host strains designed for efficient manipulation of DNA in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pascual-Ahuir;given-names:A</infon>
+      <infon key="name_0">surname:Tim&#243;n-G&#243;mez;given-names:A</infon>
+      <infon key="name_1">surname:Proft;given-names:M</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24244496</infon>
+      <infon key="fpage">e79405</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60366</offset>
+      <text>Differential regulation of mitochondrial pyruvate carrier genes modulates respiratory capacity and stress tolerance in yeast</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Green;given-names:CR</infon>
+      <infon key="name_3">surname:Parker;given-names:SJ</infon>
+      <infon key="name_0">surname:Vacanti;given-names:NM</infon>
+      <infon key="name_1">surname:Divakaruni;given-names:AS</infon>
+      <infon key="name_6">surname:Murphy;given-names:AN</infon>
+      <infon key="name_7">surname:Metallo;given-names:CM</infon>
+      <infon key="name_4">surname:Henry;given-names:RR</infon>
+      <infon key="name_5">surname:Ciaraldi;given-names:TP</infon>
+      <infon key="volume">56</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">25458843</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="fpage">425</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60491</offset>
+      <text>Regulation of substrate utilization by the mitochondrial pyruvate carrier</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Scheffers;given-names:WA</infon>
+      <infon key="name_3">surname:Van Dijken;given-names:JP</infon>
+      <infon key="name_0">surname:Van Urk;given-names:H</infon>
+      <infon key="name_1">surname:Voll;given-names:WS</infon>
+      <infon key="source">Appl Environ Microbiol</infon>
+      <infon key="volume">56</infon>
+      <infon key="lpage">287</infon>
+      <infon key="pub-id_pmid">16348101</infon>
+      <infon key="fpage">281</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>60565</offset>
+      <text>Transient-state analysis of metabolic fluxes in crabtree-positive and crabtree-negative yeasts</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Thompson;given-names:CB</infon>
+      <infon key="volume">324</infon>
+      <infon key="name_0">surname:Vander Heiden;given-names:MG</infon>
+      <infon key="name_1">surname:Cantley;given-names:LC</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1033</infon>
+      <infon key="pub-id_pmid">19460998</infon>
+      <infon key="fpage">1029</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60660</offset>
+      <text>Understanding the Warburg effect: the metabolic requirements of cell proliferation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sch&#228;gger;given-names:H</infon>
+      <infon key="volume">1</infon>
+      <infon key="name_0">surname:Wittig;given-names:I</infon>
+      <infon key="name_1">surname:Braun;given-names:HP</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">428</infon>
+      <infon key="pub-id_pmid">17406264</infon>
+      <infon key="fpage">418</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60743</offset>
+      <text>Blue native PAGE</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Cheung;given-names:LS</infon>
+      <infon key="name_3">surname:Fan;given-names:C</infon>
+      <infon key="name_0">surname:Xu;given-names:Y</infon>
+      <infon key="name_1">surname:Tao;given-names:Y</infon>
+      <infon key="name_6">surname:Perry;given-names:K</infon>
+      <infon key="name_7">surname:Frommer;given-names:WB</infon>
+      <infon key="name_4">surname:Chen;given-names:LQ</infon>
+      <infon key="name_5">surname:Xu;given-names:S</infon>
+      <infon key="volume">515</infon>
+      <infon key="name_8">surname:Feng;given-names:L</infon>
+      <infon key="lpage">452</infon>
+      <infon key="pub-id_pmid">25186729</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">448</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60760</offset>
+      <text>Structures of bacterial homologues of SWEET transporters in two distinct conformations</text>
+    </passage>
+    <passage>
+      <infon key="comment">&#160;</infon>
+      <infon key="name_2">surname:Hensley;given-names:CT</infon>
+      <infon key="name_0">surname:Yang;given-names:C</infon>
+      <infon key="name_1">surname:Ko;given-names:B</infon>
+      <infon key="name_6">surname:Sudderth;given-names:J</infon>
+      <infon key="name_7">surname:Calvaruso;given-names:MA</infon>
+      <infon key="name_4">surname:Wasti;given-names:AT</infon>
+      <infon key="name_3">surname:Jiang;given-names:L</infon>
+      <infon key="name_9">surname:Mitsche;given-names:M</infon>
+      <infon key="name_8">surname:Lumata;given-names:L</infon>
+      <infon key="name_5">surname:Kim;given-names:J</infon>
+      <infon key="lpage">424</infon>
+      <infon key="pub-id_pmid">25458842</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="fpage">414</infon>
+      <infon key="year">2014</infon>
+      <infon key="name_10">surname:Rutter;given-names:J</infon>
+      <infon key="name_11">surname:Merritt;given-names:ME</infon>
+      <infon key="name_12">surname:DeBerardinis;given-names:RJ</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">56</infon>
+      <offset>60847</offset>
+      <text>Glutamine oxidation maintains the TCA cycle and cell survival during impaired mitochondrial pyruvate transport</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60958</offset>
+      <text>Supporting Information</text>
+    </passage>
+  </document>
+</collection>

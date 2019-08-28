@@ -1,0 +1,1722 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5109242</id>
+    <passage>
+      <infon key="name_2">surname:Burkard;given-names:Thomas R</infon>
+      <infon key="name_3">surname:Sledz;given-names:Pawel</infon>
+      <infon key="name_0">surname:Reim&#227;o&#8208;Pinto;given-names:Madalena M</infon>
+      <infon key="name_1">surname:Manzenreither;given-names:Raphael A</infon>
+      <infon key="name_6">surname:Ameres;given-names:Stefan L</infon>
+      <infon key="alt-title">Madalena M Reim&#227;o&#8208;Pinto et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201695164</infon>
+      <infon key="name_5">surname:Mechtler;given-names:Karl</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201695164</infon>
+      <infon key="name_4">surname:Jinek;given-names:Martin</infon>
+      <infon key="lpage">2434 2434</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2417 2417</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">22</infon>
+      <infon key="kwd">Dis3l2 exoribonuclease RNA decay RNA surveillance uridylation RNA Biology</infon>
+      <offset>0</offset>
+      <text>Molecular basis for cytoplasmic RNA surveillance by uridylation&#8208;triggered decay in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>96</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>The posttranscriptional addition of nucleotides to the 3&#8242; end of RNA regulates the maturation, function, and stability of RNA species in all domains of life. Here, we show that in flies, 3&#8242; terminal RNA uridylation triggers the processive, 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay via the RNase II/R enzyme CG16940, a homolog of the human Perlman syndrome exoribonuclease Dis3l2. Together with the TUTase Tailor, dmDis3l2 forms the cytoplasmic, terminal RNA uridylation&#8208;mediated processing (TRUMP) complex that functionally cooperates in the degradation of structured RNA. RNA immunoprecipitation and high&#8208;throughput sequencing reveals a variety of TRUMP complex substrates, including abundant non&#8208;coding RNA, such as 5S rRNA, tRNA, snRNA, snoRNA, and the essential RNase MRP. Based on genetic and biochemical evidence, we propose a key function of the TRUMP complex in the cytoplasmic quality control of RNA polymerase III transcripts. Together with high&#8208;throughput biochemical characterization of dmDis3l2 and bacterial RNase R, our results imply a conserved molecular function of RNase II/R enzymes as &#8220;readers&#8221; of destabilizing posttranscriptional marks&#8212;uridylation in eukaryotes and adenylation in prokaryotes&#8212;that play important roles in RNA surveillance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1388</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1401</offset>
+      <text>Upon transcription, RNA species are subjected to a plethora of posttranscriptional modifications that regulate RNA maturation, function, and stability (Machnicka et&#160;al, 2013). Among these, the addition of non&#8208;templated nucleotides to the 3&#8242; hydroxyl end of RNA (i.e. tailing) is one of the most frequent marks, exhibiting deep conservation and serving diverse molecular functions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1787</offset>
+      <text>RNA tailing is catalyzed by a group of template&#8208;independent terminal ribonucleotidyltransferases (TNTases), containing a DNA polymerase &#946;&#8208;like nucleotidyltransferase domain (Aravind &amp; Koonin, 1999). Beyond the well&#8208;established canonical poly(A) polymerases that generate the poly(A) tail of eukaryotic mRNA, many non&#8208;canonical poly(A) polymerases (ncPAPases) have been described in plants, yeast, and animals (Martin &amp; Keller, 2007; Norbury, 2013). Because some ncPAPs catalyze the incorporation of uridine instead of adenine, they are also referred to as terminal uridylyltransferases (TUTases), whereas others exhibit relaxed nucleotide specificity, catalyzing both uridylation and adenylation. The genome of flies and mammals encodes seven ncPAPs, with distinct substrate specificity and subcellular localization.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2613</offset>
+      <text>Depending on organism and cellular compartment, RNA adenylation can have opposing functions: While the addition of short A&#8208;tails triggers mRNA degradation in bacteria and is associated with exosomal decay of aberrant transcripts in eukaryotic nuclei, polyadenylation increases the stability and translatability of mRNA in the cytoplasm of eukaryotes (Dreyfus &amp; R&#233;gnier, 2002; Houseley &amp; Tollervey, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3021</offset>
+      <text>In contrast to adenylation, uridylation only recently emerged as a widespread posttranscriptional mark associated with an expanding set of transcripts including both coding and non&#8208;coding RNA. Messenger RNA uridylation was initially observed at the 3&#8242; ends of small RNA&#8208;directed cleavage products in plants and mammalian cells, perhaps marking these fragments for decay (Shen &amp; Goodman, 2004). But also full&#8208;length mRNA is subjected to 3&#8242; terminal uridylation: Human replication&#8208;dependent histone mRNAs, which lack a poly(A) tail, are uridylated at the end of S phase or upon inhibition of DNA replication (Mullen &amp; Marzluff, 2008; Su et&#160;al, 2013). Here, uridylation prompts rapid decay in both 5&#8242;&#8208;to&#8208;3&#8242; direction by XRN1, DCP2, and LSM1 and 3&#8242;&#8208;to&#8208;5&#8242; direction by the exosome and ERI1 (3&#8242;hExo) (Mullen &amp; Marzluff, 2008; Hoefig et&#160;al, 2013; Slevin et&#160;al, 2014). The addition of uridine nucleotides to the 3&#8242;&#160;end of canonical, polyadenylated mRNA was first reported in fission yeast for a small number of transcripts, which were stabilized in the absence of the TUTase Cid1 (Rissland et&#160;al, 2007; Rissland &amp; Norbury, 2009). Because uridylation was enhanced in mutants defective of deadenylation and decapping, uridylation and deadenylation were proposed to act redundantly to induce mRNA decapping. Recent high&#8208;throughput methods for the inspection of mRNA 3&#8242; ends at the genomic scale (TailSeq) revealed infrequent uridylation of the majority (&gt;&#160;85%) of protein&#8208;coding transcripts in cultured mammalian cells (Chang et&#160;al, 2014). Messenger RNA uridylation in mammals is mediated by the TUTases TUT4/ZCCHC11 and TUT7/ZCCHC6 and contributes to mRNA turnover by targeting deadenylated mRNA for decay (Lim et&#160;al, 2014). Like in mammals, mRNAs are also subjected to uridylation in plants, a modification that is predominantly introduced by the TUTase URT1 in Arabidopsis (Sement et&#160;al, 2013). However, URT1&#8208;depletion did not impact mRNA turnover, but instead prompted the accumulation of truncated, deadenylated mRNA, implying a role of uridylation in establishing 5&#8242;&#8208;to&#8208;3&#8242; directionality of mRNA turnover. In cooperation with PABP, URT1 was subsequently proposed to contribute to the repair of deadenylated mRNA (Zuber et&#160;al, 2016). Finally, RNA uridylation also contributes to mRNA expression in kinetoplastid protists, where the insertion and deletion of uridine nucleotides edits cryptogene transcripts to generate otherwise unstable mitochondrial mRNA (G&#246;ringer, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5549</offset>
+      <text>The addition of uridine(s) to the 3&#8242; end of microRNAs (miRNAs) and their precursors recently emerged as a hallmark for the regulation of miRNA biogenesis and turnover in plants and animals (Heo &amp; Kim, 2009; Ameres &amp; Zamore, 2013). Small RNA uridylation was first observed in Arabidopsis, where the small RNA methyltransferase HEN1 protects miRNAs and small interfering RNAs (siRNAs) from HESO1&#8208;directed uridylation and degradation (Li et&#160;al, 2005; Ren et&#160;al, 2012; Zhao et&#160;al, 2012). In animals, more versatile functions of uridylation have been described: In worms and mammals, the RNA&#8208;binding protein Lin28 recruits the TUTase TUT4/ZCCHC11/PUP2 to pre&#8208;let&#8208;7, resulting in its processive uridylation (Hagan et&#160;al, 2009; Heo et&#160;al, 2009; Lehrbach et&#160;al, 2009). Pre&#8208;let&#8208;7 uridylation prevents miRNA maturation and induces degradation by Dis3l2, a 3&#8242; uridylation&#8208;triggered exoribonuclease (Chang et&#160;al, 2013; Faehnle et&#160;al, 2014). Notably, Dis3l2 is conserved in fission yeast, plants, and animals, and increasing evidence supports a more general role of Dis3l2 in RNA metabolism (Lubas et&#160;al, 2013; Malecki et&#160;al, 2013; Thomas et&#160;al, 2015; Haas et&#160;al, 2016; &#321;abno et&#160;al, 2016). In the absence of Lin28, mono&#8208;uridylation of pre&#8208;miRNAs by the TUTases TUT4/ZCCHC11 and TUT7/ZCCHC6 restores the two&#8208;nucleotide 3&#8242; overhangs of selected pre&#8208;miRNAs to enhance maturation, a process that may be conserved in flies (Heo et&#160;al, 2012; Reim&#227;o&#8208;Pinto et&#160;al, 2015). Similar mechanisms may also contribute to the identification of defective pre&#8208;miRNAs that lack intact 3&#8242; overhangs and trigger their destruction via the exosome in mammals (Liu et&#160;al, 2014). In flies, uridylation of pre&#8208;miRNAs by the TUTase Tailor prevents the maturation of splicing&#8208;derived mirtrons (Bortolamiol&#8208;Becet et&#160;al, 2015; Reim&#227;o&#8208;Pinto et&#160;al, 2015). Tailor exhibits intrinsic specificity for RNAs ending in 3&#8242;&#8208;G (and 3&#8242;&#8208;U), facilitating the identification of mirtron hairpin 3&#8242; ends through the conserved splice&#8208;acceptor sequence (AG&#8208;3&#8242;). In contrast, conserved Drosophila pre&#8208;miRNAs are significantly depleted in 3&#8242; guanosine, supporting the hypothesis that hairpin uridylation may serve as a barrier to the de novo creation of microRNAs in Drosophila (Bortolamiol&#8208;Becet et&#160;al, 2015; Reim&#227;o&#8208;Pinto et&#160;al, 2015). Finally, destabilization of mature miRNAs upon binding to highly complementary targets is associated with small RNA uridylation (and adenylation) in flies and mammals (Ameres et&#160;al, 2010; Xie et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8119</offset>
+      <text>While increasing evidence suggests broad and conserved roles of uridylation in the regulation of RNA fate and function, the molecular mechanisms, cellular targets, and biological functions of RNA uridylation remain largely unexplored. Here, we report that 3&#8242; terminal uridylation prompts 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay in flies. We describe the molecular basis for uridylation&#8208;triggered RNA decay, revealing a novel complex that plays important roles in cytoplasmic RNA surveillance. Based on RNA immunopurification and high&#8208;throughput sequencing, we uncover putative targets in flies, providing a road map for the functional dissection of uridylation&#8208;triggered RNA decay. In that regard, we uncover an unexpected function of uridylation&#8208;triggered RNA decay in the quality control of RNA polymerase III transcripts. Our work provides novel insights into the targets, functional consequence, and molecular reader of a conserved epitranscriptomic mark with important implications for posttranscriptional gene regulation and RNA surveillance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9180</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9188</offset>
+      <text>Identification of the terminal RNA uridylation&#8208;mediated processing (TRUMP) complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9273</offset>
+      <text>To identify putative reader(s) of Tailor&#8208;directed RNA uridylation in flies (Fig&#160;1A), we performed immunoprecipitation of FLAG&#8208;tagged Tailor upon expression in Drosophila S2 cells, followed by mass spectrometry analysis (Fig&#160;EV1A and B; Table&#160;EV1). As the most prominent, statistically significant interaction candidate that withstood high&#8208;salt wash steps emerged the previously uncharacterized, putative 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease CG16940 (Figs&#160;1B and C, and EV1B, D and E). CG16940 is a homolog of the human Perlman syndrome exoribonuclease Dis3l2 (Astuti et&#160;al, 2012). Dis3l2 belongs to the RNase II/R enzyme family, is conserved in plants, yeast, and animals, and has previously been implicated in the degradation of uridylated RNA species in fission yeast and mammals (Chang et&#160;al, 2013; Lubas et&#160;al, 2013; Malecki et&#160;al, 2013; Ustianenko et&#160;al, 2013). Because of its high overall sequence conservation, we refer to CG16940 as dmDis3l2. To validate the interaction between Tailor and dmDis3l2, we raised a monoclonal antibody against an N&#8208;terminal unstructured fragment of dmDis3l2 (amino acids 97&#8211;259) and performed immunoprecipitation of endogenous dmDis3l2 in lysate of Drosophila S2 cells, followed by Western blot analysis. This approach confirmed the interaction between Tailor and dmDis3l2 (Fig&#160;EV1C). Because immunodepletion of dmDis3l2 did not result in complete recovery of Tailor from the supernatant, we concluded that Tailor may exist in both a dmDis3l2&#8208;bound and dmDis3l2&#8208;unbound state. To map the interaction between dmDis3l2 and Tailor, we performed co&#8208;immunoprecipitation and Western blot analysis, as well as recombinant protein&#8211;protein interaction studies: Immunoprecipitation of FLAG&#8208;dmDis3l2 recovered GFP&#8208;Tailor (but not the unrelated cytoplasmic control protein GFP&#8208;Nibbler), an interaction for which the N&#8208;terminal fragment of Tailor that encompasses the DUF1439 domain was required and sufficient (Figs&#160;1D and EV1F and G). Systematic truncation studies on dmDis3l2 revealed a minimal interaction domain that involves a predicted coiled&#8208;coil motif close to the N&#8208;terminus (Figs&#160;1E and F, and EV1F). Recombinant short protein fragments encompassing Tailor DUF1439 domain (amino acids 63&#8211;123) and the N&#8208;terminal coiled&#8208;coil motif in dmDis3l2 (amino acids 2&#8211;50) were sufficient to recapitulate this interaction (Figs&#160;1G and EV1G), revealing a minimal protein&#8211;protein interaction domain in Tailor and dmDis3l2 underlying complex formation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11796</offset>
+      <text>Identification of the terminal RNA uridylation&#8208;mediated processing (TRUMP) complex</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11881</offset>
+      <text>Model for uridylation&#8208;triggered RNA decay. 3&#8242; terminal uridylation by the TUTase Tailor may trigger the degradation of RNA species by unknown reader enzyme(s).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12045</offset>
+      <text>Protein interaction analysis by nano&#8208;LC&#8208;MS. Unique peptide counts and protein sequence coverage, as well as signal intensities (PSI) for Tailor (bait) and CG16940/dmDis3l2 in control IP (FLAG&#8208;GFP) and FLAG&#8208;Tailor IP are indicated. A.u., arbitrary units.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12307</offset>
+      <text>Protein domain architecture of Tailor/CG1091 and dmDis3l2/CG16940. DUF1439, domain of unknown function; NTase, nucleotidyltransferase; PAP assoc, poly(A) polymerase&#8208;associated; CC, predicted coiled&#8208;coil motif; CSD, cold&#8208;shock domain; S1, RNA&#8208;binding domain;</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12573</offset>
+      <text>Co&#8208;immunoprecipitation of FLAG&#8208;dmDis3l2 (bait) and GFP&#8208;Tailor full&#8208;length and truncations expressed in Drosophila S2 cells. GFP&#8208;Nibbler (Nbr) served as a negative control. Domain architecture of GFP&#8208;Tailor truncations is indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12817</offset>
+      <text>Recombinant protein interaction analysis using the indicated epitope tags and purification methods. Domain architecture of bait and prey are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12969</offset>
+      <text>Immunostaining and imaging of Myc&#8208;Tailor and GFP&#8208;dmDis3l2 (H) or endogenous dmDis3l2 (I) in S2 cells. Single&#8208;color channel images show total inversions. Scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13150</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13200</offset>
+      <text>Identification of the terminal RNA uridylation&#8208;mediated processing (TRUMP) complex</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13285</offset>
+      <text>Experimental overview of FLAG&#8208;Tailor co&#8208;immunoprecipitation followed by mass spectrometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13380</offset>
+      <text>Limma analysis of protein interaction candidates based on three biological replicates of experiment shown in (A). Tailor (bait) is indicated in green. The most prominent interaction candidate showing highest and significant signal accumulation (CG16940) is shown in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13651</offset>
+      <text>Co&#8208;immunoprecipitation of endogenous dmDis3l2 and Tailor. dmDis3l2 was immunoprecipitated from S2 cell lysate using an antibody against endogenous dmDis3l2, followed by Western blot analysis of dmDis3l2 and Tailor. Ago1 serves as a control. Asterisk indicates antibody heavy chain signal.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13942</offset>
+      <text>Experimental overview of immunopurification using FLAG&#8208;CG16940 as bait and applying increasing salt concentrations in wash steps, followed by mass spectrometry analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14114</offset>
+      <text>Mass spectrometry analysis of the experiment shown in (D). High coverage and signal intensities of Tailor were recovered in FLAG&#8208;CG16940 IP, but not in control IP, irrespective of wash conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14313</offset>
+      <text>Recombinant protein interaction studies using the indicated epitope tags and purification methods. Domain architecture of bait and prey are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14464</offset>
+      <text>Immunostaining and imaging of Myc&#8208;Tailor and GFP&#8208;dmDis3l2 (H) or endogenous dmDis3l2 (I) in S2 cells (H and I top panel) or S2 cells depleted of dmDis3l2 by CRISPR/Cas9 (I bottom panel). Single&#8208;color channel images show total inversions. Scale bar&#160;=&#160;5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14730</offset>
+      <text>Relative mRNA expression levels of dmDis3l2 and Tailor in different tissues of flies. Analysis is based on published microarray data (FlyAtlas; Chintapalli et&#160;al, 2007) or RNA&#8208;Seq data (ModENCODE; Brown et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14951</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15001</offset>
+      <text>Co&#8208;expression of epitope&#8208;tagged Tailor and dmDis3l2 in S2 cells revealed predominant&#8212;if not exclusive&#8212;localization of both proteins dispersed throughout the cytoplasm, without detectable signal in the nucleus (Figs&#160;1H and EV1H). The overall cytoplasmic localization of dmDis3l2 was confirmed by immunofluorescence analyses using the monoclonal antibody against dmDis3l2, resulting in a cytoplasmic signal that was lost upon depletion of dmDis3l2 (Figs&#160;1I and EV1I). Together with the fact that both factors exhibit significant co&#8208;expression across tissues in Drosophila (Pearson's correlation coefficient r&#160;&gt;&#160;0.7, P&#160;&lt;&#160;10&#8722;4; Fig&#160;EV1J), we concluded that Tailor and dmDis3l2 form a stable, cytoplasmic, and co&#8208;regulated protein complex in flies, which we refer to as&#160;the terminal RNA uridylation&#8208;mediated processing (TRUMP) complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15856</offset>
+      <text>CG16940/dmDis3l2 is a uridylation&#8208;triggered 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15935</offset>
+      <text>For biochemical characterization, we immunopurified FLAG&#8208;tagged dmDis3l2 upon expression in S2 cells and confirmed enzyme purity by Western blot analysis (Appendix&#160;Fig S1A). dmDis3l2 rapidly degraded a 37&#8208;nt, 5&#8242; radiolabeled RNA substrate without detectable decay intermediates (Fig&#160;2A and B). This activity was abolished when one of four highly conserved aspartic acid residues within the RNase II/R domain that constitute the predicted catalytic site was replaced with alanine (Figs&#160;1C and 2B). Together with the conserved domain architecture, we concluded that dmDis3l2 is a bona fide 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease. dmDis3l2&#8208;directed RNA degradation was consistent with the previously proposed molecular mechanism for RNase II/R enzymes, which involves the Mg2+&#8208;dependent nucleophilic attack of phosphodiester bonds (Fraz&#227;o et&#160;al, 2006; Faehnle et&#160;al, 2014), because EDTA inhibited, while excess Mg2+ rescued the degradation activity of dmDis3l2 (Appendix&#160;Fig S1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16924</offset>
+      <text>dmDis3l2/CG16940 is a 3&#8242; terminal uridylation&#8208;triggered, processive 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17029</offset>
+      <text>Sequence of RNA substrate used for in&#160;vitro exoribonuclease assays. N, randomized nucleotide.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17124</offset>
+      <text>In vitro exoribonuclease assay using 5&#8242;&#160;radiolabeled RNA substrate and immunopurified wild&#8208;type (WT) or catalytic&#8208;mutant (CM) FLAG&#8208;dmDis3l2 (mutation indicated in Fig&#160;1C), incubated for the indicated time and separated on a 15% polyacrylamide gel followed by phosphorimaging. Quantification of degraded substrate in percent is indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17472</offset>
+      <text>Change in abundance of 256 different substrate RNAs as determined by high&#8208;throughput sequencing of substrates in experiment shown in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17612</offset>
+      <text>Decay rates of 256 different substrate RNAs. Data shown in (C) were normalized to overall decrease in substrate abundance as determined by phosphorimaging (as shown in B) and fit to the indicated model for exponential decay. Apparent decay rate of all substrates, as determined by phosphorimaging, is indicated in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17931</offset>
+      <text>Selected examples for individual substrates shown in (D). Values report the observed decay rate (kobs) in min&#8722;1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18046</offset>
+      <text>Overview of decay rates (kobs) of all 256 different substrate RNAs, as determined in (D). Error bar represents SEM of curve fit.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18175</offset>
+      <text>Impacts of RNA secondary structures, as determined by RNAfold (Gruber et&#160;al, 2008), and reported as effective free energy (EFE, kcal per mol), on decay rates (kobs) are shown. Error bars represent SEM of curve fit. Gray boxes represent Tukey boxplot of individual EFE groups. White line indicates median. P&#8208;value was determined by Mann&#8211;Whitney test comparing individual EFE groups against all substrates. Unstructured substrates used for subsequent analysis are indicated (EFE groups 4&#8211;6).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18672</offset>
+      <text>Nucleotide content of single&#8208;stranded RNA substrates, ranked from slow (top) to fast (bottom) decay by dmDis3l2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18787</offset>
+      <text>Cumulative distribution of decay rates for RNA substrates with the indicated nucleotide at each one of four randomized positions at the 3&#8242; end of the substrate RNA. P&#8208;value was determined by Mann&#8211;Whitney test comparing individual nts against all.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19040</offset>
+      <text>Functional coupling between two base positions within the randomized 3&#8242; end of substrate RNA. Red squares show average increase in decay rate compared to all substrates. Black squares show no or negative effect.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19254</offset>
+      <text>Boxplot decay rates of substrates containing no, one, two, or three uridine(s) within the randomized 3&#8242; end of the substrate RNA. Median decay rates&#160;&#177;&#160;SEM of fit are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19436</offset>
+      <text>Decay rate of all substrates, or substrates containing no, one, two, or three uridine(s) within the randomized 3&#8242; end of the substrate RNA. Median and quartile ranges are indicated. P&#8208;values were determined by Mann&#8211;Whitney test. Substrate containing four uridines (4U) is indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19725</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19775</offset>
+      <text>To dissect the enzymatic properties of dmDis3l2 in more detail, we developed a high&#8208;throughput biochemical assay for the characterization of 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleases. To this end, we employed as a substrate a 37&#8208;nt RNA containing four random 3&#8242; nucleotides (Fig&#160;2A), incubated it with immunopurified dmDis3l2 for 30 s, 2&#160;min, and 10&#160;min, and subjected the remaining substrate to high&#8208;throughput sequencing (Appendix&#160;Fig S1C). The randomized 3&#8242; end of the substrate RNA enabled us to simultaneously analyze 256 different substrates, all of which were recovered at each time point of the assay, albeit to varying extent (Fig&#160;2C). Upon normalization to the overall decrease in substrate abundance, as determined by denaturing gel electrophoresis and phosphorimaging (Appendix&#160;Fig S1C), analysis of the resulting libraries enabled the calculation of relative degradation rates for all 256 different substrates (Fig&#160;2D), which globally followed a single&#8208;exponential decay model (see examples in Fig&#160;2E). The observed decay rates (kobs) differed between individual substrates by more than two orders of magnitude (Fig&#160;2F). To dissect dmDis3l2 substrate specificities, we first determined the secondary structure stability of each substrate, binned them into effective free energy groups (EFE groups) from highly structured (group 1) to single&#8208;stranded (group 6), and tested each group for significant over&#8208; or underrepresentation in the observed decay rate (Fig&#160;2G). (Note that the constant region of the substrate was designed to avoid secondary structures not involving the random 3&#8242; nucleotides.) dmDis3l2&#8208;directed decay was strongly affected by secondary structures: Structured RNAs (EFE groups 1&#8211;3) were degraded significantly slower (P&#160;&lt;&#160;10&#8722;3, Mann&#8211;Whitney test),&#160;whereas single&#8208;stranded substrates were degraded significantly&#160;faster&#160;(EFE group 6, P&#160;&lt;&#160;10&#8722;4) compared to all substrates. We&#160;concluded that dmDis3l2 is a single&#8208;stranded RNA&#8208;specific exoribonuclease.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21800</offset>
+      <text>But even among single&#8208;stranded substrates (EFE groups 4&#8211;6), decay rates varied extensively between individual substrates (Fig&#160;2G). Primary sequence analysis revealed that rapidly degraded single&#8208;stranded substrates were generally enriched in 3&#8242; uridine (Fig&#160;2H). Analysis of each individual position of the randomized four 3&#8242; nucleotides showed that substrates containing uridine at each individual position were degraded significantly faster when compared to any other nucleotide (Fig&#160;2I). Pairwise comparisons between individual positions revealed an additive effect of uridine content on decay activation across all positions (Fig&#160;2J), and grouping substrates according to increasing overall 3&#8242; terminal U&#8208;content confirmed a steady and statistically significant increase in degradation rates (Fig&#160;2K and L). In fact, among all 196 single&#8208;stranded substrates the most efficiently degraded contained four terminal uridines and decayed twelve times faster (kobs&#160;=&#160;3.5&#160;&#177;&#160;0.4&#160;min&#8722;1) than the median of all substrates without terminal uridines (kobs&#160;=&#160;0.3&#160;&#177;&#160;0.1&#160;min&#8722;1; Fig&#160;2K and L). In summary, we concluded that dmDis3l2 is a 3&#8242; uridylation&#8208;triggered, single&#8208;strand&#8208;specific, processive 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23067</offset>
+      <text>Uridylation by Tailor primes structured RNA for dmDis3l2&#8208;directed decay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23141</offset>
+      <text>The functional characterization of dmDis3l2 implied a model in which 3&#8242;&#160;terminal uridylation by Tailor could prime RNA substrates for 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic degradation by dmDis3l2. To test this hypothesis, we employed a natural substrate of Tailor, the mirtron hairpin pre&#8208;miR&#8208;1003 (Reim&#227;o&#8208;Pinto et&#160;al, 2015), and assayed degradation by immunopurified dmDis3l2 in the presence and absence of Tailor (Fig&#160;3A and B). dmDis3l2 alone degraded synthetic, 5&#8242; radiolabeled pre&#8208;miR&#8208;1003 inefficiently (half&#8208;life t1/2&#160;= 355&#160;min; Fig&#160;3A and B), consistent with the predicted inability of sole dmDis3l2 to attack structured RNA species (Fig&#160;2). The addition of Tailor significantly enhanced pre&#8208;miR&#8208;1003&#8208;degradation, decreasing substrate half&#8208;life by more than one order of magnitude (t1/2&#160;=&#160;23&#160;min; Fig&#160;3A and B). This decay stimulation followed sigmoidal reaction kinetics, consistent with a model in which Tailor&#8208;directed uridylation precedes dmDis3l2&#8208;directed decay as the rate&#8208;limiting step (Fig&#160;3B). In fact, replacing one of three highly conserved aspartates in the catalytic pol &#946; superfamily motif of Tailor with alanine abolished the enhanced decay of pre&#8208;miR&#8208;1003 by dmDis3l2 entirely, resulting in a substrate half&#8208;life similar to the one observed with dmDis3l2 alone (Fig&#160;3A and B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24491</offset>
+      <text>Uridylation&#8208;triggered RNA decay of mirtron hairpins by Tailor and dmDis3l2 in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24578</offset>
+      <text>RNA decay assay using synthetic, 5&#8242; radiolabeled pre&#8208;miR&#8208;1003, immunopurified dmDis3l2, and wild&#8208;type (WT) or catalytic&#8208;mutant (CM) Tailor. Reactions were incubated for the indicated time and separated by 15% denaturing polyacrylamide gel electrophoresis and subjected to phosphorimaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24877</offset>
+      <text>Quantification of at least three independent replicates of experiment shown in (A). Data represent mean&#160;&#177;&#160;SD. Half&#8208;life was determined by fitting data to single&#8208;exponential (dmDis3l2 and dmDis3l2/TailorCM) or sigmoidal (dmDis3l2/TailorWT) reaction kinetics.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25142</offset>
+      <text>RNA decay assay using synthetic, 5&#8242; radiolabeled pre&#8208;miR&#8208;1003 containing the indicated number or uridine residues at the 3&#8242; end and immunopurified dmDis3l2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25307</offset>
+      <text>Quantification of three independent replicates of the experiment shown in (C). Data represent mean&#160;&#177;&#160;SD. Data were fit to single&#8208;exponential reaction kinetics.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25472</offset>
+      <text>Reaction kinetics (kobs) determined in (D) plotted against number of 3&#8242; terminal uridine residues. Error of fit is shown as SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25603</offset>
+      <text>Two&#8208;step model for the regulation of mirtron hairpin maturation in Drosophila. Mirtron hairpins are generated by splicing and lariat debranching. Upon export from the nucleus, Tailor uridylates mirtron hairpins by recognizing the 3&#8242; guanine, a hallmark of splice&#8208;acceptor sequences. Short uridylation masks the 2&#8208;nt 3&#8242; overhang required for Dicer&#8208;1 to recognize pre&#8208;miRNAs. Extended uridine tails eventually trigger processive, 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay by dmDis3l2, resulting in mirtron clearance.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26132</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26182</offset>
+      <text>To directly test the ability of dmDis3l2 to degrade uridylated mirtron hairpins&#8212;the products of Tailor activity&#8212;we generated synthetic pre&#8208;miR&#8208;1003 variants that contained 3&#8242;&#160;terminal uridine extensions of varying length and assayed degradation by sole dmDis3l2 in the absence of Tailor (Fig&#160;3C&#8211;E). While the addition of one, two, or three uridine residues only mildly enhanced dmDis3l2&#8208;directed decay of pre&#8208;miR&#8208;1003 by 1.5&#8208;, 2&#8208;, and 3.8&#8208;fold, respectively, penta&#8208;uridylation resulted in 32&#8208;fold and deca&#8208;uridylation in 81&#8208;fold enhancement of degradation when compared to unmodified pre&#8208;miR&#8208;1003 (Fig&#160;3D and E). Although the addition of 15 or 20 uridine residues further accelerated decay, strongest increase in decay activity was observed between 3 and 10 uridine additions (Fig&#160;3E), suggesting that short U&#8208;tails are sufficient for biologically meaningful enhancement of dmDis3l2&#8208;directed decay. Notably, degradation of uridylated mirtron hairpins in&#160;vitro by dmDis3l2 proceeded without visible decay intermediates, implying that dmDis3l2 degrades even highly structured RNA species processively once it encounters a uridine&#8208;rich, single&#8208;stranded 3&#8242; extension of sufficient length that can prime decay.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27439</offset>
+      <text>Our data show that uridylation can prime the decay of structured RNA substrates, which&#8212;if not uridylated&#8212;serve as poor substrates for dmDis3l2&#8208;directed decay (Fig&#160;2), presumably because uridylation provides a single&#8208;stranded entry point for the initiation of degradation. To test whether a single&#8208;stranded extension is sufficient for the initiation of degradation irrespective of its nucleotide composition, we compared decay rates of pre&#8208;miR&#8208;1003 variants that contain an (A)10 or a (U)10 extension (Fig&#160;EV2). While deca&#8208;adenylation enhanced the degradation of pre&#8208;miR&#8208;1003 merely by 4.8&#8208;fold, a uridine tail of similar length was 8.3&#8208;fold more efficient in triggering dmDis3l2&#8208;directed decay, resulting in a 40&#8208;fold increase in decay rates compared to untailed pre&#8208;miR&#8208;1003 (Fig&#160;EV2). We concluded that primary sequence composition of Tailor&#8208;directed tailing is the major criterion that prompts the degradation of structured RNA by dmDis3l2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28420</offset>
+      <text>Uridylation&#8208;triggered RNA decay of mirtron hairpins by Tailor and dmDis3l2 in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28507</offset>
+      <text>RNA decay assay using synthetic, 5&#8242; radiolabeled pre&#8208;miR&#8208;1003 containing the indicated number of nucleotide extensions, and immunopurified dmDis3l2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28662</offset>
+      <text>Quantification of three independent replicates of experiment shown in (A). Data represent mean&#160;&#177;&#160;SD. Data were fit to single&#8208;exponential decay kinetics.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28820</offset>
+      <text>Decay rates (kobs) determined in (B). Error bars indicate SEM of fit. P&#8208;values were determined using Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28943</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28993</offset>
+      <text>Together, our data are consistent with a two&#8208;step mechanism for the inhibition of mirtron maturation by uridylation in flies (Fig&#160;3F): (i) Initial addition of short uridine tails masks the 2&#8208;nt 3&#8242; overhang, with immediate impairment in Dicer&#8208;mediated processing (Reim&#227;o&#8208;Pinto et&#160;al, 2015). (ii) Further extension of U&#8208;tails ultimately prompts the processive, 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay of uridylated mirtron hairpins by dmDis3l2, causing their final clearance. Notably, this model is supported by the fact that in the absence of Tailor, not only mature mirtrons, but also their precursor hairpins accumulate (Reim&#227;o&#8208;Pinto et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29663</offset>
+      <text>Tailor and dmDis3l2 cooperate in the degradation of cellular RNA in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29738</offset>
+      <text>Whether and how 3&#8242; terminal RNA uridylation contributes to general RNA metabolism in flies is unknown. To determine the extent, consequences, and genetic requirements for 3&#8242; terminal RNA uridylation, we established a quantitative uridylation assay in Drosophila S2 cell lysate that monitors the posttranscriptional addition of uridine to cellular RNA over time using &#945;&#8208;32P&#8208;UTP as a cofactor (Fig&#160;4). In wild&#8208;type S2 cell lysate, we observed several RNA species undergoing uridylation as manifested by the rapid appearance of 32P&#8208;labeled RNA species of different molecular weight (wt; Fig&#160;4B and D), an activity that was entirely absent upon depletion of Tailor by CRISPR/Cas9 genome editing (tailorko; Fig&#160;4A, B and D). (Note that loss of Tailor results in co&#8208;depletion of dmDis3l2, indicating that dmDis3l2 protein stability depends on TRUMP complex formation.) To control for overall quality of the lysate and its general ability to recapitulate posttranscriptional RNA modifications, we simultaneously assayed adenylation, employing &#945;&#8208;32P&#8208;ATP as a cofactor in the same experimental setup, revealing a distinct set of target RNAs (Fig&#160;4C). Adenylation activity was comparable in both wt and tailorko lysates (Fig&#160;4C and Appendix&#160;Fig S2). Together with the fact that RNA uridylation patterns were significantly enhanced in lysate prepared from S2 cells overexpressing an epitope&#8208;tagged version of wild&#8208;type Tailor (TailorOE, P&#160;&lt;&#160;0.001, Student's t&#8208;test; Fig&#160;4A, B and D), our data show that multiple endogenous RNA species undergo Tailor&#8208;dependent uridylation in lysate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31347</offset>
+      <text>In vitro uridylation assay in S2 cell lysate recapitulates uridylation&#8208;triggered RNA decay of cellular RNA transcripts</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31468</offset>
+      <text>Western blot analysis of genetically modified Drosophila S2 cells. Unmodified S2 cells (wild&#8208;type, wt) or S2 cells depleted of Tailor (tailorko) by CRISPR/Cas9 or expressing FLAG&#8208;tagged Tailor (TailorOE) were analyzed. Antibodies are indicated. Note that panels were assembled from two technical replicates of identical lysates (see source data).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31819</offset>
+      <text>Lysates of S2 cells (as characterized in A) were incubated with &#945;&#8208;32P&#8208;UTP (B) or &#945;&#8208;32P&#8208;ATP (C) for the indicated time followed by RNA extraction, denaturing polyacrylamide gel electrophoresis and phosphorimaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32042</offset>
+      <text>Quantification of at least five independent replicates of experiment shown in (B, C). Uridylation signal intensity for substrate S1 (indicated in B) was corrected for adenylation activity and normalized to wild&#8208;type 2&#8208;min time point. Data represent mean&#160;&#177;&#160;SEM. P&#8208;values were determined using Student's t&#8208;test. ***P&#160;&lt;&#160;10&#8722;3, ****P&#160;&lt;&#160;10&#8722;4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32398</offset>
+      <text>Western blot analysis of genetically modified Drosophila S2 cells. Unmodified S2 cells (wild&#8208;type, wt) or S2 cells depleted of dmDis3l2 (dmdis3l2ko) by CRISPR/Cas9 or expressing FLAG&#8208;tagged catalytic&#8208;mutant dmDis3l2 (dmDis3l2CM OE) were analyzed. Antibodies are indicated. Note that panels were assembled from two technical replicates of identical lysates (see source data).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32779</offset>
+      <text>Lysates of S2 cells (as characterized in E) were incubated with &#945;&#8208;32P&#8208;UTP (F) or &#945;&#8208;32P&#8208;ATP (G) for the indicated time followed by RNA extraction, denaturing polyacrylamide gel electrophoresis and phosphorimaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33002</offset>
+      <text>Quantification of at least seven independent replicates of experiment shown in (F, G). Uridylation signal intensity for substrate S1 (indicated in F) was corrected for adenylation activity and normalized to wild&#8208;type 2&#8208;min time point. Data represent mean&#160;&#177;&#160;SEM. P&#8208;values were determined using Student's t&#8208;test. *P&#160;&lt;&#160;0.05, **P&#160;&lt;&#160;10&#8722;2, ****P&#160;&lt;&#160;10&#8722;4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33371</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33421</offset>
+      <text>Quantitative characterization of &#945;&#8208;32P&#8208;UTP&#8208;incorporation signals indicated that RNA uridylation acts as a destabilizing and/or transient mark: Representative quantifications (substrate S1; Fig&#160;4B) revealed highest uridylation signal at early time points (2&#160;min; Fig&#160;4D), followed by a decrease in signal intensity over time (Fig&#160;4D and Appendix&#160;Fig S2G). In contrast, adenylation signals were consistent with a persistent, stabilizing posttranscriptional mark, resulting in statistically significant higher stability compared to uridylation (P&#160;&lt;&#160;10&#8722;4; Fig&#160;4C and G; Appendix&#160;Fig S2G).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34024</offset>
+      <text>Because in&#160;vitro reconstitution assays indicated that Tailor&#8208;directed uridylation triggers dmDis3l2&#8208;mediated exoribonucleolytic degradation (Fig&#160;3), we next tested whether cellular RNA uridylation in lysate genetically interacts with dmDis3l2. To this end, we generated S2 cells depleted of dmDis3l2 by CRISPR/Cas9 genome editing. Depletion was controlled by Western blot analysis (Fig&#160;4E). (Note that Tailor protein levels stayed unaltered upon depletion of dmDis3l2, consistent with our earlier observation that a fraction of the cellular Tailor pool does not exist in complex with dmDis3l2 [Fig&#160;EV1C].) In fact, cellular RNA uridylation signals were significantly elevated across the whole time course in the absence of dmDis3l2 when compared to wild&#8208;type lysate (P&#160;&lt;&#160;0.05, Student's t&#8208;test; Fig&#160;4F&#8211;H). Similar results were obtained upon overexpression of epitope&#8208;tagged catalytic&#8208;mutant dmDis3l2 (dmDis3l2CM&#160;OE, P&#160;&lt;&#160;0.05; Fig&#160;4F&#8211;H), indicating a dominant&#8208;negative, stabilizing function of dmDis3l2CM. Note that even in the absence of dmDis3l2, an overall steady decrease in uridylation signatures over time indicated that uridylation might also feed into alternative RNA decay pathways (Fig&#160;4H). In summary, we developed an in&#160;vitro assay based on Drosophila S2 cell lysate that quantitatively recapitulates posttranscriptional uridylation of cellular RNA by Tailor in whole&#8208;cell lysate, a transient modification that genetically interacts with dmDis3l2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35516</offset>
+      <text>Identification of TRUMP complex targets</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35556</offset>
+      <text>To identify TRUMP complex substrates at the genomic scale, we expressed FLAG&#8208;tagged Tailor or dmDis3l2, as well as their catalytically inactive variants, in Drosophila S2 cells, followed by immunopurification. We reasoned that this strategy might enable co&#8208;purification of endogenous substrates for downstream identification by sequencing. To detect RNA species upon immunopurification, we performed RNA extraction and dephosphorylation by treatment with calf intestinal phosphatase, followed by radiolabeling using &#947;&#8208;32P&#8208;ATP and T4&#8208;polynucleotide kinase. Labeled RNA was subsequently separated on a denaturing polyacrylamide gel and detected by phosphorimaging (Figs&#160;5A and EV3A). As negative control we included FLAG&#8208;tagged GFP, which did not co&#8208;purify with RNA, as expected (Fig&#160;5A). We likewise did not observe any stable interaction between cellular RNA and wild&#8208;type Tailor or its catalytic&#8208;mutant form, as well as wild&#8208;type dmDis3l2, indicating weak, transient, or intractable interactions between these proteins and their RNA substrates (Fig&#160;5A). However, co&#8208;purified RNA could be readily detected upon immunopurification of a catalytic&#8208;mutant version of dmDis3l2, with strong signal intensities at a size range of 10&#8211;20 nt (dmDis3l2CM; Fig&#160;5A). Closer inspection of these RNA species by small RNA cloning and high&#8208;throughput sequencing revealed a length distribution peaking at 14 nts (Fig&#160;EV3B). This fragment size is reminiscent of the length covered by the substrate channel in a co&#8208;crystal structure of murine Dis3l2 bound to RNA (Faehnle et&#160;al, 2014). While the short length of these RNA species did not permit the identification of their genomic origin, nucleotide&#8208;content analysis revealed a high occurrence of uridine across the five 3&#8242; terminal nucleotides (Fig&#160;EV3B). This observation suggests a model in which dmDis3l2CM binds to 3&#8242; uridylated endogenous RNA species that are truncated by 5&#8242;&#8208;to&#8208;3&#8242; or endonucleolytic decay&#8212;presumably in the course of the purification process&#8212;to short fragments that reflect a footprint of dmDis3l2&#8208;substrate interaction. Consistent with this view, a penta&#8208;uridine tail is sufficient for priming degradation of a synthetic substrate by wild&#8208;type dmDis3l2, implying high&#8208;affinity binding (Fig&#160;2). By reducing incubation time and supplementing EDTA (which prevents 5&#8242;&#8208;to&#8208;3&#8242; RNA decay by major divalent cation&#8208;dependent cellular RNases, such as Xrn&#8208;1), we optimized dmDis3l2CM immunopurification conditions, prompting the accumulation of higher molecular weight RNA substrates, while reducing the abundance of short, footprint RNA species (Fig&#160;EV3C and D). In order to identify full&#8208;length, dmDis3l2CM&#8208;bound substrates, we subjected immunoprecipitated RNA to 3&#8242; adapter ligation [note that products of Tailor&#8208;directed uridylation contain a&#160;3&#8242;&#160;end chemistry that is amenable to 3&#8242; adapter ligation (Reim&#227;o&#8208;Pinto et&#160;al, 2015)], followed by reverse transcription and PCR amplification using random forward priming (Fig&#160;5B; see Materials and Methods for details). The resulting cDNA library was subjected to high&#8208;throughput sequencing in reverse orientation, in order to assess identity and 3&#8242; end modification status of cloned RNA species. Among 17&#160;million analyzed reads, 87% mapped to ribosomal RNA, the vast majority of which (&gt;&#160;90%) stemmed from 5S rRNA loci (Fig&#160;5C). The second most abundant substrate class mapped to non&#8208;coding RNA, consisting mostly of RNase MRP RNA (44%) and the signal recognition particle RNA 7SL (41%). Together with transfer RNA (tRNA, 1.6%), small nuclear RNA (snRNA, 0.9%), and small nucleolar RNA (snoRNA, 0.6%), the vast majority of transcripts bound by dmDis3l2CM therefore consisted of RNA polymerase III transcripts. To a lesser extent, dmDis3l2 also associated with RNA polymerase II transcripts, mapping to introns (2.8%), pseudogenes (1.4%), and mRNA (0.4%).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>39508</offset>
+      <text>Identification of TRUMP complex substrates by RNA immunoprecipitation and high&#8208;throughput sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39611</offset>
+      <text>Protein/RNA co&#8208;immunopurification experiments. FLAG&#8208;tagged versions of indicated proteins were expressed in S2 cells, followed by immunopurification and RNA isolation. RNA was visualized by CIP/PNK treatment using &#947;&#8208;32P&#8208;ATP followed by denaturing polyacrylamide gel electrophoresis and phosphorimaging. Asterisk indicates non&#8208;specific contaminant.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39970</offset>
+      <text>Overview of experimental approach to identify dmDis3l2CM&#8208;associated RNA by high&#8208;throughput sequencing. See text for details.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40099</offset>
+      <text>Statistics of library generated from dmDis3l2CM&#8208;bound RNA upon mapping to the Drosophila melanogaster genome. rRNA, ribosomal RNA; ncRNA, non&#8208;coding RNA; tRNA, transfer RNA; snRNA, small nuclear RNA; snoRNA, small nucleolar RNA; mRNA, messenger RNA; pre&#8208;miRNA, precursor microRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40386</offset>
+      <text>Posttranscriptional modification status of RNA classes shown in (C) compared to total RNA, subjected to the identical cloning protocol.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40522</offset>
+      <text>Nucleotide identity of 3&#8242; terminal non&#8208;genome&#8208;matching additions and change in uridine&#8208;tail content for RNA classes shown in (C) compared to total RNA, subjected to the identical cloning protocol. Semitransparent bars correspond to total RNA, and full bars correspond to dmDis3l2CM&#8208;IP. Tail signature reports the three most abundant posttranscriptional modifications detected in the respective RNA class and cloning approach.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40958</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41008</offset>
+      <text>Identification of TRUMP complex substrates by RNA immunoprecipitation and high&#8208;throughput sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41111</offset>
+      <text>Western blot analysis associated with experiment shown in Fig&#160;5A. Actin serves as a control. Asterisk indicates non&#8208;specific signal, corresponding to hc&#8208;antibody signal.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41286</offset>
+      <text>Small RNA sequencing analysis. Strong RNA signal intensities between 10 and 20 nt observed for immunopurified dmDis3l2CM were gel&#8208;purified and subjected to small RNA cloning (see Materials and Methods). Resulting libraries were analyzed for RNA length (top right graph) and nucleotide content (bottom right graph). Small RNAs bound to dmDis3l2CM correspond to 3&#8242; uridine&#8208;rich, RNase&#8208;protected fragments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41698</offset>
+      <text>Western blot analysis of FLAG immunopurification in the presence of the indicated concentration of EDTA. Ago1 and actin are controls.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41832</offset>
+      <text>RNA&#8211;protein co&#8208;immunopurification experiments in the presence of the indicated concentration of EDTA. FLAG&#8208;tagged versions of indicated proteins were expressed in S2 cells, followed by immunopurification and RNA isolation. Co&#8208;immunopurified RNA was visualized by CIP/PNK treatment using &#947;&#8208;32P&#8208;ATP followed by denaturing polyacrylamide gel electrophoresis and phosphorimaging. Asterisk indicates non&#8208;specific contaminant.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42268</offset>
+      <text>Overview of experimental approach for S2 cell total RNA 3&#8242; end sequencing.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42345</offset>
+      <text>Statistics of total RNA 3&#8242; end sequencing library generated from S2 cell total RNA following the approach described in (E). rRNA, ribosomal RNA; ncRNA, non&#8208;coding RNA; tRNA, transfer RNA; snRNA, small nuclear RNA; snoRNA, small nucleolar RNA; mRNA, messenger RNA; mitochond., mitochondrial RNA; pre&#8208;miRNA, precursor microRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42677</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42727</offset>
+      <text>We next examined the 3&#8242; terminal posttranscriptional modification status of dmDis3l2CM&#8208;bound RNA (Fig&#160;5D and E) and compared it to steady&#8208;state, cellular total RNA, subjected to the same cloning procedure (Figs&#160;5D and E, and EV3E and F). Compared to total RNA, dmDis3l2CM&#8208;bound RNA species exhibited a higher degree of 3&#8242; terminal posttranscriptional modifications across all classes of substrates, with up to 99 and 95% of tailed reads in the case of pseudogenes and rRNA, respectively (Fig&#160;5D). Closer inspection of the tail nucleotide identity in dmDis3l2CM&#8208;bound RNA revealed that posttranscriptional modifications predominantly consisted of uridines across all substrate classes (Fig&#160;5E). The only exception to this was tRNA, which displayed a higher degree of posttranscriptional modification in total RNA (86%; Fig&#160;5D). These modifications predominantly consisted of CCA&#8208;addition events (Fig&#160;5E), an integral feature of bona fide mature tRNAs. But even for tRNA, dmDis3l2CM&#8208;bound substrates were uridine&#8208;tailed, albeit to a lesser extent compared to other substrates, and generally devoid of CCA&#8208;tailing signal (Fig&#160;5E). Not surprisingly given their low expression levels compared to other dmDis3l2CM&#8208;bound non&#8208;coding RNA species, pre&#8208;miRNA hairpins represented only a minor class of dmDis3l2&#8208;substrates (0.003%; Fig&#160;5C). Nevertheless, 13 pre&#8208;miRNAs immunopurified with dmDis3l2CM, half of which stemmed from mirtron loci (miR&#8208;2489, miR&#8208;1006, miR&#8208;3642, miR&#8208;3654, miR&#8208;2501, and miR&#8208;1007), consistent with the proposed function of TRUMP in the degradation of uridylated mirtron hairpins.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44370</offset>
+      <text>Together, our data provide the starting point for a systematic annotation of transcripts subjected to posttranscriptional uridylation and decay via the TRUMP complex in flies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44546</offset>
+      <text>Molecular basis for TRUMP complex&#8208;mediated quality control of RNA polymerase III transcripts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44641</offset>
+      <text>As a major feature of substrates bound by the TRUMP complex emerged RNA polymerase III products, such as 5S rRNA, RNase MRP, tRNA, snoRNA, and snRNA (Fig&#160;5). In fact, more than 90% of RNA bound by dmDis3l2CM could be assigned to such transcripts. To get further insights into the functional interaction between TRUMP and RNA polymerase III transcripts, we performed Northern hybridization experiments in genetically modified S2 cells and flies. We detected the appearance of a higher molecular weight isoform for 5S rRNA in S2 cells expressing a catalytic&#8208;inactive version of dmDis3l2, implying a role of dmDis3l2 in the decay of aberrant, unprocessed 5S rRNA transcripts (Fig&#160;EV4A). The fact that this molecular phenotype is not detectable upon depletion of dmDis3l2 indicated compensatory, alternative routes of decay. Validation of the ncRNA substrate RNase MRP, an essential ribonucleoprotein complex implicated in rRNA processing and initiation of mitochondrial DNA replication (Esakova &amp; Krasilnikov, 2010), revealed a significant accumulation upon depletion of dmDis3l2 (P&#160;&lt;&#160;10&#8722;2) and expression of a catalytic&#8208;mutant version of dmDis3l2 (P&#160;&lt;&#160;10&#8722;4), confirming a role of dmDis3l2 in the degradation of RNase MRP in cultured cells (Fig&#160;EV4E and G). To confirm these data in&#160;vivo, we performed CRISPR/Cas9 genome editing in flies, introducing either a frameshift mutation into the first common exon of the dmdis3l2 locus or an amino acid&#8208;exchange mutation in the predicted catalytic site of the endogenous dmdis3l2 locus (Fig&#160;EV4B&#8211;D). Similar to our observation in cultured cells, we also detected a significant upregulation of RNase MRP RNA in whole male flies expressing a catalytic&#8208;inactive version of dmDis3l2 (P&#160;&lt;&#160;0.002; Fig&#160;EV4F and G). Further investigation revealed the accumulation of longer, apparently unprocessed isoforms of RNase MRP upon depletion of dmDis3l2 in S2 cells and in flies (Fig&#160;EV4I and J). This was even more apparent upon expression of catalytic&#8208;mutant dmDis3l2 (Fig&#160;EV4J). We made similar observations for tRNA, a class of non&#8208;canonical substrates that exhibited lowest level of uridylation among all substrates (Fig&#160;5D and E). Closer investigation of individual tRNA loci, such as tRNAAla(TGC), revealed that dmDis3l2CM&#8208;bound species did not overlap with the annotated, mature tRNA 3&#8242;&#160;end, but instead extended ~12 nt downstream, overlapping with a U&#8208;rich region, presumably corresponding to the polymerase III terminator (Fig&#160;6A), similar to the observations of the RNase MRP locus (Fig&#160;EV4H). dmDis3l2CM&#8208;bound species therefore corresponded to unprocessed, 3&#8242; trailer&#8208;containing, primary tRNA transcripts. In contrast, the major tRNA 3&#8242; end in total RNA overlapped precisely with the annotated, mature tRNA, containing non&#8208;genome&#8208;matching CCA additions (prefix&#8208;matching reads, PM; Fig&#160;6A), a signal that was absent in dmDis3l2CM (Fig&#160;6A). For a more global view, we performed meta&#8208;analysis of 68 tRNA loci (see Appendix&#160;Supplementary Materials and Methods for details), which were abundantly recovered in sequencing data of dmDis3l2CM&#8208;bound RNA. Across all loci, we detected strongest signal downstream of the annotated tRNA 3&#8242; end, overlapping with high genomic thymine content (Fig&#160;6B). This observation supports the hypothesis that TRUMP complex targets unprocessed, 3&#8242;&#160;trailer&#8208;containing tRNA transcripts. In fact, Northern hybridization experiments using total RNA prepared from adult male flies depleted of dmDis3l2 by CRISPR/Cas9 genome editing revealed a significant increase in signal using a probe against the 3&#8242; trailer region of tRNAAla(TGC) (P&#160;&lt;&#160;0.006, Student's t&#8208;test; Fig&#160;6C and D). An even higher accumulation was observed for the catalytic&#8208;inactive dmDis3l2 (P&#160;&lt;&#160;0.002; Fig&#160;6C and D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>48464</offset>
+      <text>Validation of dmDis3l2CM&#8208;bound RNA reveals unprocessed RNA pol III transcripts as targets for TRUMP&#8208;mediated decay</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48583</offset>
+      <text>Northern hybridization experiments using total RNA derived from wild&#8208;type (wt) S2 cells, S2 cells depleted of dmDis3l2 by CRISPR/Cas9 (dmdis3l2ko), or S2 cells expressing FLAG&#8208;tagged catalytic&#8208;mutant dmDis3l2 (dmDis3l2CM OE). A probe against 5S rRNA was used.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48849</offset>
+      <text>Western blot analysis of ovary lysate derived from wild&#8208;type flies (w1118), flies depleted of Tailor (tailorc4/6) or dmDis3l2 (dmdis3l2&#8722;/&#8722;), and flies in which the endogenous dmdis3l2 locus was edited by CRISPR/Cas9 to express a catalytic&#8208;inactive version of dmDis3l2 (dmdis3l2CM/CM). Levels of dmDis3l2 and Tailor were determined using monoclonal antibodies. Actin serves as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49252</offset>
+      <text>Schematic representation of the predicted structure of dmdis3l2/cg16940 gene and RNA transcripts. The location of a 5&#8208;bp deletion introduced by CRISPR/Cas9 genome engineering in flies (dmdis3l2&#8722;/&#8722;), or a mutation introducing an amino acid exchange (D to A) at the predicted catalytic site of dmDis3l2 is indicated and confirmation by Sanger sequencing of a PCR product prepared from the locus of WT (w1118) flies and flies homozygous for dmdis3l2&#8722;/&#8722;or dmdis3l2CM/CM is shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49738</offset>
+      <text>Protein domain organization of wild&#8208;type dmDis3l2 and a predicted truncation generated by the frameshift mutation shown in (C), as well as the location of the catalytic mutation, is depicted.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49932</offset>
+      <text>Northern hybridization experiments using total RNA derived from Drosophila S2 cells. Wild&#8208;type S2 cells, cells depleted of dmDis3l2 by CRISPR/Cas9 (dmdis3l2KO), or cells expressing a catalytic&#8208;mutant version of dmDis3l2 (dmDis3l2CM) were used. A probe against RNase MRP RNA was used; ethidium bromide staining serves as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50275</offset>
+      <text>Northern hybridization experiments using total RNA derived from adult whole male flies. Wild&#8208;type (w1118) flies, flies depleted of dmDis3l2 by CRISPR/Cas9 (dmdis3l2&#8722;/&#8722;), or flies homozygous for a point mutation in the predicted catalytic site of endogenous dmdis3l2 (dmdis3l2CM) were used. A probe against RNase MRP RNA was used; ethidium bromide staining serves as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50666</offset>
+      <text>Quantification of four independent biological replicates of experiment shown in (E) and (F). Abundance of RNase MRP RNA in the respective genetic mutant background relative to wild&#8208;type samples is reported. Values report mean&#160;&#177;&#160;SD. P&#8208;values were determined by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50953</offset>
+      <text>3&#8242; end counts for the indicated locus in the Drosophila melanogaster genome, corresponding to RNase MRP RNA, in libraries generated from total RNA or dmDis3l2CM&#8208;IP. PM, prefix&#8208;matching (i.e., tailed); GM, genome&#8208;matching.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51183</offset>
+      <text>Experimental approach to test 3&#8242; end heterogeneity of RNase MRP RNA. A DNA oligonucleotide was annealed to RNase MRP RNA in total RNA followed by RNase H treatment, resulting in the endonucleolytic cleavage of the transcript. Shortening of the transcript enables to test 3&#8242; end heterogeneity in high&#8208;resolution Northern hybridization experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51536</offset>
+      <text>Northern hybridization experiment using the experimental approach described in (I). Total RNA from S2 cells or adult whole male flies of the indicated genotype were used. Probes against the 5&#8242; (top) or 3&#8242; cleavage product (bottom) were used. Signals corresponding to extended, unprocessed 3&#8242; isoforms of RNase MRP RNA are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51875</offset>
+      <text>3&#8242; end counts for the indicated loci in the Drosophila melanogaster genome, in libraries generated from total RNA or dmDis3l2CM&#8208;IP. SnoRNA:U3:54b (K), snoRNA:185 (L), and snRNA:U6 (M) are shown. PM, prefix&#8208;matching (i.e. tailed); GM, genome&#8208;matching.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52134</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>52184</offset>
+      <text>The TRUMP complex targets unprocessed, 3&#8242; trailer&#8208;containing tRNA for decay</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52264</offset>
+      <text>3&#8242; end counts for the indicated locus in the Drosophila melanogaster genome, corresponding to tRNA alanine (TGC) in libraries generated from total RNA or dmDis3l2CM&#8208;IP. PM, prefix&#8208;matching (i.e., tailed); GM, genome&#8208;matching.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52498</offset>
+      <text>Meta&#8208;analysis of 3&#8242; end counts in dmDis3l2CM&#8208;IP mapping to the indicated region around the annotated 3&#8242; end of 68 tRNA loci in the Drosophila melanogaster genome. Cumulative relative distribution of 3&#8242; end signal, relative to the annotated 3&#8242; end, is reported (bottom). The average genome thymine (T)&#8208;content for the same regions is displayed (top).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52862</offset>
+      <text>Northern hybridization experiment using total RNA from adult whole male flies using probes against 3&#8242; trailer or mature tRNAAla(TGC). Wild&#8208;type flies (w1118) or flies bearing a homozygous frameshift mutation in the first coding exon (dmDis3l2&#8722;/&#8722;) or a homozygous amino acid&#8208;exchange mutation in the catalytic site (dmDis3l2CM) in the endogenou dmdis3l2 locus in the same genetic background were used. Probes against 2S rRNA served as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53325</offset>
+      <text>Quantification of four independent biological replicates of experiment shown in (C). P&#8208;values determined by Student's t&#8208;test. Data represent mean &#177; SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53482</offset>
+      <text>Exoribonuclease assay using immunopurified dmDis3l2 and in&#160;vitro&#8208;transcribed, 5&#8242;&#160;radiolabeled mature tRNA, containing a CCA modification or 3&#8242; trailer&#8208;containing tRNA. Reactions were incubated for the indicated time and subjected to polyacrylamide gel electrophoresis and phosphorimaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53781</offset>
+      <text>Quantification of three independent replicates of experiment shown in (E). Data represent mean&#160;&#177;&#160;SD. Decay rates (kobs)&#160;&#177;&#160;SEM of fit were determined upon fitting to single&#8208;exponential decay kinetics.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>53989</offset>
+      <text>Model for TRUMP&#8208;mediated quality control of tRNA. In the process of tRNA maturation, RNase P removes the 5&#8242; leader and tRNase Z the 3&#8242; trailer sequence, followed by CCA addition and export. Premature export of unprocessed tRNA results in degradation by dmDis3l2, recognizing the uridine&#8208;rich 3&#8242; end of the 3&#8242; trailer, a hallmark of RNA polymerase III terminators. In contrast, mature CCA&#8208;modified tRNA is resistant against TRUMP&#8208;mediated decay.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54450</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54500</offset>
+      <text>Because unprocessed tRNA transcripts contain uridine&#8208;rich 3&#8242;&#160;ends&#8212;the signature of RNA polymerase III terminators&#8212;we predicted that dmDis3l2 would degrade such transcripts independent of the TUTase Tailor. To test this hypothesis, we performed in&#160;vitro RNA decay assays, using immunopurified dmDis3l2 and in&#160;vitro&#8208;transcribed, 5&#8242; radiolabeled tRNA. In fact, we observed rapid decay of 3&#8242; trailer&#8208;containing tRNA at rates that were 60&#8208;fold faster (kobs&#160;=&#160;0.6&#160;min&#8722;1), compared to mature, CCA&#8208;modified tRNA, which remained stable throughout the duration of the assay (kobs&#160;=&#160;0.01&#160;min&#8722;1; Fig&#160;6E and F).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55133</offset>
+      <text>Together, our results support a role of the TRUMP complex in cytoplasmic tRNA quality control (Fig&#160;6G): Upon premature export to the cytoplasm, unprocessed, 3&#8242; trailer&#8208;containing tRNAs are targeted for rapid decay, a process that is stimulated by uridine&#8208;rich 3&#8242; ends, introduced through inherent features of RNA polymerase III terminators.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55483</offset>
+      <text>Together with initial observations on 5S rRNA and RNase MRP RNA, further inspection of dmDis3l2CM&#8208;bound sequences adverts to a more general function of TRUMP in the quality control of RNA polymerase III transcripts beyond tRNA, possibly also contributing to the decay of unprocessed snoRNA (i.e. snoRNA U3 and snoRNA 185; Fig&#160;EV4K and L) and mis&#8208;localized LSM&#8208;class snRNA (i.e. snRNA U6; Fig&#160;EV4M).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55890</offset>
+      <text>RNase II/R enzymes act as evolutionarily adapted &#8220;readers&#8221; of posttranscriptional marks</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55982</offset>
+      <text>The 3&#8242; terminal posttranscriptional modification of RNA species by tailing is a deeply conserved strategy for priming 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay. A conceptually similar system to the here described cytoplasmic uridylation&#8208;triggered RNA decay by dmDis3l2 operates in bacteria (Kushner, 2002). In this case, however, 3&#8242; terminal adenylation&#8212;instead of uridylation&#8212;promotes degradation. For example, the homolog of dmDis3l2 in Escherichia coli&#8212;RNase R&#8212;processively degrades 3&#8242; adenylated RNA species in one of three major routes for exoribonucleolytic mRNA turnover in bacteria (Regnier &amp; Arraiano, 2000; Andrade et&#160;al, 2009). We therefore tested if RNase R&#8212;like Dis3l2 in animals&#8212;acts as a direct &#8220;reader&#8221; of destabilizing posttranscriptional marks. To this end, we incubated recombinant E.&#160;coli RNase R (ecoRNase R) with 5&#8242; radiolabeled RNA substrate containing four randomized 3&#8242; terminal nucleotides (Fig&#160;2A) for 5, 10, and 30&#160;s and subjected residual substrate to high&#8208;throughput sequencing (Fig&#160;7 and Appendix&#160;Fig S3A). Then, we compared the decay rates of 256 different substrates between ecoRNase R and immunopurified dmDis3l2 (Fig&#160;7 and Appendix&#160;Fig S3B&#8211;D). Similar to dmDis3l2, ecoRNase R exhibited strong susceptibility to RNA secondary structures: Structured RNAs (EFE groups 1&#8211;3) were degraded significantly slower (P&#160;&lt;&#160;10&#8722;4, Mann&#8211;Whitney test), whereas single&#8208;stranded substrates were degraded significantly faster (EFE group 6, P&#160;&lt;&#160;10&#8722;4; Fig&#160;7A). The inability to attack RNA 3&#8242;ends that are embedded in secondary structures therefore constitutes a conserved feature of RNase II/R enzymes. Primary sequence analysis of single&#8208;stranded, unstructured substrates revealed that slowly degrading substrates exhibited an enrichment in guanosine for both dmDis3l2 and ecoRNase R (Fig&#160;7B). [Note that the dmDis3l2&#8208;associated terminal uridylyltransferase Tailor exhibits high uridylation activity on substrates ending in 3&#8242; G, indicating a functional cooperativity in the conversion of RNA species into dmDis3l2&#8208;substrates (Bortolamiol&#8208;Becet et&#160;al, 2015; Reim&#227;o&#8208;Pinto et&#160;al, 2015).] In contrast, rapidly degraded substrates were generally enriched in uridine for dmDis3l2, but exhibited strongest enrichment for adenine in the case of ecoRNase R (Fig&#160;7B). Subsequent grouping of substrates according to individual nucleotide content confirmed the statistically significant, faster decay of substrates containing two (P&#160;&lt;&#160;0.05, Mann&#8211;Whitney test) or three 3&#8242; terminal adenines (P&#160;&lt;&#160;0.01) for ecoRNase R, while in the absence of adenine RNA decay was significantly slower (P&#160;&lt;&#160;0.01; Fig&#160;7C). In contrast, increasing uridine content did not accelerate decay significantly (Fig&#160;7C). Also among homopolymeric 3&#8242;&#160;ends, (A)4&#8208;substrates were degraded fastest. This observation contrasted similar analyses for dmDis3l2: Only increasing U&#8208;content had a statistically significant accelerating effect on RNA decay (P&#160;&lt;&#160;10&#8722;4 for 3&#8242; ends containing two or three uridine; Fig&#160;7C), and the absence of uridine significantly decreased decay kinetics (P&#160;&lt;&#160;10&#8722;4; Fig&#160;7C). Taken together, our high&#8208;throughput biochemical characterization provides experimental evidence for an evolutionarily adapted function of RNase II/R enzymes as &#8220;readers&#8221; of destabilizing posttranscriptional marks&#8212;adenylation in prokaryotes and uridylation in eukaryotes (Fig&#160;7D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>59445</offset>
+      <text>High&#8208;throughput biochemical comparison of Escherichia coli RNase R and D.&#160;melanogaster Dis3l2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>59542</offset>
+      <text>Impact of RNA secondary structures on RNA decay rates (kobs) of 256 different RNA substrates subjected to E.&#160;coli RNase R (ecoRNase R)&#8208; or Drosophila melanogaster Dis3l2 (dmDis3l2)&#8208;directed RNA decay assay as described in Fig&#160;2. RNA secondary structures were determined by RNAfold (Gruber et&#160;al, 2008) and reported as effective free energy (EFE). Error bars represent SEM of curve fit. Gray boxes represent Tukey boxplot of individual EFE groups. White line indicates median. P&#8208;value determined by Mann&#8211;Whitney test comparing individual EFE groups against all substrates. Unstructured RNAs used for subsequent analysis are indicated (EFE groups 4&#8211;6).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>60206</offset>
+      <text>Nucleotide content of randomized 3&#8242; end sequence among the indicated number of substrate RNAs, ranked according to decay kinetics from slow (left) to fast (right). Fold change in abundance for individual nucleotides is reported (bottom). Only unstructured RNA substrates (see A) were considered.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>60504</offset>
+      <text>Decay rate of the indicated number of sequences, grouped according to individual nucleotide content in the randomized 3&#8242; end sequence. Data are represented as boxplot, outliers are not shown. P&#8208;values report significant differences compared to all substrates as determined by Mann&#8211;Whitney test. Gray area represents the inner quartile range and white line the median of all substrates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>60896</offset>
+      <text>RNase II/R enzymes act as conserved molecular &#8220;readers&#8221; of destabilizing posttranscriptional modifications. In prokaryotes, for example, E.&#160;coli, structured RNA is marked by a poly(A) polymerase (PAPase) for subsequent degradation by RNase R, 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease with intrinsic preference for 3&#8242; adenylated RNA. In eukaryotes, for example, flies or mammals, structured RNA undergoes 3&#8242; terminal uridylation by a terminal uridylyltransferase (TUTase) for subsequent degradation by Dis3l2, a 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease with intrinsic preference for 3&#8242; uridylated RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>61492</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61503</offset>
+      <text>Uridylation of RNA species represents an emerging new layer in the regulation of gene expression. Here, we show that uridylation triggers RNA degradation in Drosophila. Through a series of experiments, we established the molecular basis for uridylation&#8208;triggered RNA decay in flies. We first identified the terminal RNA uridylation&#8208;mediated processing (TRUMP) complex consisting of the TUTase Tailor and the previously undescribed, bona fide 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease CG16940/dmDis3l2 (Fig&#160;1). Together with its ortholog Dis3/Rrp44, the core catalytic subunit of the exosome, Dis3l2 belongs to the RNase II/R family of exoribonucleases and is conserved in fission yeast, plants (aka SOV), and animals (Gallouzi &amp; Wilusz, 2013). In contrast to Dis3, Dis3l2 lacks a N&#8208;terminal PIN domain which mediates the association of Rrp44 with the exosome in yeast (Schneider et&#160;al, 2009). An exosome&#8208;independent function of dmDis3l2 is experimentally supported by the absence of any exosome component in our mass spectrometry data (Table&#160;EV1). Hence, our data establish a novel and autonomous route to cytoplasmic 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay in flies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62675</offset>
+      <text>Tailor and dmDis3l2 stably interact through N&#8208;terminal dimerization modules consisting of a DUF1439 domain in Tailor and a predicted coiled&#8208;coil motif in dmDis3l2 (Figs&#160;1D&#8211;G and EV1F and G). To our knowledge, this finding represents the first evidence for a direct coupling of a TUTase to exonucleolytic decay. Tailor and dmDis3l2 interact not only physically but also functionally: dmDis3l2 possesses a preference for single&#8208;stranded, 3&#8242; uridylated RNA as determined in an unbiased assay for the biochemical characterization of 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleases (Fig&#160;2). Uridylation&#8208;triggered&#160;decay seems to be a conserved feature of Dis3l2 enzymes, because a similar specificity has been reported for its mammalian homolog (Chang et&#160;al, 2013; Ustianenko et&#160;al, 2013; Faehnle et&#160;al, 2014). In fact, a molecular explanation for how uridylation may prompt decay by Dis3l2 has been proposed based on the crystal structure of murine Dis3l2 bound to oligouridine (Faehnle et&#160;al, 2014). Three RNA&#8208;binding domains (S1, CSD1, and CSD2) in Dis3l2 form an open funnel on one side of the catalytic domain that navigates RNA substrates to the active site in the RNase II/R domain, a path that is accompanied through multiple uracil&#8208;specific interactions (Faehnle et&#160;al, 2014; Lv et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63982</offset>
+      <text>Our data propose a dual function of 3&#8242; terminal uridylation: (i) The addition of uridines to single&#8208;stranded RNA significantly enhances decay kinetics, most certainly because it increases the affinity of substrates to dmDis3l2 (Fig&#160;2) (Faehnle et&#160;al, 2014). (ii) Uridylation can also prime the decay of structured RNA substrates, which&#8212;if not tailed&#8212;serve as poor substrates for dmDis3l2&#8208;directed decay (Figs&#160;2 and 3). In this case, oligo&#8208;uridylation provides a single&#8208;stranded landing site for the initiation of 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleolytic decay. Notably, the primary sequence composition of the single&#8208;stranded RNA extension is the major criterion for the initiation of dmDis3l2&#8208;directed decay of structured RNA (Fig&#160;EV2). How exactly uridylated RNA species are handed over to dmDis3l2 upon uridylation remains to be established, but the observed sigmoidal reaction kinetics of Tailor&#8208;primed decay (Fig&#160;3A and B) and the strong increase in observed decay rates upon penta&#8208; and deca&#8208;uridylation&#160;(Fig&#160;3C and D) may indicate an underlying shift in relative substrate affinities.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65099</offset>
+      <text>In flies, Tailor&#8208;directed uridylation regulates the maturation of microRNA precursors, particularly mirtrons and evolutionary young miRNAs, possibly serving as a barrier to the de novo generation of miRNAs (Bortolamiol&#8208;Becet et&#160;al, 2015; Reim&#227;o&#8208;Pinto et&#160;al, 2015). Here, we expand the model for pre&#8208;miRNA regulation, by proposing a two&#8208;step model: (i) The addition of short uridine tails (i.e., mono&#8208; to tri&#8208;uridylation) masks the canonical two&#8208;nucleotide 3&#8242;&#160;overhang of miRNA hairpins and prevents the ability of Dicer&#8208;1 to efficiently generate mature miRNAs (Reim&#227;o&#8208;Pinto et&#160;al, 2015). (ii) Extension of the uridine tail to 5 nts or longer ultimately initiates dmDis3l2&#8208;directed processive 3&#8242;&#8208;to&#8208;5&#8242; exonucleolytic decay, prompting the clearance of hairpins. In this regard, the regulation of miRNA maturation in flies is reminiscent of a model proposed for the regulation of let&#8208;7 maturation in mouse embryonic stem cells (Chang et&#160;al, 2013; Ustianenko et&#160;al, 2013). A major difference however lies in the targeting strategies. While uridylation in mammals is induced through recruitment of TUT4 by its RNA&#8208;binding partner protein Lin28, specificity for mirtron uridylation in flies arises from intrinsic substrate preferences of Tailor that targets RNAs ending in 3&#8242;G (or 3&#8242;U) (Reim&#227;o&#8208;Pinto et&#160;al, 2015). Notably, the G&#8208;preference of Tailor complements the inability of dmDis3l2 to degraded even single&#8208;stranded RNA ending in G (Fig&#160;2).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66596</offset>
+      <text>By establishing an in&#160;vitro assay for the quantitative analysis of posttranscriptional modification of cellular RNA in lysate of Drosophila S2 cells, we could show that multiple RNA species are subjected to posttranscriptional uridylation (Fig&#160;4). This assay implies that uridylation acts as a transient, destabilizing posttranscriptional mark. In combination with genetic manipulations using CRISPR/Cas9, we find that Tailor is required for uridylation, and depletion of dmDis3l2 results in the stabilization of uridylated RNA. Our data therefore implicate the TRUMP complex as a novel player in general cellular RNA metabolism.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67228</offset>
+      <text>Through RNA immunopurification of dmDis3l2CM, followed by high&#8208;throughput sequencing, we found that a variety of transcripts, including rRNA, ncRNA, tRNA, snoRNA, snRNA, and mRNA, are subjected to uridylation in cultured Drosophila cells, albeit to varying extent (Fig&#160;5). Our data therefore provide a road map for the functional dissection of uridylation&#8208;triggered RNA decay. Notably, germline mutations in DIS3L2 have been shown to cause Perlman syndrome in humans, a congenital overgrowth disorder with high neonatal mortality and predisposition to Wilms&#8217; tumor (Astuti et&#160;al, 2012; Higashimoto et&#160;al, 2013). But the disease&#8208;causing molecular targets of Dis3l2 remain enigmatic. Future investigations into the substrates and consequences of uridylation&#8208;triggered RNA decay at the organismal level will certainly contribute to better understanding the molecular origin of this disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68129</offset>
+      <text>The identification of TRUMP substrates revealed RNA polymerase III transcripts as major targets for uridylation&#8208;triggered decay. Using genetically modified S2 cells and flies, combined with biochemical reconstitution assays, we showed that dmDis3l2 targets aberrant, unprocessed RNA polymerase III transcripts for decay, revealing a novel, unexpected function of uridylation&#8208;triggered RNA decay in cytoplasmic RNA quality control (Fig&#160;6). This is exemplified by tRNAs, a class of non&#8208;coding RNAs that undergo sequential processing in the nucleus, resulting in the removal of short extensions at the 5&#8242; (5&#8242; leader) and 3&#8242; end (3&#8242; trailer) of primary transcripts, followed by the addition of CCA, which ultimately undergoes aminoacylation upon export to the cytoplasm, resulting in mature tRNAs that can participate in protein synthesis (Phizicky &amp; Hopper, 2010). The accumulation of 3&#8242; trailer&#8208;containing transcripts in flies depleted of dmDis3l2, or genetically modified to express a catalytic&#8208;mutant version, indicates a new, cytoplasmic layer of tRNA quality control, targeting unprocessed 3&#8242; trailer&#8208;containing transcripts for decay. A similar layer of quality control may be expanded to other substrates, including RNA polymerase III&#8208;transcribed snRNA and snoRNA (Fig&#160;EV4K&#8211;M). A key common feature that apparently drives decay in the cytoplasm is uridine&#8208;rich 3&#8242; ends that represent signatures of RNA polymerase III terminators, hence serving as a molecular identifier for decay (Fig&#160;6). In this respect, it is unclear whether transcripts containing the signature of RNA polymerase III terminators actually require the activity of Tailor to initiate dmDis3l2&#8208;directed decay, since 3&#8242; trailer&#8208;containing tRNAs are readily degraded by immunopurified dmDis3l2 in&#160;vitro in the absence of Tailor (Fig&#160;6E and F). However, previous results showed that Tailor exhibits enhanced uridylation activity on RNA substrates ending not only in 3&#8242;G but also in 3&#8242;U (Reim&#227;o&#8208;Pinto et&#160;al,&#160;2015), indicating that extended uridylation of terminator&#8208;signature&#8208;containing transcripts might further enhance decay rates in&#160;vivo. Note that while this manuscript was under review, two studies implicated mammalian Dis3l2 in the quality control of non&#8208;coding RNAs, providing further support to a conserved function of Dis3l2 in cytoplasmic RNA surveillance (&#321;abno et&#160;al, 2016; Pirouz et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70564</offset>
+      <text>While the TRUMP complex provides a molecular explanation for uridylation&#8208;triggered RNA decay, we currently cannot exclude that uridylation in flies may also serve a function other than prompting RNA decay. In fact, immunoprecipitation of endogenous dmDis3l2 revealed that Tailor may exist in a dmDis3l2&#8208;bound and dmDis3l2&#8208;unbound state (Fig&#160;EV1C). In contrast, genetic evidence indicates that dmDis3l2 protein stability depends on TRUMP complex formation, because depletion of Tailor results in co&#8208;depletion of dmDis3l2 both in cultured cells and in&#160;vivo in flies (Figs&#160;4A and EV4B). Notably, previous gain&#8208;of&#8208;function experiments indicate that Tailor can enhance the biogenesis of selected miRNAs by restoring the 2&#8208;nt 3&#8242; overhang in miRNA precursors, a hallmark for the efficient processing by Dicer (Reim&#227;o&#8208;Pinto et&#160;al, 2015). Hence, future studies are required to carefully dissect the consequences of Tailor&#8208;directed uridylation in flies, also taking possible functions other than RNA decay into account.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71599</offset>
+      <text>In terms of both function and substrates, the TRUMP complex may act as the cytoplasmic counterpart of the nuclear TRAMP complex, which prompts the exosomal degradation of aberrant transcripts in eukaryotes (Houseley &amp; Tollervey, 2009; Schmidt &amp; Butler, 2013). The TRAMP complex is composed of a non&#8208;canonical poly(A) polymerase Trf4 or Trf5, a zinc knuckle protein Air1 or Air2, and the RNA helicase Mtr4 and tags defective nuclear RNAs with a short poly(A) tail, ultimately resulting their degradation via the nuclear exosome, involving Rrp6 and Dis3/Rrp44 (LaCava et&#160;al, 2005; Vanacova et&#160;al, 2005; Wyers et&#160;al, 2005; Jia et&#160;al, 2011; Schmidt &amp; Butler, 2013). However, in contrast to the TRUMP complex, exosomal degradation initiated by the TRAMP complex does not seem to involve the sequence&#8208;specific recognition of the posttranscriptional modification. Instead, the RNA helicase Mtr4 may bridge TRAMP and exosome functions by handing off transcripts directly to the exosome or Rrp6 (Jackson et&#160;al, 2010; Weir et&#160;al, 2010). Consistent with this hypothesis, TRAMP can trigger the degradation of a subset of target RNAs even in the absence of functional Trf4 and Mtr4, while others require adenylation and RNA unwinding activities, presumably promoting the productive presentation of RNA substrates to Rrp6 or the exosome (Casta&#241;o et&#160;al, 1996; LaCava et&#160;al, 2005; Wyers et&#160;al, 2005; Houseley et&#160;al, 2007; Rougemaille et&#160;al, 2007; San Paolo et&#160;al, 2009; Callahan &amp; Butler, 2010). This is different to the situation in bacteria, where adenylation likewise promotes the decay of RNA species, such as tRNA, rRNA and mRNA (Cheng &amp; Deutscher, 2003, 2005; Mohanty &amp; Kushner, 2010). Among the three major 3&#8242;&#8208;to&#8208;5&#8242; exoribonucleases in E.&#160;coli, RNase R is the only enzyme that is able to efficiently digest through regions of extensive secondary structure, while RNase II cannot and PNPase requires the assistance of the DEAD&#8208;box RNA helicase RhlB (Cheng &amp; Deutscher, 2002, 2005; Khemici &amp; Carpousis, 2004). In this respect, RNase R is very similar to Dis3l2 because both require a single&#8208;stranded 3&#8242; extension as an entry site for initiation of decay that then can proceed through highly structured regions. In E.&#160;coli, this entry site is generated by PAP I, a poly(A) polymerase that adenylates mRNA, tRNA, and rRNA (Andrade et&#160;al, 2009; Mohanty &amp; Kushner, 2010). Based on high&#8208;throughput biochemical characterization, we provide evidence that RNase R acts as a terminal adenylation&#8208;triggered exoribonuclease (Fig&#160;7). Our data therefore imply a conserved molecular function of RNase II/R enzymes as &#8220;readers&#8221; of destabilizing posttranscriptional marks&#8212;uridylation in eukaryotes and adenylation in prokaryotes&#8212;that play important roles in RNA surveillance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>74395</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74417</offset>
+      <text>General methods</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74433</offset>
+      <text>Total RNA from S2&#8208;S cells and whole flies was extracted using TRIzol reagent (Ambion). Stable transgenic and genetically modified Drosophila S2 cells and fly stocks were generated as described (Ameres et&#160;al, 2010; Reim&#227;o&#8208;Pinto et&#160;al, 2015). Northern hybridization experiments were performed as described previously (Han et&#160;al, 2011). Protein interaction analysis by mass spectrometry was performed using nano&#8208;LC&#8208;MS. A monoclonal antibody against dmDis3l2/CG16940 was generated upon expression and purification of a His&#8208;tagged N&#8208;terminal sequence of dmDis3l2/CG16940 (&#8208;PC, amino acids 97&#8211;259) in E.&#160;coli. Flies carrying a 5&#8208;bp frameshift mutation in the first common exon of cg16940/dmdis3l2 or a single amino acid exchange in the catalytic site of the endogenous cg16940/dmdis3l2 locus were generated by CRISPR/Cas9 genome editing and verified by Sanger sequencing and Western blot analysis (see Fig&#160;EV4B&#8211;D). Detailed information is given in Appendix&#160;Supplementary Materials and Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>75448</offset>
+      <text>Co&#8208;immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75473</offset>
+      <text>S2 cells were transiently co&#8208;transfected with pAFMW&#8208;CG16940/dmDis3l2&#8208;PC and pAGW&#8208;Tailor encoding full&#8208;length or truncated versions of Tailor or pAGW&#8208;Nibbler, followed by lysate preparation using 1&#215;&#160;lysis/IP buffer (30&#160;mM HEPES&#8211;KOH pH 7.4, 100&#160;mM KAc, 2&#160;mM MgAc, 5&#160;mM DTT, 0.5% NP&#8208;40, 5% glycerol). Immunoprecipitation of FLAG&#8208;CG16940/dmDis3l2 was performed using mouse anti&#8208;FLAG M2 (Sigma) coupled to Protein G Dynabeads (Invitrogen), including five wash steps with 1&#215;&#160;lysis/IP buffer. Interaction was determined by Western blot analysis using mouse anti&#8208;FLAG M2 (Sigma) and rabbit anti&#8208;GFP (gift from S.&#160;Dorner). For immunoprecipitation of endogenous dmDis3l2, mouse&#8208;&#945;&#8208;dmDis3l2 was coupled to GammaBind G Sepharose (GE Healthcare).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76244</offset>
+      <text>Recombinant protein interaction studies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76284</offset>
+      <text>Recombinant proteins for Strep II pull&#8208;down experiments were expressed in insect cells using Baculovirus expression system, bound to Strep&#8208;Tactin beads and co&#8208;purified with His&#8208;tag proteins followed by SDS&#8211;PAGE and Coomassie blue staining. Recombinant proteins for GST pull&#8208;down experiments were expressed in E.&#160;coli Rosetta II, and interaction was tested using Glutathione Sepharose 4 Fast Flow beads (GE Healthcare), followed by SDS&#8211;PAGE and Coomassie blue staining. For more details, see Appendix&#160;Supplementary Materials and Methods.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>76837</offset>
+      <text>Immunocytochemistry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76857</offset>
+      <text>Immunostaining of S2 cells was performed as previously described (Reim&#227;o&#8208;Pinto et&#160;al, 2015). For co&#8208;imaging of Tailor and dmDis3l2, S2 cells were transiently transfected with pAFMW&#8208;Tailor and pAGW&#8208;dmDis3l2. Anti&#8208;Myc antibody (M4439; Sigma) was used at 1:2,000 dilution. Anti&#8208;dmDis3l2 was used at 1:150 dilution.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>77183</offset>
+      <text>In vitro RNA decay assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>77208</offset>
+      <text>FLAG&#8208;tagged dmDis3l2 and Tailor were immunopurified upon expression in S2 cells as described previously (Reim&#227;o&#8208;Pinto et&#160;al, 2015). In vitro RNA decay assays employed 10&#160;nM 5&#8242; radiolabeled substrate RNA and FLAG&#8208;dmDis3l2 (and if indicated Tailor) under RNAi assay conditions at 25&#176;C (Ameres et&#160;al, 2010), but omitting the ATP&#8208;regeneration system and including 0.6&#160;&#956;M UTP in assays that included Tailor. RNase R (Biozym) was assayed under the same experimental conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>77697</offset>
+      <text>CRISPR/Cas9 genome editing in S2 cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>77736</offset>
+      <text>Drosophila S2 cells were transfected with a mixture of two pAc&#8208;sgRNA&#8208;Cas9 plasmids encoding Cas9 and a sgRNA targeting a 46&#8208;bp region in the second exon of tailor/cg1091B or a 48&#8208;bp region in the second exon of dmdis3l2/cg16940. For guide RNA sequences, see Appendix&#160;Table&#160;S1. Cells were selected for transgene expression using puromycin (5&#160;&#956;g&#160;ml&#8722;1) for 9&#160;days, followed by serial dilution under non&#8208;selective conditions and expansion of single&#8208;cell clones. Individual clones were&#160;tested for successful targeting by Surveyor assay, and positive candidates were verified by Western blot analysis (Fig&#160;4A and E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>78369</offset>
+      <text>RNA uridylation assay in S2 cell lysate</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>78409</offset>
+      <text>For lysate preparation, S2 cells were pelleted and washed twice in 1&#215;&#160;PBS. The pellet was resuspended in 2 cell pellet volumes of 1&#215;&#160;lysis/IP buffer (30&#160;mM HEPES&#8211;KOH pH 7.4, 100&#160;mM KOAc, 2&#160;mM MgOAc, 0.5% NP&#8208;40, 5&#160;mM DTT, complete ETDA&#8208;free proteinase inhibitor cocktail [Roche]), and the cells were disrupted with ~50 strokes of a Dounce homogenizer using a &#8220;B&#8221; pestle followed by centrifugation at 18,000&#160;&#215;&#160;g for 30&#160;min at 4&#176;C. Cleared lysate was normalized for protein content and assayed under RNAi conditions at 25&#176;C using 625&#160;nM &#945;&#8208;32P&#8208;UTP or &#945;&#8208;32P&#8208;ATP (3,000&#160;Ci&#160;mmol&#8722;1; Perkin Elmer). Samples were taken at the indicated time points, and reaction was stopped by adding 20 volumes of 2&#215;&#160;PK buffer (200&#160;mM Tris&#8211;HCl pH 7.5, 25&#160;mM EDTA pH 8, 300&#160;mM NaCl, and 2% w/v SDS). Reactions were treated with proteinase K at 65&#176;C for 15&#160;min, followed by phenol/chloroform extraction and ethanol precipitation. RNA pellets were resuspended in formamide loading buffer and subjected to 15% denaturing polyacrylamide gel electrophoresis. Gels were dried and exposed to storage phosphorimager screens.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>79547</offset>
+      <text>RNA library construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>79572</offset>
+      <text>Libraries for high&#8208;throughput biochemical characterization of dmDis3l2 and ecoRNase R and small RNA libraries were generated as previously described (Reim&#227;o&#8208;Pinto et&#160;al, 2015). For dmDis3l2 substrate identification, RNA co&#8208;immunoprecipitated with FLAG&#8208;tagged dmDis3l2 (or total RNA prepared from S2 cells as control) was subjected to 3&#8242; adapter ligation as described previously (Reim&#227;o&#8208;Pinto et&#160;al, 2015), followed by library preparation using the QuantSeq&#8208;Flex RNA&#8208;Seq Library preparation Kit (Lexogen), according to instructions of the manufacturer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>80144</offset>
+      <text>Data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80158</offset>
+      <text>Gel images were quantified using ImageQuant TL v7.0 (GE Healthcare). Curve fitting was performed according to the integrated rate law for a first&#8208;order reaction in Prism v7.0a (GraphPad). Statistical analyses were performed in Prism 7 v7.0a (GraphPad) or Excel v15.22 (Microsoft).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80441</offset>
+      <text>Quantitative protein interaction analysis of mass spectrometry data was performed using limma (Smyth, 2005).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>80550</offset>
+      <text>Bioinformatics analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80574</offset>
+      <text>For high&#8208;throughput characterization of dmDis3l2 and ecoRNase R substrate preferences, 3&#8242; adapter was cut once with cutadapt (v1.2.1). The random 4mers of 3&#8242; adapter were removed with fastx_trimmer of the fastx&#8208;toolkit (v0.0.13). Sequences with exact 4 nt length were counted, and the reads per million for each 4mer were calculated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>80916</offset>
+      <text>For small RNA library analysis (dmDis3l2 footprint RNA; Fig&#160;EV3B), adapter sequences were cut once with cutadapt (v1.2.1). The random 4mers on 5&#8242; and 3&#8242; were removed with fastx_trimmer of the fastx&#8208;toolkit (v0.0.13). Summary statistics (length, nt count, nt composition from end) were computed with custom scripts for the range of 7&#8211;18 nt.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>81265</offset>
+      <text>For analysis of libraries generated from dmDis3l2CM&#8208;bound RNA or total RNA, only the reverse run of PE50 sequencing was used. The random 4mers on the 5&#8242; were removed with fastx_trimmer of&#160;the fastx&#8208;toolkit (v0.0.13). The sequences were reverse&#8208;complemented. The reads were aligned with Tailor (v1.1) with a minimal prefix match length of 18 and one mismatch allowed in the middle of the query (Chou et&#160;al, 2015). Counts were calculated with htseq&#8208;count (v0.6.1p1). The parameters were stranded&#160;=&#160;yes and &#8220;intersection&#8208;nonempty&#8221;. A GTF containing the FlyBase r5.57 annotation was used. Reads with multiple alignments were counted as their fraction to each location/feature. Feature types were summarized by following hierarchy: rRNA, tRNA, pre&#8208;miRNA, transposable_element, pseudogene, ncRNA, snoRNA, snRNA, mRNA, intron.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>82107</offset>
+      <text>Accession number</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82124</offset>
+      <text>The accession number for high&#8208;throughput sequencing datasets in this manuscript is GEO: GSE84466.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>82224</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82245</offset>
+      <text>SLA, MMR&#8208;P, and RAM designed and conducted the experiments and wrote the manuscript. TRB, MMR&#8208;P, and SLA performed bioinformatics analysis of high&#8208;throughput sequencing datasets. PS and MJ performed protein interaction experiments on recombinant Tailor and dmDis3l2. KM performed mass spectrometry analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>82559</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>82580</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>82640</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>82663</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">328</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1539</infon>
+      <infon key="pub-id_pmid">20558712</infon>
+      <infon key="fpage">1534</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>82674</offset>
+      <text>Target RNA&#8208;directed trimming and tailing of small silencing RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">488</infon>
+      <infon key="pub-id_pmid">23800994</infon>
+      <infon key="fpage">475</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>82741</offset>
+      <text>Diversifying microRNA sequence and function</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">326</infon>
+      <infon key="pub-id_pmid">19103951</infon>
+      <infon key="fpage">316</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>82785</offset>
+      <text>The poly(A)&#8208;dependent degradation pathway of rpsO mRNA is primarily mediated by RNase R</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1618</infon>
+      <infon key="pub-id_pmid">10075991</infon>
+      <infon key="fpage">1609</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>82875</offset>
+      <text>DNA polymerase beta&#8208;like nucleotidyltransferase superfamily: identification of three new families, classification and evolutionary history</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">284</infon>
+      <infon key="pub-id_pmid">22306653</infon>
+      <infon key="fpage">277</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>83016</offset>
+      <text>Germline mutations in DIS3L2 cause the Perlman syndrome of overgrowth and Wilms tumor susceptibility</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">13</infon>
+      <infon key="pub-id_pmid">26140365</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>83117</offset>
+      <text>Selective suppression of the splicing&#8208;mediated microRNA pathway by the terminal uridyltransferase tailor</text>
+    </passage>
+    <passage>
+      <infon key="volume">512</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">399</infon>
+      <infon key="pub-id_pmid">24670639</infon>
+      <infon key="fpage">393</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83224</offset>
+      <text>Diversity and dynamics of the Drosophila transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">3547</infon>
+      <infon key="pub-id_pmid">19955569</infon>
+      <infon key="fpage">3540</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>83279</offset>
+      <text>TRAMP complex enhances RNA degradation by the nuclear exosome component Rrp6</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">2410</infon>
+      <infon key="pub-id_pmid">8710513</infon>
+      <infon key="fpage">2404</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>83356</offset>
+      <text>A novel family of TRF (DNA topoisomerase I&#8208;related function) genes required for proper nuclear segregation</text>
+    </passage>
+    <passage>
+      <infon key="volume">497</infon>
+      <infon key="lpage">7</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>83465</offset>
+      <text>A role for the Perlman syndrome exonuclease Dis3l2 in the Lin28&#8211;let&#8208;7 pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1052</infon>
+      <infon key="pub-id_pmid">24582499</infon>
+      <infon key="fpage">1044</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>83547</offset>
+      <text>TAIL&#8208;seq: genome&#8208;wide determination&#160;of poly(A) tail length and 3&#8242; end modifications</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">21629</infon>
+      <infon key="pub-id_pmid">11948193</infon>
+      <infon key="fpage">21624</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>83638</offset>
+      <text>Purification and characterization of the Escherichia coli exoribonuclease RNase R. Comparison with RNase II</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">6393</infon>
+      <infon key="pub-id_pmid">12743360</infon>
+      <infon key="fpage">6388</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>83746</offset>
+      <text>Quality control of ribosomal RNA mediated by polynucleotide phosphorylase and RNase R</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">318</infon>
+      <infon key="pub-id_pmid">15664199</infon>
+      <infon key="fpage">313</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>83832</offset>
+      <text>An important role for RNase R in mRNA decay</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">720</infon>
+      <infon key="pub-id_pmid">17534367</infon>
+      <infon key="fpage">715</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>83876</offset>
+      <text>Using FlyAtlas to identify better Drosophila melanogaster models of human disease</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">43</infon>
+      <infon key="pub-id_pmid">26007652</infon>
+      <infon key="fpage">e109</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>83958</offset>
+      <text>Tailor: a computational framework for detecting non&#8208;templated tailing of small silencing RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">613</infon>
+      <infon key="pub-id_pmid">12464173</infon>
+      <infon key="fpage">611</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>84054</offset>
+      <text>The poly(A) tail of mRNAs: bodyguard in eukaryotes, scavenger in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">1747</infon>
+      <infon key="pub-id_pmid">20627997</infon>
+      <infon key="fpage">1725</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>84128</offset>
+      <text>Of proteins and RNA: the RNase P/MRP family</text>
+    </passage>
+    <passage>
+      <infon key="volume">514</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">256</infon>
+      <infon key="pub-id_pmid">25119025</infon>
+      <infon key="fpage">252</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>84172</offset>
+      <text>Mechanism of Dis3l2 substrate recognition in the Lin28&#8208;let&#8208;7 pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">443</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">114</infon>
+      <infon key="pub-id_pmid">16957732</infon>
+      <infon key="fpage">110</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>84245</offset>
+      <text>Unravelling the dynamics of RNA degradation by ribonuclease II and its RNA&#8208;bound complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1801</infon>
+      <infon key="pub-id_pmid">23756464</infon>
+      <infon key="fpage">1799</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>84336</offset>
+      <text>A DIStinctively novel exoribonuclease that really likes U</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Annu Rev Microbiol</infon>
+      <infon key="lpage">82</infon>
+      <infon key="pub-id_pmid">22994488</infon>
+      <infon key="fpage">65</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>84394</offset>
+      <text>&#8220;Gestalt&#8221;, composition and function of the Trypanosoma brucei editosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W74</infon>
+      <infon key="pub-id_pmid">18424795</infon>
+      <infon key="fpage">W70</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>84470</offset>
+      <text>The Vienna RNA websuite</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">2887</infon>
+      <infon key="pub-id_pmid">26809675</infon>
+      <infon key="fpage">2873</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>84494</offset>
+      <text>Identification of factors involved in target RNA&#8208;directed microRNA degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">1025</infon>
+      <infon key="pub-id_pmid">19713958</infon>
+      <infon key="fpage">1021</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84575</offset>
+      <text>Lin28 recruits the TUTase Zcchc11 to inhibit let&#8208;7 maturation in mouse embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1887</infon>
+      <infon key="pub-id_pmid">22055293</infon>
+      <infon key="fpage">1878</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>84669</offset>
+      <text>The 3&#8242;&#8208;to&#8208;5&#8242; exoribonuclease nibbler shapes the 3&#8242; ends of microRNAs bound to Drosophila argonaute1</text>
+    </passage>
+    <passage>
+      <infon key="volume">139</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">31</infon>
+      <infon key="pub-id_pmid">19804751</infon>
+      <infon key="fpage">28</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84779</offset>
+      <text>Regulating the regulators: posttranslational modifications of RNA silencing factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">708</infon>
+      <infon key="pub-id_pmid">19703396</infon>
+      <infon key="fpage">696</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>84863</offset>
+      <text>TUT4 in concert with Lin28 suppresses microRNA biogenesis through pre&#8208;microRNA uridylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">532</infon>
+      <infon key="pub-id_pmid">23063654</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>84956</offset>
+      <text>Mono&#8208;uridylation of pre&#8208;microRNA as a key step in the biogenesis of group II let&#8208;7 microRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Eur J Hum Genet</infon>
+      <infon key="lpage">1319</infon>
+      <infon key="pub-id_pmid">23486540</infon>
+      <infon key="fpage">1316</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>85055</offset>
+      <text>Homozygous deletion of DIS3L2 exon 9 due to non&#8208;allelic homologous recombination between LINE&#8208;1s in a Japanese patient with Perlman syndrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">81</infon>
+      <infon key="pub-id_pmid">23202588</infon>
+      <infon key="fpage">73</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>85200</offset>
+      <text>Eri1 degrades the stem&#8208;loop of oligouridylated histone mRNAs to induce replication&#8208;dependent decay</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">5006</infon>
+      <infon key="pub-id_pmid">18007593</infon>
+      <infon key="fpage">4996</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>85303</offset>
+      <text>Trf4 targets ncRNAs from telomeric and rDNA spacer regions and functions in rDNA copy number control</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">776</infon>
+      <infon key="pub-id_pmid">19239894</infon>
+      <infon key="fpage">763</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>85404</offset>
+      <text>The many pathways of RNA degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2216</infon>
+      <infon key="pub-id_pmid">20512111</infon>
+      <infon key="fpage">2205</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>85441</offset>
+      <text>The crystal structure of Mtr4 reveals a novel arch domain required for rRNA processing</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">901</infon>
+      <infon key="pub-id_pmid">21663793</infon>
+      <infon key="fpage">890</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>85528</offset>
+      <text>The RNA helicase Mtr4p modulates polyadenylation in the TRAMP complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">790</infon>
+      <infon key="pub-id_pmid">14731278</infon>
+      <infon key="fpage">777</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>85598</offset>
+      <text>The RNA degradosome and poly(A) polymerase of Escherichia coli are required in&#160;vivo for the degradation of small mRNA decay intermediates containing REP&#8208;stabilizers</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">4665</infon>
+      <infon key="pub-id_pmid">12169588</infon>
+      <infon key="fpage">4658</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>85766</offset>
+      <text>mRNA decay in Escherichia coli comes of age</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>85810</offset>
+      <text>Perlman syndrome nuclease DIS3L2 controls cytoplasmic non&#8208;coding RNAs and provides surveillance pathway for maturing snRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">724</infon>
+      <infon key="pub-id_pmid">15935758</infon>
+      <infon key="fpage">713</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>85936</offset>
+      <text>RNA degradation by the exosome is promoted by a nuclear polyadenylation complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">1020</infon>
+      <infon key="pub-id_pmid">19713957</infon>
+      <infon key="fpage">1016</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>86016</offset>
+      <text>LIN&#8208;28 and the poly(U) polymerase PUP&#8208;2 regulate let&#8208;7 microRNA processing in Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1507</infon>
+      <infon key="pub-id_pmid">16111943</infon>
+      <infon key="fpage">1501</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>86123</offset>
+      <text>Methylation protects miRNAs and siRNAs from a 3&#8242;&#8208;end uridylation activity in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">159</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1376</infon>
+      <infon key="pub-id_pmid">25480299</infon>
+      <infon key="fpage">1365</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>86216</offset>
+      <text>Uridylation by TUT4 and TUT7 marks mRNA for degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">879</infon>
+      <infon key="pub-id_pmid">25175028</infon>
+      <infon key="fpage">868</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>86272</offset>
+      <text>A microRNA precursor surveillance system in quality control of microRNA synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1868</infon>
+      <infon key="pub-id_pmid">23756462</infon>
+      <infon key="fpage">1855</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86354</offset>
+      <text>Exonuclease hDIS3L2 specifies an exosome&#8208;independent 3</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Acta Crystallogr D Biol Crystallogr</infon>
+      <infon key="lpage">1294</infon>
+      <infon key="pub-id_pmid">26057668</infon>
+      <infon key="fpage">1284</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>86411</offset>
+      <text>Structural analysis of Dis3l2, an exosome&#8208;independent exonuclease from Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D267</infon>
+      <infon key="pub-id_pmid">23118484</infon>
+      <infon key="fpage">D262</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86510</offset>
+      <text>MODOMICS: a database of RNA modification pathways&#8211;2013 update</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">1854</infon>
+      <infon key="pub-id_pmid">23503588</infon>
+      <infon key="fpage">1842</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86574</offset>
+      <text>The exoribonuclease Dis3L2 defines a novel eukaryotic RNA degradation pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">1849</infon>
+      <infon key="pub-id_pmid">17872511</infon>
+      <infon key="fpage">1834</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>86652</offset>
+      <text>RNA&#8208;specific ribonucleotidyl transferases</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="lpage">276</infon>
+      <infon key="source">Wiley Interdiscip Rev RNA</infon>
+      <infon key="fpage">256</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>86696</offset>
+      <text>Bacterial/archaeal/organellar polyadenylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">65</infon>
+      <infon key="pub-id_pmid">18172165</infon>
+      <infon key="fpage">50</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>86742</offset>
+      <text>Degradation of histone mRNA requires oligouridylation followed by decapping and simultaneous degradation of the mRNA both 5&#8242; to 3&#8242; and 3&#8242; to 5&#8242;</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">653</infon>
+      <infon key="pub-id_pmid">23989958</infon>
+      <infon key="fpage">643</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>86894</offset>
+      <text>Cytoplasmic RNA: a case of the tail wagging the dog</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1860</infon>
+      <infon key="pub-id_pmid">20810645</infon>
+      <infon key="fpage">1832</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>86946</offset>
+      <text>tRNA biology charges to the front</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">1873</infon>
+      <infon key="pub-id_pmid">27498873</infon>
+      <infon key="fpage">1861</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>86980</offset>
+      <text>Dis3l2&#8208;mediated decay is a quality control pathway for noncoding RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">BioEssays</infon>
+      <infon key="lpage">244</infon>
+      <infon key="pub-id_pmid">10684583</infon>
+      <infon key="fpage">235</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>87052</offset>
+      <text>Degradation of mRNA in bacteria: emergence of ubiquitous features</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">216</infon>
+      <infon key="pub-id_pmid">26145176</infon>
+      <infon key="fpage">203</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>87118</offset>
+      <text>Uridylation of RNA hairpins by tailor confines the emergence of microRNAs in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">700</infon>
+      <infon key="pub-id_pmid">22464191</infon>
+      <infon key="fpage">695</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>87206</offset>
+      <text>Uridylation of miRNAs by HEN1 SUPPRESSOR1 in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">3624</infon>
+      <infon key="pub-id_pmid">17353264</infon>
+      <infon key="fpage">3612</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>87263</offset>
+      <text>Efficient RNA polyuridylation by noncanonical poly(A) polymerases</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">623</infon>
+      <infon key="pub-id_pmid">19430462</infon>
+      <infon key="fpage">616</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>87329</offset>
+      <text>Decapping is preceded by 3&#8242; uridylation in a novel pathway of bulk mRNA turnover</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2326</infon>
+      <infon key="pub-id_pmid">17410208</infon>
+      <infon key="fpage">2317</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>87412</offset>
+      <text>Dissecting mechanisms of nuclear mRNA surveillance in THO/sub2 complex mutants</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19593367</infon>
+      <infon key="fpage">e1000555</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>87491</offset>
+      <text>Distinct roles of non&#8208;canonical poly(A) polymerases in RNA metabolism</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Wiley Interdiscip Rev RNA</infon>
+      <infon key="lpage">231</infon>
+      <infon key="pub-id_pmid">23417976</infon>
+      <infon key="fpage">217</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>87563</offset>
+      <text>Nuclear RNA surveillance: role of TRAMP in controlling exosome specificity</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">1140</infon>
+      <infon key="pub-id_pmid">19129231</infon>
+      <infon key="fpage">1127</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>87638</offset>
+      <text>The N&#8208;terminal PIN domain of the exosome subunit Rrp44 harbors endonuclease activity and tethers Rrp44 to the yeast core exosome</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">7127</infon>
+      <infon key="pub-id_pmid">23748567</infon>
+      <infon key="fpage">7115</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>87769</offset>
+      <text>Uridylation prevents 3&#8242; trimming of oligoadenylated mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="source">Science</infon>
+      <infon key="volume">306</infon>
+      <infon key="pub-id_pmid">15528436</infon>
+      <infon key="fpage">997</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>87829</offset>
+      <text>Uridine addition after microRNA&#8208;directed cleavage</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1030</infon>
+      <infon key="pub-id_pmid">24656133</infon>
+      <infon key="fpage">1020</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>87881</offset>
+      <text>Deep sequencing shows multiple oligouridylations are required for 3&#8242; to 5&#8242; degradation of histone mRNAs on polyribosomes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Huber;given-names:W</infon>
+      <infon key="name_3">surname:Irizarry;given-names:RA</infon>
+      <infon key="name_0">surname:Gentleman;given-names:R</infon>
+      <infon key="name_1">surname:Carey;given-names:VJ</infon>
+      <infon key="name_4">surname:Dudoit;given-names:S</infon>
+      <infon key="lpage">420</infon>
+      <infon key="source">Bioinformatics and computational biology solutions using R and bioconductor</infon>
+      <infon key="fpage">397</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>88006</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">16</infon>
+      <infon key="pub-id_pmid">23188809</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>88007</offset>
+      <text>mRNAs containing the histone 3&#8242; stem&#8208;loop are degraded primarily by decapping mediated by oligouridylation of the 3&#8242; end</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">1089</infon>
+      <infon key="pub-id_pmid">25959823</infon>
+      <infon key="fpage">1079</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>88134</offset>
+      <text>Apoptosis triggers specific, rapid, and global mRNA decay with 3&#8242; uridylated intermediates degraded by DIS3L2</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">1638</infon>
+      <infon key="pub-id_pmid">24141620</infon>
+      <infon key="fpage">1632</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>88246</offset>
+      <text>Mammalian DIS3L2 exoribonuclease targets the uridylated precursors of let&#8208;7 miRNAs</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">15828860</infon>
+      <infon key="fpage">e189</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>88331</offset>
+      <text>A new yeast poly(A) polymerase complex involved in RNA quality control</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12144</infon>
+      <infon key="pub-id_pmid">20566885</infon>
+      <infon key="fpage">12139</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>88402</offset>
+      <text>Structural analysis reveals the characteristic features of Mtr4, a DExH helicase involved in nuclear RNA processing and surveillance</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">737</infon>
+      <infon key="pub-id_pmid">15935759</infon>
+      <infon key="fpage">725</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>88535</offset>
+      <text>Cryptic Pol II transcripts are degraded by a nuclear quality control pathway involving a new poly(A) polymerase</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">409</infon>
+      <infon key="pub-id_pmid">22388288</infon>
+      <infon key="fpage">403</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>88647</offset>
+      <text>Long&#8208;term, efficient inhibition of microRNA function in mice using rAAV vectors</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">694</infon>
+      <infon key="pub-id_pmid">22464194</infon>
+      <infon key="fpage">689</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>88729</offset>
+      <text>The Arabidopsis nucleotidyl transferase HESO1 uridylates unmethylated small RNAs to trigger their degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">2717</infon>
+      <infon key="pub-id_pmid">26972004</infon>
+      <infon key="fpage">2707</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>88839</offset>
+      <text>Uridylation and PABP cooperate to repair mRNA deadenylated ends in Arabidopsis</text>
+    </passage>
+  </document>
+</collection>

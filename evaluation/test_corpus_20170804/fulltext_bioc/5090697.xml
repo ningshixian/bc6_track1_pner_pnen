@@ -1,0 +1,1400 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5090697</id>
+    <passage>
+      <infon key="name_2">surname:Sycz;given-names:Gabriela</infon>
+      <infon key="name_3">surname:Sieira;given-names:Rodrigo</infon>
+      <infon key="name_0">surname:Bonomi;given-names:Hern&#225;n R</infon>
+      <infon key="name_1">surname:Toum;given-names:Laila</infon>
+      <infon key="name_6">surname:Leskow;given-names:Federico C</infon>
+      <infon key="alt-title">Hern&#225;n R Bonomi et al</infon>
+      <infon key="article-id_publisher-id">EMBR201541691</infon>
+      <infon key="name_5">surname:Gudesblat;given-names:Gustavo E</infon>
+      <infon key="name_8">surname:Vojnov;given-names:Adri&#225;n A</infon>
+      <infon key="name_9">surname:Malamud;given-names:Florencia</infon>
+      <infon key="lpage">1577 1577</infon>
+      <infon key="fpage">1565 1565</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Goldbaum;given-names:Fernando A</infon>
+      <infon key="name_4">surname:Toscani;given-names:Andr&#233;s M</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embr.201541691</infon>
+      <infon key="article-id_pmid">27621284</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="issue">11</infon>
+      <infon key="kwd">bathy&#8208;type phytochrome infection plant defenses transcriptional regulation virulence factors Microbiology, Virology &amp; Host Pathogen Interaction Plant Biology</infon>
+      <infon key="volume">17 17</infon>
+      <infon key="pub-id_pmid">27621284</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>Xanthomonas campestris attenuates virulence by sensing light through a bacteriophytochrome photoreceptor</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>105</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>114</offset>
+      <text>Phytochromes constitute a major photoreceptor family found in plants, algae, fungi, and prokaryotes, including pathogens. Here, we report that Xanthomonas campestris pv. campestris (Xcc), the causal agent of black rot disease which affects cruciferous crops worldwide, codes for a functional bacteriophytochrome (XccBphP). XccBphP possesses an N&#8208;terminal PAS2&#8208;GAF&#8208;PHY photosensory domain triad and a C&#8208;terminal PAS9 domain as its output module. Our results show that illumination of Xcc, prior to plant infection, attenuates its virulence in an XccBphP&#8208;dependent manner. Moreover, in response to light, XccBphP downregulates xanthan exopolysaccharide production and biofilm formation, two known Xcc virulence factors. Furthermore, the XccbphP null mutant shows enhanced virulence, similar to that of dark&#8208;adapted Xcc cultures. Stomatal aperture regulation and callose deposition, both well&#8208;established plant defense mechanisms against bacterial pathogens, are overridden by the XccbphP strain. Additionally, an RNA&#8208;Seq analysis reveals that far&#8208;red light or XccBphP overexpression produces genomewide transcriptional changes, including the inhibition of several Xcc virulence systems. Our findings indicate that Xcc senses light through XccBphP, eliciting bacterial virulence attenuation via downregulation of bacterial virulence factors. The capacity of XccBphP to respond to light both in vitro and in vivo was abolished by a mutation on the conserved Cys13 residue. These results provide evidence for a novel bacteriophytochrome function affecting an infectious process.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1706</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1719</offset>
+      <text>Biological photoreceptors are found in all kingdoms of life. They can detect the wavelength, duration, direction, and intensity of light and consequently transduce this information within cells to exert the corresponding biological outputs. Photoreceptors from photosynthetic autotrophs were the first to be identified and described, and were subsequently discovered in non&#8208;photosynthetic organisms 1, 2. However, it was not until recently that they were reported to be functional in vivo in auxotrophic bacteria. In fact, several studies show that these proteins are key elements in bacterial physiology. Interestingly, it is the case of the blue&#8208;light photoreceptors containing LOV (light, oxygen, voltage) domains that are known to regulate the infectious processes in some bacteria 3, 4, 5, among other activities.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2542</offset>
+      <text>Phytochrome photoreceptors can be found in plants, eukaryotic algae, fungi, and photosynthetic and non&#8208;photosynthetic prokaryotes 6, 7. They are reversibly photoconverted, typically, between a red&#8208;absorbing (Pr) and a far&#8208;red&#8208;absorbing (Pfr) state 8. These photoreceptors were originally discovered in plants where they are recognized to regulate many key processes 9, 10; subsequently, their bacterial homologues, bacteriophytochromes (BphP), were identified 11, 12. Interestingly, BphPs have been linked to some bacterial physiological responses 13, 14, yet most of the biological processes they regulate are still elusive.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3176</offset>
+      <text>Xanthomonas campestris pv. campestris (Xcc), a non&#8208;photosynthetic phytopathogenic bacterium distributed worldwide, is responsible for the so&#8208;called black rot disease in cruciferous plants, causing huge economic loses 15, 16. This pathogen has the ability to live epiphytically and also colonize the plant xylem by entering through the stomata or wounds 17. During the epiphytic stage, bacteria are exposed to nutrient limitation, fluctuating water availability, exposure to sunlight containing ultraviolet radiation, and subjected to the diurnal light cycle 18. The effect of light has been extensively studied in phototrophic bacteria and only recently examined in non&#8208;phototrophic bacteria.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3875</offset>
+      <text>The Xcc genome codes for two identified photoreceptors, a LOV domain histidine kinase protein and a BphP. The purpose of this study was to determine the functionality of the Xanthomonas bacteriophytochrome photoreceptor, here designated XccBphP, and whether it plays a significant role in bacterial virulence.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>4185</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>4193</offset>
+      <text>Xcc codes for a functional bacteriophytochrome</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4240</offset>
+      <text>The XccbphP gene is located downstream from a heme oxygenase&#8208;coding gene (XccbphO) forming a bicistronic operon (Fig 1A), as similarly found in other bacteria 19. The heme oxygenase enzyme is known to catalyze the conversion of heme into biliverdin&#8208;IX&#945; (BV), the open&#8208;chain tetrapyrrole bilin chromophore bound in BphPs 8. In order to determine whether the XccbphO&#8211;XccbphP operon is functional in vivo, we performed RT&#8211;PCR from Xcc RNA purifications, confirming that it is actively transcribed and that there is a physical linkage between XccbphO and XccbphP mRNAs (Fig 1B). Moreover, XccBphP was detected in wild&#8208;type extracts by SDS&#8211;PAGE and Western blotting displaying the expected molecular weight (Fig EV1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>4969</offset>
+      <text>XccBphP genomic organization, domain topology, and UV&#8211;vis spectral properties</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5049</offset>
+      <text>The XccbphP gene (XC_4241) is located downstream the heme oxygenase gene (XccbphO) as a bicistronic operon. Specific primers (small numbered arrows) were designed to evaluate the physical linkage between XccbphO and XccbphP mRNAs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5280</offset>
+      <text>The confirmative RT&#8211;PCRs were resolved in a 2% agarose gel. Untreated reverse transcriptase RNAs (&#8208;RT) and genomic DNA served as negative and positive controls, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5459</offset>
+      <text>The XccBphP domain architecture. The photosensory module, composed by the PAS2&#8208;GAF&#8208;PHY domain triad, binds to the chromophore biliverdin&#8208;IX&#945; (BV) from a conserved cysteine residue indicated by a red arrow (Cys13). The output module comprises a single PAS9 domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5730</offset>
+      <text>Left panel: Absorption spectra of dark&#8208;adapted XccBphP after illumination with red, far&#8208;red, fluorescent white lamp light, sunlight, or sunlight filtered through green leaves (LF). Pr/Pfr equilibrium scheme derived from absorption spectra is depicted in the bottom panel. Right panel: The XccBphP&#8208;C13S mutant was purified in the presence of BV and its absorption spectra recorded upon illumination with red, far&#8208;red, and white light or dark adaptation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6191</offset>
+      <text>Generation of the XccbphP mutant and detection of XccBphP</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6249</offset>
+      <text>XC_4241 ORF was partially deleted and replaced by a 2 kb Smr/Spcr cassette (&#937;) through allelic exchange giving rise to the XccbphP null&#8208;mutant strain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6404</offset>
+      <text>A Western blot was performed using mouse polyclonal antibodies against XccBphP in wild&#8208;type, XccbphP, pXccBphP, and pC13S strains. Loading control SDS&#8211;PAGE stained with Coomassie blue is shown in the bottom panel.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6622</offset>
+      <text>The XccBphP sequence displays four conserved domains (Fig 1C): Per/Arndt/Sim (PAS2 family), cGMP phosphodiesterase/adenyl cyclase/FhlA (GAF), phytochrome&#8208;associated (PHY), and output/effector module (PAS9 family), according to a Pfam database classification 20. The PAS2&#8211;GAF&#8211;PHY triad represents the photosensory module involved in BV binding, where the PAS2 domain bears a conserved cysteine at position 13 involved in the covalent chromophore linkage 21, 22. It is the BV chromophore buried in the protein structure that allows phytochromes to reversibly photoconvert between red&#8208;absorbing (Pr) and far&#8208;red&#8208;absorbing (Pfr) states by photoisomerization. The PAS9 domain from XccBphP bears no predicted enzymatic activity; moreover, PAS domains are recognized to mediate interactions between proteins in signaling systems 23. The three&#8208;domain photosensory module, typically coupled with an output module, is a conserved feature of bona fide phytochromes, and it can be found among phytochromes across different kingdoms of life comprising plant, fungi, algae, and bacteria, even while sharing low sequence identity. The composition of the output module varies among phytochromes and would govern the nature of the downstream signaling after light&#8208;sensing events by the photosensor (Table EV1). To investigate the extent of BphP occurrence in the Xanthomonas genus, we identified all XccBphP homologous sequences bearing a PAS2&#8211;GAF&#8211;PHY photosensory module within the genus in UniProtKB database. A total of 75 different sequences were found from a wide variety of plant pathogenic Xanthomonas spp. exhibiting only five categories of output module domain sequences: (i) PAS4, (ii) PAS8, (iii) PAS9, (vi) histidine kinase (HisKA subfamily), and (v) absence of any conserved domain (Fig EV2). Single PAS domains correspond to almost 95% of the Xanthomonas BphP output modules, PAS4 being the most abundant (64%), followed by PAS9 (~21%) and PAS8 (~9%). Only two BphPs were found to bear a histidine kinase module, and two sequences did not show any recognizable output module.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8715</offset>
+      <text>Phylogenetic tree of BphPs from the Xanthomonas genus</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8769</offset>
+      <text>75 BphP sequences from UniProtKB database were identified in the Xanthomonas genus bearing a PAS2&#8208;GAF&#8208;PHY photosensory module. A molecular phylogenetic analysis by maximum&#8208;likelihood method was performed using the respective PHY domain sequences. Species, strains, and UniProtKB accession numbers are indicated. Xanthomonas campestris species are indicated in blue letters, and the strain 8004 used in this work in bold letters and an arrow. Relative bootstrap values are represented by blue bubble sizes. The output module domains identified in Pfam database are depicted in colors that correspond to single PAS4, PAS8, PAS9 domains, and HisKA coupled with a HATPase_c domain. BphPs that showed no output module domains are indicated in gray (empty).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9527</offset>
+      <text>Recently, the XccBphP structure and basic photochemistry have been reported, demonstrating its capacity to function as a red/far&#8208;red light photoreceptor in vitro22. We sought to further characterize XccBphP spectroscopically. For that aim, recombinant full&#8208;length XccBphP holoprotein was purified. BV bound to the photosensory module was evidenced by the presence of the Soret and Q bands (Abs400/Abs750) in the UV&#8211;vis absorption spectrum (Fig 1D). As expected, far&#8208;red (733 nm) irradiation leads to a photoconversion of the holoprotein into a pure Pr species, indicated by a maximum absorption peak at 688 nm and the lack of the Pfr absorption band at 752 nm (Fig 1D). Irradiation with red (630 nm) and fluorescent white light lamp promotes the appearance of the Pfr form, corresponding to a Pfr:Pr ratio calculated of ~2 and ~1, respectively. In the dark, thermal conversion leads to the accumulation of the Pfr state exhibiting a final Pfr:Pr ratio calculated of ~6 at 21 h (Fig 1D). A Pr ground state and a dark conversion from Pfr to Pr are characteristic of prototypical phytochromes. Conversely, the bathy&#8208;type phytochromes exhibit a Pfr ground state and a Pr to Pfr dark conversion 24, 25. Therefore, XccBphP fits into the bathy&#8208;type phytochrome category, although an incomplete Pr&#8208;to&#8208;Pfr dark conversion and a Pr/Pfr equilibrium are observed. Interestingly, when XccBphP apoprotein is incubated with BV in the dark, the holoprotein is first constituted as pure Pr but then reaches the same Pfr:Pr ratio of ~6 22. To simulate natural conditions, XccBphP was exposed to direct sunlight or sunlight filtered through green leaves mimicking a canopy. Sunlight alone promotes a photoreceptor Pr enrichment with a Pr:Pfr ratio of ~3, contrary to the Pfr enrichment observed in dark equilibrium. Moreover, when XccBphP was subjected to leaf&#8208;filtered sunlight a pure Pr spectrum could be observed (Fig 1D), similar to the one obtained after artificial far&#8208;red LED irradiation. The functionality of the conserved cysteine residue at the PAS2 domain was addressed by constructing an XccBphP point mutant replacing Cys13 by a serine residue (XccBphP&#8208;C13S) and evaluating its spectroscopic properties. Although XccBphP&#8208;C13S still retains binding to BV, as evidenced by its absorption spectrum, it exhibits no photo&#8208;inducible Pr&#8208;Pfr changes (Fig 1E). Hence, the presence of Cys13 is necessary for the correct XccBphP photo&#8208;activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11985</offset>
+      <text>XccBphP negatively regulates Xcc virulence in a light&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12058</offset>
+      <text>To test the role of XccBphP in Xcc virulence, we first generated a null mutant (XccbphP) by an allelic replacement of the XC_4241 ORF with an antibiotic resistance (Smr/Spcr cassette, Fig EV1A), confirming the absence of the protein in the mutant strain by Western blot (Fig EV1B). Once XccbphP growth curves were confirmed to be similar to the wild&#8208;type strain (Fig EV3), we were prompted to evaluate the influence of XccBphP in bacterial virulence. For that purpose, 10&#8208;day&#8208;old Arabidopsis plant seedlings were inoculated with the bacterial strains cultures under normal laboratory conditions. After 1 or 3 days post&#8208;infection (d.p.i.), colony forming units (CFU) per plant milligram were determined. Our results show that at 3 d.p.i. the XccbphP strain exhibits a significantly more virulent phenotype, meaning a higher capacity to replicate inside the host, compared to the wild type (Fig 2A). Interestingly, the complemented strain (pXccBphP), which displays XccBphP overexpression (Fig EV1B), behaves as an attenuated strain showing lower CFU counts than the wild type after 3 d.p.i. (Fig 2A). We then sought to examine whether these differences in bacterial infection are dependent on light. Consequently, before plant inoculation, all bacterial strains were either cultured in the dark or under continuous white illumination. Plants infected with wild&#8208;type and pXccBphP&#8208;complemented bacterial strains cultured in light displayed lower CFU counts at 2 d.p.i. compared to the cultures kept in the dark. XccbphP ability to infect plants remained comparable regardless of the light conditions, and always greater than the wild&#8208;type strain. Similarly, when plants were infected with the XccbphP mutant complemented with the photo&#8208;inactive XccBphP&#8208;C13S version (pC13S), no statistical differences were detected between light and dark conditions (Fig 2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13933</offset>
+      <text>Wild&#8208;type, XccbphP, pXccbphP, and pC13S growth curves</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13989</offset>
+      <text>Wild&#8208;type, XccbphP, pXccbphP and pC13S strains were cultured in PYM liquid medium under light or dark conditions (starting OD600 = 0.05) at 28&#176;C and 250 rpm.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14150</offset>
+      <text>XccBphP functions as a negative regulator for Xanthomonas campestris infection affecting plant defenses</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14254</offset>
+      <text>Arabidopsis thaliana plants were inoculated with wild&#8208;type, XccbphP, pXccBphP, or pC13S bacterial strains cultured prior to inoculation under (A) normal laboratory illumination or (B) under light or dark conditions. After 1, 2, or 3 d.p.i., CFU per plant mg were determined (n = 3 replicates). Data presented here derive from more than four independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14622</offset>
+      <text>(C) Stomatal closure in the presence of bacterial strains or not (untreated) after 1 h under light conditions. (D) Stomatal opening after 3 h of incubation with bacterial strains or not (untreated) in the dark. A control treatment without bacteria and illuminated was included (Light). (C, D) Stomatal apertures were recorded (n = 80 replicates). Data are representative of two independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15025</offset>
+      <text>Arabidopsis thaliana leaves were inoculated with wild&#8208;type, XccbphP, pXccBphP, and pC13S strains, stained for callose deposits and observed by fluorescence microscopy. MgCl2 buffer (untreated) and flg22 peptide were used as negative and positive controls, respectively. Top panel: representative pictures of three independent experiments. Scale bar represents 200 &#956;m. Bottom panel: the number of callose deposits per field of view (0.45 mm2) were determined (n = 8 replicates). Data are representative of two independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15562</offset>
+      <text>Data information: (A&#8211;E) Values are expressed as mean &#177; s.e.m. Statistical analysis was performed by a two&#8208;tailed Mann&#8211;Whitney test (*P &lt; 0.05, **P &lt; 0.01, ***P &lt; 0.001).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15739</offset>
+      <text>The aerial part of terrestrial plants possesses microscopic pores called stomata, which allows the control of gas exchange (necessary for photosynthesis) and water loss. Plants regulate the opening and closing of stomata by different mechanisms 26. It has been reported that Xcc is able to reverse both pathogen&#8208; and abscisic acid&#8208;induced stomatal closure in Arabidopsis through a virulence factor of a still unknown composition that is secreted to the extracellular medium 17. To start elucidating the mechanisms by which XccBphP modulates plant infection, we studied the pathogen&#8208;induced stomatal closure as part of the plant innate immune response. In order to determine whether the increase in XccbphP virulence is related to its ability to penetrate into the host through stomata, we measured its capacity to promote stomatal closure in the light. Strikingly, stomata from epidermal peels incubated with XccbphP remained significantly opened at 1 h post&#8208;incubation (h.p.i.). As expected, the wild&#8208;type and complemented pXccBphP strains promoted normal stomatal closure. Stomata also remained opened when they were incubated with pC13S strain, although with lower amplitude compared to the XccbphP mutant (Fig 2C). Moreover, both wild&#8208;type and XccbphP strains promote stomata opening at 3 h.p.i by producing the yet unidentified compound (Fig EV4) 17. Therefore, to evaluate a possible scenario in which the infection occurs in the dark (when stomata are closed) we assayed the capacity of Xcc strains to promote stomatal opening of dark&#8208;adapted stomata. Results show that wild&#8208;type Xcc is in fact able to open stomata at 3 h.p.i., while XccbphP shows an even better performance on this task (Fig 2D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17461</offset>
+      <text>Induced stomatal closure bioassay</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17495</offset>
+      <text>Promotion of stomatal closure induced by wild&#8208;type, XccbphP, pXccBphP, and gumB bacterial strains. Stomatal apertures measurements recorded after 1 or 3 h.p.i.; UT: untreated (no bacterial treatment), ABA: abscisic acid. Bottom panel: Experimental design and results scheme: light&#8208;irradiated stomata (opened) are treated for 1 or 3 h with the bacteria in light conditions. Values are expressed as mean &#177; s.e.m. (n = 80 replicates). Data are representative of two independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17988</offset>
+      <text>Previous reports suggest that xanthan specifically suppresses local plant defense by the inhibition of callose (a &#946;&#8208;1, 3&#8208;linear glucan that strengthens plant cell walls) deposition, which is required for disease resistance against Xcc27, 28. Consequently, we measured callose biosynthesis during XccbphP infection. Leaves were challenged with wild&#8208;type Xcc, XccbphP, pXccBphP, pC13S, and flg22 peptide, a 22&#8208;amino acid sequence of the conserved flagellin N&#8208;terminus that is known to activate the plant defense mechanisms 29. Twenty&#8208;four hours after infection, the inoculated leaves were stained for callose with aniline blue and cytological observations were performed at the sites of infection with UV&#8208;fluorescence microscopy. Callose depositions can be identified as bright&#8208;blue points in leaves or veins (Fig 2E, top panel). The results indicate that XccbphP presents considerable reduced callose deposits compared to the wild type, the pXccBphP strain, and the flg22 peptide (Fig 2E, bottom panel). In turn, pC13S presents similar values to those of pXccBphP. These results are consistent with the results obtained in plant infection assays presented above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19167</offset>
+      <text>XccBphP is involved in &#946;&#8208;1, 4&#8208;endoglucanase production</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19227</offset>
+      <text>We then focused on extracellular hydrolytic enzymes, which are virulence factors secreted by the type 2 secretion system (T2SS) that allow Xcc to degrade plant material and support infection 30. A direct influence on the plant&#8211;pathogen interaction was demonstrated for a secreted endoglucanase enzyme from Xcc31. Endoglucanase activity from bacterial culture media can be estimated by measuring the degradation halo it produces in carboxymethyl cellulose (CMC) plates. Figure 3A shows that the overexpressing pXccBphP complemented strain displays significantly lower levels of endoglucanase activity compared to the wild type, although no light/dark regulation was detected. A quantitative colorimetric assay in solution was performed to measure &#946;&#8208;1, 4&#8208;endoglucanase enzymatic units. Because we were not able to detect differences between the light/dark treatments before, we decided to perform the experiments under normal laboratory light conditions. CMC degradation plate assay results were corroborated in this system. Moreover, pXccBphP strain culture supernatants possess an almost 10&#8208;fold reduction in endoglucanase units compared to the wild type (Fig 3B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20401</offset>
+      <text>Xanthomonas campestris extracellular endoglucanase production is regulated by XccBphP</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20487</offset>
+      <text>Five microlitre supernatants from wild&#8208;type, XccbphP, pXccBphP, and pC13 strains bacterial cultures (OD600 = 1) grown under light or dark conditions were plated onto PYM&#8208;carboxymethyl cellulose (CMC) agar plates and revealed with Congo red staining (n = 2 replicates). The extracellular &#946;&#8208;1,4&#8208;endoglucanase production levels correlated with CMC degradation halo radiuses (top panel). Halo measurements are presented in the bottom panel. Data derive from ten independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20979</offset>
+      <text>The extracellular &#946;&#8208;1,4&#8208;endoglucanase activity from bacterial cultures supernatants (OD600 = 1) was determined by a colorimetric assay in solution (n = 2 replicates). Wild&#8208;type, XccbphP, pXccBphP, and pC13 strains were assayed under normal laboratory conditions. Data derive from three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21297</offset>
+      <text>Data information: (A, B) Values are expressed as mean &#177; s.e.m. Statistical analysis was performed by a Kruskal&#8211;Wallis test and Dunn's multiple comparison test (*P &lt; 0.05, **P &lt; 0.01, ***P &lt; 0.001).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21498</offset>
+      <text>XccBphP regulates xanthan production and biofilm formation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21557</offset>
+      <text>Light regulates the plant endosymbiont R. leguminosarum infectivity levels through a blue&#8208;light photoreceptor (LOV&#8208;HK) 3. This regulation can be partially explained by the fact that exopolysaccharide (EPS) production and biofilm formation, intimately related to infection, are controlled by LOV&#8208;HK in a light&#8208;dependent manner 3. Similarly, the EPS xanthan produced by Xanthomonas is a virulence factor and is involved in biofilm development. Disruption of xanthan production impairs Xcc biofilm development in vitro and bacterial virulence 32, 33. Hence, we sought to associate the low Xcc infectivity levels induced by light treatments (Fig 2B) with low EPS production and poor biofilm development. To evaluate EPS production, bacteria were plated in rich media, cultured under light or dark conditions continuously for 48 h and EPS production quantified as a measure of colony diameter. As shown in Fig 4A, wild&#8208;type Xcc produces significantly more EPS in the dark than in the light treatment. Interestingly, the XccbphP mutant is insensitive to light or dark and produces significantly more xanthan in both conditions compared to the wild&#8208;type strain. In contrast, pXccBphP&#8208;complemented strain colonies exhibited a severe decrement in xanthan content in both dark and light, although maintaining the tendency of light regulation. The XccbphP mutant was complemented with a gene coding for the photo&#8208;inactive XccBphP&#8208;C13S, which had no effect in restoring the wild&#8208;type phenotype (Fig 4A) although the protein was overexpressed, similarly to pXccBphP (Fig EV1B). Xanthan content was also measured in liquid cultures confirming the results obtained in agar plates and evidencing that the only light&#8208;responsive strains are the wild type and the complemented strain bearing a wild&#8208;type copy of XccbphP (Fig 4B). Accordingly, when the sliding motility&#8212;a type of bacterial movement that depends on EPS, which reduces the friction between cells and substrate 34&#8212;was assayed, it was observed that sliding in XccbphP was strongly enhanced while distinctly impaired in pXccBphP compared to the wild type. As expected, the pC13S strain cannot restore the wild&#8208;type phenotype and slides comparable to the XccbphP mutant (Fig EV5A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23810</offset>
+      <text>Xanthomonas campestris virulence factors are inhibited by light through XccBphP</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23890</offset>
+      <text>Five microlitres from wild&#8208;type, XccbphP, pXccBphP, and pC13S bacterial cultures (OD600 = 1) were plated onto PYM&#8208;glucose agar plates under light or dark conditions. Xanthan production was determined measuring colony diameters (n = 4 replicates) for 20 independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24172</offset>
+      <text>Wild&#8208;type, XccbphP, pXccBphP, and pC13S were grown in 20 ml PYM liquid medium under light or dark conditions. Extracellular xanthan was purified by KCl addition and ethanol precipitation, then dried, and weighed (n = 2 replicates) for four independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24439</offset>
+      <text>Representative confocal laser&#8208;scanning microscopy pictures of biofilm development of bacteria cultured for 4 days in minimal medium in chambered cover slides under light or dark conditions. The scale bar represents 30 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24664</offset>
+      <text>Data information: (A, B) Values are expressed as mean &#177; s.e.m. Statistical analysis was performed by a Kruskal&#8211;Wallis test and Dunn's multiple comparison test (*P &lt; 0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24839</offset>
+      <text>Sliding and swimming motilities modulated by XccBphP</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24892</offset>
+      <text>Three microlitres from wild&#8208;type, XccbphP, pXccBphP, and pC13S bacterial cultures (OD600 = 1) were plated onto PYM&#8208;glucose 0.5% (A) or NYGB 0.25% (B) agar plates. (A) Sliding motility was assessed by measuring colony diameters, and (B) swimming motility was assessed by measuring external halo diameters. Bottom panels show quantifications as mean &#177; s.e.m. (N = 4).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25263</offset>
+      <text>The hypothesis that EPS regulation by light impacts on biofilm development was tested by confocal laser&#8208;scanning microscopy (CLSM) studies of Xcc biofilms cultured in chambers in the dark or under continuous white light without agitation. After 4 days, a clear impairment in the wild&#8208;type biofilm maturation in the light treatment was confirmed by the CLSM picture analysis while a completely mature biofilm is found to be formed in the dark condition (Fig 4C). In contrast, and reminiscent of the EPS experiments, the XccbphP and the pC13S strains were able to generate mature biofilms regardless of the light condition while the complemented strain exhibits its wild&#8208;type phenotype restored (Fig 4C). Consistently, a biofilm COMSTAT analysis revealed that wild&#8208;type and pXccBphP strains show increased values in biomass and average thickness in dark compared to the light treatment (Table EV2). Moreover, these variables are increased in XccbphP and pC13S in both light and dark conditions compared to the wild type. These results are in agreement with XccBphP sensing light and lowering EPS levels, which in turn produces an immature biofilm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26417</offset>
+      <text>Far&#8208;red light and XccBphP overexpression produce genomewide transcriptional changes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26503</offset>
+      <text>In order to find clues on the XccBphP signal transduction mechanism of the far&#8208;red light pathway at the transcriptional level, we performed RNA&#8208;Seq of the wild type cultured in the dark or under far&#8208;red light, and the XccBphP overexpressing strain pXccBhpP in far&#8208;red light. A principal component analysis (PCA) clearly shows that the biological replicates for each treatment cluster together but not the treatments themselves (Fig 5A). Hence, the transcriptomes from the treatments differ as if they were different &#8220;bacterial states&#8221;. To find differentially expressed (DE) genes with statistical significance (P &lt; 0.05), pairwise comparisons between treatments were performed. Strikingly, 1,121 DE genes were found to be caused by illumination alone. This represents 25.6% of the Xcc genome which codes for 4,381 identified ORFs. In addition, when the dark wild type was compared with illuminated pXccBphP, 1196 DE genes arose. Furthermore, these two comparisons share 882 DE genes. In contrast, when pXccBphP and wild&#8208;type far&#8208;red datasets were compared, 196 DE genes appeared, representing 4.47% of the total genomic ORFs (Fig 5B). There are 81 out of these 196 DE genes which are common to all three comparisons making this group of particular interest. There is another group of genes that do not change in the wild type upon illumination but indeed change when XccBphP is overexpressed containing 272 DE genes. This group is composed of two subgroups: 256 DE genes exclusively found in the wild&#8208;type dark/pXccBphP intersection and 16 DE genes that are exclusive in the intersection between the far&#8208;red irradiated strains. These genes are dependent on XccBphP levels and do not show statistical differences due to illumination in the wild type (Fig 5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28282</offset>
+      <text>Genomewide differential expression RNA&#8208;Seq analysis between treatments</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28355</offset>
+      <text>Principal component analysis (PCA) plot of the first two components of the analyzed samples showing separation between the three treatments: far&#8208;red illuminated wild&#8208;type, far&#8208;red illuminated pXccBphP (XccBphP overexpressing), and dark wild&#8208;type Xcc treatments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28625</offset>
+      <text>Venn diagram showing overlap of differentially expressed (DE) genes between treatments (P&#8208;values &lt; 0.05), bubbles are drawn to scale. A total of 1,451 DE genes were found in comparisons between all treatments and relative percentages to this number are indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28891</offset>
+      <text>Gene Ontology (GO) enrichment analysis. GO enrichment was evaluated at three different levels: biological processes (BP), molecular function (MF), and cellular component (CC). Relevant categories showing enrichment of DE genes are depicted. Bubble size correlates with enrichment factor values; gray bubbles represent P&#8208;values &gt; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29228</offset>
+      <text>A Gene Ontology (GO) analysis was performed to evaluate relative enrichment of GO terms in the three dataset comparisons. The three GO categories consist of biological process (BP), molecular function (MF), and cell compartment (CC). The datasets contained DE genes which correspond to GO terms with differential enrichment factors which can be inferred to be related to virulence and signal transduction in Xcc (Fig 5C). This analysis helped us visualized the GO terms of DE genes dependent on far&#8208;red light and XccBphP involved in many of the experiments performed during this work, which implicate: (i) secretory systems of hydrolytic enzymes, including endoglucanases and proteases, (ii) adhesion, motility, and xanthan metabolism, necessary for proper biofilm development, and (iii) cell signaling systems that might include components of the red&#8208;light&#8208;XccBphP downstream signaling (Fig 5C). A comprehensive list of DE selected genes that fall into these categories was elaborated, comprising many virulence factors and pathogenic&#8208;related systems (Dataset EV1).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30303</offset>
+      <text>XccBphP downregulates transcription of virulence systems</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30360</offset>
+      <text>Finally, we focused on those genes coding for reported Xanthomonas virulence effectors and studied along the present work. Particularly, DE genes involved in extracellular endoglucanase activity, xanthan production, and motility were selected. The first group of genes that caught our attention were the endoglucanases and the T2SS (xps), involved in exporting degradative enzymes outside the cell 31, 35. Most endoglucanase and all xps T2SS DE genes are downregulated in pXccBphP compared to wild type cultured under any condition (Dataset EV1). This finding is consistent with the results shown in Fig 3. The second group of genes found to be XccBphP&#8208;dependent is gathered in the gum operon, responsible for xanthan gum production 32. Again, we observed that pXccBphP strain shows statistically lower transcriptional levels of gum genes than the wild type (Dataset EV1), which may explain why this strain produces significant less xanthan in the plate assay than the wild type (Fig 4A). Flagellar genes (flg and fli) constitute the third group of selected DE genes, which are known to be necessary for Xanthomonas virulence 34. They exhibit a strong downregulation with XccBphP overexpression (Dataset EV1), suggesting an impairment in flagellar&#8208;dependent motility for pXccBphP strain. Concordantly, our results clearly show that pXccBphP is indeed diminished in swimming motility (Fig EV5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>31759</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31770</offset>
+      <text>Bacteria inhabit all of our planet ecosystems, including the phyllosphere, the aerial parts of the plants, which is considered a hostile environment for the colonists. Bacteria are the most abundant members of the phyllosphere community and have been shown to colonize leaves at densities of up to 108 cells per cm236. During the day, bacteria are exposed to high visible light intensities and UV&#8208;B radiation levels that can damage their metabolism and physiological processes 37, 38. Phytopathogenic bacteria living in the leaves take advantage of specific adaptations that allow them to survive and infect their hosts 18. However, there is still little information on how they respond to environmental light. Recent reports have shown that photoreceptors are involved in virulence and motility of different Pseudomonas syringae pathovars, suggesting that light is important for their pathogenicity 13, 39, 40, 41. Xcc is adapted to the phyllosphere environment, but so far there is a lack of knowledge on the role of light in its physiology, which stimulated us for the present study.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32859</offset>
+      <text>Our data demonstrate that XccBphP is a functional bathy&#8208;type bacteriophytochrome in vitro as well as in vivo. We could establish in vitro that XccBphP can be photoconverted between the Pr and Pfr forms, the Pr/Pfr equilibrium ratio depends on the quality of sunlight, and that these light&#8208;induced changes are dependent on the presence of the conserved Cys13 residue. Moreover, the absence of XccBphP in vivo boosts Xcc virulence likely by (i) an increment in many bacterial virulence factors and (ii) its ability to bypass the plant defense mechanism. In this sense, the excessive production of xanthan was discarded as a possible explanation for the XccBphP mutant strain not triggering stomatal closure as the gumB mutant, unable to produce xanthan, behaves similar to the wild&#8208;type strain in stomatal closure experiments (Fig EV4). On the other hand, XccBphP overexpression attenuates virulence, likely through transcriptional downregulation of virulence factors as revealed by our RNA&#8208;Seq results. These findings were gathered and summarized in Fig 6A.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33924</offset>
+      <text>XccBphP functions as a negative regulator for virulence through transcriptional regulation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34015</offset>
+      <text>Scheme derived from the results obtained throughout this work from the wild&#8208;type, the XccbphP (null mutant), and the complemented pXccBphP (overexpressing) strains. Systems affected are indicated in different colors, and gene candidates involved in these systems found by RNA&#8208;Seq analysis that are regulated by XccBphP are depicted in the same color code.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34375</offset>
+      <text>Possible model for XccBphP light&#8208;regulated EPS and biofilm results integrated with the spectroscopic data. XccBphP downregulates biofilm formation, xanthan production, and consequently Xcc virulence in a Pr:Pfr&#8208;dependent manner. XccBphP exposed to sunlight filtered by a canopy (left), direct sunlight (middle), or darkness (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34712</offset>
+      <text>Moreover, Xcc is significantly less virulent in the light than in the dark and this is dependent on XccBphP. Taking together virulence, xanthan EPS, biofilm, and spectroscopy experiments, a simple hypothetical model can be envisaged for Xcc light/dark virulent behavior, which is consistent with light inhibition of xanthan production and biofilm maturation, probably triggered by a low Pfr:Pr ratio (Fig 6B). Hence, XccBphP may be described as a virulence negative regulator, which senses light and partially inhibits the Xcc virulence program.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35258</offset>
+      <text>Why a bacteriophytochrome photoreceptor downregulates virulence toward its host is an open question. It is possible that Xcc is constitutively primed for infection and as the light stimuli disappear, it can promptly respond by increasing its virulent behavior. Consistently, Xcc rapidly establishes infection in a period significantly shorter than a daily photoperiod. Another reason for virulence inhibition could be attributed to Xcc hemibiotrophic lifestyle 31, initially infecting live tissues and at later stages actively killing host cells during its life cycle, and an excess in its pathogenicity toward its host could result non&#8208;adaptive. Therefore, XccBphP might have evolved to control and fine&#8208;tune Xcc virulence by inhibiting it. It is worth mentioning that Xcc can also (i) survive in the soil independently from its host for several weeks and (ii) produce a seedborne disease 16. In this scenario, photoreception can also be playing a part in signaling (time or place) the bacteria for infection in its life cycle, similarly to Brucella or Rhizobium3, 4. One possibility is that XccBphP serves as a time signaling system to distinguish between day and night. In line with this, it is known that light impacts positively on the plant immune system, probably making daytime the less favorable moment for infection. Plant defense mechanisms are modulated by light and circadian rhythm involving phytochrome photoreceptor signaling, among others 42, 43. In Arabidopsis, plant defense responses and disease resistance significantly depend on the time of day; morning or midday infections result in a more pronounced hypersensitive response than evening or night infections 44. Moreover, light is also associated with the production of ROS that in turn act in the plant&#8211;pathogen interaction 45. In this sense, it is reasonable to think that Xcc can synchronize infectivity to the plant dark&#8208;susceptible period by means of its BphP. Synchronizing Xcc infectivity to an optimal moment of the host physiology and signaled by light/dark as environmental cues can be a feature shared by other infective bacteria that harbor photoreceptors. In an analogous fashion, the quorum&#8208;sensing (QS) systems that are present in Xcc and in many other pathogenic bacteria, activates infection when the bacteria reach an appropriate situation (i.e. a certain population density) 46, 47. Another possibility is that XccBphP signals for a spatial cue. During the day, within a leaf canopy, most red light has been removed by the chlorophyll in shading leaves but almost none of the far&#8208;red light 48. Hence, the light environment within the canopy may largely drive XccBphP from a Pfr to a Pr form, as observed in Fig 1D, decreasing Xcc virulence levels relative to direct sunlight exposure. Therefore, there should also be differential Xcc virulence during daytime in shaded and non&#8208;shaded tissues. In this manner, Xcc might be optimizing its virulence levels (i.e. resources) according to the tissues susceptibilities as shaded leaves are more susceptible to infections that those ones that are exposed to direct light 42.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38383</offset>
+      <text>The XccBphP red&#8208;light&#8208;signaling pathway remains to be elucidated. It is plausible that the XccBphP first transducing events are transmitted to downstream elements via protein&#8211;protein interactions through the PAS9 output module 23. Our group has recently published a crystallographic structure of the full&#8208;length XccBphP in the Pr state (PDB code 5AKP), revealing a parallel dimer arrangement with its complete PAS9 module, that may serve as starting material for studies on early signaling events for this photoreceptor 22. Moreover, the RNA&#8208;Seq results show that there is a massive rearrangement of putative genes involved in this pathway, comprising (i) histidine kinases, (ii) two&#8208;component systems, (iii) c&#8208;di&#8208;GMP&#8208;modulating enzymes, and (iv) transcriptional regulators, all of which change due to far&#8208;red illumination and/or XccBphP overexpression (Dataset EV1). To conclude, our findings strongly suggest that light is an important environmental cue sensed by XccBphP that regulates virulence&#8208;associated mechanisms, which ultimately govern the plant&#8211;microbe interactions in Xcc. The understanding of Xanthomonas photobiology and its relationship with virulence may help in the task of finding novel ways to interfere with its infection cycle.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>39656</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39678</offset>
+      <text>Bacterial strains and culture conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39719</offset>
+      <text>Xanthomonas campestris pv. campestris 8004 (Xcc) strains were cultured in PYM or in Y minimal medium (YMM) 49, 50 at 28&#176;C, with agitation (250 r.p.m.). To examine biofilm development, bacteria were grown in YMM containing 1% (wt/vol) glucose as the carbon source 51. Escherichia coli strains were cultured at 37&#176;C in Luria&#8208;Bertani medium. When required, the antibiotics rifampicin (Rif), kanamycin (Km), spectinomycin (Spc), chloramphenicol (Cm), and ampicillin (Amp) were added in final concentrations of 30, 35, 100, 20, and 100 &#956;g/ml, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40276</offset>
+      <text>A complete list of strains, plasmids, and primers used in this study is included in Table 1.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>40369</offset>
+      <text>Strains, plasmids, and oligonucleotides used in this study</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>40428</offset>
+      <text>   Strains Genotype/relevant characteristics Source   Xcc Xanthomonas campestris pv. campestris 8004, Rifr Laboratory stock  XccbphP Xcc, XC_4241::&#937;, Rifr, Spcr This work  pXccBphP XccbphP + pBBR&#8208;XccBphP, Rifr, Spcr, Kmr This work  pC13S XccbphP + pBBR&#8208;C13S, Rifr, Kmr This work  gumB gumB::Tn5lac, EPS minus, Rifr, Kmr 28  DH5&#945; Escherichia coli, hsdR recA lacZYA &#934;80 lacZDM15 Gibco&#8208;BRL  BL21(DE3)pLysE Escherichia coli, high&#8208;efficiency protein expression strain Promega  pET&#8208;XccBphP BL21(DE3)pLysE, pET&#8208;XccBphP, Cmr, Kmr This work  pET&#8208;C13S BL21(DE3)pLysE, pET&#8208;C13S, Cmr, Kmr This work  Plasmids Relevant characteristics Source  pGEM&#8208;T Easy PCR cloning vector, lacZ, Ampr, Promega  pG&#8208;XccbphP::&#937; pGEM&#8208;T Easy with &#937; cassette (aadA gene) cloned between a 400&#8208;bp and a 500&#8208;bp fragments flanking XccbphP gene, Ampr, Spcr This work  pKmobSacB Suicide vector, sacB mob lacZ, Kmr 53  pK&#8208;XccbphP::&#937; pKmobsacB with XccbphP::&#937; construction, Kmr, Spcr This work  pBBR1MCS2 Broad&#8208;host&#8208;range cloning vector, Kmr 54  pBBR&#8208;XccBphP pBBR1MCS2 with a 2,708&#8208;bp fragment containing XccbphO&#8208;XccbphP operon and 5&#8242; regulatory sequence cloned in HindIII site, Kmr This work  pBBR&#8208;C13S Originated from pBBR&#8208;XccBphP, containing mutation coding for XccBphP C13S, Kmr This work  pET&#8208;XccBphP pET24a, Hisx6&#8208;Full&#8208;length XccBphP, Kmr This work  pET&#8208;C13S pET24a, Hisx6&#8208;Full&#8208;length XccBphP&#8208;C13S, Kmr This work  Oligonucleotides Sequence (5&#8242; &#8211; 3&#8242;) Source  &#916;BphP_A CTAAGCTTTACCTACGCGCAGGTGCTGCGCCGGCATC This work  &#916;BphP_B ATGGATCCCGCGCGCAGACGTCCAGGTCCAACGGGTTG This work  &#916;BphP_C TTGGATCCGCCGTTGCAAGTGAGCGACGGCGCACCGG This work  &#916;BphP_D TCAAGCTTACGCTGCGCCTGTGCCGCAAGGCCGCTGC This work  cBpbP_F CTAAGCTTTGGCGCGCCGCTGCACCTGCCC This work  cBpbP_R TTCAAGCTTCTCTTATTCCGGATCGCGCAGCTGTAAC This work  5_Flank_F GTGCCGCTGATGCAGGCGCTGGGGCAGG This work  3_Flank_R GCAAGGCGATCAAGGTGATCGCACCGG This work  C13S_F TTGGACCTGGACGTCTCCGCGCGCGAACCCATC This work  C13S_R GATGGGTTCGCGCGCGGAGACGTCCAGGTCCAA This work  BphP_F ATCATATGCACCATCACCATCACCATAGCACTGCAACCAACCCGTTG This work  BphP_R TAGGATCCTTATTCCGGATCGCGCAGCTGTAAC This work  RT_1 CCCGGGTTGAGTCGGTGC This work  RT_2 GCCAGCAGCCGGTGATGC This work  RT_3 AGCAACGCCTGCAGAGCG This work  RT_4 CCAACGGGTTGGTTGCAGTG This work  RT_5 GCCAGTTCCACCTTGAACCTCT This work  RT_6 GCAGTCATTTTGATCGCTGCTC This work</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42801</offset>
+      <text>Light, far&#8208;red, and dark bacterial culture conditions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42857</offset>
+      <text>Light treatments were performed with continuous white light (2,700 K) from fluorescent tubes with a fluence of 15 &#956;mol/m/s. Photon flux was measured using a Quantum Meter (Apogee Instruments model QMSW&#8208;SS). Far&#8208;red bacterial illumination was performed using 733 nm 0.7 W LEDs at a 15 cm distance during culture. Darkness was achieved covering cultures with two layers of aluminum foil.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43248</offset>
+      <text>Generation of the bacterial strains</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43284</offset>
+      <text>The XccbphP mutant strain was obtained by allelic exchange. The XccbphP gene (XC_4241) was partially deleted and replaced by a 2 kb Smr/Spcr cassette (&#937;) 52. Two fragments from the flanking regions of XccbphP gene were amplified using primers &#916;BphP_A&#8208;&#916;BphP_B and &#916;BphP_C&#8208;&#916;BphP_D, respectively. The fragments were BamHI&#8208;digested, ligated to each other, amplified using the &#916;BphP_A&#8208;&#916;BphP_D primers, and the product cloned into the pGEM&#8208;T Easy vector (Promega). The resulting vector was BamHI&#8208;digested, blunted with Klenow Fragment (New England Biolabs) and ligated to a SmaI&#8208;digested &#937; cassette, derived from the pHP45&#937; plasmid, to yield pG&#8208;XccbphP::&#937;. The XccbphP::&#937; construction was subcloned into pk18mobsacB 53 in the HindIII restriction site. The resulting pK&#8208;XccbphP::&#937; vector was used to transform Xcc. Sucrose&#8208;resistant double recombinants were selected (Kms, Spcr). The mutation was confirmed by PCR sequencing, using specific primers (5_Flank_F&#8208;3_Flank_R) flanking the mutation site and by Western blot. To construct the XccbphP complemented strain, a 2.7&#8208;kb fragment containing the complete XC_4242&#8208;XC_4241 operon and its regulatory sequences was amplified using specific primers (cBphP_F and cBphP_R), cloned into the HindIII restriction site of pBBR1MCS2 vector 54, to yield pBBR&#8208;XccBphP, which was used to transform XccbphP to generate pXccBphP strain. The XccBphP&#8208;C13S complemented strain was generated by site&#8208;directed mutagenesis using Q5 High&#8208;Fidelity DNA Polymerase (New England Biolabs), specific primers (C13S_F and C13_R) and the pBBR&#8208;XccBphP vector as template to generate the pBBR&#8208;C13S vector, which was used to transform XccbphP to generate pC13S strain.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45012</offset>
+      <text>Western blot</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45025</offset>
+      <text>Bacterial extracts normalized by OD600 were loaded and separated in 12.5% SDS&#8211;PAGE electrophoresis. Similar amounts of protein were loaded into each lane of the gels, corroborated by Coomassie blue staining. Proteins were transferred to Immobilon&#8208;P PVDF Membrane (Millipore). Membranes were blocked with non&#8208;fat milk in PBS and incubated with an anti&#8208;XccBphP polyclonal antibody (1:1,000) and then with anti&#8208;mouse IgG (Fc specific)&#8208;peroxidase antibody produced in goat (Sigma) (1:5,000). Detection was achieved using the Amersham ECL Prime Western Blotting Detection Reagent (GE Healthcare Life Sciences) on an ImageQuant LAS 400 apparatus (GE Healthcare Life Sciences).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45708</offset>
+      <text>RT&#8211;PCR of XccbphO&#8208;XccbphP operon</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45745</offset>
+      <text>Total Xcc bacterial RNA was isolated using the MasterPure&#8482; RNA Purification Kit (Epicentre, Illumina). Reverse transcription was performed with a first&#8208;strand SuperScript III cDNA kit (Invitrogen), using random decamer primers (Invitrogen) and RNasin ribonuclease inhibitor (Promega). The Primer&#8208;BLAST program (http://www.ncbi.nlm.nih.gov/tools/primer-blast/) was used to design primers for PCR products of 100&#8211;125 bp (Table 1). The cDNA samples were used as templates in PCR amplification, and products were resolved in a 2% agarose gel.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46292</offset>
+      <text>Bioinformatics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46307</offset>
+      <text>BphP homologs were retrieved from UniProtKB database (2016_01 release) by means of a BLAST search in the UniProt server (http://www.uniprot.org/) using default parameters and the photosensory module (PAS2&#8208;GAF&#8208;PHY) from XccBphP as query. All sequences were inspected using Pfam server (http://pfam.xfam.org/). A total of 75 sequences from Xanthomonas genus containing a complete PAS2&#8208;GAF&#8208;PHY domain triad were identified. PHY domain sequences inferred by Pfam from this dataset were used to build a multiple sequence alignment using MUSCLE program and conducted in MEGA7 software 55. Then, a molecular phylogenetic analysis by maximum&#8208;likelihood method was performed to obtain a tree. The evolutionary history was inferred by using the maximum&#8208;likelihood method based on the Whelan and Goldman model 56. The tree with the highest log&#8208;likelihood (&#8722;1,872.6517) is shown. The percentage of trees in which the associated taxa clustered together is shown next to the branches. Initial tree(s) for the heuristic search were obtained automatically by applying Neighbor&#8208;Join and BioNJ algorithms to a matrix of pairwise distances estimated using a JTT model, and then selecting the topology with superior log&#8208;likelihood value. A discrete Gamma distribution was used to model evolutionary rate differences among sites [five categories (+G, parameter = 3.3628)]. All positions containing gaps and missing data were eliminated. There were a total of 144 positions in the final dataset. The resulting tree was plotted using iTOL server (http://itol.embl.de/) 57.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>47877</offset>
+      <text>Generation and purification of XccBphP and XccBphP C13S recombinant proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47954</offset>
+      <text>Full&#8208;length XccBphP (residues 1&#8211;634) was cloned from the XC_4241 ORF into the NdeI/BamHI restriction sites of the pET24A vector (Novagen) to generate pET&#8208;XccBphP as described elsewhere 58. The XccBphP&#8208;C13S point mutant was generated by site&#8208;directed mutagenesis using Q5 High&#8208;Fidelity DNA Polymerase, specific primers (C13S_F and C13_R) and the pET&#8208;XccBphP vector as template to generate the pET&#8208;C13S vector. Escherichia coli BL21(DE3)pLysE strain cells were transformed with pET&#8208;C13S. Cultures were induced with a final concentration of 0.4 mM IPTG overnight at 20&#176;C with agitation (250 rpm), cells were harvested and ruptured. Next, the His&#8208;tagged proteins were purified as previously described 58. The holoproteins were generated by incubating the apoproteins for 1 h at room temperature in the presence of biliverdin&#8208;IX&#945; (BV; Sigma&#8208;Aldrich) before the size&#8208;exclusion chromatography step. Protein concentration was estimated using the calculated molar extinction coefficient at &#955; = 280 nm provided by the ExPASy ProtParam tool (http://web.expasy.org/protparam/) based on the polypeptide sequence for the monomer (&#949;XccBphP = &#603;C13S = 74,370 M/cm); the biliverdin cofactor contribution was subtracted.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49187</offset>
+      <text>UV&#8208;vis spectroscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49209</offset>
+      <text>Quartz cuvette containing holoprotein 1 mg/ml solutions of XccBphP or C13S in 50 mM Tris&#8211;HCl pH 7.7, 250 mM NaCl (buffer A) was irradiated for 10 min with a white (2,700 K) 15&#8208;W fluorescent tube lamp, a red (630 nm) 1&#8208;W LED, far&#8208;red (733 nm) 0.7&#8208;W LED, direct sunlight or sunlight filtered with two layers of fresh green Epipremnum aureum leaves. Absorption spectra were collected in an 8452A diode array spectrometer (Hewlett Packard). The dark states were determined after proteins were kept in the dark for 96 h.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49735</offset>
+      <text>Plant materials</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49751</offset>
+      <text>Arabidopsis thaliana (L.) Heynh. ecotype Col&#8208;0 seeds used for infection, callose staining, and stomatal aperture assays were surface sterilized with an ethanol:50%bleach:water (8:1:1) mixture for 5 min and rinsed three times with ethanol. Sterilized seeds were kept in water and in the dark for 3 days at 4&#176;C. Seeds were germinated and cultivated in 60 &#215; 15 cm Petri dishes containing Murashige and Skoog medium (MS), sucrose 0.5% and 0.5 g/l MES hydrate pH 5.7. Plants were grown at 22&#8211;23&#176;C with a 12&#8208;h photoperiod for 10 days.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50289</offset>
+      <text>Infection assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50306</offset>
+      <text>Bacterial strains were grown overnight in PYM supplemented with the appropriate antibiotics and resuspended in water. Plants were infected adding the bacterial suspension to the plant growth medium to a final OD600 of 0.002, as previously described 28. Plants were kept at 22&#8211;23&#176;C with a 12&#8208;h photoperiod. Daily samples were taken for 3 days. Bacterial content was determined by plating a dilution series on PYM medium containing appropriate antibiotics of the homogenate leaves, and were expressed as CFU per gram of plant fresh weight.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50849</offset>
+      <text>Stomatal assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50865</offset>
+      <text>Stomatal experiments were performed as previously described 17. Briefly, for stomatal closure assays, epidermal peels from 4&#8208;week&#8208;old leaves were floated in 10:10 buffer (10 mM KCl and 10 mM MES&#8208;KOH pH 6.15) under light for 2 h, then 108 CFU/ml of each bacteria strain, flg22 peptide (5 &#956;M, GL Biochem) or abscisic acid (20 &#956;M, mixed isomers Sigma) were added to the medium and incubated for 1 or 3 h. Similarly, for stomatal opening assays, epidermal peels were incubated in buffer 10:10 for 2 h in the dark, then 108 CFU/ml of each bacterial strain were added to the medium and incubated for 3 h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51472</offset>
+      <text>Apertures from 80 stomata for each experiment were measured in a Carl Zeiss microscope (4003) with the aid of an eyepiece micrometer.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51606</offset>
+      <text>Callose staining</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51623</offset>
+      <text>Experiments were performed as described previously 29. Briefly, following treatment with bacteria (5 &#215; 108 CFU/ml) or flg22 peptide (100 nM, GL Biochem), 10&#8208;day&#8208;old seedlings grown in 12&#8208;well microtiter dishes were fixed in a 3:1 ethanol:acetic acid solution for several hours. The fixative was changed several times to ensure both thorough fixing and clearing of the tissues, which is essential for good callose detection. Seedlings were rehydrated in 70% (vol/vol) ethanol for 2 h, 50% ethanol for an additional 2 h, and water overnight. After three water washes, seedlings were treated with 10% (wt/vol) NaOH and placed at 37&#176;C for 1&#8211;2 h to make the tissues transparent. After four water washes, seedlings were incubated in 150 mM K2HPO4 pH 9.5, and 0.01% (wt/vol) aniline blue (Sigma&#8208;Aldrich) for several hours. Seedlings were mounted on slides, and callose was observed using a Nikon Eclipse E600 fluorescence microscope (excitation &#955; = 390 nm; emission &#955; = 460 nm).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52609</offset>
+      <text>Xanthan production: agar plate assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52646</offset>
+      <text>Xanthan production was determined measuring the diameter of the colonies grown in PYM supplemented with 2% (wt/vol) glucose. Five microliters of bacterial cultures (OD600 = 1) for each strain was inoculated in the plates and cultured under light or dark conditions for 48 h. Colony diameters were determined analyzing plate pictures using the ImageJ 1.41 software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53011</offset>
+      <text>Xanthan production: liquid culture assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53052</offset>
+      <text>Xanthan quantification in liquid culture was performed as described before 59. Briefly, strains were cultured under light or dark conditions for 48 h at 28&#176;C in 20 ml PYM liquid medium in 50&#8208;ml flasks, using an orbital shaker rotating at 200 rpm. Then, OD600 were recorded, cells removed by centrifugation (25,000 g for 60 min), the supernatants supplemented with KCl at 1% (wt/vol) final concentration, and 40 ml of ethanol were added. The precipitated crude xanthan was collected, dried, and weighed.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53558</offset>
+      <text>In vitro analysis of biofilm formation by confocal laser&#8208;scanning microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53637</offset>
+      <text>Bacterial strains were cultured at 28&#176;C in PYM medium supplemented with the proper antibiotics. Cultures were normalized by OD600 and diluted 1:2,000 in YMM and grown in coverglass slide chambers (no. 155411; Lab&#8208;Tek, Nunc) for 4 days at 28&#176;C as previously described 60, under light or dark conditions. Cells were stained with LIVE/DEAD cell viability assay (Thermo Fisher Scientific Inc.) before visualization. Biofilm formation was monitored with an Olympus Fluo View 1000 confocal laser&#8208;scanning microscope (CLSM). Three&#8208;dimensional images were generated with the ImageJ 1.41 CLSM software from the National Institutes of Health (http://rsbweb.nih.gov/ij/download.html). COMSTAT software was used for three&#8208;dimensional biofilm structure quantifications 61.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54407</offset>
+      <text>CMC degradation halo assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54434</offset>
+      <text>Production of extracellular &#946;&#8208;1,4&#8208;endoglucanases was assessed inoculating 5 &#956;l of supernatants onto PYM plates containing 0.125% (wt/vol) carboxymethyl cellulose (CMC, Sigma&#8208;Aldrich). Supernatants were obtained by centrifugation of 1 ml of bacterial cultures (OD600 = 1) for 5 min at 12,400 g that were grown under light or dark conditions. The CMC degradation halo was developed after 24 h of incubation with an aqueous solution 0.1% (wt/vol) Congo red (Sigma&#8208;Aldrich). Halo diameters were measured using the ImageJ 1.41 software. Data were normalized to the total area of the plate.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55029</offset>
+      <text>&#946;&#8208;1,4&#8208;endoglucanase enzymatic activity: colorimetric assay in solution</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55105</offset>
+      <text>The extracellular endoglucanase enzymatic activity measurements from liquid culture supernatants were performed by the colorimetric assay described before 62. Briefly, bacteria were culture for 24 h at 28&#176;C in 5 ml PYM liquid medium. Then, bacterial cultures OD600 were recorded, 1 ml of culture was centrifuged for 10 min at 9,000 rpm, and supernatants were used for a following reaction. A total of 50 &#956;l of a supernatant dilution and 50 &#956;l 2% CMC (wt/vol) both prepared in 0.05 M citrate buffer pH 4.8 were transferred to a 96&#8208;well plate, and the enzymatic reactions were incubated at 50&#176;C for 60 min. The reducing sugar was measured by adding 100 &#956;l of DNS (3,5&#8208;dinitrosalicylic acid), followed by an incubation of the mix for 5 min at 95&#176;C, and the absorbance was measured at 540 nm. The enzymatic units were calculated as CMC (units/ml) = 0.185 (units/ml)/(enzyme concentration) to release 0.5 mg glucose, where concentration = (vol. enzyme in dilution)/(total dilution volume). All the results were normalized by OD600.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56142</offset>
+      <text>Sliding motility assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56165</offset>
+      <text>Bacteria were grown overnight in PYM medium; then, 3 &#956;l of bacterial cultures (OD600 = 1) was inoculated in 0.5% (wt/vol) agar PYM plates as described before 34. After 72 h, motility was assessed measuring the circular halo formed by the growing bacterial cells. The assay was performed in triplicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56469</offset>
+      <text>Swimming motility assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56493</offset>
+      <text>Swimming motility assays were carried out as previously described 51. Briefly, bacteria were grown overnight in PYM medium and 3 &#956;l of bacterial cultures, normalized by OD600, was used to inoculate NYGB medium [0.5% (wt/vol) peptone extract, 0.3% (wt/vol) yeast extract, 2% (vol/vol) glycerol] 0.25% (wt/vol) agar plates. After 72 h, motility was assessed by measuring the outer colony halo. The assay was performed in triplicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56926</offset>
+      <text>RNA isolation and RNA&#8208;Seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56954</offset>
+      <text>Wild&#8208;type Xcc or pXccBphP strains were cultured in red light or dark conditions up to logarithmic phase (0.7&#8211;0.8 OD600) at 28&#176;C in PYM broth. Total bacterial RNA was isolated using the MasterPure&#8482; RNA Purification Kit (Epicentre, Illumina). Samples corresponding to two biological replicates for each condition were submitted to Genome Qu&#233;bec for rRNA removal with Ribo&#8208;Zero (Illumina) and TruSeq RNA&#8208;seq library preparation. Fifty&#8208;basepair single&#8208;end sequencing of the libraries was performed using an Illumina HiSeq 2000 platform (Genome Qu&#233;bec). Removal of low&#8208;quality reads and Illumina adapters, and assessment of the quality of the reads was performed using Trimmomatic 63 and FastQC (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), respectively. Reads were aligned to the Xcc genome obtained from GenBank (accession number: NC_007086.1) using SAMtools and the Burrows&#8208;Wheeler Alignment software (BWA) 64, 65. Alignments were visualized using the software Integrated Genome Viewer (IGV) (http://broadinstitute.org/igv).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58013</offset>
+      <text>Gene annotation and RNA&#8208;Seq differential expression analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58076</offset>
+      <text>Open reading frames (ORF) were primarily annotated using the GenBank NC_007086.1 &#8220;locus_tag&#8221; accession number. For subsequent functional analysis, each ORF entry was then mapped to the following fields: (i) from GenBank NC_007086.1: &#8220;old_locus_tag&#8221; and &#8220;product&#8221;, and (ii) from UniProtKB: &#8220;Protein names&#8221;, &#8220;EC number&#8221;, &#8220;Gene ontology (biological process)&#8221;, &#8220;Gene ontology (molecular function)&#8221;, &#8220;Gene ontology (cellular component)&#8221;, and &#8220;Gene ontology IDs&#8221;.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58570</offset>
+      <text>Read counts corresponding to annotated ORFs were quantified with the software FeatureCounts 66 using the strand&#8208;specific mode. Differential expression analysis was performed using the software DESeq 67. Genes displaying adjusted P&#8208;value &lt; 0.05 and baseline read counts higher than the first quartile of baseMean were informed as differentially expressed genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58935</offset>
+      <text>Gene ontology analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58958</offset>
+      <text>Using GO.db Bioconductor annotation data package in R language, all Gene Ontology (GO) terms and ancestors were retrieved and annotated for all Xcc ORFs. For differentially expressed (DE) genes, an enrichment test was performed for the following categories: BP (biological process), MF (molecular function), and CC (cellular component). The enrichment factor (EF) was estimated as the ratio between the proportions of genes associated with a particular GO category present in the dataset under analysis, relative to the proportion of the number of genes in this category in the whole genome. P&#8208;values were calculated using the Fisher's exact test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59608</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59626</offset>
+      <text>RNA&#8208;Seq data are available in the ArrayExpress database (http://www.ebi.ac.uk/arrayexpress) under accession number E&#8208;MTAB&#8208;4958.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>59760</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59781</offset>
+      <text>HRB and FM wrote the manuscript; HRB, FAG, AAV, and FM conceived and designed the experiments; HRB, LT, GS, and FM performed the experiments; HRB, LT, RS, AMT, GEG, FCL, and FM analyzed data.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>59973</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59994</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60054</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>60077</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="source">Crit Rev Biochem Mol Biol</infon>
+      <infon key="lpage">88</infon>
+      <infon key="pub-id_pmid">21250783</infon>
+      <infon key="fpage">67</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60088</offset>
+      <text>Bacterial phytochromes: more than meets the light</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">178</infon>
+      <infon key="pub-id_pmid">18400553</infon>
+      <infon key="fpage">168</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60138</offset>
+      <text>Photoregulation in prokaryotes</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12140</infon>
+      <infon key="pub-id_pmid">22773814</infon>
+      <infon key="fpage">12135</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60169</offset>
+      <text>Light regulates attachment, exopolysaccharide production, and nodulation in Rhizobium leguminosarum through a LOV&#8208;histidine kinase photoreceptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">317</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1093</infon>
+      <infon key="pub-id_pmid">17717187</infon>
+      <infon key="fpage">1090</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>60316</offset>
+      <text>Blue&#8208;light&#8208;activated histidine kinases: two&#8208;component sensors in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22675525</infon>
+      <infon key="fpage">e38226</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60396</offset>
+      <text>A LOV protein modulates the physiological attributes of Xanthomonas axonopodis pv. citri relevant for host plant colonization</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Chemphyschem</infon>
+      <infon key="lpage">1180</infon>
+      <infon key="pub-id_pmid">20155775</infon>
+      <infon key="fpage">1172</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60522</offset>
+      <text>A brief history of phytochromes</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3876</infon>
+      <infon key="pub-id_pmid">24567382</infon>
+      <infon key="fpage">3871</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60554</offset>
+      <text>Eukaryotic algal phytochromes span the visible spectrum</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">858</infon>
+      <infon key="pub-id_pmid">16669784</infon>
+      <infon key="fpage">837</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60610</offset>
+      <text>Phytochrome structure and signaling mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">217&#8211;218</infon>
+      <infon key="lpage">46</infon>
+      <infon key="source">Plant Sci</infon>
+      <infon key="fpage">36</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60657</offset>
+      <text>Shedding (far&#8208;red) light on phytochrome mechanisms and responses in land plants</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Annu Rev Plant Biol</infon>
+      <infon key="lpage">402</infon>
+      <infon key="pub-id_pmid">23506333</infon>
+      <infon key="fpage">377</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60739</offset>
+      <text>Phytochrome cytoplasmic signaling</text>
+    </passage>
+    <passage>
+      <infon key="source">Nature</infon>
+      <infon key="volume">386</infon>
+      <infon key="pub-id_pmid">9109482</infon>
+      <infon key="fpage">663</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60773</offset>
+      <text>A prokaryotic phytochrome</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1508</infon>
+      <infon key="pub-id_pmid">9278513</infon>
+      <infon key="fpage">1505</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>60799</offset>
+      <text>A cyanobacterial phytochrome two&#8208;component light sensory system</text>
+    </passage>
+    <passage>
+      <infon key="source">mBio</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23760465</infon>
+      <infon key="fpage">e00334&#8208;13</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>60865</offset>
+      <text>Light regulation of swarming motility in Pseudomonas syringae integrates signaling pathways mediated by a bacteriophytochrome and a LOV protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">2520</infon>
+      <infon key="pub-id_pmid">10617469</infon>
+      <infon key="fpage">2517</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>61009</offset>
+      <text>Bacteriophytochromes: phytochrome&#8208;like photoreceptors from nonphotosynthetic eubacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="lpage">742</infon>
+      <infon key="source">Plant Dis</infon>
+      <infon key="fpage">736</infon>
+      <infon key="year">1980</infon>
+      <infon key="type">ref</infon>
+      <offset>61099</offset>
+      <text>Black rot: a continuing threat to world crucifers</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Mol Plant Pathol</infon>
+      <infon key="lpage">18</infon>
+      <infon key="pub-id_pmid">23051837</infon>
+      <infon key="fpage">2</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>61149</offset>
+      <text>Xanthomonas campestris pv. campestris (cause of black rot of crucifers) in the genomic era is still a worldwide threat to brassica crops</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">1027</infon>
+      <infon key="pub-id_pmid">19091877</infon>
+      <infon key="fpage">1017</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61286</offset>
+      <text>Xanthomonas campestris overcomes Arabidopsis stomatal innate immunity through a DSF cell&#8208;to&#8208;cell signal&#8208;regulated virulence factor</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">840</infon>
+      <infon key="pub-id_pmid">23154261</infon>
+      <infon key="fpage">828</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61423</offset>
+      <text>Microbial life in the phyllosphere</text>
+    </passage>
+    <passage>
+      <infon key="volume">414</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">779</infon>
+      <infon key="pub-id_pmid">11742406</infon>
+      <infon key="fpage">776</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>61458</offset>
+      <text>Bacteriophytochromes are photochromic histidine kinases using a biliverdin chromophore</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D230</infon>
+      <infon key="pub-id_pmid">24288371</infon>
+      <infon key="fpage">D222</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61545</offset>
+      <text>Pfam: the protein families database</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">3669</infon>
+      <infon key="pub-id_pmid">15035636</infon>
+      <infon key="fpage">3659</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>61581</offset>
+      <text>The biliverdin chromophore binds covalently to a conserved cysteine residue in the N&#8208;terminus of Agrobacterium phytochrome Agp1</text>
+    </passage>
+    <passage>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2016</infon>
+      <offset>61711</offset>
+      <text>Structure of the full&#8208;length bacteriophytochrome from the plant pathogen Xanthomonas campestris provides clues to its long&#8208;range signaling mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">1294</infon>
+      <infon key="pub-id_pmid">19836329</infon>
+      <infon key="fpage">1282</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>61864</offset>
+      <text>Structure and signaling mechanism of Per&#8208;ARNT&#8208;Sim domains</text>
+    </passage>
+    <passage>
+      <infon key="volume">192</infon>
+      <infon key="source">J Bacteriol</infon>
+      <infon key="lpage">5133</infon>
+      <infon key="pub-id_pmid">20675484</infon>
+      <infon key="fpage">5124</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>61926</offset>
+      <text>Bathy phytochromes in rhizobial soil bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">2812</infon>
+      <infon key="pub-id_pmid">12604773</infon>
+      <infon key="fpage">2807</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>61972</offset>
+      <text>The pair of bacteriophytochromes from Agrobacterium tumefaciens are histidine kinases with opposing photobiological properties</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Cell Microbiol</infon>
+      <infon key="lpage">1629</infon>
+      <infon key="pub-id_pmid">17419713</infon>
+      <infon key="fpage">1621</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62099</offset>
+      <text>Role of plant stomata in bacterial invasion</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">2089</infon>
+      <infon key="pub-id_pmid">17601826</infon>
+      <infon key="fpage">2077</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62143</offset>
+      <text>Bacterial cyclic beta&#8208;(1,2)&#8208;glucan acts in systemic suppression of plant immune responses</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">187</infon>
+      <infon key="pub-id_pmid">16531487</infon>
+      <infon key="fpage">178</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>62237</offset>
+      <text>Xanthan induces plant susceptibility by suppressing callose deposition</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Plant Cell</infon>
+      <infon key="lpage">990</infon>
+      <infon key="pub-id_pmid">20348432</infon>
+      <infon key="fpage">973</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62308</offset>
+      <text>Innate immune responses activated in Arabidopsis roots by microbe&#8208;associated molecular patterns</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">566</infon>
+      <infon key="pub-id_pmid">9179849</infon>
+      <infon key="fpage">555</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>62406</offset>
+      <text>A novel regulatory system required for pathogenicity of Xanthomonas campestris is mediated by a small diffusible signal molecule</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">FEMS Microbiol Rev</infon>
+      <infon key="lpage">133</infon>
+      <infon key="pub-id_pmid">19925633</infon>
+      <infon key="fpage">107</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62535</offset>
+      <text>Regulation and secretion of Xanthomonas virulence factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Environ Microbiol</infon>
+      <infon key="lpage">2109</infon>
+      <infon key="pub-id_pmid">17635553</infon>
+      <infon key="fpage">2101</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62593</offset>
+      <text>Controlled synthesis of the DSF cell&#8208;cell signal is required for biofilm formation and virulence in Xanthomonas campestris</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Mol Plant Microbe Interact</infon>
+      <infon key="lpage">1230</infon>
+      <infon key="pub-id_pmid">17918624</infon>
+      <infon key="fpage">1222</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62718</offset>
+      <text>Biofilm formation, epiphytic fitness, and canker development in Xanthomonas axonopodis pv. citri</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">829</infon>
+      <infon key="pub-id_pmid">21109564</infon>
+      <infon key="fpage">819</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62815</offset>
+      <text>The Xanthomonas axonopodis pv. citri flagellum is required for mature biofilm and canker development</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Genet Mol Biol</infon>
+      <infon key="lpage">153</infon>
+      <infon key="pub-id_pmid">21637619</infon>
+      <infon key="fpage">146</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62916</offset>
+      <text>Mutation in the xpsD gene of Xanthomonas axonopodis pv. citri affects cellulose degradation and virulence</text>
+    </passage>
+    <passage>
+      <infon key="volume">168</infon>
+      <infon key="source">Oecologia</infon>
+      <infon key="lpage">629</infon>
+      <infon key="pub-id_pmid">21983641</infon>
+      <infon key="fpage">621</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>63022</offset>
+      <text>Microbiology of the phyllosphere: a playground for testing ecological concepts</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="source">Appl Environ Microbiol</infon>
+      <infon key="lpage">1883</infon>
+      <infon key="pub-id_pmid">12676659</infon>
+      <infon key="fpage">1875</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>63101</offset>
+      <text>Microbiology of the phyllosphere</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">J Appl Microbiol</infon>
+      <infon key="lpage">1083</infon>
+      <infon key="pub-id_pmid">16630008</infon>
+      <infon key="fpage">1073</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>63134</offset>
+      <text>Role of nucleotide excision repair and photoreactivation in the solar UVB radiation survival of Pseudomonas syringae pv. syringae B728a</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Environ Microbiol</infon>
+      <infon key="lpage">2085</infon>
+      <infon key="pub-id_pmid">24033935</infon>
+      <infon key="fpage">2072</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63270</offset>
+      <text>Light regulates motility, attachment and virulence in the plant pathogen Pseudomonas syringae pv tomato DC3000</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Environ Microbiol Rep</infon>
+      <infon key="lpage">802</infon>
+      <infon key="pub-id_pmid">26147514</infon>
+      <infon key="fpage">795</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>63381</offset>
+      <text>Visualizing the relevance of bacterial blue&#8208; and red&#8208;light receptors during plant&#8208;pathogen interaction</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Plant J</infon>
+      <infon key="lpage">331</infon>
+      <infon key="pub-id_pmid">23865633</infon>
+      <infon key="fpage">322</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63490</offset>
+      <text>LOV&#8208;domain photoreceptor, encoded in a genomic island, attenuates the virulence of Pseudomonas syringae in light&#8208;exposed Arabidopsis leaves</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Plant J</infon>
+      <infon key="lpage">103</infon>
+      <infon key="pub-id_pmid">23578319</infon>
+      <infon key="fpage">90</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63634</offset>
+      <text>Perception of low red: far&#8208;red ratio compromises both salicylic acid&#8208; and jasmonic acid&#8208;dependent pathogen defences in Arabidopsis</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Curr Opin Plant Biol</infon>
+      <infon key="lpage">413</infon>
+      <infon key="pub-id_pmid">23856082</infon>
+      <infon key="fpage">406</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63771</offset>
+      <text>Modulation of plant immunity by light, circadian rhythm, and temperature</text>
+    </passage>
+    <passage>
+      <infon key="volume">147</infon>
+      <infon key="source">Plant Physiol</infon>
+      <infon key="lpage">801</infon>
+      <infon key="pub-id_pmid">18434604</infon>
+      <infon key="fpage">790</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>63844</offset>
+      <text>Light regulation and daytime dependency of inducible plant defenses in Arabidopsis: phytochrome signaling controls systemic acquired resistance rather than local defense</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Plant Biol</infon>
+      <infon key="lpage">736</infon>
+      <infon key="pub-id_pmid">23506300</infon>
+      <infon key="fpage">723</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64014</offset>
+      <text>The emerging role of photorespiration and non&#8208;photorespiratory peroxisomal metabolism in pathogen defence</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">FEMS Microbiol Rev</infon>
+      <infon key="lpage">857</infon>
+      <infon key="pub-id_pmid">18557946</infon>
+      <infon key="fpage">842</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>64122</offset>
+      <text>Quorum sensing and virulence regulation in Xanthomonas campestris</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">26181439</infon>
+      <infon key="fpage">e1004986</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>64188</offset>
+      <text>The DSF family of cell&#8208;cell signals: an expanding class of bacterial virulence regulators</text>
+    </passage>
+    <passage>
+      <infon key="volume">407</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">591</infon>
+      <infon key="pub-id_pmid">11034200</infon>
+      <infon key="fpage">585</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>64280</offset>
+      <text>Phytochromes and light signal perception by plants&#8211;an emerging synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Can J Microbiol</infon>
+      <infon key="lpage">948</infon>
+      <infon key="pub-id_pmid">963616</infon>
+      <infon key="fpage">942</infon>
+      <infon key="year">1976</infon>
+      <infon key="type">ref</infon>
+      <offset>64355</offset>
+      <text>Colonial variation in Xanthomonas campestris NRRL B&#8208;1459 and characterization of the polysaccharide from a variant strain</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">J Appl Bacteriol</infon>
+      <infon key="lpage">713</infon>
+      <infon key="pub-id_pmid">4930566</infon>
+      <infon key="fpage">708</infon>
+      <infon key="year">1970</infon>
+      <infon key="type">ref</infon>
+      <offset>64479</offset>
+      <text>Improved synthetic medium for the growth of Rhizobium</text>
+    </passage>
+    <passage>
+      <infon key="volume">159</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">1919</infon>
+      <infon key="pub-id_pmid">23813675</infon>
+      <infon key="fpage">1911</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64533</offset>
+      <text>Identification and characterization of biofilm formation&#8208;defective mutants of Xanthomonas citri subsp. citri</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">313</infon>
+      <infon key="pub-id_pmid">6237955</infon>
+      <infon key="fpage">303</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>64644</offset>
+      <text>In vitro insertional mutagenesis with a selectable DNA fragment</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">73</infon>
+      <infon key="pub-id_pmid">8045426</infon>
+      <infon key="fpage">69</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>64708</offset>
+      <text>Small mobilizable multi&#8208;purpose cloning vectors derived from the Escherichia coli plasmids pK18 and pK19: selection of defined deletions in the chromosome of Corynebacterium glutamicum</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Biotechniques</infon>
+      <infon key="lpage">802</infon>
+      <infon key="pub-id_pmid">8068328</infon>
+      <infon key="fpage">800</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>64895</offset>
+      <text>pBBR1MCS: a broad&#8208;host&#8208;range cloning vector</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">1874</infon>
+      <infon key="pub-id_pmid">27004904</infon>
+      <infon key="fpage">1870</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>64943</offset>
+      <text>MEGA7: molecular evolutionary genetics analysis version 7.0 for bigger datasets</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Mol Biol Evol</infon>
+      <infon key="lpage">699</infon>
+      <infon key="pub-id_pmid">11319253</infon>
+      <infon key="fpage">691</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>65023</offset>
+      <text>A general empirical model of protein evolution derived from multiple protein families using a maximum&#8208;likelihood approach</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W245</infon>
+      <infon key="pub-id_pmid">27095192</infon>
+      <infon key="fpage">W242</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>65147</offset>
+      <text>Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees</text>
+    </passage>
+    <passage>
+      <infon key="volume">70</infon>
+      <infon key="source">Acta Crystallogr F Struct Biol Commun</infon>
+      <infon key="lpage">1639</infon>
+      <infon key="pub-id_pmid">25484215</infon>
+      <infon key="fpage">1636</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65261</offset>
+      <text>Crystallization and preliminary X&#8208;ray characterization of the full&#8208;length bacteriophytochrome from the plant pathogen Xanthomonas campestris pv. campestris</text>
+    </passage>
+    <passage>
+      <infon key="volume">144</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="lpage">1493</infon>
+      <infon key="pub-id_pmid">9639919</infon>
+      <infon key="fpage">1487</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>65421</offset>
+      <text>Evidence for a role for the gumB and gumC gene products in the formation of xanthan from its pentasaccharide repeating unit by Xanthomonas campestris</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Plant Pathol</infon>
+      <infon key="lpage">1018</infon>
+      <infon key="pub-id_pmid">22738424</infon>
+      <infon key="fpage">1010</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>65571</offset>
+      <text>HrpM is involved in glucan biosynthesis, biofilm formation and pathogenicity in Xanthomonas citri ssp. citri</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="source">Microbiology</infon>
+      <infon key="issue">Pt 10</infon>
+      <infon key="lpage">2407</infon>
+      <infon key="pub-id_pmid">11021916</infon>
+      <infon key="fpage">2395</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>65680</offset>
+      <text>Quantification of biofilm structures by the novel computer program COMSTAT</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="lpage">74</infon>
+      <infon key="source">BioTechnology &#8211; An Indian Journal</infon>
+      <infon key="fpage">70</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>65755</offset>
+      <text>An economical and high throughput alternative for endoglucanase activity determination</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">2120</infon>
+      <infon key="pub-id_pmid">24695404</infon>
+      <infon key="fpage">2114</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65842</offset>
+      <text>Trimmomatic: a flexible trimmer for Illumina sequence data</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">2079</infon>
+      <infon key="pub-id_pmid">19505943</infon>
+      <infon key="fpage">2078</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>65901</offset>
+      <text>The sequence alignment/map format and SAMtools</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1760</infon>
+      <infon key="pub-id_pmid">19451168</infon>
+      <infon key="fpage">1754</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>65948</offset>
+      <text>Fast and accurate short read alignment with Burrows&#8208;Wheeler transform</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">930</infon>
+      <infon key="pub-id_pmid">24227677</infon>
+      <infon key="fpage">923</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>66020</offset>
+      <text>FeatureCounts: an efficient general purpose program for assigning sequence reads to genomic features</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">20979621</infon>
+      <infon key="fpage">R106</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66121</offset>
+      <text>Differential expression analysis for sequence count data</text>
+    </passage>
+  </document>
+</collection>

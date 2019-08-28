@@ -1,0 +1,1519 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4946138</id>
+    <passage>
+      <infon key="name_2">surname:Fauque;given-names:Lydia</infon>
+      <infon key="name_3">surname:Lemaire;given-names:S&#233;bastien</infon>
+      <infon key="name_0">surname:Toselli&#8208;Mollereau;given-names:Esther</infon>
+      <infon key="name_1">surname:Robellet;given-names:Xavier</infon>
+      <infon key="name_6">surname:Hocquet;given-names:Cl&#233;mence</infon>
+      <infon key="alt-title">Esther Toselli&#8208;Mollereau et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201592849</infon>
+      <infon key="name_5">surname:Klein;given-names:Carlo</infon>
+      <infon key="name_8">surname:N'Guyen;given-names:Lia</infon>
+      <infon key="name_9">surname:Mouillard;given-names:L&#233;o</infon>
+      <infon key="lpage">1581 1581</infon>
+      <infon key="fpage">1565 1565</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Legros;given-names:P&#233;n&#233;lope</infon>
+      <infon key="name_4">surname:Schiklenk;given-names:Christoph</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201592849</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="issue">14</infon>
+      <infon key="kwd">condensin Gcn5 nucleosome remodelling RSC Cell Cycle Chromatin, Epigenetics, Genomics &amp; Functional Genomics</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="name_10">surname:Chautard;given-names:Emilie</infon>
+      <infon key="name_11">surname:Auboeuf;given-names:Didier</infon>
+      <infon key="name_12">surname:Haering;given-names:Christian H</infon>
+      <infon key="name_13">surname:Bernard;given-names:Pascal</infon>
+      <offset>0</offset>
+      <text>Nucleosome eviction in mitosis assists condensin loading and chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>85</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>94</offset>
+      <text>Condensins associate with DNA and shape mitotic chromosomes. Condensins are enriched nearby highly expressed genes during mitosis, but how this binding is achieved and what features associated with transcription attract condensins remain unclear. Here, we report that condensin accumulates at or in the immediate vicinity of nucleosome&#8208;depleted regions during fission yeast mitosis. Two transcriptional coactivators, the Gcn5 histone acetyltransferase and the RSC chromatin&#8208;remodelling complex, bind to promoters adjoining condensin&#8208;binding sites and locally evict nucleosomes to facilitate condensin binding and allow efficient mitotic chromosome condensation. The function of Gcn5 is closely linked to condensin positioning, since neither the localization of topoisomerase II nor that of the cohesin loader Mis4 is altered in gcn5 mutant cells. We propose that nucleosomes act as a barrier for the initial binding of condensin and that nucleosome&#8208;depleted regions formed at highly expressed genes by transcriptional coactivators constitute access points into chromosomes where condensin binds free genomic DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1215</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1228</offset>
+      <text>In most eukaryotes, chromatin fibres metamorphose into compact and individualized rod&#8208;shaped chromosomes during mitosis and meiosis. This profound reorganization, called chromosome condensation, is a strict prerequisite for the accurate segregation of chromosomes. From yeasts to human, chromosome condensation relies upon condensin complexes and topoisomerase II&#8208;&#945; (Topo II). It is widely accepted that Topo II ensures decatenation of sister chromatids and chromosomes (Baxter et&#160;al, 2011; Charbin et&#160;al, 2014). In contrast, how condensins reconfigure chromosome structure in a cell cycle&#8208;regulated manner remains poorly understood.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1871</offset>
+      <text>Condensins are ring&#8208;shaped ATPases that belong to the family of SMC (Structural Maintenance of Chromosomes) protein complexes, which also include cohesin, responsible for sister chromatid cohesion, and the Smc5/Smc6 complex, which is implicated in DNA damage repair (Thadani et&#160;al, 2012; Aragon et&#160;al, 2013; Hirano, 2016). Eukaryotic condensins are composed of the Smc2 and Smc4 ATPase subunits, called Cut14 and Cut3 in fission yeast, and three non&#8208;SMC subunits. Smc2 and Smc4 form a V&#8208;shaped heterodimer in which two ATPase heads face each other at the apices of two 50&#8208;nm&#8208;long coiled&#8208;coil arms. A kleisin subunit (called Cnd2 in fission yeast) associates with the ATPase heads, thereby creating a tripartite ring&#8208;like structure, and recruits two HEAT&#8208;repeat containing subunits. Most eukaryotes possess two condensins, called condensin I and II, which are made of the same Smc2/Smc4 heterodimer but contain different sets of the three non&#8208;SMC subunits. Budding and fission yeasts possess a single condensin complex, which is similar to condensin I by protein sequence. Condensin II is nuclear throughout the cell cycle and accumulates on chromosomes at the beginning of prophase. In contrast, condensin I is cytoplasmic during interphase and gains access to chromosomes only from prometaphase to telophase (Ono et&#160;al, 2003; Hirota et&#160;al, 2004). Fission yeast condensin shows a similar localization pattern as condensin I, with the bulk of the complexes binding chromosomes from prophase to telophase (Sutani et&#160;al, 1999). However, a fraction seems to persist on chromosomes during interphase (Aono et&#160;al, 2002; Nakazawa et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3533</offset>
+      <text>Studies performed in a wide range of systems have substantiated the idea that condensins modify the topology of chromosomal DNA by introducing positive supercoils (Kimura &amp; Hirano, 1997), by topological entrapment of DNA molecules within their ring&#8208;like structure (Cuylen et&#160;al, 2011) and/or by promoting the re&#8208;annealing of unwound genomic DNA segments (Sutani et&#160;al, 2015). It remains unclear, however, to what extent each of these molecular activities contribute to the shaping of chromosomes. Equally unclear is how condensins associate with and manipulate chromosomal DNA in the intricate context of the chromatin fibre.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4165</offset>
+      <text>From yeasts to mammals, condensins are enriched at centromeres, telomeres and, along chromosome arms, nearby genes that are highly transcribed by either of the three RNA polymerases (D'Ambrosio et&#160;al, 2008; Schmidt et&#160;al, 2009; Dowen et&#160;al, 2013; Kim et&#160;al, 2013; Kranz et&#160;al, 2013; Nakazawa et&#160;al, 2015; Sutani et&#160;al, 2015). Several factors have been implicated in the recruitment of condensins along chromosomes. In budding yeast, the cohesin loading factor Scc2/4 has been reported to promote the full level of association of condensin at tRNA genes and at genes encoding ribosomal proteins (D'Ambrosio et&#160;al, 2008). The replication fork blocking protein Fob1, in a complex with the monopolin subunits Csm1 and Lrs4, recruits condensin at rDNA repeats (Johzuka &amp; Horiuchi, 2009). Fission yeast monopolin associates with condensin and contributes to its localization at the rDNA repeats and also at the kinetochore, but plays no role along chromosome arms (Tada et&#160;al, 2011). In chicken DT40 cells, the chromokinesin Kif4 has been implicated in the localization of condensins (mostly condensin I) along the longitudinal axes of mitotic chromosomes (Samejima et&#160;al, 2012). In human cells, the zinc finger protein AKAP95 directly interacts with the kleisin CAP&#8208;H and takes part in the recruitment of condensin I onto chromatin (Steen et&#160;al, 2000; Eide et&#160;al, 2002). More recently, it has been reported that condensins I and II bind the N&#8208;terminal tail of histones H2A and H4, respectively (Liu et&#160;al, 2010; Tada et&#160;al, 2011). However, contacts with histones do not explain the pattern of condensins along chromosomes, and contrasting results have been obtained regarding the role played by histone tails, if any, in the chromosomal association of condensin I (Tada et&#160;al, 2011; Shintomi et&#160;al, 2015). Thus, the mechanisms through which condensins associate with chromatin remain unclear.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6073</offset>
+      <text>The enrichment of condensin nearby highly expressed genes suggests a crucial link between the localization of condensins and a feature associated with high transcription levels. In line with this, chemical inhibition of RNA Pol II reduces condensin association with mitotic chromosomes during early mitosis in fission yeast (Sutani et&#160;al, 2015), and transcription factors have been implicated in the loading of condensin (D'Ambrosio et&#160;al, 2008; Iwasaki et&#160;al, 2015; Nakazawa et&#160;al, 2015). Paradoxically, transcription of DNA repeats by RNA Pol I or Pol II obstructs the stable association of condensin in budding yeast (Johzuka &amp; Horiuchi, 2007; Clemente&#8208;Blanco et&#160;al, 2009, 2011). Fission yeast condensin appears excluded from gene bodies and accumulates towards the 3&#8242; ends of highly expressed genes (Nakazawa et&#160;al, 2015; Sutani et&#160;al, 2015). Moreover, transcription by all three RNA Pols is usually repressed during mitosis in most eukaryotes (Gottesfeld &amp; Forbes, 1997), when the association of condensin with chromosomes reaches its maximum. In budding yeast, the inhibition of RNA Pol I and Pol II by the Cdc14 phosphatase during anaphase is necessary for condensin binding (Clemente&#8208;Blanco et&#160;al, 2009, 2011). Thus, the association of condensin with chromatin appears both positively and negatively linked with transcription. What remains unclear, however, is the molecular determinant(s) that defines condensin association sites and what feature(s) associated with transcription takes part in condensin binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7609</offset>
+      <text>Active gene promoters are associated with histone H3 acetylated at lysines 9 and 14 (H3K9ac and H3K14ac) (Pokholok et&#160;al, 2005; Roh et&#160;al, 2005; Wiren et&#160;al, 2005). Although the bulk of chromatin is deacetylated during mitosis in mammals (Kruhlak et&#160;al, 2001; Patzlaff et&#160;al, 2010), traces of H3K9ac and H3K14ac persist at some gene promoters (Wang &amp; Higgins, 2013). Gcn5 is the histone acetyltransferase (HAT) subunit of the SAGA complex, an evolutionarily conserved modular transcription coactivator that acetylates nucleosomes, notably H3K9, H3K14 and H3K18 (Koutelou et&#160;al, 2010; Weake &amp; Workman, 2012). Gcn5&#8208;containing SAGA occupies the promoters and coding regions of active genes. At promoters, Gcn5 occupancy increases with transcription rate (Robert et&#160;al, 2004; Govind et&#160;al, 2007; Johnsson et&#160;al, 2009; Xue&#8208;Franzen et&#160;al, 2013; Bonnet et&#160;al, 2014). By acetylating nucleosomes, SAGA promotes the local formation of an &#8220;open&#8221; chromatin structure where the transcription pre&#8208;initiation complex assembles.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8643</offset>
+      <text>Using fission yeast as a model system, we show that condensin binding to chromosomes and mitotic chromosome condensation rely upon Gcn5 HAT activity. Although the majority of Gcn5 is transiently displaced from chromosomes in early mitosis and the bulk of chromatin is deacetylated, Gcn5 and acetylated H3 persist at promoters adjoining a number of highly expressed genes. There, Gcn5 and the ATP&#8208;dependent chromatin&#8208;remodelling complex RSC (remodels the structure of chromatin) evict nucleosomes and promote the efficient binding of condensin at these nucleosome&#8208;depleted regions. Our results suggest that nucleosomes constitute a barrier for the localization of condensin, which is overcome by Gcn5&#8208;mediated histone acetylation and chromatin remodelling. Besides providing unanticipated insights into the mechanism of condensin binding to chromatin, our study suggests that the presence of exposed, non&#8208;nucleosomal DNA may be an important feature that attracts condensins to highly expressed genes in eukaryotes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>9667</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9675</offset>
+      <text>Gcn5 takes part in mitotic chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9726</offset>
+      <text>Fission yeast cells carrying the thermosensitive cut3&#8208;477 mutation in the Smc4 condensin subunit cease to divide at 36&#176;C, but continue to proliferate at the semi permissive temperature of 32&#176;C, even though condensin binding to chromosomes is reduced and mitotic chromosome condensation is partly impaired (Saka et&#160;al, 1994; Tada et&#160;al, 2011; Robellet et&#160;al, 2014). To identify the factors that collaborate with condensin, we screened for mutations synthetically lethal with cut3&#8208;477 at 32&#176;C (Robellet et&#160;al, 2014). We isolated gcn5&#8208;47, a nonsense G765A mutation in the gcn5 open reading frame that is predicted to eliminate the C&#8208;terminal bromodomain of the protein (Fig&#160;1A and B). Deletion of the complete gcn5 open reading frame was also colethal with cut3&#8208;477 at 32&#176;C (Fig&#160;1A) and with the top2&#8208;250 allele of Topo II (Appendix&#160;Fig S1A). In sharp contrast, neither gcn5&#8208;47 nor gcn5&#916; lowered the restrictive temperature of mutations eso1&#8208;H17 and rad21&#8208;K1, which affect sister&#8208;chromatid cohesion (Appendix&#160;Fig S1B). This indicates that lack of Gcn5 function does not confer a blind hypersensitivity to any perturbation in the structure of chromosomes. Thus, Gcn5 interacts positively and specifically with key chromosome condensation factors.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11002</offset>
+      <text>Gcn5 is required for mitotic chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11055</offset>
+      <text>Genetic interaction between condensin and Gcn5. Fivefold serial dilutions of fission yeast strains were spotted onto complete medium.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11189</offset>
+      <text>Scheme&#160;of Gcn5&#8208;47. KAT: lysine acetyltransferase. Bromo: bromodomain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11262</offset>
+      <text>Condensation assay. 3D distances between two fluorescently marked loci on chromosome I were measured by live cell microscopy in fission yeast cells progressing from late G2 through mitosis. Time lapse recording for n&#160;&gt;&#160;32 cells for one (wild type) or two (gcn5&#8208;47 and cut14&#8208;208) biological replicates was aligned to anaphase onset (t&#160;=&#160;0) and average distances (&#177;&#160;s.d.) plotted. Values are listed in Appendix&#160;Table&#160;S1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11693</offset>
+      <text>Chromosome segregation in gcn5&#8208;47 or cut3&#8208;477 mutant cells. Cells growing at 32&#176;C were fixed and processed for immunofluorescence against Mis6&#8208;HA and Cdc11&#8208;GFP to reveal centromeres (Cen) and spindle pole bodies (SPB), respectively. DNA was stained with 4&#8242;,6&#8208;diamidino&#8208;2&#8208;phenylindole (DAPI). Left panel: single mutant cells cut3&#8208;477 or gcn5&#8208;47 exhibiting chromatin bridges (b) or trailing chromatin (t). Bar: 5&#160;&#956;m. Right panel: frequencies of chromatin bridges and trailing chromatin as a function of spindle length (SPB&#8208;SPB distance, n&#160;&gt;&#160;40 for each category).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12282</offset>
+      <text>Spindle lengths in cells showing chromatin bridges. Boxes indicate 25th, median and 75th percentile. Whiskers are the minimum and maximum (n&#160;&gt;&#160;50). ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12448</offset>
+      <text>To assess whether Gcn5 plays a role in mitotic chromosome condensation, we used a quantitative condensation assay that measures the three dimensional distances between two fluorescently labelled loci located on the left arm of chromosome I as cells pass through mitosis (Petrova et&#160;al, 2013). In wild&#8208;type cells, the distance between two loci separated by 0.5 or 1.0&#160;Mb of DNA decreased about twofold from G2 phase until late anaphase (Fig&#160;1C). In gcn5&#8208;47 mutant cells, the distances between the two loci combinations remained larger throughout the mitotic time course (Fig&#160;1C), even though condensation was not as severely affected as in the cut14&#8208;208 condensin mutant. The distances between the fluorescently labelled loci were also slightly enlarged during interphase in gcn5&#8208;47 cells (Fig&#160;1C). Reduced acetylation of nucleosomes might relax chromatin fibres during interphase. Alternatively, or additionally, lack of Gcn5 might impair condensin&#8208;mediated chromosome shaping throughout the cell cycle.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13467</offset>
+      <text>Consistent with impaired condensation, gcn5&#8208;47 mutant cells exhibited frequent chromatin bridges or chromatin trailing in anaphase (Fig&#160;1D) and failed to efficiently disentangle the rDNA repeats located on the arms of chromosome III (Fig&#160;EV1). These phenotypes are frequently observed as a consequence of defects in mitotic chromosome condensation (Tada et&#160;al, 2011), for example in the cut3&#8208;477 condensin mutant (Figs&#160;1D and EV1). However, most chromatin bridges disappeared during late anaphase B in gcn5&#8208;47 mutant cells, unlike in the more severe cut3&#8208;477 mutant. Plotting the number of chromatin bridges as a function of spindle length suggested that chromosome arms eventually achieved complete separation in gcn5&#8208;47 cells, at a time when the mitotic spindle was 25% longer compared to wild&#8208;type cells (Fig&#160;1E). Taken together, these data indicate that Gcn5 is required for the efficient condensation of chromosome arms during mitosis. Because condensation is&#160;partly impaired in the absence of Gcn5 function, the complete separation of chromosome arms necessitates a longer mitotic spindle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14581</offset>
+      <text>Chromosomes III remain untangled during anaphase in gcn5 mutant cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14651</offset>
+      <text>Scheme&#160;of chromosome III in which ~100 copies of 10&#160;kb rDNA repeats, each consisting of 5.8S, 18S and 28S rDNA genes, are located adjacent to the telomeres. Fib1, which binds the rDNA repeats, was used to monitor the segregation of the arms of chromosome III in late anaphase cells. Fission yeast cells exponentially growing at 32&#176;C and expressing Fib1&#8208;RFP (rDNA) and Cdc11&#8208;GFP (SPB) were fixed, stained with DAPI and examined for chromosome segregation (DAPI) and rDNA segregation (n&#160;&gt;&#160;70). Bar: 5 microns.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15168</offset>
+      <text>The role of Gcn5 in chromosome condensation relies on its acetyltransferase activity</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15253</offset>
+      <text>The function of Gcn5 as a transcriptional coactivator raised the possibility that its effect on chromosome condensation might be indirect, that is that Gcn5 controls the transcription of a bona fide condensation factor. However, our data suggest that this is unlikely. The mRNA levels of Topo II and all five condensin subunits were not notably reduced in gcn5&#8208;47 or gcn5&#916; cells (Fig&#160;EV2A), nor were Cut3, Cnd2 or Topo II protein levels (Fig&#160;EV2B and C). Moreover, efficient co&#8208;immunoprecipitation of Cut3&#8208;HA with Cnd2&#8208;GFP suggested that the integrity of the condensin complex was not affected in the absence of Gcn5 (Fig&#160;EV2C). We also re&#8208;analysed available transcriptome data for wild&#8208;type and gcn5&#916; mutant cells (Helmlinger et&#160;al, 2008) by comparing the mRNA levels of 236 genes that have been reported in pombase (www.pombase.org) to be required for chromosome segregation and/or condensation, or to genetically or physically interact with condensin. Using a threshold of at least 1.5&#8208;fold up&#8208; or downregulation, we found a single hit: the cnp3 gene, which encodes a centromeric protein (Fig&#160;EV2D). However, restoring the level of cnp3 mRNA by ectopic expression did not suppress the colethality between gcn5&#8208;47 and cut3&#8208;477 at 32&#176;C (Fig&#160;EV2E and F), indicating that the functional interaction between Gcn5 and condensin was independent of cnp3. We conclude that Gcn5 plays a genuine role in mitotic chromosome condensation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16711</offset>
+      <text>The link between Gcn5 and Cut3 is direct</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16752</offset>
+      <text>Steady&#8208;state level of condensin and Topo II mRNA in cells lacking functional Gcn5. About 500&#160;ng of total RNA extracted from fission yeast cells exponentially growing at 32&#176;C was reverse&#8208;transcribed in the presence (+) or absence (&#8722;) of reverse transcriptase (RT) and cDNAs were quantified by real&#8208;time qPCR. Indicated values correspond to the average and mean deviation from two independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17166</offset>
+      <text>Steady&#8208;state levels of Cut3&#8208;GFP and Top2&#8208;HA detected by Western blotting. &#945;&#8208;Tubulin (Tub) was used a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17293</offset>
+      <text>Integrity of the condensin complex as judged by co&#8208;immunoprecipitation. Cnd2&#8208;GFP was immunoprecipitated from indicated strains arrested in mitosis (septation indexes &lt;4%). Levels of Cnd2&#8208;GFP and Cut3&#8208;HA in total and immunoprecipitated fractions were assessed by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17581</offset>
+      <text>Steady&#8208;state level of cnp3 mRNA measured by RT&#8208;qPCR. About 500&#160;ng of total RNA was reverse&#8208;transcribed in the presence (+) or absence (&#8722;) of RT. pCNP3 indicates that the eponym plasmid bearing the cnd3 gene was inserted into the genome. Averages and s.d. calculated from 2 biological replicates are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17896</offset>
+      <text>Restoring cnp3 mRNA level does not suppress the negative genetic interaction between gcn5&#8208;47 and cut3&#8208;477. Cells of indicated genotype were serially diluted fivefold and spotted onto complete media supplemented with phloxin B.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18127</offset>
+      <text>The Gcn5&#8208;containing SAGA complex consists of three independent functional modules (Weake &amp; Workman, 2012; see Fig&#160;2A): the HAT module, which is composed of Gcn5, Ada2 and Ada3, the Spt module, which includes the Spt8 subunit implicated in the recruitment of the TATA&#8208;binding protein to certain promoters, and the ubiquitin protease module, which contains Sgf11 and Sgf73. To test whether SAGA components other than Gcn5 genetically interact with condensin, we combined deletions of representative subunits of each of the three modules with cut3&#8208;477 (Fig&#160;2A). Lack of the ada2 or ada3 subunits of the HAT module was colethal with cut3&#8208;477 at 32&#176;C, but deletion of subunits of the two other modules had no effect. This finding strongly suggests that condensin is closely linked to the Gcn5 HAT activity. We confirmed this conclusion by testing the catalytically inactive gcn5&#8208;E191Q mutant (Helmlinger et&#160;al, 2008) (Fig&#160;2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19064</offset>
+      <text>The link between condensin and Gcn5 relies on its ability to acetylate nucleosomes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19147</offset>
+      <text>Genetic interactions between condensin and (A) subunits of the SAGA complex, (B) catalytically inactive Gcn5, (C) multiples HATs, or (D) Gcn5 and Mst2. Fivefold serial dilutions of fission yeast strains were spotted onto complete medium.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19385</offset>
+      <text>Different HATs can have overlapping functions and Mst2 and Elp3 are partially redundant with Gcn5 (Nugent et&#160;al, 2010). Of five additional HATs&#8212;Hat1, Naa40, Rtt109, Mst2 and Elp3&#8212;tested, none showed an obvious negative genetic interaction with cut3&#8208;477 (Fig&#160;2C). However, simultaneous deletion of Mst2 and Gcn5 reduced viability of the cut3&#8208;477 mutant even further than depletion of Gcn5 alone, which suggests that the two HATs might be partially redundant (Fig&#160;2D). Thus, Gcn5 functionally interacts with condensin through its acetyltransferase activity, possibly in the context of the SAGA complex, and Mst2 is partly redundant with Gcn5 for this function.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20055</offset>
+      <text>Gcn5 and Mst2 facilitate condensin binding to mitotic chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20121</offset>
+      <text>To test whether Gcn5 and Mst2 might affect the association of condensin with chromosomes, we assessed chromosomal condensin levels using chromatin immunoprecipitation (ChIP) against the kleisin subunit Cnd2 tagged with GFP. Previous genomewide mapping experiments have shown that the condensin&#8208;binding profile along chromosome arms in mitosis consists of low&#8208;occupancy binding sites and hot spots of association, which correlate with highly expressed genes (D'Ambrosio et&#160;al, 2008; Schmidt et&#160;al, 2009; Nakazawa et&#160;al, 2015; Sutani et&#160;al, 2015). We quantified Cnd2&#8208;GFP binding using qPCR at the kinetochore (cnt1), pericentric heterochromatin (dh1) and 14 loci along chromosome arms that represent 9 high&#8208;occupancy and 5 low&#8208;occupancy binding sites. Since highly expressed genes can be vulnerable to misleading ChIP enrichments (Teytelman et&#160;al, 2013), we first verified that the association of Cnd2&#8208;GFP with these genes was reduced in the condensin mutant cut3&#8208;477 (Fig&#160;EV3A&#8211;C), as we would expect for bona fide condensin&#8208;binding sites. We then arrested wild&#8208;type or gcn5 mutant cells in pro/metaphase by the nda3&#8208;KM311 tubulin mutation and determined the chromosomal association of Cnd2&#8208;GFP by ChIP. In cells lacking Gcn5, binding of Cnd2&#8208;GFP was significantly reduced at the kinetochore domain and at all high&#8208;occupancy condensin&#8208;binding sites (Fig&#160;3A). ChIP signals were even further decreased in cells lacking both Gcn5 and Mst2 (Fig&#160;3A). The reduced ChIP signals were not due to a decrease in Cnd2&#8208;GFP protein levels in gcn5&#916; mst2&#916; cells (Fig&#160;3B). In sharp contrast, Cnd2&#8208;GFP occupancy at pericentric heterochromatin (dh1) and at all low&#8208;occupancy condensin&#8208;binding sites remained unchanged.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21868</offset>
+      <text>Condensin association sites in fission yeast and their transcription</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21937</offset>
+      <text>Condensin binding assessed by ChIP. Fission yeast cells were arrested in pro/metaphase at 19&#176;C by the nda3&#8208;KM311 mutation and processed for ChIP against Cnd2&#8208;GFP. % IP correspond to the averages, and s.d. calculated from 6 ChIPs performed on 3 biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22209</offset>
+      <text>Mitotic indexes. Averages and s.d. calculated from the 3 biological replicates used in (A) are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22311</offset>
+      <text>Steady&#8208;state level of Cnd2&#8208;GFP. Exponentially growing cells were shifted at 36&#176;C for 2.5&#160;h to inactivate cut3&#8208;477, and whole cell extracts assessed for Cnd2&#8208;GFP levels by Western blotting using anti&#8208;GFP (A11122) antibody. Tubulin (Tub) served as loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22586</offset>
+      <text>RNA Pol II occupancy assessed by ChIP in mitotically arrested cells. Cells expressing Cnd2&#8208;GFP were arrested in mitosis and processed for ChIP against RNA Pol II phosphorylated on serine 2 (Ser2P). % IP correspond to averages, and s.d. calculated from 8 ChIPs performed on 4 biological replicates. (E) Mitotic indexes. Averages and s.d. calculated from the 4 biological replicates used in (D) are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22992</offset>
+      <text>Data information: ***P&#160;&lt;&#160;0.001, **P&#160;&lt;&#160;0.01, *P&#160;&lt;&#160;0.05 and &#176;P&#160;&gt;&#160;0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23070</offset>
+      <text>Gcn5 and Mst2 assists condensin binding to chromatin in mitosis</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23134</offset>
+      <text>Condensin binding assessed by ChIP against Cnd2&#8208;GFP. Mitotic indexes are indicated in parentheses. % IP are averages and s.d. calculated from 12 ChIPs on 6 biological replicates. For repeated 5S and gly05 genes, qPCR primers were designed within adjacent, unique 5&#8242; intergenic sequences. Note the use of different scales in the arm: high&#8208;occupancy and arm: low&#8208;occupancy panels. ***P&#160;&lt;&#160;0.001, **P&#160;&lt;&#160;0.01, &#176;P&#160;&gt;&#160;0.05.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23565</offset>
+      <text>The level of Cnd2&#8208;GFP by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23610</offset>
+      <text>Condensin binding assessed by chromosome spreading. Cut3&#8208;HA immunofluorescence signals were quantified on n&#160;&gt;&#160;100 chromosome spreads exhibiting Dam1&#8208;GFP at kinetochores (mitotic, M) or lacking Dam1&#8208;GFP (interphase, I). For each strain, four representative nuclei extracted from a same image acquired with same settings are shown. Asterisks indicate nuclei corresponding to Cut3&#8208;HA surface plots. Bar: 5&#160;&#956;m. Boxes indicate the 25th, median and 75th percentile and whiskers the min and max values from 3 independent experiments. ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24165</offset>
+      <text>Cut3&#8208;HA level by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24202</offset>
+      <text>To assess the total levels of chromosome&#8208;bound condensin, we measured the amount of Cut3&#8208;HA on mitotic chromosome spreads. To identify mitotic chromosomes, we used Dam1&#8208;GFP, which is recruited to kinetochores specifically during mitosis (Liu et&#160;al, 2005). Cut3&#8208;HA was markedly enriched on chromosomes positive for Dam1&#8208;GFP in wild&#8208;type cells (Fig&#160;3C). The amount of Cut3&#8208;HA bound to mitotic chromosomes was reduced by ~30% in the absence of Gcn5 and by ~40% in the absence of both Gcn5 and Mst2, even though total Cut3&#8208;HA protein levels were not reduced (Fig&#160;3D). This result confirms the ChIP experiment and, importantly, rules out the possibility that condensin merely relocates from its canonical high&#8208;occupancy binding sites in the absence of Gcn5 and Mst2. Moreover, we observed no reduction in the association of Topo II or the cohesin loader Mis4 with mitotic chromosomes of gcn5&#916; mst2&#916; cells (Fig&#160;EV4), which reinforces the conclusion that Gcn5 is specifically linked to condensin. Together, these data indicate that Gcn5 and Mst2 specifically assist condensin binding to mitotic chromosomes at core centromeres and at its high&#8208;occupancy sites near genes highly transcribed by RNA Pol II.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25425</offset>
+      <text>Gcn5 and Mst2 are not required for the chromosomal association of Top2 and Mis4</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25505</offset>
+      <text>The chromosomal association of Topo II (A) or of the cohesin loader Mis4 (B) assessed by chromosome spreading. Fission yeast cells exponentially growing at 32&#176;C were processed for chromosome spreading and immunofluorescence against Dam1&#8208;GFP and Top2&#8208;HA or Mis4&#8208;HA. Chromatin was stained with DAPI. Dam1&#8208;GFP, recruited at kinetochores during mitosis, was used as a mitotic marker of isolated nuclei. Top2&#8208;HA or Mis4&#8208;HA signals associated with interphase (Dam1&#8208;GFP negative) or mitotic nuclei (Dam1&#8208;GFP positive) were quantified and divided by the intensity of the DAPI signal. Ratios were normalized to the median value given by the wt control in mitosis. Boxes indicate the 25th percentile, median and 75th percentile and whiskers the min and max values calculated from n&#160;=&#160;3 experiments. &#176;P&#160;&gt;&#160;0.05 and *P&#160;&lt;&#160;0.05. Bars: 5 microns.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26360</offset>
+      <text>Gcn5 and acetylated H3 co&#8208;occupy condensin&#8208;binding sites during mitosis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26436</offset>
+      <text>To investigate how Gcn5 could act to regulate condensin binding during mitosis, we assessed transcription of condensin&#8208;binding sites by RNA Pol II, since active transcription is believed to antagonize condensin binding (Johzuka &amp; Horiuchi, 2007; Clemente&#8208;Blanco et&#160;al, 2009, 2011). We observed no increase in the occupancy of transcriptionally engaged RNA Pol II throughout condensin&#8208;binding sites during mitosis in the absence of Gcn5 or both Gcn5 and Mst2 (Fig&#160;EV3D and E), arguing against this possibility. Next, we investigated the localization of Gcn5 during mitosis. Immunofluorescence studies have shown that Gcn5 dissociates from mitotic chromosomes in vertebrate cells (Orpinell et&#160;al, 2010). Using chromosome spreading, we measured the amount of Gcn5&#8208;myc and Cut14&#8208;HA (condensin) on interphase and mitotic chromosomes (Fig&#160;4A). We categorized spread nuclei as interphase, prophase or prometaphase/metaphase by judging the Cut14&#8208;HA/DAPI ratio. We detected less Gcn5 associated with prophase chromosomes as compared to interphase chromosomes, but levels on prometaphase/metaphase chromosomes were comparable to those of interphase ones. These results imply that Gcn5 might only temporarily dissociate from chromosomes during entry into mitosis but then re&#8208;associate at a time when condensin levels further increase. We confirmed by ChIP the presence of Gcn5 on mitotic chromosomes by comparing Gcn5&#8208;myc levels at promoters adjoining condensin&#8208;binding sites in asynchronous cells (80% of which are in G2) and cells arrested in pro/metaphase (Fig&#160;4B). 5 promoters were chosen among high&#8208;occupancy condensin&#8208;binding sites and 4 among low&#8208;occupancy binding sites. In asynchronous cells, we detected Gcn5 in variable amounts at all promoters. In cells arrested in mitosis, the levels of promoter&#8208;bound Gnc5 were considerably higher at all condensin high&#8208;occupancy sites compared to condensin low&#8208;occupancy sites. Remarkably, Gcn5 binding decreased at all low&#8208;occupancy sites during mitosis. In sharp contrast, Gcn5 levels remained unchanged or even increased at all promoters adjoining high&#8208;occupancy sites (Fig&#160;4B), where condensin binding depends on functional Gcn5 (Fig&#160;3A). Whether Gcn5 occupancy increases or drops at promoters during mitosis is therefore linked to condensin occupancy, but unrelated to its absolute binding levels in interphase (compare Gcn5&#8208;myc levels at the slp1 high&#8208;occupancy binding site to the four low&#8208;occupancy sites, Fig&#160;4B). Despite its enrichment at promoters, we failed to detect Gcn5&#8208;myc within adjacent gene bodies or at their 3&#8242; ends during mitosis (Fig&#160;EV5A), which might reflect a more dynamic association of Gcn5 with transcribed regions (Bonnet et&#160;al, 2014). These data suggest that Gcn5 is specifically retained or even enriched during mitosis at promoters adjoining high&#8208;occupancy condensin association sites, where condensin binding in return relies upon Gcn5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29401</offset>
+      <text>Gcn5 and acetylated H3 persist at condensin&#8208;binding sites in mitosis</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29472</offset>
+      <text>Gcn5 binding to chromosomes assessed by chromosome spreading. Fission yeast nda3&#8208;KM311 cells were shifted at 19&#176;C for 4&#160;h to enrich the population for the early stages of mitosis and processed for chromosome spreading and immunofluorescence against Gcn5&#8208;myc and Cut14&#8208;HA. The Cut14/DAPI ratio served as marker for mitotic progression, with interphase (i): ratio&#160;&lt;&#160;0.5; prophase (p): 0.5&#160;&lt;&#160;ratio&#160;&lt;&#160;1.5; and prometaphase/metaphase (pm): ratio&#160;&gt;&#160;1.5. For each strain, four representative nuclei extracted from a same image acquired with same settings are shown. Bar: 5&#160;&#956;m. Boxes indicate the 25th, median and 75th percentile and whiskers the min and max values (n&#160;&gt;&#160;150 nuclei per strain).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30179</offset>
+      <text>ChIP against Gcn5&#8208;myc on cycling cells or cells arrested in pro/metaphase. Mitotic indexes in parentheses were determined by scoring binucleated cells and hypercondensed nuclei. % IP are averages and s.d. calculated from 6 ChIPs on 3 biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30438</offset>
+      <text>Total H3 and acetylated isoforms in cycling or mitotically arrested cells. Whole cell extracts (WCE) prepared from cycling cells or prometaphase cells (mitotic index 89%) were loaded on a same gel and simultaneously revealed.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30664</offset>
+      <text>Chromosomal occupancy of acetylated H3 during mitosis. Cells expressing Cnd2&#8208;GFP were blocked in early mitosis, mitotic indexes measured (D) and processed for ChIP against total H3, H3K9ac or H3K18ac. Heterochromatin (dh1) served as negative control. H3ac/H3 average ratios and s.d. calculated from 3 ChIPs on 3 biological replicates are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31011</offset>
+      <text>Data information: (A, B) ***P&#160;&lt;&#160;0.001, *P&#160;&lt;&#160;0.05, &#176;P&#160;&gt;&#160;0.05. High&#8208;occup. and Low&#8208;occup. refer to condensin high&#8208;occupancy and low&#8208;occupancy binding sites, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31195</offset>
+      <text>Gcn5 localization across transcribed genes during mitosis</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31253</offset>
+      <text>ChIP against Gcn5&#8208;myc on fission yeast cells cycling or arrested in prometaphase. Mitotic indexes indicated in parentheses were determined by scoring binucleated cells and hypercondensed nuclei. % IP are averages, and s.d. calculated from 6 ChIPs performed on 3 biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31540</offset>
+      <text>The chromosomal occupancy of H3K14ac during mitosis. Cells expressing Cnd2&#8208;GFP were blocked in early mitosis, mitotic indexes measured (see Fig&#160;4D) and cells processed for ChIP against total H3 (H3&#8208;Cter) and H3K14ac. Transcriptionally silent pericentric heterochromatin (dh1) served as negative control. H3ac/H3&#8208;Cter average ratios and standard deviations calculated from 6 ChIPs performed on 3 biological replicates are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31975</offset>
+      <text>To explore the state of chromatin at these promoters, we monitored H3K9ac, H3K18ac and H3K14ac in asynchronous and mitotic cells. Reminiscent of mammalian cells, the bulk of H3K9ac and H3K18ac was reduced in fission yeast cells arrested in pro/metaphase, whilst steady&#8208;state levels of H3K14ac remained unaltered (Fig&#160;4C). We used ChIP to assess whether traces of H3K9ac and H3K18ac might persist at condensin&#8208;binding sites co&#8208;occupied by Gcn5. To control for nucleosome occupancy, we performed in parallel ChIP against total H3 using an antibody directed against the C&#8208;terminal part of H3 (H3&#8208;Ct) and determined the amount of acetylated H3 (H3ac) as a ratio of H3ac/H3&#8208;Ct in cells arrested in mitosis (Fig&#160;4D and E). We found that H3K9ac and H3K18ac levels at promoters correlated with the occupancy of Gcn5, being markedly enriched at the promoters of high&#8208;occupancy condensin&#8208;binding sites when compared to the heterochromatic dh1 site used as negative control (Fig&#160;4E). H3K9ac and H3K18ac were also detected at promoters of low&#8208;occupancy condensin&#8208;binding sites, but acetylation ratios were considerably lower. Moreover, Gcn5 was required for the enrichment of H3K9ac and H3K18ac at all promoters tested (Fig&#160;4E). Deletion of Mst2 did not further reduce H3K9ac and H3K18ac, indicating that these histone modifications were mostly deposited by Gcn5. H3K14ac was also present at promoters in mitosis, but, unlike for H3K9ac and H3K18ac, levels were regulated by both Gcn5 and Mst2 (Fig&#160;EV5B). Taken together, these data suggest that the bulk of Gcn5 dissociates from chromosomes during prophase, but a fraction of Gcn5 persists at, or is recruited during prometaphase to, promoters adjoining RNA Pol II&#8208;transcribed genes that are strongly co&#8208;occupied by condensin, where it ensures the persistence of histone acetylation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33827</offset>
+      <text>Gcn5 plays a role in nucleosome depletion at condensin&#8208;binding sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33898</offset>
+      <text>Given that Gcn5 takes part in the eviction of nucleosomes at active genes (Govind et&#160;al, 2007; Xue&#8208;Franzen et&#160;al, 2013), we reasoned that Gcn5 might assist condensin association during mitosis by controlling nucleosome occupancy. To test this idea, we arrested cells in pro/metaphase (Fig&#160;5A) and assessed nucleosome occupancy at condensin&#8208;binding sites by MNase digestion of mitotic chromatin (Figs&#160;5A and EV6A) and massive parallel sequencing of the resulting mononucleosomal DNA fragments (MNase&#8208;seq). We considered as nucleosome&#8208;depleted regions (NDRs) any chromosomal region of at least 150&#160;bp in length exhibiting a normalized MNase&#8208;seq coverage depth smaller than 0.4 (Soriano et&#160;al, 2013). With those settings, we identified 6,816&#160;&#177;&#160;732 NDRs of an average size of 275&#160;&#177;&#160;6&#160;bp (n&#160;=&#160;3 replicates, see Dataset EV1). Given the enrichment of Gcn5 at gene promoters, we assessed nucleosome occupancy upstream of transcription start sites (TSS) of genes bound by condensin. We found that all the 47 high&#8208;occupancy condensin&#8208;binding sites overlapping with Pol II&#8208;transcribed genes, identified by Sutani et&#160;al (2015), were situated in the immediate vicinity of a NDR preceding a TSS (Figs&#160;5B, EV6B and EV7, and Dataset EV1). Moreover, 40 out of these 47 high&#8208;occupancy condensin&#8208;binding sites clearly overlapped with NDRs located at the 3&#8242; end of Pol II genes (Figs&#160;5B, EV6B and EV7, and Dataset EV1). Permutation tests confirmed that the colocalization was highly statistically significant (Fig&#160;5C). Furthermore, by re&#8208;assigning all the reads from condensin ChIP&#8208;seq experiments (Sutani et&#160;al, 2015) to NDR versus non&#8208;NDR DNA sequences, we found NDR DNA sequences specifically enriched in the fraction co&#8208;immunoprecipitated with condensin (Fig&#160;EV6B). This suggests that the vast majority of condensin&#8208;binding sites, and not solely the high&#8208;occupancy ones, overlaps with an NDR and/or resides in the immediate vicinity of an NDR.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>35881</offset>
+      <text>Condensin accumulates at nucleosome&#8208;depleted regions dependent upon Gcn5</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35956</offset>
+      <text>Nucleosome occupancy at condensin&#8208;binding sites during mitosis. Fission yeast cells expressing Cnd2&#8208;GFP were arrested in mitosis, mitotic indexes determined (A) and cells processed for MNase&#8208;seq. (B) NDRs are shown in purple and condensin&#8208;binding sites in blue with a star indicating the peak maximum. Nucleosome patterns shown are representative examples of 3 biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36348</offset>
+      <text>Permutation test. 100,000 sets of 47 DNA segments of the same size of condensin&#8208;binding sites were randomly drawn from the genome and the number of bp associated with a NDR by chance compared with the experimental value (purple bar). ***P&#160;&lt;&#160;10&#8722;5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36601</offset>
+      <text>Metagene analysis of nucleosome occupancy within the NDR and positioning of the flanking nucleosomes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36703</offset>
+      <text>Coverage depth over NDR sequences plus upstream and downstream 200&#160;bp. Boxes indicate the 25th, median and 75th percentile, whiskers indicate the upper and lower 1.5 IQR and circles outliers. ***P&#160;=&#160;10&#8722;14 by Kruskal&#8211;Wallis nonparametric test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36953</offset>
+      <text>Cells arrested in mitosis were processed for ChIP against histone H3. Mitotic indexes are indicated in parentheses. % IP are averages and s.d. calculated from 6&#160;ChIPs on 3 biological replicates. ***P&#160;&lt;&#160;0.001, **P&#160;&lt;&#160;0.01, &#176;P&#160;&gt;&#160;0.05. High&#8208;occup. and Low&#8208;occup. refer to condensin high&#8208;occupancy and low&#8208;occupancy binding sites, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37309</offset>
+      <text>Condensin accumulates at nucleosome&#8208;depleted regions dependent upon Gcn5</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37384</offset>
+      <text>Fission yeast cells expressing Cnd2&#8208;GFP were arrested in early mitosis, mitotic indexes determined (see Fig&#160;5A) and processed for MNase digestion. Mitotic chromatin was digested with increasing amounts of MNase to obtain mononucleosomes to dinucleosomes ratios of &#732;80:20. Mononucleosomal DNA excised from the gel was subjected to massive parallel sequencing (MNase&#8208;seq).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37761</offset>
+      <text>Overlap between nucleosome&#8208;depleted regions (NDR) or non&#8208;NDRs identified during mitosis by MNase&#8208;seq and condensin peaks identified by ChIP&#8208;seq against Cut14&#8208;pk9 (Sutani et&#160;al, 2015). NDRs (red) are enriched in the population of DNA fragments co&#8208;immunoprecipitated with Cut14&#8208;pk9 (IP/Input &gt;&#160;1) and depleted from the flow through (IP/Input &lt;&#160;1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38124</offset>
+      <text>Nucleosome scanning (MNase&#8208;qPCR) assay for nucleosome occupancy at the prl53 promoter. Mitotic chromatin was digested by MNase as described in (A). Input (undigested) and mononucleosomal DNA was purified, and the % of input DNA, which was protected from MNase digestion, was assessed by qPCR. Averages and s.d. calculated from 3 experiments on 3 biological replicates are shown. Nucleosome patterns obtained by MNase&#8208;seq analysis (related to Fig&#160;5B) are indicated for comparison.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38609</offset>
+      <text>Representative MNase&#8208;seq nucleosome patterns at the 5S rRNA, uge1 and cnd1 genes (see Fig&#160;5B). Lack of Gcn5 or both Gcn5 and Mst2 does not significantly modifies nucleosome occupancy at these three low&#8208;occupancy condensin&#8208;binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>38853</offset>
+      <text>MNase&#8208;seq patterns at three high&#8208;occupancy condensin&#8208;binding sites in replicates</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38940</offset>
+      <text>Related to Figs&#160;5A and EV6. MNase&#8208;seq nucleosome patterns at the snoU14, ecm33 and cdc22 genes in the three wt, gcn5&#916; or gcn5&#916; mst2&#916; biological and technical replicates. For each gene and each replicate, results shown in Figs&#160;5A and EV6 correspond to the first line.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39219</offset>
+      <text>The nucleosome pattern significantly changed in gcn5 mutant cells. We analysed nucleosome occupancy at promoters upstream of the 47 condensin&#8208;binding sites and at the 40 NDRs covered by condensin at the 3&#8242; end of genes. In both cases, we found that nucleosome occupancy increased within the core of the NDR and that the positioning of the two nucleosomes delimitating the NDR also markedly increased (Figs&#160;5B, D and E, and EV7). Again, we observed a cumulative effect of gcn5&#916; and mst2&#916; mutations. We confirmed the increased nucleosome occupancy and the cumulative effect by MNase&#8208;qPCR (Fig&#160;EV6C) and by ChIP against histone H3 (Fig&#160;5F). Note that nucleosome occupancy appeared unchanged at the 5S rRNA, cnd1 and uge1 genes in cells lacking Gcn5 or both Gcn5 and Mst2 (Figs&#160;5F and EV6D), where the binding of condensin remained unchanged (Fig&#160;3A). These data indicate that Gcn5 and Mst2 collaborate during mitosis to evict nucleosomes from NDRs, both at gene promoters and at the 3&#8242; end of genes, which constitute high&#8208;occupancy condensin&#8208;binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40292</offset>
+      <text>Nucleosome eviction assists condensin binding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40338</offset>
+      <text>If nucleosome eviction were important for condensin binding, then increasing nucleosome occupancy by means other than Gcn5 or Mst2 inactivation should similarly reduce condensin binding. Arp9 and Snf21 are two subunits of RSC (remodels the structure of chromatin), an ATP&#8208;dependent chromatin&#8208;remodelling complex that evicts nucleosome from promoters (Monahan et&#160;al, 2008; Lorch et&#160;al, 2014). We had previously identified arp9&#8208;127 and snf21&#8208;129 loss&#8208;of&#8208;function mutations by screening for synthetic lethality with cut3&#8208;477 at 32&#176;C (Robellet et&#160;al, 2014). We therefore asked whether RSC could regulate condensin binding to chromosomes during mitosis through its function as nucleosome remodeller. We arrested wild&#8208;type, arp9&#916; and snf21&#8208;129 cells in mitosis (Fig&#160;6A) and processed chromatin for simultaneous ChIPs against histones H3, H4 and Cnd2&#8208;GFP. We found that the occupancy of H3 and H4 increased at the promoters of both condensin high&#8208;occupancy (prl53, exg1, ecm33, cdc22, slp1 and snoU14) and low&#8208;occupancy (5S and gly05) sites in the arp9&#916; and snf21&#8208;129 mutants (Fig&#160;6B). The occupancy of histone H3 increased also at the 3&#8242; end of some but not all tested genes, although the effects were less dramatic (Fig&#160;EV8). This suggests that RSC evicts nucleosomes mainly at a&#160;broad range of gene promoters. Remarkably, the binding of Cnd2&#8208;GFP in the arp9&#916; and snf21&#8208;129 mutants concomitantly dropped at all condensin&#8208;binding sites, including 5S and gly05, although the reductions were much less dramatic at these sites compared to the other sites (Fig&#160;6C). Note that the steady&#8208;state level of Cnd2&#8208;GFP remained unaffected in the arp9&#916; or snf21&#8208;129 genetic background (Fig&#160;6D). These data strongly support the conclusion that nucleosome eviction facilitates condensin binding during mitosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42182</offset>
+      <text>Nucleosome eviction by the RSC remodelling complex facilitates condensin binding</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42263</offset>
+      <text>Nucleosome occupancy and condensin binding during mitosis upon RSC loss of function. Fission yeast cells expressing Cnd2&#8208;GFP were arrested in early mitosis, mitotic indexes determined (A) and cells processed for ChIP against H3 and H4 (B) and Cnd2&#8208;GFP (C). Averages and s.d. calculated from 3 ChIPs per antigen, each performed on 3 biological replicates. Values for prl53 and ecm33 were multiplied by 4 to facilitate reading.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42693</offset>
+      <text>Cnd2&#8208;GFP levels by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42732</offset>
+      <text>RSC localization at condensin&#8208;binding sites during mitosis. Mitotically arrested cells were subjected to ChIP against Snf21&#8208;FLAG. Averages and s.d. calculated from 12 ChIPs on 6 biological replicates are indicated. Values for 5S and gly05 were multiplied by 3. ***P&#160;&lt;&#160;0.001, **P&#160;&lt;&#160;0.01, &#176;P&#160;&gt;&#160;0.05. High&#8208;occup. and Low&#8208;occup. refer to condensin high&#8208;occupancy and low&#8208;occupancy binding sites, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>43157</offset>
+      <text>The impact of RSC loss of function on histone H3 occupancy at the 3&#8242; end of genes bound by condensin</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43260</offset>
+      <text>Fission yeast cells expressing Cnd2&#8208;GFP were arrested in early mitosis, mitotic indexes determined (see Fig&#160;6A) and cells processed for ChIP against H3. % IP correspond to averages, and s.d. calculated from 3 ChIPs performed on 3 biological replicates (see Fig&#160;6 for additional information).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43556</offset>
+      <text>Given that the bromodomain&#8208;containing Snf21 protein binds H3K14ac (Wang et&#160;al, 2012), we asked whether Gcn5 and Mst2 might recruit RSC at condensin&#8208;binding sites in mitosis. Even though binding of chromatin remodellers is notoriously difficult to assay by ChIP, we detected Snf21&#8208;flag at promoters upstream of condensin&#8208;binding sites in cells arrested in mitosis (Fig&#160;6E and F). The association of Snf21 at the promoter of snoU14 was reduced in cells lacking Gcn5 or both Gcn5 and Mst2, but remained unchanged at the seven other tested condensin&#8208;binding sites. Thus, RSC is present during mitosis at gene promoters adjoining condensin&#8208;binding sites and its localization near most, but not all, of these sites is independent of Gcn5 and Mst2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44312</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44323</offset>
+      <text>Condensin binding to DNA is instrumental for chromosome condensation, but how binding is achieved in the context of a chromatin environment has remained elusive. Here, we provide evidence that nucleosome eviction, promoted by the histone acetyltransferases Gcn5 and Mst2 as well as the RSC chromatin&#8208;remodelling complex, is necessary for condensin binding to chromosomes during mitosis and for proper mitotic chromosome condensation. Thus, nucleosomes must constitute a barrier for the association of condensin. Nucleosome&#8208;depleted regions generated at least in part by transcription cofactors, such as Gcn5, Mst2 and RSC, might therefore constitute access points into the chromosome where condensin first associates with exposed double&#8208;stranded DNA helices.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45088</offset>
+      <text>One key finding of our study is the preferred localization of condensin at or in the immediate vicinity of NDRs (Figs&#160;5B and EV6). This is particularly true for high&#8208;occupancy condensin&#8208;binding sites (see Fig&#160;5B and C). In itself, this pattern of localization suggests that nucleosomes constitute an obstacle for the localization of condensin. In the case of transcription, the nucleosome barrier is overcome by histone acetylation and nucleosome removal (Owen&#8208;Hughes &amp; Gkikopoulos, 2012). We found that most Gcn5 transiently dissociates from chromatin during prophase in fission yeast, and that the bulk of H3K9ac and H3K18ac is deacetylated, reminiscent of the chromatin modifications that occurs during mitosis in mammalian cells. However, a fraction of Gcn5 remains on chromosomes during mitosis and is enriched at a number of promoters of Pol II&#8208;transcribed genes. At these sites, Gcn5 maintains acetylation of H3K9 and H3K18 and ensures condensin binding. Thus, nucleosome acetylation by Gcn5 might play a role in regulating condensin association with chromatin in mitosis. The finding that lack of both Gcn5 and Mst2 causes a cumulative reduction of H3K14ac in addition to H3K9ac and H3K18ac, and reduces condensin occupancy further, strengthens this conclusion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46368</offset>
+      <text>The acetylation of histone H3 is a transcription conductive modification. Gcn5 and Mst2 may therefore facilitate condensin binding by promoting transcription. Although we cannot formally rule out this possibility, we think this is unlikely, because we identified five out of nine condensin&#8208;binding sites where the association of condensin with chromatin was reduced in the absence of Gcn5 whilst the occupancy of RNA Pol II phosphorylated on serine 2 remained unchanged (see rds1, prl53, ecm33, snoU14 and cdc22 in Figs&#160;3A and EV3D). This suggests that transcription and condensin binding can be uncoupled.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46978</offset>
+      <text>Acetylated nucleosomes are targeted for removal by bromodomain&#8208;containing nucleosome remodellers (Owen&#8208;Hughes &amp; Gkikopoulos, 2012). In line with this, nucleosome occupancy is increased at 3&#8242; NDRs that overlap with condensin&#8208;binding sites, and at NDR upstream of promoters, in gcn5 mutant cells, and is further increased when both Gcn5 and Mst2 are missing. Crucially, the increase in nucleosome occupancy is accompanied by a proportional reduction in condensin binding. Moreover, increasing nucleosome occupancy by directly altering RSC activity is sufficient to decrease condensin binding. Thus, nucleosome eviction most likely plays a key role in condensin binding to chromatin during mitosis. Although our results do not exclude the possibility that Gcn5 assists condensin binding at least in part by acetylating condensin and/or other non&#8208;histone proteins, they strongly suggest that Gcn5 and Mst2 promote condensin binding in mitosis by evicting nucleosomes from condensin&#8208;binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47983</offset>
+      <text>Like Gcn5, RSC is present at promoters adjoining condensin&#8208;binding sites during mitosis and is necessary for condensin binding at the 3&#8242; end of genes. However, RSC deficiency increases nucleosome occupancy strongly at gene promoters but only moderately at the 3&#8242; end of genes (see Figs&#160;6B and EV8). This suggests that nucleosome eviction at gene promoters plays a crucial role in the binding of condensin at the 3&#8242; end of genes. Thus, given the enrichment of Gcn5 at gene promoters, and the physical and functional interactions between condensin and the TATA&#8208;binding protein 1 (Iwasaki et&#160;al, 2015), it is tempting to speculate that condensin rings first associate with chromosomes at promoter NDRs and subsequently translocate towards the 3&#8242; end of genes, as proposed for the related cohesin complex (Lengronne et&#160;al, 2004).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48824</offset>
+      <text>The central domain of centromeres (cnt1) is transcribed by RNA Pol II and is a site of high nucleosome turnover (Choi et&#160;al, 2011; Sadeghi et&#160;al, 2014). The reduced association of condensin at cnt1 in the absence of Gcn5 (Fig&#160;3A) might therefore indicate that nucleosome eviction and/or dynamics contribute to the association of&#160;condensin, along with Monopollin (Tada et&#160;al, 2011), at centromeres.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49227</offset>
+      <text>Chromatin&#8208;modifying activities in addition to the activities of Gcn5, Mst2 and RSC are likely to take part in condensin's binding to chromosomes. Although the vast majority of condensin&#8208;binding sites coincides with NDRs (see Fig&#160;EV6B), Gcn5 and Mst2 seem to assist condensin binding mainly at high&#8208;occupancy sites but play only a negligible role (if any) at low&#8208;occupancy binding sites. RSC, in contrast, seems to play a more general role (Fig&#160;6B and C). The fact that nucleosome residence increases at high&#8208;occupancy condensin&#8208;binding sites in the absence of Gcn5 and Mst2, despite the presence of RSC, implies that Gcn5 and Mst2 promote condensin binding at these sites by recruiting additional chromatin remodellers, which are at least partly redundant with RSC. The recent finding that budding yeast Gcn5 acts cooperatively, and often redundantly, with the Swi/Snf nucleosome remodelling enzyme to evict promoter nucleosomes (Qiu et&#160;al, 2016), supports our conclusion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50215</offset>
+      <text>Note, however, that nucleosome depletion is unlikely to drive condensin binding by itself. We identified ~7,000 NDRs in mitotic chromosomes in cells arrested in pro/metaphase, but solely ~400 condensin peaks (48 high and 340 low occupancy) have been identified by ChIP&#8208;seq at a similar cell cycle stage (Sutani et&#160;al, 2015). This suggests the existence of NDRs devoid of condensin during mitosis. The corollary, therefore, is that nucleosome eviction is necessary but not sufficient for condensin binding. Hence, additional features/activities must attract condensin. Budding yeast condensin has been shown to preferentially bind free over nucleosomal DNA in a sequence&#8208;independent manner (Piazza et&#160;al, 2014). It has also been shown that RSC recruits the cohesin loader Scc2/Scc4 complex at NDRs of active promoters in budding yeast (Lopez&#8208;Serra et&#160;al, 2014). The role of nucleosome eviction may therefore be to provide access to free genomic DNA for condensin and/or for DNA binding factors important for condensin association. Also condensin, cohesin and perhaps all SMC complexes may contact and subsequently entrap chromosomal DNA at NDRs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51369</offset>
+      <text>Several lines of evidence suggest that the model of condensin loading at NDRs applies to most eukaryotes. In most species, an NDR is present around the transcription start site of active genes (Sadeh &amp; Allis, 2011), the size of which increases with transcription rates to culminate with a disruption of chromatin for the most highly expressed genes (Lantermann et&#160;al, 2010; Soriano et&#160;al, 2013), which are occupied by condensin. Moreover, the fact that nuclease sensitivity patterns are preserved during mitosis suggests that NDRs persist despite transcriptional shut down (Gottesfeld &amp; Forbes, 1997). Thus, the positions of condensins should, in principle, coincide with NDRs at highly expressed genes in a wide range of species. In good agreement, condensin preferentially occupies genes that are co&#8208;occupied by RSC and Gcn5 in budding yeast (Venters et&#160;al, 2011), colocalizes with NDRs at tRNA genes (Piazza et&#160;al, 2014) and relies upon the histone chaperone Asf1 for its chromosomal association, which, together with FACT, regulates nucleosome turnover (Dewari &amp; Bhargava, 2014). Nucleosome remodellers are components of mitotic chromosomes in vertebrates (MacCallum et&#160;al, 2002; Ohta et&#160;al, 2010) and a recent study indicates that the mobilization of embryonic nucleosomes by the histone chaperones Nap1 and FACT is necessary for the assembly of Xenopus mitotic chromosomes (Shintomi et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52781</offset>
+      <text>Altogether, those observations are consistent with the idea that nucleosomes constitute a barrier for the initial binding of condensins. The enrichment of condensins nearby highly expressed genes observed from yeasts to mammals may thus reflects the fact that&#160;condensin rings make their first contact with free, exposed chromosomal DNA at nucleosome&#8208;depleted regions created by transcription&#8208;coupled nucleosome eviction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>53207</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53229</offset>
+      <text>Media, molecular genetics and strains</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53267</offset>
+      <text>Media and molecular genetics methods were as described previously (Moreno et&#160;al, 1991). Complete medium was YES&#160;+&#160;A. Gene deletions or tagging were performed using a polymerase chain reaction (PCR)&#8208;based method (Bahler et&#160;al, 1998). All deletions were confirmed by PCR on genomic DNA. Tagging was validated by Western blotting and Sanger sequencing. Strains used in this study are listed in Appendix&#160;Table&#160;S2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53685</offset>
+      <text>Mitotic arrest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53700</offset>
+      <text>All mitotic arrests were performed at 19&#176;C using the cold&#8208;sensitive nda3&#8208;KM311 mutation. Unless otherwise stated, mitotic indexes were measured by scoring the accumulation of Cnd2&#8208;GFP in the nucleus (Sutani et&#160;al, 1999).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53929</offset>
+      <text>Chromosome condensation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53959</offset>
+      <text>Cells were grown at 25&#176;C to 0.5&#8211;1&#160;&#215;&#160;107&#160;cells/ml. Early G2 cells were purified by centrifugation through a 7&#8211;30% (w/v) lactose step gradient and pipetted onto a 35&#8208;mm glass&#8208;bottom dish (MatTek, No 1.5 P35G&#8208;1.5&#8208;10&#8208;C) covered with 2&#160;mg/ml BS1 lectin (Sigma, L2380), and the dish was shifted to 34&#176;C. The glass&#8208;bottom dish was filled with 2&#160;ml YES&#160;+&#160;A pre&#8208;warmed to 34&#176;C and placed onto the sample stage of the microscope. Imaging was performed using a 100&#215; objective (Olympus) on a DeltaVision system equipped with a Photometrics CoolSnap HQ camera (Roper Scientific) binning 2&#160;&#215;&#160;2 pixels. Pixel size was about 130&#160;&#215;&#160;130&#160;nm. A GFP&#8208;DsRed Dual dichroic mirror (art F51&#8208;019) was used in combination with two bandpass filters to switch between excitation bands. Imaging was started 1&#160;h after lactose gradient centrifugation, and Z&#8208;stacks to cover a depth of 400&#160;nm were acquired every 45&#160;s for 6 fields of view (512&#160;&#215;&#160;512 px) for 1&#160;h. Imaging data were analysed by determining foci centroids using a custom ImageJ plugin as described (Petrova et&#160;al, 2013). Anaphase onset was defined as the frame at which the centromere&#8208;proximal foci split. Distance time series were aligned based on anaphase onset. Average and standard deviation were calculated for each time point.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55275</offset>
+      <text>Immunofluorescence</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55294</offset>
+      <text>Immunofluorescence was performed as described (Robellet et&#160;al, 2014). Images were processed and distances measured using ImageJ.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55424</offset>
+      <text>Chromosome spreading</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55445</offset>
+      <text>Chromosome spreads were performed as described (Bahler et&#160;al, 1993). About 5&#160;&#215;&#160;107 cells were digested with 2&#160;mg of lysing enzymes (Sigma L&#8208;1412), and nuclear spreading was performed in the presence of 1% formaldehyde and 1.5% lipsol. Immunofluorescence was carried out in PBS supplemented with 1% fish skin gelatin (v/v) and 0.5% BSA (w/v) using monoclonal anti&#8208;HA 12CA5 (1/800), polyclonal rabbit anti&#8208;GFP A11122 (1/800) or polyclonal anti&#8208;Myc A&#8208;14 (1/500). Images were acquired using an axioimager Z1 microscope and immunofluorescence signals quantified with ImageJ software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56039</offset>
+      <text>Co&#8208;immunoprecipitations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56065</offset>
+      <text>Co&#8208;immunoprecipitations were performed as described (Vanoosthuyse et&#160;al, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56148</offset>
+      <text>Chromatin Immunoprecipitation and quantitative qPCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56200</offset>
+      <text>ChIPs were performed as described (Vanoosthuyse et&#160;al, 2014). About 2&#160;&#215;&#160;108 cells were fixed with 1% formaldehyde at 19&#176;C for 30&#160;min, washed with PBS and lysed using acid&#8208;wash glass beads in a Precellys homogenizer (3 times 10&#8243; at full speed with 30&#160;s pauses in ice). Chromatin was sheared in 300&#8208; to 900&#8208;bp fragments by sonication of whole cell extracts at 4&#176;C using a Diagenode bioruptor (10 cycles 30&#160;s on/30&#160;s off), max power. Clarified chromatin was split in two equivalent fractions subjected to parallel immunoprecipitations using magnetic Dynabeads previously incubated with the appropriate antibody. Total and immunoprecipitated DNA was purified using the NucleoSpin PCR clean&#8208;up kit (Macherey&#8208;Nagel). DNA was analysed on a Rotor&#8208;Gene PCR cycler using QuantiFast SYBR Green mix. Primers are listed in Appendix Table&#160;S3.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57054</offset>
+      <text>Antibodies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57065</offset>
+      <text>Antibodies used in this study are listed in Appendix&#160;Table&#160;S4.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57130</offset>
+      <text>Reverse&#8208;transcription and quantitative (q)PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57178</offset>
+      <text>Total RNA was extracted from 108 cells by standard hot&#8208;phenol method. Reverse transcription was performed on 500&#160;ng of total RNA using Superscript II (Life Technologies) and random hexamers in the presence or absence of reverse transcriptase. cDNAs were quantified by real&#8208;time qPCR on a Rotor&#8208;Gene PCR cycler using QuantiFast SYBR Green mix.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57528</offset>
+      <text>MNase&#8208;seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57540</offset>
+      <text>MNase digestion of mitotic chromatin was performed as described (Lantermann et&#160;al, 2009) using cells arrested in early mitosis by the nda3&#8208;KM311 mutation at 19&#176;C and cross&#8208;linked with 0.5% formaldehyde for 30&#160;min. Chromatin was digested with increasing amount of MNase to reach a mononucleosome to di&#8208;nucleosome ratio of ~80:20. Mononucleosomal DNA fragments were separated on an agarose gel, extracted from the gel and subjected to massive parallel sequencing on an Illumina NextSeq 500 Apparatus. Between 46,818,494 and 62,258,601 single&#8208;end reads of 75&#160;bp in length were obtained per sample and aligned to the S. pombe genome (Ensembl ASM294v2, May 2009) using Bowtie 2.2.4 with default parameters. Detection of the NDRs was performed as described (Soriano et&#160;al, 2013). Each sample was normalized by dividing signals for every base pair by the mean of coverage depth. NDRs were identified as regions of at least 150&#160;bp in length with normalized sequence coverage inferior to 0.4 and were fused together if separated by &lt;&#160;15&#160;bps.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58589</offset>
+      <text>Bioinformatic analysis of nucleosome occupancy and positioning at condensin&#8208;binding sites</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58681</offset>
+      <text>For each condensin&#8208;binding site, adjacent NDRs of reference were manually identified and their coordinates determined by an iterative process. Manually identified NDRs were aligned with their respective counterparts calculated for each biological replicate (n&#160;=&#160;3). When the reference NDR was overlapped by at least 70% of its length by its calculated counterpart, the two NDRs were merged, generating a new NDR of reference, which was used for the next iteration. Reference NDRs, and calculated NDRs detected in each replicate, are listed in Dataset EV1. To compare coverage depth (Fig&#160;5E), 200&#8208;bp upstream and 200&#8208;bp downstream of the NDR were added to take into account the flanking nucleosomes. The sum of the normalized coverage depth at each base was calculated and divided by the total length. Resulting distributions were tested for gaussian behaviour using the Shapiro&#8211;Wilk test. The Kruskal&#8211;Wallis test was used for comparison if at least one distribution did not follow the normal law.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59691</offset>
+      <text>Metagene generation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59711</offset>
+      <text>Nucleosome&#8208;depleted regions of reference were fractioned in 10 bins, in which the coverage depth was averaged over the bases. The 200&#160;bp upstream and downstream of the NDR were each resumed in 20 bins following the same process as for the NDRs. The mean enrichments were calculated for each bin in each sample.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60025</offset>
+      <text>Permutation test</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60042</offset>
+      <text>Positions of the 47 condensin peaks were shuffled 100,000 times using the shuffle tool of Bedtools, without any constraint, to obtain a theoretical distribution of the overlaps between condensin peaks and NDRs. The permutation test was performed on this distribution. The P&#8208;value was calculated by dividing the number (x) of permutations giving higher numbers of bases in overlaps than the observed value increased by one (the observed value), by the total number of sets of positions (the set of the observed positions and the 100,000 permutations of the positions): (x&#160;+&#160;1)/(100,000&#160;+&#160;1).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60639</offset>
+      <text>Enrichment of condensin in NDRs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60671</offset>
+      <text>Datasets of ChIP&#8208;seq against Cut14&#8208;pk9 (Sutani et&#160;al, 2015) n&#176; SRR1564296, SRR1557176, SRR1559300, SRR1559301, SRR1557175 and SRR1557178 were aligned to the S.&#160;pombe genome (Ensembl ASM294v2) using bowtie 1.1.2 with the parameters indicated in the original paper. For each dataset, coverage was divided by a normalization factor, which corresponds to the ratio of the number of alignments over the size of the genome. Note that the length of the reads is unique (48&#160;bp) for all samples. Normalized coverage of the IP sample was divided by the normalized coverage of the corresponding input (both increased by 1 to allow taking into account bases with a coverage value of 0 in the input). Thus, any enrichment gives a ratio &gt;&#160;1, and, reciprocally, any impoverishment gives a ratio between 0 and 1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61477</offset>
+      <text>Statistical methods</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61497</offset>
+      <text>Unless otherwise stated, we used two&#8208;tailed Wilcoxon and Mann&#8211;Whitney test statistics when at least 6 independent values were available per sample.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61649</offset>
+      <text>Data access</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61661</offset>
+      <text>The MNase&#8208;seq data from this publication have been submitted to ArrayExpress database and assigned the identifier E&#8208;MTAB&#8208;4620.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>61794</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61815</offset>
+      <text>PB involved in conceptualization; CS, CHH and PB involved in methodology; ETM, XR, LF, CS, CK, CH, PL, LNG and LM participated in investigation; SL and EC did formal analysis; DA, CHH and PB involved in supervision; PB wrote the original draft; and PB involved in funding acquisition.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>62100</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>62121</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>62181</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>62204</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">417</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">202</infon>
+      <infon key="pub-id_pmid">12000964</infon>
+      <infon key="fpage">197</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>62215</offset>
+      <text>Cnd2 has dual roles in mitotic condensation and interphase</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Curr Opin Genet Dev</infon>
+      <infon key="lpage">211</infon>
+      <infon key="pub-id_pmid">23312842</infon>
+      <infon key="fpage">204</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62274</offset>
+      <text>Condensin, cohesin and the control of chromatin states</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Yeast</infon>
+      <infon key="lpage">951</infon>
+      <infon key="pub-id_pmid">9717240</infon>
+      <infon key="fpage">943</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>62329</offset>
+      <text>Heterologous modules for efficient and versatile PCR&#8208;based gene targeting in Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="volume">121</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">256</infon>
+      <infon key="pub-id_pmid">8468345</infon>
+      <infon key="fpage">241</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>62434</offset>
+      <text>Unusual nuclear structures in meiotic prophase of fission yeast: a cytological analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">331</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1332</infon>
+      <infon key="pub-id_pmid">21393545</infon>
+      <infon key="fpage">1328</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62522</offset>
+      <text>Positive supercoiling of mitotic DNA drives decatenation by topoisomerase II in eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2012</infon>
+      <infon key="pub-id_pmid">25228644</infon>
+      <infon key="fpage">1999</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62613</offset>
+      <text>The SAGA coactivator complex acts on the whole transcribed genome and is required for RNA polymerase II transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">348</infon>
+      <infon key="pub-id_pmid">24062159</infon>
+      <infon key="fpage">340</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62731</offset>
+      <text>Condensin aids sister chromatid decatenation by topoisomerase II</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">23607</infon>
+      <infon key="pub-id_pmid">21531710</infon>
+      <infon key="fpage">23600</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62796</offset>
+      <text>Identification of noncoding transcripts from within CENP&#8208;A chromatin at fission yeast centromeres</text>
+    </passage>
+    <passage>
+      <infon key="volume">458</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">222</infon>
+      <infon key="pub-id_pmid">19158678</infon>
+      <infon key="fpage">219</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>62896</offset>
+      <text>Cdc14 inhibits transcription by RNA polymerase I during anaphase</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1456</infon>
+      <infon key="pub-id_pmid">22020438</infon>
+      <infon key="fpage">1450</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62961</offset>
+      <text>Cdc14 phosphatase promotes segregation of telomeres through repression of RNA polymerase II transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">901</infon>
+      <infon key="pub-id_pmid">21765419</infon>
+      <infon key="fpage">894</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63067</offset>
+      <text>Condensin structures chromosomal DNA through topological links</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2227</infon>
+      <infon key="pub-id_pmid">18708580</infon>
+      <infon key="fpage">2215</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>63130</offset>
+      <text>Identification of cis&#8208;acting sites for condensin loading onto budding yeast chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">25264624</infon>
+      <infon key="fpage">e108652</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>63220</offset>
+      <text>Genome&#8208;wide mapping of yeast histone chaperone anti&#8208;silencing function 1 reveals its role in condensin binding with chromatin</text>
+    </passage>
+    <passage>
+      <infon key="volume">I</infon>
+      <infon key="lpage">378</infon>
+      <infon key="source">Stem Cell Rep</infon>
+      <infon key="fpage">371</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63350</offset>
+      <text>Multiple structural maintenance of chromosome complexes at transcriptional regulatory elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">432</infon>
+      <infon key="pub-id_pmid">11964380</infon>
+      <infon key="fpage">426</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>63445</offset>
+      <text>Distinct but overlapping domains of AKAP95 are implicated in chromosome condensation and condensin targeting</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="lpage">202</infon>
+      <infon key="pub-id_pmid">9204705</infon>
+      <infon key="fpage">197</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>63554</offset>
+      <text>Mitotic repression of the transcriptional machinery</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">42</infon>
+      <infon key="pub-id_pmid">17218269</infon>
+      <infon key="fpage">31</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>63606</offset>
+      <text>Gcn5 promotes acetylation, eviction, and methylation of nucleosomes in transcribed coding regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">3195</infon>
+      <infon key="pub-id_pmid">19056896</infon>
+      <infon key="fpage">3184</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>63704</offset>
+      <text>The S. pombe SAGA complex controls the switch from proliferation to sexual differentiation through the opposing roles of its subunits Gcn5 and Spt8</text>
+    </passage>
+    <passage>
+      <infon key="volume">164</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">857</infon>
+      <infon key="pub-id_pmid">26919425</infon>
+      <infon key="fpage">847</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>63852</offset>
+      <text>Condensin&#8208;based chromosome organization from bacteria to vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">6445</infon>
+      <infon key="pub-id_pmid">15572404</infon>
+      <infon key="fpage">6435</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>63923</offset>
+      <text>Distinct functions of condensin I and II in mitotic chromosome assembly</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">767</infon>
+      <infon key="pub-id_pmid">26257282</infon>
+      <infon key="fpage">755</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>63995</offset>
+      <text>Interaction between TBP and Condensin Drives the Organization and Faithful Segregation of Mitotic Chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">1014</infon>
+      <infon key="pub-id_pmid">19633696</infon>
+      <infon key="fpage">1009</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>64105</offset>
+      <text>HAT&#8208;HDAC interplay modulates global histone H3K14 acetylation in gene&#8208;coding regions during stress</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Genes Cells</infon>
+      <infon key="lpage">771</infon>
+      <infon key="pub-id_pmid">17573776</infon>
+      <infon key="fpage">759</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>64208</offset>
+      <text>RNA polymerase I transcription obstructs condensin association with 35S rRNA coding regions and can cause contraction of long repeat in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">35</infon>
+      <infon key="pub-id_pmid">19362534</infon>
+      <infon key="fpage">26</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>64369</offset>
+      <text>The cis element and factors required for condensin recruitment to chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24088984</infon>
+      <infon key="fpage">2537</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64447</offset>
+      <text>Condensin I associates with structural and gene regulatory regions in vertebrate chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">634</infon>
+      <infon key="pub-id_pmid">9288743</infon>
+      <infon key="fpage">625</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>64540</offset>
+      <text>ATP&#8208;dependent positive supercoiling of DNA by 13S condensin: a biochemical implication for chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">382</infon>
+      <infon key="pub-id_pmid">20363118</infon>
+      <infon key="fpage">374</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>64657</offset>
+      <text>Multiple faces of the SAGA complex</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">24125077</infon>
+      <infon key="fpage">R112</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64692</offset>
+      <text>Genome&#8208;wide analysis of condensin binding in Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">38319</infon>
+      <infon key="pub-id_pmid">11479283</infon>
+      <infon key="fpage">38307</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>64762</offset>
+      <text>Regulation of global acetylation in mitosis through loss of histone acetyltransferases and deacetylases from chromatin</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="lpage">225</infon>
+      <infon key="source">Methods San Diego Calif</infon>
+      <infon key="fpage">218</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>64881</offset>
+      <text>Genome&#8208;wide mapping of nucleosome positions in Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">257</infon>
+      <infon key="pub-id_pmid">20118936</infon>
+      <infon key="fpage">251</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>64956</offset>
+      <text>Schizosaccharomyces pombe genome&#8208;wide nucleosome mapping reveals positioning mechanisms distinct from those of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">430</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">578</infon>
+      <infon key="pub-id_pmid">15229615</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>65094</offset>
+      <text>Cohesin relocation from sites of chromosomal loading to places of convergent transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2930</infon>
+      <infon key="pub-id_pmid">16079914</infon>
+      <infon key="fpage">2919</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>65185</offset>
+      <text>Molecular analysis of kinetochore architecture in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">466</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">512</infon>
+      <infon key="pub-id_pmid">20622854</infon>
+      <infon key="fpage">508</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>65249</offset>
+      <text>PHF8 mediates histone H4 lysine 20 demethylation events involved in cell cycle progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">1151</infon>
+      <infon key="pub-id_pmid">25173104</infon>
+      <infon key="fpage">1147</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65340</offset>
+      <text>The Scc2&#8208;Scc4&#160;complex acts in sister chromatid cohesion and transcriptional regulation by maintaining nucleosome&#8208;free regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2497</infon>
+      <infon key="pub-id_pmid">25403179</infon>
+      <infon key="fpage">2492</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65471</offset>
+      <text>Role of DNA sequence in chromatin remodeling and the formation of nucleosome&#8208;free regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">39</infon>
+      <infon key="pub-id_pmid">11809820</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>65563</offset>
+      <text>ISWI remodeling complexes in Xenopus egg extracts: identification as major chromosomal components that are regulated by INCENP&#8208;aurora B</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">880</infon>
+      <infon key="pub-id_pmid">18622392</infon>
+      <infon key="fpage">873</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>65701</offset>
+      <text>Fission yeast SWI/SNF and RSC complexes show compositional and functional differences from budding yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">194</infon>
+      <infon key="lpage">823</infon>
+      <infon key="source">Methods Enzym</infon>
+      <infon key="fpage">795</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>65806</offset>
+      <text>Molecular genetic analysis of fission yeast Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Cells</infon>
+      <infon key="lpage">499</infon>
+      <infon key="pub-id_pmid">25847133</infon>
+      <infon key="fpage">481</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65876</offset>
+      <text>RNA pol II transcript abundance controls condensin accumulation at mitotically up&#8208;regulated and heat&#8208;shock&#8208;inducible genes in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">BMC Genom</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">59</infon>
+      <infon key="year">2010</infon>
+      <offset>66022</offset>
+      <text>Expression profiling of S. pombe acetyltransferase mutants identifies redundant pathways of gene regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">821</infon>
+      <infon key="pub-id_pmid">20813266</infon>
+      <infon key="fpage">810</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66130</offset>
+      <text>The protein composition of mitotic chromosomes determined using multiclassifier combinatorial proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">121</infon>
+      <infon key="pub-id_pmid">14532007</infon>
+      <infon key="fpage">109</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>66235</offset>
+      <text>Differential contributions of condensin I and condensin II to mitotic chromosome architecture in vertebrate cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2394</infon>
+      <infon key="pub-id_pmid">20562830</infon>
+      <infon key="fpage">2381</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66349</offset>
+      <text>The ATAC acetyl transferase complex controls mitotic progression by targeting non&#8208;histone substrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">304</infon>
+      <infon key="pub-id_pmid">22410403</infon>
+      <infon key="fpage">296</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>66452</offset>
+      <text>Making sense of transcribing chromatin</text>
+    </passage>
+    <passage>
+      <infon key="volume">316</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">2135</infon>
+      <infon key="pub-id_pmid">20452346</infon>
+      <infon key="fpage">2123</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66491</offset>
+      <text>Acetylation of core histones in response to HDAC inhibitors is diminished in mitotic HeLa cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">998</infon>
+      <infon key="pub-id_pmid">23263988</infon>
+      <infon key="fpage">984</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>66587</offset>
+      <text>Quantitative analysis of chromosome condensation in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">568</infon>
+      <infon key="pub-id_pmid">24837193</infon>
+      <infon key="fpage">560</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>66653</offset>
+      <text>Association of condensin with chromosomes depends on DNA binding by its HEAT&#8208;repeat subunits</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">527</infon>
+      <infon key="pub-id_pmid">16122420</infon>
+      <infon key="fpage">517</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>66748</offset>
+      <text>Genome&#8208;wide map of nucleosome acetylation and methylation in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">225</infon>
+      <infon key="pub-id_pmid">26602697</infon>
+      <infon key="fpage">211</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>66817</offset>
+      <text>Genome&#8208;wide cooperation by HAT Gcn5, remodeler SWI/SNF, and chaperone Ydj1 in promoter nucleosome eviction and transcriptional activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">G3 Bethesda</infon>
+      <infon key="lpage">381</infon>
+      <infon key="pub-id_pmid">24362309</infon>
+      <infon key="fpage">373</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>66957</offset>
+      <text>A genetic screen for functional partners of condensin in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">209</infon>
+      <infon key="pub-id_pmid">15494307</infon>
+      <infon key="fpage">199</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>67028</offset>
+      <text>Global position and recruitment of HATs and HDACs in the yeast genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">552</infon>
+      <infon key="pub-id_pmid">15706033</infon>
+      <infon key="fpage">542</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>67098</offset>
+      <text>Active chromatin domains are defined by acetylation islands revealed by genome&#8208;wide mapping</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">243</infon>
+      <infon key="pub-id_pmid">24531659</infon>
+      <infon key="fpage">236</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>67192</offset>
+      <text>Centromeric histone H2B monoubiquitination promotes noncoding transcription and chromatin integrity</text>
+    </passage>
+    <passage>
+      <infon key="volume">147</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">266</infon>
+      <infon key="pub-id_pmid">22000006</infon>
+      <infon key="fpage">263</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>67292</offset>
+      <text>Genome&#8208;wide &#8216;Re&#8217;&#8208;modeling of nucleosome positions</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4952</infon>
+      <infon key="pub-id_pmid">7957061</infon>
+      <infon key="fpage">4938</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>67350</offset>
+      <text>Fission yeast cut3 and cut14, members of a ubiquitous protein family, are required for chromosome condensation and segregation in mitosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">199</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">770</infon>
+      <infon key="pub-id_pmid">23166350</infon>
+      <infon key="fpage">755</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>67488</offset>
+      <text>Mitotic chromosomes are compacted laterally by KIF4 and condensin and axially by topoisomerase IIalpha</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">19454013</infon>
+      <infon key="fpage">R52</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>67591</offset>
+      <text>Conserved features of cohesin binding along fission yeast chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="lpage">1023</infon>
+      <infon key="pub-id_pmid">26075356</infon>
+      <infon key="fpage">1014</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>67661</offset>
+      <text>Reconstitution of mitotic chromatids with a minimum set of purified factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">BMC Genom</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">813</infon>
+      <infon key="year">2013</infon>
+      <offset>67737</offset>
+      <text>Clustered regulatory elements at nucleosome&#8208;depleted regions punctuate a constant nucleosomal landscape in Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">536</infon>
+      <infon key="pub-id_pmid">10791967</infon>
+      <infon key="fpage">531</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>67872</offset>
+      <text>A kinase&#8208;anchoring protein (AKAP)95 recruits human chromosome&#8208;associated protein (hCAP)&#8208;D2/Eg7 for chromosome condensation in mitotic extract</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2283</infon>
+      <infon key="pub-id_pmid">10485849</infon>
+      <infon key="fpage">2271</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>68020</offset>
+      <text>Fission yeast condensin complex: essential roles of non&#8208;SMC subunits for condensation and Cdc2 phosphorylation of Cut3/SMC4</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26204128</infon>
+      <infon key="fpage">7815</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>68146</offset>
+      <text>Condensin targets and reduces unwound DNA structures associated with transcription in mitotic chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">483</infon>
+      <infon key="pub-id_pmid">21633354</infon>
+      <infon key="fpage">477</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>68264</offset>
+      <text>Condensin association with histone H2A shapes mitotic chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18607</infon>
+      <infon key="pub-id_pmid">24173036</infon>
+      <infon key="fpage">18602</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68330</offset>
+      <text>Highly expressed loci are vulnerable to misleading ChIP localization of multiple unrelated proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">R1021</infon>
+      <infon key="pub-id_pmid">23218009</infon>
+      <infon key="fpage">R1012</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>68430</offset>
+      <text>Condensin, chromatin crossbarring and chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">24945319</infon>
+      <infon key="fpage">e1004415</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>68492</offset>
+      <text>CPF&#8208;associated phosphatase activity opposes condensin&#8208;mediated chromosome condensation</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">492</infon>
+      <infon key="pub-id_pmid">21329885</infon>
+      <infon key="fpage">480</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>68583</offset>
+      <text>A comprehensive genomic binding map of gene and chromatin regulatory proteins in Saccharomyces</text>
+    </passage>
+    <passage>
+      <infon key="volume">287</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">4393</infon>
+      <infon key="pub-id_pmid">22184112</infon>
+      <infon key="fpage">4386</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>68678</offset>
+      <text>Histone H3 lysine 14 acetylation is required for activation of a DNA damage checkpoint in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">184</infon>
+      <infon key="pub-id_pmid">23246430</infon>
+      <infon key="fpage">175</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68782</offset>
+      <text>Histone modifications and mitosis: countermarks, landmarks, and bookmarks</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">184</infon>
+      <infon key="pub-id_pmid">22196215</infon>
+      <infon key="fpage">177</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>68856</offset>
+      <text>SAGA function in tissue&#8208;specific gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2918</infon>
+      <infon key="pub-id_pmid">16079916</infon>
+      <infon key="fpage">2906</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>68907</offset>
+      <text>Genomewide analysis of nucleosome density histone acetylation and HDAC function in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">BMC Genom</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">479</infon>
+      <infon key="year">2013</infon>
+      <offset>69004</offset>
+      <text>Distinct roles of&#160;the Gcn5 histone acetyltransferase revealed during transient stress&#8208;induced reprogramming of the genome</text>
+    </passage>
+  </document>
+</collection>

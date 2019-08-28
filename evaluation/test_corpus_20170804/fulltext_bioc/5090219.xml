@@ -1,0 +1,1316 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5090219</id>
+    <passage>
+      <infon key="name_2">surname:Raychaudhuri;given-names:Sumana</infon>
+      <infon key="name_3">surname:Cairns;given-names:Leah</infon>
+      <infon key="name_0">surname:Hwang;given-names:Jiwon</infon>
+      <infon key="name_1">surname:Ribbens;given-names:Diedre</infon>
+      <infon key="name_6">surname:Urban;given-names:Sini&#353;a</infon>
+      <infon key="alt-title">Jiwon Hwang et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201693923</infon>
+      <infon key="name_5">surname:Frost;given-names:Adam</infon>
+      <infon key="lpage">2349 2349</infon>
+      <infon key="fpage">2332 2332</infon>
+      <infon key="year">2016</infon>
+      <infon key="name_7">surname:Espenshade;given-names:Peter J</infon>
+      <infon key="name_4">surname:Gu;given-names:He</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201693923</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="type">front</infon>
+      <infon key="kwd">Cdc48/p97 intramembrane proteolysis rhomboid SREBP ubiquitin Membrane &amp; Intracellular Transport Post-translational Modifications, Proteolysis &amp; Proteomics</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">21</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <offset>0</offset>
+      <text>A Golgi rhomboid protease Rbd2 recruits Cdc48 to cleave yeast SREBP</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>68</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>77</offset>
+      <text>Hypoxic growth of fungi requires sterol regulatory element&#8208;binding protein (SREBP) transcription factors, and human opportunistic fungal pathogens require SREBP activation for virulence. Proteolytic release of fission yeast SREBPs from the membrane in response to low oxygen requires the Golgi membrane&#8208;anchored Dsc E3 ligase complex. Using genetic interaction arrays, we identified Rbd2 as a rhomboid family protease required for SREBP proteolytic processing. Rbd2 is an active, Golgi&#8208;localized protease that cleaves the transmembrane segment of the TatA rhomboid model substrate. Epistasis analysis revealed that the Dsc E3 ligase acts on SREBP prior to cleavage by Rbd2. Using APEX2 proximity biotinylation, we demonstrated that Rbd2 binds the AAA&#8208;ATPase Cdc48 through a C&#8208;terminal SHP box. Interestingly, SREBP cleavage required Rbd2 binding of Cdc48, consistent with Cdc48 acting to recruit ubiquitinylated substrates. In support of this claim, overexpressing a Cdc48&#8208;binding mutant of Rbd2 bypassed the Cdc48 requirement for SREBP cleavage, demonstrating that Cdc48 likely plays a role in SREBP recognition. In the absence of functional Rbd2, SREBP precursor is degraded by the proteasome, indicating that Rbd2 activity controls the balance between SREBP activation and degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1378</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1391</offset>
+      <text>Sterol regulatory element&#8208;binding proteins (SREBPs) play a key role in transcriptional regulation of lipid metabolism in response to intracellular levels of cholesterol and fatty acids in mammals (Espenshade &amp; Hughes, 2007). SREBPs are synthesized as inactive precursor proteins containing two hydrophobic transmembrane&#8208;spanning segments for membrane insertion into the endoplasmic reticulum (ER). In response to cholesterol depletion, SREBP cleavage&#8208;activating protein (SCAP) escorts SREBP via COPII vesicles to the Golgi apparatus where it is processed by two proteases: Site&#8208;1 protease (S1P; a membrane&#8208;bound subtilisin&#8208;related serine protease) cleaves in the lumen and Site&#8208;2 protease (S2P; a membrane&#8208;bound zinc metalloprotease) cleaves in the membrane. The proteolytically released N&#8208;terminal segment containing the transactivation domain and the basic helix&#8208;loop&#8208;helix leucine zipper DNA binding (bHLH&#8208;zip) domain travels to the nucleus where it activates transcription of genes encoding enzymes for the biosynthesis and uptake of cholesterol, fatty acids, and triglycerides, as well as activating its own transcription (Shao &amp; Espenshade, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2569</offset>
+      <text>Sterol regulatory element&#8208;binding proteins are conserved across fungal phyla, including Cryptococcus neoformans, Aspergillus fumigatus, Candida albicans and Schizosaccharomyces pombe (Lane et&#160;al, 2001; Chang et&#160;al, 2007, 2009; Chun et&#160;al, 2007; Willger et&#160;al, 2008; Bien &amp; Espenshade, 2010). In S.&#160;pombe, the SREBP called Sre1 controls the hypoxic response in addition to lipid homeostasis (Hughes et&#160;al, 2005; Todd et&#160;al, 2006; Bien &amp; Espenshade, 2010). Under low oxygen conditions, Sre1 is proteolytically cleaved and the N&#8208;terminal transcription factor (Sre1N) is released from the membrane and enters the nucleus to activate hypoxic genes. Importantly, the SREBP oxygen&#8208;responsive pathway is conserved in human opportunistic pathogens, such as C.&#160;neoformans and A.&#160;fumigatus (Bien &amp; Espenshade, 2010). SREBP is critical for pathogenic fungi to adapt and survive in hypoxic host conditions, which frequently occur at sites of fungal infections (Grahl et&#160;al, 2012). Consequently, SREBP is required for C.&#160;neoformans and A.&#160;fumigatus virulence, and SREBP pathway components are antifungal drug targets.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3691</offset>
+      <text>In addition to Sre1, fission yeast codes for a second SREBP, called Sre2. Sre1 and Sre2 have the same predicted topology, but Sre2 lacks the C&#8208;terminal SCAP binding domain (Hughes et&#160;al, 2005). Thus, Sre2 cleavage is not regulated by sterols or oxygen, but is constitutively cleaved (Stewart et&#160;al, 2011). Despite these differences in regulation, Sre1 and Sre2 cleavage require the same machinery (Stewart et&#160;al, 2011, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4122</offset>
+      <text>Proteolytic activation of fission yeast SREBP (both Sre1 and Sre2) occurs through a mechanism different than mammalian SREBP. Proteolytic activation requires the Golgi Dsc (defective for SREBP cleavage) E3 ligase, a complex of five subunits, and the AAA&#8208;ATPase Cdc48, the yeast homolog of p97/VCP (Stewart et&#160;al, 2011, 2012; Lloyd et&#160;al, 2013). Cdc48 binds to the Dsc E3 ligase through the UBX domain of the Dsc5 subunit (Stewart et&#160;al, 2012). The Dsc E3 ligase complex possesses E3 ubiquitin ligase activity, and its complex architecture resembles the ER&#8208;associated degradation (ERAD) E3 ligase gp78 (Lloyd et&#160;al, 2013; Raychaudhuri &amp; Espenshade, 2015). In ERAD, a membrane&#8208;associated E3 ligase core complex recognizes substrate proteins in the ER and mediates ubiquitinylation (Olzmann et&#160;al, 2013). The Cdc48/p97 complex recognizes the poly&#8208;ubiquitin chain and extracts ubiquitinylated substrates to the cytosol for proteasomal degradation. Despite their subunit architectural and functional conservation, the ERAD and Dsc E3 ligases have distinct functional outcomes. While ERAD E3 ligase machinery mediates substrate degradation, current data support a model in which the Dsc E3 ligase ubiquitylates yeast SREBP to direct its subsequent proteolytic activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5401</offset>
+      <text>Many unanswered questions stemming from major gaps in our knowledge of how yeast SREBP is activated need to be explored. First, which protease(s) cleaves SREBP? Subunits of the Dsc E3 ligase do not contain predicted protease domains, and S2P is absent from fission yeast (Bien &amp; Espenshade, 2010). Given that activation of SREBP is required for fungal pathogen virulence, identification of an SREBP protease could provide a new drug target. Second, why is Cdc48 required for SREBP cleavage? Point mutants of cdc48 fail to support yeast SREBP cleavage (Stewart et&#160;al, 2012). However, the Dsc5 UBX domain that recruits Cdc48 to the Dsc E3 ligase is not required for cleavage, suggesting an independent function for Cdc48 in SREBP cleavage. Finally, is yeast SREBP ubiquitinylation required for cleavage? Our recent studies demonstrate that Dsc E3 ligase activity is required for Golgi localization of the Dsc E3 ligase complex (Raychaudhuri &amp; Espenshade, 2015). Thus, mislocalization of the Dsc E3 ligase confounds the interpretation of dsc mutant data.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6454</offset>
+      <text>In this study, we provide answers to each of these questions. We demonstrate that S.&#160;pombe Rbd2 is a Golgi&#8208;resident rhomboid protease that is required for yeast SREBP cleavage activation. Kim and colleagues recently reported an initial genetic characterization of rbd2 showing that Sre1 cleavage activation requires rbd2 in S.&#160;pombe, and our results confirm these findings (Kim et&#160;al, 2015). Rhomboid proteases are a family of intramembrane serine proteases, whose catalytic site is buried within the membrane bilayer (Urban, 2006; Urban &amp; Dickey, 2011). Conserved in prokaryotes and eukaryotes, rhomboid proteases regulate a wide range of divergent biological processes, such as growth factor signaling, mitochondrial membrane dynamics, protein quality control, and parasite invasion of host cells (Bergbold &amp; Lemberg, 2013; Lemberg, 2013; Rather, 2013). Our epistasis analysis shows that the Dsc E3 ligase complex functions prior to Rbd2, suggesting that Dsc E3&#8208;mediated ubiquitinylation is a prerequisite for Rbd2 function. The C&#8208;terminal, cytosolic tail of Rbd2 binds Cdc48, and disruption of Rbd2&#8211;Cdc48 binding blocks SREBP cleavage. Genetic experiments indicate that Cdc48 recruits SREBP to Rbd2 for cleavage, identifying a function for Cdc48 that is independent from its role in binding to the Dsc E3 ligase. The mammalian rhomboid RHDBL4 also binds p97, but in this case, p97 functions after cleavage to promote degradation of cleaved products (Fleig et&#160;al, 2012). Interestingly, the absence of functional Rbd2 leads to proteasomal degradation of the uncleaved SREBP precursor form in a Dsc E3&#8208;dependent manner, supporting a model in which the Dsc E3 ligase ubiquitinylates SREBP prior to cleavage by Rbd2. Thus, this study answers key questions regarding the mechanism of yeast SREBP cleavage activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>8282</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8290</offset>
+      <text>Genetic interaction mapping identifies function for rbd2 in SREBP pathway</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8364</offset>
+      <text>To identify additional genes involved in SREBP cleavage in S.&#160;pombe, we previously carried out an unbiased, high&#8208;throughput genetic interaction screen (Frost et&#160;al, 2012). Hierarchical clustering of genetic interaction profile correlations between a set of 1,297&#160;G418&#8208;marked array strains and 579 nourseothricin&#8208;marked query strains revealed functionally related genes, including those involved in dsc&#8208;dependent SREBP pathway (Frost et&#160;al, 2012). A gene encoding a putative rhomboid protease, SPCC790.03, was correlated with dsc1&#8208;dsc4 and sre2 (Fig&#160;1A). The absence of sre1 from the cluster was likely due to the fact that the study was performed under normoxic conditions when sre1 is inactive, an observation made in a previous study (Eisenman et&#160;al, 2005; Stewart et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9162</offset>
+      <text>Rbd2 is a Golgi&#8208;resident rhomboid protease</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9207</offset>
+      <text>Plot of correlation coefficients generated from comparison of the genetic profiles from sre2&#916; and SPCC790.03&#916; (rbd2&#916;) to all other profiles from the genetic interaction array. Note the high correlations among dsc1&#8208;4, sre2, and rbd2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9452</offset>
+      <text>Protein structural predictions for Schizosaccharomyces pombe Rbd2 (blue) and E.&#160;coli GlpG (red). Protein structures were predicted using the Phyre2 server (http://www.sbg.bio.ic.ac.uk/phyre2). Rbd2 model structure was aligned to GlpG using PyMOL.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9700</offset>
+      <text>Protein sequence alignment of E.&#160;coli GlpG, human RHBDL4, S.&#160;pombe Rbd2, and S.&#160;cerevisiae Rbd2. Alignments were generated using Clustal Omega server (http://www.ebi.ac.uk/Tools/msa/clustalo). Predicted transmembrane domains (TM) and shared sequence motifs were used for alignment. Positions of functionally important, conserved rhomboid amino acid residues (including predicted catalytic dyad serine and histidine) are shaded in red. Residues boxed in green were identified as required for Sre1 activation from a genetic selection and were analyzed in Fig&#160;2E and F. The starting residue numbers of the indicated sequences within their full&#8208;length proteins are given. Asterisks mark residues identical in all sequences, and colons denote conservative substitutions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10472</offset>
+      <text>Topology model for S.&#160;pombe Rbd2 with the conserved six&#8208;pass TM. Both the N&#8208; and C&#8208;termini face the cytoplasm. The protease active site serine and histidine form a catalytic dyad between TM4 and TM6. A SHP box, predicted to bind Cdc48, is positioned at the Rbd2 C&#8208;terminus.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10755</offset>
+      <text>Cells carrying a plasmid expressing rbd2&#8208;6xmCherry and either of two Golgi proteins dsc2&#8208;6xGFP (dsc2&#8208;6xGFP rbd2&#8208;6xmCherry) or Sec72&#8208;6xGFP (Sec72&#8208;6xGFP rbd2&#8208;6xmCherry) were imaged by confocal fluorescence microscopy.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10985</offset>
+      <text>SPCC790.03 codes for a putative 251 amino acid (aa) rhomboid protease that is homologous to RBD2 in Saccharomyces cerevisiae. Bioinformatic analysis of S.&#160;pombe Rbd2 revealed highly significant shared homology between Rbd2 and GlpG, a well&#8208;studied bacterial member of the rhomboid family of intramembrane proteases (Fig&#160;1B) (Kelley et&#160;al, 2015). Furthermore, a multiple sequence alignment revealed that Rbd2 shares significant sequence conservation with rhomboid proteases from other kingdoms (Fig&#160;1C). Based on known rhomboid structures and topologies, Rbd2 has six predicted transmembrane domains (TM) with the N&#8208; and C&#8208;termini in the cytoplasm (Fig&#160;1D), and its predicted catalytic Ser&#8208;His dyad is positioned in the fourth (S130) and sixth (H182) TM, respectively. In addition, Rbd2 also contains the conserved &#8220;GxSG&#8221; motif surrounding the catalytic Ser in TM4, the &#8220;GxxxG&#8221; helix dimerization motif in TM6, and the &#8220;HxxxxHxxxN&#8221; motif in TM2 characteristic of rhomboid proteases (Fig&#160;1C) (Urban &amp; Baker, 2008; Urban &amp; Shi, 2008). Interestingly, a homology search program also identified a SHP box, a putative Cdc48 interaction domain, in the cytosolic C&#8208;terminus of Rbd2 that has not been described in rhomboid proteases (Fig&#160;1D) (Sato &amp; Hampton, 2006; Kelley et&#160;al, 2015). This SHP box is not present in S.&#160;cerevisiae Rbd2, suggesting that the two orthologs have distinct functions. The predicted subcellular localization of Rbd2 is the Golgi apparatus (Matsuyama et&#160;al, 2006). Consistent with this prediction, Rbd2 fused to six tandem copies of mCherry (Rbd2&#8208;6xmCherry) appeared as puncta in cells that colocalized with two Golgi proteins, Sec72&#8208;6xGFP and Dsc2&#8208;6xGFP (Fig&#160;1E) (Stewart et&#160;al, 2011). Our combined structural modeling, bioinformatic analysis, and subcellular localization data suggest that Rbd2 is a S.&#160;pombe Golgi&#8208;localized, rhomboid intramembrane protease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12905</offset>
+      <text>SREBP activation requires Rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12936</offset>
+      <text>To test whether Rbd2 is involved in SREBP proteolytic processing, we generated an rbd2&#8710; strain. Cells lacking Sre1 activity fail to grow on medium containing cobalt chloride (CoCl2), which mimics hypoxia (Hughes et&#160;al, 2005). rbd2&#8710; cells failed to grow on CoCl2 medium, and growth was rescued by the expression of the cleaved, soluble N&#8208;terminus of Sre1 (Sre1N) (Fig&#160;2A), suggesting that the rbd2&#8710; growth defect was due to a failure to produce Sre1N. Consistent with this result, rbd2&#8710; cells failed to accumulate cleaved Sre1N when cells were grown in the absence of oxygen, a condition where Sre1 cleavage was robust in wild&#8208;type cells (Fig&#160;2B, lanes 1&#8211;8). As expected, dsc1&#8710; cells also failed to produce Sre1N (Stewart et&#160;al, 2011). Interestingly, unlike dsc1&#8710; cells, the full&#8208;length Sre1 precursor form decreased in rbd2&#8710; cells (Fig&#160;2B, lanes 5&#8211;13). Taken together, these data suggest that deletion of rbd2 impairs Sre1 activation under hypoxic conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13925</offset>
+      <text>SREBP activation requires rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13956</offset>
+      <text>Wild&#8208;type (WT), rbd2&#916;, or sre1&#916; yeast (200 cells) containing either empty vector (EV) or a plasmid expressing sre1N (Sre1 amino acids 1&#8211;440) were grown on rich medium in the presence or absence of cobalt chloride (CoCl2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14186</offset>
+      <text>Western blot was probed with anti&#8208;Sre1 IgG of phosphatase&#8208;treated, whole&#8208;cell lysates from WT and the indicated mutants grown for the indicated time in the absence of oxygen. Dsc5 serves as a loading control and was detected by chemiluminescence. P and N denote Sre1 precursor and cleaved nuclear forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14510</offset>
+      <text>Indicated yeast strains expressing rbd2 or chromosomal Flag&#8208;tagged rbd2, rbd2&#8208;S130A, or rbd2&#8208;H182A were analyzed for Sre1 cleavage. Western blot was performed using anti&#8208;Sre1 or anti&#8208;Flag IgG of phosphatase&#8208;treated, whole&#8208;cell lysates from cells grown for 3&#160;h in the presence or absence of oxygen.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14823</offset>
+      <text>Indicated yeast strains expressing rbd2 or chromosomal Flag&#8208;tagged rbd2, rbd2&#8208;S130A, or rbd2&#8208;H182A were analyzed for Sre2 cleavage by Western blot probed with anti&#8208;Sre2 serum or anti&#8208;Flag IgG of phosphatase&#8208;treated, whole&#8208;cell lysates from cells grown in the presence of oxygen.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15116</offset>
+      <text>Sre1 cleavage assay was performed as in (C). G128V, A127D, and A186T mutant strains were obtained from our previous mutagenesis screening (Stewart et&#160;al, 2012). Dsc5 serves as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15312</offset>
+      <text>Sre2 cleavage assay for indicated yeast strains was performed as in (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15385</offset>
+      <text>A model substrate of Sre2 containing amino acids 423&#8211;793 (Sre2MS) with an N&#8208;terminal 3xFlag epitope tag was expressed on a plasmid under the control of a CaMV promoter in sre2&#916;, dsc1&#916;sre2&#916;, or rbd2&#916;sre2&#916; yeast strains. Whole&#8208;cell lysates from indicated yeast strains were analyzed by Western blot with anti&#8208;Flag antibody. Three independent isolates (A&#8211;C) are shown for each strain. Empty vector (EV) transformation serves as a negative control.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15850</offset>
+      <text>To test whether the catalytic dyad residues of Rbd2 (Ser130 and His182) are required for SREBP activation, we assayed Sre1 cleavage in rbd2&#8710; cells expressing chromosomally Flag&#8208;tagged rbd2, rbd2&#8208;S130A, or rbd2&#8208;H182A. Wild&#8208;type and Rbd2 mutants were expressed equivalently (Fig&#160;2C, bottom panel). While wild&#8208;type Rbd2 supported Sre1 cleavage, catalytically dead Rbd2 mutants did not (Fig&#160;2C, lanes 5&#8211;10), indicating Sre1 activation requires Rbd2 protease activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16330</offset>
+      <text>Next, we examined effects on activation of the second fission yeast SREBP, Sre2. In wild&#8208;type cells, Sre2 is constitutively cleaved in the presence of oxygen, and the majority of Sre2 exists as Sre2N (Fig&#160;2D, lane 1) (Stewart et&#160;al, 2011). Strikingly, neither the precursor nor the cleaved Sre2N form was observed in rbd2&#8710; cells (Fig&#160;2D, lane 3). Similar to Sre1, Sre2 activation was rescued in rbd2&#8710; cells by rbd2, but not by the rbd2&#8208;S130A or rbd2&#8208;H182A mutants (Fig&#160;2D, lanes 4&#8211;6). Again, the Sre2 precursor accumulated in dsc1&#8710; cells, but was not detected in the absence of functional Rbd2 (Fig&#160;2D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16953</offset>
+      <text>In parallel to our genetic interaction studies, we identified point mutations of rbd2 in a genetic selection to identify genes defective for Sre1 cleavage (Stewart et&#160;al, 2011). Briefly, each mutant that failed to activate an Sre1 reporter was tested for linkage to rbd2&#8710;, identifying three rbd2&#8208;linked mutants. DNA sequencing of rbd2 in these mutants revealed mutation of rbd2&#8208;A127D, rbd2&#8208;G128A, and rbd2&#8208;A186T. These mutations reside in keystones III and IV, which are key architectural motifs conserved in all rhomboid proteases (Fig&#160;1C, green residues) (Baker &amp; Urban, 2012). Indeed, these rbd2 mutants resembled rbd2&#8710; cells in Sre1 and Sre2 cleavage assays (Fig&#160;2E and F), confirming that these residues are required for SREBP activation and independently demonstrating that SREBP activation requires Rbd2 rhomboid function.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17798</offset>
+      <text>Finally, Rbd2 was required for processing of a truncated Sre2 model substrate (Sre2MS, aa 423&#8211;793), previously shown to be processed like endogenous Sre2 (Cheung &amp; Espenshade, 2013). Cleaved Sre2MS was not detected in rbd2&#8710; cells (Fig&#160;2G, lanes 10&#8211;12). Unlike endogenous Sre2, a small amount of uncleaved Sre2MS was retained in the rbd2&#8710; cells, possibly due to differences in expression. Uncleaved Sre2MS accumulated in dsc1&#8710; cells as expected (Fig&#160;2G, lanes 6&#8211;8) (Cheung &amp; Espenshade, 2013). Taken together, these results show that Rbd2 activity is required for fission yeast SREBP activation and that precursor forms of SREBP decrease in the absence of functional Rbd2, unlike in dsc1&#8710; cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18509</offset>
+      <text>SREBP precursor is degraded in a proteasome&#8208; and Dsc E3 ligase&#8208;dependent manner in the absence of rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18616</offset>
+      <text>Uncleaved SREBP precursor decreased in rbd2&#8710; cells, but not in wild&#8208;type or dsc1&#8710; cells (Fig&#160;2B&#8211;F). We next asked whether disappearance of the precursor was due to proteasomal degradation. To impair proteasome function, we used a temperature&#8208;sensitive allele of mts3 that codes for the 19S proteasome subunit Rpn12 (Gordon et&#160;al, 1996). In wild&#8208;type cells, the majority of Sre2 existed as Sre2N, and we observed loss of Sre2 in rbd2&#8710; cells (Fig&#160;3A, lanes 1&#8211;2). Inactivation of mts3 in wild&#8208;type cells resulted in accumulation of both Sre2P and Sre2N (Fig&#160;3A, lane 4). Importantly, inactivation of mts3 in rbd2&#8710; mts3&#8208;1 double mutant cells showed recovery of the Sre2P but not Sre2N (Fig&#160;3A, lane 3). Consistent with this result, treatment with the 20S proteasome inhibitor bortezomib (Bz) increased both Sre2P and Sre2N in wild&#8208;type cells, but only Sre2P accumulated in rbd2&#8710; cells (Fig&#160;3B). Finally, the Sre2MS precursor accumulated in rbd2&#8710; mutant cells upon Bz treatment, but the cleaved form did not (Fig&#160;3C, lanes 7&#8211;8). Bz treatment did not change the level of Sre2MS in dsc1&#8710; cells (Fig&#160;3C, lanes 5&#8211;6). Deletion of the ERAD E3 ligases hrd1 or doa10 did not rescue Sre2 levels (Fig&#160;EV1A), indicating that these ER&#8208;localized E3 ligases do not target Sre2 for degradation. Taken together, these data indicate that Sre2 precursor is degraded by the proteasome in the absence of Rbd2. Furthermore, proteasome inhibition revealed that Rbd2 initiates SREBP proteolytic processing, because under these conditions, conversion of Sre2 precursor to Sre2N requires Rbd2 (Fig&#160;3A, lanes 3&#8211;4 and Fig&#160;3B, lanes 4 and 6).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20275</offset>
+      <text>Uncleaved SREBP is degraded in a proteasome&#8208;dependent and Dsc E3 ligase&#8208;dependent manner in the absence of rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20391</offset>
+      <text>Wild&#8208;type (WT) and the indicated mutant strains were grown for 3&#160;h at the non&#8208;permissive temperature (36&#176;C) to inactivate Mts3. Phosphatase&#8208;treated, whole&#8208;cell lysates were analyzed by Western blot with anti&#8208;Sre2 serum and imaged using chemiluminescence. P and N denote Sre2 precursor and cleaved nuclear forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20729</offset>
+      <text>WT, rbd2&#916;, and sre2&#916; cells were treated with bortezomib (Bz) for 3&#160;h, and phosphatase&#8208;treated, whole&#8208;cell lysates were analyzed by Western blot with anti&#8208;Sre2 serum.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20904</offset>
+      <text>WT, dsc1&#916;, and rbd2&#916; cells carrying either empty vector (EV) or a plasmid expressing 3xFlag&#8208;Sre2MS (MS) were treated with bortezomib (Bz) for 3&#160;h. Whole&#8208;cell lysates were analyzed by Western blot with anti&#8208;Flag antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21134</offset>
+      <text>Whole&#8208;cell lysates from the indicated strains were analyzed by Western blot with anti&#8208;Sre2 serum.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21236</offset>
+      <text>Catalytically dead Dsc1 E3 ligase (dsc1&#8208;C634A) mutant and other indicated yeast strains were analyzed by Western blot probed with anti&#8208;Sre2 serum and imaged using chemiluminescence.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21422</offset>
+      <text>Sre1 and Sre2 precursor degradation requires dsc1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21472</offset>
+      <text>Western blot of phosphatase&#8208;treated, whole&#8208;cell lysates from indicated strains was probed with anti&#8208;Sre2 IgG. P and N denote Sre2 precursor and cleaved forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21651</offset>
+      <text>Western blot was probed with anti&#8208;Sre1 IgG of phosphatase&#8208;treated, whole&#8208;cell lysates from wild&#8208;type cells and the indicated mutants grown for 3&#160;h in the presence or absence of oxygen.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21845</offset>
+      <text>Proteasome inhibition did not increase Sre2MS in dsc1&#8710; cells (Fig&#160;3C, lanes 5&#8211;6), suggesting that the Golgi&#8208;localized Dsc E3 ligase may be required for SREBP degradation. Both the Dsc E3 ubiquitin ligase and Rbd2 are required for SREBP activation, and we performed epistasis tests to determine the order of action of these two pathway components. Sre2 decreased in rbd2&#8710; cells and the precursor accumulated in dsc1&#8710;&#8211;dsc4&#8710; cells (Fig&#160;3D, lanes 1&#8211;3, 5, 7, 9). Deletion of dsc1 in rbd2&#8710; cells restored Sre2 precursor levels to that of the single dsc1&#8710; mutant (Fig&#160;3D, compare lanes 3 and 4). Identical results were seen for deletion of dsc2&#8211;dsc4 (Fig&#160;3D, lanes 5&#8211;10). Likewise, Sre1 precursor disappeared under low oxygen in rbd2&#8710; cells, but was recovered in dsc1&#8710;rbd2&#8710; cells (Fig&#160;EV1B). Thus, the Dsc E3 ligase is required for proteasome&#8208;dependent degradation of SREBP in rbd2&#8710; cells, demonstrating that the Dsc E3 ligase acts prior to Rbd2 in the biochemical pathway to cleave SREBP. To test specifically whether Sre2 precursor degradation requires Dsc E3 ligase activity, we studied a previously characterized, catalytically dead mutant of Dsc1 with a mutation in the Dsc1 RING domain (dsc1&#8208;C634A) (Raychaudhuri &amp; Espenshade, 2015). As observed for the dsc1 deletion, mutation of the Dsc1 RING domain restored Sre2 precursor in rbd2&#8710; cells (Fig&#160;3E), showing that the Sre2 precursor degradation requires Dsc RING E3 ligase activity. Collectively, these results suggest that uncleaved SREBP is ubiquitinylated by the Dsc E3 ligase and degraded by the proteasome when Rbd2 function is impaired.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23481</offset>
+      <text>Rbd2 is an active rhomboid intramembrane protease</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23531</offset>
+      <text>We next used a heterologous assay with a panel of model rhomboid substrates to examine whether Rbd2 is able to catalyze intramembrane proteolysis directly. This assay relies on co&#8208;transfecting human HEK293T cells with a 3xHA&#8208;tagged rhomboid and a GFP&#8208;tagged substrate and using Western analysis to detect proteolysis. Although this approach has been used to study the protease activity of rhomboid proteases from bacteria, protozoa, plants, and animals, it has never been applied successfully to study yeast rhomboid activity. Transfecting cells with 3xHA&#8208;rbd2 resulted in low levels of protein expression (Fig&#160;4A, lane 2). To circumvent this obstacle, we recoded the entire rbd2 ORF to codon&#8208;optimize it for expression in human cells, and this resulted in &gt;&#160;35&#8208;fold higher expression of 3xHA&#8208;Rbd2 (Fig&#160;4A, lanes 2&#8211;3). Despite achieving this robust level of expression (higher than other rhomboid proteases that we used as positive controls), Rbd2 was completely unable to cleave either the Drosophila signaling molecule Spitz, which is a canonical rhomboid substrate, or Plasmodium EBA&#8208;175, which is an &#8220;atypical&#8221; substrate that is cleaved by many rhomboid proteases that are unable to cleave Spitz (Fig&#160;4B) (Urban &amp; Freeman, 2003; Baker et&#160;al, 2006; Baxt et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24830</offset>
+      <text>Rbd2 is an active rhomboid protease</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24866</offset>
+      <text>Human HEK293T cells were transfected with plasmids expressing different 3xHA&#8208;tagged rhomboid proteases: Schizosaccharomyces pombe rbd2, S.&#160;pombe rbd2 recoded for human expression, human RHBDL2, D.&#160;melanogaster Rho1, and P.&#160;falciparum ROM4. Whole&#8208;cell lysates were analyzed by Western blot to detect the HA&#8208;tagged rhomboid. Asterisks indicate loading control bands detected with antibody ab179726 (Abcam).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25280</offset>
+      <text>Human HEK293T cells were transfected with plasmids expressing the indicated rhomboid substrates and either recoded S.&#160;pombe rbd2, D.&#160;melanogaster Rho1, or P.&#160;falciparum ROM4. Conditioned media and cell lysates were analyzed by Western blot. P and C denote precursor and cleaved products, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25585</offset>
+      <text>Human HEK293T cells were transfected with plasmids expressing the GFP&#8208;TatA&#8208;Flag substrate and the indicated rhomboid proteases. Whole&#8208;cell lysates were analyzed by Western blot. P, CN, CC denote precursor, N&#8208;terminal cleaved, and C&#8208;terminal cleaved products, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25868</offset>
+      <text>Human HEK293T cells were transfected with plasmids expressing the indicated GFP&#8208;TatA&#8208;Flag substrates and in the absence or presence of recoded S.&#160;pombe rbd2. Whole&#8208;cell lysates were analyzed by Western blot.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26083</offset>
+      <text>Human HEK293T cells were transfected with plasmids expressing the indicated GFP&#8208;TatA&#8208;Flag substrates and different rhomboid proteases. Whole&#8208;cell lysates were analyzed by Western blot.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26274</offset>
+      <text>Human HEK293T cells were transfected with plasmids expressing the GFP&#8208;TatA (A8L)&#8208;Flag and recoded S.&#160;pombe rbd2. C&#8208;terminal cleavage products were purified using anti&#8208;Flag antibodies, and purified protein was analyzed by mass spectrometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26523</offset>
+      <text>We therefore next examined cleavage of a third substrate, TatA from the bacterium Providencia stuartii, which is perhaps the most efficient rhomboid substrate known (Moin &amp; Urban, 2012). Co&#8208;transfecting rbd2 resulted in consistent but weak TatA cleavage (Fig&#160;4C, lane 4). To ensure that this was proteolysis, we tagged both termini of TatA and followed processing by Rbd2 or the human rhomboid protease RHBDL2 as a positive control. In each case, we detected both proteolytic fragments, and TatA proteolysis required the predicted catalytic histidine of Rbd2 (Fig&#160;4C, lanes 4&#8211;5).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27109</offset>
+      <text>We next examined the substrate requirements for Rbd2 processing of TatA. Rhomboid proteases require helix&#8208;destabilizing residues in the substrate transmembrane segment, and mutating these residues of TatA (GSP, aa 11&#8211;13) to VVL abolished processing by Rbd2 (Fig&#160;4D). All rhomboid proteases studied to date cleave after small residues (glycine, alanine, serine) (Urban, 2010), and all rhomboid proteases tested cleave TatA after A8 (Strisovsky et&#160;al, 2009). We therefore tested the ability of Rbd2 to cleave TatA harboring the A8L mutant. To our surprise, we found that Rbd2 cleaved the A8L mutant substrate four&#8208;fold more efficiently than wild&#8208;type TatA (Fig&#160;4E, lanes 2&#8211;3). However, this mutation nearly abolished processing by other rhomboid proteases (Fig&#160;4E, lanes 4&#8211;7). Rhomboid proteases typically have only limited sequence dependence, and thus, mutations can increase proteolysis by shifting the site of cleavage to a new location. To examine whether the A8L mutant was truly being cleaved after a large hydrophobic residue, we immunopurified the C&#8208;terminal cleavage product and determined its size by mass spectrometry (Fig&#160;4F). The predominant cleavage of the TatA A8L mutant was indeed after the leucine at position 8. Interestingly, we discovered a second, minor cleavage site (~20%) after F10, two residues deeper into the TatA transmembrane segment. Notably, this cleavage also occurred between a large and small residue, namely a naturally occurring phenylalanine and glycine. As such, Rbd2 is an active rhomboid intramembrane protease that can cleave after large hydrophobic residues. This unique property has not been observed for any rhomboid protease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28799</offset>
+      <text>Rbd2 cleavage requires Lys743 in Sre2 luminal loop</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28850</offset>
+      <text>Rhomboid proteases cleave type&#8208;I transmembrane substrates (Urban &amp; Freeman, 2003; Ha, 2009) and consistent with this Rbd2 cleaved TatA within its transmembrane segment toward its N&#8208;terminus (Fig&#160;4F). We next asked whether this unique substrate sequence preference was also observed for SREBP. Heterologous Rbd2 cleavage assays using multiple S.&#160;pombe SREBP substrate variants failed, possibly due to the lack of Dsc E3 ligase machinery in HEK293 cells. To test directly the requirement for large hydrophobic residues, we assayed cleavage of alanine&#8208;substitution mutants in the N&#8208;terminus of the second predicted transmembrane segment of Sre2 (aa 748&#8211;754) (Fig&#160;5A). Processing of each mutant (I748A/Y749A, L750A, F752A, L754A) was normal in wild&#8208;type cells and required both rbd2 and dsc1 (Fig&#160;5B and Appendix&#160;Fig S1A), indicating that Sre2MS cleavage does not require these individual large hydrophobic residues. However, we cannot exclude the possibility that one or several of these mutations block cleavage at the wild&#8208;type site but induce a compensating shift in cleavage site, as has been observed in other rhomboid substrates (Strisovsky et&#160;al, 2009; Moin &amp; Urban, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30048</offset>
+      <text>Rbd2 cleavage requires Lys 743</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30079</offset>
+      <text>Diagram&#160;of Sre2MS substrate (aa 423&#8211;793). The enlarged model shows predicted positions of TM1 and TM2 denoting the 26 amino acids tested for mutagenesis by colored squares. Numbers indicate the number of amino acid residues. Mutants showing a block in cleavage due to defects in Dsc1 function are indicated in orange, Rbd2 function in pink, a combination of defects in Dsc1 and Rbd2 in blue (intermediate), and residues showing normal cleavage are indicated in gray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30549</offset>
+      <text>Whole&#8208;cell lysates from WT, rbd2&#916;, and dsc1&#916; cells carrying a plasmid expressing 3xFlag&#8208;Sre2MS WT or indicated mutants were analyzed by Western blot with anti&#8208;Flag antibody. P and N denote Sre2MS precursor and cleaved forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30796</offset>
+      <text>Model outlining the predicted fate of Sre2MS in different yeast strains. U denotes either mono&#8208;ubiquitin or poly&#8208;ubiquitin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30924</offset>
+      <text>Whole&#8208;cell lysates from WT, rbd2&#916;, and dsc1&#916; cells carrying a plasmid expressing 3xFlag&#8208;Sre2MS WT or indicated mutants were analyzed by Western blot with anti&#8208;Flag antibody. P and N denote Sre2MS precursor and cleaved forms, respectively. Asterisks indicate non&#8208;specific, loading control bands, which were used to normalize the intensities of P and N in (F). Two independent isolates, A and B, are shown for each strain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31355</offset>
+      <text>Intensities of individual P and N bands from Western blots were quantified using LI&#8208;COR software. Relative intensity of P and N to corresponding non&#8208;specific band (asterisk) in each lane was normalized to that of P level in isolate A of WT strain for each mutagenesis. The ratio of N to P or relative P level was presented in bar graphs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31697</offset>
+      <text>The average ratio of N to P level for different Sre2MS mutants in wild&#8208;type cells (Appendix&#160;Fig S2) was plotted. Cleavage was scored as normal if the ratio was &gt;&#160;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31866</offset>
+      <text>For Sre2MS mutants showing defects in cleavage, the average fold&#8208;increase in P level in dsc1&#916; cells compared to WT cells from two isolates (Appendix&#160;Fig S2) was plotted. Mutants were grouped into three phenotypic classes (intermediate, dsc1&#916;, and rbd2&#8710;) according to observed precursor accumulation. Precursor accumulation was defined as dsc1&#916; if &lt;&#160;1.5 (orange), rbd2&#916; if &gt;&#160;3 (pink), and intermediate if in between (blue).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32305</offset>
+      <text>To identify residues important for proteolytic cleavage, we tested 19 additional Sre2MS mutants. We quantified cleavage of each mutant in three different backgrounds: wild type, rbd2&#916;, and dsc1&#916; (Fig&#160;5C). Sre2MS precursor (P) was processed to a cleaved product (N) in wild&#8208;type cells (Fig&#160;5D, lanes 1&#8211;2), and the average N/P ratio was 4&#8211;5 (Fig&#160;5F). Unlike for endogenous Sre2 (Fig&#160;2D), we consistently observed unprocessed Sre2MS precursor in wild&#8208;type cells, likely due to higher protein expression. In rbd2&#916; cells, Sre2MS precursor was not cleaved to the N form (Fig&#160;5D, lanes 3&#8211;4), and the precursor did not accumulate due to Dsc&#8208;dependent proteasomal degradation (Fig&#160;5C). In contrast in dsc1&#916; cells, Sre2MS precursor accumulated ~4.5&#8208;fold compared to wild&#8208;type cells (Fig&#160;5D and F), because it is neither cleaved nor degraded due to lack of Dsc E3 ligase function (Fig&#160;5C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33212</offset>
+      <text>Overall, we observed cleavage defects for 13 of the 19 mutants tested (Fig&#160;5G and Appendix&#160;Figs S1 and S2). Since Sre2MS precursor has different fates in rbd2&#916; and dsc1&#916; cells (Fig&#160;5C), quantification of mutant Sre2MS precursor levels allowed assignment of the step defective in processing to either Dsc&#8208;dependent ubiquitinylation or Rbd2 cleavage. If a Sre2MS mutant is not cleaved due to a failure in Dsc1 ubiquitinylation, we expect that the Sre2MS precursor will not accumulate further in dsc1&#916; cells and that the dsc1&#916;/wild&#8208;type ratio will equal 1, as seen for the R753L and E755L mutants (Fig&#160;5E and F). In contrast, if mutant Sre2MS precursor is ubiquitinylated by the Dsc E3 ligase but defective for Rbd2 cleavage, we expect the precursor to accumulate in dsc1&#916; cells compared to wild&#8208;type cells, as seen for the K743R mutant (Fig&#160;5D, lanes 7&#8211;12). To categorize the mutants, we plotted the ratio of Sre2MS precursor in dsc1&#916;/wild&#8208;type cells (Fig&#160;5F and H, and Appendix&#160;Fig S2). Many amino acid residues appeared to be required for Dsc E3 activity (Fig&#160;5A and H, orange) or for both Dsc and Rbd2 activity (Fig&#160;5A and H, blue). No transmembrane residues were specifically required for Rbd2 activity, but mutation of lysine 743 in the luminal loop to arginine prevented Rbd2&#8208;mediated cleavage (Fig&#160;5A and H, pink). It is not clear whether the lysine is essential for substrate recognition or whether introducing arginine at position 743 interferes with cleavage. This extended mutagenesis study demonstrates that Sre2MS cleavage does not require large hydrophobic residues in the second transmembrane segment, but identifies a luminal lysine residue required for cleavage.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34918</offset>
+      <text>Rbd2 binds Cdc48 through the C&#8208;terminal SHP box</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34968</offset>
+      <text>Bioinformatic analysis identified a putative Cdc48&#8208;interaction motif called a SHP box in the cytosolic C&#8208;terminus of Rbd2 (Fig&#160;1D) (Sato &amp; Hampton, 2006). SHP box motifs are present in Cdc48/p97 cofactors such as mammalian UFD1, p47, and yeast Dfm1 (Fig&#160;6A). To test whether Rbd2 binds Cdc48, the Rbd2 C&#8208;terminus (aa 200&#8211;251) fused to GST was affinity purified from bacterial lysates and mixed with S.&#160;pombe cytosol. After washing, the bound fraction was analyzed for the presence of Cdc48 (Fig&#160;6B). GST&#8208;Rbd2 (aa 200&#8211;251) bound Cdc48 to the same extent as the Dsc5 UBX domain, which is a known Cdc48&#8208;binding domain (Fig&#160;6B, compare lanes 8 and 10) (Stewart et&#160;al, 2012). Dsc2 UBA domain served as a negative control that binds ubiquitin but not Cdc48 (Fig&#160;6B, compare lanes 9&#8211;10) (Lloyd et&#160;al, 2013). Truncations of GST&#8208;Rbd2 that lacked the SHP box (Rbd2200&#8211;225 or Rbd2200&#8211;240) failed to bind Cdc48, while a truncation containing the SHP box (Rbd2225&#8211;251) bounds Cdc48 (Fig&#160;6C). Mutational analysis of the Rbd2 SHP box demonstrated that at least two conserved residues, G244 and G246, are critical for Cdc48 binding (Fig&#160;6D). These in&#160;vitro experiments established that the Rbd2 C&#8208;terminal SHP box binds Cdc48.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36216</offset>
+      <text>Rbd2 binds Cdc48 through a C&#8208;terminal SHP box</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36264</offset>
+      <text>Alignment of SHP box sequences from human UFD1, human p47, S.&#160;cerevisiae Dfm1, and Schizosaccharomyces pombe Rbd2 C&#8208;terminal SHP box (aa 242&#8211;251). Asterisks denote residues identical in all sequences, colons mark conservative substitutions, and dots mark semi&#8208;conservative substitutions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36559</offset>
+      <text>Recombinant proteins GST&#8208;fused Rbd2 C&#8208;terminus (Rbd2200&#8211;251), Dsc5 UBX (Dsc5323&#8211;425), Dsc2 UBA (Dsc2298&#8211;372), and GST&#8208;HA&#8208;V5 control were bound to GST magnetic beads and incubated with S.&#160;pombe cytosol fraction from wild&#8208;type cells. Equivalent amounts of unbound and bound fractions were probed for anti&#8208;Cdc48, anti&#8208;ubiquitin, and anti&#8208;GST IgG.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36926</offset>
+      <text>GST pull&#8208;down assay was performed as in (B) using truncated forms of Rbd2 C&#8208;terminus; Rbd2200&#8211;251, Rbd2200&#8211;225, Rbd2225&#8211;251, and Rbd2200&#8211;240. Unbound (1&#215;) and bound (5&#215;) fractions were analyzed by Western blotting</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37154</offset>
+      <text>Single residue mutants of conserved glycine residues in Rbd2200&#8211;251 (G244R and G246R) were tested for Cdc48 binding as in (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37283</offset>
+      <text>Data information: Western blots (B&#8211;D) were images using chemiluminescence.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37360</offset>
+      <text>APEX2 system detects Rbd2&#8211;Cdc48 interaction in cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37415</offset>
+      <text>To test whether Rbd2 and Cdc48 interact in cells, we performed an immunoprecipitation experiment. Flag&#8208;Rbd2 immunoprecipitated endogenous Cdc48 from yeast cells, while mutation of the SHP box (Rbd2&#8208;G246R) decreased Cdc48 binding (Fig&#160;7A, lanes 4&#8211;6). As an independent confirmation of this interaction, we employed the APEX2 system (Rhee et&#160;al, 2013; Hung et&#160;al, 2016). Briefly, APEX2 is an engineered ascorbate peroxidase that generates biotin&#8208;phenoxyl radicals upon addition of biotin&#8208;phenol and hydrogen peroxide (H2O2), resulting in covalent biotinylation of binding partners within a small radius (&lt;&#160;20&#160;nm) (Fig&#160;7B). After cell lysis, proteins labeled with biotin can be isolated with streptavidin beads for identification. We recently optimized the APEX2 system in yeast (Hwang &amp; Espenshade, 2016). To label proximal and interacting proteins of Rbd2 using APEX2 technology, we fused Flag&#8208;APEX2 to the C&#8208;terminus of Rbd2 and overexpressed the fusion protein from a plasmid in rbd2&#8710; cells. Rbd2&#8208;Flag&#8208;APEX2 supported Sre1 cleavage demonstrating that the fusion protein was functional (Fig&#160;EV2A). Wild&#8208;type cells or rbd2&#8710; cells expressing Rbd2&#8208;Flag&#8208;APEX2 or Rbd2&#8208;G246R&#8208;Flag&#8208;APEX2 were subjected to biotin&#8208;phenol labeling for 1&#160;min, biotinylated proteins were recovered using streptavidin beads, and bound proteins were visualized by Western blotting. Compared to wild&#8208;type cells which contain multiple naturally biotinylated proteins, cells expressing Rbd2&#8208;Flag&#8208;APEX2 and G246R&#8208;Flag&#8208;APEX2 had additional labeled proteins (Fig&#160;7C, lanes 2&#8211;3 and 5&#8211;6) (Koffas et&#160;al, 1998). Western blotting of these samples revealed that Cdc48 was specifically labeled in Rbd2&#8208;Flag&#8208;APEX2 cells (Fig&#160;7C, bottom panels). Mutation of the SHP box prevented labeling of Cdc48, confirming that the SHP box mediates Rbd2 binding to Cdc48. In contrast, the catalytically inactive Rbd2&#8208;S130A mutant still bounds Cdc48 (Fig&#160;EV2B). Collectively, these in&#160;vitro and in&#160;vivo experiments demonstrate that the SHP box mediates Cdc48 binding to Rbd2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>39502</offset>
+      <text>APEX2 system detects Rbd2&#8211;Cdc48 binding in cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39553</offset>
+      <text>Detergent&#8208;solubilized yeast extracts from cells containing chromosomal Flag&#8208;tagged rbd2 or rbd2&#8208;G246R in rbd2&#916; background were prepared, and proteins associated with Rbd2&#8208;Flag were immunopurified using anti&#8208;Flag magnetic beads. Equal amount of total proteins (lanes 1&#8211;3) along with 25&#215; bound fractions (lanes 4&#8211;6) were analyzed by Western blot with anti&#8208;Cdc48 serum and anti&#8208;Flag IgG.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39958</offset>
+      <text>Illustration outlining APEX2&#8208;catalyzed biotin&#8208;phenol labeling. An Rbd2&#8208;Flag&#8208;APEX fusion protein oxidizes biotin&#8208;phenol to biotin&#8208;phenoxyl radical that covalently labels binding partners.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40157</offset>
+      <text>Biotin&#8208;phenol labeling was performed for 1&#160;min with H2O2 treatment as described in Materials and Methods. WT cells or rbd2&#916; cells carrying rbd2&#8208;Flag&#8208;APEX2 (rbd2&#8208;F&#8208;AX) or rbd2&#8208;G246R&#8208;Flag&#8208;APEX2 (G246R&#8208;F&#8208;AX) plasmid were lysed after biotin&#8208;labeling reaction, and proteins were denatured by heating the cells in lysis buffer containing 1% SDS. Biotinylated proteins were then enriched using streptavidin magnetic beads. Lysates and 50&#215;&#8208;enriched eluates were analyzed by Western blot with IRDye 800CW Streptavidin, anti&#8208;Cdc48 serum, or anti&#8208;Flag IgG.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40734</offset>
+      <text>Rbd2 catalytic dead mutant binds Cdc48</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40773</offset>
+      <text>WT, rbd2&#916;, or two isolates (A and B) of yeast expressing rbd2&#8208;Flag&#8208;APEX2 under control of the constitutive adh1+ promoter in rbd2&#916; background were assayed for Sre1 cleavage. Western blot was probed with anti&#8208;Sre1 IgG of whole&#8208;cell lysates from the indicated strains grown for 3&#160;h in the presence or absence of oxygen. P and N denote Sre1 precursor and cleaved forms, respectively. Note that whole&#8208;cell lysates were not treated with phosphatase, and multiple bands of Sre1N represent phosphorylated forms.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41291</offset>
+      <text>rbd2&#916; cells expressing rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;G246R&#8208;Flag&#8208;APEX2, or rbd2&#8208;S130A&#8208;Flag&#8208;APEX2 from a plasmid were lysed after biotin&#8208;labeling reaction, and proteins were denatured by heating the cells in a lysis buffer containing 1% SDS. Biotinylated proteins were then enriched using streptavidin magnetic beads. Lysates and 20&#215;&#8208;enriched eluates were analyzed by Western blot with IRDye 800CW Streptavidin, anti&#8208;Cdc48 serum, and anti&#8208;Flag IgG.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41756</offset>
+      <text>SREBP activation requires Rbd2 binding to Cdc48</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41804</offset>
+      <text>To test whether SREBP activation requires Cdc48 binding to Rbd2, we used four different assays with both Rbd2 SHP box mutants (G244R and G246R): (i) growth on medium containing the hypoxia mimetic CoCl2 (Fig&#160;8A), (ii) Sre1 cleavage assay in the absence of oxygen (Fig&#160;8B), (iii) Sre2 cleavage assay (Fig&#160;8C), and (iv) Sre2MS cleavage assay (Fig&#160;8D). rbd2&#8208;G244R cells exhibited slow growth on CoCl2, reduced Sre1 cleavage, and decreased Sre2N, consistent with partial loss of Rbd2 function. rbd2&#8208;G246R cells showed more severe defects and phenocopied the catalytic mutant Rbd2&#8208;S130A, demonstrating that SREBP activation requires a functional SHP box.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>42464</offset>
+      <text>SREBP activation requires Cdc48 binding to Rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42512</offset>
+      <text>Yeast strains (200 cells) containing chromosomal Flag&#8208;tagged rbd2, rbd2&#8208;G244R, rbd2&#8208;G246R or rbd2&#8208;S130A in rbd2&#916; background, and sre1&#916; yeast were grown on rich medium in the absence or presence of cobalt chloride (CoCl2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42744</offset>
+      <text>Western blot of phosphatase&#8208;treated, whole&#8208;cell lysates from strains in (A) grown for 3&#160;h in the presence or absence of oxygen was probed with anti&#8208;Sre1 or anti&#8208;Flag IgG. P and N denote Sre1 precursor and cleaved nuclear forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42995</offset>
+      <text>Sre2 cleavage was assayed by Western blot using anti&#8208;Sre2 serum or anti&#8208;Flag IgG of phosphatase&#8208;treated, whole&#8208;cell lysates from the indicated strains. N denotes Sre2 cleaved nuclear form.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43192</offset>
+      <text>Whole&#8208;cell lysates from indicated yeast strains carrying a plasmid expressing 3xFlag&#8208;Sre2MS were analyzed by Western blot with anti&#8208;Flag antibody. Two independent isolates, A and B, are shown for each strain. Asterisk denotes non&#8208;specific band.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43445</offset>
+      <text>Diagram&#160;of four Rbd2 chimeras fused to the SHP box from Schizosaccharomyces pombe Der1&#8208;like protein (SPBC365.08c). The SHP boxes of Rbd2 and Der1&#8208;like protein are shaded red and green, respectively. Asterisks denote point mutation in the SHP box.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43697</offset>
+      <text>Yeast strains containing Flag&#8208;tagged rbd2&#8208;SHP, rbd2&#8208;SHP*, rbd2&#8208;G246R&#8208;SHP, and rbd2&#8208;G246R&#8208;SHP* were generated in rbd2&#916; background by chromosomal integration of the rbd2 fusion proteins depicted in (E). Indicated yeast strains were then assayed for Sre1 cleavage as in (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43984</offset>
+      <text>Indicated strains were assayed for Sre2 cleavage as in (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44044</offset>
+      <text>Wild type, sre2&#916;, or strains containing chromosomal Flag&#8208;tagged rbd2, rbd2&#8208;G246R, or rbd2&#8208;S130S in rbd2&#916; background (lane 7&#8211;12) were treated with bortezomib (Bz) for 2&#160;h, and phosphatase&#8208;treated, whole&#8208;cell lysates were analyzed by Western blot with anti&#8208;Sre2 serum or anti&#8208;Flag IgG.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44347</offset>
+      <text>We reasoned that if the Rbd2 SHP box functions to recruit Cdc48, we might restore SREBP cleavage by appending a heterologous SHP box to the Rbd2&#8208;G246R mutant. Fusion of a SHP box from the fission yeast Der1&#8208;like protein (SPBC365.08c) to the C&#8208;terminus of Rbd2&#8208;G246R restored its ability to produce Sre1N to wild&#8208;type levels (Fig&#160;8E, G246R&#8208;SHP; Fig&#160;8F, compare lanes 5&#8211;6 to 11&#8211;12). In contrast, fusion of a mutant Der1&#8208;like SHP box at the equivalent position (G246R&#8208;SHP*) failed to rescue Sre1 cleavage (Fig&#160;8F, lanes 13&#8211;14). Parallel results were obtained in Sre2 cleavage assays (Fig&#160;8G). Furthermore, fusion of the non&#8208;homologous Dsc5 UBX domain that recruits Cdc48 to the Dsc E3 ligase partially rescued Sre1 cleavage (Fig&#160;EV3) (Stewart et&#160;al, 2012). Thus, SREBP cleavage requires Cdc48 recruitment to Rbd2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>45188</offset>
+      <text>Fusion of UBX domain to Rbd2&#8208;G246R partially rescues Sre1 cleavage</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45257</offset>
+      <text>Yeast strains containing Flag&#8208;tagged rbd2&#8208;UBX and rbd2&#8208;G246R&#8208;UBX (diagrammed) were generated in rbd2&#916; background by chromosomal integration. Whole&#8208;cell lysates from indicated strains expressing Flag&#8208;tagged Rbd2 variants grown for 3&#160;h in the presence or absence of oxygen were analyzed by Western blotting with anti&#8208;Sre1 or anti&#8208;Flag IgG.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45613</offset>
+      <text>rbd2&#8208;G246R cells failed to generate a detectable SREBP cleavage product despite the presence of an intact catalytic dyad (Fig&#160;8B and D). The inability to detect a cleavage product could be due to a failure to cleave SREBP, or alternatively, a cleaved product may be degraded when Rbd2 fails to recruit Cdc48. To discriminate between these two possibilities, we treated cells with a proteasome inhibitor and examined Sre2 cleavage. As expected, proteasome inhibition resulted in the accumulation of uncleaved Sre2 precursor in both rbd2&#8710; and rbd2&#8208;S130A cells (Fig&#160;8H, lanes 5&#8211;6 and 11&#8211;12). rbd2&#8208;G246R cells also accumulated Sre2 precursor, but not a cleaved product, indicating that Cdc48 binding to Rbd2 is required for SREBP cleavage (Fig&#160;8H, lanes 9&#8211;10). Thus, the function of Cdc48 is distinct from that shown for p97 with RHBDL4 where p97 acts after cleavage (Fleig et&#160;al, 2012). Taken together, these results demonstrate a new function for Cdc48 in mediating Rbd2&#8208;dependent cleavage of yeast SREBPs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46638</offset>
+      <text>Cdc48 acts as a substrate adaptor for Rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46681</offset>
+      <text>Rhomboid proteases exhibit weak binding affinity for substrates (Dickey et&#160;al, 2013). Given that Cdc48 cofactors bind ubiquitin (Stolz et&#160;al, 2011), we hypothesized that Cdc48 plays a role in SREBP recognition by recruiting SREBP substrate to Rbd2 through cofactor binding. If this was true, we reasoned that increasing the concentration of Cdc48&#8208;binding defective Rbd2 enzyme would bypass the requirement for Cdc48. To test our hypothesis, we performed Sre1 cleavage analysis in yeast cells expressing rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;G246R&#8208;Flag&#8208;APEX2, or rbd2&#8208;S130A&#8208;Flag&#8208;APEX2 under control of the constitutive adh1+ promoter in rbd2&#916; cells. Indeed, overexpression of rbd2&#8208;G246R fully restored Sre1 cleavage, while overexpression of catalytically dead rbd2&#8208;S130A did not (Fig&#160;9A). In addition, Sre1 precursor levels increased with time in rbd2&#8208;G246R overexpressing cells, indicating that cleaved Sre1N was transcriptionally active and promoted sre1 transcription through a well&#8208;characterized positive feedback loop (Todd et&#160;al, 2006). Consistent with the Western blot results, rbd2&#8208;G246R overexpression rescued growth of rbd2&#916; cells on CoCl2 while rbd2&#8208;S130A did not (Fig&#160;9B). Compared to rbd2&#8208;Flag expressed from its endogenous promoter, we observed ~14&#8208;fold higher expression of rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;G246R&#8208;Flag&#8208;APEX2, and rbd2&#8208;S130A&#8208;Flag&#8208;APEX2 using the adh1+ promoter (Fig&#160;9C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>48112</offset>
+      <text>Overexpression of Rbd2 bypasses requirement for Cdc48 binding to Rbd2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48182</offset>
+      <text>Western blot of phosphatase&#8208;treated, whole&#8208;cell lysates from yeast strains carrying rbd2&#8208;Flag&#8208;APEX2 (rbd2&#8208;F), rbd2&#8208;G246R&#8208;Flag&#8208;APEX2 (G246R), or rbd2&#8208;S130A&#8208;Flag&#8208;APEX2 (S130A) plasmid in rbd2&#916; background and sre1&#916; yeast was probed with anti&#8208;Sre1 or anti&#8208;Flag IgG. P and N denote Sre1 precursor and cleaved nuclear forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48543</offset>
+      <text>Indicated yeast strains (200 cells) containing chromosomal Flag&#8208;tagged rbd2, rbd2&#8208;G246R, or rbd2&#8208;S130A in rbd2&#916; background (lane 3&#8211;5) or yeast strains (200 cells) carrying rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;G246R&#8208;Flag&#8208;APEX2, or rbd2&#8208;S130A&#8208;Flag&#8208;APEX2 plasmid in rbd2&#916; background (lane 6&#8211;8) were grown on rich medium in the absence or presence of cobalt chloride (CoCl2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48928</offset>
+      <text>Comparison of Rbd2 protein levels from overexpression system to endogenous expression. Western blot of whole&#8208;cell lysates from yeast strains containing chromosomal Flag&#8208;tagged rbd2, rbd2&#8208;G246R, or rbd2&#8208;S130A in rbd2&#916; background and yeast strains carrying rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;G246R&#8208;Flag&#8208;APEX2, or rbd2&#8208;S130A&#8208;Flag&#8208;APEX2 plasmid in rbd2&#916; background was probed with anti&#8208;Flag IgG. For quantification, the intensity of Flag band in each lane was normalized to the non&#8208;specific band (asterisk).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49449</offset>
+      <text>rbd2&#916; cells expressing indicated plasmids of GFP&#8208;Anp1 or GFP&#8208;Sre2MS together with rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;S130A&#8208;Flag&#8208;APEX2, or rbd2&#8208;S130A/G246R&#8208;Flag&#8208;APEX2 were treated with Bz at a concentration of 1&#160;mM for 2&#160;h prior to biotin&#8208;labeling reaction. After labeling termination, cells were lysed and denatured as described in Materials and Methods. Biotinylated proteins were then enriched using streptavidin magnetic beads. Lysates (1&#215; input) and 100&#215;&#8208;enriched eluates were analyzed by Western blot with IRDye 800CW Streptavidin, anti&#8208;Flag IgG, anti&#8208;Cdc48 serum, and anti&#8208;GFP IgG. Intensity of GFP band in enriched sample was normalized to that in the corresponding input sample, then normalized to the Flag intensity in enriched sample. Relative intensities of biotinylated GFP level are shown in bar graph. Error bars denote standard deviation from three biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50358</offset>
+      <text>Lastly using the proximity biotinylation technique, we tested whether Rbd2 and SREBP interact using catalytically dead Rbd2 to capture substrate&#8208;enzyme binding. Proximity biotinylation experiments using endogenous expression of Rbd2&#8208;APEX2 failed to detect an interaction with the known binding partner Cdc48, so we overexpressed Rbd2 fusion proteins using the adh1+ promoter. Rbd2&#8208;S130A&#8208;APEX2 labeled both Cdc48 and GFP&#8208;Sre2MS (Fig&#160;9D, lane 5). Sre2 labeling by Rbd2&#8208;S130A&#8208;APEX2 was specific insomuch as we observed 10&#8208;fold lower labeling of the Golgi mannosyltransferase Anp1 (Fig&#160;9D, lane 4). Consistent with the ability of overexpressed Rbd2&#8208;G246R to support SREBP cleavage, we detected equal labeling of GFP&#8208;Sre2MS in cells overexpressing Rbd2&#8208;S130A/G246R&#8208;APEX2 (Fig&#160;9D, lanes 5&#8211;6). As expected, Rbd2&#8208;S130A/G246R&#8208;APEX2 showed reduced Cdc48 labeling (Fig&#160;9D, lane 6). Collectively, these results demonstrate that increasing the concentration of Rbd2 enzyme bypasses the requirement of Cdc48 binding for Sre1 cleavage, defining a role for Cdc48 in substrate recruitment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>51465</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51476</offset>
+      <text>Rbd2 is the first SREBP protease identified in fission yeast (Kim et&#160;al, 2015). Using genetic interaction mapping, we independently identified Rbd2 as a Golgi&#8208;localized rhomboid protease required for proteolytic activation of yeast SREBPs. Deleting rbd2 or mutating its catalytic residues prevented cleavage of both Sre1 and Sre2 (Figs&#160;2 and 3). Our mammalian cell&#8208;based, rhomboid cleavage assays using heterologous substrates showed that Rbd2 is a bona fide rhomboid protease with a conserved, Ser&#8208;His catalytic dyad (Fig&#160;4). Notably, Rbd2 showed novel substrate specificity: Rbd2 cleaved neither the canonical D.&#160;melanogaster substrate Spitz nor an alterative P.&#160;falciparum substrate EBA175, but cleaved P.&#160;stuartii TatA, the most efficient rhomboid substrate (Strisovsky et&#160;al, 2009; Moin &amp; Urban, 2012). To date, characterized rhomboid proteases cleave substrates in the membrane after residues with small side chains (Strisovsky et&#160;al, 2009; Urban, 2010). Although Rbd2 cleavage of TatA required substrate helix&#8208;destabilizing residues, Rbd2 preferentially cleaved TatA substrates after large hydrophobic side chains (Leu and Phe) (Fig&#160;4F), revealing a unique property not observed for any other rhomboid protease.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52712</offset>
+      <text>Mammalian SREBPs are activated by regulated intramembrane proteolysis (Brown et&#160;al, 2000). The serine protease S1P cleaves SREBP in the luminal loop to produce a type&#8208;II (Nin&#8208;Cout), single transmembrane intermediate that is subsequently cleaved in the membrane by the zinc metalloprotease S2P. Rhomboid proteases preferentially cleave transmembrane substrates with a type&#8208;I (Nout&#8208;Cin) orientation (Urban &amp; Freeman, 2003; Ha, 2009). Despite the sequence requirements observed for Rbd2 in TatA cleavage, mutation of any single large hydrophobic residue in the N&#8208;terminal end of TM2 did not block Sre2MS cleavage (Fig&#160;5B). However, the inability to map the Sre2MS cleavage site(s) prevented us from determining whether the mutants support cleavage by the shifting cleavage site to other large, hydrophobic residues. Such cleavage site shifts in substrate mutants are common (Strisovsky et&#160;al, 2009; Moin &amp; Urban, 2012). Our previous mutagenesis studies showed that Sre2MS cleavage required multiple residues in its type&#8208;I oriented TM2, while we found no essential residues in the type&#8208;II oriented TM1 (Cheung &amp; Espenshade, 2013). Here, we assigned functions for these residues to either Dsc E3 ligase activity or Rbd2 cleavage. Lysine 743 in the luminal loop was the only residue required for Rbd2&#8208;mediated Sre2MS cleavage, while others were involved in Dsc E3 ligase function (Fig&#160;5 and Appendix&#160;Figs S1 and S2). Precisely how this luminal lysine residue in Sre2 promotes cleavage remains to be determined.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54238</offset>
+      <text>Should Rbd2 cleave SREBP between the transmembrane segments, it would functionally replace S1P by initiating SREBP activation and yield a type&#8208;II intermediate requiring additional processing. Importantly, the active Sre1N and Sre2N terminate at a cytosolic position, ~10 amino acids prior to TM1 (Stewart et&#160;al, 2011; Cheung &amp; Espenshade, 2013). These observations suggest that SREBP activation requires a second protease. We previously proposed that SREBP activation required the proteasome (Stewart et&#160;al, 2011), but results presented in this study suggest otherwise. In the earlier study, we used a temperature&#8208;sensitive mutation in mts3 to impair 19S proteasome function, and we observed decreased levels of Sre1N under low oxygen (Stewart et&#160;al, 2011). However, in that experiment, mts3&#8208;1 cells required a 3&#8208;h preincubation at non&#8208;permissive temperature, and Sre1 precursor levels also decreased during the course of this experiment, suggesting that proteasome inactivation had indirect effects on SREBP cleavage. In the current study, we observed that cleavage of Sre2 was not inhibited in mts3&#8208;1 cells grown for three hours at the non&#8208;permissive temperature (Fig&#160;3A). Furthermore, acute proteasome inhibition with bortezomib did not block Sre2 processing (Fig&#160;3B). Collectively, these data suggest that an undiscovered protease, rather than the proteasome, functions in SREBP proteolytic processing downstream of Rbd2, and that fission yeast may employ a new variation of RIP to activate SREBPs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55760</offset>
+      <text>Parallel studies in A.&#160;fumigatus recently identified an Rbd2 homolog, RbdA/B, as required for SREBP activation, demonstrating that this function is conserved in ascomycetous fungi (Dhingra et&#160;al, 2016; Vaknin et&#160;al, 2016). In addition, studies in Aspergillus nidulans found that SREBP activation required both the Dsc E3 ligase and the signal peptide peptidase SppA, an aspartyl protease (Bat&#8208;Ochir et&#160;al, 2016). Taken together, these recent Aspergillus studies support a model for SREBP cleavage in which Rbd2 initiates activation followed by SppA cleavage. However, unlike A.&#160;nidulans SREBP cleavage, S.&#160;pombe Sre1 cleavage did not require Ypf1, the S.&#160;pombe signal peptide peptidase homolog, or two other aspartyl proteases Yps1 or Sxa1 (Fig&#160;EV4), leaving unknown the identity of the second SREBP protease in fission yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>56597</offset>
+      <text>Sre1 cleavage does not require signal peptide peptidase ypf1</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>56658</offset>
+      <text>Western blot of phosphatase&#8208;treated, whole&#8208;cell lysates from wild&#8208;type cells and the indicated mutants grown for 3&#160;h in the presence or absence of oxygen was probed with anti&#8208;Sre1 IgG. P and N denote Sre1 precursor and cleaved forms, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56915</offset>
+      <text>Prior to these studies, it was known that SREBP cleavage required cdc48, but Cdc48's role was unclear because its binding to the Dsc E3 ligase was not required for SREBP cleavage (Stewart et&#160;al, 2012). Here, we demonstrate that SREBP cleavage requires Cdc48 binding to the C&#8208;terminal SHP box in Rbd2 (Fig&#160;8). Cells expressing an Rbd2 mutant defective for Cdc48 binding accumulated Sre2 precursor with proteasome inhibition rather than cleaved products (Fig&#160;8H). Thus, Cdc48 functions in Rbd2&#8208;dependent cleavage. The human rhomboid protease RHBDL4 binds ubiquitinylated substrates through a ubiquitin&#8208;interacting motif and cleaves them in the ER to promote ERAD (Fleig et&#160;al, 2012). Interestingly, RHBDL4 also binds to p97/Cdc48 but through a different motif, called VBM. p97/Cdc48 binding to RHBDL4 facilitates extraction of cleaved products for proteasomal degradation. Cdc48 and its cofactors bind to ubiquitin (Stolz et&#160;al, 2011). In a function similar to that for the RHBDL4 ubiquitin&#8208;interacting motif, we propose that Cdc48 with its cofactors is a receptor for ubiquitin, thereby recruiting ubiquitinylated SREBPs to Rbd2. While p97 functions after RHDBL4 cleavage, here Cdc48 functions in recognizing substrate prior to the cleavage event. Supporting this model, overexpression of Rbd2 that cannot bind Cdc48 rescued Sre1 cleavage, bypassing the requirement for Cdc48 (Fig&#160;9).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58313</offset>
+      <text>As noted, activation of A.&#160;fumigatus SREBP requires a rhomboid protease (Dhingra et&#160;al, 2016; Vaknin et&#160;al, 2016). Our bioinformatic analysis identified a conserved SHP box in the cytosolic C&#8208;terminus of A.&#160;fumigatus RbdB (Fig&#160;EV5A) (Sato &amp; Hampton, 2006). GST&#8208;RbdB (aa 207&#8211;272) bound to Cdc48 in&#160;vitro, but the binding was ~7&#8208;fold lower than GST&#8208;Rbd2 (Fig&#160;EV5B). Reduced binding to RbdB may be due to an asparagine substitution at the G246 position in the Rbd2 SHP box (Fig&#160;EV5A). S.&#160;cerevisiae Rbd2 which does not contain a conserved SHP box was used as a negative control. Testing whether Cdc48 binding to RbdB is also required for A.&#160;fumigatus SREBP, cleavage activation is an important next step to further understand how Cdc48 functions with rhomboid proteases.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>59101</offset>
+      <text>Aspergillus fumigatus RbdB contains a conserved SHP box</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>59157</offset>
+      <text>Alignment of SHP box sequences from Schizosaccharomyces pombe Rbd2 C&#8208;terminal SHP box (aa 242&#8211;251) and A.&#160;fumigatus RbdB C&#8208;terminal SHP box (aa 263&#8211;272). Asterisks denote identical residues, colon marks conservative substitution, and dots mark semi&#8208;conservative substitutions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>59444</offset>
+      <text>Recombinant proteins GST&#8208;fused S.&#160;pombe Rbd2 C&#8208;terminus (aa 200&#8211;251), A.&#160;fumigatus RbdB C&#8208;terminus (aa 211&#8211;272), S.&#160;cerevisiae Rbd2 C&#8208;terminus (aa 192&#8211;262), and GST were bound to GST magnetic beads and incubated with S.&#160;pombe cytosol fraction from wild&#8208;type cells. 5&#215; bound fractions were probed for anti&#8208;Cdc48 and anti&#8208;GST IgG. The S.&#160;pombe cytosol fraction was used for 1&#215; input (In.) loading.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59867</offset>
+      <text>The Dsc1 subunit of the Dsc E3 ligase contains a RING domain and functions as an ubiquitin ligase with the E2 ubiquitin&#8208;conjugating enzyme Ubc4 (Raychaudhuri &amp; Espenshade, 2015). Mutation of the Dsc1 RING domain, deletion of dsc1&#8208;dsc5, or mutation of ubc4 blocks SREBP cleavage (Stewart et&#160;al, 2011, 2012). In addition, Sre2 binds to the Dsc E3 ligase (Stewart et&#160;al, 2011; Lloyd et&#160;al, 2013). Together, these data suggest that SREBPs are substrates for the Dsc E3 ubiquitin ligase. However, recently we found that inhibition of Dsc E3 ligase activity prevents ER&#8208;to&#8208;Golgi transport of the Dsc complex, confounding the interpretation of these dsc mutant phenotypes (Raychaudhuri &amp; Espenshade, 2015). Here, we observed that in rbd2&#8710; cells, SREBPs are degraded by the proteasome in a Dsc&#8208;dependent manner (Figs&#160;3 and EV1). Although SREBP ubiquitinylation remains to be shown, these data provide additional support for SREBPs as Dsc E3 ligase substrates. Interestingly, preliminary studies indicate that cytosolic lysines in Sre2MS are not required for cleavage, suggesting that SREBP ubiquitinylation may involve non&#8208;classical sites. Ubc4 conjugates mono&#8208;ubiquitin to proteins, while proteasomal degradation typically requires poly&#8208;ubiquitin chains (Seino et&#160;al, 2003; Rodrigo&#8208;Brenni &amp; Morgan, 2007). Whether other ubiquitinylation enzymes are required for SREBP degradation in rbd2&#8710; cells and whether these enzymes are also required for SREBP cleavage remains to be tested. However, our studies using hrd1&#8710; and doa10&#8710; cells indicate that these two ERAD E3 ligases are not required for cleavage or degradation (Fig&#160;EV1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61519</offset>
+      <text>Combined with our past work, these new findings lead us to speculate on a new model for the activation of Sre1 (Fig&#160;10). Following oxygen&#8208;regulated transport by the SCAP homolog Scp1 to the Golgi, Sre1 is ubiquitinylated by the Dsc E3 ligase complex. Rbd2 cleaves ubiquitinylated Sre1 in the second transmembrane segment or luminal juxtamembrane region in a reaction that requires substrate recruitment by Cdc48. This Sre1 intermediate is then cleaved by a second, unidentified protease to produce the soluble, active transcription factor. Sre2 activation follows a similar pathway, but ER&#8208;to&#8208;Golgi transport is constitutive. In the absence of Rbd2 cleavage (Fig&#160;10 dashed box), ubiquitinylated SREBPs are degraded by the proteasome. Thus, changes in Rbd2 activity will control the fate of SREBP substrates between protein processing and degradation. This mechanism provides a new control point for the regulation of SREBP activity in fungi. In mammals, a related regulatory mechanism exists: when S1P is inhibited, SCAP is targeted to the lysosome for degradation, leading to reduced pathway activity (Shao &amp; Espenshade, 2014).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>62656</offset>
+      <text>Model for yeast SREBP cleavage</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>62687</offset>
+      <text>Under low sterol and oxygen conditions, Sre1 exits the ER and travels to the Golgi. Golgi&#8208;localized Sre1 is ubiquitinylated by E2 Ubc4 and Dsc E3 ligase. Ubiquitinylated Sre1 is recruited by Cdc48 and cleaved by Rbd2. The intermediate cleaved product is further processed by a second, unknown protease to generate Sre1N that traffics to the nucleus to activate transcription. When Rbd2 is inactive (dashed box), ubiquitinylated Sre1 is subjected to proteasomal degradation. SRE, sterol regulatory element; U, either mono&#8208;ubiquitin or poly&#8208;ubiquitin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63243</offset>
+      <text>In summary, convergent evidence from studies in S.&#160;pombe and A.&#160;fumigatus demonstrates that SREBP activation requires a rhomboid protease, Rbd2 and RbdA/B, respectively (Bat&#8208;Ochir et&#160;al, 2016; Dhingra et&#160;al, 2016; Vaknin et&#160;al, 2016). Fungal SREBPs are required for growth under hypoxic conditions and for virulence of human opportunistic pathogens (Bien &amp; Espenshade, 2010). In addition, SREBP is required for virulence of Penicillium digitatum, a major citrus fruit fungal pathogen (Liu et&#160;al, 2015) and P.&#160;digitatum contains an rbd2 homolog (ORF name, PDIP_45580). Thus, identification of a fungal SREBP protease opens the door to development of rhomboid inhibitors that could act as antifungals to improve both clinical and agricultural outcomes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>64003</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64025</offset>
+      <text>Materials and standard methods (cell culture, plasmid construction, linkage analysis, Western blotting, immunoprecipitation, in&#160;vitro binding assay, microscopy, and mass spectrometry) are described in&#160;the Appendix&#160;Supplementary Methods. Yeast strains and oligonucleotide primers used in this study may be found in Appendix&#160;Tables S1 and S2, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64384</offset>
+      <text>Yeast strain construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64410</offset>
+      <text>The rbd2&#8208;integrating plasmids contained rbd2+, rbd2&#8208;S130A&#8208;3xFlag, rbd2&#8208;H182A&#8208;3xFlag, rbd2&#8208;G244R&#8208;3xFlag, rbd2&#8208;G246R&#8208;3xFlag, rbd2&#8208;SHP&#8208;3xFlag, or rbd2&#8208;SHP*&#8208;3xFlag coding sequence flanked by 600&#160;bp of upstream genomic sequence and 600&#160;bp of downstream genomic sequence with a his3+ marker for chromosomal reconstitution of histidine auxotrophy. Plasmids containing rbd2 wild type and mutants were linearized with AscI and transformed into rbd2&#916; strain (PEY1681) and selected for minimal medium lacking histidine to generate strains carrying integrated wild&#8208;type and mutant alleles of rbd2 at the his3+ locus. Isolates expressing Rbd2&#8208;3xFlag were confirmed by Western blotting. The rbd2&#8208;Flag&#8208;APEX2 plasmid and its derivatives were transformed into rbd2&#916; strain and selected for minimal medium lacking leucine to generate strains carrying rbd2&#8208;Flag&#8208;APEX2, rbd2&#8208;S130A&#8208;Flag&#8208;APEX2, rbd2&#8208;G246R&#8208;Flag&#8208;APEX2, or rbd2&#8208;G246R/S130A&#8208;Flag&#8208;APEX2.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65398</offset>
+      <text>Genetic interaction study</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65424</offset>
+      <text>The genetic interaction study was performed as described (Frost et&#160;al, 2012). Included in the query set for the study were the dsc genes and multiple alleles of cdc48. Hierarchical clustering profiles were analyzed for genetic interaction profiles similar to the dsc genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>65699</offset>
+      <text>Biotin&#8208;phenol labeling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>65724</offset>
+      <text>The original biotin&#8208;phenol labeling protocol for mammalian cells was modified for yeast (Hung et&#160;al, 2016; Hwang &amp; Espenshade, 2016). Exponentially growing cells (5&#160;&#215;&#160;108) were harvested and washed with water. Cell pellets were resuspended in 1&#160;ml of 1.2&#160;M sorbitol dissolved in H2O. Biotin&#8208;phenol (2.5&#160;mM) was added, and the cells were incubated for another 1&#160;h at room temperature. H2O2 (1&#160;mM) was added for 1&#160;min to initiate biotin&#8208;phenol labeling, and cells were quickly spun down. To stop the reaction, the solution was aspirated off and cell pellets were then washed four times with a quenching solution consisting of 5&#160;mM Trolox, 10&#160;mM sodium azide, and 10&#160;mM sodium ascorbate in 1.2&#160;M sorbitol dissolved in H2O. Cell pellets were washed with 1.2&#160;M sorbitol once more and lysed by addition of 27&#160;mM NaOH, 1% (v/v) 2&#8208;mercaptoethanol for 10&#160;min on ice. Total protein was precipitated with trichloroacetic acid (20% w/v) followed by acetone wash. Proteins were solubilized in 200&#160;&#956;l lysis buffer (25&#160;mM Tris pH 7.4, 150&#160;mM NaCl, 1% SDS) containing Complete Protease Inhibitor EDTA free by sonication. After denaturation by heating at 75&#176;C for 15&#160;min, protein samples were either directly analyzed by Western blotting or subjected to enrichment of biotinylated proteins. For enrichment, proteins (1&#8211;2&#160;mg) were first dialyzed in dialysis buffer (25&#160;mM Tris pH 7.4, 150&#160;mM NaCl, 0.2% SDS) using 3.5K MWCO dialysis tubing (Thermoscientific) for 2&#8211;3&#160;h at room temperature, and then incubated with 50&#8211;100&#160;&#956;l streptavidin&#8208;coated magnetic beads for 2&#8211;3&#160;h at room temperature. Streptavidin beads were then washed with 0.3% SDS&#8208;containing wash buffer (25&#160;mM Tris pH 7.4, 150&#160;mM NaCl, 0.3% SDS) six times followed by 2&#160;&#215; wash with 2&#160;M urea/50&#160;mM Tris pH 7.4, 1&#160;&#215; wash with 1&#160;M KCl, and 1&#160;&#215; with wash buffer. Biotinylated proteins were eluted by incubating the beads with 30&#160;&#956;l&#160;2&#160;&#215;&#160;SDS sample loading buffer and heating to 75&#176;C for 15&#160;min.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>67725</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67746</offset>
+      <text>JH, DR, and PJE designed and performed experiments except as noted. SR and HG contributed to Figs&#160;3 and 6, respectively. SU and LC performed experiments in Fig&#160;4. AF performed genetic interaction study. JH, DR, SU, and PJE wrote the manuscript with contributions from the other authors.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68035</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>68056</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>68116</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>68139</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">2</infon>
+      <infon key="pub-id_pmid">17040128</infon>
+      <infon key="fpage">e113</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>68150</offset>
+      <text>Two Plasmodium rhomboid proteases preferentially cleave different adhesins implicated in all invasive stages of malaria</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Chem Biol</infon>
+      <infon key="lpage">768</infon>
+      <infon key="pub-id_pmid">22797666</infon>
+      <infon key="fpage">759</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>68270</offset>
+      <text>Architectural and thermodynamic principles underlying intramembrane protease function</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">655</infon>
+      <infon key="pub-id_pmid">26822492</infon>
+      <infon key="fpage">635</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>68356</offset>
+      <text>The signal peptide peptidase SppA is involved in sterol regulatory element&#8208;binding protein cleavage and hypoxia adaptation in Aspergillus nidulans</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1646</infon>
+      <infon key="pub-id_pmid">18559479</infon>
+      <infon key="fpage">1636</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>68505</offset>
+      <text>An Entamoeba histolytica rhomboid protease with atypical specificity cleaves a surface lectin involved in phagocytosis and immune evasion</text>
+    </passage>
+    <passage>
+      <infon key="volume">1828</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">2848</infon>
+      <infon key="pub-id_pmid">23562403</infon>
+      <infon key="fpage">2840</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>68643</offset>
+      <text>Emerging role of rhomboid family proteins in mammalian biology and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Eukaryot Cell</infon>
+      <infon key="lpage">359</infon>
+      <infon key="pub-id_pmid">20118213</infon>
+      <infon key="fpage">352</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>68718</offset>
+      <text>Sterol regulatory element binding proteins in fungi: hypoxic transcription factors linked to pathogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">398</infon>
+      <infon key="pub-id_pmid">10693756</infon>
+      <infon key="fpage">391</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>68824</offset>
+      <text>Regulated intramembrane proteolysis: a control mechanism conserved from bacteria to humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">629</infon>
+      <infon key="pub-id_pmid">17462012</infon>
+      <infon key="fpage">614</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>68915</offset>
+      <text>Sre1p, a regulator of oxygen sensing and sterol homeostasis, is required for virulence in Cryptococcus neoformans</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Eukaryot Cell</infon>
+      <infon key="lpage">1779</infon>
+      <infon key="pub-id_pmid">19749173</infon>
+      <infon key="fpage">1770</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>69029</offset>
+      <text>Conservation of the sterol regulatory element&#8208;binding protein pathway and its pathobiological importance in Cryptococcus neoformans</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">20360</infon>
+      <infon key="pub-id_pmid">23729666</infon>
+      <infon key="fpage">20351</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69163</offset>
+      <text>Structural requirements for sterol regulatory element&#8208;binding protein (SREBP) cleavage in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">17319742</infon>
+      <infon key="fpage">e22</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>69269</offset>
+      <text>A link between virulence and homeostatic responses to hypoxia during infection by the human fungal pathogen Cryptococcus neoformans</text>
+    </passage>
+    <passage>
+      <infon key="source">mSphere</infon>
+      <infon key="volume">1</infon>
+      <infon key="pub-id_pmid">27303716</infon>
+      <infon key="fpage">e00035&#8208;16</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>69401</offset>
+      <text>RbdB, a rhomboid protease critical for SREBP activation and virulence in Aspergillus fumigatus</text>
+    </passage>
+    <passage>
+      <infon key="volume">155</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1281</infon>
+      <infon key="pub-id_pmid">24315097</infon>
+      <infon key="fpage">1270</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>69496</offset>
+      <text>Proteolysis inside the membrane is a rate&#8208;governed reaction not driven by substrate affinity</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">3693</infon>
+      <infon key="pub-id_pmid">15751945</infon>
+      <infon key="fpage">3683</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>69591</offset>
+      <text>Microstructure of cell wall&#8208;associated melanin in the human pathogenic fungus Cryptococcus neoformans</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">427</infon>
+      <infon key="pub-id_pmid">17666007</infon>
+      <infon key="fpage">401</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>69695</offset>
+      <text>Regulation of sterol synthesis in eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">569</infon>
+      <infon key="pub-id_pmid">22795130</infon>
+      <infon key="fpage">558</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69740</offset>
+      <text>Ubiquitin&#8208;dependent intramembrane rhomboid protease promotes ERAD of membrane proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1352</infon>
+      <infon key="pub-id_pmid">22682253</infon>
+      <infon key="fpage">1339</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>69829</offset>
+      <text>Functional repurposing revealed by comparing S.&#160;pombe and S.&#160;cerevisiae genetic interactions</text>
+    </passage>
+    <passage>
+      <infon key="volume">271</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">5711</infon>
+      <infon key="pub-id_pmid">8621436</infon>
+      <infon key="fpage">5704</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>69924</offset>
+      <text>A conditional lethal mutant in the fission yeast 26 S protease subunit mts3+ is defective in metaphase to anaphase transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Eukaryot Cell</infon>
+      <infon key="lpage">570</infon>
+      <infon key="pub-id_pmid">22447924</infon>
+      <infon key="fpage">560</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>70050</offset>
+      <text>Hypoxia and fungal pathogenesis: to air or not to air?</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Semin Cell Dev Biol</infon>
+      <infon key="lpage">250</infon>
+      <infon key="pub-id_pmid">19059492</infon>
+      <infon key="fpage">240</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>70105</offset>
+      <text>Structure and mechanism of intramembrane protease</text>
+    </passage>
+    <passage>
+      <infon key="volume">120</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">842</infon>
+      <infon key="pub-id_pmid">15797383</infon>
+      <infon key="fpage">831</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>70155</offset>
+      <text>SREBP pathway responds to sterols and functions as an oxygen sensor in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">475</infon>
+      <infon key="pub-id_pmid">26866790</infon>
+      <infon key="fpage">456</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>70240</offset>
+      <text>Spatially resolved proteomic mapping in living cells with the engineered peroxidase APEX2</text>
+    </passage>
+    <passage>
+      <infon key="volume">473</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">2469</infon>
+      <infon key="pub-id_pmid">27274088</infon>
+      <infon key="fpage">2463</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>70330</offset>
+      <text>Proximity&#8208;dependent biotin labeling in yeast using the engineered ascorbate peroxidase APEX2</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">858</infon>
+      <infon key="pub-id_pmid">25950237</infon>
+      <infon key="fpage">845</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70425</offset>
+      <text>The Phyre2 web portal for protein modeling, prediction and analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">468</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">610</infon>
+      <infon key="pub-id_pmid">26545776</infon>
+      <infon key="fpage">606</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70493</offset>
+      <text>Identification of Rbd2 as a candidate protease for sterol regulatory element binding protein (SREBP) cleavage in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="lpage">352</infon>
+      <infon key="pub-id_pmid">9802220</infon>
+      <infon key="fpage">346</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>70620</offset>
+      <text>Sequence of the Corynebacterium glutamicum pyruvate carboxylase gene</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">6428</infon>
+      <infon key="pub-id_pmid">11533231</infon>
+      <infon key="fpage">6418</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>70689</offset>
+      <text>The basic helix&#8208;loop&#8208;helix transcription factor Cph2 regulates hyphal development in Candida albicans partly via Tec1</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">217</infon>
+      <infon key="pub-id_pmid">23369641</infon>
+      <infon key="fpage">210</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>70811</offset>
+      <text>Sampling the membrane: function of rhomboid&#8208;family proteins</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">25699519</infon>
+      <infon key="fpage">e0117115</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>70873</offset>
+      <text>A novel sterol regulatory element&#8208;binding protein gene (sreA) identified in penicillium digitatum is required for prochloraz resistance, full virulence and erg11 (cyp51) regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">21054</infon>
+      <infon key="pub-id_pmid">23760507</infon>
+      <infon key="fpage">21043</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71056</offset>
+      <text>Subunit architecture of the Golgi Dsc E3 ligase required for sterol regulatory element&#8208;binding protein (SREBP) cleavage in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">847</infon>
+      <infon key="pub-id_pmid">16823372</infon>
+      <infon key="fpage">841</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71195</offset>
+      <text>ORFeome cloning and global analysis of protein localization in the fission yeast Schizosaccharomyces pombe</text>
+    </passage>
+    <passage>
+      <infon key="source">eLife</infon>
+      <infon key="volume">1</infon>
+      <infon key="pub-id_pmid">23150798</infon>
+      <infon key="fpage">e00173</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71302</offset>
+      <text>Membrane immersion allows rhomboid proteases to achieve specificity by reading transmembrane segment dynamics</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">23232094</infon>
+      <infon key="fpage">a013185</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71412</offset>
+      <text>The mammalian endoplasmic reticulum&#8208;associated degradation system</text>
+    </passage>
+    <passage>
+      <infon key="volume">1828</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">2854</infon>
+      <infon key="pub-id_pmid">23518036</infon>
+      <infon key="fpage">2849</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71480</offset>
+      <text>Role of rhomboid proteases in bacteria</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">14440</infon>
+      <infon key="pub-id_pmid">25918164</infon>
+      <infon key="fpage">14430</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>71519</offset>
+      <text>Endoplasmic reticulum exit of golgi&#8208;resident defective for SREBP cleavage (Dsc) E3 ligase complex requires its activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">339</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1331</infon>
+      <infon key="pub-id_pmid">23371551</infon>
+      <infon key="fpage">1328</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>71641</offset>
+      <text>Proteomic mapping of mitochondria in living cells via spatially restricted enzymatic tagging</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">139</infon>
+      <infon key="pub-id_pmid">17632060</infon>
+      <infon key="fpage">127</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>71734</offset>
+      <text>Sequential E2s drive polyubiquitin chain assembly on APC targets</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Yeast</infon>
+      <infon key="lpage">1064</infon>
+      <infon key="pub-id_pmid">17083136</infon>
+      <infon key="fpage">1053</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>71799</offset>
+      <text>Yeast Derlin Dfm1 interacts with Cdc48 and functions in ER homeostasis</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">3505</infon>
+      <infon key="pub-id_pmid">12724408</infon>
+      <infon key="fpage">3497</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>71870</offset>
+      <text>Two ubiquitin&#8208;conjugating enzymes, UbcP1/Ubc4 and UbcP4/Ubc11, have distinct functions for ubiquitination of mitotic cyclin</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Cell Metab</infon>
+      <infon key="lpage">419</infon>
+      <infon key="pub-id_pmid">23000402</infon>
+      <infon key="fpage">414</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>71996</offset>
+      <text>Expanding roles for SREBP in metabolism</text>
+    </passage>
+    <passage>
+      <infon key="volume">289</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">7557</infon>
+      <infon key="pub-id_pmid">24478315</infon>
+      <infon key="fpage">7547</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>72036</offset>
+      <text>Sterol regulatory element&#8208;binding protein (SREBP) cleavage regulates Golgi&#8208;to&#8208;endoplasmic reticulum recycling of SREBP cleavage&#8208;activating protein (SCAP)</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">171</infon>
+      <infon key="pub-id_pmid">21504829</infon>
+      <infon key="fpage">160</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72198</offset>
+      <text>Yeast SREBP cleavage activation requires the Golgi Dsc E3 ligase complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">287</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">681</infon>
+      <infon key="pub-id_pmid">22086920</infon>
+      <infon key="fpage">672</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>72271</offset>
+      <text>Yeast sterol regulatory element&#8208;binding protein (SREBP) cleavage requires Cdc48 and Dsc5, a ubiquitin regulatory X domain&#8208;containing subunit of the Golgi Dsc E3 ligase</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="lpage">523</infon>
+      <infon key="pub-id_pmid">21741246</infon>
+      <infon key="fpage">515</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>72443</offset>
+      <text>Cdc48: a power machine in protein degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1059</infon>
+      <infon key="pub-id_pmid">20064469</infon>
+      <infon key="fpage">1048</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>72489</offset>
+      <text>Sequence&#8208;specific intramembrane proteolysis: identification of a recognition motif in rhomboid substrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2831</infon>
+      <infon key="pub-id_pmid">16537923</infon>
+      <infon key="fpage">2817</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>72597</offset>
+      <text>Sterol regulatory element binding protein is a principal regulator of anaerobic gene expression in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1434</infon>
+      <infon key="pub-id_pmid">12820957</infon>
+      <infon key="fpage">1425</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>72710</offset>
+      <text>Substrate specificity of rhomboid intramembrane proteases is governed by helix&#8208;breaking residues in the substrate transmembrane domain</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">3068</infon>
+      <infon key="pub-id_pmid">17114579</infon>
+      <infon key="fpage">3054</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>72847</offset>
+      <text>Rhomboid proteins: conserved membrane proteases with divergent biological functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">389</infon>
+      <infon key="source">Biol Chem</infon>
+      <infon key="lpage">1115</infon>
+      <infon key="pub-id_pmid">18979634</infon>
+      <infon key="fpage">1107</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>72931</offset>
+      <text>In vivo analysis reveals substrate&#8208;gating mutants of a rhomboid intramembrane protease display increased activity in living cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Curr Opin Struct Biol</infon>
+      <infon key="lpage">441</infon>
+      <infon key="pub-id_pmid">18440799</infon>
+      <infon key="fpage">432</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73063</offset>
+      <text>Core principles of intramembrane proteolysis: comparison of rhomboid and site&#8208;2 family proteases</text>
+    </passage>
+    <passage>
+      <infon key="volume">425</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="lpage">512</infon>
+      <infon key="pub-id_pmid">20070259</infon>
+      <infon key="fpage">501</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>73162</offset>
+      <text>Taking the plunge: integrating structural, enzymatic and computational insights into a unified model for membrane&#8208;immersed rhomboid proteolysis</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">22035660</infon>
+      <infon key="fpage">231</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>73308</offset>
+      <text>The rhomboid protease family: a decade of progress on function and mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">84</infon>
+      <infon key="source">Infect Immun</infon>
+      <infon key="lpage">1878</infon>
+      <infon key="pub-id_pmid">27068092</infon>
+      <infon key="fpage">1866</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>73385</offset>
+      <text>Identification and characterization of a novel Aspergillus fumigatus rhomboid family putative protease, RbdA, involved in hypoxia sensing and virulence</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">18989462</infon>
+      <infon key="fpage">e1000200</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>73537</offset>
+      <text>A sterol&#8208;regulatory element binding protein is required for cell polarity, hypoxia adaptation, azole drug resistance, and virulence in Aspergillus fumigatus</text>
+    </passage>
+  </document>
+</collection>

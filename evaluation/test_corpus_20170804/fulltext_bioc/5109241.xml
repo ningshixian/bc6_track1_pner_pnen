@@ -1,0 +1,1195 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5109241</id>
+    <passage>
+      <infon key="name_2">surname:Hahn;given-names:Steven</infon>
+      <infon key="name_3">surname:Zentner;given-names:Gabriel E</infon>
+      <infon key="name_0">surname:Gr&#252;nberg;given-names:Sebastian</infon>
+      <infon key="name_1">surname:Henikoff;given-names:Steven</infon>
+      <infon key="alt-title">Sebastian Gr&#252;nberg et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201695020</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201695020</infon>
+      <infon key="lpage">2446 2446</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">35 35</infon>
+      <infon key="fpage">2435 2435</infon>
+      <infon key="year">2016</infon>
+      <infon key="issue">22</infon>
+      <infon key="kwd">ChEC&#8208;seq Mediator TFIID Chromatin, Epigenetics, Genomics &amp; Functional Genomics Transcription</infon>
+      <offset>0</offset>
+      <text>Mediator binding to UASs is broadly uncoupled from transcription and cooperative with TFIID recruitment to promoters</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>117</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>126</offset>
+      <text>Mediator is a conserved, essential transcriptional coactivator complex, but its in&#160;vivo functions have remained unclear due to conflicting data regarding its genome&#8208;wide binding pattern obtained by genome&#8208;wide ChIP. Here, we used ChEC&#8208;seq, a method orthogonal to ChIP, to generate a high&#8208;resolution map of Mediator binding to the yeast genome. We find that Mediator associates with upstream activating sequences (UASs) rather than the core promoter or gene body under all conditions tested. Mediator occupancy is surprisingly correlated with transcription levels at only a small fraction of genes. Using the same approach to map TFIID, we find that TFIID is associated with both TFIID&#8208; and SAGA&#8208;dependent genes and that TFIID and Mediator occupancy is cooperative. Our results clarify Mediator recruitment and binding to the genome, showing that Mediator binding to UASs is widespread, partially uncoupled from transcription, and mediated in part by TFIID.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1096</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1109</offset>
+      <text>The Mediator complex is a conserved coactivator that is broadly required for eukaryotic transcription. Mediator integrates regulatory signals from DNA&#8208;bound transcriptional activators and cis&#8208;regulatory elements to modulate the basal RNA polymerase II (Pol II) transcription machinery. Mediator appears to exert its effects on transcription in part through interactions with other coactivator complexes such as SAGA and TFIID. Previous work has suggested that the Mediator tail module is preferentially required at SAGA&#8208;dependent promoters (Ansari et&#160;al, 2012). In vitro studies have also described cooperative DNA binding between TFIID and Mediator (Baek et&#160;al, 2002; Johnson et&#160;al, 2002; Johnson &amp; Carey, 2003; Takahashi et&#160;al, 2011), but it is unclear whether such a cooperative relationship exists in&#160;vivo. In metazoans, Mediator associates with distal enhancer elements and is critical for looping of enhancers to promoters (Kagey et&#160;al, 2010). Despite recent advances in understanding the structure and functions of Mediator (Allen &amp; Taatjes, 2015), the mechanisms by which Mediator co&#8208;regulates global Pol II transcription remain poorly understood.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2279</offset>
+      <text>Key to understanding the in&#160;vivo function of Mediator is accurate determination of its genomic binding sites. However, genome&#8208;wide mapping of Mediator using various chromatin immunoprecipitation (ChIP)&#8208;based methods has yielded ambiguous results in budding yeast, complicating analysis of its global transcriptional role. Mediator has been reported variously to bind both upstream activating elements (UASs) (Jeronimo &amp; Robert, 2014) and core promoters (Ansari et&#160;al, 2009, 2012). Recent findings also indicate that Mediator accumulates at yeast core promoters only upon inhibition of the TFIIH subunit Kin28 (Jeronimo &amp; Robert, 2014; Wong et&#160;al, 2014). Multiple studies have also argued for (Andrau et&#160;al, 2006; Zhu et&#160;al, 2011; Wong et&#160;al, 2014; Paul et&#160;al, 2015) and against (Fan et&#160;al, 2006; Fan &amp; Struhl, 2009; Jeronimo &amp; Robert, 2014) gene body association of Mediator. Despite a decade of genome&#8208;wide Mediator mapping, ambiguity regarding its genome&#8208;wide binding persists: Two recently published Mediator ChIP&#8208;seq studies indicate predominant gene body binding of Mediator (Wong et&#160;al, 2014; Paul et&#160;al, 2015), while two other recent mapping studies show little binding of Mediator to gene bodies but robust association with upstream regions under normal growth conditions (Eyboulet et&#160;al, 2013; Jeronimo &amp; Robert, 2014). Notably, ChIP&#8208;seq for Med17 using an antibody against Med17 (Paul et&#160;al, 2015) or HA&#8208;tagged Med17 (Eyboulet et&#160;al, 2013) gives substantially different results. Issues potentially leading to these conflicting ChIP results include low Mediator ChIP efficiency and corresponding low enrichment values, artifactual signals in sonicated input chromatin (Teytelman et&#160;al, 2009; Vega et&#160;al, 2009; Grokhovsky et&#160;al, 2011; Poptsova et&#160;al, 2014), and the reported hyper&#8208;ChIPability of highly expressed genes (Park et&#160;al, 2013; Teytelman et&#160;al, 2013). While genome&#8208;wide binding of Mediator has been studied mainly in budding yeast, the structure of Mediator and its mechanisms of action are conserved throughout the eukaryotic lineage (Cai et&#160;al, 2009; Allen &amp; Taatjes, 2015). As such, the uncertainty surrounding the binding of Mediator to the budding yeast genome has implications for understanding Mediator function in all eukaryotes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4573</offset>
+      <text>Here, we apply chromatin endogenous cleavage and high&#8208;throughput sequencing (ChEC&#8208;seq) (Zentner et&#160;al, 2015) to map Mediator binding to the yeast genome and ascertain its relationship to TFIID. ChEC&#8208;seq employs fusion of micrococcal nuclease (MNase) to chromatin&#8208;associated proteins, directing calcium&#8208;dependent cleavage to specific sites on chromatin in&#160;vivo. ChEC&#8208;seq is thus immunoprecipitation&#8208;independent and as such does not require cross&#8208;linking, chromatin solubilization, or antibodies, and is quantitative. ChEC&#8208;seq therefore provides a ChIP&#8208;independent means by which to establish high&#8208;confidence profiles of Mediator binding. Profiling two Mediator head module subunits (Med8 and Med17), we observe that Mediator globally associates with UASs, rather than core promoters or gene bodies, under all conditions tested. Unique patterns of Mediator enrichment at SAGA&#8208; and TFIID&#8208;dependent genes suggest distinct promoter architectures of their respective transcription initiation complexes on chromatin. A striking finding is that Mediator binding to UASs is widespread and at most genes only weakly correlated with expression levels, suggesting that Mediator occupancy is partly uncoupled from gene expression. However, loss of the Mediator tail subunit Gal11/Med15 strongly reduced Mediator recruitment to a subset of genes upregulated upon Gcn4 activation. Lastly, we find that Mediator is generally necessary for full recruitment of TFIID to TFIID&#8208; and SAGA&#8208;dependent genes and that TFIID is also required for full Mediator recruitment to chromatin. Our results clarify the genome&#8208;wide binding locations of Mediator and reveal a functional relationship between coactivators Mediator and TFIID in transcription initiation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6339</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6347</offset>
+      <text>ChEC&#8208;seq profiling of Mediator binding to the budding yeast genome</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6416</offset>
+      <text>ChEC&#8208;seq uses strains containing a C&#8208;terminal fusion of the calcium&#8208;dependent endo/exonuclease MNase to a chromatin&#8208;binding protein. Addition of calcium to permeabilized cells activates MNase and cleaves DNA in proximity to the chromatin&#8208;bound factor. We previously showed that ChEC&#8208;seq provides high&#8208;resolution maps of binding of the general regulatory factors Abf1, Rap1, and Reb1 to the yeast genome with additional information regarding their orientation on DNA (Zentner et&#160;al, 2015). As MNase must be near DNA for cleavage to occur, structural consideration of the protein(s) under study is essential. While this is relatively straightforward for transcription factors with defined DNA binding domains, the yeast Mediator complex consists of 25 subunits, which are distributed between four modules (head, tail, middle, kinase), without any documented DNA binding ability. Available high&#8208;resolution structural information is limited to parts of the Mediator middle module (Larivi&#232;re et&#160;al, 2013; Wang et&#160;al, 2014) and the Mediator head domain (Imasaki et&#160;al, 2011; Lariviere et&#160;al, 2012). Head subunits Med8, Med17, and Med20 were fused with 3&#215;FLAG&#8208;MNase based on their exposed carboxyl&#8208;terminal ends (Appendix&#160;Fig&#160;S1A). When assessed by agarose gel electrophoresis following ChEC, DNA from the Med8&#8208;MNase and Med17&#8208;MNase strains displayed a moderate amount of cleavage, while DNA from the Med20&#8208;MNase strain displayed little cleavage (Appendix&#160;Fig&#160;S1B). This was not due to lack of expression of Med20&#8208;MNase, as all three MNase&#8208;tagged subunits were appropriately expressed (Appendix&#160;Fig&#160;S1C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8057</offset>
+      <text>We sequenced endogenously cleaved DNA fragments from the Med8&#8208;MNase and Med17&#8208;MNase strains and mapped fragment ends back to the yeast genome. For comparison, we also plotted published Med14 ChIP&#8208;seq data (Wong et&#160;al, 2014) and Gal11/Med15 ChIP&#8208;chip data which had been normalized to a control ChIP from a strain without tagged Gal11/Med15 (Jeronimo &amp; Robert, 2014). At three exemplary highly transcribed SAGA&#8208;dependent genes (CDC19, ILV5, PDC1), ChEC&#8208;seq revealed robust enrichment of Med8 and Med17&#8208;MNase cleavages upstream of TSSs but not within gene bodies (Fig&#160;1A). Enrichment of specific ChEC cleavages was specific to fusion of MNase to Mediator subunits, as it was not observed in a strain expressing untethered MNase under the control of the MED8 promoter (Fig&#160;1A and B). Med14 ChIP&#8208;seq showed enrichment upstream and within the coding regions of all three genes, with gene body signal being particularly pronounced at CDC19 (Fig&#160;1A). Gal11/Med15 ChIP&#8208;chip effectively captured upstream enrichment at all three genes as well as modest gene body signal. We next examined Med8 and Med17 cleavages at three exemplary strongly transcribed TFIID&#8208;dependent genes (EFB1, RPS5, YEF3). As observed for SAGA&#8208;dependent genes, Med8 and Med17 cleavages were enriched upstream of TSSs but not within coding regions (Fig&#160;1B). Med14 ChIP&#8208;seq displayed upstream of EFB1, across the upstream region and coding region of RPS5, and within the coding region of YEF3 (Fig&#160;1B). Gal11/Med15 ChIP&#8208;chip captured enrichment upstream of EFB1 and YEF3, with some coding region signal at YEF3, and across the upstream region and coding region of RPS5 (Fig&#160;1B). In summary, ChEC shows Mediator interaction at many intergenic gene regulatory regions but not within coding sequences of mRNA genes. In addition, the contrasting patterns of genome&#8208;wide ChIP enrichment we observed for Med14 and Gal11/Med15 using recent datasets underscores the continuing lack of clarity regarding the genome&#8208;wide distribution of Mediator.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10092</offset>
+      <text>ChEC&#8208;seq mapping of Mediator at SAGA&#8208; and TFIID&#8208;dependent genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10162</offset>
+      <text>Signal tracks showing cleavages generated by Med8&#8208;MNase, Med17&#8208;MNase, and PMED8&#8208;MNase in YPD at three highly expressed SAGA&#8208;dependent (A) and three highly expressed TFIID&#8208;dependent (B) loci. All time points for a given factor were scaled to the same data range, and PMED8&#8208;MNase tracks were scaled to the lower Mediator&#8208;MNase fusion range. Med14 ChIP&#8208;seq and Med15 ChIP&#8208;chip data are shown for comparison. TSSs are indicated by arrows.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10615</offset>
+      <text>Distinct patterns of Mediator association with SAGA&#8208; and TFIID&#8208;dependent UASs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10697</offset>
+      <text>We next investigated the position of Mediator binding relative to TSSs. To this end, we assessed the average distance of the cleavage peak summit for each Mediator subunit and promoter class profiled, pooling data from ChEC time points (Fig&#160;2A). For Med8, the distance from the peak summit to TSS at SAGA&#8208;dependent genes was 267&#160;bp (332&#160;bp for Med17) and 165 bp at TFIID&#8208;dependent promoters (127&#160;bp for Med17). The distances of the Mediator cleavage maxima to TSSs support preferential binding to UASs, which are generally located 250&#8211;400 bp upstream of TSSs in yeast (Chambers et&#160;al, 1988; de Bruin et&#160;al, 2001; He et&#160;al, 2012; Yan et&#160;al, 2015), rather than core promoters, which typically span 75&#160;bp upstream and 50&#160;bp downstream of TSSs (Lubliner et&#160;al, 2013). We observed similar results when single ChEC time points were analyzed (Appendix&#160;Fig&#160;S2), indicating that pooling of ChEC time points does not distort average profiles. On the single gene level, our average observations were confirmed by robust Med8 cleavage over the previously characterized UASs of the CLB2 (SAGA&#8208;dependent) (Van&#160;Slyke &amp; Grayhack, 2003) and RPS5 (TFIID&#8208;dependent) (Li et&#160;al, 2002) genes (Fig&#160;2B). We also explored the previously reported association of Mediator with gene bodies. Consistent with our single&#8208;locus results (Fig&#160;1), we observed little Med8 or Med17&#8208;MNase cleavage as far as 1&#160;kb into gene bodies, indicating that the gene body enrichment of Mediator detected in many ChIP studies is not representative of Mediator's location. As Med8 and Med17 displayed very similar cleavage profiles at the UASs of SAGA&#8208; and TFIID&#8208;dependent genes in the preceding analyses, only Med8 was profiled in subsequent ChEC&#8208;seq experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12450</offset>
+      <text>Mediator preferentially associates with the UASs of SAGA&#8208;dependent genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12525</offset>
+      <text>Average plots of Mediator cleavages around the TSSs of SAGA&#8208; and TFIID&#8208;dependent genes. The distance of cleavage maximum to TSS is indicated by the dotted lines and corresponding numbers.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12717</offset>
+      <text>Signal tracks of Med8&#8208;MNase and free MNase cleavages at the previously characterized UASs of the CLB2 and RPS5 genes. TSSs are indicated by arrows.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12867</offset>
+      <text>Inactivation of Kin28 does not cause Mediator displacement from UASs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12936</offset>
+      <text>Two recent studies suggested that Ser5 phosphorylation of the Pol II C&#8208;terminal domain by the TFIIH&#8208;associated kinase Kin28 is important for Mediator release from the core promoter (Jeronimo &amp; Robert, 2014; Wong et&#160;al, 2014). We thus wondered whether Mediator binding, as measured by ChEC&#8208;seq, would shift from UASs to core promoters in kin28&#8208;analog sensitive (Kin28AS) cells after treatment with the inhibitor NA&#8208;PP1. As shown earlier, 6&#160;&#956;M NA&#8208;PP1 was sufficient to fully inhibit cell growth of the Kin28AS strain (Appendix&#160;Fig&#160;S3). NA&#8208;PP1 treatment resulted in a moderate decrease in Mediator binding at the UASs of mainly SAGA&#8208;dependent, and, to a lesser extent, TFIID&#8208;dependent genes (Fig&#160;3A, Appendix&#160;Fig S4). However, we did not detect Mediator cleavages at the core promoter (Fig&#160;3A), indicating that a majority of Mediator remained bound to UASs. This observation was confirmed at the upstream regions of four genes (GAP1, BAT1, ECM33, RPL2B) previously shown to have increased Mediator association with core promoters following NA&#8208;PP1 treatment of a Kin28AS strain (Wong et&#160;al, 2014) (Fig&#160;3B). These results contrast with those of two recent studies showing accumulation of Mediator at core promoters upon Kin28 inhibition (Jeronimo &amp; Robert, 2014; Wong et&#160;al, 2014). We speculate that, when looped to core promoters from UASs, Mediator&#8208;tethered MNase may be too far from DNA for efficient cleavage or blocked from access to DNA by the PIC, and that Mediator may be detected at core promoters in ChIP experiments through cross&#8208;linking to the PIC or other promoter&#8208;associated factors.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14566</offset>
+      <text>Lack of RNA Pol II CTD Ser5 phosphorylation does not lead to robust Mediator&#8208;UAS dissociation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14662</offset>
+      <text>Average plots of Med8 cleavages around the TSSs of SAGA&#8208; and TFIID&#8208;dependent genes in Kin28AS cells treated with DMSO (&#8208;NA&#8208;PP1) or 6&#160;&#956;M NA&#8208;PP1 (+NA&#8208;PP1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14830</offset>
+      <text>Signal tracks of Med8&#8208;MNase cleavages at the upstream regions of several genes previously shown to have increased core promoter association of Mediator by ChIP&#8208;qPCR following NA&#8208;PP1 treatment of a Kin28AS strain (Wong et&#160;al, 2014). All time points for a given treatment were concatenated to generate a combined track. TSSs are indicated by arrows.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15185</offset>
+      <text>Mediator binding is widespread and uncoupled from transcriptional activity at most genes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15274</offset>
+      <text>To further clarify the relationship of Mediator binding to the expression of SAGA&#8208; and TFIID&#8208;dependent genes, we stratified average Med8 cleavage levels at SAGA&#8208; and TFIID&#8208;dependent genes by expression level. As a measure for active transcription, previously published native elongating transcript sequencing (NET&#8208;seq) (Churchman &amp; Weissman, 2011) signal within 200&#160;bp downstream of the TSS was used. We found that Med8 occupancy was highest at the most highly transcribed quintile in both gene classes (Fig&#160;4A), with significantly higher cleavage observed at the UASs of SAGA&#8208;dependent genes. To ensure that this was not due to the smaller number of genes in the SAGA&#8208;dependent quintiles (87 SAGA&#8208;dependent to 810 TFIID&#8208;dependent), we repeated the analysis using the 87 most highly transcribed TFIID&#8208;dependent genes. Again, we found that highly transcribed SAGA&#8208;dependent genes showed higher levels of Med8 cleavage at their UASs compared to the smaller TFIID&#8208;dependent gene set (Fig&#160;4B), despite the fact that, on average, the top 87 most highly transcribed TFIID&#8208;dependent genes were expressed at significantly higher levels (Fig&#160;4C, P&#160;=&#160;2.23&#160;&#215;&#160;10&#8722;13 by unpaired t&#8208;test). To more systematically assess the relationship between Mediator occupancy and transcription, we correlated average Med8 ChEC&#8208;seq signal in a 1&#8208;kb window upstream of the TSS with average NET&#8208;seq counts in a 200&#8208;bp window downstream of the TSS. In agreement with our above findings (Fig&#160;4A), this revealed only modest correlations (SAGA&#8208;dependent Spearman's &#961;&#160;=&#160;0.4126, P&#160;&lt;&#160;0.0001; TFIID&#8208;dependent Spearman's &#961;&#160;=&#160;0.3467, P&#160;&lt;&#160;0.0001) (Fig&#160;4D). We wondered whether the weak correlation of Med8 cleavage with transcriptional activity was driven by distinct subsets of TFIID&#8208; or SAGA&#8208;dependent genes. Hence, we determined correlations between Med8 cleavage and NET&#8208;seq for the SAGA&#8208; and TFIID&#8208;dependent NET&#8208;seq quintiles described in Fig&#160;4A. While correlations were relatively poor across all quintiles, the best correlations were observed in the most highly transcribed quintile for both SAGA&#8208; and TFIID&#8208;dependent genes (Appendix&#160;Fig&#160;S5). Taken together, these observations indicate that Mediator occupancy and gene expression are largely but not completely uncoupled, and that Mediator binding to UASs is widespread.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17644</offset>
+      <text>Mediator binding is widespread and partially uncoupled from transcription</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17718</offset>
+      <text>Average plots of Med8 cleavages around SAGA&#8208; and TFIID&#8208;dependent gene TSSs stratified into quintiles by the level of NET&#8208;seq signal in a 200&#8208;bp window downstream of the TSS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17900</offset>
+      <text>Average plots of Med8 cleavage around the TSSs of the 87 most highly transcribed SAGA&#8208; and TFIID&#8208;dependent genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18018</offset>
+      <text>Boxplots of the transcription levels of the 87 most highly transcribed SAGA&#8208; and TFIID&#8208;dependent genes as determined by NET&#8208;seq. Significance was assessed by t&#8208;test. Horizontal line&#160;=&#160;mean, box range&#160;=&#160;10&#8211;90th percentile, error bars&#160;=&#160;min to max.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18281</offset>
+      <text>Scatterplots of average NET&#8208;seq counts in a 200&#8208;bp window downstream of the TSS versus average Med8 cleavages in a 1&#8208;kb window upstream of the TSS for SAGA&#8208; and TFIID&#8208;dependent genes. Correspondence between the datasets was assessed by Spearman correlation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18549</offset>
+      <text>The Mediator head module is recruited to activated genes and remains bound to downregulated genes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18647</offset>
+      <text>We next analyzed how a global perturbation of transcription affects Mediator association with the genome. We treated cells with sulfometuron methyl (SM), which mimics amino acid starvation (Jia et&#160;al, 2000). This treatment results in upregulation of the Gcn4 transcription factor, which in turn activates the transcription of amino acid biosynthetic genes (Hinnebusch, 2005) in part through interactions with the Med15/Gal11 subunit of the Mediator tail module (Herbig et&#160;al, 2010; Jedidi et&#160;al, 2010). We first assessed Mediator recruitment to Gcn4 binding sites previously determined by ChIP&#8208;chip (MacIsaac et&#160;al, 2006) and observed a robust increase in Med8 binding following SM treatment (Fig&#160;5A). We also mapped Mediator binding via Med17 ChEC&#8208;seq in a strain lacking Med15 and observed a substantial reduction in signal at Gcn4 binding sites, confirming the tail module dependence of activator recruitment (Fig&#160;5A). The majority of Gcn4 sites tested displayed an increase in Mediator cleavage upon SM induction, and these increases were strongly attenuated in med15&#916; (Appendix&#160;Fig&#160;S6). We next analyzed Med8 occupancy around the TSSs of genes &#8805;&#160;twofold up&#8208; or downregulated by SM treatment (Saint et&#160;al, 2014). We found that Mediator recruitment to UASs was increased at approximately 20% of upregulated genes (Fig&#160;5B; Appendix&#160;Fig&#160;S6) and these increases were diminished in med15&#916; (Fig&#160;5B, Appendix&#160;Fig&#160;S6). Unexpectedly, we observed only a modest decrease in Med8&#8208;dependent cleavage near SM&#8208;downregulated genes (Fig&#160;5B). This decrease was observed at only a small minority of genes (Appendix&#160;Fig&#160;S6). Our findings suggest that the majority of Mediator remains bound to UASs even upon transcriptional downregulation, further supporting the hypothesis that Mediator occupancy and transcription are uncoupled at many genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20509</offset>
+      <text>The Mediator head module is recruited to Gcn4 sites and upregulated genes in SM and only moderately dissociates from SM&#8208;downregulated genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20651</offset>
+      <text>Average plot of Med8 cleavages around 193 Gcn4 ChIP&#8208;chip peak midpoints (MacIsaac et&#160;al, 2006) in WT and med15&#916;.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20768</offset>
+      <text>Average plots of Med8 cleavages around the TSSs of genes upregulated and downregulated &#8805;&#160;twofold in SM (Saint et&#160;al, 2014) in WT and med15&#916;. Control cleavages were subtracted from SM cleavages at each base position.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20989</offset>
+      <text>qRT&#8211;PCR analysis of SAGA&#8208; and TFIID&#8208;dependent genes in WT and med15&#916;. Bars represent mean&#160;+&#160;SEM for two biological replicates performed in triplicate. *P&#160;&lt;&#160;0.05; &#8224;P&#160;&lt;&#160;0.01; &#8225;P&#160;&lt;&#160;0.005 by unpaired Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21224</offset>
+      <text>The Mediator tail has previously been implicated in SAGA&#8208;dependent activated transcription (Ansari et&#160;al, 2012). We therefore used qRT&#8211;PCR to examine the effects of deleting Med15 on the expression of a set of representative Gcn4&#8208;activated genes consisting of seven SAGA&#8208;dependent and seven TFIID&#8208;dependent genes following SM induction. Deletion of the Mediator tail significantly downregulated 5/7 of the SAGA&#8208;dependent genes tested (ARG3, HIS4, ARG1, STR3, and ARG5), and the remaining SAGA&#8208;dependent genes (PCL5 and ALD5) showed a trend toward decreased expression. Of the TFIID&#8208;dependent genes tested, TRP3 expression was significantly increased, and three of the other tested TFIID&#8208;dependent genes (LEU3, RTG3, and SNO1) showed a trend toward increased expression (Fig&#160;5C). These results confirm our genome&#8208;wide results that recruitment of Mediator through its tail module is important for activated transcription of predominantly SAGA&#8208;dependent genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22206</offset>
+      <text>TFIID depends on Mediator for maximal promoter interaction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22265</offset>
+      <text>To characterize the different recruitment pathways for Mediator at SAGA and TFIID&#8208;dependent genes, we analyzed the effect of Mediator loss on TFIID binding to chromatin, as previous studies have suggested Mediator&#8208;TFIID DNA binding cooperativity (Baek et&#160;al, 2002; Johnson et&#160;al, 2002; Johnson &amp; Carey, 2003; Takahashi et&#160;al, 2011). To map TFIID binding genome&#8208;wide, we tagged the Taf1 subunit with MNase and performed ChEC&#8208;seq. Strikingly, we observed notable enrichment of Taf1 cleavages at both SAGA&#8208; and TFIID&#8208;dependent TSSs, though cleavages were slightly higher at annotated TFIID&#8208;dependent promoters (Fig&#160;6A). As expected, the major site of Taf1 binding was within the nucleosome&#8208;depleted region (NDR) at core promoters (peak summit to TSS distance: 51&#160;bp for SAGA&#8208;dependent, 68&#160;bp for TFIID&#8208;dependent). We surprisingly observed a periodic enrichment of Taf1 cleavages into gene bodies, both upstream and downstream of TFIID&#8208;dependent TSSs in a pattern that is reminiscent of the nucleosomal arrays present in gene bodies. Comparison of MNase&#8208;seq (Henikoff et&#160;al, 2011) to Taf1 ChEC&#8208;seq data revealed a striking inverse relationship between Taf1 cleavages and nucleosome occupancy (Fig&#160;6A), suggesting moderate cleavage of linker DNA between nucleosomes, perhaps due to interaction of the TFIID&#8208;associated and bromodomain&#8208;containing subunit Bdf1 with acetylated nucleosomes in the promoter region (Matangkasombut et&#160;al, 2000; Durant &amp; Pugh, 2007). This pattern was also observed downstream of SAGA&#8208;dependent&#160;TSSs, though to a lesser extent.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23855</offset>
+      <text>Mediator is required for full TFIID recruitment</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23903</offset>
+      <text>Average plot of Taf1 cleavages around the TSSs of SAGA&#8208; and TFIID&#8208;dependent genes. A nucleosome occupancy profile as determined by MNase&#8208;seq is also shown for comparison. Dotted lines represent Taf1 cleavage maxima in TFIID&#8208;dependent gene bodies. The NDR, taken to be the &#8722;1 to +1 nucleosome midpoint distance, is indicated by a black rectangle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24259</offset>
+      <text>Average plots of Taf1 cleavages around the TSSs of SAGA&#8208; and TFIID&#8208;dependent genes&#160;&#177;&#160;rapamycin to deplete Med14&#8208;FRB.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24385</offset>
+      <text>We next examined whether loss of Mediator would affect TFIID recruitment and subsequent PIC formation. We used anchor&#8208;away (Haruki et&#160;al, 2008) to rapidly deplete nuclear Med14, which functions as connector between all four Mediator modules (Tsai et&#160;al, 2014). Depletion of nuclear Med14 (Appendix&#160;Fig&#160;S7) resulted in a reduction of TFIID occupancy at the core promoter, but a slight increase in and downstream shift of gene body cleavages regardless of coactivator dependence (Fig&#160;6B). Approximately 70% of promoter NDRs displayed a modest decrease in Taf1 binding (Appendix&#160;Fig&#160;S8), indicating a moderate but widespread role for Mediator in TFIID recruitment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25056</offset>
+      <text>Loss of TFIID impairs Mediator recruitment</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25099</offset>
+      <text>Having found that disruption of Mediator impairs TFIID recruitment to promoters, we sought to determine whether the converse is true. We performed Med8 ChEC&#8208;seq following anchor&#8208;away depletion of Taf1 (Appendix&#160;Fig&#160;S7), an essential subunit of TFIID involved in promoter DNA binding (Louder et&#160;al, 2016). Med8 cleavages were, on average, strongly reduced at both SAGA&#8208; and TFIID&#8208;dependent promoters upon Taf1 depletion (Fig&#160;7), implying an important role for TFIID in Mediator binding. Unexpectedly, Mediator recruitment to UASs of SAGA&#8208;dependent genes appeared to be more strongly affected by Taf1 depletion. Indeed, ~40% of SAGA&#8208;dependent upstream regions showed a noticeable decrease in average Med8 cleavages, while ~20% of TFIID&#8208;dependent upstream regions showed decreased average Med8 cleavages (Appendix&#160;Fig&#160;S9). We also noted an increase in average Med8 cleavages upstream of ~20% of SAGA&#8208;dependent genes, but no such increase upstream of TFIID&#8208;dependent genes (Appendix&#160;Fig&#160;S9). Combined with our data indicating that TFIID recruitment to the majority of genes is partially dependent on Mediator (Fig&#160;6B), these observations indicate mutual dependency between TFIID and Mediator for chromatin recruitment to many genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26355</offset>
+      <text>Loss of Taf1 impairs Mediator recruitment</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26397</offset>
+      <text>Average plots of Med8 cleavages around the TSSs of SAGA&#8208; and TFIID&#8208;dependent genes&#160;&#177;&#160;rapamycin to deplete Taf1&#8208;FRB.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>26522</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26533</offset>
+      <text>The in&#160;vivo genomic distribution of the Mediator complex in budding yeast has presented a considerable obstacle to understanding its in&#160;vivo functions. We present a genome&#8208;wide map of Mediator binding in budding yeast generated using ChEC&#8208;seq, a method based on a completely different principle than ChIP, allowing us to identify Mediator&#8208;bound genomic loci with high resolution. We find that Mediator associates with the majority of UASs in the budding yeast genome. This pervasive binding is, to a large extent, uncoupled from the transcriptional activity and coactivator dependence of the genes associated with Mediator&#8208;bound UASs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27178</offset>
+      <text>ChEC&#8208;seq refines the genome&#8208;wide map of Mediator binding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27239</offset>
+      <text>Our results led to several observations regarding the locations of Mediator association in&#160;vivo. First, we observed widespread Mediator&#8208;specific cleavage in the upstream region of the majority of genes in the budding yeast genome. We observed essentially no cleavage above background within gene bodies, indicating that Mediator enrichment within gene bodies is misleading, as has been previously speculated (Fan &amp; Struhl, 2009; Teytelman et&#160;al, 2013; Jeronimo &amp; Robert, 2014). Our data indicate that the predominant site of Mediator binding at TATA&#8208;containing genes is, on average, ~300&#160;bp upstream of TSSs, consistent with UASs being the major site of Mediator association. At TFIID&#8208;dependent promoters, the Mediator cleavage maxima to TSS distance was ~150&#160;bp, likely reflective of a shorter UAS&#8208;TSS distance. This is in agreement with previous studies suggesting that transcription factor binding sites, which tend to cluster in UASs, generally tend to be closer to the TSS at TATA&#8208;less promoters (Erb &amp; van Nimwegen, 2011). Notably, the difference in the Mediator binding location to TSS between TATA&#8208;containing and TATA&#8208;less genes equals the approximate size necessary to accommodate a nucleosome, possibly due to distinct transcription initiation complex architectures for both promoter classes. We note that our results were obtained using MNase fused to subunits of the Mediator head module, and that ChEC&#8208;seq using MNase fused to subunits of the middle, tail, and kinase modules, if they are within reasonable proximity to DNA, could give slightly different results. However, since the head module directly interacts with Pol II and, along with the Mediator middle module, constitutes the core Mediator complex (Plaschka et&#160;al, 2015), we are confident that we have obtained functionally relevant maps of Mediator binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29092</offset>
+      <text>Two recent studies reported that abrogation of Kin28 kinase activity led to the appearance of Mediator ChIP&#8208;signal at core promoters. To explain these results, it was suggested that Mediator&#8208;PIC association is transient due to rapid transcription initiation upon PIC formation. Blocking the kinase was proposed to stall PICs at the promoter and allow detectable Mediator cross&#8208;linking to PIC components (Jeronimo &amp; Robert, 2014; Wong et&#160;al, 2014). While we observed strong Mediator&#8208;MNase cleavages at the UASs under all conditions, we surprisingly did not observe a significant increase of Mediator&#8208;MNase cleavages at core promoters in Kin28AS cells when treated with the NA&#8208;PP1 analog. In higher eukaryotes, Mediator is important for the organization of chromatin into topological domains by forming gene loops, which enable coordinated transcription regulation (Plank &amp; Dean, 2014). We suggest that, for activator&#8208;driven transcription, Mediator remains bound to UASs and transiently interacts with PICs via a DNA&#8208;looping interaction, bringing the core promoter close to the UAS. The long UAS to TSS distances we observe at SAGA&#8208;dependent genes may favor the formation of such loops. We speculate that, when looped to core promoters, MNase tethered to UAS&#8208;bound Mediator is either too far from DNA for efficient MNase cleavage or that DNA access is blocked by other factors in the PIC. However, ChIP may detect Mediator at some core promoters through cross&#8208;linking of Mediator to the PIC or other core promoter&#8208;bound transcriptional regulators.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30663</offset>
+      <text>Global mutual dependency in chromatin recruitment of Mediator and TFIID</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30735</offset>
+      <text>We investigated in&#160;vivo the potential cooperativity between Mediator and TFIID suggested by several studies (Baek et&#160;al, 2002; Johnson et&#160;al, 2002; Johnson &amp; Carey, 2003; Takahashi et&#160;al, 2011). Utilizing ChEC&#8208;seq to map TFIID occupancy in&#160;vivo, we find that in addition to being bound to TFIID&#8208;dependent promoters, TFIID is generally associated with TATA&#8208;containing SAGA&#8208;dependent core promoters. This association is partially Mediator&#8208;dependent, as anchor&#8208;away depletion of the Mediator middle module subunit Med14, expected to destabilize the entire Mediator complex, led to decreased Taf1 ChEC&#8208;seq signal at a majority of both SAGA&#8208; and TFIID&#8208;dependent core promoters. We also found that nuclear depletion of the Taf1 subunit of TFIID strongly reduced Mediator occupancy upstream of a sizable minority of SAGA&#8208; and TFIID&#8208;dependent genes. However, depletion of Taf1 also increased Mediator binding to UASs of some SAGA&#8208;dependent genes, perhaps suggesting compensatory upregulation of these genes or an inhibitory role of TFIID in Mediator recruitment and transcription initiation at a particular subset of genes as described in higher eukaryotes (Tatarakis et&#160;al, 2008). Nevertheless, our results provide the first in&#160;vivo support for cooperative assembly of Mediator and TFIID on chromatin, previously described in&#160;vitro (Johnson et&#160;al, 2002). A direct cooperative relationship between TFIID and Mediator could be mediated by Taf1&#8208;Med16 interactions, which have been described in high&#8208;throughput studies (Gavin et&#160;al, 2002, 2006). Taken together, our findings suggest a general model for Mediator&#8208;facilitated TFIID recruitment to core promoters: Mediator&#8208;independent, likely non&#8208;specific binding of Taf1/TFIID to linker DNA between acetylated nucleosomes promoted by the loosely associated TFIID subunit Bdf1 could represent transient probing of chromatin by TFIID. In a cooperative process, Mediator guides TFIID to core promoters to facilitate transcription initiation. However, future studies are required to understand whether and how TFIID and Mediator directly interact with each other.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32876</offset>
+      <text>What are the functions of widespread Mediator binding?</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32931</offset>
+      <text>The scale of the effect of Mediator on transcription (global versus selective) has been the subject of much debate (Fan &amp; Struhl, 2009; Jeronimo &amp; Robert, 2014). However, it has been clearly demonstrated that Mediator is globally required for transcription, as loss of the head module subunits Med17 or Med18 led to decreased synthesis of most mRNAs (Holstege et&#160;al, 1998; Plaschka et&#160;al, 2015). Consistent with this, we showed that the Mediator head module binds the majority of UASs in the budding yeast genome regardless of transcription level or coactivator dependence. We also found that Mediator binding is poorly correlated with transcriptional output in most cases, an exception being highly transcribed SAGA&#8208;dependent genes, which Mediator has been shown to activate through its tail module (Ansari &amp; Morse, 2012). Together, these observations suggest that drawing inferences regarding the scale of Mediator activity in transcription based on simple correlations between Mediator occupancy and transcriptional output is problematic.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33977</offset>
+      <text>In addition to pervasive Mediator binding to UASs, we also observed binding of TFIID to most core promoters, regardless of their designation as SAGA&#8208; or TFIID&#8208;dependent (Basehoar et&#160;al, 2004). The presence of TFIID at essentially all promoters may suggest that the presence of Mediator and TFIID constitutes a transcriptional baseline that can be tuned by activators and repressors. Indeed, it has been suggested that TFIID is required at nearly all promoters in&#160;vivo, as loss of Taf11 leads to a general transcriptional shutdown even in the presence of excess TBP (Komarnitsky et&#160;al, 1999). In addition, it has been proposed that SAGA, too, is generally involved in Pol II transcription, not just the small fraction that has been classified SAGA&#8208;dependent (Bonnet et&#160;al, 2014). With SAGA important for and TFIID present at many Pol II genes, we feel that classifying genes based on their coactivator dependence might not be accurate. In contrast, we do see that recruitment of Mediator through its tail module is important for transcription activation of several TATA&#8208;containing genes in&#160;vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35085</offset>
+      <text>There may also be a non&#8208;transcriptional role for widespread Mediator binding, related to genome architecture. In mammals, where regulatory elements may be located great distances from their target promoters, Mediator has been implicated in the formation and stabilization of chromatin loops between such elements (Kagey et&#160;al, 2010). Yeast generally utilizes short&#8208;range gene loops in regulated transcription, and so such long&#8208;distance interactions are not a feature of the compact yeast regulatory landscape. However, the Med18 subunit of yeast Mediator has been implicated in the formation of loops between gene 5&#8242; and 3&#8242; ends (Mukundan &amp; Ansari, 2013), and Mediator is proposed to regulate transcription activation distance in yeast (Reavey et&#160;al, 2015). Recent work in yeast has also shown that loss of Mediator results in global decompaction of chromatin (Hsieh et&#160;al, 2015). In agreement with this observation, we noticed a shift of Taf1 cleavages in the linker DNA when anchoring Med14, perhaps indicating a shift in nucleosome position upon nuclear depletion of Mediator. However, mapping of nucleosome positions following Med14 depletion is necessary to conclusively test this idea. We thus postulate that global Mediator binding, beyond its connection to transcription, has implications for genome architecture. Our study provides a high&#8208;confidence map of Mediator to the budding yeast genome that will help further our understanding of its multiple in&#160;vivo functions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>36580</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36602</offset>
+      <text>Yeast methods</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36616</offset>
+      <text>Endogenous loci were tagged with 3&#215;FLAG&#8208;MNase by lithium acetate transformation of gene&#8208;specific PCR products amplified from pGZ108 (kanMX6 marker) or pGZ109 (HIS3MX6 marker) (Zentner et&#160;al, 2015). The PMED8&#8208;MNase fusion was constructed by Gibson assembly of 500 bp upstream of the MED8 start codon and a PCR amplicon encoding 3&#215;FLAG&#8208;MNase&#8208;SV40 NLS into the EcoRI/SpeI sites of pRS413. Yeast strains were grown in yeast&#8211;peptone&#8211;dextrose (YPD) medium (Figs&#160;1, 2 and 4) or glucose complete (GC) medium lacking isoleucine and valine (Figs&#160;3 and 5, 6, 7). For SM treatment, cells were grown in GC medium lacking isoleucine and valine and treated with 0.5&#160;&#956;g/ml SM for 90&#160;min. For Kin28&#8208;AS inhibition, cells were treated with 6 &#956;M NA&#8208;PP1 for 20 min (Liu et&#160;al, 2004). Med14 and Taf1 were tagged with FRB or FRB&#8208;GFP by transformation with PCR products amplified from pFA6a&#8208;FRB&#8208;kanMX6 or pFA6a&#8208;FRB&#8208;GFP&#8208;HIS3MX6 (Haruki et&#160;al, 2008). Nuclear depletion was induced by treatment with 1&#160;&#956;g/ml rapamycin for 1&#160;h. For fluorescence microscopy, cells were fixed with 4% formaldehyde in PBS for 15 min at room temperature, washed with 500&#160;&#956;l 100&#160;mM potassium phosphate/1.2 sorbitol, and resuspended in 50&#160;&#956;l of the same buffer. About 20&#160;&#956;l of fixed cells was placed on a concanavalin A&#8208;coated slide and let sit at room temperature for 5&#160;min. Slides were then washed with 3&#160;ml of 0.4% Photo&#8208;Flo and dried at room temperature for 5&#160;min. Cells were imaged using a DeltaVision Elite (GE Healthcare). Plasmids and yeast strains used in this study are listed in Appendix&#160;Tables S1 and S2, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38255</offset>
+      <text>Quantification of gene expression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38289</offset>
+      <text>RNA extraction, cDNA synthesis, and qRT&#8211;PCR were performed as described (Knutson &amp; Hahn, 2011). Two biological replicates were performed in triplicate for each condition.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38462</offset>
+      <text>ChIP&#8208;seq data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38487</offset>
+      <text>Med14 ChIP&#8208;seq data (Wong et&#160;al, 2014) were converted from SRA to FASTQ using SRA Toolkit fastq&#8208;dump. Data were aligned to the sacCer3 genome build using Bowtie2. The resulting SAM file was converted to a tag directory and visualized as a reads per million (RPM)&#8208;normalized bedgraph with HOMER (http://homer.salk.edu) (Heinz et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38834</offset>
+      <text>ChEC&#8208;seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38845</offset>
+      <text>ChEC, sequencing library preparation, alignment, and track visualization were performed as described (Zentner et&#160;al, 2015). Cleavage pattern analysis was performed as described (Zentner et&#160;al, 2015) with any modifications detailed below. All scripts used for data processing and analyses are available at https://github.com/zentnerlab/chec-seq.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39192</offset>
+      <text>Cleavage pattern analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39218</offset>
+      <text>TSS annotations from a previous study (Xu et&#160;al, 2009) were intersected with the lists of SAGA&#8208; and TFIID&#8208;dependent genes encoding verified ORFs, yielding 435 SAGA&#8208;dependent TSSs and 4,052 TFIID&#8208;dependent TSSs. Pairs files for all time points for a given factor or treatment were concatenated. Plots were smoothed using GraphPad Prism 6 using second&#8208;order smoothing and 100 neighbors. The distance from the Mediator binding site to the TSS was taken to be the distance from the base position of the smoothed cleavage maxima to the TSS. For SM experiments, smoothed non&#8208;SM&#8208;treated signal was subtracted from smoothed SM&#8208;treated signal at each base.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39883</offset>
+      <text>Comparison of ChEC&#8208;seq to NET&#8208;seq and microarray data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39941</offset>
+      <text>NET&#8208;seq data were aligned and normalized as described (Henikoff et&#160;al, 2011). The average NET&#8208;seq counts in a 200&#8208;bp window downstream of the TSS were then determined. Only NET&#8208;seq counts originating from the same strand as the analyzed TSS were considered for this analysis. All six genes used for visualization of ChEC&#8208;seq and ChIP&#8208;seq data in Fig&#160;1 were in the top 100 most highly transcribed genes as determined by the above metric, and each had an average of &#8805;&#160;5.12 NET&#8208;seq counts in the 200&#160;bp downstream of the TSS. For analysis of Mediator binding to genes with altered expression in SM, we only considered genes with a fold change &#8805;&#160;twofold and an annotated TSS. This yielded 674 upregulated and 803 downregulated genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40694</offset>
+      <text>Cumulative frequency analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40724</offset>
+      <text>Pairs_single_end_sizes.pl was used to generate bedgraphs normalized to the number of fragment ends mapped as described (Zentner et&#160;al, 2015). BEDOPS bedmap (Neph et&#160;al, 2012) was used to determine the average normalized counts in a specified window upstream of the TSS of each SAGA&#8208; and TFIID&#8208;dependent gene.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41039</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>41057</offset>
+      <text>Primary data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41070</offset>
+      <text>Gr&#252;nberg S, Henikoff S, Hahn S, Zentner GE (2016). Mediator binding to UASs is broadly uncoupled from transcription and cooperative with TFIID recruitment to promoters. Gene Expression Omnibus GSE81289.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>41274</offset>
+      <text>Referenced data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41290</offset>
+      <text>Churchman LS, Weissman JS (2011). Native elongating transcript sequencing (NET&#8208;seq) of wild type Saccharomyces cerevisiae and of DST1, RCO1, SET1, SET2, EAF3 deletion strains. Gene Expression Omnibus GSE25107 (NET&#8208;seq).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41514</offset>
+      <text>Jeronimo C, Robert F (2014). Kin28 Regulates the Transient Association of Mediator with Core Promoters. Gene Expression Omnibus GSE55402 (Med15 ChIP&#8208;chip).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41672</offset>
+      <text>MacIsaac KD, Wang T, Gordon DB, Gifford DK, Stormo GD, Fraenkel E (2006). An improved map of conserved regulatory sites for Saccharomyces cerevisiae. http://fraenkel.mit.edu/improved_map/ (Gcn4 ChIP&#8208;chip sites).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41886</offset>
+      <text>Natarajan K, Saint M (2014). Evolutionarily conserved C&#8208;terminal region of TAF9 is critical for SAGA and TFIID recruitment to promoters and transcriptional activation. Gene Expression Omnibus GSE44544 (Microarray expression data for control and SM treatment).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42148</offset>
+      <text>Wong KH, Jin Y, Struhl K (2014). Functional analysis of TFIIH (Kin28) in Saccharomyces cerevisiae. Sequence Read Archive SRX472130 (Med14 ChIP&#8208;seq).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42299</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42320</offset>
+      <text>SG, SHenikoff, SHahn, and GEZ designed the study. SG and GEZ performed experiments. SG and GEZ analyzed data. SG and GEZ wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42463</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42484</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>42544</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>42567</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">166</infon>
+      <infon key="pub-id_pmid">25693131</infon>
+      <infon key="fpage">155</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42578</offset>
+      <text>The Mediator complex: a central integrator of transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">192</infon>
+      <infon key="pub-id_pmid">16630888</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>42638</offset>
+      <text>Genome&#8208;Wide Location of the Coactivator Mediator: Binding without Activation and Transient Cdk8 Interaction on DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">21971086</infon>
+      <infon key="fpage">44</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42755</offset>
+      <text>Distinct role of Mediator tail module in regulation of SAGA&#8208;dependent, TATA&#8208;containing genes in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">16739</infon>
+      <infon key="pub-id_pmid">19805365</infon>
+      <infon key="fpage">16734</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>42861</offset>
+      <text>Mediator complex association with constitutively transcribed genes in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Transcription</infon>
+      <infon key="lpage">114</infon>
+      <infon key="pub-id_pmid">22771944</infon>
+      <infon key="fpage">110</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42937</offset>
+      <text>Selective role of Mediator tail module in the transcription of highly regulated genes in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2852</infon>
+      <infon key="pub-id_pmid">11909976</infon>
+      <infon key="fpage">2842</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>43032</offset>
+      <text>Requirement of TRAP/Mediator for both activator&#8208;independent and activator&#8208;dependent transcription in conjunction with TFIID&#8208;associated TAFIIs</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">709</infon>
+      <infon key="pub-id_pmid">15006352</infon>
+      <infon key="fpage">699</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>43180</offset>
+      <text>Identification and distinct regulation of yeast TATA Box&#8208;containing genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2012</infon>
+      <infon key="pub-id_pmid">25228644</infon>
+      <infon key="fpage">1999</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>43256</offset>
+      <text>The SAGA coactivator complex acts on the whole transcribed genome and is required for RNA polymerase II transcription</text>
+    </passage>
+    <passage>
+      <infon key="volume">409</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">113</infon>
+      <infon key="pub-id_pmid">11343124</infon>
+      <infon key="fpage">109</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>43374</offset>
+      <text>Telomere looping permits gene activation by a downstream UAS in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">567</infon>
+      <infon key="pub-id_pmid">19368889</infon>
+      <infon key="fpage">559</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>43444</offset>
+      <text>Mediator structural conservation and implications for the regulation mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">8260</infon>
+      <infon key="pub-id_pmid">3047680</infon>
+      <infon key="fpage">8245</infon>
+      <infon key="year">1988</infon>
+      <infon key="type">ref</infon>
+      <offset>43523</offset>
+      <text>The UAS of the yeast PGK gene is composed of multiple functional elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">469</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">373</infon>
+      <infon key="pub-id_pmid">21248844</infon>
+      <infon key="fpage">368</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>43597</offset>
+      <text>Nascent transcript sequencing visualizes transcription at nucleotide resolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">5335</infon>
+      <infon key="pub-id_pmid">17526728</infon>
+      <infon key="fpage">5327</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>43677</offset>
+      <text>NuA4&#8208;directed chromatin transactions throughout the Saccharomyces cerevisiae genome</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">21931670</infon>
+      <infon key="fpage">e24279</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>43763</offset>
+      <text>Transcription factor binding site positioning in yeast: proximal promoter motifs characterize TATA&#8208;less promoters</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2562</infon>
+      <infon key="pub-id_pmid">24298055</infon>
+      <infon key="fpage">2549</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43879</offset>
+      <text>Mediator links transcription and DNA repair by facilitating Rad2/XPG recruitment</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">120</infon>
+      <infon key="pub-id_pmid">16429153</infon>
+      <infon key="fpage">117</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43960</offset>
+      <text>Activator&#8208;specific recruitment of Mediator in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">19343176</infon>
+      <infon key="fpage">e5029</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>44014</offset>
+      <text>Where does Mediator bind in&#160;vivo?</text>
+    </passage>
+    <passage>
+      <infon key="volume">440</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">636</infon>
+      <infon key="pub-id_pmid">16429126</infon>
+      <infon key="fpage">631</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>44049</offset>
+      <text>Proteome survey reveals modularity of the yeast cell machinery</text>
+    </passage>
+    <passage>
+      <infon key="volume">415</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">147</infon>
+      <infon key="pub-id_pmid">11805826</infon>
+      <infon key="fpage">141</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>44112</offset>
+      <text>Functional organization of the yeast proteome by systematic analysis of protein complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Biophys J</infon>
+      <infon key="lpage">125</infon>
+      <infon key="pub-id_pmid">21190663</infon>
+      <infon key="fpage">117</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44202</offset>
+      <text>Sequence&#8208;specific ultrasonic cleavage of DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">932</infon>
+      <infon key="pub-id_pmid">18922474</infon>
+      <infon key="fpage">925</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>44249</offset>
+      <text>The anchor&#8208;away technique: rapid, conditional establishment of yeast mutant phenotypes</text>
+    </passage>
+    <passage>
+      <infon key="volume">83</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">407</infon>
+      <infon key="pub-id_pmid">22182244</infon>
+      <infon key="fpage">395</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44338</offset>
+      <text>Transcription regulation of the Saccharomyces cerevisiae PHO5 gene by the Ino2p and Ino4p basic helix&#8211;loop&#8211;helix proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">589</infon>
+      <infon key="pub-id_pmid">20513432</infon>
+      <infon key="fpage">576</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44464</offset>
+      <text>Simple combinations of lineage&#8208;determining transcription factors prime cis&#8208;regulatory elements required for macrophage and B cell identities</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18323</infon>
+      <infon key="pub-id_pmid">22025700</infon>
+      <infon key="fpage">18318</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44609</offset>
+      <text>Epigenome characterization at single base&#8208;pair resolution</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2390</infon>
+      <infon key="pub-id_pmid">20308326</infon>
+      <infon key="fpage">2376</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44669</offset>
+      <text>Mechanism of mediator recruitment by tandem Gcn4 activation domains and three Gal11 activator&#8208;binding domains</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Annu Rev Microbiol</infon>
+      <infon key="lpage">450</infon>
+      <infon key="pub-id_pmid">16153175</infon>
+      <infon key="fpage">407</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>44781</offset>
+      <text>Translational regulation of GCN4 and the general amino acid control of yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">728</infon>
+      <infon key="pub-id_pmid">9845373</infon>
+      <infon key="fpage">717</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>44858</offset>
+      <text>Dissecting the regulatory circuitry of a eukaryotic genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">162</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">119</infon>
+      <infon key="pub-id_pmid">26119342</infon>
+      <infon key="fpage">108</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44917</offset>
+      <text>Mapping nucleosome resolution chromosome folding in yeast by micro&#8208;C</text>
+    </passage>
+    <passage>
+      <infon key="volume">475</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">243</infon>
+      <infon key="pub-id_pmid">21725323</infon>
+      <infon key="fpage">240</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>44988</offset>
+      <text>Architecture of the Mediator head module</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">2455</infon>
+      <infon key="pub-id_pmid">19940160</infon>
+      <infon key="fpage">2438</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45029</offset>
+      <text>Activator Gcn4 employs multiple segments of Med15/Gal11, including the KIX domain, to recruit mediator to target genes in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">455</infon>
+      <infon key="pub-id_pmid">24704787</infon>
+      <infon key="fpage">449</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>45157</offset>
+      <text>Kin28 regulates the transient association of Mediator with core promoters</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Physiol Genomics</infon>
+      <infon key="lpage">92</infon>
+      <infon key="pub-id_pmid">11015603</infon>
+      <infon key="fpage">83</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>45231</offset>
+      <text>Global expression profiling of yeast treated with an inhibitor of amino&#160;acid biosynthesis, sulfometuron methyl</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">777</infon>
+      <infon key="pub-id_pmid">12725737</infon>
+      <infon key="fpage">772</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>45343</offset>
+      <text>Assembly of a Mediator/TFIID/TFIIA complex bypasses the need for an activator</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1863</infon>
+      <infon key="pub-id_pmid">12130544</infon>
+      <infon key="fpage">1852</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>45421</offset>
+      <text>TFIID and human mediator coactivator complexes assemble cooperatively on promoter DNA</text>
+    </passage>
+    <passage>
+      <infon key="volume">467</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">20720539</infon>
+      <infon key="fpage">430</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45507</offset>
+      <text>Mediator and cohesin connect gene expression and chromatin architecture</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">831</infon>
+      <infon key="pub-id_pmid">21149579</infon>
+      <infon key="fpage">818</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45579</offset>
+      <text>Domains of Tra1 important for activator recruitment and transcription coactivator functions of SAGA and NuA4 complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2489</infon>
+      <infon key="pub-id_pmid">10521393</infon>
+      <infon key="fpage">2484</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>45698</offset>
+      <text>TFIID&#8208;specific yeast TAF40 is essential for the majority of RNA polymerase II&#8208;mediated transcription in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">9273</infon>
+      <infon key="pub-id_pmid">23939621</infon>
+      <infon key="fpage">9266</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45812</offset>
+      <text>Model of the Mediator middle module based on protein cross&#8208;linking</text>
+    </passage>
+    <passage>
+      <infon key="volume">492</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">451</infon>
+      <infon key="pub-id_pmid">23123849</infon>
+      <infon key="fpage">448</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>45881</offset>
+      <text>Structure of the Mediator head module</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1244</infon>
+      <infon key="pub-id_pmid">12176335</infon>
+      <infon key="fpage">1240</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>45919</offset>
+      <text>Selective recruitment of TAFs by yeast upstream activating sequences:&#160;implications for eukaryotic promoter structure</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">1735</infon>
+      <infon key="pub-id_pmid">14749387</infon>
+      <infon key="fpage">1721</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>46037</offset>
+      <text>Two&#160;cyclin&#8208;dependent kinases promote RNA polymerase II transcription&#160;and&#160;formation of the scaffold complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">531</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">609</infon>
+      <infon key="pub-id_pmid">27007846</infon>
+      <infon key="fpage">604</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46149</offset>
+      <text>Structure of promoter&#8208;bound TFIID and model of human pre&#8208;initiation complex assembly</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">5581</infon>
+      <infon key="pub-id_pmid">23599004</infon>
+      <infon key="fpage">5569</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46238</offset>
+      <text>Sequence features of yeast and human core promoters that are predictive of maximal promoter activity</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Bioinformatics</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">16522208</infon>
+      <infon key="fpage">113</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>46339</offset>
+      <text>An improved map of conserved regulatory sites for Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">962</infon>
+      <infon key="pub-id_pmid">10783167</infon>
+      <infon key="fpage">951</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>46414</offset>
+      <text>Bromodomain factor 1 corresponds to a missing piece of yeast TFIID</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">11394</infon>
+      <infon key="pub-id_pmid">23476016</infon>
+      <infon key="fpage">11384</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46481</offset>
+      <text>Srb5/Med18&#8208;mediated termination of transcription is dependent on gene looping</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1920</infon>
+      <infon key="pub-id_pmid">22576172</infon>
+      <infon key="fpage">1919</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46561</offset>
+      <text>BEDOPS: high&#8208;performance genomic feature operations</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24349523</infon>
+      <infon key="fpage">e83506</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46615</offset>
+      <text>Widespread misinterpretable ChIP&#8208;seq bias in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">342</infon>
+      <infon key="pub-id_pmid">25368384</infon>
+      <infon key="fpage">331</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46668</offset>
+      <text>Genome&#8208;wide association of mediator and RNA polymerase II in wild&#8208;type and mediator mutant yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">14</infon>
+      <infon key="pub-id_pmid">24996062</infon>
+      <infon key="fpage">5</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46769</offset>
+      <text>Enhancer function: mechanistic and genome&#8208;wide insights come together</text>
+    </passage>
+    <passage>
+      <infon key="volume">518</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">380</infon>
+      <infon key="pub-id_pmid">25652824</infon>
+      <infon key="fpage">376</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46841</offset>
+      <text>Architecture of the RNA polymerase II&#8208;Mediator core initiation complex</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Rep</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24681819</infon>
+      <infon key="fpage">4532</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46914</offset>
+      <text>Non&#8208;random DNA fragmentation in next&#8208;generation sequencing</text>
+    </passage>
+    <passage>
+      <infon key="volume">201</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">612</infon>
+      <infon key="pub-id_pmid">26281848</infon>
+      <infon key="fpage">599</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46977</offset>
+      <text>Analysis of polygenic mutants suggests a role for mediator in regulating transcriptional activation distance in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">1563</infon>
+      <infon key="pub-id_pmid">24550006</infon>
+      <infon key="fpage">1547</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47114</offset>
+      <text>The TAF9 C&#8208;terminal conserved region&#160;domain&#160;is required for SAGA and TFIID promoter occupancy&#160;to&#160;promote transcriptional activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">104</infon>
+      <infon key="pub-id_pmid">21729782</infon>
+      <infon key="fpage">92</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47252</offset>
+      <text>Human mediator subunit MED26 functions as a docking site for transcription elongation factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">543</infon>
+      <infon key="pub-id_pmid">18722179</infon>
+      <infon key="fpage">531</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>47346</offset>
+      <text>Dominant and redundant functions of TFIID involved in the regulation of hepatic genes</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">19693276</infon>
+      <infon key="fpage">e6700</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>47432</offset>
+      <text>Impact of chromatin structures on DNA processing for genomic analyses</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">18607</infon>
+      <infon key="pub-id_pmid">24173036</infon>
+      <infon key="fpage">18602</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>47502</offset>
+      <text>Highly expressed loci are vulnerable to misleading ChIP localization of multiple unrelated proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1444</infon>
+      <infon key="pub-id_pmid">24882805</infon>
+      <infon key="fpage">1430</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47602</offset>
+      <text>Subunit architecture and functional modular rearrangements of the transcriptional mediator complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">4607</infon>
+      <infon key="pub-id_pmid">12888520</infon>
+      <infon key="fpage">4597</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>47701</offset>
+      <text>The essential transcription factor Reb1p interacts with the CLB2 UAS outside of the G2/M control region</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">19367334</infon>
+      <infon key="fpage">e5241</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>47805</offset>
+      <text>Inherent signals in sequencing&#8208;based Chromatin&#8208;ImmunoPrecipitation control libraries</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">808</infon>
+      <infon key="pub-id_pmid">24810298</infon>
+      <infon key="fpage">796</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47894</offset>
+      <text>Redefining the modular organization of the core Mediator complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">612</infon>
+      <infon key="pub-id_pmid">24746699</infon>
+      <infon key="fpage">601</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47959</offset>
+      <text>TFIIH phosphorylation of the Pol II CTD stimulates mediator dissociation from the preinitiation complex and promoter escape</text>
+    </passage>
+    <passage>
+      <infon key="volume">457</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1037</infon>
+      <infon key="pub-id_pmid">19169243</infon>
+      <infon key="fpage">1033</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>48083</offset>
+      <text>Bidirectional promoters generate pervasive transcription in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">7305</infon>
+      <infon key="pub-id_pmid">26082499</infon>
+      <infon key="fpage">7292</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>48149</offset>
+      <text>Decoupling of divergent gene regulation by sequence&#8208;specific DNA binding factors</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">26490019</infon>
+      <infon key="fpage">8733</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>48232</offset>
+      <text>ChEC&#8208;seq kinetics discriminates transcription factor binding sites by DNA sequence and shape in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">8354</infon>
+      <infon key="pub-id_pmid">21742760</infon>
+      <infon key="fpage">8342</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>48336</offset>
+      <text>Histone modifications influence mediator interactions with chromatin</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,992 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5286383</id>
+    <passage>
+      <infon key="name_2">surname:Higgs;given-names:Nathalie F</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_0">surname:Vaccaro;given-names:Victoria</infon>
+      <infon key="name_1">surname:Devine;given-names:Michael J</infon>
+      <infon key="alt-title">Victoria Vaccaro et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642710</infon>
+      <infon key="name_3">surname:Kittler;given-names:Josef T</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <infon key="article-id_doi">10.15252/embr.201642710</infon>
+      <infon key="article-id_pmid">28039205</infon>
+      <infon key="lpage">240 240</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="article-id_pmc">5286383</infon>
+      <infon key="volume">18 18</infon>
+      <infon key="fpage">231 231</infon>
+      <infon key="year">2017</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">2</infon>
+      <infon key="kwd">homeostatic Miro1 mitochondria plasticity synapse Membrane &amp; Intracellular Transport Neuroscience</infon>
+      <offset>0</offset>
+      <text>Miro1&#8208;dependent mitochondrial positioning drives the rescaling of presynaptic Ca2+ signals during homeostatic plasticity</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>123</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>132</offset>
+      <text>Mitochondrial trafficking is influenced by neuronal activity, but it remains unclear how mitochondrial positioning influences neuronal transmission and plasticity. Here, we use live cell imaging with the genetically encoded presynaptically targeted Ca2+ indicator, SyGCaMP5, to address whether presynaptic Ca2+ responses are altered by mitochondria in synaptic terminals. We find that presynaptic Ca2+ signals, as well as neurotransmitter release, are significantly decreased in terminals containing mitochondria. Moreover, the localisation of mitochondria at presynaptic sites can be altered during long&#8208;term activity changes, dependent on the Ca2+&#8208;sensing function of the mitochondrial trafficking protein, Miro1. In addition, we find that Miro1&#8208;mediated activity&#8208;dependent synaptic repositioning of mitochondria allows neurons to homeostatically alter the strength of presynaptic Ca2+ signals in response to prolonged changes in neuronal activity. Our results support a model in which mitochondria are recruited to presynaptic terminals during periods of raised neuronal activity and are involved in rescaling synaptic signals during homeostatic plasticity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1301</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1314</offset>
+      <text>Mitochondria play an important role in maintaining neuronal function due to their ability to produce the energy substrate ATP and to buffer local Ca2+ rises 1, 2, 3. Presynaptic Ca2+ signals trigger vesicular release and their amplitude is known to influence synaptic transmission 4, 5. Previous pharmacological studies suggest that mitochondria can efficiently buffer Ca2+ in presynaptic terminals 6, 7. However, only a subset of presynaptic terminals within the same axon may contain mitochondria 8, and the impact of mitochondrial occupancy on presynaptic Ca2+ signalling and vesicular release in individual terminals within the same axon remains poorly understood.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1983</offset>
+      <text>Homeostatic plasticity plays a central role in stabilising network activity by rescaling synaptic weights and neuronal excitability in accordance with the activity level of neurons 9. The homeostatic rescaling of the efficiency of synapses in order to avoid extreme levels of activity is dependent on changes in both presynaptic and postsynaptic function 9, 10, 11. Interestingly, recent developments in imaging Ca2+ signals using genetically encoded presynaptically targeted Ca2+ indicators have shown that presynaptic Ca2+ responses undergo homeostatic plasticity 12. It is unclear however how the reported rescaling of presynaptic Ca2+ signals is mediated and whether mitochondrial Ca2+ buffering can play a role in homeostatic changes of neuronal transmission efficiency.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2759</offset>
+      <text>Mitochondrial positioning can be regulated by neuronal activity, dependent on the mitochondrial trafficking protein Miro1 13, 14, 15. Miro1 is located in the outer mitochondrial membrane and contains two Ca2+&#8208;sensing EF&#8208;hand domains by which it responds to local Ca2+ signalling to interrupt mitochondrial trafficking, thus depositing mitochondria at subcellular locations of high activity 13, 14, 16. However, whether mitochondrial positioning at synapses is altered during long&#8208;term changes in neuronal activity and whether a role exists for Miro1&#8208;mediated mitochondrial trafficking in the tuning of synaptic mitochondrial occupancy remains unclear.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3419</offset>
+      <text>Here, by imaging presynaptic Ca2+ 17 and mitochondrial positioning in multiple terminals of the same axon, we show that mitochondrial occupancy determines presynaptic Ca2+ responses and can also affect vesicular release. Moreover, we demonstrate that mitochondrial localisation at presynaptic terminals is tuned by long&#8208;term changes in network activity dependent on Miro1&#8208;mediated mitochondrial trafficking. Further, we show that baseline Ca2+ responses and homeostatic changes in the presynaptic response are altered in the absence of Miro1&#8208;mediated Ca2+&#8208;dependent positioning of mitochondria. This provides evidence for a novel mechanism by which mitochondria can alter presynaptic transmission and play a role in the tuning of synaptic signals during homeostatic plasticity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>4205</offset>
+      <text>Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4228</offset>
+      <text>In order to investigate a potential difference in the Ca2+ signals evoked in presynaptic terminals containing mitochondria compared to terminals without mitochondria, we co&#8208;transfected hippocampal cultures with the mitochondrial marker MtDsRed and the presynaptically targeted version of the genetically encoded Ca2+ indicator GCaMP5 (based on SyGCaMP2 and GCaMP5 17, 18). Labelling of SyGCaMP5&#8208;transfected neurons with the presynaptic markers SV2 and Piccolo confirmed that the indicator is presynaptically targeted (Fig EV1) and, using this approach, terminals with mitochondria could be easily distinguished from those without by merging both acquisition channels (Fig 1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>4909</offset>
+      <text>SyGCaMP5 is localised to presynaptic terminals and not saturated during 10 Hz stimulation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4999</offset>
+      <text>Diagram representing the SyGCaMP5 vector.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5041</offset>
+      <text>Hippocampal neurons transfected with SyGCaMP5 (green) and immunostained with anti&#8208;SV2 (B) or Piccolo (C) to label presynaptic terminals. Arrowheads indicate SyGCaMP5 clusters positive for Piccolo. Scale bars: 10 &#956;m (B), 5 &#956;m (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5275</offset>
+      <text>Hippocampal neurons transfected with SyGCaMP5 and immunostained with tau to label the axon and MAP2 to label the somato&#8208;dendritic region. Scale bar, 30 &#956;m. (i, ii) High&#8208;magnification images of the cell body (i) and axon (ii), verifying that the construct SyGCaMP5 is targeted to presynaptic sites. Scale bar, 10 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5597</offset>
+      <text>Example trace of a hippocampal neuron transfected with SyGCaMP5. During time points 20&#8211;30 s, 10&#8208;Hz field stimulation (10 V) was applied followed by high KCl treatment (50 mM KCl).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5781</offset>
+      <text>Summary bar graph represents the average fluorescence during stimulation (between time points 20 and 30 s, &#916;F/F 0 = 1.7 &#177; 0.2) and the average fluorescence during the first five frames of KCl treatment (&#916;F/F 0 = 2.8 &#177; 0.4, **P &lt; 0.001, paired t&#8208;test, n = 3 neurons).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6058</offset>
+      <text> Data information: Experiments were performed in E18 and P0 rat hippocampal neuronal cultures at DIV 8&#8211;10. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6193</offset>
+      <text>Mitochondrial occupancy decreases presynaptic Ca2+ signals</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6252</offset>
+      <text>Live images of neurons co&#8208;transfected with SyGCaMP5 and MtDsRed before and during 10 Hz field stimulation. The full arrow indicates a mitochondrially occupied terminal and the empty arrow a terminal without a mitochondrion. Scale bar, 10 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6497</offset>
+      <text>Average &#916;F/F 0 SyGCaMP5 traces from n = 11 neurons (98 terminals) plotting the average of terminals without a mitochondrion (black trace) and with a mitochondrion (red trace). Stimulation occurred for 10 s (t = 20&#8211;30) at 10 Hz.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6729</offset>
+      <text>Average Ca2+ response following stimulation in terminals with or without a mitochondrion (average of &#916;F measurement taken for a &#916;t = 20&#8211;30 s of B), &#916;F/F 0 = 1.9 &#177; 0.3 with and 3.5 &#177; 0.4 without mitochondria, paired t&#8208;test, ***P &lt; 0.0001.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6981</offset>
+      <text>There is no significant difference in the presynaptic Ca2+ response in terminals with and without a mitochondrion in response to single action potentials. (D) Example trace of hippocampal neurons transfected with MtDsRed and SyGCaMP5. 1 ms stimulation pulses were applied every 5 s. The red trace represents an average of the terminals occupied with a mitochondrion in this neuron, whereas the black trace represents the averaged response of terminals without a mitochondrion. (E) Maximal fluorescence intensity in terminals without a mitochondrion (left) or with a mitochondrion (right) within the same axon (dots connected by a line) (n = 8 neurons, 44 terminals, paired t&#8208;test, P = 0.55).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7675</offset>
+      <text>Average &#916;F/F 0 SyGCaMP5 traces for 80 stimuli (n = 7 neurons, 21 terminals, &#916;t = 20&#8211;28 s, &#916;F/F 0 = 1.3 &#177; 0.2 with and 2.2 &#177; 0.5 without mitochondria, paired t&#8208;test, *P &lt; 0.05), 40 stimuli (n = 5 neurons, 25 terminals, &#916;t = 20&#8211;24 s, &#916;F/F 0 = 0.9 &#177; 0.3 with and 2.0 &#177; 0.4 without mitochondria, paired t&#8208;test, *P &lt; 0.05), 20 stimuli (n = 10 neurons, 55 terminals, &#916;t = 20&#8211;22 s, &#916;F/F 0 = 0.8 &#177; 0.4 with and 1.8 &#177; 0.4 without mitochondria, paired t&#8208;test, *P &lt; 0.05) and 10 stimuli (n = 4 neurons, 21 terminals, &#916;t = 20&#8211;21 s, &#916;F/F 0 = 0.4 &#177; 0.3 with and 0.4 &#177; 0.1 without mitochondria, paired t&#8208;test, P = 0.90), all delivered at 10 Hz.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8349</offset>
+      <text> Data information: Experiments were performed in E18 or P0 rat hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8484</offset>
+      <text>While stimulating neurons electrically, with extracellular field electrodes at 10 Hz for 10 s (thus generating 100 action potentials (APs); see Materials and Methods), we compared the average presynaptic Ca2+ signal and found that, in terminals without mitochondria, the average Ca2+ signal during the time of stimulation (t = 20&#8211;30 s) was significantly greater (&#916;F/F 0 = 3.5 &#177; 0.4) than in terminals containing mitochondria (&#916;F/F 0 = 1.9 &#177; 0.3, n = 11 neurons, 91 terminals, P &lt; 0.001; Fig 1B and C). Importantly, the mean stimulation &#916;F/F 0 is not determined by the unnormalised baseline fluorescence within each terminal (r = 0.05, P &gt; 0.2 for n = 90 terminals; Fig EV2A). Further, there is no significant difference between the baseline fluorescence signals in those terminals occupied with a mitochondrion compared to those without (P = 0.1; Fig EV2A). In contrast, upon a very brief stimulation of 1 ms, which should only lead to initiation of a single AP (Fig 1D and E), we did not observe a significant difference in the presynaptic Ca2+ responses when those terminals occupied by a mitochondrion were compared to terminals in the same axon not occupied by a mitochondrion (Fig 1D and E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9695</offset>
+      <text>SyGCaMP5 baseline fluorescence does not correlate with &#916;F/F 0 reached and number of stimuli, not frequency, determines mitochondrial modulation of presynaptic Ca2+ response</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9872</offset>
+      <text>Scatterplot of the mean plateau fluorescence of SyGCaMP5 that is reached, plotted against the baseline fluorescence (average of time points 1&#8211;20 s) of each terminal analysed. Experiments were performed in P0 rat hippocampal neuronal cultures at DIV 10&#8211;12.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10132</offset>
+      <text>Average &#916;F/F 0 SyGCaMP5 traces for 10 stimuli delivered at (i) 10 Hz (recorded at maximum frames per second, n = 13 neurons, 44 terminals, &#916;F/F 0 = 1.0 &#177; 0.2 with and 1.2 &#177; 0.3 without mitochondria, paired t&#8208;test, P = 0.68) and (ii) 100 Hz (recorded at maximum frames per second, n = 4 neurons, 18 terminals, &#916;F/F 0 = 0.8 &#177; 0.2 with and 0.8 &#177; 0.2 without mitochondria, paired t&#8208;test, P = 0.60) did not demonstrate differences between synapses with and without mitochondria. In contrast, differences were observed when 20 stimuli were delivered, whether at (iii) 5 Hz (recorded at 1 frame per second, n = 11 neurons, 58 terminals, &#916;F/F 0 = 0.9 &#177; 0.2 with and 1.3 &#177; 0.4 without mitochondria, paired t&#8208;test, *P &lt; 0.05) or (iv) 100 Hz (recorded at maximum frames per second, n = 12 neurons, 87 terminals, &#916;F/F 0 = 1.2 &#177; 0.3 with and 1.7 &#177; 0.4 without mitochondria, paired t&#8208;test, *P &lt; 0.05). Experiments were performed in E18 rat hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11156</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11159</offset>
+      <text>Therefore, we sought to determine the threshold number of stimuli that was required to elicit a significant difference in presynaptic Ca2+ response in the presence of a mitochondrion. We found that a train of 10 stimuli (10 APs) was insufficient to generate a difference in Ca2+ response (&#916;F/F 0 = 0.4 &#177; 0.3 with and 0.4 &#177; 0.1 without mitochondria, n = 3 neurons, 21 terminals, P = 0.90; Fig 1F). This was verified in a separate data set obtained at maximum acquisition frame rate of ~18 frames per second (&#916;F/F 0 = 1.0 &#177; 0.2 with and 1.2 &#177; 0.3 without mitochondria, n = 13 neurons, 44 terminals, P = 0.68; Fig EV2B), to exclude the possibility that transient differences were missed when data were acquired at 1 frame per second. In contrast, trains of stimuli &#8805; 20 were sufficient to generate a difference in presynaptic Ca2+ response (20 stimuli: &#916;F/F 0 =0.8 &#177; 0.4 with and 1.8 &#177; 0.4 without mitochondria, n = 10 neurons, 55 terminals, *P &lt; 0.05; 40 stimuli: &#916;F/F 0 = 0.9 &#177; 0.3 with and 2.0 &#177; 0.4 without mitochondria, n = 5 neurons, 25 terminals, *P &lt; 0.05; 80 stimuli: &#916;F/F 0 = 1.3 &#177; 0.2 with and 2.2 &#177; 0.5 without mitochondria, n = 7 neurons, 21 terminals, *P &lt; 0.05; Fig 1F). Next, we varied the frequency at which these stimuli were delivered, to see whether the rate of rise in presynaptic Ca2+ would have an impact on the ability of mitochondria to buffer this signal. The differences observed at 20 stimuli were maintained across a range of frequencies (5 Hz: &#916;F/F 0 = 0.9 &#177; 0.2 with and 1.3 &#177; 0.4 without mitochondria, n = 11 neurons, 58 terminals, *P &lt; 0.05; 100 Hz: &#916;F/F 0 = 1.2 &#177; 0.3 with and 1.7 &#177; 0.4 without mitochondria, n = 12 neurons, 87 terminals, *P &lt; 0.05; Fig EV2B). In contrast, no differences were observed with 10 stimuli delivered at 100 Hz (&#916;F/F 0 = 0.8 &#177; 0.2 with and 0.8 &#177; 0.2 without mitochondria, n = 4 neurons, 18 terminals, P = 0.60; Fig EV2B), despite the more rapid delivery of APs and thus more rapid rise in presynaptic Ca2+.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13174</offset>
+      <text>These findings suggest that even though single APs can generate small mitochondrial Ca2+ transients 19, mitochondria are more relevant as Ca2+ buffers after prolonged stimulation. This agrees with previous studies suggesting that mitochondria play a role after Ca2+ has accumulated in the presynaptic terminal 20, 21 and is also supported by earlier less direct studies which demonstrate that either pharmacological inhibition of mitochondrial Ca2+ buffering or genetic intervention to direct mitochondria out of terminals increases presynaptic Ca2+ responses 6, 22, 23, 24, 25. The threshold of 20 stimuli could correspond to depletion of the entire readily releasable pool of neurotransmitter vesicles, because this is thought to be fully released within 2 s of 20 Hz stimulation 26.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13960</offset>
+      <text>We then asked whether the observed difference in Ca2+ response is due to mitochondrial Ca2+ uptake mediated by the mitochondrial Ca2+ uniporter (MCU) and thus used 30 min Ru360 treatment to block its activity. In the control cultures, presynaptic terminals containing a mitochondrion had a decreased mean Ca2+ signal (&#916;F/F 0 = 3.5 &#177; 0.4) compared to terminals without a mitochondrion (&#916;F/F 0 = 4.9 &#177; 0.5; Fig 2A and C; n = 15 neurons, 96 terminals, ***P &lt; 0.001). When MCU activity was blocked, the presence of mitochondria no longer affected the mean stimulation Ca2+ signal &#916;F/F 0 (Fig 2B and D; 4.1 &#177; 0.5 for mitochondrially occupied terminals and 3.8 &#177; 0.9 for terminals without a mitochondrion, n = 13 neurons, 79 terminals, P = 0.53). Thus, mitochondria play a key role in the regulation of the size of presynaptic Ca2+ signals during trains of action potentials, contingent on their ability to buffer Ca2+ in the terminal via MCU.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14914</offset>
+      <text>Presynaptic mitochondrial Ca2+ buffering depends upon MCU activity</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14981</offset>
+      <text>Average trace of hippocampal neurons transfected with MtDsRed and SyGCaMP5 imaged after incubation in ACSF (A) and treatment with 10 &#956;M Ru360 (B) for 30 min. Neurons were stimulated using field stimulation for 10 s at 10 Hz. Red trace = average of the terminals occupied with a mitochondrion; black trace = averaged response of terminals without a mitochondrion (n = 15 neurons, 96 terminals in A; n = 13 neurons, 79 terminals in B; ***P &lt; 0.001, paired t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15447</offset>
+      <text>Summary bar graph of the control neurons (corresponding to the traces shown in panel A). Average Ca2+ response (&#916;t = 20&#8211;30 s) following stimulation for terminals occupied by a mitochondrion (&#916;F/F 0 = 3.5 &#177; 0.4) and unoccupied terminals (&#916;F/F 0 = 4.9 &#177; 0.5, n = 15 neurons, 96 terminals, ***P &lt; 0.001, paired t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15778</offset>
+      <text>Summary bar graph of the Ru360&#8208;treated neurons (corresponding to the traces shown in panel B). Average Ca2+ response (&#916;t = 20&#8211;30 s) following stimulation for terminals occupied by a mitochondrion (&#916;F/F 0 = 4.1 &#177; 0.5) and unoccupied terminals (&#916;F/F 0 = 3.8 &#177; 0.9, n = 13 neurons, 79 terminals, P = 0.53, paired t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16111</offset>
+      <text> Data information: Experiments were performed in P0 rat hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16239</offset>
+      <text>Having established that mitochondrial occupancy and Ca2+ buffering can significantly affect presynaptic Ca2+ signals at individual synapses, we determined whether the presence of mitochondria impacts on transmitter release. To image vesicular release, we used the superecliptic pHluorin&#8208;based probe, VGlut1pHluorin, while imaging mitochondrial positioning with a mitochondrially targeted variant of LSS&#8208;mKate2 (Fig 3A) 27, 28. When stimulating the neurons for 20 s at 10 Hz, we observed a significant increase in the VGlut1pHluorin average signal in terminals without a mitochondrion compared to those terminals occupied by a mitochondrion within the same axon (&#916;F/F 0 = 3.2 &#177; 0.7, terminals without mitochondria; &#916;F/F 0 = 2.3 &#177; 0.9, terminals with mitochondria; n = 9 neurons, 66 terminals, *P &lt; 0.05; Fig 3B and C). These findings suggest that the presence of mitochondria decreases local Ca2+ signals via MCU, leading to less vesicular fusion. While presynaptic Ca2+ signalling and vesicular release have previously been shown to be unaffected by MCU knockdown 29, in this study no separation was made between terminals containing or not a mitochondrion, which may have led to an underestimation of the mitochondrial impact on presynaptic Ca2+ due to the simultaneous sampling of all synapses.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>17546</offset>
+      <text>Vesicular release is reduced in the presence of mitochondria</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17607</offset>
+      <text>Example images of hippocampal neurons co&#8208;transfected with Mito&#8208;mKate2 and VGlut1pHluorin before and during field stimulation. The white arrow indicates a terminal occupied with a mitochondrion, while the empty arrow indicates a terminal without a mitochondrion. Scale bar, 5 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17891</offset>
+      <text>Average traces of presynaptic terminals of hippocampal neurons transfected with VGlut1pHluorin and Mito&#8208;mKate2 and stimulated using field stimulation at 10 Hz for 20 s (40&#8211;60 s). Terminals with a mitochondrion are represented by the red trace, and terminals without are represented by the black trace.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18197</offset>
+      <text>Summary graph corresponds to the traces shown in panel (B). Mean stimulation fluorescence (time points 60&#8211;70 s) comparing terminals of the same axon which contain mitochondria (right, &#916;F/F 0 = 2.3 &#177; 0.9) compared to terminals without mitochondria (left, &#916;F/F 0 = 3.2 &#177; 0.7; n = 9 neurons, 66 terminals, *P &lt; 0.05, paired t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18537</offset>
+      <text> Data information: Experiments were performed in P0 rat hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18665</offset>
+      <text>Next, we sought to establish whether mitochondrial occupancy could determine activity&#8208;dependent changes in presynaptic Ca2+ signalling, via modulating the size of the presynaptic Ca2+ response. Mitochondria have been observed to stop in axons and at postsynaptic terminals in response to local activity 13, 14, but whether prolonged changes in neuronal activity lead to a redistribution of mitochondria to and from synapses remains unclear. In order to investigate whether long&#8208;term changes in neuronal activity (48 h) alter the recruitment of mitochondria to presynaptic terminals, we co&#8208;transfected neurons with synaptophysin&#8211;GFP (SYN&#8208;GFP) to label presynaptic terminals and MtDsRed to label mitochondria (Fig 4A) and quantified the co&#8208;localisation of these two reporters. The resulting fraction of terminals with mitochondria (34.3% &#177; 3.6) is similar to previous findings 8. To decrease network activity, we treated neurons with the sodium channel blocker tetrodotoxin (TTX) (1 &#956;M, 48 h), whereas an increase in activity was achieved by applying the GABAA receptor antagonist picrotoxin (PTX) (100 &#956;M, 48 h) 30. Silencing neurons with TTX led to a significant decrease in the fraction of SYN&#8208;GFP clusters containing a mitochondrion (16.6% &#177; 3.1, P &lt; 0.01), whereas conversely increasing neuronal activity, driven by PTX treatment, increased the fraction of SYN&#8208;GFP synapses containing mitochondria compared to control (DMSO vehicle control 28.7% &#177; 3.9, PTX 50.0% &#177; 7.2, **P &lt; 0.01; Fig 4A and D) indicating that long&#8208;term activity serves to alter mitochondrial occupancy at the synapse. Importantly, the density of mitochondria (mitochondria/&#956;m: control 0.103 &#177; 0.01, TTX 0.108 &#177; 0.01, DMSO 0.126 &#177; 0.02, PTX 0.127 &#177; 0.02; P &gt; 0.05) and SYN&#8208;GFP clusters (synapse/&#956;m: control 0.218 &#177; 0.01, TTX 0.205 &#177; 0.01, DMSO 0.231 &#177; 0.01, PTX 0.218 &#177; 0.02; P &gt; 0.05) throughout the axon was unaltered following both TTX and PTX treatments (Fig EV3A and B). Therefore, variations in mitochondrial occupancy of presynaptic terminals are due to changes in the location of mitochondria, rather than an overall change in the number of mitochondria or synapses in the axon, and the redistribution of mitochondria is from a local and previously available pool. A recent paper illustrated that the frequency of short mitochondrial pauses at synapses is increased when neuronal cultures are stimulated using field stimulation and that a block of neuronal activity using TTX leads to an increase in mitochondrial velocity in the axon 31, which may explain how we come to observe our changes in occupancy after long&#8208;term treatment with PTX and TTX, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21345</offset>
+      <text>Neuronal activity influences mitochondrial occupancy of presynaptic terminals in a Miro1&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21453</offset>
+      <text>Confocal images of neuronal processes of fixed neurons transfected with (A) MtDsRed and SYN&#8208;GFP and (B) myc&#8208;Miro1 (Miro OE) or (C) myc&#8208;Miro1&#916;EF (Miro &#916;EF). Neurons are either non&#8208;treated (NT), TTX&#8208;treated (1 &#956;M, 48 h), PTX&#8208;treated (100 &#956;M, 48 h) or DMSO&#8208;treated (1:2,000, as PTX). Scale bars, 10 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21772</offset>
+      <text>Fraction of SYN&#8208;GFP clusters co&#8208;localising with mitochondria in cultures in (D) control conditions (DMSO 28.7% &#177; 3.9, TTX 16.6% &#177; 3.1, PTX 50.0% &#177; 7.2, ANOVA **P &lt; 0.001, n = 8&#8211;9 neurons), (E) with the expression of myc&#8208;Miro1 (DMSO 33.9% &#177; 4.7, TTX 35.9% &#177; 5.4, PTX 46.7% &#177; 4.0, ANOVA *P &lt; 0.05, n = 8&#8211;9) or (F) with the expression of myc&#8208;Miro1&#916;EF (ANOVA P &gt; 0.05, n = 9&#8211;12).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22169</offset>
+      <text> Data information: Experiments were performed in E16 mouse hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22300</offset>
+      <text>Quantity of axonal mitochondria and synaptic boutons is unchanged following homeostatic plasticity, and mitochondrial modulation of presynaptic vesicular release is maintained following picrotoxin treatment</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22507</offset>
+      <text>Quantification of the number of mitochondria (A) and SYN&#8208;GFP clusters (B) per &#956;m in control versus TTX&#8208; and PTX&#8208;treated axons (n = 12 axons, ANOVA P &gt; 0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22672</offset>
+      <text>Average traces of presynaptic terminals of hippocampal neurons transfected with VGlut1pHluorin and Mito&#8208;mKate2 after 48 h of treatment with picrotoxin and stimulated using field stimulation at 10 Hz for 20 s (40&#8211;60 s). Terminals with a mitochondrion are represented by the red trace, and terminals without are represented by the black trace. (D) Summary graph corresponds to the traces shown in panel (C). Mean stimulation fluorescence (time points 60&#8211;70 s) is compared in terminals of the same neuron which contain mitochondria (right, &#916;F/F 0 = 2.4 &#177; 0.4) compared to terminals without mitochondria (left, &#916;F/F 0 = 3.1 &#177; 0.3) (n = 12 neurons, 58 terminals, *P &lt; 0.05, paired t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23369</offset>
+      <text> Data information: Experiments were performed in E18 rat hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23498</offset>
+      <text>To confirm that the mitochondrial impact on vesicular release persists after PTX&#8208;induced mitochondrial redistribution, we imaged vesicular release with VGlut1pHluorin with respect to mitochondrial position (with LSS&#8208;mKate) following 48 h of PTX treatment. When stimulating neurons for 20 s at 10 Hz, we again detected a significant increase in VGlut1pHluorin signal in terminals without a mitochondrion compared to terminals occupied by a mitochondrion within the same axon (&#916;F/F 0 = 3.1 &#177; 0.3, terminals without mitochondria; &#916;F/F 0 = 2.4 &#177; 0.4, terminals with mitochondria; n = 12 neurons, 58 terminals, *P &lt; 0.05; Fig EV3C and D). Thus mitochondria are capable of downregulating vesicular release following their activity&#8208;dependent synaptic recruitment, which could contribute to the homeostatic rescaling of synaptic signals in response to a prolonged elevation of network activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24395</offset>
+      <text>To further explore the mechanism of activity&#8208;dependent change in mitochondrial occupancy, we asked whether Miro1&#8208;mediated trafficking might play a role in long&#8208;term alterations in mitochondrial positioning. To evaluate whether the relocation of mitochondria upon prolonged activity changes is dependent on Miro1&#8208;mediated stopping of mitochondria at presynaptic sites, we expressed wild&#8208;type Miro1 (myc&#8208;Miro1) and a Ca2+&#8208;insensitive mutant, &#916;EF&#8208;Miro1 13, to uncouple constitutive from activity&#8208;dependent mitochondrial trafficking (Fig EV4A&#8211;C). Overexpression of both Miro1 and &#916;EF&#8208;Miro1 had no effect on the formation or localisation of SYN&#8208;GFP clusters (Fig EV4D and E). However, upon expression of wild&#8208;type Miro1, the fraction of SYN&#8208;GFP puncta overlapping MtDsRed was no longer decreased after TTX treatment, but PTX treatment still led to an increase in co&#8208;localisation (Fig 4B and E). Expression of &#916;EF&#8208;Miro1 on the other hand suppressed any activity&#8208;dependent changes in mitochondrial occupancy upon PTX and TTX treatment (Fig 4C and F). Inactivity induced by glutamate receptor blockade (APV: 100 &#956;M, NBQX: 10 &#956;M, 24 h), known to initiate presynaptic homeostatic plasticity due to a compensatory increase in presynaptic release probability 32, also resulted in a change in mitochondrial presynaptic occupancy (control 0.302 &#177; 0.02, APV + NBQX 0.214 &#177; 0.02, t&#8208;test *P &lt; 0.05; Fig EV4F). These activity&#8208;dependent changes were again inhibited following the expression of &#916;EF&#8208;Miro1 (control 0.256 &#177; 0.03, APV + NBQX 0.259 &#177; 0.05; Fig EV4H).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25989</offset>
+      <text>Co&#8208;transfection of MtDsRed and &#8710;EF&#8208;Miro1&#8208;myc/Miro1&#8208;myc does not affect the localisation of synapses</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26099</offset>
+      <text>Example images of hippocampal neurons used for analysis in Fig 3. Neurons transfected with &#8710;EF&#8208;Miro1&#8208;myc (A) or Miro1&#8208;myc (B) are co&#8208;stained with anti&#8208;myc antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26276</offset>
+      <text>Hippocampal neurons transfected with MtDsRed alone and stained with anti&#8208;myc antibody. It can be seen that staining with anti&#8208;myc did not label the MtDsRed&#8208;transfected neuron. Scale bar, 40 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26477</offset>
+      <text>Hippocampal neurons transfected with SYN&#8208;GFP, MtDsRed, and Miro1 or &#8710;EF&#8208;Miro1 and immunostained with Piccolo to label presynaptic terminals. Arrowheads indicate SYN&#8208;GFP clusters that are positive for Piccolo. Scale bar, 5 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26712</offset>
+      <text>Quantification of the density of SYN&#8208;GFP clusters within the axon of control neurons expressing MtDsRed alone, or those expressing Miro1 or &#8710;EF&#8208;Miro1 (processes: control n = 42, Miro1 n = 28, &#8710;EF&#8208;Miro1 n = 33, ANOVA ns).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26943</offset>
+      <text>Fraction of SYN&#8208;GFP clusters co&#8208;localising with mitochondria, following postsynaptic glutamate receptor block (APV: 100 &#956;M, NBQX: 10 &#956;M, 24 h) in (F) control conditions (NT: 0.302 &#177; 0.02, n = 43; APV + NBQX: 0.214 &#177; 0.02, n = 36; t&#8208;test, **P &lt; 0.01), (G) with the expression of Miro1 (NT: 0.315 &#177; 0.03, n = 26; APV + NBQX: 0.287 &#177; 0.03, n = 25; t&#8208;test ns) and (H) with the expression of &#8710;EF&#8208;Miro1 (NT: 0.256 &#177; 0.03, n = 24; APV + NBQX: 0.259 &#177; 0.05, n = 26; t&#8208;test ns).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27435</offset>
+      <text> Data information: Experiments were performed in E16 mouse and E18 rat hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27578</offset>
+      <text>Several studies have shown that Miro1 and its two EF&#8208;hand domains contribute to Ca2+&#8208;dependent mitochondrial stopping and recruitment to areas of high Ca2+ load 13, 14. We hypothesise that increased expression of Miro1 makes mitochondria more likely to arrest close to presynaptic terminals in response to local Ca2+ as Miro1 overexpression increases mitochondrial trafficking 13, 14, 33 and mitochondria pass terminals more frequently. Thus, even rare Ca2+ responses during TTX treatment might be sufficient to allow mitochondrial arrest when Miro1 is overexpressed, and therefore, a higher percentage of terminals are always occupied by a mitochondrion. PTX on the other hand has the same effect whether Miro1 is overexpressed or not, because during periods of high activity mitochondria are eventually repositioned to presynaptic terminals in response to the frequent Ca2+ signals. We therefore propose that mitochondria are arrested at terminals in a Miro1&#8208;mediated activity&#8208;dependent manner, followed by tethering of the mitochondria by a protein such as syntaphilin 25.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28662</offset>
+      <text>Long&#8208;term changes in neuronal activity in hippocampal cultures have been shown to generate homeostatic changes in presynaptic Ca2+ responses 12. As mitochondria can reduce presynaptic Ca2+ signals and transmitter release (Fig 1) and long&#8208;term activity changes can drive mitochondrial movement into and out of terminals, we hypothesised that Miro1&#8208;mediated mitochondrial repositioning may contribute to homeostatic plasticity of the presynaptic Ca2+ response. As previously described, neurons were transfected with MtDsRed and SyGCaMP5 and the presynaptic Ca2+ response within a region of the axon was measured. TTX treatment (1 &#956;M, 48 h) resulted in the expected increase in presynaptic Ca2+ signals, likely due to the fact that less terminals contain a mitochondrion (1.3 &#177; 0.6 for non&#8208;treated cultures, 2.5 &#177; 0.5 for TTX&#8208;treated cultures; n = 11 and n = 10 neurons, 69 and 62 terminals, respectively, *P &lt; 0.05; Fig 5B). To address the impact of blocking activity&#8208;dependent mitochondrial recruitment to presynaptic terminals, we expressed the Ca2+&#8208;insensitive mutant of Miro1 (&#916;EF&#8208;Miro1) and determined whether this interferes with the presynaptic rescaling of Ca2+ signals. To facilitate live cell imaging in &#916;EF&#8208;Miro1&#8208;transfected neurons, we co&#8208;transfected SyGCaMP5 with &#916;EF&#8208;Miro1&#8208;IRES&#8208;MtDsRed, which allows bicistronic expression of both transgenes thus permitting us to readily identify &#916;EF&#8208;Miro1 expression in MtDsRed&#8208;positive neurons co&#8208;expressing SyGCaMP5 (Fig EV5). We found that the homeostatic increase in Ca2+ response after TTX treatment was occluded when &#916;EF&#8208;Miro1 is expressed (&#916;F/F 0 = 2.3 &#177; 0.6 for non&#8208;treated cultures and &#916;F/F 0 = 1.8 &#177; 0.3 for TTX&#8208;treated cultures; n = 7 cells, 33 and 32 terminals, respectively, P = 0.05; Fig 5B and C) suggesting a role for activity&#8208;dependent tuning of mitochondrial presynaptic terminal occupancy in the homeostatic scaling of presynaptic Ca2+ signals. This suggests that some of the homeostatic rescaling we observe under normal conditions is dependent on Miro1 function and in particular on Miro1's Ca2+&#8208;sensing ability mediated via its two EF&#8208;hand domains.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30838</offset>
+      <text>Miro1 is involved in homeostatic changes in presynaptic Ca2+ signals</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30907</offset>
+      <text>Live images of neurons co&#8208;transfected with SyGCaMP5 and MtDsRed or myc&#8208;&#916;EF&#8208;Miro1&#8208;IRES&#8208;MtDsRed (&#916;EF Miro) before and during 10&#8208;Hz field stimulation with and without TTX treatments. Scale bar, 10 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31120</offset>
+      <text>Average &#916;F/F 0 SyGCaMP5 traces from terminals treated with TTX (red trace, &#916;F/F 0 = 2.5 &#177; 0.5) in n = 10 neurons (62 terminals) and non&#8208;treated terminals (black trace, &#916;F/F 0 = 1.3 &#177; 0.6) in n = 11 neurons (69 terminals) co&#8208;transfected with MtDsRed; *P &lt; 0.05, t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31403</offset>
+      <text>Average &#916;F/F 0 SyGCaMP5 traces from terminals treated with TTX (red trace, &#916;F/F 0 = 1.8 &#177; 0.3) in n = 7 neurons (33 terminals) and non&#8208;treated terminals (black trace, &#916;F/F 0 = 2.3 &#177; 0.6) in n = 7 neurons (32 terminals) co&#8208;transfected with myc&#8208;&#916;EF&#8208;Miro1&#8208;IRES&#8208;MtDsRed; P = 0.5, t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31707</offset>
+      <text> Data information: Experiments were performed in E16 mouse hippocampal neuronal cultures at DIV 10&#8211;12. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31838</offset>
+      <text>IRES construct expresses both MtDsRed and &#8710;EF&#8208;Miro1&#8208;myc</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31900</offset>
+      <text>Diagram of the IRES vector, which enables bicistronic expression of MtDsRed and &#8710;EF&#8208;Miro1&#8208;myc as it contains an internal ribosome entry site (IRES).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32055</offset>
+      <text>Mitochondria labelled with MtDsRed are also stained with anti&#8208;myc antibody. Scale bar, 10 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32152</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32155</offset>
+      <text>Our findings suggest that mitochondrial occupancy of a presynaptic terminal can tune local Ca2+ signals via MCU, to regulate vesicular fusion. The probability of release (P rel) is known to vary even in terminals from the same axon 34, 35. This can arise from differences in the size of the readily releasable pool of these terminals 34, 36 but may also arise from variability in Ca2+ dynamics and fusion probability of vesicles 37. Mitochondrial ATP provision was also recently proposed to contribute to the variability of presynaptic strength 33, particularly during long stimulation trains. However, other studies using presynaptically targeted ATP probes showed that even long stimulation periods of 60 s do not necessarily lead to a depletion of presynaptic ATP, because activity&#8208;driven ATP generation (through glycolysis and oxidative phosphorylation) 38 and ATP diffusion 39 can serve to maintain presynaptic ATP levels. Thus, the importance of local mitochondrial ATP provision at terminals occupied by a mitochondrion in sustaining vesicular release may vary dependent on signalling demands (e.g. duration and frequency of AP firing) and synapse type 19, 33, 38, 39. Here, we show that mitochondrial occupancy of a terminal can directly impact the size of the Ca2+ response upon a train of APs. This is in agreement with a recent report that presynaptic mitochondria in cortical axons attenuate neurotransmitter release by enhancing Ca2+ clearance in an LKB1&#8208;dependent manner 40. Thus, Ca2+ buffering by mitochondria may be the more important mediator of local mitochondrial influence at presynaptic terminals during synaptic transmission.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33808</offset>
+      <text>Homeostatic changes are important for regulating overall levels of activity in neuronal networks by avoiding extreme states of excitation or inhibition in the brain 9. The synaptic rescaling during homeostatic plasticity is partly dependent on alteration of AMPA receptor levels at the postsynaptic density 9 but has also been shown to involve axonal and presynaptic components of neuronal transmission such as the positioning of the axon initial segment (AIS) and presynaptic transmitter release 10, 11, 12, 41. We now demonstrate that presynaptic mitochondrial occupancy may be another important factor during homeostatic rescaling.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34443</offset>
+      <text>Thus, we put forward a model whereby mitochondrial localisation at presynaptic terminals is tuned by neuronal activity and Miro1&#8208;mediated Ca2+ sensing. This can increase mitochondrial occupancy when terminals are particularly active, thus enabling the mitochondria to provide energy and buffer Ca2+ in those demanding conditions. Further, repositioning of mitochondria when network activity is altered on a longer timescale can contribute to the rescaling of presynaptic Ca2+ signals during homeostatic plasticity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34960</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34982</offset>
+      <text>Neuronal cultures and transfection</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35017</offset>
+      <text>Primary hippocampal cultures were prepared as previously described from E16 mice 42, E18 rats or P0 rats 13, 43. Following 15 min (12 min for P0 rat) treatment with 0.25% trypsin and trituration, cells were plated on poly&#8208;L&#8208;lysine&#8208;coated, round, 12&#8208;mm coverslips for fixed experiments or 25&#8208;mm coverslips for live experiments at a density of 250,000 per 3&#8208;cm well. Neurons were transfected either by Ca2+&#8208;phosphate precipitation or by lipofection with Lipofectamine 2000 at DIV 7 and then imaged at DIV 10&#8211;12.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35543</offset>
+      <text>Antibodies, DNA constructs and reagents</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35583</offset>
+      <text>MtDsRed, synaptophysin&#8211;GFP, myc&#8208;Miro1, myc&#8208;&#916;EF&#8208;Miro1, VGlut1pHluorin and Mito&#8208;LSSmKate2 have been previously described 13, 27, 28. The presynaptically targeted SyGCaMP5 was cloned using SyGCaMP2 (plasmid #26124 17) from Addgene as a target vector and inserting GCaMP5G from Addgene (plasmid #31788 18) via the restriction sites SalI and NotI 44. &#916;EF&#8208;Miro&#8208;IRES&#8208;MtDsRed was cloned with In&#8208;Fusion (Clontech) by inserting MtDsRed into pCAG&#8208;IRES&#8208;gfp using the BstXI and NotI sites. Then, myc&#8208;&#916;EF&#8208;Miro1 was added using EcoRI and SacI sites. Picrotoxin (PTX) was purchased from Sigma&#8208;Aldrich and used at 100 &#956;M, and tetrodotoxin (TTX) was purchased from Tocris Bioscience and used at 1 &#956;M. D(&#8722;)&#8208;2&#8208;Amino&#8208;5&#8208;phosphonopentanoic acid (APV) was purchased from Abcam and used at 100 &#956;M. 1,2,3,4&#8208;Tetrahydro&#8208;6&#8208;nitro&#8208;2,3&#8208;dioxo&#8208;benzo[f]quinoxaline&#8208;7&#8208;sulphonamide (NBQX) disodium salt was purchased from Abcam and used at 10 &#956;M. Ru360 was from Calbiochem and was used at 10 &#956;M.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36604</offset>
+      <text>Immunocytochemistry and fixed imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36642</offset>
+      <text>After fixation using 4% PFA for 5 min, cells were washed twice and blocked in PBS solution containing 10% horse serum, 0.5% BSA and 0.2% Triton. Cells were stained with primary antibody for 1 h: anti&#8208;myc antibody obtained from 9E10 hybridoma lines and used as supernatant at 1:100, anti&#8208;SV2 (Neuromab) used at 1:200, anti&#8208;Piccolo (Synaptic Systems) used at 1:500, anti&#8208;tau (Millipore) used at 1:1,000 and anti&#8208;MAP2 (Synaptic Systems) used at 1:1,000. Cells were washed and stained with secondary antibody for 1 h: anti&#8208;mouse 405 (Jackson Dylight) antibody was used at 1:500, anti&#8208;mouse Alexa 568 (Invitrogen) was used at 1:1,000, anti&#8208;rabbit Alexa 555 (Invitrogen) was used at 1:1,000 and anti&#8208;guinea pig Alexa 647 (Invitrogen) was used at 1:1,000. Images of fixed cultures were taken on a Zeiss LSM700 confocal using a 63&#215; oil objective (NA 1.4) and a 20&#215; water objective (NA 1.0).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37545</offset>
+      <text>Live imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37558</offset>
+      <text>Imaging experiments were performed at 37&#176;C while perfusing the coverslips in external solution containing 125 mM NaCl, 10 mM d&#8208;glucose, 10 mM HEPES, 5 mM KCl, 2 mM CaCl2 and 1 mM MgCl2, which was brought to a pH of 7.4 using NaOH. An inverted Zeiss Axiovert 200 microscope and a 63&#215; oil objective (NA 1.4) coupled to a Photometrics Evolve camera were used to image frames with 30 ms exposure at either 1 frame per second or maximum frame rate (~18 frames per second) in the software Micro&#8208;Manager 45. Using Chroma filters, coverslips were excited through a D470/40x filter and emission was split using an OptoSplit II (Cairn Research) 46 and a 565DCXR dichroic thereby collecting with HQ522/40M and HQ607/75M filters for SyGCaMP5 or VGlut1pHluorin and MtDsRed or Mito&#8208;LSSmKate2, respectively. Presynapses with and without mitochondria were discriminated on the basis of co&#8208;localisation of SyGCaMP5 or VGlut1pHluorin and MtDsRed or Mito&#8208;LSSmKate2, respectively: signal overlap for the duration of the imaging period was required for a synapse to be deemed occupied by a mitochondrion. Clear separation in signal was required to deem a synapse devoid of mitochondria. Field stimulation was achieved using a Grass S9 or S88 stimulator and a Warner Instruments stimulation bath. Individual stimulating pulses lasted for 1 ms and were set at 10 V as part of stimulation trains of variable frequencies (5&#8211;100 Hz) and durations (0.1&#8211;20 s). To reactivate neuronal firing, TTX&#8208;treated cultures were transferred to and washed in external solution for 20 min prior to imaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39142</offset>
+      <text>Data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39156</offset>
+      <text>Movies were aligned using the Cairn Image Splitter plugin in ImageJ. Graphs showing &#916;F/F 0 were plotted using Mathematica (Wolfram Research), and paired t&#8208;test was used to calculate statistical significance, whereby terminals with and without mitochondria within the same axon were compared. Regions of interest were manually drawn, and after background subtraction, fluorescence was normalised to the first 10 frames. Mean stimulation fluorescence was calculated as an average across a plateau equating to stimulation duration. For co&#8208;localisation analysis, a region measuring 40 &#215; 40 &#956;m was chosen at least 300 &#956;m from the soma. Co&#8208;localisation of SYN&#8208;GFP and MtDsRed was quantified as the fraction of SYN&#8208;GFP clusters which overlap with at least one MtDsRed&#8208;positive pixel. Images were thresholded in ImageJ and, using the Image Calculator tool, a third image was generated showing those pixels which were positive in both input channels. Using the Particle Analysis tool, the size and number of the thresholded clusters were analysed. Microsoft Excel was used to calculate the fraction of MtDsRed&#8208;positive SYN&#8208;GFP clusters. In order to quantify the density of mitochondria and SYN&#8208;GFP clusters within the axon, the whole axon was imaged using the 20&#215; water&#8208;immersion objective. Images were stitched together in ImageJ, to reconstruct the whole axon, and the longest process was traced and straightened. The MtDsRed and SYN&#8208;GFP channels were thresholded and the number of thresholded clusters was analysed using the Particle Analysis tool within ImageJ. This was normalised to the straightened axon length. GraphPad Prism was used to perform ANOVAs and t&#8208;tests and to visualise bar charts. Error bars represent SEM.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40904</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40925</offset>
+      <text>VV, MJD, NFH and JTK designed experiments; VV, MJD and NFH collected and analysed the data; NFH performed molecular biology experiments; and VV, MJD, NFH and JTK wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41109</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41130</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41190</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>41213</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">80</infon>
+      <infon key="source">Physiol Rev</infon>
+      <infon key="lpage">360</infon>
+      <infon key="pub-id_pmid">10617771</infon>
+      <infon key="fpage">315</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>41224</offset>
+      <text>Mitochondria and neuronal survival</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">777</infon>
+      <infon key="pub-id_pmid">22958818</infon>
+      <infon key="fpage">762</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>41259</offset>
+      <text>Synaptic energy use and supply</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Neurosci</infon>
+      <infon key="lpage">93</infon>
+      <infon key="pub-id_pmid">22218207</infon>
+      <infon key="fpage">77</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>41290</offset>
+      <text>Mitochondrial transport in neurons: impact on synaptic homeostasis and neurodegeneration</text>
+    </passage>
+    <passage>
+      <infon key="volume">383</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">434</infon>
+      <infon key="pub-id_pmid">8837774</infon>
+      <infon key="fpage">431</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>41379</offset>
+      <text>Calcium influx and transmitter release in a fast CNS synapse</text>
+    </passage>
+    <passage>
+      <infon key="volume">406</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">893</infon>
+      <infon key="pub-id_pmid">10972290</infon>
+      <infon key="fpage">889</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>41440</offset>
+      <text>Intracellular calcium dependence of transmitter release rates at a fast central synapse</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">5847</infon>
+      <infon key="pub-id_pmid">12122046</infon>
+      <infon key="fpage">5840</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>41528</offset>
+      <text>Presynaptic mitochondrial calcium sequestration influences transmission at mammalian central synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">J Neurophysiol</infon>
+      <infon key="lpage">3067</infon>
+      <infon key="pub-id_pmid">22972962</infon>
+      <infon key="fpage">3059</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>41630</offset>
+      <text>Regulation of presynaptic calcium in a mammalian synaptic terminal</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">7045</infon>
+      <infon key="pub-id_pmid">16807333</infon>
+      <infon key="fpage">7035</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>41697</offset>
+      <text>Mitochondrial trafficking to synapses in cultured primary cortical neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">18984155</infon>
+      <infon key="fpage">422</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>41772</offset>
+      <text>The self&#8208;tuning neuron: synaptic scaling of excitatory synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">485</infon>
+      <infon key="pub-id_pmid">18701072</infon>
+      <infon key="fpage">475</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>41838</offset>
+      <text>Local dendritic activity sets release probability at hippocampal synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">465</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">1074</infon>
+      <infon key="pub-id_pmid">20543823</infon>
+      <infon key="fpage">1070</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>41912</offset>
+      <text>Activity&#8208;dependent relocation of the axon initial segment fine&#8208;tunes neuronal excitability</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">7496</infon>
+      <infon key="pub-id_pmid">21593333</infon>
+      <infon key="fpage">7492</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>42007</offset>
+      <text>Homeostatic synaptic plasticity through changes in presynaptic calcium influx</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">555</infon>
+      <infon key="pub-id_pmid">19249275</infon>
+      <infon key="fpage">541</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>42085</offset>
+      <text>Miro1 is a calcium sensor for glutamate receptor&#8208;dependent localization of mitochondria at synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">136</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">174</infon>
+      <infon key="pub-id_pmid">19135897</infon>
+      <infon key="fpage">163</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>42187</offset>
+      <text>The mechanism of Ca2+ &#8208;dependent regulation of kinesin&#8208;mediated mitochondrial motility</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">327</infon>
+      <infon key="pub-id_pmid">27705781</infon>
+      <infon key="fpage">317</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>42278</offset>
+      <text>Loss of dendritic complexity precedes neurodegeneration in a mouse model with disrupted mitochondrial distribution in mature dendrites</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Neurobiol Dis</infon>
+      <infon key="lpage">34</infon>
+      <infon key="pub-id_pmid">26707701</infon>
+      <infon key="fpage">27</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>42413</offset>
+      <text>Miro sculpts mitochondrial dynamics in neuronal health and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">889</infon>
+      <infon key="pub-id_pmid">19898484</infon>
+      <infon key="fpage">883</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>42480</offset>
+      <text>A genetically encoded reporter of synaptic activity in vivo </text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">13840</infon>
+      <infon key="pub-id_pmid">23035093</infon>
+      <infon key="fpage">13819</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>42541</offset>
+      <text>Optimization of a GCaMP calcium indicator for neural activity imaging</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">597</infon>
+      <infon key="pub-id_pmid">26804996</infon>
+      <infon key="fpage">583</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>42611</offset>
+      <text>IGF&#8208;1 receptor differentially regulates spontaneous and evoked transmission via mitochondria at hippocampal synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">6065</infon>
+      <infon key="pub-id_pmid">15987935</infon>
+      <infon key="fpage">6057</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>42730</offset>
+      <text>Interplay between Na+/Ca2+ exchangers and mitochondria in Ca2+ clearance at the calyx of Held</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">12991</infon>
+      <infon key="pub-id_pmid">21900577</infon>
+      <infon key="fpage">12982</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>42824</offset>
+      <text>Mitochondrial Ca(2+) uptake is essential for synaptic plasticity in pain</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Cell Calcium</infon>
+      <infon key="lpage">206</infon>
+      <infon key="pub-id_pmid">12600806</infon>
+      <infon key="fpage">197</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>42897</offset>
+      <text>Quantitative estimate of mitochondrial [Ca2+] in stimulated motor nerve terminals</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">393</infon>
+      <infon key="pub-id_pmid">16055062</infon>
+      <infon key="fpage">379</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>42979</offset>
+      <text>The GTPase dMiro is required for axonal transport of mitochondria to Drosophila synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">378</infon>
+      <infon key="pub-id_pmid">16055061</infon>
+      <infon key="fpage">365</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>43068</offset>
+      <text>Synaptic mitochondria are critical for mobilization of reserve pool vesicles at Drosophila neuromuscular junctions</text>
+    </passage>
+    <passage>
+      <infon key="volume">132</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">148</infon>
+      <infon key="pub-id_pmid">18191227</infon>
+      <infon key="fpage">137</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>43183</offset>
+      <text>Docking of axonal mitochondria by syntaphilin controls their mobility and affects short&#8208;term facilitation</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">1008</infon>
+      <infon key="pub-id_pmid">9208866</infon>
+      <infon key="fpage">995</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>43291</offset>
+      <text>Heterogeneity of release probability, facilitation, and depletion at central synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">84</infon>
+      <infon key="pub-id_pmid">16815333</infon>
+      <infon key="fpage">71</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>43377</offset>
+      <text>Distinct endocytic pathways control the rate and extent of synaptic vesicle protein recycling</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5374</infon>
+      <infon key="pub-id_pmid">20212155</infon>
+      <infon key="fpage">5369</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>43471</offset>
+      <text>Monomeric red fluorescent proteins with a large stokes shift</text>
+    </passage>
+    <passage>
+      <infon key="volume">291</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">2086</infon>
+      <infon key="pub-id_pmid">26644474</infon>
+      <infon key="fpage">2080</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>43532</offset>
+      <text>Mitochondrial calcium uptake modulates synaptic vesicle endocytosis in central nerve terminals</text>
+    </passage>
+    <passage>
+      <infon key="volume">77</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">114</infon>
+      <infon key="pub-id_pmid">23312519</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43627</offset>
+      <text>Mossy fiber&#8208;CA3 synapses mediate homeostatic plasticity in mature hippocampal neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Eur J Neurosci</infon>
+      <infon key="lpage">2363</infon>
+      <infon key="pub-id_pmid">23725294</infon>
+      <infon key="fpage">2350</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43715</offset>
+      <text>Regulation of mitochondrial dynamics and distribution by synapse position and neuronal activity in the axon</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">833</infon>
+      <infon key="pub-id_pmid">21187407</infon>
+      <infon key="fpage">828</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>43823</offset>
+      <text>Beta Ca2+/CaM&#8208;dependent kinase type II triggers upregulation of GluA1 to coordinate adaptation to synaptic inactivity in hippocampal neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">419</infon>
+      <infon key="pub-id_pmid">23891000</infon>
+      <infon key="fpage">413</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43966</offset>
+      <text>Motile axonal mitochondria contribute to the variability of presynaptic strength</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">612</infon>
+      <infon key="pub-id_pmid">9136769</infon>
+      <infon key="fpage">599</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>44047</offset>
+      <text>Heterogeneous release properties of visualized individual hippocampal synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5328</infon>
+      <infon key="pub-id_pmid">9560274</infon>
+      <infon key="fpage">5323</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>44126</offset>
+      <text>Differential signaling via the same axon of neocortical pyramidal neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">5867</infon>
+      <infon key="pub-id_pmid">9221783</infon>
+      <infon key="fpage">5858</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>44200</offset>
+      <text>Quantitative ultrastructural analysis of hippocampal excitatory synapses</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">23049481</infon>
+      <infon key="fpage">e1001396</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>44273</offset>
+      <text>Independent regulation of basal neurotransmitter release efficacy by variable Ca&#178;+ influx and bouton size at small central synapses</text>
+    </passage>
+    <passage>
+      <infon key="volume">156</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">835</infon>
+      <infon key="pub-id_pmid">24529383</infon>
+      <infon key="fpage">825</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44406</offset>
+      <text>Activity&#8208;driven local ATP synthesis is required for synaptic function</text>
+    </passage>
+    <passage>
+      <infon key="volume">290</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">22336</infon>
+      <infon key="pub-id_pmid">26126824</infon>
+      <infon key="fpage">22325</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44478</offset>
+      <text>The role of mitochondrially derived ATP in synaptic vesicle recycling</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Biol</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">27429220</infon>
+      <infon key="fpage">e1002516</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44548</offset>
+      <text>LKB1 regulates mitochondria&#8208;dependent presynaptic calcium clearance and neurotransmitter release properties at excitatory synapses along cortical axons</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Cell Neurosci</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24959118</infon>
+      <infon key="fpage">151</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44702</offset>
+      <text>Plasticity of GABAA receptor diffusion dynamics at the axon initial segment</text>
+    </passage>
+    <passage>
+      <infon key="source">Transl Psychiatry</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24667445</infon>
+      <infon key="fpage">e374</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>44778</offset>
+      <text>The autism and schizophrenia associated gene CYFIP1 is critical for the maintenance of dendritic complexity and the stabilization of mature spines</text>
+    </passage>
+    <passage>
+      <infon key="volume">291</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">629</infon>
+      <infon key="pub-id_pmid">26553875</infon>
+      <infon key="fpage">613</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44925</offset>
+      <text>DISC1&#8208;dependent regulation of mitochondrial dynamics controls the morphogenesis of complex neuronal dendrites</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">16011</infon>
+      <infon key="pub-id_pmid">26631479</infon>
+      <infon key="fpage">15996</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>45037</offset>
+      <text>Miro1 regulates activity&#8208;driven positioning of mitochondria within astrocytic processes apposed to synapses to regulate intracellular calcium signaling</text>
+    </passage>
+    <passage>
+      <infon key="volume">Chapter 14</infon>
+      <infon key="source">Curr Protoc Mol Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">Unit14.20</infon>
+      <infon key="year">2010</infon>
+      <offset>45191</offset>
+      <text>Computer control of microscopes using &#956;Manager</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="source">Glia</infon>
+      <infon key="lpage">1264</infon>
+      <infon key="pub-id_pmid">27189737</infon>
+      <infon key="fpage">1252</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>45239</offset>
+      <text>Neuronal activity mediated regulation of glutamate transporter GLT&#8208;1 surface diffusion in rat astrocytes in dissociated and slice cultures</text>
+    </passage>
+  </document>
+</collection>

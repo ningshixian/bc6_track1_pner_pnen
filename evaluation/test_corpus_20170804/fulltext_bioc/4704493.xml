@@ -1,0 +1,1679 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC4704493</id>
+    <passage>
+      <infon key="name_2">surname:Gao;given-names:Hua</infon>
+      <infon key="name_3">surname:McMillan;given-names:Elizabeth</infon>
+      <infon key="name_0">surname:Shields;given-names:Benjamin B</infon>
+      <infon key="name_1">surname:Pecot;given-names:Chad V</infon>
+      <infon key="name_6">surname:Purinton;given-names:Scott</infon>
+      <infon key="alt-title">Benjamin B Shields et&#160;al</infon>
+      <infon key="article-id_publisher-id">MSB156308</infon>
+      <infon key="name_5">surname:Nagel;given-names:Christa</infon>
+      <infon key="name_8">surname:Ivan;given-names:Cristina</infon>
+      <infon key="name_9">surname:Kim;given-names:Hyun Seok</infon>
+      <infon key="year">2015</infon>
+      <infon key="kwd">cancer cancer genetics microRNA miRNA ovarian cancer Chromatin, Epigenetics, Genomics &amp; Functional Genomics Cancer</infon>
+      <infon key="name_4">surname:Potts;given-names:Malia</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/msb.20156308</infon>
+      <infon key="article-id_pmid">26655797</infon>
+      <infon key="name_7">surname:Wang;given-names:Ying</infon>
+      <infon key="source">Mol Syst Biol</infon>
+      <infon key="issue">12</infon>
+      <infon key="elocation-id">842</infon>
+      <infon key="volume">11 11</infon>
+      <infon key="article-id_pmc">4704493</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+. () : 842
+</infon>
+      <infon key="name_18">surname:White;given-names:Michael A</infon>
+      <infon key="name_10">surname:Borkowski;given-names:Robert J</infon>
+      <infon key="name_11">surname:Khan;given-names:Shaheen</infon>
+      <infon key="name_12">surname:Rodriguez&#8208;Aguayo;given-names:Cristian</infon>
+      <infon key="name_13">surname:Lopez&#8208;Berestein;given-names:Gabriel</infon>
+      <infon key="name_14">surname:Lea;given-names:Jayanthi</infon>
+      <infon key="name_15">surname:Gazdar;given-names:Adi</infon>
+      <infon key="name_16">surname:Baggerly;given-names:Keith A</infon>
+      <infon key="name_17">surname:Sood;given-names:Anil K</infon>
+      <offset>0</offset>
+      <text>A genome&#8208;scale screen reveals context&#8208;dependent ovarian cancer sensitivity to miRNA overexpression</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>103</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>112</offset>
+      <text>Large&#8208;scale molecular annotation of epithelial ovarian cancer (EOC) indicates remarkable heterogeneity in the etiology of that disease. This diversity presents a significant obstacle against intervention target discovery. However, inactivation of miRNA biogenesis is commonly associated with advanced disease. Thus, restoration of miRNA activity may represent a common vulnerability among diverse EOC oncogenotypes. To test this, we employed genome&#8208;scale, gain&#8208;of&#8208;function, miRNA mimic toxicity screens in a large, diverse spectrum of EOC cell lines. We found that all cell lines responded to at least some miRNA mimics, but that the nature of the miRNA mimics provoking a response was highly selective within the panel. These selective toxicity profiles were leveraged to define modes of action and molecular response indicators for miRNA mimics with tumor&#8208;suppressive characteristics in&#160;vivo. A mechanistic principle emerging from this analysis was sensitivity of EOC to miRNA&#8208;mediated release of cell fate specification programs, loss of which may be a prerequisite for development of this disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1227</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1240</offset>
+      <text>Epithelial ovarian cancer (EOC) is the most lethal gynecologic malignancy in the United States (Siegel et&#160;al, 2012). Recent advances in treatment of this disease have been limited to empirical optimization of chemotherapeutic agents and improved delivery of drugs (Armstrong et&#160;al, 2006). While these have yielded measurable improvements in overall survival of ovarian cancer patients, there is an urgent need for novel treatment modalities. A greater understanding of the linchpin biology of this disease would likely help provide inroads toward the development of new therapies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1823</offset>
+      <text>Multiple public and private efforts have focused on large&#8208;scale annotation of the landscape of genomic alterations associated with EOC. These studies have detected over 60 tumor&#8208;acquired mutations per patient. Though mutation of the p53 tumor suppressor has been identified as an almost universal characteristic (95% of ovarian tumors), all other somatic mutations have been found to occur in 3&#8211;6% of tumors or less (Kan et&#160;al, 2010; Cancer Genome Atlas Research, 2011). In combination with this diversity of somatic nucleotide variation, pervasive and recurrent copy number variation has been detected (Etemadmoghadam et&#160;al, 2009; Cancer Genome Atlas Research N, 2011), giving rise to the notion that ovarian tumor progression is driven by a &#8220;turbulent genome&#8221;.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2598</offset>
+      <text>The seemingly enormous diversity of molecular etiology of EOC poses a significant challenge to intervention target discovery and is fueling efforts to identify common biological vulnerabilities that occupy the nexus of diverse EOC genomes. A compelling candidate is defective miRNA biogenesis and function. When measured by quantitative PCR, Dicer and Drosha, the RNases required for miRNA processing, show decreased expression in over half of ovarian tumors sampled, and high Dicer expression correlates with remarkable patient survival (Merritt et&#160;al, 2008). However, we note that microarray&#8208;based tools have failed to uncover this relationship in larger cohorts (Gyorffy et&#160;al, 2013; Madden et&#160;al, 2014). Dicer is a haploinsufficient tumor suppressor in mice, and compound deletion of Dicer and the PTEN tumor suppressor is sufficient to induce spontaneous epithelial ovarian cancer (Kumar et&#160;al, 2009; Kim et&#160;al, 2012). Together, these observations indicate miRNA production may be generally deleterious to ovarian tumor initiation and/or progression, perhaps through translational suppression of tumor promoting gene products. Of note, the 3&#8242;&#8208;untranslated regions (3&#8242;&#8208;UTRs) of many mRNAs are clipped in some cancer cell types, which can release oncogenes from miRNA regulation (Mayr &amp; Bartel, 2009). Thus, sensitivity to restoration of miRNA activity may represent a common vulnerability among diverse EOC oncogenotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4039</offset>
+      <text>To test the commonality of sensitivity to miRNA activity in EOC, we examined the consequence of introducing each of 400 miRNA mimics on the viability of each of 16 ovarian cancer cell lines, telomerase&#8208;immortalized ovarian surface epithelial cells, and hepatocytes. Selectively toxic mimics were recovered across the panel, the majority of which displayed highly individualized activity. Clinical correlations and mechanistic follow&#8208;up in multiple disease lineages indicated that the idiosyncratic miRNA mimic toxicity profiles were a consequence of fractional representation of biologically relevant ovarian cancer subtype/miRNA relationships that are more commonly encountered in other disease sites. Rare mimics targeting common vulnerabilities in the EOC panel corresponded to miR&#8208;517a and miR&#8208;124. miR&#8208;517a toxicity was primarily accounted for by its target ARCN1, a component of the COPI complex, and effectively impaired xenograft tumor growth when administered in&#160;vivo. miR&#8208;124 toxicity was primarily accounted for by its target SIX4, a homeobox transcription factor, which was also validated in&#160;vivo. A convergent mechanistic principle derived from this analysis was the&#160;common vulnerability of EOC to miRNA&#8208;mediated release of aberrant cell differentiation programs, loss of which may be a prerequisite for development of disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5397</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5405</offset>
+      <text>A genomewide screen for miRNAs with antineoplastic potential in ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5484</offset>
+      <text>For broad&#8208;scale interrogation of the selective consequences of gain&#8208;of&#8208;function microRNA activity, in ovarian cancer cell regulatory contexts, we combined a genome&#8208;scale synthetic miRNA collection with a panel of ovarian cancer cell lines representative of the genomic diversity found in this disease. The miRNA mimic collection corresponded to 400 unique human miRNA annotated in miRBase8&#8208;10 (Dataset EV1). As a test&#8208;bed within which to assess selective inhibition of cancer cell viability, we collected a panel of 16 ovarian tumor&#8208;derived cell lines together with non&#8208;tumorigenic telomerase&#8208;immortalized ovarian surface epithelial cells and spontaneously immortalized hepatocytes. This panel included commonly employed laboratory lines, a matched pair of chemoresponsive and chemoresistant lines from the same patient (PEO1, PEO4), and newly derived low&#8208;passage non&#8208;clonal cultures isolated from the malignant peritoneal effusions of 3 patients with high&#8208;grade serous papillary adenocarcinoma of the ovary (HCC5012, HCC5019, HCC5030, Table&#160;EV1). Each miRNA mimic was introduced into each cell line using optimized transient transfection protocols (Fig&#160;EV1A, Table&#160;EV1), and consequent effects on cell viability were measured 120&#160;h later from biological triplicates. Standard deviation distributions indicated high reproducibility among biological triplicates across the cell line panel (Fig&#160;EV1B, black curve), and high phenotypic correlation among miRNA seed family members (Fig&#160;EV1B, red curve) relative to the total phenotypic variation (Fig&#160;EV1B, blue curve). Mean viability scores were normalized against position and batch effects and converted to z&#8208;scores to facilitate inter&#8208;line comparisons (Ho et&#160;al, 2012; Ward et&#160;al, 2012; Singh et&#160;al, 2013) (Dataset EV1). Affinity propagation clustering (APC) (Frey &amp; Dueck, 2007; Witkiewicz et&#160;al, 2015) was used to delineate deterministic patterns of commonality among the miRNA mimic phenotypes across the cell line panel (Fig&#160;EV1C and Dataset EV11) and among the cell line responses to the miRNA mimic library (Fig&#160;EV1D). At least 50 phenotypic miRNA clusters were recovered which corresponded to five distinct cell line clusters (Fig&#160;EV1). APC of available whole&#8208;genome transcript profiles (Barretina et&#160;al, 2012) suggested at least 4 expression subtypes are present within the cell panel (Fig&#160;EV1E). However, these clusters had unimpressive correspondence to miRNA viability phenotype&#8208;based clusters (Fig&#160;EV1F) indicating global gene expression phenotypes, considered as a whole, did not specify selective response to the miRNA mimic library.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8131</offset>
+      <text>Primary screen data analytics</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8161</offset>
+      <text>Transfection conditions were optimized using normalized cell viability values upon transfection of mimic negative control and a pan&#8208;toxic siRNA, siUBB. Values plotted as the mean of three separate experiments with the bars representing the range.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8410</offset>
+      <text>For each microRNA mimic, a standard deviation value was calculated for mean viability across the panel of 16 cell lines (blue curve). In addition, a within&#8208;miRNA seed family standard deviation value was calculated for mean viability across the cell panel (red curve). Lastly, a within&#8208;replicate standard deviation value was calculated (black curve). A kernel density estimation was fit to each of the three standard deviation distributions and plotted.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8867</offset>
+      <text>The indicated microRNA mimics were clustered, using hierarchical APC, based on their viability z&#8208;scores across 16 cell lines. A Euclidean distance metric was used. Node colors indicate cluster membership. A high&#8208;resolution searchable and zoomable pdf has been provided as Dataset EV11 to facilitate visualization of cluster entities.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9205</offset>
+      <text>The indicated ovarian cancer cell lines were clustered, using hierarchical APC, according to miR mimic viability z&#8208;scores (400 miRs). Node colors indicate cluster membership.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9382</offset>
+      <text>RNASeq data for the indicated cell lines (acquired from the CCLE or internal analysis (this study)) was first filtered to select the top 20% of the most highly variant genes (2,686 genes total). The cell lines were then clustered using hierarchical APC based on a Euclidean distance metric. Node colors indicate cluster membership.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9714</offset>
+      <text>Nodes in the gene expression&#8208;based APC from (E) were relabeled according to their cluster membership in the miR mimic response&#8208;based clusters from (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9870</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9873</offset>
+      <text>A total of 108 miRNA mimics, corresponding to 94 unique mature microRNA sequences, reduced cell viability two standard deviations below the mean (z&#8208;score &#8804;&#160;&#8722;2) in at least one cell line screened (Dataset EV1). Activity profiles, as visualized by two&#8208;way unsupervised hierarchical clustering, indicated a wide variation of selectivity patterns and potencies (Fig&#160;1A). Of note, the most common miRNA mimic phenotype was idiosyncratic activity within the panel. About 80% of the miRNA mimics recovered in the screen significantly reduced the viability of only 1 or 2 cell lines, and no mimic reduced viability in more than 9 cell lines (Fig&#160;1B). We considered the possibility that the selective activity profiles may be a consequence of fractional representation of biologically relevant ovarian cancer subtype/miRNA relationships within the test&#8208;bed, a consequence of artificial diversity from clonal genetic divergence in&#160;vitro, or a combination of the two. To help evaluate this, we first queried patient outcome data for the presence of significant clinical correlations to miRNAs with selective activity against the most resistant (and therefore least prone to noise from multiplicity of testing) cell line screened, SKOV3 (Fig&#160;EV2A). The expression of miRNAs corresponding to the top 5% of miRNA mimics with selective toxicity in SKOV3 (Dataset EV1) was evaluated in tumors from two independent ovarian cancer patient cohorts. We found that patients with higher expression of miR&#8208;146a and miR&#8208;505 have significantly increased overall survival with median overall survival times of 17.1&#160;months and 10.4&#160;months, respectively (Figs&#160;1C and EV2D and E). The selective activity of miR&#8208;146a and miR&#8208;505 in SKOV3 was independent of transfection efficiencies or endogenous miR expression (Fig&#160;EV2B and C). Notably, recent studies indicate that both miR&#8208;146a and miR&#8208;505 have antitumorigenic activities in cell models of breast and lung cancer (Verduci et&#160;al, 2010; Yamamoto et&#160;al, 2011; Chen et&#160;al, 2013a). Next, we focused on miRNA mimics that selectively inhibited viability of the non&#8208;clonal short&#8208;term ascites&#8208;derived cultures (HCC5030, HCC5012, HCC5019), which should be least prone to in&#160;vitro genetic drift. We found significant enrichment (P&#160;&lt;&#160;0.05 by hypergeometric density distribution) of the miRNAs corresponding to these mimics among those miRNAs demonstrated to be downregulated in human serous ovarian tumors (Iorio et&#160;al, 2007) (Fig&#160;1D). The clinical correlations of idiosyncratic hits, with patient prognosis or molecular features from patient samples, suggest they can reflect germane ovarian tumor biology.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12538</offset>
+      <text>Public and private miRNA vulnerabilities among ovarian cancer cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12611</offset>
+      <text>Two&#8208;way unsupervised hierarchical cluster of z&#8208;score distributions by Euclidian distance. Any miRNA mimic with a z&#8208;score &#8804;&#160;&#8722;2 in at least one cell line was included. Seed sequences of each miRNA mimic are on the right. Bars correspond to arbitrary cluster boundaries. Seeds in red correspond to miRNAs with decreased expression in serous, clear cell, or endometrioid ovarian cancer relative to normal tissue (Iorio et&#160;al, 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13052</offset>
+      <text>The histogram indicates the number of non&#8208;redundant hits binned according to the number of responsive cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13168</offset>
+      <text>Expression of miRNAs miR&#8208;146a and miR&#8208;505 correlated with overall survival in ovarian cancer patients. The validation cohort (n&#160;=&#160;150 samples) is shown. See Fig&#160;EV1 for the training cohort.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13365</offset>
+      <text>Intersection of miRNA sensitivities in the non&#8208;clonal short&#8208;term cultures and miRNAs with reduced expression in serous ovarian cancer (Iorio et&#160;al, 2007). P&#8208;value from hypergeometric distribution.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13569</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13572</offset>
+      <text>Increased expression of miR&#8208;146a and miR&#8208;505 correlates with increased patient survival</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13664</offset>
+      <text>A Tukey plot of the range of z&#8208;scores for all mimics screened in each cell line screened. Z&#8208;scores are representative of the mean viability of 3 replicates.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13825</offset>
+      <text>Quantitative PCR (qPCR) analysis of endogenous miR&#8208;146a expression revealed no association between level of expression in a cell line and toxicity in the screen (top panel). To facilitate line&#8208;to&#8208;line comparison, endogenous expression values were normalized to a reference cell line (Hey cells). qPCR showed similar levels of overexpression among all cell lines (bottom panel). Bars in red display the endogenous expression of miR&#8208;146a (normalized to RNU6B using the comparative CT method), while bars in black display the overexpression of miR&#8208;146a mimic after transfection (normalized similar to endogenous expression).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14457</offset>
+      <text>qPCR analysis of endogenous miR&#8208;505 expression revealed no association between level of expression in a cell line and toxicity in the screen (top panel). To facilitate line&#8208;to&#8208;line comparison, endogenous expression values were normalized to a reference cell line (Hey cells). qPCR showed similar levels of overexpression among all cell lines (bottom panel). Endogenous and overexpression values displayed as in (B). Bars represent the mean of 2 replicates&#160;&#177;&#160;SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14928</offset>
+      <text>Kaplan&#8211;Meier plots of training and validation sets of tumors using miRNA expression from both Agilent arrays and Illumina miRseq showed that higher expression of miR&#8208;505 correlated with increased patient survival.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15146</offset>
+      <text>Kaplan&#8211;Meier plots of training and validation sets of tumors using miRNA expression from both Agilent arrays and Illumina miRseq showed that higher expression of miR&#8208;146a correlated with increased patient survival.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15365</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15368</offset>
+      <text>miR&#8208;155 and miR&#8208;181b sensitivity is specified by intolerance to epithelial/mesenchymal transition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15470</offset>
+      <text>To begin to define mechanisms underpinning selective sensitivity to miRNA mimic exposure, we first focused on the patient&#8208;matched PEO1 and PEO4 cell lines. Derived later in the patient's treatment, the PEO4 cell line is a model for recurrent, platinum&#8208;resistant EOC (Fig&#160;EV3A). Cytogenetic analyses indicate these cell lines descended from a common ancestor as opposed to arising through direct linear descent (Wolf et&#160;al, 1987; Cooke et&#160;al, 2010; Stronach et&#160;al, 2011). Thus, these two cell lines provide a unique opportunity to investigate acquired vulnerabilities within a model of a single patient's recurrent disease. A scatter plot of the z&#8208;scores of each mimic from the PEO1 and PEO4 viability screens revealed two remarkably distinct tails of activity predominantly corresponding to miRNA&#8208;induced inhibition of viability in only one line or the other (Fig&#160;EV3B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16354</offset>
+      <text>Distinct miRNA sensitivities in patient&#8208;matched cell lines from recurrent disease</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16438</offset>
+      <text>A schematic depicting the derivation of the PEO1 and PEO4 cell lines from a patient with high&#8208;grade serous adenocarcinoma of the ovary.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16576</offset>
+      <text>A scatter plot of z&#8208;scores corresponding to inhibition of viability in PEO1 versus PEO4 in response to each of 400 miRNA mimics. Values were derived from the mean of triplicate experiments. Mimics with a z&#8208;score &lt;&#160;2 were considered to have significantly reduced viability in a cell line. 17 mimics reduced PEO1 cell viability, 15 mimics reduced PEO4 viability, and 2 mimics reduced viability in both cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16993</offset>
+      <text>The scatter plot indicates the expression value of each miRNA in PEO1 (y&#8208;axis) and the effect of each miRNA on cell viability in the same cell line as represented by z&#8208;score (x&#8208;axis).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17183</offset>
+      <text>The scatter plot indicates the expression value of each miRNA in PEO4 (y&#8208;axis) and the effect of each miRNA on cell viability in the same cell line as represented by z&#8208;score (x&#8208;axis).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17373</offset>
+      <text>The scatter plots indicate the expression values of each miRNA in PEO1 (x&#8208;axis) and PEO4 (y&#8208;axis) (left panel), and miRNA expression relative to that in HOSE (Normal) cells (right panel). Points are color&#8208;coded according to the corresponding miRNA mimic activity in the viability screens.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17668</offset>
+      <text>PEO1&#8208;specific hit miR&#8208;210 continues to show a robust phenotype at even a 10&#8208;fold dilution while increasing the dosage 4&#8208;fold does not sensitize PEO4 cells, suggesting that selectivity was not due to overt dosage effects. Each data point represents the mean of 3 independent experiments&#160;&#177;&#160;SD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17971</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17974</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18026</offset>
+      <text>To examine whether differential miRNA mimic responsiveness corresponded to differential expression of the corresponding endogenous miRNAs, global miRNA expression in PEO1 and PEO4 was quantitated by Illumina array relative to that observed in non&#8208;tumorigenic human ovarian surface epithelium (HOSE) cells (GEO Reference GSE67329). miRNA toxicity was not solely a function of its presence or absence in either cell line (Fig&#160;EV3C and D). Although numerous significant differences in miRNA expression between PEO1 and PEO4 were identified (Datasets EV2 and EV8), there was no detectable correlation with selective miRNA mimic viability phenotypes (Fig&#160;EV3E). This suggests that the specificity of mimic toxicity was not defined by the relative presence or absence of the corresponding endogenous miRNA. Gross miRNA mimic dosage effects were also unlikely to account for specificity, as selective responses to miR&#8208;210 were preserved across a 10&#8208;fold dose response curve (Fig&#160;EV3F).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19014</offset>
+      <text>These cumulative observations suggest that distinct miRNA sensitivities are reflecting the presence of distinct acquired molecular vulnerabilities within the PEO1 and PEO4 regulatory frameworks. To help define the nature of these vulnerabilities, we used whole&#8208;exome hybridization&#8208;capture sequencing (70&#215; average read depth) to estimate cell line&#8208;specific somatic mutations and genomic copy number variation together with RNAseq to quantitate relative mRNA expression profiles (Fig&#160;EV4A, Datasets EV3, EV4, and EV5, SRA Accession SRP065357). Due to the absence of patient&#8208;matched constitutional DNA, we filtered single nucleotide variation (SNV) calls through 16 normal human exomes to quell the detection of common germline polymorphisms to some extent. Gene&#8208;level copy number variation (CNV) was defined using exon read depth at each locus relative to a non&#8208;tumorigenic reference cell line. While clearly highly related at the genome level (437 shared SNVs and 2,817 shared focal copy number alterations), 879 cell line&#8208;specific SNVs were detected (519 in PEO1 and 360 in PEO4) together with extensive differences in copy number that closely correlated with mRNA expression. We next used these molecular annotations to help inform the biology underlying PEO4&#8208;specific miRNA vulnerabilities.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20325</offset>
+      <text>Genomic characterization of patient&#8208;matched cell lines from recurrent disease</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20405</offset>
+      <text>A summary of the PEO1 and PEO4 genomic characterization is displayed by circos plot. The outer track indicates relative expression of genes (the log2 of the ratio of (RPKM+1) values of PEO1 versus PEO4). Red peaks correspond to genes with greater than two&#8208;fold overexpression in PEO1 cells, and blue peaks correspond to genes with greater than two&#8208;fold overexpression in PEO4 cells. The next three tracks represent SNVs unique to PEO1 in red, unique to PEO4 in blue, and common in black. This is followed by an axis indicating chromosome position. The inner four tracks summarize CNV as indicated (variation is defined by a read depth ratio of &#8805; 1.5 (gain) or &#8804;&#160;0.5 (loss) as compared to the reference cell line). See Datasets EV2, EV3, and EV4 for detailed annotations.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21185</offset>
+      <text>Principal component analysis (PCA) plot of 3 PEO1 (blue squares) and 3 PEO4 (pink squares) replicates based on data from genes with RPKM value of one or greater. EV, Eigen value.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21364</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21367</offset>
+      <text>miR&#8208;155 and miR&#8208;181b mimics were the top&#8208;ranked reagents that selectively reduced cell viability in PEO4 cells and were largely innocuous when transfected into immortalized human hepatocytes (IHH), HOSE cells, or human bronchial epithelial cells (HBECs) (Fig&#160;2A). Notably, miR&#8208;155 expression is decreased in both ovarian tumors and ovarian cancer cell lines relative to normal tissues and non&#8208;tumorigenic cell lines, respectively (Dahiya et&#160;al, 2008; Zhang et&#160;al, 2008). The matching phenotypic profiles of miR&#8208;181b and miR&#8208;155, together with their distinct mRNA targeting sequences, afforded an opportunity to detect predicted targets enriched in overlapping cellular processes. Two independent computational tools, miRPath v1.0 and miRSystem, which determine whether seed&#8208;predicted targets of a given miRNA or group of miRNAs are enriched for a particular biological process (using KEGG, Reactome, Biocarta, Pathway Interaction DB), predicted that miR&#8208;155 and miR&#8208;181b both target insulin signaling (Papadopoulos et&#160;al, 2009; Lu et&#160;al, 2012). TargetScan (Lewis et&#160;al, 2003) predictions of miR&#8208;155&#8208; and miR&#8208;181b&#8208;responsive mRNAs included multiple nodes in the AKT and MAPK signaling pathways, both of which are engaged downstream of insulin receptor activation (Fig&#160;EV5A). Cell line&#8208;specific somatic mutations and copy number alterations predicted reduced AKT pathway responsiveness in PEO4 relative to PEO1 (Fig&#160;EV5B). This prediction was validated by examination of serum&#8208;induced accumulation of AKT active site phosphorylation (Fig&#160;EV5C). Testing in PEO1 cells revealed potent inhibition of AKT activation by these miRNAs that was consistent with mRNA target predictions (Fig&#160;2B). However, direct chemical inhibition of AKT signaling was not sufficient to recapitulate the specificity of mimic expression (Fig&#160;EV5D), suggesting that additional activities of miR&#8208;155 and miR&#8208;181b contribute to selective toxicity. On the other hand, when miR&#8208;155 and miR&#8208;181b activity was examined in AKT&#8208;dependent breast cancer lines, we found a strong correlation of selective sensitivity to these miRs and previously published sensitivities to chemical inhibition of AKT (Garnett et&#160;al, 2012) (Fig&#160;2C). Thus, while AKT inhibition is not sufficient to account for selective sensitivity of PEO4 cells to miR&#8208;155 and miR&#8208;181b, these miRNA mimics can effectively target AKT&#8208;addicted cancer cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23810</offset>
+      <text>Tumor cells with epithelial features are selectively sensitive to miR&#8208;155 and miR&#8208;181</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23900</offset>
+      <text>The consequence of miR&#8208;155 and miR&#8208;181b mimics on cell viability, 5&#160;days post&#8208;transfection, relative to a negative control miRNA mimic is shown across a panel of normal and ovarian cancer cell lines as indicated. Each data point is the mean of n&#160;=&#160;3/cell line. In the screen, miR&#8208;155 was found to reduce cell viability (z&#8208;score &lt;&#160;&#8722;2) in one cell line, and TCGA expression data revealed no significant change in expression of this miRNA in ovarian tumors. miR&#8208;181 was found to reduce viability (z&#8208;score &lt;&#160;&#8722;2) in 2 cell lines, and TCGA expression data revealed no significant change in expression of this miRNA in ovarian tumors. N, normal cell lines (IHH, HOSE, HBEC3, HBEC13, HBEC30, and HBEC34); EOC, epithelial ovarian cancer cell lines. miR&#8208;155 data points for each cell line are shown in black, while miR&#8208;181b data points are displayed in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24775</offset>
+      <text>Immunoblots indicate suppression of serum&#8208;induced AKT phosphorylation at S473 and T308 in response to miR&#8208;155 and suppression of T308 phosphorylation in response to miR&#8208;181b.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24956</offset>
+      <text>miR&#8208;155 and miR&#8208;181b reduced cell viability in GDC0941&#8208;sensitive breast cancer cell lines. Error bars indicate mean&#160;&#177;&#160;SD (n&#160;=&#160;3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25097</offset>
+      <text>Differential localization of E&#8208;cadherin in PEO1 and PEO4 cells 48&#160;h post&#8208;transfection with the indicated oligos. Cells were counterstained with phalloidin and DAPI.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25267</offset>
+      <text>Stimulation of PEO4 cells with 10&#160;ng/ml TGF&#946;1 significantly sensitized the cells to AKT inhibition with AKT Inhibitor X. Each point represents the mean of 3 experiments&#160;&#177;&#160;SD and * denotes P&#8208;value &lt;&#160;0.05 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25501</offset>
+      <text>Cell viability upon expression of miR&#8208;155 or miR&#8208;181a mimics in 41 NSCLC cell lines and 5 human bronchial epithelial cell lines. Each data point is the mean of n&#160;=&#160;3/cell line. R 2 from Pearson correlation. P&#8208;value calculated from Student's t&#8208;distribution.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25768</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25771</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25823</offset>
+      <text>miR&#8208;155 and miR&#8208;181b are predicted to target the AKT, MAPK, and TGF&#946; pathways</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25906</offset>
+      <text>miR&#8208;155 and miR&#8208;181b are predicted to target multiple nodes in the AKT and MAPK signaling pathways. Nodes predicted to be targeted by miR&#8208;155 are in yellow, miR&#8208;181b in red, those predicted to be targeted by both are in yellow&#8208;to&#8208;red gradient, and those predicted to be targeted by neither are in gray. Note only miR&#8208;155 is predicted to target Rictor, which is part of the complex responsible for phosphorylation of AKT at S473.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26349</offset>
+      <text>Genomic alterations predicted to influence AKT and MAPK signaling pathways in PEO1 and PEO4 cells. Genes in red were overexpressed at least 2&#8208;fold in PEO1 relative to PEO4 cells, while genes in blue were overexpressed in PEO4 relative to PEO1. Arrows indicated copy gain or loss with red indicating PEO1 cells and blue indicating PEO4. Asterisks denote genes containing SNVs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26727</offset>
+      <text>Immunoblots from whole&#8208;cell lysates indicate decreased AKT phosphorylation at both T308 and S473 in PEO4 cells relative to PEO1 cells in response to serum stimulation of cells deprived of serum overnight.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26934</offset>
+      <text>Dose&#8208;dependent consequences of exposure to the PI3K inhibitor LY294002 or AKT Inhibitor X on cell viability was examined in the indicated cell lines. All values were normalized to DMSO carrier alone. Each point represents the mean of 3 experiments&#160;&#177;&#160;SD. No significant differences were detected.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27235</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27238</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27290</offset>
+      <text>Both miR&#8208;155 and miR&#8208;181b have recently been identified as effectors of TGF&#946; induction of epithelial to mesenchymal transition (EMT) downstream of SMAD transcription factor activity (Kong et&#160;al, 2008; Cubillos&#8208;Ruiz et&#160;al, 2012; Johansson et&#160;al, 2013; Neel &amp; Lebrun, 2013). Examination of the cell biologic features of the PEO1 and PEO4 cell lines revealed that PEO4 cells formed E&#8208;cadherin positive intercellular junctions with a typical epithelial morphology while the PEO1 cells did not. (Fig&#160;2D). Additionally, these discrete junctions were disrupted upon exposure to either miR&#8208;155 or miR&#8208;181b (Fig&#160;2D). In contrast, PEO1 cells exhibited punctate perinuclear E&#8208;cadherin, reminiscent of a mesenchymal phenotype, that was unperturbed by miR&#8208;155 or miR&#8208;181b (Fig&#160;2D). Taken together, these observations suggested that miR&#8208;181b and miR&#8208;155 might disrupt epithelial organization, through induction of a mesenchymal transition. Importantly, PEO4 cells were selectively sensitive to the combinatorial effects of TGF&#946;1 stimulation and AKT inhibition (Fig&#160;2E), suggesting the response to miR&#8208;155 and miR&#8208;181b can be recapitulated by inhibition of AKT together with induction of mesenchymal transition programs. To further investigate epithelial status as a potential feature specifying cancer cell sensitivity to miR&#8208;155 and miR&#8208;181, we tested the consequence of miR&#8208;155 and miR&#8208;181 transfection on cell viability within a panel of 46 non&#8208;small cell lung carcinoma&#8208;derived cell lines with molecularly defined epithelial and mesenchymal phenotypes (Byers et&#160;al, 2013). Toxicity was selective within the panel and the effects of the two miRs were strongly correlated (Fig&#160;2F). Notably, &gt;&#160;70% of the sensitive cell lines (defined by &gt;&#160;50% reduction in cell viability upon miR transfection) expressed epithelial markers. These results, taken together with the observation that non&#8208;tumorigenic epithelial cells are resistant to miR&#8208;155 and miR&#8208;181b (Fig&#160;2A), suggest that epithelial status within an oncogenic regulatory framework is a discriminatory feature specifying sensitivity to miR&#8208;155 and miR&#8208;181b and that induction of a mesenchymal cell fate by these miRs leads to adverse consequences on cell viability.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29557</offset>
+      <text>miR&#8208;517a targets a common vulnerability in EOC in&#160;vitro and&#160;in&#160;vivo </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29631</offset>
+      <text>miR&#8208;517a was one of a small cohort of miRNA mimics with activity in the majority (53%) of the EOC cell panel that was also innocuous in normal ovarian surface epithelial cells, hepatocytes, and human bronchial epithelial cells (Fig&#160;3A). Of note, native miR&#8208;517a expression is restricted to the placenta by promoter methylation in other tissues (Yoshitomi et&#160;al, 2011; Morales&#8208;Prieto et&#160;al, 2012). Cancer cell sensitivity to miR&#8208;517a expression is not lineage restricted as we also found a large cohort of responsive NSCLC cell lines (Fig&#160;3A). To validate the effects of miR&#8208;517a in SKOV3 cells, we assessed the effects of in&#160;vivo miR&#8208;517a delivery in a nude mouse xenograft model using a modified formulation developed for in&#160;vivo siRNA delivery (Landen et&#160;al, 2005). Seven days following intraperitoneal injection of SKOV3 cells, mice were randomly divided and treated twice weekly with miRNA mimics incorporated into DOPC nanoliposomes (i.p. administration) according to the following treatment groups (n&#160;=&#160;8/group): miR&#8208;NC (negative control)/DOPC 400&#160;&#956;g/kg, miR&#8208;517a/DOPC 200&#160;&#956;g/kg and miR&#8208;517a/DOPC 400&#160;&#956;g/kg. Following a 4&#8208;week treatment regimen, mice were sacrificed and necropsied and tumors were harvested. Treatment with miR&#8208;517a at either dose significantly reduced both tumor weight and detectable tumor nodules relative to negative control (Fig&#160;3B and C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31037</offset>
+      <text>miR&#8208;517a attacks a common molecular vulnerability in ovarian cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31113</offset>
+      <text>Consequence of miR&#8208;517a on EOC cell viability and 41 NSCLC cell lines (as in Fig 2A). N, normal cell lines (IHH, HOSE, HBEC3, HBEC13, HBEC30, and HBEC34). miR&#8208;517a was found to significantly reduce cell viability (z&#8208;score &lt;&#160;&#8722;2) in 5 cell lines in the screen, and TCGA expression data revealed no significant change in expression of this miRNA in ovarian tumors.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31484</offset>
+      <text> In vivo delivery of neutral liposome&#8208;incorporated miR&#8208;517a mimic reduced tumor burden by weight (B) and nodule number (C) in an orthotopic xenograft model using SKOV3 cells. Box&#8208;and&#8208;whisker plot of tumor weights (B) or tumor nodule number (C) from n&#160;=&#160;8 mice per condition. **P&#8208;value from Student's t&#8208;test. LD, low&#8208;dose (200&#160;&#956;g/kg); HD, high&#8208;dose (400&#160;&#956;g/kg).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31867</offset>
+      <text>Correlation of the consequence of ARCN1 depletion and miR&#8208;517a sensitivity in 12 NSCLC cell lines (plot as in Fig 2F). P&#8208;value calculated from Student's t&#8208;distribution.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32042</offset>
+      <text>Immunoblots indicate miR&#8208;517a&#8208;induced depletion of ARCN1 and USP1 in the indicated cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32141</offset>
+      <text>Consequence of the indicated siRNAs and miR&#8208;517a on the viability of the indicated cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32238</offset>
+      <text>Immunoblots indicate that miR&#8208;517a suppresses expression of ARCN1 in multiple miR&#8208;517a&#8208;sensitive cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32353</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32356</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32408</offset>
+      <text>To help identify functionally relevant targets of miR&#8208;517a, we tested selective sensitivity to miR&#8208;517a within a panel of 12 NSCLC cell lines (HBEC30, HCC4017, HCC44, H460, H2122, H2009, H1155, H2073, H1395, H1993, HCC95, H1819, HCC366) for which whole&#8208;genome siRNA&#8208;toxicity screen results were available from an independent functional genomics effort. The miR&#8208;517a sensitivity profile within this panel was then used to identify predicted miR&#8208;517a gene targets with matching activity profiles in the siRNA screens. The coatomer complex protein ARCN1 and the ubiquitin thioesterase USP1 were identified in this way (Figs&#160;3D and&#160;EV6A), both of which are responsive to miR&#8208;517a&#8208;mediated suppression of expression in ovarian cancer cell lines (Fig&#160;3E and G). Sensitivity to ARCN1 depletion in the EOC cell line panel also closely phenocopied sensitivity to miR&#8208;517a; however, USP1 depletion was selectively toxic to PEO1 cells (Fig&#160;3F). The selective responsiveness of PEO1 cells to USP1 depletion may be a consequence of selective coupling of USP1 to its target protein ID1 and consequent induction of p21 in this background (Williams et&#160;al, 2011). These cumulative observations indicate that limiting expression of ARCN1 is a common vulnerability in both epithelial ovarian cancer and non&#8208;small cell lung cancer lines that can be artificially perturbed by miR&#8208;517a (Fig&#160;EV6B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>33812</offset>
+      <text>miR&#8208;517a reduces ovarian cancer cell viability, in part, by inhibiting ARCN1 expression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33902</offset>
+      <text>Correlation of the consequence of USP1 depletion and miR&#8208;517a sensitivity in 12 NSCLC cell lines (plot as in Fig&#160;2F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34023</offset>
+      <text>Schematic summarizing predicted miR&#8208;517a relationships with ARCN1 and USP1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34101</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34104</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34156</offset>
+      <text>miR&#8208;124 targets SIX4 to release terminal cell differentiation programs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34229</offset>
+      <text>Among the rare cohort of miRNA mimics that inhibited viability in at least 30% of the EOC cell line panel, miR&#8208;124 was of particular interest as it was uniformly toxic to all three short&#8208;term tumor ascites cultures (HCC5012, HCC5019, and HCC5030, Fig&#160;1A), inert in ovarian surface epithelial cells and hepatocytes (Fig&#160;4A), and is under&#8208;represented on average 3.23&#8208;fold in serous ovarian tumors relative to normal tissues (Iorio et&#160;al, 2007). To help identify the mechanistic basis of ovarian cancer cell sensitivity to miR&#8208;124, we first examined the effects of miR&#8208;124 on the genomic expression profiles of PEO1 and PEO4 cells (GEO Reference GSE673297 and GSE673298). These lines were chosen given their sensitivity to miR&#8208;124 and their association with extensive molecular annotations (Fig&#160;EV4A). Seventy&#8208;two hours post&#8208;transfection with the miR&#8208;124 mimic, close to 3,000 genes were detected with altered expression in PEO1 or PEO4 cells (Datasets EV6 and EV9). A major developmental occupation of miR&#8208;124 is the promotion of a neuronal differentiation program. The direct suppression of PTBP1 and CTDSP1 by miR&#8208;124 can be sufficient to induce the expression of neuronal markers in diverse cell types (Makeyev et&#160;al, 2007; Visvanathan et&#160;al, 2007). Consistent with this, we observed miR&#8208;124&#8208;dependent suppression of PTBP1 and CTDSP1 in PEO1 and PEO4 cells with concomitant induction of the neuronal proteins Tuj1 and MAP2 (Figs&#160;4B and EV7A and B). Extensive evidence indicates that among other described mechanisms of miRNA&#8208;mediated regulation (such as inhibition of translation), the direct mRNA targets of miRNAs are depleted upon engagement by a miRNA, with a median downregulation of approximately 2&#8208;fold relative to control samples (Lim et&#160;al, 2005). Remarkably, of the 1,131 miR&#8208;124&#8208;responsive genes in PEO1 cells, 460 were predicted to be direct seed&#8208;driven targets (Lewis et&#160;al, 2003). Furthermore, there was a strong correlation between total context score (a numerical evaluator of the likelihood that a predicted target is a bona fide target) and the probability of decreased expression of a gene on the microarray. Expressed predicted targets with context scores &#8804;&#160;&#8722;0.2 had a 41% probability of displaying a 2&#8208;fold decrease in expression in response to miR&#8208;124 (Fig&#160;4C). These observations indicate that supraphysiological concentrations of miRNAs have highly pleiotropic consequences on cellular gene expression programs, and therefore likely influence biological processes via highly combinatorial mechanisms.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36812</offset>
+      <text>miR&#8208;124&#8208;induced reprograming of EOC gene expression profiles</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36877</offset>
+      <text>Consequence of miR&#8208;124 on EOC cell viability (as in Fig 2A). N, normal cell lines (IHH and HOSE). In the screen, miR&#8208;124 was found to significantly reduce cell viability (z&#160;&#8208;score &lt;&#160;&#8722;2) in 6 cell lines, and TCGA expression data revealed no significant change in expression of this miRNA in ovarian tumors.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37193</offset>
+      <text>miR&#8208;124 induced expression of neuronal marker proteins Tuj1 (TUBB3) and MAP2 in ES2 cells 48&#160;h post&#8208;transfection. Cells were counterstained with DAPI and phalloidin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37364</offset>
+      <text>miR&#8208;124&#8208;responsive genes in PEO1 cells were enriched for TargetScan predicted targets. P&#8208;value from hypergeometric distribution.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37499</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37502</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37554</offset>
+      <text>Identification of miR&#8208;124&#8208;responsive genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37601</offset>
+      <text>Expression of miR&#8208;124 mimic reduced expression of PTBP1 (PTB) and CTDSP1 (SCP1) but not other members of the REST complex on a microarray. Each bar represents the log2 of the ratio of the means of three experiments of mir&#8208;124 mimic expression to mimic negative control expression of a single probe on the microarray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37922</offset>
+      <text>miR&#8208;124 mimic expression reduced expression of mesenchymal markers ITGB1, VIM, and TWIST2 and increased expression of neuronal markers CDH2, VAMP2, and MAP2 according to the microarray data. Each bar represents the log2 of the ratio of the means of three experiments of mir&#8208;124 mimic expression to mimic negative control expression of a single probe on the microarray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38295</offset>
+      <text>SIX4, EYA1, EYA2, EYA3, and EYA4 are predicted targets of miR&#8208;124 in TargetScan (www.targetscan.org).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38399</offset>
+      <text>SIX4 expression is significantly enriched in human ovarian tumors relative to normal ovarian tissue. P&#8208;value from Welch two&#8208;sample t&#8208;test. N, unmatched normal ovarian tissue; P, primary epithelial ovarian tumors; R, recurrent epithelial ovarian tumors.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38658</offset>
+      <text>Knockdown of SIX4 reduced cell viability similar to expression of a miR&#8208;124 mimic in PEO1 cells (mean&#160;&#177;&#160;SD of 3 experiments).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38789</offset>
+      <text>Expression of a SIX4 construct that cannot be targeted by miR&#8208;124 partially rescues toxicity due to miR&#8208;124 over expression in PEO1 cells. Mean&#160;&#177;&#160;SD of 6 experiments. Two&#8208;way ANOVA analysis, ***P&#160;&lt;&#160;0.005.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39005</offset>
+      <text>SIX4 knockdown did not induce activation of caspase&#8208;3 and caspase&#8208;7. Depletion of SIX4 reduced BrdU incorporation in ES2 cells and resulted in decreased Hoechst&#8208;positive nuclei 48&#160;h post&#8208;transfection. SIX4 knockdown also resulted in decreased cells in S&#8208;phase as seen in PI&#8208;stained ES2 cells 48&#160;h post&#8208;transfection. All bars represent the mean&#160;&#177;&#160;SD of three experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39395</offset>
+      <text>Knockdown of SIX4 reduced expression of multiple cyclin proteins in PEO1 and PEO4 cells on the microarray. Each bar represents the log2 of the ratio of the means of three experiments of SIX4 siRNA transfection to siRNA negative control transfection of a single probe on the microarray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39681</offset>
+      <text>SIX4 knockdown induced expression of STRADB in PEO1 and PEO4 cells according to the microarray data. Each bar represents the log2 of the ratio of the means of three experiments of SIX4 siRNA transfection to siRNA negative control transfection of a single probe on the microarray.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39961</offset>
+      <text>Schematic of predicted interactions of miR&#8208;124 with cell cycle and cell differentiation machinery.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40062</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40065</offset>
+      <text>Source data are available online for this figure</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40114</offset>
+      <text>Among the cohort of predicted miR&#8208;124 targets with the top context scores and robust responsiveness to miR&#8208;124 was the homeodomain transcription factor SIX4 together with the eyes absent family (EYA) of SIX protein transcriptional coactivators (Ohto et&#160;al, 1999) (Fig&#160;EV7C). Of note, increased SIX4 expression has been implicated in the suppression of tissue differentiation programs (Yajima et&#160;al, 2010), and SIX4 is significantly overexpressed in ovarian tumors relative to normal ovarian tissue (Fig&#160;EV7D). SIX4 protein levels decreased upon miR&#8208;124 expression in multiple ovarian cancer cell lines (Fig&#160;5A), and siRNA&#8208;mediated SIX4 depletion was selectively toxic within the EOC cell line panel (Figs&#160;5B and&#160;EV7E). Expression of a SIX4 gene lacking its 3&#8242;&#8208;UTR, and thus miR&#8208;124 target sites, partially abrogated miR&#8208;124&#8208;induced toxicity in PEO1 cells (Fig&#160;EV7F). Tumor responsiveness to SIX4 depletion in&#160;vivo was modeled using ES2 cell xenografts. Tumors were allowed to form in the peritoneum over the course of 7&#160;days before delivery of DOPC neutral liposomes incorporating SIX4 siRNA (N&#160;=&#160;8 mice) or negative control siRNA (N&#160;=&#160;7 mice). Following a 4&#8208;week treatment regimen, SIX4 siRNA&#8208;treated animals displayed significantly decreased total tumor weight and concomitantly reduced ascites (Fig&#160;5C).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41458</offset>
+      <text>Selective addiction of EOC to the SIX4 homeobox transcription factor</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41527</offset>
+      <text>Immunoblots indicate miR&#8208;124&#8208;induced SIX4 depletion. siSIX4 is shown as an antibody control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41624</offset>
+      <text>Consequence of SIX4 depletion on EOC cell viability (as in Fig 2A, N, normal cell lines: HOSE, HBEC30).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41728</offset>
+      <text> In vivo knockdown of SIX4 using neutral liposome&#8208;incorporated siRNA reduced tumor burden and ascites volume in an orthotopic xenograft mouse model. Box&#8208;and&#8208;whisker plot of tumor weight (left panel) or ascites volume (right panel) from n&#160;=&#160;7 or 8 mice per condition as indicated. *P&#8208;value from Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42052</offset>
+      <text>Consequence of SIX4 depletion in PEO1 cells on E&#8208;cadherin plasma membrane accumulation 48&#160;h after transfection. Cells were counterstained with phalloidin and DAPI.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42219</offset>
+      <text>Immunoblots indicate consequence of SIX4 depletion on LKB1 accumulation and AMPK pathway activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42320</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42323</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42375</offset>
+      <text>To help elaborate the mechanistic consequences of SIX4 inactivation, we examined the effect of SIX4 depletion on PEO1 and PEO4 genomic expression profiles (Datasets EV7 and EV10). Reduced expression of multiple cyclins correlated with reduced cell cycle progression and accumulation of cells in G1 (Fig&#160;EV7G and H). In addition, we observed significant induction of STRADB (Fig&#160;EV7I). STRADB stabilizes LKB1 to promote activation of AMPK. One consequence of STRAD&#8208;induced AMPK signaling is mesenchymal to epithelial transition accompanied by the formation of E&#8208;cadherin&#8208;positive adherens junctions (Zhang et&#160;al, 2006). We observed a marked increase in E&#8208;cadherin&#8208;positive cell junctions, 48&#160;h post&#8208;SIX4 depletion in PEO1 cells, suggesting SIX4 depletion was sufficient to re&#8208;establish an epithelial phenotype in these cells (Fig&#160;5D). This was accompanied by LKB1 accumulation, and AMPK pathway activation (Fig&#160;5E). These observations suggest that SIX4 expression in ovarian cancer cells both promotes cell cycle progression and inhibits tumor&#8208;suppressive AMPK pathway activity (Fig&#160;EV7J).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43487</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43498</offset>
+      <text>Accumulating evidence indicates an association of loss of micro&#8208;RNA biogenesis with the development of ovarian cancer. Here, we have employed micro&#8208;RNA mimic toxicity screens to evaluate the sensitivity of ovarian epithelial cancer cell lines to individual mature miRNAs. A striking feature of the resulting toxicity profile was the robust but idiosyncratic vulnerabilities displayed within the cell line panel. Modeling of these idiosyncratic responses with patient data, and in other tumor lineages, suggests they are reflective of fractional representation of diverse phenotypes in EOC. This behavior is consistent with a common sensitivity of EOC to miRNA production, which, however, is driven by private miRNA species as a consequence of the diverse molecular etiologies found in this disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44301</offset>
+      <text>Despite the preponderance of idiosyncratic activity, a small cohort of commonly toxic mimics was identified. The mature sequence from hsa&#8208;miR&#8208;517a inhibited viability in 53% of the EOC lines tested and was innocuous in telomerase&#8208;immortalized ovarian epithelial cells and hepatocytes. ARCN1 was identified as a miR&#8208;517a target associated with miR&#8208;517a sensitivity. This protein is part of the COPI complex, which otherwise supports retrograde transport, acidification of autophagolysosomes, and is a CDC42 effector required for CDC42 transformation (Wu et&#160;al, 2000; Razi et&#160;al, 2009; Huotari &amp; Helenius, 2011). Notably, direct ARCN1 depletion phenocopied the miR&#8208;517a toxicity profile in both ovarian and lung cancer cell lines, suggesting ARCN1 function is limiting in a large cohort of cancer cells and can be artificially targeted by miR&#8208;517a.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45164</offset>
+      <text>An additional common vulnerability was identified with miR&#8208;124, a microRNA that has been extensively studied in relation to its role in specification of neuronal cell fate. miR&#8208;124 expression is under&#8208;represented in multiple tumor types as compared to corresponding normal tissues, including serous ovarian adenocarcinoma. We found that miR&#8208;124 has an extensive mRNA target space in ovarian epithelial cancer cells; however, suppression of the homeobox transcription factor SIX4 was sufficient to mimic the consequences of miR&#8208;124 on ovarian cancer cell proliferation. SIX4 is overexpressed in ovarian tumors relative to normal tissue and maintains cancer cell proliferation, at least in part, by supporting cyclin gene expression and suppressing AMPK pathway activation. SIX4 depletion resulted in induction of cell differentiation programs concomitant with terminal cell cycle arrest. Systemic delivery of siRNA targeting SIX4 effectively inhibited xenograft tumor growth, nominating SIX4 and/or SIX4 target genes as an ovarian cancer intervention target.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46232</offset>
+      <text>Deleterious mobilization of cell differentiation programs was a shared mechanism underpinning the antitumorigenic activity of many of the miRs studied here. miR&#8208;155, miR&#8208;181, miR&#8208;517a, and miR&#8208;124 have been implicated in the differentiation of hematopoietic cells, adipocytes, osteoblasts, embryoid tissue, and neurons (Chen et&#160;al, 2004, 2013b; Bhushan et&#160;al, 2013; Eguchi et&#160;al, 2013). As a class, miRs are intimately associated with differentiation programs, exhibit tissue&#8208;specific expression, and can be sufficient to induce anomalous expression profiles in heterologous contexts that are reminiscent of the miRNA's tissue of origin (Lagos&#8208;Quintana et&#160;al, 2002; Lim et&#160;al, 2005; Landgraf et&#160;al, 2007). Thus, the common loss of miRNA expression and maturation in ovarian cancer cells might serve to deflect anomalous engagement of cellular differentiation programs in response to oncogene activation, offering differentiation therapy for consideration as a potential treatment modality for ovarian cancer. Though distinct from the solid tumor context, perhaps the most well&#8208;known example of differentiation therapy is the treatment of acute promyelocytic leukemias (APMLs) with all trans&#8208;retinoic acid (ATRA). APML is associated with relatively simple genetic background, where almost all patients share a distinct chromosomal rearrangement that confers ATRA sensitivity (Larson et&#160;al, 1984). The observations presented here suggest that vulnerability to differentiation programs may also lie at the nexus of the diverse oncogenotypes associated with EOC, and therapeutic agents modeled on miR&#8208;155/181, miR&#8208;517a, and miR&#8208;124 may therefore offer intervention opportunities for large cohorts of the ovarian cancer patient population.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>47996</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48018</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48031</offset>
+      <text>PEO1 and PEO4 cells were generously provided by Hani Gabra (University of Edinburgh Cancer Research Center). ES2 and TOV112D cell lines were purchased from the ATCC. SKOV3, Hey, OC316, OVCAR3, A2780, EFO21, EFO27, OAW42, and UPN251 cell lines were generously provided by Dr. Robert Bast (MD Anderson Cancer Center). IHH cells were generously provided by Dr. John Abrams (UT Southwestern). HOSE cells were generously provided Dr. William Hahn (Dana Farber Cancer Institute, Harvard). PEO1, PEO4, SKOV3, ES2, TOV112D, Hey, OC316, OVCAR3, A2780, EFO21, EFO27, OAW42, and UPN251 cell lines were grown in RPMI medium with L&#8208;glutamine and 25&#160;mM HEPES (Gibco) supplemented with 10% fetal bovine serum (Atlanta Biologicals) and 100&#160;U/ml penicillin and 100&#160;&#956;g/ml streptomycin (Gibco). HCC5012, HCC5030, and HCC5019 were grown in ACL4 medium supplemented with 5% fetal bovine serum (Atlanta Biologicals). HOSE cells were grown in&#160;Keratinocyte Serum Free Medium with supplements (Gibco) and 100&#160;U/ml penicillin and 100&#160;&#956;g/ml streptomycin (Gibco). IHH cells&#160;were grown in DMEM medium (Gibco) supplemented with 10% fetal bovine serum (Atlanta Biologicals) and 100&#160;U/ml penicillin and 100&#160;&#956;g/ml streptomycin (Gibco). Upon receipt, the identity of all cell lines was confirmed via short&#8208;tandem repeat DNA fingerprinting that was then compared to a database of known samples. Transfections were performed as described in the miRNA mimic screens.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49477</offset>
+      <text>miRNA mimic screens and transfection</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49514</offset>
+      <text>All cell lines were screened using a collection of miRNAs consisting of the intersection of two Dharmacon miRIDIAN Mimic Libraries inclusive of all miRNAs annotated in miRBase 8.0 and miRBase 10.1, respectively (www.mirbase.org). Screens were performed similarly to those previously described with slight modifications (Whitehurst et&#160;al, 2007; Ganesan et&#160;al, 2008). The transfection conditions for each cell line were optimized by varying transfection reagent and cell number plated while keeping the mass of RNA transfected constant to ensure minimal transfection&#8208;related toxicity and maximal transfection efficiency. Transfection&#8208;related toxicity was assessed by transiently transfecting in a negative control mimic and normalizing cell viability values to non&#8208;transfected wells 120&#160;h post&#8208;transfection using the same Cell Titer Glo endpoint as the screen. Transfection efficiency and dynamic range were assessed in a similar manner by transiently transfecting each cell line with the pan&#8208;toxic siRNA siUBB and then using the Cell Titer Glo endpoint assay 120&#160;h post&#8208;transfection. 10 picomoles of miRNA mimic per well were delivered in 30&#160;&#956;l serum free medium to 96&#8208;well microtiter plates using a Biomek FX robotic liquid handler (Beckman Coulter). A total of 9.8&#160;&#956;l of serum free medium containing 0.2&#160;&#956;l of RNAiMAX transfection reagent was then added to each well using a TiterTek multidrop (except for PEO4 where 0.2&#160;&#956;l of DharmaFECT 3 was used) followed by a 20&#8208; to 30&#8208;min incubation at room temperature. Single&#8208;cell suspensions were then delivered to each well using a TiterTek multidrop to a total volume of 150&#160;&#956;l. The total number of cells per well varied according to the optimal transfection conditions for each cell line as follows: PEO1 (10,000), PEO4 (10,000), SKOV3 (5,000), A2780 (20,000), OC316 (5,000), EFO21 (5,000), Hey (5,000), OVCAR3 (12,500), IGROV1 (12,500), EFO27 (15,000), UPN251 (10,000), OAW42 (10,000), CAOV3 (5,000), HCC5012 (3,000), HCC5030 (5,000), and HCC5019 (5,000). All cells were plated in the media in which they were cultured as described above. Plates were then centrifuged at 500 rpm for 1&#160;min and incubated in a 37&#176;C/5% CO2 incubator. Seventy&#8208;two hours after plating cells, 50&#160;&#956;l of fresh media was added to each well using a TiterTek multidrop. About 120&#160;h after plating, 15&#160;&#956;l of CellTiter&#8208;Glo Reagent (Promega) was added to each well and incubated per manufacturer's protocol. Luminescence values for each well were then recorded using an Envision Plate&#160;Reader (Perkin Elmer). Each transfection was performed in triplicate. Raw luminescence values for each well were normalized to allow for comparisons from well to well and plate to plate. Each well in a row was normalized to the median value for the row. The z&#8208;score for each well was then derived using siMACRO macro for Excel (Singh et&#160;al, 2013). Transfection of siRNAs was performed as described above using 10&#160;pmoles of a pooled siRNA instead of miRNA mimic. HOSE and IHH transfection were performed as above plating 10,000&#160;cells per well and 2,000&#160;cells per well, respectively. miRNA mimic and siRNA oligo sequences can be found in Table&#160;EV2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52714</offset>
+      <text>To evaluate the capacity of ectopic miRNA target expression to rescue miRNA mimic toxicity, the relevant oligo was transfected into cells as described above. 24&#160;h after mimic transfection, relevant plasmids expressing miRNA target cDNA or an empty vector was transfected into cells via PolyJet (Signagen). Twenty&#8208;four hours later, fresh medium with 0.3&#160;&#956;g/ml puromycin was added to each well. The experiment was terminated 120&#160;h after the mimic transfection and cell viabilities were assessed using Cell Titer Glo as above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53244</offset>
+      <text>Data processing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53260</offset>
+      <text>Clustering analysis was performed with the affinity propagation clustering (APC) algorithm using the &#8220;apcluster&#8221; package in R. APC is a deterministic clustering method which identifies the number of clusters, and cluster &#8220;exemplars&#8221; (i.e., the cluster centroid or the data point that is the best representative of all the other data points within that cluster) entirely from the data (Frey &amp; Dueck, 2007), giving it an advantage over non&#8208;deterministic methods subject to a biased randomized initialization step, such as Hierarchical Clustering, or methods in which the number of clusters has to be pre&#8208;specified, such as k&#8208;means clustering.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53915</offset>
+      <text>Affinity propagation clustering performs clustering by passing messages between the data points. It takes as input a square matrix representing pairwise similarity measures between all data points (either Euclidean distance or Pearson correlations). The algorithm views each data point as a node in a network and is initialized by connecting all the nodes together where edges between nodes are proportional to Pearson correlations. The algorithm then iteratively transmits messages along the edges, pruning edges with each iteration, until a set of clusters and exemplars emerges.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54497</offset>
+      <text>Two real&#8208;valued messages are passed between nodes. The &#8220;responsibility&#8221; message computes how well suited it is for point i to choose point k as an exemplar, given all the other candidate exemplars, k&#8242;, and is updated by:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54728</offset>
+      <text>The availability message, a(i, k), computes how appropriate it is for point i to select point k as an exemplar, taking into account all the other points for which k is an exemplar, i&#8242;, and is given by:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54934</offset>
+      <text>In the above equation, a(i, k) is set to the self responsibility, r(k,&#160;k), plus the sum of the positive responsibilities candidate k&#160;receives from other points. The entire sum is thresholded at 0, and a negative availability indicates that it is inappropriate for point i to choose point k as an exemplar and the tie is severed. The self&#8208;availability, a(k, k), reflects the accumulated evidence that point k is an exemplar and is updated with the following rule, which reflects the evidence that k is an exemplar based on the positive responsibilities sent to&#160;k&#160;from all points, and is updated by:  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55540</offset>
+      <text>In the first iteration, all points are considered equally likely to be candidate exemplars, and a(i, k) is set to 0 and s(i, k) is set to the input similarity measure between points i and k. The above rules are then iteratively updated until a clear, stable set of clusters and exemplars emerges.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55837</offset>
+      <text>In our implementation of the algorithm, we first ran the algorithm to identify an initial set of exemplars and clusters from the data. The exemplars were then clustered together and this procedure was repeated until no more clusters emerged to identify a hierarchical structure of clusters. Networks were drawn with cytoscape (Shannon et&#160;al, 2003).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56187</offset>
+      <text>RNASeq data for 7 cell lines collected from the CCLE (Barretina et&#160;al, 2012) (http://www.broadinstitute.org/ccle) and 2 cell lines from this study (Dataset EV5) were combined. The RNASeq data was first filtered to contain only the top 20% of the most highly variant genes (2,686 genes total). The cell lines were then clustered using hierarchical APC clustering (described above) based on a Euclidean distance metric.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56606</offset>
+      <text>The 400 microRNAs were clustered together based on their z&#8208;scores across 16 cell lines using a Euclidean distance metric, and the 16 cell lines were clustered together based on their z&#8208;scores across 400 miRs using a Pearson correlation metric.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56854</offset>
+      <text>For each microRNA mimic, a standard deviation value was calculated for viability across the panel of cell lines. For all miRNAs in the same seed family, a standard deviation value was calculated for viability across the panel of 16 cell lines. Lastly, a within&#8208;replicate standard deviation value was calculated. A kernel density estimation was fit to each of the three standard deviation distributions and plotted.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57271</offset>
+      <text>Identification of potentially active miR&#8208;517a targets was achieved as follows. A total of 52 miR&#8208;517a target genes were predicted by TargetScan 6.0 (www.targetscan.org). These predicted targets were then filtered for activity (relative cell viability &lt;&#160;0.5, N&#160;=&#160;10) in a miR&#8208;517a&#8208;sensitive cell line, H2122, that had also previously undergone a genomewide siRNA toxicity screen. Toxicity in response to depletion of each of these 10 predicted targets, with two independent siRNA pools, was then assessed for correlation with toxicity upon transfection with miR&#8208;517a mimic in a panel of 13 NSCLC lines. Only 2 predicted targets, USP1 and ARCN1, demonstrated a positive correlation with miR&#8208;517a (R 2&#160;&gt;&#160;0.35) using siRNA oligos from both Dharmacon and Ambion.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58046</offset>
+      <text>Statistical analysis of data was performed using mainly nonparametric tests. However, parametric tests (i.e. t&#8208;test) were used when performed on data with a normal distribution. Standard deviation from the mean was used to assess variance within a data set and to ensure variance between data sets was similar.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58359</offset>
+      <text>Derivation of new cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58388</offset>
+      <text>Because cell lines may lose phenotypic properties during long term culture (Gillet et&#160;al, 2013), we derived new ovarian cell lines and cryopreserved working stocks from them at early time points after culture initiation (3&#8211;8&#160;months). Malignant ascites fluid from patients with untreated high&#8208;grade papillary ovarian carcinoma were treated with hemolysis agents to remove red blood cells and then enriched for tumor cells by a series of differential low speed centrifugations and differential attachment to culture dishes, and plated into culture flasks with ACL4 medium and 5% fetal bovine serum. Cell lines were cryopreserved as soon as continuous growth for 3&#8211;4 passages occurred. Cell lines were epithelial in morphology and over 80% of the cells expressed epithelial cell adhesion molecule (EPCAM) (van der Gun et&#160;al, 2010). Derivation of cell lines was approved by the UT Southwestern IRB, and informed consent was obtained from all individuals involved.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59357</offset>
+      <text>Antibodies and compounds</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59382</offset>
+      <text>Antibodies were purchased from Cell Signaling (pAKT (T308) #2965, pAKT (S473) #4060, panAKT #4691, pGSK3&#946; (S9) #9327, GSK3&#946; #9315, p27 #3686, TSC2 #3635, pMEK (S217/221) #9121, MEK1/2 #9122, ERK1/2 #9102, pERK (T202/Y204) #4370, SMAD4 #9515, pSMAD3 (S423/425) #9520, SMAD3 #9523, SMAD2 #5339, USP1 #8033, p21 #2947, LKB1 #3050, pAMPK (T172) #2535, AMPK #2532, pACC (S79) #3661, ACC #3676, Claudin&#8208;1 #4933, Vimentin #5741), Sigma (&#946;&#8208;actin #A1978), Millipore (pSMAD2 (S465/467) #AB3849), Santa Cruz (ID1 #SC&#8208;488 and ID2 #SC&#8208;489), Novus (SIX4 #51804&#8208;M09 and ARCN1 #NBP1&#8208;32377), and Epitomics (MO25 #2027&#8208;1). HRP&#8208;conjugated secondary antibodies were purchased from Jackson Immunolaboratories, and ECL reagents were purchased from ThermoScientific. AKT Inhibitor X was purchased from EMD Millipore (Cat #124039). LY2940092 was purchased from Sigma (Cat #L9908). TGF&#946;1 protein was purchased from Peprotech (Cat #100&#8208;21).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>60319</offset>
+      <text>Immunofluorescence</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60338</offset>
+      <text>siRNAs and miRNAs were delivered by reverse transfection as described above and seeded on coverslips. After 48&#160;h, cells were washed with PBS and fixed with 4% methanol&#8208;free formaldehyde (Fisher). Cells were then permeabilized with 0.5% Triton X&#8208;100 in PBS. Manufacturer's protocols were then followed for blocking and incubation with primary antibodies except all primary antibodies were used at 1:100 dilution. Primary antibodies were purchased from BD Biosciences (E&#8208;cadherin #610181) and Covance (Tuj1 #MMS&#8208;435P and MAP2 #SMI&#8208;52R). Cells were then incubated with Alexa 488&#8208;conjugated secondary antibodies (Invitrogen) at 1:500 for 1&#160;h at room temperature. Coverslips were then stained with Texas Red&#8208;X phalloidin per manufacturer's protocol (Invitrogen #T7471). Coverslips were then mounted onto slides using Vectashield (Vector Labs) mounting medium containing DAPI. Slides were imaged using the Leica TCS SP5 confocal microscope (Leica Micro&#8208;systems, CMS GMBH) with custom software (Leica Micro&#8208;systems LAS AF) using a sequential 3&#8208;channel scan. All images were captured using the same electronic settings. Images were then imported in ImageJ (http://rsb.info.nih.gov) using the LOCI Bio&#8208;formats plug&#8208;in (University of Wisconsin, Madison). Tuj1 and MAP2 staining was imaged using a Zeiss Axioplan 2E with a Hamamatsu monochrome digital camera. OpenLab (Improvision) software was used for image acquisition on the Zeiss microscope. All image processing was performed in ImageJ.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>61846</offset>
+      <text>Animals, orthotopic in&#160;vivo model and tissue processing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61903</offset>
+      <text>Female athymic nude mice were purchased from the National Cancer Institute, Frederick Cancer Research and Development Center (Frederick, MD). These animals were cared for according to the guidelines set forth by the American Association for Accreditation of Laboratory Animal Care and the U.S. Public Health Service policy on Human Care and Use of Laboratory Animals. All mouse studies were approved and supervised by the M.D. Anderson Cancer Center Institutional Animal Care and Use Committee. All animals used were between 8 and 12&#160;weeks of age at the time of injection. A standard power calculation for detection of a 50% effect size was used to determine sample size. For the miR&#8208;517a experiment, SKOV3ip1 cells were trypsinized, washed, and resuspended in Hanks' balanced salt solution (Gibco, Carlsbad, CA) and injected intraperitoneally into mice (SKOV3ip1: 1&#160;&#215;&#160;106&#160;cells/animal). Similarly, for the SIX4 siRNA experiment, ES2 cells (2.5&#160;&#215;&#160;105&#160;cells/animal) were prepared and injected intraperitoneally. For both experiments, 7&#160;days after the tumor cell injection, mice were randomly divided and treated with oligonucleotides incorporated in neutral nanoliposomes (intraperitoneal [IP] administration). For the miR&#8208;517a experiment, mice were randomized to the following three groups (n&#160;=&#160;10/group): negative control miRNA/DOPC or miR&#8208;517a/DOPC at either 200&#160;&#956;g/kg or 400&#160;&#956;g/kg. For the SIX4 experiment, mice were randomized to the following two groups (n&#160;=&#160;10/group): negative control siRNA or SIX4 siRNA. For both experiments, twice weekly treatments continued for 4&#8211;5&#160;weeks at which point, all mice in the experiment were sacrificed and necropsied, and tumors were harvested. Tumor weights, number, and location of tumor nodules were recorded. Tumor tissue was either fixed in formalin for paraffin embedding, frozen in optimal cutting temperature (OCT) media to prepare frozen slides, or snap&#8208;frozen for lysate preparation. Researchers were not blinded to treatment group.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>63915</offset>
+      <text>Liposomal preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>63937</offset>
+      <text>miRNA for in&#160;vivo delivery was incorporated into DOPC as previously described (Landen et&#160;al, 2005). DOPC and miRNA were mixed in the presence of excess tertiary butanol at a ratio of 1:10 (w/w) miRNA/DOPC. Tween 20 was added to the mixture in a ratio of 1:19 Tween 20:miRNA/DOPC. The mixture was vortexed, frozen in an acetone/dry ice bath, and lyophilized. Before in&#160;vivo administration, this preparation was hydrated with PBS at room temperature at a concentration of 200&#160;&#956;g/kg per injection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>64437</offset>
+      <text>Exome sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>64454</offset>
+      <text>For each cell line, 5&#160;&#956;g of genomic DNA was isolated for whole&#8208;exome capture sequencing. In brief, DNA was fragmented (150&#8211;250&#160;bp) and ligated to the paired&#8208;end adaptors. The adaptor&#8208;ligated fragments were then amplified by PCR and purified. Exon&#8208;containing fragments in these libraries were hybridized to the SureSelect Human All Exon Kit from Agilent technologies. This kit targets 165,637 exons (~18,003 genes), totaling approximately 38&#160;Mb of genomic DNA. The hybridized fragments were then captured using streptavidin&#8208;coated magnetic beads and amplified and each sample was sequenced in the UT Southwestern Genomics Core Facility in two lanes of an Illumina GAIIx using a standard 75&#8208;bp paired&#8208;end protocol. The image analysis and base calling were performed using the Illumina pipeline with default settings. Prior to analysis, duplicate reads (multiple fragments from the same amplicon), identified on the basis of having the same start position for both end reads, were removed from the sequence analysis. For copy number analysis, a total of 88 million read pairs (2&#160;&#215;&#160;74&#160;bp) for PEO1 and 89 million read pairs for PEO4 passed QC, and 148 million reads from each of the two lines were uniquely aligned to NCBI human genome build 37 by Bowtie 0.12.5 (Langmead et&#160;al, 2009) allowing up to 2 mismatches per read. Genomewide copy number variation was analyzed for the pair of cell lines separately using completely unrelated normal tissue data obtained by others with the same exome capture kit as a reference for normalization.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>66013</offset>
+      <text>RNA sequencing</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>66028</offset>
+      <text>RNA was isolated in triplicates from PE01 and PE04 cell lines using the RNeasy Kit (Qiagen), and the quality of RNA was checked using a Bioanalyser. From each sample, 5&#160;&#956;g of RNA was used to perform RNA&#8208;Seq using the Illumina mRNA Sequencing Sample Preparation Guide (Illumina, Cat # RS&#8208;930&#8208;1001). First poly&#8208;A containing mRNA was purified using poly&#8208;T oligo&#8208;attached magnetic beads and then fragmented using divalent cations under elevated temperatures. Then, the first and second strand cDNA was synthesized using random primers, end&#8208;repaired, adenylated, and ligated with paired&#8208;end adapters. The products were then purified and enriched with PCR to create the final cDNA library. The library from each sample was sequenced in a single lane of an Illumina GAIIx using a standard 40&#8208;bp paired&#8208;end protocol. Reads were mapped to the UCSC Homo sapiens reference genome hg19 and their relative expression values were calculated in RPKM using CLC Biosystems Genomic Workbench software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>67034</offset>
+      <text>Whole&#8208;genome expression microarrays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>67072</offset>
+      <text>RNA was isolated from cells 72&#160;h post&#8208;transfection using an RNeasy kit (Qiagen). Illumina HumanWG&#8208;6&#160;V4 BeadChip (Illumina, Inc.) human whole&#8208;genome expression arrays, which contain 47,231 probes on each array, were used. Each RNA sample was amplified by Ambion TotalPrep RNA amplification kit with biotin UTP (Enzo) labeling, using 500&#160;ng of total RNA. The Ambion Illumina RNA amplification kit uses T7 oligo(dT) primer to generate single&#8208;stranded cDNA followed by a second&#8208;strand synthesis to generate double&#8208;stranded cDNA which is then column&#8208;purified. In vitro transcription with T7 RNA polymerase generated biotin&#8208;labeled cRNA. The cRNA was then column&#8208;purified, checked for size and yield using the Bio&#8208;Rad Experion system, and then 1.5&#160;&#956;g of cRNA was hybridized to each array using standard Illumina protocols with streptavidin&#8208;Cy3 (Amersham) being used for detection. Slides were scanned and fluorescence intensity captured using an Illumina BeadStation. Expression values from were extracted using BeadStudio v3.3. The data were background subtracted and quantile&#8208;normalized using the MBCB algorithm (Ding et&#160;al, 2008; Allen et&#160;al, 2009; Xie et&#160;al, 2009). The labeling and hybridization of miRNA was performed according to the miRNA Expression Profiling Assay Guide from Illumina Inc. Briefly, 1&#160;&#956;g of total RNA was polyadenylated. The RNA was then converted to cDNA with oligo&#8208;dT primers and a universal PCR sequence. The cDNA was captured by using a pool of oligonucleotides that have miRNA&#8208;specific sequences. The captured cDNA containing miRNA sequences were amplified by PCR. The strands that have complementary sequences to the probes on the array were labeled with Cy3. A single&#8208;stranded PCR product that is fluorescent&#8208;labeled was finally prepared and hybridized on Illumina Universal&#8208;12 BeadChip Human MI v2 miRNA arrays. After hybridization, the array slides were scanned on an Illumina Beadstation. Signal intensities of microarrays were summarized using BeadStudio v3.3 (Illumina, Inc). Background subtraction and quantile normalization were performed using the MBCB algorithm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>69214</offset>
+      <text>Clinical outcomes and associations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>69249</offset>
+      <text>We downloaded and analyzed data publicly available from the Cancer Genome Atlas Project (TCGA; http://tcga-data.nci.nih.gov/) for patients with ovarian serous cystadenocarcinoma. Level 3 IlluminaHiSeq miRNASeq and Agilent MicroRNA microarray data were used for miRNA expression. For miRNASeq data, we derived from the &#8220;isoform_quantification&#8221; files containing the &#8220;reads_per_million_miRNA_mapped&#8221; values for mature forms for each microRNA. Survival analyses were performed in R (version 2.14.2), and the statistical significance was defined as a P&#8208;value less than 0.05. The Log&#8208;rank test was employed to determine the relationship between expression and overall survival, and the Kaplan&#8211;Meier method was used to generate survival curves. We randomly split the entire population into training/validation cohorts (2/3, 1/3). For each miRNA, we checked for a relation with the survival as follows. In both cohorts, patients were divided into percentiles according to the miRNA expression. Using the training set, we considered any cutoff between the 25th and 75th percentile that significantly split the samples and verified the statistical significance in the validation set.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>70437</offset>
+      <text>For SIX4 expression analysis, we used the gene expression data run by UNC on Agilent Expression 244K microarrays measuring 17,814 genes. The data involve 598 samples, of which 36 samples were run by one batch and the remaining 563 were run by the other batch. We performed principal component analysis (PCA) on the combined expression data and found no obvious batch effect. Of the 598 samples, 573 are primary solid tumors, 17 are recurrent solid tumors and 8 are normal solid tissue samples. We extracted the expression levels of SIX4 from all samples and generated a box plot. The data processing and statistical analyses were performed in R (R&#8208;Core&#8208;Team, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>71107</offset>
+      <text>Cell cycle and growth assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>71136</offset>
+      <text>For evaluation of caspase 3/7 activation in cells, we transfected cells as above except cells were plated in a total volume of 100&#160;&#956;l. After 48&#160;h, cells were incubated with 50&#160;&#956;l of CaspaseGlo 3/7 reagent (Promega) per manufacturer's protocol. Luminescence values were read on a PheraStar plate reader (BMG LabTech), and raw luminescence values were normalized to a negative control siRNA contained on each plate. BrdU incorporation assays were performed by incubating cells with 10&#160;&#956;M BrdU for 4&#160;h, 48&#160;h after transfection as described above. After incubation, cells were fixed with 3.7% paraformaldehyde. DNA was denatured using 0.5 N HCl, and cells were stained with anti&#8208;BrdU antibody conjugated to Alexa&#8208;488 (Invitrogen) per manufacturer's instructions. Hoechst dye (Invitrogen) with then diluted in PBS per manufacturer's protocol and added to each well. Plates were read using a BD Pathway 855 microscope (BD Biosciences). Using AttoVision software (BD Biosciences), cells were segmented and Hoechst&#8208;positive and FITC&#8208;positive nuclei were automatically counted. Cutoffs to segregate positive nuclei were empirically determined and constant for the entire plate. DNA content analysis was performed 48&#160;h after transfection. Cells were stained with propidium iodide (PI) using a PI/RNase Buffer (BD Biosciences) following manufacturer's protocol. Samples were run on a FACSCalibur flow cytometer and acquired with CellQuest Pro (Becton Dickinson, San Jose, CA).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72620</offset>
+      <text>Samples were analyzed with FlowJo (Treestar). Gating was performed to gate out dead cells and doublets and then Dean/Jet/Fox modeling was applied.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>72767</offset>
+      <text>Plasmids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>72776</offset>
+      <text>pRK5&#8208;Myc&#8208;SIX4 contains the human SIX4 coding sequence (nucleotides 1&#8211;2,283, from pANT7&#8208;SIX4&#8208;cGST (dnasu.org)) inserted in the BamHI/XbaI sites of pRK5&#8208;Myc (Clontech). pRK5&#8208;Myc&#8208;ARCN1 contains the human ARCN1 coding sequence (nucleotides 1&#8211;1,536 plus &#8220;TACCAAGAAGAGGGAGC&#8221;, a 17&#160;bp 3&#8242;&#8208;UTR fragment immediately downstream the ARCN1 cDNA from MGC Human ARCN1 Sequence&#8208;verified cDNA (Thermoscientific)) inserted in the BamHI/XbaI sites of pRK5&#8208;Myc (Clontech). The small 3&#8242;&#8208;UTR fragment was included to facilitate the PCR primer design and it does not contain a miR&#8208;517a target site.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>73389</offset>
+      <text>Quantitative PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>73406</offset>
+      <text>Expression level of endogenous miRNA or those reversely transfected as described above was analyzed as follows. Total RNA was isolated with the TRIzol reagent according to the manufacturer's instructions (Life Technologies, Cat# 15596018) and transcribed into complementary DNA (cDNA) with TaqMan microRNA Reverse Transcription kit (Life Technologies, Cat# 4366596). Gene expression was quantified by TaqMan Gene Expression Master mix (Life Technologies, Cat# 4369016) on a LightCycler 4800 RT&#8211;PCR System (Roche Applied Science, Germany). Relative amounts of miRNA between samples were calculated with the comparative CT method with normalization to the RNU6B control CT value. TaqMan probes used: hsa&#8208;miR&#8208;146a&#8208;5p (Life Technologies, Assay ID 000468, Cat# 4427975); has&#8208;miR&#8208;505&#8208;3p (Life Technologies, Assay ID 002089, Cat# 4427975); and RNU6B (Life Technologies, Assay ID 001093, Cat# 4427975).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>74315</offset>
+      <text>Data availability</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>74333</offset>
+      <text>Primary data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74346</offset>
+      <text>In addition to the provided dataset files, source data in this study have been made available at:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74444</offset>
+      <text>Shields et&#160;al, microRNA Induction of Fatal Differentiation Programs is a Context&#8208;selective Vulnerability in Ovarian Cancer Cells. Gene Expression Omnibus (GEO). Accession Number: GSE67330.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74636</offset>
+      <text>Exome sequencing data are available at the NCBI SRA Accession number: SRP065357.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74717</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74720</offset>
+      <text>CCLE data: http://www.broadinstitute.org/ccle </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74767</offset>
+      <text>Barretina J et&#160;al, The Cancer Cell Line Encyclopedia enables predictive modeling of anticancer drug sensitivity. Nature 2012 Mar 29; 483(7391): 603&#8211;607.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74923</offset>
+      <text>TCGA Data: http://tcga-data.nci.nih.gov/ </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>74965</offset>
+      <text>Cancer Genome Atlas Research N. Integrated genomic analyses of ovarian carcinoma. Nature 2011 Jun 30; 474(7353): 609&#8211;615.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>75089</offset>
+      <text>Cited data</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75100</offset>
+      <text>Byers LA et&#160;al, An epithelial&#8208;mesenchymal transition gene signature predicts resistance to EGFR and PI3K inhibitors and identifies Axl as a therapeutic target for overcoming EGFR inhibitor resistance. Clin Cancer Res 2013 Jan 1; 19(1): 279&#8211;290.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75350</offset>
+      <text>Garnett MJ, Edelman EJ, Heidorn SJ, Greenman CD, Dastur A, Lau KW, et&#160;al Systematic identification of genomic markers of drug&#160;sensitivity in cancer cells. Nature 2012 Mar 29; 483(7391): 570&#8211;575.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>75549</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>75570</offset>
+      <text>BBS was the primary author, designed and performed multiple experiments, and interpreted the data; CVP performed mouse xenograft experiments, HG designed and performed multiple experiments including qPCR; EM performed data analytics, MP provided source data for miRNA screens in NSCLC line; CN performed miRNA mimic screens of newly derived polyclonal cell lines; SP performed miRNA mimic screens of PEO1 and PEO4 lines; YW and CI performed TCGA data processing and analysis; HSK performed data processing for next generation sequencing; RJB generated the CIRCOS plot; SK performed whole&#8208;exome sequencing and RNA sequencing of PEO1 and PEO4 lines; CRA and GLB assisted with DOPC particle production; JL and AG generated newly derived polyclonal cell lines, KAB supervised TCGA data processing; AKS was responsible for experimental design of mouse xenograft experiments and was a chief collaborator; MAW was the corresponding author and was responsible for experimental design and data interpretation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>76573</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>76594</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>76654</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>76677</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">J Cancer Sci Ther</infon>
+      <infon key="lpage">27</infon>
+      <infon key="pub-id_pmid">20502629</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>76688</offset>
+      <text>Model&#8208;Based Background Correction (MBCB): R Methods and GUI for Illumina Bead&#8208;array Data</text>
+    </passage>
+    <passage>
+      <infon key="volume">354</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">43</infon>
+      <infon key="pub-id_pmid">16394300</infon>
+      <infon key="fpage">34</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>76781</offset>
+      <text>Intraperitoneal cisplatin and paclitaxel in ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">483</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">607</infon>
+      <infon key="pub-id_pmid">22460905</infon>
+      <infon key="fpage">603</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>76840</offset>
+      <text>The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">45</infon>
+      <infon key="source">Int J Biochem Cell Biol</infon>
+      <infon key="lpage">705</infon>
+      <infon key="pub-id_pmid">23262291</infon>
+      <infon key="fpage">696</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>76934</offset>
+      <text>miR&#8208;181a promotes osteoblastic differentiation through repression of TGF&#8208;beta signaling molecules</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">290</infon>
+      <infon key="pub-id_pmid">23091115</infon>
+      <infon key="fpage">279</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>77036</offset>
+      <text>An epithelial&#8208;mesenchymal transition gene signature predicts resistance to EGFR and PI3K inhibitors and identifies Axl as a therapeutic target for overcoming EGFR inhibitor resistance</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">615</infon>
+      <infon key="pub-id_pmid">21720365</infon>
+      <infon key="fpage">609</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>77222</offset>
+      <text>Integrated genomic analyses of ovarian carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23555954</infon>
+      <infon key="fpage">e60317</infon>
+      <infon key="year">2013a</infon>
+      <infon key="type">ref</infon>
+      <offset>77271</offset>
+      <text>miR&#8208;146a Inhibits Cell Growth, Cell Migration and Induces Apoptosis in Non&#8208;Small Cell Lung Cancer Cells</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23612310</infon>
+      <infon key="fpage">1769</infon>
+      <infon key="year">2013b</infon>
+      <infon key="type">ref</infon>
+      <offset>77379</offset>
+      <text>miR&#8208;155 regulates differentiation of brown and beige adipocytes via a bistable circuit</text>
+    </passage>
+    <passage>
+      <infon key="volume">303</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">86</infon>
+      <infon key="pub-id_pmid">14657504</infon>
+      <infon key="fpage">83</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>77468</offset>
+      <text>MicroRNAs modulate hematopoietic lineage differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">4913</infon>
+      <infon key="pub-id_pmid">20581869</infon>
+      <infon key="fpage">4905</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>77525</offset>
+      <text>Genomic analysis of genetic heterogeneity and evolution in high&#8208;grade serous ovarian carcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">1693</infon>
+      <infon key="pub-id_pmid">22307839</infon>
+      <infon key="fpage">1683</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>77622</offset>
+      <text>Reprogramming tumor&#8208;associated dendritic cells in&#160;vivo using miRNA mimetics triggers protective immunity against ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">18560586</infon>
+      <infon key="fpage">e2436</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>77753</offset>
+      <text>MicroRNA expression and identification of putative miRNA targets in ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">36</infon>
+      <infon key="pub-id_pmid">18450815</infon>
+      <infon key="fpage">e58</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>77836</offset>
+      <text>Enhanced identification and biological validation of differential gene expression via Illumina whole&#8208;genome expression arrays through the use of the model&#8208;based background correction methodology</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">210</infon>
+      <infon key="pub-id_pmid">11752295</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>78035</offset>
+      <text>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">23533592</infon>
+      <infon key="fpage">e58796</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>78121</offset>
+      <text>OstemiR: a novel panel of microRNA biomarkers in osteoblastic and osteocytic differentiation from mesencymal stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">1427</infon>
+      <infon key="pub-id_pmid">19193619</infon>
+      <infon key="fpage">1417</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>78241</offset>
+      <text>Integrated genome&#8208;wide DNA copy number and expression analysis identifies distinct mechanisms of primary chemoresistance in ovarian carcinomas</text>
+    </passage>
+    <passage>
+      <infon key="volume">315</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">976</infon>
+      <infon key="pub-id_pmid">17218491</infon>
+      <infon key="fpage">972</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>78386</offset>
+      <text>Clustering by passing messages between data points</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">19057677</infon>
+      <infon key="fpage">e1000298</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>78437</offset>
+      <text>Genome&#8208;wide siRNA&#8208;based functional genomics of pigmentation identifies novel genes and pathways that impact melanogenesis in human cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">483</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">575</infon>
+      <infon key="pub-id_pmid">22460902</infon>
+      <infon key="fpage">570</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>78578</offset>
+      <text>Systematic identification of genomic markers of drug sensitivity in cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">J Natl Cancer Inst</infon>
+      <infon key="lpage">458</infon>
+      <infon key="pub-id_pmid">23434901</infon>
+      <infon key="fpage">452</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>78659</offset>
+      <text>The clinical relevance of cancer cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Carcinogenesis</infon>
+      <infon key="lpage">1921</infon>
+      <infon key="pub-id_pmid">20837599</infon>
+      <infon key="fpage">1913</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>78703</offset>
+      <text>EpCAM in carcinogenesis: the good, the bad or the ugly</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24367507</infon>
+      <infon key="fpage">e82241</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>78758</offset>
+      <text>Online survival analysis software to assess the prognostic value of biomarkers using transcriptomic data in non&#8208;small&#8208;cell lung cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5528</infon>
+      <infon key="pub-id_pmid">22971344</infon>
+      <infon key="fpage">5516</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>78897</offset>
+      <text>RhoJ regulates melanoma chemoresistance by suppressing pathways that sense DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3500</infon>
+      <infon key="pub-id_pmid">21878991</infon>
+      <infon key="fpage">3481</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>78983</offset>
+      <text>Endosome maturation</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">8707</infon>
+      <infon key="pub-id_pmid">17875710</infon>
+      <infon key="fpage">8699</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>79003</offset>
+      <text>MicroRNA signatures in human ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="lpage">5624</infon>
+      <infon key="pub-id_pmid">23955085</infon>
+      <infon key="fpage">5614</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>79047</offset>
+      <text>MiR&#8208;155&#8208;mediated loss of C/EBPbeta shifts the TGF&#8208;beta response from growth inhibition to epithelial&#8208;mesenchymal transition, invasion and metastasis in breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">466</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">873</infon>
+      <infon key="pub-id_pmid">20668451</infon>
+      <infon key="fpage">869</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>79221</offset>
+      <text>Diverse somatic mutation patterns and pathway alterations in human cancers</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3926</infon>
+      <infon key="pub-id_pmid">22331912</infon>
+      <infon key="fpage">3921</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>79296</offset>
+      <text>High&#8208;grade serous ovarian cancer arises from fallopian tube in a mouse model</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">6784</infon>
+      <infon key="pub-id_pmid">18794355</infon>
+      <infon key="fpage">6773</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>79375</offset>
+      <text>MicroRNA&#8208;155 is regulated by the transforming growth factor beta/Smad pathway and contributes to epithelial cell plasticity by targeting RhoA</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">2704</infon>
+      <infon key="pub-id_pmid">19903759</infon>
+      <infon key="fpage">2700</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>79519</offset>
+      <text>Dicer1 functions as a haploinsufficient tumor suppressor</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">739</infon>
+      <infon key="pub-id_pmid">12007417</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>79576</offset>
+      <text>Identification of tissue&#8208;specific microRNAs from mouse</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">6918</infon>
+      <infon key="pub-id_pmid">16061675</infon>
+      <infon key="fpage">6910</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>79633</offset>
+      <text>Therapeutic EphA2 gene targeting in&#160;vivo using neutral liposomal small interfering RNA delivery</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1414</infon>
+      <infon key="pub-id_pmid">17604727</infon>
+      <infon key="fpage">1401</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>79730</offset>
+      <text>A mammalian microRNA expression atlas based on small RNA library sequencing</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">19261174</infon>
+      <infon key="fpage">R25</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>79806</offset>
+      <text>Ultrafast and memory&#8208;efficient alignment of short DNA sequences to the human genome</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Am J Med</infon>
+      <infon key="lpage">841</infon>
+      <infon key="pub-id_pmid">6586073</infon>
+      <infon key="fpage">827</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>79892</offset>
+      <text>Evidence for a 15;17 translocation in every patient with acute promyelocytic leukemia</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">798</infon>
+      <infon key="pub-id_pmid">14697198</infon>
+      <infon key="fpage">787</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>79978</offset>
+      <text>Prediction of mammalian microRNA targets</text>
+    </passage>
+    <passage>
+      <infon key="volume">433</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">773</infon>
+      <infon key="pub-id_pmid">15685193</infon>
+      <infon key="fpage">769</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>80019</offset>
+      <text>Microarray analysis shows that some microRNAs downregulate large numbers of target mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22870325</infon>
+      <infon key="fpage">e42390</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>80108</offset>
+      <text>miRSystem: an integrated system for characterizing enriched functions and pathways of microRNA targets</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Cancer</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">25344116</infon>
+      <infon key="fpage">241</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>80211</offset>
+      <text>OvMark: a user&#8208;friendly system for the identification of prognostic biomarkers in publically available ovarian cancer gene expression datasets</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">448</infon>
+      <infon key="pub-id_pmid">17679093</infon>
+      <infon key="fpage">435</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>80356</offset>
+      <text>The MicroRNA miR&#8208;124 promotes neuronal differentiation by triggering brain&#8208;specific alternative pre&#8208;mRNA splicing</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">684</infon>
+      <infon key="pub-id_pmid">19703394</infon>
+      <infon key="fpage">673</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>80476</offset>
+      <text>Widespread shortening of 3&#8242;UTRs by alternative cleavage and polyadenylation activates oncogenes in cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">359</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">2650</infon>
+      <infon key="pub-id_pmid">19092150</infon>
+      <infon key="fpage">2641</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>80590</offset>
+      <text>Dicer, Drosha, and&#160;outcomes in patients with ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Placenta</infon>
+      <infon key="lpage">734</infon>
+      <infon key="pub-id_pmid">22721760</infon>
+      <infon key="fpage">725</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>80651</offset>
+      <text>MicroRNA expression profiles of trophoblastic cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Cell Signal</infon>
+      <infon key="lpage">1566</infon>
+      <infon key="pub-id_pmid">23524334</infon>
+      <infon key="fpage">1556</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>80703</offset>
+      <text>Activin and TGFbeta regulate expression of the microRNA&#8208;181 family to promote cell migration and invasion in breast cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">6824</infon>
+      <infon key="pub-id_pmid">10490620</infon>
+      <infon key="fpage">6815</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>80834</offset>
+      <text>Cooperation of six and eya in activation of their target genes&#160;through nuclear translocation of Eya</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1993</infon>
+      <infon key="pub-id_pmid">19435746</infon>
+      <infon key="fpage">1991</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>80935</offset>
+      <text>DIANA&#8208;mirPath: integrating human and mouse microRNAs in pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">185</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">321</infon>
+      <infon key="pub-id_pmid">19364919</infon>
+      <infon key="fpage">305</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>81002</offset>
+      <text>Early endosomes and endosomal coatomer are required for autophagy</text>
+    </passage>
+    <passage>
+      <infon key="source">R: a language and environment for statistical computing</infon>
+      <infon key="type">ref</infon>
+      <infon key="year">2012</infon>
+      <offset>81068</offset>
+      <text></text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">2504</infon>
+      <infon key="pub-id_pmid">14597658</infon>
+      <infon key="fpage">2498</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>81069</offset>
+      <text>Cytoscape: a software environment for integrated models of biomolecular interaction networks</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">CA Cancer J Clin</infon>
+      <infon key="lpage">29</infon>
+      <infon key="pub-id_pmid">22237781</infon>
+      <infon key="fpage">10</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>81162</offset>
+      <text>Cancer statistics, 2012</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Genomics Inform</infon>
+      <infon key="lpage">57</infon>
+      <infon key="pub-id_pmid">23613684</infon>
+      <infon key="fpage">55</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>81186</offset>
+      <text>siMacro: a Fast and Easy Data Processing Tool for Cell&#8208;Based Genomewide siRNA Screens</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">4422</infon>
+      <infon key="pub-id_pmid">21571862</infon>
+      <infon key="fpage">4412</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>81274</offset>
+      <text>HDAC4&#8208;regulated STAT1 activation mediates platinum resistance in ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">39563</infon>
+      <infon key="pub-id_pmid">20923760</infon>
+      <infon key="fpage">39551</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>81356</offset>
+      <text>MicroRNA (miRNA)&#8208;mediated interaction between leukemia/lymphoma&#8208;related factor (LRF) and alternative splicing factor/splicing factor 2 (ASF/SF2) affects mouse embryonic fibroblast senescence and apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">749</infon>
+      <infon key="pub-id_pmid">17403776</infon>
+      <infon key="fpage">744</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>81565</offset>
+      <text>The microRNA miR&#8208;124 antagonizes the anti&#8208;neural REST/SCP1 pathway during embryonic CNS development</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22876275</infon>
+      <infon key="fpage">e39284</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>81669</offset>
+      <text>Host modulators of H1N1 cytopathogenicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">446</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">819</infon>
+      <infon key="pub-id_pmid">17429401</infon>
+      <infon key="fpage">815</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>81711</offset>
+      <text>Synthetic lethal screen identification of chemosensitizer loci in cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">930</infon>
+      <infon key="pub-id_pmid">21925315</infon>
+      <infon key="fpage">918</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>81790</offset>
+      <text>USP1 deubiquitinates ID proteins to preserve&#160;a&#160;mesenchymal stem cell program in osteosarcoma</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">25855536</infon>
+      <infon key="fpage">6744</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>81885</offset>
+      <text>Whole&#8208;exome sequencing of pancreatic cancer defines genetic diversity and therapeutic targets</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="source">Int J Cancer</infon>
+      <infon key="lpage">702</infon>
+      <infon key="pub-id_pmid">3583449</infon>
+      <infon key="fpage">695</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>81981</offset>
+      <text>Cellular heterogeneity and drug resistance in two ovarian adenocarcinoma cell lines derived from a single patient</text>
+    </passage>
+    <passage>
+      <infon key="volume">405</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">804</infon>
+      <infon key="pub-id_pmid">10866202</infon>
+      <infon key="fpage">800</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>82095</offset>
+      <text>The gamma&#8208;subunit of the coatomer complex binds Cdc42 to mediate transformation</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">757</infon>
+      <infon key="pub-id_pmid">19193732</infon>
+      <infon key="fpage">751</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>82177</offset>
+      <text>Statistical methods of background correction for Illumina BeadArray data</text>
+    </passage>
+    <passage>
+      <infon key="volume">316</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">2944</infon>
+      <infon key="pub-id_pmid">20696153</infon>
+      <infon key="fpage">2932</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>82250</offset>
+      <text>Six family genes control the proliferation and differentiation of muscle satellite cells</text>
+    </passage>
+    <passage>
+      <infon key="source">Mol Cancer</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">22051041</infon>
+      <infon key="fpage">135</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>82339</offset>
+      <text>An integrative genomic analysis revealed the relevance of microRNA and gene expression for drug&#8208;resistance in human breast cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Oncol Rep</infon>
+      <infon key="lpage">1668</infon>
+      <infon key="pub-id_pmid">21479368</infon>
+      <infon key="fpage">1661</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>82477</offset>
+      <text>Restoration of miR&#8208;517a expression induces cell apoptosis in bladder cancer cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">17277</infon>
+      <infon key="pub-id_pmid">17088526</infon>
+      <infon key="fpage">17272</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>82566</offset>
+      <text>AMP&#8208;activated protein kinase regulates the assembly of epithelial tight junctions</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7009</infon>
+      <infon key="pub-id_pmid">18458333</infon>
+      <infon key="fpage">7004</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>82650</offset>
+      <text>Genomic and epigenetic alterations deregulate microRNA expression in human epithelial ovarian cancer</text>
+    </passage>
+  </document>
+</collection>

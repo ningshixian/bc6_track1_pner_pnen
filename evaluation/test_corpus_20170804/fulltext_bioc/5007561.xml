@@ -1,0 +1,998 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5007561</id>
+    <passage>
+      <infon key="name_2">surname:Earley;given-names:Zachary M</infon>
+      <infon key="name_3">surname:Goo;given-names:Young Ah</infon>
+      <infon key="name_0">surname:Hecht;given-names:Aaron L</infon>
+      <infon key="name_1">surname:Casterline;given-names:Benjamin W</infon>
+      <infon key="alt-title">Aaron L Hecht et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642282</infon>
+      <infon key="name_5">surname:Bubeck Wardenburg;given-names:Juliane</infon>
+      <infon key="lpage">1291 1291</infon>
+      <infon key="fpage">1281 1281</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">colonization resistance enterotoxigenic Bacteroides fragilis in vivo strain competition probiotics type VI secretion Immunology Microbiology, Virology &amp; Host Pathogen Interaction</infon>
+      <infon key="name_4">surname:Goodlett;given-names:David R</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embr.201642282</infon>
+      <infon key="article-id_pmid">27432285</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">17 17</infon>
+      <infon key="pub-id_pmid">27432285</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="issue">9</infon>
+      <infon key="notes"> () : &#8211; See also: M Sassone&#8208;Corsi &amp; M Raffatellu (September 2016)</infon>
+      <offset>0</offset>
+      <text>Strain competition restricts colonization of an enteric pathogen and prevents colitis</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>86</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <text>The microbiota is a major source of protection against intestinal pathogens; however, the specific bacteria and underlying mechanisms involved are not well understood. As a model of this interaction, we sought to determine whether colonization of the murine host with symbiotic non&#8208;toxigenic Bacteroides fragilis could limit acquisition of pathogenic enterotoxigenic B. fragilis. We observed strain&#8208;specific competition with toxigenic B. fragilis, dependent upon type VI secretion, identifying an effector&#8211;immunity pair that confers pathogen exclusion. Resistance against host acquisition of a second non&#8208;toxigenic strain was also uncovered, revealing a broader function of type VI secretion systems in determining microbiota composition. The competitive exclusion of enterotoxigenic B. fragilis by a non&#8208;toxigenic strain limited toxin exposure and protected the host against intestinal inflammatory disease. Our studies demonstrate a novel role of type VI secretion systems in colonization resistance against a pathogen. This understanding of bacterial competition may be utilized to define a molecularly targeted probiotic strategy.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1240</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1253</offset>
+      <text>Bacterial antagonistic relationships are appreciated as a critical factor in defining the dense ecosystem of the intestinal microbiota 1, 2. Pathogen exclusion through competition with the microbiota is a long understood mechanism of host protection, indicating that individual susceptibility to disease may in part be underpinned by these relationships 3, 4, 5, 6, 7, 8, 9. Enterotoxigenic Bacteroides fragilis (ETBF) cause acute diarrhea and are associated with active inflammatory bowel disease (IBD), late&#8208;stage colon cancer, and sepsis through production of B. fragilis toxin (BFT) 10, 11, 12, 13, 14, 15, 16. Conversely, non&#8208;toxigenic B. fragilis (NTBF) strains are symbiotic, protecting their host against inflammatory disease 17. Longitudinal human studies show stable predominance by either ETBF or NTBF in the B. fragilis population of an individual microbiota 18, suggesting a competitive interplay between these strains 7, 19. However, the determinants of this competition and susceptibility to ETBF colonization remain unknown, representing a unique model for the study of microbiota&#8211;pathogen interactions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2379</offset>
+      <text>One mechanism of interbacterial competition is type VI secretion (T6S), whereby an attacking cell injects effector proteins through the membrane of a target organism 20, 21. Effector&#8208;neutralizing immunity proteins encoded in the genome of the attacking strain prevent self&#8208;intoxication 22, 23, 24. Differential encoding of effector&#8211;immunity pairs has been demonstrated to contribute to in vitro strain competition in Vibrio cholerae25. Broad conservation of type VI secretion system (T6SS) loci was identified in the Bacteroidetes phylum, including B. fragilis, allowing for killing of the closely related B. thetaiotaomicron in vitro3, 4, 5, 6, 7, 8, 9, 26, 27. Recent studies identified B. fragilis strain competition mediated by T6S both in vitro and in vivo28, 29. As the Bacteroidetes comprise up to 50% of the human microbiota, T6S may play a key role in determining its composition. The complex biogeography of the intestinal ecosystem necessitates examination of the functional effects of putative competitive factors on the host 10, 11, 12, 13, 14, 15, 26, 30. The distinct biological properties of non&#8208;toxigenic and toxigenic B. fragilis enable an examination of symbiont&#8211;pathogen competitive colonization in microbiota composition and disease susceptibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>3659</offset>
+      <text>Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>3682</offset>
+      <text>Strain competition reduces ETBF colonization through T6S</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3739</offset>
+      <text>To understand competitive dynamics within the B. fragilis species, we utilized a co&#8208;colonization system in specific pathogen&#8208;free (SPF) C57BL/6J mice. Following orogastric delivery of B. fragilis, colonization by non&#8208;toxigenic and enterotoxigenic strains of interest (Appendix Table S1) was monitored over time by fecal colony&#8208;forming unit (CFU) recovery on selective media, utilizing plasmid&#8208;encoded antibiotic resistance markers to distinguish strains 17, 31. Co&#8208;colonization of mice with NTBF strain NCTC 9343 (N1) and ETBF strain ATCC 43858 (E1) resulted in a ~100 fold higher N1 colonization density relative to E1 over a 4&#8208;week time period (Fig 1A). To examine the role of T6S in B. fragilis competition, we generated an N1 mutant harboring a genomic deletion of the tssC locus (N1 &#916;tssC) that encodes an essential machinery component of the T6SS 7, 19, 26. Co&#8208;colonization of N1 &#916;tssC with E1 caused a loss of E1 repression (Figs 1B and EV1A) that was regained by plasmid&#8208;based tssC complementation (N1 &#916;tssC pTssC, Fig 1C). Analysis of bacterial recovery 4 weeks post co&#8208;colonization demonstrated an increased E1 bacterial load achieved with loss of N1 T6SS function (Fig 1D), concomitant with a decrement in the colonization density achieved by N1 &#916;tssC (Fig EV1B). Deletion of tssC did not affect N1 mono&#8208;colonization (Fig EV1C and D) or bacterial recovery of N1 or E1 (Fig EV1E&#8211;G) 1 day following co&#8208;colonization. As E1 mono&#8208;colonization yielded 1010 CFU/g recovery in the feces (Fig EV1H), competition with N1 effectively reduced host exposure to toxin&#8208;producing B. fragilis. In vitro plate competition assays revealed T6S&#8208;dependent killing of E1 by N1, confirming a direct interaction between these strains (Fig EV1I).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>5507</offset>
+      <text>NTBF strain dominance of ETBF through T6S</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5549</offset>
+      <text>SPF C57BL/6J mice were co&#8208;colonized with E1 and N1 wild type (WT, A, n = 5 mice), N1 T6SS mutant (&#916;tssC, B, n = 4), or N1 complemented (&#916;tssC pTssC, C, n = 5). Fecal CFU was quantified for E1 (open squares) and N1 (closed squares) weekly.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5796</offset>
+      <text>Four weeks post&#8208;colonization, E1 fecal recovery was compared between the N1 WT, &#916;tssC, and &#916;tssC pTssC groups.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5915</offset>
+      <text>Data information: Results are representative of three independent experiments. Data are presented as mean &#177; SEM (A&#8211;C) or mean &#177; SD (D). n.s., not significant; **P &lt; 0.01, ***P &lt; 0.001, ****P &lt; 0.0001. Statistical significance was determined by unpaired, parametric, two&#8208;tailed Student's t&#8208;test at each time point (applying Bonferroni correction), comparing the co&#8208;colonizing strains (A&#8211;C) or one&#8208;way ANOVA, Tukey's multiple comparisons test (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>6375</offset>
+      <text>The N1 T6SS is required for strain dominance of E1 both in vivo and in vitro</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6452</offset>
+      <text>SPF mice were co&#8208;colonization with E1 WT and N1 WT (n = 5), T6SS mutant (&#916;tssC, n = 4), or complemented (&#916;tssC pTssC, n = 5). Fecal CFU was monitored for 4 weeks post&#8208;colonization. N1 clone fecal CFU was compared between groups at the 4&#8208;week time point (A) and the competitive index of E1 over N1 was determined for each mouse (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6792</offset>
+      <text>Mice (n = 4) were mono&#8208;colonized with N1 WT, T6SS mutant (&#916;tssC), or complemented (&#916;tssC pTssC), and fecal CFU was determined for 4 weeks (C). Comparison of fecal CFU was made between groups after 4 weeks (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7010</offset>
+      <text>SPF mice were co&#8208;colonized with E1 and N1 WT (n = 5), T6SS mutant (&#916;tssC, n = 4), or complemented (&#916;tssC pTssC, n = 5). Fecal CFU at 1 day post co&#8208;colonization was determined for N1 (E) and E1 (F) and competitive index of E1 over N1 was calculated for each mouse (G).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7286</offset>
+      <text>SPF mice (n = 4) were mono&#8208;colonized with E1 and fecal CFU determined over time.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7369</offset>
+      <text>In vitro competitions were performed between E1 WT and N1 WT, N1 &#916;tssC, or N1 &#916;bte2, or between E1 Bti2a and N1 WT (n = 3 competitions). Recovered CFU of E1 was quantified after each competition, and statistical difference from E1 WT recovered after competition with N1 WT was determined.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7666</offset>
+      <text>Data information: Results are representative of three independent experiments. Data are presented as mean &#177; SD (A, B, D&#8211;G, I) or mean &#177; SEM (C and H). A dashed line denotes equal recovery of competitors. n.s., not significant; **P &lt; 0.01, ***P &lt; 0.001, ****P &lt; 0.0001. Statistical significance was determined by one&#8208;way ANOVA, Tukey's multiple comparisons test (A, B, D&#8211;G, I).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8051</offset>
+      <text>A differentially encoded effector&#8211;immunity pair mediates T6S&#8208;dependent strain competition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8145</offset>
+      <text>Alignment of the N1 and E1 T6SS loci revealed a non&#8208;conserved region encoding a set of proteins that lack homology to documented T6SS effector or immunity domains (Fig 2A). We predicted that these proteins might determine intraspecific competition. Mass spectrometry analysis of the N1 secretome revealed decreased secretion of proteins encoded within the T6SS locus upon mutation of tssC (Table EV1), including T6S structural components (e.g., Hcp homologs and VgrG). BF9343_1928 demonstrated the greatest fold&#8208;change in the secretome study, leading us to hypothesize that this protein is a putative effector and that BF9343_1927, encoded immediately downstream, is its cognate immunity protein (Fig 2A). Congruent with our studies, BF9343_1928 was demonstrated as a T6S effector, denoted as Bte2 (B. fragilis T6S effector 2) and BF9343_1927 as a cognate immunity protein named Bti2a (B. fragilis T6S immunity 2a) 28. In&#8208;frame deletion of bte2 in N1 (N1 &#916;bte2) phenocopied the &#916;tssC mutant during co&#8208;colonization with E1, as N1 &#916;bte2 no longer demonstrated a competitive advantage against E1, permitting enhanced E1 colonization (Fig 2B, C and E). Heterologous expression of Bti2a in E1 (E1 pBti2a) conferred full restoration of E1 fecal CFU 4 weeks post co&#8208;colonization with N1 WT (Fig 2D and E). These results were confirmed in vitro, where N1 &#916;bte2 exhibits reduced killing capacity against E1, and E1 pBti2a is protected from N1 WT (Fig EV1I). These data demonstrate the importance of a differentially encoded effector&#8211;immunity locus in modulation of the colonic microbiota composition, resulting in altered colonization by toxigenic B. fragilis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9813</offset>
+      <text>An effector&#8211;immunity pair is required for E1 colonization resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9884</offset>
+      <text>Nucleotide alignment of the T6SS locus from N1 and E1. Percent identity is indicated as height, green representing high homology with red highlighting non&#8208;conserved regions.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10060</offset>
+      <text>Co&#8208;colonization of N1 WT (B and D, n = 4 mice) or N1 &#916;bte2 (C, n = 4) with E1 WT (B and C) or E1 overexpressing Bti2a (E1 pBti2a, D). Fecal CFU was monitored over time (B&#8211;D) and E1 CFU compared to N1 WT&#8208;E1 WT group at 4 weeks post co&#8208;colonization (E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10321</offset>
+      <text>Data information: Results are representative of two independent experiments. Data are presented as mean &#177; SEM (B&#8211;D) or mean &#177; SD (E). **P &lt; 0.01, ***P &lt; 0.001, ****P &lt; 0.0001. Statistical significance was determined by unpaired, parametric, two&#8208;tailed Student's t&#8208;test at each time point (applying Bonferroni correction) comparing the co&#8208;colonizing strains (B&#8211;D) or one&#8208;way ANOVA, Tukey's multiple comparisons test (E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10755</offset>
+      <text>ETBF colonization resistance is strain&#8208; and order&#8208;dependent</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10819</offset>
+      <text>Colonization of gnotobiotic mice with N1 saturates the B. fragilis intestinal niche and prevents secondary challenge by the same strain 18, 31. To determine whether colonic establishment of N1 provides colonization resistance against E1, we examined the N1&#8211;E1 interaction in sequential colonization of gnotobiotic mice, monitoring fecal CFU of each strain through differential encoding of plasmid&#8208;borne antibiotic resistance markers. Primary colonization with N1 restricted secondary challenge of N1, while E1 challenge produced stable colonization, suggesting strain&#8208;specific colonization resistance within the B. fragilis species (Fig 3A). Results in SPF mice phenocopied the gnotobiotic competition (Fig 3B); we therefore utilized the SPF model to evaluate in vivo strain interactions for all subsequent studies. A broader pairwise analysis of five B. fragilis strains, three NTBF and two ETBF (N1, N2, N3, E1, and E2; Appendix Table S1), was performed to examine B. fragilis competition behavior. While each strain exhibited similar primary colonization (Fig EV2), we observed a distinct pattern of intraspecific niche competition between strains (Figs 3C and EV2), confirmed by PCR&#8208;based genomic analysis of the colonizing strains (Appendix Fig S1). Intraspecific niche competition is characterized by full restriction of colonization by self&#8208;secondary challenge (Fig 3C, gray box) and strain&#8208;specific colonization resistance wherein some strains (N2, N3, and E1) exhibit a dominant exclusion phenotype (Fig 3C, red boxes). Our data show a strong priority effect of B. fragilis intestinal niche establishment, which can be overcome when challenged by E2 (Fig 3C, dashed box). This suggests that modular, genetically encoded factors and environmentally driven gene regulation mediate complex strain&#8211;strain interactions. In this context, host protection against ETBF colonization is dependent upon strain of initial exposure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12762</offset>
+      <text>B. fragilis provides strain&#8208;specific colonization resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12825</offset>
+      <text>Initial colonization of gnotobiotic (A) or SPF (B) mice (n = 4 mice per group) with N1 followed by secondary challenge with N1 (closed squares) or E1 (open squares). Fecal CFU was determined for the primary and secondary colonization strains through 4 weeks post&#8208;secondary challenges.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13112</offset>
+      <text>All primary colonization and secondary challenge pairs were tested with 3 NTBF and 2 ETBF strains. Stable colonization of the secondary challenge strain significantly above the limit of detection is denoted as a &#8220;+&#8221; while non&#8208;significance is denoted as a &#8220;&#8722;&#8221; (n = 4 mice per group). The diagonal gray bar indicates self&#8208;secondary challenge, the horizontal red bars show strains that provide broad colonization resistance against non&#8208;self strains, and the vertical dashed box indicates a strain that has an enhanced secondary colonization phenotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13677</offset>
+      <text>Data information: Results illustrate a single experiment (A) or are representative of at least two independent experiments (B and C). Data are presented as mean &#177; SEM. Arrows denote day of primary colonization and secondary challenge. A dashed line denotes limit of detection. **P &lt; 0.01, ****P &lt; 0.0001. Statistical significance was determined by unpaired, parametric, two&#8208;tailed Student's t&#8208;test at each time point (applying Bonferroni correction) comparing the secondary challenge strains.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14175</offset>
+      <text>Successful B. fragilis secondary challenge is strain&#8208;dependent</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14240</offset>
+      <text>Mice (n = 4 per group) were initially colonized with N1 (A and B), N2 (C and D), N3 (E and F), E1 (G and H), or E2 (I and J) followed by secondary challenge by all strains or a mock inoculum at 1 week post&#8208;primary colonization. Fecal CFU of primary and secondary strains were monitored for 4 weeks post&#8208;secondary challenge (A, C, E, G, and I). At the last time point, the secondary challenge strain was tested for statistical significance above the mock&#8208;inoculated group (B, D, F, H, and J).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14738</offset>
+      <text>Data information: Results are representative of at least two independent experiments. Data are presented as mean &#177; SEM (A, C, E, G, and I) or mean &#177; SD (B, D, F, H, J). Limit of detection is denoted by a dashed line. ***P &lt; 0.001, ****P &lt; 0.0001. Statistical significance was determined by one&#8208;way ANOVA, Tukey's multiple comparisons test (B, D, F, H, and J).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15102</offset>
+      <text>T6S provides colonization resistance against challenge strains</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15165</offset>
+      <text>T6SSs have been implicated in colonization resistance against pathogen invasion 20, 21, 32; however, in vivo molecular evidence for this is lacking. The role of T6S observed in our co&#8208;colonization study suggested that this system might govern intraspecific competition in secondary challenge. To examine this hypothesis, we generated a tssC deletion mutant in N2 (N2 &#916;tssC), a strain that demonstrates broad colonization resistance (Fig 3C). Deletion of tssC relieved N2 colonization resistance against N1, which was restored upon plasmid&#8208;based complementation (Fig 4A and B). Loss of tssC did not alter N2 primary colonization (Fig 4 and Appendix Fig S2A, C and E), or self&#8208;secondary exclusion of N2 (Fig 4C and D). While N2 &#916;tssC retained colonization resistance against E1, the rate of elimination was significantly reduced compared to wild&#8208;type N2 (Fig 4E and F). Secondary strain recovery one day post&#8208;challenge was not significantly different between groups, emphasizing the importance of the colonic environment in mediating competition (Appendix Fig S2B, D and F). These data show that T6S is important for non&#8208;self&#8208;colonization resistance in vivo and is a key contributor to strain stability in the microbiota 22, 23, 24, 25.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16416</offset>
+      <text>T6S is required for strain&#8208;specific colonization resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16478</offset>
+      <text>Primary colonization of SPF mice with N2 WT, T6SS mutant (&#916;tssC), and complemented (&#916;tssC pTssC) followed by secondary challenge with N1 WT (A and B, n = 5 mice), N2 WT (C and D, n = 5), or E1 WT (E and F, n = 4) was performed. Fecal CFU for primary and secondary strains was determined for 4 weeks post&#8208;secondary challenge (A, C, E). Selected time points were tested for statistical difference of secondary challenge between groups. This includes 4 weeks post&#8208;secondary challenge (B) and 3 days post&#8208;challenge (D and F).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17008</offset>
+      <text>Data information: Results are representative of three independent experiments. Data are presented as mean &#177; SEM (A, C, and E) or mean &#177; SD (B, D, and F). Arrows denote day of primary colonization and secondary challenge. A dashed line denotes limit of detection. n.s., not significant; ****P &lt; 0.0001. Statistical significance was determined by unpaired, parametric, two&#8208;tailed Student's t&#8208;test at each time point (applying Bonferroni correction, D and F) or one&#8208;way ANOVA, Tukey's multiple comparisons test (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17529</offset>
+      <text>It is clear from these findings that T6S alone cannot explain the complex strain&#8211;strain interactions observed (Fig 3C). To date, one other antibacterial factor has been identified in B. fragilis. Bacteroidales secreted antimicrobial protein 1 (BSAP&#8208;1) is a membrane attack complex/perforin (MACPF)&#8208;containing protein, produced by N2 that displays N1 killing properties in vitro1, 25. Mutation of bsap&#8208;1 in N2 (N2 &#916;bsap&#8208;1) had no effect on N2 colonization resistance against N1 in vivo (Appendix Fig S3), demonstrating the importance of the in vivo niche in defining factors that mediate intraspecific colonization resistance.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18166</offset>
+      <text>The commensal colonization factor (ccf) locus of B. fragilis enables niche occupancy within the colonic crypt and is required by N1 for self&#8208;colonization resistance 31. Diverged ccf loci of B. thetaiotaomicron and B. vulgatus, two species closely related to B. fragilis, are suggested to define separate niches for those organisms, supported by the observation that N1 does not exhibit colonization resistance against either species 31. It is unknown whether these niches are spatially distinct from the B. fragilis niche or whether these Bacteroides species interact in the colon. N1 kills B. thetaiotaomicron through T6S in vitro26, which we confirmed for N2 (Fig EV3A). N2, however, did not confer resistance against secondary challenge by B. thetaiotaomicron in vivo (Fig EV3B), indicating the species specificity of colonization resistance. Mutation of the T6SS of N2 had no effect on fecal recovery of B. thetaiotaomicron after secondary challenge (Fig EV3B&#8211;D). Similarly, despite T6S&#8208;dependent killing of B. vulgatus in vitro (Fig EV3E), N2 did not restrict B. vulgatus in secondary challenge (Fig EV3F&#8211;H). As T6S is contact&#8208;dependent, these data suggest a physical niche separation between these Bacteroides species and implies that intraspecies competition is a primary function of Bacteroides T6S in vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19492</offset>
+      <text>T6SS&#8208;dependent colonization resistance does not extend to related Bacteroides species in vivo</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19588</offset>
+      <text>B. thetaiotaomicron recovered after in vitro competition (n = 3 competitions) with N2 WT, N2 &#916;tssC, or N2 &#916;tssC pTssC.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19715</offset>
+      <text>SPF mice (n = 4) were sequentially colonized with N2 WT, N2 &#916;tssC, or N2 &#916;tssC pTssC strains, followed by secondary challenge of B. thetaiotaomicron 1 week after primary colonization. Four weeks post&#8208;secondary challenge, fecal CFU was determined for B. thetaiotaomicron (B). Fecal CFU for primary (C) and secondary strains (D) were determined for 4 weeks post&#8208;secondary challenge.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20104</offset>
+      <text>B. vulgatus recovered after in vitro competition with N2 WT, N2 &#916;tssC, or N2 &#916;tssC pTssC.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20202</offset>
+      <text>SPF mice (n = 4) were sequentially colonized with N2 WT, N2 &#916;tssC, or N2 &#916;tssC pTssC followed by secondary challenge with B. vulgatus 1 week after primary colonization. Four weeks post&#8208;secondary challenge, fecal CFU was determined for B. vulgatus (F). Fecal CFU for primary (G) and secondary strains (H) were determined for 4 weeks post&#8208;secondary challenge.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20568</offset>
+      <text>Data information: Results are representative of three independent experiments. Data are presented as mean &#177; SEM (C, D, G, and H) or mean &#177; SD (A, B, E, and F). Limit of detection is denoted by a dashed line. n.s., not significant; **P &lt; 0.01, ***P &lt; 0.001. Statistical significance was determined by one&#8208;way ANOVA, Tukey's multiple comparisons test (A, B, E, and F).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20939</offset>
+      <text>NTBF protects the host from ETBF&#8208;induced colitis via colonization resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21018</offset>
+      <text>Enterotoxigenic Bacteroides fragilis colonization is associated with IBD and colitis in humans, experimentally validated in mouse model systems 15, 33, 34. We hypothesized that strain competition may favorably alter the health of the host through reduced exposure to toxigenic organisms. Co&#8208;colonization of E1 with WT N1 reduced BFT transcript present in the feces by approximately 100&#8208;fold relative to competition with N1 &#916;tssC, congruent with the difference in E1 fecal CFU (Fig 5A; compare to Fig 1A, B and D). A concomitant decrease in mouse anti&#8208;BFT serum IgG was observed, reminiscent of observations in ETBF&#8208;exposed humans (Fig 5B) 34.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>21670</offset>
+      <text>The N1 T6SS protects against ETBF&#8208;induced disease</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21722</offset>
+      <text>Mice were co&#8208;colonized with E1 and either N1 WT (n = 4) or N1 &#916;tssC (n = 3). Five days post&#8208;inoculation, fecal RNA was extracted and tested for BFT expression via qRT&#8211;PCR.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21901</offset>
+      <text>Four weeks after co&#8208;colonization with E1 and either N1 WT or N1 &#916;tssC (n = 4 mice per group), the sera were collected, tested via ELISA for anti&#8208;BFT IgG, and endpoint titer calculated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22091</offset>
+      <text>Mice pre&#8208;treated with DSS were inoculated with no organisms (sham), E1 only, or E1 competed with N1 WT or N1 &#916;tssC. Five days post&#8208;inoculation, the ceca were weighed (C) and fixed for histopathological examination after sham (D), E1 only (E) and E1&#8208;N1 WT (F) colonizations. Scale bars denote 100 &#956;m (main image) and 200 &#956;m (inset).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22432</offset>
+      <text>Data information: Experiments are a pooling of two independent repeats (A and B) or are representative of three independent trials (C&#8211;F). Data are presented as mean &#177; SD (A, B and C). *P &lt; 0.05, ***P &lt; 0.001, ****P &lt; 0.0001. Statistical significance was determined by unpaired, parametric, two&#8208;tailed Student's t&#8208;test (A and B) or one&#8208;way ANOVA, Tukey's multiple comparisons test (C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22826</offset>
+      <text>Infection of mice with ETBF exacerbates a BFT&#8208;dependent, IBD&#8208;like colitis induced by dextran sodium sulfate (DSS) administration 15. Colonization with E1 in this model causes significant intestinal injury, indicated by the presence of visible blood in the ceca, substantial tissue contraction, and reduced cecal weight relative to sham&#8208;inoculated animals (Figs 5C and EV4A). We hypothesized that N1 competition would reduce the disease burden in this model, consistent with suppression of the E1 burden by WT N1 (Fig 1A). Indeed, co&#8208;colonized mice did not exhibit evidence of cecal injury (Figs 5C and EV4A). Competition with N1 &#916;tssC also reduced inflammation associated with E1 colonization, but not as effectively as N1 WT co&#8208;colonization, indicating that T6S is required for full protection (Fig 5C). Examination of both cecal and colonic histopathology revealed severe ulcerations in mice mono&#8208;colonized with E1, demonstrated by loss of crypts, epithelial denudation, and the presence of inflammatory cell infiltration (Figs 5D&#8211;F and EV4B&#8211;D). Competition of E1 with N1 WT provided complete protection from damage throughout the length of the cecum and colon. These data demonstrate that the N1 T6SS affords the host significant protection from E1 colonization and BFT&#8208;induced injury.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>24134</offset>
+      <text>N1 protects from ETBF&#8208;mediated intestinal damage via competition with E1 in DSS&#8208;treated mice</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24231</offset>
+      <text>Mice pre&#8208;treated with DSS were inoculated with no organisms (sham), E1 only, E1 with N1 WT, or E1 with N1 &#916;tssC. Gross examination of ceca (A, n = 5 per group) and histopathological examination of colonic tissue (B&#8211;D, n = 5 per group) were performed after intestinal dissection. Scale bars (B&#8211;D) denote 100 &#956;m (main image) and 200 &#956;m (inset). Results are representative of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24644</offset>
+      <text>Our data illustrate the importance of bacterial antagonistic factors in the composition and stability of the microbiota, providing a direct demonstration of T6S&#8208;mediated competition in the intestine. In the context of both co&#8208;colonization and colonization resistance, T6S is a mechanism of strain dominance. The Bacteroidetes are a resilient phylum within the human microbiota 35. Broad conservation of T6SSs within this phylum suggests that specific effector&#8211;immunity proteins are critical mediators of in vivo competition 26, 27. The uneven distribution of T6S within particular species (i.e., present in the majority of B. fragilis but absent in B. thetaiotaomicron27) highlights the importance of microbial lifecycle and ecosystem, and underscores the need to define the molecular mechanisms by which strain&#8208;specific effector modules govern competition 25. While plate&#8208;based studies have identified antagonistic factors in Bacteroidetes 1, 26, our observations reveal that the biological relevance of competitive factors is manifest in the context of the intestine. This native environment is essential to provide the appropriate regulatory cues, biogeography, niche, and colonization order.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25850</offset>
+      <text>Membership in a predominant phylum and limitation of the B. fragilis lifecycle to the intestine make this organism an ideal model for deciphering the molecular features of microbiota competition. Strain&#8208;dependent virulence properties of B. fragilis associated with human disease further heighten the import of understanding competition dynamics within this species. Our findings illustrate the strong influence that competitive factors have on host exposure to toxigenic organisms, revealing a specific mechanism by which the microbiota provides protection from toxin&#8208;induced colitis. While eradication of ETBF through antimicrobial therapy protects susceptible mice from colon tumorigenesis 36, utilizing NTBF as a probiotic strategy to reduce the ETBF load may prove similarly effective, without the unwanted consequences of antibiotic use. As we find that a single non&#8208;conserved effector&#8211;immunity pair can determine the outcome of NTBF&#8208;ETBF competition, analysis of these loci in the native microbiota of human populations may reveal strains that provide enhanced protection against ETBF. As the colonization phenotypes exhibited by NTBF and ETBF include both exclusion and durability in human studies 18, early acquisition and deliberate re&#8208;colonization with genetically modified NTBF strains may afford protection against ETBF&#8208;mediated disease in a variety of clinical settings. Moreover, these principles may apply to other pathogenic bacteria with non&#8208;toxigenic strains, including Clostridium difficile and Escherichia coli, for which the determinants of competitive colonization remain mostly undiscovered 7, 19, 37. The observed strain specificity and dependence on the order of colonization provide a necessary framework to advance molecular probiotic targeting toward rational, therapeutic manipulation of the pathogenic microbiota.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>27710</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27732</offset>
+      <text>Bacterial culture and manipulation</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>27767</offset>
+      <text>Bacterial strains, culture conditions, and antibiotics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27822</offset>
+      <text>Bacteroides strains used in these studies include B. thetaiotaomicron ATCC 29148 and B. vulgatus ATCC 8482. B. fragilis strains are noted in Table EV1. B. fragilis, B. thetaiotaomicron, and B. vulgatus were grown in brain&#8211;heart infusion (BHI) broth anaerobically at 37&#176;C with a gas mix of 5% H2, 10% CO2, and 85% N2. BHI was supplemented with 0.0005% hemin and 0.5 &#956;g/ml vitamin K1 for optimal growth (BHIS). E. coli S17&#8208;1&#955;pir was used for cloning of shuttle and suicide plasmids and conjugation into B. fragilis. E. coli strains were grown in LB aerobically at 37&#176;C. Antibiotics used were as follows: ampicillin (100 &#956;g/ml), kanamycin (50 &#956;g/ml), gentamicin (200 &#956;g/ml), clindamycin (5 &#956;g/ml), tetracycline (2 &#956;g/ml), chloramphenicol (10 &#956;g/ml), and rifampicin (20 &#956;g/ml).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>28611</offset>
+      <text>Conjugations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28624</offset>
+      <text>A method modified from previous studies was used for conjugations 38: appropriate B. fragilis and E. coli strains were grown to mid&#8208;log phase in BHIS anaerobically and LB aerobically, respectively. Equal volumes of these cultures were sedimented into a single tube, resuspended in BHI, pooled onto a BHIS plate, and grown aerobically at 37&#176;C overnight. This mix was spread onto a selective BHIS plate with gentamicin and clindamycin and grown anaerobically at 37&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>29094</offset>
+      <text>Plasmids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29103</offset>
+      <text>pRK231 is a conjugation helper vector, used to increase transfer from E. coli to B. fragilis. Allelic exchange mutagenesis was completed with the suicide vector pKNOCK. The shuttle vector pFD340 provided antibiotic resistance against clindamycin (all pFD340&#8208;based vectors), tetracycline (pFD340&#8208;Tet), and chloramphenicol (pFD340&#8208;CAT), as in previous studies 31. The pFD340&#8208;based vectors were used in the B. fragilis strains N1, N2, N3, and E1 along with B. thetaiotaomicron and B. vulgatus. As we could not recover successful E2 conjugates with the pFD340&#8208;based vectors, we generated the shuttle vector pAH2. This plasmid was made via cloning of the pFD340 replicon into the pKNOCK NotI restriction enzyme site. The primers for this and all other cloning are found in Appendix Table S2. The chloramphenicol resistance cassette with associated promoter and ribosomal binding site, called IS4351&#8208;CAT, was cloned from pFD340&#8208;CAT into the KpnI restriction enzyme site of pAH2 to generate pAH2&#8208;CAT. Inserts for all newly generated constructs were sequence verified.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>30180</offset>
+      <text>Mutants, complementation, and heterologous expression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30234</offset>
+      <text>In&#8208;frame deletions were generated through allelic exchange using a protocol modified from previous studies 39. To generate tssC mutants, 1 kb upstream and 1 kb downstream of tssC were amplified from strains of interest and fused via overlap PCR. This construct was cloned into pKNOCK and conjugated into strains N1 and N2. Single clones resistant to clindamycin, indicating genomic integration, were passaged (1:100) daily without antibiotics. After 5&#8211;10 passages, single clones were patched onto selective (clindamycin) and non&#8208;selective plates. Sensitive colonies were PCR screened for loss of tssC. Mutations in bsap&#8208;1 in N2 and bte2 in N1 were generated in the same manner.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30920</offset>
+      <text>Mutation of tssC was complemented on pFD340 and pFD340&#8208;CAT for N2 and N1, respectively. This was fused downstream of the B. fragilis glyceraldehyde&#8208;3&#8208;phosphate dehydrogenase (GAPDH) promoter and RBS and cloned into the KpnI restriction enzyme site of the aforementioned vectors. The resulting vectors were named pTssC and pTssC&#8208;CAT. Generation of pBti2a to overexpress the bti2a locus was accomplished via fusion to the GAPDH promoter and RBS and was cloned into the KpnI restriction enzyme site of pFD340&#8208;Tet.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>31441</offset>
+      <text>Secretome mass spectrometry: peptide preparation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31490</offset>
+      <text>The secretomes of N1 WT and N1 &#916;tssC were analyzed by mass spectrometry as follows: Overnight cultures were grown in BHIS, pelleted and washed in minimal media followed by 1:50 dilution into minimal media for overnight growth. Supernatant was collected and TCA precipitated. After a 1&#8208;h incubation on ice, the precipitated protein was spun and washed twice with cold acetone. The dried pellet was resuspended in 7.5 mM TCEP, 8 M urea, 100 mM NH4HCO3 solution, and incubated for 1 h. This was spun on a 3K MWCO, mixed with 8 M urea, 100 mM NH4HCO3, 50 mM iodoacetamide solution, and incubated in the dark for 1 h. A total of 500 mM DTT was added to inactivate the iodoacetamide and the filter washed four times with 50 mM NH4HCO3. The remaining solution was trypsin treated overnight, acidified to 1% TFA and dried.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>32309</offset>
+      <text>Secretome mass spectrometry: mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32356</offset>
+      <text>Peptide (5 &#956;l) was introduced to a hybrid quadrupole&#8208;orbitrap mass spectrometer (Orbitrap Elite, Thermo Fisher, San Jose, CA) coupled with a nanoflow LC system (NanoAcquity; Waters Corporation, Milford, MA). A 100 &#956;m i.d. &#215; 20 mm pre&#8208;column was in&#8208;house packed with 200 &#197;, 5 &#956;m C18AQ particles (Michrom BioResources Inc., Auburn, CA, USA). A 75 &#956;m i.d. &#215; 180 mm analytical column was pulled using a Sutter Instruments P&#8208;2000 CO2 laser puller (Sutter Instrument Company, Novato, CA) and packed with 100 &#197;, 5 &#956;m C18AQ particles. Mobile phase A was composed of 0.1% formic acid in water. Mobile phase B was 0.1% formic acid in acetonitrile. For each injection, an amount of 5 &#956;l of sample was loaded on the pre&#8208;column at 4 &#956;l/min for 10 min, using loading buffer of 5% acetonitrile and 0.1% formic acid. Peptide separation was performed at 250 nl/min flow rate in a 95 min gradient, in which mobile phase B started at 5%, increased to 35% at 60 min, 80% at 65 min, followed by a 5&#8208;min wash at 80% and a 25&#8208;min re&#8208;equilibration at 5%.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33414</offset>
+      <text>Mass spectrometry data were collected in positive ionization mode using a data&#8208;dependent acquisition method with a full MS scan for m/z range 350&#8211;2,000 in orbitrap at 120 K resolution. Consecutive MS/MS scans selected top 15 abundant ions in ion trap by rapid scan mode with a dynamic exclusion of 30 s. Precursor ions selected from the MS scan were isolated with an isolation width of 2 m/z for collision&#8208;induced dissociation (CID) energy, NCE, at 35.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>33873</offset>
+      <text>Secretome mass spectrometry: data analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33916</offset>
+      <text>MS data were analyzed by MaxQuant (version 1.5.0.25, 40) using standard settings and a UniprotKB database of Bacteroides fragilis. Peptide&#8208;spectrum matches (PSM) and protein identifications were filtered at a false discovery rate of 0.01. Label&#8208;free quantification of MS/MS spectral counts were extracted and used for statistical analysis of differential expression using QSpec tool (version 1.2.2, 41). Results are averaged from three technical replicates. The raw data can be found via Peptide Atlas, Dataset Identifier: PASS00882.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34454</offset>
+      <text>Bioinformatic analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34477</offset>
+      <text>T6SS loci of N1 and E1 were aligned in Geneious version 6.0.5. The alignment was performed with Geneious alignment software (cost matrix: 65% similarity, gap open penalty: 12, gap extension penalty: 3) and visualized in Geneious. The N1 T6SS locus was extracted from publicly available genome assembly, and the E1 T6SS locus was sequenced (Accession #KX279877).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34839</offset>
+      <text>In vitro competition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34860</offset>
+      <text>N1 clones (WT, &#916;tssC, and &#916;bte2), N2 clones (WT, &#916;tssC, and &#916;tssC pTssC), E1 clones (WT and pBti2a), B. thetaiotaomicron, and B. vulgatus inocula were prepared in a similar manner to co&#8208;colonization, excepting the final resuspension in PBS in place of sodium bicarbonate. N2 WT and &#916;tssC were marked with pFD340 and N2 &#916;tssC pTssC with pTssC; N1 clones, B. thetaiotaomicron, and B. vulgatus were marked with pFD340&#8208;CAT; E1 clones (WT and pBti2a) with pFD340&#8208;Tet and pBti2a, respectively. 108 CFU of N1 or N2 was competed against 107 CFU of E1 clones, B. thetaiotaomicron or B. vulgatus in a 10 &#956;l spot on a BHIS plate with gentamicin and clindamycin. After overnight competition, these spots were resuspended in 1 ml of PBS and serial 10&#8208;fold dilutions plated on BHIS with gentamicin, clindamycin, and chloramphenicol to quantify N1 clones, B. thetaiotaomicron, or B. vulgatus recovery while E1 clones were detected on BHIS with gentamicin, clindamycin, and tetracycline. Recovered CFU was computed from the various competitions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35915</offset>
+      <text>Mouse modeling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35930</offset>
+      <text>All animal studies were conducted in accord with ethical regulations under protocols approved by the University of Chicago Animal Care and Use Committee and Institutional Biosafety Committee. SPF C57BL/6 mice were bred in&#8208;house from mice originally purchased from Jackson Laboratory or purchased from Jackson Laboratory and maintained under SPF conditions for use in experimentation at 4 weeks of age. Gnotobiotic C57BL/6J mice were also bred in&#8208;house, maintained in germ&#8208;free conditions and used at 6 weeks of age. All experiments in SPF mice were performed with males while the gnotobiotic experiment with females. Sample size estimates for animal experiments were based on prior animal modeling studies utilized within the laboratory for investigation of colonization. At the time of weaning, animals were randomly distributed for use in experimentation. There was no investigator blinding in animal experimentation, and no animals were excluded from analysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>36900</offset>
+      <text>Mono&#8208;colonization and co&#8208;colonization</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36942</offset>
+      <text>SPF mice were pre&#8208;treated with 100 mg/l clindamycin in their drinking water for 1 day prior to and throughout the course of infection to ensure plasmid retention. To prepare inocula, overnight cultures of B. fragilis were subcultured at a 1:50 ratio into fresh BHIS and grown until they reached OD600 &#8776; 0.5. Bacteria from 50 ml culture were sedimented and resuspended in 10 ml PBS. These suspensions were adjusted by the addition of PBS until a 1:5 dilution yielded an OD600 = 0.55. Bacteria from 9 ml of suspensions were sedimented and resuspended in 1.8 ml 0.1 N sodium bicarbonate to yield a concentration of 1010 CFU/ml. For mono&#8208;colonization, mice were inoculated via oral gavage with 108 CFU of E1 or N1 clones. For co&#8208;colonization, mice were co&#8208;colonized with 108 CFU each of E1 and N1 via oral gavage. E1 was marked with pFD340&#8208;Tet or pBti2a, N1 WT, &#916;tssC, and &#916;bte2 with pFD340&#8208;CAT and N1 &#916;tssC pTssC with pTssC&#8208;CAT. To analyze fecal CFU following oral inoculation, fecal pellets were collected from individual mice, weighed, and vortexed in 1 ml PBS to achieve homogenization. Serial 10&#8208;fold dilutions were plated on BHIS agar containing gentamicin and clindamycin plus either tetracycline, to monitor E1 recovery, or chloramphenicol, to determine N1 clone recovery. CFU/g feces for each clone was calculated, log10 transformed, and plotted over time.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>38325</offset>
+      <text>Sequential colonization</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38349</offset>
+      <text>Similar to co&#8208;colonization experiments, SPF and gnotobiotic mice were pre&#8208;treated with 100 mg/l clindamycin in drinking water for 1 day prior to and throughout the course of colonization to ensure plasmid retention. Inocula were prepared as in co&#8208;colonization. Sequential colonization was performed with a modified protocol from previous studies 31. Primary colonization was achieved with 108 CFU of B. fragilis strains (N1, N2 WT, N2 &#916;tssC, N3, E1) containing pFD340, N2 &#916;tssC pTssC containing pTssC, or E2 containing pAH2 via oral gavage. After colonization for 7&#8211;10 days, secondary challenge was performed via oral gavage with 108 CFU of B. fragilis strains (N1, N2, N3, E1), B. thetaiotaomicron, or B. vulgatus containing pFD340&#8208;CAT or E2 containing pAH2&#8208;CAT. Fecal pellets were handled as noted in co&#8208;colonization. Inherent antibiotic resistance (Appendix Table S1) was used to determine primary colonization fecal CFU; homogenized fecal pellets were plated onto BHIS plus gentamicin and clindamycin only (N1, E1), with tetracycline (N3, E2) or with rifampicin (N2). Secondary challenge CFU was determined by plating onto BHIS with gentamicin, clindamycin, and chloramphenicol. CFU/g feces were determined as noted in co&#8208;colonization. Limit of detection is dependent upon the weight of each fecal pellet, indicated based on average fecal pellet weight at ~103.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>39735</offset>
+      <text>B. fragilis genotyping</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39758</offset>
+      <text>The identity of each strain was determined via PCR with three primer sets (Appendix Table S2), which distinguish the five B. fragilis strains (Appendix Fig S1). PCR was performed on successful secondary challenge strains from single colonies of each mouse. The identity of the strains was confirmed by banding pattern.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>40077</offset>
+      <text>Fecal quantitative reverse transcription PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40122</offset>
+      <text>To test the transcription levels of BFT in the feces, quantitative reverse transcription PCR (qRT&#8211;PCR) was used. Fresh fecal pellets were collected, and RNA was extracted with the ZR soil/fecal RNA microprep kit (Zymo Research). RNase&#8208;free DNase (Fisher) was used to digest contaminating genomic DNA in the samples. First&#8208;strand cDNA synthesis was accomplished with iScript cDNA synthesis kit (Bio&#8208;Rad), and qPCR was performed with SYBR Green (Bio&#8208;Rad) on a Bio&#8208;Rad CFX96 machine. BFT transcript was quantified with BFT&#8208;specific primers (Appendix Table S2) and normalized to B. fragilis 16S rRNA. Efficiency for each primer set was determined to calculate accurate fold differences, and melt curves were used to test the specificity of each reaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>40887</offset>
+      <text>Serum ELISA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40899</offset>
+      <text>Four weeks post&#8208;colonization, mice were euthanized and blood was obtained via cardiac puncture. Blood was spun in serum collection tubes and stored for ELISA testing at &#8722;20&#176;C. Recombinant, purified BFT 16 was coated onto Maxisorp plates (Nunc) at a concentration of 2 &#956;g per well overnight in bicarbonate buffer (0.1 M) at 4&#176;C. The plate was washed with ELISA buffer and blocked for 1 h with 2% BSA in PBS. Serum samples were diluted initially 1:10 and serially 1:4 to generate a dilution curve in PBS. After blocking, the plate was incubated with serum samples for 1 h. After 3 washes with ELISA buffer, secondary HRP&#8208;conjugated anti&#8208;mouse IgG antibody (Southern Biotech) was applied (1:10,000) for 1 h. After washing thrice, the ELISA was developed for 10 min and absorbance recorded on a Tecan Infinite M200pro plate reader. Data were analyzed with GraphPad Prism software to determine the endpoint titer through sigmoidal curve fit, with a cutoff set to double the background reading (no serum).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_3</infon>
+      <offset>41910</offset>
+      <text>DSS colitis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41922</offset>
+      <text>To test the impact of B. fragilis competition on the health of the mouse, we used dextran sodium sulfate (DSS) as an inducer of colitis susceptibility. Mice were pre&#8208;treated with DSS (2%, Fisher) and clindamycin in the drinking water for 5 days pre&#8208;colonization. Mice were then either sham&#8208;infected, colonized with E1 alone, with a competition of E1 and N1 WT or with a competition of E1 and N1 &#916;tssC. Four days post&#8208;colonization, the mice were euthanized, the ceca dissected, visualized, and weighed and the colons dissected. The intestinal tissue was fixed in 10% formalin, formed into Swiss rolls (colon), paraffin embedded, sectioned (5 &#956;m), and H&amp;E stained.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42595</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42616</offset>
+      <text>Statistical analysis was performed using GraphPad Prism software. Pairwise comparisons were performed using the unpaired, parametric, two&#8208;tailed Student's t&#8208;test. Sets of three groups or more were tested via one&#8208;way ANOVA, with Tukey's multiple comparisons test used to compare between groups. Bonferroni correction was applied to account for multiple time points in colonization experiments. Comparison of variances was performed in GraphPad Prism software utilizing the F&#8208;test, providing documentation of similar variance between groups.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43164</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43185</offset>
+      <text>ALH and JBW designed and analyzed the experiments. BWC provided conceptual support. ALH performed the experiments. BWC and ZME assisted with experiments. YAG and DRG performed mass spectrometry and analysis. ALH and JBW wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43427</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43448</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43508</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>43531</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1374</infon>
+      <infon key="pub-id_pmid">25339613</infon>
+      <infon key="fpage">1361</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>43542</offset>
+      <text>An antimicrobial protein of the gut symbiont Bacteroides fragilis with a MACPF domain of host immune proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">526</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">722</infon>
+      <infon key="pub-id_pmid">26479034</infon>
+      <infon key="fpage">719</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>43652</offset>
+      <text>Bacteriocin production augments niche competition by enterococci in the mammalian gastrointestinal tract</text>
+    </passage>
+    <passage>
+      <infon key="volume">194</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">4087</infon>
+      <infon key="pub-id_pmid">25888704</infon>
+      <infon key="fpage">4081</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>43757</offset>
+      <text>No vacancy: how beneficial microbes cooperate with immunity to provide colonization resistance to pathogens</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">801</infon>
+      <infon key="pub-id_pmid">24096337</infon>
+      <infon key="fpage">790</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>43865</offset>
+      <text>Microbiota&#8208;mediated colonization resistance against intestinal pathogens</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Immunology</infon>
+      <infon key="lpage">11</infon>
+      <infon key="pub-id_pmid">23240815</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>43940</offset>
+      <text>Intestinal colonization resistance</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Infect Immun</infon>
+      <infon key="lpage">4736</infon>
+      <infon key="pub-id_pmid">18678663</infon>
+      <infon key="fpage">4726</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>43975</offset>
+      <text>Antibiotic&#8208;induced perturbations of the intestinal microbiota alter host susceptibility to enteric infection</text>
+    </passage>
+    <passage>
+      <infon key="volume">77</infon>
+      <infon key="source">Infect Immun</infon>
+      <infon key="lpage">2886</infon>
+      <infon key="pub-id_pmid">19364832</infon>
+      <infon key="fpage">2876</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>44086</offset>
+      <text>Precolonized human commensal Escherichia coli strains serve as a barrier to E. coli O157:H7 growth in the streptomycin&#8208;treated mouse intestine</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">7621</infon>
+      <infon key="pub-id_pmid">17456596</infon>
+      <infon key="fpage">7617</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>44231</offset>
+      <text>Bacteriocin production as a mechanism for the antiinfective activity of Lactobacillus salivarius UCC118</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Pathog</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">20844578</infon>
+      <infon key="fpage">e1001097</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>44335</offset>
+      <text>The microbiota mediates pathogen clearance from the gut lumen after non&#8208;typhoidal Salmonella Diarrhea</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Emerging Infect Dis</infon>
+      <infon key="lpage">174</infon>
+      <infon key="pub-id_pmid">10756151</infon>
+      <infon key="fpage">171</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>44439</offset>
+      <text>Bacteroides fragilis enterotoxin gene sequences in patients with inflammatory bowel disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">Clin Infect Dis</infon>
+      <infon key="lpage">215</infon>
+      <infon key="pub-id_pmid">25305284</infon>
+      <infon key="fpage">208</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>44531</offset>
+      <text>The Bacteroides fragilis toxin gene is prevalent in the colon mucosa of colorectal cancer patients</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">1022</infon>
+      <infon key="pub-id_pmid">19701202</infon>
+      <infon key="fpage">1016</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>44630</offset>
+      <text>A human colonic commensal promotes colon tumorigenesis via activation of T helper type 17 T cell responses</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Clin Infect Dis</infon>
+      <infon key="issue">Suppl 1</infon>
+      <infon key="lpage">S86</infon>
+      <infon key="pub-id_pmid">8953112</infon>
+      <infon key="fpage">S83</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>44737</offset>
+      <text>Association of enterotoxigenic Bacteroides fragilis with bacteremia</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Clin Microbiol Rev</infon>
+      <infon key="lpage">369</infon>
+      <infon key="pub-id_pmid">19366918</infon>
+      <infon key="fpage">349</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>44805</offset>
+      <text>Enterotoxigenic Bacteroides fragilis: a rogue among symbiotes</text>
+    </passage>
+    <passage>
+      <infon key="volume">77</infon>
+      <infon key="source">Infect Immun</infon>
+      <infon key="lpage">1718</infon>
+      <infon key="pub-id_pmid">19188353</infon>
+      <infon key="fpage">1708</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>44867</offset>
+      <text>Induction of persistent colitis by a human commensal, enterotoxigenic Bacteroides fragilis, in wild&#8208;type C57BL/6 mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">567</infon>
+      <infon key="pub-id_pmid">27089515</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>44987</offset>
+      <text>Activation of Bacteroides fragilis toxin by a novel bacterial protease contributes to anaerobic sepsis in mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">453</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">625</infon>
+      <infon key="pub-id_pmid">18509436</infon>
+      <infon key="fpage">620</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>45098</offset>
+      <text>A microbial symbiosis factor prevents intestinal inflammatory disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="source">Infect Immun</infon>
+      <infon key="lpage">2020</infon>
+      <infon key="pub-id_pmid">21402766</infon>
+      <infon key="fpage">2012</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>45168</offset>
+      <text>Longitudinal analysis of the prevalence, maintenance, and IgA response to species of the order Bacteroidales in the human gut</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Antimicrob Agents Chemother</infon>
+      <infon key="lpage">5270</infon>
+      <infon key="pub-id_pmid">23939887</infon>
+      <infon key="fpage">5266</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45294</offset>
+      <text>Nontoxigenic Clostridium difficile protects hamsters against challenge with historic and epidemic strains of toxigenic BI/NAP1/027 C. difficile</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">1533</infon>
+      <infon key="pub-id_pmid">16432199</infon>
+      <infon key="fpage">1528</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>45438</offset>
+      <text>Identification of a conserved bacterial protein secretion system in Vibrio cholerae using the Dictyostelium host model system</text>
+    </passage>
+    <passage>
+      <infon key="volume">107</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">19524</infon>
+      <infon key="pub-id_pmid">20974937</infon>
+      <infon key="fpage">19520</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>45564</offset>
+      <text>The Vibrio cholerae type VI secretion system displays antimicrobial properties</text>
+    </passage>
+    <passage>
+      <infon key="volume">288</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">7625</infon>
+      <infon key="pub-id_pmid">23341465</infon>
+      <infon key="fpage">7618</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45643</offset>
+      <text>Lytic activity of the Vibrio cholerae type VI secretion toxin VgrG&#8208;3 is inhibited by the antitoxin TsaB</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">2628</infon>
+      <infon key="pub-id_pmid">23362380</infon>
+      <infon key="fpage">2623</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45749</offset>
+      <text>Identification of T6SS&#8208;dependent effector and immunity proteins by Tn&#8208;seq in Vibrio cholerae</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">663</infon>
+      <infon key="pub-id_pmid">24331463</infon>
+      <infon key="fpage">652</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>45846</offset>
+      <text>Tn&#8208;Seq analysis of Vibrio cholerae intestinal colonization reveals a role for T6SS&#8208;mediated antibacterial activity in the host</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24686479</infon>
+      <infon key="fpage">3549</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>45977</offset>
+      <text>The Vibrio cholerae type VI secretion system employs diverse effector modules for intraspecific competition</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Cell Host Microbe</infon>
+      <infon key="lpage">236</infon>
+      <infon key="pub-id_pmid">25070807</infon>
+      <infon key="fpage">227</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46085</offset>
+      <text>A type VI secretion&#8208;related pathway in Bacteroidetes mediates interbacterial antagonism</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">BMC Genom</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">58</infon>
+      <infon key="year">2016</infon>
+      <offset>46175</offset>
+      <text>Type VI secretion systems of human gut Bacteroidales segregate into three genetic architectures, two of which are contained on mobile genetic elements</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3644</infon>
+      <infon key="pub-id_pmid">26957597</infon>
+      <infon key="fpage">3639</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46326</offset>
+      <text>Human symbionts inject and neutralize antibacterial toxins to persist in the gut</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3632</infon>
+      <infon key="pub-id_pmid">26951680</infon>
+      <infon key="fpage">3627</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46407</offset>
+      <text>Bacteroides fragilis type VI secretion systems use novel effector and immunity proteins to antagonize human gut Bacteroidales species</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">32</infon>
+      <infon key="pub-id_pmid">26499895</infon>
+      <infon key="fpage">20</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46541</offset>
+      <text>Gut biogeography of the bacterial microbiota</text>
+    </passage>
+    <passage>
+      <infon key="volume">501</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">429</infon>
+      <infon key="pub-id_pmid">23955152</infon>
+      <infon key="fpage">426</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46586</offset>
+      <text>Bacterial colonization factors control specificity and stability of the gut microbiota</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">148</infon>
+      <infon key="pub-id_pmid">24384601</infon>
+      <infon key="fpage">137</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>46673</offset>
+      <text>Type VI secretion system effectors: poisons with a purpose</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Inflamm Bowel Dis</infon>
+      <infon key="lpage">1483</infon>
+      <infon key="pub-id_pmid">17886290</infon>
+      <infon key="fpage">1475</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>46732</offset>
+      <text>Enterotoxigenic Bacteroides fragilis: a potential instigator of colitis</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Clin Infect Dis</infon>
+      <infon key="lpage">803</infon>
+      <infon key="pub-id_pmid">18680416</infon>
+      <infon key="fpage">797</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>46804</offset>
+      <text>Association of enterotoxigenic Bacteroides fragilis infection with inflammatory diarrhea</text>
+    </passage>
+    <passage>
+      <infon key="volume">341</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1237439</infon>
+      <infon key="pub-id_pmid">23828941</infon>
+      <infon key="fpage">1237439</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46893</offset>
+      <text>The long&#8208;term stability of the human gut microbiota</text>
+    </passage>
+    <passage>
+      <infon key="volume">214</infon>
+      <infon key="source">J Infect Dis</infon>
+      <infon key="lpage">129</infon>
+      <infon key="pub-id_pmid">26908749</infon>
+      <infon key="fpage">122</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>46947</offset>
+      <text>Reduction of murine colon tumorigenesis driven by enterotoxigenic Bacteroides fragilis using cefoxitin treatment</text>
+    </passage>
+    <passage>
+      <infon key="volume">517</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">208</infon>
+      <infon key="pub-id_pmid">25337874</infon>
+      <infon key="fpage">205</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>47060</offset>
+      <text>Precision microbiome reconstitution restores bile acid mediated resistance to Clostridium difficile</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Infect Immun</infon>
+      <infon key="lpage">3532</infon>
+      <infon key="pub-id_pmid">10377135</infon>
+      <infon key="fpage">3525</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>47160</offset>
+      <text>Analysis of a capsular polysaccharide biosynthesis locus of Bacteroides fragilis</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Rev Microbiol</infon>
+      <infon key="lpage">335</infon>
+      <infon key="pub-id_pmid">22491358</infon>
+      <infon key="fpage">323</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>47241</offset>
+      <text>How glycan metabolism shapes the human gut microbiota</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">1372</infon>
+      <infon key="pub-id_pmid">19029910</infon>
+      <infon key="fpage">1367</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>47295</offset>
+      <text>MaxQuant enables high peptide identification rates, individualized p.p.b.&#8208;range mass accuracies and proteome&#8208;wide protein quantification</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="lpage">2385</infon>
+      <infon key="pub-id_pmid">18644780</infon>
+      <infon key="fpage">2373</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>47436</offset>
+      <text>Significance analysis of spectral count data in label&#8208;free shotgun proteomics</text>
+    </passage>
+  </document>
+</collection>

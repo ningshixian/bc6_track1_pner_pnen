@@ -1,0 +1,1392 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4967955</id>
+    <passage>
+      <infon key="name_2">surname:Fan;given-names:Pingsheng</infon>
+      <infon key="name_3">surname:Mei;given-names:Yide</infon>
+      <infon key="name_0">surname:Zhang;given-names:Pengfei</infon>
+      <infon key="name_1">surname:Cao;given-names:Limian</infon>
+      <infon key="alt-title">Pengfei Zhang et al</infon>
+      <infon key="article-id_publisher-id">EMBR201642067</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embr.201642067</infon>
+      <infon key="article-id_pmid">27317567</infon>
+      <infon key="lpage">1220 1220</infon>
+      <infon key="pub-id_pmid">27317567</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">17 17</infon>
+      <infon key="fpage">1204 1204</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Wu;given-names:Mian</infon>
+      <infon key="issue">8</infon>
+      <infon key="kwd">c&#8208;Myc Fbxw7 glycolysis lncRNA microRNA Cancer RNA Biology</infon>
+      <offset>0</offset>
+      <text>LncRNA&#8208;MIF, a c&#8208;Myc&#8208;activated long non&#8208;coding RNA, suppresses glycolysis by promoting Fbxw7&#8208;mediated c&#8208;Myc degradation</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>131</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>140</offset>
+      <text>The c&#8208;Myc proto&#8208;oncogene is activated in more than half of all human cancers. However, the precise regulation of c&#8208;Myc protein stability is unknown. Here, we show that the lncRNA&#8208;MIF (c&#8208;Myc inhibitory factor), a c&#8208;Myc&#8208;induced long non&#8208;coding RNA, is a competing endogenous RNA for miR&#8208;586 and attenuates the inhibitory effect of miR&#8208;586 on Fbxw7, an E3 ligase for c&#8208;Myc, leading to increased Fbxw7 expression and subsequent c&#8208;Myc degradation. Our data reveal the existence of a feedback loop between c&#8208;Myc and lncRNA&#8208;MIF, through which c&#8208;Myc protein stability is finely controlled. Additionally, we show that the lncRNA&#8208;MIF inhibits aerobic glycolysis and tumorigenesis by suppressing c&#8208;Myc and miR&#8208;586.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>880</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>893</offset>
+      <text>The c&#8208;Myc gene was originally discovered as the cellular homolog of the retroviral v&#8208;Myc oncogene 1, 2. The c&#8208;Myc proto&#8208;oncogene was later revealed to be activated in over half of human cancers 3. Many mechanisms are involved in c&#8208;Myc activation during tumorigenesis, including chromosomal rearrangement 4, 5, gene amplification 6, and point mutations in the coding sequence 7, 8. The potent transforming activity of c&#8208;Myc to promote tumorigenesis has been well documented by extensive studies using both in vitro cell culture and in vivo mouse models 9.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1460</offset>
+      <text>As a master transcriptional factor, c&#8208;Myc has been previously reported to bind to approximately 10&#8211;15% of genes in the genome. Recent studies also suggest that c&#8208;Myc may function as a global amplifier of already active promoters 10, 11, 12. By modulating expression of a variety of protein&#8208;coding genes, c&#8208;Myc has been shown to regulate various cellular processes impacting on cell growth, differentiation, and metabolism 13, 14. However, protein&#8208;coding genes only account for &lt; 2% of the human genome, and the majority of transcripts are non&#8208;coding RNAs 15, 16. Among them are long non&#8208;coding RNAs (lncRNAs), which are defined as transcripts longer than 200 nucleotides lacking significant protein&#8208;coding capacity. Thus far, more than 10,000 lncRNAs have been identified in the human genome 15. The lncRNAs are emerging as an important regulator of biological process and have diverse functions including their involvement in the regulation of gene expression at different levels, such as chromatin remodeling, transcription, and post&#8208;transcriptional processing 17, 18. Of note, lncRNA has recently been shown to function as microRNA (miRNA) sponge or competing endogenous RNA (ceRNA) to regulate gene expression 19, 20. Dysregulation of lncRNAs has also been implicated in a variety of human diseases including cancer 21, 22. Despite these advances, most lncRNAs remain functionally uncharacterized. Particularly, it remains largely unknown how lncRNAs are involved in the regulation of c&#8208;Myc function.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2987</offset>
+      <text>Considering c&#8208;Myc has strong growth&#8208;promoting ability, so a small change in c&#8208;Myc levels may have a global impact on the cell. It is therefore not surprising that levels of c&#8208;Myc are under extraordinarily tight regulation in normal cells. c&#8208;Myc is an immediate&#8208;early gene, and its transcription is controlled at the level of initiation in response to a range of growth stimuli 23, 24. In addition, c&#8208;Myc mRNA is highly unstable, with a half&#8208;life of ~30 min. The export and translation of c&#8208;Myc mRNA are also highly controlled 25, 26. Furthermore, c&#8208;Myc is a labile protein, and its protein stability is regulated by multiple E3 ubiquitin ligases 27, among which SCF (Skp&#8211;Cullin&#8211;F&#8208;box)&#8208;Fbxw7 (F&#8208;box and WD repeat domain&#8208;containing 7) is the best&#8208;characterized E3 ubiquitin ligase for c&#8208;Myc. The SCF&#8208;Fbxw7&#8208;mediated degradation of c&#8208;Myc involves the recognition of phosphorylated c&#8208;Myc on threonine 58 (T58) and serine 62 (S62) by Fbxw7 28, 29. It has been widely accepted that the c&#8208;Myc oncogene becomes dysregulated when those control mechanisms are compromised.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4095</offset>
+      <text>The tightly controlled expression of c&#8208;Myc is essential for many cellular processes. Deficiency in c&#8208;Myc is embryonic lethal in animal models, whereas the increased expression of c&#8208;Myc is oncogenic. It is interesting to note that c&#8208;Myc haploinsufficient (Myc+/&#8722;) mice are metabolically healthier and surviving longer than wild&#8208;type mice 30. It is unclear whether this also holds true for human beings. In normal human cells, c&#8208;Myc is kept at a relatively low level, whereas c&#8208;Myc exhibits high&#8208;level expression in cancer cells. How this is achieved in their respective cells has not yet been fully addressed.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4722</offset>
+      <text>In this study, we demonstrate that lncRNA&#8208;MIF (Myc inhibitory factor), which is transcribed by c&#8208;Myc, is able to reduce c&#8208;Myc expression. Mechanistically, lncRNA&#8208;MIF competes with coding mRNA Fbxw7 for miR&#8208;586 and relieves the inhibitory effect of miR&#8208;586 on Fbxw7, thereby leading to increased Fbxw7 expression and decreased c&#8208;Myc level. Our data indicate the existence of a feedback loop between c&#8208;Myc and lncRNA&#8208;MIF, through which c&#8208;Myc protein stability is delicately controlled. Our study also suggests that lncRNA&#8208;MIF exerts its tumor&#8208;suppressive function by regulating c&#8208;Myc&#8208;mediated glycolysis and tumorigenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5371</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5379</offset>
+      <text>LncRNA&#8208;MIF reduces c&#8208;Myc protein stability</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5426</offset>
+      <text>To identify novel long non&#8208;coding RNAs involved in the regulation of c&#8208;Myc function, we first analyzed lncRNA expression profile of P493&#8208;6 cells carrying a c&#8208;Myc tet&#8208;off system. By performing long non&#8208;coding RNA microarray analysis (Dataset EV1), we found that levels of three lncRNAs in P493&#8208;6 cells were decreased when c&#8208;Myc expression was suppressed by doxycycline addition (Fig EV1A). Among these c&#8208;Myc responsive lncRNAs, RP11&#8208;320M2.1 (ENST00000547349) particularly attracted our attention because knockdown of this lncRNA showed the most pronounced elevation of c&#8208;Myc in HeLa, H1299 and A549 cells (Figs 1A and EV1B). We named this lncRNA as c&#8208;Myc&#8208;inhibitory factor (lncRNA&#8208;MIF). To avoid off&#8208;target effect, three different lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, and &#8208;3 were used to knock down lncRNA&#8208;MIF, and each shRNA was shown to result in marked decrease in lncRNA&#8208;MIF and elevated c&#8208;Myc protein level (Fig 5D, lanes 2, 3, and 4, second panel from the top). Furthermore, knockdown effect on upregulation of c&#8208;Myc by lncRNA&#8208;MIF shRNA&#8208;1 and &#8208;2 can be rescued by overexpressed shRNA&#8208;1 and &#8208;2 resistant lncRNA&#8208;MIF (Fig EV1C and D). These results demonstrated that lncRNA&#8208;MIF shRNA&#8208;1 and &#8208;2 will not be off&#8208;targeting. LncRNA&#8208;MIF shRNA&#8208;1 showed the strongest suppression of lncRNA&#8208;MIF and therefore was used throughout this study. LncRNA&#8208;MIF was expressed from a locus between ODC1 and NOL10, and was predicted to have three exons by UCSC (University of California, Santa Cruz) Genome Browser (Fig 1B). LncRNA&#8208;MIF was readily detectable by Northern blotting in HeLa and HCT116 cells, and was approximately 800 bp in length that was the same as predicted by UCSC (Fig 1C). When lncRNA&#8208;MIF was introduced into HeLa cells, c&#8208;Myc levels were greatly reduced (Fig 1D). However, overexpression of lncRNA&#8208;MIF&#8208;AS (antisense) in HeLa cells showed no effect on c&#8208;Myc (Fig 5A, lanes 2 and 3, second panel from the top). These data indicate that lncRNA&#8208;MIF is fully functional for its inhibitory effect on c&#8208;Myc expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7518</offset>
+      <text>Knockdown of lncRNA&#8208;MIF by shRNA leads to increased expression of c&#8208;Myc</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7594</offset>
+      <text>P493&#8208;6 cells were treated with doxycycline for 0 and 24 h. Total RNA was analyzed by real&#8208;time RT&#8211;PCR to examine the levels of RP11&#8208;16P6.1, lncRNA&#8208;MIF, and RP4&#8208;583A. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test). Cell lysates were also analyzed by Western blotting using anti&#8208;c&#8208;Myc and anti&#8208;GAPDH antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7944</offset>
+      <text>HeLa cells were individually infected with lentiviruses expressing either control shRNA, RP11&#8208;16P6.1 shRNA, lncRNA&#8208;MIF shRNA, or RP4&#8208;583A shRNA. Forty&#8208;eight hours after infection, cell lysates were analyzed by Western blotting using anti&#8208;c&#8208;Myc and anti&#8208;GAPDH antibodies. Total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8347</offset>
+      <text>HeLa cells were infected with lentiviruses as indicated. Forty&#8208;eight hours after infection, cell lysates were analyzed by Western blot analysis using anti&#8208;Fbxw7, anti&#8208;c&#8208;Myc, and anti&#8208;GAPDH antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8558</offset>
+      <text>LncRNA&#8208;MIF inhibits c&#8208;Myc expression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8599</offset>
+      <text>HeLa, H1299, and A549 cells were infected with lentiviruses expressing control shRNA or lncRNA&#8208;MIF shRNA. Forty&#8208;eight hours after infection, cell lysates were subjected to Western blot analysis with anti&#8208;c&#8208;Myc antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8827</offset>
+      <text>Schematic illustration of lncRNA&#8208;MIF genomic localization and three putative c&#8208;Myc binding sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8929</offset>
+      <text>Total RNA from the indicated cell lines was subjected to Northern blot analysis to determine the molecular size of lncRNA&#8208;MIF. Actin was also included as a positive control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9105</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA as indicated. Forty&#8208;eight hours after infection, cell lysates were analyzed by Western blotting with anti&#8208;c&#8208;Myc and anti&#8208;GAPDH antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9370</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA as indicated. Forty&#8208;eight hours after infection, total RNA was extracted from these cells and subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9697</offset>
+      <text>HeLa cells expressing either control RNA or lncRNA&#8208;MIF were treated with or without MG132 (20 &#956;M) for 6 h. Cell lysates were analyzed by Western blot with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9881</offset>
+      <text>HeLa cells expressing either control shRNA or lncRNA&#8208;MIF shRNA were treated with MG132 for 6 h. Cell lysates were analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10057</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, or lncRNA&#8208;MIF&#8208;AS as indicated. Forty&#8208;eight hours after infection, cells were treated with cycloheximide (CHX, 50 &#956;g/ml) for the indicated periods of time. Cell lysates were then analyzed by Western blotting to examine the c&#8208;Myc protein half&#8208;life. Protein band intensity was analyzed by ImageJ.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10443</offset>
+      <text>Band intensity of c&#8208;Myc in (H) was analyzed by ImageJ.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10500</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA, lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3 as indicated. Forty&#8208;eight hours after infection, cells were treated with CHX for the indicated periods of time. Cell lysates were then analyzed by Western blotting to examine the half&#8208;life of c&#8208;Myc protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10820</offset>
+      <text>Band intensity of c&#8208;Myc in (J) was analyzed by ImageJ.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10877</offset>
+      <text>We next investigated how lncRNA&#8208;MIF decreased c&#8208;Myc protein levels. c&#8208;Myc mRNA levels were not affected by either overexpression or knockdown of lncRNA&#8208;MIF (Figs 1E and 5C and E), as determined by real&#8208;time RT&#8211;PCR analysis. However, the proteasome inhibitor MG132 was able to reverse the inhibitory effect of lncRNA&#8208;MIF on c&#8208;Myc protein level (Fig 1F and G). c&#8208;Myc half&#8208;life was decreased by lncRNA&#8208;MIF induction and increased by lncRNA&#8208;MIF knockdown (Fig 1H&#8211;K). These data suggest that lncRNA&#8208;MIF reduces c&#8208;Myc protein stability by promoting its degradation through the proteasome pathway.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11498</offset>
+      <text>LncRNA&#8208;MIF is a direct transcriptional target of c&#8208;Myc</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11557</offset>
+      <text>Since lncRNA&#8208;MIF was identified as a c&#8208;Myc upregulated gene by lncRNA microarray as mentioned above, we sought to further validate the effect of c&#8208;Myc on lncRNA&#8208;MIF expression. The real&#8208;time RT&#8211;PCR analysis showed that levels of lncRNA&#8208;MIF were greatly decreased when c&#8208;Myc expression was suppressed in P493&#8208;6 cells (Fig 2A). Knockdown of c&#8208;Myc decreased, whereas induction of c&#8208;Myc increased lncRNA&#8208;MIF expression in HeLa, HCT116, and MCF10A cells (Fig 2B and C). Level of c&#8208;Myc protein is subjected to change due to environmental stresses. To examine whether c&#8208;Myc indeed regulates lncRNA&#8208;MIF under physiological conditions, the level of lncRNA&#8208;MIF was determined in glucose&#8208; or glutamine&#8208;deprived HeLa cells which was known to reduce c&#8208;Myc level 31. As shown in Fig EV2A and B, as the c&#8208;Myc level decreased under glucose or glutamine deprivation, the level of lncRNA&#8208;MIF was markedly decreased. These data suggest that lncRNA&#8208;MIF expression is indeed positively regulated by c&#8208;Myc.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>12588</offset>
+      <text>LncRNA&#8208;MIF is a direct transcriptional target of c&#8208;Myc</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12647</offset>
+      <text>P493&#8208;6 cells (human B&#8208;cell lymphoma cell line) carrying a c&#8208;Myc tet&#8208;off system were treated with doxycycline (1 &#956;g/ml) for the indicated periods of time. Total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test). Cell lysates were also analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13032</offset>
+      <text>HeLa, HCT116, and MCF10A cells were infected with lentiviruses expressing control shRNA or c&#8208;Myc shRNA. Forty&#8208;eight hours after infection, total RNA and cell lysates were analyzed by real&#8208;time RT&#8211;PCR and Western blotting, respectively. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13357</offset>
+      <text>HeLa, HCT116, and MCF10A cells were transfected with control vector or Flag&#8208;c&#8208;Myc. Twenty&#8208;four hours after transfection, total RNA was extracted from these cells and subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test). Cell lysates were also analyzed by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13707</offset>
+      <text>Schematic illustration of consensus c&#8208;Myc binding sites in lncRNA&#8208;MIF gene promoter. The indicated pGL3&#8208;based luciferase reporter constructs were generated to examine transcriptional activities of three putative c&#8208;Myc binding sites MIF1, MIF2, and MIF3 in response to c&#8208;Myc induction. MIF1&#8208;M, MIF2&#8208;M, and MIF3&#8208;M indicate their corresponding mutant binding sites which are shown in the open boxes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14120</offset>
+      <text>HeLa cells were co&#8208;transfected with either Flag&#8208;c&#8208;Myc or control vector plus the indicated reporter constructs and Renilla luciferase plasmid. Twenty&#8208;four hours after transfection, reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14485</offset>
+      <text>HeLa cells expressing control shRNA or c&#8208;Myc shRNA were co&#8208;transfected with the indicated reporter constructs and Renilla luciferase plasmid. Twenty&#8208;four hours after transfection, reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14847</offset>
+      <text>P493&#8208;6 cells were co&#8208;transfected with the indicated reporter constructs and Renilla luciferase plasmid. Twenty&#8208;four hours after transfection, cells were treated with doxycycline for 0 and 12 h, respectively. Then reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15253</offset>
+      <text>Lysates from HeLa cells were subjected to ChIP assay. ChIP products were amplified by qPCR with the indicated pairs of primers. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15450</offset>
+      <text>c&#8208;Myc down&#8208;regulates lncRNA&#8208;MIF under glucose or glutamine deprivation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15527</offset>
+      <text>HeLa cells were treated with glucose deprivation DMEM medium for 0, 12, or 24 h. Cell lysates were analyzed by Western blotting. Total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15774</offset>
+      <text>HeLa cells were treated with glutamine deprivation DMEM medium for 0, 12, or 24 h. Cell lysates were analyzed by Western blotting. Total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16023</offset>
+      <text>HeLa cells expressing control shRNA or c&#8208;Myc shRNA were infected with lentiviruses expressing control shRNA or Max shRNA. Forty&#8208;eight hours after infection, cell lysates were analyzed by Western blotting. Total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16361</offset>
+      <text>We next explored whether c&#8208;Myc could regulate lncRNA&#8208;MIF at the transcriptional level. We inspected the genomic sequence upstream and intronic regions of the gene coding for lncRNA&#8208;MIF by using Target Scan web server. Three putative c&#8208;Myc binding sites (MIF1, MIF2, and MIF3) were found within the promoter and intronic region of the lncRNA&#8208;MIF gene (Figs 1B and 2D). We therefore evaluated whether these putative c&#8208;Myc binding sites conferred c&#8208;Myc&#8208;dependent transcriptional activity. DNA fragments containing wild&#8208;type or mutant binding sites were inserted into the promoter region of a firefly luciferase reporter plasmid. Luciferase expression from the reporter containing individual MIF1, MIF2, or MIF3 site was indeed induced by ectopic expression of c&#8208;Myc (Fig 2E) and decreased by knockdown of c&#8208;Myc (Fig 2F). Similarly, P493&#8208;6 cells with Myc&#8208;off also result in decreased luciferase expression from three reporter vectors containing MIF1, MIF2, or MIF3 site (Fig 2G). Yet, mutant sites showed no response to c&#8208;Myc induction (Fig 2E&#8211;G). The subsequent chromatin immunoprecipitation (CHIP) assays also verified the association of c&#8208;Myc and the chromatin fragments corresponding to the MIF1, MIF2, or MIF3 site (Fig 2H). As a transcription factor, c&#8208;Myc heterodimerizes with its partner protein Max to bind to conserved E&#8208;box to transactive target genes. We showed that depletion of Max diminished the effect of c&#8208;Myc on lncRNA&#8208;MIF transcription (Fig EV2C), implying that c&#8208;Myc transactivates lncRNA&#8208;MIF via conserved E&#8208;box.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17937</offset>
+      <text>LncRNA&#8208;MIF increases Fbxw7 expression by acting as a molecular sponge for miR&#8208;586</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18023</offset>
+      <text>It has been recognized that stability of c&#8208;Myc is tightly controlled by Fbxw7&#8208;dependent ubiquitination and subsequent proteasome&#8208;dependent degradation. The above finding that lncRNA&#8208;MIF reduced c&#8208;Myc half&#8208;life (Fig 1H&#8211;K) led us to test the possibility that whether lncRNA&#8208;MIF could interact with c&#8208;Myc and/or Fbxw7 and thus to accelerate Fbxw7&#8208;mediated c&#8208;Myc degradation. We performed two types of RNA&#8208;pull&#8208;down experiments. Firstly, we incubated in vitro&#8208;synthesized full&#8208;length biotinylated lncRNA&#8208;MIF (antisense lncRNA&#8208;MIF transcripts were used as negative control) with HeLa cell lysates and isolated coprecipitated proteins by using streptavidin beads. Secondly, we incubated biotinylated antisense DNA probes targeted to lncRNA&#8208;MIF with HeLa cell lysates to pull down endogenous lncRNA&#8208;MIF and its interacting protein (sense DNA probes were used as negative control). The results showed no obvious interaction of lncRNA&#8208;MIF with either Fbxw7 or c&#8208;Myc (Fig 3A; PTBP1 was used as positive control, since PTBP1 was also shown to associate with lncRNA&#8208;MIF in our mass spectrometry analysis). However, we found that knockdown of lncRNA&#8208;MIF decreased, whereas induction of lncRNA&#8208;MIF increased both Fbxw7 mRNA and protein levels (Fig 3B and C). These data indicate that lncRNA&#8208;MIF may decrease c&#8208;Myc half&#8208;life via elevating Fbxw7 expression. We next explored how lncRNA&#8208;MIF regulated Fbxw7 expression. Since there is no direct association between lncRNA&#8208;MIF and Fbxw7, we asked whether lncRNA&#8208;MIF could act as a microRNA sponge to regulate Fbxw7 expression. To test this possibility, we first performed the bioinformatics analysis using TargetScanHuman web server and miR&#8208;586 was predicted to target both lncRNA&#8208;MIF and Fbxw7 (Fig 3D). The RNA target specificities of miRNAs in animals are primarily encoded within a 7&#8208;nt &#8220;seed region&#8221; mapping to positions 2&#8211;8 at the molecule's 5&#8242; end 32. LncRNA&#8208;MIF has five putative 7&#8208;mer complementary sequences for miR&#8208;586, and two of five have 7&#8208;nt perfect match, whereas the remaining three have 1 base variation. Concurrently, the 3&#8242; untranslated region (3&#8242; UTR) of the Fbxw7 gene contains one putative 8&#8208;mer site (nucleotides 636&#8211;643) that matches to the miR&#8208;586 seed region. We next determined whether lncRNA&#8208;MIF interacted with miR&#8208;586 and whether miR&#8208;586 targeted Fbxw7 to inhibit its translation. We showed that both biotinylated antisense DNA probe&#8208;enriched endogenous lncRNA&#8208;MIF and in vitro&#8208;synthesized biotinylated lncRNA&#8208;MIF were able to successfully pull down miR&#8208;586 (Fig 3E and F). As a negative control, lncRNA&#8208;MIF failed to pull down miR&#8208;34a (Fig 3F), since does not contain any putative miR&#8208;34a complementary sequence. To further validate the association of lncRNA&#8208;MIF with miR&#8208;586, we constructed a luciferase reporter plasmid containing wild&#8208;type lncRNA&#8208;MIF and a mutant reporter construct in which two putative miR&#8208;586 binding sites within lncRNA&#8208;MIF were mutated (Fig 3G). These reporter constructs were transfected into HeLa cells together with miR&#8208;586 mimics or inhibitors. As was expected, miR&#8208;586 mimics reduced, whereas miR&#8208;586 inhibitors increased the reporter activity of the construct containing wild&#8208;type lncRNA&#8208;MIF (Fig 3H and I). On the contrary, activity of the reporter containing mutant lncRNA&#8208;MIF was not affected by either mimics or inhibitors of miR&#8208;586 (Fig 3H and I). These results strongly suggest the specific interaction of lncRNA&#8208;MIF with miR&#8208;586. To investigate in which cellular compartment the lncRNA&#8208;MIF&#8211;miR&#8208;586 interaction occurs, we examined the cellular localization of lncRNA&#8208;MIF and miR&#8208;586. LncRNA&#8208;MIF and miR&#8208;586 reside in both cytoplasm and nucleus (Fig 3J). Antisense DNA probe&#8208;enriched endogenous lncRNA&#8208;MIF can only pull down miR&#8208;586 from cytosolic but not nuclear fraction (Fig 3K). Taken together, these data indicate that lncRNA&#8208;MIF specifically interacts with miR&#8208;586 in cytoplasm.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22076</offset>
+      <text>LncRNA&#8208;MIF is a molecular sponge for miR&#8208;586</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22125</offset>
+      <text>Left panel: Lysates from HeLa cells were incubated with in vitro&#8208;synthesized biotin&#8208;labeled sense or antisense DNA probes against lncRNA&#8208;MIF for biotin pull&#8208;down assay, followed by Western blot analysis with the indicated antibodies. Right panel: Lysates from HeLa cells were incubated with in vitro&#8208;synthesized biotin&#8208;labeled lncRNA&#8208;MIF or biotin&#8208;labeled antisense RNA for biotin pull&#8208;down assay, followed by Western blot analysis with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22606</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA as indicated. Forty&#8208;eight hours after infection, cell lysates were analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22853</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA as indicated. Forty&#8208;eight hours after infection, total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23161</offset>
+      <text>Illustration of the base pairing between miR&#8208;586 and lncRNA&#8208;MIF. The base pairing between miR&#8208;586 and Fbxw7 3&#8242; UTR is also shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23299</offset>
+      <text>Lysates from HeLa cells were incubated with in vitro&#8208;synthesized biotin&#8208;labeled sense or antisense DNA probes against lncRNA&#8208;MIF for biotin pull&#8208;down assay, followed by real&#8208;time RT&#8211;PCR analysis to examine miR&#8208;586 levels. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23616</offset>
+      <text>Lysates from HeLa cells were incubated with in vitro&#8208;synthesized biotin&#8208;labeled lncRNA&#8208;MIF and antisense RNA for biotin pull&#8208;down assay, followed by real&#8208;time RT&#8211;PCR analysis to examine miR&#8208;586 and miR&#8208;34a levels. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23916</offset>
+      <text>Schematic representation of psicheck2&#8208;based luciferase reporter plasmid containing wild&#8208;type lncRNA&#8208;MIF (psicheck2&#8208;lncRNA&#8208;MIF) and a mutant reporter construct in which two putative miR&#8208;586 binding sites were mutated (psicheck2&#8208;lncRNA&#8208;MIF&#8208;M), and mutated bases are indicated in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24216</offset>
+      <text>miR&#8208;586 or control mimics were transfected into HeLa cells together with the indicated psicheck2&#8208;based luciferase reporter construct. Twenty&#8208;four hours after transfection, reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24569</offset>
+      <text>miR&#8208;586 or control inhibitors were transfected into HeLa cells together with the indicated psicheck2&#8208;based luciferase reporter construct. Twenty&#8208;four hours after transfection, reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24892</offset>
+      <text>HeLa cells were subjected to fractionation into cytoplasmic (C) and nuclear (N) extracts. Total RNA extracted from each fraction was analyzed for the indicated RNA expression by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3). Actin and PARP were used as markers for cytoplasmic and nuclear fractions, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25216</offset>
+      <text>HeLa cells were subjected to cytoplasm or nucleus fractionation before each fraction was incubated with in vitro&#8208;synthesized biotin&#8208;labeled sense or antisense DNA probes of lncRNA&#8208;MIF for biotin pull&#8208;down assay, followed by real&#8208;time RT&#8211;PCR analysis to examine miR&#8208;586 levels. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25588</offset>
+      <text>To determine whether Fbxw7 is a bona fide target of miR&#8208;586, we introduced miR&#8208;586 mimics into HeLa cells together with luciferase reporter plasmids containing wild&#8208;type or mutant 3&#8242; UTR of Fbxw7 (Fig 4A). The reporter activity was noticeably suppressed by the presence of miR&#8208;586 mimics, however, this activity remained largely unaffected when this 3&#8242; UTR was mutated (Fig 4B). In addition, the Fbxw7 3&#8242; UTR&#8208;luciferase activity was increased by treatment with miR&#8208;586 inhibitors (Fig 4C). These data indicate that 3&#8242; UTR of Fbxw7 is inhibited by miR&#8208;586. To reinforce this conclusion, we performed an endogenous experiment. Treatment by miR&#8208;586 mimics led to a decrease in both protein and mRNA levels of endogenous Fbxw7, whereas miR&#8208;586 inhibitors showed the opposite effect (Fig 4D and E). Taken together, these data suggest that Fbxw7 is post&#8208;transcriptionally inhibited by miR&#8208;586.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26506</offset>
+      <text>LncRNA&#8208;MIF regulates Fbxw7 and c&#8208;Myc expression via miR&#8208;586</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26572</offset>
+      <text>Schematic illustration of psicheck2&#8208;based luciferase reporter constructs used for examining the effect of miR&#8208;586 on the 3&#8242; UTR of Fbxw7. Mutated bases are in red color in open box.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26760</offset>
+      <text>miR&#8208;586 mimics or negative control mimics (NC mimics) were transfected into HeLa cells together with the indicated psicheck2&#8208;based luciferase reporter construct. Twenty&#8208;four hours after transfection, reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27141</offset>
+      <text>miR&#8208;586 inhibitor or negative control inhibitor (NC inhibitor) was transfected into HeLa cells together with the indicated psicheck2&#8208;based luciferase reporter construct. Twenty&#8208;four hours after transfection, reporter activity was measured and plotted after normalizing with respect to Renilla luciferase activity. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27531</offset>
+      <text>HeLa cells were transfected with miR&#8208;586 mimics or inhibitors as indicated. Forty&#8208;eight hours after transfection, cell lysates were analyzed by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27697</offset>
+      <text>HeLa cells were transfected with miR&#8208;586 mimics or inhibitors as indicated. Forty&#8208;eight hours after transfection, total RNA was extracted and subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27957</offset>
+      <text>The copy numbers of miR&#8208;586 and lncRNA&#8208;MIF transcript per cell in the indicated cells were quantified using a quantitative real&#8208;time RT&#8211;PCR assay. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28147</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA or lncRNA&#8208;MIF shRNA. Forty&#8208;eight hours after infection, total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. HeLa cells were infected with lentiviruses expressing lncRNA&#8208;MIF or control RNA. Forty&#8208;eight hours after infection, total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28582</offset>
+      <text>HeLa cells expressing lncRNA&#8208;MIF or control RNA were transfected with miR&#8208;586 mimics or NC mimics. Twenty&#8208;four hours after transfection, cell lysates were analyzed by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28773</offset>
+      <text>HeLa cells expressing lncRNA&#8208;MIF or control shRNA were transfected with miR&#8208;586 inhibitor or NC inhibitor. Twenty&#8208;four hours after transfection, cell lysates were analyzed by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28972</offset>
+      <text>Mutant bases (in red color) in nonsense mutant lncRNA&#8208;MIF (negative control, NC) and in miR&#8208;586 binding&#8208;defective lncRNA&#8208;MIF are shown in boxes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29125</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, lncRNA&#8208;MIF harboring nonsense mutation, or miR586 binding&#8208;defective lncRNA&#8208;MIF. Forty&#8208;eight hours after transfection, cell lysates were analyzed by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29380</offset>
+      <text>Given that miR&#8208;586 was able to target both lncRNA&#8208;MIF and Fbxw7, we asked whether lncRNA&#8208;MIF competed with Fbxw7 mRNA for miR&#8208;586 binding. If there indeed exists a competition between lncRNA&#8208;MIF and Fbxw7 mRNA for shared miR&#8208;586, the copy number ratio of lncRNA&#8208;MIF to miR&#8208;586 is then expected to be within a rational range, too high or too low will make the competition become unworkable. We used quantitative real&#8208;time PCR to quantify the copy numbers of lncRNA&#8208;MIF and miR&#8208;586 per cell in HeLa, MCF7, and HCT116 cells. The ratio of miR&#8208;586 copy number to lncRNA&#8208;MIF copy number ranged from 5 to 20 in different types of cells (Fig 4F). Considering lncRNA&#8208;MIF has 5 putative miR&#8208;586 complementary sites, it is reasonable to speculate that lncRNA&#8208;MIF is able to efficiently inhibit miR&#8208;586 function. We also found that overexpression of lncRNA&#8208;MIF reduced, whereas knockdown of lncRNA&#8208;MIF increased levels of miR&#8208;586 (Fig 4G). To further determine whether lncRNA&#8208;MIF regulates Fbxw7 and c&#8208;Myc expression via miR&#8208;586, miR&#8208;586 mimics and inhibitor were utilized. We showed that induction of miR&#8208;586 by its mimics greatly reversed lncRNA&#8208;MIF&#8208;mediated up&#8208;regulation of Fbxw7 and down&#8208;regulation of c&#8208;Myc (Fig 4H). In addition, lncRNA&#8208;MIF knockdown&#8208;caused Fbxw7 down&#8208;regulation and c&#8208;Myc up&#8208;regulation were strongly minimized by miR&#8208;586 inhibitor (Fig 4I). Furthermore, ectopic expression of lncRNA&#8208;MIF or lncRNA&#8208;MIF harboring nonsense mutations was shown to up&#8208;regulate Fbxw7 and down&#8208;regulate c&#8208;Myc, whereas overexpression of miR&#8208;586 binding&#8208;defective lncRNA&#8208;MIF which had lost the ability to bind miR&#8208;586 showed no effect on either Fbxw7 or c&#8208;Myc (Fig 4J and K). All together, our data suggest that lncRNA&#8208;MIF functions as miR&#8208;586 sponge and attenuates the inhibitory effect of miR&#8208;586 on Fbxw7, thereby leading to elevated Fbxw7 and reduced c&#8208;Myc.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31328</offset>
+      <text>Actually, there are two major isoforms of lncRNA RP11&#8208;320M2.1. LncRNA&#8208;MIF is isoform 001, which is largely overlapped with a longer isoform 002 named as lncRNA&#8208;MIF&#8208;L (long). We found that c&#8208;Myc did not affect lncRNA&#8208;MIF&#8208;L (Fig EV3A and B). Moreover, the copy number of lncRNA&#8208;MIF&#8208;L was only 2% of that in MCF7, HeLa, or H1299 cells (Fig EV3C). These results indicate that lncRNA&#8208;MIF&#8208;L will have little, if any, sponge effect on miR&#8208;586. We also knocked down lncRNA&#8208;MIF&#8208;L in HeLa cells and showed it did not affect the level of miR&#8208;586, FBXW7, or c&#8208;Myc (Fig EV3D and E). Based on these results, lncRNA&#8208;MIF&#8208;L is unlikely to serve as a ceRNA for miR&#8208;586.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>32018</offset>
+      <text>LncRNA&#8208;MIF&#8208;L is not a ceRNA for miR&#8208;586 to regulate Fbxw7 expression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32093</offset>
+      <text>HeLa cells were transfected with control vector or Flag&#8208;c&#8208;Myc. Twenty&#8208;four hours after transfection, cell lysates were analyzed by Western blotting, and total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32370</offset>
+      <text>HeLa, HCT116, and MCF10A cells were separately infected with lentiviruses expressing either control shRNA or c&#8208;Myc shRNA. Twenty&#8208;four hours after infection, total RNA was analyzed by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32649</offset>
+      <text>The copy numbers of lncRNA&#8208;MIF and lncRNA&#8208;MIF&#8208;L transcript per million cells in the indicated cells were quantified using a quantitative real&#8208;time RT&#8211;PCR assay. Data shown are mean &#177; SD, and lncRNA&#8208;MIF as control (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32919</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA, lncRNA&#8208;MIF&#8208;L shRNA&#8208;1 or &#8208;2. Forty&#8208;eight hours after infection, cells were treated with MG132 or DMSO for 6 h. Cell lysates were then analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>33191</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, or lncRNA&#8208;MIF&#8208;AS. Forty&#8208;eight hours after infection, total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33470</offset>
+      <text>LncRNA&#8208;MIF decreases c&#8208;Myc and c&#8208;Jun levels by increased Fbxw7 expression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33550</offset>
+      <text>The substrates of Fbxw7 include several widely studied proteins such as cyclin E1, c&#8208;Myc, and c&#8208;Jun 33. In addition to c&#8208;Myc, we demonstrated that lncRNA&#8208;MIF also affected c&#8208;Jun, which was required for progression through the G1 phase of the cell cycle. When lncRNA&#8208;MIF was introduced into HeLa cells, c&#8208;Myc and c&#8208;Jun protein but not mRNA levels were greatly reduced (Fig 5A and C). However, lncRNA&#8208;MIF&#8208;AS had no effect on either c&#8208;Myc or c&#8208;Jun (Fig 5A and C). Consistently, depletion of lncRNA&#8208;MIF by lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, and &#8208;3 led to an increase in c&#8208;Myc and c&#8208;Jun protein but not mRNA levels (Fig 5D and E). Interestingly, lncRNA&#8208;MIF showed no effect on cyclin E1 (Fig 5A, C, D and E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34283</offset>
+      <text>LncRNA&#8208;MIF decreases c&#8208;Myc and c&#8208;Jun levels by increased expression of Fbxw7</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34366</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, or lncRNA&#8208;MIF&#8208;AS. Forty&#8208;eight hours after infection, cells were treated with MG132 or DMSO (vehicle) for 6 h. Cell lysates were then analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34646</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, or lncRNA&#8208;MIF&#8208;AS. Forty&#8208;eight hours after infection, total RNA was subjected to analyzing the levels of lncRNA&#8208;MIF and lncRNA&#8208;MIF&#8208;AS by real&#8208;time RT&#8211;PCR. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34967</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, or lncRNA&#8208;MIF&#8208;AS. Forty&#8208;eight hours after infection, total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35235</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA, lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3. Forty&#8208;eight hours after infection, cells were treated with MG132 or DMSO for 6 h. Cell lysates were then analyzed by Western blot analysis with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35515</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA, lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3. Forty&#8208;eight hours after infection, total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35788</offset>
+      <text>LncRNA&#8208;MIF inhibits the glycolysis via miR&#8208;586</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35839</offset>
+      <text>c&#8208;Myc has been well known for its ability to promote the glycolysis under normoxia through transcriptionally regulating its target genes involved in the glycolysis pathway. Given that lncRNA&#8208;MIF was able to decrease c&#8208;Myc protein level, we sought to determine whether lncRNA&#8208;MIF could inhibit the glycolysis. Knockdown of lncRNA&#8208;MIF led to the acidification of the culture medium, whereas overexpression of lncRNA&#8208;MIF showed the opposite phenotype (Fig 6A). Consistent with these, knockdown of lncRNA&#8208;MIF reduced, whereas overexpression of lncRNA&#8208;MIF increased c&#8208;Myc target genes involved in the glycolysis pathway such as GLUT1, LDHA, PKM2, and HK2 (Fig 6B). To further confirm the effect of lncRNA&#8208;MIF on the glycolysis, we examined the glucose uptake and lactate production in HeLa cells with overexpression or knockdown of lncRNA&#8208;MIF. We found that lncRNA&#8208;MIF induction led to a strong decrease in glucose uptake and lactate production (Fig 6C and D). In contrast, lncRNA&#8208;MIF knockdown increased glucose uptake and lactate production (Fig 6E and F). These data strongly indicate that lncRNA&#8208;MIF inhibits the glycolysis. We next investigated whether miR&#8208;586 mediated the inhibitory effect of lncRNA&#8208;MIF on the glycolysis. Induction of miR&#8208;586 by its mimics markedly recovered lncRNA&#8208;MIF&#8208;decreased glucose uptake and lactate production (Fig 6C and D). Also, knockdown of miR&#8208;586 by its inhibitors greatly reversed lncRNA&#8208;MIF knockdown&#8208;increased glucose uptake and lactate production (Fig 6E and F). These results indicate that lncRNA&#8208;MIF inhibits the glycolysis via miR&#8208;586.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>37464</offset>
+      <text>LncRNA&#8208;MIF inhibits the glycolysis via miR&#8208;586</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37515</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA as indicated. Forty&#8208;eight hours after infection, acidification of the culture medium was evaluated by visually inspecting the color of the medium. Yellow medium indicates the presence of more lactate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37836</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA as indicated. Forty&#8208;eight hours after infection, cell lysates were analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38083</offset>
+      <text>HeLa cells expressing either lncRNA&#8208;MIF or control RNA were transfected with miR&#8208;586 mimics or negative control mimics (NC mimics) as indicated. Twenty&#8208;four hours after transfection, levels of lactate in the culture medium were measured and normalized to cell number. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38426</offset>
+      <text>HeLa cells expressing either lncRNA&#8208;MIF or control RNA were transfected with miR&#8208;586 mimics or negative control mimics (NC mimics) as indicated. Twenty&#8208;four hours after transfection, intracellular glucose levels were measured and normalized based on protein concentration. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38774</offset>
+      <text>HeLa cells expressing either lncRNA&#8208;MIF or control shRNA were transfected with miR&#8208;586 inhibitor or NC inhibitor as indicated. Twenty&#8208;four hours after transfection, levels of lactate in the culture medium were measured and normalized to cell number. Data shown are mean &#177; SD (n = 3; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>39099</offset>
+      <text>HeLa cells expressing either lncRNA&#8208;MIF or control shRNA were transfected with miR&#8208;586 inhibitor or NC inhibitor as indicated. Twenty&#8208;four hours after transfection, intracellular glucose levels were measured and normalized based on protein concentration. Data shown are mean &#177; SD (n = 3; **P &lt; 0.01, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39430</offset>
+      <text>LncRNA&#8208;MIF functions as a tumor suppressor to inhibit cell proliferation and cell cycle progression</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39532</offset>
+      <text>We measured the growth rate of HeLa cells expressing control RNA, lncRNA&#8208;MIF, and lncRNA&#8208;MIF&#8208;AS, respectively. A marked inhibition of cell proliferation was observed in HeLa cells expressing lncRNA&#8208;MIF, but not expressing lncRNA&#8208;MIF&#8208;AS or control RNA (Fig 7A). Growth rates of HeLa cells expressing control shRNA, lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, and &#8208;3 were also measured. HeLa cells expressing lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3 exhibited higher growth rate than HeLa cells expressing control shRNA (Fig 7B), indicating that lncRNA&#8208;MIF inhibits cell proliferation. Moreover, knockdown of c&#8208;Myc nullified the effect of MIF depletion on cell growth rate (Fig EV4), indicating that the effect of lncRNA&#8208;MIF on cell proliferation is dependent on c&#8208;Myc.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40305</offset>
+      <text>LncRNA&#8208;MIF inhibits cell proliferation and cell cycle progression</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40373</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF or lncRNA&#8208;MIF&#8208;AS as indicated. Forty&#8208;eight hours after infection, growth curves were measured for the indicated periods of time. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40623</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA, lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3. Forty&#8208;eight hours after infection, growth curves were measured for the indicated periods of time. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40866</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control RNA, lncRNA&#8208;MIF, or lncRNA&#8208;MIF&#8208;AS as indicated. Forty&#8208;eight hours after infection, cells were stained with PI and analyzed by flow cytometry to identify phases of cell cycle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41111</offset>
+      <text>HeLa cells were infected with lentiviruses expressing control shRNA, lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3. Forty&#8208;eight hours after infection, cells were stained with PI and analyzed by flow cytometry to identify phases of cell cycle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41348</offset>
+      <text>The percentage numbers of cells from (C) in G1, S or G2/M phase were analyzed by FlowJo 7.6 software. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41485</offset>
+      <text>The percentage numbers of cells from (D) in G1, S or G2/M phase were analyzed by FlowJo 7.6 software. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>41622</offset>
+      <text>The effect of lncRNA&#8208;MIF on cell proliferation is dependent on c&#8208;Myc</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41695</offset>
+      <text>HeLa cells expressing control shRNA or lncRNA&#8208;MIF shRNA were infected with lentiviruses expressing control shRNA or c&#8208;Myc shRNA. Forty&#8208;eight hours after infection, growth curves were measured for the indicated periods of time. Data shown are mean &#177; SD (n = 3). Cell lysates were analyzed by Western blotting with the indicated antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42041</offset>
+      <text>We further performed a flow cytometric analysis for cell cycle and higher percentage of HeLa cells expressing lncRNA&#8208;MIF were in the G1 phase compared with the cells expressing control RNA or lncRNA&#8208;AS (Fig 7C and E). Consistently, a higher percentage of HeLa cells expressing lncRNA&#8208;MIF shRNA&#8208;1, &#8208;2, or &#8208;3 were in the S and G2/M phases compared with the cells expressing control shRNA (Fig 7D and F). These data suggest the inhibitory effect of lncRNA&#8208;MIF on cell cycle regulation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42538</offset>
+      <text>Considering the inhibitory effect of the lncRNA&#8208;MIF&#8211;miR&#8208;586&#8211;Fbxw7&#8211;cMyc axis on the glycolysis, we speculated that lncRNA&#8208;MIF may also inhibit cell proliferation via miR&#8208;586. To test this possibility, we performed the colony formation assay. As was expected, ectopic expression of lncRNA&#8208;MIF decreased the number of colonies from control HeLa cells, but not that from miR&#8208;586&#8208;overexpressing HeLa cells (Fig 8A). In addition, knockdown of lncRNA&#8208;MIF increased the number of colonies from control HeLa cells, but not from miR&#8208;586 knockdown HeLa cells (Fig 8B). Together, these results suggest that lncRNA&#8208;MIF inhibits cell proliferation via miR&#8208;586.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>43213</offset>
+      <text>LncRNA&#8208;MIF functions as a tumor suppressor to inhibit colony formation and cell proliferation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43309</offset>
+      <text>HeLa cells expressing either lncRNA&#8208;MIF or control RNA were transfected with miR&#8208;586 mimics or NC mimics as indicated. Colonies were stained with crystal violet and counted after 14 days incubation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43512</offset>
+      <text>HeLa cells expressing either MIF shRNA or control shRNA were transfected with miR&#8208;586 inhibitors or NC inhibitors as indicated. Colonies were stained with crystal violet and counted after 14 days incubation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43722</offset>
+      <text>2 &#215; 106 HeLa cells expressing either lncRNA&#8208;MIF, MIF control RNA, MIF shRNA, or MIF control shRNA were individually injected subcutaneously into flanks of nude mice (n = 7 for each group). Representative photographs of xenograft tumors in situ were taken 3 weeks after injection.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44005</offset>
+      <text>Three weeks post&#8208;graft, mice were euthanized, tumors were excised and weighed, and the mean tumor weight was plotted on the graph. Data shown are mean &#177; SD (n = 7; *P &lt; 0.05, two&#8208;tailed t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44207</offset>
+      <text>A schematic illustration of the proposed model depicting a role of c&#8208;Myc&#8208;induced lncRNA&#8208;MIF in regulating glycolysis via suppression of c&#8208;Myc.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44358</offset>
+      <text>To further determine whether lncRNA&#8208;MIF regulates tumorigenesis, we used a xenograft mouse model. HeLa cells stably expressing exogenous lncRNA&#8208;MIF or lncRNA&#8208;MIF shRNA were injected subcutaneously into the dorsal flanks of the nude mice (n = 7 for each group). Three weeks after injection, mice were sacrificed and tumors were excised. Knockdown of lncRNA&#8208;MIF indeed increased tumorigenicity of HeLa cells (Fig 8C and D). In contrast, induction of lncRNA&#8208;MIF suppressed HeLa cell tumorigenicity (Fig 8C and D). We further examined the expression levels of lncRNA&#8208;MIF and miR&#8208;586 in patients' colorectal carcinoma and their para&#8208;carcinoma tissues. Both lncRNA&#8208;MIF and miR&#8208;586 in carcinoma tissues exhibited higher expression compared with that in para&#8208;carcinoma tissues (Fig EV5A). Based on the TCGA dataset, we found that lncRNA&#8208;MIF expression level was higher in head and neck carcinoma than normal tissues (Fig EV5B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>45302</offset>
+      <text>lncRNA&#8208;MIF and miR&#8208;586 show higher expression in carcinoma than in para&#8208;carcinoma or normal cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45406</offset>
+      <text>Proteins and total RNA were extracted from five pairs of colorectal carcinoma and para&#8208;carcinoma tissues. Protein samples were analyzed by Western blotting and total RNA was subjected to real&#8208;time RT&#8211;PCR analysis. Data shown are mean &#177; SD (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45661</offset>
+      <text>Data of lncRNA&#8208;MIF expression level in HNSC (head and neck squamous cells) carcinoma and normal tissues were downloaded from TCGA dataset. Box plots showing the differential expression (mean &#177; SD) of lncRNA&#8208;MIF between normal and tumor samples (n = 40).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45920</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45931</offset>
+      <text>Cellular levels of c&#8208;Myc are nevertheless prone to fluctuation with the ever&#8208;changing environment, which may yield global effects on cells. How c&#8208;Myc level is regulated under physiological and/or cancerous conditions remains an unaddressed question. LncRNAs have recently attracted a lot of attention due to their abundance in the genome and biological significance in gene regulation. In this study, we show that as a target gene of c&#8208;Myc, lncRNA&#8208;MIF acts as a non&#8208;coding ceRNA (competing endogenous RNA) to compete with Fbxw7 mRNA for miR&#8208;586 and relieves the inhibitory effect of miR&#8208;586 on Fbxw7. This in turn increases Fbxw7 and accelerates Fbxw7&#8208;dependent degradation of c&#8208;Myc (Fig 8D). These data suggest that lncRNA&#8208;MIF suppresses c&#8208;Myc expression via absorbing more miR&#8208;586 to up&#8208;regulate Fbxw7, an E3 ligase for c&#8208;Myc. As a transcriptional factor, c&#8208;Myc is able to modulate expression of a large number of target genes and regulate multiple cellular processes including metabolism 34. Recent studies have shown that many newly identified lncRNAs and microRNAs are c&#8208;Myc target genes 35, 36, 37, 38. The c&#8208;Myc&#8208;responsive lncRNAs are able to regulate cancer cell proliferation and invasion 39, 40, 41, 42, 43. We here also show that as a novel transcript by c&#8208;Myc, lncRNA&#8208;MIF strongly inhibits the glycolysis as well as tumor formation in nude mice. Taken together, these findings imply lncRNAs can serve as a novel class of tumor suppressive non&#8208;coding RNAs controlling c&#8208;Myc&#8208;driven tumorigenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47486</offset>
+      <text>Despite that lncRNAs expression can be regulated by c&#8208;Myc, several lncRNAs have recently been shown to regulate c&#8208;Myc expression at multiple levels. For example, lncRNA&#8208;CCAT1&#8208;L (colon cancer&#8208;associated transcript 1, the long isoform) is able to promote Myc transcription via establishing an intra&#8208;chromosome looping between Myc and its upstream enhancer element 44. LncRNA&#8208;GHET1 (gastric carcinoma high expressed transcript 1) promotes gastric carcinoma cell proliferation by increasing c&#8208;Myc mRNA stability 45. LncRNA&#8208;GAS5 (growth arrest&#8208;specific transcript 5) binds to c&#8208;Myc mRNA and suppresses c&#8208;Myc translation via cooperating with the eukaryotic translation initiation factor 4E (eIF4E) 46. LncRNA&#8208;PCAT1 (prostate cancer&#8208;associated transcript 1) post&#8208;transcriptionally regulates c&#8208;Myc expression by abrogating the down&#8208;regulation of c&#8208;Myc by miR&#8208;34a 47. In addition, lncRNA&#8208;PVT1 (plasmacytoma variant translocation 1) increases protein expression of c&#8208;Myc via reducing its phosphorylation at threonine 58 (Thr58) and protecting it from proteasome&#8208;dependent degradation 48. In our study, we show that lncRNA&#8208;MIF is able to negatively regulate c&#8208;Myc expression by acting as miR&#8208;586 sponge to increase Fbxw7 expression. Our findings therefore uncover a novel mechanism that depends on both long and small non&#8208;coding RNAs to control c&#8208;Myc stability, and add another layer of complexity to the c&#8208;Myc regulation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48954</offset>
+      <text>c&#8208;Myc is also known to be dysregulated in a variety of human cancers, and many of them are addicted to c&#8208;Myc oncogenic signaling 49. c&#8208;Myc is believed to be a promising target for treatment of cancer 50. A casual link between lncRNAs and human cancer has been clearly established as many lncRNAs are dysregulated in various human cancers 21, 51. By suppressing c&#8208;Myc expression, lncRNA&#8208;MIF plays an important role in inhibiting aerobic glycolysis and tumorigenesis. As shown above, lncRNA&#8208;MIF overexpression decreases, whereas lncRNA&#8208;MIF knockdown increases tumorigenicity of HeLa cells. In addition, lncRNA&#8208;MIF down&#8208;regulates c&#8208;Jun, which has important function in progression through the G1 phase of the cell cycle, demonstrating that lncRNA&#8208;MIF is able to inhibit cancer cell proliferation via cell cycle arrest. These data suggest that lncRNA&#8208;MIF may represent a potential candidate for cancer therapy.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49885</offset>
+      <text>In summary, our findings in this study have uncovered a long non&#8208;coding RNA lncRNA&#8208;MIF, which links c&#8208;Myc transcription and its degradation. When c&#8208;Myc is overexpressed, it drives transcription of lncRNA&#8208;MIF, which functions as molecular sponge to absorb more cytosolic miR&#8208;586, thus leading to reduction in miR&#8208;586&#8208;mediated translational repression of Fbxw7. Conversely, in the case where c&#8208;Myc is reduced, lncRNA&#8208;MIF transcription is attenuated, which leads to increased free miR&#8208;586 in the cytosol that in turn triggers down&#8208;regulation of Fbxw7. Whether the c&#8208;Myc&#8211;MIF&#8211;miR586&#8211;Fbxw7 may represent a novel mechanism to regulate c&#8208;Myc protein homeostasis still awaits further investigation. We realize that there are many other uncharacterized factors which are involved in the regulation of c&#8208;Myc stability besides lncRNA&#8208;MIF, Fbxw7, or miR&#8208;586.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50771</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50793</offset>
+      <text>Antibodies and reagents</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50817</offset>
+      <text>The following antibodies were used for Western blot assays in this study: anti&#8208;Fbxw7 (R&amp;D Systems); anti&#8208;c&#8208;Myc, anti&#8208;GAPDH, anti&#8208;GLUT1, anti&#8208;LDHA, and anti&#8208;PDK1 (Cell Signaling Technology); anti&#8208;PKM2 and anti&#8208;HK2 (Immunoway); anti&#8208;PTBP1 (Proteintech). Anti&#8208;c&#8208;Myc for ChIP assay was from Santa Cruz. Cycloheximide, doxycycline, cholera toxin, and hydrocortisone were from Sigma&#8208;Aldrich.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51229</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51242</offset>
+      <text>HeLa, A549, H1299, HCT116, and MCF7 cell lines were cultured in DMEM (Dulbecco's modified Eagle's medium) medium containing 10% fetal bovine serum. P493&#8208;6 cell lines were cultured in RPMI medium 1640 containing 10% fetal bovine serum. MCF10A cell line was cultured in DMEM/F12 medium containing 5% horse serum, 20 &#956;g/ml EGF, 0.5 &#956;g/ml hydrocortisone, 100 ng/ml cholera toxin, and 10 &#956;g/ml insulin. All cells were tested for mycoplasma contamination and had no mycoplasma contamination.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51733</offset>
+      <text>ChIP assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51744</offset>
+      <text>HeLa cells were cross&#8208;linked with 1% formaldehyde for 10 min. The ChIP assay was performed by using anti&#8208;c&#8208;Myc antibody and the Pierce Agarose ChIP kit (ThermoScientific, USA) according to the manufacturer's instructions. Anti&#8208;rabbit immunoglobulin G was also used as a negative control. The bound DNA fragments were subjected to real&#8208;time PCR using the specific primers (Table EV1).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52138</offset>
+      <text>Luciferase reporter assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52164</offset>
+      <text>To determine the effect of c&#8208;Myc on lncRNA&#8208;MIF promoter, either p3xflag&#8208;Myc&#8208;CMV&#8208;24 or p3xflag&#8208;Myc&#8208;CMV&#8208;24&#8208;c&#8208;Myc was co&#8208;transfected into HeLa cells together with individual PGL3&#8208;MIF1/2/3/1&#8208;M/2&#8208;M/3&#8208;M construct plus Renilla luciferase reporter plasmid. Twenty&#8208;four hours after transfection, firefly and Renilla luciferase activity were measured by a Dual&#8208;Luciferase Reporter Assay System (Promega, Madison, WI, USA). The data are represented as mean &#177; SD of three independent experiments. To evaluate the effect of miR&#8208;586 on Fbxw7 3&#8242; UTR, HeLa cells were co&#8208;transfected with the psicheck2&#8208;based constructs containing Fbxw7 3&#8242; UTR or Fbxw7 3&#8242; UTR&#8208;M plus miR&#8208;586 mimics or inhibitors. Twenty&#8208;four hours after transfection, firefly and Renilla luciferase activity were measured by a Dual&#8208;Luciferase Reporter Assay System (Promega, Madison, WI, USA). The data are represented as mean &#177; SD of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53136</offset>
+      <text>Colony formation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53159</offset>
+      <text>HeLa cells expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA were transfected with miR&#8208;586 mimics or inhibitors as indicated. Twenty&#8208;four hours after transfection, HeLa cells (5 &#215; 103) in each condition were cultured in a six&#8208;well plate. Fourteen days later, cells were fixed, stained with crystal violet, and photographed.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53515</offset>
+      <text>Northern blot analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53538</offset>
+      <text>Northern blot analysis was performed as described previously 18 with minor modifications. Briefly, 20 &#956;g of RNA was resolved by 1% denaturing agarose gel electrophoresis and transferred to Hybond&#8208;N membrane (GE Healthcare) by capillary transfer, followed by UV cross&#8208;linking. For Northern blots using digoxin&#8208;labeled oligonucleotide probes, the prehybridization/hybridization buffer (Ambion) was used according to the manufacturer's instructions. After hybridization, blots were incubated with HRP&#8208;conjugated anti&#8208;digoxin antibody. Immunolabelling was developed with ECL Western Blotting Detection Reagent (GE Amersham). Visualized images were obtained using Image Quant LAS&#8208;4000 mini (GE Fujifilm).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54251</offset>
+      <text>Real&#8208;time RT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54272</offset>
+      <text>Total RNA was isolated by TRIzol reagent (Invitrogen). One &#956;g of RNA was used to synthesize cDNA using the First&#8208;strand cDNA Synthesis System (Marligen Biosciences). Real&#8208;time PCR was performed using SYBR Green real&#8208;time PCR analysis (Takara) with the specific primers (Table EV1). PCR results, recorded as cycle threshold (Ct), were normalized against an internal control (&#946;&#8208;actin).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54666</offset>
+      <text>Quantitation of lncRNA&#8208;MIF, lncRNA&#8208;MIF&#8208;L, and miR&#8208;586 expression levels</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54746</offset>
+      <text>The exact copy numbers of lncRNA&#8208;MIF, lncRNA&#8208;MIF&#8208;L, and miR&#8208;586 transcripts per HeLa cell were quantified by using quantitative real&#8208;time RT&#8211;PCR assay. In this assay, serially diluted RT&#8211;PCR products of lncRNA&#8208;MIF, lncRNA&#8208;MIF&#8208;L, and miR&#8208;586 were used as templates to formulate standard curves, and then, the exact copies of lncRNA&#8208;MIF, lncRNA&#8208;MIF&#8208;L, and miR&#8208;586 per cell were calculated accordingly.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55176</offset>
+      <text>Cytosolic/nuclear fractionation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55208</offset>
+      <text>HeLa cells (1 &#215; 107) were incubated with hypotonic buffer (25 mM Tris&#8211;HCl, PH 7.4, 1 mM MgCl2, 5 mM KCl) on ice for 5 min. An equal volume of hypotonic buffer containing 1% NP&#8208;40 was then added, and each sample was left on ice for another 5 min. After centrifugation at 5,000 g for 5 min, the supernatant was collected as the cytosolic fraction. The pellets were re&#8208;suspended in nucleus resuspension buffer (20 mM HEPES, pH 7.9, 400 mM NaCl, 1 mM EDTA, 1 mM EGTA, 1 mM DTT, 1 mM PMSF) and incubated at 4&#176;C for 30 min. Nuclear fraction was collected after removing insoluble membrane debris by centrifugation at 12,000 g for 10 min.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55848</offset>
+      <text>Biotin pull&#8208;down assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55873</offset>
+      <text>All processes were performed in the RNase&#8208;free conditions. For antisense oligomer affinity pull&#8208;down assay, sense or antisense biotin&#8208;labeled DNA oligomers corresponding to human lncRNA&#8208;MIF (1 &#956;g) were incubated with lysates from HeLa cells (2 &#215; 107) or the cytosolic/nuclear extracts. One hour after incubation, streptavidin&#8208;coupled agarose beads (Invitrogen) were added to isolate the RNA&#8211;protein complex or RNA&#8211;RNA complex. For in vitro RNA pull&#8208;down assay, 3 &#956;g in vitro&#8208;synthesized biotin&#8208;labeled lncRNA&#8208;MIF was incubated with lysates from HeLa cells (2 &#215; 107) for 3 h. Streptavidin&#8208;coupled agarose beads (Invitrogen) were then added to the reaction mix to isolate the RNA&#8211;protein complex or RNA&#8211;RNA complex.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56619</offset>
+      <text>Glucose uptake assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56640</offset>
+      <text>Glucose uptake assay was performed as previously described 52.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56703</offset>
+      <text>Lactate production assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56728</offset>
+      <text>Lactate production assay was performed as previously described 52.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56795</offset>
+      <text>Cell cycle analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56815</offset>
+      <text>HeLa cells were infected with lentiviruses and screened by puromycin. HeLa cells (1 &#215; 106) were plated into 6&#8208;mm plates. During the proliferative exponential phase (50% confluency), cells were fixed in 70% ethanol overnight. Cells were then stained with propidium iodide and analyzed by flow cytometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57121</offset>
+      <text>Xenograft mouse model</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57143</offset>
+      <text>HeLa cells expressing control RNA, lncRNA&#8208;MIF, control shRNA, or lncRNA&#8208;MIF shRNA (2 &#215; 106) were subcutaneously injected into the dorsal flank of 4&#8208;week&#8208;old male athymic nude mice (Shanghai SLAC Laboratory Animal Co. Ltd.) (n = 7 mice per group). After 3 weeks, mice were sacrificed, and tumors were excised and weighed. Mice were used in the experiment at random. During testing the tumors' weight, the experimentalists were blinded to the information and shape of tumor tissue masses. Studies on animals were conducted with approval from the Animal Research Ethics Committee of the University of Science and Technology of China.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57783</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57804</offset>
+      <text>PFZ, LMC, and MW designed research; PFZ and LMC performed experiments and analyzed data; PSF provided material support; PFZ, YDM, and MW wrote and revised the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>57975</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57996</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>58056</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>58079</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Adv Cancer Res</infon>
+      <infon key="lpage">32</infon>
+      <infon key="pub-id_pmid">6763842</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>58090</offset>
+      <text>Retroviruses and cancer genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Adv Cancer Res</infon>
+      <infon key="lpage">188</infon>
+      <infon key="pub-id_pmid">3022566</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">1986</infon>
+      <infon key="type">ref</infon>
+      <offset>58120</offset>
+      <text>Oncogenes in retroviruses and cells: biochemistry and molecular genetics</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Semin Cancer Biol</infon>
+      <infon key="lpage">330</infon>
+      <infon key="pub-id_pmid">16934487</infon>
+      <infon key="fpage">318</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>58193</offset>
+      <text>The Myc oncoprotein as a therapeutic target for human cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">384</infon>
+      <infon key="pub-id_pmid">3028245</infon>
+      <infon key="fpage">361</infon>
+      <infon key="year">1986</infon>
+      <infon key="type">ref</infon>
+      <offset>58254</offset>
+      <text>The myc oncogene: its role in transformation and differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">J Cell Mol Med</infon>
+      <infon key="lpage">159</infon>
+      <infon key="pub-id_pmid">12169201</infon>
+      <infon key="fpage">151</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>58319</offset>
+      <text>Chromosome&#8208;mediated alterations of the MYC gene in human cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">990</infon>
+      <infon key="pub-id_pmid">19029958</infon>
+      <infon key="fpage">976</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>58385</offset>
+      <text>MYC &#8211; TIMELINE reflecting on 25 years with MYC</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">61</infon>
+      <infon key="pub-id_pmid">8220424</infon>
+      <infon key="fpage">56</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>58434</offset>
+      <text>Point mutations in the c&#8208;Myc transactivation domain are common in Burkitt's lymphoma and mouse plasmacytomas</text>
+    </passage>
+    <passage>
+      <infon key="volume">54</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">3386</infon>
+      <infon key="pub-id_pmid">8012955</infon>
+      <infon key="fpage">3383</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>58545</offset>
+      <text>Mutations in the coding region of C&#8208;Myc in aids&#8208;associated and other aggressive lymphomas</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">35</infon>
+      <infon key="pub-id_pmid">22464321</infon>
+      <infon key="fpage">22</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58639</offset>
+      <text>MYC on the path to cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">67</infon>
+      <infon key="pub-id_pmid">23021215</infon>
+      <infon key="fpage">56</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58665</offset>
+      <text>Transcriptional amplification in tumor cells with elevated c&#8208;Myc</text>
+    </passage>
+    <passage>
+      <infon key="volume">151</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">79</infon>
+      <infon key="pub-id_pmid">23021216</infon>
+      <infon key="fpage">68</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58732</offset>
+      <text>c&#8208;Myc is a universal amplifier of expressed genes in lymphocytes and embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Gene Dev</infon>
+      <infon key="lpage">1129</infon>
+      <infon key="pub-id_pmid">12695333</infon>
+      <infon key="fpage">1115</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>58824</offset>
+      <text>Genomic targets of the human c&#8208;Myc protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Csh Perspect Med</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">a014217</infon>
+      <infon key="year">2013</infon>
+      <offset>58869</offset>
+      <text>MYC, metabolism, cell growth, and tumorigenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Semin Cancer Biol</infon>
+      <infon key="lpage">264</infon>
+      <infon key="pub-id_pmid">16904903</infon>
+      <infon key="fpage">253</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>58917</offset>
+      <text>The c&#8208;Myc target gene network</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">1789</infon>
+      <infon key="pub-id_pmid">22955988</infon>
+      <infon key="fpage">1775</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>58949</offset>
+      <text>The GENCODE v7 catalog of human long noncoding RNAs: analysis of their gene structure, evolution, and expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="lpage">159</infon>
+      <infon key="pub-id_pmid">22351564</infon>
+      <infon key="fpage">143</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59062</offset>
+      <text>MicroRNA dysregulation in cancer: diagnostics, monitoring and therapeutics. A comprehensive review</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="source">Annu Rev Genet</infon>
+      <infon key="lpage">455</infon>
+      <infon key="pub-id_pmid">25251851</infon>
+      <infon key="fpage">433</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59161</offset>
+      <text>Regulation of transcription by long noncoding RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">932</infon>
+      <infon key="pub-id_pmid">19041754</infon>
+      <infon key="fpage">919</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>59212</offset>
+      <text>3&#8242; end processing of a long nuclear&#8208;retained noncoding RNA yields a tRNA&#8208;like cytoplasmic RNA</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Genet</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">24523727</infon>
+      <infon key="fpage">8</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59312</offset>
+      <text>Competing endogenous RNAs (ceRNAs): new entrants to the intricacies of gene regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">505</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">352</infon>
+      <infon key="pub-id_pmid">24429633</infon>
+      <infon key="fpage">344</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59399</offset>
+      <text>The multilayered complexity of ceRNA crosstalk and competition</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="lpage">719</infon>
+      <infon key="pub-id_pmid">22664915</infon>
+      <infon key="fpage">703</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>59462</offset>
+      <text>The hallmarks of cancer: a long non&#8208;coding RNA point of view</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">Tumour Biol</infon>
+      <infon key="lpage">620</infon>
+      <infon key="pub-id_pmid">23359273</infon>
+      <infon key="fpage">613</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>59525</offset>
+      <text>Long noncoding RNA: an emerging paradigm of cancer research</text>
+    </passage>
+    <passage>
+      <infon key="volume">302</infon>
+      <infon key="source">Curr Top Microbiol Immunol</infon>
+      <infon key="lpage">32</infon>
+      <infon key="pub-id_pmid">16620023</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>59585</offset>
+      <text>Making myc</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Adv Cancer Res</infon>
+      <infon key="lpage">333</infon>
+      <infon key="pub-id_pmid">18037408</infon>
+      <infon key="fpage">113</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>59596</offset>
+      <text>The c&#8208;myc promoter: still MysterY and challenge</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Semin Cancer Biol</infon>
+      <infon key="lpage">302</infon>
+      <infon key="pub-id_pmid">16938463</infon>
+      <infon key="fpage">288</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>59646</offset>
+      <text>Role of post&#8208;translational modifications in regulating c&#8208;Myc proteolysis, transcriptional activity and biological function</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">2317</infon>
+      <infon key="pub-id_pmid">18621930</infon>
+      <infon key="fpage">2305</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>59773</offset>
+      <text>Translational control of c&#8208;MYC by rapamycin promotes terminal myeloid differentiation</text>
+    </passage>
+    <passage>
+      <infon key="source">Cold Spring Harb Perspect Med</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">24591536</infon>
+      <infon key="fpage">a014365</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>59861</offset>
+      <text>MYC degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">9090</infon>
+      <infon key="pub-id_pmid">15150404</infon>
+      <infon key="fpage">9085</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>59877</offset>
+      <text>The Fbw7 tumor suppressor regulates glycogen synthase kinase 3 phosphorylation&#8208;dependent c&#8208;Myc protein degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2125</infon>
+      <infon key="pub-id_pmid">15103331</infon>
+      <infon key="fpage">2116</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>59996</offset>
+      <text>Phosphorylation&#8208;dependent degradation of c&#8208;Myc is mediated by the F&#8208;box protein Fbw7</text>
+    </passage>
+    <passage>
+      <infon key="volume">160</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">488</infon>
+      <infon key="pub-id_pmid">25619689</infon>
+      <infon key="fpage">477</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60087</offset>
+      <text>Reduced expression of MYC increases longevity and enhances healthspan</text>
+    </passage>
+    <passage>
+      <infon key="source">Cell Death Discov</infon>
+      <infon key="volume">1</infon>
+      <infon key="pub-id_pmid">27551483</infon>
+      <infon key="fpage">15057</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60157</offset>
+      <text>c&#8208;MYC responds to glucose deprivation in a cell&#8208;type&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">25501359</infon>
+      <infon key="fpage">e115241</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60233</offset>
+      <text>Functional and evolutionary significance of human microRNA seed region mutations</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">93</infon>
+      <infon key="pub-id_pmid">18094723</infon>
+      <infon key="fpage">83</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>60314</offset>
+      <text>FBW7 ubiquitin ligase: a tumour suppressor at the crossroads of cell division, growth and differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Semin Cell Dev Biol</infon>
+      <infon key="lpage">21</infon>
+      <infon key="pub-id_pmid">26277543</infon>
+      <infon key="fpage">11</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60420</offset>
+      <text>MYC and metabolism on the path to cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">12554</infon>
+      <infon key="pub-id_pmid">25587025</infon>
+      <infon key="fpage">12543</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60461</offset>
+      <text>MYC regulates the non&#8208;coding transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">J Mol Cell Biol</infon>
+      <infon key="lpage">117</infon>
+      <infon key="pub-id_pmid">22158906</infon>
+      <infon key="fpage">108</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>60506</offset>
+      <text>Up&#8208;regulation of miR&#8208;1245 by c&#8208;myc targets BRCA2 and impairs DNA repair</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">FASEB J</infon>
+      <infon key="lpage">2346</infon>
+      <infon key="pub-id_pmid">25690653</infon>
+      <infon key="fpage">2338</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60584</offset>
+      <text>Long noncoding RNAs as a novel component of the Myc transcriptional network</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">590</infon>
+      <infon key="pub-id_pmid">24929436</infon>
+      <infon key="fpage">585</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60660</offset>
+      <text>Dicer&#8208;microRNA&#8208;Myc circuit promotes transcription of hundreds of long noncoding RNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5337</infon>
+      <infon key="pub-id_pmid">16707459</infon>
+      <infon key="fpage">5330</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60749</offset>
+      <text>The c&#8208;Myc oncogene directly induces the H19 noncoding RNA by allele&#8208;specific binding to potentiate tumorigenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">1859</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">208</infon>
+      <infon key="pub-id_pmid">26196323</infon>
+      <infon key="fpage">200</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60866</offset>
+      <text>Expanding the p53 regulatory network: LncRNAs take up the challenge</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="source">Tumour Biol</infon>
+      <infon key="lpage">12188</infon>
+      <infon key="pub-id_pmid">25185650</infon>
+      <infon key="fpage">12181</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>60934</offset>
+      <text>C&#8208;Myc&#8208;activated long noncoding RNA CCAT1 promotes colon cancer cell proliferation and invasion</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">18789</infon>
+      <infon key="pub-id_pmid">26003165</infon>
+      <infon key="fpage">18780</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>61033</offset>
+      <text>MYC&#8208;repressed long noncoding RNAs antagonize MYC&#8208;induced cell proliferation and cell cycle progression</text>
+    </passage>
+    <passage>
+      <infon key="source">J Natl Cancer Inst</infon>
+      <infon key="volume">107</infon>
+      <infon key="pub-id_pmid">25663692</infon>
+      <infon key="fpage">dju505</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>61140</offset>
+      <text>Role of MYC&#8208;regulated long noncoding RNAs in cell cycle regulation and tumorigenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">531</infon>
+      <infon key="pub-id_pmid">24662484</infon>
+      <infon key="fpage">513</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61227</offset>
+      <text>Human colorectal cancer&#8208;specific CCAT1&#8208;L lncRNA regulates long&#8208;range chromatin interactions at the MYC locus</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">FEBS J</infon>
+      <infon key="lpage">813</infon>
+      <infon key="pub-id_pmid">24397586</infon>
+      <infon key="fpage">802</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61342</offset>
+      <text>Long non&#8208;coding RNA GHET1 promotes gastric carcinoma cell proliferation by increasing c&#8208;Myc mRNA stability</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">25197831</infon>
+      <infon key="fpage">e107016</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61453</offset>
+      <text>The long non&#8208;coding RNA GAS5 cooperates with the eukaryotic translation initiation factor 4E to regulate c&#8208;Myc translation</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Neoplasia</infon>
+      <infon key="lpage">908</infon>
+      <infon key="pub-id_pmid">25425964</infon>
+      <infon key="fpage">900</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61580</offset>
+      <text>The long non&#8208;coding RNA PCAT&#8208;1 promotes prostate cancer cell proliferation through cMyc</text>
+    </passage>
+    <passage>
+      <infon key="volume">512</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">86</infon>
+      <infon key="pub-id_pmid">25043044</infon>
+      <infon key="fpage">82</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61672</offset>
+      <text>PVT1 dependence in cancer with MYC copy&#8208;number increase</text>
+    </passage>
+    <passage>
+      <infon key="volume">297</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">64</infon>
+      <infon key="pub-id_pmid">12098689</infon>
+      <infon key="fpage">63</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>61730</offset>
+      <text>Cancer: addiction to oncogenes &#8211; the Achilles heal of cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Int J Biol Sci</infon>
+      <infon key="lpage">1096</infon>
+      <infon key="pub-id_pmid">25332683</infon>
+      <infon key="fpage">1084</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61793</offset>
+      <text>Small molecules targeting c&#8208;Myc oncogene: promising anti&#8208;cancer therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="source">Front Genet</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">22363342</infon>
+      <infon key="fpage">17</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61874</offset>
+      <text>A central role for long non&#8208;coding RNA in cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">100</infon>
+      <infon key="pub-id_pmid">24316222</infon>
+      <infon key="fpage">88</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61925</offset>
+      <text>Reciprocal regulation of HIF&#8208;1alpha and lincRNA&#8208;p21 modulates the Warburg effect</text>
+    </passage>
+  </document>
+</collection>

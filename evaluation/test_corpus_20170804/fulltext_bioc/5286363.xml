@@ -1,0 +1,1188 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5286363</id>
+    <passage>
+      <infon key="name_2">surname:Li;given-names:Wen&#8208;Jun</infon>
+      <infon key="name_3">surname:Lin;given-names:Qirong</infon>
+      <infon key="name_0">surname:Feng;given-names:Guoxin</infon>
+      <infon key="name_1">surname:Zhu;given-names:Zhiwen</infon>
+      <infon key="name_6">surname:Ou;given-names:Guangshuo</infon>
+      <infon key="alt-title">Guoxin Feng et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201695734</infon>
+      <infon key="name_5">surname:Dong;given-names:Meng&#8208;Qiu</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embj.201695734</infon>
+      <infon key="name_4">surname:Chai;given-names:Yongping</infon>
+      <infon key="lpage">345 345</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">36 36</infon>
+      <infon key="fpage">334 334</infon>
+      <infon key="year">2017</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="issue">3</infon>
+      <infon key="kwd">cell migration cell polarity Hippo kinase RhoG Cell Adhesion, Polarity &amp; Cytoskeleton Development &amp; Differentiation</infon>
+      <offset>0</offset>
+      <text>Hippo kinases maintain polarity during directional cell migration in Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>92</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>101</offset>
+      <text>Precise positioning of cells is crucial for metazoan development. Despite immense progress in the elucidation of the attractive cues of cell migration, the repulsive mechanisms that prevent the formation of secondary leading edges remain less investigated. Here, we demonstrate that Caenorhabditis elegans Hippo kinases promote cell migration along the anterior&#8211;posterior body axis via the inhibition of dorsal&#8211;ventral (DV) migration. Ectopic DV polarization was also demonstrated in gain&#8208;of&#8208;function mutant animals for C.&#160;elegans RhoG MIG&#8208;2. We identified serine 139 of MIG&#8208;2 as a novel conserved Hippo kinase phosphorylation site and demonstrated that purified Hippo kinases directly phosphorylate MIG&#8208;2S139. Live imaging analysis of genome&#8208;edited animals indicates that MIG&#8208;2S139 phosphorylation impedes actin assembly in migrating cells. Intriguingly, Hippo kinases are excluded from the leading edge in wild&#8208;type cells, while MIG&#8208;2 loss induces uniform distribution of Hippo kinases. We provide evidence that Hippo kinases inhibit RhoG activity locally and are in turn restricted to the cell body by RhoG&#8208;mediated polarization. Therefore, we propose that the Hippo&#8211;RhoG feedback regulation maintains cell polarity during directional cell motility.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1381</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1394</offset>
+      <text>Directional cell migration plays essential roles in organism development and immune responses, as well as cancer invasion and metastasis (Kassis et&#160;al, 2001; Petrie et&#160;al, 2009; Clark &amp; Vignjevic, 2015). For example, neuronal migrations contribute to the overall morphology and connectivity of nervous systems, and disruptions in the&#160;location of cortical neurons lead to the malformation of cortical&#160;development and neuropsychiatric diseases, including schizophrenia and autism (Singh et&#160;al, 2010; Wegiel et&#160;al, 2010; Blockus &amp; Chedotal, 2014). In response to chemical gradients, migrating cells stimulate the local activity of the Rac family GTPases that drive actin polymerization and membrane protrusion in the leading edge (Etienne&#8208;Manneville &amp; Hall, 2002; Rossman et&#160;al, 2005; Ridley, 2015). Rac GTPases are evenly distributed along the plasma membrane, and uniform actin assembly abolishes cell motility; thus, an important challenge in a migrating cell is how to prevent the formation of secondary fronts by confining Rac activity within the lamellipodium (Fukata et&#160;al, 2003; Ridley, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2503</offset>
+      <text>The cycled activity of Rac GTPases between the GTP&#8208;bound active conformation and GDP&#8208;bound inactive conformation is regulated by guanine nucleotide exchange factors (GEFs), GTPase&#8208;activating factors (GAPs), and guanine nucleotide dissociation inhibitors (GDIs) (Ridley, 2015; Hodge &amp; Ridley, 2016). Rac GTPase activity is also modulated by posttranslational modifications, including prenylation, phosphorylation, sumoylation, and ubiquitylation (Hodge &amp; Ridley, 2016). Polarity establishment in migrating cells is thought to occur via positive feedback, which amplifies tiny and transient fluctuations into a substantial and persistent asymmetry in protein distribution (Houk et&#160;al, 2012; Graziano &amp; Weiner, 2014). To maintain cell polarity, the plasma membrane tension has recently been demonstrated to comprise an important source that constrains the spread of the leading edge and prevents the formation of additional fronts (Houk et&#160;al, 2012; Graziano &amp; Weiner, 2014). Alternatively, the leading edge may generate long&#8208;range diffusive inhibitors or sequester polarity components to block the formation of additional leading edges. However, many underlying diffusive inhibitors or polarity components have not been identified, and even for the established components, the connection between these factors and Rac activity is unexplored.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3853</offset>
+      <text>Caenorhabditis elegans Q neuroblasts provide a valuable model system to investigate cell polarity during directional cell migration (Ou &amp; Vale, 2009; Chai et&#160;al, 2012). In the L1 larvae, the Q neuroblasts, QR on the right side of the animal and QL on the left, move to the stereotypic positions along the anterior&#8211;posterior body axis but in different directions; the QR and descendants (abbreviated as QR.x) migrate anteriorly, and the QL and descendants (QL.x) migrate posteriorly (Sulston &amp; Horvitz, 1977; Ou &amp; Vale, 2009) (Fig&#160;1A). The MIG&#8208;13/LRP12 signaling pathway attracts QR.x to move toward the anterior (Sym et&#160;al, 1999; Wang et&#160;al, 2013), whereas the Wnt/beta&#8208;catenin signaling cascade instructs the posterior migration of QL.x (Whangbo &amp; Kenyon, 1999; Mentink et&#160;al, 2014). Q cells also have the capacity to move toward the dorsal&#8211;ventral axis as no neighboring tissues block migration on this axis (Ou &amp; Vale, 2009; Mentink et&#160;al, 2014); however, they persistently move along the AP axis without an apparent DV deviation (Fig&#160;1A and Movie EV1), and the repulsive mechanism of this process is largely unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>4989</offset>
+      <text>Hippo kinases promote AP migration via prevention of DV polarization</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5058</offset>
+      <text>Model of Q&#8208;cell position and migration direction in Caenorhabditis elegans L1 larvae. Green arrow indicates that Q cells migrate along the AP body axis, whereas the dotted red arrows indicate that Q cells are potent to move toward the DV direction. A, anterior; P, posterior; D, dorsal; V, ventral. Q, QL and QR indicate the Q neuroblast; AQR, PQR, SDQR, SDQL, AVM and PVM are the terminally differentiated neurons of Q neuroblast.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5492</offset>
+      <text>Schematics of the cst&#8208;1 and cst&#8208;2 gene models and DNA sequences of the cst&#8208;1 and/or cst&#8208;2 mutants that were generated via CRISPR&#8211;Cas9. Purple bar, serine/threonine kinase domain; blue bar, SARAH (Salvador&#8211;Rassf&#8211;Hippo homolog) domain. Arrow, sgRNA target site; green, target sequence; red, PAM sequence; blue, inserted nucleotide; dashed lines, deleted nucleotides.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5871</offset>
+      <text>Quantification of AQR position in adult WT and cst&#8208;1 and/or cst&#8208;2 mutant animals. The full length between the URXs and the end of the nematode tail is divided into 10 blocks, and the percent of AQR that stopped within each block is indicated. ***P&#160;&lt;&#160;0.001 by Fisher's exact test. N&#160;=&#160;50&#8211;109.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6173</offset>
+      <text>Quantification scheme of the angle (&#945;) between the longitudinal axis of a migrating cell and the AP body axis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6288</offset>
+      <text>Fluorescence time&#8208;lapse images of F&#8208;actin, plasma membrane, and histones during AQR/QR.ap migration in WT (E) or cst&#8208;1;cst&#8208;2 double&#8208;mutant (F) animals. Merged images, left; inverted fluorescence images of F&#8208;actin, right; white arrows, migration direction; asterisks, nucleus; double&#8208;headed arrows, migration distance. F&#8208;actin is labeled with GFP tagged with the actin&#8208;binding domain of Moesin (GFP::Moesin ABD), and the plasma membrane and histones are labeled with mCherry tagged with a myristoylation signal or a histone, respectively. The dotted lines indicate the cell periphery. Time is presented in minutes. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>6940</offset>
+      <text>Quantification of the QR.ap migration angle (G and H), distance (I), and speed (J). Each line in (G and I) represents the measurement from one time&#8208;lapse movie. Error bars indicate SD. N&#160;=&#160;10&#8211;17. Statistical significance is based on Student's t&#8208;tests, **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7230</offset>
+      <text>Here, we demonstrated that C.&#160;elegans Hippo kinases inhibit the activity of the Rac GTPase MIG&#8208;2 in actin assembly by directly phosphorylating MIG&#8208;2 at a novel and conserved site, serine 139. We demonstrated that Hippo kinases are sequestered in the cell body in WT migrating cells, and the exclusion of Hippo kinases from the leading edge requires Rac activity. Our results suggest that Hippo kinases and MIG&#8208;2 function in a negative feedback loop to safeguard the directionality of cell migration by blocking the formation of secondary leading edges.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7790</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7798</offset>
+      <text>Caenorhabditis elegans Hippo kinase homologs promote Q&#8208;cell migration</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7870</offset>
+      <text>The canonical Hippo signaling pathway consists of Hippo kinases (MST1/2) and Warts (Wts/LAST1/2), the regulatory protein Salvador (Sav/SAV1) and Mob (Mats/MOB1), a transcriptional coactivator Yorkie (Yki/YAP/TAZ), and a transcriptional factor Scalloped (Sd/TEAD/TEF5) (Pan, 2010; Gaspar &amp; Tapon, 2014; Yu et&#160;al, 2015; Sun &amp; Irvine, 2016) (Fig&#160;EV1A and B). Our previous study demonstrated that the C.&#160;elegans Scalloped/TEAD/TEF5 homolog EGL&#8208;44 regulates cell cycle exit during Q&#8208;neuroblast development (Feng et&#160;al, 2013). To further investigate the function of other Hippo signaling components in C.&#160;elegans, we used CRISPR&#8211;Cas9&#8208;based genome editing techniques to generate mutations or conditional mutations of these genes (Figs&#160;1B and EV1C and D). We demonstrated that the C.&#160;elegans harboring mutations in the Hippo kinase cst&#8208;1 and cst&#8208;2 or conditional mutations in sav&#8208;1 (Sav) and mob&#8208;1 (Mats) were defective in AQR and PQR migration in adult animals (Figs&#160;1C, EV1D, and EV2A and B). The Hippo signaling cascade has been implicated in numerous developmental events, such as organ size and cell proliferation (Harvey &amp; Tapon, 2007; Pan, 2010; Yu et&#160;al, 2015); however, a direct role for Hippo components in cell migration regulation has not been previously established in metazoans.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9180</offset>
+      <text>Screening of Caenorhabditis elegans homologs of the Hippo signaling components for Q&#8208;cell development and Q&#8208;cell migration phenotype in sav&#8208;1 and mob&#8208;1 conditional mutant animals</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9367</offset>
+      <text>Components of the Hippo signaling pathway in Drosophila (A) and their homologs in Drosophila, mammals, and C.&#160;elegans (B). Caenorhabditis elegans mutant alleles of the Hippo signaling components are listed on the right. Red, the mutants generated by this study.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9630</offset>
+      <text>Gene models of sav&#8208;1, wts&#8208;1, and mob&#8208;1. Exons are in boxes, and different colors denote different domains; arrows indicate sgRNA sequences, and PAM domains are indicated in red.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9814</offset>
+      <text>Quantifications of the AQR or PQR position in sav&#8208;1&#8208;sg, wts&#8208;1&#8208;sg, mob&#8208;1&#8208;sg, and yap&#8208;1 mutant animals with representative gels of deletion mutations generated by the somatic CRISPR&#8211;Cas9 strategy.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10025</offset>
+      <text>Quantification of the QR.ap (E and G) or QL.ap (I and K) migration angle, distance (F and J), and speed (H and L). Each line in (E, F, I, and J) represents the measurement from one time&#8208;lapse movie of QR.ap or QL.ap migration. Error bars indicate SD. N&#160;=&#160;11&#8211;13. *P&#160;&lt;&#160;0.05; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10345</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10395</offset>
+      <text>Q&#8208;cell migration phenotype in Hippo kinase mutant animals</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10455</offset>
+      <text>Quantification of PQR position in WT and cst&#8208;1 and/or cst&#8208;2 mutants. N&#160;=&#160;50&#8211;109. *P&#160;&lt;&#160;0.05 by Fisher's exact test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10580</offset>
+      <text>Representative images of AQR in WT and cst&#8208;1 and cst&#8208;2 single&#8208; or double&#8208;mutant animals at the L4 larval stage. Bars indicate the distance of AQR to URXs. Scale bar, 50&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10763</offset>
+      <text>Quantification scheme of AQR (C) or PQR (D) positions in relation to M4 neurites (AQR) or the anus (PQR) in WT and mutants at the late L1 larval stage. We define the lengths between the M4 nucleus to the AQR nucleus as a and the M4 nucleus to the turning of its neuritis as b. The a/b values indicate the relative position of AQR. We used the Caenorhabditis elegans anus as a reference to define the relative position of PQR. The dotted blue line indicates the extension of the anus. The brown lines with the numbers indicate the different regions of PQR.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11319</offset>
+      <text>Quantification of AQR (E) and PQR (F) positions in WT, cst&#8208;1;cst&#8208;2, or cst&#8208;1;cst&#8208;2 rescue mutants at the late L1 stage. Error bars indicate SD. N&#160;=&#160;42&#8211;63. *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11552</offset>
+      <text>Fluorescence time&#8208;lapse images of F&#8208;actin, plasma membrane, and histones during QL.ap migration in WT (G) or cst&#8208;1;cst&#8208;2 double&#8208;mutant (H) animals. Merged images, left; inverted fluorescence images of the actin cytoskeleton, right; white arrows, migration direction; asterisks, nucleus; double&#8208;headed arrows, migration distance. F&#8208;actin is labeled with GFP tagged with the actin&#8208;binding domain of Moesin (GFP::Moesin ABD), and the plasma membrane and histones are labeled with mCherry tagged with a myristoylation signal or a histone, respectively. The dotted lines indicate the cell periphery. Time is presented in minutes. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12213</offset>
+      <text>Quantification of the QL.ap migration angle in relation to the AP body axis (I and K), QL.ap migration distance (J), and speed (L). Each line in (I and J) represents the measurement from one time&#8208;lapse movie of QL.ap migration. Error bars indicate SD. N&#160;=&#160;11&#8211;24. **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12535</offset>
+      <text>By examining the final position of Q&#8208;cell descendants in the mutant animals at the adult stage, we demonstrated that only 1.3&#8211;26.0% of AQR in the putative null cst&#8208;1 or cst&#8208;2 single or cst&#8208;1;cst&#8208;2 double mutants arrived at their destination as the WT cells (Figs&#160;1C and EV2B; N&#160;=&#160;50&#8211;109 for each genotype). We confirmed the Q&#8208;cell migration defects in cst&#8208;1;cst&#8208;2 double mutants by examining the positions of AQR and PQR in late L1 larvae (Fig&#160;EV2C&#8211;F and Appendix&#160;Fig S1). CST&#8208;1 and CST&#8208;2 share an identical catalytic serine/threonine kinase domain (100% sequence identity) at their N&#8208;termini, and CST&#8208;1 has an extra SARAH domain (Salvador&#8211;Rassf&#8211;Hippo homolog domain) that may mediate homologous and heterologous dimerization (Thompson &amp; Sahai, 2015). In cst&#8208;1 and cst&#8208;2 single or double mutants, the Q&#8208;cell migration is reduced to levels that are indistinguishable from each of the multiple alleles (Fig&#160;1C). Importantly, we introduced GFP&#8208;tagged cst&#8208;1 or cst&#8208;2 or both genes into the double&#8208;mutant animals using a Q&#8208;cell&#8208;specific promoter Pegl&#8208;17 and demonstrated that the cell migration phenotype was fully rescued in the presence of both cst&#8208;1 and cst&#8208;2 in contrast to the single gene (Fig&#160;EV2E and F). These findings indicated that CST&#8208;1/2 are both required for cell migration and suggested that Hippo kinases act autonomously in migrating cells. Furthermore, the live imaging inspection of Q&#8208;cell asymmetric division and apoptosis in the double mutants indicated that Q cells undergo normal division and programmed cell death in larvae (N&#160;&gt;&#160;10; Appendix&#160;Fig S2A and B); moreover, no ectopic gain or loss of Q&#8208;cell progenies was identified in these adult mutant animals (N&#160;&gt;&#160;50; Appendix&#160;Fig S2C), which demonstrates a specific cell migration defect rather than an indirect consequence of Q&#8208;cell proliferation or apoptosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14443</offset>
+      <text>CST&#8208;1/2 maintain cell polarity in migrating Q cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14497</offset>
+      <text>To address the cellular mechanism of CST&#8208;1/2 in cell migration, we examined QR.ap and QL.ap (Q.ap) cell morphology and actin cytoskeleton in migrating cells of L1 larvae. The plasma membrane and nuclei of Q cells were labeled using mCherry carrying a myristoylation signal and an mCherry&#8208;tagged histone, respectively, and the actin cytoskeleton was marked using GFP tagged with the actin&#8208;binding domain of Moesin (GFP::Moesin ABD). In the WT animals, QR.ap/AQR persistently extends the F&#8208;actin&#8208;enriched lamellipodium toward the anterior and migrates to the head of the animal (Fig&#160;1E and Movie EV1). In the cst&#8208;1;cst&#8208;2 double&#8208;mutant animals, QR.ap polarizes toward both the AP and DV body axes (Fig&#160;1F and Movie EV2). To quantify the migration direction, we measured the angle between the Q&#8208;cell longitudinal axis and the C.&#160;elegans AP body axis (schematic in Fig&#160;1D). The WT Q.ap only changed their angles within 20&#176; during a 40&#8208;min time&#8208;lapse recording, whereas the cst&#8208;1;cst&#8208;2&#8208;double&#8208;deficient Q.ap dramatically altered the migration direction, thereby varying the angles from 0&#176; to&#160;&#177;&#160;90&#176; (Figs&#160;1G and H, and EV2G&#8211;L). As a result, Q.ap failed to continuously translocate soma toward the anterior, which reduced the QR.ap or QL.ap migration speed from 25.3 to 17.1&#160;&#956;m/h or from 17.9 to 10.6&#160;&#956;m/h, respectively (Figs&#160;1I and J, and EV2L). These findings indicate that Hippo kinases regulate cell polarity via the prevention of ectopic DV polarization in migrating cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16016</offset>
+      <text>We subsequently aimed to understand the downstream substrates of CST&#8208;1/2 in cell migration. Mutations of sav&#8208;1/Sav and mob&#8208;1/Mats in contrast to wts&#8208;1/Warts or yap&#8208;1/Yki reduced A/PQR migration (Fig&#160;EV1D). The migration speed and distance decreased in the sav&#8208;1&#8208; or mob&#8208;1&#8208;deficient Q.ap; however, our time&#8208;lapse recording did not indicate an apparent abnormality in cell polarity (Fig&#160;EV1E&#8211;L, Movies EV3 and EV4, and Appendix&#160;Fig S3A and B). These findings indicate that SAV&#8208;1 and MOB&#8208;1 regulate Q&#8208;cell migration in polarity&#8208;independent mechanisms and suggest that Hippo kinases promote cell migration through the previously uncharacterized downstream components. Considering that the Rac GTPase is a master regulator of actin organization and polarity establishment during cell migration (Fukata et&#160;al, 2003; Pollard &amp; Cooper, 2009; Ridley, 2015), we performed a fluorescence time&#8208;lapse analysis of the actin cytoskeleton, migration angle, and speed of migrating cells in the mutants defective in MIG&#8208;2, which encodes a C.&#160;elegans Rac GTPase and is also considered to be the mammalian RhoG homolog (Zipkin et&#160;al, 1997; Ou &amp; Vale, 2009). The mig&#8208;2(mu28) null mutation has previously been demonstrated to disrupt the actin assembly in the leading edge (Wang et&#160;al, 2013); interestingly, the gain&#8208;of&#8208;function mutation in mig&#8208;2(rh17) caused the migrating Q.ap cells to orientate their lamellipodia toward the DV body axis (Ou &amp; Vale, 2009) (Figs&#160;2A and B, and EV3A and B, and Movie EV5). We demonstrated that the migration angles varied up to 135&#176; in QR.ap or 180&#176; in QL.ap along the AP axis, and the migration speeds were significantly reduced to 13.0&#160;&#956;m/h in QR.ap or 4.1&#160;&#956;m/h in QL.ap of the mig&#8208;2(rh17) animals (Figs&#160;1H and J, 2C, EV2K and L, and EV3A&#8211;C). The ectopic DV polarization and reduced cell migration in the constitutively active mig&#8208;2(rh17) allele mimic the cell migration defects identified in the cst&#8208;1;cst&#8208;2 mutant animals. We noticed that Q&#8208;cell migration phenotypes in mig&#8208;2(rh17) were more severe than those in cst&#8208;1;cst&#8208;2 double&#8208;mutant animals (Figs&#160;1H and J, and EV2K and L). Considering that the G16R mutation in mig&#8208;2(rh17) allele blocks GTP hydrolysis and locks it to the constitutively active form (Zipkin et&#160;al, 1997), the phosphorylation of MIG&#8208;2 by CST&#8208;1/2 may modulate MIG&#8208;2 activity in a subtler manner than the block of GTP hydrolysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18469</offset>
+      <text>Ectopic DV polarization in mig&#8208;2 gain&#8208;of&#8208;function mutants and the phosphorylation of MIG&#8208;2S139 by Hippo kinases</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18589</offset>
+      <text>Fluorescence time&#8208;lapse images of F&#8208;actin, plasma membrane, and histones during QR.ap migration in mig&#8208;2(rh17) gain&#8208;of&#8208;function mutant animals. Merged images, left; inverted fluorescence images of F&#8208;actin, right; white arrows, migration direction; asterisks, nucleus; double&#8208;headed arrow, migration distance. The dotted lines indicate the cell periphery. Time is presented in minutes. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19007</offset>
+      <text>Quantification of the QR.ap migration angle (B) and distance (C). N&#160;=&#160;10.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19083</offset>
+      <text>Mass spectrum of a MIG&#8208;2 peptide that was phosphorylated at serine 139 in Caenorhabditis elegans. The peptide was identified from the GFP::MIG&#8208;2 immunoprecipitate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19251</offset>
+      <text>In vitro phosphorylation assay of CST&#8208;1/2 to MIG&#8208;2. Bacterially expressed His&#8208;tagged MIG&#8208;2 or His&#8208;tagged MIG&#8208;2S139A was incubated with the GST&#8208;tagged kinase domain of GST&#8208;CST&#8208;1/2 (1&#8211;318 aa). The kinase may use ATP&#8208;&#947;&#8208;S as a phosphodonor to thiophosphorylate its substrate; thus, the phosphorylation reaction was performed with ATP&#8208;&#947;&#8208;S, and anti&#8208;thiophosphate ester antibody was used to detect substrate phosphorylation (Allen et&#160;al, 2005, 2007). The final reaction was probed via immunoblotting with antibodies as indicated. Thio, thiophosphate ester.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19835</offset>
+      <text>Sequence alignment of MIG&#8208;2. Serine 139 (red) is conserved among the Rac1 homologs across species. The accession version is as follows: C.&#160;elegans, CAB01691.1; Drosophila, CAC88352.1, AAA67041.1; human, CAB53579.5; rat, NP_599193.1; mouse, AAH51053.1; chicken, NP_990348.1, NP_001188381.1; zebrafish, AAV85902.1; Xenopus, NP_001089332.1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20176</offset>
+      <text>Three&#8208;dimensional ribbon (PDB 3TH5) representations of the human Rac1 polypeptide which indicate the position of the T135 (S139 in MIG&#8208;2) located between the last two &#945;&#8208;helixes (Krauthammer et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20388</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>20438</offset>
+      <text>Ectopic DV polarization in mig&#8208;2 gain&#8208;of&#8208;function mutants, GFP::MIG&#8208;2 affinity purification, MIG&#8208;2 sequence alignment, and branched lamellipodia in mig&#8208;2S139E mutant animals</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20624</offset>
+      <text>Fluorescence time&#8208;lapse images of F&#8208;actin, plasma membrane, and histones during QL.ap migration in mig&#8208;2(rh17) gain&#8208;of&#8208;function mutant animals. Merged images, left; inverted fluorescence images of the actin cytoskeleton, right; white arrows, migration direction; asterisks, nucleus; double&#8208;headed arrows, migration distance. The dotted lines indicate the cell periphery. Time is represented in minutes. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21058</offset>
+      <text>Quantification of the QL.ap migration angle (B) and distance (C). Each line represents the measurement from one time&#8208;lapse movie. N&#160;=&#160;11. The dotted horizontal line indicates 10 &#956;m position.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21254</offset>
+      <text>Western blot with anti&#8208;GFP antibody indicates the immunoprecipitation of GFP::MIG&#8208;2 from the transgenic Caenorhabditis elegans L1 larvae using GFP&#8208;TrapA beads.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21420</offset>
+      <text>Sequence alignment of MIG&#8208;2 S139 (red) with other Rho family GTPases. The accession version is as follows: C.&#160;elegans, CAB01691.1, CCD64025.1, CAB05247.2, CCD70511.1, CAB63379.1; human, CAG30441.1, AAC51667.1; rat, NP_001008385.1; mouse, NP_033034.1, BAB40573.1; Drosophila, AAA67040.1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21710</offset>
+      <text>Representative images indicate the leading edge of QR.ap in mig&#8208;2S139E mutant animals. White arrows denote branches. Time is represented in minutes. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21880</offset>
+      <text>Quantification of branches at the leading edge. Error bars indicate SD. N&#160;=&#160;52&#8211;68. ***P&#160;&lt;&#160;0.001 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22005</offset>
+      <text>Source data are available online for this figure.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22055</offset>
+      <text>CST&#8208;1/2 phosphorylate MIG&#8208;2S139</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22091</offset>
+      <text>To investigate whether the phosphorylation of MIG&#8208;2 by CST&#8208;1/2 may represent a potential mechanism that prevents ectopic cell migration, we used affinity purification and mass spectrometry to identify the phosphorylation site(s) of MIG&#8208;2 in C.&#160;elegans larvae. Using an anti&#8208;GFP antibody, we purified GFP&#8208;tagged MIG&#8208;2 from the lysate of transgenic C.&#160;elegans larvae that expressed GFP::MIG&#8208;2 fusion protein (Fig&#160;EV3D). An analysis of the phosphopeptides indicated that serine 139 of MIG&#8208;2 was phosphorylated (Fig&#160;2D). Our in&#160;vitro phosphorylation assay demonstrated that the purified CST&#8208;1/2 kinase phosphorylates MIG&#8208;2S139 in contrast to MIG&#8208;2S139A (Fig&#160;2E). The sequence alignment of MIG&#8208;2 with other Rho family GTPases demonstrates that this site is uniquely conserved in Rac1 subfamily proteins in contrast to other Rho family GTPases across species (Figs&#160;2F and EV3E). Interestingly, MIG&#8208;2 and Rac1 proteins have been reported to regulate cell migration or neurite outgrowth (Zipkin et&#160;al, 1997; Ridley, 2015), which suggests that serine 139 phosphorylation may be responsible for a subtype of cellular activities, such as cell motility. Phosphorylation of Ras GTPases close to the C&#8208;terminal CAAX motif has been demonstrated to alter the enzyme localization by influencing lipid modification (Lang et&#160;al, 1996; Hodge &amp; Ridley, 2016), whereas phosphorylation within the GTPase domain may affect GTP&#8208;GDP cycling and/or the association with Rho effectors (Kwon et&#160;al, 2000; Tong et&#160;al, 2013; Hodge &amp; Ridley, 2016). By comparing MIG&#8208;2 with human Rac1 whose structural information is available (Krauthammer et&#160;al, 2012), we demonstrated that MIG&#8208;2S139/Rac1T135 locates between the last two &#945;&#8208;helixes (Fig&#160;2G and H). MIG&#8208;2S139 phosphorylation may affect the adjacent Pro140 conformation and thus vary the angle of the last &#945;&#8208;helix, which likely affects its interaction with other regulators or downstream effectors. The phosphorylation regulation of this region in Rho family GTPases has not been previously reported, and its functional significance is unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24207</offset>
+      <text>MIG&#8208;2S139 phosphorylation regulates actin assembly in migrating cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24279</offset>
+      <text>We subsequently aimed to determine the physiological relevance of CST&#8208;1/2&#8208;mediated MIG&#8208;2S139 phosphorylation for MIG&#8208;2 function in C.&#160;elegans. We expressed the WT MIG&#8208;2, the phosphor null mutant MIG&#8208;2S139A, or the phosphomimetic mutant MIG&#8208;2S139E in mig&#8208;2(mu28)&#8208;null Q cells. The WT MIG&#8208;2 could rescue A/PQR migration phenotypes in the mig&#8208;2(mu28) mutant animals; however, the MIG&#8208;2S139A and MIG&#8208;2S139E mutation failed to rescue AQR migration or only marginally rescued PQR migration, and MIG&#8208;2S139E even enhanced AQR migration defects (Figs&#160;3A and EV4A). Considering that MIG&#8208;2 needs to be activated in the leading edge and inhibited in the posterior, the loss of MIG&#8208;2S139 phosphorylation may perturb the local modulation of MIG&#8208;2 activity, thereby causing defective cell migration. The enhanced migration defects of MIG&#8208;2S139E transgene in mig&#8208;2(mu28) mutant animals may be resulted from the dominant negative effect of overexpressed MIG&#8208;2S139E protein. Overall, these data strongly suggest a key role for the phosphorylation of MIG&#8208;2S139 in cell migration. We subsequently implemented the CRISPR&#8211;Cas9&#8208;assisted homologous recombination technique to construct MIG&#8208;2S139A and MIG&#8208;2S139E knock&#8208;in strains that are deficient in MIG&#8208;2S139 phosphorylation (Dickinson et&#160;al, 2013). Consistent with our rescue results, 50.0 or 75.7% of AQR in the MIG&#8208;2S139A or MIG&#8208;2S139E mutant animals shortened their migration distance, and 11.7% of the PQR cells in the MIG&#8208;2S139E animals also reduced migration (Figs&#160;3B and EV4B). Furthermore, our fluorescence time&#8208;lapse recording indicated that both the speed and the angle of Q.ap migration were substantially perturbed in the MIG&#8208;2S139A and MIG&#8208;2S139E mutant animals (Figs&#160;3C&#8211;F and EV4C&#8211;F, and Movies EV6 and EV7). For example, ectopic DV polarization and variations in the migration angle from 0&#176; to&#160;&#177;&#160;90&#176; or&#160;&#177;&#160;135&#176; were identified in the Q.ap cells of the MIG&#8208;2S139A animals, which mirrors the Q.ap migration defects in cst&#8208;1;cst&#8208;2 double&#8208;mutant animals. Collectively, we provide in&#160;vivo evidence that the CST&#8208;1/2&#8208;dependent phosphorylation of MIG&#8208;2S139 promotes cell migration via the prevention of ectopic polarization.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26538</offset>
+      <text>MIG&#8208;2S139 phosphorylation regulates actin assembly during cell migration</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26613</offset>
+      <text>Quantification of AQR position in mig&#8208;2(mu28) null&#8208;mutant animals with different rescue transgenes. N&#160;=&#160;108&#8211;114. *P&#160;&lt;&#160;0.05; ##P&#160;&lt;&#160;0.01, phenotype enhanced. P&#8208;values are based on Fisher's exact tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26827</offset>
+      <text>Quantification of AQR position in WT and knock&#8208;in animals that harbor mig&#8208;2S139 point mutations. N&#160;=&#160;100&#8211;111. ***P&#160;&lt;&#160;0.001 by Fisher's exact test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26984</offset>
+      <text>Quantification of the QR.ap migration angle (C and D), distance (E), and speed (F) in mig&#8208;2S139A/E mutant animals. Each line in (C and E) represents the measurement from one movie of QR.ap migration. Error bars indicate SD. N&#160;=&#160;12&#8211;17. **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27278</offset>
+      <text>Inverted fluorescence images (up) and schematics (down) of QR.ap in WT, cst&#8208;1;cst&#8208;2 double&#8208;mutant, or mig&#8208;2 mutant animals. The plasma membrane and histones were labeled with mCherry. In schematics, the red indicates cell body and the green indicates cell nucleus. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27570</offset>
+      <text>Area ratio between the cell body and the nucleus in WT and mutant animals. Error bars indicate SD. N&#160;=&#160;17&#8211;22. *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27750</offset>
+      <text>Representative frames (upper) and quantification (lower) of F&#8208;actin enrichment at the QR.ap periphery in WT (I) and mig&#8208;2S139A/E mutant animals (J and K). The trace starts from the rear of the QR.ap and moves along the cell periphery to the leading edge (L) and back to the rear (R). F&#8208;actin was labeled with GFP::Moesin ABD; the plasma membrane and histones were marked with mCherry fluorescence. Green lines, F&#8208;actin fluorescence intensity; red lines, plasma membrane fluorescence intensity; dotted lines, cell periphery. Double&#8208;headed arrows indicate the F&#8208;actin enrichment region, in which the fluorescence intensity is twofold higher than the background. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28442</offset>
+      <text>Quantification of F&#8208;actin enrichment ratio in WT and mig&#8208;2 mutants. Error bars indicate SD. N&#160;=&#160;28&#8211;68. **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28606</offset>
+      <text>MIG&#8208;2S139 phosphorylation regulates actin assembly during cell migration in QL.ap</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28690</offset>
+      <text>Quantification of PQR position in mig&#8208;2(mu28) null&#8208;mutant animals with different rescue transgenes. N&#160;=&#160;109&#8211;115. **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Fisher's exact tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28865</offset>
+      <text>Quantification of PQR position in WT and mig&#8208;2S139 point mutation knock&#8208;in animals. N&#160;=&#160;100&#8211;111. ***P&#160;&lt;&#160;0.001 by Fisher's exact tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29010</offset>
+      <text>Quantification of QL.ap migration angle (C and D), distance (E), and speed (F) in mig&#8208;2S139A or mig&#8208;2S139E mutant animals. Error bars indicate SD. N&#160;=&#160;11&#8211;15. **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29229</offset>
+      <text>Inverted fluorescence images (up) and schematics (down) of QL.ap in WT, cst&#8208;1;cst&#8208;2 double&#8208;mutant, or mig&#8208;2 mutant animals. The plasma membrane and histones of PQR were labeled with mCherry. In schematics, the red indicates cell body and the green indicates cell nucleus. Scale bar, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29528</offset>
+      <text>Area ratio between the cell body and nucleus in WT, cst&#8208;1;cst&#8208;2 double&#8208;mutant, and mig&#8208;2 mutant animals. Error bars indicate SD. N&#160;=&#160;20&#8211;23. *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; ***P&#160;&lt;&#160;0.001 by Student's t&#8208;tests.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29746</offset>
+      <text>Representative frames (upper) and quantification (lower) of F&#8208;actin enrichment at the QR.ap periphery in WT (I) and mig&#8208;2S139A/E mutant animals (J and K). The trace starts from the rear of the QR.ap and moves along the cell periphery to the leading edge (L) and back to the rear (R). F&#8208;actin was labeled with GFP::Moesin ABD; the plasma membrane and histones were marked with mCherry fluorescence. Green lines, F&#8208;actin fluorescence intensity; red lines, plasma membrane fluorescence intensity; dotted lines, cell periphery. Double&#8208;headed arrows indicate the F&#8208;actin enrichment region, in which the fluorescence intensity is twofold higher than the background. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30438</offset>
+      <text>Quantification of F&#8208;actin enrichment ratio in WT and mig&#8208;2 mutants. Error bars indicate SD. N&#160;=&#160;35&#8211;45. ***P&#160;&lt;&#160;0.001 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30587</offset>
+      <text>To further investigate the influence of serine 139 phosphorylation on the cellular activity of MIG&#8208;2, we examined the morphology of migrating cells by measuring the area ratio of the cell body to the nucleus. A WT migrating cell extends large lamellipodia toward the migration direction with an average 3.0&#160;&#177;&#160;0.2 cell body to nucleus ratio, whereas the mig&#8208;2(mu28) null mutation abolished the formation of lamellipodia and substantially reduced the ratio to 2.6&#160;&#177;&#160;0.1. Interestingly, the lack of MIG&#8208;2S139 phosphorylation in the cst&#8208;1;cst&#8208;2 double&#8208;mutant or MIG&#8208;2S139A mutant animals increased the ratio to 3.6&#160;&#177;&#160;0.1 or 3.8&#160;&#177;&#160;0.2, respectively. However, the phosphomimetic MIG&#8208;2S139E mutation reduced the ratio to 2.6&#160;&#177;&#160;0.1 (Figs&#160;3G and H, and EV4G and H), which further supports the notion that MIG&#8208;2S139 phosphorylation inhibits MIG&#8208;2 activity in the formation of membrane protrusions. Furthermore, we investigated the distribution of the actin cytoskeleton in MIG&#8208;2S139&#8208;related mutants. By measuring the enrichment of GFP::Moesin ABD along the periphery of migrating cells, we demonstrated that 35% of the cell periphery was enriched with F&#8208;actin, and most of the GFP fluorescence was identified in the leading edge of the WT cells. However, in the MIG&#8208;2S139A mutant animals, 20% of the migrating Q.ap cells formed uniformly enriched F&#8208;actin along the entire cell periphery; for the remaining 80% of the cells, the GFP fluorescence occupied up to 52% of the cell periphery. In contrast, the MIG&#8208;2S139E mutation reduced the enrichment of GFP fluorescence to 29% on the cell periphery, and the GFP fluorescence intensity was dimmer compared with the WT cells (Figs&#160;3I&#8211;L and EV4I&#8211;L). Importantly, we identified the formation of a spiky leading edge and the lack of a persistent anterior polarity during migration in the MIG&#8208;2S139E cells (Fig&#160;EV3F and G). These phenotypes have also been identified in Arp2/3&#8208;deficient cells, which are defective in actin polymerization at the leading edge, or anillin&#8208;conditional mutants, in which F&#8208;actin stability is perturbed in the lamellipodia (Wu et&#160;al, 2012; Tian et&#160;al, 2015; Swaney &amp; Li, 2016). Taken together, our findings suggest that MIG&#8208;2S139 phosphorylation by Hippo kinases inhibits the assembly of actin filaments in migrating cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32936</offset>
+      <text>Restriction of Hippo kinase in cell body requires MIG&#8208;2</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32994</offset>
+      <text>To address the dynamic localization of Hippo kinase during cell migration, we performed a live imaging analysis of the functional GFP&#8208;tagged CST&#8208;1 and CST&#8208;1 reporters. After Q.a cell division, CST&#8208;1/2 or the actin cytoskeleton was evenly distributed in the Q.ap. Because Q.ap quickly established cell polarity and started to migrate after cytokinesis, GFP::Moesin ABD was enriched at the leading edge within minutes, and the peak GFP fluorescence intensity was 0.1&#160;&#177;&#160;0.1&#160;&#956;m away from the cell periphery (Figs&#160;4C and D, and EV5C). However, CST&#8208;1 or CST&#8208;2 was restricted within the cell body, and GFP&#8208;tagged Hippo kinases localize in the region that is 1.2&#160;&#177;&#160;0.1&#160;&#956;m for CST&#8208;1 and 1.9&#160;&#177;&#160;0.1&#160;&#956;m for CST&#8208;2 away from the leading edge (Figs&#160;4A and D, and EV5A and C, and Movies EV8 and EV9). In the mig&#8208;2(mu28) null&#8208;mutant animals, GFP&#8208;tagged CST&#8208;1 or CST&#8208;2 was evenly distributed, and GFP fluorescence was detected 0.3&#160;&#177;&#160;0.1&#160;&#956;m and 0.5&#160;&#177;&#160;0.1&#160;&#956;m adjacent along the cell periphery, respectively (Figs&#160;4B and D, and EV5B and C). During cell migration, GFP&#8208;tagged CST&#8208;1/2 were barely detectable in the lamellipodia, and the GFP fluorescence intensity ratios of the leading edge to the rear region were 0.37&#160;&#177;&#160;0.03 and 0.37&#160;&#177;&#160;0.04, respectively (Figs&#160;4E and G, and EV5D and F). However, in the mig&#8208;2&#8208;deficient migrating Q.ap, the ratios were increased to 0.71&#160;&#177;&#160;0.08 and 0.77&#160;&#177;&#160;0.07 (Figs&#160;4F and G, and EV5E and F), which indicates that CST&#8208;1/2 were more evenly distributed in the absence of MIG&#8208;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>34564</offset>
+      <text>Hippo kinases are restricted in the cell body by MIG&#8208;2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34621</offset>
+      <text>Fluorescence images (upper) and quantifications (lower) of GFP&#8208;tagged CST&#8208;1 (A, B) or GFP&#8208;labeled F&#8208;actin (C) and mCherry&#8208;labeled plasma membrane and histones in WT and mig&#8208;2 null&#8208;mutant animals. The membrane protrusions in the white boxes are enlarged three times at the bottom. Yellow dashed lines indicate the cell periphery. White lines indicate the line to measure the fluorescence intensity. Green lines denote the CST&#8208;1 fluorescence intensity; red lines denote the plasma membrane fluorescence intensity; double&#8208;headed arrows denote the distance between the GFP signal and cell periphery. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35255</offset>
+      <text>Distance between GFP::CST&#8208;1 or GFP::Moesin ABD and the plasma membrane at the leading edge in WT and mig&#8208;2 null mutants. Error bars indicate SD. N&#160;=&#160;9&#8211;14. ***P&#160;&lt;&#160;0.001 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35456</offset>
+      <text>Fluorescence images (left) and quantifications (right) of GFP&#8208;tagged CST&#8208;1 and mCherry&#8208;labeled plasma membrane and histones in WT and mig&#8208;2 null&#8208;mutant animals. Blue lines, sites of measurements; dotted lines, cell periphery; green lines, CST&#8208;1 fluorescence intensity; red lines, mCherry fluorescence intensity. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>35800</offset>
+      <text>Quantification of the fluorescence intensity ratio of GFP::CST&#8208;1 and mCherry membrane between the leading edge and the lagging edge of AQR in WT and mig&#8208;2 null&#8208;mutant animals. Error bars indicate SD. N&#160;=&#160;20. ***P&#160;&lt;&#160;0.001 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36054</offset>
+      <text>Proposed model of Hippo&#8211;RhoG signaling negative feedback loop in the prevention of secondary fronts during directional cell migration.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36191</offset>
+      <text>CST&#8208;2 is restricted in the cell body of Q cells by MIG&#8208;2</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36252</offset>
+      <text>Fluorescence images (upper) and quantifications (lower) of GFP&#8208;tagged CST&#8208;2 and mCherry&#8208;labeled plasma membrane and histones in WT (A) and mig&#8208;2 null&#8208;mutant (B) animals. Membrane protrusions in the white boxes are enlarged three times at the bottom. Yellow dashed lines indicate the cell periphery. White lines denote the line to measure the fluorescence intensity. Green lines denote the CST&#8208;2 fluorescence intensity. Red lines denote the mCherry fluorescence intensity. Double&#8208;headed arrows denote the distance between the GFP signal and cell periphery. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36842</offset>
+      <text>Distance between GFP::CST&#8208;2 and the plasma membrane at the leading edge in WT and mig&#8208;2 null mutants. Error bars indicate SD. N&#160;=&#160;14. ***P&#160;&lt;&#160;0.001 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37020</offset>
+      <text>Fluorescence images (left) and quantifications (right) of GFP&#8208;tagged CST&#8208;2 and mCherry&#8208;labeled plasma membrane and histones in WT and mig&#8208;2 null mutant. Blue lines, sites of measurements; dotted lines, cell periphery; green lines, CST&#8208;2 fluorescence intensity; red lines, mCherry fluorescence intensity. Scale bars, 5&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37354</offset>
+      <text>Quantification of the fluorescence intensity ratio of GFP::CST&#8208;2 and mCherry&#8208;marked membrane between the leading edge and the lagging edge of QR.ap in WT and mig&#8208;2 null mutants. Error bars indicate SD. N&#160;=&#160;14&#8211;15. ***P&#160;&lt;&#160;0.001 by Student's t&#8208;test.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>37615</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37626</offset>
+      <text>Collectively, the results of this work support the existence of a negative feedback loop in which Hippo kinases that are restricted to the cell body by MIG&#8208;2/RhoG inhibit RhoG activity out of the leading edge (Fig&#160;4H). In this regulation, environmental cues initially activate the RhoG, which establishes the initial polarity toward the migration direction. Hippo kinases are subsequently excluded from lamellipodia and are restricted to the cell body, where they, in turn, phosphorylate MIG&#8208;2 and inhibit its Rac activity, thereby preventing the formation of additional fronts. In a living organism, a migrating cell is capable of migrating to any of the body axes as long as the anatomy permits. Moreover, the small Rac GTPases evenly distribute on the plasma membrane and have the potential to be activated at any loci. Our model suggests that Rac activity may be constrained by the phosphorylation of Hippo kinases within the cell body, which maintains the persistent cell polarity toward the initially polarized direction by blocking ectopic polarization. Thus, the Hippo&#8211;RhoG negative feedback that acts together with the attractive mechanisms and other positive feedback contributes to the conversion of the random cell motility into directional cell migration in live metazoans.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38920</offset>
+      <text>Numerous previous studies regarding the role of kinases in cell migration have focused on their functions in receptor activation in the leading edge (Petrie et&#160;al, 2009; Wang et&#160;al, 2013; Ridley, 2015), whereas our discovery expands our fundamental understanding of how kinases use posttranslational modification to affect cell migration by negatively modulating the activity of the Rho family GTPase in the cell body. Our results also expand the functional repertoire of Hippo kinases by establishing a role of Hippo kinases in the direction of cell migration. This function appears to be independent of the other established Hippo components and may not involve transcriptional regulation, which is consistent with the notion that the canonical Hippo signaling pathway may not be assembled in nematodes; however, many of the conserved Hippo components are encoded by the C.&#160;elegans genome (Yang &amp; Hata, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39835</offset>
+      <text>In the canonical Hippo signaling cascade, a series of phosphorylation reactions leads to the phosphorylation and retention of the transcriptional coactivator complex YAP/TAZ within the cytoplasm, which thereby blocks the transcription of target genes that are crucial for cell proliferation and death (Harvey &amp; Tapon, 2007; Pan, 2010; Gaspar &amp; Tapon, 2014; Yu et&#160;al, 2015). Recent studies have also demonstrated many other downstream substrates of Hippo kinases, which function independently of transcriptional regulation. For example, the phosphorylation of AKT and histone 2B by the mammalian Hippo kinase MST1/2 has been demonstrated to be essential for chromatin condensation during apoptosis (Cheung et&#160;al, 2003; Thompson &amp; Sahai, 2015); moreover, phosphorylation of the autophagosome component LC3 by STK3/4 kinases is required to mediate the fusion of an autophagosome with a lysosome (Wilkinson et&#160;al, 2015). Our identification of MIG&#8208;2/RhoG as a novel Hippo substrate indicates that Hippo kinases may directly function with plasma membrane proteins to regulate cellular activities. Of note, another Hippo signaling component, Wts, contributes to the proper migration of border cell clusters via the phosphorylation of an actin&#8208;binding protein Ena in Drosophila (Lucas et&#160;al, 2013), which supports the notion that Hippo components have a transcription&#8208;independent function in cell migration.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41245</offset>
+      <text>The interplay between Hippo signaling and Rho GTPase/the actin cytoskeleton has been demonstrated in various species (Gaspar &amp; Tapon, 2014; Sun &amp; Irvine, 2016). An increase in actin filaments correlates with an increased Yki activity in Drosophila or mammalian cells (Fernandez et&#160;al, 2011; Sansores&#8208;Garcia et&#160;al, 2011). Rho GTPases and the actin cytoskeleton are essential for transducing the upstream inputs, such as the cell shape, cell density, cell attachment, ECM rigidity, and GPCR pathway, to the Hippo signaling cascade (Dupont et&#160;al, 2011; Sun &amp; Irvine, 2016). Moreover, the inhibition of Rho GTPase activity or disruption of actin filaments caused the retention of Yorkie in the cytoplasm, which suggests that Rho GTPase activity and the actin architecture contribute to the activity of Hippo signaling (Aragona et&#160;al, 2013). In contrast, the Hippo components are also involved in actin assembly. The loss of Hippo and Warts homologs in S. pombe disrupted the organization of the actin cytoskeleton (Verde et&#160;al, 1995), and the mutations of the Drosophila Hippo or Wts caused the apical accumulation of actin filaments in imaginal disks (Fernandez et&#160;al, 2011), which suggested that F&#8208;actin polarization may be the ancestral function of Hippo and Warts kinases. Different from these unidirectional regulations in the previously described scenarios, our results indicate that Hippo kinases and RhoG/MIG&#8208;2 function in a negative feedback loop to promote directional cell migration. We speculate that Hippo&#8211;RhoG regulation must involve additional components. For example, it remains enigmatic how Hippo kinases are excluded from the leading edge by MIG&#8208;2&#8208;dependent polarization. Hippo kinases and RhoG are evolutionarily conserved molecules, and future studies will also need to investigate the generality of Hippo&#8211;RhoG feedback regulation across other species.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43135</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43157</offset>
+      <text>Caenorhabditis elegans strains, genetics, and DNA manipulations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43221</offset>
+      <text>Strains were cultured on nematode growth medium (NGM) plates seeded with E.&#160;coli OP50 at 20&#176;C following standard protocols. Transgenic strains were generated with the microinjection of 1&#8211;50&#160;ng/&#956;l DNA with co&#8208;injection markers into N2 or GOU174 germlines. Conditional knockout and knock&#8208;in animals were generated using the CRISPR&#8211;Cas9 strategy and analyzed with PCR&#160;and Sanger sequencing (Dickinson et&#160;al, 2013; Shen et&#160;al, 2014). The sgRNA sequence, G(N)N19NGG (N&#160;=&#160;A, C, T, or G), was designed according to established criteria. The knock&#8208;in template plasmids were constructed via amplification of the 1 to 1.5 kb upstream and downstream homology arms from the N2 genomic DNA and insertion into pPD95.77 via an In&#8208;Fusion Advantage PCR Cloning Kit (Clontech). Tables EV1,EV2 andEV3 include the primers, plasmids, PCR products, and strains used in this study.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44101</offset>
+      <text>Molecular analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44120</offset>
+      <text>Polymerase chain reaction (PCR) was used to detect molecular lesions in conditional knockout animals. Worms were lysed with 10&#215;&#160; PCR buffer, and the lysis was used as templates for the PCR of DNA fragments that contained CRISPR&#8211;Cas9 targets. Approximately 500&#160;bp&#8211;1&#160;kb DNA fragments upstream or downstream of the target sequences were amplified. The amplification progress contains two steps, including one short&#8208;time elongation with 20 cycles, followed by the other long&#8208;time elongation with 15 cycles. The PCR products were used for agarose gel electrophoresis and Sanger sequencing.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44717</offset>
+      <text>In vitro phosphorylation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44748</offset>
+      <text>A 100 ml mixture contained 150&#160;mM NaCl, 10&#160;mM MgCl2, 10&#160;mM DTT, and 1&#160;mM ATP&#8208;&#947;&#8208;S with 2&#160;&#956;g of GST&#8208;CST&#8208;1/2 kinase domain or GST in a buffer. We added 5&#160;&#956;g His&#8208;MIG&#8208;2 or its mutant S139A as the substrate. After 30&#160;min of incubation at room temperature, we added 5&#160;&#956;l of 50&#160;mM p&#8208;nitrobenzyl mesylate (catalog no. ab138910; Abcam) in the system and incubated at room temperature for an&#160;additional 2&#160;h. The reaction was terminated via the addition of SDS sample buffer. Protein phosphorylation was detected by immunoblotting with anti&#8208;thiophosphate ester antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45338</offset>
+      <text>Live cell imaging</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45356</offset>
+      <text>Live cell imaging was performed using a previously described protocol (Chai et&#160;al, 2012). L1 larval worms were anesthetized with 1&#160;mg/ml levamisole and mounted on 3% agarose pads at 20&#176;C. The immobilized larvae were subsequently imaged with an Axio Observer Z1 microscope (Carl Zeiss MicroImaging, Inc.) or an Olympus IX83 (Olympus, Inc.) equipped with a 100&#215;, 1.45 N.A. objective, an EM CCD camera (Andor iXon+ DU&#8208;897D&#8208;C00&#8208;#BV&#8208;500), and the 488&#160;nm and 568&#160;nm lines of a Sapphire CW CDRH USB Laser System attached to the spinning disk confocal scan head (Yokogawa CSU&#8208;X1 Spinning Disk Unit). Time&#8208;lapse images were programmed to be captured via &#956;Manager (https://www.micro-manager.org/) with a 200&#8208;ms exposure time and 1&#8208;min intervals and processed with ImageJ software.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46150</offset>
+      <text>Quantifications of images</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46176</offset>
+      <text>ImageJ software was used for the measurement and analysis of all images. The migrating cell angle indicated the angle between cell polarization (indicated by GFP::Moesin ABD accumulation) or migration and the worm anterior&#8211;posterior axis. The movies used for the migration angle, distance, and speed analysis consisted of a 40&#8208;min migration with no apparent obstacles ahead; five arbitrary frames at 0, 10, 20, 30, and 40&#160;min were analyzed, from which the mean value was calculated and grouped for statistical analysis. The cell body/nucleus area ratio and F&#8208;actin accumulation were measured by circumscribing the fluorescence field along the cortex; the GFP::CST&#8208;1 and GFP::CST&#8208;2 polarized localizations were measured across the cell body. For all intensity measurements, the background was subtracted.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46991</offset>
+      <text>Mass spectrometry analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47018</offset>
+      <text>GFP::MIG&#8208;2 immunoprecipitates were precipitated in cold acetone and dissolved in 100&#160;mM Tris, pH 8.5, and 8&#160;M urea. The proteins were subjected to reduction (5&#160;mM TCEP), alkylation (10&#160;mM iodoacetamide), and trypsin digestion (37&#176;C overnight). For LC&#8208;MS/MS analysis of the resulting peptides, we followed a previously described method (Zhao et&#160;al, 2015), except that SCX fractionation was omitted.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47426</offset>
+      <text>Raw data were extracted using RawXtract software. The MS/MS spectra were searched against the C.&#160;elegans protein database using Prolucid (Xu et&#160;al, 2015). The carbamidomethylation of cysteines was included as a fixed modification. The phosphorylations of serine, threonine, and tyrosine residues were included as variable modifications. The search results of the two technical replicates were independently filtered using DTASelect 2 (Tabb et&#160;al, 2002) by requiring a 1% FDR at the peptide level, a precursor mass accuracy &#8804;&#160;5&#160;ppm, a Z&#8208;score &#8805;&#160;4, and a minimum of one peptide for a protein ID. The FDR rates at the protein level were 1.26 and 1.02%. The spectra that displayed the phosphorylated peptide of MIG&#8208;2 were annotated by pLable (Yang et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48199</offset>
+      <text>The WD scores of the MIG&#8208;2 IP&#8208;MS/MS data were calculated with other 32&#8208;bit IP&#8208;MS/MS matrix (W.&#8208;J. Li, M. Zhu, Y.&#8208;X. Li, M.&#8208;Q. Dong, unpublished data) based on the WD&#8208;score formulas from the CompPASS tutorial (Sowa et&#160;al, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48444</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48465</offset>
+      <text>Statistical analysis of A/PQR position was performed in R (R i386 3.3.1) with Fisher's exact test. Other quantitative data were analyzed in GraphPad Prism version 6 (GraphPad Prism Inc., San Diego, CA). Independent unpaired, two&#8208;tailed Student's t&#8208;tests were performed to compare the mean values between two groups. Statistical significances were designated as *P&#160;&lt;&#160;0.05; **P&#160;&lt;&#160;0.01; and ***P&#160;&lt;&#160;0.001.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48877</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48898</offset>
+      <text>GO, GF, ZZ, W&#8208;JL, YC, and M&#8208;QD conceived the experiments; GF, W&#8208;JL, ZZ, QL, and YC performed the experiments; and GO and GF wrote the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>49050</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49071</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>49131</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>49154</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">J Am Chem Soc</infon>
+      <infon key="lpage">5289</infon>
+      <infon key="pub-id_pmid">15826144</infon>
+      <infon key="fpage">5288</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>49165</offset>
+      <text>Bio&#8208;orthogonal affinity purification of direct kinase substrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">516</infon>
+      <infon key="pub-id_pmid">17486086</infon>
+      <infon key="fpage">511</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>49232</offset>
+      <text>A semisynthetic epitope for kinase substrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">1059</infon>
+      <infon key="pub-id_pmid">23954413</infon>
+      <infon key="fpage">1047</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49278</offset>
+      <text>A mechanical checkpoint controls multicellular growth through YAP/TAZ regulation by actin&#8208;processing factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Curr Opin Neurobiol</infon>
+      <infon key="lpage">88</infon>
+      <infon key="pub-id_pmid">24698714</infon>
+      <infon key="fpage">82</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49389</offset>
+      <text>The multifaceted roles of Slits and Robos in cortical circuits: from proliferation to axon guidance and neurological diseases</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="lpage">2102</infon>
+      <infon key="pub-id_pmid">23138350</infon>
+      <infon key="fpage">2090</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>49515</offset>
+      <text>Live imaging of cellular dynamics during Caenorhabditis elegans postembryonic development</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">517</infon>
+      <infon key="pub-id_pmid">12757711</infon>
+      <infon key="fpage">507</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>49605</offset>
+      <text>Apoptotic phosphorylation of histone H2B is mediated by mammalian sterile twenty kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">22</infon>
+      <infon key="pub-id_pmid">26183445</infon>
+      <infon key="fpage">13</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>49693</offset>
+      <text>Modes of cancer cell invasion and the role of the microenvironment</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">1034</infon>
+      <infon key="pub-id_pmid">23995389</infon>
+      <infon key="fpage">1028</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49760</offset>
+      <text>Engineering the Caenorhabditis elegans genome using Cas9&#8208;triggered homologous recombination</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">183</infon>
+      <infon key="pub-id_pmid">21654799</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>49854</offset>
+      <text>Role of YAP/TAZ in mechanotransduction</text>
+    </passage>
+    <passage>
+      <infon key="volume">420</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">635</infon>
+      <infon key="pub-id_pmid">12478284</infon>
+      <infon key="fpage">629</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>49893</offset>
+      <text>Rho GTPases in cell biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">3847</infon>
+      <infon key="pub-id_pmid">23946438</infon>
+      <infon key="fpage">3838</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49921</offset>
+      <text>Developmental stage&#8208;dependent transcriptional regulatory pathways control neuroblast lineage progression</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2346</infon>
+      <infon key="pub-id_pmid">21525075</infon>
+      <infon key="fpage">2337</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>50028</offset>
+      <text>Actin&#8208;capping protein and the Hippo pathway regulate F&#8208;actin and tissue growth in Drosophila</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">597</infon>
+      <infon key="pub-id_pmid">14519394</infon>
+      <infon key="fpage">590</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>50125</offset>
+      <text>Roles of Rho&#8208;family GTPases in cell polarisation and directional migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">83</infon>
+      <infon key="pub-id_pmid">25259681</infon>
+      <infon key="fpage">74</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>50202</offset>
+      <text>Sensing the local environment: actin architecture and Hippo signalling</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">67</infon>
+      <infon key="pub-id_pmid">24998184</infon>
+      <infon key="fpage">60</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>50273</offset>
+      <text>Self&#8208;organization of protrusions and polarity during eukaryotic chemotaxis</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">191</infon>
+      <infon key="pub-id_pmid">17318211</infon>
+      <infon key="fpage">182</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>50350</offset>
+      <text>The Salvador&#8208;Warts&#8208;Hippo pathway &#8211; an emerging tumour&#8208;suppressor network</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">510</infon>
+      <infon key="pub-id_pmid">27301673</infon>
+      <infon key="fpage">496</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>50431</offset>
+      <text>Regulating Rho GTPases and their regulators</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">188</infon>
+      <infon key="pub-id_pmid">22265410</infon>
+      <infon key="fpage">175</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>50475</offset>
+      <text>Membrane tension maintains cell polarity by confining signals to the leading edge during neutrophil migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Semin Cancer Biol</infon>
+      <infon key="lpage">117</infon>
+      <infon key="pub-id_pmid">11322830</infon>
+      <infon key="fpage">105</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>50585</offset>
+      <text>Tumor invasion as dysregulated cell motility</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">1014</infon>
+      <infon key="pub-id_pmid">22842228</infon>
+      <infon key="fpage">1006</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>50630</offset>
+      <text>Exome sequencing identifies recurrent somatic RAC1 mutations in melanoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">275</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">428</infon>
+      <infon key="pub-id_pmid">10617634</infon>
+      <infon key="fpage">423</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>50703</offset>
+      <text>Akt protein kinase inhibits Rac1&#8208;GTP binding through phosphorylation at serine 71 of Rac1</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">519</infon>
+      <infon key="pub-id_pmid">8599934</infon>
+      <infon key="fpage">510</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>50795</offset>
+      <text>Protein kinase A phosphorylation of RhoA mediates the morphological and functional effects of cyclic AMP in cytotoxic lymphocytes</text>
+    </passage>
+    <passage>
+      <infon key="volume">201</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">885</infon>
+      <infon key="pub-id_pmid">23733343</infon>
+      <infon key="fpage">875</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>50925</offset>
+      <text>The Hippo pathway polarizes the actin cytoskeleton during collective migration of Drosophila border cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">201</infon>
+      <infon key="pub-id_pmid">25373777</infon>
+      <infon key="fpage">188</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>51031</offset>
+      <text>Cell intrinsic modulation of Wnt signaling controls neuroblast migration in Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">185</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">85</infon>
+      <infon key="pub-id_pmid">19349580</infon>
+      <infon key="fpage">77</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>51130</offset>
+      <text>Molecular signatures of cell migration in Caenorhabditis elegans Q neuroblasts</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">505</infon>
+      <infon key="pub-id_pmid">20951342</infon>
+      <infon key="fpage">491</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>51209</offset>
+      <text>The hippo signaling pathway in development and cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">549</infon>
+      <infon key="pub-id_pmid">19603038</infon>
+      <infon key="fpage">538</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>51263</offset>
+      <text>Random versus directionally persistent cell migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">326</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1212</infon>
+      <infon key="pub-id_pmid">19965462</infon>
+      <infon key="fpage">1208</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>51317</offset>
+      <text>Actin, a central player in cell shape and movement</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">112</infon>
+      <infon key="pub-id_pmid">26363959</infon>
+      <infon key="fpage">103</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>51368</offset>
+      <text>Rho GTPase signalling in cell migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="lpage">180</infon>
+      <infon key="pub-id_pmid">15688002</infon>
+      <infon key="fpage">167</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>51408</offset>
+      <text>GEF means go: turning on RHO GTPases with guanine nucleotide&#8208;exchange factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2335</infon>
+      <infon key="pub-id_pmid">21556047</infon>
+      <infon key="fpage">2325</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>51488</offset>
+      <text>Modulating F&#8208;actin organization induces organ growth by affecting the Hippo pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">636</infon>
+      <infon key="pub-id_pmid">25155554</infon>
+      <infon key="fpage">625</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>51574</offset>
+      <text>Conditional knockouts generated by engineered CRISPR&#8208;Cas9 endonuclease reveal the roles of coronin in C. elegans neural development</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">48</infon>
+      <infon key="pub-id_pmid">20624590</infon>
+      <infon key="fpage">33</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>51708</offset>
+      <text>Dixdc1 is a critical regulator of DISC1 and embryonic cortical development</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">403</infon>
+      <infon key="pub-id_pmid">19615732</infon>
+      <infon key="fpage">389</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>51783</offset>
+      <text>Defining the human deubiquitinating enzyme interaction landscape</text>
+    </passage>
+    <passage>
+      <infon key="volume">56</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">156</infon>
+      <infon key="pub-id_pmid">838129</infon>
+      <infon key="fpage">110</infon>
+      <infon key="year">1977</infon>
+      <infon key="type">ref</infon>
+      <offset>51848</offset>
+      <text>Post&#8208;embryonic cell lineages of the nematode, Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Trends Cell Biol</infon>
+      <infon key="lpage">704</infon>
+      <infon key="pub-id_pmid">27268910</infon>
+      <infon key="fpage">694</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>51919</offset>
+      <text>Cellular organization and cytoskeletal regulation of the Hippo signaling network</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="lpage">72</infon>
+      <infon key="pub-id_pmid">27164504</infon>
+      <infon key="fpage">63</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>52000</offset>
+      <text>Function and regulation of the Arp2/3 complex during cell migration in diverse environments</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">36</infon>
+      <infon key="pub-id_pmid">10412978</infon>
+      <infon key="fpage">25</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>52092</offset>
+      <text>MIG&#8208;13 positions migrating cells along the anteroposterior body axis of Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="lpage">26</infon>
+      <infon key="pub-id_pmid">12643522</infon>
+      <infon key="fpage">21</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>52189</offset>
+      <text>DTASelect and contrast: tools for assembling and comparing protein identifications from shotgun proteomics</text>
+    </passage>
+    <passage>
+      <infon key="volume">210</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">882</infon>
+      <infon key="pub-id_pmid">26370497</infon>
+      <infon key="fpage">871</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>52296</offset>
+      <text>MST kinases in development and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">1145</infon>
+      <infon key="pub-id_pmid">25843030</infon>
+      <infon key="fpage">1135</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>52335</offset>
+      <text>Anillin regulates neuronal migration and neurite growth by linking RhoG to the actin cytoskeleton</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">4551</infon>
+      <infon key="pub-id_pmid">24043306</infon>
+      <infon key="fpage">4538</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>52433</offset>
+      <text>Phosphorylation of Rac1 T108 by extracellular signal&#8208;regulated kinase in response to epidermal growth factor: a novel mechanism to regulate Rac1 function</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">1538</infon>
+      <infon key="pub-id_pmid">8522609</infon>
+      <infon key="fpage">1529</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>52589</offset>
+      <text>Fission yeast cell morphogenesis: identification of new genes and analysis of their role during the cell cycle</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">11180</infon>
+      <infon key="pub-id_pmid">23784779</infon>
+      <infon key="fpage">11175</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>52700</offset>
+      <text>Transmembrane protein MIG&#8208;13 links the Wnt signaling and Hox genes to the cell polarity in neuronal migration</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="source">Acta Neuropathol</infon>
+      <infon key="lpage">770</infon>
+      <infon key="pub-id_pmid">20198484</infon>
+      <infon key="fpage">755</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>52812</offset>
+      <text>The neuropathology of autism: defects of neurogenesis and neuronal migration, and dysplastic changes</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">858</infon>
+      <infon key="pub-id_pmid">10619031</infon>
+      <infon key="fpage">851</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>52913</offset>
+      <text>A Wnt signaling system that specifies two patterns of cell migration in Caenorhabditis elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">68</infon>
+      <infon key="pub-id_pmid">25544559</infon>
+      <infon key="fpage">55</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>53008</offset>
+      <text>Phosphorylation of LC3 by the Hippo kinases STK3/STK4 is essential for autophagy</text>
+    </passage>
+    <passage>
+      <infon key="volume">148</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">987</infon>
+      <infon key="pub-id_pmid">22385962</infon>
+      <infon key="fpage">973</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53089</offset>
+      <text>Arp2/3 is critical for lamellipodia and response to extracellular matrix cues but is dispensable for chemotaxis</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="source">J Proteomics</infon>
+      <infon key="lpage">24</infon>
+      <infon key="pub-id_pmid">26171723</infon>
+      <infon key="fpage">16</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>53201</offset>
+      <text>ProLuCID: an improved SEQUEST&#8208;like algorithm with enhanced sensitivity and specificity</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="lpage">906</infon>
+      <infon key="pub-id_pmid">22772728</infon>
+      <infon key="fpage">904</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>53290</offset>
+      <text>Identification of cross&#8208;linked peptides from complex samples</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="source">J Biochem</infon>
+      <infon key="lpage">209</infon>
+      <infon key="pub-id_pmid">23843471</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>53353</offset>
+      <text>What is the Hippo pathway? Is the Hippo pathway conserved in Caenorhabditis elegans?</text>
+    </passage>
+    <passage>
+      <infon key="volume">163</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">828</infon>
+      <infon key="pub-id_pmid">26544935</infon>
+      <infon key="fpage">811</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>53438</offset>
+      <text>Hippo pathway in organ size control, tissue homeostasis, and cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">Genome Res</infon>
+      <infon key="lpage">75</infon>
+      <infon key="pub-id_pmid">25373143</infon>
+      <infon key="fpage">66</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>53506</offset>
+      <text>Profiling the RNA editomes of wild&#8208;type Caenorhabditis elegans and ADAR mutants</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">894</infon>
+      <infon key="pub-id_pmid">9298900</infon>
+      <infon key="fpage">883</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>53588</offset>
+      <text>Role of a new Rho family member in cell migration and axon guidance in Caenorhabditis elegans</text>
+    </passage>
+  </document>
+</collection>

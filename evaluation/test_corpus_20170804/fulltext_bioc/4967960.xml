@@ -1,0 +1,1158 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>4967960</id>
+    <passage>
+      <infon key="name_2">surname:Duncan;given-names:Emily D</infon>
+      <infon key="name_3">surname:Rittinger;given-names:Katrin</infon>
+      <infon key="name_0">surname:Dove;given-names:Katja K</infon>
+      <infon key="name_1">surname:Stieglitz;given-names:Benjamin</infon>
+      <infon key="alt-title">Katja K Dove et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBR201642641</infon>
+      <infon key="source">EMBO Reports</infon>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211;</infon>
+      <infon key="article-id_doi">10.15252/embr.201642641</infon>
+      <infon key="article-id_pmid">27312108</infon>
+      <infon key="lpage">1235 1235</infon>
+      <infon key="pub-id_pmid">27312108</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="volume">17 17</infon>
+      <infon key="fpage">1221 1221</infon>
+      <infon key="year">2016</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="name_4">surname:Klevit;given-names:Rachel E</infon>
+      <infon key="issue">8</infon>
+      <infon key="kwd">HHARI HOIP Parkin RBR ubiquitin E3 ligase Post-translational Modifications, Proteolysis &amp; Proteomics</infon>
+      <offset>0</offset>
+      <text>Molecular insights into RBR E3 ligase ubiquitin transfer mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>68</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>77</offset>
+      <text>RING&#8208;in&#8208;between&#8208;RING (RBR) ubiquitin (Ub) ligases are a distinct class of E3s, defined by a RING1 domain that binds E2 Ub&#8208;conjugating enzyme and a RING2 domain that contains an active site cysteine similar to HECT&#8208;type E3s. Proposed to function as RING/HECT hybrids, details regarding the Ub transfer mechanism used by RBRs have yet to be defined. When paired with RING&#8208;type E3s, E2s perform the final step of Ub ligation to a substrate. In contrast, when paired with RBR E3s, E2s must transfer Ub onto the E3 to generate a E3~Ub intermediate. We show that RBRs utilize two strategies to ensure transfer of Ub from the E2 onto the E3 active site. First, RING1 domains of HHARI and RNF144 promote open E2~Ubs. Second, we identify a Ub&#8208;binding site on HHARI RING2 important for its recruitment to RING1&#8208;bound E2~Ub. Mutations that ablate Ub binding to HHARI RING2 also decrease RBR ligase activity, consistent with RING2 recruitment being a critical step for the RBR Ub transfer mechanism. Finally, we demonstrate that the mechanism defined here is utilized by a variety of RBRs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1171</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1184</offset>
+      <text>Ubiquitin (Ub) is a small protein involved in the regulation of a wide variety of cellular processes. Ub signaling occurs through the covalent attachment of the Ub C&#8208;terminus to protein substrates via a trio of enzymes: a Ub&#8208;activating enzyme (E1), a Ub&#8208;conjugating enzyme (E2), and a Ub ligase (E3). E1s activate the C&#8208;terminus of Ub in an ATP&#8208;dependent manner and facilitate the transfer of Ub onto the E2 active site cysteine (Cys) via transthiolation to generate an E2~Ub conjugate (&#8220;~&#8221; denotes a thioester bond). Most E2~Ub conjugates can pair with one or more E3 Ub ligases to facilitate Ub transfer onto a substrate amino group, usually the side chain of a lysine (Lys). There are three major types of eukaryotic E3 Ub ligases: Really Interesting New Gene (RING)&#8208;type E3s (including Ubox E3s), Homologous to E6AP C&#8208;Terminus (HECT)&#8208;type E3s, and RING&#8208;in&#8208;between&#8208;RING (RBR) E3s.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2094</offset>
+      <text>A majority of E3s are RING&#8208;type ligases that use a conserved RING/Ubox domain defined by a characteristic cross&#8208;brace fold to bind the E2~Ub. These E3s bind both the substrate and E2~Ub to facilitate Ub transfer from the E2~Ub directly onto a substrate amino group, usually a lysine side chain. In addition to this scaffolding role, RING&#8208;type E3s activate the E2~Ub to transfer Ub onto Lys residues (an aminolysis reaction) by promoting closed conformations of the E2~Ub 1, 2, 3, 4, 5. A crucial feature of the RING&#8208;type activation mechanism is a conserved basic residue (Lys/Arg) that contacts both the E2 and the Ub, referred to as the &#8220;linchpin&#8221; residue 1. HECT&#8208;type E3s bind the E2~Ub via a conserved HECT domain that is structurally distinct from a RING domain. Importantly, HECT&#8208;type E3 ligases contain a conserved Cys residue on which an obligatory E3~Ub intermediate is formed prior to Ub transfer onto a substrate Lys. This mechanism requires two types of chemical reactions: (i) a transthiolation reaction transfers Ub from E2~Ub to the E3 active site Cys to generate a reactive E3~Ub species, and (ii) a subsequent aminolysis reaction transfers the C&#8208;terminus of Ub from the E3 to a substrate Lys to form a stable isopeptide bond. Unlike the mechanism utilized by RING&#8208;type E3 ligases that induce closed E2~Ub conformations, available data on HECT ligases suggest that they do not need a closed E2~Ub for activity 6, 7.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3545</offset>
+      <text>The third class of E3 ligases was discovered more recently when two RBR E3s, HHARI (human homologue of Ariadne) and Parkin, were shown to function via a RING/HECT hybrid mechanism 6. Despite containing an eponymous E2&#8208;binding RING domain, RBR E3s proceed through an E3~Ub thioester intermediate similar to HECT&#8208;type E3s. The functional importance of an active site Cys for catalytic activity has since been confirmed for other RBR E3 ligases including HOIP, HOIL&#8208;1L, TRIAD1, and RNF144 8, 9, 10, 11. Although a small class with only 12&#8211;14 members in the human genome, RBR E3s are involved in many essential cellular pathways. The most studied RBR E3 is Parkin for which mutations have been linked to autosomal recessive juvenile Parkinson's disease 12, 13. HOIP and HOIL&#8208;1L are distinctive for their unique ability to generate linear Ub chains that are crucial regulators of the NF&#8208;&#954;B signaling pathway 14, 15, 16, 17. HHARI and TRIAD1 belong to the Ariadne family of RBR E3 ligases defined by their C&#8208;terminal auto&#8208;inhibitory Ariadne domain. HHARI and its homologues in Drosophila and C.&#160;elegans have been implicated in processes including regulation of translation via the translation initiation factor 4EHP, cellular proliferation, and development 18, 19, 20, 21.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4830</offset>
+      <text>RBR E3s are defined by three characteristic domains each of which coordinates two Zn2+ ions: RING1, in&#8208;between RING (IBR), and RING2. An RBR unit may be found at any position relative to other domains within an RBR E3, but its subdomains RING1&#8208;IBR&#8208;RING2 always appear in order (N&#8208;terminal to C&#8208;terminal). RING1 is the E2&#8208;binding domain and RING2 contains the active site Cys that when mutated to an alanine (Ala) renders RBRs inactive 6, 8, 9, 10, 11, 22, 23. While RING1 domains adopt structures similar to canonical RING&#8208;type E3 ligases, RING2 domains do not resemble canonical RING domains, either structurally or functionally. The IBR domain adopts a structure that is similar to that of RING2, though its function remains elusive.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5580</offset>
+      <text>As mentioned above, canonical RING&#8208;type E3s activate an E2~Ub conjugate by promoting closed E2~Ub conformations that exhibit increased reactivity toward the amino groups of Lys residues. A signature of closed conformations are non&#8208;covalent interactions between a surface on the E2 formed by the &#8220;crossover&#8221; helix (also known as helix&#8208;2) and the hydrophobic patch or &#8220;I44 surface&#8221; of Ub. Mutations of residues within the E2:Ub interface abrogate activation by RING&#8208;type E3 ligases 1, 2, 3, 4, 5. Paradoxically, HHARI RING1 fails to activate the E2~Ub for Ub transfer by aminolysis despite its close structural resemblance to canonical RING domains 6. Furthermore, mutations of the E2 crossover helix that decrease in&#160;vitro Ub transfer activity with canonical RING&#8208;type E3s do not affect Ub transfer activity of the RBR E3 HHARI 1. These observations imply that HHARI RING1 is mechanistically distinct from its canonical RING relatives in ways yet to be defined.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6560</offset>
+      <text>RBR E3s such as Parkin, HOIP, and HHARI display activity with a variety of E2s; in particular, they are all active with two well&#8208;characterized human E2s, UbcH5 and UbcH7 6, 8, 9. While most E2s, including UbcH5, are able to perform both transthiolation reactions and aminolysis reactions, UbcH7 solely performs transthiolation reactions 6. This suggests that UbcH7 can function with HECT&#8208;type and RBR&#8208;type E3s, but not with RING&#8208;type E3s. Notably, C.&#160;elegans orthologs of HHARI and UbcH7 act together in pharyngeal development, suggesting that UbcH7 is a biologically relevant E2 for HHARI 20, 24. But HHARI, Parkin, and HOIP are also known to work with E2s that are able to transfer Ub directly to amino groups. Importantly, HOIP specifically generates linear Ub chains regardless of the chain linkage preference of the E2 with which it works 6, 8, 9, 15, 25, 26, 27, 28. This suggests a dichotomy in the determining factor for product formation: in the case of RING&#8208;type E3s, the identity of the E2 determines the type of product, while in RBR E3s, the E3 determines the type of product. This leads to the question: How do RBR E3s ensure that transfer of Ub occurs via the E3 active cite Cys to maintain control of product formation?</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7807</offset>
+      <text>Here, we report the mechanistic strategies used by RBR&#8208;type E3s to transfer ubiquitin from the E2 onto the E3. First, we show that RING1 domains of HHARI and RNF144 specifically inhibit closed E2~Ub conformations. This strategy ensures that Ub transfer occurs via the RBR active site by preventing off&#8208;target Ub transfer events. Second, we identify a weak but functionally important interaction between HHARI RING2 and Ub which serves to recruit RING2 to the RING1:E2~Ub complex. In structures of auto&#8208;inhibited RBR E3s, RING1 and RING2 are far from each other and a large domain rearrangement is required to bring the RING2 active site close to the E2~Ub active site bound to RING1 29, 30, 31, 32, 33, 34. Consistent with this notion, mutations in either Ub or RING2 at the Ub:RING2 interface substantially reduce Ub transfer from E2~Ub to RING2. Finally, we demonstrate that the mechanism defined here is utilized by a variety of RBR E3 ligases, indicating its generality for this important class of enzymes.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>8824</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8832</offset>
+      <text>RBR E3 ligases do not require closed states of E2~Ub for ubiquitin transfer</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8908</offset>
+      <text>In the absence of an E3, UbcH5~Ub is highly dynamic, with the Ub moiety populating mainly open states relative to the E2 35. Upon binding a canonical RING/Ubox, UbcH5~Ub is biased toward closed states that are activated for aminolysis reactions which constitute the final step in Ub transfer by RING&#8208;type E3s. Closed E2~Ub states bound to RING/Ubox domains have been visualized in several co&#8208;crystal structures and by NMR 1, 2, 3, 4. Mutation of a residue on the crossover helix of UbcH5 (L104Q) disrupts formation of closed states and dramatically decreases ubiquitination activity with canonical RINGs such as BRCA1/BARD1 (Fig&#160;1A) 1. Though RBRs contain an E2&#8208;binding RING domain (RING1), UbcH5L104Q shows robust activity with HHARIRBR, TRIAD1&#916;Ari, ParkinRBR, and HOIPRBR&#8208;LDD (Figs&#160;1A and EV1; information regarding constructs used in this study is included in Appendix&#160;Table&#160;S1). This observation indicates that RBR E3s do not require closed E2~Ub conformations for Ub transfer activity. Therefore, we wondered whether RING1s of RBRs are able to induce closed E2~Ub conformations. To address this question, we used an active site Cys&#8208;to&#8208;Ser E2 mutant to generate a stable oxyester mimic of E2~Ub (&#8220;E2&#8208;O&#8208;Ub&#8221;). In a previous study, the NMR spectrum of 15N&#8208;UbcH5c&#8208;O&#8208;15N&#8208;Ub exhibited chemical shift perturbations (CSPs) in the presence of a canonical RING/Ubox that are hallmarks of the closed state 1. We therefore performed similar NMR binding experiments of 15N&#8208;UbcH5c&#8208;O&#8208;15N&#8208;Ub with the HHARI RING1 domain (residues 177&#8211;270). Comparable to previous observations for canonical RINGs, binding of HHARI RING1 to UbcH5&#8208;O&#8208;Ub occurs in fast&#8208;to&#8208;intermediate exchange (peaks shift and broaden), indicating that the interaction is of fairly modest affinity (Fig&#160;1B). CSP analysis of free UbcH5&#8208;O&#8208;Ub compared to HHARI RING1&#8208;bound UbcH5&#8208;O&#8208;Ub revealed residues that are perturbed upon HHARI RING1 binding. These define a surface composed of residues in helix 1, loops 4 and 7&#8212;those known to be central to binding of UbcH5 by canonical RING&#8208;type E3s 2, 3, 36, 37, 38. These results indicate that HHARI RING1 binds UbcH5 in a manner similar to that used by canonical RINGs (Fig&#160;1C). However, CSPs are not observed for most residues of the UbcH5 crossover helix nor are they observed for the Ub moiety upon HHARI RING1 binding to UbcH5&#8208;O&#8208;Ub (Fig&#160;1C). Together, these observations are strong evidence that HHARI RING1 does not promote UbcH5&#8208;O&#8208;Ub closed conformations. This finding provides a basis for understanding two previous observations: (i) HHARI RING1 does not enhance UbcH5~Ub reactivity toward free Lys 6 and (ii) HHARIRBR exhibits robust activity with the crossover helix mutant UbcH5L104Q (1 and Fig&#160;1A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11687</offset>
+      <text>RBR E3 ligases do not require closed states of E2~Ub for ubiquitin transfer</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11763</offset>
+      <text>Auto&#8208;ubiquitination assays in which the E3 acts both as an E3 and as proxy substrate were performed with GST&#8208;HHARIRBR, T7&#8208;Triad1&#916;Ari, GST&#8208;ParkinRBR, and Flag&#8208;BRCA1/BARD1 and either UbcH5WT or UbcH5L104Q as the E2. Products were visualized by Western blotting against the indicated tags on E3s. Times given are post&#8208;ATP addition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12105</offset>
+      <text>Overlay of (1H,15N)&#8208;HSQC&#8208;TROSY spectra of 15N&#8208;UbcH5&#8208;O&#8208;15N&#8208;Ub in the absence (black) and presence (red) of 0.5&#160;mol equiv. HHARI RING1. A subset of UbcH5 peaks, but not Ub peaks, shift and broaden upon HHARI RING1 binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12339</offset>
+      <text>Chemical shift perturbations (CSPs) from (B) are mapped onto the structures of UbcH5c (PDB 2fuh) and Ub (PDB 1ubq). Residues that exhibit loss of intensity&#160;&gt;&#160;1 stdv upon RING1 binding (intensity&#160;&lt;&#160;0.47) are colored on each structure: UbcH5 residues 5, 6, 7, 16, 20, 22, 56, 62, 74, 87, 90, 91, 96, 97, 99&#8211;103, 137, 138 (pink) and Ub residues 48, 50 (yellow). The lack of CSPs on the UbcH5 crossover helix and on the surface of Ub signifies that HHARI RING1 does not induce closed UbcH5&#732;Ub.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12836</offset>
+      <text>CLUSTAL OMEGA alignments of the C&#8208;terminal sequences of RBR RING1 domains (top) and canonical RING domains (bottom). Each alignment includes the 7th and 8th Zn2+ coordinating positions (gray). The allosteric linchpin position critical for E2&#732;Ub activation by RING&#8208;type E3s is highlighted in yellow. RBR RING1 domains lack the allosteric linchpin.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13188</offset>
+      <text>HOIP does not require closed states of E2~Ub for linear chain formation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13260</offset>
+      <text>Linear Ub chain building reactions were performed using HOIPRBR&#8208;LDD and either&#160;UbcH5WT or UbcH5L104Q. Product formation (free linear Ub chains) was visualized by Coomassie blue staining.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13450</offset>
+      <text>A highly conserved position in canonical RINGs, called the linchpin residue, is largely responsible for the ability to promote closed E2~Ubs by forming hydrogen bonds to both E2 and Ub 1, 2, 3, 4. In RINGs, the linchpin is most often a basic residue (Arg or Lys) and is occasionally a neutral H&#8208;bonding residues such as Asn. HHARI contains an Asp residue in the structurally analogous position to the linchpin, and RBRs in general do not share a common residue that could fulfill the function of a hydrogen&#8208;bonding linchpin (Fig&#160;1D). This provides one possible explanation for HHARI RING1's failure to induce closed states of UbcH5~Ub.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14091</offset>
+      <text>HHARI RING1 promotes open E2~Ub conformations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14137</offset>
+      <text>UbcH7 is a specialized E2 that can only perform transthiolation reactions, making it an RBR/HECT&#8208;specific E2 6. UbcH7 is active in&#160;vitro with many, if not all, RBR&#8208;type E3 ligases. Notably, C.&#160;elegans orthologs of UbcH7 and HHARI are vital partners in&#160;vivo20, prompting us to examine the effects of HHARI RING1 binding on UbcH7~Ub.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14476</offset>
+      <text>Unexpectedly, we discovered that in the absence of an E3, UbcH7&#8208;O&#8208;Ub populates closed conformations to a considerable extent. NMR CSP analysis of UbcH7&#8208;O&#8208;Ub compared to free UbcH7 reveals perturbed residues in the crossover helix of UbcH7 in addition to residues around the active site (Fig&#160;2A). The perturbations identify a surface similar to that seen in closed states of other E2~Ubs 1, 2, 3, 4, 35. To verify this conclusion, we conjugated I44A&#8208;Ub to 15N&#8208;UbcH7 because UbI44A disrupts closed states of other E2~Ubs 1, 2, 3. Indeed, residues of the UbcH7 crossover helix as exemplified by Q106 and S107 resonate at positions more similar to free UbcH7 than to UbcH7&#8208;O&#8208;Ub when I44A&#8208;Ub is the conjugated species (Fig&#160;2B and Appendix&#160;Fig S1). Altogether, these data are consistent with UbcH7~Ub adopting closed conformations in the absence of an E3 that require surfaces that include the crossover helix of UbcH7 and the I44 surface of Ub (Fig&#160;2A and B, and Appendix&#160;Fig S1).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>15475</offset>
+      <text>UbcH7~Ub populates E3&#8208;independent closed conformations</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15532</offset>
+      <text>Histogram of CSPs between free 15N&#8208;UbcH7 and 15N&#8208;UbcH7&#8208;O&#8208;Ub identifies UbcH7 residues affected by conjugation to Ub. Active site (Ser86) is indicated with a star and crossover helix residues (101&#8211;113) are marked with a gray cylinder. Inset: CSPs &gt;&#160;1 stdv (&gt;&#160;0.115&#160;ppm) are highlighted in yellow on a surface representation of UbcH7 (PDB 1fbv). The view on the left shows the surface that contains the UbcH7 crossover helix.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>15969</offset>
+      <text>Region of 1H&#8208;15N&#8208;HSQC&#8208;TROSY spectra containing resonances of the crossover helix residues S107 and Q106 is overlaid: unconjugated 15N&#8208;UbcH7 (blue), 15N&#8208;UbcH7&#8208;O&#8208;Ub (black), and 15N&#8208;UbcH7&#8208;O&#8208;UbI44A (red). Peaks representing S107 and Q106 in the context of UbcH7&#732;Ub&#8208;I44A (red) are closer to peaks observed in free UbcH7(blue) than UbcH7&#732;Ub&#8208;WT (black), indicating that I44A of Ub disrupts interactions with the crossover helix of UbcH7.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16427</offset>
+      <text>We next asked what effect HHARI RING1 binding has on UbcH7~Ub. Due to the high affinity of UbcH7 for HHARI RING1 29, residues affected by complex formation exhibit slow exchange behavior in 1H&#8208;15N&#8208;HSQC&#8208;type NMR experiments. This property leads to peak intensity loss rather than peak shifting in binding experiments (Fig&#160;EV2A). First, the effect of HHARI RING1 binding to unconjugated UbcH7 was analyzed to map the RING1&#8208;binding surface. Comparison of peak intensities between the spectrum of free 15N&#8208;UbcH7 and of RING1&#8208;bound 15N&#8208;UbcH7 reveals that the RING1&#8208;binding surface on UbcH7 is very similar to that mapped for UbcH5 bound to RING1 (Fig&#160;EV2B and C). To simplify analysis of the UbcH7&#8208;O&#8208;Ub conjugate, either 15N&#8208;labeled UbcH7 or 15N&#8208;labeled Ub was incorporated into conjugates for HHARI RING1 binding experiments. Turning to the Ub moiety, an overlay of NMR spectra of free UbcH7&#8208;O&#8208;15N&#8208;Ub and RING1&#8208;bound UbcH7&#8208;O&#8208;15N&#8208;Ub shows several perturbed Ub resonances, as exemplified in Fig&#160;3A. Notably, a majority of Ub residues (47,49,71&#8211;74) that are affected by HHARI RING1 binding to UbcH7~Ub are among those identified in a comparison of UbcH7~Ub versus free Ub (Appendix&#160;Fig S2). For example, when UbcH7~Ub binds to RING1, the Ub Q49 resonance, which experiences the largest chemical shift upon Ub conjugation to UbcH7, moves back close to its position in the spectrum of free Ub (Fig&#160;3A and Appendix&#160;Fig S2). The simplest explanation for this observation is that RING1 binding alters or disrupts contacts between Ub and UbcH7 in UbcH7~Ub. Importantly, chemical shifts for Ub residues within both RING1&#8208;bound UbcH7~Ub and UbcH5~Ub (Figs&#160;1B and 3A, and Appendix&#160;Fig S2) are similar to those seen for free Ub. We propose that RING1 promotes open conformations of E2~Ub. We note that while Ub resonances of RING1&#8208;bound UbcH7~Ub are similar to those of free Ub, they are not identical, indicating that the environment of the Ub moiety may be affected by its proximity to RING1 in the complex (Fig&#160;3A and Appendix&#160;Fig S2).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18503</offset>
+      <text>NMR mapping of HHARI RING1 binding to UbcH7</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18547</offset>
+      <text>Spectral overlay of 15N&#8208;UbcH7 in the absence (black) and presence (red) of 0.5&#160;mol equiv. HHARI RING1. Affected resonances show peak doubling, characteristic of a high&#8208;affinity complex, where a new set of resonances that correspond to resonances from the complex appear simultaneously with resonances of the unbound species.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18877</offset>
+      <text>Histogram displays the ratio of peak intensity of UbcH7 residues (bound/free) measured from the spectra shown above. The average intensity ratio is indicated with a gray dashed line.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19060</offset>
+      <text>Left: Surface (top) and cartoon (bottom) representation of UbcH7 (PDB 1fbv). Residues that exhibit loss of intensity&#160;&gt;&#160;1 stdv from the average upon RING1 binding (intensity&#160;&lt;&#160;0.448) are colored in pink (residues 6, 11, 13, 14, 28, 40, 57, 61, 64, 78, 87, 89, 90, 96, 98&#8211;100, 102&#8211;106, 108). Right: For comparison, UbcH5 residues (PDB 2fuh) that are perturbed (either CSP or intensity loss) upon RING1 binding are indicated in pink (CSPs: &gt;&#160;0.028&#160;ppm and intensity &lt;&#160;0.44).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19543</offset>
+      <text>HHARI RING1 disfavors closed E2~Ub conformations</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19592</offset>
+      <text>Region of 1H&#8208;15N&#8208;HSQC&#8208;TROSY spectra that contains Gln49 Ub resonance is overlaid: free 15N&#8208;Ub (blue), UbcH7&#8208;O&#8208;15N&#8208;Ub (black), and HHARI RING1&#8208;bound UbcH7&#8208;O&#8208;15N&#8208;Ub (red). Black arrow highlights perturbation upon conjugation to UbcH7 and red arrow highlights perturbation of conjugated Ub upon HHARI RING1 binding to UbcH7.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19936</offset>
+      <text>Region of 1H&#8208;13C&#8208;HSQC spectra of 13C&#8208;UbcH7 (blue), 13C&#8208;UbcH7&#8208;O&#8208;Ub (black), and HHARI RING1&#8208;bound 13C&#8208;UbcH7&#8208;O&#8208;Ub (red) that includes the methyl (13CH3) resonance of the surface&#8208;exposed UbcH7 crossover helix residue, Ala110 (black arrow), is shown. The 13CH3 peak of Ala110 either broadens dramatically or shifts to an unknown position in the spectrum of 13C&#8208;UbcH7&#8208;O&#8208;Ub (black) in the presence of HHARI RING1 it reappears at its position in free UbcH7, consistent with disruption of closed UbcH7&#732;Ub conformations. Pairwise overlays and larger spectra are provided in Appendix&#160;Fig S3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20548</offset>
+      <text>Regions of 1H&#8208;15N&#8208;HSQC&#8208;TROSY spectra of UbcH7&#8208;O&#8208;15N&#8208;Ub in the absence (black) and presence (red) of a RING1 domain from the RBR E3s HHARI (left) or RNF144 (middle) or a canonical RING domain of BRCA1/BARD1 (right). The perturbations on Ub due to binding of HHARI RING1 and RNF144 RING1 are remarkably similar, while binding of the canonical RING domain of BRCA1/BARD1 has no observable effect on the Ub spectrum. Blue boxes mark area expanded in (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21011</offset>
+      <text>For additional evidence of disruption of UbcH7~Ub closed conformations by RING1 binding, we used 1H&#8208;13C&#8208;HSQC&#8208;type experiments and published assignments to observe and interpret side chain resonances of 13C&#8208;UbcH7 39. Side chain resonances of UbcH7 crossover helix residues shift upon conjugation to Ub, consistent with closed UbcH7~Ub states (as exemplified in Fig&#160;3B and Appendix&#160;Fig S3). Figure&#160;3B compares three spectra: free 13C&#8208;UbcH7 (blue) and 13C&#8208;UbcH7&#8208;O&#8208;Ub in the absence (black) and presence of HHARI RING1 (red). Notably, the methyl resonance of the surface&#8208;accessible crossover helix residue Ala110 is significantly perturbed upon conjugation of Ub to UbcH7, as evidenced by the lack of a (black) peak on or near the blue peak labeled Ala110 (Fig&#160;3B), indicating that the side chain of Ala110 interacts with Ub. Upon the addition of RING1 (red spectrum), the Ala110&#8208;CH3 peak reappears at the chemical shift observed for Ala110&#8208;CH3 in free 13C&#8208;UbcH7 (blue), evidenced by the red peak that overlays the blue Ala110 peak (Fig&#160;3B and Appendix&#160;Fig S3). These data corroborate the notion that UbcH7~Ub populates closed conformations in the absence of an E3 and that these are disrupted by HHARI RING1 binding.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22255</offset>
+      <text>To test whether disruption of UbcH7~Ub closed state is specific to HHARI RING1, we assessed the effects of binding of other RING domains to UbcH7&#8208;O&#8208;15N&#8208;Ub. Though all domains tested bind to UbcH7, neither the canonical RING heterodimer BRCA1/BARD1 nor the Ubox E4BU disrupted the closed conformation of UbcH7~Ub while RNF144 RING1 produced effects similar to HHARI RING1 upon binding to UbcH7&#8208;O&#8208;15N&#8208;Ub (Fig&#160;3C and Appendix&#160;Fig S4). Thus, RBR&#8208;type RING1 domains share the ability to discourage closed UbcH7~Ub conformations, making them functionally distinct from canonical RING&#8208;type domains despite their structural similarities. Finally, we wondered whether HHARI RING1 can disrupt closed conformations of other E2~Ub species. Ubc13~Ub detectably populates closed conformations in the absence of E3 35. Indeed, addition of HHARI RING1 to Ubc13&#8208;O&#8208;15N&#8208;Ub leads to chemical shifts of Ub resonances back toward their positions in free Ub, along the same trajectory as the &#8220;open&#8221; to &#8220;closed&#8221; perturbations (Fig&#160;EV3). Thus, the ability of HHARI RING1 to disrupt closed E2~Ub states is not limited to UbcH7.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23390</offset>
+      <text>HHARI RING1 disruption of (E3&#8208;independent) closed E2~Ub conformations</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23462</offset>
+      <text>Similar to UbcH7, Ubc13~Ub populates closed states in the absence of an E3 35. Shown here are three 1H&#8208;15N&#8208;HSQC&#8208;TROSY spectra of Ub overlaid: free 15N&#8208;Ub (blue), Ubc13&#8208;O&#8208;15N&#8208;Ub (black), and Ubc13&#8208;O&#8208;15N&#8208;Ub in the presence of 3&#160;mol equiv. HHARI RING1 (red). Due to the weak affinity binding of Ubc13 to HHARI RING1, the complex is far from saturation and the spectrum exhibits fast&#8208;to&#8208;intermediate exchange behavior. Therefore, the observed CSPs for the effects of RING1 binding to Ubc13&#8208;O&#8208;15N&#8208;Ub are quite small (black versus red). Black arrows highlight several Ub resonances that shift along the same trajectory (but opposite direction) upon binding HHARI RING1 as experienced when Ub is conjugated to Ubc13, consistent with Ubc13~Ub populating more open&#8208;like states when in complex with HHARI RING1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24297</offset>
+      <text>Closed E2~Ubs are associated with increased reactivity toward Lys amino groups 1, 2, 3, 4, 5, 6.Therefore, a possible corollary to increased open E2~Ub conformations is an increase in transthiolation (reactivity toward Cys) as this is the relevant nucleophile in the context of RBR&#8208;type E3 ligases. However, we did not observe a difference between UbcH7~Ub reactivity toward free Cys in the absence versus presence of HHARI RING1 (Appendix&#160;Fig S5).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24749</offset>
+      <text>Based on these data, we propose a mechanism in which not only does the RING1 of an RBR fail to promote closed E2~Ub states, but also it actively discriminates against them.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24922</offset>
+      <text>RING1 opening of E2~Ub enforces Ub transfer via the RING2 active site Cys</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24996</offset>
+      <text>RBR E3s are active with E2s that are also active with canonical RING&#8208;type E3s 6, 8, 9, 15, 25, 26, 27, 28. This implies that the E2~Ub must distinguish between its two reaction modes (transthiolation and aminolysis) based on the type of E3 ligase with which it interacts. Open E2~Ub states are minimally reactive toward Lys and require activation for canonical RING&#8208;type Ub transfer 1, 2, 3, 4. We wondered whether there would be negative consequences if an RBR RING1 could also stabilize closed, aminolysis&#8208;activated E2~Ubs as seen with canonical RINGs. However, our efforts to generate a HHARI RING1 that activates the E2~Ub for aminolysis by mutating positions known to be critical in canonical RING domains failed. We took an alternative approach to assess the consequence of having aminolysis activity in the context of an RBR E3 by replacing the RING1 domain within the HHARI RING1&#8208;IBR&#8208;RING2 (WT&#8208;RBR domain) construct with the Ubox domain of E4BU to generate a Ubox&#8208;IBR&#8208;RING2 (UBR) hybrid (Fig&#160;4A). Ubox domains are E2&#8208;binding domains that contain RING&#8208;like folds, but do not ligate Zn2+ and are therefore more likely to fold successfully within a hybrid construct. Importantly, the Ubox domain of E4BU has been shown to activate UbcH5~Ub for aminolysis via promotion of closed E2~Ub conformations 1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>26324</offset>
+      <text>RING1 opening of E2~Ub enforces transfer via the RING2 active site</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26391</offset>
+      <text>Schematic representation of the two constructs used. Left: GST&#8208;tagged HHARIRBR with its native RING1 domain that does not induce closed conformations of UbcH5&#732;Ub. Right: GST&#8208;tagged HHARI construct in which the RING1 domain was replaced with the Ubox domain of E4BU to generate the UBR hybrid that promotes closed conformations of UbcH5&#732;Ub.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26737</offset>
+      <text>Left: Auto&#8208;ubiquitination assays were performed with wild&#8208;type HHARIRBR or an active&#8208;site&#8208;dead mutant (C357A&#8208;HHARIRBR). Products were visualized by Western blotting against GST. The zero time point was taken immediately prior to ATP addition; all other times are post&#8208;ATP addition. Right: Identical assays as shown on left were performed with the UBR hybrid. The active&#8208;site&#8208;dead mutant (C357A) retains substantial auto&#8208;ubiquitination activity signifying that UbcH5&#732;Ub is able to transfer Ub directly onto the GST&#8208;UBR hybrid construct, bypassing the RING2 active site Cys.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27331</offset>
+      <text>We posited that an RBR with the ability to activate E2~Ub for aminolysis might circumvent the obligate transthiolation reaction through the active site Cys residue in RING2. In in&#160;vitro auto&#8208;ubiquitination assays where the RBR E3 acts as a proxy substrate, Ub transfer occurs through the active site Cys as the active site mutation C357A essentially abrogates ubiquitination activity of HHARIRBR (Fig&#160;4B, left panel). Remarkably, this is not the case for reactions carried out by the UBR hybrid as the active&#8208;site&#8208;dead (C357A) version retains substantial auto&#8208;ubiquitination activity (Fig&#160;4B, right panel). The result implies that UbcH5~Ub transfers its Ub directly to Lys residues when bound to the hybrid E3 construct as it does not require the active site Cys. Our UBR hybrid construct demonstrates that the presence of an E2&#8208;binding domain that can activate E2~Ub for aminolysis creates an RBR that no longer undergoes obligate transfer to and through the active site Cys on RING2. Altogether, we conclude that by favoring open E2~Ub conformations, HHARI RING1 (and likely other RING1 domains) prevents off&#8208;target ubiquitination events catalyzed by the E2~Ub and consequently enforces Ub transfer through the RING2 active site Cys.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28582</offset>
+      <text>The hydrophobic surface of Ub is required for transfer of Ub to the RBR active site</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28666</offset>
+      <text>Mechanistically speaking, there is no need for RBR E3s to enhance E2~Ub ability to transfer Ub through aminolysis. Furthermore, as we demonstrated above, induction of closed E2~Ub can lead to undesirable off&#8208;target Ub transfer (Fig&#160;4). These two rationales may be sufficient to explain why RBR E3s prefer to keep E2~Ubs in open states. However, we noted that the hydrophobic (&#8220;I44&#8221;) surface of Ub that plays a critical role in protein&#8211;protein interactions is sequestered in closed E2~Ub but is exposed in open states. Furthermore, mutations of the Ub hydrophobic patch have previously been shown to decrease auto&#8208;ubiquitination activity in Parkin 40. This raises the question whether the exposed Ub surface has a specific role in Ub transfer by RBR E3s. In in&#160;vitro ubiquitination assays with the RBR E3s HHARIRBR, ParkinRBR, and HOIPRBR&#8208;LDD, use of Ub species that carry a mutation in a single hydrophobic patch residue led to reduced activity (Figs&#160;5A and B, and EV4A). These results indicate that the Ub hydrophobic patch is required for Ub transfer by RBRs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>29743</offset>
+      <text>The Ub hydrophobic patch plays a role in Ub transfer from E2~Ub onto RING2 of RBR E3 ligases</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29836</offset>
+      <text>E3 auto&#8208;ubiquitination assays were performed using various Ub mutants (I44A, R42A, Q49A, Q49E, and V70A) and the RBR E3s HHARIRBR (left) and ParkinRBR (right). Products were visualized by Western blotting against HA&#8208;Ub. Samples were analyzed 30&#160;min after ATP addition.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30110</offset>
+      <text>The hydrophobic patch of Ub (PDB 1ubq) is colored yellow on a surface representation and positions of each mutation are noted.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30237</offset>
+      <text>UbcH7&#732;Ub conjugates were preformed with either WT&#8208;Ub or I44A&#8208;Ub. After the addition of apyrase to quench the charging reaction, UbcH7&#732;UbWT (left) or UbcH7&#732;UbI44A (right) was incubated with ParkinRBR. The disappearance of each UbcH7&#732;Ub species and appearance of auto&#8208;ubiquitinated E3 were visualized under non&#8208;reducing conditions by Western blotting for HA&#8208;Ub. Time was recorded post&#8208;addition of ParkinRBR. E2&#732;Ub conjugated with I44A&#8208;Ub does not disappear over the time course of the reaction.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30749</offset>
+      <text>UbcH7 conjugated with WT&#8208;Ub, I44A&#8208;Ub, or V70A Ub as indicated was incubated with either H887A&#8208;HOIPRBR&#8208;LDD (left) or H359A&#8208;HHARIRBR (right) mutants that allow trapping of the E3&#732;Ub thioester with WT&#8208;Ub 29, 41. While a HOIP&#732;Ub thioester species is observed when UbcH7 was charged with WT&#8208;Ub, no detectable transfer occurs with the I44A&#8208;Ub conjugate (left). Similarly, V70A&#8208;Ub shows reduced formation of the HHARI&#732;Ub thioester (right). In addition to blotting for HA&#8208;Ub, the blot on the right was also blotted for GST&#8208;HHARI.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>31296</offset>
+      <text>Ub hydrophobic patch involvement in linear chain building by the RBR E3 HOIP</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31373</offset>
+      <text>Time courses of linear chain building assays using HOIPRBR&#8208;LDD and either UbcH5 (left) or UbcH7 (right) conjugated with WT&#8208;Ub or I44A&#8208;Ub as followed by Coomassie&#8208;stained gels. The I44A mutation in the donor Ub does not impair the formation of di&#8208;Ub 9, yet I44A&#8208;Ub significantly reduces linear chain building ability by HOIPRBR&#8208;LDD.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31719</offset>
+      <text>UbcH7 was pre&#8208;conjugated with either WT&#8208;Ub or mutant Ub (as indicated) and the reaction was quenched with apyrase. Each UbcH7&#732;Ub species was incubated with H887A&#8208;HOIPRBR&#8208;LDD to enable detection of the E3&#732;Ub intermediate 41. Samples were analyzed on SDS&#8211;PAGE under non&#8208;reducing conditions and subsequently visualized by Western blotting for the HA&#8208;tag on Ub. Time was recorded post&#8208;addition of H887A&#8208;HOIPRBR&#8208;LDD. Note: The HA antibody cross&#8208;reacts with free HOIP (see *).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32214</offset>
+      <text>Current models of RBR&#8208;type mechanisms assume a two&#8208;step process for Ub transfer: First, Ub is transferred from the E2~Ub to the active site Cys on RING2 to form an E3~Ub, and second, Ub is transferred from the E3~Ub to a substrate amino group. In the case of HOIPRBR&#8208;LDD, it has been shown that the I44 surface is not required for binding of the acceptor Ub 9. We therefore postulated that the I44 surface might be required for the first step of the RBR Ub transfer mechanism. To test this hypothesis, we compared discharge rates for E2~Ub charged with either WT&#8208;Ub or mutant Ub prior to incubation with ParkinRBR. In this assay, the disappearance of E2~Ub can be observed directly by SDS&#8211;PAGE (in the absence of reducing agent). UbcH7~UbWT disappears rapidly when incubated with Parkin, whereas the UbcH7~UbI44A is stable in the presence of Parkin indicating that Ub transfer from the E2~Ub to Parkin RING2 is impaired when the Ub to be transferred is I44A&#8208;Ub (Fig&#160;5C). Because E3~Ub intermediates for RBR E3s are often short&#8208;lived and therefore difficult to detect, it is not possible to say whether the observed disappearance of the E2~Ub is via transfer to the Parkin RING2 active site Cys or merely hydrolysis. To address this question, we took advantage of RING2 mutations in HOIP and HHARI (H887A and H359A, respectively) that stabilize the E3~Ub 29, 41. In assays with HOIPH887A or HHARIH359A as the E3, both the UbcH7~Ub and the E3~Ub conjugates are detected. Single mutations in the Ub hydrophobic surface show both reduced disappearance of the E2~Ub (similar to Parkin) and, importantly, decreased generation of E3~Ub (Figs&#160;5D and E, and EV4B). These experiments provide strong evidence that the hydrophobic patch of Ub plays a key role in the first step of the RBR mechanism, namely for Ub transfer from the RING1&#8208;bound E2 to the Cys on RING2. Whether the Ub hydrophobic patch is also required for the second step of Ub transfer by RBR E3s remains to be addressed in future studies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34227</offset>
+      <text>HHARI RING2 binds to the hydrophobic patch of Ub</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34276</offset>
+      <text>A possible explanation for the observation that the hydrophobic patch of Ub is required for transfer of Ub from the E2 onto the E3 active site is that the Ub surface binds to the RING2 domain to recruit its active site to the E2~Ub. Consistent with this notion, some RBR RING2 domains retain weak but detectable Ub transfer activity independent of RING1, suggesting that when protein concentrations are high enough in&#160;vitro, RING2 can recruit an E2~Ub on its own 9, 41, 42, 43, 44. We reasoned that an interaction between free Ub and RING2 is likely to be of very low affinity. Because Ub is extremely soluble, we performed NMR binding experiments using 100&#160;&#956;M 15N&#8208;HHARI RING2 (residues 325&#8211;396) and high concentrations of Ub (1&#160;mM; Fig&#160;6A). A subset of resonances disappear or shift in the presence of WT&#8208;Ub but not of V70A&#8208;Ub, the Ub mutant that most affects HHARI activity (Figs&#160;5A and 6A top versus middle panels). The result has two implications: (i) The effects observed with WT&#8208;Ub are not merely due to the very high Ub concentrations used and (ii) there is a direct, albeit low affinity interaction between RING2 and the hydrophobic surface of Ub. An NMR solution structure of HHARI RING2 has been solved, and therefore, the NMR spectrum is assigned 45, allowing perturbed residues to be identified and mapped onto the RING2 domain structure. The resulting surface forms a contiguous patch in proximity to the active site Cys357 and extends into the linker between IBR and RING2 (Fig&#160;6B). We were surprised to see involvement of the linker which is not observed in the crystal structure 29, so we repeated the binding experiment using a RING2 construct that lacks most of the RING2&#8208;IBR linker (HHARI RING2&#8208;&#916;L, residues 336&#8211;395). Remarkably, binding of Ub to 15N&#8208;HHARI RING2&#8208;&#916;L is substantially reduced, consistent with the linker serving as part of the binding interface (Fig&#160;6A, bottom panel).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>36209</offset>
+      <text>HHARI RING2 binds to Ub</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36233</offset>
+      <text>Top panel: Regions of 1H&#8208;15N&#8208;HSQC&#8208;TROSY spectra of 15N&#8208;HHARI RING2 in the absence (black) and presence (red) of excess Ub. Middle panel: Identical spectral region, but in the presence of Ub&#8208;V70A (red). Bottom panel: Identical spectral region, but spectra are from a truncated HHARI RING2 construct that lacks linker residues 325&#8211;335 (HHARI RING2&#8208;&#916;L).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36599</offset>
+      <text>Residues with CSPs &gt;&#160;1 stdv (HHARI residues 333, 337&#8211;342, 352&#8211;354, 363, 365, 371) are colored red in a cartoon (left) and surface (right) representation of HHARI RING2 (PDB 2m9y). The active site C357 is shown in yellow.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>36825</offset>
+      <text>CLUSTAL OMEGA sequence alignment of HHARI and Parkin RING2 domains. HHARI residues perturbed by Ub binding (A) are in red. HHARI residues that are conserved in Parkin and that decrease auto&#8208;ubiquitination activity when mutated in HHARIRBR are indicated with black boxes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37098</offset>
+      <text>Mutations in the Ub&#8208;binding surface of RING2 decrease activity in E3 auto&#8208;ubiquitination assays. Time points (10&#160;min) are visualized by Western blotting for the GST&#8208;tag on HHARI. Relative activity of HHARI WT and mutant forms is clearest when the intensity of the unmodified HHARI band is compared.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>37404</offset>
+      <text>1H&#8208;15N&#8208;HSQC&#8208;TROSY spectra of 15N&#8208;Ub demonstrate binding by WT&#8208;HHARI RING2, but not by mutant HHARI RING2 constructs that exhibit decreased auto&#8208;ubiquitination activity. Overlay of 15N&#8208;Ub spectra in the absence (black) and presence of WT&#8208;HHARI RING2 (red), W336A&#8208;HHARI RING2 (blue), T341N&#8208;HHARI RING2 (green), or E352A&#8208;HHARI RING2 (purple). HHARI mutations that exhibited reduced binding to Ub also show decreased ubiquitination activity in (D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37871</offset>
+      <text>Mutations in HHARI residues most highly perturbed by Ub binding were tested for functional consequences in auto&#8208;ubiquitination assays. In the context of HHARIRBR, Trp336, Glu352, and Arg363 were each mutated to Ala, and Thr341 was changed to an Asn to mimic the pathogenic mutation T415N in the analogous conserved residue in Parkin (Fig&#160;6C). Strikingly, T341N decreases HHARI's ligase activity substantially and both W336A and E352A show a moderate reduction of ubiquitination activity while R363A has no observable effect (Fig&#160;6D). NMR binding experiments confirm that the mutations that decrease ligase activity also decrease Ub binding to HHARI RING2 (Fig&#160;6E). Together, the results corroborate that RING2 and linker residues are important for both Ub binding and HHARI activity, leading us to propose that the hydrophobic surface on the donor Ub binds and recruits RING2 and that this step is crucial for overall RBR activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>38808</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38819</offset>
+      <text>Until a few years ago, RBR E3 ligases were considered to be RING&#8208;type E3 ligases because they were thought to contain two RING domains based on primary sequence analysis. Today, we know that only RING1 domains adopt a fold similar to canonical RING domains whereas RING2 domains fold into a different domain architecture that is shared by IBR domains 29, 30, 31, 32, 41, 43, 46. In common with canonical RING domains, RING1 binds an E2~Ub, but RING2 contains an active site Cys, similar to HECT&#8208;type E3 ligases, leading to the proposal that RBR E3 ligases act via a RING/HECT hybrid mechanism 6 (Fig&#160;7A). We sought here to define the mechanistic details of the RBR E3 HHARI and in so doing have discovered unique strategies that are shared among RBR E3s. Previously reported results had hinted that RBR E3s differ in essential functional ways from their eponymous RING&#8208;type E3 cousins, despite the structural similarity of RING1 domains and canonical RING domains. For example, HHARI retains the ability to transfer Ub using the UbcH5L104Q mutant that abrogates Ub transfer activity with canonical RING&#8208;type E3 ligases 1. Also, HHARI RING1 does not increase the Lys reactivity of UbcH5~Ub 6. Together, these results suggested that HHARI RING1 does not function like a canonical RING domain. Here, we demonstrate that RING1 domains not only fail to induce closed E2~Ub conformations&#8212;a mechanistic hallmark of canonical RING&#8208;type E3 ligases&#8212;but instead RING1s actively favor open E2~Ub conformations. This strategy ensures that the transfer of Ub proceeds via the active site Cys on RING2 and therefore that the type of product generated (e.g. mono&#8208; or a specific poly&#8208;Ub chain) is determined by the RBR E3 and not by the E2 (Fig&#160;7B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>40572</offset>
+      <text>Model of RBR E3 Ub transfer mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40611</offset>
+      <text>Auto&#8208;inhibited HHARI structure is shown in cartoon representation (PDB 4KC9). The E2&#8208;binding site (green oval) on RING1 (pink) is separated from the active site Cys (yellow spheres) on RING2 (orange) by more than 40&#160;&#197;. The IBR domain (dark blue) connects RING1 and RING2 and the Ariadne domain (gray) occludes the active site Cys.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40948</offset>
+      <text>A model depicts the events required for Ub transfer by HHARI (with no intended order). E2&#732;Ub binding to RING1 favors open E2&#732;Ub conformations (middle panel) that expose the Ub hydrophobic patch (orange circle). Movement of the Ariadne domain (middle panel) exposes the active site Cys (right panel, yellow star) and may allow a disorder&#8208;to&#8208;helix transition of the IBR&#8208;RING2 linker (dotted black line in right panel, not seen in structure in A) which completes the Ub&#8208;binding site on RING2 (yellow sphere, right panel). The hydrophobic patch of Ub (orange circle) recruits RING2 to ensure transfer of Ub to the active cite Cys.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41585</offset>
+      <text>We propose that the disfavoring of closed E2~Ub states by RING1 is a common mechanistic feature of RBR E3s for several reasons. First, we demonstrate by NMR that the RING1 domain from another RBR, RNF144, also promotes open UbcH7~Ub states (Fig&#160;3C). Second, the RBR E3s HHARI, Parkin, TRIAD1, and HOIP all exhibit robust Ub transfer activity with UbcH5L104Qin&#160;vitro (Figs&#160;1A and EV1). Third, not promoting closed E2~Ub states is functionally important as it prevents off&#8208;target ubiquitination events catalyzed by the E2~Ub (Fig&#160;4). In sum, RING1 domains act in an opposite manner to canonical RINGs in that they actively inhibit E2~Ub closed states and consequently, suppress E2~Ub aminolysis reactivity and therefore E2 specificity. Such a strategy can be rationalized in the context of the overall RBR mechanism in which an E2~Ub must transfer Ub specifically onto a Cys (the active site of RING2) and not to a Lys residue. RBR E3 ligases are rendered catalytically inactive when their active site Cys is mutated to an Ala proving that the Ub transfer occurs through an obligate covalent E3~Ub conjugate 6, 8, 9, 10, 11, 22, 23. Therefore, Ub transfer from the E2~Ub to Lys residues on either the E3 itself or another protein in its vicinity would be off&#8208;target and likely detrimental to the cellular processes that RBR E3s regulate. This unique feature of RBR RING1 domains allows RBR E3s to accept Ub from a variety of E2~Ubs including E2s that are able to transfer Ub onto either Lys or Cys, while ensuring that Ub transfer occurs through the active site Cys on RING2. Such discrimination is crucial, as in all cases known to date, it is the enzyme that carries out the final aminolysis reaction that determines the type of Ub modification on a given substrate. In the case of RING&#8208;type E3s, it is the E2 that determines whether poly&#8208;Ub chains are built as well as the chain topology (e.g. K48&#8208; versus K63&#8208;linked Ub chains). But in the case of E3 ligases that utilize an E3~Ub intermediate, the E3 controls the final Ub product formation. For example, the E2 E2&#8208;25K possesses intrinsic ability to build K48&#8208;linked Ub chains in the absence of an E3, but this preference is suppressed when paired with the linear chain building complex that contains HOIL&#8208;1L/HOIP known to build linear Ub chains 15. In such reactions, the E2~Ub acts as a supplier of Ub for the E3, but must not modify substrates directly. Altogether, these properties enable use of the same E2s by both RING&#8208;type and RBR E3s to follow the adage &#8220;The last guy holding the activated Ub/Ubl gets to determine the product&#8221; 47.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44206</offset>
+      <text>Consistent with this general principle, the only available structure of a HECT/E2~Ub complex shows the E2~Ub in an extended conformation with non&#8208;covalent interactions between Ub and the HECT domain C&#8208;lobe, suggesting that HECT&#8208;type E3s may also promote open E2~Ub states 7. However, the open E2~Ub state appears to be stabilized by interactions between Ub and the HECT active&#8208;site&#8208;containing C&#8208;lobe, while our NMR results show that the E2&#8208;binding domain (RING1) of RBR E3s actively disfavors E2~Ub closed states on its own. Likely, this feature is particularly important for RBR E3s like HHARI that can bind E2~Ub in their auto&#8208;inhibited states where RING1 and RING2 are very far removed as it serves to inhibit premature Ub transfer from the bound E2~Ub before an activation event allows recruitment of RING2 to occur.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45043</offset>
+      <text>Given the structural similarities between canonical RINGs and RBR RING1s, their opposite effects upon binding E2~Ub is surprising. As pointed out above, RING1 domains lack the basic linchpin residue responsible for stabilizing closed E2~Ub states, but this does not adequately explain why RING1 binding actively promotes open E2~Ubs. One possibility is that RING1 binds Ub in the context of E2~Ub as has been suggested for Parkin 33, but our NMR data for HHARI and RNF144 RING1 binding to E2~Ub presented here do not indicate Ub binding by RING1. Instead, NMR binding experiments with either UbcH5 or UbcH7 identified an E2 surface that includes residues of the crossover helix that are not perturbed by canonical RING binding, suggesting that RING1 binds to a shifted or expanded surface on the E2. Notably, this &#8220;new&#8221; E2&#8208;binding surface overlaps with that contacted by Ub in closed E2~Ub states, suggesting that RING1 binding may effectively compete with Ub binding, thereby disfavoring closed conformations. The details of HHARI RING1:E2~Ub must await further structural characterization.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46141</offset>
+      <text>Our finding that mutation of Ub hydrophobic patch residues affects the first Ub transfer step for HHARI, Parkin, and HOIP led to our subsequent discovery of a Ub&#8208;binding surface on RING2. Although there are differences in severity among different Ub hydrophobic patch mutations for different RBR E3 ligases, all three E3s tested exhibit reduced activity with V70A&#8208;Ub and Q49E&#8208;Ub. Consistent with the modest degree of sequence conservation in RBR RING2s, we speculate that the Ub&#8208;binding surface on RING2 is composed of some different residues in each RBR E3 (Figs&#160;5A and EV4B). That the composition of the Ub&#8208;binding regions on RING2s varies is not particularly surprising. Various Ub&#8208;binding domains that use the same Ub hydrophobic patch differ in primary and tertiary structures, indicating that there are many possible binding modes between the Ub hydrophobic patch and a binding motif. We therefore propose that RING2 binding to the hydrophobic patch of Ub serves to recruit RING2 to the RING1&#8208;bound E2~Ub and that this feature is shared among RBR E3 ligases.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47221</offset>
+      <text>While this study was under review, a crystal structure of HOIPRBR&#8208;LDD bound to UbcH5~Ub was published that is consistent with the main tenets of the model presented here 48. The structure reveals a myriad of interactions among the E3, E2, and Ub that involve multiple copies of HOIP, UbcH5, and Ub in the asymmetric unit. Nevertheless, a number of features and interactions observed in the crystal are analogous to what we report here from solution measurements. First, the E2~Ub bound to RING1 of the HOIPRBR&#8208;LDD is in an open conformation. In the crystal, this Ub moiety forms an extensive interface with the E3 including residues from the RING1&#8208;IBR linker and the IBR. Our work demonstrates that HHARI and RNF144 RING1 constructs (which include the RING1&#8208;IBR linker) are sufficient to induce open E2~Ub conformations, so the importance of additional contacts with the IBR during the first step of ubiquitin transfer remains to be addressed. Second, the hydrophobic patch of this Ub makes contacts to the IBR&#8208;RING2 linker and RING2 of another HOIP molecule in the crystal and this interaction is centered around Ub residues I44 and V70, in agreement with our assays showing that I44A&#8208;Ub and V70A&#8208;Ub significantly impair Ub transfer with HOIPRBR&#8208;LDD (Fig&#160;EV4B). As the HOIP/E2~Ub structure is of UbcH5~Ub which is already in open states when unbound to an E3, our study provides an important additional insight that cannot be inferred from the crystal structure: RING1 binding actively opposes closed states, rather than just failing to promote them.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48790</offset>
+      <text>Structural and biochemical investigations have provided rationales for the effects of many patient mutations in Parkin, but the T415N mutation has remained enigmatic 49. Substitution of Thr415 with Asn decreases ligase activity substantially though it alters neither the structure nor solubility of Parkin 43, 50, 51. Thr415 is proposed to be involved in a hydrogen&#8208;bonding network around the active site that is required for catalysis 43. In our study, we found that the analogous mutation in HHARI, T341N, also decreases ligase activity and, importantly, decreases Ub binding to HHARI RING2 (Figs&#160;6D and E, and EV5B). Thus, our discovery of a Ub&#8208;binding site composed of residues from RING2 and its proximal linker provides another possible mechanistic explanation for the loss of function associated with this Parkin mutation. Our results support an earlier report that peptides spanning the Parkin IBR&#8208;RING2 linker bind Ub in a peptide array assay 40. Thr415 is conserved in orthologs of Parkin as well as orthologs in HHARI. Altogether, the observations lead us to propose that the pathogenic Parkin T415N mutation disrupts Ub binding and consequently disables the recruitment of RING2 to the bound E2~Ub conjugate to&#160;enable the transfer of Ub onto the Parkin active site. It remains possible that the detrimental effect of T415N on Parkin activity is due to a combination of the loss of Ub binding to RING2 and the&#160;loss of a critical hydrogen&#8208;bonding network around the active site 43.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>50293</offset>
+      <text>Comparison of RBR RING2 domains</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50325</offset>
+      <text>RING2 sequence alignments were generated using CLUSTAL OMEGA. Residues observed to be perturbed upon Ub binding to HHARI RING2 in NMR titration experiments are highlighted in red. HHARI residues that were mutated and tested for change in activity are marked with a (&#450;) with red indicating decreased and black indicating no observable change in activity (see Fig&#160;6C). Green bars highlight residues that are important for Ub binding of HHARI RING2 that are well conserved among RBR RING2s. The active site Cys is marked with a yellow bar. 7th and 8th Zn2+ coordinating residues are not shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50918</offset>
+      <text>Structural overlay of NMR solution structures of Parkin (teal, PDB 2lwr) and HHARI (orange, PDB 2m9y) RING2 domains. RING2 residues perturbed upon Ub binding (Fig&#160;6A) are colored dark red on HHARI RING2. The HHARI RING2 mutation T341N abrogates Ub binding and decreases ligase activity (Fig&#160;6D and E). Inset: The analogous mutation in Parkin, T415N, has been linked to early&#8208;onset Parkinson's disease 49.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51327</offset>
+      <text>Structural overlay of three RING2 domains: a HHARI NMR solution structure (orange, PDB 2m9y), a HHARI crystal structure (yellow, PDB 4kc9), and a HOIP crystal structure (gray, PDB 4ljq). An enlargement of the N&#8208;terminal region that is part of the IBR&#8208;RING2 linker shows a helical disposition of the linker in the HOIP and HHARI NMR, but not in the HHARI crystal structure.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51704</offset>
+      <text>A common feature of RBR E3 ligases is that they exist in auto&#8208;inhibited states characterized by low activity 8, 10, 29, 30, 31, 32, 33, 34, 40, 52. Structures of HHARI and Parkin reveal two common features that define the auto&#8208;inhibited states 29, 30, 31, 32, 33, 34. First, the active site Cys on RING2 is at least partially buried by another domain. Second, the E2&#8208;binding RING1 domain and the RING2 domain are separated by large distances (Fig&#160;7A). Both features imply that RBR E3 ligases must undergo major rearrangements to become active enzymes. Details of release of auto&#8208;inhibition are specific for each RBR E3 and are not yet fully defined 8, 10, 29, 30, 31, 32, 33, 34, 40, 52. However, they share one common feature: The E2&#8208;binding RING1 domain and the active&#8208;site&#8208;containing RING2 domain must come together for transfer of Ub from the E2~Ub onto the E3 active site. In auto&#8208;inhibited conformations of HHARI and Parkin, the domains of the RBR are connected by long flexible linkers that presumably allow the domains to adopt positions that are quite remote from one another. Other than a short helix referred to as the REP (repressor) element in Parkin, linkers between IBR and RING2 domains are either not observed or are unstructured in existing crystal structures of HHARI and Parkin 29, 30, 31, 32, 33, 34, 52. However, the linker proximal to HHARI RING2 is observed in solution by NMR and in crystal structures of HOIPRING2&#8208;LDD and HOIPRBR&#8208;LDD bound to E2~Ub where in all cases it forms a short helix (Fig&#160;EV5C and 41, 45, 48). Importantly, several of the HHARI residues that we observed to be perturbed upon Ub binding are in the part of the IBR&#8208;RING2 linker that is seen to form a helix. We propose that the linker is extended and/or disordered in auto&#8208;inhibited states, resulting in an incomplete RING2 Ub&#8208;binding surface that will have little or no ability to bind Ub. Upon release of the inhibitory domain(s), the linker could undergo a coil&#8208;to&#8208;helix transition to complete the Ub&#8208;binding site on RING2, enabling it to be recruited to the conjugated Ub moiety bound at RING1. We propose that&#160;open E2~Ub conformations induced by RING1 binding expose the hydrophobic patch on the conjugated Ub to allow Ub within the RING1&#8208;bound E2~Ub to contact RING2 and ensure proper transfer of Ub onto the RING2 active. Although the structural details by which this mechanism is carried out may vary among RBRs, we believe that the main features defined here will be shared among them.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54234</offset>
+      <text>In closing, we note that our original proposal that RBR E3s are RING/HECT hybrids remains true in a structural sense. But findings reported here show clearly that the RBRs have evolved their own distinctive mechanistic strategies to achieve their function. Most remarkably, the centerpiece of the canonical RING allosteric mechanism for Ub transfer has been turned on its head by the RBRs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>54624</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54646</offset>
+      <text>Cloning and constructs</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54669</offset>
+      <text>The following constructs were used in this study. If not stated otherwise, the following constructs are human and full&#8208;length: HHARI&#8208;RBR (aa 177&#8211;395), HHARI&#8208;RING2 (aa 325&#8211;396), HHARI&#8208;RING2&#8208;&#8710;L (aa 336&#8211;395), HHARI&#8208;RING1 (aa 177&#8211;270), GST&#8208;Parkin&#8208;RBR (aa 217&#8211;465, rat), TRIAD1&#8208;&#8710;ARI (aa 1&#8211;348), RNF144 RING1 (aa 2&#8211;108), HOIP&#8208;RBR&#8208;LDD (aa 697&#8211;1,072), HOIP&#8208;RING2 (aa 853&#8211;1,072), E4BU (aa 1,142&#8211;1,173, mouse), BRCA1/BARD1 (aa 1&#8211;100/26&#8211;140), UbcH7WT or UbcH7C86S, UbcH5cWT or UbcH5cC85S, His6&#8208;Ubc13C87S, E4BU&#8208;HHARI hybrid (mouseE4BU aa 1,142&#8211;1,173, HHARI aa 271&#8211;396) with either WT&#8208;HHARI RING2 active site C357 or C357A. HHARI RING1 and E4BU&#8208;HHARI hybrid were cloned into pGEX&#8208;4T in&#8208;frame with thrombin&#8208;cleavable, N&#8208;terminal GST&#8208;tag. RNF144 RING1 was cloned into a His6&#8208;SUMO vector (N&#8208;terminal tag). TRIAD1&#8208;&#8710;ARI was cloned into pet28a in&#8208;frame with His6&#8208;T7 at the N&#8208;terminus.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55623</offset>
+      <text>Expression and purification of recombinant proteins</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55675</offset>
+      <text>Proteins were expressed either in LB or minimal M9 medium supplemented with [15N]&#8208;ammonium chloride or 13C&#8208;glucose in Escherichia coli (BL21 DE3 cells) and induced with 200&#160;&#956;M IPTG at 16&#176;C for 18&#8211;22&#160;h. Media for E3s (except E4BU) was supplemented with 0.2&#160;mM Zn2+. UbcH5c, UbcH7, His6&#8208;Ubc13, BRCA1/BARD1, E4BU, GST&#8208;HHARI&#8208;RBR, GST&#8208;Parkin&#8208;RBR, HOIP&#8208;RBR&#8208;LDD, HOIP&#8208;RING2 were purified as previously described 6, 8, 35, 36, 41, 53. GST&#8208;E4BU&#8208;HHARI hybrid was purified as GST&#8208;HHARI&#8208;RBR.HHARI RING1 and RING2 constructs were purified using GST columns (GE Healthcare and Life Sciences) in 50&#160;mM Tris, 200&#160;mM NaCl, pH 8.0, and eluted with 10&#160;mM glutathione. GST&#8208;tags cleaved with thrombin (Sigma&#8208;Aldrich) and removed by size&#8208;exclusion chromatography (25&#160;mM NaPO4, 150&#160;mM NaCl, pH&#160;7.0). His6&#8208;T7&#8208;TRIAD1&#8208;&#8710;ARI and His6&#8208;SUMO&#8208;RNF144&#8208;RING1 were purified using Ni2+ affinity chromatography. His6&#8208;SUMO&#8208;tag was removed from RNF144&#8208;RING1 using SUMO protease in 50&#160;mM Tris, 200&#160;mM NaCl, 1&#160;mM DTT, pH 8.0. Finally, size&#8208;exclusion chromatography in 25&#160;mM NaPO4, 150&#160;mM NaCl, pH 7.0, was performed on His6&#8208;T7&#8208;TRIAD1&#8208;&#8710;ARI and cleaved RNF144&#8208;RING1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>56882</offset>
+      <text>E2~Ub discharge assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>56905</offset>
+      <text>2&#160;&#956;M wheat E1, 20&#160;&#956;M UbcH7 or UbcH5, 10&#160;&#956;M of Ub or HA&#8208;Ub (WT or mutant), 5&#160;mM ATP were mixed at 37&#176;C in 25&#160;mM NaPO4, 150&#160;mM NaCl, pH 7.0 for 20&#160;min. Charging reactions were quenched with the addition of 0.1 units of apyrase (Sigma&#8208;Aldrich)/10&#160;&#956;l reaction for 5&#160;min. A zero&#8208;minute time point was taken using non&#8208;reducing SDS&#8211;PAGE load dye prior to incubation with either free nucleophile or E3. Cys reactivity assays: Charging reactions were diluted twofold and incubated at 37&#176;C with a final concentration of either 5&#160;mM Cys in the absence or presence of 75&#160;&#956;M E3 (HHARI RING1). Reactions were quenched at given time points by addition of non&#8208;reducing SDS&#8211;PAGE load dye. Products were visualized with Coomassie blue stain. Parkin discharge assays: Charging reactions were diluted twofold and incubated at 37&#176;C with a final concentration of 4&#160;&#956;M GST&#8208;Parkin&#8208;RBR. Reactions were quenched at given time points by addition of non&#8208;reducing SDS&#8211;PAGE load dye. UbcH7~Ub discharge and E3&#8208;Ub product formation were visualized by Western blotting for HA&#8208;Ub (HA antibody from Life Tein, LT0422). HOIP&#732;Ub/HHARI&#732;Ub capture assay: 50&#160;&#956;l of charging reactions was quenched with addition of 5&#160;&#956;l apyrase for 5&#160;min at room temperature (RT). Time point zero was taken immediately prior to addition of H887A&#8208;HOIPRBR&#8208;LDD or H359A&#8208;HHARIRBR to a final concentration of 5&#160;&#956;M E3. Reactions were performed at RT and quenched at given time points by addition of non&#8208;reducing SDS&#8211;PAGE load dye. Product formation was visualized by Western blotting for HA&#8208;Ub and GST (HHARI).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58521</offset>
+      <text>Ubiquitination assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58543</offset>
+      <text>For E3 auto&#8208;ubiquitination assays, 0.5&#160;&#956;M wheat E1, 2&#160;&#956;M E2, 2&#160;&#956;M E3 (GST&#8208;HHARIRBR, T7&#8208;TRIAD1&#916;ARI, GST&#8208;Parkin&#8208;RBR, Flag&#8208;BRCA1/BARD1) and 20&#160;&#956;M Ub were incubated at 37&#176;C in 25&#160;mM NaPO4, 150&#160;mM NaCl, pH 7.0. Reactions were initiated with 10&#160;mM ATP and quenched with SDS&#8211;PAGE reducing buffer. Samples were run on SDS&#8211;PAGE gel and visualized on Western blots (blotting for tags on E3). Antibodies used were as follows: GST antibody&#8212;Life Tein, LT0423 (Figs&#160;1, 4 and 6); Flag antibody&#8212;Sigma&#8208;Aldrich, F3165 (Fig&#160;1); and T7 antibody&#8212;EMD Millipore, 69522 (Fig&#160;1). Free linear chain building assays using HOIPRBR&#8208;LDD were done as described previously 41.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59230</offset>
+      <text>Generation of stable E2&#8208;O&#8208;Ub</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59263</offset>
+      <text>10&#160;&#956;M human E1, 250&#160;&#956;M E2 (UbcH7C86S, UbcH5cC85S or His6&#8208;Ubc13C87S), 750&#160;&#956;M Ub, 12.5&#160;mM ATP were incubated at 37&#176;C for 8&#160;h in 25&#160;mM NaPO4, 150&#160;mM NaCl, pH 7.0. Charged species were separated from uncharged species using size&#8208;exclusion chromatography.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>59529</offset>
+      <text>NMR experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59545</offset>
+      <text>The same buffer (25&#160;mM NaPO4, 150&#160;mM NaCl, pH&#160;7.0, 10% D2O) and temperature (298&#160;K) were used for all experiments. All (1H,15N)&#8208;HSQC&#8208;TROSY experiments were acquired at field strengths of 500&#160;MHz except for data collected for Fig&#160;6A where 600&#160;MHz was used instead. The following concentrations were used for each figure. Fig&#160;1: 220&#160;&#956;M 15N&#8208;UbcH5&#8208;O&#8208;15N&#8208;Ub; Fig&#160;2: 250&#160;&#956;M of 15N&#8208;UbcH7C86S and 15N&#8208;UbcH7&#8208;O&#8208;UbI44A, 200&#160;&#956;M of 15N&#8208;UbcH7&#8208;O&#8208;Ub; Fig&#160;EV2: 250&#160;&#956;M free 15N&#8208;UbcH7C86S and 250&#160;&#956;M 15N&#8208;UbcH7C86S&#160;+&#160;125&#160;&#956;M HHARI RING1; Fig&#160;3A, left panel: 50&#160;&#956;M 15N&#8208;Ub, 200&#160;&#956;M free UbcH7&#8208;O&#8208;15N&#8208;Ub, 160&#160;&#956;M UbcH7&#8208;O&#8208;15N&#8208;Ub&#160;+&#160;200&#160;&#956;M HHARI RING1; Fig&#160;3C: 200&#160;&#956;M free UbcH7&#8208;O&#8208;15N&#8208;Ub, 160&#160;&#956;M UbcH7&#8208;O&#8208;15N&#8208;Ub&#160;+&#160;200&#160;&#956;M HHARI RING1, 70&#160;&#956;M UbcH7&#8208;O&#8208;15N&#8208;Ub + 200&#160;&#956;M RNF144 RING1, 220&#160;&#956;M UbcH7&#8208;O&#8208;15N&#8208;Ub&#160;+&#160;220&#160;&#956;M BRCA1/BARD1; Appendix&#160;Fig S4: 160&#160;&#956;M UbcH7&#8208;O&#8208;15N&#8208;Ub&#160;+&#160;510&#160;&#956;M E4BU; Fig&#160;EV3: 50&#160;&#956;M 15N&#8208;Ub, 100&#160;&#956;M UbcH13&#8208;O&#8208;15N&#8208;Ub, 100&#160;&#956;M Ubc13&#8208;O&#8208;15N&#8208;Ub&#160;+&#160;300&#160;&#956;M HHARI RING1; Fig&#160;6A: 100&#160;&#956;M free 15N&#8208;HHARI RING2(&#8208;&#916;L), 100&#160;&#956;M 15N&#8208;HHARIRING2(&#8208;&#916;L)&#160;+&#160;1&#160;mM Ub (either WT or V70A); Fig&#160;6E: 50&#160;&#956;M free 15N&#8208;Ub, 50&#160;&#956;M 15N&#8208;Ub&#160;+&#160;500&#160;&#956;M HHARI RING2 (WT or mutants).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60850</offset>
+      <text>(1H,13C)&#8208;HSQC&#8208;TROSY experiments for Fig&#160;3B and Appendix&#160;Fig S3 were acquired at 500&#160;MHz (200&#160;&#956;M free 13C&#8208;UbcH7C86S, 200&#160;&#956;M 13C&#8208;UbcH7&#8208;O&#8208;Ub, 125&#160;&#956;M 13C&#8208;UbcH7&#8208;O&#8208;Ub&#160;+&#160;150&#160;&#956;M HHARI RING1) or 600&#160;MHz (300&#160;&#956;M 13C&#8208;UbcH7C86S&#160;+&#160;360&#160;&#956;M HHARI RING1). NMRPipe/NMRDraw 54 was used to process NMR data. NMRViewJ (One Moon Scientific) was used for data visualization 55. The equation&#160;&#916;&#948;&#160;=&#160;[(&#916;&#948;15N/5)2&#160;+&#160;(&#916;&#948; 1H)2]1/2 was used to calculate chemical shift perturbations of 2D TROSY&#8208;HSQC NMR experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>61388</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61409</offset>
+      <text>KKD, KR, and REK conceived the experiments and wrote the manuscript. KKD performed the NMR and biochemical experiments with crucial support by EDD BS performed linear chain building assays with HOIP.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>61609</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>61630</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>61690</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>61713</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">942</infon>
+      <infon key="pub-id_pmid">22885007</infon>
+      <infon key="fpage">933</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61724</offset>
+      <text>Structure of an E3:E2~Ub complex reveals an allosteric mechanism shared among RING/U&#8208;box ligases</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">883</infon>
+      <infon key="pub-id_pmid">22902369</infon>
+      <infon key="fpage">876</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61823</offset>
+      <text>BIRC7&#8208;E2 ubiquitin conjugate structure reveals the mechanism of ubiquitin transfer by a RING dimer</text>
+    </passage>
+    <passage>
+      <infon key="volume">489</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">120</infon>
+      <infon key="pub-id_pmid">22842904</infon>
+      <infon key="fpage">115</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61924</offset>
+      <text>Structure of a RING E3 ligase and ubiquitin&#8208;loaded E2 primed for catalysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="lpage">602</infon>
+      <infon key="pub-id_pmid">26148049</infon>
+      <infon key="fpage">597</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>62001</offset>
+      <text>Structural basis for the RING&#8208;catalyzed synthesis of K63&#8208;linked ubiquitin chains</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">83</infon>
+      <infon key="pub-id_pmid">21474069</infon>
+      <infon key="fpage">75</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62086</offset>
+      <text>Essential role for ubiquitin&#8208;ubiquitin&#8208;conjugating enzyme interaction in ubiquitin discharge from Cdc34 to substrate</text>
+    </passage>
+    <passage>
+      <infon key="volume">474</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">108</infon>
+      <infon key="pub-id_pmid">21532592</infon>
+      <infon key="fpage">105</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62207</offset>
+      <text>UBCH7 reactivity profile reveals parkin and HHARI to be RING/HECT hybrids</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">1102</infon>
+      <infon key="pub-id_pmid">20064473</infon>
+      <infon key="fpage">1095</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>62281</offset>
+      <text>Insights into ubiquitin transfer cascades from a structure of a UbcH5B approximately ubiquitin&#8208;HECT(NEDD4L) complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="lpage">846</infon>
+      <infon key="pub-id_pmid">22791023</infon>
+      <infon key="fpage">840</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62399</offset>
+      <text>LUBAC synthesizes linear ubiquitin chains via a thioester intermediate</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">3844</infon>
+      <infon key="pub-id_pmid">22863777</infon>
+      <infon key="fpage">3833</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62470</offset>
+      <text>The E3 ligase HOIP specifies linear ubiquitin chain assembly through its RING&#8208;IBR&#8208;RING domain and the unique LDD extension</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2860</infon>
+      <infon key="pub-id_pmid">24076655</infon>
+      <infon key="fpage">2848</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>62597</offset>
+      <text>TRIAD1 and HHARI bind to and are activated by distinct neddylated Cullin&#8208;RING ligase complexes</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">E2655</infon>
+      <infon key="pub-id_pmid">24979766</infon>
+      <infon key="fpage">E2646</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>62694</offset>
+      <text>RNF144A, an E3 ubiquitin ligase for DNA&#8208;PKcs, promotes apoptosis during DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="volume">392</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">608</infon>
+      <infon key="pub-id_pmid">9560156</infon>
+      <infon key="fpage">605</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>62779</offset>
+      <text>Mutations in the parkin gene cause autosomal recessive juvenile parkinsonism</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="source">Am J Hum Genet</infon>
+      <infon key="lpage">596</infon>
+      <infon key="pub-id_pmid">9042918</infon>
+      <infon key="fpage">588</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>62856</offset>
+      <text>Localization of a gene for an autosomal recessive form of juvenile Parkinsonism to chromosome 6q25.2&#8208;27</text>
+    </passage>
+    <passage>
+      <infon key="volume">471</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">641</infon>
+      <infon key="pub-id_pmid">21455181</infon>
+      <infon key="fpage">637</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>62962</offset>
+      <text>SHARPIN forms a linear ubiquitin ligase complex regulating NF&#8208;kappaB activity and apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">4887</infon>
+      <infon key="pub-id_pmid">17006537</infon>
+      <infon key="fpage">4877</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>63056</offset>
+      <text>A ubiquitin ligase complex assembles linear polyubiquitin chains</text>
+    </passage>
+    <passage>
+      <infon key="volume">471</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">596</infon>
+      <infon key="pub-id_pmid">21455173</infon>
+      <infon key="fpage">591</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63121</offset>
+      <text>Linear ubiquitination prevents inflammation and regulates immune signalling</text>
+    </passage>
+    <passage>
+      <infon key="volume">471</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">636</infon>
+      <infon key="pub-id_pmid">21455180</infon>
+      <infon key="fpage">633</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63197</offset>
+      <text>SHARPIN is a component of the NF&#8208;kappaB&#8208;activating linear ubiquitin chain assembly complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">155</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="lpage">1244</infon>
+      <infon key="pub-id_pmid">10880484</infon>
+      <infon key="fpage">1231</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>63292</offset>
+      <text>Ariadne&#8208;1: a vital Drosophila gene is required in development and defines a new conserved family of ring&#8208;finger proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">554</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="lpage">504</infon>
+      <infon key="pub-id_pmid">14623119</infon>
+      <infon key="fpage">501</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>63417</offset>
+      <text>Human homologue of ariadne promotes the ubiquitylation of translation initiation factor 4E homologous protein, 4EHP</text>
+    </passage>
+    <passage>
+      <infon key="volume">291</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">252</infon>
+      <infon key="pub-id_pmid">16457801</infon>
+      <infon key="fpage">239</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>63533</offset>
+      <text>ARI&#8208;1, an RBR family ubiquitin&#8208;ligase, functions with UBC&#8208;18 to regulate pharyngeal development in C.&#160;elegans</text>
+    </passage>
+    <passage>
+      <infon key="volume">319</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="lpage">172</infon>
+      <infon key="pub-id_pmid">23059369</infon>
+      <infon key="fpage">161</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63650</offset>
+      <text>Human Homolog of Drosophila Ariadne (HHARI) is a marker of cellular proliferation associated with nuclear bodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">200</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">172</infon>
+      <infon key="pub-id_pmid">23319602</infon>
+      <infon key="fpage">163</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63763</offset>
+      <text>PINK1 drives Parkin self&#8208;association and HECT&#8208;like E3 activity upstream of mitochondrial binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">897</infon>
+      <infon key="pub-id_pmid">23670163</infon>
+      <infon key="fpage">886</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63864</offset>
+      <text>Parkin mitochondrial translocation is achieved through a novel catalytic activity coupled mechanism</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">19521497</infon>
+      <infon key="fpage">e1000510</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>63964</offset>
+      <text>A mechanistic basis for the coordinated regulation of pharyngeal morphogenesis in Caenorhabditis elegans by LIN&#8208;35/Rb and UBC&#8208;18&#8208;ARI&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">3504</infon>
+      <infon key="pub-id_pmid">24928900</infon>
+      <infon key="fpage">3488</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>64107</offset>
+      <text>A specific subset of E2 ubiquitin&#8208;conjugating enzymes regulate Parkin activation and mitophagy differently</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24023840</infon>
+      <infon key="fpage">e73235</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64216</offset>
+      <text>Proteasome inhibition promotes Parkin&#8208;Ubc13 interaction and lysine 63&#8208;linked ubiquitination</text>
+    </passage>
+    <passage>
+      <infon key="volume">97</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">13359</infon>
+      <infon key="pub-id_pmid">11078524</infon>
+      <infon key="fpage">13354</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>64312</offset>
+      <text>Parkin functions as an E2&#8208;dependent ubiquitin&#8208;protein ligase and promotes the degradation of the synaptic vesicle&#8208;associated protein, CDCrel&#8208;1</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">843</infon>
+      <infon key="pub-id_pmid">23685073</infon>
+      <infon key="fpage">831</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64463</offset>
+      <text>Mutations in the intellectual disability gene Ube2a cause neuronal dysfunction and impair parkin&#8208;dependent mitophagy</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Structure</infon>
+      <infon key="lpage">1041</infon>
+      <infon key="pub-id_pmid">23707686</infon>
+      <infon key="fpage">1030</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64582</offset>
+      <text>Structure of HHARI, a RING&#8208;IBR&#8208;RING ubiquitin ligase: autoinhibition of an Ariadne&#8208;family E3 and insights into ligation mechanism</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23770887</infon>
+      <infon key="fpage">1982</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64718</offset>
+      <text>Structure and function of Parkin E3 ubiquitin ligase reveals aspects of RING and HECT ligases</text>
+    </passage>
+    <passage>
+      <infon key="volume">340</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">1455</infon>
+      <infon key="pub-id_pmid">23661642</infon>
+      <infon key="fpage">1451</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64812</offset>
+      <text>Structure of parkin reveals mechanisms for ubiquitin ligase activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2112</infon>
+      <infon key="pub-id_pmid">23727886</infon>
+      <infon key="fpage">2099</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64883</offset>
+      <text>Structure of the human Parkin ligase domain in an autoinhibited state</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2521</infon>
+      <infon key="pub-id_pmid">26254304</infon>
+      <infon key="fpage">2506</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>64953</offset>
+      <text>Disruption of the autoinhibited state primes the E3 ligase parkin for activation and catalysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2505</infon>
+      <infon key="pub-id_pmid">26254305</infon>
+      <infon key="fpage">2492</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65048</offset>
+      <text>A Ubl/ubiquitin switch in the activation of Parkin</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">1633</infon>
+      <infon key="pub-id_pmid">21226485</infon>
+      <infon key="fpage">1624</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>65099</offset>
+      <text>Ubiquitin in motion: structural studies of the ubiquitin&#8208;conjugating enzyme approximately ubiquitin conjugate</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">5651</infon>
+      <infon key="pub-id_pmid">12732733</infon>
+      <infon key="fpage">5646</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>65211</offset>
+      <text>Binding and recognition in the assembly of an active BRCA1/BARD1 ubiquitin&#8208;ligase complex</text>
+    </passage>
+    <passage>
+      <infon key="volume">517</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">226</infon>
+      <infon key="pub-id_pmid">25327252</infon>
+      <infon key="fpage">223</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>65303</offset>
+      <text>Allosteric activation of the RNF146 ubiquitin ligase by a poly(ADP&#8208;ribosyl)ation signal</text>
+    </passage>
+    <passage>
+      <infon key="source">BMC Struct Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">18485199</infon>
+      <infon key="fpage">26</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>65393</offset>
+      <text>Interactions between the quality control ubiquitin ligase CHIP and ubiquitin conjugating enzymes</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Biomol NMR Assign</infon>
+      <infon key="lpage">23</infon>
+      <infon key="pub-id_pmid">19636915</infon>
+      <infon key="fpage">21</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>65490</offset>
+      <text>1H, 13C and 15N resonance assignments for the human E2 conjugating enzyme, UbcH7</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="lpage">2867</infon>
+      <infon key="pub-id_pmid">21694720</infon>
+      <infon key="fpage">2853</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>65571</offset>
+      <text>Autoregulation of Parkin activity through its ubiquitin&#8208;like domain</text>
+    </passage>
+    <passage>
+      <infon key="volume">503</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">426</infon>
+      <infon key="pub-id_pmid">24141947</infon>
+      <infon key="fpage">422</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>65641</offset>
+      <text>Structural basis for ligase&#8208;specific conjugation of linear ubiquitin chains by HOIP</text>
+    </passage>
+    <passage>
+      <infon key="volume">340</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="lpage">1129</infon>
+      <infon key="pub-id_pmid">15236971</infon>
+      <infon key="fpage">1117</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>65727</offset>
+      <text>Structure of the C&#8208;terminal RING finger from a RING&#8208;IBR&#8208;RING/TRIAD motif reveals a novel zinc&#8208;binding domain distinct from a RING</text>
+    </passage>
+    <passage>
+      <infon key="source">Nat Commun</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">23770917</infon>
+      <infon key="fpage">1983</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>65865</offset>
+      <text>A molecular explanation for the recessive nature of parkin&#8208;linked Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">234</infon>
+      <infon key="pub-id_pmid">24328108</infon>
+      <infon key="fpage">225</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65953</offset>
+      <text>Isolated RING2 domain of parkin is sufficient for E2&#8208;dependent E3 ligase activity</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">24058416</infon>
+      <infon key="fpage">e74047</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>66037</offset>
+      <text>Structure of the HHARI catalytic domain shows glimpses of a HECT E3 ligase</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">3100</infon>
+      <infon key="pub-id_pmid">17360614</infon>
+      <infon key="fpage">3095</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>66112</offset>
+      <text>Structure of the Parkin in&#8208;between&#8208;ring domain provides insights for E3&#8208;ligase dysfunction in autosomal recessive Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="source">Cell Res</infon>
+      <infon key="lpage">440</infon>
+      <infon key="pub-id_pmid">27002219</infon>
+      <infon key="fpage">423</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>66252</offset>
+      <text>E2 enzymes: more than just middle men</text>
+    </passage>
+    <passage>
+      <infon key="volume">529</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">550</infon>
+      <infon key="pub-id_pmid">26789245</infon>
+      <infon key="fpage">546</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>66290</offset>
+      <text>Structure of a HOIP/E2~ubiquitin complex reveals RBR E3 ligase mechanism and regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">574</infon>
+      <infon key="pub-id_pmid">10072423</infon>
+      <infon key="fpage">567</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>66378</offset>
+      <text>A wide variety of mutations in the parkin gene are responsible for autosomal recessive parkinsonism in Europe. French Parkinson's Disease Genetics Study Group and the European Consortium on Genetic Susceptibility in Parkinson's Disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">281</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">3209</infon>
+      <infon key="pub-id_pmid">16339143</infon>
+      <infon key="fpage">3204</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>66614</offset>
+      <text>Diverse effects of pathogenic mutations of Parkin that catalyze multiple monoubiquitylation in&#160;vitro</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Hum Mol Genet</infon>
+      <infon key="lpage">2586</infon>
+      <infon key="pub-id_pmid">16049031</infon>
+      <infon key="fpage">2571</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>66716</offset>
+      <text>Familial&#8208;associated mutations differentially disrupt the solubility, localization, binding and ubiquitination properties of parkin</text>
+    </passage>
+    <passage>
+      <infon key="volume">524</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">374</infon>
+      <infon key="pub-id_pmid">26161729</infon>
+      <infon key="fpage">370</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>66849</offset>
+      <text>Mechanism of&#160;phospho&#8208;ubiquitin&#8208;induced PARKIN activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="lpage">355</infon>
+      <infon key="pub-id_pmid">20017557</infon>
+      <infon key="fpage">347</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>66911</offset>
+      <text>Structural and functional characterization of the monomeric U&#8208;box domain from E4B</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="source">J Biomol NMR</infon>
+      <infon key="lpage">293</infon>
+      <infon key="pub-id_pmid">8520220</infon>
+      <infon key="fpage">277</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>66995</offset>
+      <text>NMRPipe: a multidimensional spectral processing system based on UNIX pipes</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="source">J Biomol NMR</infon>
+      <infon key="lpage">614</infon>
+      <infon key="pub-id_pmid">22911360</infon>
+      <infon key="fpage">603</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>67070</offset>
+      <text>NMR view: a computer program for the visualization and analysis of NMR data</text>
+    </passage>
+  </document>
+</collection>

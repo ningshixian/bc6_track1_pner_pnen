@@ -1,0 +1,1636 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>5282836</id>
+    <passage>
+      <infon key="name_2">surname:Toledo;given-names:Enrique M</infon>
+      <infon key="name_3">surname:Rivetti di Val Cervo;given-names:Pia</infon>
+      <infon key="name_0">surname:Villaescusa;given-names:J Carlos</infon>
+      <infon key="name_1">surname:Li;given-names:Bingsi</infon>
+      <infon key="name_6">surname:Kaiser;given-names:Karol</infon>
+      <infon key="alt-title">J Carlos Villaescusa et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMBJ201593725</infon>
+      <infon key="name_5">surname:Stott;given-names:Simon RW</infon>
+      <infon key="name_8">surname:Gyllborg;given-names:Daniel</infon>
+      <infon key="name_9">surname:Laguna&#8208;Goya;given-names:Rocio</infon>
+      <infon key="lpage">1978 1978</infon>
+      <infon key="fpage">1963 1963</infon>
+      <infon key="year">2016</infon>
+      <infon key="kwd">ChIP&#8208;Seq dopamine dopaminergic differentiation stem cells mesencephalon Development &amp; Differentiation Neuroscience</infon>
+      <infon key="name_4">surname:Yang;given-names:Shanzheng</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/embj.201593725</infon>
+      <infon key="article-id_pmid">27354364</infon>
+      <infon key="name_7">surname:Islam;given-names:Saiful</infon>
+      <infon key="source">The EMBO Journal</infon>
+      <infon key="issue">18</infon>
+      <infon key="volume">35 35</infon>
+      <infon key="pub-id_pmid">27354364</infon>
+      <infon key="article-id_pmc"/>
+      <infon key="type">front</infon>
+      <infon key="notes"> () : &#8211; See also: DS Castro (September 2016)</infon>
+      <infon key="name_10">surname:Landreh;given-names:Michael</infon>
+      <infon key="name_11">surname:L&#246;nnerberg;given-names:Peter</infon>
+      <infon key="name_12">surname:Falk;given-names:Anna</infon>
+      <infon key="name_13">surname:Bergman;given-names:Tomas</infon>
+      <infon key="name_14">surname:Barker;given-names:Roger A</infon>
+      <infon key="name_15">surname:Linnarsson;given-names:Sten</infon>
+      <infon key="name_16">surname:Selleri;given-names:Licia</infon>
+      <infon key="name_17">surname:Arenas;given-names:Ernest</infon>
+      <offset>0</offset>
+      <text>A PBX1 transcriptional network controls dopaminergic neuron development and is impaired in Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>111</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>120</offset>
+      <text>Pre&#8208;B&#8208;cell leukemia homeobox (PBX) transcription factors are known to regulate organogenesis, but their molecular targets and function in midbrain dopaminergic neurons (mDAn) as well as their role in neurodegenerative diseases are unknown. Here, we show that PBX1 controls a novel transcriptional network required for mDAn specification and survival, which is sufficient to generate mDAn from human stem cells. Mechanistically, PBX1 plays a dual role in transcription by directly repressing or activating genes, such as Onecut2 to inhibit lateral fates during embryogenesis, Pitx3 to promote mDAn development, and Nfe2l1 to protect from oxidative stress. Notably, PBX1 and NFE2L1 levels are severely reduced in dopaminergic neurons of the substantia nigra of Parkinson's disease (PD) patients and decreased NFE2L1 levels increases damage by oxidative stress in human midbrain cells. Thus, our results reveal novel roles for PBX1 and its transcriptional network in mDAn development and PD, opening the door for new therapeutic interventions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1165</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1178</offset>
+      <text>Midbrain dopaminergic neurons (mDAn) play a central role in the modulation of several brain functions, including voluntary movements, emotion, and cognition. The progressive degeneration of substantia nigra (SN) mDAn gives rise to some of the main motor features of PD (Lees et&#160;al, 2009). Current treatments for PD are symptomatic and there is a need for therapies capable of changing the course of this disease. The PBX family of transcription factors is composed of four members in mammals (PBX1&#8208;4) (Moens &amp; Selleri, 2006; Longobardi et&#160;al, 2013). Expression of Pbx genes has been detected in both the mouse and human midbrain as well as mDAn (Thompson et&#160;al, 2006; Yin et&#160;al, 2009; Ganat et&#160;al, 2012; Sgado et&#160;al, 2012; Veenvliet et&#160;al, 2013). However, to date only a very mild mDAn axon guidance phenotype has been described in Pbx1 null embryos (Sgado et&#160;al, 2012). Thus, the function and precise role of different PBX family members on mDAn remains largely unexplored. Moreover, the mechanism of action and molecular targets of PBX transcription factors in mDAn, as well as any role in neurodegenerative diseases, such as PD, remains unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2337</offset>
+      <text>The development of mDAn is controlled by a combination of cell extrinsic and intrinsic signals (Prakash &amp; Wurst, 2006; Ribes et&#160;al, 2010; Arenas et&#160;al, 2015). One such pathway is that formed by SHH, which regulates and is regulated by FOXA2, a forkhead/winged helix transcription factor required for mDAn development (Ferri et&#160;al, 2007). A second main pathway involves WNT1, which regulates and is regulated by LMX1A, a LIM homeodomain transcription factor required for mDAn specification (Andersson et&#160;al, 2006). Notably, LMX1A forms an autoregulatory loop together with LMX1B and WNT1, and directly regulates the expression of the orphan nuclear receptor Nurr1/Nr4a2 and the paired&#8208;like homeodomain transcription factor 3 (Pitx3) gene (Chung et&#160;al, 2009). Both Nurr1 and Pitx3&#160;are required for mDA neuron differentiation and survival (Zetterstrom et&#160;al, 1997; Nunes et&#160;al, 2003; Smidt et&#160;al, 2004; Maxwell et&#160;al, 2005). While LMX1A labels all the cells in the mDA lineage, from proliferating progenitors to postmitotic neuroblasts and mDAn (Andersson et&#160;al, 2006), NURR1 labels all postmitotic cells, from mDA neuroblasts to neurons. The very first mDA neuroblasts in mice are detected at embryonic day (E) 10, as LMX1A+NURR1+ cells, and mDA neurons are first detected at E10.5 by the expression of tyrosine hydroxylase (Th), as LMX1A+NURR1+TH+. PITX3 also labels NURR1+TH+ mDA neurons and a subpopulation of postmitotic NURR1+TH&#8722; mDA neuroblasts. These factors are thus sequentially expressed during development (Nurr1 followed by Pitx3 and then Th) in progressively restricted mDA postmitotic cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3956</offset>
+      <text>We hereby show that the Pbx1 homeobox gene is a novel intrinsic determinant important for the specification and survival of mDA neurons. PBX1 is present in a subpopulation of NURR1+ neuroblasts and in all mDAn, where it plays a dual role in transcription by directly activating genes such as Pitx3, to promote mDAn development, or repressing genes such as Onecut2, to inhibit lateral fates in the midbrain floor plate (mFP). We also found that PBX1 directly increases the expression of a neuroprotective gene activated by oxidative stress, Nfe2l1, which is known to regulate mitochondrial function and proteasomal activity. Notably, a reduction of PBX1 and NFE2L1 levels was detected in the nuclei of mDAn in the substantia nigra (SN) of PD patients. Moreover, we found that decreased levels of NFE2L1 results in increased vulnerability of human midbrain cells to oxidative stress. Thus, our results reveal novel roles of PBX1 and its transcriptional network in mDAn development and PD, opening the door for the future development of novel therapeutic strategies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5020</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5028</offset>
+      <text>PBX1A is present in the developing mDAn and type 2 neuroblasts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5091</offset>
+      <text>Transcriptome analyses (RNA&#8208;Seq) of the mFP at E12.5, compared to adjacent anterior and posterior structures and the dorsal midbrain, revealed enriched expression of the transcription factor Pbx1 together with markers of mDAn such as Th, the rate&#8208;limiting enzyme for the synthesis of DA, and Pitx3, a factor required for the survival of mDAn of the SN (Nunes et&#160;al, 2003; Smidt et&#160;al, 2004; Maxwell et&#160;al, 2005) (Fig&#160;1A). In situ hybridization analyses at E12.5 confirmed that Pbx1 was highly expressed from rostral to caudal levels in the intermediate and marginal zones of the mFP, while Pbx3 transcripts were only weakly detectable in the LMX1A+ mFP and then only at the rostral level (Figs&#160;1B and EV1). A developmental time&#8208;course analysis revealed that the first PBX1+ cells appeared in the mFP at around E10, a few hours before the first TH+ mDAn (at E10.5), and that all TH+ cells at E12.5 in the marginal zone contained PBX1+ nuclei (Fig&#160;1C). Examination of mDA neuroblasts characterized by the expression of Nurr1/Nr4a2, an orphan nuclear receptor required for the development of mDAn (Zetterstrom et&#160;al, 1997), revealed that only a subpopulation of NURR1+ neuroblasts become PBX1+ at E11.5 (purple nuclei, Fig&#160;1D). PBX1 was also present in all PITX3+ mDAn, but PITX3+ labeled only a fraction of all PBX1+ cells in the mFP at E12.5 (Fig&#160;1E). Analysis of the two main PBX1 isoforms (PBX1A and B), differing in their C&#8208;terminus domain (Moens &amp; Selleri, 2006), revealed that only PBX1A, the full&#8208;length isoform, is present in mDAn during embryonic development in neuroblasts type 2 and mDAn (Fig&#160;2A and B and Appendix&#160;Fig S1). To examine the relevance of these findings to human midbrain development, we undertook similar studies in human embryos. Unlike a previous study, which showed a broad distribution of PBX1+ cells in week 6&#8211;8 human ventral midbrain (VM) (Ganat et&#160;al, 2012), our analysis of 7&#8208;week human embryonic VM tissue shows that all TH+ and some cells in the intermediate zone were PBX1+ (Fig&#160;2C), suggesting a conserved role of PBX1 in mouse and human mDAn development. In agreement with the study by Ganat et&#160;al (2012), PBX1 was found in mDAn of the ventral tegmental area (VTA, A10) and SN (A9) of adult mice (Fig&#160;2D), suggesting a possible conserved function from development through to adulthood.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7442</offset>
+      <text>PBX1 is present in mDAn</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7466</offset>
+      <text>Tru&#8208;Seq RNA sequence analysis of E12.5 midbrain floor plate (mFP), midbrain roof&#8208;plate (mRP), anterior (A, adjacent anterior FP), and posterior (P, adjacent posterior FP). Pbx1 is enriched in the midbrain FP, together with Th and Pitx3. Lower levels of Pbx3 are also expressed in the mFP. Gdf7 and Wnt1 are restricted to the mRP at E12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7809</offset>
+      <text>Pbx1 is expressed in the intermediate (IZ) and marginal zones (MZ), but not the ventricular zone (VZ), of the mFP at E12.5, as detected by in&#160;situ hybridization.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7972</offset>
+      <text>PBX1 is first detected in the ventro&#8208;lateral part of the LMX1A+ domain at E10, preceding the birth of the first (TH+) mDA neurons at E10.5. At E12.5, PBX1 is present in all mDA neurons, but not all PBX1+ cells are TH+. White boxes indicate the area shown in higher magnification (right).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8262</offset>
+      <text>At E11.5, PBX1 protein defines a subpopulation of NURR1+ neuroblasts and labels all NURR1+TH+ mDA neurons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8369</offset>
+      <text>PBX1 co&#8208;localizes with PITX3 and is also detected in a subpopulation of NURR1+PITX3&#8722; postmitotic neuroblasts at E12.5. Higher magnification revealed three different populations of postmitotic cells: primary neuroblasts (NURR1+PBX1A&#8722;PITX3&#8722; cells, green), secondary neuroblasts (NURR1+PBX1A+PITX3&#8722; cells, yellow/orange), and tertiary neuroblasts/mDA neurons (NURR1+PBX1A+PITX3+ cells, white).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8770</offset>
+      <text>Data information: Nuclear staining, Dapi (4&#8242;,6&#8208;diamidino&#8208;2&#8208;phenylindole, blue). All scale bars, 20 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8882</offset>
+      <text>Pbx1 and Pbx3, but not Pbx2, are expressed in the mouse midbrain</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8947</offset>
+      <text>Pbx1 is expressed at high levels in the VM, at rostral, medial, and caudal levels at E12.5. Weak expression of Pbx3 is found only in rostral levels of the VM. Pbx2 was not detected in the midbrain. Pbx1 and Pbx3 sense controls show the specificity of the antisense probe. Scale bar, 80&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>9239</offset>
+      <text>PBX1A is present in mDA neuroblasts and in adulthood</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9292</offset>
+      <text>PBX1A is the isoform detected in the TH+NURR1+ mDA neurons at E12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9361</offset>
+      <text>Scheme&#160;representing the LMX1A, NURR1, PBX1, and TH/PITX3 domains in the embryonic VM at E11.5&#8208;12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9464</offset>
+      <text>Immunofluorescence analysis of 7&#8208;week&#8208;old human VM tissue showing that all mDAn are positive for PBX1, suggesting a conserved role for this factor in the development of these neurons in mice and humans.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9671</offset>
+      <text>PBX1 is also present in TH+ adult mDA neurons of the substantia nigra (SN) and ventral tegmental area (VTA).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9780</offset>
+      <text>Schematic representation of sequential markers expressed in the mDA lineage from progenitors (P), primary neuroblasts (Nb1) to the secondary neuroblasts (Nb2), and mDAn (N), both of which are PBX1+.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9979</offset>
+      <text>Data information: Nuclear staining, Dapi (4&#8242;,6&#8208;diamidino&#8208;2&#8208;phenylindole, blue). All scale bars, 20&#160;&#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10092</offset>
+      <text>In summary therefore, our results indicate that during development, NURR1+PBX1&#8722; mDA neuroblasts (neuroblasts type 1, Nb1) mature into NURR1+PBX1+ neuroblasts type 2 (Nb2), before they become NURR1+PBX1+PITX3+TH+ mDAn (Fig&#160;2E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10322</offset>
+      <text>Pbx1 controls the specification and survival of mDAn</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10375</offset>
+      <text>To further uncover the function of Pbx1 in mDAn development, we examined Pbx1&#8722;/&#8722; mutant mice. Pbx1&#8722;/&#8722; embryos do not survive past E16.5 (DiMartino et&#160;al, 2001; Selleri et&#160;al, 2001; Kim et&#160;al, 2002; Schnabel et&#160;al, 2003), and we thus focused our analysis on earlier developmental stages. Pbx1 mutant embryos showed no reduction in NURR1+ cells, but a modest reduction in the number of TH+ neurons (19%), which resulted in a 30% reduction in TH+/NURR1+ cells at E12.5 (Fig&#160;3A and Appendix&#160;Fig S2). These results indicate that Pbx1 is required for the proper differentiation of NURR1+ neuroblasts into NURR1+TH+ mDAn. As overlapping functions and functional redundancy among Pbx family members has been previously suggested (Selleri et&#160;al, 2004; Ferretti et&#160;al, 2011), we examined the levels of other PBX members in Pbx1&#8722;/&#8722; embryos. To our surprise, Pbx1&#8722;/&#8722; mice exhibited high levels of PBX3 protein from rostral to caudal levels in the VM, suggesting that an up&#8208;regulation of Pbx3 could partially compensate for the loss of Pbx1 (Fig&#160;3B and Appendix&#160;Fig S3).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11461</offset>
+      <text>Pbx1 controls the specification and survival of mDAn</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11514</offset>
+      <text>To the left, representative immunofluorescence/confocal images showing that the number of TH+ cells is reduced in Pbx1&#8722;/&#8722; embryos. Deletion of Pbx1 decreases the proportion of NURR1+ neuroblasts that become TH+ neurons at E12.5, indicating that Pbx1 is required for the proper maturation of NURR1+ neuroblasts. To the right, quantification of these experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11880</offset>
+      <text>Ectopic PBX3 is detected in all rostro&#8208;caudal levels of the VM in Pbx1&#8722;/&#8722; mice at E12.5, indicating a repressive function of PBX1 on Pbx3 expression.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12036</offset>
+      <text>Representative immunofluorescence/confocal images and quantification showing that the conditional deletion of Pbx1 and Pbx3 (cKO, Pbx1flox/flox;Pbx3&#8722;/&#8722;;Th&#8208;IRES&#8208;Cre&#8208;ERT) reduces the number of PITX3+ cells in rostral VM levels, but not of NURR1+ cells, when compared to double heterozygous at E14.5 (cHET, Pbx1flox/+;Pbx3&#8722;/+;Th&#8208;IRES&#8208;Cre&#8208;ERT). White boxes are magnified to the right.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12435</offset>
+      <text>At E18.5, a drastic reduction of TH+, PITX3+, and NURR1+ cells is detected from anterior to posterior levels in cKO embryos, but not in cHET. Pyknotic NURR1+ nuclei are observed in cKO embryos (arrowheads). White boxes are magnified to the right.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12682</offset>
+      <text>The total number of TH+ mDA neurons is dramatically reduced, and there is an increase in aCASP3+ cells in cKO embryos compared to cHET mice at E18.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>12832</offset>
+      <text>Data information: White boxes in (C&#8211;E) are magnified to the right. Quantification of the results is shown below the representative images. All scale bars, 40&#160;&#956;m. Bars represent mean &#177; standard deviation. Biological replicates per condition and P&#8208;value (t&#8208;test) are indicated in the graphs.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13131</offset>
+      <text>As double Pbx1&#8722;/&#8722;;Pbx3&#8722;/&#8722; embryos die before E10.5, we examined Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos, which survived until E12.5. Analysis of the VM phenotype at this stage showed no alteration in the number of NURR1+ cells but a reduction of TH+ cells (Fig&#160;EV2A) comparable to that seen in the Pbx1&#8722;/&#8722; embryos (Fig&#160;3A). Moreover, E12.5 Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos showed no difference in the number of cells immunoreactive for neurogenin 2 (NGN2+, Fig&#160;EV2B), a transcription factor required for mDA neurogenesis (Kele et&#160;al, 2006), or in SOX6 and OTX2 (Fig&#160;EV2C), two transcription factors involved in SN vs. VTA subtype specification, respectively (Di Salvio et&#160;al, 2010; Panman et&#160;al, 2014). Together, our data indicate that there is no alteration in mDA neurogenesis or neuron subtype specification, but rather a specific defect in the differentiation of NURR1+TH&#8722; neuroblasts into NURR1+TH+ mDA neurons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14056</offset>
+      <text>Analysis of the VM phenotype of Pbx1&#8722;/&#8722;;Pbx3+/&#8722; and cKO embryos</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14126</offset>
+      <text>No alteration in the number of NURR1+ cells and a reduction in TH+ cells is detected in Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos at E12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14254</offset>
+      <text>Immunostaining for NGN2, a transcription factor required for mDA neurogenesis, was not altered in Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos at E12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14392</offset>
+      <text>Immunostaining for SOX6 and OTX2, two transcription factors involved in SN vs. VTA subtype specification, was not different in Pbx1&#8722;/&#8722;;Pbx3+/&#8722; compared to Pbx1+/+ embryos at E12.5. Red arrows indicate the lateral OTX2+ domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14625</offset>
+      <text>Staining for 5HT (serotoninergic neurons) showed no major differences in cKO vs. cHET embryos at E18.5, indicating that there is no misspecification of mDAn into serotoninergic neurons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14811</offset>
+      <text> Data information: All scale bars, 40 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14854</offset>
+      <text>Next, we generated conditional mutant embryos with the Shh&#8208;Cre&#8208;ERT or TH&#8208;IRES&#8208;Cre&#8208;ERT deleter strains. While Pbx3&#8722;/&#8722; mice in which Pbx1 was conditionally deleted by Shh before E11.5 were embryonically lethal, conditional deletion by TH (cKO, Pbx1flox/flox;Pbx3&#8722;/&#8722;;Th&#8208;IRES&#8208;Cre&#8208;ERT) resulted in viable embryos. Analysis of E14.5 cKO compared to conditional heterozygous (cHET, Pbx1flox/+;Pbx3+/&#8722;;TH&#8208;IRES&#8208;Cre&#8208;ERT) revealed no alteration in the number of NURR1+ cells, but a dramatic reduction of PITX3+ cells and the loss of the most lateral (and anterior) population of TH+ mDA neurons (Fig&#160;3C). These results showed a defect in the differentiation of mDAn at E14.5, which followed the pattern of nuclear CRE and recombination (Fig&#160;EV3A and B) (Rotolo et&#160;al, 2008; Badea et&#160;al, 2009). Analysis of cKO embryos at E18.5 (Figs&#160;3D and E, and EV3C) revealed a very severe loss of TH+, PITX3+ and NURR1+ cells, which was accompanied by the presence of NURR1+ pyknotic nuclei (Fig&#160;3D, right, arrowheads). The loss of TH+ mDA neurons affected all rostro&#8208;caudal levels and was accompanied by cell death, as shown by an increased number of active caspase&#8208;3+ (aCASP3+) cells, a marker of cellular damage and apoptosis, both at E14.5 (cHet&#160;=&#160;43&#160;&#177;&#160;8.7 vs. cKO&#160;=&#160;71&#160;&#177;&#160;4.4, mean&#160;&#177;&#160;SD, P&#8208;value 0.016) and E18.5 (Fig&#160;3E). In addition, staining for 5HT (serotoninergic neurons) showed no major differences in cKO vs. cHET embryos at E18.5 (Fig&#160;EV2D), indicating that there is no anterior&#8208;posterior misspecification. The loss of TH+ neurons was also reflected by a loss of TH immunoreactive fibers in the striatum of cKO at E18.5 (Fig&#160;EV3D). Since Pbx3&#8722;/&#8722; mice did not show any detectable phenotype in mDAn (data not shown), our results indicate that Pbx1 and, in its absence, also Pbx3 are required for the correct differentiation of neuroblasts type 1 into type 2 and into mDAn, as well as for mDAn survival.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16810</offset>
+      <text>CRE recombination does not take place in all mDA TH+ cells of cKO embryos</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16884</offset>
+      <text>Pbx1flox/flox;Pbx3&#8722;/&#8722;;Th&#8208;IRES&#8208;Cre&#8208;ERT (cKO) embryos treated with tamoxifen at E12.5 and E13.5 showed a reduction of PITX3 at E14.5 in rostral VM levels, where a strong nuclear localization of CRE was detected, but not in caudal VM, where diffuse low levels of CRE were found.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17170</offset>
+      <text>PITX3 levels were not affected in caudal levels of E14.5 cKO embryos compared to cHET.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17257</offset>
+      <text>At E18.5, CRE recombination still did not occur in a few cells in the most medial and caudal aspect of the VM of cKO embryos, which remained PBX1+TH+.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17408</offset>
+      <text>Immunohistochemistry (DAB) for TH indicates that the loss of TH+ neurons in the VM was also reflected by a loss of TH immunoreactive fibers in the striatum (STR) of cKO at E18.5, compared to cHET.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17605</offset>
+      <text>Data information: Scale bars, 40 &#956;m.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17643</offset>
+      <text>PBX1 improves the differentiation of neural progenitor cells toward a mDA fate</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17722</offset>
+      <text>We next performed gain&#8208;of&#8208;function experiments and examined whether expression of PBX1 may contribute toward programming human stem cells into mDAn. Human long&#8208;term neuroepithelial stem (hNES) cells derived from induced pluripotent stem cells (line AF22) (Falk et&#160;al, 2012), a source of rosette&#8208;type neural stem cells with extensive self&#8208;renewal and stable neurogenic capacities (Koch et&#160;al, 2009), were differentiated using a basic 8 day differentiation protocol (Fig&#160;4A). Lentivirus&#8208;mediated overexpression of human PBX1 was sufficient to increase the final number of TH+ neurons compared to control (Fig&#160;4B). While PBX1 expression did not change the total number of Dapi+ cells, a remarkable 2.3&#8208;fold increase in TH+ cells was detected (Fig&#160;4B and C). TH+ cells in the PBX1&#8208;overexpressing condition were also positive for mDA lineage markers such as LMX1A and PITX3 (Fig&#160;4D). Thus, our results indicate that PBX1 can improve the generation of mDAn from hNES cells, opening the door to new future avenues to improve mDAn replacement therapies for PD (Arenas et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>18819</offset>
+      <text>PBX1 improves the differentiation of neural progenitor cells toward mDA fate</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18896</offset>
+      <text>Scheme&#160;of the differentiation protocol for hNES cells. The AF22 cells (NES cells derived from induced pluripotent stem cells) were infected at day 2 with TET&#8208;on PBX1 lentiviral particles, and doxycycline (DOX) treatment started the day after.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19142</offset>
+      <text>Representative immunofluorescence/confocal images showing that PBX1 overexpression increases the number of TH+ neurons after 8&#160;days of differentiation of hNES cells (AF22 line derived from induced pluripotent stem cells).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19365</offset>
+      <text>While the number of cells (Dapi+) in both conditions did not change, the number of TH+ cells increased 2.3&#8208;fold in PBX1&#8208;overexpressing cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19511</offset>
+      <text>TH+ cells derived from the PBX1&#8208;overexpressing hNES cells were also positive for mDAn markers such as LMX1A and PITX3.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19632</offset>
+      <text>Data information: All scale bars, 40&#160;&#956;m. Bars represent mean&#160;&#177;&#160;standard deviation. Biological replicates per condition and P&#8208;value (t&#8208;test) are indicated in the graphs.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19810</offset>
+      <text>Identification of direct PBX1 target genes</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19853</offset>
+      <text>To identify the molecular mechanisms by which PBX1 regulates mDAn development, we performed chromatin immunoprecipitation sequencing (ChIP&#8208;seq) on E12.5 mouse VM tissue using a PBX1 antibody validated for immunoprecipitation (Fig&#160;EV4A). Our analysis identified a PBX1 binding site composed of a 10&#8208;nucleotide motif (A) separated by 8&#8211;11 nucleotides from a 5&#8208;nucleotide motif (B) (Fig&#160;5A). A similar 10&#8208;nucleotide motif was recently reported, where the binding capacity of PBX1 was demonstrated using an electrophoretic mobility assay (Ferretti et&#160;al, 2011; Penkov et&#160;al, 2013). Most PBX1&#8208;binding sites were in close proximity to transcription starting sites (TSS) (Fig&#160;EV4B and C). The enrichment profiles of some PBX1&#8208;binding sites and their corresponding genomic regions are shown in Figs&#160;5B and EV4D and E. Enriched gene categories were related to signal transduction (P&#8208;value 10&#8722;13), RNA metabolic processes (P&#8208;value 10&#8722;10), as well as transcription and response to stress (P&#8208;value 10&#8722;7) (Fig&#160;EV4F). We next combined our RNA&#8208;Seq analysis of VM tissue at E12.5 with our ChIP&#8208;seq data in order to identify possible direct PBX1 target genes differentially expressed in the VM. Gene Set Enrichment Analysis (GSEA) showed a strong correlation between the cistrome and transcriptome (P&#8208;value &lt;&#160;0.001, q&#8208;value &lt;&#160;0.005). Moreover, the highly correlated genes were either enriched (green) or depleted (red) in the E12.5 VM, suggesting a possible dual role of PBX1 as both an activator and repressor of transcription in the VM, as described for other tissues (Asahara et&#160;al, 1999; Saleh et&#160;al, 2000). Most of the PBX1 loci were located in the proximity of a single gene (87.6%, 177 of 202) (Fig&#160;EV5A and B). De novo motif analysis in 200&#8208;bp regions centered on the PBX1 peaks, to identify additional motifs, revealed slight variations of the PBX1 binding site motif (Fig&#160;EV5C, motif 1 and 2) and additional domain B motifs (Fig&#160;EV5C, motif 2 and 3), all of which were associated with activated or repressed genes, except for a repressor loci, a GC&#8208;box (Fig&#160;EV5C, motif 5), previously identified as an SP1 binding site (Suske, 1999). Moreover, using an unbiased bioinformatics analysis of the promoter regions of PBX target genes for transcription factor binding site enrichment (Kwon et&#160;al, 2012), we found only a few binding sites exclusive for activated or repressed loci (Fig&#160;EV5D&#8211;F). The most noticeable was the presence of a binding site for NR4A2/NURR1 at a repressor locus, suggesting a possible concerted action of PBX1 and NR4A2/NURR1 to repress common target genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>22480</offset>
+      <text>PBX1&#8208;chromatin immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22517</offset>
+      <text>Validation of the antibody against PBX1 (rabbit anti&#8208;PBX1, #43428, 1:500, Cell Signaling) to immunoprecipitate PBX1 from cell extracts obtained from SN4741 cells transfected with a psg&#8208;PBX1 plasmid. The red arrow indicates the band identified as PBX1 by mass spectrometry.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22794</offset>
+      <text>Heatmap enrichment of the peaks found within the ChIP&#8208;seq for PBX1 and IgG, in a window of &#8722;5&#160;kb to +1.5&#160;kb from the transcription starting site (TSS).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22952</offset>
+      <text>Summary of the localization of the detected peaks according to their distance to the TSS.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23042</offset>
+      <text>Quality representation of the peaks detected with HOMER in IgG and PBX1 (selected) ChIP&#8208;seq when statistical significance and peak scores are plotted. The values for peak score represent adjusted number of reads per peak detected.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23275</offset>
+      <text>Schematic of PBX1 tracks compared to control IgG ChIP&#8208;seq on different representative loci. PBX1 peaks were identified with HOMER. Each locus represents a 20&#8208;kb chromosome region.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23459</offset>
+      <text>Gene Ontology terms of the enriched categories identified by GSEA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>23526</offset>
+      <text>Identification of direct PBX1 target genes</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23569</offset>
+      <text>Chromatin immunoprecipitation sequencing (ChIP&#8208;seq) identified a PBX1 binding core sequence motif composed of a 10&#8208;nucleotide motif (A) and a 5&#8208;nucleotide motif (B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23741</offset>
+      <text>Schematic of the track of PBX1 ChIP&#8208;seq compared to IgG ChIP&#8208;seq as a control on different loci with peaks identified by HOMER. Each locus represents a 20&#8208;kb chromosome region.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23924</offset>
+      <text>List of the 29 most regulated genes (t&#8208;test q&#8208;value &lt;&#160;0.05) identified by Gene Set Enrichment Analysis (GSEA) and ranked by P&#8208;value. RPKM stands for reads per kilobase of transcript per million mapped reads. GSEA was performed on genes identified by RNA&#8208;Seq as differentially expressed in the VM at E12.5 compared to adjacent brain regions and identified by PBX1 Chip&#8208;Seq in proximity to transcription starting sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24353</offset>
+      <text>Graphic representation of these top 29 genes (red dots) in the GSEA curve showing a high correlation between the cistrome and transcriptome (P&#8208;value &lt;&#160;0.001, q&#8208;value &lt;&#160;0.005).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24535</offset>
+      <text>ChIP followed by PCR confirmed that PBX1 binds to genomic regions in close proximity to the TSS of Pitx3 (Pitx3&#8208;Gbf1), Onecut2, and Nfe2l1 genes. No co&#8208;immunoprecipitation was detected for the unrelated gene, Lrp1b (low&#8208;density lipoprotein receptor&#8208;related protein 1B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24813</offset>
+      <text>The regulation of Pitx3 and Onecut2 by PBX1 was confirmed in Pbx1&#8722;/&#8722;;Pbx3+/&#8722; mutant embryos at E12.5, compared to wild&#8208;type (Pbx1+/+) littermates. (F) Representative immunofluorescence/confocal images showing that decreased levels of PITX3 and number of PITX3+ cells in E12.5 Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos. This reduction is more evident in the basal plate (BP) and in the midline (M), as shown at higher magnification (right). (G) Double ONECUT2+TH+ cells were detected only in the lateral part of the mFP in E12.5 Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos. Selected areas are magnified to the right. A scheme (right) shows the distribution of cells in Pbx1+/+ and Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25506</offset>
+      <text>Data information: All scale bars, 40&#160;&#956;m. Bars represent mean&#160;&#177;&#160;standard deviation. Biological replicates (dots) per condition and P&#8208;value (t&#8208;test) are indicated in each graph.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25691</offset>
+      <text>Dual role of PBX1 in transcription</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25726</offset>
+      <text>GSEA curve showing genes that are enriched (green) or depleted (red) in the E12.5 VM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25812</offset>
+      <text>Analysis of PBX1 peaks in the proximity of two neighbors TSS (as described in Materials and Methods). Dark blue indicates transcriptional regulation of only one gene of the two neighbors. Light blue indicates regulation of both genes. Peaks were classified as divergent if one gene was upregulated and the other downregulated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26139</offset>
+      <text>Motifs identified de novo on regions of 200&#160;bp centered on PBX1 peaks.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26211</offset>
+      <text>Overrepresented transcription factors binding sites found on neighboring loci of PBX1 using the oPOSSUM&#8208;3 software. In green, transcription factor binding sites common in both loci. In red, transcription factor binding sites found only in one locus. Threshold of Fisher score (dashed line) is mean plus standard deviation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26536</offset>
+      <text>Boxplot of the expression value of transcriptions factors associated with the enriched TFBS at ventral midbrain at E12.5. Color of the dot indicates the type of loci in which the transcription factor is found. DEG genes in the VM at E12.5 are annotated with an asterisk. Dashed line at RPKM&#160;=&#160;2.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26834</offset>
+      <text>Twenty&#8208;nine genes with PBX1 binding sites in close proximity to their TSS (&#8722;5,000 to +&#160;500&#160;bp) were differentially up&#8208;regulated or down&#8208;regulated in the mFP vs. adjacent regions and midbrain roof&#8208;plate (t&#8208;test q&#8208;value &lt;&#160;0.05) (Figs&#160;5C and EV6). Moreover, these 29 genes were positioned in the leading edges of the curve generated by GSEA (red dots in Fig&#160;5D), indicating a dual activator&#8211;repressor activity of PBX1. The highest enriched gene in the list was the homeobox gene Pitx3. Specific binding of PBX1 to a Pitx3&#8208;associated region identified in our ChIP&#8208;Seq was confirmed by ChIP&#8208;PCR (Fig&#160;5E). As conditional double KO embryos showed a drastic reduction of TH+ cells, we decided to analyze embryos with only one allele of Pbx3. Accordingly, Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos showed decreased levels of PITX3 and a 40% reduction in the number of PITX3+ cells at E12.5, which was more prominent in the midline and basal plate (Fig&#160;5F and Appendix&#160;Fig S4). The most down&#8208;regulated gene in our list was the homeobox gene Onecut2, which is broadly expressed in the central nervous system (Francius &amp; Clotman, 2010; Espana &amp; Clotman, 2012; Stam et&#160;al, 2012; Wu et&#160;al, 2012), but its deletion does not lead to abnormalities in mDAn development (Espana &amp; Clotman, 2012). We found that Onecut2 is expressed in the midbrain from the basal to the roof&#8208;plate, but not in the mFP (Appendix&#160;Fig S5). However, in Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos, the ONECUT2 domain extended into the floor plate, resulting in misspecified double TH+ONECUT2+ mDAn (Fig&#160;5G). Thus, our results show that inhibition of alternative lateral fates does take place in postmitotic NURR1+ neuroblasts. Combined these results indicate that PBX1 controls the specification of mDA neurons by directly activating Pitx3 and by repressing lateral fate genes such as Onecut2.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>28699</offset>
+      <text>Multiple comparison of PBX1 binding sites located in different regulatory regions</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28781</offset>
+      <text>Our analysis identified a PBX1 binding site composed of a 10&#8208;nucleotide motif (domain A, red) separated by 8&#8211;11 nucleotides from a 5&#8208;nucleotide motif (domain B, green). Interval numbers indicate the genomic regions identified in our ChIP experiments. Inside each domain, highly conserved amino acids are in bold red or green, and low conserved amino acids are in bold black.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29162</offset>
+      <text>PBX1 ChIP in E12.5 mouse VM followed by PCR confirmed that PBX1 binds to multiple regions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>29253</offset>
+      <text>PBX1 promotes survival of human TH+ cells via NFE2L1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29306</offset>
+      <text>The Nfe2l1 gene (nuclear factor erythroid&#8208;derived 2&#8208;like 1, also known as Nrf1 and Tcf11) was the third most enriched target gene of PBX1 in the VM (Fig&#160;5C). ChIP&#8208;PCR confirmed that PBX1 binds to a regulatory region in close proximity to the TSS of Nfe2l1 (60 bp distance) in E12.5 mouse VM (Fig&#160;5E). Forced expression of human PBX1 with lentiviral particles increased protein levels of NFE2L1 by 1.5&#8208;fold, compared to the control condition, in a mouse SN mDAn cell line (SN4741 cells (Son et&#160;al, 1999)) (Appendix&#160;Fig S6A). Multiple cells in the VM, including TH+ neurons, were found to be NFE2L1+ at E12.5 (Fig&#160;6A). To examine whether the expression of Nfe2l1 in TH+ cells is regulated by PBX1, we analyzed the VM of&#160;Pbx1&#8722;/&#8722;;Pbx3+/&#8722; embryos and found a near complete loss of NFE2L1 in TH+ neurons at E12.5 (Fig&#160;6B), but not in PBX1&#8208;free structures such as the branchial arches (Appendix&#160;Fig S6B), underlining the specificity of the regulation of NEF2L1 by PBX1/3 in mDAn. However, the function of NFE2L1 is not limited to mDAn as deletion of Nfe2l1 impairs cell survival in other cell types and results in embryonic lethality (Farmer et&#160;al, 1997).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>30480</offset>
+      <text>PBX1 promotes survival of human neural cells via NFE2L1, a pathway disrupted in PD patients</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30572</offset>
+      <text>Representative immunofluorescence/confocal images showing that NFE2L1 is detected in TH+ mDAn and neuroblasts at E12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30692</offset>
+      <text>The expression of NFE2L1 in TH+ neurons is dramatically reduced in Pbx1&#8722;/&#8722;;Pbx3+/&#8722; compared to Pbx1+/+ embryos at E12.5.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30819</offset>
+      <text>shRNA lentiviruses against NFE2L1 increased the levels of aCASP3 in H2O2&#8208;treated (100 &#956;m for 12 h) TH+ neurons derived from hNES cells differentiated for 8 days (percentage). White arrows indicate double TH+aCASP3+ neurons.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31046</offset>
+      <text>PBX1 overexpression protected TH+ neurons derived from hNES cells from the oxidative stress induced by H2O2 (100&#160;&#956;m for 12&#160;h), resulting in reduced levels of aCASP3 in TH+ neurons (percentage).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31243</offset>
+      <text>Human postmortem SN tissue of control donors exhibited PBX1 chromogenic staining (dark blue/black, indicated by arrowheads) in the nuclei of neuromelanin+ cells (NM+, cytosolic brown aggregates) of the SN. In contrast, PBX1 staining was severely reduced in PD patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31513</offset>
+      <text>Graphical representation of PBX1 intensity levels in the SN of NM+ neurons in all individual controls and PD patients analyzed. Each dot in the graph represents the level of PBX1 in the nuclei of one single NM+ neuron.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>31732</offset>
+      <text>Strong immunoreactivity of the PBX1 direct target, NFE2L1, was also detected as very well&#8208;defined nuclear punctuate structures in NM+ cells of the SN in control samples (arrowheads), but were dramatically reduced in PD patients. Yellow asterisks indicate the nucleoli.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32003</offset>
+      <text>Percentage of NM+ neurons showing nuclear NFE2L1 staining in the SN of control donors and PD patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32106</offset>
+      <text>Graphical representation of all individual controls and PD patients analyzed, showing that NM+ neurons with NFE2L1+ nuclei in the SN of PD patients are &lt;&#160;10% or are totally absent.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32288</offset>
+      <text>Data information: All scale bars, 40&#160;&#956;m. Bars represent mean&#160;&#177;&#160;standard deviation. For (C and D), n&#160;=&#160;3. P&#8208;values (t&#8208;test) are indicated in the graphs. Dots in (H) represent different control donor or PD patients. Samples analyzed in (F) and (H) are coming from the same control donors and PD patients. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32603</offset>
+      <text>Nfe2l genes encode basic leucine zipper transcription factors that bind to antioxidant response elements to regulate the expression of cytoprotective target genes in response to oxidative stress (Jennings et&#160;al, 2012). We thus examined whether NFE2L1 plays a role in preventing oxidative stress in human mDAn. hNES cells were differentiated for 8 days, infected with lentiviral particles containing a combination of three different NFE2L1 shRNAs to block NFE2L1 expression (Appendix&#160;Fig S6C), and 4 days later were treated for 12 hours with H2O2 (Appendix&#160;Fig S6D). We found that cells exposed to NFE2L1 shRNAs showed reduced NFE2L1 levels (Appendix&#160;Fig S6C) and responded to H2O2 treatment with increased number of both TH+aCASP3+ and aCASP3+ cells, compared to control (Fig&#160;6C, Appendix&#160;Fig S6E), indicating a role of NFE2L1 in preventing oxidation in TH+ cells. We next examined whether PBX1 can elicit the antioxidant effect of NFE2L1 on TH+ neurons. Lentiviral overexpression of PBX1 in human NES cells differentiated into mDAn significantly reduced the number of TH+aCASP3+ cells compared to controls, in cultures treated with 100&#160;&#956;m H2O2 (Fig&#160;6D). Combined, our results indicate that the PBX1&#8208;NFE2L1 axis plays a role in preventing damage by oxidative stress in human mDAn.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33895</offset>
+      <text>The PBX1&#8208;NFE2L1 pathway is disrupted in PD patients</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33949</offset>
+      <text>Nfe2l1 has been also found to regulate genomic stability (Oh et&#160;al, 2012) and increase proteasome transcription and activation in response to cell stressors such as proteasome inhibition (Steffen et&#160;al, 2010) or PARK2/Parkin&#8208;mediated mitophagy (Furuya et&#160;al, 2014), two functions impaired in PD (Scarffe et&#160;al, 2014; Pickrell &amp; Youle, 2015). To examine the role of NFE2L1 in&#160;vivo and its possible implication in PD, we next examined human postmortem tissue samples from both PD brains and aged&#8208;matched controls with no other brain pathology for the presence of nuclear PBX1 and NFE2L1. We only considered sections from patients and controls in which nuclear immunoreactivity for NFE2L1 antibody was clearly detected, and used consecutive sections for PBX1 analyses. We found that the levels of PBX1 in the nuclei of neuromelanin&#8208;positive (NM+) cells in the SN were significantly reduced in PD patients compared to controls (dark blue/black precipitate, Fig&#160;6E and F). NFE2L1 showed strong nuclear punctuate staining in 20&#8211;50% of the nuclei of NM+ cells in the SN of control donors (Fig&#160;6G&#8211;I). To our surprise, the number of NM+ neurons with nuclear NFE2L1 staining was dramatically reduced or completely absent in PD patients (0&#8211;10%) (Fig&#160;6G&#8211;I). This effect was specific to the NM+ cells of the SN since other midbrain cells outside the mDA domain remained NFE2L1+ (Appendix&#160;Fig S6F). This result indicated that the PBX1&#8208;NFE2L1 pathway is impaired in mDAn of the SN in PD patients.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>35456</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35467</offset>
+      <text>Our study identifies Pbx1 as a novel intrinsic determinant required for the specification and survival of mDAn. Notably, deletion of Pbx1 was compensated by an upregulation of Pbx3, which is otherwise only expressed at low levels in the anterior midbrain and is not required per se for mDAn development. Pbx3 upregulation partially compensated for the loss of Pbx1, as indicated by the strong phenotype in compound mutant mice. Pbx1&#8722;/&#8722;;Pbx3+/&#8722; mice revealed a lateral misspecification of mDAn, as shown by the loss of PITX3 and the appearance of ONECUT2 in midbrain TH+ cells. Moreover, conditional deletion of Pbx1 in TH+ cells of Pbx3&#8722;/&#8722; mice resulted first in reduced PITX3 levels and the loss of PITX3+ cells at E14.5. This was followed by a dramatic loss of NURR1+, PITX3+ and TH+ cells, as well as increased numbers of aCASP&#8208;3+ cells and pyknotic NURR1+ nuclei at E18.5. Combined, our results indicate that Pbx1, and in its absence Pbx3, are required for the correct medio&#8208;lateral specification, differentiation and survival of mDA type 2 neuroblasts and mDAn during development.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36567</offset>
+      <text>Mechanistically, we found that PBX1A binds to a DNA sequence highly conserved in vertebrates (Figs&#160;5A and EV6A), which is formed by two motifs: a PBX1 binding site and a small CCAAT box extension, which may be bound by other transcription factors such as C/EBPs (CCAAT&#8208;enhancer&#8208;binding proteins), also known to control neurogenesis and neuronal differentiation (Menard et&#160;al, 2002; Cortes&#8208;Canteli et&#160;al, 2011). Our combined ChIP&#8208;Seq and RNA&#8208;Sep analysis revealed that PBX1 has a dual transcriptional role in mDAn, which involves both directly repressing the expression of Onecut2 (to repress lateral fates) as well as activating the expression of both Pitx3 (to promote mDAn differentiation) and Nfe2l1 (to promote mDAn survival). Our results thus indicate that PBX1 controls a full transcriptional program essential for different aspects of mDAn development and maintenance.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37456</offset>
+      <text>Current therapies for PD focus on correcting or balancing neurotransmitter levels or function by different means, which result in symptomatic relief, but do not change the course of the disease. The design of novel strategies to treat PD is currently limited by our incomplete knowledge of the mechanisms that control the development and maintenance of mDAn as well as the pathogenic pathways driving the disease. By unraveling some of these mechanisms, our work may contribute to the development of such therapies. For instance, the finding that expression of PBX1 in human neural stem cells improves the generation of mDAn suggests a possible application of PBX1 to improve current protocols for the generation of mDAn from pluripotent stem cells (Kriks et&#160;al, 2011; Kirkeby et&#160;al, 2012), which could lead to improvements for cell replacement therapy or disease modeling of PD. We also report that PBX1 directly controls the expression of an antioxidant transcription factor, Nfe2l1, which counteracts oxidative stress, mitochondrial dysfunction, and proteasome impairment (Hirotsu et&#160;al, 2012; Furuya et&#160;al, 2014; Bugno et&#160;al, 2015). Our results show a dramatic reduction or complete absence of nuclear PBX1 and NFE2L1 in neuromelanin+ neurons of the substantia nigra of PD patients, pointing to a possible defect in the PBX1&#8208;NFE2L1 pathway in PD. A previous postmortem study has reported that the nuclear localization of NFE2L2, unlike that of NFE2L1 (in our study), is strongly induced in PD patients (Ramsey et&#160;al, 2007), underlining a differential regulation of NFE2L1 and 2 in PD. Importantly, our results suggest that NFE2L1 serves a physiological role in healthy mDAn of the substantia nigra and that its near complete absence in the nuclei of substantia nigra neurons in PD, impairs its function. Accordingly, we found that while increased PBX1 levels promote the survival and differentiation of human mDAn, reduced levels of NFE2L1 increase vulnerability to oxidative stress. We thus suggest PBX1 and NFE2L1 as novel targets for drug discovery, aimed at increasing neuroprotection in PD.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39564</offset>
+      <text>In summary, our data highlight the important role of Pbx1 in the specification and maintenance of mDAn. Moreover, we identify that the PBX1&#8208;NFE2L1 pathway is a novel neuroprotective pathway that is dramatically compromised in PD patients. Thus, our results open the door for the future development of novel therapies for PD designed to alter the course of disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>39931</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39953</offset>
+      <text>Animals</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39961</offset>
+      <text>Wild&#8208;type embryos were obtained from CD1 and C57BL/6 mice strains. All mutant alleles used in this study were previously described: Pbx1 (Selleri et&#160;al, 2001); Pbx3 (Rhee et&#160;al, 2004); Pbx1 conditional mice (Ferretti et&#160;al, 2011); Th&#8208;Gfp (Matsushita et&#160;al, 2002). As for deleter strains, Shh&#8208;Cre&#8208;ERT2 knock&#8208;in mice (Harfe et&#160;al, 2004) and TH&#8208;IRES&#8208;Cre&#8208;ERT2 (Rotolo et&#160;al, 2008; Badea et&#160;al, 2009) were used for Pbx1 inactivation in the VM or in mDA neurons. Mice were housed, bred, and treated in accordance with protocols approved by the local ethics committees (Stockholm's Norra Djurf&#246;rs&#246;ketiska N&#228;mnd N154/06, N88/07, N135/08, N145/09, N273/11 and, N326/12). All mutant mice were kept on a C57BL/6 background. Conditional pregnant females (between 3 and 7&#160;months old) were treated with 4&#160;mg tamoxifen per day (dissolved in corn oil) through oral gavage with animal feeding needles (Fisher Scientific, Waltham, MA) at 12 pm at 11.5, 12.5 and 13.5&#160;days post&#8208;coitum.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40959</offset>
+      <text>Fetal tissue and patient sections</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40993</offset>
+      <text>Human fetal tissue collection and processing ethical approval for the use of postmortem human fetal tissue was provided by the National Research Ethics Service Committee East of England&#8212;Cambridge Central, UK (ethics number 96/085).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41227</offset>
+      <text>All brain sections were obtained from the Cambridge Brain Bank. Information about their protocols and ethical committees can be found at http://www.cuh.org.uk/for-public/cambridge-brain-bank. We only considered sections from patients and controls in which nuclear immunoreactivity for NFE2L1 antibody was clearly detected, and used consecutive sections for PBX1 analyses. We excluded material in which no NFE2L1 immunoreactivity was detected in NM+ or NM&#8722; cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41692</offset>
+      <text>In this study, the control group was</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41729</offset>
+      <text>PT151&#8212;76&#160;years old (yo), male, no evident pathological condition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41797</offset>
+      <text>PT190&#8212;85&#160;yo, female, no evident pathological condition</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41855</offset>
+      <text>BB137/PT69&#8212;77&#160;yo, female, with bilateral old lacunar infarcts, and no evidence of dementia.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41950</offset>
+      <text>For the PD group,</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41968</offset>
+      <text>P65&#8212;77&#160;yo, male, with idiopathic PD, and some Alzheimer pathology, insufficient for a diagnosis in life</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42075</offset>
+      <text>PT161&#8212;73&#160;yo, female, with idiopathic PD</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42118</offset>
+      <text>P67&#8212;70&#160;yo, female, with idiopathic PD</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42159</offset>
+      <text>P69&#8212; 81&#160;yo, female, with idiopathic PD</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42201</offset>
+      <text>P70&#8212;85&#160;yo, female, with idiopathic PD</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42242</offset>
+      <text>Gene and protein nomenclature</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42272</offset>
+      <text>We followed the guidelines from the Human Genome Organization (HUGO) Gene Nomenclature Committee (HGNC) International Advisory Committee and the guidelines from the International Committee on Standardized Genetic Nomenclature for Mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42508</offset>
+      <text>For mice, gene symbols are italicized, with only the first letter in uppercase and the remaining letters in lowercase (Pbx1). Protein designations are the same as the gene symbol, but are not italicized and all are upper case (PBX1). mRNAs use the same formatting conventions as the gene symbol.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42804</offset>
+      <text>For human, gene symbols are italicized, with all letters in uppercase (PBX1). Protein designations are the same as the gene symbol, but are not italicized and all letters are in uppercase (PBX1).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43000</offset>
+      <text>Immunofluorescence, immunochemistry, and in&#160;situ hybridization</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43064</offset>
+      <text>For embryo analyses, heterozygous mice of the relevant genotype were mated overnight, and at noon of the day, the plug was considered E0.5. Briefly, embryos were dissected out of the uterine horns in ice&#8208;cold PBS, fixed in 4% paraformaldehyde (PFA) in PBS overnight, cryoprotected in 30% sucrose, and frozen in Tissue&#8208;Tek optimum cutting temperature (OCT) compound (Sakura Fine&#8208;Tek) on dry ice. Serial coronal 16&#160;&#956;m sections were used for immunohistochemistry or in&#160;situ hybridization.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43559</offset>
+      <text>For immunohistochemistry or immunofluorescence, all the sections were treated for antigen retrieval by microwave boiling in antigen retrieval solution (DAKO, S1699). Sections were washed in PBT (PBS with 0.5% Tween&#8208;20) and blocked in PBTA (PBS, 5% donkey serum, 0.3% Triton X&#8208;100, 1% BSA, except for human adult sections where the concentration of donkey serum was 10%). Primary antibodies were diluted in PBTA, and incubations were carried out overnight at 4&#176;C. After washes in PBT, incubations with the appropriate secondary antibodies (Alexa, 1:500, Invitrogen, or horseradish peroxidase, The Jackson Laboratories) were carried out for 1&#160;h at room temperature. For DAB staining with dark/blue coloration, addition of nickel and cobalt was added to the DAB solution.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44334</offset>
+      <text>Non&#8208;radioactive in&#160;situ hybridization was performed as previously described (Kele et&#160;al, 2006). The mouse antisense RNA probes have been described previously (Ferretti et&#160;al, 2011).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44521</offset>
+      <text>Antibodies used for immunofluorescence were as follows: rabbit anti&#8208;NURR1 (sc&#8208;990, 1:500, Santa Cruz Biotechnology); goat anti&#8208;NURR1 (AF2156, 1:500, R&amp;D); rabbit anti&#8208;TH (P40101&#8208;0, 1:500; Pel&#8208;Freeze); sheep anti&#8208;TH (NB300&#8208;110, 1:500, Novus Biologicals); mouse anti&#8208;TH (22941, 1:500; Immunostar); rabbit anti&#8208;LMX1A (1:1,000; gift from Mike German, University of California, San Francisco, CA); goat anti&#8208;LMX1A (C&#8208;17, sc&#8208;54273, 1:50, Santa Cruz Biotechnology); mouse anti&#8208;PBX1A (710.2, sc&#8208;101851, 1:250, Santa Cruz Biotechnology); mouse anti&#8208;PBX1B (41.1, sc&#8208;101852, 1:250, Santa Cruz Biotechnology); rabbit anti&#8208;PBX1 (#43428, 1:750, Cell&#160;Signaling); rabbit anti&#8208;PBX1 (P&#8208;20X, sc&#8208;889X, Santa Cruz Biotechnology); goat anti&#8208;PITX3 (N&#8208;20, sc&#8208;19307, 1:50, Santa Cruz Biotechnology); rabbit anti&#8208;PITX3 (382850, 1:250, Invitrogen); rabbit anti&#8208;ONECUT2 (HPA057058, 1:200, ATLAS Antibodies); rabbit anti&#8208;cleaved caspase&#8208;3 (D175, 1:500, Cell Signaling); rabbit anti&#8208;5HT (S5545, 1:1,000; Sigma); and goat anti&#8208;OTX2 (AF1979, 1:500, R&amp;D). All secondary antibodies were Alexa&#8208;conjugated (Invitrogen) with 405, 488, 555, or 647 fluorophores. For nuclear staining, we used Dapi (1:5,000, Sigma). Slides were mounted with fluorescent mounting media (DAKO, S3023).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45828</offset>
+      <text>Immunohistochemistry and in&#160;situ hybridization pictures were taken with a Zeiss Axioplan2 microscope. Immunofluorescence pictures were taken using a Zeiss Exciter LSM 510 or an Olympus FV1000 Confocal Microscope. Figures were assembled in Adobe Photoshop (Adobe).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46093</offset>
+      <text>Western blot</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46106</offset>
+      <text>For Western blot analysis, samples were subjected to 10% SDS&#8211;PAGE, electrotransferred onto Hybond&#8208;P membrane, immunodetected using appropriate primary and secondary antibodies, and visualized by ECL+Plus reagents according to the manufacturer's instructions (Amersham). Antibodies used were as follows: polyclonal rabbit anti&#8208;NRF1 (NFE2L1, Santa Cruz, H&#8208;285, sc&#8208;13031), mouse anti&#8208;beta&#8208;Actin (Abcam, ab8226), and mouse anti&#8208;GAPDH (G8795, Sigma).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46568</offset>
+      <text>Blots were analyzed using a BIO&#8208;RAD Molecular Imager ChemiDoc XRS+ Imaging system.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46653</offset>
+      <text>Chromatin immunoprecipitation (ChIP)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46690</offset>
+      <text>Ventral midbrain E12.5 tissues were trypsinized to a single&#8208;cell suspension using TrypLE (Invitrogen). Cells were filtered and washed using cold PBS with 1% BSA. Chromatin immunoprecipitation assays were performed following the manufacturer's instructions (Pierce, Agarose ChIP kit; 26156). The chipped fragmented DNA samples obtained from the ChIP were end repaired and A&#8208;tailed. Then, the Illumina adapters were ligated and size selected (200&#8211;350&#160;bp) from the gel before going to PCR amplification. The PCR samples were purified and size selected again in the gel. The final eluted samples from the gel were sequenced in Genome Analyzer IIx. Both the samples and input were loaded in a single lane (used two different barcode to track two different samples). Single&#8208;end sequencing reads were generated from the final cDNA libraries. The final outcome sequences were aligned to the mouse genome. Peak detection was performed using the HOMER base suite v4.3 (Heinz et&#160;al, 2010) with a false discovery rate filter of 5% utilizing the read from PBX1&#8208;ChIP&#8208;seq, normal IgG ChIP&#8208;seq normalized to inputs. The top 10% of the peaks were used for de novo motif finding using the MEME&#8208;ChIP tool from MEME suite (Machanick &amp; Bailey, 2011) (http://meme-suite.org/) with default settings and the HOMER&#8208;based suite (Heinz et&#160;al, 2010).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48034</offset>
+      <text>The peak&#8208;gene association was done using GREAT v2.0.2, associating a genomic region with the two nearest genes (McLean et&#160;al, 2010). Peaks heatmap was done using SeqMiner 1.3.3 (Ye et&#160;al, 2011) with default settings. Gene set enrichment analysis (GSEA) was performed as described previously (Subramanian et&#160;al, 2005), with genes scored according to their signal to noise metric of expression in the ventral midbrain vs. the other samples and custom gene sets for PBX1 ChIP&#8208;seq results. ChIP&#8208;seq representation of reads was made using the integrative genome browser (Robinson et&#160;al, 2011). ChIP&#8208;seq data are deposited in the public NCBI GEO database with accession number GSE82098 and GSE82100.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>48740</offset>
+      <text>Locus classification and analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48774</offset>
+      <text>Genes of the GSEA with a running enrichment score that was positive were listed as genes upregulated by PBX1. Genes with running enrichment scores that were after the minimum (leading edge) were classified as genes repressed by PBX1. The genes peaks were classified as enhancer if at least one of the genes were upregulated, classified as repressor if at least one was downregulated. Peaks on which one gene was upregulated and the other downregulated were classified as divergent. Transcription factor binding site enrichment was performed using the oPOSSUM&#8208;3 single&#8208;site analysis software with all genes as background, and the Jaspar Core profiles (Portales&#8208;Casamar et&#160;al, 2010) with the rest of the options as default (Kwon et&#160;al, 2012). Motif comparison was made using the TOMTOM software (Gupta et&#160;al, 2007) of the MEME suit (Bailey et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>49636</offset>
+      <text>Tru&#8208;Seq</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>49646</offset>
+      <text>Different parts of embryonic (E12.5) mouse brains (Th&#8208;Gfp strain) were dissected under the microscope. RNA was extracted from the collected tissue according to a Trizol RNA isolation protocol (Life Technology). The starting RNA material to construct cDNA libraries from each sample was 200&#160;ng. cDNA libraries were prepared according to Illumina's Tru&#8208;Seq DNA sample preparation guide. Ten enriched libraries (duplicate samples from five different parts of the brain) were subjected to Illumina sequencing in one lane of HiSeq 2000. The sequencing reads were sorted by barcode and then mapped into the mouse genome (mm9) using Bowtie short read aligner. The data were analyzed using Qlucore omics explorer. RNA&#8208;seq data are deposited in the public NCBI Gene Expression Omnibus (GEO) database with accession number GSE82099 and GSE82100.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>50489</offset>
+      <text>Mass spectrometry analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50516</offset>
+      <text>The antibody against PBX1 used for ChIP (rabbit, #43428, 1:500, Cell Signaling) was validated by mass spectrometry, identifying PBX1 protein as the main immunoprecipitated protein, using E14.5 VM extracts. Protein bands were excised manually from a silver&#8208;stained SDS&#8211;PAGE gel and de&#8208;stained, reduced, and trypsin&#8208;digested in a robotic protein handling system (MassPREP station, Waters, Milford, MA). Tryptic peptides were extracted with 30 &#956;l of 5% formic acid/2% acetonitrile and subsequently with 24 &#956;l 2.5% formic acid/50% acetonitrile. Protein fragments were separated using a nanoAcquity HPLC system (Waters, Milford, MA) and sequenced using collision&#8208;induced dissociation in a quadruple time&#8208;of&#8208;flight mass spectrometer (Q&#8208;TOF Premier API, Waters, Milford, MA, USA) with a standard Z&#8208;spray source. Data analysis was performed using ProteinLynx Global SERVER 2.3 software (Waters, Milford, MA). Lockmass reference of a [Glu1] fibrinopeptide B (Sigma, St. Louis, MO, USA) was used for mass scale correction when processing the data.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51574</offset>
+      <text>Cell lines</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51585</offset>
+      <text>For maintenance of hNES cells (AF22 line, iPSC&#8208;derived (Falk et&#160;al, 2012)), AF22 cells are kept in 6&#8208;well plates coated with laminin (1:500 in water, Invitrogen, 23017&#8208;015) and poly&#8208;L&#8208;ornithine (PLO, 1:5 in water; Sigma), in maintenance medium (N2 supplement (1:100, Gibco), B27 supplement (1:1,000, Gibco), FGF2 (10&#160;ng/ml, R&amp;D), and bFGF (10&#160;ng/ml, R&amp;D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51954</offset>
+      <text>For differentiation of hNES cells, they are dissociated (TrypLE Select), seeded in 48&#8208;well plates coated with laminin and PLO (100,000 cells per well), and cultivated for 2 days with N2 (1:100), B27 (1:1,000), SHH (200&#160;ng/ml, R&amp;D), and CT99021 (1&#160;&#956;M). After that, cells were kept on media containing N2 (1:100), B27 (1:100), GDNF (20&#160;ng/ml, R&amp;D), and BDNF (20&#160;ng/ml, R&amp;D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52334</offset>
+      <text>SN4741 cells were maintained as previously described (Son et&#160;al, 1999).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52407</offset>
+      <text>Cell lines were routinely tested for mycoplasma contamination. The AF22 line was authenticated recently (Falk et&#160;al, 2012). SN4741 line was not authenticated by any method.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52581</offset>
+      <text>Cloning, lentivirus production, and infection</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52627</offset>
+      <text>Human PBX1 cDNAs were cloned into the lentiviral backbone Tet&#8208;O&#8208;Fuw using the EcoRI restriction site present on the vector. The cDNAs were amplified with the following primers:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52808</offset>
+      <text>hPbx1 EcoRI Fwd: ggccGAATTCATCGACGAGCAGCCCAGGC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52855</offset>
+      <text>hPbx1 EcoRI Rev: ccggGAATTCTCAGTTGGAGGTATCAGAGTG</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52904</offset>
+      <text>The Tet&#8208;O&#8208;Fuw&#8208;hPBX1 and FUW&#8208;rtTA (Addgene 20342) lentiviruses were produced in HEK293FT packaging cells (Invitrogen) cultured in DMEM with 10%FBS and penicillin/streptomycin. On the day prior to the transfection, HEK293FT cells were plated in order to reach a 70&#8211;80% confluence on the next day. On the following day, the cells were transfected using the XtremeGene9 transfection reagent (Roche) according to the manufacturer's instructions. The Tet&#8208;O&#8208;Fuw plasmids harboring hPBX1 and the FUW&#8208;rtTA plasmid were individually cotransfected with the vectors pMDLg/pRRE (Addgene 12251), pRSV&#8208;Rev (Addgene 12253), and pMd2.G (Addgene 12259) in a 4:2:1:1 ratio, respectively. The transfection mix was removed after an overnight incubation, and fresh media were supplied to the cells. The volume of the fresh media was just sufficient to cover the cells and avoid their dehydration. Thirty hours after transfection, the media of the cells were collected and centrifuged for 5&#160;min at 435&#160;g in order to separate the supernatant from cellular debris. The supernatants were then centrifuged for 2&#160;h and 30&#160;min at 60,000&#160;g at 4&#176;C in a Beckman Coulter Avanti&#8208;JE Centrifuge. The resulting pellets were slowly resuspended in PBS over 2 hours, then aliquoted, and kept at &#8722;80&#176;C.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54195</offset>
+      <text>The three viruses were subsequently titrated using the Lenti&#8208;X Provirus Quantitation Kit (Clontech) in SVGp12 cells (ATCC) according to the manufacturer's instructions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54366</offset>
+      <text>hNES cells were infected in their normal culture medium overnight, while the SN cells were infected in their normal culture medium supplemented with 8&#160;&#956;g/ml of polybrene for 24&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>54549</offset>
+      <text>ShRNA experiments</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54567</offset>
+      <text>NFE2L1 (NRF1) shRNA lentiviral particles (sc&#8208;43575&#8208;V, Santa Cruz&#160;Biotechnology Inc.) are a pool of concentrated, transduction ready viral particles containing 3 target&#8208;specific constructs that encode 19&#8211;25 nucleotides (plus hairpin) shRNA designed to knock&#160;down human NFE2L1 gene expression. The volume selected to treat 1 single well of a 48&#8208;well plate was 10&#160;&#956;l, corresponding to&#160;50,000 infection units of virus (each vial contains 1.0&#160;&#215;&#160;106 infectious units of virus in 200 &#956;l). As a negative control for experiments, we used the shRNA lentiviral particles (sc&#8208;108080, Santa Cruz Biotechnology Inc.), which encodes a scrambled shRNA sequence that does not lead to the specific degradation of any known cellular mRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55308</offset>
+      <text>RT&#8211;PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55317</offset>
+      <text>All the reagents were purchased from Invitrogen. The following oligonucleotides (Eurofins MWG Operon and/or SIGMA) were used to amplify the genomic regulatory region identified in our ChIP experiments:</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>55519</offset>
+      <text>   Pitx3 Forward: 5&#8242;&#8208;AGGGAAAGAAGAGTAGGTAGGG&#8208;3&#8242;  Reverse: 5&#8242;&#8208;TGGTAGGATGAAGTTGGGGG&#8208;3&#8242;  Onecut2 Forward: 5&#8242;&#8208;CCGCCCCTTCTATAGCCATT&#8208;3&#8242;  Reverse: 5&#8242;&#8208;GGAGCAGCCAACCTATCCTC&#8208;3&#8242;  Forward: 5&#8242;&#8208;TCAGAGAAGGTCTGCCTTTCG&#8208;3&#8242;  Reverse: 5&#8242;&#8208;GGGAGCAGCCAACCTATCCT&#8208;3&#8242;  Nfe2l1 Forward: 5&#8242;&#8208;GGTCCAATCAGATAGCCGGG&#8208;3&#8242;  Reverse: 5&#8242;&#8208;TGGGCAGACACAAACTCGAC&#8208;3&#8242;  Forward: 5&#8242;&#8208;CCACCCCAGAAACAGTTGGT&#8208;3&#8242;  Reverse: 5&#8242;&#8208;TCTCTCCACGTCAGTCTCGG&#8208;3&#8242;  Tpcn1 Forward: 5&#8242;&#8208;TCTGACGTTTCGCCAATGGA&#8208;3&#8242;  Reverse: 5&#8242;&#8208;CATCAGAGGGGTCGCAATGA&#8208;3&#8242;  Pknox2 Forward: 5&#8242;&#8208;GGGAGACACTCTAGCAGCTC&#8208;3&#8242;  Reverse: 5&#8242;&#8208;ACAGCCTATACTTCCCAGCAC&#8208;3&#8242;  Tmem218 Forward: 5&#8242;&#8208;CCCTTCATCCAGGCTTTGGT&#8208;3&#8242;  Reverse: 5&#8242;&#8208;AACGGTCTTCCCGTTGTTGT&#8208;3&#8242;  B3gntl1 Forward: 5&#8242;&#8208;GAAGGACCGCCTTCCCTTAC&#8208;3&#8242;  Reverse: 5&#8242;&#8208;CTGCCCTTTTCCTGCAATCG&#8208;3&#8242;  Canx Forward: 5&#8242;&#8208;TTCCTGCCTCGCTATTGACC&#8208;3&#8242;  Reverse: 5&#8242;&#8208;TCACGTGCCGCAGAACTAAG&#8208;3&#8242;  Zswim4 Forward: 5&#8242;&#8208;GAAGCGACCCTCCGTAAACA&#8208;3&#8242;  Reverse: 5&#8242;&#8208;CAAAGACCCGCCTCCAAGAT&#8208;3&#8242;  Suv420h2 Forward: 5&#8242;&#8208;CTTAAAGAGCCGTCGCTCCA&#8208;3&#8242;  Reverse: 5&#8242;&#8208;CTCAGGGATTTTGCCCCACT&#8208;3&#8242;  Slx4ip Forward: 5&#8242;&#8208;GACAACTGAGTGACAGGGCA&#8208;3&#8242;  Reverse: 5&#8242;&#8208;ACCGGAAATCTTACGGGCAG&#8208;3&#8242;  Ierl5 Forward: 5&#8242;&#8208;GCTACGAATTTCGACGTGGC&#8208;3&#8242;  Reverse: 5&#8242;&#8208;ACTGGCCAATCAGACCAAGG&#8208;3&#8242;  Med30 Forward: 5&#8242;&#8208;CCACTCGGCCGATTTCAAAAA&#8208;3&#8242;  Reverse: 5&#8242;&#8208;AGCCCACCCCATCTATCACT&#8208;3&#8242;  Rwdd4a Forward: 5&#8242;&#8208;ACCCAGGATCGCGTTATGTG&#8208;3&#8242;  Reverse: 5&#8242;&#8208;TGAGTGACAGCACTCCACAC&#8208;3&#8242;  Rnf5 Forward: 5&#8242;&#8208;GCTTATGGTGGGCGAGTTCT&#8208;3&#8242;  Reverse: 5&#8242;&#8208;GAAAAAGGTGTGTGTGGGGC&#8208;3&#8242;  Zfp810 Forward: 5&#8242;&#8208;TCGATCCAGACCCTAGGACG&#8208;3&#8242;  Reverse: 5&#8242;&#8208;TGACTGACAGAAGCTGGCAC&#8208;3&#8242;  Gtpbp1 Forward: 5&#8242;&#8208;CGGGACCCAATCTTGTCCTC&#8208;3&#8242;  Reverse: 5&#8242;&#8208;CAGTTGCTCTCCGAGGAGTC&#8208;3&#8242;</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>57352</offset>
+      <text>Quantification of chromogen intensity in PBX1 immunohistochemistry</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>57419</offset>
+      <text>For quantification of PBX1 intensity of a chromogen stain under bright field microscopy, we used a method previously described (Nguyen et&#160;al, 2013). Briefly, we considered that standard bright field red&#8208;green&#8208;blue color images have a maximum intensity of value 250 (intensity function in ImageJ software). Darker areas have lower intensity values. This results in an inverse correlation between the amount of antigen and its numerical value. The intensity of a stained region in an RGB image analyzed in ImageJ can be subtracted from 250, obtaining a value that is directly proportional to the amount of chromogen present. We selected a round area of 328 square pixels and placed, when possible, in the nucleus of each NM+ cell. The value obtained from ImageJ (mean) was used to calculate the new value (250&#8208;mean) for each cell, proportional to the amount of chromogen present in the nucleus.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>58319</offset>
+      <text>Statistics</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>58330</offset>
+      <text>Sample size for embryonic analyses was chosen according to previous studies in the same area of research. A minimum of 3 embryos was analyzed for each genotype for comparison. The only exclusion criterion was an evident developmental delay between embryos of different genotypes. The exclusion criterion was pre&#8208;established. No randomization or blinding procedure was used for animal studies. Although we cannot be certain that our data in the population has a normal distribution, we considered our data as being close to Gaussian distribution and applied two&#8208;tailed unpaired t&#8208;tests for comparison between two groups of samples, without assuming similar variance. This is a common standard in the field, and a t&#8208;test is commonly used in other similar studies. No special steps were taken to minimize the effects of subjective bias when animals or cells were under treatment. Two&#8208;tailed unpaired t&#8208;test statistical analyses were performed using GraphPad Prism 6. Bars represent mean&#160;&#177;&#160;standard deviation. Biological replicates (dot) per condition and P&#8208;value of t&#8208;test are indicated in each graph.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>59448</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>59469</offset>
+      <text>JCV designed and performed experiments, analyzed data, prepared all figures, and wrote the manuscript; BL, SY, PRdVC, EMT, and KK designed and performed experiments; SRWS, DG, ML, SI, and RLG performed experiments; AF contributed with cell line AF22; PL provided bioinformatic support; TB and RAB designed experiments and contribute to the editing of the manuscript; SL designed experiments and discussed the results; LS discussed results and provided genetically engineered mouse strains, embryos, and contributed to editing of the manuscript; EA designed experiments, analyzed data, and wrote the manuscript. All authors approved the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60117</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>60138</offset>
+      <text>The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>60198</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>60221</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">124</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">405</infon>
+      <infon key="pub-id_pmid">16439212</infon>
+      <infon key="fpage">393</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>60232</offset>
+      <text>Identification of intrinsic determinants of midbrain dopamine neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1936</infon>
+      <infon key="pub-id_pmid">26015536</infon>
+      <infon key="fpage">1918</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60302</offset>
+      <text>How to make a midbrain dopaminergic neuron</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">8225</infon>
+      <infon key="pub-id_pmid">10567547</infon>
+      <infon key="fpage">8219</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>60345</offset>
+      <text>Pbx&#8208;Hox heterodimers recruit coactivator&#8208;corepressor complexes in an isoform&#8208;specific manner</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">19924248</infon>
+      <infon key="fpage">e7859</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60444</offset>
+      <text>New mouse lines for the analysis of neuronal morphology using CreER(T)/loxP&#8208;directed sparse labeling</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">W49</infon>
+      <infon key="pub-id_pmid">25953851</infon>
+      <infon key="fpage">W39</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60547</offset>
+      <text>The MEME Suite</text>
+    </passage>
+    <passage>
+      <infon key="volume">1849</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1276</infon>
+      <infon key="pub-id_pmid">26254094</infon>
+      <infon key="fpage">1260</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>60562</offset>
+      <text>Changing gears in Nrf1 research, from mechanisms of regulation to its role in disease and prevention</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="source">Cell Stem Cell</infon>
+      <infon key="lpage">658</infon>
+      <infon key="pub-id_pmid">19951692</infon>
+      <infon key="fpage">646</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>60663</offset>
+      <text>Wnt1&#8208;lmx1a forms a novel autoregulatory loop and controls midbrain dopaminergic differentiation synergistically with the SHH&#8208;FoxA2 pathway</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">22003384</infon>
+      <infon key="fpage">e24842</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>60806</offset>
+      <text>Role of C/EBPbeta transcription factor in adult hippocampal neurogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Neurosci</infon>
+      <infon key="lpage">1488</infon>
+      <infon key="pub-id_pmid">21057506</infon>
+      <infon key="fpage">1481</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>60879</offset>
+      <text>Otx2 controls neuron subtype identity in ventral tegmental area and antagonizes vulnerability to MPTP</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="source">Blood</infon>
+      <infon key="lpage">626</infon>
+      <infon key="pub-id_pmid">11468159</infon>
+      <infon key="fpage">618</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>60981</offset>
+      <text>The Hox cofactor and proto&#8208;oncogene Pbx1 is required for maintenance of definitive hematopoiesis in the fetal liver</text>
+    </passage>
+    <passage>
+      <infon key="volume">520</infon>
+      <infon key="source">J Comp Neurol</infon>
+      <infon key="lpage">1441</infon>
+      <infon key="pub-id_pmid">22102297</infon>
+      <infon key="fpage">1424</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61099</offset>
+      <text>Onecut transcription factors are required for the second phase of development of the A13 dopaminergic nucleus in the mouse</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS One</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22272239</infon>
+      <infon key="fpage">e29597</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61222</offset>
+      <text>Capture of neuroepithelial&#8208;like stem cells from pluripotent stem cells provides a versatile system for in&#160;vitro production of human neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">798</infon>
+      <infon key="pub-id_pmid">9087432</infon>
+      <infon key="fpage">786</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>61365</offset>
+      <text>The bZIP transcription factor LCR&#8208;F1 is essential for mesoderm formation in mouse development</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">641</infon>
+      <infon key="pub-id_pmid">21982646</infon>
+      <infon key="fpage">627</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>61461</offset>
+      <text>A conserved Pbx&#8208;Wnt&#8208;p63&#8208;Irf6 regulatory module controls face morphogenesis by promoting epithelial apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">2769</infon>
+      <infon key="pub-id_pmid">17596284</infon>
+      <infon key="fpage">2761</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>61576</offset>
+      <text>Foxa1 and Foxa2 regulate multiple phases of midbrain dopaminergic neuron development in a dosage&#8208;dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="volume">165</infon>
+      <infon key="source">Neuroscience</infon>
+      <infon key="lpage">129</infon>
+      <infon key="pub-id_pmid">19800948</infon>
+      <infon key="fpage">116</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>61692</offset>
+      <text>Dynamic expression of the Onecut transcription factors HNF&#8208;6, OC&#8208;2 and OC&#8208;3 during spinal motor neuron development</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Autophagy</infon>
+      <infon key="lpage">641</infon>
+      <infon key="pub-id_pmid">24451648</infon>
+      <infon key="fpage">631</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>61813</offset>
+      <text>PARK2/Parkin&#8208;mediated mitochondrial clearance contributes to proteasome activation during slow&#8208;twitch muscle atrophy via NFE2L1 nuclear translocation</text>
+    </passage>
+    <passage>
+      <infon key="volume">122</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">2939</infon>
+      <infon key="pub-id_pmid">22751106</infon>
+      <infon key="fpage">2928</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>61967</offset>
+      <text>Identification of embryonic stem cell&#8208;derived midbrain dopaminergic neurons for engraftment</text>
+    </passage>
+    <passage>
+      <infon key="source">Genome Biol</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">17324271</infon>
+      <infon key="fpage">R24</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>62061</offset>
+      <text>Quantifying similarity between motifs</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">528</infon>
+      <infon key="pub-id_pmid">15315763</infon>
+      <infon key="fpage">517</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>62099</offset>
+      <text>Evidence for an expansion&#8208;based temporal Shh gradient in specifying vertebrate digit identities</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">589</infon>
+      <infon key="pub-id_pmid">20513432</infon>
+      <infon key="fpage">576</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>62197</offset>
+      <text>Simple combinations of lineage&#8208;determining transcription factors prime cis&#8208;regulatory elements required for macrophage and B cell identities</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">2770</infon>
+      <infon key="pub-id_pmid">22586274</infon>
+      <infon key="fpage">2760</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62342</offset>
+      <text>NF&#8208;E2&#8208;related factor 1 (Nrf1) serves as a novel regulator of hepatic lipid metabolism through regulation of the Lipin1 and PGC&#8208;1beta genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="source">Arch Toxicol</infon>
+      <infon key="lpage">72</infon>
+      <infon key="pub-id_pmid">22926699</infon>
+      <infon key="fpage">49</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62487</offset>
+      <text>An overview of transcriptional regulation in response to toxicological insult</text>
+    </passage>
+    <passage>
+      <infon key="volume">133</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">505</infon>
+      <infon key="pub-id_pmid">16410412</infon>
+      <infon key="fpage">495</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>62565</offset>
+      <text>Neurogenin 2 is required for the development of ventral midbrain dopaminergic neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="source">Nat Genet</infon>
+      <infon key="lpage">435</infon>
+      <infon key="pub-id_pmid">11912494</infon>
+      <infon key="fpage">430</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>62651</offset>
+      <text>Pbx1 inactivation disrupts pancreas development and in Ipf1&#8208;deficient mice promotes diabetes mellitus</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">714</infon>
+      <infon key="pub-id_pmid">22813745</infon>
+      <infon key="fpage">703</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>62755</offset>
+      <text>Generation of regionally specified neural progenitors and functional neurons from human embryonic stem cells under defined conditions</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">3230</infon>
+      <infon key="pub-id_pmid">19218428</infon>
+      <infon key="fpage">3225</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>62889</offset>
+      <text>A rosette&#8208;type, self&#8208;renewing human ES cell&#8208;derived neural stem cell with potential for in&#160;vitro instruction and synaptic integration</text>
+    </passage>
+    <passage>
+      <infon key="volume">480</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">551</infon>
+      <infon key="pub-id_pmid">22056989</infon>
+      <infon key="fpage">547</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63030</offset>
+      <text>Dopamine neurons derived from human ES cells efficiently engraft in animal models of Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">G3</infon>
+      <infon key="lpage">1002</infon>
+      <infon key="pub-id_pmid">22973536</infon>
+      <infon key="fpage">987</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>63135</offset>
+      <text>oPOSSUM&#8208;3: advanced analysis of regulatory motif over&#8208;representation across genes or ChIP&#8208;Seq datasets</text>
+    </passage>
+    <passage>
+      <infon key="volume">373</infon>
+      <infon key="source">Lancet</infon>
+      <infon key="lpage">2066</infon>
+      <infon key="pub-id_pmid">19524782</infon>
+      <infon key="fpage">2055</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>63244</offset>
+      <text>Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">243</infon>
+      <infon key="source">Dev Dyn</infon>
+      <infon key="lpage">75</infon>
+      <infon key="pub-id_pmid">23873833</infon>
+      <infon key="fpage">59</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>63264</offset>
+      <text>Biochemistry of the tale transcription factors PREP, MEIS, and PBX in vertebrates</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="lpage">1697</infon>
+      <infon key="pub-id_pmid">21486936</infon>
+      <infon key="fpage">1696</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>63346</offset>
+      <text>MEME&#8208;ChIP: motif analysis of large DNA datasets</text>
+    </passage>
+    <passage>
+      <infon key="volume">82</infon>
+      <infon key="source">J Neurochem</infon>
+      <infon key="lpage">304</infon>
+      <infon key="pub-id_pmid">12124430</infon>
+      <infon key="fpage">295</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>63396</offset>
+      <text>Dynamics of tyrosine hydroxylase promoter activity during midbrain dopaminergic neuron development</text>
+    </passage>
+    <passage>
+      <infon key="volume">282</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">479</infon>
+      <infon key="pub-id_pmid">15950611</infon>
+      <infon key="fpage">467</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>63495</offset>
+      <text>Pitx3 regulates tyrosine hydroxylase expression in the substantia nigra and identifies a subgroup of mesencephalic dopaminergic progenitor neurons during mouse development</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">501</infon>
+      <infon key="pub-id_pmid">20436461</infon>
+      <infon key="fpage">495</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>63667</offset>
+      <text>GREAT improves functional interpretation of cis&#8208;regulatory regions</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">610</infon>
+      <infon key="pub-id_pmid">12441050</infon>
+      <infon key="fpage">597</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>63736</offset>
+      <text>An essential role for a MEK&#8208;C/EBP pathway during growth factor&#8208;regulated cortical neurogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">291</infon>
+      <infon key="source">Dev Biol</infon>
+      <infon key="lpage">206</infon>
+      <infon key="pub-id_pmid">16515781</infon>
+      <infon key="fpage">193</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>63835</offset>
+      <text>Hox cofactors in vertebrate development</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Cancer InCytes</infon>
+      <infon key="type">ref</infon>
+      <infon key="fpage">e</infon>
+      <infon key="year">2013</infon>
+      <offset>63875</offset>
+      <text>Quantifying chromogen intensity in immunohistochemistry via reciprocal intensity</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">4250</infon>
+      <infon key="pub-id_pmid">12655058</infon>
+      <infon key="fpage">4245</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>63956</offset>
+      <text>Pitx3 is required for development of substantia nigra dopaminergic neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">279</infon>
+      <infon key="source">FEBS J</infon>
+      <infon key="lpage">4130</infon>
+      <infon key="pub-id_pmid">22971132</infon>
+      <infon key="fpage">4121</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>64031</offset>
+      <text>Deficiency in the nuclear&#8208;related factor erythroid 2 transcription factor (Nrf1) leads to genetic instability</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">1025</infon>
+      <infon key="pub-id_pmid">25127144</infon>
+      <infon key="fpage">1018</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>64143</offset>
+      <text>Sox6 and Otx2 control the specification of substantia nigra and ventral tegmental area dopamine neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Cell Rep</infon>
+      <infon key="lpage">1333</infon>
+      <infon key="pub-id_pmid">23602564</infon>
+      <infon key="fpage">1321</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>64247</offset>
+      <text>Analysis of the DNA&#8208;binding profile and function of TALE homeoproteins reveals their specialization and specific interactions with Hox genes/proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="source">Neuron</infon>
+      <infon key="lpage">273</infon>
+      <infon key="pub-id_pmid">25611507</infon>
+      <infon key="fpage">257</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>64399</offset>
+      <text>The roles of PINK1, parkin, and mitochondrial fidelity in Parkinson's disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="lpage">D110</infon>
+      <infon key="pub-id_pmid">19906716</infon>
+      <infon key="fpage">D105</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>64477</offset>
+      <text>JASPAR 2010: the greatly expanded open&#8208;access database of transcription factor binding profiles</text>
+    </passage>
+    <passage>
+      <infon key="volume">575</infon>
+      <infon key="source">J Physiol</infon>
+      <infon key="lpage">410</infon>
+      <infon key="pub-id_pmid">16825303</infon>
+      <infon key="fpage">403</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>64575</offset>
+      <text>Genetic networks controlling the development of midbrain dopaminergic neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">J Neuropathol Exp Neurol</infon>
+      <infon key="lpage">85</infon>
+      <infon key="pub-id_pmid">17204939</infon>
+      <infon key="fpage">75</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>64653</offset>
+      <text>Expression of Nrf2 in neurodegenerative diseases</text>
+    </passage>
+    <passage>
+      <infon key="volume">165</infon>
+      <infon key="source">Am J Pathol</infon>
+      <infon key="lpage">1350</infon>
+      <infon key="pub-id_pmid">15466398</infon>
+      <infon key="fpage">1343</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>64702</offset>
+      <text>Pbx3 deficiency results in central hypoventilation</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="lpage">1200</infon>
+      <infon key="pub-id_pmid">20516201</infon>
+      <infon key="fpage">1186</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>64753</offset>
+      <text>Distinct Sonic Hedgehog signaling dynamics specify floor plate and ventral neuronal progenitors in the vertebrate neural tube</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="lpage">26</infon>
+      <infon key="pub-id_pmid">21221095</infon>
+      <infon key="fpage">24</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>64879</offset>
+      <text>Integrative genomics viewer</text>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">19116659</infon>
+      <infon key="fpage">e4099</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>64907</offset>
+      <text>Genetically&#8208;directed, cell type&#8208;specific sparse labeling for the analysis of neuronal morphology</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">8633</infon>
+      <infon key="pub-id_pmid">11046157</infon>
+      <infon key="fpage">8623</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>65008</offset>
+      <text>Cell signaling switches HOX&#8208;PBX complexes from repressors to activators of transcription mediated by histone deacetylases and histone acetyltransferases</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Trends Neurosci</infon>
+      <infon key="lpage">324</infon>
+      <infon key="pub-id_pmid">24735649</infon>
+      <infon key="fpage">315</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>65163</offset>
+      <text>Parkin and PINK1: much more than mitophagy</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="source">Genesis</infon>
+      <infon key="lpage">130</infon>
+      <infon key="pub-id_pmid">14595835</infon>
+      <infon key="fpage">123</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>65206</offset>
+      <text>Pbx1 is essential for adrenal development and urogenital differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">128</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">3557</infon>
+      <infon key="pub-id_pmid">11566859</infon>
+      <infon key="fpage">3543</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>65279</offset>
+      <text>Requirement for Pbx1 in skeletal patterning and programming chondrocyte proliferation and differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">5331</infon>
+      <infon key="pub-id_pmid">15169896</infon>
+      <infon key="fpage">5324</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>65385</offset>
+      <text>The TALE homeodomain protein Pbx2 is not essential for development and long&#8208;term survival</text>
+    </passage>
+    <passage>
+      <infon key="source">Neural Dev</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">22748019</infon>
+      <infon key="fpage">24</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>65477</offset>
+      <text>The atypical homeoprotein Pbx1a participates in the axonal pathfinding of mesencephalic dopaminergic neurons</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">1155</infon>
+      <infon key="pub-id_pmid">14973278</infon>
+      <infon key="fpage">1145</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>65586</offset>
+      <text>Early developmental failure of substantia nigra dopamine neurons in mice lacking the homeodomain gene Pitx3</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">20</infon>
+      <infon key="pub-id_pmid">9870933</infon>
+      <infon key="fpage">10</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>65694</offset>
+      <text>Neuroprotection and neuronal differentiation studies using substantia nigra dopaminergic cells derived from transgenic mouse embryos</text>
+    </passage>
+    <passage>
+      <infon key="volume">139</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">190</infon>
+      <infon key="pub-id_pmid">22115757</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>65827</offset>
+      <text>Renshaw cell interneuron specialization is controlled by a temporally restricted transcription factor program</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="lpage">158</infon>
+      <infon key="pub-id_pmid">20932482</infon>
+      <infon key="fpage">147</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>65937</offset>
+      <text>Proteasomal degradation is transcriptionally controlled by TCF11 via an ERAD&#8208;dependent feedback loop</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">15550</infon>
+      <infon key="pub-id_pmid">16199517</infon>
+      <infon key="fpage">15545</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>66040</offset>
+      <text>Gene set enrichment analysis: a knowledge&#8208;based approach for interpreting genome&#8208;wide expression profiles</text>
+    </passage>
+    <passage>
+      <infon key="volume">238</infon>
+      <infon key="source">Gene</infon>
+      <infon key="lpage">300</infon>
+      <infon key="pub-id_pmid">10570957</infon>
+      <infon key="fpage">291</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>66150</offset>
+      <text>The Sp&#8208;family of transcription factors</text>
+    </passage>
+    <passage>
+      <infon key="volume">198</infon>
+      <infon key="source">Exp Neurol</infon>
+      <infon key="lpage">198</infon>
+      <infon key="pub-id_pmid">16438966</infon>
+      <infon key="fpage">183</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>66191</offset>
+      <text>Neurogenin2 identifies a transplantable dopamine neuron precursor in the developing ventral mesencephalon</text>
+    </passage>
+    <passage>
+      <infon key="volume">140</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">3384</infon>
+      <infon key="pub-id_pmid">23863478</infon>
+      <infon key="fpage">3373</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>66297</offset>
+      <text>Specification of dopaminergic subsets involves interplay of En1 and Pitx3</text>
+    </passage>
+    <passage>
+      <infon key="volume">520</infon>
+      <infon key="source">J Comp Neurol</infon>
+      <infon key="lpage">969</infon>
+      <infon key="pub-id_pmid">21830221</infon>
+      <infon key="fpage">952</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>66371</offset>
+      <text>Onecut 1 and Onecut 2 are potential regulators of mouse retinal development</text>
+    </passage>
+    <passage>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="volume">39</infon>
+      <infon key="pub-id_pmid">21177645</infon>
+      <infon key="fpage">e35</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>66447</offset>
+      <text>seqMINER: an integrated ChIP&#8208;seq data interpretation platform</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="source">J Neurosci</infon>
+      <infon key="lpage">5182</infon>
+      <infon key="pub-id_pmid">19386913</infon>
+      <infon key="fpage">5170</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>66511</offset>
+      <text>Ventral mesencephalon&#8208;enriched genes that regulate the development of dopaminergic neurons in&#160;vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">250</infon>
+      <infon key="pub-id_pmid">9092472</infon>
+      <infon key="fpage">248</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>66613</offset>
+      <text>Dopamine neuron agenesis in Nurr1&#8208;deficient mice</text>
+    </passage>
+  </document>
+</collection>

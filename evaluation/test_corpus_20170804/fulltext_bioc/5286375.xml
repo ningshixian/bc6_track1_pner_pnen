@@ -1,0 +1,1239 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>pmc.key</key>
+  <document>
+    <id>PMC5286375</id>
+    <passage>
+      <infon key="name_2">surname:D'Costa;given-names:Zenobia</infon>
+      <infon key="name_3">surname:Jones;given-names:Keaton</infon>
+      <infon key="name_0">surname:Azad;given-names:Abul</infon>
+      <infon key="name_1">surname:Yin Lim;given-names:Su</infon>
+      <infon key="name_6">surname:Kruger;given-names:Philipp</infon>
+      <infon key="alt-title">Abul Azad et&#160;al</infon>
+      <infon key="article-id_publisher-id">EMMM201606674</infon>
+      <infon key="name_5">surname:Sansom;given-names:Owen J</infon>
+      <infon key="name_8">surname:McKenna;given-names:W Gillies</infon>
+      <infon key="name_9">surname:Dushek;given-names:Omer</infon>
+      <infon key="lpage">180 180</infon>
+      <infon key="fpage">167 167</infon>
+      <infon key="year">2017</infon>
+      <infon key="name_7">surname:Liu;given-names:Stanley</infon>
+      <infon key="name_4">surname:Diana;given-names:Angela</infon>
+      <infon key="title">Subject Categories</infon>
+      <infon key="article-id_doi">10.15252/emmm.201606674</infon>
+      <infon key="article-id_pmid">27932443</infon>
+      <infon key="source">EMBO Mol Med</infon>
+      <infon key="issue">2</infon>
+      <infon key="kwd">liver metastases mathematical modeling pancreatic cancer PD&#8208;L1 immune checkpoint radiosensitization Cancer Digestive System Immunology</infon>
+      <infon key="volume">9 9</infon>
+      <infon key="article-id_pmc">5286375</infon>
+      <infon key="fn">See also: J D&#246;rrie (February 2017)</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="type">front</infon>
+      <infon key="notes">
+
+ () : &#8211;
+
+</infon>
+      <infon key="name_10">surname:Muschel;given-names:Ruth J</infon>
+      <infon key="name_11">surname:Fokas;given-names:Emmanouil</infon>
+      <offset>0</offset>
+      <text> PD&#8208;L1 blockade enhances response of pancreatic ductal adenocarcinoma to radiotherapy</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>88</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>97</offset>
+      <text>Pancreatic ductal adenocarcinoma (PDAC) is considered a non&#8208;immunogenic tumor, and immune checkpoint inhibitor monotherapy lacks efficacy in this disease. Radiotherapy (RT) can stimulate the immune system. Here, we show that treatment of KPC and Pan02 murine PDAC cells with RT and gemcitabine upregulated PD&#8208;L1 expression in a JAK/Stat1&#8208;dependent manner. In vitro, PD&#8208;L1 inhibition did not alter radio&#8208; and chemosensitivity. In vivo, addition of anti&#8208;PD&#8208;L1 to high (12, 5&#160;&#215;&#160;3, 20&#160;Gy) but not low (6, 5&#160;&#215;&#160;2&#160;Gy) RT doses significantly improved tumor response in KPC and Pan02 allografts. Radiosensitization after PD&#8208;L1 blockade was associated with reduced CD11b+Gr1+ myeloid cell infiltration and enhanced CD45+ CD8+ T&#8208;cell infiltration with concomitant upregulation of T&#8208;cell activation markers including CD69, CD44, and FasL, and increased CD8:Treg ratio. Depletion of CD8+ T cells abrogated radiosensitization by anti&#8208;PD&#8208;L1. Blockade of PD&#8208;L1 further augmented the effect of high RT doses (12&#160;Gy) in preventing development of liver metastases. Exploring multiple mathematical models reveals a mechanism able to explain the observed synergy between RT and anti&#8208;PD&#8208;L1 therapy. Our findings provide a rationale for testing the use of immune checkpoint inhibitors with RT in PDAC.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1415</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1428</offset>
+      <text>Pancreatic ductal adenocarcinoma (PDAC) is a deadly malignancy with a 5&#8208;year survival rate of 5% (Hidalgo, 2010). Surgery is the only curative option, but the majority of patients are diagnosed at an advanced or metastatic stage. Also, PDAC is refractory to radiotherapy (RT) and chemotherapy (Ryan et&#160;al, 2014). Therefore, new therapeutic strategies are urgently required to improve survival in PDAC.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1833</offset>
+      <text>The immune checkpoint programmed death 1 (PD&#8208;1) receptor and its ligand PD&#8208;L1 (Iwai et&#160;al, 2002) are often activated in cancer and play an important role in mediating escape from immune control by inhibiting cytotoxic T&#8208;cell function (Tolaney et&#160;al, 2015). Inhibition of the PD&#8208;1/PD&#8208;L1 axis has produced impressive response rates in various malignancies, such as melanoma, renal and non&#8208;small cell lung cancer (Iwai et&#160;al, 2002; Topalian et&#160;al, 2012; Hamid et&#160;al, 2013). However, although PD&#8208;L1 is expressed in human PDAC samples (Spivak&#8208;Kroizman et&#160;al, 2013; Hutcheson et&#160;al, 2016), monotherapy with PD&#8208;L1 inhibitors lacked efficacy in this disease (Brahmer, 2012). This can be attributed to the fact that PDAC is a &#8220;non&#8208;immunogenic&#8221; tumor characterized by low mutational burden (Liu et&#160;al, 2011), lack of CD8+ T&#8208;cell infiltration (Ino et&#160;al, 2013), and the presence of immunosuppressive myeloid cell populations (Dunn et&#160;al, 2002; Stromnes et&#160;al, 2015).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2826</offset>
+      <text>Radiotherapy can activate the immune system to trigger an anti&#8208;tumor immune response following cytotoxic death and release of immunostimulating signals that can increase trafficking of T cells to the tumor (Burnette &amp; Weichselbaum, 2013; Formenti &amp; Demaria, 2013). Although studies have proposed the use of immunomodulators to enhance response to RT in various tumor types (Sharabi et&#160;al, 2015a), the efficacy of this concept in PDAC remains unexplored. Because PDAC is considered non&#8208;immunogenic (Hiraoka et&#160;al, 2006; Lutz et&#160;al, 2014) and thus less responsive to immunotherapies alone, we hypothesized that RT and anti&#8208;PD&#8208;L1 might have synergistic roles in the treatment of this disease. Here, we demonstrate that blockade of PD&#8208;L1 significantly improves tumor response to high but not low radiation doses in different tumor microenvironments by &#8220;shifting&#8221; the balance toward a more favorable anti&#8208;tumorigenic phenotype. We have also generated a mathematical model to explain the mechanism of action of PD&#8208;L1 blockade when combined with RT.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>3890</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>3898</offset>
+      <text>PD&#8208;L1 expression is upregulated after radiotherapy and chemotherapy in PDAC cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3982</offset>
+      <text>We analyzed PD&#8208;L1 expression by flow cytometry in murine PDAC cell lines 24&#160;h after RT and gemcitabine treatment (Fig&#160;1A and B, and Appendix&#160;Fig S1A and B). Both mean fluorescence intensity (MFI) and percentage of PD&#8208;L1+ cells significantly increased in the KPC and Pan02 cell lines compared to the DMSO&#8208;treated controls. Similarly, we observed PD&#8208;L1 upregulation in the human pancreatic cancer PSN&#8208;1 cells upon RT and gemcitabine treatment (Appendix&#160;Fig S1C). However, conditioned medium (CM) obtained from KPC and PSN&#8208;1 cells 24&#160;h after RT and chemotherapy did not alter PD&#8208;L1 expression (Appendix&#160;Fig S1D and E).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>4618</offset>
+      <text> RT and chemotherapy alter PD&#8208;L1 expression in PDAC cells</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4678</offset>
+      <text>Flow cytometric analysis of PD&#8208;L1 expression in (A) KPC and (B) Pan02 cells following treatment with gemcitabine and RT. Gemcitabine was diluted in DMSO (vehicle) and DMSO was used for the &#8220;untreated&#8221; control group (mean&#160;&#177;&#160;SD, n&#160;=&#160;3, one&#8208;way ANOVA, Bonferroni test). MFI, mean fluorescence index.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>4988</offset>
+      <text>Western blot analysis of the indicated proteins in both KPC (C) and Pan02 (D) cells following radiation and chemotherapy&#160;&#177;&#160;AG490, a JAK/Stat kinase inhibitor. Actin represents loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5184</offset>
+      <text>Flow cytometric analysis of PD&#8208;L1 after gemcitabine and RT (as described above) in KPC (E) and Pan02 (F) following Stat1 downregulation by siRNA (mean&#160;&#177;&#160;SD, n&#160;=&#160;3, Student's t&#8208;test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5376</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5379</offset>
+      <text> Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5431</offset>
+      <text>The signal transducer and activator of transcription (Stat) is an important mediator of PD&#8208;L1 signaling (Mowen &amp; David, 2000). Hence, we investigated the effect of JAK/Stat signaling on PD&#8208;L1 expression in both KPC and Pan02 cell lines (Fig&#160;1C and D). Consistent with our flow cytometry results, we observed upregulation of PD&#8208;L1 following RT and gemcitabine treatment by Western blotting. Upon inhibition of the JAK/Stat using AG490, RT&#8208; and gemcitabine&#8208;mediated upregulation of PD&#8208;L1 was completely abolished (Fig&#160;1C and D). Because AG490 can block both Stat1 and Stat3, we inhibited Stat1 and Stat3 by siRNA and confirmed their downregulation by Western blot (Appendix&#160;Fig S1F and G). Subsequent flow cytometry analysis of PD&#8208;L1 after treatment showed that inhibition of Stat1 (Fig&#160;1E and F) but not Stat3 (Appendix&#160;Fig S1H) decreased PD&#8208;L1 expression after RT and gemcitabine treatment in PDAC cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6357</offset>
+      <text>IFN&#947; has been shown to stimulate PD&#8208;L1 expression downstream of Stat1 in several cancer cells (Dovedi et&#160;al, 2014; Kharma et&#160;al, 2014). Hence, we examined whether IFN&#947; expression in KPC and Pan02 cells were affected by treatments (Appendix&#160;Fig S2A). Gemcitabine stimulated a small but significant increase in MFI and percentage of IFN&#947;&#8208;expressing cells compared to controls, but RT had no effect. Moreover, IFN&#947; expression was not altered following Stat1 and Stat3 inhibition in PDAC cells after RT and gemcitabine treatment (Appendix&#160;Fig S2B and C). We next asked whether IL&#8208;6 affects PD&#8208;L1 and IFN&#947; expression in PDAC cells as IL&#8208;6 also signals via the JAK/Stat pathway. Addition of recombinant murine IL&#8208;6 did not alter the percentage of PD&#8208;L1+ cells (Appendix&#160;Fig S3A) or IFN&#947; expression (Appendix&#160;Fig S3B) compared to untreated PDAC cells. These results indicate that RT and gemcitabine treatments can induce PD&#8208;L1 expression in PDAC cells in&#160;vitro in a JAK/Stat1 but not Stat3&#8208;dependent manner and that blockade of JAK/Stat1 signaling can abrogate PD&#8208;L1 induction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7461</offset>
+      <text>Efficacy of PD&#8208;L1 blockade in radiosensitizing PDAC tumor to low radiation doses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7544</offset>
+      <text>Next, we investigated the effect of anti&#8208;PD&#8208;L1 on tumor cell growth in&#160;vitro. Treatment with anti&#8208;PD&#8208;L1 did not sensitize KPC or Pan02 tumor cells to RT or gemcitabine (Appendix&#160;Fig S4A and B). In vivo, KPC syngeneic tumor&#8208;bearing mice were treated with either RT alone (6&#160;Gy or 5&#160;&#215;&#160;2&#160;Gy), anti&#8208;PD&#8208;L1 alone, or their combination (Fig&#160;2A). Treatment with anti&#8208;PD&#8208;L1 alone had no significant effect on tumor growth, whereas RT radiosensitized tumors compared to untreated controls. Addition of anti&#8208;PD&#8208;L1 to either RT schedule failed to significantly enhance tumor response to RT (Fig&#160;2A). Similar to the KPC syngeneic tumor model, treatment of Pan02 allografts with either RT (6&#160;Gy or 5&#160;&#215;&#160;2&#160;Gy), anti&#8208;PD&#8208;L1, or their combination failed to show significant growth delay compared to the untreated control group (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>8410</offset>
+      <text> PD&#8208;L1 blockade does not significantly sensitize PDAC to low RT doses (6&#160;Gy or 5&#160;&#215;&#160;2&#160;Gy; initiated at day 0) in the syngeneic KPC tumor allograft model</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8569</offset>
+      <text>Tumor growth delay was measured in the different groups, as indicated (n&#160;=&#160;6 mice per group). Anti&#8208;PD&#8208;L1 was given at days 0, 3, 6, and 9 (black arrows). The average time (days) for tumors to reach a volume of 400&#160;mm3 from day 0 is shown (means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test). No weight loss was observed in the in&#160;vivo experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8930</offset>
+      <text>Quantitative data on the percentage of gated cells are shown (n&#160;=&#160;5 per group; means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>9070</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9073</offset>
+      <text>We conducted flow cytometry analysis of immune effector CD45+CD8+ T cells, CD45+CD4+ T cells, and CD11b+Gr1+ myeloid cells in the tumor 5&#160;days after completion of the above treatments. We failed to detect any significant changes in any of the immune cell populations in the tumor after the different treatments (Fig&#160;2B and Appendix&#160;Fig S5). Treatment was well tolerated with no weight loss observed in any of the mice throughout the experiment. Thus, PD&#8208;L1 blockade did not significantly sensitize PDAC tumors to low RT doses (6&#160;Gy or 5&#160;&#215;&#160;2&#160;Gy). Although a trend toward radiosensitization was observed, it is important to note that low RT doses did not increase cytotoxic CD8+ T&#8208;cell numbers in the tumor microenvironment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9808</offset>
+      <text>PD&#8208;L1 blockade sensitizes pancreatic allografts to high RT doses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9875</offset>
+      <text>Because anti&#8208;PD&#8208;L1 treatment failed to enhance tumor response to relatively low RT doses, we then asked whether combination with higher RT doses could induce a better response to PD&#8208;L1 blockade. We first tested the efficacy of high RT doses with anti&#8208;PD&#8208;L1 in the Pan02 allograft tumor model (Fig&#160;3A). Both high RT doses (12&#160;Gy or 5&#160;&#215;&#160;3&#160;Gy) resulted in significant tumor growth delay, whereas anti&#8208;PD&#8208;L1 alone did not affect tumor growth. However, PD&#8208;L1 blockade significantly enhanced response to both RT schedules. The in&#160;vivo experiment had to be terminated at around days 35&#8211;39 because the extensive regression seen in several tumors in both combination groups resulted in large wounds that could compromise animal welfare. Flow cytometry analysis revealed significantly increased CD45+CD8+ and CD45+CD4+ T&#8208;cell infiltration in irradiated tumors compared to controls; these numbers were additionally significantly increased upon blockade of PD&#8208;L1 (Fig&#160;3B and Appendix&#160;Fig S6). Compared to the control, CD11b+Gr1+ myeloid cell numbers only decreased significantly after 12&#160;Gy&#160;+&#160;PD&#8208;L1 blockade.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>11008</offset>
+      <text> RT combined with blockade of PD&#8208;L1 amplifies anti&#8208;tumor effects in Pan02 tumor allograft</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11102</offset>
+      <text>Tumor growth delay was measured by treating tumors with RT (12&#160;Gy or 5&#160;&#215;&#160;3&#160;Gy daily; initiated at day 0) and anti&#8208;PD&#8208;L1 alone or combination of RT (n&#160;=&#160;6 mice per group). Anti&#8208;PD&#8208;L1 was given at days 0, 3, 6, and 9. The radiosensitizing effect of Anti&#8208;PD&#8208;L1 after 12 and 5&#160;&#215;&#160;3&#160;Gy was assessed as shown by the capped lines (means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test). No weight loss was observed in the in&#160;vivo experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11563</offset>
+      <text>Quantitative data on the percentage of gated cells are shown (n&#160;=&#160;5 per group; means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11703</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11706</offset>
+      <text>Similar to Pan02, mice bearing KPC tumors were treated with either 12&#160;Gy, 5&#160;&#215;&#160;3&#160;Gy, anti&#8208;PD&#8208;L1, or the combinations (Fig&#160;4A and B). Both RT doses resulted in increased tumor growth delay that was further enhanced after administration of anti&#8208;PD&#8208;L1. In parallel, we determined the effect of CD8+ T&#8208;cell depletion using anti&#8208;CD8 antibodies on the radiosensitization potential of PD&#8208;L1 blockade in the KPC model (Fig&#160;4A and B). Of note, the control, the anti&#8208;PD&#8208;L1 and anti&#8208;CD8 alone group are the same in both Fig 4A and B. Treatment with anti&#8208;CD8 did not alter KPC tumor growth in either unirradiated or irradiated mice. However, addition of anti&#8208;CD8 reversed the radiosensitizing effect of PD&#8208;L1 blockade (Fig&#160;4A and B), underscoring the importance of CD8+ T cells in mediating the radiosensitizing effect of PD&#8208;L1 blockade in PDAC. As in the Pan02 syngeneic models, CD45+CD8+ and CD45+CD4+ T&#8208;cell infiltration significantly increased after irradiation and was further enhanced after PD&#8208;L1 blockade (data not shown). Additionally, we assessed the activation status of the CD45+CD8+ T cells based on IFN&#947; expression and found increased activated CD8+ T cells following combination of high RT doses and PD&#8208;L1 blockade (described in Appendix&#160;Results and Appendix Fig&#160;S7).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13020</offset>
+      <text> CD8+ T cells are required for efficacy of RT and anti&#8208;PD&#8208;L1 treatment</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13095</offset>
+      <text>KPC tumor growth delay after treatment with either 12&#160;Gy (day 0), anti&#8208;PD&#8208;L1 (days 0, 3, 6, and 9; black arrows), anti&#8208;CD8 alone (days 0, 3, 6, and 9) or their combinations, as indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13290</offset>
+      <text>KPC tumor growth delay after treatment with either 5&#160;&#215;&#160;3&#160;Gy (days 0&#8211;4), anti&#8208;PD&#8208;L1 alone (days 0, 3, 6, and 9; black arrows), anti&#8208;CD8 alone (days 0, 3, 6, and 9) or their combinations, as indicated. Of note, the control, the anti&#8208;PD&#8208;L1 and anti&#8208;CD8 alone groups are the same as in (A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13595</offset>
+      <text>KPC tumor growth delay after either simultaneous (days 0, 3, 6, and 9; black arrows, upper row) or sequential (days 6, 9, 12, and 15; black arrows, lower row) addition of anti&#8208;PD&#8208;L1 to RT (day 0).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13796</offset>
+      <text> Data information: The average time (days) for tumors to reach a volume of 400&#160;mm3 from day 0 is also shown in the graphs on the right (means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test). No weight loss was observed in the in&#160;vivo experiments.Source data are available online for this figure. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14099</offset>
+      <text>We next compared simultaneous combination of 12&#160;Gy with anti&#8208;PD&#8208;L1 to administration of anti&#8208;PD&#8208;L1 1&#160;week after RT (Fig&#160;4C). In contrast to the simultaneous combination, sequential administration of anti&#8208;PD&#8208;L1 1&#160;week post&#8208;RT did not radiosensitize KPC tumor allografts. Moreover, we analyzed the effect of PD&#8208;L1 blockade after a very high single RT dose (20&#160;Gy) in the KPC model. PD&#8208;L1 blockade significantly radiosensitized tumors after 20&#160;Gy, but mice in both the RT alone and the RT&#160;+&#160;anti&#8208;PD&#8208;L1 groups developed grade 2 radiation dermatitis that forced termination of the experiment at approximately day 35 (Appendix&#160;Fig S9A). Taken together, anti&#8208;PD&#8208;L1 treatment resulted in significant tumor growth delay after high RT doses that correlated with enhanced tumor infiltration of CD8+ T&#160;cells and decreased CD11b+Gr1+ myeloid cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14971</offset>
+      <text>Changes in cytokine profiles after RT and PD&#8208;L1 blockade</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15030</offset>
+      <text>We examined expression of several inflammatory cytokines in sera of mice after treatment with anti&#8208;PD&#8208;L1 and/or RT (Appendix&#160;Fig S8A). Levels of stromal derived factor 1 (SDF&#8208;1) and IL&#8208;1 receptor agonist (ra) decreased slightly after anti&#8208;PD&#8208;L1 and RT treatments in the cytokine array (Appendix&#160;Fig S8B). SDF&#8208;1 levels were significantly downregulated following RT and combination anti&#8208;PD&#8208;L1&#160;+&#160;RT compared to controls as shown by ELISA (Appendix&#160;Fig S8C).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15508</offset>
+      <text>PD&#8208;L1 blockade improves both response to chemoradiotherapy and radiation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15583</offset>
+      <text>We examined PD&#8208;L1 expression in the syngeneic KPC tumor allografts after RT and gemcitabine treatment. PD&#8208;L1 was induced 5&#160;days after treatment with gemcitabine, 12&#160;Gy, 20&#160;Gy, and 5&#160;&#215;&#160;3&#160;Gy (Appendix&#160;Fig S9B). Similarly, PD&#8208;L1 was upregulated 24&#160;h (short term) as well as 3&#8211;7&#160;weeks (long term) after completion of gemcitabine in the transgenic KPC mice compared to control (Appendix&#160;Fig S9C). Hence, similar to the in&#160;vitro conditions, RT and gemcitabine can upregulate PD&#8208;L1 in PDAC in&#160;vivo.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16098</offset>
+      <text>We then assessed the impact of anti&#8208;PD&#8208;L1 when combined with&#160;gemcitabine and RT (Fig&#160;5A). Neither gemcitabine alone, nor anti&#8208;PD&#8208;L1 alone affected tumor growth compared to control. The combination of anti&#8208;PD&#8208;L1 with gemcitabine produced a marginally significant tumor growth delay, whereas gemcitabine and RT had a more pronounced effect. Consistent with our previous findings, anti&#8208;PD&#8208;L1 significantly enhanced the RT&#8208;induced tumor growth delay. Compared to the double combinations, the triple combination significantly enhanced tumor growth delay, albeit the effect of gemcitabine appeared to be additive rather than synergistic (Fig&#160;5A).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16760</offset>
+      <text>Impact of triple combination of gemcitabine&#8208;based chemoirradiation with anti&#8208;PD&#8208;L1 in the KPC tumor allograft</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>16876</offset>
+      <text>Mice were treated with either gemcitabine (days 0, 3), anti&#8208;PD&#8208;L1 (days 4, 7, 10, and 13), 12&#160;Gy (day 4) alone, or in combinations, as indicated (n&#160;=&#160;8 mice per group). The average time (days) for tumors to reach a volume of 400&#160;mm3 from day 0 is shown (means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test). No weight loss was observed in the in&#160;vivo experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17253</offset>
+      <text>RT plus anti&#8208;PD&#8208;L1 reverses T&#8208;cell exhaustion (B) and increases CD8:Treg ratio (C). Bar graphs show quantitation of T&#8208;cell activation markers and CD8:Treg ratio in tumor samples based on flow cytometry analysis, as indicated (n&#160;=&#160;5 per group; means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17565</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17568</offset>
+      <text>It has been previously reported that T cells become exhausted in cancers and chronic infections (Virgin et&#160;al, 2009; Herbst et&#160;al, 2014). Because PD&#8208;L1 was upregulated in PDAC cells in&#160;vitro and in&#160;vivo following RT and gemcitabine treatment and could potentially suppress T&#8208;cell activation, we examined the expression of T&#8208;cell activation markers CD69, FasL, and CD44 on intratumoral CD8+ T cells after treatment with RT, gemcitabine, and/or anti&#8208;PD&#8208;L1. We&#160;did not detect any significant difference in T&#8208;cell activation markers after single&#8208;agent treatment (Fig&#160;5B). However, addition of anti&#8208;PD&#8208;L1 to RT and gemcitabine&#160;+&#160;RT significantly increased numbers of CD69+ and CD44+FasL+ CD8 T cells compared to&#160;controls. Additionally, treatment with anti&#8208;PD&#8208;L1 alone, or anti&#8208;PD&#8208;L1 in combination with RT and RT&#160;+&#160;gemcitabine increased the CD8/Treg ratio compared to control or treatment with RT alone and RT&#160;+&#160;gemcitabine, respectively (Fig&#160;5C). These data provide evidence on the potential of PD&#8208;L1 blockade to promote T&#8208;cell activation in RT, gemcitabine, and combined RT plus gemcitabine.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18701</offset>
+      <text>Anti&#8208;PD&#8208;L1 enhances the anti&#8208;metastatic effect of RT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18760</offset>
+      <text>We asked whether anti&#8208;PD&#8208;L1 could enhance the cytotoxic effect of RT in a microenvironment other than the tumor allografts. For that purpose, we assessed the effect of PD&#8208;L1 blockade in liver metastasis. Mice were injected intrasplenically with either na&#239;ve or pre&#8208;irradiated (12&#160;Gy) KPC cells, then treated with anti&#8208;PD&#8208;L1 every 3&#160;days. After&#160;14&#160;days, livers were harvested and weighted. Compared to control, prior treatment with 12&#160;Gy reduced metastatic tumor burden that was further enhanced by anti&#8208;PD&#8208;L1 treatment (Fig&#160;6A). Combination of 12&#160;Gy&#160;+&#160;anti&#8208;PD&#8208;L1 also increased CD8+ T&#8208;cell infiltration, while CD11b+Gr1+ myeloid cell and CD4+CD25+FOXP3+ Treg numbers were significantly reduced compared to controls (Fig&#160;6B and Appendix&#160;Fig S10). Hence, the combination of RT and PD&#8208;L1 can enhance the cytotoxic effect of RT in an environment different from the primary tumor, further supporting the use of this therapeutic strategy.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19729</offset>
+      <text>Blockade of PD&#8208;L1 enhances the anti&#8208;metastatic effect of RT </text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19794</offset>
+      <text>Representative images of livers from the different treatment groups, as indicated. The corresponding liver weights are shown on the right (n&#160;=&#160;6 mice per group; means &#177; SD, n = 2, one&#8208;way ANOVA, Bonferroni test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20012</offset>
+      <text>Flow cytometry analysis of CD45+CD8+, CD11b+Gr1+, and CD4+CD25+FOXP3+ cell populations in the livers of the mice from the different treatment groups, as indicated (n&#160;=&#160;5 mice per group; means&#160;&#177;&#160;SD, n&#160;=&#160;1, one&#8208;way ANOVA, Bonferroni test).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20259</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20262</offset>
+      <text>Mathematical modeling of immune cells interacting with tumor&#160;cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20330</offset>
+      <text>Finally, we used mathematical modeling (Dushek et&#160;al, 2011; Lever et&#160;al, 2014) to provide additional insight into the tumor growth behavior and underlying mechanism of synergy between RT and anti&#8208;PD&#8208;L1 (Appendix&#160;Fig S11A). For that purpose, we simulated populations of tumor cells, immune cells, and the effects of RT and anti&#8208;PD&#8208;L1 in different ways (i.e., assuming different mechanisms of action) and compared the overall tumor growth predicted by these different models to our experimental data.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20840</offset>
+      <text>Experimentally, we observed that RT slowed overall tumor growth for up to 4&#160;weeks, but our initial simulations failed to reproduce this long&#8208;term effect if we modeled RT as directly killing tumor cells (Appendix&#160;Fig S11B) or reducing their overall growth rate (i.e., permanently decreasing division rate or increasing cell death rate, Appendix&#160;Fig S11C). Given that RT is known to induce immune cell infiltration (Burnette &amp; Weichselbaum, 2013), we generated a model where irradiated tumor cells became susceptible to killing by external factors (immune cells) that increase over time. Tumor growth simulations from this model can reproduce the effects of RT observed in our experiments (Appendix&#160;Fig S11D).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21554</offset>
+      <text>Building on this model for RT, we next simulated the tumor growth curves for different mechanisms of PD&#8208;L1 blockade. We found that two different models can reproduce the synergistic effects observed in our experiments: Anti&#8208;PD&#8208;L1 increases CD8+ T&#8208;cell recruitment (Appendix&#160;Fig S11E) or CD8+ T&#8208;cell killing efficiency (Appendix&#160;Fig S11F). Both mechanisms are supported by our experiments (Figs&#160;3, 4, 5) and therefore it is likely that both contribute to tumor control.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22036</offset>
+      <text>Lastly, we observed that radiosensitization was completely abolished when anti&#8208;PD&#8208;L1 was administered 7&#160;days after RT (Fig&#160;4C). The model could reproduce this result if it included suppressive microenvironment factors established earlier than 7&#160;days (Appendix&#160;Fig S11G). The administration of anti&#8208;PD&#8208;L1 early but not late shifts the balance to a more inflammatory environment by preventing the establishment of factors that suppress the ability of CD8+ T cells to kill tumor cells (Appendix&#160;Fig S11G and E). This is in line with our findings of reduced CD11b+Gr1+ and Treg numbers in tumors treated with anti&#8208;PD&#8208;L1 and RT (Figs&#160;3, 4, 5, 6).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22696</offset>
+      <text>In summary, we find that the synergy between RT and anti&#8208;PD&#8208;L1 observed in our experimental tumor growth curves can be explained by a model where (i) RT induces a large population of tumor cells to become susceptible to immune cell killing and (ii) anti&#8208;PD&#8208;L1 increases the recruitment and killing ability of CD8 T&#160;cells and, importantly, prevents the establishment of suppressive microenvironment factors (Appendix&#160;Fig S11A and G).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>23139</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23150</offset>
+      <text>PD&#8208;L1 plays a central role in permitting cancer evasion, mainly by interfering with T&#8208;cell functions, and inhibitors of the PD&#8208;1/PD&#8208;L1 axis have changed the paradigm in the management of melanoma patients (Clark et&#160;al, 2007). However, PDAC is characterized by a highly immunosuppressive stroma (Hiraoka et&#160;al, 2006; Lutz et&#160;al, 2014; Beatty et&#160;al, 2015; Diana et&#160;al, 2016b; Zhang et&#160;al, 2017) and immune checkpoint inhibitors alone were ineffective in the clinical setting (Royal et&#160;al, 2010; Brahmer et&#160;al, 2012). Evidence indicates potentially complementary roles for immunotherapy and RT (Sharabi et&#160;al, 2015a), but this combination has not been explored in PDAC. Here, we show that blockade of PD&#8208;L1 strongly enhanced tumor response to high (12, 5&#160;&#215;&#160;3, and 20&#160;Gy) but not low (6 and 5&#160;&#215;&#160;2&#160;Gy) RT doses, albeit a trend was noted for low doses. In addition to sensitizing tumors to RT, anti&#8208;PD&#8208;L1 improved response after gemcitabine&#8208;based chemoradiation. This is, to our knowledge, the first preclinical study to examine in detail the impact of this therapeutic strategy in PDAC. Our findings support and build on previous preclinical reports demonstrating enhanced radiosensitization using CTLA&#8208;4 and/or PD&#8208;1/PD&#8208;L1 immune checkpoint inhibitors in melanoma, breast, and colorectal cancer, and glioblastoma multiforme (Demaria et&#160;al, 2005; Deng et&#160;al, 2014; Dovedi et&#160;al, 2014; Sharabi et&#160;al, 2015b; Twyman&#8208;Saint Victor et&#160;al, 2015; Rodriguez&#8208;Ruiz et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24662</offset>
+      <text>Although our observations with higher RT doses are in agreement with the majority of reports showing strong radiosensitization with PD&#8208;1/PD&#8208;L1 (Demaria et&#160;al, 2005; Deng et&#160;al, 2014; Dovedi et&#160;al, 2014; Sharabi et&#160;al, 2015b; Rodriguez&#8208;Ruiz et&#160;al, 2016) and CTLA&#8208;4 blockade (Twyman&#8208;Saint Victor et&#160;al, 2015), some suggestions that the effects of immunity could be overcome were noted; despite the significant growth delay after combination RT&#160;+&#160;anti&#8208;PD&#8208;L1, tumors eventually regrew in the KPC model. Unfortunately, the in&#160;vivo experiment using the Pan02 model had to be terminated early due to the profound tumor regression that led to the formation of extensive open wounds and hence tumor regrowth could not be monitored in this model. Also, 20&#160;Gy treatment in KPC allografts resulted in RT&#8208;induced dermatitis (also in the RT alone group) that made tumor rechallenge impossible as the experiment had to be terminated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25607</offset>
+      <text>Interestingly, PD&#8208;L1 exerted a radiosensitizing effect only with higher RT doses in our models. In contrast, Dovedi et&#160;al demonstrated that PD&#8208;L1 inhibition in combination with lower RT doses (5&#160;&#215;&#160;2&#160;Gy) was sufficient to delay tumor growth in colorectal and triple&#8208;negative breast cancers (Dovedi et&#160;al, 2014). These differences could be attributed to the cell line behavior, such as higher intrinsic radiosensitivity compared to PDAC cells (Liu et&#160;al, 2011; Tolaney et&#160;al, 2015) that could render these cells more vulnerable to recognition and cytotoxic killing by T cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26196</offset>
+      <text>PD&#8208;L1 expression is upregulated by either oncogenic signaling, such as PI3K/AKT activation (innate resistance) or inflammatory processes via IFN&#947; (adaptive resistance) (Parsa et&#160;al, 2007; Kharma et&#160;al, 2014). In accordance with other groups (Spivak&#8208;Kroizman et&#160;al, 2013; Deng et&#160;al, 2014; Dovedi et&#160;al, 2014; Peng et&#160;al, 2015), we showed that both RT and gemcitabine induced PD&#8208;L1 expression in PDAC both in&#160;vitro and in&#160;vivo. Upregulation of PD&#8208;L1 by RT and gemcitabine lends support to coupling PD&#8208;L1 blockade with these conventional treatments to enhance anti&#8208;tumor response. Furthermore, PD&#8208;L1 expression can be suppressed by depletion of Stat1 (Kharma et&#160;al, 2014) and we found that the JAK/Stat kinase inhibitor AG490 abrogated baseline PD&#8208;L1 expression and upregulation after conventional treatments in our series. Because AG490 can inhibit both Stat1 and Stat3, we also used siRNA to demonstrate that inhibition of Stat1 but not Stat3 decreased PD&#8208;L1 expression at baseline, and after RT and gemcitabine treatment in PDAC cells. Interestingly, IL&#8208;6 had marginal effects on PD&#8208;L1 expression in the PDAC cells despite activating the JAK/Stat pathway and its previous implication in PD&#8208;L1&#8208;mediated immunosuppression (Spary et&#160;al, 2014; Chen et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27494</offset>
+      <text>PD&#8208;L1 upregulation can induce dysfunction in T cells leading to their exhaustion and impaired activation and immune surveillance (Wherry, 2011). Because both RT and gemcitabine upregulated PD&#8208;L1 in PDAC, we assessed whether this suppressed CD8+ T&#8208;cell activation. Addition of anti&#8208;PD&#8208;L1 to RT and RT&#160;+&#160;gemcitabine increased the proportion of intratumoral CD8+ T cells expressing the activation markers CD69, CD44, and FasL (Smith&#8208;Garvin et&#160;al, 2009; Wherry, 2011; Twyman&#8208;Saint Victor et&#160;al, 2015). These data suggest that despite inducing PD&#8208;L1 expression in PDAC, addition of anti&#8208;PD&#8208;L1 to RT and gemcitabine can overcome T&#8208;cell suppression and enhance T&#8208;cell activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28195</offset>
+      <text>Radiotherapy can modulate the immune system to promote CD8+ T cells to attack tumor cells through multiple mechanisms (Burnette &amp; Weichselbaum, 2013; Sharabi et&#160;al, 2015a) including the release of stimulatory cytokines such as IFN&#947;. We only observed upregulation of IFN&#947; expression in PDAC cells after treatment with gemcitabine but not with RT. IFN&#947; can activate Jak/Stat resulting in PD&#8208;L1 upregulation (Bellucci et&#160;al, 2015), which could explain PD&#8208;L1 upregulation in PDAC cells after gemcitabine treatment. In an attempt to uncover other cytokines involved in the RT&#8208;mediated immune response, we examined the serum cytokine profiles of mice after treatment. RT alone or in combination with anti&#8208;PD&#8208;L1 significantly decreased SDF&#8208;1 expression. Interestingly, SDF&#8208;1 has been previously implicated in immunosuppression and tumor progression in PDAC (Feig et&#160;al, 2013) and downregulation of SDF&#8208;1 may contribute to the therapeutic effect of RT&#160;+&#160;anti&#8208;PD&#8208;L1 in reversing the immunosuppressive phenotype.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29226</offset>
+      <text>The positive prognostic role of high CD8+ T&#8208;cell infiltration has been demonstrated consistently in the clinical setting in several malignancies, including PDAC (Fridman et&#160;al, 2012; Ino et&#160;al, 2013; Diana et&#160;al, 2016a). We observed increased CD8+ T&#8208;cell infiltration in tumors after high RT doses that was further enhanced by inhibition of PD&#8208;L1. Anti&#8208;PD&#8208;L1 alone and in combination with RT significantly increased the CD8/Treg ratio, an important metric of anti&#8208;tumor response to treatment (Byrne et&#160;al, 2011; Amedei et&#160;al, 2013; Diana et&#160;al, 2016a). Furthermore, blockade of CD8 abrogated the radiosensitizing effect of anti&#8208;PD&#8208;L1 in PDAC cells in&#160;vivo, in agreement with other reports (Deng et&#160;al, 2014; Dovedi et&#160;al, 2014; Twyman&#8208;Saint Victor et&#160;al, 2015; Rodriguez&#8208;Ruiz et&#160;al, 2016).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30047</offset>
+      <text>Addition of anti&#8208;PD&#8208;L1 to RT also caused a reduction in CD11b+Gr1+ myeloid cells in&#160;vivo. Infiltration of myeloid cells is a key feature of cancer inflammation in PDAC and CD11b+Gr1+ cells characteristic of myeloid&#8208;derived suppressor cells (MDSCs) are known to suppress antigen&#8208;specific T cells (Song et&#160;al, 2005). The reduction in CD11b+Gr1+ cells appears to be mutually exclusive from CD8+ T&#8208;cell infiltration (Clark et&#160;al, 2007). Deng et&#160;al revealed that addition of anti&#8208;PD&#8208;L1 to RT eliminated MDSCs from the tumor microenvironment (Deng et&#160;al, 2014). Consistent with this, we found reduced CD11b+Gr1+ cells following anti&#8208;PD&#8208;L1 and RT treatments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30722</offset>
+      <text>We additionally assessed whether anti&#8208;PD&#8208;L1 could enhance radiosensitization of PDAC cells in an environment other than the syngeneic allograft model. For that purpose, we intrasplenically injected untreated or previously irradiated (12&#160;Gy) PDAC cells and assessed the impact of systemic PD&#8208;L1 blockade (i.p.) in the development of liver metastasis. Both RT alone and anti&#8208;PD&#8208;L1 alone reduced metastatic colonization compared to untreated controls, but addition of anti&#8208;PD&#8208;L1 significantly enhanced the anti&#8208;metastatic effect of RT. Recruitment of immune cells to the liver is known to precede development of liver metastases (Engblom et&#160;al, 2016). We found significant infiltration of CD8+ T cells after RT and anti&#8208;PD&#8208;L1 treatments compared to control. RT in combination with the anti&#8208;PD&#8208;L1 also significantly reduced infiltration of CD4+CD25+FOXP3+ T regulatory cells (Byrne et&#160;al, 2011), further supporting the notion that PD&#8208;L1 checkpoint inhibition together with RT can counteract the immunosuppressive tumor environment. Our observations are in line with a previous report showing decreased lung metastases after RT and CTLA&#8208;4 blockade in a mouse model of breast cancer (Demaria et&#160;al, 2005). Also, albeit in a different setting, combination of local RT with immune checkpoint blockade has demonstrated the so&#8208;called abscopal effect, that is, regression of metastatic lesions located outside the radiation field in melanoma patients due to the development of immune surveillance (Postow et&#160;al, 2012).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32265</offset>
+      <text>Finally, we developed a minimal model of immune cell interactions with tumor cells that can explain the tumor growth behavior under treatment conditions. Importantly, we found that the synergistic effect of anti&#8208;PD&#8208;L1 treatment with RT cannot be explained solely with increased CD8+ T&#8208;cell recruitment or activation. An additional effect of anti&#8208;PD&#8208;L1 on the immunosuppressive microenvironment had to be invoked to explain the delayed tumor growth. Our model indicates that radiation&#160;+&#160;anti&#8208;PD&#8208;L1 combination therapy is only effective in patients with pre&#8208;existing CD8 T cells in the tumor microenvironment and that anti&#8208;PD&#8208;L1 should be administered early, in conjunction with RT for maximal anti&#8208;tumor responses. The mathematical model provides validation that anti&#8208;PD&#8208;L1 additionally targets the immunosuppressive cells, whereas radiotherapy alone may only stimulate immune cell recruitment. These findings are important for the design of future therapeutic strategies as they underscore the clinical value of combination therapy involving PD&#8208;1/PD&#8208;L1 blockade to target the immunosuppressive microenvironment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33409</offset>
+      <text>In summary, PD&#8208;L1 blockade can improve PDAC response to RT and chemoradiation and can enhance the effect of RT in preventing formation of liver metastases. Altogether, these findings indicate that RT combined with PD&#8208;L1 checkpoint inhibition can &#8220;shift&#8221; the balance toward a more favorable immune phenotype. Our data add important insight on the potential of immune checkpoint inhibitors to radiosensitize PDAC, a tumor that is traditionally considered as non&#8208;immunogenic. These findings provide a rationale for exploring the therapeutic potential of PD&#8208;L1 blockade in combination with RT in PDAC and should be explored in future clinical studies in patients with PDAC.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34091</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34113</offset>
+      <text>Cell culture and reagents</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34139</offset>
+      <text>The murine PDAC cell lines KPC and Pan02 were cultured in DMEM supplemented with 10% FBS and 1% penicillin/streptomycin. KPC cells were derived from KrasLSLG12D/+; p53R172H/+; Pdx1&#8208;Cretg/+ (KPC) tumors. Murine Pan02 pancreatic adenocarcinoma cells were obtained from the NCI&#8211;DCTD Tumor Repository, Maryland, USA. Gemcitabine was purchased from Eli Lilly and Company Ltd, UK. Murine anti&#8208;PD&#8208;L1 antibody (Clone 10F.9G2) was purchased from BioXCell.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34594</offset>
+      <text>Clonogenic survival assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34620</offset>
+      <text>Both KPC and Pan02 cells were seeded into 6&#8208;well plates. Anti&#8208;PD&#8208;L1 antibody was added to the culture 1&#160;h before irradiation with single dose of 2, 4, and 6&#160;Gy. Similarly, cells were also treated with gemcitabine (0, 10, 20, and 50&#160;nM). Gemcitabine was diluted in DMSO (vehicle), and hence, we used DMSO for the untreated control group. Twenty&#8208;four hours after treatment, cells were washed with PBS and replaced with fresh medium. The clonogenic survival of cells was assessed as described previously (Prevo et&#160;al, 2008).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35154</offset>
+      <text>Syngeneic mouse models</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35177</offset>
+      <text>C57BL/6 mice were injected subcutaneously (s.c.) with KPC and Pan02 cells (5&#160;&#215;&#160;105&#160;cells/100&#160;&#956;l in serum&#8208;free medium). Tumor size was measured with caliper using the formula Volume&#160;= (a&#160;&#215;&#160;b 2)/2, in which a and b are the largest and the smallest perpendicular diameters, respectively. Mice were randomized into different groups when tumors reached 100&#160;mm3 and treatment was initiated (day 0) as described previously (Fokas et&#160;al, 2012). RT was initiated at day 0 (with the exception of the triple combination experiment where it was initiated at day 4) and was administered at a dose of either 6&#160;Gy, 12&#160;Gy, 20&#160;Gy, 5&#160;&#215;&#160;3&#160;Gy, or 5&#160;&#215;&#160;2&#160;Gy given daily using the Gulmay 320 irradiator under inhalational anesthesia with isoflurane (2%). Only the tumor was irradiated, whereas the rest of the body was sealed to avoid unwanted side effects (Fokas et&#160;al, 2012). Gemcitabine (100&#160;mg/kg) was given by intraperitoneal (i.p.) injection at days 0 and 3. Anti&#8208;PD&#8208;L1 antibody (clone 10F.9G2, BioXCell, UK) was administered at a dose of 10&#160;mg/kg by i.p. injection at days 0, 3, 6, and 9 when combined with RT, or at days 4, 7, 10, and 13 in the triple combination experiment (gemcitabine&#160;+&#160;anti&#8208;PD&#8208;L1&#160;+&#160;RT). For the combination doses, anti&#8208;PD&#8208;L1 was administered immediately after RT. The anti&#8208;CD8 (clone 2.43, BioXCell, UK) to deplete CD8+ T cells was given by i.p. injection at dose of 250&#160;&#956;g at days 0 (immediately post&#8208;RT), 3, 6, and 9. We assessed the time it took for the tumors to grow to 400&#160;mm3, starting from the beginning of treatment (day 0) to ensure that our experiments were according to the UK Home Office guidelines for animal welfare.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36866</offset>
+      <text>Liver metastasis mouse model</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36895</offset>
+      <text>To generate liver metastasis, KPC cells (5&#160;&#215;&#160;105&#160;cells/100&#160;&#956;l in PBS) were injected intrasplenically into C57BL/6 mice that are either na&#239;ve or pre&#8208;irradiated with 12&#160;Gy 1&#160;h before intrasplenic injection, as previously described (Lim et&#160;al, 2015). Spleen was removed 1&#160;min following intrasplenic injection to avoid tumor growth in the spleen. Similar to the allograft experiments, anti&#8208;PD&#8208;L1 antibody was given at days 0, 3, 6, and 9 by i.p. injection at a dose of 10&#160;mg/kg. Livers were harvested and weighed at day 14.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37433</offset>
+      <text>KPC transgenic mice</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37453</offset>
+      <text>The KPC transgenic mouse model has been described previously (Hingorani et&#160;al, 2005). When mice reached an age of 11&#8211;12&#160;weeks, monitoring for tumor was initiated using palpation twice per week and sonography (Ultrasound&#8208;Vevo 700). Treatment with gemcitabine (100&#160;mg/kg) by i.p. injection for a total of three doses every 4&#160;days was started when tumor reached 80&#8211;120&#160;mm3. We assessed the impact of chemotherapy either short term (24&#160;h) or long term (3&#8211;7&#160;weeks, based on tumor size and deterioration of health status including weight loss &gt;&#160;20% and lethargy) after completion of treatment with gemcitabine. Tumors were harvested and analyzed for PD&#8208;L1 expression by flow cytometry as described below.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38170</offset>
+      <text>All animal experiments were performed according to the regulations of the University of Oxford and the Home office, UK (Scientific Procedure Act, 1986; Project License Number 30/2922 issued by the Home Office). All protocols were approved by the Committee on the Ethics of Animal Experiments of the University of Oxford.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38491</offset>
+      <text>Flow cytometry analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38515</offset>
+      <text>KPC and Pan02 cells were seeded in 6&#8208;well plate. After 24&#160;h, cells were treated with either 6, 4&#160;&#215;&#160;2&#160;Gy fractionated radiation given daily using cesium&#8208;137 irradiators, or 20&#160;nM gemcitabine. Gemcitabine was diluted in DMSO (vehicle), and hence, we used DMSO for the untreated control group and the radiation groups as well. Cells were harvested 24&#160;h post&#8208;treatment and washed with cold PBS. Cells were stained with mouse PE&#8208;PD&#8208;L1 and APC&#8208;IFN&#947;. All the antibodies were purchased from eBiosciences.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39032</offset>
+      <text>We also examined expression of PD&#8208;L1 following blockade of either Stat1 or Stat3 using siRNA. For that purpose, cells were transfected with 50&#160;nM negative control siRNA (catalog number 1022076, Qiagen), 50 and 100&#160;nM Stat1 (J&#8208;058881&#8208;10, DermaFECT), or 50&#160;nM Stat3 siRNA (J&#8208;040794&#8208;10, DermaFECT) using Lipofectamine 2000 (Invitrogen) reagent. After 48&#160;h, proteins were isolated and knockdown was confirmed by Western blotting. For flow cytometry analysis of PD&#8208;L1 and IFN&#947;, siRNA&#8208;transfected cells were either irradiated with 6&#160;Gy or treated with gemcitabine and PD&#8208;L1 expression examined as above. PD&#8208;L1 expression was also assessed following addition of recombinant mouse IL&#8208;6 (50&#160;ng/ml; PeproTech) for 1&#160;h and subsequent treatments with 6&#160;Gy and gemcitabine for 24&#160;h.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39832</offset>
+      <text>For flow cytometry analysis of mouse tissue samples, tumor, liver, and spleen were cut into small pieces and only liver samples were digested with 0.05% collagenase/dispase (Roche) for 15&#160;min at 37&#176;C in the presence of 0.01% trypsin inhibitor. Bone marrow was collected by flushing both femur and tibia with PBS using a 25&#8208;G syringe. All cells were washed with cold PBS. Cells were then filtered through 70&#8208;&#956;m nylon strainer followed by red blood cell (RBC) lysis for 3&#160;min at room temperature. Single&#8208;cell suspensions were then stained with the following antibodies: FITC&#8208;CD45, FITC&#8208;CD8, PeCy7&#8208;CD4, PeCy7&#8208;CD11b, PE&#8208;Gr1, PE&#8208;Ly6G and APC&#8208;IFN&#947;, PE&#8208;CD25, APC&#8208;FOXP3, CD69&#8208;PE, APC&#8208;CD44, and PeCy7&#8208;FasL.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40565</offset>
+      <text>Blood samples were collected in 40&#160;mM EDTA and mixed with equal volume of PBS. Diluted blood was layered onto an equal volume of Histopaque (Sigma) and centrifuged at 400&#160;g for 20&#160;min at RT to isolate leukocyte population. The cells were washed with cold PBS and stained with FITC&#8208;CD8, PeCy7&#8208;CD4, and PE&#8208;PD&#8208;1. Flow cytometry was performed using a FACSCalibur (Becton Dickinson) and analyzed using FlowJo software (FlowJo, LLC, USA). All the antibodies were purchased from eBiosciences, UK.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41066</offset>
+      <text>Western blotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41083</offset>
+      <text>Cells were first treated with 20&#160;&#956;M of JAK kinase inhibitor (AG490, Tocris) 1&#160;h before RT (6&#160;Gy) or addition of 20&#160;nM gemcitabine. Following 24&#160;h post&#8208;RT and gemcitabine, cell lysates were prepared in RIPA buffer containing protease inhibitor cocktail (Roche) and phosphatase inhibitor cocktail (Roche). In total, 30&#160;&#956;g of proteins were separated on SDS&#8211;PAGE (Invitrogen) and transferred to Hybond&#8208;C membranes (Amersham Biosciences). Standard procedures were applied for Western blotting. The following antibodies were used: Stat1, phospho&#8208;Stat1 (Y701), Stat3, mouse PD&#8208;L1 (all from R&amp;D Systems), actin (Cell Signaling).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>41722</offset>
+      <text>Cytokine profile and SDF&#8208;1 ELISA in KPC allografts</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41775</offset>
+      <text>Serum was obtained from the KPC allograft&#8208;bearing mice 5&#160;days after treatment with either vehicle (control), 12&#160;Gy, anti&#8208;PD&#8208;L1, or 12&#160;Gy&#160;+&#160;anti&#8208;PD&#8208;L1. Serum was assessed for expression of cytokines using a standard Cytokine Profiler kit and SDF&#8208;1 ELISA kit (both from R&amp;D Systems) according to the manufacturer instructions. Array spot intensities were quantified using a Matlab software as reported (Zhao et&#160;al, 2013).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42213</offset>
+      <text>Mathematical modeling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42235</offset>
+      <text>We and others have previously used mathematical modeling to describe T&#8208;cell activation and antigen potency (Dushek et&#160;al, 2011; Lever et&#160;al, 2014; Tolaney et&#160;al, 2015). Here, we used the same principles to model the efficacy of anti&#8208;PD&#8208;L1 and RT in the different experiments. The mathematical model consists of a system of ordinary differential equations (ODEs), which are often used to describe the interactions among cellular populations in immunology and cancer,</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>42710</offset>
+      <text>   &#8706;T1/&#8706;t&#160;=&#160;&#955;*T1 (resistant tumor cells)  &#8706;T2/&#8706;t&#160;=&#160;&#955;*T2&#8208;&#949;1/((K+M))*E*T2&#8208;&#949;2*X*T2  (susceptible tumor cells)  &#8706;E/&#8706;t&#160;= &#947; (CD8 effector T cells)  &#8706;X/&#8706;t&#160;=&#160;&#946; (other immune cells)  &#8706;M/&#8706;t&#160;=&#160;&#966; (microenvironment factors)</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42961</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42964</offset>
+      <text>where: &#955;&#160;=&#160;0.19, &#947;&#160;=&#160;0.025, &#946;&#160;=&#160;0.16, &#949;2&#160;=&#160;0.0298, M&#160;&#8805;&#160;1, K&#160;&#8810;&#160;1, tumor volume V&#160;=&#160;T1&#160;+&#160;T2, and under the different treatment conditions: no treatment: &#949;1&#160;=&#160;0.002, &#966;&#160;=&#160;3, T1 day 0&#160;=&#160;100, T2 day 0&#160;=&#160;0; radiation: &#949;1&#160;=&#160;0.002, &#966;&#160;=&#160;3, T1 day 0&#160;=&#160;0.4, T2 day 0&#160;=&#160;99.6; radiation&#160;+&#160;anti&#8208;PD&#8208;L1 (day 0): &#949;1&#160;=&#160;0.02, &#966;&#160;=&#160;&#8722;0.2, T1 day 0&#160;=&#160;0.4, T2 day 0&#160;=&#160;99.6; radiation&#160;+&#160;anti&#8208;PD&#8208;L1 (day 6): &#949;1 day 0&#160;=&#160;0.002, &#949;1 day 6&#160;=&#160;0.02, &#966; day 0&#160;=&#160;3, &#966; day 6&#160;=&#160;&#8722;0.2, T1 day 0&#160;=&#160;0.4, T2 day 0&#160;=&#160;99.6. The ODEs were integrated in Matlab (Mathworks, MA, USA) using ode45.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>43597</offset>
+      <text>Statistical analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43618</offset>
+      <text>Differences between groups were determined using Student's paired t&#8208;test and one&#8208;way ANOVA (Bonferroni test) with the GraphPad Prism version 5 (GraphPad software, USA). P&#8208;values lower than 0.05 were considered statistically significant. Error bars represent standard deviation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>43902</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43923</offset>
+      <text>AA, SYL, and EF designed the experimental strategy. AA, SYL, ZD'C, and EF organized the experiments and collected and analyzed the data. AD and SYL provided assistance with the experimental methodology. AA, SYL, and EF prepared the protocols for mouse radiotherapy. OJS, WGM, and RJM provided experimental advice. PK and OD generated the mathematical modeling. AA, SYL, and EF wrote the manuscript with advice from OJS, WGM, OD, and RJM. KJ assisted with the in vivo studies. SL helped with the manuscript preparation. All authors discussed and approved the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>44493</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44514</offset>
+      <text>Part of this work was presented at the ESTRO 35 and the NCRI 2015 conference. The authors declare that they have no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1_caption</infon>
+      <offset>44652</offset>
+      <text>The paper explained</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44672</offset>
+      <text>Problem</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44680</offset>
+      <text>Pancreatic ductal adenocarcinoma is characterized by a dismal prognosis and it is refractory to conventional treatment, such as radiotherapy and chemotherapy, and immune checkpoint inhibitor monotherapy. In contrast to the notion that all patients with PDAC die of metastatic disease, at least 20% suffer and die of local recurrence. Hence, there is a need to improve radiotherapy efficacy to enhance local control and clinical outcome. Evidence indicates potentially complementary roles for immunotherapy and radiotherapy, but this combination has not been explored in PDAC.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>45256</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45264</offset>
+      <text>Here, we show that radiation and gemcitabine chemotherapy have substantial immunomodulatory effects, including upregulation of PD&#8208;L1 in&#160;vitro and in&#160;vivo. Inhibition of PD&#8208;L1 strongly enhanced tumor response to high (12&#160;Gy, 5&#160;&#215;&#160;3&#160;Gy, 20&#160;Gy) but not low (6&#160;Gy, 5&#160;&#215;&#160;2&#160;Gy) RT doses, and to gemcitabine&#8208;based chemoradiotherapy in different mouse models of PDAC. The increased tumor response to radiation observed upon PD&#8208;L1 blockade correlated with increased intratumoral T&#8208;cell numbers and activation and reduced myeloid cell infiltration, whereas depletion of CD8+ T cells abrogated the radiosensitization by anti&#8208;PD&#8208;L1. Additionally, inhibition of PD&#8208;L1 enhanced the impact of radiotherapy in preventing development of liver metastases. We generated a novel mathematical model that explains the synergistic effect of radiation and PD&#8208;L1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46132</offset>
+      <text>Impact</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46139</offset>
+      <text>In the present work, we provide a strong rationale for testing the use of PD&#8208;L1 immune checkpoint inhibition with radiotherapy in PDAC in the clinical setting that could lead to improved outcome in patients with this disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>46367</offset>
+      <text>For more information</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46388</offset>
+      <text> https://www.ncbi.nlm.nih.gov/pubmed/26433823 </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46435</offset>
+      <text> https://www.ncbi.nlm.nih.gov/pubmed/26270858 </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46482</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>46485</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>46508</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Cancer Immunol Immunother</infon>
+      <infon key="lpage">1260</infon>
+      <infon key="pub-id_pmid">23640603</infon>
+      <infon key="fpage">1249</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>46519</offset>
+      <text>Ex vivo analysis of pancreatic cancer&#8208;infiltrating T lymphocytes reveals that ENO&#8208;specific Tregs accumulate in tumor tissue and inhibit Th1/Th17 effector cell functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">149</infon>
+      <infon key="source">Gastroenterology</infon>
+      <infon key="lpage">210</infon>
+      <infon key="pub-id_pmid">25888329</infon>
+      <infon key="fpage">201</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46692</offset>
+      <text>Exclusion of T cells from pancreatic carcinomas in mice is regulated by Ly6C(low) F4/80(+) extratumoral macrophages</text>
+    </passage>
+    <passage>
+      <infon key="source">Oncoimmunology</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">26155422</infon>
+      <infon key="fpage">e1008824</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>46808</offset>
+      <text>Interferon&#8208;gamma&#8208;induced activation of JAK1 and JAK2 suppresses tumor cell susceptibility to NK cells through upregulation of PD&#8208;L1 expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="source">Clin Adv Hematol Oncol</infon>
+      <infon key="lpage">675</infon>
+      <infon key="pub-id_pmid">23187774</infon>
+      <infon key="fpage">674</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>46957</offset>
+      <text>PD&#8208;1&#8208;targeted immunotherapy: recent clinical findings</text>
+    </passage>
+    <passage>
+      <infon key="volume">366</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">2465</infon>
+      <infon key="pub-id_pmid">22658128</infon>
+      <infon key="fpage">2455</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>47015</offset>
+      <text>Safety and activity of anti&#8208;PD&#8208;L1 antibody in patients with advanced cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="source">Semin Radiat Oncol</infon>
+      <infon key="lpage">280</infon>
+      <infon key="pub-id_pmid">24012341</infon>
+      <infon key="fpage">273</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>47095</offset>
+      <text>Radiation as an immune modulator</text>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">6920</infon>
+      <infon key="pub-id_pmid">22068034</infon>
+      <infon key="fpage">6915</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>47128</offset>
+      <text>Targeting regulatory T cells in cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">7924</infon>
+      <infon key="pub-id_pmid">26761210</infon>
+      <infon key="fpage">7913</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>47167</offset>
+      <text>The role of PD&#8208;L1 in the radiation response and prognosis for esophageal squamous cell carcinoma related to IL&#8208;6 and T&#8208;cell immunosuppression</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">9527</infon>
+      <infon key="pub-id_pmid">17909062</infon>
+      <infon key="fpage">9518</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>47315</offset>
+      <text>Dynamics of the immune reaction to pancreatic cancer from inception to invasion</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">734</infon>
+      <infon key="pub-id_pmid">15701862</infon>
+      <infon key="fpage">728</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>47395</offset>
+      <text>Immune&#8208;mediated inhibition of metastases after treatment with local radiation and CTLA&#8208;4 blockade in a mouse model of breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">124</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">695</infon>
+      <infon key="pub-id_pmid">24382348</infon>
+      <infon key="fpage">687</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47531</offset>
+      <text>Irradiation and anti&#8208;PD&#8208;L1 treatment synergistically promote antitumor immunity in mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">41004</infon>
+      <infon key="pub-id_pmid">27329602</infon>
+      <infon key="fpage">40992</infon>
+      <infon key="year">2016a</infon>
+      <infon key="type">ref</infon>
+      <offset>47623</offset>
+      <text>Prognostic value, localization and correlation of PD&#8208;1/PD&#8208;L1, CD8 and FOXP3 with the desmoplastic stroma in pancreatic ductal adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Oncotarget</infon>
+      <infon key="lpage">72832</infon>
+      <infon key="pub-id_pmid">27637082</infon>
+      <infon key="fpage">72819</infon>
+      <infon key="year">2016b</infon>
+      <infon key="type">ref</infon>
+      <offset>47768</offset>
+      <text>Prognostic role and correlation of CA9, CD31, CD68 and CD20 with the desmoplastic stroma in pancreatic ductal adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">74</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5468</infon>
+      <infon key="pub-id_pmid">25274032</infon>
+      <infon key="fpage">5458</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>47893</offset>
+      <text>Acquired resistance to fractionated radiotherapy can be overcome by concurrent PD&#8208;L1 blockade</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">998</infon>
+      <infon key="pub-id_pmid">12407406</infon>
+      <infon key="fpage">991</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>47989</offset>
+      <text>Cancer immunoediting: from immunosurveillance to tumor escape</text>
+    </passage>
+    <passage>
+      <infon key="source">Sci Signal</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">21653229</infon>
+      <infon key="fpage">ra39</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>48051</offset>
+      <text>Antigen potency and maximal efficacy reveal a mechanism of efficient T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">462</infon>
+      <infon key="pub-id_pmid">27339708</infon>
+      <infon key="fpage">447</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>48138</offset>
+      <text>The role of myeloid cells in cancer therapies</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">20217</infon>
+      <infon key="pub-id_pmid">24277834</infon>
+      <infon key="fpage">20212</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>48184</offset>
+      <text>Targeting CXCL12 from FAP&#8208;expressing carcinoma&#8208;associated fibroblasts synergizes with anti&#8208;PD&#8208;L1 immunotherapy in pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">72</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">248</infon>
+      <infon key="pub-id_pmid">22108822</infon>
+      <infon key="fpage">239</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48324</offset>
+      <text>Dual inhibition of the PI3K/mTOR pathway increases tumor radiosensitivity by normalizing tumor vasculature</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="source">J Natl Cancer Inst</infon>
+      <infon key="lpage">265</infon>
+      <infon key="pub-id_pmid">23291374</infon>
+      <infon key="fpage">256</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>48431</offset>
+      <text>Combining radiotherapy and cancer immunotherapy: a paradigm shift</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Rev Cancer</infon>
+      <infon key="lpage">306</infon>
+      <infon key="pub-id_pmid">22419253</infon>
+      <infon key="fpage">298</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>48497</offset>
+      <text>The immune contexture in human tumours: impact on clinical outcome</text>
+    </passage>
+    <passage>
+      <infon key="volume">369</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">144</infon>
+      <infon key="pub-id_pmid">23724846</infon>
+      <infon key="fpage">134</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>48564</offset>
+      <text>Safety and tumor responses with lambrolizumab (anti&#8208;PD&#8208;1) in melanoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">515</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">567</infon>
+      <infon key="pub-id_pmid">25428504</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>48638</offset>
+      <text>Predictive correlates of response to the anti&#8208;PD&#8208;L1 antibody MPDL3280A in cancer patients</text>
+    </passage>
+    <passage>
+      <infon key="volume">362</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">1617</infon>
+      <infon key="pub-id_pmid">20427809</infon>
+      <infon key="fpage">1605</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>48732</offset>
+      <text>Pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">483</infon>
+      <infon key="pub-id_pmid">15894267</infon>
+      <infon key="fpage">469</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48750</offset>
+      <text>Trp53R172H and KrasG12D cooperate to promote chromosomal instability and widely metastatic pancreatic ductal adenocarcinoma in mice</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">5434</infon>
+      <infon key="pub-id_pmid">17000676</infon>
+      <infon key="fpage">5423</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48882</offset>
+      <text>Prevalence of FOXP3+ regulatory T cells increases during the progression of pancreatic ductal adenocarcinoma and its premalignant lesions</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">3617</infon>
+      <infon key="pub-id_pmid">26858311</infon>
+      <infon key="fpage">3606</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>49020</offset>
+      <text>Immunological and metabolic features of pancreatic ductal adenocarcinoma define prognostic subtypes of disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="source">Br J Cancer</infon>
+      <infon key="lpage">923</infon>
+      <infon key="pub-id_pmid">23385730</infon>
+      <infon key="fpage">914</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49131</offset>
+      <text>Immune cell infiltration as an indicator of the immune microenvironment of pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">12297</infon>
+      <infon key="pub-id_pmid">12218188</infon>
+      <infon key="fpage">12293</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>49224</offset>
+      <text>Involvement of PD&#8208;L1 on tumor cells in the escape from host immune system and tumor immunotherapy by PD&#8208;L1 blockade</text>
+    </passage>
+    <passage>
+      <infon key="volume">74</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">6530</infon>
+      <infon key="pub-id_pmid">25267067</infon>
+      <infon key="fpage">6519</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49344</offset>
+      <text>STAT1 drives tumor progression in serous papillary endometrial cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="lpage">629</infon>
+      <infon key="pub-id_pmid">25145757</infon>
+      <infon key="fpage">619</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49414</offset>
+      <text>Phenotypic models of T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="source">Hepatology</infon>
+      <infon key="lpage">533</infon>
+      <infon key="pub-id_pmid">25854806</infon>
+      <infon key="fpage">521</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>49453</offset>
+      <text>Cd11b(+) myeloid cells support hepatic metastasis through down&#8208;regulation of angiopoietin&#8208;like 7 in cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="lpage">3648</infon>
+      <infon key="pub-id_pmid">21459800</infon>
+      <infon key="fpage">3638</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>49570</offset>
+      <text>PDGF&#8208;D improves drug delivery and efficacy via vascular normalization, but promotes lymphatic metastasis by activating CXCR4 in breast cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="source">Cancer Immunol Res</infon>
+      <infon key="lpage">631</infon>
+      <infon key="pub-id_pmid">24942756</infon>
+      <infon key="fpage">616</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>49714</offset>
+      <text>Immunotherapy converts nonimmunogenic pancreatic tumors into immunogenic foci of immune regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">7281</infon>
+      <infon key="pub-id_pmid">10982844</infon>
+      <infon key="fpage">7273</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>49813</offset>
+      <text>Regulation of STAT1 nuclear export by Jak1</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="lpage">88</infon>
+      <infon key="pub-id_pmid">17159987</infon>
+      <infon key="fpage">84</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>49856</offset>
+      <text>Loss of tumor suppressor PTEN function increases B7&#8208;H1 expression and immunoresistance in glioma</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5045</infon>
+      <infon key="pub-id_pmid">26573793</infon>
+      <infon key="fpage">5034</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>49955</offset>
+      <text>Chemotherapy induces programmed cell death&#8208;ligand 1 overexpression via the nuclear factor&#8208;kappaB to foster an immunosuppressive tumor microenvironment in ovarian cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">366</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">931</infon>
+      <infon key="pub-id_pmid">22397654</infon>
+      <infon key="fpage">925</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>50128</offset>
+      <text>Immunologic correlates of the abscopal effect in a patient with melanoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">5923</infon>
+      <infon key="pub-id_pmid">18632646</infon>
+      <infon key="fpage">5915</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>50201</offset>
+      <text>Class I PI3 kinase inhibition by the pyridinylfuranopyrimidine inhibitor PI&#8208;103 enhances tumor radiosensitivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">6005</infon>
+      <infon key="pub-id_pmid">27550452</infon>
+      <infon key="fpage">5994</infon>
+      <infon key="year">2016</infon>
+      <infon key="type">ref</infon>
+      <offset>50315</offset>
+      <text>Abscopal effects of radiotherapy are enhanced by combined immunostimulatory mAbs and are dependent on CD8 T cells and crosspriming</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="source">J Immunother</infon>
+      <infon key="lpage">833</infon>
+      <infon key="pub-id_pmid">20842054</infon>
+      <infon key="fpage">828</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>50446</offset>
+      <text>Phase 2 trial of single agent Ipilimumab (anti&#8208;CTLA&#8208;4) for locally advanced or metastatic pancreatic adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">371</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">1049</infon>
+      <infon key="pub-id_pmid">25207767</infon>
+      <infon key="fpage">1039</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>50566</offset>
+      <text>Pancreatic adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="source">Lancet Oncol</infon>
+      <infon key="lpage">e509</infon>
+      <infon key="pub-id_pmid">26433823</infon>
+      <infon key="fpage">e498</infon>
+      <infon key="year">2015a</infon>
+      <infon key="type">ref</infon>
+      <offset>50592</offset>
+      <text>Radiation and checkpoint blockade immunotherapy: radiosensitisation and potential mechanisms of synergy</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="source">Cancer Immunol Res</infon>
+      <infon key="lpage">355</infon>
+      <infon key="pub-id_pmid">25527358</infon>
+      <infon key="fpage">345</infon>
+      <infon key="year">2015b</infon>
+      <infon key="type">ref</infon>
+      <offset>50696</offset>
+      <text>Stereotactic radiation therapy augments antigen&#8208;specific PD&#8208;1&#8208;mediated antitumor immune responses via cross&#8208;presentation of tumor antigen</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="source">Annu Rev Immunol</infon>
+      <infon key="lpage">619</infon>
+      <infon key="pub-id_pmid">19132916</infon>
+      <infon key="fpage">591</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>50842</offset>
+      <text>T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">175</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="lpage">8208</infon>
+      <infon key="pub-id_pmid">16339559</infon>
+      <infon key="fpage">8200</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>50860</offset>
+      <text>CD11b+/Gr&#8208;1+ immature myeloid cells mediate suppression of T cells in mice bearing tumors of IL&#8208;1beta&#8208;secreting cells</text>
+    </passage>
+    <passage>
+      <infon key="source">Oncoimmunology</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">25941611</infon>
+      <infon key="fpage">e955331</infon>
+      <infon key="year">2014</infon>
+      <infon key="type">ref</infon>
+      <offset>50984</offset>
+      <text>Tumor stroma&#8208;derived factors skew monocyte to dendritic cell differentiation toward a suppressive CD14+ PD&#8208;L1+ phenotype in prostate cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">73</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="lpage">3247</infon>
+      <infon key="pub-id_pmid">23633488</infon>
+      <infon key="fpage">3235</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>51128</offset>
+      <text>Hypoxia triggers hedgehog&#8208;mediated tumor&#8208;stromal interactions in pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="lpage">652</infon>
+      <infon key="pub-id_pmid">26525103</infon>
+      <infon key="fpage">638</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>51215</offset>
+      <text>T cells engineered against a native antigen can surmount immunologic and physical barriers to treat pancreatic ductal adenocarcinoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="lpage">14330</infon>
+      <infon key="pub-id_pmid">26578779</infon>
+      <infon key="fpage">14325</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>51348</offset>
+      <text>Role of vascular density and normalization in response to neoadjuvant bevacizumab and chemotherapy in breast cancer patients</text>
+    </passage>
+    <passage>
+      <infon key="volume">366</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">2454</infon>
+      <infon key="pub-id_pmid">22658127</infon>
+      <infon key="fpage">2443</infon>
+      <infon key="year">2012</infon>
+      <infon key="type">ref</infon>
+      <offset>51473</offset>
+      <text>Safety, activity, and immune correlates of anti&#8208;PD&#8208;1 antibody in cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">520</infon>
+      <infon key="source">Nature</infon>
+      <infon key="lpage">377</infon>
+      <infon key="pub-id_pmid">25754329</infon>
+      <infon key="fpage">373</infon>
+      <infon key="year">2015</infon>
+      <infon key="type">ref</infon>
+      <offset>51549</offset>
+      <text>Radiation and dual checkpoint blockade activate non&#8208;redundant immune mechanisms in cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">138</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">50</infon>
+      <infon key="pub-id_pmid">19596234</infon>
+      <infon key="fpage">30</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>51641</offset>
+      <text>Redefining chronic viral infection</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Immunol</infon>
+      <infon key="lpage">499</infon>
+      <infon key="pub-id_pmid">21739672</infon>
+      <infon key="fpage">492</infon>
+      <infon key="year">2011</infon>
+      <infon key="type">ref</infon>
+      <offset>51676</offset>
+      <text>T cell exhaustion</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="source">Gut</infon>
+      <infon key="lpage">136</infon>
+      <infon key="pub-id_pmid">27402485</infon>
+      <infon key="fpage">124</infon>
+      <infon key="year">2017</infon>
+      <infon key="type">ref</infon>
+      <offset>51694</offset>
+      <text>Myeloid cells are required for PD&#8208;1/PD&#8208;L1 checkpoint activation and the establishment of an immunosuppressive environment in pancreatic cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">57</infon>
+      <infon key="source">Hepatology</infon>
+      <infon key="lpage">839</infon>
+      <infon key="pub-id_pmid">23081697</infon>
+      <infon key="fpage">829</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>51841</offset>
+      <text>Recruitment of a myeloid cell subset (CD11b/Gr1 mid) via CCL2/CCR2 promotes the development of colorectal cancer liver metastasis</text>
+    </passage>
+  </document>
+</collection>
