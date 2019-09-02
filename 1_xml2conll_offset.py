@@ -408,35 +408,38 @@ if __name__ == '__main__':
     B_tag = ['B‐^', 'B‐^^']   # '‐' != '-'
     I_tag = ['^‐I', '^^‐I']
 
-    train_path = r'/Users/ningshixian/Desktop/BC6_Track1/BioIDtraining_2/train'
-    BioC_PATH = r'/Users/ningshixian/Desktop/BC6_Track1/BioIDtraining_2/caption_bioc'
+    train_path = r'data'
+    BioC_PATH = r'data/BioIDtraining/caption_bioc'
     files = os.listdir(BioC_PATH)  # 得到文件夹下的所有文件名称
     files.sort()
     
+    # Read the original corpus
     readXML(files, BioC_PATH)
     print("完结撒花====")
 
     '''
-    % cd geniatagger-3.0.2
-    % ./geniatagger  /Users/ningshixian/Desktop/'BC6_Track1'/BioIDtraining_2/train/train.txt \
-    > /Users/ningshixian/Desktop/'BC6_Track1'/BioIDtraining_2/train/train.genia.txt
+    Then use the geniatagger tool to process the results of the previous step
+    % cd tools/geniatagger-3.0.2
+    % ./geniatagger  /Users/ningshixian/Desktop/'BC6_Track1'/BioIDtraining/train.txt \
+    > /Users/ningshixian/Desktop/'BC6_Track1'/BioIDtraining/train.genia.txt
     '''
 
-    # getLabel(train_path)
-    # print("完结撒花====")
+    # Finally, the BIO tag is obtained by the pre-processed corpus tag <B-xxx-></-I-xxx>
+    getLabel(train_path)
+    print("完结撒花====")
 
-    # with codecs.open(train_path + "/" + 'train_goldenID.txt', encoding='utf-8') as f:
-    #     lines1 = f.readlines()
-    # with codecs.open(train_path + '/' + 'label.txt', encoding='utf-8') as f:
-    #     lines2 = f.readlines()
+    with codecs.open(train_path + "/" + 'train_goldenID.txt', encoding='utf-8') as f:
+        lines1 = f.readlines()
+    with codecs.open(train_path + '/' + 'label.txt', encoding='utf-8') as f:
+        lines2 = f.readlines()
 
-    # for i in range(len(lines1)):
-    #     sentence1 = lines1[i].strip('\n')
-    #     sentence2 = lines2[i].strip('\n')
-    #     count1 = len(sentence1.split('\t')) if sentence1 else 0
-    #     count2 = sentence2.count('B')
-    #     if not count1 == count2:
-    #         print(i)
-    #         print(count1, count2)
-    #         print(sentence1)
-    #         print(sentence2)
+    for i in range(len(lines1)):
+        sentence1 = lines1[i].strip('\n')
+        sentence2 = lines2[i].strip('\n')
+        count1 = len(sentence1.split('\t')) if sentence1 else 0
+        count2 = sentence2.count('B')
+        if not count1 == count2:
+            print(i)
+            print(count1, count2)
+            print(sentence1)
+            print(sentence2)

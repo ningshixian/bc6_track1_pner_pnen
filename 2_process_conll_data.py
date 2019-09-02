@@ -21,7 +21,7 @@ from nltk.corpus import stopwords
 
 corpusPath = r'data'
 embeddingPath = r'embedding'
-embeddingFile = r'/home/administrator/PycharmProjects/embedding/pyysalo2013/wikipedia-pubmed-and-PMC-w2v.bin'
+embeddingFile = r'embedding/pyysalo2013/wikipedia-pubmed-and-PMC-w2v.bin'
 dict2idx = {'O': 0, 'B': 1, 'I': 2}  # 字典特征
 label2idx = {'O': 0, 'B-protein': 1, 'I-protein': 2, 'B-gene': 3, 'I-gene': 4}
 
@@ -376,7 +376,7 @@ def main():
     embedding_matrix = produce_matrix(word_index, embeddingFile)
 
     # 保存数据文件(XX.pkl or XX_ngram.pkl)
-    with open(corpusPath+'/trainpkl', "wb") as f:
+    with open(corpusPath+'/train.pkl', "wb") as f:
         pkl.dump((datasDic['train'], elmo_input['train'], labelsDic['train'], charsDic['train'],
                   capDic['train'], posDic['train'], chunkDic['train'], dictDic['train']), f, -1) # , ngramDic['train']
     with open(corpusPath+'/test.pkl', "wb") as f:

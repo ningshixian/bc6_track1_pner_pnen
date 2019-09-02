@@ -321,13 +321,14 @@ if __name__ == '__main__':
     B_flag = 'B^'
     I_flag = '^I'
 
-    # readXML()
-    # print("完结撒花====")
+    # Maximum match to get dictionary features
+    readXML()
 
     '''
+    Then use the geniatagger tool to process the results of the previous step
     % cd geniatagger-3.0.2
-    % ./geniatagger  /Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/BIBIO/train/train2.txt \
-    > /Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/BIBIO/train/train2.genia.txt
+    % ./geniatagger  /Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/train/train2.txt \
+    > /Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/train/train2.genia.txt
     '''
 
     getLabel()
@@ -336,9 +337,9 @@ if __name__ == '__main__':
     '''
     将词典特征加入到训练文件中
     '''
-    outputPath = '/Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/BIBIO/train/train.out.txt'
-    outputPath2 = '/Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/BIBIO/train/train2.out.txt'
-    finalPath = '/Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/BIBIO/train/train.final.txt'
+    outputPath = '/Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/train/train.out.txt'
+    outputPath2 = '/Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/train/train2.out.txt'
+    finalPath = '/Users/ningshixian/PycharmProjects/keras_bc6_track1/sample/data/train/train.final.txt'
     
     with codecs.open(outputPath, 'r', encoding='utf-8') as data:
         output = data.readlines()

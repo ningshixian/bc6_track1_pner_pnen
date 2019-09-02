@@ -63,29 +63,30 @@ essential methods like `fit`, `score`, `analyze` and `save`/`load`. For more com
 
 ## preprocessing
 
-An example is implemented in `xxx.py`:
-
 ```
 python 1_xml2conll_offset.py
-作用：BioC(XML)格式转换为ConNLL格式，并从 .XML 原始document文件中解析获取训练数据xx.out.txt和标签文件
+python 1_xml2conll_offset.test.py
 ```
+
+This script will first read the original xml file `xxx.xml`. The text will be then tagged with part of speech, chunking and tokenized using GENIA tagger tool. The tagged output will be written in a CoNLL format to standard out. Finally, you can obtain the processed data `train.out.txt` and `test.out.txt` .
 
 ```
 python 1_xml2dict.py
-作用：从 trian.out.txt 抽取字典特征
+python 1_xml2dict.test.py
 ```
+
+This script is used to extract dictionary features for the `xxx.out.txt` files obtained in the previous step, and to get the extracted `xxx.final.txt` .
 
 ```
 python 2_process_conll_data.py
-作用：语料预处理+特征抽取(语言学特征,词典特征,大小写,ELMO特征)
 ```
 
-This script will read the model `models/modelname.h5` as well as the text file `input.txt`. The text will be splitted into sentences and tokenized using NLTK. The tagged output will be written in a CoNLL format to standard out.
+This script will read the pretrained word embedding `wikipedia-pubmed-and-PMC-w2v.bin`, generate word embedding matrix `embedding_matrix`, serialize the processed data, and extract the character features. Finally, it combines all the above features as the input format of the model and store a pickle file in the `data` folder. 
 
 
 ## PNER Training
 
-See `3_nnet_trainer.py` for an example how to train and evaluate this implementation. The code assumes a CoNLL formatted dataset like the CoNLL 2000 dataset for chunking.
+See `3_nnet_trainer.py` for an example how to train and evaluate PNER model. 
 
 思路：
 1、转换为3tag标注问题（0：非实体，1：实体的首词，2：实体的内部词）；
