@@ -77,7 +77,7 @@ This script is used to extract dictionary features for the `xxx.out.txt` files o
 python 2_process_conll_data.py
 ```
 
-This script will read the pretrained word embedding file `wikipedia-pubmed-and-PMC-w2v.bin`, generate word embedding matrix `embedding_matrix`, serialize the processed data, and extract the character features. Finally, it combines all the above features as the input format of the model and store a pickle file in the `data` folder. 
+This script will read the pretrained word embedding file `wikipedia-pubmed-and-PMC-w2v.bin` (you can download the word embedding file from [here](http://evexdb.org/pmresources/vec-space-models/wikipedia-pubmed-and-PMC-w2v.bin)), generate word embedding matrix `embedding_matrix`, serialize the processed data, and extract the character features. Finally, it combines all the above features as the input format of the model and store a pickle file in the `data` folder. 
 
 
 ## Implementation with ELMo Word Representations
@@ -135,55 +135,116 @@ After zero padding, you can then train the network in the following way:
 
 *Note:* ConllevalCallback Class will save the best model based on the performance of the model on the validation set after each iteration.
 
+### Running the stored models
+
+If enabled during the trainings process, models are stored to the 'results' folder. Those models can be loaded and be used to tag new data. Here, `ner_model/Model_Best.h5`.
+
 
 
 ## PNEN Training
 
-### 负采样
+### ID Representation Learning
 
+KBs contain rich structural knowledge of entities (e.g., `name variations` and `entity ambiguity`), which can be formalized as constraints on embeddings and allows us to extend word embeddings to embeddings of entity ID. To this end, we adopt an `autoencoder` to learn the embedding of entity IDs based on Mention-Variant-ID structures provided by KBs.
+
+With the help of the autoencoder, we can use the knowledge of entities from UniProt and NCBI Gene KBs to learn ID embeddings. Finally, its training results are saved in `embedding/synsetsVec.txt`.
+
+See our [`autoencoder` project](https://github.com/ningshixian/AutoExtend) for more details. 
+
+
+### Negative sampling
+
+The purpose of this script is to generate positive and negative training examples for the entity disambiguation model.
+
+- Positive example: Extract the context of the entity and the corresponding correct ID of the entity
+- Negative example: Extract the context of the entity, but generate incorrect IDs for the entity by `candidate ID generation` module (maximum number is set to 5)
+
+```python
+python ned/1_feature_extractor_train_old.py
 ```
-python ned/2_feature_extractor_train_old.py
 
-正例: 抽取实体的上下文 以及 实体提及对应的正确ID
-负例: 抽取实体的上下文 以及 实体提及对应的错误ID (设为5个)
+This script will use the APIs provided by Uniprot and NCBI Gene to generate candidate IDs for each entity, then read the pre-trained `ID embedding` learned by the `autoencoder`, and map all IDs to their corresponding vectors. Finally, you can obtain the processed data `data_train2.pkl`, `data_test2.pkl` and `id_embedding.pkl`.
+
+
+### Entity disambiguation model Training
+
+See `ned_trainer_bmc.py` for an example how to train entity disambiguation model. 
+
+Main process:
+1. The left context and the right context are first mapped through the word embedding matrix, and the ELMo representations are also added as in `PNER Training`;
+2. After that, `Entity context representation learning` is performed via the `Semantic representation layer`. The `Semantic representation layer` includes: **CNN-based**, **LSTM-based**, **attention-based** and other sentence encoders;
+3. Next is `Merge layer`, which includes two ways: gating mechanism and vector combination. It stitch [candidate ID, context] and input to softmax classification (0/1);
+4. Finally, Calculate the similarity between all candidate IDs and the context, sort the scores of <m,c1>...<m,cx>. The candidate ID that gets the highest score will be taken as the final result of the mention.
+
+For training, specifying the datasets:
+
+```python
+>>> with open('ned/data/data_train2.pkl', "rb") as f:
+        x_left, x_pos_left, x_right, x_pos_right, y, x_elmo_l, x_elmo_r = pkl.load(f)
+>>> with open('ned/data/id_embedding.pkl', "rb") as f:
+        x_id, x_id_test, conceptEmbeddings = pkl.load(f)
 ```
 
-See `ned_trainer_bmc.py` for an example how to train and evaluate this implementation. 
+Then train the network in the following way:
 
-实体上下文表示学习c：
-1、CNN+attention
-2、单层神经网络 f=（词向量平均+拼接+tanh+Dropout）
-候选选择：
-1、Local modeling 方法
-计算所有候选candidate与上下文的相似度，
-并对<m,c1>...<m,cx>的得分进行排序 ranking
-得分最高者作为mention的id
-2、拼接【候选，上下文表示，相似度得分】，softmax分类
-组成：
-semantic representation layer
-convolution layer
-pooling layer
-concatenation layer (Vm + Vc + Vsim)    Vsim=Vm·M·Vc
-hidden layer
-softmax layer (0/1)
+```python
+>>> model = build_model()
+    model.fit(x=dataSet, y=y,
+              epochs=5,
+              batch_size=32,
+              shuffle=True,
+              validation_split=0.2)
+```
+
+*Note:* the best model will be saved based on the performance of the model on the validation set after each iteration. Here, `ned/ned_model/weights_ned_max.hdf5` and `ned/ned_model/weights_ned_max.weights`. 
 
 
-### Running a stored model
 
-If enabled during the trainings process, models are stored to the 'models' folder. Those models can be loaded and be used to tag new data. 
-
-
-### Evaluate your performance in one line:
+## Evaluate your performance:
 
 See `_test_nnet.py` for an example how to evaluate PNER and PNEN model. 
 
+```python
+>>> dataSet = getTestData()
+>>> model = load_model('ner_model/Model_Best.h5')
+>>> predictions = model.predict(dataSet['test'])    # 预测
+>>> y_pred = predictions.argmax(axis=-1)
+>>> with open('result/predictions.pkl', "wb") as f:
+        pkl.dump((y_pred), f, -1)
+```
+
+First, the test set is predicted by loading the previously trained `entity recognition model` to obtain entity mentions;
 
 ```python
->>> model.score(x_test, y_test)
-0.802  # f1-micro score
-# For more performance, you have to use pre-trained word embeddings.
-# For now, anaGo's best score is 90.94 f1-micro score.
+>>> writeOutputToFile(test_file, y_pred, ned_model, prob, word_index, id2def, dict_or_text)
+...
+>>> result = searchEntityId(sentence, prediction, entity2id, text_byte, all_id)
+>>> cnn = load_model('ned/ned_model/weights_ned_max.hdf5')
+>>> type_id = entity_disambiguation_cnn(entity, entity_id, cnn, test_x[idx_line], sentence, test_pos[idx_line], x_id_dict, position, stop_word, leixing, prob, word_index, id2def, dict_or_text)
 ```
+
+Then, by executing the `writeOutputToFile` function, the following operations are performed: (1) using the `dictionary matching` and the `knowledge base query` to perform candidate ID generation on the entity mentions; (2) loading the trained `entity disambiguation model` to eliminate ambiguity for mentions.
+
+```python
+...
+>>> outputName = result_path + '/' + file
+>>> f = open(outputName, 'w')
+>>> writer = codecs.lookup('utf-8')[3](f)
+>>> dom.writexml(f, indent='\t', newl='\n', addindent='\t', encoding='utf-8')
+>>> writer.close()
+>>> f.close()
+...
+>>> os.system('python /home/administrator/PycharmProjects/keras_bc6_track1/sample/evaluation/BioID_scorer_1_0_3/scripts/bioid_score.py '
+                '--verbose 1 --force '
+                'ned/BioID_scorer_1_0_3/scripts/bioid_scores '
+                'embedding/test_corpus_20170804/caption_bioc '
+                'system1:embedding/test_corpus_20170804/prediction')
+```
+
+Finally, we write all the predictions in a new file in XML format and use the `official evaluation script` for evaluation.
+
+Evaluation results can be viewed under the following path:
+`ned/BioID_scorer_1_0_3/scripts/bioid_scores/corpus_scores.csv`
 
 
 ## 评测脚本介绍

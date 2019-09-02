@@ -81,26 +81,19 @@ def main(ned_model=None, prob=5.5, word_index=None, id2def=None, ner_result='res
     if not os.path.exists(ner_result):
         dataSet = getTestData()
 
-        model = load_model('model/Model_4_75.00.h5')
+        model = load_model('ner_model/Model_Best.h5')
         # model = load_model('model/Model_ST.h5', custom_objects=create_custom_objects())
-
-        # # 报错
-        # import importlib
-        # m = importlib.import_module("3_nnet_trainer")
-        # model = m.buildModel()
-        # path = '/home/administrator/PycharmProjects/keras_bc6_track1/sample/model/Model_Best.h5'
-        # model.load_weights(path)
 
         print('加载模型成功!!')
 
         predictions = model.predict(dataSet['test'])    # 预测
         y_pred = predictions.argmax(axis=-1)
 
-        with open(root + 'result/predictions.pkl', "wb") as f:
+        with open('result/predictions.pkl', "wb") as f:
             pkl.dump((y_pred), f, -1)
     else:
-        with open(ner_result, "rb") as f:
         # with open(root + 'result/predictions.pkl', "rb") as f:
+        with open(ner_result, "rb") as f:
             y_pred = pkl.load(f)
 
     # 对实体预测结果y_pred进行链接，以特定格式写入XML文件

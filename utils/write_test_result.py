@@ -620,16 +620,16 @@ def writeOutputToFile(path, predLabels, ned_model, prob, word_index, id2def, dic
             x_id_dict = pkl.load(f)
             print('x_id_dict 的长度：', len(x_id_dict))  # 6004
         cnn = ned_model
-    # else:
-    #     print('old!')
-    #     with open('ned/data/x_id_dict_old.pkl', 'rb') as f:
-    #         x_id_dict = pkl.load(f)
-    #         print('x_id_dict 的长度：', len(x_id_dict))  # 13352
-    #     # 加载实体消歧模型
-    #     cnn = load_model('ned/ned_model/weights_ned_max.hdf5')
-    #     # cnn = load_model('ned/ned_model/weights_rnn_0.9412647734274352.hdf5')  # 0.822 0.871 0.913 0.9412647734274352 0.9690351025945396
-    #     # with open('/home/administrator/PycharmProjects/keras_bc6_track1/sample/ned/data/svm_model.pkl', 'rb') as f:
-    #     #     svm = pkl.load(f)
+    else:
+        print('old!')
+        with open('ned/data/x_id_dict_old.pkl', 'rb') as f:
+            x_id_dict = pkl.load(f)
+            print('x_id_dict 的长度：', len(x_id_dict))  # 13352
+        # 加载实体消歧模型
+        cnn = load_model('ned/ned_model/weights_ned_max.hdf5')
+        # cnn = load_model('ned/ned_model/weights_rnn_0.9412647734274352.hdf5')  # 0.822 0.871 0.913 0.9412647734274352 0.9690351025945396
+        # with open('/home/administrator/PycharmProjects/keras_bc6_track1/sample/ned/data/svm_model.pkl', 'rb') as f:
+        #     svm = pkl.load(f)
 
     synId2entity = {}
     with open('ned/data/synId2entity.txt') as f:

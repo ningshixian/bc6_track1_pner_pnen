@@ -332,7 +332,7 @@ def build_model():
         attn += [attn_values_left, attn_values_right]  # attention 的输出
     else:
         pass
-
+    
     if mode=='gating':
         # 门控机制
         a = Dense(200, use_bias=False, name='d1')(left_context)
