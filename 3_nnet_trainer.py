@@ -132,7 +132,7 @@ def CNN(seq_length, length, feature_maps, kernels, x):
 
 
 # Now instantiate the elmo model
-elmo_model = hub.Module("bert/moduleA", trainable=True)
+elmo_model = hub.Module("embedding/moduleA", trainable=True)
 sess.run(tf.global_variables_initializer())
 sess.run(tf.tables_initializer())
 
