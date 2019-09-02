@@ -14,8 +14,9 @@ The implementation is based on Keras 2.2.0 and can be run with Tensorflow 1.8.0 
 * Python 3.6 - lower versions of Python do not work
 * Keras 2.2.0 - For the creation of BiLSTM-CNN-CRF architecture
 * Tensorflow 1.8.0 - As backend for Keras (other backends are untested.
+* ...
 
-**Note:** This implementation might be incompatible with different (e.g. more recent) versions of the frameworks. See [docker/requirements.txt](docker/requirements.txt) for a full list of all Python package requirements.
+**Note:** This implementation might be incompatible with different (e.g. more recent) versions of the frameworks. See [requirements.txt](requirements.txt) for a full list of all Python package requirements.
 
 
 ## Task introduction
@@ -46,7 +47,7 @@ In order to run the code, Python 3.6 or higher is required. The code is based on
 
 You can use `pip` to install the dependencies.
 
-In [requirements.txt)](requirements.txt) you find a full list of all used packages. You can install it via:
+In [requirements.txt](requirements.txt), you can find a full list of all used packages. You can install it via:
 ```bash
 pip install -r requirements.txt
 ```
@@ -77,7 +78,7 @@ This script is used to extract dictionary features for the `xxx.out.txt` files o
 python 2_process_conll_data.py
 ```
 
-This script will read the pretrained word embedding file `wikipedia-pubmed-and-PMC-w2v.bin` (you can download the word embedding file from [here](http://evexdb.org/pmresources/vec-space-models/wikipedia-pubmed-and-PMC-w2v.bin)), generate word embedding matrix `embedding_matrix`, serialize the processed data, and extract the character features. Finally, it combines all the above features as the input format of the model and store a pickle file in the `data` folder. 
+This script will read the pretrained word embedding file `wikipedia-pubmed-and-PMC-w2v.bin` (you can download the word embedding file from [here](http://evexdb.org/pmresources/vec-space-models/wikipedia-pubmed-and-PMC-w2v.bin)), generate word embedding matrix `embedding_matrix`, serialize the processed data, and extract the character features. Finally, it combines all the above features as the input format of the model and store a pickle file in the **data** folder. 
 
 
 ## Implementation with ELMo Word Representations
@@ -99,7 +100,7 @@ elmo_emb= Lambda(ElmoEmbedding, output_shape=(sentence_maxlen, 1024))(elmo_input
 ```
 
 
-The `ElmoEmbedding`-class provides methods for the efficient computation of ELMo representations.
+The `ElmoEmbedding` class provides methods for the efficient computation of ELMo representations.
 
 
 ## PNER Training
@@ -149,7 +150,7 @@ KBs contain rich structural knowledge of entities (e.g., `name variations` and `
 
 With the help of the autoencoder, we can use the knowledge of entities from UniProt and NCBI Gene KBs to learn ID embeddings. Finally, its training results are saved in `embedding/synsetsVec.txt`.
 
-See our [`autoencoder` project](https://github.com/ningshixian/AutoExtend) for more details. 
+See our [autoencoder project](https://github.com/ningshixian/AutoExtend) for more details. 
 
 
 ### Negative sampling
@@ -213,7 +214,7 @@ See `_test_nnet.py` for an example how to evaluate PNER and PNEN model.
         pkl.dump((y_pred), f, -1)
 ```
 
-First, the test set is predicted by loading the previously trained `entity recognition model` to obtain entity mentions;
+First, the test set is predicted by loading the previously trained **entity recognition model** to obtain entity mentions;
 
 ```python
 >>> writeOutputToFile(test_file, y_pred, ned_model, prob, word_index, id2def, dict_or_text)
@@ -223,7 +224,7 @@ First, the test set is predicted by loading the previously trained `entity recog
 >>> type_id = entity_disambiguation_cnn(entity, entity_id, cnn, test_x[idx_line], sentence, test_pos[idx_line], x_id_dict, position, stop_word, leixing, prob, word_index, id2def, dict_or_text)
 ```
 
-Then, by executing the `writeOutputToFile` function, the following operations are performed: (1) using the `dictionary matching` and the `knowledge base query` to perform candidate ID generation on the entity mentions; (2) loading the trained `entity disambiguation model` to eliminate ambiguity for mentions.
+Then, by executing the **writeOutputToFile** function, the following operations are performed: (1) using the `knowledge base Retrieval (KB Retrieval)` to perform candidate ID generation on the entity mentions; (2) loading the trained **entity disambiguation model** to eliminate ambiguity for mentions.
 
 ```python
 ...
@@ -241,23 +242,22 @@ Then, by executing the `writeOutputToFile` function, the following operations ar
                 'system1:embedding/test_corpus_20170804/prediction')
 ```
 
-Finally, we write all the predictions in a new file in XML format and use the `official evaluation script` for evaluation.
+Finally, we write all the predictions in a new file in XML format and use the **official evaluation script** for evaluation.
 
 Evaluation results can be viewed under the following path:
-`ned/BioID_scorer_1_0_3/scripts/bioid_scores/corpus_scores.csv`
+> ned/BioID_scorer_1_0_3/scripts/bioid_scores/corpus_scores.csv
 
 
 ## 评测脚本介绍
 
 Each annotation is assigned to a label, according to the prefix of the value of its "type" infon.
 
-[前缀：ID // 前缀：实体]
 - Uniprot: (normalized), 
 - protein: (unnormalized), 
 - NCBI gene: (normalized), 
 - gene: (unnormalized)
 
-The scorer will report scores in **4** conditions: ( all annotations vs. normalized annotations only ) X ( strict span match vs. span overlap ). 
+The scorer will report scores in **4** conditions: ( **all annotations** vs. **normalized annotations only** ) X ( **strict span match** vs. **span overlap** ). 
 For each condition, mention-level recall/precision/fmeasure will be reported.
 
 The scorer will also compute `recall`/`precision`/`fmeasure` on the normalized IDs which are found, both `micro-averaged` and
@@ -279,8 +279,8 @@ anaGo supports pre-trained word embeddings like [GloVe vectors](https://nlp.stan
 
 This code is based on the following papers:
 
-* Lample, Guillaume, et al. "[Neural architectures for named entity recognition.](https://arxiv.org/abs/1603.01360)" arXiv preprint arXiv:1603.01360 (2016).
-* Peters, Matthew E., et al. "[Deep contextualized word representations.](https://arxiv.org/abs/1802.05365)" arXiv preprint arXiv:1802.05365 (2018).
-* 《CNN-based ranking for biomedical entity normalization》
-* 《ACL2018-Linking 》
 * [Interactive Bio-ID Assignment Track (Bio-ID)](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-vi/track-1/)
+* Li H, Chen Q, et al. "[CNN-based ranking for biomedical entity normalization.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629610/)" BMC bioinformatics. 2017;18(11):385.
+* Eshel Y, Cohen N, et al. "[Named Entity Disambiguation for Noisy Text.](https://www.aclweb.org/anthology/K17-1008)" In: Proceedings of the 21st Conference on Computational Natural Language Learning (CoNLL 2017). Vancouver, Canada. 2017:173-183.
+* Luo L, Yang Z, et al. "[An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition.]()" Bioinformatics. 2017;34(8):1381-1388.
+* Kaewphan S, Hakala K, et al. "[Wide-scope biomedical named entity recognition and normalization with CRFs, fuzzy matching and character level modeling.]()" Database. 2018;2018(1):bay096.
