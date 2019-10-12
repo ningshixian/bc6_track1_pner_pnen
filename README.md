@@ -268,11 +268,16 @@ The scorer will also compute `recall`/`precision`/`fmeasure` on the normalized I
 
 (coming soon)
 
-<!--
-anaGo supports pre-trained word embeddings like [GloVe vectors](https://nlp.stanford.edu/projects/glove/).
--->
-
 *Note:* If you have questions, feedback or find bugs, please send an email to me.
+
+
+## Data
+We noticed that several factors could affect the replicatability of experiments:  
+1. the segmentor for preprocessing: we used geniatagger-3.0.2   
+2. the random number generator. Alghough we fixed the random seed, we noticed it will render slight different numbers on different machine.  
+3. the traditional lexical feature used.  
+4. the pre-trained embeddings.
+To enhance the replicatability of our experiments, we provide the data we used in our experiments  in conll format (train/test).
 
 
 ## Reference
